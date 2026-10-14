@@ -1,0 +1,466 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "White / High Contrast",
+      "type": "Light",
+      "rules": {
+        "description": "The brightest luminance on the page, used for the default page text, the main logo, and inverted high-emphasis buttons.",
+        "when_to_use": [
+          "Default page text color (html/body)",
+          "Primary 'Sign up' and 'Open app' button backgrounds",
+          "Linear header logo fill",
+          "Translucent structural borders on cards and mock UI (via #FFFFFF14)"
+        ]
+      },
+      "hex": "#F7F8F8",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E2E4E7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E5E5E6",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E2E4E6",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E4E5E9",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.1140999999999999,
+      "group": "baseline"
+    },
+    {
+      "name": "App Primary Text",
+      "type": "Cool Color",
+      "rules": {
+        "description": "A soft off-white that serves as the primary reading color within the application UI mocks and marketing sections, preventing the eye strain of pure white.",
+        "when_to_use": [
+          "Marketing section subtitles (e.g., 'Intake and integrations')",
+          "Issue titles in the app mockups",
+          "Active sidebar items in the UI mock",
+          "Breadcrumb navigation text"
+        ]
+      },
+      "hex": "#D0D6E0",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0949,
+      "group": "baseline"
+    },
+    {
+      "name": "Muted Text / Metadata",
+      "type": "Cool Color",
+      "rules": {
+        "description": "A mid-gray used extensively for secondary information, navigation links, and descriptive marketing copy.",
+        "when_to_use": [
+          "Main header navigation links",
+          "Marketing paragraph descriptions under section titles",
+          "Issue IDs and metadata in the app view",
+          "Inactive sidebar icons"
+        ]
+      },
+      "hex": "#8A8F98",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#9C9DA1",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#949496",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0838,
+      "group": "secondary"
+    },
+    {
+      "name": "Faint Text / Icons",
+      "type": "Neutral",
+      "rules": {
+        "description": "A low-contrast gray reserved for tertiary UI text, unselected icons, and subtle structural elements.",
+        "when_to_use": [
+          "Inactive UI icons in the mockups (search, generic buttons)",
+          "Collapsible sidebar section headers ('Workspace', 'Favorites')",
+          "Timestamp text in the activity feed",
+          "'Learn more' arrow suffixes"
+        ]
+      },
+      "hex": "#62666D",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#626366",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#585A5C",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#6B6B6B",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#555557",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0587,
+      "group": "secondary"
+    },
+    {
+      "name": "Deep Space / Surfaces",
+      "type": "Dark",
+      "rules": {
+        "description": "The foundational dark background family that paints the entire canvas and builds depth through subtly lighter elevated surfaces.",
+        "when_to_use": [
+          "Main page background fill",
+          "Elevated feature card backgrounds",
+          "Agent chat panel backgrounds",
+          "Text color on inverted primary CTAs"
+        ]
+      },
+      "hex": "#08090A",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#0F1011",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#0B0B0B",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#101112",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#161718",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#090A0B",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#121414",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#1C1C1D",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#191A1B",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#191D20",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#080808",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.033600000000000005,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Inter Variable",
+      "role": "Title 9 (H2)",
+      "specs": {
+        "size": "var(--title-9-size)",
+        "line_height": "var(--title-9-line-height)",
+        "font_weight": "var(--font-weight-medium)",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Title 8 (H1)",
+      "specs": {
+        "size": "var(--title-8-size)",
+        "line_height": "1",
+        "font_weight": "var(--font-weight-medium)",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Title 6 (H2)",
+      "specs": {
+        "size": "var(--title-6-size)",
+        "line_height": "var(--title-6-line-height)",
+        "font_weight": "var(--font-weight-medium)",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Title 2 (H3)",
+      "specs": {
+        "size": "var(--title-2-size)",
+        "line_height": "var(--title-2-line-height)",
+        "font_weight": "var(--font-weight-semibold)",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "H4 Heading",
+      "specs": {
+        "size": "16px",
+        "line_height": "28px",
+        "font_weight": "var(--font-weight-semibold)",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "H3 Small",
+      "specs": {
+        "size": "13px",
+        "line_height": "19.5px",
+        "font_weight": "510",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Paragraph (Regular)",
+      "specs": {
+        "size": "var(--text-regular-size)",
+        "line_height": "var(--text-regular-line-height)",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Body Large",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Body Small",
+      "specs": {
+        "size": "13px",
+        "line_height": "19.5px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Micro Text",
+      "specs": {
+        "size": "var(--text-micro-size)",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Badge / Small Label",
+      "specs": {
+        "size": "12px",
+        "line_height": "14px",
+        "font_weight": "510",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter Variable",
+      "role": "Tiny Badge",
+      "specs": {
+        "size": "10px",
+        "line_height": "14px",
+        "font_weight": "510",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Berkeley Mono",
+      "role": "Code Small",
+      "specs": {
+        "size": "12px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Berkeley Mono\", ui-monospace, \"SF Mono\", Menlo, monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Berkeley Mono",
+      "role": "Code / Monospace",
+      "specs": {
+        "size": "14px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Berkeley Mono\", ui-monospace, \"SF Mono\", Menlo, monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "32px",
+    "max_width": "calc(1344px + 46px * 2)"
+  },
+  "breakpoints": {
+    "mobile": "0px - 640px (1-4 Columns, 16px gutter)",
+    "tablet": "641px - 768px (4-8 Columns, 24px gutter)",
+    "desktop": "769px - 1280px (12 Columns, 32px gutter)",
+    "large": "1281px+ (12 Columns, 32px gutter, max 1344px + 92px padding)"
+  }
+}

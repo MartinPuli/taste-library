@@ -1,0 +1,223 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Deep Space Navy",
+      "type": "Dark",
+      "rules": {
+        "description": "Serves as the primary dark surface and structural backbone of the design, providing a high-contrast canvas.",
+        "when_to_use": [
+          "Main page background",
+          "Primary structural element fill",
+          "High-contrast base for typography"
+        ]
+      },
+      "hex": "#06051D",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Electric Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "Acts as the primary action and highlight color, drawing attention to interactive elements against the dark canvas.",
+        "when_to_use": [
+          "Primary CTA backgrounds",
+          "Text highlights and links",
+          "Active state indicators"
+        ]
+      },
+      "hex": "#63B3ED",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Slate Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "Provides low-contrast structural support and legible secondary text styling against the deep dark backgrounds.",
+        "when_to_use": [
+          "Secondary text and captions",
+          "Subdued borders and dividers",
+          "Muted icon fills"
+        ]
+      },
+      "hex": "#CAD5E2",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Deep Plum",
+      "type": "Dark",
+      "rules": {
+        "description": "Adds warmth and depth as a secondary dark background, creating visual hierarchy and section separation from the primary navy.",
+        "when_to_use": [
+          "Distinct section backgrounds",
+          "Card or banner gradients",
+          "Secondary thematic surfaces"
+        ]
+      },
+      "hex": "#2D0E36",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "JetBrains Mono",
+      "role": "H1 Section Title (Desktop)",
+      "specs": {
+        "size": "1.875rem",
+        "line_height": "2.25rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"JetBrains Mono\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "JetBrains Mono",
+      "role": "H1 Section Title (Mobile)",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "2rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"JetBrains Mono\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "JetBrains Mono",
+      "role": "Project Card Title",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.25",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"JetBrains Mono\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "JetBrains Mono",
+      "role": "Body Text",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.625",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"JetBrains Mono\", monospace",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "DM Sans",
+      "role": "Navigation Button (Desktop)",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.5rem",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"DM Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "DM Sans",
+      "role": "Navigation Button (Mobile)",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.25rem",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"DM Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "JetBrains Mono",
+      "role": "Footer Link",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.25rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"JetBrains Mono\", monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    }
+  ],
+  "grid": {
+    "columns": 4,
+    "gutter": "0.75rem",
+    "max_width": "896px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1-2 Columns, 12px gutter)",
+    "tablet": "769px - 1024px (4 Columns, 16px gutter)",
+    "desktop": "1025px+ (4 Columns, 16px gutter)",
+    "large": null
+  }
+}

@@ -1,0 +1,2464 @@
+{
+  "company": "Paper",
+  "rank": 28,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://paper.design/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T08:52:20.409903Z",
+  "completed_at": "2026-10-14T08:54:59.527766Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Paper",
+        "tagline": null,
+        "source_url": "https://paper.design",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / Design Tools",
+        "primary_purpose": "Drive downloads and sign-ups for Paper, a connected design canvas for teams working with AI agents",
+        "main_cta": "download Paper",
+        "copy_tone": [
+          "Confident",
+          "Technical",
+          "Aspirational"
+        ],
+        "brand_signature": "Paper's visual identity combines warm, muted cream and off-black tones with subtle grid patterns and geometric decorative elements. The design balances professional precision with an editorial, crafted aesthetic through textured backgrounds, refined typography, and generous whitespace.",
+        "visual_language": {
+          "keywords": [
+            "editorial",
+            "crafted",
+            "precise",
+            "warm",
+            "technical",
+            "refined"
+          ],
+          "accent_strategy": "Soft blue accent color used sparingly for interactive elements like primary CTAs and links, creating subtle contrast against the warm neutral palette.",
+          "highlights": "Grid overlays and geometric triangle decorations provide structural visual interest while texture patterns add depth and tactile quality."
+        },
+        "strategy": {
+          "target_audience": [
+            "Product designers and design teams seeking modern, agent-integrated design tools",
+            "Engineering-adjacent teams shipping products who need connected design-to-code workflows",
+            "Early adopters and tech-forward professionals interested in AI-augmented creative tools"
+          ],
+          "executive_synthesis": "Paper's visual strategy positions it as a premium, craft-oriented design tool that bridges the gap between traditional design aesthetics and modern AI-powered workflows. The warm, editorial palette and textured backgrounds signal quality and thoughtfulness, differentiating from sterile competitor interfaces, while the precise grid systems and technical UI demonstrations establish credibility with professional design teams. The connected canvas messaging and agent-focused value proposition target teams embracing AI-augmented workflows, using sophisticated visual design to build trust with discerning creative professionals."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The screenshot reveals a design with exceptional grid discipline and typographic clarity that strongly aligns with Swiss Style principles. The warm, cream/off-white background (#FCFCF9, #EFEFE4) is a hallmark of Swiss Style—mimicking aged paper rather than pure white. The layout profile confirms \"grid_based_strict\" with a precise 12-column grid system (120px base unit), generous whitespace (60-120px padding), and mathematical section separation. Typography uses Matter—a geometric sans-serif with light weights (360, 400) at large display sizes (64px, 48px)—creating the objectivity and readability Swiss Style demands. The color palette is deliberately restrained: Ink Black (#181818) on Paper Cream backgrounds with Blueprint Gray (#D7D7D6) structural grid lines, exactly matching Swiss Style's preference for monochromatic palettes with primary color accents. The texture profile shows subtle grid pattern overlays (120x120px repeating lines) and soft shadows—clean, functional textures rather than ornamental ones. The left-aligned flush typography, centered section headlines, and rigorous visual hierarchy all reinforce this classification. The design communicates professionalism and clarity without decoration.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies because this is clearly a B2B SaaS product landing page targeting design professionals. The trust signals (partner logos from Figma, Google, etc.), Series A funding announcement ($34M), and product roadmap section are classic corporate communication patterns. The tone is professional, competent, and trustworthy rather than playful or experimental. The color restraint, formal typography hierarchy, and emphasis on workflow/productivity messaging reinforce a corporate audience positioning. However, the underlying Swiss Style foundation is what drives the aesthetic—Corporate is the tonal overlay."
+        }
+      },
+      "layout": {
+        "classification": [
+          "grid_based_strict",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "28px",
+          "max_width": "1080px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 639px (1 Column, 16px gutter)",
+          "tablet": "640px - 899px (Variable, 28px gutter)",
+          "desktop": "900px - 1470px (12 Columns, 28px gutter, max-width 1080px)",
+          "large": "1471px+ (12 Columns, max-width 1321px)"
+        },
+        "section_separation": "Alternating cream and white backgrounds, subtle texture overlay with multiply blend mode (opacity 50%), grid pattern overlay (opacity 30%), geometric diagonal dividers using clipped triangular shapes at section transitions, decorative corner triangles on desktop breakpoints",
+        "ascii_template": "<ASCII>\n┌──────────────────────────────────────────────────────────┐\n│  [LOGO]              [NAV: product features customers]   │\n│                                            [get paper →] │\n├──────────────────────────────────────────────────────────┤\n│                      [HERO - Centered]                   │\n│         design incredible                                │\n│         the connected canvas for                         │\n│         teams in design with agents                      │\n│                                                           │\n│              [Get started] [Learn more →]                │\n│                                                           │\n│  ┌─────────────────────────────────┐ ┌────────────────┐ │\n│  │                                 │ │   [UI Panel]   │ │\n│  │   [Code/Canvas Interface]       │ │                │ │\n│  │                                 │ │                │ │\n│  └─────────────────────────────────┘ └────────────────┘ │\n├──────────────────────────────────────────────────────────┤\n│    [Partner Logos Row: Figma, Google, etc.]              │\n├──────────────────────────────────────────────────────────┤\n│                 Introducing Paper Desktop                │\n│           a truly connected canvas,                      │\n│              a whole new workflow                        │\n│                                                           │\n│                  [subheading text]                       │\n│                                                           │\n│         [Icon] [Icon] [Icon]                             │\n│         Figma  Sketch Lottie                             │\n│                                                           │\n│              [Get Paper Desktop →]                       │\n├──────────────────────────────────────────────────────────┤\n│          finally a continuous loop                       │\n│        from Paper to code and back                       │\n│                                                           │\n│               [description text]                         │\n│                                                           │\n│  ┌─────────────────────────────────────────────────────┐ │\n│  │                                                      │ │\n│  │        Vinyl Bundles                                 │ │\n│  │        [Product Image]                               │ │\n│  │        [Social Media Icons]                          │ │\n│  │                                                      │ │\n│  └─────────────────────────────────────────────────────┘ │\n│                                                           │\n│  [Description text columns]                              │\n├──────────────────────────────────────────────────────────┤\n│                                                           │\n│        always connect to real content                    │\n│         real data, from anywhere                         │\n│                                                           │\n│  ┌─────────────────────────────────────────────────────┐ │\n│  │                                                      │ │\n│  │        [Data Table Interface]                        │ │\n│  │                                                      │ │\n│  └─────────────────────────────────────────────────────┘ │\n│                                                           │\n│         [Platform Integration Icons]                     │\n│         [GitHub] [Slack] [Medium] [Dribbble] [etc]       │\n│                                                           │\n│  [Description text columns]                              │\n├──────────────────────────────────────────────────────────┤\n│            hand off boilerplate work,                    │\n│           focus on the human touch                       │\n│                                                           │\n│  ┌─────────────────────────────────────────────────────┐ │\n│  │                                                      │ │\n│  │        Vinyl Bundles                                 │ │\n│  │        [Product Image]                               │ │\n│  │        [Social Media Icons]                          │ │\n│  │                                                      │ │\n│  └─────────────────────────────────────────────────────┘ │\n│                                                           │\n│  [Description text columns]                              │\n├──────────────────────────────────────────────────────────┤\n│                                                           │\n│         the full-circle, one-stop workflow               │\n│          for humans and agents                           │\n│                                                           │\n│               [description text]                         │\n│                                                           │\n│              [Get Paper Desktop →]                       │\n├──────────────────────────────────────────────────────────┤\n│                    Paper                                 │\n│                  Roadmap                                 │\n│                                                           │\n│  [Device mockups with screenshots]                       │\n│                                                           │\n│              [Learn more →]                              │\n├──────────────────────────────────────────────────────────┤\n│                                                           │\n│  [Product Screenshots Grid]                              │\n│                                                           │\n│                   Series A                               │\n│                   $34M                                   │\n│                                                           │\n│  [Timeline/Feature Graphics]                             │\n│                                                           │\n│  [Description columns]                                   │\n├──────────────────────────────────────────────────────────┤\n│                     [FOOTER]                             │\n│                                                           │\n│  [Column 1]    [Column 2]    [Column 3]    [Column 4]   │\n│  Downloads     Features      Customers     Company       │\n│  [links]       [links]       [links]       [links]       │\n│                                                           │\n│  [Social Icons]                                          │\n│                                                           │\n│  [Legal Links]                   [Logo]                  │\n└──────────────────────────────────────────────────────────┘\n</ASCII>\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: White/cream, very light neutral\n- Buttons/CTAs: \"get paper →\" (dark outline button, pill-shaped, right-aligned)\n- Typography mood: Clean, modern sans-serif, minimal\n- Colors observed: Black text on cream/off-white background\n\nHERO:\n- Background: Light cream/beige with subtle gradient\n- Imagery: Large screenshot showing split interface - code editor on left, UI panel on right\n- Buttons/CTAs: \"Get started\" (solid dark button) | \"Learn more →\" (outline/ghost button)\n- Typography mood: Large, bold headline, elegant serif or modern sans\n- Colors observed: Cream background, dark text, purple/blue UI elements in screenshot\n\nPARTNER LOGOS ROW:\n- Background: Light cream, same as hero\n- Components: Grayscale logos arranged horizontally\n- Typography mood: Minimal, brand logos only\n\nPAPER DESKTOP SECTION:\n- Background: White/cream\n- Imagery: Three application icons (Figma, Sketch, Lottie) displayed as integration badges\n- Buttons/CTAs: \"Get Paper Desktop →\" (solid button, centered, dark background)\n- Typography mood: Bold headline, lighter body text, centered alignment\n- Colors observed: White background, blue accents in icons, dark button\n\nCONTINUOUS LOOP SECTION:\n- Background: Light neutral\n- Imagery: Large product screenshot showing \"Vinyl Bundles\" interface with vinyl record product photo, social media icons (Instagram, YouTube, TikTok, Apple Music)\n- Components: Screenshot has dark header, white content area\n- Typography mood: Medium weight headline\n- Colors observed: Orange, purple, blue accent colors in social icons\n\nDATA CONNECTION SECTION:\n- Background: White/cream\n- Imagery: Screenshot of data table interface with rows and columns\n- Components: Platform integration icons in circular badges (GitHub, Slack, Medium, Dribbble, Behance, Pinterest)\n- Colors observed: Monochrome icons, clean table interface\n- Typography mood: Clean, technical\n\nBOILERPLATE SECTION:\n- Background: Light neutral\n- Imagery: Duplicate of \"Vinyl Bundles\" screenshot (same product interface)\n- Components: Same product photo and social media integration display\n- Typography mood: Similar to previous sections, consistent hierarchy\n- Colors observed: Same vibrant social media icon colors\n\nWORKFLOW SECTION:\n- Background: White/cream\n- Buttons/CTAs: \"Get Paper Desktop →\" (solid dark button, centered)\n- Typography mood: Bold, centered headline\n- Colors observed: Dark text on light background\n\nROADMAP SECTION:\n- Background: Light neutral\n- Imagery: Device mockups (desktop and mobile screens) showing application interfaces in blue/purple tones\n- Buttons/CTAs: \"Learn more →\" (outline button)\n- Typography mood: Large \"Paper Roadmap\" title\n- Colors observed: Purple/blue UI in mockups, minimal color palette\n\nSERIES A SECTION:\n- Background: White/cream\n- Imagery: Grid of product screenshots and UI samples\n- Components: Large \"Series A $34M\" announcement with timeline graphics\n- Typography mood: Large display numbers and letters\n- Colors observed: Multi-color UI screenshots, orange/blue/purple accents\n\nFOOTER:\n- Background: White/cream, very minimal\n- Components: Four columns of links, social media icons\n- Typography mood: Small, lightweight text\n- Colors observed: Black text on cream, minimal contrast\n- Layout: Multi-column link organization, centered logo at bottom",
+        "insights": [
+          "Strict modular grid with precise 120px base unit used throughout layout spacing and decorative elements",
+          "Generous vertical rhythm with large padding values (60px-120px) creating breathing room between sections",
+          "Sophisticated layering system with z-index hierarchy: texture overlay (z-0), grid pattern (z-0), decorative shapes (z-1-2), content (z-10-20)",
+          "Responsive strategy scales from single-column mobile to multi-column desktop while maintaining visual hierarchy and centered alignment",
+          "Cream/off-white color palette (lab color space) with subtle dark mode inversion, consistent use of rounded corners (4px-12px) across UI elements"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The primary high-contrast foreground color for typography, icons, and solid accents.",
+              "when_to_use": [
+                "Body text and primary headings",
+                "Primary CTA button backgrounds (e.g., 'download Paper')",
+                "SVG iconography (strokes and fills)"
+              ]
+            },
+            "hex": "#181818",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#11161F",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#222222",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0053
+          },
+          {
+            "name": "True Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Used strictly as an alpha-channel base to generate shadows, text opacities, and grid patterns.",
+              "when_to_use": [
+                "Component box shadows on navigation and cards",
+                "Translucent text and overlays within the app mockup",
+                "Linear gradients for background grid patterns"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.1387
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Paper Cream",
+            "type": "Light",
+            "rules": {
+              "description": "The foundational light surface color that gives the brand its namesake warm, physical 'paper' feel.",
+              "when_to_use": [
+                "Global page background",
+                "Sticky navigation bar background",
+                "Feature card and layout grid cell fills",
+                "Application mockup surface panels"
+              ]
+            },
+            "hex": "#FCFCF9",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#EFEFE4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#DCDEE1",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EAEAE7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F9F9F9",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F2F2F2",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E2E2E2",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F6F7F8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F4F4F4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#DDDDDD",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FDFDFD",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FCFBFD",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F6F6F6",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.049300000000000004
+          },
+          {
+            "name": "Blueprint Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A structural mid-gray used exclusively to define the rigorous layout grid and geometric illustrations.",
+              "when_to_use": [
+                "Feature grid borders and dividers",
+                "SVG background grid lines and decorative circles",
+                "Decorative corner vertex squares"
+              ]
+            },
+            "hex": "#D7D7D6",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#C1C1C0",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#BDBFC3",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#DADADA",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#D8D7D8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#D7D7D7",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.039400000000000004
+          },
+          {
+            "name": "Muted Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A low-contrast gray for secondary typography and inactive interface elements.",
+              "when_to_use": [
+                "Hero section subheadings",
+                "Social proof labels ('used in production by designers at')",
+                "Inactive icons and secondary text within app mockups"
+              ]
+            },
+            "hex": "#909090",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#797979",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#7F8389",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#959595",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#808080",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0217
+          }
+        ],
+        "insights": [
+          "The palette adopts a digital brutalist, print-inspired aesthetic by relying on warm off-white 'paper' backgrounds and stark 'ink' typography.",
+          "Rather than relying on varied background tints to divide content, the design uses a rigorous, blueprint-style border system to establish spatial hierarchy.",
+          "True Black is reserved almost exclusively for alpha-transparency (shadows, overlays, and halftone dots), ensuring the primary text and buttons (#181818) feel purposefully printed and grounded."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Matter",
+              "role": "H1 Display Large",
+              "specs": {
+                "size": "64px",
+                "line_height": "64px",
+                "font_weight": "360",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui",
+                "file_url": "/matter.woff2"
+              }
+            },
+            {
+              "name": "Matter",
+              "role": "H2 Display",
+              "specs": {
+                "size": "48px",
+                "line_height": "48px",
+                "font_weight": "360",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui",
+                "file_url": "/matter.woff2"
+              }
+            },
+            {
+              "name": "Matter",
+              "role": "H3",
+              "specs": {
+                "size": "18px",
+                "line_height": "28px",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui",
+                "file_url": "/matter.woff2"
+              }
+            },
+            {
+              "name": "Matter",
+              "role": "H4 / Overline",
+              "specs": {
+                "size": "14px",
+                "line_height": "28px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui",
+                "file_url": "/matter.woff2"
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Primary body text variants for documentation and marketing layers.",
+          "variants": [
+            {
+              "name": "Matter",
+              "role": "Body Regular",
+              "specs": {
+                "size": "18px",
+                "line_height": "28px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui",
+                "file_url": "/matter.woff2"
+              }
+            },
+            {
+              "name": "Matter",
+              "role": "Body Medium",
+              "specs": {
+                "size": "18px",
+                "line_height": "28px",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui",
+                "file_url": "/matter.woff2"
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian text for app components, command menus, and mocked-up UI elements.",
+          "variants": [
+            {
+              "name": "Paper Mono",
+              "role": "Code Snippet / Command Path",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Paper Mono\", SFMono-Regular, Menlo, ui-monospace, monospace",
+                "file_url": "/paper-mono-0.100.woff2"
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "UI Action / Shortcut (e.g., Copy Link, ⌘ L)",
+              "specs": {
+                "size": "12px",
+                "line_height": "12px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "UI Secondary / Metadata",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Mockup List Item",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Inter, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "PUI Tree Item",
+              "specs": {
+                "size": "13px",
+                "line_height": "16px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "-apple-system",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Mockup Tab / Micro Label",
+              "specs": {
+                "size": "10px",
+                "line_height": "12px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Inter, system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Additional text variants found in embedded mockups and specialized UI instances.",
+          "variants": [
+            {
+              "name": "Matter",
+              "role": "Mockup Large Title",
+              "specs": {
+                "size": "36px",
+                "line_height": "36px",
+                "font_weight": "570",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Matter",
+              "role": "Mockup Standard Title",
+              "specs": {
+                "size": "26px",
+                "line_height": "28px",
+                "font_weight": "570",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Matter, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Mockup Clock / Time",
+              "specs": {
+                "size": "17px",
+                "line_height": "22px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Inter, system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "- Heavy use of stylistic sets (`.ss01`) on the primary display font (Matter) to alter letterforms for branded headings.\n- System heavily employs `font-variant-numeric: tabular-nums` for track lists and timestamps within the UI mockups to ensure perfect vertical alignment.\n- Component labels and utility text frequently apply CSS `color-mix()` and alpha-channel transparency for text hierarchies (e.g., text-foreground/80, text-black/50) instead of entirely separate text colors.",
+        "insights": [
+          "The typography system creates a clear split between marketing/brand layers and functional UI: \"Matter\" handles editorial and brand messaging, while \"-apple-system\" and \"Inter\" are strictly deployed for dense application interfaces.",
+          "The brand uses exceptionally light font weights (Semilight 360, Light 270) for its massive display headings (48px - 64px), creating an elegant and technical aesthetic that contrasts nicely with the heavier weights used at small scales.",
+          "\"Paper Mono\", a custom monospace font, is prominently used not just for literal code blocks but also for UI elements like command palette paths and system statuses, reinforcing a developer-centric product identity."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "shadows_soft",
+          "patterns"
+        ],
+        "solid_colors": [
+          {
+            "name": "Card Background",
+            "description": "Light paper-white card surface",
+            "when_to_use": [
+              "Card containers",
+              "Elevated surfaces",
+              "Modal backgrounds"
+            ],
+            "hex": "#FCFCF9"
+          },
+          {
+            "name": "Page Background",
+            "description": "Primary page background in cream/paper color",
+            "when_to_use": [
+              "Default page backgrounds",
+              "Canvas areas"
+            ],
+            "hex": "#EFEFE4"
+          },
+          {
+            "name": "Off-Black Background",
+            "description": "Dark mode primary background",
+            "when_to_use": [
+              "Dark mode page backgrounds",
+              "Dark theme sections"
+            ],
+            "hex": "#181818"
+          },
+          {
+            "name": "Black Surface",
+            "description": "Pure black surface for high contrast",
+            "when_to_use": [
+              "Dark mode elevated surfaces",
+              "High contrast elements"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "White Surface",
+            "description": "Pure white surface",
+            "when_to_use": [
+              "Light mode elevated surfaces",
+              "Content cards",
+              "Overlays"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Gray 50",
+            "description": "Very light gray surface",
+            "when_to_use": [
+              "Subtle background fills",
+              "Control backgrounds"
+            ],
+            "hex": "#F5F5F2"
+          },
+          {
+            "name": "Gray 100",
+            "description": "Light gray surface",
+            "when_to_use": [
+              "Control backgrounds",
+              "Disabled states",
+              "Subtle panels"
+            ],
+            "hex": "#EAEAE7"
+          },
+          {
+            "name": "Gray 200",
+            "description": "Medium-light gray surface",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Inactive elements"
+            ],
+            "hex": "#D7D7D6"
+          },
+          {
+            "name": "Gray 800",
+            "description": "Dark gray surface",
+            "when_to_use": [
+              "Dark mode panels",
+              "Secondary dark surfaces"
+            ],
+            "hex": "#424242"
+          },
+          {
+            "name": "Gray 900",
+            "description": "Very dark gray surface",
+            "when_to_use": [
+              "Dark mode surfaces",
+              "High contrast backgrounds"
+            ],
+            "hex": "#222222"
+          },
+          {
+            "name": "Gray 950",
+            "description": "Near-black surface",
+            "when_to_use": [
+              "Darkest UI surfaces",
+              "Deep backgrounds"
+            ],
+            "hex": "#181818"
+          },
+          {
+            "name": "Note Surface",
+            "description": "Subtle tinted surface for note/info areas",
+            "when_to_use": [
+              "Note containers",
+              "Info panels",
+              "Highlighted sections"
+            ],
+            "hex": "#F7F7F1"
+          },
+          {
+            "name": "Blue Control",
+            "description": "Blue accent surface",
+            "when_to_use": [
+              "Interactive controls",
+              "Accent backgrounds"
+            ],
+            "hex": "#81ADEC"
+          },
+          {
+            "name": "Amber Accent",
+            "description": "Warm amber accent surface",
+            "when_to_use": [
+              "Highlight backgrounds",
+              "Warning surfaces",
+              "Accent elements"
+            ],
+            "hex": "#FFCF3F"
+          },
+          {
+            "name": "PUI Chrome",
+            "description": "UI chrome background in light mode",
+            "when_to_use": [
+              "Toolbar backgrounds",
+              "Panel chrome",
+              "App UI surfaces"
+            ],
+            "hex": "#F2F2F2"
+          },
+          {
+            "name": "PUI Control",
+            "description": "Control surface in PUI system",
+            "when_to_use": [
+              "Button backgrounds",
+              "Input fields",
+              "Interactive controls"
+            ],
+            "hex": "#F9F9F9"
+          },
+          {
+            "name": "Playlist Surface",
+            "description": "Playlist component background in light mode",
+            "when_to_use": [
+              "Playlist containers",
+              "Music UI panels"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Playlist Player BG",
+            "description": "Playlist player background",
+            "when_to_use": [
+              "Media player surfaces",
+              "Playback controls"
+            ],
+            "hex": "#EAEAEA"
+          },
+          {
+            "name": "Playlist Canvas",
+            "description": "Canvas area for playlist UI",
+            "when_to_use": [
+              "Background canvas",
+              "Large content areas"
+            ],
+            "hex": "#E3E3E3"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Blue Button Gradient",
+            "description": "Top to bottom blue gradient for button surfaces",
+            "when_to_use": [
+              "Primary buttons",
+              "Call-to-action buttons",
+              "Interactive elements"
+            ],
+            "css_code": "linear-gradient(#93b8ef, #6ca0ed)"
+          },
+          {
+            "name": "Blue Button Gradient (Enhanced)",
+            "description": "Enhanced blue gradient using color-mix for better browser support",
+            "when_to_use": [
+              "Primary buttons in modern browsers",
+              "CTA elements with color mixing support"
+            ],
+            "css_code": "linear-gradient(to bottom, color-mix(in oklch, lab(69.3174% -2.26048 -37.0102) 86%, white), color-mix(in oklch, lab(69.3174% -2.26048 -37.0102) 60%, lab(58.2618% 2.51451 -55.9466)))"
+          },
+          {
+            "name": "Blue Button Hover Gradient",
+            "description": "Hover state gradient for blue buttons",
+            "when_to_use": [
+              "Button hover states",
+              "Interactive feedback"
+            ],
+            "css_code": "linear-gradient(to bottom, #a3c3f1, lab(69.3174% -2.26048 -37.0102))"
+          },
+          {
+            "name": "Blue Button Hover Gradient (Enhanced)",
+            "description": "Enhanced hover gradient with color mixing",
+            "when_to_use": [
+              "Button hover states in modern browsers"
+            ],
+            "css_code": "linear-gradient(to bottom, color-mix(in oklch, lab(69.3174% -2.26048 -37.0102) 73%, white), lab(69.3174% -2.26048 -37.0102))"
+          },
+          {
+            "name": "Tailwind Gradient to Bottom",
+            "description": "Generic top to bottom gradient using Tailwind CSS variables",
+            "when_to_use": [
+              "Tailwind-based gradients",
+              "Vertical fades",
+              "Section transitions"
+            ],
+            "css_code": "linear-gradient(var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Tailwind Gradient to Right",
+            "description": "Generic left to right gradient using Tailwind CSS variables",
+            "when_to_use": [
+              "Horizontal gradients",
+              "Side-to-side transitions"
+            ],
+            "css_code": "linear-gradient(var(--tw-gradient-stops))"
+          },
+          {
+            "name": "PUI Seam Gradient (Light)",
+            "description": "Decorative seam gradient for UI borders and dividers in light mode",
+            "when_to_use": [
+              "UI seams",
+              "Decorative borders",
+              "Visual separators"
+            ],
+            "css_code": "linear-gradient(in oklab 90deg, #f4f4f4 33%, #ddd 33%, #ddd 67%, #fdfdfd 67%)"
+          },
+          {
+            "name": "PUI Seam Gradient (Light, LAB)",
+            "description": "Lab color space version of PUI seam gradient for light mode",
+            "when_to_use": [
+              "UI seams with LAB color support",
+              "Precise color separators"
+            ],
+            "css_code": "linear-gradient(in oklab 90deg, lab(96.172% 0 0) 33%, lab(88.168% 0 0) 33%, lab(88.168% 0 0) 67%, lab(99.304% -.0000298023 0) 67%)"
+          },
+          {
+            "name": "PUI Seam Gradient (Dark)",
+            "description": "Dark mode seam gradient with transparency",
+            "when_to_use": [
+              "Dark mode UI seams",
+              "Dark theme borders"
+            ],
+            "css_code": "linear-gradient(in oklab 90deg, #0002 33%, #0004 33%, #0004 67%, #ffffff28 67%)"
+          },
+          {
+            "name": "PUI Seam Gradient (Dark, LAB)",
+            "description": "Lab color space version of dark mode seam gradient",
+            "when_to_use": [
+              "Dark mode UI seams with LAB support"
+            ],
+            "css_code": "linear-gradient(in oklab 90deg, lab(0% 0 0/.133) 33%, lab(0% 0 0/.267) 33%, lab(0% 0 0/.267) 67%, lab(100% 0 0/.157) 67%)"
+          },
+          {
+            "name": "Grid Pattern Background",
+            "description": "Subtle grid pattern using linear gradients for light mode",
+            "when_to_use": [
+              "Background grid overlays",
+              "Canvas patterns",
+              "Design grid visualizations"
+            ],
+            "css_code": "linear-gradient(to right, lab(94.2188% -1.42306 5.34524) 1px, transparent 1px), linear-gradient(to bottom, lab(94.2188% -1.42306 5.34524) 1px, transparent 1px)"
+          },
+          {
+            "name": "Billing Switch Gradient",
+            "description": "Blue to transparent gradient for toggle switch background",
+            "when_to_use": [
+              "Toggle switches",
+              "Interactive controls",
+              "Billing UI elements"
+            ],
+            "css_code": "linear-gradient(to right, lab(63.8315% -.601828 -46.527) 35%, #0000001a 65%)"
+          }
+        ],
+        "highlights": [
+          "Subtle dot pattern on hero background using grid overlay at opacity 30% (dark mode: 15%)",
+          "Texture overlay using /layout/texture-shade.png at 50% opacity in light mode, 100% in dark mode with multiply blend mode on footer",
+          "Grid pattern: 120px x 120px repeating grid lines in cream color, positioned at calc(50%+60px) with 30% opacity (dark: 15%)",
+          "Ruler decorations: vertical and horizontal ruler patterns along edges at 40% opacity (dark: 20%) on wide viewports",
+          "Diagonal geometric shapes with triangular clip-paths positioned absolutely for decorative page sections",
+          "Soft shadows on cards and elevated surfaces using inset shadows on buttons: inset 0 1px #ffffff1f, inset 0 -1px #0000001f",
+          "Box shadows on controls with multiple layers for depth: 0 2px 4px #00000020 for cards",
+          "PUI shadow system with layered shadows on controls, thumbs, sliders, and swatches using rgba with fine-tuned alpha values",
+          "Noise/grain texture overlay on surfaces via background image repeating pattern",
+          "Canvas elements for rendering dynamic visual effects and borders on interactive components",
+          "Rounded corners using corner-shape: superellipse(1.3) on PUI controls for organic feel"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Offset Shadow",
+              "type": "drop",
+              "description": "Transparent placeholder shadow used for Tailwind CSS ring utilities",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring offset utilities",
+                "Base shadow variable"
+              ]
+            },
+            {
+              "name": "Hero Image Shadow",
+              "type": "drop",
+              "description": "Multi-layered shadow with border ring and progressive blur creating depth for hero images. Combines 1px ring at 26% opacity, with blur values of 26px, 24px, 20px, 15px, and 8px at various opacities.",
+              "css_value": "0 0 0 1px #80808026,0 93px 26px #0000,0 59px 24px #00000003,0 33px 20px #0000000d,0 15px 15px #00000017,0 4px 8px #0000001a",
+              "when_to_use": [
+                "Hero images",
+                "Featured content cards",
+                "Primary visual elements"
+              ]
+            },
+            {
+              "name": "Button Blue Inset",
+              "type": "inset",
+              "description": "Subtle inset shadow for blue buttons creating a soft beveled look with white highlight on top and dark shadow on bottom",
+              "css_value": "inset 0 1px #ffffff1f,inset 0 -1px #0000001f",
+              "when_to_use": [
+                "Primary action buttons",
+                "Call-to-action buttons"
+              ]
+            },
+            {
+              "name": "Main Layer Shadow",
+              "type": "drop",
+              "description": "Complex layered shadow system for main content layer with multiple offset shadows at 16px, 8px, 4px, 2px offsets plus 1px border ring",
+              "css_value": "0 16px 32px -16px #0000001f,0 8px 16px -8px #00000014,0 4px 8px -4px #0000000a,0 2px 4px #00000005,0 0 0 1px #00000014",
+              "when_to_use": [
+                "Main content containers",
+                "Primary page sections",
+                "Elevated panels"
+              ]
+            },
+            {
+              "name": "PUI Control Shadow Light",
+              "type": "inset",
+              "description": "Complex control shadow for Paper UI system with inset white highlights and outer shadows for depth",
+              "css_value": "#fff8 0 1px 0 inset,#fff8 0 0 1px 1px inset,#0001 0 .5px 1px,#0002 0 0 1px,#0002 0 0 4px -1px",
+              "when_to_use": [
+                "UI controls",
+                "Form fields",
+                "Interactive elements"
+              ]
+            },
+            {
+              "name": "PUI Thumb Shadow Light",
+              "type": "inset",
+              "description": "Thumb/handle shadow with inset white highlights and outer shadow for slider thumbs and draggable handles",
+              "css_value": "#fff8 0 1px 0 inset,#fff8 0 0 1px 1px inset,#0002 0 0 1px,#0002 0 0 3px -1px",
+              "when_to_use": [
+                "Slider thumbs",
+                "Drag handles",
+                "Toggle switches"
+              ]
+            },
+            {
+              "name": "PUI Swatch Shadow Light",
+              "type": "inset",
+              "description": "Color swatch shadow with strong white inset highlights and subtle outer shadows",
+              "css_value": "#fffa 0 1px 0 inset,#fffa 0 0 1px 1px inset,#0002 0 .5px 1px,#00000018 0 0 1px 1px,#0001 0 0 3px -1px",
+              "when_to_use": [
+                "Color swatches",
+                "Color pickers",
+                "Color indicators"
+              ]
+            },
+            {
+              "name": "PUI Slider Shadow Light",
+              "type": "inset",
+              "description": "Slider track shadow with white inset highlights and darker outer shadows for depth",
+              "css_value": "#fff8 0 1px 0 inset,#fff8 0 0 1px 1px inset,#00000059 0 2px 4px -2px,#0000004d 0 0 1px .5px",
+              "when_to_use": [
+                "Slider tracks",
+                "Progress bars",
+                "Range inputs"
+              ]
+            },
+            {
+              "name": "Chat Bubble Shadow Light",
+              "type": "drop",
+              "description": "Chat bubble shadow with outline ring and progressive blur layers for floating chat elements",
+              "css_value": "0 0 0 var(--chat-outline-width)#00000014,0 20px 6px 0 #0000,0 13px 5px 0 #00000003,0 7px 4px 0 #00000005,0 3px 3px 0 #00000008,0 1px 2px 0 #0000000a",
+              "when_to_use": [
+                "Chat bubbles",
+                "Tooltips",
+                "Floating messages"
+              ]
+            },
+            {
+              "name": "Nav Bottom Border Shadow",
+              "type": "drop",
+              "description": "Subtle 1px bottom border shadow for navigation scroll state indication",
+              "css_value": "0 1px 0 0 rgba(0,0,0,0.08)",
+              "when_to_use": [
+                "Navigation bars",
+                "Sticky headers",
+                "Scroll indicators"
+              ]
+            },
+            {
+              "name": "Small Card Shadow",
+              "type": "drop",
+              "description": "Simple drop shadow for small UI elements with 2px Y offset and 4px blur",
+              "css_value": "0 2px 4px #00000020",
+              "when_to_use": [
+                "Small cards",
+                "Dropdown menus",
+                "Popovers"
+              ]
+            },
+            {
+              "name": "Billing Switch Inset",
+              "type": "inset",
+              "description": "Inset shadow for toggle switch background creating recessed track appearance",
+              "css_value": "inset 0 0 0 1px #0000000d,inset 0 1.5px 2px #0000001a",
+              "when_to_use": [
+                "Toggle switches",
+                "Billing toggles",
+                "On/off controls"
+              ]
+            },
+            {
+              "name": "Billing Switch Thumb",
+              "type": "drop",
+              "description": "Thumb shadow for billing toggle switch with soft spread and blur",
+              "css_value": "0 0 1px 1px #0000001a,0 1px 1px #0000001a,1px 2px 4px -1px #0000001a",
+              "when_to_use": [
+                "Toggle switch thumbs",
+                "Slider knobs"
+              ]
+            },
+            {
+              "name": "Slider Thumb Shadow",
+              "type": "drop",
+              "description": "Shadow for slider thumb control with Y offset and ring border",
+              "css_value": "0 2px 4px -2px #00000059,0 0 1px 1px #00000026",
+              "when_to_use": [
+                "Range slider thumbs",
+                "Volume controls",
+                "Seek bars"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#E2E2E2",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#373737",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#CFD9DE",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#425364",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#262628",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "cursor",
+            "css": "@keyframes index-module_cursor__PQg0P { 50% { opacity: 0; } }",
+            "description": "Blinking cursor animation for typewriter text effect in hero section, toggling opacity at 50% with 1.1s duration."
+          },
+          {
+            "name": "marquee",
+            "css": "@keyframes marquee { 0% { transform: translate(0) } to { transform: translateX(var(--marquee-offset)) } }",
+            "description": "Horizontal scrolling animation for partner logo strips or continuous content loops."
+          },
+          {
+            "name": "cursor-reveal",
+            "css": "@keyframes cursor-reveal { 0% { opacity: 0; scale: .5 } to { opacity: 1; scale: 1 } }",
+            "description": "Entry animation for cursor chat bubbles, scaling and fading in from center."
+          },
+          {
+            "name": "cursor-exit",
+            "css": "@keyframes cursor-exit { 0% { opacity: 1; scale: 1 } to { opacity: 0; scale: .5 } }",
+            "description": "Exit animation for cursor chat bubbles, scaling and fading out to center."
+          },
+          {
+            "name": "enter",
+            "css": "@keyframes enter { 0% { filter: blur(5px); opacity: 0; transform: translateY(8px) } }",
+            "description": "Scroll reveal entrance animation with blur, fade, and upward slide. Uses staggered delays via CSS custom property."
+          },
+          {
+            "name": "terminal-chunk-in",
+            "css": "@keyframes terminal-chunk-in { 0% { opacity: 0; filter: blur(2px); transform: translateY(4px) } to { opacity: 1; filter: blur(); transform: translateY(0) } }",
+            "description": "Text chunk reveal animation for terminal-style content, with subtle blur and vertical slide."
+          },
+          {
+            "name": "doc-video-playback",
+            "css": "@keyframes doc-video-playback { 0% { opacity: 0; scale: .8 } 20% { opacity: 1; scale: 1 } 80% { opacity: 1; scale: 1 } to { opacity: 0; scale: .8 } }",
+            "description": "Video playback indicator animation with scale and fade for documentation videos."
+          },
+          {
+            "name": "btn-blue-transition",
+            "css": "transition: background .15s ease-out, transform .1s ease-out",
+            "description": "Button state transition for blue gradient buttons with separate timing for background and transform."
+          },
+          {
+            "name": "nav-transition",
+            "css": "transition: background-color 0.1s ease-out, box-shadow 0.1s ease-out",
+            "description": "Navigation bar background and shadow transition on scroll state change."
+          },
+          {
+            "name": "link-opacity-transition",
+            "css": "transition: opacity 0.15s ease-out",
+            "description": "Navigation link hover state opacity transition for subtle interaction feedback."
+          }
+        ],
+        "insights": [
+          "The design system uses a distinctive 'paper' aesthetic with warm cream backgrounds (#FCFCF9) and ink-black typography (#181818), creating a print-inspired digital brutalist feel.",
+          "Navigation implements a transparent-to-solid pattern on scroll, with background color and shadow animating independently for smooth state transitions.",
+          "The embedded application mockup (PUI) uses extensive CSS custom properties for theming, enabling seamless light/dark mode switching with variables like --pui-chrome, --pui-text, and --pui-hairline."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "download Paper (Primary CTA)",
+            "usage": "Primary call-to-action button used in hero section and key conversion points. Dark background with light text for maximum visibility.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Matter, system-ui",
+                  "size": "18px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#181818",
+                "text_color": "#FCFCF9",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FCFCF9",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#181818",
+                "text_color": "#FCFCF9",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "download for Windows (Primary CTA - Light on Dark)",
+            "usage": "Primary CTA variant used in dark sections or cards. Light background on dark contexts.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Matter, system-ui",
+                  "size": "18px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FCFCF9",
+                "text_color": "#181818",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#181818",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FCFCF9",
+                "text_color": "#181818",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular)",
+            "usage": "Used for menu toggle, close, and utility actions in the navigation bar. Circular shape with hover background.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#181818",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.05)",
+                "text_color": "#181818",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#181818",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are arranged inline with flexible spacing for hero CTAs",
+          "spacing": "28px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "61px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FCFCF9",
+            "color_reference": "Paper/paper-50",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Pill Tab",
+          "description": "Tabs organize content into multiple sections and allow users to navigate between them. Used in the application mockup UI.",
+          "when_to_use": [
+            "Navigation between workspace views",
+            "Switching between canvas pages",
+            "Content category filtering"
+          ],
+          "states": [
+            {
+              "name": "default",
+              "visual_change": "Muted text color, no background",
+              "background": null,
+              "text": "var(--pui-tab-ink)",
+              "icon": null
+            },
+            {
+              "name": "active",
+              "visual_change": "Elevated background with shadow, darker text",
+              "background": "var(--pui-control)",
+              "text": "var(--pui-tab-ink-active)",
+              "icon": "var(--pui-tab-icon-active)"
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [
+          {
+            "name": "Track List Table",
+            "description": "Displays music playlist tracks with album art thumbnails, song/artist info, album name, and duration. Used in the embedded application mockup.",
+            "when_to_use": [
+              "Displaying ordered lists of media items",
+              "Music playlist views",
+              "Content libraries with metadata columns"
+            ]
+          }
+        ],
+        "tiles": [
+          {
+            "name": "Album Art Card",
+            "description": "Square image tiles with title and subtitle for displaying albums, playlists, or artists in a horizontal scroll or grid layout.",
+            "when_to_use": [
+              "Media library browsing",
+              "Featured content carousels",
+              "Artist or album showcases"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Hairline Divider",
+            "description": "Ultra-thin separator used between sections and list items in the application mockup UI.",
+            "when_to_use": [
+              "Separating list items",
+              "Between sidebar sections",
+              "Below navigation elements"
+            ],
+            "color": "#E2E2E2",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Section Border",
+            "description": "Structural border used in the blueprint-style grid system to define content areas.",
+            "when_to_use": [
+              "Page section boundaries",
+              "Card outlines",
+              "Grid cell borders"
+            ],
+            "color": "#D7D7D6",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Monoline UI Icons",
+          "description": "Monoline, stroke-based interface controls and navigation elements used throughout the dashboard and UI panels.",
+          "when_to_use": [
+            "Buttons",
+            "Navigation menus",
+            "Search bars",
+            "Action bars"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "14px",
+            "medium": "22px"
+          },
+          "examples": [
+            {
+              "name": "Chevron Left",
+              "svg_code": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"none\" aria-hidden=\"true\" style=\"flex-shrink:0;color:oklch(50.5% 0.012 258)\"><g><g id=\"ofi-chevron-left\" viewBox=\"0 0 14 14\"><path d=\"M9 10L5 7l4-3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g></g></svg>"
+            },
+            {
+              "name": "Search",
+              "svg_code": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"none\" aria-hidden=\"true\" style=\"flex-shrink:0;color:oklch(61% 0.010 258)\"><g><g id=\"ofi-search\" viewBox=\"0 0 16 16\"><circle cx=\"7\" cy=\"7\" r=\"5\" stroke=\"currentColor\" stroke-width=\"1.5\"></circle><path d=\"M11 11l2.5 2.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></g></g></svg>"
+            },
+            {
+              "name": "Plus",
+              "svg_code": "<svg viewBox=\"0 0 22 22\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" fill=\"none\" aria-hidden=\"true\" style=\"flex-shrink:0;color:oklch(20% 0.019 258)\"><g><g id=\"ofi-plus\" viewBox=\"0 0 24 24\"><path d=\"M12 5.5v13M5.5 12h13\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></g></g></svg>"
+            },
+            {
+              "name": "Menu / Hamburger",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"14\" viewBox=\"0 0 20 14\" fill=\"none\" class=\"text-off-black dark:text-cream\" aria-hidden=\"true\"><path d=\"M0 1H20M0 7H20M0 13H20\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Solid UI Icons",
+          "description": "Solid vector shapes used for distinct UI toggles, cursors, and layout structural elements.",
+          "when_to_use": [
+            "Active tab indicators",
+            "Layout mode toggles",
+            "Collaborator cursors"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "13px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Sidebar / Layout",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip;position:relative\"><path d=\"M16 16H0V0H16V16ZM1 15H15V1H1V15ZM12.75 8L8 12.75L3.25 8L8 3.25L12.75 8ZM4.664 8L8 11.336L11.336 8L8 4.664L4.664 8Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Grid Layout",
+              "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip;position:relative\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 10V4H10V5H5V10H4ZM20 10V4H14V5H19V10H20ZM20 14H19V19H14V20H20V14ZM10 20V19H5V14H4V20H10Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Cursor Pointer",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.534 8.274L4.497 11H7.995C8.122 9.874 7.532 8.787 6.534 8.274ZM7.139 7.464L9.864 3.816L9.063 3.218L3.099 11.201L2.502 12H3.5H13V11H9C9.119 9.557 8.382 8.176 7.139 7.464Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Filled Box",
+              "svg_code": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 13 13\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path d=\"M2 0V2H8V8H2V2H0V13H8V8H13V0H2Z\" fill=\"currentColor\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Micro UI Elements",
+          "description": "Extremely small structural and decorative SVGs used for micro-interactions and file tree UI.",
+          "when_to_use": [
+            "File and playlist trees",
+            "Checkbox inputs",
+            "Dense list views",
+            "Subtle decorative anchors"
+          ],
+          "format": "SVG",
+          "style": "Monoline & Mixed",
+          "sizes": {
+            "small": "8px",
+            "medium": "12px"
+          },
+          "examples": [
+            {
+              "name": "Micro Chevron",
+              "svg_code": "<svg width=\"8\" height=\"8\" viewBox=\"0 0 8 8\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path d=\"M1 2.5L4 5.5L7 2.5\" fill=\"none\" stroke=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Micro Play",
+              "svg_code": "<svg width=\"9\" height=\"9\" viewBox=\"0 0 9 9\" xmlns=\"http://www.w3.org/2000/svg\" style=\"overflow:clip\"><path d=\"M0.5 4.5H8.4M8.4 4.5L5.3 1.169M8.4 4.5L5.3 7.83\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Window Frame Control",
+              "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><rect x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\"></rect><line x1=\"3.5\" y1=\"3\" x2=\"3.5\" y2=\"9\" stroke=\"currentColor\"></line><line x1=\"8.5\" y1=\"3\" x2=\"8.5\" y2=\"9\" stroke=\"currentColor\"></line></svg>"
+            },
+            {
+              "name": "Micro Grid Lines",
+              "svg_code": "<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path d=\"M5 0V5M5 5V10M5 5H10M5 5H0\" vector-effect=\"non-scaling-stroke\" fill=\"none\" stroke=\"currentColor\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/favicon.ico",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/favicon.ico",
+            "origin_url": "https://paper.design/favicon.ico",
+            "description": "Paper Favicon (ICO)"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/favicon.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/favicon.png",
+            "origin_url": "https://paper.design/apple-touch-icon.png",
+            "description": "Paper Favicon (Apple Touch Icon)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary.svg",
+            "origin_url": "https://paper.design/logos/lineup/0-ramp.svg",
+            "description": "Ramp Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-4.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-4.svg",
+            "origin_url": "https://paper.design/logos/lineup/1-vercel.svg",
+            "description": "Vercel Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-3.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://paper.design/logos/lineup/2-perplexity.svg",
+            "description": "Perplexity Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-2.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://paper.design/logos/lineup/3-lovable.svg",
+            "description": "Lovable Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-5.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-5.svg",
+            "origin_url": "https://paper.design/logos/lineup/4-posthog.svg",
+            "description": "PostHog Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-6.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-6.svg",
+            "origin_url": "https://paper.design/logos/lineup/5-mintlify.svg",
+            "description": "Mintlify Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-7.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-7.svg",
+            "origin_url": "https://paper.design/logos/lineup/6-harvey.svg",
+            "description": "Harvey Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-8.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-8.svg",
+            "origin_url": "https://paper.design/logos/lineup/7-tailwind.svg",
+            "description": "Tailwind Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-9.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-9.svg",
+            "origin_url": "https://paper.design/logos/lineup/8-zed.svg",
+            "description": "Zed Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-11.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-11.svg",
+            "origin_url": "https://paper.design/logos/lineup/9-attio.svg",
+            "description": "Attio Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-10.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-10.svg",
+            "origin_url": "https://paper.design/logos/lineup/10-quartr.svg",
+            "description": "Quartr Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary.webp",
+            "origin_url": "https://paper.design/logos/dock/cursor.webp",
+            "description": "Cursor App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-2.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-2.webp",
+            "origin_url": "https://paper.design/logos/dock/vscode.webp",
+            "description": "VS Code App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-3.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-3.webp",
+            "origin_url": "https://paper.design/logos/dock/zed.webp",
+            "description": "Zed App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-4.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-4.webp",
+            "origin_url": "https://paper.design/logos/dock/terminal.webp",
+            "description": "Terminal App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-5.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-5.webp",
+            "origin_url": "https://paper.design/logos/dock/terminal-classic.webp",
+            "description": "Terminal Classic App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-6.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-6.webp",
+            "origin_url": "https://paper.design/logos/dock/ghosty.webp",
+            "description": "Ghostty App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-7.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-7.webp",
+            "origin_url": "https://paper.design/logos/dock/opencode.webp",
+            "description": "OpenCode App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-8.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-8.webp",
+            "origin_url": "https://paper.design/logos/dock/github.webp",
+            "description": "GitHub App Integration Logo"
+          },
+          {
+            "role": "Primary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary.png",
+            "origin_url": "https://paper.design/logos/app-icons/Paper App Icon 512.png",
+            "description": "Paper App Primary Icon"
+          },
+          {
+            "role": "Primary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary-2.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary-2.png",
+            "origin_url": "https://paper.design/logos/app-icons/Paper App Icon Halftone.png",
+            "description": "Paper App Icon Halftone Variation"
+          },
+          {
+            "role": "Primary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary-3.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary-3.png",
+            "origin_url": "https://paper.design/logos/app-icons/Paper App Icon Dots.png",
+            "description": "Paper App Icon Dots Variation"
+          },
+          {
+            "role": "Primary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary-4.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/primary-4.png",
+            "origin_url": "https://paper.design/logos/app-icons/Paper App Icon Goeey.png",
+            "description": "Paper App Icon Gooey Variation"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-9.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-9.webp",
+            "origin_url": "https://paper.design/logos/dock/claude.webp",
+            "description": "Claude App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-10.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-10.webp",
+            "origin_url": "https://paper.design/logos/dock/codex.webp",
+            "description": "Codex App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-11.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-11.webp",
+            "origin_url": "https://paper.design/logos/dock/conductor.webp",
+            "description": "Conductor App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-13.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-13.webp",
+            "origin_url": "https://paper.design/logos/dock/notion.webp",
+            "description": "Notion App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-12.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-12.webp",
+            "origin_url": "https://paper.design/logos/dock/dia.webp",
+            "description": "Dia App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-15.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-15.webp",
+            "origin_url": "https://paper.design/logos/dock/comet.webp",
+            "description": "Comet App Integration Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-14.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/logos/secondary-14.webp",
+            "origin_url": "https://paper.design/logos/dock/chrome.webp",
+            "description": "Chrome App Integration Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Social Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/open-graph-social-image.jpg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/open-graph-social-image.jpg",
+            "origin_url": "https://paper.design/opengraph-image.jpg?opengraph-image.9a84ecdd.jpg",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Smiling Man Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/smiling-man-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/smiling-man-avatar.webp",
+            "origin_url": "https://paper.design/overflow/avatar-smiling-man.webp",
+            "usage_context": "Used as a user profile avatar inside the UI mockups."
+          },
+          {
+            "name": "Vinyl Sundays Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/vinyl-sundays-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/vinyl-sundays-cover.webp",
+            "origin_url": "https://paper.design/overflow/turntable-bw.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Sunday Spins Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/sunday-spins-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/sunday-spins-cover.webp",
+            "origin_url": "https://paper.design/overflow/sunday-spins.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Pressed Memories Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/pressed-memories-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/pressed-memories-cover.webp",
+            "origin_url": "https://paper.design/overflow/pressed-memories.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Kitchen Window Light Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/kitchen-window-light-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/kitchen-window-light-cover.webp",
+            "origin_url": "https://paper.design/overflow/kitchen-window-light.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Wax Poetic Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/wax-poetic-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/wax-poetic-cover.webp",
+            "origin_url": "https://paper.design/overflow/wax-poetic.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Secondhand Gold Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/secondhand-gold-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/secondhand-gold-cover.webp",
+            "origin_url": "https://paper.design/overflow/secondhand-gold.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Thrift Store Finds Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/thrift-store-finds-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/thrift-store-finds-cover.webp",
+            "origin_url": "https://paper.design/overflow/thrift-store-finds.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Analog Sundays Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/analog-sundays-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/analog-sundays-cover.webp",
+            "origin_url": "https://paper.design/overflow/analog-sundays.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Slow Rotation Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/slow-rotation-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/slow-rotation-cover.webp",
+            "origin_url": "https://paper.design/overflow/slow-rotation.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Basement Sessions Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/basement-sessions-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/basement-sessions-cover.webp",
+            "origin_url": "https://paper.design/overflow/basement-sessions.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Side B Forever Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/side-b-forever-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/side-b-forever-cover.webp",
+            "origin_url": "https://paper.design/overflow/side-b-forever.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Quiet Village Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/quiet-village-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/quiet-village-cover.webp",
+            "origin_url": "https://paper.design/overflow/quiet-village.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Late Night Heat Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/late-night-heat-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/late-night-heat-cover.webp",
+            "origin_url": "https://paper.design/overflow/late-night-heat.webp",
+            "usage_context": "Album/Playlist cover art shown in the UI prototype."
+          },
+          {
+            "name": "Jack Hatfield Artist Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/jack-hatfield-artist-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/jack-hatfield-artist-avatar.webp",
+            "origin_url": "https://paper.design/overflow/artist-jack-hatfield.webp",
+            "usage_context": "Artist avatar shown in the UI prototype."
+          },
+          {
+            "name": "Zaya Blue Artist Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/zaya-blue-artist-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/zaya-blue-artist-avatar.webp",
+            "origin_url": "https://paper.design/overflow/artist-zaya-blue.webp",
+            "usage_context": "Artist avatar shown in the UI prototype."
+          },
+          {
+            "name": "Elara Cove Artist Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/elara-cove-artist-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/elara-cove-artist-avatar.webp",
+            "origin_url": "https://paper.design/overflow/artist-elara-cove.webp",
+            "usage_context": "Artist avatar shown in the UI prototype."
+          },
+          {
+            "name": "Milo Crane Artist Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/milo-crane-artist-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/milo-crane-artist-avatar.webp",
+            "origin_url": "https://paper.design/overflow/artist-milo-crane.webp",
+            "usage_context": "Artist avatar shown in the UI prototype."
+          },
+          {
+            "name": "Bloom Vase Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/bloom-vase-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/bloom-vase-cover.webp",
+            "origin_url": "https://paper.design/overflow/bloom-vase.webp",
+            "usage_context": "Album cover art shown in the UI prototype."
+          },
+          {
+            "name": "Flora Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/flora-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/flora-cover.webp",
+            "origin_url": "https://paper.design/overflow/flora.webp",
+            "usage_context": "Album cover art shown in the UI prototype."
+          },
+          {
+            "name": "Vinyl Sundays Library Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/vinyl-sundays-library-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/vinyl-sundays-library-cover.webp",
+            "origin_url": "https://paper.design/overflow/lib-vinyl-sundays.webp",
+            "usage_context": "Playlist thumbnail shown in the UI prototype library."
+          },
+          {
+            "name": "Golden Hour Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/golden-hour-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/golden-hour-cover.webp",
+            "origin_url": "https://paper.design/overflow/golden-hour.webp",
+            "usage_context": "Playlist thumbnail shown in the UI prototype library."
+          },
+          {
+            "name": "Wildflower Days Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/wildflower-days-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/wildflower-days-cover.webp",
+            "origin_url": "https://paper.design/overflow/wildflower-days.webp",
+            "usage_context": "Playlist thumbnail shown in the UI prototype library."
+          },
+          {
+            "name": "Cassette Dreams Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/cassette-dreams-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/cassette-dreams-cover.webp",
+            "origin_url": "https://paper.design/overflow/cassette-dreams.webp",
+            "usage_context": "Playlist thumbnail shown in the UI prototype library."
+          },
+          {
+            "name": "Poolside Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/poolside-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/poolside-cover.webp",
+            "origin_url": "https://paper.design/overflow/poolside.webp",
+            "usage_context": "Playlist thumbnail shown in the UI prototype library."
+          },
+          {
+            "name": "Garden Sessions Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/garden-sessions-cover.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/garden-sessions-cover.webp",
+            "origin_url": "https://paper.design/overflow/garden-sessions.webp",
+            "usage_context": "Playlist thumbnail shown in the UI prototype library."
+          },
+          {
+            "name": "Agu Seguí Team Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/agu-segu-team-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/agu-segu-team-avatar.webp",
+            "origin_url": "https://paper.design/people/agu-segui.webp",
+            "usage_context": "Team or author avatar graphic."
+          },
+          {
+            "name": "Alex Harri Team Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/alex-harri-team-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/alex-harri-team-avatar.webp",
+            "origin_url": "https://paper.design/people/alex-harri.webp",
+            "usage_context": "Team or author avatar graphic."
+          },
+          {
+            "name": "Amy Hanlon Team Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/amy-hanlon-team-avatar.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/amy-hanlon-team-avatar.webp",
+            "origin_url": "https://paper.design/people/amy-hanlon.webp",
+            "usage_context": "Team or author avatar graphic."
+          },
+          {
+            "name": "Papercut Decoration",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/papercut-decoration.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/papercut-decoration.png",
+            "origin_url": "https://paper.design/_next/static/media/papercut.984b47d5.png",
+            "usage_context": "Abstract brand decoration layer."
+          },
+          {
+            "name": "Halftone Decoration",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/halftone-decoration.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/halftone-decoration.png",
+            "origin_url": "https://paper.design/_next/static/media/halftone.a7128be0.png",
+            "usage_context": "Abstract brand decoration layer."
+          },
+          {
+            "name": "Halftone Decoration Compressed",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/halftone-decoration-compressed.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/halftone-decoration-compressed.png",
+            "origin_url": "https://paper.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhalftone.a7128be0.png&w=256&q=75&dpl=dpl_5ur6AR5JyT15wLsSUciLhJKcEzqH",
+            "usage_context": "Abstract brand decoration layer."
+          },
+          {
+            "name": "CMYK Decoration",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/cmyk-decoration.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/cmyk-decoration.png",
+            "origin_url": "https://paper.design/_next/static/media/cmyk.e3a4757e.png",
+            "usage_context": "Abstract brand decoration layer."
+          },
+          {
+            "name": "CMYK Decoration Compressed",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/cmyk-decoration-compressed.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/cmyk-decoration-compressed.png",
+            "origin_url": "https://paper.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcmyk.e3a4757e.png&w=256&q=75&dpl=dpl_5ur6AR5JyT15wLsSUciLhJKcEzqH",
+            "usage_context": "Abstract brand decoration layer."
+          },
+          {
+            "name": "September 2026 Composition - Light",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/september-2026-composition-light.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/september-2026-composition-light.webp",
+            "origin_url": "https://paper.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fseptember-2026-light.685cd74c.webp&w=3840&q=75&dpl=dpl_5ur6AR5JyT15wLsSUciLhJKcEzqH",
+            "usage_context": "Mondrian-style UI composition preview used as a feature illustration."
+          },
+          {
+            "name": "September 2026 Composition - Dark",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/september-2026-composition-dark.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/september-2026-composition-dark.webp",
+            "origin_url": "https://paper.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fseptember-2026-dark.9b1672de.webp&w=3840&q=75&dpl=dpl_5ur6AR5JyT15wLsSUciLhJKcEzqH",
+            "usage_context": "Mondrian-style UI composition preview used as a feature illustration."
+          },
+          {
+            "name": "Series A Announcement Hero - Light",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/series-a-announcement-hero-light.jpg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/series-a-announcement-hero-light.jpg",
+            "origin_url": "https://paper.design/_next/image?url=%2Fblog%2Fseries-a%2Fhero-light.jpg&w=3840&q=75",
+            "usage_context": "Blog post hero image for the Series A funding announcement."
+          },
+          {
+            "name": "Series A Announcement Hero - Dark",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/series-a-announcement-hero-dark.jpg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/series-a-announcement-hero-dark.jpg",
+            "origin_url": "https://paper.design/_next/image?url=%2Fblog%2Fseries-a%2Fhero-dark.jpg&w=3840&q=75",
+            "usage_context": "Blog post hero image for the Series A funding announcement."
+          },
+          {
+            "name": "Timeline Snapshot 2025-12-19",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-12-19.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-12-19.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-12-19.c514b2d3.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Timeline Snapshot 2025-12-03",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-12-03.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-12-03.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-12-03.ccf3e930.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Timeline Snapshot 2025-11-19",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-11-19.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-11-19.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-11-19.563a00e1.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Timeline Snapshot 2025-11-06",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-11-06.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-11-06.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-11-06.ed530a10.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Timeline Snapshot 2025-09-26",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-09-26.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-09-26.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-09-26.6aa82817.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Timeline Snapshot 2025-09-19",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-09-19.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-09-19.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-09-19.7cbd1651.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Timeline Snapshot 2025-09-09",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-09-09.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/timeline-snapshot-2025-09-09.webp",
+            "origin_url": "https://paper.design/_next/static/media/2025-09-09.702560ef.webp",
+            "usage_context": "Roadmap or version history visual snapshot."
+          },
+          {
+            "name": "Layout Grid Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/layout-grid-background.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/layout-grid-background.svg",
+            "origin_url": "https://paper.design/layout/grid.svg",
+            "usage_context": "Decorative layout grid pattern spanning the background of the page."
+          },
+          {
+            "name": "Playground Layout Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/playground-layout-graphic.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/playground-layout-graphic.svg",
+            "origin_url": "https://paper.design/layout/playground.svg",
+            "usage_context": "Decorative layout element for background structure."
+          },
+          {
+            "name": "Ruler X Axis Decoration",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/ruler-x-axis-decoration.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/ruler-x-axis-decoration.svg",
+            "origin_url": "https://paper.design/layout/ruler-x.svg",
+            "usage_context": "Decorative layout element replicating design tool rulers on page edges."
+          },
+          {
+            "name": "Ruler Y Axis Decoration",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/ruler-y-axis-decoration.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/ruler-y-axis-decoration.svg",
+            "origin_url": "https://paper.design/layout/ruler-y.svg",
+            "usage_context": "Decorative layout element replicating design tool rulers on page edges."
+          },
+          {
+            "name": "Snapshot Layout Decor",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/snapshot-layout-decor.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/snapshot-layout-decor.svg",
+            "origin_url": "https://paper.design/layout/snapshot.svg",
+            "usage_context": "Decorative layout background piece."
+          },
+          {
+            "name": "Texture Shade Gradient",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/texture-shade-gradient.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/texture-shade-gradient.png",
+            "origin_url": "https://paper.design/layout/texture-shade.png",
+            "usage_context": "Noise and shading texture applied to the page background for a physical feel."
+          },
+          {
+            "name": "Texture Pattern",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/texture-pattern.png",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/texture-pattern.png",
+            "origin_url": "https://paper.design/layout/texture.png",
+            "usage_context": "Base background texture adding subtle visual noise to the design."
+          },
+          {
+            "name": "Dark Grid Pattern",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/dark-grid-pattern.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/dark-grid-pattern.svg",
+            "origin_url": "https://paper.design/layout/grid-dark.svg",
+            "usage_context": "Background grid decoration used in dark mode."
+          },
+          {
+            "name": "Dark Ruler X Axis",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/dark-ruler-x-axis.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/dark-ruler-x-axis.svg",
+            "origin_url": "https://paper.design/layout/ruler-x-dark.svg",
+            "usage_context": "Background ruler element used in dark mode on the page edge."
+          },
+          {
+            "name": "Dark Ruler Y Axis",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/dark-ruler-y-axis.svg",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/dark-ruler-y-axis.svg",
+            "origin_url": "https://paper.design/layout/ruler-y-dark.svg",
+            "usage_context": "Background ruler element used in dark mode on the page edge."
+          },
+          {
+            "name": "Paper Footer Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/paper-footer-graphic.webp",
+            "path": "a5410512-8acf-4be6-a777-dd95ee49de44/site-assets/media/image/paper-footer-graphic.webp",
+            "origin_url": "https://paper.design/layout/paper-footer.webp",
+            "usage_context": "Large branded watermark displayed behind footer content."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/brand-media/x/50bb11bf-cae2-4c8a-b14f-462714295c8f.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Five abstract overlapping square designs sit in a row on a faint grid background, shifting from solid gray and bright colors to textured landscape imagery."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/brand-media/x/0562a979-9f2d-4597-8eb1-d3488da0d28a.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Two overlapping off-white squares form a geometric logo on a periwinkle blue background, with a blue square-shaped opening at their intersection."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/brand-media/x/d845e89c-00c6-4fc3-9708-b2eae0433784.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A glowing black box projects colorful beams behind floating white abstract logos, including the stylized word “Mux.”"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal, space-between alignment",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Paper logo SVG, dark text on light background, switches to light text on dark in dark mode"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal nav links: pricing, roadmap, blog, changelog, docs - displayed on desktop, hidden on mobile"
+            },
+            {
+              "type": "button",
+              "description": "Mobile menu button (hamburger icon), visible only on mobile breakpoints"
+            },
+            {
+              "type": "button",
+              "description": "Sign up / Open Paper CTA button, blue link color on hover"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered",
+          "headline": "design incredible",
+          "subheadline": "the connected canvas for teams shipping with agents",
+          "components": [
+            {
+              "type": "button",
+              "description": "Primary CTA 'download Paper' - dark background, light text, rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "Secondary link 'open Paper in the browser →' - text-only, arrow suffix"
+            },
+            {
+              "type": "image",
+              "description": "Large hero screenshot showing Paper UI interface split into code/canvas panels with layers sidebar, rounded corners with shadow, cream/beige background with product interface in blues and purples"
+            }
+          ]
+        },
+        {
+          "type": "Partner Logos",
+          "layout_pattern": "Centered horizontal row",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Grayscale partner logos (Figma, Google, etc.) arranged horizontally on light cream background"
+            }
+          ]
+        },
+        {
+          "type": "Features - Paper Desktop",
+          "layout_pattern": "Centered",
+          "headline": "Introducing Paper Desktop",
+          "subheadline": "a truly connected canvas, a whole new workflow",
+          "components": [
+            {
+              "type": "icon",
+              "description": "Three application integration icons: Figma, Sketch, Lottie - displayed as circular badges with blue accents"
+            },
+            {
+              "type": "button",
+              "description": "CTA button 'Get Paper Desktop →' - solid dark background, centered"
+            }
+          ]
+        },
+        {
+          "type": "Features - Continuous Loop",
+          "layout_pattern": "Centered with large screenshot",
+          "headline": "finally a continuous loop from Paper to code and back",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Large product screenshot showing 'Vinyl Bundles' interface with vinyl record product photo, dark header, white content area, social media icons (Instagram, YouTube, TikTok, Apple Music) in orange, purple, and blue"
+            }
+          ]
+        },
+        {
+          "type": "Features - Data Connection",
+          "layout_pattern": "Centered with screenshot and icons",
+          "headline": "always connect to real content - real data, from anywhere",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Screenshot of data table interface with clean rows and columns, monochrome styling"
+            },
+            {
+              "type": "icon",
+              "description": "Platform integration icons in circular badges: GitHub, Slack, Medium, Dribbble, Behance, Pinterest - monochrome design"
+            }
+          ]
+        },
+        {
+          "type": "Features - Automation",
+          "layout_pattern": "Centered with screenshot",
+          "headline": "hand off boilerplate work, focus on the human touch",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Duplicate of 'Vinyl Bundles' screenshot - same product interface with vinyl record and social media icons in vibrant colors"
+            }
+          ]
+        },
+        {
+          "type": "Features - Workflow",
+          "layout_pattern": "Centered",
+          "headline": "the full-circle, one-stop workflow for humans and agents",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "CTA button 'Get Paper Desktop →' - solid dark background, centered"
+            }
+          ]
+        },
+        {
+          "type": "Roadmap",
+          "layout_pattern": "Centered",
+          "headline": "Paper Roadmap",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Device mockups showing desktop and mobile screens with application interfaces in blue/purple tones"
+            },
+            {
+              "type": "button",
+              "description": "Link 'Learn more →' - outline style button"
+            }
+          ]
+        },
+        {
+          "type": "Announcement - Series A",
+          "layout_pattern": "Grid layout with timeline",
+          "headline": "Series A",
+          "subheadline": "$34M",
+          "components": [
+            {
+              "type": "image",
+              "description": "Grid of product screenshots and UI samples showing multi-color interfaces with orange, blue, purple accents"
+            },
+            {
+              "type": "illustration",
+              "description": "Timeline graphics and feature visualizations accompanying the funding announcement"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Four columns of links: Downloads, Features, Customers, Company - black text on cream background"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons in minimal style"
+            },
+            {
+              "type": "logo",
+              "description": "Paper logo centered at bottom of footer"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "a5410512-8acf-4be6-a777-dd95ee49de44/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "a5410512-8acf-4be6-a777-dd95ee49de44/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "a5410512-8acf-4be6-a777-dd95ee49de44/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "a5410512-8acf-4be6-a777-dd95ee49de44/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "a5410512-8acf-4be6-a777-dd95ee49de44/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

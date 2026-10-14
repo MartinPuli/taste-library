@@ -1,0 +1,1995 @@
+{
+  "company": "ElevenLabs",
+  "rank": 9,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://elevenlabs.io/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:42.611555Z",
+  "completed_at": "2026-09-25T02:38:41.527311Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "ElevenLabs",
+        "tagline": null,
+        "source_url": "https://elevenlabs.io",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / AI",
+        "primary_purpose": "Drive user sign-ups and enterprise engagement for AI audio and voice generation platform",
+        "main_cta": "Sign up",
+        "copy_tone": [
+          "Confident",
+          "Technical",
+          "Approachable"
+        ],
+        "brand_signature": "Warm cream and eggshell backgrounds with subtle gray borders create a sophisticated, paper-like foundation. Clean pill-shaped buttons and circular avatar elements paired with the custom Waldenburg typeface deliver a refined, research-driven aesthetic that balances technical authority with creative accessibility.",
+        "visual_language": {
+          "keywords": [
+            "warm neutrals",
+            "circular motifs",
+            "pill-shaped UI",
+            "editorial precision",
+            "layered depth",
+            "research-forward"
+          ],
+          "accent_strategy": "Black primary CTAs against cream backgrounds create clear hierarchy; subtle gray rings and shadows add depth without distraction.",
+          "highlights": "Circular audio avatars with gradient overlays and noise textures create visual interest; hover states reveal play controls with smooth transitions."
+        },
+        "strategy": {
+          "target_audience": [
+            "Content creators and media professionals seeking AI voice generation tools for podcasts, videos, and audiobooks",
+            "Enterprise teams requiring scalable voice and audio APIs for product integration",
+            "Developers building conversational AI agents and voice-enabled applications"
+          ],
+          "executive_synthesis": "ElevenLabs positions itself as the premium AI audio platform by combining research credibility with creative accessibility. The warm, editorial visual language softens the technical complexity while the interactive product demos and segmented navigation (Creative/Agents/API) efficiently qualify diverse user intents. The dual CTA strategy (Sign up + Contact sales) captures both self-serve and enterprise conversion paths, while trust signals through customer logos and global impact messaging build credibility at scale."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The visual impression from the screenshot immediately reveals a calm, editorial, and highly organized design. The page breathes with generous whitespace, a strict 12-column grid, and systematic vertical rhythm through consistent section spacing (5-7.5rem). The color palette is deliberately neutral—entirely devoid of saturated brand colors—relying on a sophisticated spectrum of blacks, warm creams (#F5F3F1), and off-white (#FDFCFC) that directly mirrors the warm, paper-like backgrounds characteristic of Swiss Style posters. This \"paper-like warmth\" is a hallmark of International Typographic Style.\n\nTypography is the primary visual vehicle for hierarchy, aligning perfectly with the Swiss Style's core principle of \"typography-driven design.\" The pairing of a geometric/modern serif display face (Waldenburg at font-weight 300) for large headlines with the ubiquitous sans-serif workhorse Inter for body text demonstrates the Swiss emphasis on objective, highly readable communication. The flush-left alignment throughout, modular type scale via CSS custom properties, and restrained font weights create the mathematical clarity central to this movement.\n\nShape language reinforces this classification: geometric primitives (circular spheres in the hero), rounded containers with soft shadows, and grid-based card layouts echo Swiss Style's love of geometric order. The texture profile shows \"shadows_soft\" and subtle \"noise_grain\" overlays—adding tactile depth without breaking the clean, flat aesthetic. This is NOT Flat Design (which demands zero shadows) nor Neumorphism (which requires same-hue extruded elements).\n\nThe KEY DIFFERENTIATOR for Swiss Style is satisfied: strict grid adherence, typography as the hero, and mathematical organization. The cream/off-white background (not pure white) mimicking aged paper stock is the signature tell.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies as the secondary style due to the design's clear enterprise positioning. The restrained, neutral color palette (blacks and warm grays only), emphasis on trust signals (stats sections, \"Safety built in\"), systematic multi-column footer with legal links, and conservative visual tone all communicate reliability, competence, and professional authority. The design avoids playfulness or emotional appeal in favor of measured, objective presentation—classic corporate communication strategy. The pill-shaped black CTAs and editorial photography style further reinforce a premium B2B SaaS identity rather than a consumer-focused aesthetic."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "20px",
+          "max_width": "81.5rem"
+        },
+        "breakpoints": {
+          "mobile": "0px - 640px (1 Column, 8px gutter)",
+          "tablet": "640px - 768px (8 Columns, 16px gutter)",
+          "desktop": "768px - 1024px (12 Columns, 16px gutter)",
+          "large": "1280px+ (12 Columns, 20px gutter)"
+        },
+        "section_separation": "Sections are separated by generous vertical whitespace (--section-py-default: 5rem on mobile, 7.5rem on desktop). Some sections use subtle horizontal divider lines with small circular markers. Background remains consistent white (#FDFCFC) throughout with minimal use of alternating backgrounds. Visual separation is primarily achieved through spacing and contained rounded modules (cream-colored boxes with subtle shadows).",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│  ☰  [Logo]                              [Nav Links] ●    │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Bringing                                                │\n│  technology to life                        [Text Block]  │\n│  Watch →                                                 │\n│                                                          │\n│  ○  [Download]  ●  [Download]  ●  [Download]            │\n│                                                          │\n│  [Sphere]   [Gradient Ball]  [Red Disc]  [Dark Ball] ○  │\n│                                                          │\n│  [Caption]    [Caption]     [Caption]    [Caption]       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Creative teams around the world use Dropbox             │\n│                                                          │\n│  [Stat] [Stat] [Stat] [Stat] [Stat] [Stat] [Stat]       │\n│   ↓      ↓      ↓      ↓      ↓      ↓      ↓          │\n│  [Val]  [Val]  [Val]  [Val]  [Val]  [Val]  [Val]        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Two platforms built on the                     Explore → │\n│  same research foundation                                │\n│                                                          │\n│  ┌──────────────────────────────────────────────────┐   │\n│  │  [Dashboard/Interface Screenshot - Light Mode]    │   │\n│  │  Shows analytics or content management UI         │   │\n│  └──────────────────────────────────────────────────┘   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Create, edit, and track content         Explore →       │\n│  without breaking your workflow                          │\n│                                                          │\n│  ┌─────────────────────┐  ┌─────────────────────────┐   │\n│  │  [Orange gradient]  │  │  [Text/Content Block]   │   │\n│  │  [interface image]  │  │  [Descriptive text]     │   │\n│  │                     │  │                         │   │\n│  └─────────────────────┘  └─────────────────────────┘   │\n│                                                          │\n│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐       │\n│  │ [Feature 1] │ │ [Feature 2] │ │ [Feature 3] │       │\n│  └─────────────┘ └─────────────┘ └─────────────┘       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Deploy agents that talk,                                │\n│  see, and take action                                    │\n│                           [Text Block]          Explore → │\n│                                                          │\n│  ┌──────────────────────────────────────────────────┐   │\n│  │  [Chat Interface Screenshot - Dark/Gradient BG]  │   │\n│  │  Shows messaging UI with bubbles                  │   │\n│  └──────────────────────────────────────────────────┘   │\n│                                                          │\n│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐       │\n│  │ [Feature 1] │ │ [Feature 2] │ │ [Feature 3] │       │\n│  └─────────────┘ └─────────────┘ └─────────────┘       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Q: Build anything with                         Explore → │\n│  a powerful fleet of APIs                                │\n│                                                          │\n│  [Code/Technical Interface Screenshots]                  │\n│  [Text Blocks with Technical Details]                    │\n│                                                          │\n│  [Additional Code Snippets and Documentation]            │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Showcasing the global                                   │\n│  impact of AI audio research                    Explore → │\n│                                                          │\n│  ┌────────────┐ ┌────────────┐ ┌────────────┐          │\n│  │ [Image 1]  │ │ [Image 2]  │ │ [Image 3]  │          │\n│  │ Orange bg  │ │ Person at  │ │ Portrait   │          │\n│  │            │ │ desk       │ │ B&W        │          │\n│  └────────────┘ └────────────┘ └────────────┘          │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Research that machines                                  │\n│  can turn into wisdom              [Text Block]          │\n│                                                  Explore → │\n│                                                          │\n│  [Interface/Content Screenshots]                         │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Image 1] │ │[Image 2] │ │[Image 3] │                │\n│  │Red/Blue  │ │Purple/   │ │Green/    │                │\n│  │gradient  │ │gradient  │ │blur      │                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Safety built in                                Explore → │\n│                                                          │\n│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐       │\n│  │             │ │             │ │             │       │\n│  │  [Icon/     │ │  [Icon/     │ │  [Icon/     │       │\n│  │   Visual]   │ │   Visual]   │ │   Visual]   │       │\n│  │             │ │             │ │             │       │\n│  │ [Caption]   │ │ [Caption]   │ │ [Caption]   │       │\n│  └─────────────┘ └─────────────┘ └─────────────┘       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Latest updates                                 Explore → │\n│                                                          │\n│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐       │\n│  │             │ │             │ │             │       │\n│  │  [Image 1]  │ │  [Image 2]  │ │  [Image 3]  │       │\n│  │  Purple/    │ │  Orange/    │ │  Green/     │       │\n│  │  Pink grad  │ │  sunset     │ │  nature     │       │\n│  │             │ │             │ │             │       │\n│  │ [Title]     │ │ [Title]     │ │ [Title]     │       │\n│  │ [Date]      │ │ [Date]      │ │ [Date]      │       │\n│  └─────────────┘ └─────────────┘ └─────────────┘       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  AI Communication Platform                      Get API key │\n│                                                 ──────────  │\n│                                                 [Sign up →] │\n│                                                          │\n│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐       │\n│  │ Capabilities│ │   Company   │ │  Resources  │       │\n│  │             │ │             │ │             │       │\n│  │ [Links]     │ │  [Links]    │ │  [Links]    │       │\n│  │ [Links]     │ │  [Links]    │ │  [Links]    │       │\n│  │ [Links]     │ │  [Links]    │ │  [Links]    │       │\n│  │ [Links]     │ │  [Links]    │ │  [Links]    │       │\n│  └─────────────┘ └─────────────┘ └─────────────┘       │\n│                                                          │\n│  [Social Icons] [Legal Links]                            │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**NAV:**\n- Background: White/light gray, clean minimal design\n- Logo: Simple text logo on left\n- Buttons/CTAs: Menu hamburger (☰) on far left | Black circular button on far right\n- Colors: Black text, white background\n- Typography: Clean, modern sans-serif\n\n**HERO - Bringing technology to life:**\n- Background: Light gradient, white to pale gray\n- Text: Large bold headline \"Bringing technology to life\"\n- Buttons/CTAs: \"Watch →\" link\n- Imagery: Four spherical objects displayed horizontally - gradient sphere (colorful), red/orange disc, dark sphere, and translucent circles\n- Each sphere has download links and captions below\n- Colors: Multi-colored gradients (purple, pink, orange, red), white background\n- Typography: Large bold headline, minimal body text\n\n**STATS SECTION:**\n- Background: White/light gray\n- Layout: \"Creative teams around the world use Dropbox\" header with 7 stat columns below\n- Components: Simple text statistics in grid layout\n- Typography: Clean, organized data presentation\n\n**TWO PLATFORMS SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Imagery: Large dashboard/interface screenshot showing light mode UI with analytics\n- Colors: Soft blues, whites, clean interface colors\n- Typography: Bold section headline\n\n**CREATE, EDIT, TRACK SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Layout: Split design - large image left, text content right\n- Imagery: Orange-to-pink gradient background with interface overlay, data visualization\n- Components: Three feature cards below with icons\n- Colors: Warm oranges, coral, pink gradients\n- Typography: Medium weight headlines\n\n**DEPLOY AGENTS SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Imagery: Chat interface on gradient background (teal/green to darker tones), message bubbles visible\n- Components: Three feature cards with icons below\n- Colors: Teal, green, blue gradients\n- Typography: Bold headline, clean body text\n\n**Q: BUILD ANYTHING SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Imagery: Code snippets, technical documentation screenshots\n- Layout: Multiple text blocks with code examples\n- Colors: Monochrome code editor themes, blacks, grays\n- Typography: Monospace for code, sans-serif for descriptions\n\n**SHOWCASING GLOBAL IMPACT SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Imagery: Three images - orange gradient abstract, person at computer desk, black & white portrait\n- Components: Photo cards with rounded corners\n- Colors: Orange, natural tones, black & white\n- Typography: Clean headline\n\n**RESEARCH SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Imagery: Three gradient/abstract images - red/blue split, purple gradient, green/nature blur\n- Colors: Vibrant gradients (red, blue, purple, green)\n- Typography: Bold section title\n\n**SAFETY BUILT IN SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Components: Three icon/visual cards with captions\n- Imagery: Minimal line art/wireframe style illustrations\n- Colors: Black line art on white\n- Typography: Simple, clear captions\n\n**LATEST UPDATES SECTION:**\n- Background: White\n- Buttons/CTAs: \"Explore →\" (right-aligned)\n- Components: Three card layout with images\n- Imagery: Purple/pink gradient, orange sunset landscape, green nature/forest\n- Colors: Purple, orange, green - vibrant gradients and photos\n- Typography: Card titles and dates below images\n\n**FOOTER:**\n- Background: White/very light gray\n- Buttons/CTAs: \"Get API key\" (text link, underlined) | \"Sign up →\" (solid black button, pill-shaped)\n- Layout: Multi-column (3+ columns) with link lists\n- Sections: \"AI Communication Platform\" headline, \"Capabilities\", \"Company\", \"Resources\" columns\n- Components: Social media icons, legal links at bottom\n- Colors: Black text, white background, black CTA button\n- Typography: Organized lists, clear hierarchy",
+        "insights": [
+          "Centered, symmetric composition dominates with generous breathing room between major sections, creating a calm, premium feel.",
+          "Repeating pattern of headline + 'Explore →' CTA on the right establishes predictable visual rhythm across feature sections.",
+          "Heavy use of circular/spherical imagery and pill-shaped buttons creates a soft, approachable design language that contrasts with the technical product.",
+          "Color strategy uses vibrant gradients (orange, purple, teal, green) sparingly within cream/white containers to draw focus without overwhelming.",
+          "Grid-based cards (3-column at desktop) maintain strict alignment while carousel section breaks rhythm with organic, overlapping spheres."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The undisputed core anchor of the design, providing maximum contrast for text and primary actions.",
+              "when_to_use": [
+                "Primary CTA backgrounds (e.g., 'Sign up' and 'Play' buttons)",
+                "Main typography, including hero headings and body copy",
+                "Iconography strokes and interactive borders"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Surface Whites & Creams",
+            "type": "Light",
+            "rules": {
+              "description": "A comprehensive suite of surface colors ranging from pure white to warm cream, dictating the structural hierarchy of the page without using heavy lines.",
+              "when_to_use": [
+                "Base page background (#FDFCFC)",
+                "Large feature sections and bento box card backgrounds (#F5F3F1 'Cream')",
+                "Floating agent widgets and secondary CTA buttons (#FFFFFF)",
+                "Subtle structural dividers and borders (#EBE8E4)"
+              ]
+            },
+            "hex": "#E5E5E5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#EBE8E4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F5F3F1",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FDFCFC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F0F0F0",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFF9F5",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F5F8FF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E0DFDD",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#D7D2CC",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.6166999999999998
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Secondary Slate",
+            "type": "Warm Color",
+            "rules": {
+              "description": "The primary utility gray for establishing typographic hierarchy, keeping secondary information legible without competing with headings.",
+              "when_to_use": [
+                "Paragraph descriptions under feature headings",
+                "Footer category headers and inactive footer links",
+                "Timestamps and metadata on blog cards"
+              ]
+            },
+            "hex": "#777169",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0508
+          },
+          {
+            "name": "Tertiary Gray",
+            "type": "Warm Color",
+            "rules": {
+              "description": "A soft, low-contrast gray reserved for tertiary UI hints and disabled or subtle states.",
+              "when_to_use": [
+                "Voice carousel arrow controls (Previous/Next)",
+                "Transcript inline cues (e.g., '[sarcastically]')",
+                "Chevron icons inside form dropdowns"
+              ]
+            },
+            "hex": "#A59F97",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0042
+          },
+          {
+            "name": "Charcoal",
+            "type": "Neutral",
+            "rules": {
+              "description": "A dark charcoal gray that bridges the gap between the stark black headings and the lighter slate descriptions.",
+              "when_to_use": [
+                "Unselected but interactive tab labels (e.g., 'ElevenAgents', 'ElevenAPI')",
+                "Dense mock-UI paragraph text inside product graphics"
+              ]
+            },
+            "hex": "#44403B",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0033
+          }
+        ],
+        "insights": [
+          "Extreme Neutrality: The brand completely eschews saturated hues in its UI, relying entirely on a sophisticated spectrum of blacks, grays, and warm creams to evoke a highly premium, editorial, and enterprise-ready aesthetic.",
+          "Surface-Driven Hierarchy: Instead of relying on borders or lines to separate content, the design structures the page by alternating large background blocks (pure white vs. cream #F5F3F1), creating a soft, uninterrupted reading experience.",
+          "Strategic Contrast: Because the environment is entirely neutral, pitch-black CTA buttons carry immense visual weight. They don't need a bright color to stand out because they are the darkest elements on an otherwise light, airy page."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Waldenburg",
+              "role": "H1 Display (6xl)",
+              "specs": {
+                "size": "var(--tw-font-size-6xl)",
+                "line_height": "var(--tw-line-height-6xl)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-waldenburg)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Waldenburg",
+              "role": "H2 Display (5xl)",
+              "specs": {
+                "size": "var(--tw-font-size-5xl)",
+                "line_height": "var(--tw-line-height-5xl)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-waldenburg)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H3 Large (2xl)",
+              "specs": {
+                "size": "var(--tw-font-size-2xl)",
+                "line_height": "var(--tw-line-height-2xl)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H3 Medium (xl)",
+              "specs": {
+                "size": "var(--tw-font-size-xl)",
+                "line_height": "var(--tw-line-height-xl)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H2 / H3 Text Base (Medium)",
+              "specs": {
+                "size": "var(--tw-font-size-base)",
+                "line_height": "var(--tw-line-height-base)",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H2 / H3 Text Base (Regular)",
+              "specs": {
+                "size": "var(--tw-font-size-base)",
+                "line_height": "var(--tw-line-height-base)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H3 / H4 Small",
+              "specs": {
+                "size": "var(--tw-font-size-sm)",
+                "line_height": "var(--tw-line-height-sm)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text styles for articles, documentation, lists, and general descriptive copy.",
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Body Large (List Items)",
+              "specs": {
+                "size": "18px",
+                "line_height": "28.8px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "Inter, \"Inter Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Body Base",
+              "specs": {
+                "size": "var(--tw-font-size-base)",
+                "line_height": "var(--tw-line-height-base)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Body Small Medium",
+              "specs": {
+                "size": "var(--tw-font-size-sm)",
+                "line_height": "var(--tw-line-height-sm)",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Body Small",
+              "specs": {
+                "size": "var(--tw-font-size-sm)",
+                "line_height": "var(--tw-line-height-sm)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Body Extra Small",
+              "specs": {
+                "size": "var(--tw-font-size-xs)",
+                "line_height": "var(--tw-line-height-xs)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Small text styles utilized for micro-copy, captions, UI tags, and secondary metadata.",
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Micro / UI Label (2xs)",
+              "specs": {
+                "size": "var(--tw-font-size-2xs)",
+                "line_height": "var(--tw-line-height-2xs)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-inter)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Monospace styles designated for technical syntax, code snippets, and API references.",
+          "variants": [
+            {
+              "name": "Geist Mono",
+              "role": "Code / Monospace",
+              "specs": {
+                "size": "13px",
+                "line_height": "22px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Geist Mono\", \"Geist Mono Fallback\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "The design system includes a \".shimmer-text\" highlighting effect, achieved using a linear-gradient background (with transparent text fill via background-clip) and animated horizontally to create a dynamic shimmering effect on the text.",
+        "insights": [
+          "The typography system creates a distinct editorial but technical brand feel by pairing the custom serif \"Waldenburg\" for large display headings with the highly readable sans-serif \"Inter\" for body and UI elements.",
+          "A very robust modular scale is used through CSS custom properties (e.g., var(--tw-font-size-6xl)), allowing responsive scaling of typography while maintaining strict adherence to the design system across breakpoints.",
+          "\"Geist Mono\" is exclusively utilized for code snippets, imports, and technical terms, reinforcing a developer-centric product identity."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "shadows_soft",
+          "noise_grain"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Primary page background color (eggshell)",
+            "when_to_use": [
+              "Main page background",
+              "Body background"
+            ],
+            "hex": "#FDFCFC"
+          },
+          {
+            "name": "Cream",
+            "description": "Secondary surface color for cards and containers",
+            "when_to_use": [
+              "Card backgrounds",
+              "Panel backgrounds",
+              "Section backgrounds",
+              "Omnibox wrapper"
+            ],
+            "hex": "#F5F3F1"
+          },
+          {
+            "name": "White",
+            "description": "Pure white for elevated surfaces",
+            "when_to_use": [
+              "Button backgrounds",
+              "Modal overlays",
+              "Elevated cards",
+              "Tab indicators"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Gray 100",
+            "description": "Light gray surface (same as cream)",
+            "when_to_use": [
+              "Subtle backgrounds",
+              "Disabled states"
+            ],
+            "hex": "#F5F3F1"
+          },
+          {
+            "name": "Gray 200",
+            "description": "Medium light gray surface",
+            "when_to_use": [
+              "Dividers",
+              "Borders",
+              "Hover states"
+            ],
+            "hex": "#EBE8E4"
+          },
+          {
+            "name": "Gray 25",
+            "description": "Subtle gray surface for hover states",
+            "when_to_use": [
+              "Button hover states",
+              "Interactive element hover"
+            ],
+            "hex": "#FDFCFC"
+          },
+          {
+            "name": "Gray 50",
+            "description": "Very light gray surface",
+            "when_to_use": [
+              "Subtle backgrounds"
+            ],
+            "hex": "#FAF8F8"
+          },
+          {
+            "name": "Black",
+            "description": "Black surface for high contrast elements",
+            "when_to_use": [
+              "Primary buttons",
+              "High emphasis surfaces"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Paper",
+            "description": "Paper-like surface (same as page background)",
+            "when_to_use": [
+              "Document backgrounds",
+              "Card surfaces"
+            ],
+            "hex": "#FDFCFC"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Cream to Transparent (Right)",
+            "description": "Horizontal fade from cream to transparent, left to right",
+            "when_to_use": [
+              "Scroll fade overlays",
+              "Edge fades"
+            ],
+            "css_code": "linear-gradient(to right,var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Cream to Transparent (Left)",
+            "description": "Horizontal fade from cream to transparent, right to left",
+            "when_to_use": [
+              "Scroll fade overlays",
+              "Edge fades"
+            ],
+            "css_code": "linear-gradient(to left,var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Cream to Transparent (Top)",
+            "description": "Vertical fade from cream to transparent, bottom to top",
+            "when_to_use": [
+              "Scroll fade overlays",
+              "Bottom edge fades"
+            ],
+            "css_code": "linear-gradient(to top,var(--tw-gradient-stops))"
+          },
+          {
+            "name": "White Fade to Transparent",
+            "description": "Complex vertical white fade with multiple stops for smooth transition",
+            "when_to_use": [
+              "Overlay fades",
+              "Content area transitions"
+            ],
+            "css_code": "linear-gradient(180deg,#fff 0%,rgba(255,255,255,0.98) 16%,rgba(255,255,255,0.92) 30%,rgba(255,255,255,0.8) 44%,rgba(255,255,255,0.62) 58%,rgba(255,255,255,0.42) 71%,rgba(255,255,255,0.24) 82%,rgba(255,255,255,0.1) 91%,rgba(255,255,255,0.03) 97%,rgba(255,255,255,0))"
+          },
+          {
+            "name": "Cream Section Fade",
+            "description": "Horizontal cream gradient with solid center and transparent edges",
+            "when_to_use": [
+              "Section backgrounds",
+              "Horizontal dividers with fade"
+            ],
+            "css_code": "linear-gradient(90deg, rgba(245,243,241,0) 0%, #F5F3F1 8%, #F5F3F1 92%, rgba(245,243,241,0) 100%)"
+          }
+        ],
+        "highlights": [
+          "Noise/grain texture overlay applied to images and surfaces using image-set() with AVIF fallback and PNG backup (noise.24b8225d.png / noise@20aq.289c1f1d.avif), 50% opacity, mix-blend-overlay mode, 256px scale (128px at 2x resolution)",
+          "Soft shadows: box-shadow: 0 0 1px rgba(0,0,0,0.4), 0 1px 1px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.04) on buttons and cards",
+          "Ring borders with inset style: 0.5px ring with black/7.5% opacity for subtle borders",
+          "Pointer-event masked scrolling with linear-gradient masks for edge fades",
+          "Rounded full elements (circular avatars, buttons) with overflow hidden and noise overlay",
+          "Black opacity overlays at various levels: /5 (0.05), /7.5 (0.075), /10 (0.1), /15 (0.15), /20 (0.2) for surface depth",
+          "Backdrop blur effects implied by contextual nav and floating panels (though not explicitly shown in visible styles)"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Shadow",
+              "type": "drop",
+              "description": "Tailwind CSS ring/shadow reset value - transparent shadow placeholder",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "CSS variable default",
+                "Reset state"
+              ]
+            },
+            {
+              "name": "Button Shadow",
+              "type": "drop",
+              "description": "Multi-layer shadow for buttons and interactive elements with subtle outline (0.4 opacity black 1px blur) plus soft depth shadows (0.04 opacity)",
+              "css_value": "0 0 1px rgba(0,0,0,0.4),0 1px 1px rgba(0,0,0,0.04),0 2px 4px rgba(0,0,0,0.04)",
+              "when_to_use": [
+                "Buttons",
+                "Interactive elements",
+                "Cards",
+                "Floating action buttons"
+              ]
+            },
+            {
+              "name": "Card Shadow with Hairline",
+              "type": "drop",
+              "description": "Composite shadow with hairline border (0.5px at 8% opacity) and soft depth shadow (1.677px offset, 3.354px blur at 4% opacity)",
+              "css_value": "0 0 0 0.5px rgb(0 0 0/0.08),0 1.677px 3.354px 0 rgb(0 0 0/0.04)",
+              "when_to_use": [
+                "Cards",
+                "Elevated containers",
+                "Content panels"
+              ]
+            },
+            {
+              "name": "Hover Shadow with Cream Ring",
+              "type": "drop",
+              "description": "Hover state shadow with soft drop shadows plus 4px cream-colored focus ring for visual feedback",
+              "css_value": "0 1px 3px rgba(0,0,0,0.1),0 1px 2px -1px rgba(0,0,0,0.1),0 0 0 4px #F5F3F1",
+              "when_to_use": [
+                "Button hover states",
+                "Interactive element focus",
+                "Hover feedback"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#E5E5E5",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#EBE8E4",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D7D2CC",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F5F3F1",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "carousel",
+          "tab_switching",
+          "hover_lift",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "button-transition",
+            "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;",
+            "description": "Standard button state transition applied to all interactive buttons for smooth hover and active state changes."
+          },
+          {
+            "name": "tab-indicator-transition",
+            "css": "transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;",
+            "description": "Opacity transition for tab selection indicator backgrounds."
+          },
+          {
+            "name": "carousel-slide",
+            "css": "",
+            "description": "JS-driven carousel animation for voice cards. Cards scale and translate with easing (360ms transition-duration, ease timing function) as they move between positions. Includes opacity transitions for edge items."
+          },
+          {
+            "name": "card-hover-scale",
+            "css": "transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 200ms;",
+            "description": "Hover scale effect on voice cards with border ring appearing. Scale transitions from 0.985 to 1 with opacity change."
+          },
+          {
+            "name": "active-scale",
+            "css": "transform: scale(0.98);",
+            "description": "Active/pressed state scale transformation for buttons, providing tactile feedback on click."
+          },
+          {
+            "name": "sticky-header-slide",
+            "css": "transition-property: transform, visibility; transition-duration: 300ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);",
+            "description": "Sticky contextual navigation bar slides in from top with transform translateY and visibility transitions."
+          },
+          {
+            "name": "color-transition",
+            "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;",
+            "description": "Standard color transition for text and background color changes on interactive elements."
+          }
+        ],
+        "insights": [
+          "The design system uses a pill-shaped (rounded-full) button paradigm consistently across all interactive elements, from CTAs to tabs to icon buttons, creating strong visual cohesion.",
+          "A sophisticated tab system with three distinct states (selected, default, hover) uses white backgrounds with subtle shadows for selection, avoiding harsh borders in favor of elevation for state indication.",
+          "The carousel component employs JS-driven animations with progressive scaling and opacity changes to create depth perception, making adjacent items appear to recede into the background."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Sign up (Primary Dark)",
+            "usage": "Primary call-to-action button used in header navigation, hero sections, and contextual nav. Drives user registration.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Inter",
+                  "size": "0.875rem",
+                  "padding": "0 14px"
+                },
+                {
+                  "name": "Medium",
+                  "font": "Inter",
+                  "size": "1rem",
+                  "padding": "0 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#44403B",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Log in (Secondary Light)",
+            "usage": "Secondary action button used alongside primary CTA in header. White background with subtle shadow for elevated appearance.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Inter",
+                  "size": "0.875rem",
+                  "padding": "0 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FDFCFC",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Contact sales (Secondary Elevated)",
+            "usage": "Secondary CTA used in hero section and sticky nav. White background with box-shadow for elevated appearance.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Inter",
+                  "size": "0.875rem",
+                  "padding": "0 14px"
+                },
+                {
+                  "name": "Medium",
+                  "font": "Inter",
+                  "size": "1rem",
+                  "padding": "0 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FDFCFC",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Read all stories (Tertiary Elevated)",
+            "usage": "Tertiary action for navigating to related content. White background with subtle shadow.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "Inter",
+                  "size": "1rem",
+                  "padding": "0 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FDFCFC",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Play (Icon Button Circular)",
+            "usage": "Circular icon button for media playback controls. Centered play/pause icons within voice carousel items.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "",
+                  "size": "",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FDFCFC",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Arrow Navigation (Icon Button)",
+            "usage": "Circular navigation buttons for carousel/slider navigation. Left and right arrows.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "",
+                  "size": "",
+                  "padding": "0"
+                },
+                {
+                  "name": "Small",
+                  "font": "",
+                  "size": "",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F5F3F1",
+                "text_color": "#A59F97",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#EBE8E4",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F5F3F1",
+                "text_color": "#A59F97",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Mobile Menu (Icon Button)",
+            "usage": "Hamburger menu icon button for mobile navigation toggle.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "",
+                  "padding": "6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Horizontal button groups with primary and secondary actions side by side",
+          "spacing": "8px"
+        },
+        "links": {
+          "text_decoration": "underline on hover"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "64px",
+          "position": "relative",
+          "background": {
+            "hex": "#FDFCFC",
+            "color_reference": "Baseline/Eggshell",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Pill Tab",
+          "description": "Tabs organize content into multiple sections with pill-shaped backgrounds. Selected tabs have white background with subtle shadow, unselected tabs are transparent with gray text.",
+          "when_to_use": [
+            "Switching between product categories (ElevenCreative, ElevenAgents, ElevenAPI)",
+            "Filtering content demos (AI Voice Generator, Text to Speech, Music, etc.)",
+            "Navigation between related views within a section"
+          ],
+          "states": [
+            {
+              "name": "selected",
+              "visual_change": "White background with subtle box-shadow: 0 0 1px rgb(0 0 0 / 0.4), 0 1px 1px rgb(0 0 0 / 0.04), 0 2px 4px rgb(0 0 0 / 0.04)",
+              "background": "#FFFFFF",
+              "text": "#000000",
+              "icon": null
+            },
+            {
+              "name": "default",
+              "visual_change": "No background, gray-700 text color",
+              "background": "transparent",
+              "text": "#44403B",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Cream/gray-200 background appears on hover, text transitions to black",
+              "background": "#EBE8E4",
+              "text": "#000000",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Voice Card (Circular)",
+            "description": "Circular voice preview cards with gradient background images, play button overlay, and ring border on hover. Used in voice carousel to showcase AI voice samples.",
+            "when_to_use": [
+              "Voice library browsing",
+              "Audio preview galleries",
+              "Interactive audio showcases"
+            ]
+          },
+          {
+            "name": "Product Tab Card",
+            "description": "Tab-based product selector with icon avatars and pill-shaped backgrounds. Shows product categories like ElevenCreative, ElevenAgents, ElevenAPI.",
+            "when_to_use": [
+              "Product category navigation",
+              "Feature section switching",
+              "Demo content filtering"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Border Divider",
+            "description": "Vertical border dividers on left and right sides of container sections with decorative dot markers at intersections.",
+            "when_to_use": [
+              "Between major content sections",
+              "Creating visual separation in long-form pages"
+            ],
+            "color": "rgba(0, 0, 0, 0.05)",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Horizontal Section Divider",
+            "description": "Subtle horizontal line divider with 5% black opacity, used to separate content blocks.",
+            "when_to_use": [
+              "Between page sections",
+              "Above footer areas"
+            ],
+            "color": "rgba(0, 0, 0, 0.05)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Line Art UI Icons",
+          "description": "Thin monoline icons used for general UI navigation, actions, and features.",
+          "when_to_use": [
+            "Buttons",
+            "Navigation",
+            "Feature descriptions",
+            "Controls"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline (1.5px stroke)",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Menu Hamburger",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"tw-size-6\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"1.5\" d=\"M4 8h16M4 16h16\"></path></svg>"
+            },
+            {
+              "name": "Arrow Up Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"[&amp;_*]:[vector-effect:non-scaling-stroke] tw-flex-none tw-size-3 tw-relative tw-top-0.25\"><path d=\"M18.25 15.25V5.75M18.25 5.75H8.75M18.25 5.75L6 18\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"[&amp;_*]:[vector-effect:non-scaling-stroke] tw-size-5 tw-text-gray-400 group-hover:tw-text-black\"><path d=\"M14.5 18.25L8.25 12L14.5 5.75\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Settings Gear",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" height=\"1.5rem\" width=\"1.5rem\" class=\"tw-text-black\"><path d=\"M20.1036 14.5425C20.1987 14.0411 20.2484 13.5236 20.2484 12.9946C20.2484 10.9198 19.4831 9.02379 18.2193 7.57348M4.14844 10.4147C4.93178 8.03144 6.77094 6.12722 9.1126 5.25537M13.5407 21.1052C13.0394 21.2004 12.5219 21.2501 11.9929 21.2501C10.0389 21.2501 8.24343 20.5713 6.82952 19.4365\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><circle cx=\"12\" cy=\"5.25\" r=\"2.75\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle><path d=\"M3.69554 14.8688C5.01063 14.1096 6.69222 14.5601 7.45148 15.8752C8.21075 17.1903 7.76017 18.8719 6.44508 19.6312C5.13 20.3904 3.44841 19.9399 2.68914 18.6248C1.92988 17.3097 2.38046 15.6281 3.69554 14.8688Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M17.5471 19.6312C16.232 18.8719 15.7814 17.1903 16.5407 15.8752C17.3 14.5601 18.9816 14.1096 20.2966 14.8688C21.6117 15.6281 22.0623 17.3097 21.303 18.6248C20.5438 19.9399 18.8622 20.3904 17.5471 19.6312Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Equalizer",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" height=\"1.5rem\" width=\"1.5rem\" class=\"tw-text-black\"><path d=\"M7.75 3.75V20.25M3.75 9.75V14.25M12 7.75V16.25M16.25 5.75V18.25M20.25 9.75V14.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Thick Line Icons",
+          "description": "Heavier weight monoline icons used for prominent directional actions and interactions.",
+          "when_to_use": [
+            "Bento box links",
+            "Hover states for cards",
+            "Prominent arrows"
+          ],
+          "format": "SVG",
+          "style": "Thick Line (3px stroke)",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Arrow Up Right (Large)",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"tw-flex-none tw-size-3 tw-relative tw-top-0.25 tw-transition-opacity tw-opacity-0 can-hover:[[data-bento-link]:hover_&amp;]:tw-opacity-100 [[data-bento-link]:focus-visible_&amp;]:tw-opacity-100\"><path d=\"M18.25 15.25V5.75M18.25 5.75H8.75M18.25 5.75L6 18\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></path></svg>"
+            },
+            {
+              "name": "Arrow Up Right (Small)",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"tw-size-3 tw-absolute tw-right-0 -tw-bottom-0.25\"><path d=\"M18.25 15.25V5.75M18.25 5.75H8.75M18.25 5.75L6 18\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Solid UI Icons",
+          "description": "Filled shapes for active states, playback controls, or simple integrated marks.",
+          "when_to_use": [
+            "Media controls",
+            "Social links",
+            "Brand marks within UI"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Play Button",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"tw-size-5\"><path d=\"M20.155 10.3209L8.8365 2.99715C7.50578 2.13609 5.75 3.09128 5.75 4.67629V19.3237C5.75 20.9087 7.50577 21.8639 8.8365 21.0029L20.155 13.6791C21.373 12.891 21.373 11.109 20.155 10.3209Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "X (Twitter)",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" class=\"tw-size-4\"><path fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 2a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 12 2M4.93 4.929a.75.75 0 0 1 1.06 0l2.475 2.475a.75.75 0 1 1-1.061 1.06L4.929 5.99a.75.75 0 0 1 0-1.06m14.142 0a.75.75 0 0 1 0 1.061l-2.475 2.475a.75.75 0 0 1-1.061-1.06l2.475-2.476a.75.75 0 0 1 1.06 0M2 12.001a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 2 12m15 0a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 17 12m-1.464 3.534a.75.75 0 0 1 1.06 0l2.475 2.475a.75.75 0 0 1-1.06 1.06l-2.475-2.474a.75.75 0 0 1 0-1.06m-7.071.001a.75.75 0 0 1 0 1.06L5.99 19.073a.75.75 0 1 1-1.06-1.061l2.474-2.475a.75.75 0 0 1 1.061 0M12 17a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 12 17\"></path></svg>"
+            },
+            {
+              "name": "Discord",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.244 2.368C7.414 1.184 5 2.497 5 4.676v14.648c0 2.18 2.414 3.493 4.244 2.309l11.318-7.324c1.675-1.084 1.675-3.534 0-4.618z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Illustrative Integration Icons",
+          "description": "Large, colorful bordered icons representing integrations or decorative app features.",
+          "when_to_use": [
+            "Integration lists",
+            "Feature highlights",
+            "Bento grid items"
+          ],
+          "format": "SVG",
+          "style": "Colorful / Filled with Background",
+          "sizes": {
+            "small": "26px",
+            "medium": "54px"
+          },
+          "examples": [
+            {
+              "name": "Checkmark Green Block",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 54 54\" aria-hidden=\"true\" style=\"width:3.375rem;height:3.375rem;margin:-0.3125rem\"><path d=\"M1 27 V37 C1 53 17 53 17 53 H37 C53 53 53 37 53 37 V17 C53 1 37 1 37 1 H17 C1 1 1 17 1 17 Z\" fill=\"none\" stroke-width=\"1.5\" stroke=\"#76B900\" stroke-linecap=\"round\" opacity=\"1\" visibility=\"hidden\" pathLength=\"1\" stroke-dashoffset=\"0\" stroke-dasharray=\"0 1\" style=\"transform:rotate(90deg) scale(1, -1)\"></path><rect width=\"44\" height=\"44\" x=\"5\" y=\"5\" rx=\"12\" fill=\"#76B900\"></rect></svg>"
+            },
+            {
+              "name": "Stripe Logo Block",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\" width=\"1.625rem\" height=\"1.625rem\"><rect width=\"20\" height=\"20\" x=\"3\" y=\"3\" fill=\"#635bff\" rx=\"10\"></rect><path fill=\"#f5f3f1\" d=\"M12.377 11.223c0-.376.31-.521.82-.521.735 0 1.662.222 2.395.618V9.05a6.4 6.4 0 0 0-2.394-.444c-1.96 0-3.263 1.023-3.263 2.732 0 2.665 3.668 2.24 3.668 3.389 0 .444-.386.589-.926.589-.802 0-1.825-.328-2.636-.772v2.297c.898.387 1.805.55 2.636.55 2.008 0 3.388-.994 3.388-2.722-.01-2.877-3.688-2.365-3.688-3.447\"></path></svg>"
+            },
+            {
+              "name": "Deliveroo Color Block",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 54 54\" aria-hidden=\"true\" style=\"width:3.375rem;height:3.375rem;margin:-0.3125rem\"><path d=\"M1 27 V37 C1 53 17 53 17 53 H37 C53 53 53 37 53 37 V17 C53 1 37 1 37 1 H17 C1 1 1 17 1 17 Z\" fill=\"none\" stroke-width=\"1.5\" stroke=\"#00CCBC\" stroke-linecap=\"round\" opacity=\"1\" visibility=\"hidden\" pathLength=\"1\" stroke-dashoffset=\"0\" stroke-dasharray=\"0 1\" style=\"transform:rotate(90deg) scale(1, -1)\"></path><rect width=\"44\" height=\"44\" x=\"5\" y=\"5\" rx=\"12\" fill=\"#00CCBC\"></rect></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/favicon.ico",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/favicon.ico",
+            "origin_url": "https://elevenlabs.io/favicon.ico?9c55860cee08706b",
+            "description": "ElevenLabs Favicon ICO"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/favicon.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/favicon.svg",
+            "origin_url": "https://elevenlabs.io/icon.svg?c23f5371fdd26632",
+            "description": "ElevenLabs Favicon SVG"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/favicon.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/favicon.png",
+            "origin_url": "https://elevenlabs.io/apple-icon.png?6592732ab34b1d42",
+            "description": "ElevenLabs Apple Touch Icon"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-2.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/nvidia.svg",
+            "description": "NVIDIA Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-5.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-5.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/00bymowm0db5b-clay.svg",
+            "description": "Clay Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-3.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/duolingo.svg",
+            "description": "Duolingo Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-4.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-4.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/deliveroo.svg",
+            "description": "Deliveroo Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/meesho.svg",
+            "description": "Meesho Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-8.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-8.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/cars24.svg",
+            "description": "Cars24 Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-7.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-7.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/nvidia-1.svg",
+            "description": "NVIDIA Partner Logo Alternate"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-6.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/logos/secondary-6.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/deutsche-telekom-1.svg",
+            "description": "Deutsche Telekom Partner Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/open-graph-image.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/open-graph-image.png",
+            "origin_url": "https://elevenlabs.io/cover.png",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "ElevenCreative Abstract Visual",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevencreative-abstract-visual.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevencreative-abstract-visual.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Feleven-creative.f5fbfcf5.png&w=3840&q=80",
+            "usage_context": "Feature section visual representation for ElevenCreative platform."
+          },
+          {
+            "name": "ElevenAgents Abstract Visual",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenagents-abstract-visual.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenagents-abstract-visual.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Feleven-agents.d9236159.png&w=3840&q=80",
+            "usage_context": "Feature section visual representation for ElevenAgents platform."
+          },
+          {
+            "name": "ElevenAPI Abstract Visual",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenapi-abstract-visual.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenapi-abstract-visual.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Feleven-api.6fcc2b4f.png&w=3840&q=80",
+            "usage_context": "Feature section visual representation for ElevenAPI."
+          },
+          {
+            "name": "Decorative 3D Orb 9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-9.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-9.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fcreative-9.e00adc24.png&w=3840&q=80",
+            "usage_context": "Decorative background element for feature cards."
+          },
+          {
+            "name": "Decorative 3D Orb 5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-5.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-5.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fcreative-5.f21107e1.png&w=3840&q=80",
+            "usage_context": "Decorative background element for feature cards."
+          },
+          {
+            "name": "Decorative 3D Orb 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-1.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-1.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fcreative-1.be8a6b68.png&w=3840&q=80",
+            "usage_context": "Decorative background element for feature cards."
+          },
+          {
+            "name": "Decorative 3D Orb 4",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-4.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-4.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fcreative-4.60676b95.png&w=3840&q=80",
+            "usage_context": "Decorative background element for feature cards."
+          },
+          {
+            "name": "Decorative 3D Orb 8",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-8.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-8.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fcreative-8.2ab723e3.png&w=3840&q=80",
+            "usage_context": "Decorative background element for feature cards."
+          },
+          {
+            "name": "Decorative 3D Orb 3",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-3.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/decorative-3d-orb-3.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fcreative-3.04cea590.png&w=3840&q=80",
+            "usage_context": "Decorative background element for feature cards."
+          },
+          {
+            "name": "ElevenCreative App Interface",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevencreative-app-interface.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevencreative-app-interface.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fyfzxw4iha5-eleven-creative.webp&w=3840&q=80",
+            "usage_context": "ElevenCreative app interface showing options for voiceover, flow creation, and voice cloning."
+          },
+          {
+            "name": "ElevenAgents App Interface",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenagents-app-interface.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenagents-app-interface.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Forh9rtvqrrf-eleven-agents.webp&w=3840&q=80",
+            "usage_context": "ElevenAgents app interface showing call statistics and two high severity alerts on error and resolution rates."
+          },
+          {
+            "name": "Bento Orange Blue Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/bento-orange-blue-graphic.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/bento-orange-blue-graphic.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fredchdw2op-bento-orange-blue-2%403x.webp&w=3840&q=80",
+            "usage_context": "Abstract bento card background element."
+          },
+          {
+            "name": "Frame Layout Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/frame-layout-graphic.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/frame-layout-graphic.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fframe%403x.8b34383e.png&w=3840&q=90",
+            "usage_context": "UI frame illustration for the platform features."
+          },
+          {
+            "name": "Timeline Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/timeline-graphic.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/timeline-graphic.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Ftimeline%403x.2d3b8b24.png&w=3840&q=90",
+            "usage_context": "Timeline illustration indicating audio and agent flows."
+          },
+          {
+            "name": "US Flag Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/us-flag-icon.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/us-flag-icon.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/images/flags/circle-flags/us.svg",
+            "usage_context": "Circle flag icon used to indicate English/US language selection."
+          },
+          {
+            "name": "Voice Background 04",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/voice-background-04.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/voice-background-04.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2FVoice%20BG%2004.0d9fd817.png&w=3840&q=80",
+            "usage_context": "Abstract sound wave background for voice features."
+          },
+          {
+            "name": "Abstract Background 7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/abstract-background-7.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/abstract-background-7.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fgmhm1kxxzgd-Background7.webp&w=3840&q=80",
+            "usage_context": "Background texture for platform sections."
+          },
+          {
+            "name": "Scribe Speech-to-Speech API",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/scribe-speech-to-speech-api.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/scribe-speech-to-speech-api.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fspeech-to-speech-api.webp&w=3840&q=80",
+            "usage_context": "Product visualization for the Speech-to-Speech Scribe API."
+          },
+          {
+            "name": "Nvidia Showcase Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/nvidia-showcase-background.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/nvidia-showcase-background.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fqrihua4053-nvida-bg.webp&w=3840&q=80",
+            "usage_context": "Background image for the Nvidia showcase card."
+          },
+          {
+            "name": "Dali Showcase Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/dali-showcase-image.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/dali-showcase-image.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fxuo8mc9lweg-dali.webp&w=3840&q=80",
+            "usage_context": "Thumbnail image for Dali use case showcase."
+          },
+          {
+            "name": "Ukraine Showcase Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/ukraine-showcase-image.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/ukraine-showcase-image.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fc26lff3ikup-ukraine.webp&w=3840&q=80",
+            "usage_context": "Thumbnail image for Ukraine localized voiceover showcase."
+          },
+          {
+            "name": "Matthew McConaughey Showcase",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/matthew-mcconaughey-showcase.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/matthew-mcconaughey-showcase.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2F3egcmfadw3h-matthew-mcconaughey.webp&w=3840&q=80",
+            "usage_context": "Thumbnail image for Matthew McConaughey voice showcase."
+          },
+          {
+            "name": "Deutsche Telekom Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/deutsche-telekom-background.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/deutsche-telekom-background.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2F7ga82q8pxzm-deutsche-telekom-bg.webp&w=3840&q=80",
+            "usage_context": "Background image for the Deutsche Telekom showcase card."
+          },
+          {
+            "name": "Eric Dane Showcase",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/eric-dane-showcase.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/eric-dane-showcase.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fmbvy2yvrs5d-Eric%20Dane%20_1080x1080.webp&w=3840&q=80",
+            "usage_context": "Thumbnail image for Eric Dane voice showcase."
+          },
+          {
+            "name": "Purple Blue Gradient Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/purple-blue-gradient-background.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/purple-blue-gradient-background.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fpurpleblue.7b1b4a1a.webp&w=3840&q=50",
+            "usage_context": "Abstract purple and blue gradient background"
+          },
+          {
+            "name": "Green Gradient Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/green-gradient-background.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/green-gradient-background.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fgreen.9f6a4e17.webp&w=3840&q=50",
+            "usage_context": "Abstract green gradient background"
+          },
+          {
+            "name": "Safety Moderation Graphic",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/safety-moderation-graphic.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/safety-moderation-graphic.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/safety-moderation.svg",
+            "usage_context": "Wireframe illustration denoting safety moderation features."
+          },
+          {
+            "name": "Safety Accountability Graphic",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/safety-accountability-graphic.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/safety-accountability-graphic.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/safety-accountability.svg",
+            "usage_context": "Wireframe illustration denoting safety accountability features."
+          },
+          {
+            "name": "Safety Provenance Graphic",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/safety-provenance-graphic.svg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/illustration/safety-provenance-graphic.svg",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/safety-provenance.svg",
+            "usage_context": "Wireframe illustration denoting safety provenance features."
+          },
+          {
+            "name": "Introducing Flows Blog Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/introducing-flows-blog-cover.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/introducing-flows-blog-cover.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fklynektbpi-BlogCover7.jpg&w=3840&q=80",
+            "usage_context": "Cover image for the 'Introducing Flows' blog post."
+          },
+          {
+            "name": "ElevenLabs for Government Blog Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenlabs-for-government-blog-cover.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/elevenlabs-for-government-blog-cover.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2FCover0.jpg&w=3840&q=80",
+            "usage_context": "Cover image for the 'ElevenLabs for Government' blog post."
+          },
+          {
+            "name": "Expressive Mode Blog Cover",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/expressive-mode-blog-cover.jpg",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/expressive-mode-blog-cover.jpg",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2FBlogCover10.jpg&w=3840&q=80",
+            "usage_context": "Cover image for the 'Expressive Mode' blog post."
+          },
+          {
+            "name": "Agents UI Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/agents-ui-graphic.png",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/agents-ui-graphic.png",
+            "origin_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fmarketing_website%2F_next%2Fstatic%2Fmedia%2Fagents-2.9a229117.png&w=3840&q=80",
+            "usage_context": "Decorative UI visualization for ElevenAgents."
+          },
+          {
+            "name": "Noise Texture Overlay",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/site-assets/media/image/noise-texture-overlay.avif",
+            "path": "87515297-c818-4f66-8784-63476d152162/site-assets/media/image/noise-texture-overlay.avif",
+            "origin_url": "https://eleven-public-cdn.elevenlabs.io/marketing_website/_next/static/media/noise@20aq.289c1f1d.avif",
+            "usage_context": "Overlay texture pattern used for website backgrounds."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal centered with left logo and right CTAs",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "ElevenLabs logo on the left, black SVG icon"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal menu with tabs: Products, Solutions, Customers, Resources, Enterprise, Pricing"
+            },
+            {
+              "type": "button",
+              "description": "White 'Log in' button with shadow"
+            },
+            {
+              "type": "button",
+              "description": "Black 'Sign up' button with white text"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Split 50/50 - headline left, descriptive text right",
+          "headline": "Bringing technology to life",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Sign up' button, black background with white text"
+            },
+            {
+              "type": "button",
+              "description": "'Contact sales' button, white background with shadow"
+            },
+            {
+              "type": "button",
+              "description": "'Watch →' link in headline area"
+            }
+          ]
+        },
+        {
+          "type": "Product Tabs Section",
+          "layout_pattern": "Centered carousel with tabbed navigation",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Horizontal pill tabs - ElevenCreative (active), ElevenAgents, ElevenAPI with small product icons"
+            },
+            {
+              "type": "navigation",
+              "description": "Sub-tabs: AI Voice Generator, Text to Speech, Music, Speech to Text, Voice Cloning, Dubbing"
+            },
+            {
+              "type": "carousel",
+              "description": "Circular image carousel displaying 5+ spherical product images with colorful gradients (purple, orange, red, blue, dark)"
+            },
+            {
+              "type": "image",
+              "description": "Sphere images with gradient overlays - each has download links and captions underneath"
+            },
+            {
+              "type": "button",
+              "description": "Play button overlays on sphere images, white circular buttons with play icons"
+            },
+            {
+              "type": "button",
+              "description": "Left/right navigation arrows for carousel, gray circular buttons"
+            }
+          ]
+        },
+        {
+          "type": "Social Proof / Stats",
+          "layout_pattern": "Centered headline with horizontal stat grid below",
+          "headline": "Trusted by leading developers and enterprises",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Read all stories' button, white with shadow, positioned top right"
+            },
+            {
+              "type": "card",
+              "description": "7 statistic cards arranged horizontally with labels and values"
+            }
+          ]
+        },
+        {
+          "type": "Two Platforms Section",
+          "layout_pattern": "Centered with large image preview",
+          "headline": "Two platforms built on the same research foundation",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "image",
+              "description": "Dashboard/interface screenshot showing light mode analytics UI with soft blues and whites"
+            }
+          ]
+        },
+        {
+          "type": "Features - Create/Edit/Track",
+          "layout_pattern": "Split layout - large image left, text content right, 3-column feature cards below",
+          "headline": "Create, edit, and track content without breaking your workflow",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "image",
+              "description": "Orange-to-pink gradient interface screenshot with data visualization overlay"
+            },
+            {
+              "type": "card",
+              "description": "Three feature cards with icons below main image"
+            }
+          ]
+        },
+        {
+          "type": "Features - Deploy Agents",
+          "layout_pattern": "Centered with chat interface preview and 3-column feature cards",
+          "headline": "Deploy agents that talk, see, and take action",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "image",
+              "description": "Chat interface screenshot on teal-to-green gradient background with message bubbles"
+            },
+            {
+              "type": "card",
+              "description": "Three feature cards with icons displayed in a row"
+            }
+          ]
+        },
+        {
+          "type": "Developer / API Section",
+          "layout_pattern": "Centered with code examples and technical documentation",
+          "headline": "Q: Build anything with a powerful fleet of APIs",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "image",
+              "description": "Code editor screenshots with monochrome syntax highlighting"
+            },
+            {
+              "type": "image",
+              "description": "Technical documentation snippets with code examples"
+            }
+          ]
+        },
+        {
+          "type": "Impact Showcase",
+          "layout_pattern": "Grid 3-column with image cards",
+          "headline": "Showcasing the global impact of AI audio research",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "image",
+              "description": "Three rounded image cards - orange gradient abstract, person at desk, black & white portrait"
+            }
+          ]
+        },
+        {
+          "type": "Research Section",
+          "layout_pattern": "Centered with 3-column gradient image grid",
+          "headline": "Research that machines can turn into wisdom",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "image",
+              "description": "Three gradient/abstract images - red/blue split, purple gradient, green/nature blur"
+            }
+          ]
+        },
+        {
+          "type": "Safety Section",
+          "layout_pattern": "Grid 3-column with icon cards",
+          "headline": "Safety built in",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "card",
+              "description": "Three cards with minimal line art/wireframe illustrations and captions"
+            }
+          ]
+        },
+        {
+          "type": "Blog / Updates",
+          "layout_pattern": "Grid 3-column card layout",
+          "headline": "Latest updates",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Explore →' link positioned top right"
+            },
+            {
+              "type": "card",
+              "description": "Three blog cards with gradient/photo images - purple/pink, orange sunset, green nature - with titles and dates"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid with 3 main sections plus legal/social",
+          "headline": "AI Communication Platform",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Get API key' text link with underline"
+            },
+            {
+              "type": "button",
+              "description": "'Sign up →' solid black pill button"
+            },
+            {
+              "type": "navigation",
+              "description": "Three columns: Capabilities, Company, Resources with link lists"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons at bottom"
+            },
+            {
+              "type": "navigation",
+              "description": "Legal links at bottom"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "87515297-c818-4f66-8784-63476d152162/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "87515297-c818-4f66-8784-63476d152162/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "87515297-c818-4f66-8784-63476d152162/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "87515297-c818-4f66-8784-63476d152162/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "87515297-c818-4f66-8784-63476d152162/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

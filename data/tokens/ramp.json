@@ -1,0 +1,574 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: icons, brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Clean White",
+      "type": "Light",
+      "rules": {
+        "description": "Forms the primary structural foundation of the design, maximizing readability and allowing vibrant accents to pop.",
+        "when_to_use": [
+          "Main page background",
+          "Card and container surfaces",
+          "Negative space in typography"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Electric Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "Serves as the primary brand color, driving user action and drawing attention to key interactive elements.",
+        "when_to_use": [
+          "Primary CTA buttons",
+          "Active text links",
+          "Key iconography and highlights"
+        ]
+      },
+      "hex": "#0066FF",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Neon Lime",
+      "type": "Light",
+      "rules": {
+        "description": "Acts as a high-contrast secondary accent to inject energy and highlight special features against dark or blue elements.",
+        "when_to_use": [
+          "Promotional badges and tags",
+          "Secondary button backgrounds",
+          "Highlight text markers"
+        ]
+      },
+      "hex": "#E4F222",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Charcoal Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Anchors the typography and dark structural elements, ensuring high legibility and sharp contrast.",
+        "when_to_use": [
+          "Primary body text and headings",
+          "Footer background",
+          "Dark inverted section backgrounds"
+        ]
+      },
+      "hex": "#1A1919",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#0C0A08",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 2,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "System Sans",
+      "role": "Toast Title",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.5",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "System/Browser"
+      },
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter",
+      "role": "Fides Banner Title",
+      "specs": {
+        "size": "var(--fides-banner-font-size-title)",
+        "line_height": "1.5em",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Inter",
+      "role": "Fides Modal Title",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-title)",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Headline XL",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Headline L",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Headline M",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Headline S",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Headline XS",
+      "specs": {
+        "size": "20px",
+        "line_height": "24px",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "System Sans",
+      "role": "Toast Description",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "System/Browser"
+      },
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Inter",
+      "role": "Overlay Modal/Banner Body",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-body)",
+        "line_height": "1.4em",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Body XL",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Body L",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Body M",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Body S",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "System Sans",
+      "role": "Toast Button",
+      "specs": {
+        "size": "12px",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "System/Browser"
+      },
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Banner Button",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-buttons)",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Overlay Attribution",
+      "specs": {
+        "size": "var(--11px)",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "GPC Label",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-body)",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Notice Badge",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-body-small)",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Body XS",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Micro Copy / Metrics",
+      "specs": {
+        "size": "10px",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Input Field Label",
+      "specs": {
+        "size": "15px",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Lausanne",
+      "role": "Button Label (Adjusted)",
+      "specs": {
+        "size": "",
+        "line_height": ".675rem",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Self-hosted"
+      },
+      "technical": {
+        "font_family_css": "Lausanne",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Vendor Details Table Data",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-body-small)",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "others"
+    },
+    {
+      "name": "Inter",
+      "role": "Paging Info",
+      "specs": {
+        "size": "var(--fides-overlay-font-size-body-small)",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter,sans-serif",
+        "file_url": ""
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "24px",
+    "max_width": "1440px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 16px padding)",
+    "tablet": "769px - 1024px (Responsive grid, 24px padding)",
+    "desktop": "1025px - 1440px (12 Columns, 32px padding, max-w-screen-2xl)",
+    "large": "1441px+ (12 Columns, 64px padding, max-w-screen-2xl)"
+  }
+}

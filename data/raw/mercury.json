@@ -1,0 +1,2249 @@
+{
+  "company": "Mercury",
+  "rank": 16,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://mercury.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:51:13.711403Z",
+  "completed_at": "2026-10-06T07:33:29.968243Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Mercury",
+        "tagline": null,
+        "source_url": "https://mercury.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Fintech / Business Banking",
+        "primary_purpose": "Drive signups for business banking accounts and showcase Mercury's full-stack financial platform for startups and businesses",
+        "main_cta": "Open account",
+        "copy_tone": [
+          "Confident",
+          "Sophisticated",
+          "Direct"
+        ],
+        "brand_signature": "Mercury employs a refined dark neutral palette with deep purples and muted grays, creating a premium yet approachable fintech aesthetic. The visual system balances editorial sophistication through custom Arcadia typography with functional clarity in UI elements, unified by subtle gradient treatments and frosted glass effects.",
+        "visual_language": {
+          "keywords": [
+            "premium",
+            "editorial",
+            "refined",
+            "institutional",
+            "tech-forward"
+          ],
+          "accent_strategy": "Purple-blue primary accent (#5266eb) used sparingly for CTAs and interactive elements against dark neutral backgrounds, creating visual hierarchy without overwhelming the sophisticated palette",
+          "highlights": "Frosted glass surfaces with subtle transparency layers, gradient overlays on hero imagery, and soft glow effects that suggest depth and dimension"
+        },
+        "strategy": {
+          "target_audience": [
+            "Startup founders and entrepreneurs seeking modern banking infrastructure",
+            "Finance leaders at growth-stage companies needing treasury and spend management",
+            "Tech-savvy business operators who value design and user experience in financial tools"
+          ],
+          "executive_synthesis": "Mercury's visual identity strategically positions the brand as the premium banking choice for ambitious companies. The dark, sophisticated palette with refined purple accents signals institutional credibility while maintaining the approachability that startups expect. The editorial typography and clean component design create trust through perceived quality, while the comprehensive product ecosystem (banking, cards, accounting, treasury) is organized through clear visual hierarchy. The 'Radically different banking' hero messaging paired with the polished aesthetic creates contrast with traditional banking, appealing to founders who see their financial stack as an extension of their company's sophistication."
+        },
+        "style_classification": {
+          "primary_style": "Glassmorphism",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The texture profile is the definitive signal here: \"glass_blur\" and \"shadows_soft\" are the PRIMARY texture classifications, which directly maps to Glassmorphism in the taxonomy. The forensic evidence is overwhelming:\n\n**Shape + Texture Match (Primary Signal):**\n- Texture explicitly lists \"backdrop-filter: blur(20px)\", \"backdrop-filter: blur(10px)\", and \"backdrop-filter: blur(6px)\" - the defining technical signature of Glassmorphism\n- \"Frosted border effects: 1px borders with #70739338 (frosted color with 22% opacity) on glass surfaces\" - classic glassmorphism treatment\n- Multiple \"Glass Panel\" and \"Surface Frosted\" surfaces defined with transparency (#7073931A = 10% opacity)\n- \"Feathered blur masks\" creating composite gradient fades\n\n**Color Palette Match:**\n- Cool colors dominating: deep blues (#171721), purples (#5266EB), and soft neutrals\n- Pastel-adjacent surface colors (#F5F4FD purple tint, #EEF7FA blue tint)\n- Low contrast, refined palette with subtle transparency variations\n\n**Typography Match:**\n- Clean sans-serif modern (Arcadia) as primary\n- Geometric, refined display typography with variable weights (360, 420, 480)\n- Editorial serif (Tiempos Fine) for accent - adding sophistication\n\n**Layout Match:**\n- Generous whitespace with centered symmetric composition\n- Grid-based strict with 16 columns and 32px gutters\n- Rounded corners (0.75rem to 2rem) throughout - soft geometric shapes\n\n**Visual Evidence from Screenshot:**\n- Dramatic mountain landscape hero with frosted overlays\n- Dark UI product mockups floating on light backgrounds with soft shadows\n- Layered depth with transparency effects visible throughout\n- Premium, sophisticated aesthetic with refined surfaces",
+          "secondary_style": "Elegant",
+          "reasoning_secondary": "The Elegant tonal modifier is strongly justified by the design's execution and intent:\n\n**Luxury Indicators:**\n- Proprietary, custom variable fonts (Arcadia family) with hyper-specific weights (360, 420, 480) - not standard web fonts\n- Serif editorial accent (Tiempos Fine) for sophisticated moments\n- Dramatic landscape photography with moody, aspirational lighting\n- Premium product imagery (MacBook Pro mockups, metal card renders)\n\n**Refinement Signals:**\n- Extreme attention to spacing (72px, 112px, 128px padding scales)\n- Subtle frosted borders rather than harsh lines\n- Soft shadow systems with multiple layered shadows\n- Muted, sophisticated color palette avoiding bright/garish tones\n\n**Brand Positioning:**\n- \"Radically different banking\" - premium fintech positioning\n- Press logos (CNBC, Fortune, WSJ) suggesting establishment credibility\n- Dark theme sections for security features conveying trust and exclusivity\n\nThe design achieves \"quality, refined, understated\" - the exact definition of Elegant in the taxonomy. It's Glassmorphism executed with premium fintech sensibility rather than playful tech aesthetics."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 16,
+          "gutter": "32px",
+          "max_width": "1952px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 640px (1 Column, 32px gutter)",
+          "tablet": "640px - 1024px (8 Columns, 32px gutter)",
+          "desktop": "1024px - 1536px (16 Columns, 32px gutter)",
+          "large": "1536px+ (16 Columns, 32px gutter)"
+        },
+        "section_separation": "Alternating light (neutral-base-0, neutral-base-100) and dark (neutral-base-950, purple-base-1000) backgrounds create strong visual separation. Sections transition from light hero to dark security/footer blocks. Generous vertical padding (gap-2xl: 72px, gap-3xl: 112px, layout-padding-xl: 128px) provides breathing room. Frosted borders (border-frosted: rgba(112,115,147,0.22)) subtly divide content within sections.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                         [HEADER NAV]                     │\n│  [Logo]        [Links...]              [Sign in] [→]    │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                      [HERO SECTION]                      │\n│                  Radically different banking             │\n│                     [Headline text]                      │\n│                    [Get early access]                    │\n│                                                          │\n│              [Bench on mountain landscape]               │\n│                    [Product preview]                     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                  [LAPTOP MOCKUP SECTION]                 │\n│                                                          │\n│            ┌─────────────────────────────┐               │\n│            │   [MacBook Pro Display]     │               │\n│            │  [Banking Interface Dark]   │               │\n│            └─────────────────────────────┘               │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                   [PERSON/LIFESTYLE]                     │\n│         ┌──────────────────────────┐                     │\n│         │  [Person in interior]    │                     │\n│         │  [Text overlay]          │                     │\n│         └──────────────────────────┘                     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                  [TWO COLUMN FEATURE]                    │\n│  ┌─────────────────────┐  ┌─────────────────────┐        │\n│  │ [Card interface]    │  │  [Description text] │        │\n│  │ [Dark card mockup]  │  │                     │        │\n│  └─────────────────────┘  └─────────────────────┘        │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                 [SPENDING FEATURES GRID]                 │\n│  ┌─────────────────────┐  ┌─────────────────────┐        │\n│  │ [Spending UI]       │  │ [Spending UI]       │        │\n│  │ [Chart/Interface]   │  │ [Timeline view]     │        │\n│  └─────────────────────┘  └─────────────────────┘        │\n│                                                          │\n│  ┌─────────────────────┐  ┌─────────────────────┐        │\n│  │ [Feature detail]    │  │ [Feature detail]    │        │\n│  └─────────────────────┘  └─────────────────────┘        │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                    [TESTIMONIAL QUOTE]                   │\n│              \"We can only see a short distance            │\n│               ahead, but we can see plenty...\"           │\n│                   - Alan Turing                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│              [ROAD/JOURNEY VISUAL SECTION]               │\n│  [Left text]              ┌──────────────────┐           │\n│  [Description]            │  [Highway image] │           │\n│                           │  [Vanishing pt]  │           │\n│  [Stats/metrics]          └──────────────────┘           │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                [CIRCULAR PRODUCT FEATURE]                │\n│         ┌──────────────────┐      ┌──────────────┐       │\n│         │  [Concentric      │      │ [Feature     │       │\n│         │   circles/dial]   │      │  bullets]    │       │\n│         │  [Product shot]   │      │ [Text list]  │       │\n│         └──────────────────┘      └──────────────┘       │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                [BUSINESS FEATURES SECTION]               │\n│              \"Run your business like a combined you\"     │\n│                                                          │\n│  ┌─────────────────────┐  ┌─────────────────────┐        │\n│  │ [Wave visual]       │  │ [Chat/message UI]   │        │\n│  │ [Product mockup]    │  │ [Interface preview] │        │\n│  └─────────────────────┘  └─────────────────────┘        │\n│                                                          │\n│  ┌─────────────────────┐  ┌─────────────────────┐        │\n│  │ [Expense tracking]  │  │ [Dark card UI]      │        │\n│  │ [Interface detail]  │  │ [Feature showcase]  │        │\n│  └─────────────────────┘  └─────────────────────┘        │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                    [CENTRAL MESSAGE]                     │\n│            \"You're creating something to                 │\n│             stand the test of time. So are we.\"          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                [SECURITY FEATURES GRID]                  │\n│         \"Designed to protect every detail.               │\n│              Mercury meets...\"                           │\n│                                                          │\n│  ┌─────────┐    ┌──────────┐    ┌──────────┐            │\n│  │ [Phone] │    │[Biometric│    │ [Premium]│            │\n│  │ [Mobile]│    │  print]  │    │ [Material│            │\n│  │ [Stack] │    │ [Scan UI]│    │  card]   │            │\n│  └─────────┘    └──────────┘    └──────────┘            │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                   [PRESS/LOGO SECTION]                   │\n│    ┌──────┐      ┌──────┐      ┌──────┐                 │\n│    │ CNBC │      │FORTUNE│      │ WSJ  │                 │\n│    └──────┘      └──────┘      └──────┘                 │\n│    [Quote]       [Quote]        [Quote]                 │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                  [INFO CARDS SECTION]                    │\n│  ┌─────────────────────┐  ┌─────────────────────┐        │\n│  │ What is it?         │  │ What's the pledge?  │        │\n│  │ [Description...]    │  │ [Description...]    │        │\n│  └─────────────────────┘  └─────────────────────┘        │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                    [FOOTER - Multi-col]                  │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐    │\n│  │ Product  │ │ Company  │ │ Learn    │ │ Contact  │    │\n│  │ [Links]  │ │ [Links]  │ │ [Links]  │ │ [Links]  │    │\n│  │ ...      │ │ ...      │ │ ...      │ │ ...      │    │\n│  │          │ │          │ │          │ │          │    │\n│  └──────────┘ └──────────┘ └──────────┘ └──────────┘    │\n│                                                          │\n│  [Social icons]  [Legal links]  [Copyright]              │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                   [LEGAL DISCLAIMER]                     │\n│                  [Fine print text...]                    │\n│                  [Multiple paragraphs]                   │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER NAV:\n- Background: Dark blue/purple gradient with transparency\n- Buttons/CTAs: \"Sign in\" (text link, white) | \"→\" (arrow icon button, subtle)\n- Colors: Deep blue/purple, white text\n- Typography: Clean, modern sans-serif\n\nHERO SECTION:\n- Background: Dramatic mountain landscape photography with dark stormy sky\n- Imagery: Photorealistic outdoor scene with wooden bench, moody atmospheric lighting\n- Buttons/CTAs: \"Get early access\" (solid button, bright blue/purple gradient)\n- Colors: Deep blues, purples, natural earth tones\n- Typography: Large bold headline, elegant serif or modern sans\n\nLAPTOP MOCKUP SECTION:\n- Background: Continuation of mountain landscape, softer focus\n- Imagery: MacBook Pro mockup showing dark-themed banking interface\n- Product shot: Realistic 3D render, perspective view\n- Colors: Dark UI (navy/black), accent purples/blues\n- Interface shows: Transaction list, dark mode design\n\nPERSON/LIFESTYLE:\n- Background: Warm interior scene\n- Imagery: Person in casual setting, lifestyle photography\n- Treatment: Soft natural lighting, authentic moment\n- Colors: Warm neutrals, browns, soft whites\n- Text overlay on image\n\nTWO COLUMN FEATURE:\n- Background: Light neutral (white/off-white)\n- Left: Card/product mockup with dark interface\n- Right: Text description area\n- Card treatment: Subtle shadow, rounded corners\n- Colors: Dark card UI contrasting with light background\n\nSPENDING FEATURES GRID:\n- Background: Alternating light sections\n- Components: Multiple UI mockups showing spending interfaces\n- Imagery: Charts, timelines, transaction views\n- Cards: Clean borders, organized grid layout\n- Colors: Blues, purples, white backgrounds\n- Interface style: Modern fintech app design\n\nTESTIMONIAL QUOTE:\n- Background: Light/white\n- Typography: Large serif quote, centered\n- Attribution: Alan Turing\n- Mood: Inspirational, philosophical\n- Colors: Dark text on light background\n\nROAD/JOURNEY VISUAL:\n- Background: Split layout - text left, image right\n- Imagery: Highway/road vanishing to horizon, minimalist\n- Photo treatment: Cool tones, atmospheric perspective\n- Colors: Blues, grays, whites (ethereal quality)\n- Symbolism: Journey, forward movement, clarity\n\nCIRCULAR PRODUCT FEATURE:\n- Background: White/light neutral\n- Left: Concentric circular product shot (dial/interface element)\n- Right: Feature bullet list\n- Product imagery: 3D rendered, precise, centered\n- Colors: White, gray, subtle gradients\n- Design: Minimal, clean, technical precision\n\nBUSINESS FEATURES SECTION:\n- Background: Light sections with product mockups\n- Imagery: Mix of abstract waves and interface screenshots\n- Left top: Flowing wave visual (smooth, organic 3D)\n- Components: Chat UI, expense tracking, dark card interfaces\n- Colors: Blues, purples, blacks, whites\n- Layout: 2x2 grid of features with descriptions\n\nCENTRAL MESSAGE:\n- Background: Dark (navy/black)\n- Typography: Large centered quote, bold\n- Colors: White text on dark\n- Mood: Confident, timeless, serious\n- Minimal design, maximum impact\n\nSECURITY FEATURES GRID:\n- Background: Very dark (black/deep navy)\n- Imagery: Three distinct visuals\n  - Phone stack (layered mobile devices)\n  - Biometric fingerprint scan (glowing purple/blue)\n  - Premium metal card (brushed finish)\n- Treatment: High-tech, sleek, modern\n- Colors: Dark backgrounds with purple/blue glows\n- Typography: Light text on dark\n- Mood: Secure, premium, sophisticated\n\nPRESS/LOGO SECTION:\n- Background: Dark (consistent with security section)\n- Logos: CNBC, FORTUNE, WSJ (white/light treatment)\n- Layout: Three column grid\n- Typography: Publication names + quotes\n- Colors: White/light gray on dark\n- Style: Credibility, editorial, authoritative\n\nINFO CARDS SECTION:\n- Background: Dark\n- Cards: Two side-by-side informational cards\n- Titles: \"What is it?\" | \"What's the pledge?\"\n- Treatment: Subtle borders or slight elevation\n- Colors: Light text on dark cards\n- Typography: Clear, readable\n\nFOOTER - Multi-column:\n- Background: Very dark (black/deep navy)\n- Layout: 4-5 column grid\n- Sections: Product, Company, Learn, Contact\n- Link lists: Vertical stacks, white/gray text\n- Social icons: Light colored\n- Legal links: Horizontal bottom row\n- Colors: White/gray text on dark\n- Typography: Small, clean, organized\n\nLEGAL DISCLAIMER:\n- Background: Dark continuation from footer\n- Typography: Very small, dense paragraph text\n- Colors: Gray text on dark background\n- Content: Multiple paragraphs of fine print\n- Mood: Regulatory, comprehensive, transparent\n\nOVERALL VISUAL THEMES:\n- Primary colors: Deep blues, purples, blacks\n- Accent colors: Bright blues, purples (for CTAs)\n- Photography: Dramatic landscapes, lifestyle moments\n- Product shots: Dark UI mockups, 3D renders\n- Button style: Gradient fills, pill-shaped, modern\n- Card treatments: Subtle shadows, rounded corners\n- Typography: Mix of bold sans-serif and elegant quotes\n- Mood: Premium, modern, trustworthy, forward-thinking",
+        "insights": [
+          "Dark-to-light theme transitions create dramatic narrative rhythm, with product sections in light neutrals contrasting against security/trust sections in deep navy/purple.",
+          "Generous whitespace and centered layouts emphasize premium positioning—large typography scales (arcadia-display, tiempos-heading) with ample padding (gap-2xl: 72px, layout-padding-xl: 128px).",
+          "Grid system scales from mobile (1 col) to desktop (16 cols) with consistent 32px gutters, ensuring compositional integrity across breakpoints while maintaining generous spacing.",
+          "Product imagery (dark UI mockups, 3D renders) uses high contrast against light backgrounds; lifestyle/landscape photography adds emotional warmth between technical sections.",
+          "Rounded corners (border-radius: 0.75rem to 2rem) and subtle shadows unify card-based components, while pill-shaped buttons (rounded-5xl) reinforce the modern, approachable brand aesthetic."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Base Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Serves as the foundational black for structural shadows, photographic overlays, and unstyled base text.",
+              "when_to_use": [
+                "Hero background image gradient overlay",
+                "Disclaimer banner drop shadows",
+                "Default html text color fallback"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Primary Text White",
+            "type": "Light",
+            "rules": {
+              "description": "The primary high-contrast color for typography, interface icons, and primary CTAs in the dark theme.",
+              "when_to_use": [
+                "Main heading and hero typography",
+                "Primary navigation links and icons",
+                "Primary 'Open account' CTA text",
+                "Light theme top banner background"
+              ]
+            },
+            "hex": "#EDEDF3",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F4F5F9",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FCFCFA",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.3573
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Subdued Text Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A medium-contrast gray used universally for secondary text to establish typographic hierarchy.",
+              "when_to_use": [
+                "Paragraph text under headings",
+                "Dropdown menu component descriptions",
+                "Footnotes and disclaimers",
+                "Inactive accordion items"
+              ]
+            },
+            "hex": "#C3C3CC",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0958
+          },
+          {
+            "name": "Dark Canvas",
+            "type": "Dark",
+            "rules": {
+              "description": "The foundational dark theme background family, defining the page canvas and elevating layered UI components.",
+              "when_to_use": [
+                "Main page background",
+                "Dropdown menu elevated surfaces",
+                "In-page feature cards and tags",
+                "Sticky disclaimer banner background"
+              ]
+            },
+            "hex": "#171721",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#1E1E2A",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#272735",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#1C1C23",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#272736",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.012199999999999999
+          },
+          {
+            "name": "Tonal Accent Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "A soft, tinted blue used as a translucent background fill for secondary, low-emphasis actions.",
+              "when_to_use": [
+                "'Try the demo' tonal button background",
+                "'Contact sales' button background",
+                "Mobile navigation secondary CTAs"
+              ]
+            },
+            "hex": "#9CB4E8",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0087
+          }
+        ],
+        "insights": [
+          "The page uses a strict dark theme dominated by deep navy/blacks and high-contrast off-whites, creating a premium, modern fintech aesthetic.",
+          "The palette relies heavily on opacity (translucent blacks for overlays, translucent blues for tonal buttons) rather than introducing new solid colors, keeping the design minimal and cohesive.",
+          "Typographic hierarchy is strictly driven by color contrast, neatly splitting primary attention (bright off-white) from secondary reading (medium gray)."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Arcadia Display",
+              "role": "Display 1",
+              "specs": {
+                "size": "clamp(2.625rem,.979rem + 4.116vw,6rem)",
+                "line_height": "var(--leading-110%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Arcadia Display",
+              "role": "Display 2",
+              "specs": {
+                "size": "clamp(2.25rem,.79rem + 3.66vw,5.25rem)",
+                "line_height": "var(--leading-110%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Arcadia Display",
+              "role": "Display 3",
+              "specs": {
+                "size": "clamp(2rem,.75rem + 3.126vw,4.563rem)",
+                "line_height": "var(--leading-110%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Arcadia Display",
+              "role": "Heading 1",
+              "specs": {
+                "size": "1.75rem",
+                "line_height": "var(--leading-120%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Arcadia Display",
+              "role": "Heading 3",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "var(--leading-120%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Arcadia Display",
+              "role": "Heading 7",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "var(--leading-135%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "Heading 8",
+              "specs": {
+                "size": "1rem",
+                "line_height": "var(--leading-135%)",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia Display",
+              "role": "Subheading 1 (Light)",
+              "specs": {
+                "size": "1.75rem",
+                "line_height": "var(--leading-120%)",
+                "font_weight": "360",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia-display)",
+                "file_url": "../media/ArcadiaDisplay_Variable-s.p.37a6szvr8v8r0.woff2"
+              }
+            },
+            {
+              "name": "Tiempos Fine",
+              "role": "Display 1 (Editorial)",
+              "specs": {
+                "size": "clamp(2.625rem,.979rem + 4.116vw,6rem)",
+                "line_height": "var(--leading-105%)",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-tiempos-fine)",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Tiempos Fine",
+              "role": "Heading 1 (Editorial)",
+              "specs": {
+                "size": "1.75rem",
+                "line_height": "var(--leading-110%)",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-tiempos-fine)",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Tiempos Fine",
+              "role": "Subheading 1 (Italic)",
+              "specs": {
+                "size": "1.75rem",
+                "line_height": "var(--leading-120%)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-tiempos-fine)",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body styles intended for legibility in content blocks and lists.",
+          "variants": [
+            {
+              "name": "Arcadia",
+              "role": "Body 1 (Large Body)",
+              "specs": {
+                "size": "1rem",
+                "line_height": "var(--leading-135%)",
+                "font_weight": "360",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "Body 2 (Default Body)",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "var(--leading-135%)",
+                "font_weight": "360",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "Body 3 (Small Body)",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "var(--leading-140%)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "Body 4 (Micro Body)",
+              "specs": {
+                "size": ".75rem",
+                "line_height": "var(--leading-140%)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "Body 5 (Caption Body)",
+              "specs": {
+                "size": ".625rem",
+                "line_height": "var(--leading-140%)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Tiempos",
+              "role": "Editorial Body 1",
+              "specs": {
+                "size": "1rem",
+                "line_height": "var(--leading-140%)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-tiempos)",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian text styles used for navigation, tags, and small UI components.",
+          "variants": [
+            {
+              "name": "Arcadia",
+              "role": "UI 1 (Large component label)",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1",
+                "font_weight": "420",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "UI 2 (Default component label)",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "1",
+                "font_weight": "420",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "UI 3 (Small component label)",
+              "specs": {
+                "size": ".75rem",
+                "line_height": "1",
+                "font_weight": "480",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            },
+            {
+              "name": "Arcadia",
+              "role": "UI 4 (Uppercase label)",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "1",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--font-arcadia)",
+                "file_url": "../media/ArcadiaText_Variable-s.p.1x_q7ztf_htve.woff2"
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Technical and mono-spaced typography elements.",
+          "variants": [
+            {
+              "name": "IBM Plex Mono",
+              "role": "Code / Technical Data",
+              "specs": {
+                "size": "1em",
+                "line_height": "inherit",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts (assumed)"
+              },
+              "technical": {
+                "font_family_css": "var(--font-ibm-plex-mono), \"IBM Plex Mono Fallback\"",
+                "file_url": "../media/e390973e931a41c5-s.0rgnxg2b64rzs.woff2"
+              }
+            },
+            {
+              "name": "SFMono-Regular",
+              "role": "Monospace Fallback",
+              "specs": {
+                "size": "1em",
+                "line_height": "inherit",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "System"
+              },
+              "technical": {
+                "font_family_css": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "highlights": "Links and interactive textual elements leverage a 1px border underline with a 4px offset (`.decoration-1 .underline-offset-4`) for a clean, editorial interactive highlight.",
+        "insights": [
+          "The typography system relies heavily on variable fonts (`arcadia` and `arcadiaDisplay`) to utilize hyper-specific custom weights (360, 420, 480, 530) rather than standard 400/500 breakpoints, achieving meticulously balanced visual hierarchy.",
+          "Tiempos, an elegant serif, is employed strategically for editorial layouts and subheadings (often italicized), providing a sophisticated counterpoint to the highly functional and modern Arcadia sans-serif.",
+          "Display typography leverages robust `clamp()` functions to fluidly scale from mobile to massive desktop viewports without requiring rigid CSS media queries at every step."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "glass_blur",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Background Default",
+            "description": "Main page background - neutral theme default",
+            "when_to_use": [
+              "Page backgrounds",
+              "Default layout surfaces"
+            ],
+            "hex": "#FBFCFD"
+          },
+          {
+            "name": "Background Secondary",
+            "description": "Secondary background surface - neutral theme",
+            "when_to_use": [
+              "Section backgrounds",
+              "Alternate surface areas"
+            ],
+            "hex": "#F4F5F9"
+          },
+          {
+            "name": "Background Frosted",
+            "description": "Transparent frosted background with 5% opacity",
+            "when_to_use": [
+              "Overlay backgrounds",
+              "Glassmorphism base"
+            ],
+            "hex": "#70739305"
+          },
+          {
+            "name": "Surface Default",
+            "description": "Default surface color for components",
+            "when_to_use": [
+              "Card backgrounds",
+              "Component surfaces"
+            ],
+            "hex": "#EDEDF3"
+          },
+          {
+            "name": "Surface Elevated",
+            "description": "Elevated surface for raised components",
+            "when_to_use": [
+              "Dropdown menus",
+              "Modal backgrounds",
+              "Elevated cards"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Surface Frosted",
+            "description": "Frosted glass surface with 10% opacity",
+            "when_to_use": [
+              "Glassmorphism panels",
+              "Frosted overlays"
+            ],
+            "hex": "#7073931A"
+          },
+          {
+            "name": "Surface Emphasized",
+            "description": "Emphasized surface with purple tint - 10% opacity",
+            "when_to_use": [
+              "Hover states",
+              "Selected items",
+              "Emphasized areas"
+            ],
+            "hex": "#5266EB1A"
+          },
+          {
+            "name": "Surface Primary",
+            "description": "Primary brand purple surface",
+            "when_to_use": [
+              "Primary CTAs",
+              "Active states",
+              "Brand elements"
+            ],
+            "hex": "#5266EB"
+          },
+          {
+            "name": "Surface Inverted",
+            "description": "Dark inverted surface",
+            "when_to_use": [
+              "Dark mode surfaces",
+              "High contrast areas",
+              "Footer backgrounds"
+            ],
+            "hex": "#1E1E2A"
+          },
+          {
+            "name": "Glass Panel",
+            "description": "Glassmorphism surface with backdrop blur",
+            "when_to_use": [
+              "Command menus",
+              "Floating panels",
+              "Modal overlays",
+              "Navigation dropdowns"
+            ],
+            "hex": "#7073931A"
+          },
+          {
+            "name": "Purple Theme Background",
+            "description": "Purple-tinted background for purple theme",
+            "when_to_use": [
+              "Purple theme pages",
+              "Themed sections"
+            ],
+            "hex": "#F5F4FD"
+          },
+          {
+            "name": "Beige Theme Background",
+            "description": "Beige-tinted background for beige theme",
+            "when_to_use": [
+              "Beige theme pages",
+              "Warm-toned sections"
+            ],
+            "hex": "#F6F5F2"
+          },
+          {
+            "name": "Green Theme Background",
+            "description": "Green-tinted background for green theme",
+            "when_to_use": [
+              "Green theme pages",
+              "Nature-themed sections"
+            ],
+            "hex": "#F1F7F3"
+          },
+          {
+            "name": "Blue Theme Background",
+            "description": "Blue-tinted background for blue theme",
+            "when_to_use": [
+              "Blue theme pages",
+              "Cool-toned sections"
+            ],
+            "hex": "#EEF7FA"
+          },
+          {
+            "name": "Orange Theme Background",
+            "description": "Orange-tinted background for orange theme",
+            "when_to_use": [
+              "Orange theme pages",
+              "Warm accent sections"
+            ],
+            "hex": "#FDF3EF"
+          },
+          {
+            "name": "Dark Neutral Background",
+            "description": "Dark mode primary background",
+            "when_to_use": [
+              "Dark mode pages",
+              "Dark theme sections"
+            ],
+            "hex": "#171721"
+          },
+          {
+            "name": "Dark Surface Elevated",
+            "description": "Elevated surface in dark mode",
+            "when_to_use": [
+              "Dark mode cards",
+              "Dark mode dropdowns",
+              "Dark mode modals"
+            ],
+            "hex": "#272735"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Testimonial Overlay Scrim",
+            "description": "Top to bottom testimonial overlay gradient with progressive opacity from transparent to semi-opaque black",
+            "when_to_use": [
+              "Testimonial overlays",
+              "Image scrim effects",
+              "Text readability overlays"
+            ],
+            "css_code": "linear-gradient(180deg,#0000 0%,#0000 2.67%,#00000006 5.33%,#0000000f 8%,#00000018 10.67%,#00000027 13.33%,#00000038 16%,#0000004a 18.67%,#0000005c 21.33%,#0000006d 24%,#0000007f 26.67%,#0000008e 29.33%,#00000097 32%,#000000a0 34.67%,#000000a6 37.33%,#000000a6 100%)"
+          },
+          {
+            "name": "Grain Background Effect",
+            "description": "Transparent to purple-tinted gradient for grain texture backgrounds",
+            "when_to_use": [
+              "Background textures",
+              "Noise grain overlays",
+              "Purple theme sections"
+            ],
+            "css_code": "linear-gradient(#0000,#f5f4fd 50%)"
+          },
+          {
+            "name": "Loading Skeleton Highlight",
+            "description": "Left to right shimmer gradient for loading skeletons using CSS variables",
+            "when_to_use": [
+              "Loading states",
+              "Skeleton screens",
+              "Content placeholders"
+            ],
+            "css_code": "linear-gradient(90deg, var(--base-color), var(--highlight-color), var(--base-color))"
+          },
+          {
+            "name": "Dark Overlay - Light",
+            "description": "Top to bottom dark overlay gradient from 18% to 56% opacity",
+            "when_to_use": [
+              "Image overlays",
+              "Hero sections",
+              "Card overlays"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.56))"
+          },
+          {
+            "name": "Dark Overlay - Medium",
+            "description": "Top to bottom dark overlay gradient from 45% to 56% opacity",
+            "when_to_use": [
+              "Stronger image overlays",
+              "Content emphasis"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.56))"
+          },
+          {
+            "name": "Beige Theme Surface Gradient",
+            "description": "Top to bottom beige-tinted gradient with decreasing opacity",
+            "when_to_use": [
+              "Beige theme sections",
+              "Subtle background variations"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(239,238,233,0.20), rgba(224,222,215,0.10))"
+          },
+          {
+            "name": "Blue Magic Gradient",
+            "description": "Blue magic color transitioning to purple magic - top to bottom",
+            "when_to_use": [
+              "Blue to purple theme transitions",
+              "Accent backgrounds"
+            ],
+            "css_code": "linear-gradient(to bottom, #075462, #3442a6)"
+          },
+          {
+            "name": "Purple Brand Gradient",
+            "description": "Dark purple to purple magic gradient",
+            "when_to_use": [
+              "Purple theme sections",
+              "Brand accent areas"
+            ],
+            "css_code": "linear-gradient(to bottom, #383255, #3442a6)"
+          },
+          {
+            "name": "Neutral Dark Gradient",
+            "description": "Transparent to dark neutral gradient - fade to dark",
+            "when_to_use": [
+              "Dark mode transitions",
+              "Section fades",
+              "Footer fades"
+            ],
+            "css_code": "linear-gradient(to bottom, transparent, #171721)"
+          },
+          {
+            "name": "Surface Default Fade",
+            "description": "Surface default color fading to transparent",
+            "when_to_use": [
+              "Section transitions",
+              "Fade effects"
+            ],
+            "css_code": "linear-gradient(to bottom, #ededf3, transparent)"
+          },
+          {
+            "name": "Transparent Fade Out",
+            "description": "Full transparency gradient - no visual effect",
+            "when_to_use": [
+              "Placeholder gradients",
+              "Disabled states"
+            ],
+            "css_code": "linear-gradient(to bottom, transparent, transparent)"
+          },
+          {
+            "name": "Mask Gradient - Horizontal",
+            "description": "Left to right mask gradient with black center and transparent edges",
+            "when_to_use": [
+              "Horizontal feathered blur masks",
+              "Content fade edges"
+            ],
+            "css_code": "linear-gradient(90deg,#0000,#000 15% 85%,#0000)"
+          },
+          {
+            "name": "Mask Gradient - Vertical",
+            "description": "Top to bottom mask gradient with black center and transparent edges",
+            "when_to_use": [
+              "Vertical feathered blur masks",
+              "Content fade edges"
+            ],
+            "css_code": "linear-gradient(#0000,#000 10% 90%,#0000)"
+          }
+        ],
+        "highlights": [
+          "Glass panels: backdrop-filter: blur(20px) with backdrop-blur-[20px] class applied to frosted surfaces",
+          "Glass panels: backdrop-filter: blur(10px) with backdrop-blur-[10px] class for medium glass effect",
+          "Glass panels: backdrop-filter: blur(6px) with backdrop-blur-[6px] class for subtle glass effect",
+          "Animated grain texture: SVG-based noise filter with animation at .2s step-end infinite on styles-module__u8VSFG__grainSvg",
+          "Grain overlay: Fractal noise texture at 0.2 opacity over purple-tinted gradient background on styles-module__C67XrG__container",
+          "Soft shadows: Multiple layered shadows (0px 10px 16px, 0px 6px 10px, 0px 0px 3px) with low opacity for elevated cards",
+          "Shimmer animation: Skeleton loading screens with horizontal gradient shimmer effect using react-loading-skeleton",
+          "Feathered blur masks: Composite linear gradients creating horizontal and vertical fade edges on styles-module__He5VFq__featheredBlur",
+          "Frosted border effects: 1px borders with #70739338 (frosted color with 22% opacity) on glass surfaces",
+          "Drop shadows: 0px 4px 16px white drop shadow on specific UI elements"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Inset Ring Shadow",
+              "type": "drop",
+              "description": "Tailwind CSS reset shadow with zero blur - transparent placeholder shadow",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Tailwind CSS ring utility reset",
+                "Shadow placeholder"
+              ]
+            },
+            {
+              "name": "Card Shadow",
+              "type": "drop",
+              "description": "Multi-layer card shadow with 3px/10px/16px blur levels at varying opacities (9%/4%/2%) - subtle elevation for cards",
+              "css_value": "0 10px 16px 0 rgba(28,28,35,0.02),0 6px 10px 0 rgba(28,28,35,0.04),0 0 3px 0 rgba(28,28,35,0.09)",
+              "when_to_use": [
+                "Cards",
+                "Elevated surfaces",
+                "Content containers"
+              ]
+            },
+            {
+              "name": "Card Shadow Alternate",
+              "type": "drop",
+              "description": "Multi-layer card shadow with 3px/10px/16px blur - same values with px suffix notation",
+              "css_value": "0 10px 16px 0px rgba(28,28,35,0.02),0 6px 10px 0px rgba(28,28,35,0.04),0 0px 3px 0px rgba(28,28,35,0.09)",
+              "when_to_use": [
+                "Cards",
+                "Elevated surfaces"
+              ]
+            },
+            {
+              "name": "Modal Shadow",
+              "type": "drop",
+              "description": "Deep shadow with 24px and 120px blur at 15% opacity - high elevation for modals and dialogs",
+              "css_value": "0 20px 24px 0 rgba(0,0,0,0.15),0 36px 120px 0 rgba(0,0,0,0.15)",
+              "when_to_use": [
+                "Modals",
+                "Dialogs",
+                "Floating overlays"
+              ]
+            },
+            {
+              "name": "Elevated Card Shadow",
+              "type": "drop",
+              "description": "Multi-layer shadow with hex color notation (#1C1C2217, #1C1C220A, #1C1C2205) - subtle card elevation",
+              "css_value": "0px 0px 3px 0px #1C1C2217,0px 6px 10px 0px #1C1C220A,0px 10px 16px 0px #1C1C2205",
+              "when_to_use": [
+                "Cards",
+                "Elevated panels"
+              ]
+            },
+            {
+              "name": "Subtle Card Shadow",
+              "type": "drop",
+              "description": "Multi-layer shadow at 5% opacity with 3px/12px/20px blur - very subtle elevation",
+              "css_value": "0px 0px 3px 0px rgba(0,0,0,0.05),0px 8px 12px 0px rgba(0,0,0,0.05),0px 12px 20px 0px rgba(0,0,0,0.05)",
+              "when_to_use": [
+                "Subtle cards",
+                "Light elevation"
+              ]
+            },
+            {
+              "name": "Standard Card Shadow",
+              "type": "drop",
+              "description": "Multi-layer shadow with 3px/10px/16px blur at varied opacities - standard card elevation",
+              "css_value": "0px 0px 3px 0px rgba(28,28,35,0.09),0px 6px 10px 0px rgba(28,28,35,0.04),0px 10px 16px 0px rgba(28,28,35,0.02)",
+              "when_to_use": [
+                "Cards",
+                "Content panels"
+              ]
+            },
+            {
+              "name": "Soft Glow Shadow",
+              "type": "drop",
+              "description": "6px blur at 10% opacity with purple-gray color - soft ambient glow",
+              "css_value": "0px 0px 6px 0px rgba(86,86,118,0.10)",
+              "when_to_use": [
+                "Soft glow effects",
+                "Ambient elevation"
+              ]
+            },
+            {
+              "name": "Elevated Card Shadow Reordered",
+              "type": "drop",
+              "description": "Same as card shadow with layer order reversed - 16px/10px/3px blur",
+              "css_value": "0px 10px 16px 0px rgba(28,28,35,0.02),0px 6px 10px 0px rgba(28,28,35,0.04),0px 0px 3px 0px rgba(28,28,35,0.09)",
+              "when_to_use": [
+                "Cards",
+                "Elevated surfaces"
+              ]
+            },
+            {
+              "name": "Border Input Shadow",
+              "type": "drop",
+              "description": "1px right border simulation using box-shadow with CSS variable for color",
+              "css_value": "1px 0 0 0 var(--tw-shadow-color,#70739338)",
+              "when_to_use": [
+                "Input field borders",
+                "Divider simulation"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#535461",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#70739338",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#C3C3CC",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#272735",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#AFB2CE1F",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#AFB2CE33",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#AFB2CE5C",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#7073931A",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#70739329",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#383255",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#5266EB1A",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#4354C8",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "hover_transform",
+          "scroll_reveal",
+          "accordion",
+          "tab_switching"
+        ],
+        "animations": [
+          {
+            "name": "scaleIn",
+            "css": "",
+            "description": "Mega-menu scale-in animation for opening dropdown panels. Motion-safe animation triggered on data-[state=open]. JS/Radix-driven."
+          },
+          {
+            "name": "scaleOut",
+            "css": "",
+            "description": "Mega-menu scale-out animation for closing dropdown panels. Motion-safe animation triggered on data-[state=closed]. JS/Radix-driven."
+          },
+          {
+            "name": "enterMenu",
+            "css": "",
+            "description": "Menu content enter animation for sliding panels when switching between menu items. Triggered by data-[motion=from-end] and data-[motion=from-start]. JS/Radix-driven."
+          },
+          {
+            "name": "exitMenu",
+            "css": "",
+            "description": "Menu content exit animation for sliding panels when switching between menu items. Triggered by data-[motion=to-end] and data-[motion=to-start]. JS/Radix-driven."
+          },
+          {
+            "name": "disclaimer-extend",
+            "css": "@keyframes styles-module__zTVSPq__disclaimer-extend{0%{padding-bottom:calc(12px + 0px);translate:0}to{padding-bottom:12px;translate:0 100%}}",
+            "description": "Scroll-driven animation for disclaimer section that extends padding and translates element as user scrolls."
+          },
+          {
+            "name": "disclaimer-divider-fade",
+            "css": "@keyframes styles-module__zTVSPq__disclaimer-divider-fade{0%{opacity:1}to{opacity:0}}",
+            "description": "Scroll-driven opacity fade for disclaimer divider element, tied to --disclaimer-scroll timeline."
+          },
+          {
+            "name": "react-loading-skeleton",
+            "css": "@keyframes react-loading-skeleton{to{transform:translate(100%)}}",
+            "description": "Shimmer effect for loading skeleton components. Translates highlight gradient across element."
+          },
+          {
+            "name": "noise",
+            "css": "@keyframes styles-module__u8VSFG__noise{0%{background-position:0 0}10%{background-position:-5% -10%}20%{background-position:-15% 5%}30%{background-position:7% -25%}40%{background-position:20% 25%}50%{background-position:-25% 10%}60%{background-position:15% 5%}70%{background-position:0 15%}80%{background-position:25% 35%}90%{background-position:-10% 10%}to{background-position:0 0}}",
+            "description": "Film grain noise animation shifting background position rapidly for textured visual effect."
+          },
+          {
+            "name": "moneyFall",
+            "css": "@keyframes styles-module__tlJb8G__moneyFall{0%{opacity:var(--opacity);transform:translateY(-100%)rotate(0)}50%{opacity:var(--opacity)}to{opacity:0;transform:translateY(100vh)rotate(360deg)}}",
+            "description": "Falling animation with rotation for decorative money/particle elements. Uses CSS custom properties for opacity."
+          },
+          {
+            "name": "spin",
+            "css": "@keyframes spin{to{transform:rotate(360deg)}}",
+            "description": "Continuous 360-degree rotation for loading spinners. Linear infinite animation."
+          },
+          {
+            "name": "global-transition",
+            "css": "transition: color 0.3s ease-out, background-color 0.3s ease-out, opacity 0.3s ease-out",
+            "description": "Standard 300ms ease-out transition used globally for color, background, and opacity state changes on interactive elements."
+          },
+          {
+            "name": "books-hero-asset-enter",
+            "css": "",
+            "description": "Fade-in animation for Books hero section assets. Uses --books-hero-fade CSS variable for duration. JS-driven."
+          }
+        ],
+        "insights": [
+          "The design system uses a comprehensive dark-neutral theme with semantic color tokens (surface-primary, text-default, border-frosted) enabling easy theme switching.",
+          "Navigation employs Radix UI primitives with motion-safe animations, showing accessibility-first approach to dropdown interactions.",
+          "Button hierarchy is clearly defined: primary (solid purple), tonal (semi-transparent purple), and ghost (transparent) variants with consistent 40px height and pill shapes (rounded-4xl/5xl)."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Open account (Primary CTA)",
+            "usage": "Primary call-to-action button for account signup. Used in navbar and hero sections. High-emphasis action that drives conversion.",
+            "specs": {
+              "radius": "rounded-4xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--font-arcadia)",
+                  "size": "16px",
+                  "padding": "0px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#5266EB",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#4354C8",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#70707D",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Log in (Tonal)",
+            "usage": "Secondary authentication button. Used alongside primary CTA in navigation. Lower emphasis than Open account.",
+            "specs": {
+              "radius": "rounded-5xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--font-arcadia)",
+                  "size": "16px",
+                  "padding": "0px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#5266eb1a",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#5266eb29",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#5266eb1a",
+                "text_color": "#70707D",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Try the demo (Tonal with Icon)",
+            "usage": "Secondary CTA in navigation dropdown. Opens demo in new tab. Used to let users preview product without signup.",
+            "specs": {
+              "radius": "rounded-5xl",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "var(--font-arcadia)",
+                  "size": "14px",
+                  "padding": "0px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#5266eb1a",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#5266eb29",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#5266eb1a",
+                "text_color": "#70707D",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Products (Navigation Trigger)",
+            "usage": "Navigation dropdown trigger button. Opens mega-menu with product categories. Part of main nav system.",
+            "specs": {
+              "radius": "rounded-5xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--font-arcadia)",
+                  "size": "16px",
+                  "padding": "0px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#EDEDF3",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#5266eb29",
+                "text_color": "#EDEDF3",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#70707D",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular Arrow)",
+            "usage": "Circular icon-only button used for directional navigation or section links. Appears in mega-menu section links.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#5266eb1a",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#5266eb29",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#5266eb1a",
+                "text_color": "#70707D",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Hamburger Menu (Mobile Nav Toggle)",
+            "usage": "Mobile navigation toggle button. Opens/closes mobile menu drawer. Visible on screens below lg breakpoint.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#272735",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#535461",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#70707D",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons in navigation are arranged horizontally with consistent spacing. Login and Open account buttons are grouped together.",
+          "spacing": "12px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "72px",
+          "position": "sticky",
+          "background": {
+            "hex": "#FBFCFD",
+            "color_reference": "background-default",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": {
+          "background": "#FFFFFF",
+          "text_color": "#272735",
+          "border_bottom": "1px solid #70739338",
+          "height": "49px"
+        },
+        "tabs": {
+          "style_name": "Pill Navigation Tab",
+          "description": "Rounded pill-shaped navigation items used in the main navbar dropdown menu system. Tabs trigger mega-menu dropdowns with product/solution categories.",
+          "when_to_use": [
+            "Primary site navigation",
+            "Multi-level dropdown menus",
+            "Product category navigation"
+          ],
+          "states": [
+            {
+              "name": "default",
+              "visual_change": null,
+              "background": "transparent",
+              "text": "#272735",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Background changes to surface-emphasized-hover",
+              "background": "#5266eb29",
+              "text": "#272735",
+              "icon": null
+            },
+            {
+              "name": "active",
+              "visual_change": "Background changes to surface-emphasized-active, text becomes emphasized",
+              "background": "#5266eb38",
+              "text": "#1E1E2A",
+              "icon": null
+            },
+            {
+              "name": "open",
+              "visual_change": "data-[state=open] triggers active state styling",
+              "background": "#5266eb38",
+              "text": "#1E1E2A",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Product Feature Card",
+            "description": "Dark-themed cards displaying banking interface mockups with transaction lists and financial data visualization.",
+            "when_to_use": [
+              "Showcasing product UI",
+              "Feature demonstrations",
+              "Banking interface previews"
+            ]
+          },
+          {
+            "name": "Press Logo Tile",
+            "description": "Publication logo tiles (CNBC, Fortune, WSJ) with quotes used for social proof and credibility.",
+            "when_to_use": [
+              "Media mentions section",
+              "Trust building",
+              "Social proof display"
+            ]
+          },
+          {
+            "name": "Info Card",
+            "description": "Two-column informational cards with titles like 'What is it?' and descriptive content.",
+            "when_to_use": [
+              "FAQ-style content",
+              "Product explanations",
+              "Feature breakdowns"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Single open by default"
+        },
+        "dividers": [
+          {
+            "name": "Frosted Border Divider",
+            "description": "Semi-transparent divider used between navigation sections and grid columns in mega-menus.",
+            "when_to_use": [
+              "Mega-menu column separators",
+              "Navigation section dividers",
+              "List item separators"
+            ],
+            "color": "#70739338",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Section Divider",
+            "description": "Full-width horizontal divider separating major page sections.",
+            "when_to_use": [
+              "Between content sections",
+              "Footer separation",
+              "Before testimonials"
+            ],
+            "color": "#C3C3CC",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Navigation & UI Icons",
+          "description": "Small functional icons used for UI navigation, dropdowns, and links.",
+          "when_to_use": [
+            "Navigation menus",
+            "Dropdown triggers",
+            "Buttons and links"
+          ],
+          "format": "SVG",
+          "style": "Solid / Filled",
+          "sizes": {
+            "small": "14px",
+            "medium": "16px"
+          },
+          "examples": [
+            {
+              "name": "Chevron Right",
+              "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" class=\"[vertical-align:-0.125em] overflow-visible text-inherit h-[0.875rem] text-sm ml-s8 inline\"><path fill=\"currentColor\" d=\"M440.6 273.4c4.7-4.5 7.4-10.8 7.4-17.4s-2.7-12.8-7.4-17.4l-176-168c-9.6-9.2-24.8-8.8-33.9 .8s-8.8 24.8 .8 33.9L364.1 232 24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l340.1 0L231.4 406.6c-9.6 9.2-9.9 24.3-.8 33.9s24.3 9.9 33.9 .8l176-168z\"></path></svg>"
+            },
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg width=\"40\" height=\"40\" version=\"1.1\" viewBox=\"-20 -20 40 40\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid\"><line stroke-linecap=\"round\" class=\"origin-top-left translate-y-8 stroke-icon-default stroke-[4px] transition-transform duration-300 ease-in-out group-data-[state=open]:-translate-y-8 group-data-[state=open]:stroke-icon-emphasized motion-reduce:transition-none rotate-45 group-data-[state=open]:-rotate-45\" x1=\"-20\" y1=\"0\" x2=\"0\" y2=\"0\"></line><line stroke-linecap=\"round\" class=\"origin-top-left translate-y-8 stroke-icon-default stroke-[4px] transition-transform duration-300 ease-in-out group-data-[state=open]:-translate-y-8 group-data-[state=open]:stroke-icon-emphasized motion-reduce:transition-none -rotate-45 group-data-[state=open]:rotate-45\" x1=\"20\" y1=\"0\" x2=\"0\" y2=\"0\"></line></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\" class=\"[vertical-align:-0.125em] inline-block overflow-visible h-[0.875rem] text-sm text-icon-default group-aria-disabled:text-icon-disabled ml-s8\"><path fill=\"currentColor\" d=\"M328 96c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-182.1L73 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l231-231L88 144c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0z\"></path></svg>"
+            },
+            {
+              "name": "Plus / Close",
+              "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" class=\"[vertical-align:-0.125em] inline-block overflow-visible text-inherit h-[0.875rem] text-sm\"><path fill=\"currentColor\" d=\"M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Inline Brand Marks",
+          "description": "Inline SVG marks representing partner brands or decorative graphical wordmarks.",
+          "when_to_use": [
+            "Footer",
+            "Partner logo grids",
+            "Brand endorsements"
+          ],
+          "format": "SVG",
+          "style": "Monochrome / Silhouette",
+          "sizes": {
+            "small": "56px",
+            "medium": "80px"
+          },
+          "examples": [
+            {
+              "name": "Partner Mark 1",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"179\" height=\"80\" viewBox=\"0 0 179 80\" fill=\"none\"> <g clip-path=\"url(#clip0_22724_84435)\"> <path d=\"M0.295776 44.2168L20.7629 64.6839C10.311 62.9172 2.0625 54.6687 0.295776 44.2168Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M-0.0201416 38.9668L26.3183 65.3053C27.8847 65.2216 29.4128 64.9938 30.8896 64.635L0.650163 34.3955C0.291326 35.8724 0.0635537 37.4004 -0.0201416 38.9668Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M1.96204 30.4652L34.8213 63.3245C36.0181 62.8108 37.1668 62.2065 38.2587 61.5202L3.76633 27.0278C3.07999 28.1197 2.47568 29.2684 1.96204 30.4652Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M5.99121 23.7066C10.5793 18.3755 17.3761 14.9998 24.9614 14.9998C38.7786 14.9998 49.9795 26.2007 49.9795 40.0178C49.9795 47.6031 46.6038 54.4 41.2727 58.988L5.99121 23.7066Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M65.1633 55.4348H82.824V51.1202H70.3103V27.0224H65.1633V55.4348Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M87.0692 55.4348H92.0913V34.1255H87.0692V55.4348ZM89.5941 31.1011C91.1896 31.1011 92.4937 29.8803 92.4937 28.382C92.4937 26.8698 91.1896 25.6489 89.5941 25.6489C87.9848 25.6489 86.6808 26.8698 86.6808 28.382C86.6808 29.8803 87.9848 31.1011 89.5941 31.1011Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M102.278 42.9489C102.278 39.869 104.137 38.0932 106.787 38.0932C109.381 38.0932 110.935 39.7997 110.935 42.6437V55.4348H115.957V41.8668C115.971 36.7614 113.057 33.848 108.659 33.848C105.469 33.848 103.277 35.3741 102.306 37.7464H102.056V34.1255H97.2557V55.4348H102.278V42.9489Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M130.496 55.851C135.463 55.851 138.875 53.4232 139.763 49.719L135.074 49.1919C134.394 50.9954 132.73 51.9388 130.565 51.9388C127.319 51.9388 125.169 49.8023 125.127 46.1536H139.971V44.6137C139.971 37.136 135.477 33.848 130.232 33.848C124.128 33.848 120.147 38.3291 120.147 44.905C120.147 51.5919 124.073 55.851 130.496 55.851ZM125.141 42.7685C125.294 40.0494 127.305 37.7603 130.302 37.7603C133.187 37.7603 135.13 39.869 135.157 42.7685H125.141Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M150.352 55.8649C153.696 55.8649 155.693 54.2972 156.609 52.5076H156.775V55.4348H161.603V41.1731C161.603 35.5406 157.011 33.848 152.946 33.848C148.465 33.848 145.025 35.8458 143.915 39.7303L148.604 40.3962C149.104 38.9395 150.519 37.6909 152.974 37.6909C155.305 37.6909 156.581 38.884 156.581 40.9789V41.0621C156.581 42.5049 155.069 42.5743 151.309 42.9766C147.175 43.4206 143.221 44.6553 143.221 49.4555C143.221 53.6452 146.287 55.8649 150.352 55.8649ZM151.656 52.1746C149.561 52.1746 148.063 51.2174 148.063 49.3722C148.063 47.4438 149.742 46.6392 151.989 46.3201C153.307 46.1397 155.943 45.8068 156.595 45.2796V47.7907C156.595 50.163 154.681 52.1746 151.656 52.1746Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M166.653 55.4348H171.675V42.9073C171.675 40.202 173.715 38.2875 176.475 38.2875C177.322 38.2875 178.376 38.4401 178.806 38.5788V33.959C178.348 33.8758 177.558 33.8203 177.003 33.8203C174.561 33.8203 172.522 35.2076 171.745 37.677H171.523V34.1255H166.653V55.4348Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> </g> <defs> <clipPath id=\"clip0_22724_84435\"> <rect width=\"178.125\" height=\"80\" fill=\"white\" style=\"fill:white;fill-opacity:1;\"></rect> </clipPath> </defs> </svg>"
+            },
+            {
+              "name": "Partner Mark 2",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"247\" height=\"80\" viewBox=\"0 0 247 80\" fill=\"none\"> <g clip-path=\"url(#clip0_28669_11447)\"> <g clip-path=\"url(#clip1_28669_11447)\"> <path d=\"M88.2706 31.8898H81.9435L89.5886 55.4711H96.3993L104.044 31.8898H97.7173L92.9298 49.6529L88.2706 31.8898Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M0 24H6.54684V55.4711H0V24Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M13.0058 24H19.5526V55.4711H13.0058V24Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M26.0107 24H45.3874V29.2452H32.5575V36.7383H44.5088V41.9835H32.5575V50.2259H45.3874V55.4711H26.0107V24Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M49.3853 24H55.5805V55.4711H49.3853V24Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M59.3152 43.6585C59.3152 35.0634 63.5773 31.361 70.2119 31.361C76.8466 31.361 80.6254 35.0193 80.6254 43.7466V45.1571H65.4226C65.6423 50.27 67.1801 51.9891 70.1241 51.9891C72.4526 51.9891 73.9026 50.6227 74.1664 48.2425H80.3616C79.9662 53.4436 75.6605 56.0001 70.1241 56.0001C63.0941 56.0001 59.3152 52.2535 59.3152 43.6585ZM74.5181 41.0579C74.2105 36.7383 72.7165 35.3279 70.1241 35.3279C67.5317 35.3279 65.9058 36.7824 65.4667 41.0579H74.5181Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M105.231 43.6585C105.231 35.0634 109.493 31.361 116.128 31.361C122.762 31.361 126.541 35.0193 126.541 43.7466V45.1571H111.338C111.558 50.27 113.096 51.9891 116.04 51.9891C118.368 51.9891 119.818 50.6227 120.082 48.2425H126.277C125.882 53.4436 121.576 56.0001 116.04 56.0001C109.009 56.0001 105.231 52.2535 105.231 43.6585ZM120.433 41.0579C120.126 36.7383 118.632 35.3279 116.04 35.3279C113.447 35.3279 111.822 36.7824 111.382 41.0579H120.433Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M155.891 24H162.438V50.2259H174.74V55.4711H155.891V24Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M176.278 43.6585C176.278 34.6667 180.409 31.361 185.725 31.361C188.361 31.361 190.778 32.8596 191.745 34.4464V31.8899H198.072V55.4711H191.92V52.6943C190.998 54.5455 188.405 56.0001 185.549 56.0001C179.925 56.0001 176.278 52.3857 176.278 43.6585ZM187.351 35.9891C190.426 35.9891 192.096 38.3252 192.096 43.6585C192.096 48.9918 190.426 51.372 187.351 51.372C184.275 51.372 182.518 48.9918 182.518 43.6585C182.518 38.3252 184.275 35.9891 187.351 35.9891Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M209.012 52.6942V55.4711H202.861V24H209.056V34.4463C210.111 32.8154 212.571 31.3609 215.208 31.3609C220.393 31.3609 224.523 34.6667 224.523 43.6584C224.523 52.6501 220.48 56 215.076 56C212.22 56 209.891 54.5455 209.012 52.6942ZM213.45 36.0331C216.526 36.0331 218.283 38.3251 218.283 43.6584C218.283 48.9918 216.526 51.3719 213.45 51.3719C210.374 51.3719 208.705 48.9918 208.705 43.6584C208.705 38.3251 210.374 36.0331 213.45 36.0331Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M227.071 48.4629H233.266C233.354 50.9312 234.672 52.1213 237.001 52.1213C239.33 52.1213 240.648 51.0634 240.648 49.2122C240.648 47.5372 239.638 46.9202 237.441 46.3913L235.551 45.9064C230.191 44.54 227.51 43.0855 227.51 38.6337C227.51 34.1819 231.641 31.361 236.913 31.361C242.186 31.361 246.185 33.4326 246.36 38.3252H240.165C240.033 36.1654 238.715 35.2398 236.826 35.2398C234.936 35.2398 233.618 36.1654 233.618 37.9285C233.618 39.5593 234.672 40.1764 236.518 40.6171L238.451 41.102C243.548 42.3802 246.756 43.6585 246.756 48.4188C246.756 53.1791 242.538 56.0001 236.826 56.0001C230.63 56.0001 227.203 53.664 227.071 48.4629Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> <path d=\"M136.559 41.5868C136.559 37.8844 138.316 35.8568 141.041 35.8568C143.281 35.8568 144.556 37.2673 144.556 40.3086V55.4711H150.751V39.3389C150.751 33.8734 147.675 31.361 143.194 31.361C140.162 31.361 137.658 32.9036 136.559 34.9312V31.8899H130.276V55.4711H136.559V41.5868Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> </g> </g> <defs> <clipPath id=\"clip0_28669_11447\"> <rect width=\"246.756\" height=\"80\" fill=\"white\" style=\"fill:white;fill-opacity:1;\"></rect> </clipPath> <clipPath id=\"clip1_28669_11447\"> <rect width=\"246.756\" height=\"32\" fill=\"white\" style=\"fill:white;fill-opacity:1;\" transform=\"translate(0 24)\"></rect> </clipPath> </defs> </svg>"
+            },
+            {
+              "name": "Partner Mark 3",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"223\" height=\"80\" viewBox=\"0 0 223 80\" fill=\"none\"> <g clip-path=\"url(#clip0_28669_11448)\"> <path d=\"M0 54.9879C0 60.6873 3.02867 62 6.17907 62C12.8436 62 17.8537 56.1363 20.8413 51.5031C20.4776 52.5268 20.2752 53.552 20.2752 54.5376C20.2752 57.2436 21.8108 59.1708 24.8395 59.1708C29.0004 59.1708 33.4429 55.4792 35.7456 51.5016C35.5843 52.0765 35.5036 52.6089 35.5036 53.1003C35.5036 54.9879 36.5537 56.1773 38.6936 56.1773C45.4403 56.1773 52.2251 44.0803 52.2251 33.4997C52.2251 25.2571 48.1037 18 37.7637 18C19.5903 18 0 40.4723 0 54.9879ZM31.504 32.5977C31.504 30.5473 32.6348 29.1129 34.2907 29.1129C35.9069 29.1129 37.0377 30.5473 37.0377 32.5977C37.0377 34.6481 35.9084 36.1251 34.2921 36.1251C32.6348 36.1251 31.5055 34.6481 31.5055 32.5977H31.504ZM40.1485 32.5977C40.1485 30.5473 41.2779 29.1129 42.9352 29.1129C44.55 29.1129 45.6808 30.5473 45.6808 32.5977C45.6808 34.6481 44.5515 36.1251 42.9352 36.1251C41.2779 36.1251 40.1485 34.6481 40.1485 32.5977ZM60.302 57.5311H66.3593V51.9944C66.3593 49.0831 66.1584 47.7293 64.9865 45.0644L65.6319 44.7359C67.5723 49.2063 70.4396 50.9692 73.4287 50.9692C78.2349 50.9692 82.0717 46.7041 82.0717 40.1012C82.0717 33.7872 78.5576 29.154 73.5093 29.154C70.5203 29.154 67.5723 30.8759 65.6333 35.3463L64.988 35.0177C65.7947 33.2548 66.3593 31.4919 66.3593 29.8111H60.302V57.5311ZM66.3593 40.0616C66.3593 37.3556 68.3804 34.3621 71.368 34.3621C73.7924 34.3621 75.7709 36.3715 75.7709 40.0205C75.7709 43.6285 73.8731 45.7611 71.3269 45.7611C68.5007 45.7611 66.3593 42.8497 66.3593 40.0616ZM83.9667 50.3136H90.0269V43.0947C90.0269 38.0097 91.8031 34.4017 95.1163 34.4017C97.2151 34.4017 97.8619 35.8361 97.8619 39.4031V50.3121H103.921V38.4204C103.921 31.9407 101.618 29.1511 97.2151 29.1511C92.7329 29.1511 91.278 32.2281 89.5415 35.754L88.8961 35.3859C89.7835 33.1712 90.0255 31.7779 90.0255 29.8081V22.8796H83.9681L83.9667 50.3136ZM112.577 50.9692C116.415 50.9692 118.716 48.3439 120.333 45.2287L121.019 45.5968C120.374 47.0737 119.767 48.8381 119.767 50.3136H125.705V39.1596C125.705 32.5156 122.958 29.154 116.535 29.154C110.235 29.154 107.125 32.3513 106.518 35.7144L112.335 36.7411C112.537 34.9767 113.951 33.7872 116.213 33.7872C118.474 33.7872 119.767 34.9356 119.767 36.3304C119.767 37.7237 118.435 38.3808 114.88 38.4219C109.629 38.504 105.751 40.4312 105.751 44.532C105.751 47.8936 108.376 50.9692 112.577 50.9692ZM111.77 44.1624C111.77 40.8404 116.819 43.1783 119.646 40.6351V41.4153C119.646 44.3267 117.061 46.4167 114.638 46.4167C113.265 46.4167 111.77 45.8447 111.77 44.1624ZM128.421 50.3136H134.479V43.0947C134.479 38.0097 136.256 34.4017 139.568 34.4017C141.668 34.4017 142.315 35.8361 142.315 39.4031V50.3121H148.374V38.4204C148.374 31.9407 146.071 29.1511 141.668 29.1511C137.186 29.1511 135.731 32.2281 133.995 35.754L133.349 35.3859C134.237 33.1712 134.479 31.7779 134.479 29.8081H128.421V50.3136ZM164.748 50.3957V45.3093C163.454 45.7596 159.859 46.5384 159.859 43.5464V34.8109H165.232V29.8096H159.859V24.314L153.761 26.1591V29.8081H150.127V34.8109H153.761L153.802 44.0377C153.802 50.8871 159.82 51.8712 164.748 50.3957ZM177.449 50.9692C183.587 50.9692 188.273 46.2128 188.273 40.0205C188.273 33.8693 183.587 29.1525 177.449 29.1525C171.31 29.1525 166.584 33.8693 166.584 40.0205C166.584 46.2128 171.31 50.9692 177.449 50.9692ZM172.844 40.0616C172.844 36.6589 174.742 34.28 177.449 34.28C180.155 34.28 182.012 36.6575 182.012 40.0616C182.012 43.4643 180.155 45.8432 177.449 45.8432C174.742 45.8432 172.844 43.4643 172.844 40.0616ZM190.269 50.3136H196.327V43.0947C196.327 37.8044 197.821 34.4017 200.487 34.4017C202.224 34.4017 202.951 35.7951 202.951 39.4031V50.3121H209.01V43.0947C209.01 38.1329 210.625 34.4017 213.17 34.4017C214.867 34.4017 215.634 36.0004 215.634 39.4031V50.3121H221.693V38.4204C221.693 31.8996 219.592 29.1511 215.472 29.1511C211.191 29.1511 209.494 32.1049 208.363 35.6719L207.677 35.3037C208.283 33.1712 207.919 32.0228 207.192 31.1208C206.141 29.8081 204.647 29.1525 202.749 29.1525C198.952 29.1525 197.296 31.8585 195.843 35.6308L195.196 35.2201C195.882 33.3765 196.327 31.8996 196.327 29.8081H190.269V50.3136Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> </g> <defs> <clipPath id=\"clip0_28669_11448\"> <rect width=\"222.933\" height=\"80\" fill=\"white\" style=\"fill:white;fill-opacity:1;\"></rect> </clipPath> </defs> </svg>"
+            },
+            {
+              "name": "Partner Mark 4",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"99\" height=\"56\" viewBox=\"0 0 99 56\" fill=\"none\"> <g clip-path=\"url(#clip0_30138_857)\"> <g clip-path=\"url(#clip1_30138_857)\"> <path d=\"M0 20.1456H2.83409V35.0422H10.6895V37.6629H0V20.1456ZM13.4928 20.1456C14.4631 20.1456 15.264 20.8966 15.264 21.8621C15.264 22.8429 14.4631 23.6245 13.4928 23.6245C12.507 23.6245 11.7214 22.8429 11.7214 21.8621C11.7214 20.8966 12.507 20.1456 13.4928 20.1456ZM12.1065 25.0345H14.8328V37.6629H12.1065V25.0345ZM16.4346 25.0345H19.1609V26.7816C19.9618 25.4483 21.3481 24.6973 23.181 24.6973C26.1383 24.6973 27.9866 26.9961 27.9866 30.6437V37.6629H25.2603V30.8889C25.2603 28.5287 24.2284 27.1954 22.3492 27.1954C20.3008 27.1954 19.1609 28.59 19.1609 31.1187V37.6629H16.4346V25.0345ZM29.4191 20.1456H32.1454V31.2261L37.2282 25.0498H40.6476L35.2259 31.364L40.6476 37.6629H37.2282L32.1454 31.5019V37.6629H29.4191V20.1456ZM41.7104 21.8161H44.4829V25.0345H47.7175V27.2873H44.4829V33.7855C44.4829 34.613 44.9912 35.1187 45.7767 35.1187H47.5943V37.6629H45.4071C43.035 37.6629 41.7104 36.2682 41.7104 33.7855V21.8161ZM49.1176 25.0345H51.6451V26.5977C52.3229 25.4023 53.4472 24.6973 54.8335 24.6973C55.2494 24.6973 55.4804 24.7126 55.7885 24.8199V27.3487C55.6036 27.3027 55.3264 27.2567 54.7719 27.2567C52.7696 27.2567 51.6606 28.9272 51.6606 31.8238V37.6629H48.9343V25.0345H49.1176ZM62.1497 24.6973C65.1533 24.6973 68.4033 26.5057 68.4033 31.6398V32.0076H58.638C58.8536 34.2605 60.1628 35.5019 62.35 35.5019C63.9211 35.5019 65.2611 34.659 65.5538 33.4789H68.3262C68.049 36.0076 65.4151 38 62.35 38C58.4223 38 55.9579 35.456 55.9579 31.3334C55.9579 27.6858 58.3453 24.6973 62.1497 24.6973ZM65.5076 29.7548C65.1225 28.1916 63.8902 27.2108 62.1652 27.2108C60.5017 27.2108 59.3311 28.2222 58.869 29.7548H65.5076ZM75.8119 24.6973C78.8155 24.6973 82.0654 26.5057 82.0654 31.6398V32.0076H72.3002C72.5158 34.2605 73.8249 35.5019 76.0122 35.5019C77.5833 35.5019 78.9233 34.659 79.2159 33.4789H81.9884C81.7112 36.0076 79.0773 38 76.0122 38C72.0844 38 69.6201 35.456 69.6201 31.3334C69.6201 27.6858 71.9921 24.6973 75.8119 24.6973ZM79.1543 29.7548C78.7692 28.1916 77.537 27.2108 75.7965 27.2108C74.133 27.2108 72.9624 28.2222 72.5003 29.7548H79.1543ZM82.7431 24.6513H87.6101L84.1445 21.3716L86.0546 19.4253L89.3512 22.7969V18H92.216V22.7969L95.5117 19.4253L97.4218 21.3716L93.9563 24.6513H98.8235V27.3639H93.9252L97.4067 30.7356L95.4966 32.6361L90.7681 27.9004L86.0395 32.6361L84.1294 30.7356L87.6101 27.3639H82.7123V24.6513H82.7431ZM89.3664 31.2413H92.2311V37.6782H89.3664V31.2413Z\" fill=\"#272735\" style=\"fill:#272735;fill:color(display-p3 0.1529 0.1529 0.2078);fill-opacity:1;\"></path> </g> </g> <defs> <clipPath id=\"clip0_30138_857\"> <rect width=\"98.8235\" height=\"56\" fill=\"white\" style=\"fill:white;fill-opacity:1;\"></rect> </clipPath> <clipPath id=\"clip1_30138_857\"> <rect width=\"98.8235\" height=\"20\" fill=\"white\" style=\"fill:white;fill-opacity:1;\" transform=\"translate(0 18)\"></rect> </clipPath> </defs> </svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/favicon.ico",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/favicon.ico",
+            "origin_url": "https://mercury.com/favicon.ico?favicon.1pow-hhy_09nv.ico",
+            "description": "Mercury Favicon ICO"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/favicon.svg",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/favicon.svg",
+            "origin_url": "https://mercury.com/icon.svg?icon.2sq_8nnp61c03.svg",
+            "description": "Mercury Favicon SVG"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/favicon.png",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/favicon.png",
+            "origin_url": "https://mercury.com/apple-icon.png?apple-icon.24duaeqfro1-o.png",
+            "description": "Mercury Apple Touch Icon"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/secondary.png",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/secondary.png",
+            "origin_url": "https://www.datocms-assets.com/115132/1781551637-homepage-2025-in-the-press-cnbc.png?ar64=Mzoy&auto=format&fit=crop",
+            "description": "CNBC Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/secondary.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/secondary.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764097598-2025_fem_homepage_in-the-press-fortune_3x2.webp?ar64=Mzoy&auto=format&fit=crop",
+            "description": "Fortune Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/secondary-2.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/logos/secondary-2.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764097626-2025_fem_homepage_in-the-press-wsj_3x2-webp.webp?ar64=Mzoy&auto=format&fit=crop",
+            "description": "Wall Street Journal Partner Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/open-graph-image.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/open-graph-image.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1746056008-2025-04-30_fem_homepage-social_1200x630.webp?auto=format&amp;fit=crop&amp;w=1200",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Hero Background Scrub Large",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/video/hero-background-scrub-large.mp4",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/video/hero-background-scrub-large.mp4",
+            "origin_url": "https://mercury.com/videos/hero/hero-scrub-lg.mp4",
+            "usage_context": "Animated hero background loop for large screens."
+          },
+          {
+            "name": "Hero Background Scrub Medium",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/video/hero-background-scrub-medium.mp4",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/video/hero-background-scrub-medium.mp4",
+            "origin_url": "https://mercury.com/videos/hero/hero-scrub-md.mp4",
+            "usage_context": "Animated hero background loop for medium screens."
+          },
+          {
+            "name": "Hero Background Scrub Small",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/video/hero-background-scrub-small.mp4",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/video/hero-background-scrub-small.mp4",
+            "origin_url": "https://mercury.com/videos/hero/hero-scrub-sm.mp4",
+            "usage_context": "Animated hero background loop for small screens."
+          },
+          {
+            "name": "Hero Start Frame Small",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/hero-start-frame-small.jpg",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/hero-start-frame-small.jpg",
+            "origin_url": "https://mercury.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero_start_frame_sm.0d826rk29ctg2.jpg&w=3840&q=75",
+            "usage_context": "Fallback or starting frame for the small hero video."
+          },
+          {
+            "name": "Hero End Frame Small",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/hero-end-frame-small.jpg",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/hero-end-frame-small.jpg",
+            "origin_url": "https://mercury.com/_next/static/media/hero_end_frame_sm.1znp8n7ol23tu.jpg",
+            "usage_context": "Ending frame for the small hero video."
+          },
+          {
+            "name": "Testimonial Portrait - Linear Founder 2x1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-linear-founder-2x1.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-linear-founder-2x1.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764095939-2025_fem_testimonial-linear_2x1.webp?ar64=Mjox&auto=format&fit=crop",
+            "usage_context": "Portrait of a man sitting indoors next to a testimonial about Mercury’s speed and ease of use."
+          },
+          {
+            "name": "Testimonial Portrait - Linear Founder 9x16",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-linear-founder-9x16.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-linear-founder-9x16.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764095998-2025_fem_testimonial-linear_9x16.webp?ar64=OToxNg&auto=format&fit=crop",
+            "usage_context": "Portrait of a man sitting indoors next to a testimonial about Mercury’s speed and ease of use (vertical layout)."
+          },
+          {
+            "name": "Testimonial Portrait - Gainful Founders 4x5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-gainful-founders-4x5.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-gainful-founders-4x5.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764169450-2025_fem_homepage-testimonial-gainful_4x5.webp?ar64=Mjox&auto=format&fit=crop",
+            "usage_context": "Portrait of two founders next to a testimonial about how Mercury keeps pace with company-building."
+          },
+          {
+            "name": "Testimonial Portrait - Gainful Founders 9x16",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-gainful-founders-9x16.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-gainful-founders-9x16.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764173362-2025_fem_testimonial-gainful_9x16.webp?ar64=OToxNg&auto=format&fit=crop",
+            "usage_context": "Portrait of two founders next to a testimonial about how Mercury keeps pace with company-building (vertical layout)."
+          },
+          {
+            "name": "Testimonial Portrait - Ways and Means 2x1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-ways-and-means-2x1.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-ways-and-means-2x1.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764096101-2025_fem_testimonial-ways-and-means_2x1.webp?ar64=Mjox&auto=format&fit=crop",
+            "usage_context": "Portrait of a woman indoors next to a testimonial about Mercury’s built-in permissions."
+          },
+          {
+            "name": "Testimonial Portrait - Ways and Means 9x16",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-ways-and-means-9x16.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/testimonial-portrait-ways-and-means-9x16.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764096181-2025_fem_testimonial-ways-and-means_9x16-webp.webp?ar64=OToxNg&auto=format&fit=crop",
+            "usage_context": "Portrait of a woman indoors next to a testimonial about Mercury’s built-in permissions (vertical layout)."
+          },
+          {
+            "name": "Virtual Cards Animation",
+            "type": "animation",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/animation/virtual-cards-animation.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/animation/virtual-cards-animation.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764181747-2025_fem_homepage-virtual-cards_3x2.webp?auto=format&fit=crop",
+            "usage_context": "Animation that rotates through multiple credit cards stacking."
+          },
+          {
+            "name": "Invoicing Flow Illustration",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/invoicing-flow-illustration.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/invoicing-flow-illustration.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764016774-2025_fem_homepage-invoicing_3x2.webp?auto=format&fit=crop",
+            "usage_context": "Illustration of the Invoicing flow with the date, payment terms, and repeat settings."
+          },
+          {
+            "name": "Apply Online Abstract Illustration 1x1",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/apply-online-abstract-illustration-1x1.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/apply-online-abstract-illustration-1x1.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764189457-2025_fem_homepage-apply-online_1x1.webp?ar64=MTox&auto=format&fit=crop",
+            "usage_context": "Abstract illustration depicting multiple points converging into a single focal point, suggesting simplicity and streamlined finances."
+          },
+          {
+            "name": "Mercury Card Corner Close-up 1x1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/mercury-card-corner-close-up-1x1.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/mercury-card-corner-close-up-1x1.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764189501-2025_fem_homepage-cards_1x1.webp?ar64=MTox&auto=format&fit=crop",
+            "usage_context": "Close-up, stylized image of the corner of a Mercury card."
+          },
+          {
+            "name": "Apply Online Abstract Illustration 4x5",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/apply-online-abstract-illustration-4x5.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/apply-online-abstract-illustration-4x5.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764029665-2025_fem_homepage-apply-online_4x5.webp?ar64=NDo1&auto=format&fit=crop",
+            "usage_context": "Abstract illustration depicting multiple points converging into a single focal point, suggesting simplicity and streamlined finances."
+          },
+          {
+            "name": "Mercury Card Corner Close-up 4x5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/mercury-card-corner-close-up-4x5.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/image/mercury-card-corner-close-up-4x5.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764029696-2025_fem_homepage-cards_4x5.webp?ar64=NDo1&auto=format&fit=crop",
+            "usage_context": "Close-up, stylized image of the corner of a Mercury card."
+          },
+          {
+            "name": "Cashback Ripple Illustration 1x1",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/cashback-ripple-illustration-1x1.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/cashback-ripple-illustration-1x1.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764618945-2025_fem_homepage-cashback_1x1.webp?ar64=MTox&auto=format&fit=crop",
+            "usage_context": "Illustration of a credit card with points creating a ripple effect above and below, suggesting automatic cash back."
+          },
+          {
+            "name": "Net Yield Growth Graph 1x1",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/net-yield-growth-graph-1x1.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/net-yield-growth-graph-1x1.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764619012-2025_fem_homepage-net-yield_1x1.webp?ar64=MTox&auto=format&fit=crop",
+            "usage_context": "Stylized graph with an upward trajectory, suggesting growth over time."
+          },
+          {
+            "name": "Cashback Ripple Illustration 4x5",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/cashback-ripple-illustration-4x5.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/cashback-ripple-illustration-4x5.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764618964-2025_fem_homepage-cashback_4x5.webp?ar64=NDo1&auto=format&fit=crop",
+            "usage_context": "Illustration of a credit card with points creating a ripple effect above and below, suggesting automatic cash back."
+          },
+          {
+            "name": "Net Yield Growth Graph 4x5",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/net-yield-growth-graph-4x5.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/net-yield-growth-graph-4x5.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764085176-2025_fem_homepage-net-yield_4x5.webp?ar64=NDo1&auto=format&fit=crop",
+            "usage_context": "Stylized graph with an upward trajectory, suggesting growth over time."
+          },
+          {
+            "name": "Total Visibility Overlapping Circles",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/total-visibility-overlapping-circles.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/total-visibility-overlapping-circles.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764098544-2025_fem_homepage-total-visibility_3x2.webp?auto=format&fit=crop",
+            "usage_context": "Abstract illustration of overlapping circles, suggesting a unified view of incoming and outgoing funds."
+          },
+          {
+            "name": "Guidance Support Dots Illustration",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/guidance-support-dots-illustration.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/guidance-support-dots-illustration.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764018322-2025_fem_homepage-guidance_3x2.webp?auto=format&fit=crop",
+            "usage_context": "Abstract illustration with three dots at the center, suggesting conversation, guidance, and support."
+          },
+          {
+            "name": "FDIC Coverage Bar Graph",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/fdic-coverage-bar-graph.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/fdic-coverage-bar-graph.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764621344-2025_fem_homepage-portfolio_4x5.webp?auto=format&fit=crop",
+            "usage_context": "Illustration of a bar graph demonstrating how much more FDIC coverage Mercury offers compared to traditional banks."
+          },
+          {
+            "name": "Passkey Security Fingerprint",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/passkey-security-fingerprint.png",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/passkey-security-fingerprint.png",
+            "origin_url": "https://www.datocms-assets.com/115132/1785824097-2026_fem_security_4x5.png?auto=format&fit=crop",
+            "usage_context": "Fingerprint representing passkey authentication."
+          },
+          {
+            "name": "Permission Toggles Illustration",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/permission-toggles-illustration.webp",
+            "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/site-assets/media/illustration/permission-toggles-illustration.webp",
+            "origin_url": "https://www.datocms-assets.com/115132/1764621041-2025_fem_homepage-net-yield_4x5.webp?auto=format&fit=crop",
+            "usage_context": "Illustration of three toggle switches, symbolizing controls for permissions, approvals, and access to funds."
+          },
+          {
+            "name": "Bank List PDF",
+            "type": "image",
+            "url": "https://rnt.com/files/ddm/bank-list/pbl-rtncu.pdf",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Linked document for bank partners."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Header Navigation",
+          "layout_pattern": "Horizontal split with logo left, nav center, CTA buttons right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Mercury logo in default icon color (dark), SVG format"
+            },
+            {
+              "type": "navigation",
+              "description": "Dropdown menu buttons (Products, Solutions, Resources, About, Pricing) with rounded pill-shaped buttons, emphasized hover states"
+            },
+            {
+              "type": "button",
+              "description": "Log in button: rounded pill, emphasized surface background"
+            },
+            {
+              "type": "button",
+              "description": "Open account CTA: rounded pill, primary surface background (purple), gradient shimmer effect overlay"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered",
+          "headline": "Radically different banking",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Get early access CTA: primary purple button with gradient"
+            },
+            {
+              "type": "image",
+              "description": "Bench on mountain landscape: dramatic outdoor photography with dark stormy sky, moody atmospheric lighting"
+            },
+            {
+              "type": "image",
+              "description": "Product preview overlay on hero image"
+            }
+          ]
+        },
+        {
+          "type": "Laptop Mockup Section",
+          "layout_pattern": "Centered single image",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "MacBook Pro display showing dark-themed banking interface with transaction list, navy/black UI with purple/blue accents"
+            }
+          ]
+        },
+        {
+          "type": "Person/Lifestyle",
+          "layout_pattern": "Centered image with text overlay",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Person in warm interior setting, lifestyle photography with soft natural lighting, warm neutrals and browns"
+            }
+          ]
+        },
+        {
+          "type": "Two Column Feature",
+          "layout_pattern": "Split 50/50",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Dark card mockup: banking interface card with subtle shadow and rounded corners on light background"
+            },
+            {
+              "type": "card",
+              "description": "Description text area with feature copy"
+            }
+          ]
+        },
+        {
+          "type": "Spending Features Grid",
+          "layout_pattern": "Grid 2x2",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Spending UI with chart/interface: modern fintech app design, blues and purples on white"
+            },
+            {
+              "type": "image",
+              "description": "Spending UI with timeline view: transaction timeline interface"
+            },
+            {
+              "type": "card",
+              "description": "Feature detail card with clean borders"
+            },
+            {
+              "type": "card",
+              "description": "Feature detail card with organized layout"
+            }
+          ]
+        },
+        {
+          "type": "Testimonial Quote",
+          "layout_pattern": "Centered",
+          "headline": null,
+          "subheadline": "\"We can only see a short distance ahead, but we can see plenty...\" - Alan Turing",
+          "components": []
+        },
+        {
+          "type": "Road/Journey Visual Section",
+          "layout_pattern": "Split 50/50",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Highway image with vanishing point: cool tones (blues, grays, whites), atmospheric perspective, minimalist composition"
+            },
+            {
+              "type": "card",
+              "description": "Left text area with description and stats/metrics"
+            }
+          ]
+        },
+        {
+          "type": "Circular Product Feature",
+          "layout_pattern": "Split 50/50",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Concentric circles/dial product shot: 3D rendered, precise, centered with white/gray subtle gradients"
+            },
+            {
+              "type": "card",
+              "description": "Feature bullets list on right side"
+            }
+          ]
+        },
+        {
+          "type": "Business Features Section",
+          "layout_pattern": "Grid 2x2",
+          "headline": "Run your business like a combined you",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Wave visual product mockup: smooth organic 3D flowing wave in blues/purples"
+            },
+            {
+              "type": "image",
+              "description": "Chat/message UI interface preview: modern messaging interface"
+            },
+            {
+              "type": "image",
+              "description": "Expense tracking interface detail: fintech UI with transaction tracking"
+            },
+            {
+              "type": "image",
+              "description": "Dark card UI feature showcase: dark navy/black card interface"
+            }
+          ]
+        },
+        {
+          "type": "Central Message",
+          "layout_pattern": "Centered",
+          "headline": "\"You're creating something to stand the test of time. So are we.\"",
+          "subheadline": null,
+          "components": []
+        },
+        {
+          "type": "Security Features Grid",
+          "layout_pattern": "Grid 3-column",
+          "headline": "Designed to protect every detail. Mercury meets...",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Phone stack: layered mobile devices on dark background with purple/blue glows, high-tech aesthetic"
+            },
+            {
+              "type": "image",
+              "description": "Biometric fingerprint scan: glowing purple/blue biometric UI on dark background"
+            },
+            {
+              "type": "image",
+              "description": "Premium metal card: brushed finish card on dark background, sleek and modern"
+            }
+          ]
+        },
+        {
+          "type": "Press/Logo Section",
+          "layout_pattern": "Grid 3-column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "CNBC logo in white/light treatment on dark background with quote"
+            },
+            {
+              "type": "logo_strip",
+              "description": "FORTUNE logo in white/light treatment on dark background with quote"
+            },
+            {
+              "type": "logo_strip",
+              "description": "WSJ logo in white/light treatment on dark background with quote"
+            }
+          ]
+        },
+        {
+          "type": "Info Cards Section",
+          "layout_pattern": "Grid 2-column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "\"What is it?\" card with description text on dark background with subtle borders"
+            },
+            {
+              "type": "card",
+              "description": "\"What's the pledge?\" card with description text on dark background with subtle borders"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid (4-5 columns)",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Product links column: vertical stack, white/gray text on dark background"
+            },
+            {
+              "type": "navigation",
+              "description": "Company links column: vertical stack, white/gray text on dark background"
+            },
+            {
+              "type": "navigation",
+              "description": "Learn links column: vertical stack, white/gray text on dark background"
+            },
+            {
+              "type": "navigation",
+              "description": "Contact links column: vertical stack, white/gray text on dark background"
+            },
+            {
+              "type": "icon",
+              "description": "Social icons: light colored on dark background"
+            },
+            {
+              "type": "navigation",
+              "description": "Legal links: horizontal bottom row"
+            }
+          ]
+        },
+        {
+          "type": "Legal Disclaimer",
+          "layout_pattern": "Full-width single column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Fine print text area: multiple paragraphs, gray text on dark background, very small dense typography"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

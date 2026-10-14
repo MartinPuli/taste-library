@@ -1,0 +1,2389 @@
+{
+  "company": "Vercel",
+  "rank": 29,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://vercel.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:40.038253Z",
+  "completed_at": "2026-09-15T22:43:23.540328Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Vercel",
+        "tagline": null,
+        "source_url": "https://vercel.com/home",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / Cloud Infrastructure",
+        "primary_purpose": "Drive signups and enterprise sales for cloud deployment and AI infrastructure platform",
+        "main_cta": "Deploy now",
+        "copy_tone": [
+          "Confident",
+          "Technical",
+          "Aspirational"
+        ],
+        "brand_signature": "Stark black and white minimalist aesthetic with the iconic Vercel triangle logo as visual anchor. Clean, high-contrast typography with generous whitespace creates a premium developer-focused identity. Sophisticated use of subtle gradients and motion effects reinforce technological precision.",
+        "visual_language": {
+          "keywords": [
+            "minimalist",
+            "monochromatic",
+            "technical",
+            "precise",
+            "premium",
+            "developer-centric"
+          ],
+          "accent_strategy": "Pure black (#000) used sparingly against white backgrounds for maximum contrast; occasional blue focus states for interactive elements",
+          "highlights": "Subtle animated shader effects and gradient glows used to draw attention to hero section and key product visuals"
+        },
+        "strategy": {
+          "target_audience": [
+            "Frontend and full-stack developers seeking deployment automation and scalable infrastructure",
+            "Engineering leaders and CTOs evaluating enterprise cloud platforms for AI/agent workloads",
+            "Startup founders needing fast, reliable hosting with minimal DevOps overhead",
+            "AI engineers building agent-based applications requiring durable orchestration and sandboxed environments"
+          ],
+          "executive_synthesis": "Vercel's visual identity leverages extreme minimalism and technical precision to signal developer credibility and platform sophistication. The monochromatic palette and geometric logo establish instant recognition while the sparse layout communicates confidence—letting product capabilities speak without visual noise. The strategic placement of enterprise client logos (Notion, Zapier, OpenAI) alongside 'Agentic Infrastructure' messaging positions Vercel at the intersection of established cloud hosting and emerging AI agent deployment, appealing to both traditional web developers and forward-looking AI builders."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The visual impression is immediately clean, systematic, and typography-driven—a stark black-and-white palette with generous whitespace dominates the page. The hero features a large geometric primitive (solid black triangle) centered against a pure white background, a hallmark of Swiss Style's mathematical clarity and use of geometric forms as primary visual anchors. \n\n**Layout Analysis:** The grid-based strict structure (12-column, 1400px max-width) with centered/symmetric alignment and extreme vertical spacing (128-176px between sections on desktop) mirrors the International Typographic Style's emphasis on mathematical grids and generous whitespace. Section separation is achieved purely through negative space—no decorative dividers.\n\n**Typography Analysis:** GeistSans, a geometric sans-serif with consistent 450 weight across headings (72px down to 16px), paired with Geist Mono for technical labels, directly aligns with Swiss Style's reliance on modern sans-serif typography (Helvetica-adjacent) for objective communication. The flush-left alignment visible in feature sections and systematic type scale reinforces this.\n\n**Color Analysis:** The monochromatic core (Ink Black #171717 against Paper #FAFAFA/FFFFFF) with minimal accent color (a single blue reserved for accessibility) exemplifies Swiss Style's restrained, functional color philosophy—never decorative, always purposeful.\n\n**Shape/Texture Analysis:** The texture profile shows \"gradient_linear\" and \"shadows_soft\"—but these are extremely subtle (alpha-driven depth through translucent borders and shadows, not heavy gradients). The dominant visual language is flat geometric shapes with minimal decoration, consistent with Swiss Style's rejection of ornamentation.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The secondary modifier \"Corporate\" applies because the design communicates trust, reliability, and professional competence through conservative visual choices. The logo strip of major enterprise clients (OpenAI, DoorDash, Supreme), the emphasis on \"Agentic Infrastructure\" for enterprise scaling, and the formal CTA language (\"Deploy now,\" \"Talk to sales\") signal B2B enterprise positioning. The systematic typography hierarchy, restrained color usage, and polished interface mockups (documentation viewers, deployment dashboards) reinforce professional credibility. However, this remains a modifier rather than the primary classification—the core visual DNA is distinctly Swiss Style, with Corporate serving as the tonal application of that foundation."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "20px",
+          "max_width": "1400px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 600px (1 Column, 24px gutter)",
+          "tablet": "601px - 960px (8 Columns, 20px gutter)",
+          "desktop": "961px - 1400px (12 Columns, 20px gutter)",
+          "large": "1401px+ (12 Columns, 20px gutter)"
+        },
+        "section_separation": "Sections are separated primarily by generous vertical whitespace (40-64px mobile, 128-176px desktop). Background color remains consistent (white/off-white) with subtle transitions. Large feature sections use full-bleed images with gradient overlays at edges to blend into background. No strong divider lines—separation achieved through negative space and typography hierarchy.",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│  ▲  Products  Resources  Enterprise  Pricing              │\n│                        Sales: 000 ext • Sales chat        │\n│                                          Login   Sign up  │\n├──────────────────────────────────────────────────────────┤\n│                                                            │\n│  Agentic                        ▲                         │\n│  Infrastructure                                           │\n│                                                            │\n│  [Deploy Now]  [Talk to sales]                           │\n│                                                            │\n│                           For scaling agents:             │\n│                           • to train new agents          │\n│                           • to extend agent abilities    │\n│                           • powered by Vercel            │\n├──────────────────────────────────────────────────────────┤\n│  ONLONICA   cloudy   DOORDASH   OpenAI   Supreme   hulu  │\n│                                                Payprostst │\n├──────────────────────────────────────────────────────────┤\n│                                                            │\n│  Build agents on                                          │\n│  infrastructure that                                      │\n│  thinks like them                                         │\n│                                                            │\n│  ┌─────────────────────────────────────────────────────┐ │\n│  │         Now AI Chat                     [icons]     │ │\n│  │                                                      │ │\n│  │  [N]      How can I help you today?                 │ │\n│  │           📋 Generate reports                        │ │\n│  │           📊 Analyze my finances                     │ │\n│  │           ✉️  Create a draft email                   │ │\n│  │           👥 Finding info                            │ │\n│  │                                                      │ │\n│  │  Notion powers millions of agent                    │ │\n│  │  conversations daily on Vercel.                     │ │\n│  │                                                      │ │\n│  │  Features:                                          │ │\n│  │  • Function orchestration                           │ │\n│  │  • Real-time memory                                 │ │\n│  │  • AI-driven inference                              │ │\n│  │  • Deployed globally                                │ │\n│  └─────────────────────────────────────────────────────┘ │\n├──────────────────────────────────────────────────────────┤\n│                                                            │\n│  Ship apps that scale from                                │\n│  zero to millions instantly                               │\n│                                                            │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │  ⏱ Node Commit Monitor ...  [dev icons] Deploy ▶  │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                            │\n│  Zapier serves over                                       │\n│  400 million API requests                                 │\n│  per month on Vercel.                                     │\n│                                                            │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │  Your tools. Your rules. Any AI.                   │  │\n│  │                                                     │  │\n│  │  [Perplexity] [Cursor] [...model badges...]       │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│                                                            │\n│  Host platforms that                                      │\n│  serve every customer                                     │\n│                                                            │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │  v0                                                 │  │\n│  │  Documentation                                      │  │\n│  │  [code examples]                                    │  │\n│  │                                           [Deploy]  │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                            │\n│  Identify powers documentation for over                   │\n│  20,000 companies on Vercel.                             │\n│                                                            │\n│  Features:                                                │\n│  • Version control                                        │\n│  • Developer experience                                   │\n│  • Custom domains                                         │\n│  • Privacy-first                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                            │\n│  Recently shipped                                         │\n│                                                            │\n│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │\n│  │              │  │  Passport    │  │   [Black     │   │\n│  │  [Card 1]    │  │              │  │    Card]     │   │\n│  │              │  │  Multi-agent │  │              │   │\n│  └──────────────┘  │  framework   │  │   ▲          │   │\n│                     └──────────────┘  │              │   │\n│  ┌──────────────┐  ┌──────────────┐  └──────────────┘   │\n│  │  E/E         │  │  Containers  │                      │\n│  │              │  │              │  A weekly dose       │\n│  │  AI agents   │  │  Serverless  │  of AI news...      │\n│  └──────────────┘  └──────────────┘                      │\n├──────────────────────────────────────────────────────────┤\n│                                                            │\n│  Built by you, or your agents                             │\n│                                                            │\n│         [Get Started]  or  [→ ∞ ∞ Clone our stack]       │\n│                                                            │\n├──────────────────────────────────────────────────────────┤\n│  FOOTER - Multi Column Layout                             │\n│                                                            │\n│  Agentic Infra    Data Platform    Security    ...        │\n│  • AI Gateway     • Content Delivery  • Trust             │\n│  • AI Workbench   • Observability    • Privacy           │\n│  • Streaming      • Zero Config      • Guides            │\n│  • Inference      • Deployment       • Compliance        │\n│  [more links...]  [more links...]    [more links...]     │\n│                                                            │\n│  ▲                                                         │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**NAV:**\n- Background: White/off-white, minimal\n- Buttons/CTAs: \"Login\" (text link, black) | \"Sign up\" (solid black pill button)\n- Colors: Black text on white, clean minimalist\n- Typography: Sans-serif, lightweight\n\n**HERO (Agentic Infrastructure):**\n- Background: White with large black triangle graphic (geometric, centered)\n- Buttons/CTAs: \"Deploy Now\" (solid black pill) | \"Talk to sales\" (outline, black border pill)\n- Imagery: Large solid black triangle (minimalist, geometric)\n- Colors: Black and white, high contrast\n- Typography: Large, bold serif or display font for headline\n\n**LOGO STRIP:**\n- Background: White\n- Components: Grayscale logos (ONLONICA, cloudy, DOORDASH, OpenAI, Supreme, hulu, Payprostst)\n- Typography: Mixed brand fonts, all monochrome\n\n**BUILD AGENTS SECTION:**\n- Background: White\n- Components: Large interface mockup showing chat UI with dark \"N\" logo icon\n- Card treatment: Clean white card with subtle shadow, rounded corners\n- Imagery: Screenshot/mockup of conversational AI interface\n- Colors: White background, black text, blue accent for icons\n- Typography: Large bold headline, clean body text\n\n**SHIP APPS SECTION:**\n- Background: White\n- Components: Dashboard mockup with deployment interface\n- Buttons/CTAs: \"Deploy ▶\" button visible in mockup (black)\n- Imagery: Code editor/dashboard interface mockup\n- Colors: White, gray interface elements, black text\n- Typography: Bold section headline\n\n**YOUR TOOLS SECTION:**\n- Background: Light gray/off-white panel\n- Components: Model badges (Perplexity, Cursor, etc.) arranged horizontally\n- Card treatment: Rounded badge pills with light borders\n- Colors: Light gray background, mixed badge colors\n- Typography: Clean sans-serif\n\n**HOST PLATFORMS SECTION:**\n- Background: White\n- Components: v0 interface mockup with documentation view, code examples\n- Buttons/CTAs: \"Deploy\" button (black, top right of mockup)\n- Card treatment: Clean interface mockup with subtle shadow\n- Imagery: Code editor/documentation interface\n- Colors: White, black text, syntax highlighting colors in code\n- Typography: Monospace for code, sans-serif for UI\n\n**RECENTLY SHIPPED:**\n- Background: White\n- Components: Grid of product cards (Passport, E/E, Containers)\n- Card treatment: White cards with minimal borders, some with diagonal line graphics\n- Imagery: One black card with white triangle logo, minimal line illustrations\n- Colors: Mostly white with one dramatic black accent card\n- Typography: Card titles in bold, descriptions in regular weight\n\n**BUILT BY YOU SECTION:**\n- Background: White, centered content\n- Buttons/CTAs: \"Get Started\" (solid black pill) | \"→ ∞ ∞ Clone our stack\" (text link with symbols)\n- Colors: Black and white\n- Typography: Large bold headline, centered\n\n**FOOTER:**\n- Background: White\n- Components: Multi-column link layout\n- Colors: Black text on white, subtle gray dividers\n- Typography: Column headers bold, links regular weight, small footer logo (triangle)",
+        "insights": [
+          "Layout employs extreme spatial breathing—feature sections spaced 10-14rem apart on desktop, creating unhurried narrative rhythm that prioritizes clarity over density.",
+          "Hero section uses a centered geometric visual anchor (black triangle) that remains fixed while content flows around it on larger screens, establishing a strong focal point with minimal visual noise.",
+          "Asymmetric grid in 'Recently Shipped' section breaks strict column alignment—one card spans 2 rows while others occupy single rows, adding visual interest without sacrificing clean structure."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The foundational dark ink used for primary typography, dominant brand actions, and logos.",
+              "when_to_use": [
+                "Body typography and large hero headings",
+                "Primary CTA backgrounds ('Sign Up', 'Deploy now')",
+                "Customer marquee logos (OpenAI, DoorDash)",
+                "Vercel logo and header icons"
+              ]
+            },
+            "hex": "#171717",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Paper",
+            "type": "Light",
+            "rules": {
+              "description": "The core surface palette, defining the page foundation and lifting interactive components through crisp backgrounds and borders.",
+              "when_to_use": [
+                "Main page background fill (#FAFAFA)",
+                "Dropdown menu and secondary button surfaces (#FFFFFF)",
+                "Subtle 1px button and card borders (#EBEBEB)",
+                "Tooltip and menu wrappers"
+              ]
+            },
+            "hex": "#EBEBEB",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FAFAFA",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#DBDBDB",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.7444000000000001
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Secondary Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A muted gray that establishes typographic hierarchy, receding secondary information behind the primary black text.",
+              "when_to_use": [
+                "Top navigation links ('Products', 'Resources')",
+                "Sub-navigation category labels",
+                "Secondary descriptive text in feature sections",
+                "Footer menu links"
+              ]
+            },
+            "hex": "#4D4D4D",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#666666",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.2225
+          },
+          {
+            "name": "Accent Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "A vibrant blue reserved strictly for accessibility indicators and highly specific illustration highlights.",
+              "when_to_use": [
+                "'Skip to content' focus ring and text",
+                "Gradient stop in the 'Passport' feature card illustration"
+              ]
+            },
+            "hex": "#0072F5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#38A2FF",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0179
+          },
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "A pitch black deployed almost entirely as an alpha-channel base for drop shadows and delicate structural borders.",
+              "when_to_use": [
+                "Translucent borders on dropdown menus and feature cards",
+                "Drop shadows lifting sticky headers and navigation panels"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0163
+          }
+        ],
+        "insights": [
+          "High-Contrast Monochromatic Core: The design relies heavily on a stark black-and-white foundation, using Ink Black for heavy text and CTAs against bright whites to keep the UI sleek and highly legible.",
+          "Restrained Color Usage: Vibrant hues like the Accent Blue are extremely limited, ensuring the content, partner logos, and specific feature illustrations command attention without competing against the UI.",
+          "Alpha-Driven Depth: Rather than relying on solid gray backgrounds to separate sections, the design builds depth through layered white surfaces accented with subtle, translucent black borders and shadows."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "GeistSans",
+              "role": "Heading 72",
+              "specs": {
+                "size": "72px",
+                "line_height": "72px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 64",
+              "specs": {
+                "size": "64px",
+                "line_height": "64px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 56",
+              "specs": {
+                "size": "56px",
+                "line_height": "56px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 48",
+              "specs": {
+                "size": "48px",
+                "line_height": "56px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 40",
+              "specs": {
+                "size": "40px",
+                "line_height": "48px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 32",
+              "specs": {
+                "size": "32px",
+                "line_height": "40px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 24",
+              "specs": {
+                "size": "24px",
+                "line_height": "32px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 20",
+              "specs": {
+                "size": "20px",
+                "line_height": "26px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 16",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Heading 14",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text styles used for longer passages, articles, and descriptions, carefully scaled for legibility.",
+          "variants": [
+            {
+              "name": "GeistSans",
+              "role": "Copy 24",
+              "specs": {
+                "size": "24px",
+                "line_height": "36px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Copy 20",
+              "specs": {
+                "size": "20px",
+                "line_height": "36px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Copy 18",
+              "specs": {
+                "size": "18px",
+                "line_height": "28px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Copy 16",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Copy 14",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Copy 13",
+              "specs": {
+                "size": "13px",
+                "line_height": "18px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Mono",
+              "role": "Copy 14 Mono",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Mono",
+              "role": "Copy 13 Mono",
+              "specs": {
+                "size": "13px",
+                "line_height": "18px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components, buttons, or for very small text in the content body, such as captions and badges.",
+          "variants": [
+            {
+              "name": "GeistSans",
+              "role": "Label 20",
+              "specs": {
+                "size": "20px",
+                "line_height": "32px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Label 18",
+              "specs": {
+                "size": "18px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Label 16",
+              "specs": {
+                "size": "16px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Label 14",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Label 13",
+              "specs": {
+                "size": "13px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Label 12",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Mono",
+              "role": "Label 14 Mono",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Mono",
+              "role": "Label 13 Mono",
+              "specs": {
+                "size": "13px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Mono",
+              "role": "Label 12 Mono",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Button 16",
+              "specs": {
+                "size": "16px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Button 14",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Button 12",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GeistSans",
+              "role": "Badge",
+              "specs": {
+                "size": "11px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Mono",
+              "role": "Micro / Badge Mono",
+              "specs": {
+                "size": "11px",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Typography variants that don't fit standard size structures, such as quotes and decorative fonts.",
+          "variants": [
+            {
+              "name": "Georgia",
+              "role": "Quote",
+              "specs": {
+                "size": "inherit",
+                "line_height": "inherit",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Georgia",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Pixel Circle",
+              "role": "Decorative",
+              "specs": {
+                "size": "inherit",
+                "line_height": "inherit",
+                "font_weight": "inherit",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--font-geist-pixel-circle)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Pixel Square",
+              "role": "Decorative",
+              "specs": {
+                "size": "inherit",
+                "line_height": "inherit",
+                "font_weight": "inherit",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--font-geist-pixel-square)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Geist Pixel Line",
+              "role": "Decorative",
+              "specs": {
+                "size": "inherit",
+                "line_height": "inherit",
+                "font_weight": "inherit",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--font-geist-pixel-line)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "No explicit illustrative text highlights (like brush strokes or markers) were found. The design relies strictly on standard CSS properties like underlines (`.underline`, `.decoration-gray-500`), subtle gradient text, and weight variations for emphasis.",
+        "insights": [
+          "A highly structured and explicit numerical naming convention is used for typography classes (e.g., `.text-heading-64`, `.text-copy-16`, `.text-label-12`), directly mapping semantic intent to specific size/line-height pairs.",
+          "Headings uniquely employ a custom font weight of `450` across most sizes (16px to 72px), giving titles a confident, refined presence that sits perfectly between standard regular (400) and medium (500) weights.",
+          "The system integrates `Geist Mono` heavily as a secondary typeface, deploying it for utilitarian labels, technical badges, code references, and microcopy to underscore the brand's developer-centric identity."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Primary Background",
+            "description": "Main page background surface (background-200)",
+            "when_to_use": [
+              "Page backgrounds",
+              "Section backgrounds",
+              "Default surface"
+            ],
+            "hex": "#FAFAFA"
+          },
+          {
+            "name": "Card Background",
+            "description": "Surface for cards, modals, elevated content (background-100)",
+            "when_to_use": [
+              "Cards",
+              "Modals",
+              "Elevated surfaces",
+              "Dialog boxes"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Gray Surface 100",
+            "description": "Light gray surface for subtle differentiation",
+            "when_to_use": [
+              "Hover states",
+              "Secondary backgrounds",
+              "Subtle containers"
+            ],
+            "hex": "#F3F3F3"
+          },
+          {
+            "name": "Gray Surface 200",
+            "description": "Medium gray surface for layering",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Secondary surfaces"
+            ],
+            "hex": "#EBEBEB"
+          },
+          {
+            "name": "Gray Surface 1000 (Dark)",
+            "description": "Primary dark surface for dark theme and high-contrast elements",
+            "when_to_use": [
+              "Dark theme backgrounds",
+              "Primary buttons",
+              "High contrast surfaces"
+            ],
+            "hex": "#171717"
+          },
+          {
+            "name": "Blue 700",
+            "description": "Primary brand blue for interactive elements",
+            "when_to_use": [
+              "Primary CTAs",
+              "Links",
+              "Brand elements"
+            ],
+            "hex": "#0070F3"
+          },
+          {
+            "name": "Blue 100",
+            "description": "Light blue tint for backgrounds",
+            "when_to_use": [
+              "Feature highlights",
+              "Info backgrounds"
+            ],
+            "hex": "#F7FBFF"
+          },
+          {
+            "name": "Red 200",
+            "description": "Light red tint for error states",
+            "when_to_use": [
+              "Error backgrounds",
+              "Warning areas"
+            ],
+            "hex": "#FFF5F5"
+          },
+          {
+            "name": "Green 100",
+            "description": "Light green tint for success states",
+            "when_to_use": [
+              "Success backgrounds",
+              "Confirmation areas"
+            ],
+            "hex": "#F5FFF5"
+          },
+          {
+            "name": "Amber 100",
+            "description": "Light amber tint for warnings",
+            "when_to_use": [
+              "Warning backgrounds",
+              "Caution areas"
+            ],
+            "hex": "#FFFBEB"
+          },
+          {
+            "name": "Purple 200",
+            "description": "Light purple tint for special features",
+            "when_to_use": [
+              "Special feature backgrounds",
+              "Premium areas"
+            ],
+            "hex": "#F9F5FF"
+          },
+          {
+            "name": "Gray Alpha 200",
+            "description": "Semi-transparent black for subtle overlays",
+            "when_to_use": [
+              "Hover overlays",
+              "Borders",
+              "Subtle shadows"
+            ],
+            "hex": "#00000014"
+          },
+          {
+            "name": "Gray Alpha 400",
+            "description": "Semi-transparent black for borders and dividers",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Shadow rings"
+            ],
+            "hex": "#00000014"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Hero Fade Top",
+            "description": "Top to bottom gradient from background-200 to green-700",
+            "when_to_use": [
+              "Hero section backgrounds",
+              "Feature transitions"
+            ],
+            "css_code": "linear-gradient(180deg, hsla(0, 0%, 98%, 1) 0%, hsla(131, 41%, 46%, 1) 15%)"
+          },
+          {
+            "name": "Hero Background with Guide Color",
+            "description": "Top to bottom gradient from background-200 to guide accent color",
+            "when_to_use": [
+              "Hero section backgrounds",
+              "Themed sections"
+            ],
+            "css_code": "linear-gradient(180deg, hsla(0, 0%, 98%, 1) 0%, var(--guide-color) 75%)"
+          },
+          {
+            "name": "Content Fade Bottom",
+            "description": "Top to bottom fade from white to transparent",
+            "when_to_use": [
+              "Section transitions",
+              "Content fade overlays"
+            ],
+            "css_code": "linear-gradient(180deg, hsla(0, 0%, 100%, 1) 25%, rgba(255,255,255,0) 100%)"
+          },
+          {
+            "name": "Red Glow Gradient",
+            "description": "Red glow effect gradient with multiple color stops",
+            "when_to_use": [
+              "Error state highlights",
+              "Attention-grabbing backgrounds"
+            ],
+            "css_code": "linear-gradient(to bottom, color-mix(in srgb, hsla(359, 90%, 71%, 1) 78%, transparent) 0%, color-mix(in srgb, hsla(0, 82%, 85%, 1) 42%, transparent) 20%, color-mix(in srgb, hsla(0, 90%, 92%, 1) 16%, transparent) 52%, transparent 82%)"
+          },
+          {
+            "name": "Red Vertical Highlight",
+            "description": "Vertical red glow with transparent top and bottom",
+            "when_to_use": [
+              "Vertical accent lines",
+              "Feature highlights"
+            ],
+            "css_code": "linear-gradient(to bottom, transparent, color-mix(in srgb, hsla(358, 75%, 59%, 1) 55%, transparent), transparent)"
+          },
+          {
+            "name": "Gray Vertical Divider",
+            "description": "Vertical gradient from gray-400 to gray-1000 and back",
+            "when_to_use": [
+              "Vertical dividers",
+              "Column separators"
+            ],
+            "css_code": "linear-gradient(to bottom, hsla(0, 0%, 92%, 1) 0%, hsla(0, 0%, 9%, 1) 25%, hsla(0, 0%, 9%, 1) 75%, hsla(0, 0%, 92%, 1) 100%)"
+          },
+          {
+            "name": "Horizontal Fade Edges",
+            "description": "Horizontal gradient with transparent edges",
+            "when_to_use": [
+              "Horizontal dividers",
+              "Edge fades"
+            ],
+            "css_code": "linear-gradient(to right, transparent 0%, hsla(0, 0%, 92%, 1) 10%, hsla(0, 0%, 92%, 1) 90%, transparent 100%)"
+          },
+          {
+            "name": "Horizontal Header Gradient",
+            "description": "Horizontal gradient with soft edges for headers",
+            "when_to_use": [
+              "Header backgrounds",
+              "Horizontal bars"
+            ],
+            "css_code": "linear-gradient(90deg, hsla(0, 0%, 98%, 1) 0%, hsla(0, 0%, 92%, 1) 10%, hsla(0, 0%, 92%, 1) 90%, hsla(0, 0%, 98%, 1) 100%)"
+          },
+          {
+            "name": "Gray Horizontal Shimmer",
+            "description": "Horizontal gray to black to gray shimmer effect",
+            "when_to_use": [
+              "Loading states",
+              "Shimmer effects"
+            ],
+            "css_code": "linear-gradient(90deg, hsla(0, 0%, 90%, 1) 0%, hsla(0, 0%, 9%, 1) 50%, hsla(0, 0%, 90%, 1) 100%)"
+          },
+          {
+            "name": "Radial Corner Glows",
+            "description": "Three radial gradients at corners for ambient glow",
+            "when_to_use": [
+              "Card backgrounds",
+              "Hero sections",
+              "Ambient effects"
+            ],
+            "css_code": "radial-gradient(circle at top left, hsla(0, 0%, 98%, 1) 0%, transparent 30%), radial-gradient(circle at top right, hsla(0, 0%, 98%, 1) 0%, transparent 30%), radial-gradient(circle at bottom right, hsla(0, 0%, 98%, 1) 0%, transparent 30%)"
+          },
+          {
+            "name": "Radial Center Glow",
+            "description": "Elliptical radial gradient from center",
+            "when_to_use": [
+              "Spotlight effects",
+              "Center focus areas"
+            ],
+            "css_code": "radial-gradient(ellipse at center, hsla(0, 0%, 95%, 1) 0%, transparent 70%)"
+          },
+          {
+            "name": "Red Radial Glow",
+            "description": "Red elliptical radial gradient from center",
+            "when_to_use": [
+              "Error highlights",
+              "Alert glows"
+            ],
+            "css_code": "radial-gradient(ellipse at center, hsla(0, 90%, 92%, 1), transparent 72%)"
+          },
+          {
+            "name": "Passport Glow",
+            "description": "Multicolor vertical gradient for passport glow effect",
+            "when_to_use": [
+              "Special feature highlights",
+              "Premium effects"
+            ],
+            "css_code": "linear-gradient(to top, #00E5FF 0%, #9500FF 25%, #FF1744 50%, #FFD000 75%, #00FF95 100%)"
+          },
+          {
+            "name": "Passport Ellipse Glow",
+            "description": "Yellow to blue horizontal gradient for ellipse effect",
+            "when_to_use": [
+              "Animated glows",
+              "Feature accents"
+            ],
+            "css_code": "linear-gradient(to right, #FFDC30 0%, #38A2FF 100%)"
+          },
+          {
+            "name": "Black to Gray Fade",
+            "description": "Top to bottom gradient from semi-transparent to solid black",
+            "when_to_use": [
+              "Text overlays",
+              "Dark scrim effects"
+            ],
+            "css_code": "linear-gradient(180deg, #000c 0%, #000 100%)"
+          },
+          {
+            "name": "Blue Gradient (135deg)",
+            "description": "Diagonal blue to pink gradient",
+            "when_to_use": [
+              "Brand elements",
+              "Feature highlights"
+            ],
+            "css_code": "linear-gradient(135deg, #0070f3, #f81ce5)"
+          },
+          {
+            "name": "Red to Blue Gradient (135deg)",
+            "description": "Diagonal red to blue gradient",
+            "when_to_use": [
+              "Alternative brand elements",
+              "Special features"
+            ],
+            "css_code": "linear-gradient(135deg, #ff1e56, #0096ff)"
+          }
+        ],
+        "highlights": [
+          "Soft blur effects (blur-xl, blur-[120px]) on dark backgrounds for ambient glow (opacity 0.15 dark theme)",
+          "Noise/grain texture overlay on dark shader canvas (70px tile, mix-blend-mode: multiply, opacity 0.42)",
+          "Radial glow on gray-1000 background with large blur radius for ambient lighting effects",
+          "Linear gradient masks for fade effects (top to bottom, left to right) on scrollable content",
+          "Animated shimmer effects with color-mix for loading states",
+          "Drop shadow rings: 0 0 0 1px borders for subtle elevation",
+          "Passport glow animation: multicolor vertical gradient with rotating ellipse blur effect",
+          "Box shadows with soft blur: shadow-border, shadow-tooltip patterns",
+          "Semi-transparent overlays (gray-alpha-200, gray-alpha-400) for hover states and borders"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Ds Shadow Border Large",
+              "type": "drop",
+              "description": "Composite shadow with 1px border ring, subtle 2px blur, 16px blur offset, and background highlight ring. Used for large bordered containers.",
+              "css_value": "0 0 0 1px #00000014, 0px 2px 2px #0000000a, 0px 8px 16px -4px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Large cards",
+                "Featured content containers",
+                "Hero sections"
+              ]
+            },
+            {
+              "name": "Tw Inset Ring Shadow",
+              "type": "drop",
+              "description": "Transparent placeholder shadow used as base for Tailwind ring utilities.",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Base shadow reset",
+                "Ring utility initialization"
+              ]
+            },
+            {
+              "name": "Header Border Bottom",
+              "type": "drop",
+              "description": "Subtle 1px bottom border shadow for header separation with 10% black opacity.",
+              "css_value": "0 1px 0 0 #0000001a",
+              "when_to_use": [
+                "Header bottom borders",
+                "Section dividers"
+              ]
+            },
+            {
+              "name": "Dropdown Box Shadow",
+              "type": "drop",
+              "description": "Very subtle 4px blur dropdown shadow with minimal 2% opacity.",
+              "css_value": "0 4px 4px 0 #00000005",
+              "when_to_use": [
+                "Dropdowns",
+                "Light overlays"
+              ]
+            },
+            {
+              "name": "Ds Focus Ring",
+              "type": "drop",
+              "description": "Focus ring with white inner ring (2px) and blue outer ring (4px) for accessibility.",
+              "css_value": "0 0 0 2px hsla(0, 0%, 100%, 1), 0 0 0 4px hsla(212, 100%, 48%, 1)",
+              "when_to_use": [
+                "Focus states",
+                "Keyboard navigation indicators",
+                "Interactive element focus"
+              ]
+            },
+            {
+              "name": "Ds Shadow Large",
+              "type": "drop",
+              "description": "Large elevation shadow with 2px close shadow and 16px distant shadow for floating elements.",
+              "css_value": "0px 2px 2px #0000000a, 0px 8px 16px -4px #0000000a",
+              "when_to_use": [
+                "Large cards",
+                "Floating panels",
+                "Elevated sections"
+              ]
+            },
+            {
+              "name": "Ds Shadow Border Small",
+              "type": "drop",
+              "description": "Small bordered shadow with 1px ring, 2px blur, and background highlight.",
+              "css_value": "0 0 0 1px #00000014, 0px 2px 2px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Small cards",
+                "Compact UI elements",
+                "Badges"
+              ]
+            },
+            {
+              "name": "Shadow Sticky",
+              "type": "drop",
+              "description": "Shadow for sticky elements with 12px blur offset downward and 12% opacity.",
+              "css_value": "0 12px 10px -10px #0000001f",
+              "when_to_use": [
+                "Sticky headers",
+                "Pinned elements",
+                "Scroll shadows"
+              ]
+            },
+            {
+              "name": "Ds Shadow Background Border",
+              "type": "drop",
+              "description": "Single 1px background-colored ring for subtle container definition.",
+              "css_value": "0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Background borders",
+                "Light container outlines"
+              ]
+            },
+            {
+              "name": "Shadow Large",
+              "type": "drop",
+              "description": "Large dramatic shadow with 60px blur and 12% opacity for prominent elevation.",
+              "css_value": "0 30px 60px #0000001f",
+              "when_to_use": [
+                "Hero cards",
+                "Featured content",
+                "Marketing sections"
+              ]
+            },
+            {
+              "name": "Ds Shadow Small",
+              "type": "drop",
+              "description": "Minimal 2px blur shadow with 4% opacity for subtle lift.",
+              "css_value": "0px 2px 2px #0000000a",
+              "when_to_use": [
+                "Small UI components",
+                "Buttons",
+                "Input fields"
+              ]
+            },
+            {
+              "name": "Shadow Medium",
+              "type": "drop",
+              "description": "Medium elevation with 30px blur and 12% opacity.",
+              "css_value": "0 8px 30px #0000001f",
+              "when_to_use": [
+                "Cards",
+                "Dialogs",
+                "Medium-sized overlays"
+              ]
+            },
+            {
+              "name": "Ds Shadow Xl",
+              "type": "drop",
+              "description": "Extra large shadow with three layers: 1px subtle, 8px mid, and 24px distant shadows.",
+              "css_value": "0px 1px 1px #00000005, 0px 4px 8px -4px #0000000a, 0px 16px 24px -8px #0000000f",
+              "when_to_use": [
+                "Large floating elements",
+                "Drawers",
+                "Side panels"
+              ]
+            },
+            {
+              "name": "Ds Shadow Modal",
+              "type": "drop",
+              "description": "Modal elevation with border rings and three shadow layers for prominent floating.",
+              "css_value": "0 0 0 1px #00000014, 0px 1px 1px #00000005, 0px 8px 16px -4px #0000000a, 0px 24px 32px -8px #0000000f, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Modals",
+                "Dialog boxes",
+                "Confirmation dialogs"
+              ]
+            },
+            {
+              "name": "Ds Shadow Medium",
+              "type": "drop",
+              "description": "Medium shadow with 2px close and 8px distant layers.",
+              "css_value": "0px 2px 2px #0000000a, 0px 8px 8px -8px #0000000a",
+              "when_to_use": [
+                "Medium cards",
+                "Popovers",
+                "Dropdowns"
+              ]
+            },
+            {
+              "name": "Ds Shadow Border Medium",
+              "type": "drop",
+              "description": "Medium bordered shadow with ring, two shadow layers, and background highlight.",
+              "css_value": "0 0 0 1px #00000014, 0px 2px 2px #0000000a, 0px 8px 8px -8px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Medium cards with borders",
+                "Content sections"
+              ]
+            },
+            {
+              "name": "Ds Shadow 2xl",
+              "type": "drop",
+              "description": "2XL shadow with three progressive layers for maximum elevation.",
+              "css_value": "0px 1px 1px #00000005, 0px 8px 16px -4px #0000000a, 0px 24px 32px -8px #0000000f",
+              "when_to_use": [
+                "Full-screen overlays",
+                "Major modals",
+                "Lightboxes"
+              ]
+            },
+            {
+              "name": "Ds Shadow Border",
+              "type": "drop",
+              "description": "Dual ring border shadow with subtle black and background-colored rings.",
+              "css_value": "0 0 0 1px #00000014, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Standard bordered containers",
+                "Cards"
+              ]
+            },
+            {
+              "name": "Ds Shadow Border Base",
+              "type": "drop",
+              "description": "Simple 1px border ring with 8% opacity.",
+              "css_value": "0 0 0 1px #00000014",
+              "when_to_use": [
+                "Base borders",
+                "Minimal container outlines"
+              ]
+            },
+            {
+              "name": "Drop Shadow Lg",
+              "type": "drop",
+              "description": "Large drop shadow with 4px blur and 15% opacity.",
+              "css_value": "0 4px 4px #00000026",
+              "when_to_use": [
+                "Elevated buttons",
+                "Action items"
+              ]
+            },
+            {
+              "name": "Shadow Smallest",
+              "type": "drop",
+              "description": "Smallest shadow with 4px blur and 10% opacity.",
+              "css_value": "0px 2px 4px #0000001a",
+              "when_to_use": [
+                "Micro components",
+                "Subtle elevation"
+              ]
+            },
+            {
+              "name": "Ds Shadow Border Inset",
+              "type": "inset",
+              "description": "Inset 1px border ring for inner shadows and pressed states.",
+              "css_value": "inset 0 0 0 1px #00000014",
+              "when_to_use": [
+                "Inset containers",
+                "Pressed button states",
+                "Inner borders"
+              ]
+            },
+            {
+              "name": "Ds Shadow Tooltip",
+              "type": "drop",
+              "description": "Tooltip shadow with border ring and two blur layers for floating hints.",
+              "css_value": "0 0 0 1px #00000014, 0px 1px 1px #00000005, 0px 4px 8px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Tooltips",
+                "Hover hints",
+                "Info popovers"
+              ]
+            },
+            {
+              "name": "Ds Shadow Xs",
+              "type": "drop",
+              "description": "Extra small shadow with 2px blur for minimal lift.",
+              "css_value": "0px 1px 2px #0000000a",
+              "when_to_use": [
+                "Tags",
+                "Chips",
+                "Small interactive elements"
+              ]
+            },
+            {
+              "name": "Ds Shadow 2xs",
+              "type": "drop",
+              "description": "Minimal 1px shadow for subtle depth.",
+              "css_value": "0px 1px 1px #0000000a",
+              "when_to_use": [
+                "Micro UI elements",
+                "Subtle separators"
+              ]
+            },
+            {
+              "name": "Shadow Small",
+              "type": "drop",
+              "description": "Small shadow with 10px blur and 12% opacity.",
+              "css_value": "0 5px 10px #0000001f",
+              "when_to_use": [
+                "Small cards",
+                "Buttons",
+                "Interactive elements"
+              ]
+            },
+            {
+              "name": "Drop Shadow Md",
+              "type": "drop",
+              "description": "Medium drop shadow with 3px blur and 12% opacity.",
+              "css_value": "0 3px 3px #0000001f",
+              "when_to_use": [
+                "Medium components",
+                "Hover states"
+              ]
+            },
+            {
+              "name": "Shadow Extra Small",
+              "type": "drop",
+              "description": "Extra small shadow with 8px blur and 12% opacity.",
+              "css_value": "0px 4px 8px #0000001f",
+              "when_to_use": [
+                "Small overlays",
+                "Compact popovers"
+              ]
+            },
+            {
+              "name": "Ds Focus Border",
+              "type": "drop",
+              "description": "Dark focus border with 1px inner ring and 4px outer ring.",
+              "css_value": "0 0 0 1px #00000057, 0px 0px 0px 4px #00000029",
+              "when_to_use": [
+                "Dark theme focus states",
+                "High contrast focus indicators"
+              ]
+            },
+            {
+              "name": "Ds Shadow Menu",
+              "type": "drop",
+              "description": "Menu shadow with border rings and three progressive shadow layers.",
+              "css_value": "0 0 0 1px #00000014, 0px 1px 1px #00000005, 0px 4px 8px -4px #0000000a, 0px 16px 24px -8px #0000000f, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+              "when_to_use": [
+                "Dropdown menus",
+                "Context menus",
+                "Navigation menus"
+              ]
+            },
+            {
+              "name": "Ds Shadow Modal Elevated",
+              "type": "drop",
+              "description": "Highly elevated modal shadow with four layers for maximum prominence.",
+              "css_value": "0px 0px 0px 1px #00000014, 0px 32px 72px -12px #0000000f, 0px 8px 32px -12px #00000014, 0px 8px 24px -12px #0000001f",
+              "when_to_use": [
+                "Priority modals",
+                "Important dialogs",
+                "Alert overlays"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#EAEAEA",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#00000014",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#0000001A",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "marquee",
+          "sticky_header",
+          "scroll_reveal",
+          "accordion",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "marquee",
+            "css": "@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-100% - var(--marquee-gap))); } }",
+            "description": "Continuous horizontal scroll animation for the customer logo strip in the hero section"
+          },
+          {
+            "name": "passport-glow-ellipse-x",
+            "css": "@keyframes passport-glow-ellipse-x { from { transform: scaleX(1); } to { transform: scaleX(1.5); } }",
+            "description": "Scaling animation for decorative glow effect on the Passport feature card"
+          },
+          {
+            "name": "accordion-down",
+            "css": "@keyframes accordion-down { from { height: 0; } to { height: var(--radix-accordion-content-height); } }",
+            "description": "Expand animation for accordion content panels"
+          },
+          {
+            "name": "accordion-up",
+            "css": "@keyframes accordion-up { from { height: var(--radix-accordion-content-height); } to { height: 0; } }",
+            "description": "Collapse animation for accordion content panels"
+          },
+          {
+            "name": "fade-in",
+            "css": "@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }",
+            "description": "Simple fade in animation used for page elements and hero content"
+          },
+          {
+            "name": "fade-slide-in",
+            "css": "@keyframes fade-slide-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+            "description": "Combined fade and slide animation for scroll reveal elements"
+          },
+          {
+            "name": "button-transition",
+            "css": "transition: border-color 150ms ease-in-out, background 150ms ease-in-out, color 150ms ease-in-out, transform 150ms ease-in-out, box-shadow 150ms ease-in-out",
+            "description": "Standard button hover and focus transition token"
+          },
+          {
+            "name": "card-hover-transform",
+            "css": "transition: transform 300ms ease-out",
+            "description": "Card scale and rotation transform on hover for feature cards"
+          },
+          {
+            "name": "hero-text-scramble",
+            "css": "",
+            "description": "JS-driven text scramble animation cycling through taglines in the hero section"
+          },
+          {
+            "name": "opacity-transition",
+            "css": "transition: opacity 300ms ease-out",
+            "description": "Standard opacity transition for element visibility changes"
+          }
+        ],
+        "insights": [
+          "The design uses a high-contrast monochromatic palette with black (#171717) and white (#FFFFFF) as primary interaction colors, creating strong visual hierarchy for CTAs.",
+          "Button system has two distinct radius patterns: rounded-full (pill) for hero/marketing CTAs and rounded-md (6px) for navigation/utility buttons, establishing clear context differentiation.",
+          "Motion design is restrained but purposeful, with subtle 150ms transitions for micro-interactions and longer 300ms transforms for card hovers, creating a polished professional feel."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Deploy now (Primary Dark)",
+            "usage": "Primary call-to-action for user signup and deployment, appears in hero and footer sections",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "GeistSans",
+                  "size": "16px",
+                  "padding": "0px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#171717",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "hsl(0, 0%, 22%)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Talk to sales (Secondary Outline)",
+            "usage": "Secondary call-to-action paired with primary button in hero section",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "GeistSans",
+                  "size": "16px",
+                  "padding": "0px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get a Demo (Navigation Secondary)",
+            "usage": "Navigation bar secondary action for sales contact",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "GeistSans",
+                  "size": "14px",
+                  "padding": "0px 6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Log In (Navigation Secondary)",
+            "usage": "Navigation bar login action",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "GeistSans",
+                  "size": "14px",
+                  "padding": "0px 6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Sign Up (Navigation Primary)",
+            "usage": "Navigation bar primary signup action",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "GeistSans",
+                  "size": "14px",
+                  "padding": "0px 6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#171717",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "hsl(0, 0%, 22%)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get your ticket (Tertiary Fill)",
+            "usage": "Announcement banner call-to-action",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "GeistSans",
+                  "size": "14px",
+                  "padding": "0px 6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#171717",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.08)",
+                "text_color": "#171717",
+                "border_color": "rgba(0, 0, 0, 0.08)",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Onboard your agent (Composite Pill)",
+            "usage": "Secondary action with icon, appears in footer CTA section",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "GeistSans",
+                  "size": "16px",
+                  "padding": "0px 8px 0px 4px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#171717",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#8F8F8F",
+                "border_color": "#EBEBEB",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are often paired horizontally in hero sections with primary and secondary variants side by side",
+          "spacing": "12px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "64px",
+          "position": "sticky",
+          "background": {
+            "hex": "#FAFAFA",
+            "color_reference": "Background/200",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": "0px solid #EBEBEB"
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Feature Card",
+            "description": "Large interactive cards showcasing product features with imagery, gradient overlays, and descriptive text",
+            "when_to_use": [
+              "Product feature highlights",
+              "Recently shipped section",
+              "Visual storytelling with images"
+            ]
+          },
+          {
+            "name": "Customer Stat Tile",
+            "description": "Section with customer logo, statistic highlight, and feature list",
+            "when_to_use": [
+              "Customer success stories",
+              "Social proof sections",
+              "Platform capability demonstrations"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Single open by default, used in mobile navigation for collapsible menu sections"
+        },
+        "dividers": [
+          {
+            "name": "Section Divider",
+            "description": "Subtle horizontal divider between major content sections",
+            "when_to_use": [
+              "Between navigation groups",
+              "Footer section separation"
+            ],
+            "color": "#EBEBEB",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Alpha Border",
+            "description": "Translucent border for cards and containers using alpha transparency",
+            "when_to_use": [
+              "Card borders",
+              "Navigation panel borders",
+              "Dropdown menu borders"
+            ],
+            "color": "rgba(0, 0, 0, 0.08)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Geist Functional Icons",
+          "description": "Small functional icons for UI components, buttons, and inline text links",
+          "when_to_use": [
+            "Buttons",
+            "Dropdown menus",
+            "Inline text links",
+            "Tooltips"
+          ],
+          "format": "SVG",
+          "style": "Filled / Solid Paths",
+          "sizes": {
+            "small": "14px",
+            "medium": "16px"
+          },
+          "examples": [
+            {
+              "name": "Download / Export",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" height=\"16\" width=\"16\" data-slot=\"geist-icon\" style=\"color:currentColor\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M8.75 1v7.69l1.97-1.97.53-.53 1.06 1.06-.53.53-3.07 3.07a1 1 0 0 1-1.42 0L4.22 7.78l-.53-.53 1.06-1.06.53.53 1.97 1.97V1zm4.75 8.25v4.25h-11v-5H1V14a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.5h-1.5z\" clip-rule=\"evenodd\"></path></svg>"
+            },
+            {
+              "name": "Book / Guidelines",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" height=\"16\" width=\"16\" data-slot=\"geist-icon\" style=\"color:currentColor\"><g><path fill=\"currentColor\" d=\"M1.5 12a1.5 1.5 0 0 1 1.24 2.34v.16h-.12a1.5 1.5 0 0 1-2.62-1c0-.83.67-1.5 1.5-1.5m13 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-9.39 2.5H3.92v-1h1.19zm2.37 0H6.3v-1h1.18zm2.37 0H8.67v-1h1.18zm2.37 0h-1.18v-1h1.18zm-8.8-3.74-.6 1-.85-.52.6-1zm10.6.48-.85.52-.6-1 .86-.52zm-9.4-2.48-.6 1-.85-.52.6-1zm8.2.48-.85.52-.6-1 .86-.52zm-7-2.48-.6 1-.85-.52.6-1zm5.8.48-.85.52-.6-1 .86-.52zm-4.6-2.48-.6 1-.85-.52.6-1zm3.4.48-.85.52-.6-1 .86-.52zM8 1a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3\"></path></g></svg>"
+            },
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" height=\"14\" width=\"14\" data-slot=\"geist-icon\" style=\"color:currentColor\" aria-hidden=\"true\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m12.06 6.75-.53.53-2.82 2.82a1 1 0 0 1-1.42 0L4.47 7.28l-.53-.53L5 5.69l.53.53L8 8.69l2.47-2.47.53-.53z\" clip-rule=\"evenodd\"></path></svg>"
+            },
+            {
+              "name": "Chevron Down (Alt)",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" height=\"16\" width=\"16\" data-slot=\"geist-icon\" style=\"color:currentColor\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m6.75 3.94.53.53 2.82 2.82a1 1 0 0 1 0 1.42l-2.82 2.82-.53.53L5.69 11l.53-.53L8.69 8 6.22 5.53 5.69 5z\" clip-rule=\"evenodd\"></path></svg>"
+            },
+            {
+              "name": "External Link",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" height=\"14\" width=\"14\" data-slot=\"geist-icon\" style=\"color:currentColor\"><g><path fill=\"currentColor\" d=\"m3.14 10.61 3.15-1.76.05-.15-.05-.09h-.16l-.52-.03-1.8-.05-1.56-.06-1.51-.08-.38-.09L0 7.84l.04-.24.32-.21.45.04 1.02.07 1.52.1 1.1.07 1.63.17h.26l.04-.1-.1-.07-.06-.07-1.57-1.06-1.7-1.12-.9-.65-.48-.33-.24-.3-.1-.67.43-.48.59.04.15.04.6.45 1.27.99 1.66 1.21.24.2.1-.06V5.8l-.1-.18L5.27 4 4.3 2.35l-.43-.7-.11-.4a2 2 0 0 1-.07-.49l.5-.67.27-.09.67.09.28.24.41.94.67 1.48 1.04 2.02.3.6.16.55.06.17h.1v-.1l.1-1.13.15-1.4.15-1.79.06-.5.25-.6.5-.34.39.19.32.46-.05.3-.19 1.22-.37 1.93-.24 1.3h.14l.16-.17.66-.87 1.1-1.37.48-.54.57-.6.36-.3h.7l.5.76-.23.77-.7.9-.6.76-.84 1.13L11 7l.05.08.12-.02 1.9-.4 1.03-.18 1.23-.21.56.25.06.27-.22.53-1.31.33-1.54.3-2.3.54-.02.02.03.04 1.03.1.44.03h1.08l2.02.15.52.34.32.43-.05.32-.81.41-1.1-.26-2.55-.6-.87-.22h-.12v.07l.72.71 1.34 1.2 1.67 1.56.09.38-.22.3-.22-.03-1.47-1.1-.57-.5-1.28-1.08h-.09v.12l.3.43 1.56 2.34.08.72-.11.23-.4.14-.45-.08-.92-1.28-.94-1.44-.76-1.29-.1.05-.45 4.83-.2.24-.5.19-.4-.3-.21-.5.21-.99.26-1.28.21-1.01.2-1.27.1-.42v-.02h-.1L6.9 11.5l-1.46 1.95-1.15 1.23-.27.11-.48-.25.04-.44.27-.39 1.6-2.02.95-1.25.62-.72v-.1h-.04l-4.23 2.73-.75.1-.32-.3.04-.5.15-.16z\"></path></g></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Geist Navigation Icons",
+          "description": "Line art icons used for mobile navigation and large toggle elements",
+          "when_to_use": [
+            "Mobile Navigation",
+            "Accordions",
+            "Modals"
+          ],
+          "format": "SVG",
+          "style": "Line Art / 1.5px Stroke",
+          "sizes": {
+            "small": "24px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" class=\"group-data-[open]:hidden\"><line x1=\"4\" y1=\"8\" x2=\"20\" y2=\"8\"></line><line x1=\"4\" y1=\"16\" x2=\"20\" y2=\"16\"></line></svg>"
+            },
+            {
+              "name": "Close / Cross",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" class=\"hidden group-data-[open]:block\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"></line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"></line></svg>"
+            },
+            {
+              "name": "Chevron Down Large",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" class=\"shrink-0 text-gray-1000 group-open:rotate-180\"><path d=\"m6 9 6 6 6-6\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-6.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-6.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-57x57.png",
+            "description": "Vercel Apple Touch Icon 57x57"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-7.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-7.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-60x60.png",
+            "description": "Vercel Apple Touch Icon 60x60"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-72x72.png",
+            "description": "Vercel Apple Touch Icon 72x72"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-8.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-8.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-76x76.png",
+            "description": "Vercel Apple Touch Icon 76x76"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-3.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-3.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-114x114.png",
+            "description": "Vercel Apple Touch Icon 114x114"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-2.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-2.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-120x120.png",
+            "description": "Vercel Apple Touch Icon 120x120"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-4.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-4.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-144x144.png",
+            "description": "Vercel Apple Touch Icon 144x144"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-5.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-5.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-152x152.png",
+            "description": "Vercel Apple Touch Icon 152x152"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-9.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-9.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-180x180.png",
+            "description": "Vercel Apple Touch Icon 180x180"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-10.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon-10.png",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png",
+            "description": "Vercel Apple Touch Icon 256x256"
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon.ico",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/favicon.ico",
+            "origin_url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
+            "description": "Vercel Standard Favicon"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/primary-inline.svg",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/primary-inline.svg",
+            "origin_url": null,
+            "description": "Vercel Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/monochrome.svg",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/monochrome.svg",
+            "origin_url": "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg",
+            "description": "Vercel Logo (Light Mode)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/monochrome-2.svg",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/monochrome-2.svg",
+            "origin_url": "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/vercel-dark.1f3cgy23m5_jy.svg",
+            "description": "Vercel Logo (Dark Mode)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/secondary-2.svg",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/eve-light.1e3bxs4ejw62x.svg",
+            "description": "Eve Framework Logo (Light Mode)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/secondary.svg",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/logos/secondary.svg",
+            "origin_url": "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/eve-dark.2l_s1mlvozam3.svg",
+            "description": "Eve Framework Logo (Dark Mode)"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/open-graph-image.png",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/open-graph-image.png",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/og-home-not-x.png",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Fallback Dark Glow Mobile",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/fallback-dark-glow-mobile.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/fallback-dark-glow-mobile.webp",
+            "origin_url": "https://vercel.com/vc-ap-vercel-marketing/_next/image?url=%2Fvc-ap-vercel-marketing%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Ffallback-dark-glow-mobile.3b4fyu5pe7opg.webp&w=3840&q=95",
+            "usage_context": "Hero section background shader for mobile displays."
+          },
+          {
+            "name": "Fallback Dark Glow Desktop",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/fallback-dark-glow-desktop.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/fallback-dark-glow-desktop.webp",
+            "origin_url": "https://vercel.com/vc-ap-vercel-marketing/_next/image?url=%2Fvc-ap-vercel-marketing%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Ffallback-dark-glow-desktop.25ylksegigbc-.webp&w=3840&q=95",
+            "usage_context": "Hero section background shader for desktop displays."
+          },
+          {
+            "name": "Notion App Showcase (Mobile, Dark)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-mobile-dark.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-mobile-dark.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-mobile-dark.webp",
+            "usage_context": "Product showcase for the 'Build agents on infrastructure that thinks like them' section."
+          },
+          {
+            "name": "Notion App Showcase (Mobile, Light)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-mobile-light.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-mobile-light.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-mobile-light.webp",
+            "usage_context": "Product showcase for the 'Build agents on infrastructure that thinks like them' section."
+          },
+          {
+            "name": "Notion App Showcase (Desktop, Dark)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-desktop-dark.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-desktop-dark.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-desktop-dark.webp",
+            "usage_context": "Product showcase for the 'Build agents on infrastructure that thinks like them' section."
+          },
+          {
+            "name": "Notion App Showcase (Desktop, Light)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-desktop-light.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/notion-app-showcase-desktop-light.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/notion-desktop-light.webp",
+            "usage_context": "Product showcase for the 'Build agents on infrastructure that thinks like them' section."
+          },
+          {
+            "name": "Zapier App Showcase (Mobile, Dark)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-mobile-dark.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-mobile-dark.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-mobile-dark.webp",
+            "usage_context": "Product showcase for the 'Ship apps that scale from zero to millions instantly' section."
+          },
+          {
+            "name": "Zapier App Showcase (Mobile, Light)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-mobile-light.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-mobile-light.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-mobile-light.webp",
+            "usage_context": "Product showcase for the 'Ship apps that scale from zero to millions instantly' section."
+          },
+          {
+            "name": "Zapier App Showcase (Desktop, Dark)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-desktop-dark.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-desktop-dark.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-desktop-dark.webp",
+            "usage_context": "Product showcase for the 'Ship apps that scale from zero to millions instantly' section."
+          },
+          {
+            "name": "Zapier App Showcase (Desktop, Light)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-desktop-light.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/zapier-app-showcase-desktop-light.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/zapier-desktop-light.webp",
+            "usage_context": "Product showcase for the 'Ship apps that scale from zero to millions instantly' section."
+          },
+          {
+            "name": "Mintlify App Showcase (Mobile, Dark)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-mobile-dark.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-mobile-dark.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-mobile-dark.webp",
+            "usage_context": "Product showcase for the 'Host platforms that serve every customer' section."
+          },
+          {
+            "name": "Mintlify App Showcase (Mobile, Light)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-mobile-light.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-mobile-light.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-mobile-light.webp",
+            "usage_context": "Product showcase for the 'Host platforms that serve every customer' section."
+          },
+          {
+            "name": "Mintlify App Showcase (Desktop, Dark)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-desktop-dark.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-desktop-dark.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-desktop-dark.webp",
+            "usage_context": "Product showcase for the 'Host platforms that serve every customer' section."
+          },
+          {
+            "name": "Mintlify App Showcase (Desktop, Light)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-desktop-light.webp",
+            "path": "d074114a-b993-421c-9879-08ccc3759fba/site-assets/media/image/mintlify-app-showcase-desktop-light.webp",
+            "origin_url": "https://lishhsx6kmthaacj.public.blob.vercel-storage.com/mintlify-desktop-light.webp",
+            "usage_context": "Product showcase for the 'Host platforms that serve every customer' section."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal top bar with dropdowns",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Vercel triangle logo in black"
+            },
+            {
+              "type": "navigation",
+              "description": "Text links: Products, Resources, Enterprise, Pricing with dropdown indicators"
+            },
+            {
+              "type": "button",
+              "description": "'Get a Demo' button with light gray border, white background"
+            },
+            {
+              "type": "button",
+              "description": "'Log In' button with light gray border, white background"
+            },
+            {
+              "type": "button",
+              "description": "'Sign Up' button, solid black with white text"
+            }
+          ]
+        },
+        {
+          "type": "Banner",
+          "layout_pattern": "Centered, full-width",
+          "headline": "Ship 26 is coming to SF",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Get your ticket' button with arrow icon, tertiary style"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered with large geometric visual element",
+          "headline": "Agentic Infrastructure",
+          "subheadline": "For coding agents",
+          "components": [
+            {
+              "type": "image",
+              "description": "Large black triangle in center, minimal geometric shape with subtle blur glow effect"
+            },
+            {
+              "type": "button",
+              "description": "'Deploy now' button, solid black pill shape with white text"
+            },
+            {
+              "type": "button",
+              "description": "'Talk to sales' button, outlined black pill with black text on white"
+            }
+          ]
+        },
+        {
+          "type": "Logo Strip",
+          "layout_pattern": "Horizontal marquee on mobile, grid on desktop",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Grayscale company logos: Blackbox, Charles Schwab, DoorDash, OpenAI, Supreme, The Weather Company, Polymarket"
+            }
+          ]
+        },
+        {
+          "type": "Features / Use Case 1",
+          "layout_pattern": "Split layout: large image left, text right on desktop",
+          "headline": "Build agents on infrastructure that thinks like them",
+          "subheadline": "Notion powers millions of agent conversations daily on Vercel.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Large mockup showing Notion AI chat interface with dark N logo, white card with subtle shadow, showing conversational prompts"
+            },
+            {
+              "type": "card",
+              "description": "Feature list: Durable Orchestration, Sandboxed Environments, AI Model Gateway, Fluid Compute"
+            }
+          ]
+        },
+        {
+          "type": "Features / Use Case 2",
+          "layout_pattern": "Split layout reversed: large image right, text left on desktop",
+          "headline": "Ship apps that scale from zero to millions instantly",
+          "subheadline": "Zapier serves over 100 million monthly website visits on Vercel.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Dashboard mockup showing deployment interface with code editor and Deploy button in black"
+            },
+            {
+              "type": "card",
+              "description": "Feature list: Global Delivery, Deployment Environments, Serverless Functions, Web Application Firewall"
+            }
+          ]
+        },
+        {
+          "type": "Features / Use Case 3",
+          "layout_pattern": "Split layout: large image left, text right on desktop",
+          "headline": "Host platforms that serve every customer",
+          "subheadline": "Mintlify powers documentation for over 20,000 companies on Vercel.",
+          "components": [
+            {
+              "type": "image",
+              "description": "v0 documentation interface mockup with code examples and Deploy button"
+            },
+            {
+              "type": "card",
+              "description": "Feature list: Tenant Isolation, Domain Management, Custom SSL Certificates, Preview URLs"
+            }
+          ]
+        },
+        {
+          "type": "Recently Shipped",
+          "layout_pattern": "Grid 2-column on tablet+, asymmetric card sizes",
+          "headline": "Recently shipped",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Large card for 'Eve' with geometric line illustration in white/light blue, gradient background"
+            },
+            {
+              "type": "card",
+              "description": "Card for 'Passport' with 3D passport book visual showing Vercel logo and monospace text"
+            },
+            {
+              "type": "card",
+              "description": "Card for 'Containers' with terminal/CLI mockup showing deployment commands on white card with subtle shadow"
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "layout_pattern": "Centered",
+          "headline": "Built by you, or your agents",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Deploy now' button, solid black pill with white text"
+            },
+            {
+              "type": "button",
+              "description": "'Clone our stack' text link with arrow and infinity symbols"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Footer links organized in columns: Agentic Infra, Data Platform, Security, etc."
+            },
+            {
+              "type": "logo",
+              "description": "Small Vercel triangle logo at bottom"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "d074114a-b993-421c-9879-08ccc3759fba/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "d074114a-b993-421c-9879-08ccc3759fba/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "d074114a-b993-421c-9879-08ccc3759fba/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "d074114a-b993-421c-9879-08ccc3759fba/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "d074114a-b993-421c-9879-08ccc3759fba/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary text and active icon color, ensuring high legibility across the interface.",
+        "when_to_use": [
+          "Primary body and heading text",
+          "Active search tab underline",
+          "Primary interface icon strokes"
+        ]
+      },
+      "hex": "#222222",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#29211F",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Muted Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A secondary text color used for placeholders, deactivated elements, and supporting details.",
+        "when_to_use": [
+          "Unselected search tab text",
+          "Search input placeholders",
+          "Listing card subtitles and ratings"
+        ]
+      },
+      "hex": "#6C6C6C",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#71645E",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.086,
+      "group": "baseline"
+    },
+    {
+      "name": "Surface White",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational background color for the page and elevated interactive components.",
+        "when_to_use": [
+          "Main page background",
+          "Search bar container background",
+          "Hover and interaction button backgrounds (as light gray tints)",
+          "Guest favorite floating badge backgrounds"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#F2F2F2",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EBEBEB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F4F2EC",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F8F8F8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F5EDE7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FCEFE8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EDDFD8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F9F2EE",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.019000000000000003,
+      "group": "secondary"
+    },
+    {
+      "name": "Divider Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A structural color used for thin borders, structural dividers, and image placeholders.",
+        "when_to_use": [
+          "Search input separators",
+          "Listing image placeholder backgrounds",
+          "Search bar borders",
+          "Disabled carousel arrow icons"
+        ]
+      },
+      "hex": "#C1C1C1",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#DDDDDD",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E8D9D1",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#DDCEC9",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0188,
+      "group": "secondary"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Used exclusively with varying opacities to create shadows, backdrops, and translucent icons.",
+        "when_to_use": [
+          "Component drop shadows",
+          "Page-level background overlays",
+          "Translucent heart icon fills on listing cards"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0055,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Title Semibold 22/26",
+      "specs": {
+        "size": "var(--typography-titles-semibold_22_26-font-size)",
+        "line_height": "var(--typography-titles-semibold_22_26-line-height)",
+        "font_weight": "var(--typography-titles-semibold_22_26-font-weight)",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Title Semibold 18/24",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.5rem",
+        "font_weight": "var(--typography-titles-semibold_18_24-font-weight)",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Section Title / H2",
+      "specs": {
+        "size": "14px",
+        "line_height": "20.02px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Body Medium",
+      "specs": {
+        "size": "16px",
+        "line_height": "20px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Body Regular",
+      "specs": {
+        "size": "14px",
+        "line_height": "20.02px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Subtitle / Meta Label",
+      "specs": {
+        "size": "0.8125rem",
+        "line_height": "1rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Pricing Unit Price",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "var(--pricing-guest-primary-line-unit-price-font-weight,var(--typography-weight-semibold600))",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Pricing Qualifier",
+      "specs": {
+        "size": "min(var(--pricing-guest-primary-line-qualifier-font-size,15px),16Px)",
+        "line_height": "var(--pricing-guest-primary-line-qualifier-line-height,18px)",
+        "font_weight": "var(--pricing-guest-primary-line-qualifier-font-weight,var(--typography-weight-book400))",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Dot Separator",
+      "specs": {
+        "size": "var(--dot-separator_font-size,inherit)",
+        "line_height": "16px",
+        "font_weight": "bold",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Airbnb Cereal VF",
+      "role": "Badge / Guest Favorite",
+      "specs": {
+        "size": "0.6875rem",
+        "line_height": "0.8125rem",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "24px",
+    "max_width": "1440px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 743px (1 Column, 16px gutter)",
+    "tablet": "743.1px - 1127px (Variable columns, 24px gutter)",
+    "desktop": "1127.1px - 1439px (12 Columns, 24px gutter)",
+    "large": "1440px+ (12 Columns, 40px gutter)"
+  }
+}

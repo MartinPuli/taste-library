@@ -1,0 +1,374 @@
+{
+  "id": "a24",
+  "source_url": "https://a24films.com/",
+  "captured_at": "2026-10-14T05:05:03.673018Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Pitch Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The dominant structural color used for deep theatrical backgrounds and primary text on light surfaces.",
+        "when_to_use": [
+          "Dark section backgrounds (hero, footer, newsletter banner)",
+          "Image container and thumbnail backgrounds",
+          "Primary default text color for the light theme",
+          "Submit button text on white backgrounds"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure White",
+      "type": "Light",
+      "rules": {
+        "description": "Serves as the primary contrast color for text, icons, and buttons against cinematic black backgrounds.",
+        "when_to_use": [
+          "Primary text and headings on dark backgrounds",
+          "Brand logo and UI icon fills",
+          "Submit button backgrounds and input borders",
+          "Image loading placeholders (#EEEEEE)"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#EEEEEE",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F1F1F1",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.2601,
+      "group": "baseline"
+    },
+    {
+      "name": "Eyebrow Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A medium gray used to establish typographic hierarchy and categorize content without competing with primary headings.",
+        "when_to_use": [
+          "Card category eyebrows ('Shop', 'Podcast', 'WATCH NOW')",
+          "Header navigation links",
+          "Form validation messages in the footer"
+        ]
+      },
+      "hex": "#888888",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#787878",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0186,
+      "group": "secondary"
+    },
+    {
+      "name": "Disclaimer Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A lighter, muted gray used to de-emphasize secondary legal text and contextual form messages.",
+        "when_to_use": [
+          "Newsletter signup disclaimers",
+          "Privacy policy link underlines",
+          "Form validation messages in the header banner"
+        ]
+      },
+      "hex": "#CACACA",
+      "alpha": null,
+      "shades": [],
+      "score": 0.002,
+      "group": "secondary"
+    },
+    {
+      "name": "Slate Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A mid-dark neutral gray specifically utilized to frame elements within mobile-specific interactive components.",
+        "when_to_use": [
+          "Background for mobile featured film cards in the hero carousel"
+        ]
+      },
+      "hex": "#646464",
+      "alpha": null,
+      "shades": [],
+      "score": 0,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "NB International Web",
+      "role": "Hero / Display Title",
+      "specs": {
+        "size": "74px",
+        "line_height": "0.92",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Large Media Title",
+      "specs": {
+        "size": "62px",
+        "line_height": "0.92",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Content H1/H2",
+      "specs": {
+        "size": "28px",
+        "line_height": "36px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Content H3 / Feature Title",
+      "specs": {
+        "size": "24px",
+        "line_height": "1",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Body Text Standard",
+      "specs": {
+        "size": "18px",
+        "line_height": "1.33",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Body Text Large / List Item",
+      "specs": {
+        "size": "27px",
+        "line_height": "1.46",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Text Content Large",
+      "specs": {
+        "size": "24px",
+        "line_height": "1.15",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Eyebrow / H6 / Meta",
+      "specs": {
+        "size": "13px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Action Link / Small Button",
+      "specs": {
+        "size": "21px",
+        "line_height": "21px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NB International Mono Web",
+      "role": "Date / Superscript",
+      "specs": {
+        "size": "15px",
+        "line_height": "normal",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Mono Web\"",
+        "file_url": "../fonts/nbinternationalpromono-webfont.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Akzidenz-Grotesk Extended",
+      "role": "Form Submit Button",
+      "specs": {
+        "size": "16px",
+        "line_height": "normal",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Typekit"
+      },
+      "technical": {
+        "font_family_css": "\"akzidenz-grotesk-extended\"",
+        "file_url": "https://use.typekit.net/af/6bb33f/00000000000000000001375e/27/l"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Micro Label / Validation Message",
+      "specs": {
+        "size": "10px",
+        "line_height": "normal",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NB International Web",
+      "role": "Pullquote",
+      "specs": {
+        "size": "48px",
+        "line_height": "0.92",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "12px",
+    "max_width": "1600px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 640px (1 Column, 18px gutter)",
+    "tablet": "641px - 1023px (8 Columns, 24px gutter)",
+    "desktop": "1024px - 1299px (12 Columns, 24px gutter)",
+    "large": "1300px+ (12 Columns, 42px gutter)"
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Base Dark",
+      "type": "Dark",
+      "rules": {
+        "description": "Serves as the baseline document text color and provides a dramatic, near-black backdrop for the top hero section.",
+        "when_to_use": [
+          "Document default text color",
+          "Top hero section background (#08070E)",
+          "Hidden tracking iframe borders"
+        ]
+      },
+      "hex": "#211922",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#08070E",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.0013,
+      "group": "baseline"
+    },
+    {
+      "name": "Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Provides stark maximum contrast for primary typography and anchors the bottom of the page with a solid dark footer.",
+        "when_to_use": [
+          "Main UI typography and headings",
+          "Page footer background",
+          "Translucent overlay washes on image cards (#0000000a)",
+          "Signup modal drop shadow (#00000033)"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.1661,
+      "group": "baseline"
+    },
+    {
+      "name": "Canvas & Surface White",
+      "type": "Light",
+      "rules": {
+        "description": "Forms the foundational canvas of the site and shapes the interactive containers that rest on it.",
+        "when_to_use": [
+          "Main page and navigation background",
+          "Secondary button and search bar fills (#E5E5E0)",
+          "Image loading placeholders (#EFEFEF)",
+          "Primary button text and logo fill"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#E5E5E0",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EFEFEF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F6F3",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.1107,
+      "group": "secondary"
+    },
+    {
+      "name": "Subtle Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "De-emphasizes secondary metadata and helper copy to maintain a clear, scannable typographic hierarchy.",
+        "when_to_use": [
+          "Board card metadata (Pin counts and timestamps)",
+          "Search bar icon fill",
+          "Form field helper text and legal disclaimers"
+        ]
+      },
+      "hex": "#62625B",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0201,
+      "group": "secondary"
+    },
+    {
+      "name": "Border Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "Outlines interactive form fields and external elements without competing visually with the text inside them.",
+        "when_to_use": [
+          "Signup form input borders",
+          "Social login button borders",
+          "reCAPTCHA widget shadow (#808080)"
+        ]
+      },
+      "hex": "#91918C",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#808080",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0087,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Pin Sans",
+      "role": "Display 1000",
+      "specs": {
+        "size": "72px",
+        "line_height": "1.1",
+        "font_weight": "900",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Display 900",
+      "specs": {
+        "size": "60px",
+        "line_height": "1.1",
+        "font_weight": "900",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Display 800",
+      "specs": {
+        "size": "48px",
+        "line_height": "1.1",
+        "font_weight": "900",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Display 700",
+      "specs": {
+        "size": "36px",
+        "line_height": "1.1",
+        "font_weight": "900",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Heading 700",
+      "specs": {
+        "size": "36px",
+        "line_height": "1.1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Heading 600",
+      "specs": {
+        "size": "28px",
+        "line_height": "1.1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Heading 500",
+      "specs": {
+        "size": "24px",
+        "line_height": "1.1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Heading 400",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.2",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Heading 300",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.4",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Heading 200",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.4",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Inline Hero Title",
+      "specs": {
+        "size": "70px",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Inline Large Title",
+      "specs": {
+        "size": "50px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Inline Title",
+      "specs": {
+        "size": "38px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 400 Default",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 400 Emphasis",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.4",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 300 Default",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 300 Emphasis",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.4",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 200 Default",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 200 Emphasis",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.4",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 100 Default",
+      "specs": {
+        "size": "12px",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Body 100 Emphasis",
+      "specs": {
+        "size": "12px",
+        "line_height": "1.5",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Inline Body OR",
+      "specs": {
+        "size": "14px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "UI 400",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "UI 300",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "UI 200",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "UI 100",
+      "specs": {
+        "size": "12px",
+        "line_height": "1.3",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Compact 100 Default",
+      "specs": {
+        "size": "12px",
+        "line_height": "1.2",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Pin Sans",
+      "role": "Compact 100 Emphasis",
+      "specs": {
+        "size": "12px",
+        "line_height": "1.2",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "Pinterest"
+      },
+      "technical": {
+        "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "SF Mono",
+      "role": "Code Monospace",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "System"
+      },
+      "technical": {
+        "font_family_css": "\"SF Mono\", \"Segoe UI Mono\", \"Roboto Mono\", \"Ubuntu Mono\", \"Menlo\", \"Consolas\", \"Courier\", monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "16px",
+    "max_width": "1440px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 575px (Single column, 16px padding)",
+    "tablet": "576px - 767px (Flexible columns, 16px gutter)",
+    "desktop": "768px - 1311px (12 columns, 16px gutter)",
+    "large": "1312px+ (12 columns, 16px - 40px gutter)"
+  }
+}

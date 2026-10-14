@@ -1,0 +1,2933 @@
+{
+  "company": "Framer",
+  "rank": 37,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://www.framer.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:53:23.068486Z",
+  "completed_at": "2026-08-07T00:18:49.934442Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Framer",
+        "tagline": null,
+        "source_url": "https://www.framer.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Design / No-Code Website Builder",
+        "primary_purpose": "Convert designers and teams to use Framer's AI-powered design agent platform for website creation",
+        "main_cta": "Get started for free",
+        "copy_tone": [
+          "Confident",
+          "Technical",
+          "Aspirational"
+        ],
+        "brand_signature": "Dark, immersive interface with deep blacks and strategic blue accent highlights creating a premium tech aesthetic. The visual identity balances sophisticated UI demonstrations with clean typography and subtle glow effects that reinforce the AI/agent-powered product positioning.",
+        "visual_language": {
+          "keywords": [
+            "dark-mode",
+            "technical",
+            "sophisticated",
+            "immersive",
+            "product-centric",
+            "premium"
+          ],
+          "accent_strategy": "Electric blue (#09f) used sparingly for interactive highlights, selection states, and key feature callouts against the pure black background",
+          "highlights": "Subtle blue glow effects and gradient fades used to draw attention to product demonstrations and hero sections"
+        },
+        "strategy": {
+          "target_audience": [
+            "Designers and creative professionals seeking faster website creation workflows",
+            "Marketing teams and founders who want professional websites without coding",
+            "Agencies and studios looking to scale client website delivery with AI assistance",
+            "Enterprise teams requiring sophisticated CMS and collaboration features"
+          ],
+          "executive_synthesis": "Framer's homepage strategically positions AI agents as the differentiator in the crowded website builder market. The dark, immersive visual design serves dual purposes: it appeals to the design-savvy target audience while providing optimal contrast for showcasing the actual product interface. The page architecture flows from bold value proposition to feature demonstrations to social proof, systematically addressing both capability and credibility. The emphasis on 'agents that work alongside you, not instead of you' reflects careful positioning that addresses AI anxiety while highlighting productivity gains."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The visual impression from the screenshot reveals a sleek, modern dark-mode interface dominated by pure black backgrounds (#000) with strategic accent colors—primarily electric blue (#0099FF) glows and cyan highlights. The overall mood is tech-forward, premium, and professional.\n\n**Forensic Evidence Supporting Flat Design:**\n\n1. **Shape & Texture Analysis (PRIMARY signal):** The texture classification shows \"gradient_linear\" and \"glass_blur\"—however, the gradients are purely functional (fade-to-black edge vignettes for content masking), not decorative. The dominant visual language is flat surfaces with minimal depth effects. Cards and containers use solid colors (#1F1F1F, #242424) without heavy shadows or 3D extrusion.\n\n2. **Color Palette:** The baseline palette is deeply monochromatic (pure black through charcoal grays to white) with secondary neon accents (Blue #0099FF, Pink #FF0066, Purple #6600FF). This is classic Flat Design territory—bold, saturated accent colors against neutral backgrounds. The colors are clean and pure, not muddy or gritty.\n\n3. **Typography:** GT Walsheim Medium (geometric sans-serif) for headings paired with Inter Variable for UI text is quintessential modern digital design. Sans-serif modern, geometric fonts with tight letter-spacing align perfectly with Flat Design taxonomy elements.\n\n4. **Layout:** Grid-based strict 12-column system, centered symmetric layout philosophy, generous whitespace (80-150px section padding). This structured, mathematical clarity echoes both Flat Design's digital-native precision and Swiss Style influences.\n\n5. **Dimensionality Assessment:** Predominantly 2D—while glassmorphism elements exist on floating UI panels (backdrop-filter blur), they're subtle supporting effects rather than defining characteristics. The design doesn't meet Glassmorphism's key differentiator of \"frosted transparency as a required visual language.\" Most surfaces are solid flat colors.\n\n**Why NOT Glassmorphism:** Despite glass/blur effects in the texture profile, these are applied sparingly to navigation and floating components, not as the dominant visual treatment. The primary card/container backgrounds are opaque solids, not transparent frosted panels.\n\n**Why NOT Brutalism:** While it uses black backgrounds and has a tech-forward aesthetic, the design lacks Brutalism's \"raw, unpolished\" quality. It's highly refined with smooth surfaces, consistent spacing, and polished typography—the opposite of deliberately rough anti-design.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The **Corporate** modifier applies because this is clearly a professional SaaS/tech product landing page designed to communicate trust, reliability, and competence. Evidence includes: partner logo strips (Amazon, Costco, Yahoo, NFL, Mercedes), \"Trusted by teams\" sections with enterprise client logos (Dell, GIPHY, Kickstarter), systematic feature presentations with professional UI mockups, and conventional marketing page structure (hero → features → social proof → CTA). The visual language is polished and business-appropriate, targeting professional design teams rather than expressing rebellious or experimental intent."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "40px",
+          "max_width": "1200px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 809px (1 Column, 16px padding)",
+          "tablet": "810px - 1199px (8 Columns, 24px gutter)",
+          "desktop": "1200px+ (12 Columns, 40px gutter)",
+          "large": null
+        },
+        "section_separation": "Sections are separated by pure black backgrounds (#000) with generous vertical padding (80px-150px). No structural dividers—visual rhythm is created through alternating content density and strategic whitespace. Feature sections use consistent background color with content contrast through glowing blue accent effects and interface previews. The Showcase Grid section transitions to lighter/full-color backgrounds breaking from the dark theme.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [Logo]                                          [Menu]  │\n├──────────────────────────────────────────────────────────┤\n│                     [HERO - Dark]                        │\n│         Figma is the design agent for               │\n│        (and) with Gen) how best to launch           │\n│                    products faster                       │\n│                                                          │\n│       [Large feature image/mockup centered]              │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│          [Partner Logo Row - Centered]                   │\n│  [AMAZON]  [COSTCO]  [YAHOO]  [NFL]  [MERCEDEZ]         │\n│                    FINANCE                               │\n├──────────────────────────────────────────────────────────┤\n│                [SECTION 1 - Dark]                        │\n│  Agents that work alongside                              │\n│  (not instead of) you                          [Caption] │\n│                                                          │\n│  ┌──────────────────────────────────┐  ┌─────────────┐  │\n│  │   [HAUS Product Image]           │  │  [Detail]   │  │\n│  │   Large centered visual          │  │  [Caption]  │  │\n│  └──────────────────────────────────┘  └─────────────┘  │\n│                                         [Learn more →]   │\n├──────────────────────────────────────────────────────────┤\n│                [SECTION 2 - Dark]                        │\n│  ┌────────────────────┐                                  │\n│  │ [UI Preview Panel] │  [Annotation text right]         │\n│  │ [Code/Interface]   │  [Descriptive caption]           │\n│  └────────────────────┘                [Learn more →]    │\n├──────────────────────────────────────────────────────────┤\n│                [SECTION 3 - Dark]                        │\n│  ┌────────────────────┐                                  │\n│  │ [3D Card Visuals]  │  [Annotation text right]         │\n│  │ [Floating elements]│  [Descriptive caption]           │\n│  └────────────────────┘                [Learn more →]    │\n├──────────────────────────────────────────────────────────┤\n│                [SECTION 4 - Dark]                        │\n│  ┌────────────────────┐                                  │\n│  │ [Harry Potter UI]  │  [Annotation text right]         │\n│  │ [Image Gallery]    │  [Descriptive caption]           │\n│  └────────────────────┘                [Learn more →]    │\n├──────────────────────────────────────────────────────────┤\n│              [PLATFORM SECTION - Dark]                   │\n│            Not just ideas,                               │\n│            a full platform                               │\n│                                                          │\n│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │\n│  │[UI Panel 1]  │  │[UI Panel 2]  │  │[UI Panel 3]  │  │\n│  │              │  │              │  │              │  │\n│  │[FigJam UI]   │  │[Code View]   │  │[Slides UI]   │  │\n│  └──────────────┘  └──────────────┘  └──────────────┘  │\n│   [FigJam →]        [Dev Mode →]      [Slides →]        │\n├──────────────────────────────────────────────────────────┤\n│              [SHOWCASE GRID - Light/Color]               │\n│  Shipped with Figma                                      │\n│                                                          │\n│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │\n│  │  [Product]   │  │  [Backpack]  │  │  [Poster]    │  │\n│  │  [Image 1]   │  │  [Image 2]   │  │  [FIELD]     │  │\n│  └──────────────┘  └──────────────┘  └──────────────┘  │\n│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │\n│  │  [Green]     │  │  [Portrait]  │  │  [Desert]    │  │\n│  │  [Sports]    │  │  [Photo]     │  │  [Scene]     │  │\n│  └──────────────┘  └──────────────┘  └──────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│            [TESTIMONIAL SECTION - Dark]                  │\n│         Trusted by teams                                 │\n│         shaping the web                     [Caption]    │\n│                                                          │\n│  [DELL] [cereality] [LAGODA] [wildguard]                │\n│                                                          │\n│  [GIPHY]    [LATTICE]    [KICKSTARTER]                  │\n├──────────────────────────────────────────────────────────┤\n│            [COMMUNITY SECTION - Dark]                    │\n│      Built on a community                                │\n│      that's going strong                  [Learn more]   │\n│                                                          │\n│  ┌────────────────────────────────────────────────┐     │\n│  │        [Community Interface Preview]           │     │\n│  │  ┌──────────────────────────────────┐          │     │\n│  │  │  [Large screen mockup centered]  │          │     │\n│  │  │  [minkit Oxyueon]                │          │     │\n│  │  └──────────────────────────────────┘          │     │\n│  └────────────────────────────────────────────────┘     │\n├──────────────────────────────────────────────────────────┤\n│              [CTA SECTION - Dark]                        │\n│           Your next idea starts here                     │\n│                                                          │\n│          [Sign up illustration/mockup]                   │\n│                                                          │\n│             [Sign up for free] [Contact sales]           │\n├──────────────────────────────────────────────────────────┤\n│                   [FOOTER - Dark]                        │\n│  [Logo]                                                  │\n│                                                          │\n│  [Col 1]     [Col 2]     [Col 3]     [Col 4]    [Col 5] │\n│  [Links]     [Links]     [Links]     [Links]    [Links] │\n│  [Links]     [Links]     [Links]     [Links]    [Links] │\n│  [Links]     [Links]     [Links]     [Links]    [Links] │\n│                                                          │\n│  [Social Icons]                      [Legal links]      │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: Pure black (#000)\n- Logo: Figma wordmark in white (top left)\n- Buttons/CTAs: Hamburger menu icon (top right, white)\n- Colors observed: Black, white\n- Typography mood: Clean, minimal sans-serif\n\nHERO:\n- Background: Deep black with subtle gradient\n- Imagery: Large glowing blue interface mockup, holographic effect with code snippets visible in 3D space\n- Components: Centered headline with gradient text effect\n- Colors observed: Black, electric blue, cyan glow effects\n- Typography mood: Bold, modern, large display type\n- Visual style: Futuristic, tech-forward with neon accents\n\nPARTNER LOGOS:\n- Background: Black\n- Components: Grayscale logos in horizontal row (Amazon, Costco, Yahoo Finance, NFL, Mercedes)\n- Colors observed: White/gray logos on black\n- Typography mood: Corporate, clean\n\nSECTION 1 (HAUS):\n- Background: Pure black\n- Imagery: Product photography of HAUS beverage cans on vibrant teal/green background, styled with clean product shot aesthetic\n- Components: Large image left, annotation text right with arrow link\n- Buttons/CTAs: \"Learn more →\" (text link, white)\n- Colors observed: Black, vibrant teal, product packaging colors\n- Typography mood: Bold headline, light body copy\n\nSECTION 2 (UI Panel):\n- Background: Black\n- Imagery: Interface screenshot showing dark mode code editor or design system panel\n- Components: UI mockup left, descriptive text right\n- Buttons/CTAs: \"Learn more →\" (text link, white)\n- Colors observed: Black, dark gray UI elements, subtle blue accents\n- Typography mood: Technical, clean\n\nSECTION 3 (3D Cards):\n- Background: Black\n- Imagery: 3D rendered playing cards or product cards with blue and green holographic effects, floating in space\n- Components: Isometric 3D illustration style\n- Buttons/CTAs: \"Learn more →\" (text link, white)\n- Colors observed: Electric blue, emerald green, black\n- Typography mood: Modern, tech-forward\n\nSECTION 4 (Harry Potter):\n- Background: Black\n- Imagery: UI mockup showing image gallery interface with Harry Potter themed content\n- Components: Interface preview left, text annotation right\n- Buttons/CTAs: \"Learn more →\" (text link, white)\n- Colors observed: Black, warm image tones, UI grays\n- Typography mood: Clean, editorial\n\nPLATFORM SECTION:\n- Background: Black\n- Imagery: Three UI panel previews showing FigJam, Dev Mode, and Slides interfaces\n- Components: Three column grid layout with interface screenshots\n- Buttons/CTAs: \"FigJam →\" | \"Dev Mode →\" | \"Slides →\" (text links, white)\n- Colors observed: Black, various UI colors (pastels for FigJam, code syntax colors, presentation slides)\n- Typography mood: Bold section headline, clean product labels\n\nSHOWCASE GRID:\n- Background: Transitions to lighter backgrounds, full-color product photography\n- Imagery: Mixed grid of product shots, lifestyle photography, design work samples\n- Components: 2x3 grid of image cards with varied content (electronics, backpack, poster, sports, portrait, desert scene)\n- Colors observed: Full spectrum - earth tones, vibrant greens, warm photography, blue skies\n- Typography mood: Minimal captions, focus on imagery\n- Visual style: High-quality photography, varied subjects showing design versatility\n\nTESTIMONIAL SECTION:\n- Background: Black\n- Components: Company logo lockup in single row (Dell, cereality, Lagoda, wildguard) and second row (GIPHY, Lattice, Kickstarter)\n- Colors observed: White/gray logos on black\n- Typography mood: \"Trusted by teams shaping the web\" - bold, confident headline\n\nCOMMUNITY SECTION:\n- Background: Black with subtle dark purple/blue undertones\n- Imagery: Large community interface preview showing discussion threads and a centered screen mockup with \"minkit Oxyueon\" branding\n- Components: Full-width interface preview with nested mockup\n- Buttons/CTAs: \"Learn more\" (text link, white, top right)\n- Colors observed: Black, dark grays, subtle blue UI accents\n- Typography mood: Bold headline, community-focused messaging\n\nCTA SECTION:\n- Background: Black\n- Imagery: Illustration or mockup suggesting sign-up flow\n- Components: Centered headline with call-to-action buttons below\n- Buttons/CTAs: \"Sign up for free\" (likely solid button, prominent) | \"Contact sales\" (likely outline/ghost button)\n- Colors observed: Black, white text, button colors (likely blue/purple for primary)\n- Typography mood: Clear, action-oriented\n\nFOOTER:\n- Background: Pure black\n- Components: Figma logo, five-column link grid, social icons bottom left, legal links bottom right\n- Buttons/CTAs: Multiple text links organized by category\n- Colors observed: Black background, white/gray text\n- Typography mood: Small, organized, utilitarian\n\nOVERALL VISUAL THEMES:\n- Dominant palette: Black backgrounds with vibrant accent colors (electric blue, cyan, green)\n- Design style: Modern, tech-forward, clean minimalism with occasional 3D/holographic effects\n- Photography: Mix of high-end product photography and interface mockups\n- Consistency: Strong contrast throughout, dark mode aesthetic, strategic use of glowing effects",
+        "insights": [
+          "Dominant dark-mode aesthetic with pure black (#000) backgrounds creates a tech-forward, premium feel. Strategic use of electric blue (#09f) and cyan glow effects provide visual hierarchy without disrupting the minimal color palette.",
+          "Generous vertical spacing (80-150px padding) between sections creates a calm, confident rhythm. Content breathes with 40-120px gaps, letting high-quality imagery and interface previews command attention.",
+          "Centered symmetric layout philosophy throughout: hero, CTAs, logo strips, and headlines all use center alignment. Side-by-side feature sections maintain 50/50 split patterns with consistent image-left, text-right orientation.",
+          "Fixed navigation bar with blur backdrop creates persistent wayfinding. Sticky positioning with subtle box-shadow on scroll maintains presence without overwhelming the hero video.",
+          "Typography hierarchy uses Inter Variable with tight letter-spacing (-0.04em to -0.2px) and weight variations (400-600) rather than size shifts. Headlines are large (36-48px) but restrained, body copy maintains 12-15px range.",
+          "Holographic glow effects and 3D isometric illustrations add depth without clutter. Mask gradients on edges and radial-gradient overlays on interactive elements create a consistent 'tech-glass' material language."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Black",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Primary background and contrast color for the dark theme.",
+              "when_to_use": [
+                "Page backgrounds",
+                "Deep shadow contrasts",
+                "High-contrast typography"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Black",
+                "hex": "#000000",
+                "alpha": null,
+                "aliases": [
+                  "--token-1ef30da2-9620-422c-b321-d10088e14610",
+                  "--token-958e2cd1-b113-4aa3-9235-7a2b959c8feb",
+                  "--token-df2a444d-c73c-41a8-b32b-15a8977e2f19",
+                  "--token-08cb9138-e90e-4825-9f55-0aaa0c506cd8",
+                  "--token-1e7cee86-5b3c-4a5e-b650-927c556a0730",
+                  "--token-3fe3801c-504b-4fed-bd23-95e1ceda4e02",
+                  "--token-7f1bc6d9-a60f-42df-8ff7-6d27d47209c5",
+                  "--token-4e252111-446f-4e7a-b1c3-2cceb89b901b",
+                  "--token-13ec5eb2-95cb-4f68-8622-21c1e5841f91",
+                  "--token-8d5359f3-e2ba-4ea9-9e51-1eb2188326fa",
+                  "--token-83f34fde-34ed-4566-97ea-36025da15e7a",
+                  "--token-755613c8-55a6-4065-8551-7e506a20f402"
+                ]
+              },
+              {
+                "name": "Black 80%",
+                "hex": "#000000",
+                "alpha": 0.8,
+                "aliases": [
+                  "--token-90b00eaf-43c2-4cda-9207-8d2aa4bd34cf"
+                ]
+              },
+              {
+                "name": "Black 60%",
+                "hex": "#000000",
+                "alpha": 0.6,
+                "aliases": [
+                  "--token-dfb83e06-5dc9-4927-841f-fa3a5687bbf5",
+                  "--token-4fab7220-19ef-4cad-9548-f48ed362d6e1"
+                ]
+              },
+              {
+                "name": "Black 10%",
+                "hex": "#000000",
+                "alpha": 0.1,
+                "aliases": [
+                  "--token-3d980185-7d0f-4837-b1d0-e3a68e16a293",
+                  "--token-d127865a-b3de-47e9-b49b-fec1a4c5c097",
+                  "--token-8a4a011b-1a6a-45f4-bbae-7d463ef5c5cd",
+                  "--token-e334a9df-6f33-4dec-b315-f7efcd286f54"
+                ]
+              },
+              {
+                "name": "Black 7%",
+                "hex": "#000000",
+                "alpha": 0.07,
+                "aliases": [
+                  "--token-50d3edc6-ca3e-4e24-b5b6-95a9ef291fd3"
+                ]
+              },
+              {
+                "name": "Black 5%",
+                "hex": "#000000",
+                "alpha": 0.05,
+                "aliases": [
+                  "--token-1765427e-22ca-4432-9e46-90123c5bd8b0",
+                  "--token-463c363d-1216-47f6-9184-b958c9c426a4"
+                ]
+              },
+              {
+                "name": "Black 4%",
+                "hex": "#000000",
+                "alpha": 0.04,
+                "aliases": [
+                  "--token-e79b6732-da94-4bb4-b89e-c6c710bf538f"
+                ]
+              },
+              {
+                "name": "Black 3%",
+                "hex": "#000000",
+                "alpha": 0.03,
+                "aliases": [
+                  "--token-4c1231ca-8433-4346-9a3c-bb84d341a08a"
+                ]
+              },
+              {
+                "name": "Soft Black",
+                "hex": "#080808",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "White",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Primary typography and contrast color.",
+              "when_to_use": [
+                "Primary text",
+                "Icons",
+                "Button backgrounds"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "White",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": [
+                  "--token-26e3cb56-8447-4a64-9b7d-37f16a9909d4",
+                  "--token-4a5ab9b5-071f-4390-82c0-81f9558f671f",
+                  "--token-1ff51228-9678-411c-9a08-00381f0fc70b",
+                  "--token-d4634443-ffec-443d-a754-10b0a24f2eba",
+                  "--token-41903ea9-af7f-499e-a111-2c021ff53f36",
+                  "--token-b5069c63-5952-4d18-89d9-c83e27c8dd95",
+                  "--token-a55687bf-10ec-448e-8cff-7a38a8062829",
+                  "--token-4343cc19-b41f-4b68-9f5e-46d190564c09",
+                  "--token-9571e89f-c28f-4739-8163-f9a065ce86a7",
+                  "--token-4d6784b6-e032-4f38-9c3f-74fd8b5d2a7d",
+                  "--token-9af74e8e-943d-4584-bd40-3a5a740e80e9",
+                  "--token-2af7e844-d3c5-48f3-b016-08deebe100a1"
+                ]
+              },
+              {
+                "name": "White 80%",
+                "hex": "#FFFFFF",
+                "alpha": 0.8,
+                "aliases": [
+                  "--token-289cb3ad-ad59-4cce-aee5-0850b842d9c8"
+                ]
+              },
+              {
+                "name": "White 65%",
+                "hex": "#FFFFFF",
+                "alpha": 0.65,
+                "aliases": [
+                  "--token-ea7f6847-c578-4b96-834f-9880ebd5b2c8"
+                ]
+              },
+              {
+                "name": "White 60%",
+                "hex": "#FFFFFF",
+                "alpha": 0.6,
+                "aliases": [
+                  "--token-8f5eb515-7a13-452b-a4ab-f35e2208a3f3"
+                ]
+              },
+              {
+                "name": "White 50%",
+                "hex": "#FFFFFF",
+                "alpha": 0.5,
+                "aliases": [
+                  "--token-f6d5743a-73c0-417f-973c-02f663387ec8"
+                ]
+              },
+              {
+                "name": "White 40%",
+                "hex": "#FFFFFF",
+                "alpha": 0.4,
+                "aliases": [
+                  "--token-f5637926-8ee6-41cb-a320-ec3462d62cd5",
+                  "--token-c728f732-7c78-48e8-94a1-513a91a25137"
+                ]
+              },
+              {
+                "name": "White 20%",
+                "hex": "#FFFFFF",
+                "alpha": 0.2,
+                "aliases": [
+                  "--token-ea0a2ab8-ce16-4a61-995f-9a3f03b39cf7",
+                  "--token-30fd6b0d-9c3a-4ed1-b7e6-4bdbb9d0fff9"
+                ]
+              },
+              {
+                "name": "White 15%",
+                "hex": "#FFFFFF",
+                "alpha": 0.15,
+                "aliases": [
+                  "--token-5ba2de12-30b8-4085-a473-c3297d851b52"
+                ]
+              },
+              {
+                "name": "White 10%",
+                "hex": "#FFFFFF",
+                "alpha": 0.1,
+                "aliases": [
+                  "--token-c534b380-e14e-4ddc-9802-ad88d1f94f8e",
+                  "--token-bed18f81-9cf1-4e2e-871f-69719f53f1d4",
+                  "--token-70c17056-82cb-4934-97c9-7213cf77c853",
+                  "--token-0d3c4e1f-33e0-4ebe-bdfa-af3c0ffb2b6e",
+                  "--token-bd6e9b1d-d923-4381-a016-9ee35fa74d19",
+                  "--token-c98b4872-09a5-4eef-84b0-cd9f352143db"
+                ]
+              },
+              {
+                "name": "White 7%",
+                "hex": "#FFFFFF",
+                "alpha": 0.07,
+                "aliases": [
+                  "--token-81eeded8-7d17-49fd-8f9d-4b09d4083be5",
+                  "--token-e6ff4111-cae9-48d6-82e5-a990cf837703",
+                  "--token-bf566e33-485f-437d-9c8a-97c626fb8093",
+                  "--token-c8276e30-1f1d-4733-800f-3191605cbcc2",
+                  "--token-626f3ee6-1979-4092-a33f-88f7cbf2b731",
+                  "--token-000292f1-e507-4938-9285-b0287d36c378",
+                  "--token-7834935c-e4af-46fb-833b-c2e350356f85",
+                  "--token-c2089353-c369-4b83-8aa0-ff14317d1378",
+                  "--token-2d8c2e40-9efe-42db-a854-852777e7a2fc",
+                  "--token-435ba6e6-7923-46aa-8bf0-2df8f639cb7d",
+                  "--token-82346dff-d87f-4879-b2ef-71536504402c",
+                  "--token-b41e1c3f-a0f3-493d-bc17-25bd75dc184b",
+                  "--token-29c58965-f89d-45e9-b6f4-01367c7eaffe",
+                  "--token-a84bba7f-b874-4efe-85db-9b067724f56f",
+                  "--token-9cf68d00-0d54-48b8-a5d0-b8f04a7ab3e9",
+                  "--token-a6dd5ab7-0552-4721-891d-644de4c37173",
+                  "--token-a8afeeed-23af-4eb5-b8d0-d9f93682584c",
+                  "--token-b16226dd-61c1-41c8-b6bb-31a93c3565e4",
+                  "--token-73f82776-2618-4c70-a6e0-19ccceb8fe9a",
+                  "--token-72f0cdb9-d9d9-4d6f-b05c-23252a90cf3c",
+                  "--token-a57c3608-835b-4531-99a2-5791dced2bc0",
+                  "--token-ca4aa901-2a55-4d08-89fd-802e1709fda4",
+                  "--token-18ebb84b-b7ff-4abb-a324-82832528f8ca",
+                  "--token-9ac729c4-0d57-49c1-bc34-c8cc0d04401a",
+                  "--token-76758004-7b53-46d6-9130-129866b814b0",
+                  "--token-86f7d633-b3d4-4953-bdbd-147c61c4b34d",
+                  "--token-df27af98-5313-4099-b2f6-eb1afdd402ec",
+                  "--token-16a841c9-8b4a-4f08-b8e3-cae570868e14",
+                  "--token-0be8d8b8-c4f6-4de3-8a22-4faa6b2c6d85",
+                  "--token-1f65bdd9-0a3f-4600-96c4-6964750745c7",
+                  "--token-7bee8464-d874-420a-855d-35342613873e",
+                  "--token-1d77c7be-fdee-4479-af09-ca7228538da0",
+                  "--token-9cb76ae8-fe9e-4605-b765-4444b2a9ecba",
+                  "--token-fd9a7a5e-3865-4c86-9ecc-1a770f90acb8",
+                  "--token-65273d97-0333-454e-adde-b15968d8b9eb",
+                  "--token-8ca5e688-8f98-4620-8945-5943363b2918"
+                ]
+              },
+              {
+                "name": "White 5%",
+                "hex": "#FFFFFF",
+                "alpha": 0.05,
+                "aliases": [
+                  "--token-7e405047-a8f7-4a29-ba60-27706f8aef99"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Dark Charcoal",
+            "type": "Monochromatic",
+            "rules": {
+              "description": "Deep gray tones for elevated surfaces, cards, and modal backgrounds in dark theme.",
+              "when_to_use": [
+                "Card backgrounds",
+                "Dropdown menus",
+                "Secondary containers"
+              ]
+            },
+            "hex": "#242424",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Charcoal 800",
+                "hex": "#242424",
+                "alpha": null,
+                "aliases": [
+                  "--token-393d758b-714b-4628-a487-3e2609e109b7",
+                  "--token-a90119e0-cc91-4f7c-8117-a4827837d154",
+                  "--token-5381f6a2-4123-4833-9f15-ece3362235bb",
+                  "--token-4c236017-9c6f-4d47-8335-0eb6d859d1e3",
+                  "--token-c835256c-69c7-49f6-9ab5-223f8754be0b",
+                  "--token-a5b679c7-75b3-4b56-b5ee-f7c78fdf6f09",
+                  "--token-753822fb-42c0-4245-bbf8-87bc278da308",
+                  "--token-65257a2f-9705-4b8e-acce-914c518786ec",
+                  "--token-a798bd82-d3ed-489b-8536-bb5e3a370ab3",
+                  "--token-242d6a6e-dcf9-428f-b28f-32484d98060a",
+                  "--token-49807cf3-be08-4d49-9536-d1deca93118a",
+                  "--token-027226a5-8d98-4e06-a4be-55361aa36010",
+                  "--token-546c196d-1ff6-4c86-a518-b2a2f5cbd2bb",
+                  "--token-7d3f58d6-793b-4d75-98be-0f2ed1e5f289",
+                  "--token-842dd220-1af7-4cc5-88d9-f2b4719740c1",
+                  "--token-0b3b53eb-3e91-4e9f-8bbe-cd6e24bede36",
+                  "--token-caf55c22-32a8-47d6-94dc-4333837c3b93",
+                  "--token-ab6d2aa6-07fc-4f90-a49d-b710eba59a3f",
+                  "--token-a05b8143-c6cc-4243-bf33-e52c9e59bbd1",
+                  "--token-7192a4a3-6f81-4ee7-8165-5646666e3478",
+                  "--token-aaee07a2-1f0b-4f9f-b40b-c0b000d5b462",
+                  "--token-d6bcb53c-4b19-4a51-acaa-9de4375a33e2",
+                  "--token-3ffc7cca-af02-4727-881c-f6a58650ac59",
+                  "--token-9f7557b0-6ed3-4934-8646-842006fcda6b",
+                  "--token-3e908ce2-804b-49de-a849-79ecbe029f54",
+                  "--token-8f8354e5-c734-4346-a36c-98ef14013c27",
+                  "--token-f539add3-94c0-422e-9fba-6a493de2178d",
+                  "--token-e7694541-7e8b-44ac-bae8-1c80596b8c25",
+                  "--token-366bdd88-fb00-4631-9b16-f4f1513dc630",
+                  "--token-ee7a62da-32cb-4040-9d7e-9b0c644b20f7",
+                  "--token-8f5c2139-1d9e-4d90-aba4-546022fc9589",
+                  "--token-a48a3d23-9008-4c6c-91f7-b7ed21247b58",
+                  "--token-0e2e6dbf-f126-4414-ab40-8aa056a1663d",
+                  "--token-436381f4-2de3-45e4-a467-f558a4b81c2d",
+                  "--token-8412a50f-2c01-4d36-84e0-0a37e28cd520",
+                  "--token-c8e7bab9-83dd-4a6a-97a1-d8000dd9e98b",
+                  "--token-e3dcd0f7-350a-44f9-b4e8-0aee7db7ebd8",
+                  "--token-d115d13e-7730-429b-b595-6c4c394c9623",
+                  "--token-9f4de390-dd45-416a-a41c-9dfc060b5514",
+                  "--token-2a36ad49-fa34-4b61-8fe4-7950eeebdf75",
+                  "--token-cf0c9830-6dda-4185-925b-bb9988793875",
+                  "--token-9d2b9baa-09e6-4a61-bf9d-d1eae11110e3",
+                  "--token-83d5bb67-b920-44af-a08a-e0ae5c68cbaa",
+                  "--token-3167752c-4724-4700-a708-5beeb055241b",
+                  "--token-e7229d51-efce-4090-b0f1-11c93633d99d",
+                  "--token-6be0f47f-90ed-442a-a11e-2f5a40213101"
+                ]
+              },
+              {
+                "name": "Charcoal 850",
+                "hex": "#222222",
+                "alpha": null,
+                "aliases": [
+                  "--token-b8a0b4cf-70ff-4994-abad-931092f52d53",
+                  "--token-7c6a6dd2-0dfd-431a-a4ce-82949a34d083",
+                  "--token-bc0b4320-193d-47d8-ae82-dfa70e3aa6af"
+                ]
+              },
+              {
+                "name": "Charcoal 880",
+                "hex": "#212121",
+                "alpha": null,
+                "aliases": [
+                  "--token-ef3d81b5-78dc-4f92-b13e-1e8b0e28ba8c",
+                  "--token-86436fc2-2fa7-4338-9d69-653ef2fe605e",
+                  "--token-3c51c799-b594-40bb-870a-2ecb57426fb5",
+                  "--token-ca716543-ec0e-4610-b24d-c4a813b8ab12",
+                  "--token-501e078c-c5fb-4b79-9d3e-94a6d60e5388",
+                  "--token-7ca37c50-53e8-42ec-a9b7-a23785ef18d6",
+                  "--token-648a89d7-4ba7-4aff-9f56-fe6a4791adfb",
+                  "--token-0d914219-51db-44da-9371-684daa097890",
+                  "--token-4ea7ddaa-edb2-4693-a52c-c8fbc21f91fd",
+                  "--token-79709539-c81c-4174-9647-38ce6b9aeb22",
+                  "--token-617907aa-d471-4e39-87ed-c88bddebc177",
+                  "--token-77053a7b-2b3a-40d3-8369-531af7b2d32b",
+                  "--token-977a0ed3-7c28-4aae-b6ea-4d8f27feded0",
+                  "--token-1c7d82e1-7369-4900-8f28-9e47992213fb",
+                  "--token-59eafd6c-da37-4218-a289-2f73b55a9343"
+                ]
+              },
+              {
+                "name": "Charcoal 900",
+                "hex": "#1F1F1F",
+                "alpha": null,
+                "aliases": [
+                  "--token-3636b58d-af99-4283-ab2c-55c8fcdd5b26",
+                  "--token-66b4c800-8615-4d3f-b022-5740b5e73cff"
+                ]
+              },
+              {
+                "name": "Charcoal 900 Transparent",
+                "hex": "#1F1F1F",
+                "alpha": 0,
+                "aliases": []
+              },
+              {
+                "name": "Charcoal 920",
+                "hex": "#1D1D1D",
+                "alpha": null,
+                "aliases": [
+                  "--token-d8cf0a03-9d51-4c74-8f74-1ce6a40b7a93",
+                  "--token-f2ab3b7f-4a45-442b-ac7e-6535e4f5eaa4",
+                  "--token-e20050d3-1c28-4712-bab1-33daddb2d8d3"
+                ]
+              },
+              {
+                "name": "Charcoal 930",
+                "hex": "#1C1C1C",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "Charcoal 940",
+                "hex": "#171717",
+                "alpha": null,
+                "aliases": [
+                  "--token-e0051992-b662-4a7c-a4c8-9cd5b5125f7a",
+                  "--token-1073b3db-8e72-4239-ada0-89e67ba85817"
+                ]
+              },
+              {
+                "name": "Charcoal 950",
+                "hex": "#141414",
+                "alpha": null,
+                "aliases": [
+                  "--token-2fbf5c4b-adb8-4940-91a4-ad94f8d791ba",
+                  "--token-34da55f6-98ee-406d-9f22-8bd807975463"
+                ]
+              },
+              {
+                "name": "Charcoal 960",
+                "hex": "#121212",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "Charcoal 970",
+                "hex": "#111111",
+                "alpha": null,
+                "aliases": [
+                  "--token-5e2a9781-f258-43f3-ae02-0a76276a5519"
+                ]
+              },
+              {
+                "name": "Charcoal 980",
+                "hex": "#1A1A1A",
+                "alpha": null,
+                "aliases": [
+                  "--token-5e0b3b72-9a97-43f8-96f2-85d741f3d8ca"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Dark Gray",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Medium dark grays used for structural elements and borders in dark mode.",
+              "when_to_use": [
+                "Borders",
+                "Dividers",
+                "Tertiary backgrounds"
+              ]
+            },
+            "hex": "#303030",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Gray 800",
+                "hex": "#303030",
+                "alpha": null,
+                "aliases": [
+                  "--token-373c4b2f-375a-4a63-bd70-20575308a06b",
+                  "--token-05c8a71b-796d-4e89-a88a-1fd7fb02e1c7",
+                  "--token-cf95d1fa-935c-4802-82e7-f14ff5b21f9c",
+                  "--token-0cc75308-4a6e-4bce-8d10-0b6ce313edb1",
+                  "--token-b493e89b-3e4a-4705-a618-7c7974b79464",
+                  "--token-0eb29f98-94fb-47ef-acd3-f229c7741cbb",
+                  "--token-17f1922c-cbe7-4c12-8333-9a3fab854edf",
+                  "--token-36711a7c-92c6-4d69-94bf-123a35539aba",
+                  "--token-34256e1b-6dc6-46bd-a1e5-879f0d9ce55f",
+                  "--token-2bc01aec-fd2e-41cc-af66-3246e2cbfd9c",
+                  "--token-bd800cdf-6bee-41d4-8f0c-903419cbf38c",
+                  "--token-27d56fa0-4902-4878-968e-342fbcd7a965",
+                  "--token-a7a91825-8026-44ba-98d3-95eb387f47dc",
+                  "--token-b3b501b2-2f42-46a5-a5ff-1f4068c0fa69",
+                  "--token-f2d5296d-094a-425f-a6aa-8ce8cc8f9866",
+                  "--token-dd55fd97-72d7-4069-a4e8-92f7a1b78cb5",
+                  "--token-ae620a86-f0cc-4dd6-afeb-327442208db3",
+                  "--token-49483990-ce22-4468-9b38-4836277a9d8a",
+                  "--token-44dc6bfb-c347-419a-bd93-f28262ab1b67",
+                  "--token-6b23a0f2-e180-489a-a901-79eaf219b224",
+                  "--token-59d2ba5c-2dfe-4990-93f8-1b37a0bf2017",
+                  "--token-cf72ffb6-1538-4989-ba02-3a89651a339c",
+                  "--token-43f04d80-5215-42ec-b92d-bf9788ac73cc",
+                  "--token-eb522190-7962-4432-aad7-cd31ec155b1e"
+                ]
+              },
+              {
+                "name": "Gray 700",
+                "hex": "#333333",
+                "alpha": null,
+                "aliases": [
+                  "--token-94a5bf9a-16a4-4639-b671-271526647eef",
+                  "--token-8829ab2d-0ef5-4f78-a903-5d4c901eec75",
+                  "--token-81dfd308-4a2d-423f-8ca6-7e503f3bc16a",
+                  "--token-96473f7f-70c6-40df-9ce1-470c37694121"
+                ]
+              },
+              {
+                "name": "Gray 650",
+                "hex": "#383838",
+                "alpha": null,
+                "aliases": [
+                  "--token-a1269b3c-6c48-45d9-9f35-32a6df13b5e0"
+                ]
+              },
+              {
+                "name": "Gray 600",
+                "hex": "#404040",
+                "alpha": null,
+                "aliases": [
+                  "--token-3326ab02-a399-4a0a-90ca-823d3eeec36a",
+                  "--token-a71eef55-e834-401a-b229-185b571b72fe",
+                  "--token-0861198a-4b2a-403d-b7bd-f4ed671ad3c2",
+                  "--token-ef633947-17fd-4fe2-99a1-2d1d3e55dcf0"
+                ]
+              },
+              {
+                "name": "Gray 550",
+                "hex": "#474747",
+                "alpha": null,
+                "aliases": [
+                  "--token-8b0d0dfe-a92c-4872-95a1-6dfbe783f70a"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Mid Gray",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Mid-level grays for secondary text and disabled states.",
+              "when_to_use": [
+                "Muted text",
+                "Secondary icons",
+                "Disabled elements"
+              ]
+            },
+            "hex": "#666666",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Gray 500",
+                "hex": "#666666",
+                "alpha": null,
+                "aliases": [
+                  "--token-3211d3ed-e082-412d-bec4-c06fb5bda768",
+                  "--token-28fd9ca0-18c8-4b2c-b240-cbd29f83e8a5",
+                  "--token-80b6d9ee-6797-4273-85d5-55a0c0e39c2c",
+                  "--token-75b23a6a-47c8-47c8-8583-14f60f534fa2",
+                  "--token-7ca336c6-1ed7-4269-b216-cbbdf5dca770",
+                  "--token-eb9664b8-4d69-41aa-83e3-d6a02949def1",
+                  "--token-02d50b3b-5dcf-4107-9d74-2d1a6d84c8fe",
+                  "--token-a67564f1-1309-4f4f-bd77-5e60656b2704"
+                ]
+              },
+              {
+                "name": "Gray 400",
+                "hex": "#767676",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Light Gray",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Light grays used for borders, subtle icons, and tertiary text.",
+              "when_to_use": [
+                "Input borders",
+                "Subtle dividers",
+                "Tertiary labels"
+              ]
+            },
+            "hex": "#999999",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Gray 300",
+                "hex": "#999999",
+                "alpha": null,
+                "aliases": [
+                  "--token-5964e09d-3671-4c80-a557-31c1772b6c22",
+                  "--token-8015ce2b-ef6f-4fe0-944b-b61f872d0501",
+                  "--token-e81b27a0-dbec-444a-a842-619222fcd818",
+                  "--token-494c7bf8-981d-4262-955c-7770a66e4aca",
+                  "--token-18266cfa-4b92-4fbe-9260-6d874055f250",
+                  "--token-b009d8a3-9fb6-47e5-ad22-64acdc1a43f1",
+                  "--token-43a73b1e-92dd-495c-9878-9ee05c726b8e",
+                  "--token-c905498e-0f4e-46df-944f-7d0973c4d925",
+                  "--token-1cfbd6a8-40d4-44a3-93b8-de4d8158716c",
+                  "--token-ded025fa-15dd-4c1c-94f4-aee06d7d238a",
+                  "--token-7d8c20e2-4a3c-4f56-bc8f-0b3ecb718dd0"
+                ]
+              },
+              {
+                "name": "Gray 300 20%",
+                "hex": "#999999",
+                "alpha": 0.2,
+                "aliases": [
+                  "--token-ded025fa-15dd-4c1c-94f4-aee06d7d238a"
+                ]
+              },
+              {
+                "name": "Gray 300 10%",
+                "hex": "#999999",
+                "alpha": 0.1,
+                "aliases": []
+              },
+              {
+                "name": "Gray 350",
+                "hex": "#888888",
+                "alpha": null,
+                "aliases": [
+                  "--token-0670237f-f1ec-47e8-98e0-ecdf93f4467c",
+                  "--token-565b745b-c313-43ee-aacc-dc06f90a5494",
+                  "--token-c21e04aa-a0e5-4f4d-853d-09e09aa40d71",
+                  "--token-e0633a0d-cf57-4847-a570-b6e3ee41f945"
+                ]
+              },
+              {
+                "name": "Gray 380",
+                "hex": "#878787",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Off-White",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Very light grays for subtle backgrounds in light mode or inverted contexts.",
+              "when_to_use": [
+                "Alternative backgrounds",
+                "Empty states"
+              ]
+            },
+            "hex": "#F3F3F3",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Gray 50",
+                "hex": "#F3F3F3",
+                "alpha": null,
+                "aliases": [
+                  "--token-02d1ef49-b467-4c62-87d7-eec15dc1a1de",
+                  "--token-8b2ef229-2b1e-47ab-a5e3-fa5fe4d2b845",
+                  "--token-53823293-0135-4be2-bee2-c0c9d1c237d5",
+                  "--token-f62792a8-74e6-43b7-8d07-cf9adc2846c5",
+                  "--token-ac42aa63-82e6-4f48-8c97-36a648b3c331"
+                ]
+              },
+              {
+                "name": "Gray 100",
+                "hex": "#F2F2F2",
+                "alpha": null,
+                "aliases": [
+                  "--token-ab22db3f-51d4-457b-b74d-36a1761e9043",
+                  "--token-0ba2e88a-a3f7-47fb-83b9-ad2eb0f68dc9"
+                ]
+              },
+              {
+                "name": "Gray 150",
+                "hex": "#EEEEEE",
+                "alpha": null,
+                "aliases": [
+                  "--token-77e39566-b00e-4163-9c94-dfbac239ccfc",
+                  "--token-ae91dd2e-0047-4f1c-ad17-e99188f82231"
+                ]
+              },
+              {
+                "name": "Gray 200",
+                "hex": "#CCCCCC",
+                "alpha": null,
+                "aliases": [
+                  "--token-883ec69e-717f-4933-bc04-075e58e23acd"
+                ]
+              },
+              {
+                "name": "Gray 250",
+                "hex": "#BBBBBB",
+                "alpha": null,
+                "aliases": [
+                  "--token-023e584d-eb9f-45d0-a9bf-d481c0b53395"
+                ]
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Brand Blue",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "Primary brand and interactive color used to indicate action.",
+              "when_to_use": [
+                "Primary buttons",
+                "Text links",
+                "Active state indicators",
+                "Text selection highlight"
+              ]
+            },
+            "hex": "#0099FF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Blue 500",
+                "hex": "#0099FF",
+                "alpha": null,
+                "aliases": [
+                  "--token-bd71055c-0a2c-4476-8cc9-4310acba652d",
+                  "--token-3ead4217-f562-484f-ae35-d367de8b213a",
+                  "--token-7caf96a9-3685-4995-95cd-92a16705da21",
+                  "--token-e2c6fd82-c978-4415-a4b5-37700001c928",
+                  "--token-8dfe056b-123a-4b56-a293-a075f1447a42",
+                  "--selection-background-color",
+                  "--selection-color",
+                  "--framer-link-text-color"
+                ]
+              },
+              {
+                "name": "Blue 500 30%",
+                "hex": "#0099FF",
+                "alpha": 0.3,
+                "aliases": [
+                  "--selection-background-color"
+                ]
+              },
+              {
+                "name": "Blue 500 22%",
+                "hex": "#0099FF",
+                "alpha": 0.22,
+                "aliases": []
+              },
+              {
+                "name": "Blue 500 42%",
+                "hex": "#0099FF",
+                "alpha": 0.42,
+                "aliases": []
+              },
+              {
+                "name": "Blue 600",
+                "hex": "#0055FF",
+                "alpha": null,
+                "aliases": [
+                  "--token-eb0d9e00-7216-491c-99d5-7c1c2f3d0dbe"
+                ]
+              },
+              {
+                "name": "Blue 300",
+                "hex": "#00CCFF",
+                "alpha": null,
+                "aliases": [
+                  "--token-ee053477-e115-4fec-a5f5-cdc637ed6ddc"
+                ]
+              },
+              {
+                "name": "Blue Link Default",
+                "hex": "#0000EE",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "Blue Dark",
+                "hex": "#194666",
+                "alpha": null,
+                "aliases": [
+                  "--token-c47565cb-23b2-472f-ab3b-28657c18119f"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Purple",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "Vibrant accent color for highlighting specific features or marketing elements.",
+              "when_to_use": [
+                "Marketing graphics",
+                "Badges",
+                "Special accents"
+              ]
+            },
+            "hex": "#6600FF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Purple 500",
+                "hex": "#6600FF",
+                "alpha": null,
+                "aliases": [
+                  "--token-0245ad54-dffa-4280-9b49-9d43ad68acaa"
+                ]
+              },
+              {
+                "name": "Purple 400",
+                "hex": "#9900FF",
+                "alpha": null,
+                "aliases": [
+                  "--token-66dfdba2-b084-43a3-a18d-237c2893b6a7"
+                ]
+              },
+              {
+                "name": "Purple Soft",
+                "hex": "#9869FD",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Pink",
+            "type": "Neon Colors",
+            "rules": {
+              "description": "High-energy accent color for attracting attention.",
+              "when_to_use": [
+                "Alerts",
+                "New feature tags",
+                "Vibrant illustrations"
+              ]
+            },
+            "hex": "#FF0066",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Pink 500",
+                "hex": "#FF0066",
+                "alpha": null,
+                "aliases": [
+                  "--token-0c4c4e00-f4fc-4e6a-9a97-509a95a3e5d4"
+                ]
+              },
+              {
+                "name": "Red Accent",
+                "hex": "#FF0022",
+                "alpha": null,
+                "aliases": [
+                  "--token-88cad303-8ee5-4c22-877f-e434faf14eee"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Orange",
+            "type": "Warm Colors",
+            "rules": {
+              "description": "Warm accent color for variety in data visualization or graphics.",
+              "when_to_use": [
+                "Charts",
+                "Illustrations",
+                "Warning states"
+              ]
+            },
+            "hex": "#FD7702",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Orange 500",
+                "hex": "#FD7702",
+                "alpha": null,
+                "aliases": [
+                  "--token-61e699c7-742b-47d0-bb16-f42065b06637"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Yellow",
+            "type": "Neon Colors",
+            "rules": {
+              "description": "Bright accent color for notifications and graphic highlights.",
+              "when_to_use": [
+                "Notifications",
+                "Highlights",
+                "Graphic accents"
+              ]
+            },
+            "hex": "#FFBB00",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Yellow 500",
+                "hex": "#FFBB00",
+                "alpha": null,
+                "aliases": [
+                  "--token-be530db7-18b2-4273-89ab-17e94ce4aa9f"
+                ]
+              },
+              {
+                "name": "Lime Green",
+                "hex": "#CBFF00",
+                "alpha": null,
+                "aliases": [
+                  "--token-6ecb0037-dab8-4348-b657-00f38b638028",
+                  "--token-224bfd43-9bd7-4029-a74c-dfb7dcb6da6e"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Green",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "Success and positive confirmation color.",
+              "when_to_use": [
+                "Success messages",
+                "Positive status indicators",
+                "Progress bars"
+              ]
+            },
+            "hex": "#4CD963",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Green 500",
+                "hex": "#4CD963",
+                "alpha": null,
+                "aliases": [
+                  "--token-281f665e-69f0-4f4c-a171-f40f50fe70d5"
+                ]
+              },
+              {
+                "name": "Green Bright",
+                "hex": "#00DD66",
+                "alpha": null,
+                "aliases": [
+                  "--token-f4d7f1ab-60e4-4112-93dc-10fa3370595e"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Cyan",
+            "type": "Neon Colors",
+            "rules": {
+              "description": "Cool accent color for data and illustration elements.",
+              "when_to_use": [
+                "Data visualization",
+                "Secondary highlights"
+              ]
+            },
+            "hex": "#22DDDD",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Cyan 500",
+                "hex": "#22DDDD",
+                "alpha": null,
+                "aliases": [
+                  "--token-893b117c-1037-4f46-becb-94bc264ede3a"
+                ]
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "insights": [
+          "The color system relies heavily on a deeply neutral, monochromatic dark scale from pure black to off-white, suggesting a sleek, modern, tech-focused interface.",
+          "A diverse secondary palette featuring vibrant, high-contrast neon hues (Cyan, Pink, Purple, Orange, Yellow) provides energetic accents against the dark background.",
+          "The predominant use of blue with multiple shades and alpha variations suggests it serves as the primary interactive and brand accent color."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "GT Walsheim Medium",
+              "role": "H1 Display",
+              "specs": {
+                "size": "54px",
+                "line_height": "54px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GT Walsheim Medium",
+              "role": "H2",
+              "specs": {
+                "size": "44px",
+                "line_height": "48.4px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter Variable",
+              "role": "H3",
+              "specs": {
+                "size": "18px",
+                "line_height": "24.3px",
+                "font_weight": "400",
+                "font_variation_settings": "\"opsz\" 18, \"wght\" 420"
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "GT Walsheim Medium",
+              "role": "H4",
+              "specs": {
+                "size": "54px",
+                "line_height": "43.2px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"GT Walsheim Medium\", \"GT Walsheim Medium Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H6",
+              "specs": {
+                "size": "20px",
+                "line_height": "24px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "Inter, \"Inter Placeholder\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "Inter Variable",
+              "role": "Body Text",
+              "specs": {
+                "size": "14px",
+                "line_height": "14px",
+                "font_weight": "400",
+                "font_variation_settings": "\"opsz\" 18, \"wght\" 480"
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "Inter Variable",
+              "role": "Button / Nav Label",
+              "specs": {
+                "size": "14px",
+                "line_height": "1em",
+                "font_weight": "400",
+                "font_variation_settings": "\"opsz\" 14, \"wght\" 460"
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter Variable",
+              "role": "Primary Button",
+              "specs": {
+                "size": "14px",
+                "line_height": "1em",
+                "font_weight": "400",
+                "font_variation_settings": "\"opsz\" 18, \"wght\" 540"
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Inter Variable\", \"Inter Variable Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Caption / UI Small",
+              "specs": {
+                "size": "12px",
+                "line_height": "14.4px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "Inter, \"Inter Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Micro / Badge",
+              "specs": {
+                "size": "10px",
+                "line_height": "12px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "Inter, \"Inter Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Input Mono Regular",
+              "role": "Code / Data",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Input Mono Regular\", \"Input Mono Regular Placeholder\", monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Secondary Body / List Item",
+              "specs": {
+                "size": "13px",
+                "line_height": "20.8px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts / self-hosted"
+              },
+              "technical": {
+                "font_family_css": "Inter, \"Inter Placeholder\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "sans-serif",
+              "role": "Default List Item",
+              "specs": {
+                "size": "12px",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": null
+            }
+          ]
+        },
+        "highlights": "Rounded corner background highlighting using superellipse borders for `<mark>` elements.",
+        "insights": [
+          "The typography system pairs the geometric sans-serif GT Walsheim for prominent headings with Inter for utilitarian UI text, establishing a strong brand identity alongside high legibility.",
+          "Extensive use of variable font properties ('opsz' and 'wght') allows for fine-grained weight control (e.g., 420, 460, 480, 540) to optimize legibility without loading multiple font files.",
+          "Microcopy is heavily utilized down to 10px sizes, counterbalanced with slightly heavier weights (500) to maintain crisp readability on dense dashboards."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "glass_blur"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Primary dark background for the entire page",
+            "when_to_use": [
+              "Main page background",
+              "Hero sections",
+              "Dark UI containers"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Card/Container Background",
+            "description": "Secondary dark surface for cards and UI containers",
+            "when_to_use": [
+              "UI cards",
+              "Modal backgrounds",
+              "Content containers"
+            ],
+            "hex": "#1F1F1F"
+          },
+          {
+            "name": "Elevated Surface",
+            "description": "Slightly elevated dark surface for components",
+            "when_to_use": [
+              "Elevated cards",
+              "Dropdown menus",
+              "Popover backgrounds"
+            ],
+            "hex": "#242424"
+          },
+          {
+            "name": "Dark Separator",
+            "description": "Dark surface for dividers and subtle backgrounds",
+            "when_to_use": [
+              "Section dividers",
+              "Nested containers",
+              "Subtle surfaces"
+            ],
+            "hex": "#212121"
+          },
+          {
+            "name": "Dark UI Panel",
+            "description": "Mid-dark surface for UI panels and sections",
+            "when_to_use": [
+              "Navigation panels",
+              "Sidebar backgrounds",
+              "UI sections"
+            ],
+            "hex": "#303030"
+          },
+          {
+            "name": "Accent Surface",
+            "description": "Primary accent blue surface",
+            "when_to_use": [
+              "CTA buttons",
+              "Interactive elements",
+              "Accent highlights"
+            ],
+            "hex": "#0099FF"
+          },
+          {
+            "name": "White Surface",
+            "description": "White surface for light UI elements",
+            "when_to_use": [
+              "Light buttons",
+              "Contrast elements",
+              "Text backgrounds"
+            ],
+            "hex": "#FFFFFF"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Hero Section Fade",
+            "description": "Top to bottom gradient from transparent to black, creates fade effect in hero section",
+            "when_to_use": [
+              "Hero section overlays",
+              "Content fade effects",
+              "Image overlays"
+            ],
+            "css_code": "linear-gradient(#0000 0%, #000 100%)"
+          },
+          {
+            "name": "Left Edge Fade",
+            "description": "Right to left gradient fade (270 degrees), transparent to black",
+            "when_to_use": [
+              "Left edge vignettes",
+              "Horizontal fade effects"
+            ],
+            "css_code": "linear-gradient(270deg, #0000 0%, #000 100%)"
+          },
+          {
+            "name": "Right Edge Fade",
+            "description": "Left to right gradient fade (90 degrees), transparent to black",
+            "when_to_use": [
+              "Right edge vignettes",
+              "Horizontal fade effects"
+            ],
+            "css_code": "linear-gradient(90deg, #0000 0%, #000 100%)"
+          }
+        ],
+        "highlights": [
+          "Glassmorphism effects with backdrop-filter blur on floating UI panels and navigation components",
+          "Subtle border highlights using semi-transparent white (rgba(255, 255, 255, 0.1)) on cards and containers",
+          "Radial gradient spotlight effects on interactive UI elements using mask-image with radial-gradient",
+          "Noise/grain texture overlay on video elements and hero sections using animated background pattern",
+          "Accent glow effects using rgba(0, 153, 255, 0.22) background with rgba(0, 153, 255, 0.42) borders on interactive states"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Navigation Dropdown",
+              "type": "drop",
+              "description": "Subtle border-like shadow used on navigation dropdown menus. 0px offset, 0px blur with 1px spread creates a border effect using rgba(255, 255, 255, 0.1) for a 10% white opacity glow.",
+              "css_value": "0px 0px 0px 1px rgba(255, 255, 255, 0.1)",
+              "when_to_use": [
+                "Navigation dropdowns",
+                "Floating menus",
+                "Popup panels"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#FFFFFF1A",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF12",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "marquee",
+          "sticky_header",
+          "scroll_reveal",
+          "hover_transform",
+          "video_background"
+        ],
+        "animations": [
+          {
+            "name": "scroll-reveal",
+            "css": "",
+            "description": "Elements fade in and translate upward as they enter viewport; JS-driven via Framer motion library"
+          },
+          {
+            "name": "marquee-logos",
+            "css": "",
+            "description": "Continuous horizontal scroll animation for partner logo strip; JS-driven infinite scroll"
+          },
+          {
+            "name": "hover-opacity",
+            "css": "transition: opacity 0.2s ease",
+            "description": "Navigation links transition opacity on hover from 0.6 to 1"
+          },
+          {
+            "name": "button-hover",
+            "css": "transition: background-color 0.15s ease, transform 0.15s ease",
+            "description": "Buttons smoothly transition background color and subtle scale on hover"
+          },
+          {
+            "name": "card-glow",
+            "css": "",
+            "description": "Animated glowing border effect on feature cards using radial gradient mask; JS-driven"
+          },
+          {
+            "name": "video-autoplay",
+            "css": "",
+            "description": "Hero section contains autoplay looping video showcasing product interface"
+          }
+        ],
+        "insights": [
+          "The design system uses a dark-first approach with pure black (#000000) backgrounds and white/semi-transparent white for text and UI elements, creating high contrast and a modern tech aesthetic.",
+          "Interactive elements consistently use 8px border-radius (rounded-lg) and rely on opacity changes and subtle background color shifts for hover states rather than dramatic color changes.",
+          "Motion design is predominantly JS-driven (Framer) with scroll-triggered reveals and continuous marquee animations, while CSS handles simpler hover transitions with consistent 0.15-0.2s timing."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Sign up (Primary White)",
+            "usage": "Primary call-to-action button in navigation for user registration",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter Variable",
+                  "size": "14px",
+                  "padding": "8px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get started for free (Primary White)",
+            "usage": "Hero section primary CTA button for user signup",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter Variable",
+                  "size": "14px",
+                  "padding": "10px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Download app (Secondary Ghost)",
+            "usage": "Secondary action button for downloading the desktop application",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter Variable",
+                  "size": "14px",
+                  "padding": "10px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.15)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Start with agents (Secondary Ghost)",
+            "usage": "Section CTA button for navigating to agents feature page",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter Variable",
+                  "size": "14px",
+                  "padding": "10px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.15)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Copy (Utility Small)",
+            "usage": "Small utility button for copying content to clipboard, found in code blocks and UI previews",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Inter",
+                  "size": "12px",
+                  "padding": "0px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are arranged horizontally in rows with consistent spacing",
+          "spacing": "10px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "64px",
+          "position": "fixed",
+          "background": {
+            "hex": "#000000",
+            "color_reference": "Baseline/Black",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Partner Logo Strip",
+            "description": "Horizontal scrolling marquee of grayscale partner/customer logos displayed at reduced opacity",
+            "when_to_use": [
+              "Social proof section",
+              "Trust indicators",
+              "Brand partnerships display"
+            ]
+          },
+          {
+            "name": "Feature Preview Card",
+            "description": "Large image cards showing product interface previews with gradient overlays and annotation text",
+            "when_to_use": [
+              "Feature demonstrations",
+              "Product showcases",
+              "Use case examples"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Divider",
+            "description": "Subtle gradient fade divider used to separate major page sections",
+            "when_to_use": [
+              "Between hero and content sections",
+              "Separating feature blocks"
+            ],
+            "color": "#000000",
+            "height": "64px",
+            "style": "gradient"
+          },
+          {
+            "name": "Card Border",
+            "description": "Thin semi-transparent white border used on dark cards and containers",
+            "when_to_use": [
+              "Card boundaries",
+              "Interactive containers",
+              "Modal borders"
+            ],
+            "color": "rgba(255, 255, 255, 0.1)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Main UI Icons",
+          "description": "Primary 20x20 monoline icons used for core UI actions and navigation",
+          "when_to_use": [
+            "Navigation",
+            "Buttons",
+            "Dropdowns",
+            "Checkmarks"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline, 2px stroke",
+          "sizes": {
+            "small": "16px",
+            "medium": "20px"
+          },
+          "examples": [
+            {
+              "name": "Plus",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" id=\"svg10522329964\"><path d=\"M 10 5 L 10 15\" fill=\"transparent\" stroke-width=\"2\" stroke=\"rgb(0, 153, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M 5 10 L 15 10\" fill=\"transparent\" stroke-width=\"2\" stroke=\"rgb(0, 153, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Dropdown",
+              "svg_code": "<svg display=\"block\" id=\"367334708\" role=\"presentation\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 7 L 6.293 0.707 C 6.683 0.317 7.317 0.317 7.707 0.707 L 14 7\" fill=\"transparent\" height=\"7px\" id=\"aD_3Sblea\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" stroke=\"rgb(136, 136, 136)\" transform=\"translate(3 6.5) rotate(540 7 3.5)\" width=\"14px\"></path></svg>"
+            },
+            {
+              "name": "Check Circle",
+              "svg_code": "<svg display=\"block\" id=\"3797874707\" role=\"presentation\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 7.5 0 C 11.642 0 15 3.358 15 7.5 C 15 11.642 11.642 15 7.5 15 C 3.358 15 0 11.642 0 7.5 C 0 3.358 3.358 0 7.5 0 Z M 13 13 L 16 16\" fill=\"rgba(136, 136, 136, 0.2)\" height=\"16px\" id=\"Uo84kFvT9\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" stroke-width=\"2\" stroke=\"rgb(136, 136, 136)\" transform=\"translate(2 2)\" width=\"16px\"></path></svg>"
+            },
+            {
+              "name": "Checkmark",
+              "svg_code": "<svg display=\"block\" id=\"3674388221\" role=\"presentation\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 6.5 L 4 6.5 L 7 0 L 10.5 14 L 13.5 6.5 L 18 6.5\" fill=\"transparent\" height=\"14px\" id=\"XrVXzKI92\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" stroke=\"rgb(136, 136, 136)\" transform=\"translate(1 3)\" width=\"18px\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Small Interface Icons",
+          "description": "Smaller 12x12 to 14x14 monoline icons used for secondary actions and inline labels",
+          "when_to_use": [
+            "Inline text",
+            "Secondary actions",
+            "Small labels"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline, 1.5px stroke",
+          "sizes": {
+            "small": "12px",
+            "medium": "14px"
+          },
+          "examples": [
+            {
+              "name": "Search",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 14 14\" id=\"svg10231122378\"><path d=\"M 1.75 6.417 C 1.75 3.839 3.839 1.75 6.417 1.75 C 8.994 1.75 11.083 3.839 11.083 6.417 C 11.083 8.994 8.994 11.083 6.417 11.083 C 3.839 11.083 1.75 8.994 1.75 6.417 Z M 12.25 12.25 L 9.713 9.713\" fill=\"transparent\" stroke-width=\"1.4\" stroke=\"rgb(255, 255, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Folder",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 12 12\" id=\"svg11600158194\"><path d=\"M 1.25 4.25 L 1.25 4.25 L 1.25 9 C 1.25 9.966 2.034 10.75 3 10.75 L 9 10.75 C 9.966 10.75 10.75 9.966 10.75 9 L 10.75 5.75 C 10.75 4.922 10.078 4.25 9.25 4.25 L 8 4.25 C 7.448 4.25 7 3.802 7 3.25 L 7 2.75 C 7 1.922 6.328 1.25 5.5 1.25 L 2.75 1.25 C 1.922 1.25 1.25 1.922 1.25 2.75 Z\" fill=\"rgba(136, 136, 136, 0.2)\" stroke-width=\"1.5\" stroke=\"rgb(136, 136, 136)\"></path><path d=\"M 8.5 4.25 L 1.5 4.25\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153)\"></path></svg>"
+            },
+            {
+              "name": "User",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 12 12\" id=\"svg11797708346\"><path d=\"M 5 0 C 7.761 0 10 2.239 10 5 C 10 6.046 9.679 7.017 9.13 7.819 L 11.164 9.854 C 11.457 10.146 11.457 10.621 11.164 10.914 C 10.871 11.207 10.396 11.207 10.104 10.914 L 8.107 8.918 C 7.254 9.595 6.174 10 5 10 C 2.239 10 0 7.761 0 5 C 0 2.239 2.239 0 5 0 Z M 1.5 5 C 1.5 6.933 3.067 8.5 5 8.5 C 6.933 8.5 8.5 6.933 8.5 5 C 8.5 3.067 6.933 1.5 5 1.5 C 3.067 1.5 1.5 3.067 1.5 5 Z\" fill=\"rgb(153, 153, 153)\"></path></svg>"
+            },
+            {
+              "name": "Gear Settings",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 12 12\" id=\"svg10848680545\"><path d=\"M 5.052 1.125 C 5.402 0.577 6.25 0.825 6.25 1.475 L 6.25 3.65 L 10.32 3.65 C 10.832 3.65 11.143 4.214 10.87 4.647 L 6.949 10.852 C 6.602 11.402 5.75 11.156 5.75 10.504 L 5.75 8.25 L 1.687 8.25 C 1.173 8.25 0.862 7.683 1.139 7.25 Z\" fill=\"rgba(135, 135, 135, 0.2) \" stroke-width=\"1.5\" stroke=\"rgb(255, 255, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Medium Action Icons",
+          "description": "Medium 19.5x19.5 monoline icons typically used in feature lists and editor toolbars",
+          "when_to_use": [
+            "Feature Lists",
+            "Editor Actions",
+            "Toolbar"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline, 1.5px stroke",
+          "sizes": {
+            "small": "16px",
+            "medium": "19.5px"
+          },
+          "examples": [
+            {
+              "name": "Edit Pencil",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19.5 19.5\" id=\"svg11460081331\"><path d=\"M 6.181 0.73 C 5.987 0.402 5.513 0.402 5.319 0.73 L 0.652 8.644 C 0.421 9.036 0.793 9.509 1.229 9.376 L 5.75 8 L 10.271 9.376 C 10.707 9.509 11.079 9.036 10.848 8.644 Z\" transform=\"translate(2.75 3.75) rotate(-45 5.75 5)\" fill=\"rgba(153, 153, 153, 0.2) \" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Plus Action",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19.5 19.5\" id=\"svg11855643982\"><g transform=\"translate(4.75 4.75)\"><path d=\"M 5 0 L 5 10\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M 0 5 L 10 5\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19.5 19.5\" id=\"svg10115357809\"><path d=\"M 4.75 9.5 L 9.043 5.207 C 9.433 4.817 10.067 4.817 10.457 5.207 L 14.75 9.5\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M 9.75 6.253 L 9.75 14.753\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Tiny Indicator Icons",
+          "description": "Tiny 6x6 to 10x10 icons used for status dots and micro chevrons",
+          "when_to_use": [
+            "Status indicators",
+            "Micro chevrons",
+            "Window controls"
+          ],
+          "format": "SVG",
+          "style": "Filled and Thick stroke",
+          "sizes": {
+            "small": "6px",
+            "medium": "10px"
+          },
+          "examples": [
+            {
+              "name": "Chevron Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 8 8\" id=\"svg10994104066\"><path d=\"M 0 6 L 2.293 3.707 C 2.683 3.317 2.683 2.683 2.293 2.293 L 0 0\" transform=\"translate(2.5 1) rotate(90 1.5 3)\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(102, 102, 102) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Status Dot Green",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 6 6\" overflow=\"visible\" id=\"svg-1890267923_314\"><path d=\"M 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 C 0 1.343 1.343 0 3 0 Z\" fill=\"rgb(76, 217, 99)\"></path></svg>"
+            },
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 10 5\" overflow=\"visible\" id=\"svg-977085200_417\"><path d=\"M 0 5 L 4.293 0.707 C 4.683 0.317 5.317 0.317 5.707 0.707 L 10 5\" fill=\"transparent\" stroke-width=\"2\" stroke=\"rgb(255, 255, 255) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/favicon-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/favicon-2.png",
+            "origin_url": "https://framerusercontent.com/images/aXvo6HfUhqvR7oFjFL8b4AcyGfg.png",
+            "description": "Framer Apple Touch Icon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/favicon.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/favicon.png",
+            "origin_url": "https://framerusercontent.com/images/Io89FonxEaWg4nxvQQllVLwPUUI.png",
+            "description": "Framer Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/favicon-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/favicon-3.png",
+            "origin_url": "https://framerusercontent.com/images/IWSWAkpF5evn8F9z67GntQanjk.png",
+            "description": "Framer Favicon Alternate"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-3.svg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://framerusercontent.com/images/Ll17Dg9HmF3p6UA1Us9m037NPiw.svg?width=57&height=21",
+            "description": "Miro Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-2.png",
+            "origin_url": "https://framerusercontent.com/images/Xflqz4b166Nn6flLSNwZ3YHpnA.png?width=710&height=160",
+            "description": "Perplexity Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary.svg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary.svg",
+            "origin_url": "https://framerusercontent.com/images/nfqFxnwuHxDsKC4aq6bkL2C5Xc.svg?width=88&height=17",
+            "description": "Legora Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary.png",
+            "origin_url": "https://framerusercontent.com/images/438CGnEJ8fW9oxKnD8cAdepnjS0.png?width=556&height=132",
+            "description": "Mixpanel Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-2.svg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://framerusercontent.com/images/HEGqsXen4lEDl1qKEvOdeRAnxQ.svg?width=110&height=30",
+            "description": "Zapier Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-3.png",
+            "origin_url": "https://framerusercontent.com/images/IHDPUOs7g9U4PEQJmkEUXMpbsMI.png?width=600&height=96",
+            "description": "Flora Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-4.svg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-4.svg",
+            "origin_url": "https://framerusercontent.com/images/NzfMBw82styKJA2j3DPEV081U.svg?width=1000&height=481",
+            "description": "Mutiny Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-4.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/logos/secondary-4.png",
+            "origin_url": "https://framerusercontent.com/images/lUZ3uzIob6NgeCKawVZCpNKJjE.png?width=1052&height=245",
+            "description": "StackAI Partner Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/open-graph-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/open-graph-image.png",
+            "origin_url": "https://framerusercontent.com/images/qAuYmOzzj4F8wIEJiqfcOgjFdiY.png",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "4RV4Erj59YHt6T06Ry7ab5tVI.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/4rv4erj59yht6t06ry7ab5tvi-mp4.mp4",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/4rv4erj59yht6t06ry7ab5tvi-mp4.mp4",
+            "origin_url": "https://framerusercontent.com/assets/4RV4Erj59YHt6T06Ry7ab5tVI.mp4",
+            "usage_context": "Background video showcasing Framer features"
+          },
+          {
+            "name": "IxrpbsCJLku5W91FcYn0gQuQY.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/ixrpbscjlku5w91fcyn0gquqy-mp4.mp4",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/ixrpbscjlku5w91fcyn0gquqy-mp4.mp4",
+            "origin_url": "https://framerusercontent.com/assets/IxrpbsCJLku5W91FcYn0gQuQY.mp4",
+            "usage_context": "Background video on page"
+          },
+          {
+            "name": "d5okMiktMgbhCcGtgbr8gGqqHU.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/d5okmiktmgbhccgtgbr8ggqqhu-mp4.mp4",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/d5okmiktmgbhccgtgbr8ggqqhu-mp4.mp4",
+            "origin_url": "https://framerusercontent.com/assets/d5okMiktMgbhCcGtgbr8gGqqHU.mp4",
+            "usage_context": "Background video on page"
+          },
+          {
+            "name": "CgG06QT8BUlSAEO3d4bWJgF0YgI.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/cgg06qt8bulsaeo3d4bwjgf0ygi-mp4.mp4",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/cgg06qt8bulsaeo3d4bwjgf0ygi-mp4.mp4",
+            "origin_url": "https://framerusercontent.com/assets/CgG06QT8BUlSAEO3d4bWJgF0YgI.mp4",
+            "usage_context": "Background video on page"
+          },
+          {
+            "name": "EGqLxawrgBiyYfcyRAdEFPRAMWo.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/egqlxawrgbiyyfcyradefpramwo-mp4.mp4",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/video/egqlxawrgbiyyfcyradefpramwo-mp4.mp4",
+            "origin_url": "https://framerusercontent.com/assets/EGqLxawrgBiyYfcyRAdEFPRAMWo.mp4",
+            "usage_context": "Background video on page"
+          },
+          {
+            "name": "Framer Commerce",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-commerce.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-commerce.png",
+            "origin_url": "https://www.dropbox.com/scl/fi/liuwd84g4nioi6fmu93e1/fc-free-badge.png?rlkey=yearpo3rkxqalq4mtmabujdk4&raw=1",
+            "usage_context": "Framer Commerce badge image"
+          },
+          {
+            "name": "Desktop website preview for the Haus design example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/desktop-website-preview-for-the-haus-design-example.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/desktop-website-preview-for-the-haus-design-example.jpg",
+            "origin_url": "https://framerusercontent.com/images/EX9NZExSFA4eodl7ZJOzgSOmf0.jpg?lossless=1&width=1200&height=1549",
+            "usage_context": "Showcase of website preview"
+          },
+          {
+            "name": "Website preview in the explorations section",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-preview-in-the-explorations-section.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-preview-in-the-explorations-section.jpg",
+            "origin_url": "https://framerusercontent.com/images/4dSrVgS0I0XvJg2hlhEERFeaI4.jpg?lossless=1&width=1200&height=1454",
+            "usage_context": "Showcase of website preview"
+          },
+          {
+            "name": "Website sidebar preview in the explorations section",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-sidebar-preview-in-the-explorations-section.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-sidebar-preview-in-the-explorations-section.jpg",
+            "origin_url": "https://framerusercontent.com/images/MY18WE0x641B3s93Ntxb9EyNDg.jpg?lossless=1&width=1200&height=1632",
+            "usage_context": "Showcase of website sidebar"
+          },
+          {
+            "name": "CMS table view interface preview",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-table-view-interface-preview.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-table-view-interface-preview.png",
+            "origin_url": "https://framerusercontent.com/images/LPkXlDTlZn3Gg3nOt0vzCxLJXU.png?width=512&height=512",
+            "usage_context": "Interface preview of CMS table"
+          },
+          {
+            "name": "CMS image example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example.jpg",
+            "origin_url": "https://framerusercontent.com/images/MpLFDC67YQNhZn2xoUIeyQAZK0.jpg?width=120&height=120",
+            "usage_context": "CMS content sample"
+          },
+          {
+            "name": "CMS image example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-2.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-2.jpg",
+            "origin_url": "https://framerusercontent.com/images/Yrl5iQeyEEzLD8pNITy1dJET2RM.jpg?width=120&height=120",
+            "usage_context": "CMS content sample"
+          },
+          {
+            "name": "CMS image example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-3.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-3.jpg",
+            "origin_url": "https://framerusercontent.com/images/vXcO4WGVMInagNXNjSGxl3jl0U.jpg?width=120&height=120",
+            "usage_context": "CMS content sample"
+          },
+          {
+            "name": "CMS image example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-4.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-4.jpg",
+            "origin_url": "https://framerusercontent.com/images/YY5IEBQkB2R1f6V5zwAeWX6sl2M.jpg?width=120&height=120",
+            "usage_context": "CMS content sample"
+          },
+          {
+            "name": "CMS image example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-5.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/cms-image-example-5.jpg",
+            "origin_url": "https://framerusercontent.com/images/Hmpf3NeQjpUx0q8s2c8riF2jpQ.jpg?width=120&height=120",
+            "usage_context": "CMS content sample"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image.jpg",
+            "origin_url": "https://framerusercontent.com/images/GjvoTAZBS3bbZCkT9BvgvSP3Tio.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-2.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-2.jpg",
+            "origin_url": "https://framerusercontent.com/images/jsKLc6lXoHjCysrAHeG3ghcriI.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-3.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-3.jpg",
+            "origin_url": "https://framerusercontent.com/images/9fmhLlnuVij5WJGb7AKAPHd8K4.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-4.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-4.jpg",
+            "origin_url": "https://framerusercontent.com/images/noTZrAnaWnle2PIeZvXS66nzXG4.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-5.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-5.jpg",
+            "origin_url": "https://framerusercontent.com/images/7hSz2Jc01Ilj9LZpJlZ7RcYh0Q.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-6.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-6.jpg",
+            "origin_url": "https://framerusercontent.com/images/uDdBqfuYdrKTwMfwVUNHXY3FtJk.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-7.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-7.jpg",
+            "origin_url": "https://framerusercontent.com/images/hlpxQq1a2zZi2B0UH9nlvggCYZY.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Code Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-8.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/code-component-image-8.jpg",
+            "origin_url": "https://framerusercontent.com/images/FnIAILjnZeFuwBoETfTs4DaTubU.jpg?width=450&height=450",
+            "usage_context": "Example image inside code component"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms.jpg",
+            "origin_url": "https://framerusercontent.com/images/izmhOCZ9AE4RHH29q34wCc5W3Mo.jpg?width=2240&height=140",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-2.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-2.jpg",
+            "origin_url": "https://framerusercontent.com/images/RUCQXTdC1P3kOSgwlXiUYL7zXc.jpg?width=2240&height=880",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-3.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-3.jpg",
+            "origin_url": "https://framerusercontent.com/images/FZ7lxiXg058Q5WkLuIXqolcRD8.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-4.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-4.jpg",
+            "origin_url": "https://framerusercontent.com/images/usaoXNWRLeM7U9Xt0Tx5xMMbc.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-5.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-5.jpg",
+            "origin_url": "https://framerusercontent.com/images/CRKaWbZDqmciaZB3o8TLxfNfg.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-6.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-6.jpg",
+            "origin_url": "https://framerusercontent.com/images/ImSxIBL5r0HQ0A9eAfv3URGZ6s.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-7.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-7.jpg",
+            "origin_url": "https://framerusercontent.com/images/kNTFdAbq8KepLO0ZTbRn615fg4.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-8.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-8.jpg",
+            "origin_url": "https://framerusercontent.com/images/l43trLLXSdDM5JxPLAjSBS0yFZQ.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-9.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-9.jpg",
+            "origin_url": "https://framerusercontent.com/images/7mIYCJjy7b59G8bbbUNvCTZ5tg.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-10.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-10.jpg",
+            "origin_url": "https://framerusercontent.com/images/QTBWCthlYtWCw8cIvFl8tkXTZx4.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-11.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-11.jpg",
+            "origin_url": "https://framerusercontent.com/images/f4S0gAvTsWVVdZcuwBqWpJJJx4Q.jpg?width=750&height=1080",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Interface preview in 2026 Frontpage/Home External CMS.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-12.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/interface-preview-in-2026-frontpage-home-external-cms-12.jpg",
+            "origin_url": "https://framerusercontent.com/images/NSyL5fO3XPhUYlHmNfv0May8LM.jpg?width=2240&height=140",
+            "usage_context": "Interface showcase"
+          },
+          {
+            "name": "Social preview example",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/social-preview-example.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/social-preview-example.png",
+            "origin_url": "https://framerusercontent.com/images/FXS1HldC2ITgGNLZTGbBDGA7h0.png?width=1200&height=630",
+            "usage_context": "Social preview preview image"
+          },
+          {
+            "name": "Framer user avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-user-avatar.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-user-avatar.png",
+            "origin_url": "https://framerusercontent.com/images/OmKDjH7juzfJ8ETRwLy9hglwa0.png?width=192&height=192",
+            "usage_context": "User avatar"
+          },
+          {
+            "name": "Framer user avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-user-avatar-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-user-avatar-2.png",
+            "origin_url": "https://framerusercontent.com/images/PNKbO6dGnRRwEvctPlhddS3H2s.png?width=512&height=512",
+            "usage_context": "User avatar"
+          },
+          {
+            "name": "Framer user avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-user-avatar-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/framer-user-avatar-3.png",
+            "origin_url": "https://framerusercontent.com/images/kFiEvDg0LczTmqWVkfNUFTc50.png?width=512&height=512",
+            "usage_context": "User avatar"
+          },
+          {
+            "name": "Hosting Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/hosting-background.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/hosting-background.png",
+            "origin_url": "https://framerusercontent.com/images/CQsZ1v3Cg7a8s5gQ8zH4usL7HU.png?width=774&height=480",
+            "usage_context": "Hosting feature background image"
+          },
+          {
+            "name": "Site image in 2026 Frontpage/Sites.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/site-image-in-2026-frontpage-sites.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/site-image-in-2026-frontpage-sites.png",
+            "origin_url": "https://framerusercontent.com/images/QSALLMZz20lUztB4mySTDLq6mE.png?width=2800&height=1804",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Maggie Site",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/maggie-site.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/maggie-site.png",
+            "origin_url": "https://framerusercontent.com/images/ordt7SZDaUEWKA368UbAGtdIno.png?width=884&height=1894",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Midlife Engineering",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/midlife-engineering.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/midlife-engineering.png",
+            "origin_url": "https://framerusercontent.com/images/a1daVaOmbl26jqNCw1Q0P3vhWZQ.png?width=2796&height=1808",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "i-D Elle Fanning Site",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/i-d-elle-fanning-site.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/i-d-elle-fanning-site.png",
+            "origin_url": "https://framerusercontent.com/images/qgcb6nXCOIxXxk9CLxf9WOoOk.png?width=880&height=1806",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Website showcase preview made in Framer",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer.png",
+            "origin_url": "https://framerusercontent.com/images/wVxwU0qi5YsLHBFbDaX8c3jTcU.png?width=3222&height=2078",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "i-D Elle Fanning Site",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/i-d-elle-fanning-site.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/i-d-elle-fanning-site.jpg",
+            "origin_url": "https://framerusercontent.com/images/AfVrJxeJkkgPpnO71Nw1tpmiiyI.jpg?width=928&height=1846",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Maggie Site",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/maggie-site-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/maggie-site-2.png",
+            "origin_url": "https://framerusercontent.com/images/RtheNIazFJm6EqfeKh66Bi7wyGI.png?width=880&height=1808",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Website showcase preview made in Framer",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer-2.png",
+            "origin_url": "https://framerusercontent.com/images/CC3vnYoPhqbdIEFTrhc9At8bgWo.png?width=2874&height=1834",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Maggie Site",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/maggie-site-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/maggie-site-3.png",
+            "origin_url": "https://framerusercontent.com/images/YCWnviU2EZwsP64iysymO773I.png?width=880&height=1782",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Website showcase preview made in Framer",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer-3.png",
+            "origin_url": "https://framerusercontent.com/images/wbyAS4r6FWaI1G1ena314OJs.png?width=2800&height=1804",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Mobile website showcase preview made in Framer",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/mobile-website-showcase-preview-made-in-framer.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/mobile-website-showcase-preview-made-in-framer.png",
+            "origin_url": "https://framerusercontent.com/images/Y6F5zkargty3ahKr9VGtA83ujXU.png?width=880&height=1806",
+            "usage_context": "Mobile website showcase image"
+          },
+          {
+            "name": "Website showcase preview made in Framer",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer-4.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/website-showcase-preview-made-in-framer-4.png",
+            "origin_url": "https://framerusercontent.com/images/WDlxZ5aairNkZSH0cyHqAzB2w.png?width=3200&height=2072",
+            "usage_context": "Website showcase image"
+          },
+          {
+            "name": "Miro customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/miro-customer-story-preview-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/miro-customer-story-preview-image.png",
+            "origin_url": "https://framerusercontent.com/images/DL8hej2J0ENXehCcjm05h3CmA.png?width=2048&height=1070",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "Perplexity customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/perplexity-customer-story-preview-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/perplexity-customer-story-preview-image.png",
+            "origin_url": "https://framerusercontent.com/images/eGoO50sQnLTjwFBzhi9LqDdU3vQ.png?width=2048&height=1152",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "Legora customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/legora-customer-story-preview-image.webp",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/legora-customer-story-preview-image.webp",
+            "origin_url": "https://framerusercontent.com/images/jTtsVVBhSR0HphLKfSJpeVnmPos.webp?width=1000&height=1250",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "Mixpanel customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/mixpanel-customer-story-preview-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/mixpanel-customer-story-preview-image.png",
+            "origin_url": "https://framerusercontent.com/images/sxoUHMyDJmczUkVs28JyYftbQGM.png?width=2680&height=1320",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "Zapier customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/zapier-customer-story-preview-image.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/zapier-customer-story-preview-image.jpg",
+            "origin_url": "https://framerusercontent.com/images/2HcMn3WE6ABg2DKf1egvCVZpn6s.jpg?width=2374&height=1746",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "Flora customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/flora-customer-story-preview-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/flora-customer-story-preview-image.png",
+            "origin_url": "https://framerusercontent.com/images/jmDZzRZa7eG7o6UwM4myFdsE.png?width=900&height=980",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "Mutiny customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/mutiny-customer-story-preview-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/mutiny-customer-story-preview-image.png",
+            "origin_url": "https://framerusercontent.com/images/RFqRfs88P7646TFOvUgWoxE0.png?width=648&height=752",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "StackAI customer story preview image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/stackai-customer-story-preview-image.jpg",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/stackai-customer-story-preview-image.jpg",
+            "origin_url": "https://framerusercontent.com/images/u0RvuERtz1FFu2w5kUQAVWmyU.jpg?width=2460&height=1296",
+            "usage_context": "Customer story preview"
+          },
+          {
+            "name": "App window controls in the community interface preview",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/app-window-controls-in-the-community-interface-preview.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/app-window-controls-in-the-community-interface-preview.png",
+            "origin_url": "https://framerusercontent.com/images/rRuvXeJC8VZ7naTn6TEU38KyMk.png?width=156&height=64",
+            "usage_context": "UI window controls image"
+          },
+          {
+            "name": "User avatar.",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/user-avatar.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/user-avatar.png",
+            "origin_url": "https://framerusercontent.com/images/HpuIynUBjhAJSaXjaIesR9XZ7fM.png?width=2160&height=2160",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar.png",
+            "origin_url": "https://framerusercontent.com/images/vT8YWu2HpMqiF96ExFdnTUwjuk.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-2.png",
+            "origin_url": "https://framerusercontent.com/images/p84L3wZzLg8rmtYvL85BAH0STM.png?width=640&height=640",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community carousel image preview",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-carousel-image-preview.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-carousel-image-preview.png",
+            "origin_url": "https://framerusercontent.com/images/6Mk8jyDEgOtr9zqsKnmAgsWAo.png?width=1600&height=1200",
+            "usage_context": "Community template preview"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-3.png",
+            "origin_url": "https://framerusercontent.com/images/MBxTAYW1PmysHhfbcP7XfQPdoyI.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-4.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-4.png",
+            "origin_url": "https://framerusercontent.com/images/u3JjDt32OwSOygGRRZ6rQTgZURo.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-5.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-5.png",
+            "origin_url": "https://framerusercontent.com/images/t0AxBQTyoDw9K4AFQrXmuKebU.png?width=80&height=80",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community post cover image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-2.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-2.png",
+            "origin_url": "https://framerusercontent.com/images/1a8BOgJ1jcruChleGrSASckBIRk.png?width=828&height=621",
+            "usage_context": "Community template preview"
+          },
+          {
+            "name": "Community post cover image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image.png",
+            "origin_url": "https://framerusercontent.com/images/QchK2Mvzs4ZwqHCLITcEsyXfJQ.png?width=1600&height=1200",
+            "usage_context": "Community template preview"
+          },
+          {
+            "name": "Community post cover image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-3.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-3.png",
+            "origin_url": "https://framerusercontent.com/images/CijpUPlN5zOHYpIxnwrXuL3SJAA.png?width=1600&height=1200",
+            "usage_context": "Community template preview"
+          },
+          {
+            "name": "Community post cover image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-5.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-5.png",
+            "origin_url": "https://framerusercontent.com/images/l7c3NmDQLA0tJaEOrCfPslyQ8.png?width=828&height=621",
+            "usage_context": "Community template preview"
+          },
+          {
+            "name": "Community post cover image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-4.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-post-cover-image-4.png",
+            "origin_url": "https://framerusercontent.com/images/3LFHK78Tyjrkd29aNyaCt4ksw.png?width=1600&height=1200",
+            "usage_context": "Community template preview"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-6.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-6.png",
+            "origin_url": "https://framerusercontent.com/images/T2YwdLK1HMT7WuGimy8fHgXO0.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-7.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-7.png",
+            "origin_url": "https://framerusercontent.com/images/Bp2MR74pImwyNdPUKsjjHl1ORCw.png?width=320&height=320",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-8.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-8.png",
+            "origin_url": "https://framerusercontent.com/images/Gy0sO0Azs6C5MstLQyaS45HuA.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-9.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-9.png",
+            "origin_url": "https://framerusercontent.com/images/jXiW6TqMFnx6tg1hfTRJqWhBtk.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          },
+          {
+            "name": "Community member avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-10.png",
+            "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/site-assets/media/image/community-member-avatar-10.png",
+            "origin_url": "https://framerusercontent.com/images/YamtXHt4RrF5czl9OsBVudYFxg.png?width=400&height=400",
+            "usage_context": "User avatar in community section"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal fixed header",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Figma logo wordmark in white on black background, top left"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal menu with links: Platform, Solutions, Resources, Enterprise, Pricing - clean sans-serif in white with subtle hover states"
+            },
+            {
+              "type": "button",
+              "description": "Login button - text link in white"
+            },
+            {
+              "type": "button",
+              "description": "Sign up button - solid white background with black text, rounded corners"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered",
+          "headline": "Figma is the design agent for (and) with Gen) how best to launch products faster",
+          "subheadline": "#9 on OpenRouter: 123.7B tokens this week",
+          "components": [
+            {
+              "type": "button",
+              "description": "Get started for free - white background CTA button"
+            },
+            {
+              "type": "button",
+              "description": "Download app - transparent button with white text and border"
+            },
+            {
+              "type": "video",
+              "description": "Large centered video player showing glowing blue holographic interface mockup with code snippets in 3D space, dark mode aesthetic with neon accents"
+            }
+          ]
+        },
+        {
+          "type": "Logo Strip",
+          "layout_pattern": "Centered horizontal row",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Grayscale company logos in horizontal row: Costco, Zapier, Cal.com, Lagoda, Expensity, Miro, Doordash - white/gray on black background"
+            },
+            {
+              "type": "button",
+              "description": "Meet our customers - text link with arrow icon"
+            }
+          ]
+        },
+        {
+          "type": "Feature Section",
+          "layout_pattern": "Split layout with image left, text right",
+          "headline": "Agents that work alongside (not instead of) you",
+          "subheadline": "Design with an agent",
+          "components": [
+            {
+              "type": "image",
+              "description": "HAUS product photography - vibrant teal/green beverage cans styled with clean product shot aesthetic"
+            },
+            {
+              "type": "card",
+              "description": "Exploration cards showing Big Intro and Side Nav variations with blue accent borders and holographic glow effects"
+            },
+            {
+              "type": "button",
+              "description": "Start with agents - text link with arrow"
+            }
+          ]
+        },
+        {
+          "type": "Feature Section",
+          "layout_pattern": "Split layout with UI preview left, text right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "CMS interface preview showing dark mode table view with collections sidebar, article management UI in grayscale with blue accents"
+            },
+            {
+              "type": "button",
+              "description": "Learn more → - text link in white"
+            }
+          ]
+        },
+        {
+          "type": "Feature Section",
+          "layout_pattern": "Split layout with 3D visual left, text right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "illustration",
+              "description": "3D rendered cards with blue and green holographic effects, isometric floating elements in space"
+            },
+            {
+              "type": "button",
+              "description": "Learn more → - text link"
+            }
+          ]
+        },
+        {
+          "type": "Feature Section",
+          "layout_pattern": "Split layout with UI preview left, text right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Harry Potter themed image gallery interface mockup with warm tones and dark UI grays"
+            },
+            {
+              "type": "button",
+              "description": "Learn more → - text link"
+            }
+          ]
+        },
+        {
+          "type": "Platform Features",
+          "layout_pattern": "Grid 3-column",
+          "headline": "Not just ideas, a full platform",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "FigJam UI panel preview with pastel colors and collaborative whiteboard aesthetic"
+            },
+            {
+              "type": "card",
+              "description": "Dev Mode code view panel with syntax highlighting and dark theme"
+            },
+            {
+              "type": "card",
+              "description": "Slides UI panel showing presentation interface"
+            },
+            {
+              "type": "button",
+              "description": "FigJam → - text link"
+            },
+            {
+              "type": "button",
+              "description": "Dev Mode → - text link"
+            },
+            {
+              "type": "button",
+              "description": "Slides → - text link"
+            }
+          ]
+        },
+        {
+          "type": "Showcase Grid",
+          "layout_pattern": "Grid 2x3",
+          "headline": "Shipped with Figma",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Product shot - electronics with earth tones"
+            },
+            {
+              "type": "image",
+              "description": "Backpack product photography"
+            },
+            {
+              "type": "image",
+              "description": "FIELD poster design with vibrant colors"
+            },
+            {
+              "type": "image",
+              "description": "Green sports themed imagery"
+            },
+            {
+              "type": "image",
+              "description": "Portrait photography"
+            },
+            {
+              "type": "image",
+              "description": "Desert landscape scene with blue sky"
+            }
+          ]
+        },
+        {
+          "type": "Testimonials",
+          "layout_pattern": "Centered logo grid",
+          "headline": "Trusted by teams shaping the web",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "White/gray company logos on black: Dell, cereality, Lagoda, wildguard in first row; GIPHY, Lattice, Kickstarter in second row"
+            }
+          ]
+        },
+        {
+          "type": "Community",
+          "layout_pattern": "Centered with full-width interface preview",
+          "headline": "Built on a community that's going strong",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Large community interface preview with dark purple/blue undertones, showing discussion threads and minkit Oxyueon branding mockup"
+            },
+            {
+              "type": "button",
+              "description": "Learn more - text link in white, top right"
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "layout_pattern": "Centered",
+          "headline": "Your next idea starts here",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Sign up illustration/mockup on black background"
+            },
+            {
+              "type": "button",
+              "description": "Sign up for free - likely solid button with blue/purple primary color"
+            },
+            {
+              "type": "button",
+              "description": "Contact sales - likely outline/ghost button"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Five-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Figma logo in white"
+            },
+            {
+              "type": "navigation",
+              "description": "Five columns of text links organized by category in white/gray text"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons - bottom left"
+            },
+            {
+              "type": "navigation",
+              "description": "Legal links - bottom right in small text"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

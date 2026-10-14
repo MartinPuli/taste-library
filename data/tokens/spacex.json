@@ -1,0 +1,532 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Space Black",
+      "type": "Neutral Colors",
+      "rules": {
+        "description": "Core background color for the space-themed aesthetic, heavily modified with alpha channels to create overlays, shadows, and gradients.",
+        "when_to_use": [
+          ".app-background",
+          ".black-background",
+          ".video-overlay",
+          ".image-wrapper"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "Black 80%",
+          "hex": "#000000",
+          "alpha": 0.8,
+          "aliases": [
+            "--black-80",
+            ".black-background-gradient-right",
+            ".black-background-gradient-left"
+          ]
+        },
+        {
+          "name": "Black 75%",
+          "hex": "#000000",
+          "alpha": 0.75,
+          "aliases": [
+            ".menu-backdrop"
+          ]
+        },
+        {
+          "name": "Black 60%",
+          "hex": "#000000",
+          "alpha": 0.6,
+          "aliases": [
+            ".header"
+          ]
+        },
+        {
+          "name": "Black 50%",
+          "hex": "#000000",
+          "alpha": 0.5,
+          "aliases": [
+            "--black-50",
+            ".header-shadow",
+            ".primary"
+          ]
+        },
+        {
+          "name": "Black 32%",
+          "hex": "#000000",
+          "alpha": 0.32,
+          "aliases": [
+            ".cdk-overlay-dark-backdrop"
+          ]
+        }
+      ],
+      "score": 0,
+      "group": "baseline"
+    },
+    {
+      "name": "Off-White / Pale Gray",
+      "type": "Neutral Colors",
+      "rules": {
+        "description": "Primary ink and typography color used across the site. Possesses a very subtle cool tone to pair with the dark theme natively.",
+        "when_to_use": [
+          "--white-100",
+          ".app-background",
+          "h1",
+          "h2",
+          "p",
+          ".title",
+          ".feature-header"
+        ]
+      },
+      "hex": "#F0F0FA",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "Off-White 90%",
+          "hex": "#F0F0FA",
+          "alpha": 0.9,
+          "aliases": [
+            "--white-90",
+            ".nav-links",
+            ".time"
+          ]
+        },
+        {
+          "name": "Off-White 80%",
+          "hex": "#F0F0FA",
+          "alpha": 0.8,
+          "aliases": [
+            "--white-80",
+            ".minimal",
+            ".countdown",
+            ".feature-text"
+          ]
+        },
+        {
+          "name": "Off-White 70%",
+          "hex": "#F0F0FA",
+          "alpha": 0.7,
+          "aliases": [
+            "--white-70"
+          ]
+        },
+        {
+          "name": "Off-White 60%",
+          "hex": "#F0F0FA",
+          "alpha": 0.6,
+          "aliases": [
+            "--white-60"
+          ]
+        },
+        {
+          "name": "Off-White 50%",
+          "hex": "#F0F0FA",
+          "alpha": 0.5,
+          "aliases": [
+            "--white-50",
+            ".section-subheader"
+          ]
+        },
+        {
+          "name": "Off-White 35%",
+          "hex": "#F0F0FA",
+          "alpha": 0.35,
+          "aliases": [
+            "--white-35",
+            "a"
+          ]
+        },
+        {
+          "name": "Off-White 30%",
+          "hex": "#F0F0FA",
+          "alpha": 0.3,
+          "aliases": [
+            "--white-30"
+          ]
+        },
+        {
+          "name": "Off-White 15%",
+          "hex": "#F0F0FA",
+          "alpha": 0.15,
+          "aliases": [
+            "--white-15"
+          ]
+        },
+        {
+          "name": "Off-White 10%",
+          "hex": "#F0F0FA",
+          "alpha": 0.1,
+          "aliases": [
+            "--white-10",
+            ".social"
+          ]
+        }
+      ],
+      "score": 0,
+      "group": "baseline"
+    },
+    {
+      "name": "Space Dark Gray",
+      "type": "Neutral Colors",
+      "rules": {
+        "description": "Secondary dark neutral used for subtle background layering and interactive element borders.",
+        "when_to_use": [
+          "--gray-80"
+        ]
+      },
+      "hex": "#252628",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "Dark Gray 80%",
+          "hex": "#252628",
+          "alpha": 0.8,
+          "aliases": [
+            "--gray-80"
+          ]
+        },
+        {
+          "name": "Dark Gray 60%",
+          "hex": "#252628",
+          "alpha": 0.6,
+          "aliases": [
+            "--gray-60",
+            ".thin"
+          ]
+        },
+        {
+          "name": "Dark Gray 40%",
+          "hex": "#252628",
+          "alpha": 0.4,
+          "aliases": [
+            "--gray-40"
+          ]
+        },
+        {
+          "name": "Tertiary Background",
+          "hex": "#232323",
+          "alpha": null,
+          "aliases": [
+            ".tertiary"
+          ]
+        }
+      ],
+      "score": 0,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure White",
+      "type": "Neutral Colors",
+      "rules": {
+        "description": "Used sparingly as an absolute brightest peak for specific borders and data strokes on SVG components.",
+        "when_to_use": [
+          "data-stroke",
+          "--white-25",
+          ".upcoming-launch-widget"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "White 25%",
+          "hex": "#FFFFFF",
+          "alpha": 0.25,
+          "aliases": [
+            "--white-25",
+            ".divider"
+          ]
+        }
+      ],
+      "score": 0,
+      "group": "secondary"
+    },
+    {
+      "name": "Highlight Blue",
+      "type": "Cool Colors",
+      "rules": {
+        "description": "A rare, distinct brand accident color used exclusively for career search highlight tags.",
+        "when_to_use": [
+          "career-search-tile .highlighted-keyword"
+        ]
+      },
+      "hex": "#01579B",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "Highlight Blue Faded",
+          "hex": "#01579B",
+          "alpha": 0.45,
+          "aliases": [
+            ".highlighted-keyword"
+          ]
+        }
+      ],
+      "score": 0,
+      "group": "secondary"
+    },
+    {
+      "name": "Light Gray Hover",
+      "type": "Neutral Colors",
+      "rules": {
+        "description": "Interactive hover state strictly used for inline textual links within CMS-rendered content fields.",
+        "when_to_use": [
+          ".innerhtml-from-cms a:hover"
+        ]
+      },
+      "hex": "#CCCCCC",
+      "alpha": null,
+      "shades": [],
+      "score": 0,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "D-DIN-Bold",
+      "role": "Hero Display (H2)",
+      "specs": {
+        "size": "5rem",
+        "line_height": "95%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "D-DIN-Bold",
+      "role": "Large Display (H2)",
+      "specs": {
+        "size": "60px",
+        "line_height": "90%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "D-DIN-Bold",
+      "role": "Primary Heading (H1/H2)",
+      "specs": {
+        "size": "3rem",
+        "line_height": "60px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "D-DIN-Bold",
+      "role": "Secondary Heading (H1/H2 Alternate)",
+      "specs": {
+        "size": "3rem",
+        "line_height": "48px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "D-DIN-Bold",
+      "role": "Feature Header (H3)",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.2",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "D-DIN",
+      "role": "Primary Body Text",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.5rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "D-DIN",
+      "role": "Secondary Body / Lists",
+      "specs": {
+        "size": "16px",
+        "line_height": "94%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "D-DIN",
+      "role": "Nav Links / Important Labels",
+      "specs": {
+        "size": "0.813rem",
+        "line_height": "94%",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Roboto Mono",
+      "role": "Subheader / Technical Data",
+      "specs": {
+        "size": ".875rem",
+        "line_height": "140%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'Roboto Mono', monospace",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "D-DIN",
+      "role": "UI Small / Date / Footer",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "110%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "D-DIN",
+      "role": "UI Micro / Widget Title",
+      "specs": {
+        "size": "0.625rem",
+        "line_height": "94%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "D-DIN-Bold",
+      "role": "Mobile Navigation / Large Labels",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "120%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+        "file_url": ""
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "40px",
+    "max_width": "1700px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 961px (1 Column, 16px gutter, full-width sections)",
+    "tablet": "962px - 1279px (fluid layout, reduced padding)",
+    "desktop": "1280px - 1500px (12 Columns, 40px gutter, max-width 1400-1700px)",
+    "large": "1501px+ (12 Columns, 40px gutter, max-width 1700px)"
+  }
+}

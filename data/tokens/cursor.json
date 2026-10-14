@@ -1,0 +1,574 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Graphite",
+      "type": "Dark",
+      "rules": {
+        "description": "Serves as the foundational ink color for high-contrast readability and solid interactive elements.",
+        "when_to_use": [
+          "Primary body text and headings",
+          "\"Download for macOS\" primary CTA background",
+          "Window borders and text in product mockups",
+          "Partner SVG logos in the logo garden"
+        ]
+      },
+      "hex": "#26251E",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#141414",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#1F211D",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#3A3A3C",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#3C3935",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#111110",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#1A1A1A",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#1C1C1E",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#2C2C2E",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#24231C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.0276,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper",
+      "type": "Light",
+      "rules": {
+        "description": "Provides a warm, layered base for the page and its structural elements, reducing eye strain compared to pure white.",
+        "when_to_use": [
+          "Main page and header background (#F7F7F4)",
+          "Feature card backgrounds and product UI chrome (#F2F1ED)",
+          "Hover states and secondary \"Request a demo\" button backgrounds",
+          "Primary CTA text (#FFFFFF)"
+        ]
+      },
+      "hex": "#F2F1ED",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#F7F7F4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EBEAE5",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E6E5E0",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FCFCFC",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#D9D5CF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E1E0DB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FBFBFB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E3EBF3",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EDECEC",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.048299999999999996,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Used structurally for depth and high-contrast hardware details rather than typography.",
+        "when_to_use": [
+          "Box-shadows for dropdowns and flyout menus",
+          "Mobile phone mockup camera notch background"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0115,
+      "group": "secondary"
+    },
+    {
+      "name": "Grok Ink",
+      "type": "Dark",
+      "rules": {
+        "description": "A localized dark shade used specifically to style the embedded Grok Bot demo interface.",
+        "when_to_use": [
+          "Grok Bot demo base text color",
+          "Grok Bot sidebar active item background (via alpha)"
+        ]
+      },
+      "hex": "#0A0A0A",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0088,
+      "group": "secondary"
+    },
+    {
+      "name": "Signal Orange",
+      "type": "Warm Color",
+      "rules": {
+        "description": "Acts as the sole vibrant accent to guide users to deeper product features and content.",
+        "when_to_use": [
+          "\"Learn about agentic development\" text links",
+          "\"Explore models\" inline links",
+          "\"View all blog posts\" link"
+        ]
+      },
+      "hex": "#F54E00",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#E7000B",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#ED712E",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0066,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "CursorGothic",
+      "role": "H1 Display (2XL)",
+      "specs": {
+        "size": "4.5rem",
+        "line_height": "1.1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "CursorGothic",
+      "role": "H2 Display (LG)",
+      "specs": {
+        "size": "2.25rem",
+        "line_height": "1.2",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "CursorGothic",
+      "role": "H1 Section (MD-LG)",
+      "specs": {
+        "size": "1.625rem",
+        "line_height": "1.25",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "CursorGothic",
+      "role": "H3 Heading (MD)",
+      "specs": {
+        "size": "1.375rem",
+        "line_height": "1.3",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "system-ui",
+      "role": "UI Interface Heading",
+      "specs": {
+        "size": "20px",
+        "line_height": "31px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "system-ui",
+      "role": "UI Section Subheading",
+      "specs": {
+        "size": "19px",
+        "line_height": "20.9px",
+        "font_weight": "510",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "system-ui",
+      "role": "UI Trigger Subheading",
+      "specs": {
+        "size": "14px",
+        "line_height": "21.7px",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "CursorGothic",
+      "role": "Body Base",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "system-ui",
+      "role": "System Prose",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "EB Garamond",
+      "role": "Serif Browser Preview",
+      "specs": {
+        "size": "1.08rem",
+        "line_height": "1.35",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"EB Garamond\", Iowan Old Style, Palatino Linotype, URW Palladio L, P052, ui-serif, Georgia, Cambria, Times New Roman, Times, serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "CursorGothic",
+      "role": "Type SM",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "CursorGothic",
+      "role": "Type XS",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "Product LG",
+      "specs": {
+        "size": "0.8125rem",
+        "line_height": "1.33333",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "Product Base",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "1.33333",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "Product Base Medium",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "1.33333",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "Product SM",
+      "specs": {
+        "size": "0.6875rem",
+        "line_height": "1.27273",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "Product SM Medium",
+      "specs": {
+        "size": "0.6875rem",
+        "line_height": "1.27273",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "berkeleyMono",
+      "role": "Product Mono Base",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "1.25rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Lato",
+      "role": "Slack Integration Heading",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.33333",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Lato, \"Lato Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "berkeleyMono",
+      "role": "Prose Pre / Code block",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.25",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "system-ui",
+      "role": "Status Micro / Breadcrumb",
+      "specs": {
+        "size": "11px",
+        "line_height": "14px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 24,
+    "gutter": "calc(10rem / 16)",
+    "max_width": "1300px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 419px (1 Column, 16px gutter)",
+    "tablet": "420px - 899px (8 Columns, 16px gutter)",
+    "desktop": "900px - 1380px (24 Columns, calc(10rem / 16) gutter)",
+    "large": "1380px+ (24 Columns, calc(10rem / 16) gutter)"
+  }
+}

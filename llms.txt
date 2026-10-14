@@ -1,0 +1,14 @@
+# taste-library
+
+Referencias de diseño extraídas con TasteLabs. Leer el índice antes de abrir datos completos.
+
+## Entradas
+
+- [Instrucciones para agentes](AGENTS.md): orden de lectura y límites de la evidencia.
+- [Catálogo](catalog/index.json): 40 referencias, con etiquetas, rutas y advertencias.
+- [Selección](guides/selection.md): cómo comparar referencias contra un brief.
+- [Índice por uso](catalog/by-use-case.md): grupos para buscar candidatas.
+- [Índice por estilo](catalog/by-style.md): patrones visuales.
+- [Procedencia](data/manifest.json): fechas y hashes.
+
+Las fichas están en profiles/<id>.md. Para abrir una sección puntual: python3 scripts/query.py show <id> --section typography.

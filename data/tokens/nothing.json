@@ -1,0 +1,671 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Base Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary ink for typography across the site, establishing a sharp, high-contrast aesthetic.",
+        "when_to_use": [
+          "Global body typography",
+          "Promotional banner link underlines",
+          "Cookie consent primary CTA background"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure White",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational surface and background color, providing a stark, minimalist canvas that lets product imagery stand out.",
+        "when_to_use": [
+          "Main page and section backgrounds (#F4F4F4)",
+          "Frosted glass product cards and navigation (#ffffffcc)",
+          "Reversed typography and icons in the dark footer",
+          "Faint ghost buttons in the footer (#ffffff0d)"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#E5E7EB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F4F4F4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EEEEEE",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.8639000000000001,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The brand's deliberate 'Pure Black', applied to heavy surface areas and primary interface components to create deep contrast.",
+        "when_to_use": [
+          "Footer section background",
+          "Product 'Discover' call-to-action buttons",
+          "Location modal typography and icons"
+        ]
+      },
+      "hex": "#040404",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0333,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Ndot-Regular",
+      "role": "Display XXXL",
+      "specs": {
+        "size": "3.75rem",
+        "line_height": "1",
+        "font_weight": "55",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Display XXL",
+      "specs": {
+        "size": "3.75rem",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Display XL",
+      "specs": {
+        "size": "3rem",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Display XXL / Category",
+      "specs": {
+        "size": "2.5rem",
+        "line_height": "1",
+        "font_weight": "55",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Display LG",
+      "specs": {
+        "size": "2.5rem",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Type Title",
+      "specs": {
+        "size": "2rem",
+        "line_height": "2.2rem",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Heading XL",
+      "specs": {
+        "size": "2rem",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Display XL",
+      "specs": {
+        "size": "1.875rem",
+        "line_height": "1",
+        "font_weight": "57",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Type Headline",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "1.65rem",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Heading LG",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "1.1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Type Logo",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.35rem",
+        "font_weight": "55",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Type Product Name",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.25rem",
+        "font_weight": "55",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Heading LG",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1",
+        "font_weight": "57",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Heading MD",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.2",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Location Title",
+      "specs": {
+        "size": "32px",
+        "line_height": "35.2px",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "H2 Subheading",
+      "specs": {
+        "size": "24px",
+        "line_height": "30px",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "H3 Store Locator",
+      "specs": {
+        "size": "20px",
+        "line_height": "21.6px",
+        "font_weight": "55",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "H3 Product Name",
+      "specs": {
+        "size": "20px",
+        "line_height": "20px",
+        "font_weight": "55",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Body LG",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.2",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Subheading LG",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Type Body",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.4rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Body SM",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NType82-Regular",
+      "role": "Rendered Paragraphs",
+      "specs": {
+        "size": "16px",
+        "line_height": "22.4px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NType82-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Arial",
+      "role": "Banner Body",
+      "specs": {
+        "size": "15px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Text Field / Text Mono LG",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.2rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Text Mono MD",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.25",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Text Mono SM",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "1.25",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Type Callout / Text Mono XS",
+      "specs": {
+        "size": "0.6875rem",
+        "line_height": "0.75625rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Go To Text",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Location Notice",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "LatteraMonoLL",
+      "role": "Support / Footer links",
+      "specs": {
+        "size": "11px",
+        "line_height": "12.1px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "LatteraMonoLL, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Arial",
+      "role": "Banner Button",
+      "specs": {
+        "size": "16px",
+        "line_height": "22.4px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Arial",
+      "role": "Banner Data Processing Bold",
+      "specs": {
+        "size": "12px",
+        "line_height": "19.2px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Arial",
+      "role": "Banner Data Processing",
+      "specs": {
+        "size": "12px",
+        "line_height": "19.2px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Heading SM",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1",
+        "font_weight": "57",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Ndot-Regular",
+      "role": "Heading XS",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1",
+        "font_weight": "57",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Ndot-Regular, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "32px",
+    "max_width": "512px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 767px (3 columns, 16px gutter)",
+    "tablet": "768px - 913px (8 columns, 24px gutter)",
+    "desktop": "914px - 1536px (12 columns, 32px gutter)",
+    "large": "1537px+ (12 columns, 32px gutter)"
+  }
+}

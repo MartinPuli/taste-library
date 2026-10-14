@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Taste library catalog",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "ranking_source",
+    "ranking_checked_date",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "ranking_source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "ranking_checked_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "rank",
+          "source_url",
+          "captured_at",
+          "page_type",
+          "use_cases",
+          "styles",
+          "quality",
+          "warnings",
+          "selection_note",
+          "note_basis",
+          "paths"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "captured_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "page_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "use_cases": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "hardware",
+                "developer-tools",
+                "editorial-research",
+                "creative-tools",
+                "media-discovery",
+                "fintech",
+                "hospitality",
+                "productivity",
+                "authentication"
+              ]
+            }
+          },
+          "styles": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "warm-editorial",
+                "dark-technical",
+                "monochrome",
+                "cinematic",
+                "color-accent",
+                "image-led",
+                "modular",
+                "retro-digital"
+              ]
+            }
+          },
+          "quality": {
+            "enum": [
+              "extracted_unverified",
+              "limited"
+            ]
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "selection_note": {
+            "type": "string"
+          },
+          "note_basis": {
+            "type": "string"
+          },
+          "paths": {
+            "type": "object",
+            "required": [
+              "profile",
+              "tokens",
+              "raw"
+            ],
+            "properties": {
+              "profile": {
+                "type": "string"
+              },
+              "tokens": {
+                "type": "string"
+              },
+              "raw": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

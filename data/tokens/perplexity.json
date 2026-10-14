@@ -1,0 +1,218 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Interfaz pública de búsqueda; no cubre todas las pantallas del producto."
+  ],
+  "colors": [
+    {
+      "name": "Light Surface",
+      "type": "Light",
+      "rules": {
+        "description": "Serves as the primary canvas for the page, ensuring readability and providing a clean, open feel.",
+        "when_to_use": [
+          "Main page background",
+          "Card and container backgrounds"
+        ]
+      },
+      "hex": "#FBFBFB",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Primary Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "The core brand and action color, drawing the user's eye to primary interactions and links.",
+        "when_to_use": [
+          "Primary CTA button background",
+          "Text links",
+          "Active state icons"
+        ]
+      },
+      "hex": "#1A73E8",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Used for high-contrast, readable text across the main content areas.",
+        "when_to_use": [
+          "Body copy text",
+          "Main headings"
+        ]
+      },
+      "hex": "#252525",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Deep Navy Accent",
+      "type": "Dark",
+      "rules": {
+        "description": "Provides high contrast for secondary dark sections or prominent headers, adding depth.",
+        "when_to_use": [
+          "Dark section backgrounds",
+          "Footer background",
+          "Secondary headings"
+        ]
+      },
+      "hex": "#0B2833",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Solid Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Used sparingly for maximum contrast in typography or structural borders.",
+        "when_to_use": [
+          "High-emphasis text elements",
+          "Borders or subtle drop shadows"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "System Sans",
+      "role": "Display Heading (H1)",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "System Sans",
+      "role": "Body Text",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "System Sans",
+      "role": "Badge",
+      "specs": {
+        "size": "11px",
+        "line_height": "",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Sans",
+      "role": "Button / Nav Label Medium",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Sans",
+      "role": "Sidebar Item",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Sans",
+      "role": "UI Micro / Helper",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Sans",
+      "role": "General UI Text",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "0.75rem",
+    "max_width": "768px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 767px (1 Column, responsive padding)",
+    "tablet": "768px - 1024px (Sidebar visible, centered content)",
+    "desktop": "1025px+ (240px sidebar, max-w-screen-md content area)",
+    "large": null
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "White",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational high-contrast color used primarily for text and primary action surfaces across the dark theme.",
+        "when_to_use": [
+          "Primary typography",
+          "Primary CTA background ('Get the plugin', 'Generate video')",
+          "Subtle borders and box-shadows (translucent)"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#E5E7EB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FAFAFA",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFDFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FCFFFC",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F9FFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FCFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FAFFF6",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F3FFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F8FFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFCF5",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FDFFF7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6FFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFEFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FDFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E8E9ED",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E4DDD4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFF1",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.1043999999999992,
+      "group": "baseline"
+    },
+    {
+      "name": "Muted Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A mid-tone gray utilized for structural text elements that require lower emphasis than primary content.",
+        "when_to_use": [
+          "Footer section headings ('Krea', 'About', 'Solutions')"
+        ]
+      },
+      "hex": "#737373",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#5C6362",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#585E54",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#8A8A8A",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#6C6C6C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0701,
+      "group": "baseline"
+    },
+    {
+      "name": "Deep Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The core background color forming the deep, immersive foundation of the dark mode interface.",
+        "when_to_use": [
+          "Sidebar background",
+          "Feature card backgrounds",
+          "Prompt input box background",
+          "Primary CTA text (on white)"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0281,
+      "group": "secondary"
+    },
+    {
+      "name": "Neutral Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A lighter gray providing readable but secondary text contrast against the dark background.",
+        "when_to_use": [
+          "Footer navigation links",
+          "Inactive tab text ('Moodboards')"
+        ]
+      },
+      "hex": "#A3A3A3",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#A1A1A1",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#B7B7B7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#BCB8AB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#A8A8A8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#C1C1C1",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0077,
+      "group": "secondary"
+    },
+    {
+      "name": "Charcoal",
+      "type": "Dark",
+      "rules": {
+        "description": "A deep charcoal acting as the base document background and building subtle elevation through translucent overlays.",
+        "when_to_use": [
+          "Base page body background (#101010)",
+          "Secondary 'Read more' button backgrounds (translucent)",
+          "Search bar background (#262626cc)",
+          "Specific image placeholder backgrounds"
+        ]
+      },
+      "hex": "#262626",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#101010",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#35333C",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#2A2E2A",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#10151C",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#3E3E40",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#2B221D",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#24292E",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#192127",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#3D3A3D",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#091216",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#121212",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#323232",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0096,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Suisse Intl",
+      "role": "H1 / Hero Display",
+      "specs": {
+        "size": "3.75rem",
+        "line_height": "1",
+        "font_weight": "450",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Book-WebM.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "H2 / Section Title",
+      "specs": {
+        "size": "1.875rem",
+        "line_height": "1",
+        "font_weight": "450",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Book-WebM.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "H3 / Card Title (Medium)",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "calc(2 / 1.5)",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Medium-WebM.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "H3 / Subheading (Book)",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "calc(2 / 1.5)",
+        "font_weight": "450",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Book-WebM.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "Body Base",
+      "specs": {
+        "size": "1rem",
+        "line_height": "calc(1.5 / 1)",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Regular-WebM.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "Body Small",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "calc(1.25 / .875)",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Regular-WebM.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "Body Small (Medium)",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "calc(1.25 / .875)",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Medium-WebM.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "Button / Action Text",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "calc(1.25 / .875)",
+        "font_weight": "450",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Book-WebM.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "Caption / UI Micro",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "calc(1 / .75)",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-Regular-WebM.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Suisse Intl",
+      "role": "Badge / Accent Micro",
+      "specs": {
+        "size": "11px",
+        "line_height": "1",
+        "font_weight": "600",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": "./SuisseIntl-SemiBold-WebM.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Suisse Intl Mono",
+      "role": "Code / Monospace",
+      "specs": {
+        "size": "1em",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Suisse Intl Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "1rem",
+    "max_width": "112rem"
+  },
+  "breakpoints": {
+    "mobile": "0px - 767px (1-2 Columns, 16px gutter)",
+    "tablet": "768px - 919px (2-3 Columns, 24px gutter)",
+    "desktop": "920px - 1791px (3-11 Columns, 32px gutter)",
+    "large": "1792px+ (12 Columns, 48px gutter)"
+  }
+}

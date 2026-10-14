@@ -1,0 +1,1989 @@
+{
+  "company": "Notion",
+  "rank": 2,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.notion.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:44.311650Z",
+  "completed_at": "2026-10-08T00:42:08.521274Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Notion",
+        "tagline": null,
+        "source_url": "https://www.notion.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / Productivity",
+        "primary_purpose": "Drive signups and demo requests by positioning Notion as an AI-powered workspace where teams and agents collaborate",
+        "main_cta": "Get Notion free",
+        "copy_tone": [
+          "Confident",
+          "Approachable",
+          "Action-oriented"
+        ],
+        "brand_signature": "Clean, minimal aesthetic with generous white space and a warm off-white background. Bold sans-serif typography dominates headlines while playful hand-drawn illustrations and colorful accents add personality. Product UI screenshots with subtle shadows create depth and demonstrate real functionality.",
+        "visual_language": {
+          "keywords": [
+            "minimal",
+            "warm",
+            "playful",
+            "product-forward",
+            "accessible",
+            "clean"
+          ],
+          "accent_strategy": "Soft categorical colors (blue, yellow, red, green) used for feature differentiation and agent icons, applied sparingly against neutral backgrounds",
+          "highlights": "Subtle drop shadows on UI elements, animated pill badges with dot indicators, and hand-drawn character illustrations peeking from edges"
+        },
+        "strategy": {
+          "target_audience": [
+            "Product managers and team leads seeking unified workspace tools for documentation and project management",
+            "Enterprise decision-makers evaluating AI-enhanced productivity platforms for large organizations",
+            "Startup founders and small business owners looking for flexible, scalable team collaboration software",
+            "Developers and technical teams needing customizable workflow automation"
+          ],
+          "executive_synthesis": "Notion's visual strategy bridges enterprise credibility with startup approachability through a dual-tone approach: the extensive Fortune 500 logo wall and clean product UI establish professional trust, while playful illustrations and warm tones lower adoption friction. The hero's animated verb cycle (Jam/Ship/Build) communicates platform versatility while the AI agent messaging positions Notion beyond traditional note-taking into workflow automation. The bento grid structure efficiently demonstrates three core value propositions (Capture, Find, Automate) with progressive disclosure, optimizing for both quick scanning and deeper exploration."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "**Visual Analysis:** The screenshot reveals an exceptionally clean, modern SaaS landing page dominated by white space, crisp black typography, and a single blue accent color. The design communicates professionalism and clarity through its restrained palette and systematic layout.\n\n**Forensic Evidence Supporting Flat Design:**\n1. **Color Cleanliness = Clean/Pure:** The palette is starkly limited—Ink Black (#000000), Paper White (#FFFFFF), and Action Blue (#097FE8). This three-color discipline with opacity variations is textbook Flat Design restraint.\n\n2. **Dimensionality = Flat (2D):** While soft shadows exist (--tatami-shadow-100/200/300), they are extremely subtle and functional rather than decorative. The texture_classification confirms \"shadows_soft\" only—no gradients, gloss, or 3D effects. Elements don't attempt to simulate real-world materials.\n\n3. **Shape Language = Geometric:** The layout profile shows a strict 12-column grid with centered symmetric composition. Cards use consistent rounded corners (.5rem to 1rem) with geometric shapes throughout. The pill-shaped CTAs and circular colored dots (blue, yellow, red, green, navy) are pure geometric primitives.\n\n4. **Typography = Sans-Serif Modern (NotionInter/Inter):** The entire typography system uses a single geometric sans-serif family with tight tracking, creating the clinical precision characteristic of Flat Design.\n\n5. **Layout Structure = Rigid Grid:** The 12-column grid, generous 64-160px section spacing, and card-based modular system demonstrate strict structural discipline. Centered symmetric composition throughout.\n\n**Key Differentiator:** This is NOT Minimalism despite the whitespace because the page has substantial content density—multiple sections, feature cards, testimonials, stats bars, and colorful accent elements. Flat Design embraces bold, saturated colors and content within clean 2D surfaces.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "**Corporate Modifier Evidence:** The design exhibits classic B2B SaaS conventions that signal trust, reliability, and competence:\n- Logo strip of enterprise clients (OpenAI, Figma, FedEx, Toyota, nvidia) establishes credibility\n- Testimonial cards with executive titles and company names\n- Statistics bar with metrics (100M users, Fortune 100 usage)\n- Professional, formal tone in copy (\"Trusted by teams that ship\")\n- Conservative color choices (blue = trustworthiness)\n- Serif font (Lyon Text) reserved for editorial quotes adds gravitas\n\nThe design deliberately avoids playfulness or experimentation in favor of communicating enterprise-readiness and reliability—hallmarks of the Corporate tonal style layered onto the Flat Design foundation."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "28px",
+          "max_width": "1464px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 599px (1 Column, 16px gutter)",
+          "tablet": "600px - 839px (8 Columns, 12px gutter)",
+          "desktop": "840px - 1079px (12 Columns, 28px gutter)",
+          "large": "1080px - 1279px (12 Columns, 28px gutter)"
+        },
+        "section_separation": "Generous vertical whitespace between major sections (64px-160px). White background throughout with subtle gray backgrounds (#f9f9f8, #f6f5f4) for feature cards. No structural dividers or alternating backgrounds—separation achieved through spatial rhythm and typography scale changes.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]     Product▾ Resources▾ Pricing Request a demo   │\n│                                         Log in [Get Notion free]│\n├──────────────────────────────────────────────────────────┤\n│                      [HERO - Centered]                    │\n│                                                           │\n│         Where teams and                                   │\n│         agents ●Jam together.                            │\n│                                                           │\n│    Capture context, find answers, and automate tasks     │\n│              with AI built for your team.                │\n│                                                           │\n│        [Get Notion free]  [Request a demo]               │\n│                                                           │\n│  ┌─────────────────────────────────────────────────────┐ │\n│  │         [Product screenshot / Dashboard]            │ │\n│  │  ┌──────────┐     ┌───────────────────────┐        │ │\n│  │  │ Sidebar  │     │   Ramp HQ             │        │ │\n│  │  │          │     │   [Content area]      │        │ │\n│  │  └──────────┘     └───────────────────────┘        │ │\n│  │                                                     │ │\n│  │  [Company logos: Figma, Pixar, ramp, etc.]        │ │\n│  │  [eBay] [Visual Content] [Vercell] [Loxable]      │ │\n│  │  [GNVP] [Brexcard]                                 │ │\n│  └─────────────────────────────────────────────────────┘ │\n├──────────────────────────────────────────────────────────┤\n│                                                           │\n│            AI where your team works.                      │\n│                                                           │\n│  ┌────────────────────┐  ┌──────────────────────────┐   │\n│  │ Knowledge mgmt     │  │ Find answers             │   │\n│  │ Bring everything   │  │ Get answers, instantly   │   │\n│  │ into one system    │  │ —with citations.         │   │\n│  │                    │  │                          │   │\n│  │ [Meetings card]    │  │ [H2 Deal Flow Dashboard] │   │\n│  │  📊 Interface     │  │  [Dashboard with graphs]  │   │\n│  └────────────────────┘  └──────────────────────────┘   │\n│                                                           │\n│  ┌────────────────────┐                                  │\n│  │ Automate busywork  │                                  │\n│  │ Keep work moving   │                                  │\n│  │ 24/7 with agents.  │                                  │\n│  └────────────────────┘                                  │\n├──────────────────────────────────────────────────────────┤\n│            [See what Notion can do]                       │\n│                                                           │\n│  ●        ●        ●        ●        ●                   │\n│  Triage   Resolve  Respond  Automate Create your        │\n│  product  support  to       weekly   own developer      │\n│  feedback tickets  security reports  guide →            │\n│           in Slack alerts                                │\n├──────────────────────────────────────────────────────────┤\n│          Trusted by teams that ship.                      │\n│                                                           │\n│  ┌────────┐ ┌────────┐ ┌────────┐                       │\n│  │  RED   │ │  BLUE  │ │ ORANGE │                       │\n│  │        │ │        │ │        │                       │\n│  │[Quote] │ │[Quote] │ │[Quote] │                       │\n│  └────────┘ └────────┘ └────────┘                       │\n│                                                           │\n│  [Stats: 100M users] [Over 80% FC companies] etc.        │\n├──────────────────────────────────────────────────────────┤\n│                                                           │\n│              Get started today.                           │\n│                                                           │\n│        [Get Notion free]  [Request a demo]               │\n│                                                           │\n├──────────────────────────────────────────────────────────┤\n│  [FOOTER]                                                │\n│                                                           │\n│  [LOGO] Notion                                           │\n│                                                           │\n│  [Product]    [Features]      [Resources]    [Company]   │\n│   Docs        Wikis           Blog            About us   │\n│   Projects    Projects        Guides          Careers    │\n│   Notion AI   Docs            Templates       Customer   │\n│   Calendar    AI               Pricing         Stories   │\n│   Pricing     ...etc...        ...etc...       ...etc... │\n│                                                           │\n│  © 2025 Notion Labs, Inc.   [Do Not Sell or Share...]   │\n│                              [Cookie settings]            │\n│                              [English (US) ▾]            │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: White/light background\n- Buttons/CTAs: \"Log in\" (text link, black) | \"Get Notion free\" (solid blue button, pill-shaped)\n- Colors observed: Blue (primary CTA), black text\n- Typography mood: Clean, modern sans-serif\n\nHERO:\n- Background: White/light background with subtle gradient\n- Imagery: Large product screenshot showing Notion interface with sidebar navigation and Ramp HQ dashboard. Purple dot accent in headline.\n- Buttons/CTAs: \"Get Notion free\" (solid blue button, pill-shaped) | \"Request a demo\" (text link, underlined)\n- Components: Company logo strip showing Figma, Pixar, ramp, Coinbase, Backstage, TOYOTA, eBay, Visual Content, Vercell, Loxable, GNVP, Brexcard logos in grayscale\n- Colors observed: Black text, blue accent, purple accent dot, grayscale logos\n- Typography mood: Bold, large display type for headline\n\nAI FEATURES SECTION:\n- Background: White/light background\n- Imagery: Two main cards showing product interfaces - left shows a meetings list interface with avatars, right shows \"H2 Deal Flow Dashboard\" with colorful charts (blue speedometer, bar graphs in orange/green/blue)\n- Components: Cards with subtle shadows and borders. Third card below shows automation features.\n- Buttons/CTAs: No prominent buttons, informational cards\n- Colors observed: Blue, orange, green in dashboard visualizations\n- Typography mood: Bold headlines with clean body text\n\nUSE CASES SECTION:\n- Background: White with circular color indicators\n- Imagery: Five circular colored dots (blue, yellow, red, green, dark blue) as section markers\n- Buttons/CTAs: \"Triage product feedback →\" | \"Resolve support tickets in Slack →\" | \"Respond to security alerts faster →\" | \"Automate weekly reporting →\" | \"Create your own developer guide →\"\n- Colors observed: Bright blue, yellow, red, green, navy\n- Typography mood: Clean, action-oriented\n\nTESTIMONIALS SECTION:\n- Background: Three large colored cards in a row\n- Imagery: Red gradient card (left), blue gradient card (center), orange gradient card (right) with subtle geometric patterns\n- Components: Quote cards with white text overlay\n- Colors observed: Red, royal blue, orange - all with gradient treatments\n- Typography mood: Testimonial text in white, clean and readable\n\nSTATS BAR:\n- Background: Light gray or white\n- Components: Icon-based stats in a horizontal row\n- Colors observed: Muted/grayscale icons\n- Typography mood: Small, informational\n\nFINAL CTA:\n- Background: White/light\n- Buttons/CTAs: \"Get Notion free\" (solid blue button, pill-shaped) | \"Request a demo\" (text link)\n- Colors observed: Blue (primary)\n- Typography mood: Bold, centered headline\n\nFOOTER:\n- Background: White/light gray\n- Components: Multi-column link layout, Notion logo on left\n- Buttons/CTAs: Multiple text links organized in columns\n- Colors observed: Black text, gray backgrounds\n- Typography mood: Small, organized, clean link structure",
+        "insights": [
+          "Strongly centered composition with symmetric hero layout—headline, CTAs, and media all centered on vertical axis, creating formal balance and focus",
+          "Card-based modular system with consistent rounded corners (6-10px), subtle shadows, and layered depth effects (drop shadows, overlapping elements) to create tactile hierarchy",
+          "Generous breathing room between sections (80-160px vertical spacing) creates a calm, spacious rhythm; whitespace is the primary separator rather than graphical dividers",
+          "Sticky navigation remains visible on scroll, maintaining wayfinding; logo wall uses sticky positioning at certain breakpoints to anchor scrolling experience",
+          "Accent illustrations (agents, people peeking) add playful asymmetry to otherwise symmetric centered layouts, breaking grid rigidity without disrupting balance"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The foundational ink of the design, heavily utilizing opacity to create a comprehensive scale for text, borders, and shadows.",
+              "when_to_use": [
+                "Primary and secondary typography across all headings, body text, and menus",
+                "Subtle borders on cards, videos, and dropdowns (using low opacity)",
+                "Drop shadows on interactive components and bento boxes",
+                "Monochrome rendering for customer logos"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Paper White",
+            "type": "Light",
+            "rules": {
+              "description": "The dominant surface color that defines the clean, document-like feel, accompanied by subtle off-white and pastel shades for grouping.",
+              "when_to_use": [
+                "Global page background and sticky navigation panel",
+                "Text and icon color on primary CTA buttons",
+                "Off-white backgrounds for bento box headers and the bottom endcap section",
+                "Pale color-tinted backgrounds (blue, red, yellow) for product feature cards"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#F9F9F8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F6F5F4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F2F9FF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FEF3F1",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.15880000000000002
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Marquee Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A specific muted gray used to visually de-emphasize continuous background information.",
+              "when_to_use": [
+                "Text color for the statistics within the scrolling marquee section"
+              ]
+            },
+            "hex": "#615D59",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#78736F",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.017499999999999998
+          },
+          {
+            "name": "Marquee Icon Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A soft, low-contrast gray specifically paired with marquee text.",
+              "when_to_use": [
+                "Icon fills accompanying the statistics in the scrolling marquee section"
+              ]
+            },
+            "hex": "#A39E98",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0159
+          },
+          {
+            "name": "Action Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "The sole structural accent color, used exclusively to highlight interactive elements, conversions, and key feature markers.",
+              "when_to_use": [
+                "Primary 'Get Notion free' CTA button backgrounds",
+                "Text color for 'Request a demo' secondary buttons",
+                "Inline text links with directional arrows",
+                "Filled graphic icons in the agent and feature prompt sections"
+              ]
+            },
+            "hex": "#097FE8",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#005BAB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#0075DE",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.011600000000000001
+          }
+        ],
+        "insights": [
+          "Opacity-driven hierarchy: Instead of a large palette of solid grays, the design primarily relies on pure black with varying alpha channels to handle typographic hierarchy, borders, disabled states, and shadows.",
+          "Document-first aesthetic: The heavy reliance on white surfaces and crisp black ink reinforces the product's identity as a text-focused workspace and system of record.",
+          "Restrained accentuation: By committing almost entirely to a monochrome foundation, the single blue accent color stands out sharply, creating an obvious visual path for user conversion and feature discovery."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "NotionInter",
+              "role": "H1 Display",
+              "specs": {
+                "size": "clamp(2.625rem, -25.5px + 11.25vw, 6rem)",
+                "line_height": "clamp(3rem, -17px + 10.8333vw, 6.25rem)",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "H2 Hero",
+              "specs": {
+                "size": "54px",
+                "line_height": "56px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "H2 Heading",
+              "specs": {
+                "size": "42px",
+                "line_height": "48px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "H3 Subheading",
+              "specs": {
+                "size": "22px",
+                "line_height": "28px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "H3 Card/Small",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "NotionInter",
+              "role": "Body Medium",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "Body Regular",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "Body Small Medium",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "Body Small Regular",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "NotionInter",
+              "role": "UI Micro / Features Label",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": [
+            {
+              "name": "Lyon Text",
+              "role": "Editorial Serif / Quote",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.75rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Lyon Text\", Georgia, YuMincho, \"Yu Mincho\", \"Hiragino Mincho ProN\", \"Hiragino Mincho Pro\", \"Songti TC\", \"Songti SC\", SimSun, \"Nanum Myeongjo\", NanumMyeongjo, Batang, serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "iA Writer Mono",
+              "role": "Code / Monospace",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.75rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"iA Writer Mono\", Nitti, Menlo, Courier, monospace",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Permanent Marker",
+              "role": "Handwriting / Accent",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "\"Permanent Marker\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "NotionInter",
+              "role": "Eyebrow",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "highlights": "Dynamic, pill-shaped inline elements inserted directly into headings (e.g., 'Ship' within the H1 'Where teams and agents Ship together'), featuring custom background colors, colored dots, and animated transitions to highlight rotating keywords.",
+        "insights": [
+          "Notion relies on a custom cut of Inter ('NotionInter') tightly tracked with negative letter-spacing for headings (e.g., up to -4.6px on H1s), creating a highly compact, dense, and structured UI aesthetic.",
+          "An extensive, highly considered internationalization fallback stack is present, deliberately mapping to system fonts and specific Noto/CJK families depending on the language context (e.g., Noto Sans Arabic, YuMincho).",
+          "'Lyon Text' is reserved as a primary serif for editorial content, quotes, and reading modes, while 'iA Writer Mono' is used for code blocks and technical data, cleanly separating the marketing UI from document-creation primitives."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Base Background",
+            "description": "Primary page background",
+            "when_to_use": [
+              "Page backgrounds",
+              "Default surfaces"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Card Background - Gray 100",
+            "description": "Light gray surface for cards and containers",
+            "when_to_use": [
+              "Card backgrounds",
+              "Bento grid items",
+              "Elevated content areas"
+            ],
+            "hex": "#F9F9F8"
+          },
+          {
+            "name": "Card Background - Gray 200",
+            "description": "Slightly darker gray for nested surfaces",
+            "when_to_use": [
+              "Nested cards",
+              "Secondary surface areas"
+            ],
+            "hex": "#F6F5F4"
+          },
+          {
+            "name": "Border - Neutral",
+            "description": "Neutral border color for surface differentiation",
+            "when_to_use": [
+              "Card borders with surface neutral variant",
+              "2px borders"
+            ],
+            "hex": "#F6F5F4"
+          },
+          {
+            "name": "Text - Dark",
+            "description": "Primary text color with 95% opacity",
+            "when_to_use": [
+              "Headings",
+              "Primary body text"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Text - Medium",
+            "description": "Medium emphasis text with 54% opacity",
+            "when_to_use": [
+              "Secondary text",
+              "Meta information"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Text - Light",
+            "description": "Low emphasis text with 38% opacity",
+            "when_to_use": [
+              "Captions",
+              "Disabled states"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Accent - Blue",
+            "description": "Primary blue accent color",
+            "when_to_use": [
+              "Primary CTA buttons",
+              "Interactive elements",
+              "Links"
+            ],
+            "hex": "#097FE8"
+          },
+          {
+            "name": "Accent - Green",
+            "description": "Green accent for success states and highlights",
+            "when_to_use": [
+              "Success messages",
+              "Product pill backgrounds"
+            ],
+            "hex": "#1AAE39"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Product Image Media Gradient",
+            "description": "Subtle top-to-bottom fade overlay on hero media",
+            "when_to_use": [
+              "Hero video overlays",
+              "Product image fade effects"
+            ],
+            "css_code": "linear-gradient(to top, rgba(0,0,0,0.1), transparent)"
+          }
+        ],
+        "highlights": [
+          "Soft drop shadows on elevated surfaces: --tatami-shadow-100: 0px .7px 1.462px 0px #00000004, 0px 3px 9px 0px #00000008",
+          "Medium drop shadows on cards: --tatami-shadow-200: 0px .175px 1.041px 0px #00000003, 0px .8px 2.925px 0px #00000005, 0px 2.025px 7.847px 0px #00000007, 0px 4px 18px 0px #0000000a",
+          "Deep drop shadows for layered content: --tatami-shadow-300: 0px .667px 3.502px 0px #00000002, 0px 2.933px 7.252px 0px #00000004, 0px 7.2px 14.462px 0px #00000005, 0px 13.867px 28.348px 0px #00000006, 0px 23.333px 52.123px 0px #00000008, 0px 36px 89px 0px #0000000a",
+          "Bento grid layer drop shadows applied to stacked images and UI elements",
+          "Rounded corners on cards using --tatami-border-radius-500 (.5rem) to --tatami-border-radius-900 (1rem)"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. The system uses a multi-layered shadow approach with four distinct levels (0-300) defined as CSS custom properties.",
+          "levels": [
+            {
+              "name": "Tatami Shadow 0",
+              "type": "drop",
+              "description": "Zero elevation / no shadow - 0px offset, 0px blur, transparent black. Used as a reset or base state.",
+              "css_value": "0px 0px 0px 0px #0000",
+              "when_to_use": [
+                "Base state",
+                "Elements with no elevation",
+                "Reset shadow values"
+              ]
+            },
+            {
+              "name": "Tatami Shadow 100",
+              "type": "drop",
+              "description": "Subtle elevation with two layers: 0px 0.7px 1.462px at 1.6% opacity and 0px 3px 9px at 3.1% opacity. Light lift effect.",
+              "css_value": "0px .7px 1.462px 0px #00000004, 0px 3px 9px 0px #00000008",
+              "when_to_use": [
+                "Subtle hover states",
+                "Light card elevation",
+                "Minor separation from background"
+              ]
+            },
+            {
+              "name": "Tatami Shadow 200",
+              "type": "drop",
+              "description": "Medium elevation with four layers ranging from 0.175px to 4px vertical offset, with blur values from 1px to 18px. Opacity ranges from 1.2% to 4%.",
+              "css_value": "0px .175px 1.041px 0px #00000003, 0px .8px 2.925px 0px #00000005, 0px 2.025px 7.847px 0px #00000007, 0px 4px 18px 0px #0000000a",
+              "when_to_use": [
+                "Cards",
+                "Dropdown menus",
+                "Modals",
+                "Floating elements"
+              ]
+            },
+            {
+              "name": "Tatami Shadow 300",
+              "type": "drop",
+              "description": "Maximum elevation with six layers from 0.667px to 36px vertical offset, blur values from 3.5px to 89px. Creates deep, prominent shadow for highest z-index elements.",
+              "css_value": "0px .667px 3.502px 0px #00000002, 0px 2.933px 7.252px 0px #00000004, 0px 7.2px 14.462px 0px #00000005, 0px 13.867px 28.348px 0px #00000006, 0px 23.333px 52.123px 0px #00000008, 0px 36px 89px 0px #0000000a",
+              "when_to_use": [
+                "Popovers",
+                "Tooltips",
+                "Lightboxes",
+                "High-priority floating UI"
+              ]
+            },
+            {
+              "name": "Tw Ring Offset Shadow",
+              "type": "drop",
+              "description": "Tailwind utility ring offset shadow - transparent placeholder shadow used for focus ring styling.",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Focus ring offsets",
+                "Utility reset values"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#000000",
+            "width": "0.0625rem",
+            "style": "solid"
+          },
+          {
+            "hex": "#F6F5F4",
+            "width": "2px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "marquee",
+          "video_background",
+          "hover_transform",
+          "hover_lift"
+        ],
+        "animations": [
+          {
+            "name": "logo-wall-marquee",
+            "css": "",
+            "description": "Continuous horizontal scroll for the partner logo strip. JS-driven via CSS custom property --logo-wall-marquee-direction set to 'reverse'."
+          },
+          {
+            "name": "product-pill-animation",
+            "css": "",
+            "description": "Hero headline animated pill showing cycling product labels (Jam, Ship, etc.). JS-driven animation with CSS variables for color-background, color-dot, and pill-label-inline-size."
+          },
+          {
+            "name": "global-hover-transition",
+            "css": "transition: background-color 0.15s ease-in-out, opacity 0.15s ease-in-out",
+            "description": "Standard hover transition applied to interactive elements like nav links and buttons."
+          },
+          {
+            "name": "bento-card-hover",
+            "css": "",
+            "description": "Subtle lift/shadow effect on bento cards when hovered. Creates visual depth on feature showcase cards."
+          }
+        ],
+        "insights": [
+          "The design system relies heavily on a monochrome foundation (black with opacity variants) with a single blue (#097FE8) accent color for all CTAs, creating a clear visual hierarchy for conversion paths.",
+          "Button radius follows a consistent pill shape (rounded-full/9999px) for primary CTAs while navigation and utility buttons use subtle rounding (4px), reinforcing the document-first aesthetic.",
+          "The logo wall marquee uses CSS custom properties for direction control, allowing the same component to scroll in either direction without JavaScript animation logic changes."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Get Notion free (Primary CTA)",
+            "usage": "Main conversion button in navigation header and hero sections. Used for user signup/registration.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#097FE8",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#0075DE",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#097FE8",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get Notion free (Hero Primary)",
+            "usage": "Primary CTA in hero section with larger sizing for visual prominence.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+                  "size": "16px",
+                  "padding": "12px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#097FE8",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#0075DE",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#097FE8",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Request a demo (Secondary Link)",
+            "usage": "Secondary action in hero and footer sections. Styled as text link with blue color.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+                  "size": "16px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#005BAB",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#097FE8",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#005BAB",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Product (Nav Dropdown Trigger)",
+            "usage": "Navigation dropdown trigger button for expandable menus.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+                  "size": "16px",
+                  "padding": "5px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000E5",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.05)",
+                "text_color": "#000000E5",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000E5",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "English (US) (Language Selector)",
+            "usage": "Language/locale selector button in footer with pill shape and border.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000F2",
+                "border_color": "rgba(0, 0, 0, 0.1)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F6F5F4",
+                "text_color": "#000000F2",
+                "border_color": "rgba(0, 0, 0, 0.1)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000F2",
+                "border_color": "rgba(0, 0, 0, 0.1)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Pause (Icon Button Circular)",
+            "usage": "Play/pause control for hero video. Icon-only circular button.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "16px",
+                  "padding": "8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(0, 0, 0, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Ghost Button (Logo Wall Item)",
+            "usage": "Logo wall items styled as ghost buttons for hover interactivity on company logos.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+                  "size": "16px",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000F2",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.05)",
+                "text_color": "#000000F2",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000F2",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Primary + Secondary button pairing with horizontal layout",
+          "spacing": "16px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "64px",
+          "position": "relative",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/Paper White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [
+          {
+            "name": "Dashboard Visualization",
+            "description": "H2 Deal Flow Dashboard with speedometer gauge and bar charts displayed in bento card imagery.",
+            "when_to_use": [
+              "Product feature showcase",
+              "Data visualization demonstrations",
+              "AI capability illustrations"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "name": "Meetings List",
+            "description": "List view with avatars, project titles, and team metadata shown in Capture bento card.",
+            "when_to_use": [
+              "Knowledge management features",
+              "Meeting organization",
+              "Team activity display"
+            ]
+          }
+        ],
+        "tiles": [
+          {
+            "name": "Bento Card",
+            "description": "Feature showcase cards with header, description, and large media area. Used for AI features section.",
+            "when_to_use": [
+              "Feature highlights",
+              "Product capability showcase",
+              "Marketing landing pages"
+            ]
+          },
+          {
+            "name": "Testimonial Card",
+            "description": "Full-bleed gradient background cards with quote text overlay. Available in red, blue, and orange variants.",
+            "when_to_use": [
+              "Customer testimonials",
+              "Social proof sections",
+              "Trust building"
+            ]
+          },
+          {
+            "name": "Compact Card",
+            "description": "Small card with icon, title, and arrow for agent/use case listings.",
+            "when_to_use": [
+              "Feature lists",
+              "Use case navigation",
+              "Quick action prompts"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": []
+      },
+      "icons": [
+        {
+          "name": "Core UI Icons",
+          "description": "Standard set of functional icons used throughout the product interface for actions and indicators.",
+          "when_to_use": [
+            "Buttons",
+            "Dropdown Menus",
+            "Feature Lists",
+            "Inline Indicators"
+          ],
+          "format": "SVG",
+          "style": "Filled and Monoline",
+          "sizes": {
+            "small": "16px",
+            "medium": "20px"
+          },
+          "examples": [
+            {
+              "name": "Box Open Sparkle",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"graphics-symbol\" viewBox=\"0 0 20 20\" style=\"width:1em;height:1em;display:block;fill:currentColor;flex-shrink:0\" class=\"boxOpenSparkle\"><path d=\"M7.733.203a.626.626 0 0 1 .87.286l2.567 5.583 1.41.777 1.722-2.257a.55.55 0 0 1 .874.668l-1.624 2.125 3.87 2.135c.198.11.322.32.322.547v5.648a.63.63 0 0 1-.323.547l-6.408 3.535a.63.63 0 0 1-.604 0l-6.407-3.535a.63.63 0 0 1-.323-.547V10.58L1.054 4.534a.625.625 0 0 1 .271-.795zM4.929 15.346l5.232 2.887v-4.307L4.93 11.04zm6.332-1.42v4.307l5.233-2.887v-4.307zM5.519 10.11l5.192 2.864 5.192-2.864-3.117-1.72-1.75 2.295a.55.55 0 0 1-.875-.668l1.652-2.164-1.102-.608zM2.426 4.557l2.042 4.705 5.419-2.99-2.14-4.65zm14.706.177 1.364.314a.55.55 0 1 1-.248 1.071l-1.364-.314a.55.55 0 0 1 .248-1.071\"></path><path d=\"M12.873 1.548a.55.55 0 0 1 .753.192l.684 1.15a.55.55 0 0 1-.946.561l-.683-1.149a.55.55 0 0 1 .192-.754m3.802-.041a.55.55 0 0 1 .889.649l-.871 1.193a.55.55 0 0 1-.89-.649z\"></path></svg>"
+            },
+            {
+              "name": "Rectangle on Rectangle Wide",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"graphics-symbol\" viewBox=\"0 0 20 20\" style=\"width:1em;height:1em;display:block;fill:currentColor;flex-shrink:0\" class=\"rectangleOnRectangleWide\"><path d=\"M15.5 8.875c1.174 0 2.125.951 2.125 2.125v5a2.125 2.125 0 0 1-2.125 2.125H12A2.125 2.125 0 0 1 9.875 16v-5c0-1.174.951-2.125 2.125-2.125zm-3.5 1.25a.875.875 0 0 0-.875.875v5c0 .483.392.875.875.875h3.5a.875.875 0 0 0 .875-.875v-5a.875.875 0 0 0-.875-.875z\"></path><path d=\"M15.5 3.625c1.174 0 2.125.951 2.125 2.125v2.63a3.4 3.4 0 0 0-1.25-.64V5.75a.875.875 0 0 0-.875-.875h-11a.875.875 0 0 0-.875.875v7.5c0 .483.392.875.875.875h4.125v1.25H4.5a2.125 2.125 0 0 1-2.125-2.125v-7.5c0-1.174.951-2.125 2.125-2.125z\"></path></svg>"
+            },
+            {
+              "name": "Notion Icon / App Symbol",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" width=\"1em\" class=\"NotionIconSvgWrapper-module-scss-module__7Hu80a__icon\"><path d=\"M15.625 5H15V2.5H5V5h-.625C2.447 5 1.25 6.197 1.25 8.125s1.197 3.125 3.125 3.125h1.153c.65 1.34 1.881 2.2 3.535 2.431v.694c0 .772-.479 1.25-1.25 1.25h-.625V17.5h5.625v-1.875h-.626c-.771 0-1.25-.478-1.25-1.25v-.694c1.657-.231 2.885-1.09 3.535-2.431h1.153c1.928 0 3.125-1.197 3.125-3.125S17.553 5 15.625 5M4.375 9.375c-.888 0-1.25-.363-1.25-1.25 0-.888.362-1.25 1.25-1.25H5V8.75q.002.322.031.625zm11.25 0h-.656q.03-.303.031-.625V6.875h.625c.887 0 1.25.362 1.25 1.25 0 .887-.363 1.25-1.25 1.25\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Language Picker Globe",
+              "svg_code": "<svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" width=\"1em\" class=\"NotionIconSvgWrapper-module-scss-module__7Hu80a__icon languagePicker-module-scss-module__c96SuW__menuButtonIcon\"><path d=\"m6.25 6.013.675 1.8h-1.35zm1.86 1.443c.777-1.022 1.896-1.762 3.28-2.147C10.576 3.534 8.76 2.5 6.25 2.5 2.778 2.5.625 4.475.625 7.656c0 1.622.563 2.928 1.572 3.819L.625 13.047l.469.703a5.6 5.6 0 0 0 3.378-1.134 7.8 7.8 0 0 0 1.778.197c.256 0 .503-.016.747-.035a7.7 7.7 0 0 1-.122-1.372c0-.853.134-1.634.381-2.344h-2.15l-.35.938H3.437l1.876-5h1.875zm5.64 4.206c.31-.28.575-.621.75-1.037h-1.497c.175.416.44.756.75 1.037zm4.053 3.563 1.572 1.572-.469.703a5.6 5.6 0 0 1-3.378-1.134 7.8 7.8 0 0 1-1.778.197c-3.472 0-5.625-1.975-5.625-5.157S10.278 6.25 13.75 6.25s5.625 1.975 5.625 5.156c0 1.622-.562 2.928-1.572 3.819m-1.24-5.85h-2.188v-.937h-1.25v.937h-2.187v1.25h.778a4.4 4.4 0 0 0 1.006 1.725c-.863.425-1.681.544-1.681.544l.437 1.172a6.3 6.3 0 0 0 2.269-.87 6.3 6.3 0 0 0 2.269.87l.437-1.172s-.819-.119-1.681-.544a4.3 4.3 0 0 0 1.006-1.725h.778v-1.25z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Search Magnifying Glass",
+              "svg_code": "<svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" width=\"1em\" class=\"NotionIconSvgWrapper-module-scss-module__7Hu80a__icon languagePicker-module-scss-module__c96SuW__searchIcon\"><path d=\"M13.963 12.194A6.248 6.248 0 0 0 8.75 2.5a6.25 6.25 0 0 0-6.251 6.25 6.248 6.248 0 0 0 9.694 5.213L15.73 17.5l1.769-1.769zm-5.213.931a4.376 4.376 0 1 1 .002-8.752 4.376 4.376 0 0 1-.002 8.752\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Selection Indicator Check",
+              "svg_code": "<svg aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" width=\"1em\" class=\"NotionIconSvgWrapper-module-scss-module__7Hu80a__icon menuList-module-scss-module__qf-KyW__selectionIndicator\"><path d=\"m17.5 5.7-9.375 9.375L2.5 9.45l1.325-1.325 4.3 4.3 8.05-8.05z\" fill=\"currentColor\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Navigation Icons",
+          "description": "Larger functional icons used primarily in the global navigation or hero components.",
+          "when_to_use": [
+            "Global Navigation",
+            "Mobile Menus",
+            "Expand/Collapse Triggers"
+          ],
+          "format": "SVG",
+          "style": "Line Art",
+          "sizes": {
+            "small": "24px",
+            "medium": "30px"
+          },
+          "examples": [
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"chevronDown\" viewBox=\"0 0 30 30\" style=\"width:100%;height:100%;display:block;fill:inherit;flex-shrink:0\"><polygon points=\"15,17.4 4.8,7 2,9.8 15,23 28,9.8 25.2,7 \"></polygon></svg>"
+            },
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"menu\" viewBox=\"0 0 30 30\" style=\"width:22px;height:100%;display:block;fill:currentColor;flex-shrink:0\"><path d=\"M2,4v2h26V4H2z M2,16h26v-2H2V16z M2,26h26v-2H2V26z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Brand & Media Elements",
+          "description": "Specialized icons used for branding, product marks, and media controls.",
+          "when_to_use": [
+            "Navigation Bar",
+            "Video Players",
+            "Footers"
+          ],
+          "format": "SVG",
+          "style": "Custom / Brand",
+          "sizes": {
+            "small": "16x16px",
+            "medium": "33x34px"
+          },
+          "examples": [
+            {
+              "name": "Stickerized Notion Logo",
+              "svg_code": "<svg width=\"33\" height=\"34\" viewBox=\"0 0 33 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"globalNavigation-module-scss-module__HWB10a__logoStickerized\"><path d=\"M3.8051 3.26755L20.5301 2.04319C22.5839 1.86808 23.1124 1.98538 24.4032 2.91756L29.7421 6.64773C30.623 7.28917 30.9165 7.46381 30.9165 8.16307V28.6217C30.9165 29.9038 30.4468 30.6622 28.804 30.7782L9.38138 31.9442C8.14825 32.0027 7.56135 31.8279 6.91556 31.0114L2.98395 25.9405C2.27947 25.0072 1.98651 24.3088 1.98651 23.4918V5.3068C1.98651 4.25826 2.45649 3.38366 3.8051 3.26755Z\" fill=\"#fff\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3.64643 1.29903L20.3723 0.0746037C21.3849 -0.0114809 22.3097 -0.0595444 23.1918 0.139197C24.141 0.353054 24.86 0.807308 25.5578 1.31054L30.9002 5.04319L30.9158 5.05461C30.9547 5.08281 30.9968 5.11312 31.0417 5.14536C31.3674 5.37943 31.8354 5.71564 32.1631 6.09295C32.7252 6.73997 32.9031 7.45237 32.9031 8.16303V28.6217C32.9031 29.4467 32.763 30.5442 31.967 31.4425C31.1549 32.3592 30.0175 32.6721 28.9448 32.7479L28.9343 32.7486L9.48857 33.916L9.47602 33.9165C8.79263 33.949 8.01197 33.9383 7.24718 33.6609C6.41395 33.3586 5.82508 32.8277 5.35391 32.2318L5.34799 32.2243L1.40271 27.1359L1.39499 27.1257C0.55231 26.0092 0 24.8994 0 23.4918V5.30675C0 4.51862 0.17342 3.55089 0.82429 2.72219C1.51537 1.84231 2.52546 1.39554 3.6337 1.30013L3.64643 1.29903ZM20.5301 2.04315L3.80509 3.26752C2.45647 3.38361 1.9865 4.25823 1.9865 5.30675V23.4918C1.9865 24.3088 2.27946 25.0072 2.98394 25.9405L6.91553 31.0114C7.56133 31.8279 8.14822 32.0025 9.38137 31.944L28.804 30.7782C30.4468 30.6622 30.9165 29.9039 30.9165 28.6217V8.16303C30.9165 7.50025 30.6529 7.30878 29.8751 6.74438C29.8323 6.71333 29.788 6.68115 29.7421 6.6477L24.4032 2.91752C23.1124 1.98534 22.5839 1.86805 20.5301 2.04315Z\" fill=\"#fff\"></path><path d=\"M20.5301 2.04318C22.5838 1.86808 23.1124 1.98541 24.4031 2.91757L29.7421 6.64778C30.623 7.28918 30.9167 7.46383 30.9167 8.16301V28.6217C30.9167 29.9039 30.4468 30.6622 28.804 30.7782L9.38127 31.944C8.14822 32.0025 7.56137 31.8279 6.9156 31.0114L2.98396 25.9405C2.27951 25.0072 1.98647 24.3088 1.98645 23.492V5.30687C1.98645 4.25835 2.45646 3.38365 3.80508 3.26754L20.5301 2.04318ZM28.9214 9.91165C28.9214 9.15462 28.6285 8.74625 27.9818 8.80449L8.91064 9.91165C8.20688 9.97045 7.9722 10.3204 7.9722 11.0779V28.4466C7.97222 29.3801 8.44147 29.7293 9.49759 29.6715L27.7471 28.6217C28.8037 28.5641 28.9214 27.922 28.9214 27.1636V9.91165ZM25.988 12.0096C26.1051 12.5347 25.988 13.0592 25.4588 13.1182L24.5795 13.2926V26.1151C23.816 26.5231 23.1122 26.7563 22.5256 26.7563C21.5863 26.7563 21.351 26.4646 20.6475 25.5908L14.8959 16.6149V25.2992L16.7158 25.7076C16.7158 25.7076 16.7159 26.7563 15.2475 26.7563L11.1994 26.9897C11.0818 26.7563 11.1995 26.1739 11.6101 26.0571L12.6664 25.7662V14.2837L11.1997 14.1668C11.0822 13.6417 11.3751 12.8847 12.1972 12.8259L16.5398 12.5349L22.5256 21.6277V13.5839L20.9993 13.4098C20.8821 12.7679 21.351 12.3018 21.9379 12.244L25.988 12.0096ZM23.816 4.43331C23.2877 4.02552 22.5835 3.55846 21.2343 3.67528L5.15507 4.84121C4.56875 4.89903 4.45158 5.19046 4.68509 5.42409L6.97519 7.23083C7.91323 7.98837 8.26511 7.93069 10.0265 7.81388L26.632 6.82259C26.9842 6.82259 26.6915 6.47348 26.5739 6.41536L23.816 4.43331Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Pause Button",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"frontPauseButton\" viewBox=\"0 0 16 16\" style=\"width: 100%; height: 100%; display: block; fill: inherit; flex-shrink: 0;\"><rect x=\"1\" y=\"0\" width=\"5\" height=\"16\" rx=\"1\"></rect><rect x=\"9\" y=\"0\" width=\"5\" height=\"16\" rx=\"1\"></rect></svg>"
+            },
+            {
+              "name": "Notion Wordmark",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 105 30\" class=\"wordmark-module-scss-module__IP9eTq__wordmark\"><g clip-path=\"url(#_R_4rabm_-clip)\"><mask id=\"_R_4rabm_-mask\" width=\"29\" height=\"30\" x=\"0\" y=\"0\" maskUnits=\"userSpaceOnUse\"><path fill=\"#fff\" d=\"M28.714 0H0v29.995h28.714V0Z\"></path></mask><g mask=\"url(#_R_4rabm_-mask)\"><path class=\"wordmark-module-scss-module__IP9eTq__page\" d=\"M1.805 1.29 18.403.069c2.038-.175 2.563-.057 3.844.873l5.298 3.724c.874.64 1.166.815 1.166 1.513v20.424c0 1.28-.467 2.037-2.097 2.153L7.34 29.919c-1.224.058-1.806-.116-2.447-.931L.99 23.925c-.7-.931-.99-1.628-.99-2.444V3.326c0-1.046.466-1.92 1.805-2.035Z\"></path><path class=\"wordmark-module-scss-module__IP9eTq__mark\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M18.403.068 1.805 1.291C.466 1.406 0 2.28 0 3.326v18.155c0 .816.29 1.513.99 2.444l3.902 5.063c.64.815 1.223.99 2.447.93l19.275-1.163c1.63-.116 2.097-.873 2.097-2.153V6.178c0-.662-.262-.853-1.034-1.416a89.567 89.567 0 0 1-.132-.097L22.247.941C20.966.011 20.44-.107 18.403.068ZM7.776 5.843c-1.574.106-1.931.13-2.825-.596L2.678 3.443c-.232-.233-.115-.524.467-.581l15.957-1.164c1.339-.117 2.038.35 2.562.756l2.737 1.979c.116.058.407.407.058.407l-16.48.99-.203.013ZM5.94 26.427V9.087c0-.756.233-1.105.932-1.164l18.926-1.105c.642-.058.933.35.933 1.105v17.223c0 .758-.117 1.398-1.166 1.456L7.455 27.65c-1.05.058-1.515-.29-1.515-1.223Zm17.88-16.41c.116.525 0 1.049-.526 1.108l-.872.174v12.8c-.758.408-1.457.64-2.039.64-.932 0-1.165-.29-1.864-1.163l-5.707-8.96v8.67l1.806.407s0 1.047-1.458 1.047l-4.017.233c-.117-.233 0-.815.408-.931l1.048-.29V12.287l-1.456-.117c-.116-.524.174-1.28.99-1.338l4.31-.29 5.94 9.077v-8.03l-1.514-.174c-.117-.641.349-1.107.931-1.164l4.02-.234Z\"></path></g><path class=\"wordmark-module-scss-module__IP9eTq__letterforms\" d=\"M50.995 7.02V23.23h-2.587L40.739 12.14h-.134V23.23h-2.913V7.02h2.612l7.652 11.087h.15V7.021h2.89Zm7.715 16.446c-1.187 0-2.216-.261-3.087-.784a5.269 5.269 0 0 1-2.018-2.192c-.474-.939-.712-2.036-.712-3.292 0-1.256.237-2.356.712-3.3s1.148-1.678 2.018-2.2c.87-.522 1.9-.784 3.087-.784 1.182 0 2.208.262 3.078.784.87.522 1.544 1.256 2.018 2.2.48.944.72 2.044.72 3.3 0 1.256-.24 2.353-.72 3.292a5.269 5.269 0 0 1-2.018 2.193c-.87.522-1.896.783-3.078.783Zm.008-2.28c.654 0 1.197-.176 1.63-.53.433-.358.757-.838.973-1.44.217-.607.325-1.282.325-2.026 0-.744-.108-1.419-.325-2.026-.216-.607-.54-1.09-.973-1.448-.433-.364-.976-.546-1.63-.546-.66 0-1.209.182-1.646.546-.438.359-.765.841-.982 1.448-.21.607-.316 1.282-.316 2.026 0 .744.105 1.42.316 2.026.217.602.544 1.082.982 1.44.438.354.986.53 1.646.53ZM72.33 11.074v2.2h-6.964v-2.2h6.964ZM67.09 8.16h2.842v11.42c0 .385.058.68.174.887.121.205.28.345.475.419.195.074.414.11.657.11a2.8 2.8 0 0 0 .49-.039c.148-.026.264-.05.349-.071l.474 2.224a6.49 6.49 0 0 1-.648.174c-.28.063-.623.1-1.03.11-.712.022-1.355-.086-1.93-.324a3.04 3.04 0 0 1-1.361-1.116c-.333-.506-.496-1.142-.491-1.907V8.16Zm6.983 15.069V11.073h2.85v12.156h-2.85Zm1.433-13.89c-.454 0-.842-.15-1.164-.45a1.456 1.456 0 0 1-.483-1.093c0-.427.161-.791.483-1.092a1.645 1.645 0 0 1 1.163-.459c.454 0 .842.153 1.164.46.327.3.49.664.49 1.091 0 .422-.163.786-.49 1.092-.322.301-.71.452-1.163.452Zm8.99 14.127c-1.187 0-2.216-.261-3.087-.784a5.268 5.268 0 0 1-2.018-2.192c-.474-.939-.712-2.036-.712-3.292 0-1.256.238-2.356.712-3.3.475-.944 1.148-1.678 2.018-2.2.871-.522 1.9-.784 3.087-.784 1.182 0 2.208.262 3.078.784.871.522 1.544 1.256 2.019 2.2.48.944.72 2.044.72 3.3 0 1.256-.24 2.353-.72 3.292a5.267 5.267 0 0 1-2.019 2.193c-.87.522-1.896.783-3.078.783Zm.008-2.28c.654 0 1.197-.176 1.63-.53.433-.358.757-.838.974-1.44.216-.607.324-1.282.324-2.026 0-.744-.108-1.419-.324-2.026-.217-.607-.541-1.09-.974-1.448-.433-.364-.976-.546-1.63-.546-.66 0-1.208.182-1.646.546-.438.359-.765.841-.982 1.448-.21.607-.316 1.282-.316 2.026 0 .744.105 1.42.316 2.026.217.602.544 1.082.982 1.44.438.354.986.53 1.646.53Zm10.406-5.088v7.13h-2.848V11.074h2.722v2.057h.143a3.48 3.48 0 0 1 1.337-1.614c.617-.401 1.38-.602 2.288-.602.833 0 1.561.18 2.184.539a3.63 3.63 0 0 1 1.456 1.559c.348.68.522 1.506.522 2.477v7.74h-2.84v-7.305c0-.813-.212-1.448-.634-1.907-.423-.464-1.006-.697-1.75-.697-.5 0-.946.111-1.337.333-.39.216-.696.532-.918.95-.216.41-.325.91-.325 1.495Z\"></path><defs><clipPath id=\"_R_4rabm_-clip\"><path d=\"M0 0h104.229v30H0z\"></path></clipPath></defs></g></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/favicon.ico",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/favicon.ico",
+            "origin_url": "https://www.notion.com/front-static/favicon.ico",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/favicon.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/favicon.png",
+            "origin_url": "https://www.notion.com/front-static/logo-ios.png",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/primary-inline.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/primary-inline.svg",
+            "origin_url": null,
+            "description": "Inline SVG"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-5.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-5.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6gu2Rybt4VdhS2GEEA99PO/ac0fedd553b2f541fde79cdda05271cc/OpenAI.svg",
+            "description": "OpenAI Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/4aacFfCek6OBBghMJHaBSk/9cb5eb86db70a11dbb6bc62b6535293b/a24-mono.svg",
+            "description": "A24 Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-3.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-3.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6T4QxYfpIzIbZgWUSa5Rb1/8c6cb40bbf2304f8486222d777314b83/Figma_Wordmark__Black_.svg",
+            "description": "Figma Wordmark Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-4.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-4.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/1WOBygtnWVcfsk5EfcSJVM/99b994e046e92fee4878075877a9441c/FedEx.svg",
+            "description": "FedEx Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-2.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-2.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/4KBpzIRuWO9Bkoho07RwHW/7e608b80b697431b92ffb144e545cf3c/Ramp.svg",
+            "description": "Ramp Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-6.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-6.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/5zvQQUAMUwmWaGbC9qhXpK/633c8d40bbbb2b42faec7ea3339788ff/cursor-logo-mono.svg",
+            "description": "Cursor Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-7.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-7.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6ZbZcPA6g5hFrPMbOPfraR/ef4bc2c92ed55a60c9609900717d3755/substack-wordmark-mono.svg",
+            "description": "Substack Wordmark Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-8.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-8.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/27zUO0UMDpEBMwPKUUilFH/daba398de4e970fcda7a138ff09d480a/Nvidia.svg",
+            "description": "Nvidia Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-9.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-9.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/75O9653Z83boVzSMBMSY2D/4b36e928296e00612213aff4bdd369f2/toyota-black.svg",
+            "description": "Toyota Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-11.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-11.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/4ljglPuQFOp4jC8kIacMa1/73c44685b85c73a717baac0329633d59/clay-mono-black.svg",
+            "description": "Clay Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-10.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-10.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/2Srehy5L0uv68kHfd341sB/b486900e403e6bd0b4cd29bca21d79b4/lamborghini-script-mono.svg",
+            "description": "Lamborghini Script Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-12.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-12.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/5PYK3Lg8UW2Pk5pjMSo0oo/386446de76c143e694ec9790807eff7e/david-zwirner-mono.svg",
+            "description": "David Zwirner Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-13.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-13.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6NEhbP27yAbhvWdLKPHTFV/6978b1603c567d69f5fe7b4895b1d30f/Vercel.svg",
+            "description": "Vercel Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-14.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-14.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/2lvHXS3UJ5sJscJTW8GTpc/c22ac415979069ab3be881b2749e0d77/Faire_logo_-_black.svg",
+            "description": "Faire Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-15.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-15.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/5noP5n1Gp9wULYfUEzujKv/49d56f55c09d72488606d57671e7d8c4/full-logo--black.svg",
+            "description": "Lovable / Full Logo Black Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-16.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-16.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6mSBovk8ZRupLUOZtSu9vp/2bc7912e143755ee406413ab0b9e0b68/goop-mono.svg",
+            "description": "Goop Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-17.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-17.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/7hER3ka9QgDiTjLh5Fh3ZZ/acda79bc2449edf5d964a3fc89e19623/Discord-Logo-Black.svg",
+            "description": "Discord Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-18.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-18.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/28h89MWosNZz4BozEZgayf/92843d67b2b141281b53f4ec1ab6bc0f/dolby-wordmark-mono.svg",
+            "description": "Dolby Wordmark Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-19.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-19.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/kelAN094ZCNSM1hzESs2C/71fdfc39756f757c95f984aa78fc1e82/1Password.svg",
+            "description": "1Password Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-20.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-20.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/nyxHXSMqMnFKE3RD3tteN/fa4e6ab45c999ace2a528a45c5bfb812/Loreal-k.svg",
+            "description": "L'Oreal Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-21.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-21.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/1TZBxOqNgDNBTJUEkD9Rn2/95219318a8bc7198d69e3fe0190ea94c/Volvo_Spread_Word_Mark_2025_bl.svg",
+            "description": "Volvo Wordmark Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-22.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-22.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/14SNuPmXDPWdGE0I8TMeNL/6070db21d1b9f0e95c91e9ceb8b225e1/Remote-black.svg",
+            "description": "Remote Partner Logo"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-23.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/monochrome-23.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/29FPcEW8k9owCOzkg5toXL/2e9fb3201f80820a7779e7675d4e927e/patreon-wordmark-mono.svg",
+            "description": "Patreon Wordmark Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/secondary.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/secondary.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/OJRQbA3XzRNfCfMh3UWf4/76408a06d9d9a1ed52fcd109b264de80/Company_Cursor__Colorway_White.svg",
+            "description": "Cursor Logo (White/Secondary)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/secondary-2.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6HI6Z7JAuvLnNK8mDWdnF8/fd2d3b36fc27b8bbad2042136c7991f2/Company_faire__Colorway_White.svg",
+            "description": "Faire Logo (White/Secondary)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/secondary-3.svg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://images.ctfassets.net/spoqsaf9291f/6zW25mUZj4PMuydbiGSEIi/9b8c5eb1d8e0db2abf4c531433a39a6e/Ramp_Business_Corporation_Logo_1.svg",
+            "description": "Ramp Logo (White/Secondary)"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/open-graph-image.jpg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/open-graph-image.jpg",
+            "origin_url": "https://www.notion.com/front-static/meta/teams-and-agents.jpg",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "web-homepage-hero-1920x1200_final.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/video/web-homepage-hero-1920x1200-final-mp4.mp4",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/video/web-homepage-hero-1920x1200-final-mp4.mp4",
+            "origin_url": "https://videos.ctfassets.net/spoqsaf9291f/1EL7UZIXfcqngxsNSbL8tR/291f61f56f29dd8e788deaec8561d882/web-homepage-hero-1920x1200_final.mp4",
+            "usage_context": "Hero section looping background video demonstrating the product."
+          },
+          {
+            "name": "Capture Feature Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/capture-feature-icon.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/capture-feature-icon.png",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fnav%2FallFeaturesNav%2Fcapture.png&w=384&q=75",
+            "usage_context": "Navigation dropdown icon for the Capture feature."
+          },
+          {
+            "name": "Find Feature Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/find-feature-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/find-feature-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fnav%2FallFeaturesNav%2Ffind.png&w=384&q=75",
+            "usage_context": "Navigation dropdown icon for the Find feature."
+          },
+          {
+            "name": "Automate Feature Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/automate-feature-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/automate-feature-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fnav%2FallFeaturesNav%2Fautomate.png&w=384&q=75",
+            "usage_context": "Navigation dropdown icon for the Automate feature."
+          },
+          {
+            "name": "Hero Floating Pile 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-1.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-1.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_1.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Hero Floating Pile 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-2.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-2.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_2.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Hero Floating Pile 3",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-3.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-3.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_3.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Hero Floating Pile 4",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-4.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-4.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_4.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Hero Floating Pile 5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-5.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-5.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_5.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Hero Floating Pile 6",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-6.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-6.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_6.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Hero Floating Pile 7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-7.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/hero-floating-pile-7.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fteams-agents-hero%2Fpile_7.webp&w=640&q=75",
+            "usage_context": "Decorative floating graphical element in the hero section."
+          },
+          {
+            "name": "Capture Desktop Product Screenshot",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/capture-desktop-product-screenshot.jpg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/capture-desktop-product-screenshot.jpg",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F5s8E0EU3tXEvGrFrRwgxhb%2Fc44fce43494ccd6f098746c64b679aab%2Fcapture_desktop.jpg&w=3840&q=75",
+            "usage_context": "Bento grid visual showing the 'Capture' UI on a desktop."
+          },
+          {
+            "name": "Pin Capture Interface Element",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/pin-capture-interface-element.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/pin-capture-interface-element.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F5bqhI7eaPc7AeAtuuTvtuh%2F915d56f683fcd7edbd9f1e0434136b0d%2Fpin_capture.png&w=3840&q=75",
+            "usage_context": "Layered UI snippet shown on top of the Capture desktop screenshot."
+          },
+          {
+            "name": "Mini AI Context Menu",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/mini-ai-context-menu.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/mini-ai-context-menu.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F3wptjGyp47YX2bFx2LikSS%2F06eae544cf0d12dcd58a41e157031c9a%2FMini_AIMN.png&w=3840&q=75",
+            "usage_context": "Layered AI functionality visual on the Capture card."
+          },
+          {
+            "name": "Find Desktop Product Screenshot",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/find-desktop-product-screenshot.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/find-desktop-product-screenshot.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F1FOyxGfzHA9kKA1BVPQa4m%2F721dc34d66976c6dbaa4b16b260b9a97%2Ffind_desktop.png&w=3840&q=75",
+            "usage_context": "Bento grid visual showing the 'Find' functionality on a desktop."
+          },
+          {
+            "name": "Find Chart Dashboard Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/find-chart-dashboard-image.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/find-chart-dashboard-image.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F3PH2HDqwPQKa0Xtq1EzIHs%2Fdf192356392843cf5999e8691221fae1%2Fimage.png&w=3840&q=75",
+            "usage_context": "Detailed dashboard chart visual for the 'Find' bento card."
+          },
+          {
+            "name": "Chat Input Field Screenshot",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/chat-input-field-screenshot.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/chat-input-field-screenshot.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F4mw82WFsPwlqM8p3SFChGp%2F0f24425d9c398b7231eb089e4677e069%2Fchat_input.png&w=3840&q=75",
+            "usage_context": "Search/AI input visual layered on the 'Find' bento card."
+          },
+          {
+            "name": "Automate Desktop Product Screenshot",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/automate-desktop-product-screenshot.jpg",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/automate-desktop-product-screenshot.jpg",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F5CESaDHalT60BVMktTrFD9%2F986587f634695de956580c1654b4f777%2Fautomate_front_desktop.jpg&w=3840&q=75",
+            "usage_context": "Bento grid visual showing the 'Automate' UI functionality."
+          },
+          {
+            "name": "Automate Agent Notification UI",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/automate-agent-notification-ui.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/automate-agent-notification-ui.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F4U19kO5gM7RYsJa4Xr2oGF%2F806a8c048e2a03bf4886d3085a03986d%2Fimage.png&w=3840&q=75",
+            "usage_context": "Detailed UI popup element for the 'Automate' bento card."
+          },
+          {
+            "name": "Mailbox Agent 3D Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/mailbox-agent-3d-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/mailbox-agent-3d-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Fmailbox.png&w=96&q=75",
+            "usage_context": "Decorative 3D icon for 'Triage product feedback' use case."
+          },
+          {
+            "name": "Rock Agent 3D Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/rock-agent-3d-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/rock-agent-3d-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Frock.png&w=96&q=75",
+            "usage_context": "Decorative 3D icon for 'Resolve support tickets' use case."
+          },
+          {
+            "name": "Sign Agent 3D Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/sign-agent-3d-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/sign-agent-3d-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Fsign.png&w=96&q=75",
+            "usage_context": "Decorative 3D icon for 'Respond to security alerts' use case."
+          },
+          {
+            "name": "Apple Agent 3D Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/apple-agent-3d-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/apple-agent-3d-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Fapple.png&w=96&q=75",
+            "usage_context": "Decorative 3D icon for 'Automate weekly reporting' use case."
+          },
+          {
+            "name": "Light Bulb Agent 3D Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/light-bulb-agent-3d-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/light-bulb-agent-3d-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Flight_bulb.png&w=96&q=75",
+            "usage_context": "Decorative 3D icon used in agents feature list."
+          },
+          {
+            "name": "Worker Agent 3D Icon",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/worker-agent-3d-icon.webp",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/illustration/worker-agent-3d-icon.webp",
+            "origin_url": "https://www.notion.com/_next/image?url=%2Ffront-static%2Fpages%2Fhome%2Fagent-prompts%2Fworker.png&w=48&q=75",
+            "usage_context": "Decorative 3D icon used alongside agent prompts."
+          },
+          {
+            "name": "Michael Truell, Co-founder and CEO of Cursor",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/michael-truell-co-founder-and-ceo-of-cursor.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/michael-truell-co-founder-and-ceo-of-cursor.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F3M9ceMRlhgl2rIRgqs6nSq%2F8a641169512d0053ac357d97ba527758%2Fcursor.png&w=3840&q=75",
+            "usage_context": "Testimonial portrait image."
+          },
+          {
+            "name": "Renee Solorzano, Sr. Director of Product Design at Faire",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/renee-solorzano-sr-director-of-product-design-at-faire.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/renee-solorzano-sr-director-of-product-design-at-faire.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F3pCHbRV7f5UjIssdK3CDpy%2F7b48cf81bad50d66e31caa5a3b80d5b5%2Ffaire.png&w=3840&q=75",
+            "usage_context": "Testimonial portrait image."
+          },
+          {
+            "name": "Ben Levick, Head of Operations & Internal AI at Ramp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/ben-levick-head-of-operations-internal-ai-at-ramp.png",
+            "path": "667e9883-d154-4609-a8ec-d61d96976f0b/site-assets/media/image/ben-levick-head-of-operations-internal-ai-at-ramp.png",
+            "origin_url": "https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F69ZGgVfnKktXcsoatPFe10%2Fbb284c982b9a95f943eef6bbda821104%2Framp.png&w=3840&q=75",
+            "usage_context": "Testimonial portrait image."
+          },
+          {
+            "name": "Close Icon",
+            "type": "image",
+            "url": "https://www.notion.com/media/close.0mokmcr_ygsk_.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "General close action UI element."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/x/9d3846ae-e16e-49bf-b782-8c30a56ab9df.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Black-and-white cube icon featuring a bold serif capital “N” on its front face."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/x/5f3fdab5-f377-48ed-af40-4eaf1b367e70.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Black-and-white line illustration of three people collaborating at laptops, accented by colorful idea, profile, and checklist icons."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/google_ads/577f48fe-51a0-4f70-b6f2-e37b3b0d1f89.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimal Notion mobile landing page with a white background, oversized dark “One Workspace for Teams” headline, AI search copy, and black Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/google_ads/1669765a-a9df-4e9f-b339-0ba558a7f4a8.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Notion mobile landing page with oversized dark “One Workspace for Teams” typography, tagline, and a blue-and-black automation illustration."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/google_ads/3fac58b3-b688-463d-a8a8-d99a14f6732d.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimalist Notion mobile ad with a black-and-white logo, oversized “Docs, Tasks and AI Together” headline, and black Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/google_ads/5c852134-98d9-4143-826b-45c59f1a20ae.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimal Notion promotional screen with bold black “Docs, Tasks and AI Together” headline, cream ad panel, orange line illustration, and bottom Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/billboard/3f720b2a-fed6-437c-998e-675f309a7854.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A long indoor corridor has colorful framed posters with cartoon faces and meeting-related text, receding along a patterned wall beside glass railings."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/billboard/48c80dd8-3be1-4a87-ae89-ef1db6294e87.png",
+            "source": "billboard",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A nighttime billboard promotes Notion with bold black-and-blue text, a hand-drawn figure, and a “Team Goals” panel."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/billboard/c3377e78-b18d-413b-b3aa-d416ef6531de.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A bright yellow Notion billboard reads “Software should be beautiful,” with bold black typography and a playful illustrated figure."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/billboard/dd3dfe4f-d092-42fc-80a7-364df95d8808.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A Notion billboard reads “Let them cook,” with a row of illustrated faces forming the middle word against a purple sky."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/billboard/1f12f855-17e5-4613-b767-9e80e9b53fec.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A city street scene features a tall white Notion billboard with a black line-art illustration and bold text, “Software should be beautiful.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/google_ads/94f7a139-db3b-4ec2-82ab-4721274158e9.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Notion promotional graphic with a large black-and-white cube logo, bold product tagline, five-star quote, and a colorful Leader badge."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/google_ads/8c0322cf-fc5b-49a1-abbd-c5613819e1c2.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Notion promotional webpage with a white layout, bold black-and-orange headline, blue Learn more buttons, and a black-and-white team illustration."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/brand-media/billboard/5455b3d1-7957-4f68-9059-b6ffae64b28c.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A large pale pink Notion billboard reads “For your life’s work.” beside a lifestyle photo and small product-interface cards."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal bar, sticky",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Notion logo on left side, black"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal menu with dropdowns: Product, Resources, Pricing, Request a demo"
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA 'Get Notion free' - solid blue pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "Secondary 'Log in' text link, black"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered",
+          "headline": "Where teams and agents Jam together.",
+          "subheadline": "Capture context, find answers, and automate tasks with AI built for your team.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Pile of 7 colorful overlapping images arranged in a grid above the headline"
+            },
+            {
+              "type": "button",
+              "description": "'Get Notion free' - solid blue pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "'Request a demo' - text link with underline"
+            },
+            {
+              "type": "video",
+              "description": "Product demo video showing Notion dashboard interface with sidebar navigation and Ramp HQ content area, 16:10 aspect ratio"
+            },
+            {
+              "type": "illustration",
+              "description": "Accent illustration of agent/AI character peeking from top"
+            },
+            {
+              "type": "illustration",
+              "description": "Accent illustration of person peeking from left side"
+            }
+          ]
+        },
+        {
+          "type": "Logo Wall",
+          "layout_pattern": "Marquee/horizontal scroll",
+          "headline": null,
+          "subheadline": "The most ambitious companies run on Notion.",
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Animated marquee of 23 grayscale company logos including OpenAI, Figma, Ramp, Toyota, Vercel, Faire, Discord in horizontal scrolling layout, max 2 rows"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Grid 3-column (2 columns + 1 wide)",
+          "headline": "AI where your team works.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Capture knowledge card - gray background with product screenshot showing meetings interface with avatars, pin overlay at bottom, 'Capture' eyebrow, titled 'Bring everything into one system of record'"
+            },
+            {
+              "type": "card",
+              "description": "Find answers card - gray background with H2 Deal Flow Dashboard screenshot showing colorful charts (blue speedometer, bar graphs in orange/green/blue), chat input overlay at bottom, 'Find answers' eyebrow, titled 'Get answers, instantly—with citations'"
+            },
+            {
+              "type": "card",
+              "description": "Automate busywork card - wide layout spanning 2 columns, gray background with stacked images showing automation interface, 'Automate busywork' eyebrow, titled 'Keep work moving 24/7 with agents'"
+            }
+          ]
+        },
+        {
+          "type": "Use Cases",
+          "layout_pattern": "Horizontal row/carousel",
+          "headline": "See what Notion can do",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Compact card with blue circular icon (mailbox emoji), 'Triage product feedback' title with arrow"
+            },
+            {
+              "type": "card",
+              "description": "Compact card with yellow circular icon (rock emoji), 'Resolve support tickets in Slack' title with arrow"
+            },
+            {
+              "type": "card",
+              "description": "Compact card with red circular icon (sign emoji), 'Respond to security alerts faster' title with arrow"
+            },
+            {
+              "type": "card",
+              "description": "Compact card with green circular icon (apple emoji), 'Automate weekly reporting' title with arrow"
+            },
+            {
+              "type": "card",
+              "description": "Compact card with dark blue circular icon, 'Create your own developer guide' title with arrow"
+            }
+          ]
+        },
+        {
+          "type": "Testimonials",
+          "layout_pattern": "Grid 3-column",
+          "headline": "Trusted by teams that ship.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Quote card with red gradient background, white text overlay, subtle geometric patterns"
+            },
+            {
+              "type": "card",
+              "description": "Quote card with royal blue gradient background, white text overlay, subtle geometric patterns"
+            },
+            {
+              "type": "card",
+              "description": "Quote card with orange gradient background, white text overlay, subtle geometric patterns"
+            }
+          ]
+        },
+        {
+          "type": "Stats",
+          "layout_pattern": "Horizontal bar",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "icon",
+              "description": "Stats displayed with muted/grayscale icons in horizontal row - '100M users', 'Over 80% FC companies' mentioned"
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "layout_pattern": "Centered",
+          "headline": "Get started today.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Get Notion free' - solid blue pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "'Request a demo' - text link"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Notion logo on left"
+            },
+            {
+              "type": "navigation",
+              "description": "Multi-column link layout organized into sections: Product (Docs, Projects, Notion AI, Calendar, Pricing), Features (Wikis, Projects, Docs, AI), Resources (Blog, Guides, Templates, Pricing), Company (About us, Careers, Customer Stories)"
+            },
+            {
+              "type": "button",
+              "description": "Language selector 'English (US)' with dropdown"
+            },
+            {
+              "type": "button",
+              "description": "'Do Not Sell or Share...' text link"
+            },
+            {
+              "type": "button",
+              "description": "'Cookie settings' text link"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "667e9883-d154-4609-a8ec-d61d96976f0b/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "667e9883-d154-4609-a8ec-d61d96976f0b/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "667e9883-d154-4609-a8ec-d61d96976f0b/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "667e9883-d154-4609-a8ec-d61d96976f0b/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "667e9883-d154-4609-a8ec-d61d96976f0b/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

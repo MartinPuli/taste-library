@@ -1,0 +1,2535 @@
+{
+  "company": "NVIDIA",
+  "rank": 36,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.nvidia.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T05:03:41.816024Z",
+  "completed_at": "2026-10-14T05:06:35.062442Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "NVIDIA",
+        "tagline": null,
+        "source_url": "https://www.nvidia.com/en-us/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Technology / AI & Computing",
+        "primary_purpose": "Showcase NVIDIA's comprehensive AI, computing, and technology ecosystem while driving engagement across enterprise, professional, and consumer segments",
+        "main_cta": "Add to Calendar",
+        "copy_tone": [
+          "Technical",
+          "Authoritative",
+          "Forward-Thinking"
+        ],
+        "brand_signature": "NVIDIA's visual identity is defined by a bold, dark-themed aesthetic with high-contrast imagery and NVIDIA's signature green (#76b900) as the primary accent. The design employs modular card-based layouts with cinematic photography and video backgrounds, creating a premium technology-forward presentation that balances information density with visual impact.",
+        "visual_language": {
+          "keywords": [
+            "high-tech",
+            "cinematic",
+            "modular",
+            "premium",
+            "dark-mode",
+            "bold"
+          ],
+          "accent_strategy": "Signature NVIDIA green (#76b900) used for CTAs, interactive elements, borders, and hover states against predominantly dark backgrounds",
+          "highlights": "Video backgrounds, dramatic lighting on product imagery, gradient overlays on hero sections, and glowing accent effects on interactive elements"
+        },
+        "strategy": {
+          "target_audience": [
+            "Enterprise IT decision-makers and CTOs evaluating AI infrastructure and data center solutions",
+            "AI/ML engineers and developers seeking GPU computing platforms, SDKs, and development tools",
+            "Gaming enthusiasts and PC builders interested in GeForce graphics cards and gaming technology",
+            "Professional creators and studio artists requiring high-performance workstations and creative software",
+            "Automotive and robotics engineers developing autonomous systems and edge AI applications"
+          ],
+          "executive_synthesis": "NVIDIA's homepage functions as a strategic gateway to its expansive technology ecosystem, using a dark premium aesthetic and signature green accents to signal innovation leadership. The modular design accommodates diverse audience segments—from enterprise AI to consumer gaming—while the prominent GTC conference promotion and keynote content establish thought leadership. The visual architecture balances comprehensive product navigation with event-driven engagement, positioning NVIDIA as the definitive platform for accelerated computing across industries."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The NVIDIA website exemplifies modern Flat Design with a Corporate modifier. Visual analysis reveals a stark, high-contrast dark theme (pure black #000000 backgrounds) with clean white typography and a single vibrant accent color (NVIDIA Green #76B900) used exclusively for CTAs and interactive elements. The design is fundamentally 2D and flat—no skeuomorphic textures, no 3D depth effects, no glass/blur morphism. The texture profile confirms \"gradient_linear\" and \"gradient_radial\" but these are functional scrims and overlays rather than decorative depth effects.\n\nTypography is systematic and modern: a custom geometric sans-serif (NVIDIA-NALA) with clean weights (400/700) and consistent line-heights. The type scale is hierarchical but restrained—no ornamental or decorative treatments.\n\nLayout is grid-based strict (12-column system) with dense/packed content sections that repeat a modular split-screen pattern (text left, imagery right). This repeating rhythm creates visual efficiency rather than whitespace-driven minimalism. The card-based UI with consistent spacing is quintessential Flat Design.\n\nKey differentiator from Minimalism: This is NOT extreme reduction—the page is content-dense with multiple sections, repeated card patterns, and significant visual information. Key differentiator from Brutalism: The design is polished and refined, not raw or anti-design. The corporate modifier applies due to the professional, enterprise-focused aesthetic—trust, competence, and technical authority are communicated through the systematic approach, formal typography, and restrained color palette.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "Corporate is applied as a modifier because the entire design system communicates professional authority and technical competence. The monochromatic dark palette with single brand accent, systematic typography, formal grid structure, and content hierarchy (product categories, enterprise solutions, data centers, automotive) all signal enterprise-level professionalism. The cookie consent modal, legal footer links, and structured information architecture reinforce the corporate B2B positioning typical of a Fortune 500 technology company."
+        }
+      },
+      "layout": {
+        "classification": [
+          "dense_packed",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "2rem",
+          "max_width": "1290px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 639px (1 Column, 16px gutter)",
+          "tablet": "640px - 1023px (8 Columns, 24px gutter)",
+          "desktop": "1024px - 1349px (12 Columns, 32px gutter)",
+          "large": "1350px+ (12 Columns, 40px gutter)"
+        },
+        "section_separation": "Sections are separated by consistent dark gray (#000000) and light gray (#F7F7F7) alternating background colors. Navigation header is fixed with a distinct dark background. Vertical spacing uses consistent separator heights (90px desktop, 60px tablet, 15-30px mobile). The page employs a dense, packed rhythm with minimal whitespace between major content blocks, relying on background color shifts and subtle horizontal dividers for visual separation.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [COOKIE/PRIVACY CONSENT MODAL - Overlay]                │\n│                                                          │\n│  \"NVIDIA.com uses cookies to improve your experience...\" │\n│                                                          │\n│  [Manage Settings]  [Reject Optional]  [Accept All]     │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  NVIDIA     [Search] [User Menu]                     │\n├──────────────────────────────────────────────────────────┤\n│  Keynotes                                                │\n│                                                          │\n│  Watch NVIDIA CEO Jensen Huang's Keynote From           │\n│  Berlin                                                  │\n│                                                          │\n│  October 11, 11am, Live | GTC 2025                      │\n│                                                          │\n│  [...Description text...]                               │\n│                                                          │\n│  [+ Register]                                           │\n│                                                          │\n│  [Background: Dark with digital/circuit imagery]        │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  GTC Washington, DC                                      │\n│                                                          │\n│  [...Event description...]                ┌──────────┐  │\n│                                           │ [NVIDIA] │  │\n│                                           │   GTC    │  │\n│  [Learn More]                             │  Logo    │  │\n│                                           └──────────┘  │\n├──────────────────────────────────────────────────────────┤\n│  Artificial Intelligence                                 │\n│                                                          │\n│  [...Description about AI and machine learning...]      │\n│                                          ┌─────┬─────┐  │\n│  [Quick Links]                           │Img1 │Img2 │  │\n│                                          └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  Design and Simulation                                   │\n│                                                          │\n│  [...Description about design simulation tools...]      │\n│                                          ┌─────┬─────┐  │\n│                                          │Img1 │Img2 │  │\n│  [Quick Links]                           └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  High-Performance Computing                              │\n│                                                          │\n│  [...Description about HPC and quantum computing...]    │\n│                                          ┌─────┬─────┐  │\n│                                          │Img1 │Img2 │  │\n│  [Quick Links]                           └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  Gaming and Creating                                     │\n│                                                          │\n│  [...Description about gaming GPUs and content...]      │\n│                                          ┌─────┬─────┐  │\n│                                          │Img1 │Img2 │  │\n│  [Quick Links]                           └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  Automotive                                              │\n│                                                          │\n│  [...Description about automotive AI and DRIVE...]      │\n│                                          ┌─────┬─────┐  │\n│                                          │Img1 │Img2 │  │\n│  [Quick Links]                           └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  Robotics and Edge AI                                    │\n│                                                          │\n│  [...Description about Jetson and robotics platforms...]│\n│                                          ┌─────┬─────┐  │\n│                                          │Img1 │Img2 │  │\n│  [Quick Links]                           └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  Data Center and Cloud                                   │\n│                                                          │\n│  [...Description about cloud and data center solutions] │\n│                                          ┌─────┬─────┐  │\n│                                          │Img1 │Img2 │  │\n│  [Quick Links]                           └─────┴─────┘  │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  About NVIDIA                                            │\n│                                                          │\n│  [...Description about NVIDIA company and leadership...]│\n│                                          ┌──────────┐   │\n│                                          │  [Img]   │   │\n│  [Quick Links]                           └──────────┘   │\n│                                          [Event Links]  │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│  Company Information                                     │\n│                                                          │\n│  [Link Sections: Company | Products | Support]          │\n│                                                          │\n│  [Email Signup]              [Social Media Icons]       │\n│                                                          │\n│  United States                                           │\n│                                                          │\n│  NVIDIA     [Privacy] [Legal] [Accessibility] [Cookies] │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nCOOKIE/PRIVACY CONSENT MODAL (Overlay):\n- Background: White modal overlay with semi-transparent dark backdrop\n- Typography: Black text on white, standard cookie consent format\n- Buttons/CTAs: \n  * \"Manage Settings\" (outline, dark border)\n  * \"Reject Optional\" (outline, dark border)\n  * \"Accept All\" (solid, dark/black background)\n- Colors: Black, white, neutral grays\n- Modal appears as overlay covering main content\n\nTOP NAVIGATION:\n- Background: Dark (black/very dark gray)\n- Logo: NVIDIA logo in white/light color on left\n- Components: Search icon, user menu icon on right\n- Colors: Dark background with white/light elements\n\nHERO SECTION (Keynote):\n- Background: Dark with digital/technological imagery (circuit patterns, blue accent lighting)\n- Typography: Large white heading text, lighter subheadings\n- Buttons/CTAs: \"+ Register\" (likely bright green NVIDIA brand color)\n- Colors: Dark background, white text, blue accent lighting, green CTA\n- Imagery: Technology/digital themed background with abstract patterns\n\nGTC WASHINGTON DC:\n- Background: Dark gray surface\n- Components: NVIDIA GTC logo card on right (white on dark green background)\n- Buttons/CTAs: \"Learn More\" (likely outline or minimal style)\n- Colors: Dark gray, white text, NVIDIA green for logo\n\nARTIFICIAL INTELLIGENCE SECTION:\n- Background: Dark gray\n- Layout: Text on left, two image cards on right in grid\n- Components: Image thumbnails with event titles below\n- Buttons/CTAs: \"Quick Links\" navigation (text links)\n- Colors: Dark surface, white text, green accent indicators\n- Imagery: Tech/AI related photos\n\nDESIGN AND SIMULATION:\n- Background: Dark gray surface\n- Layout: Split layout with text left, image grid right\n- Components: Two image cards showing design/simulation work\n- Buttons/CTAs: \"Quick Links\" section\n- Colors: Dark background, white text, green accents\n- Imagery: Design software, 3D rendering screenshots\n\nHIGH-PERFORMANCE COMPUTING:\n- Background: Dark gray\n- Layout: Text content left, dual image cards right\n- Components: Event/session cards with thumbnails\n- Buttons/CTAs: \"Quick Links\" navigation\n- Colors: Dark surface, white typography, green indicators\n- Imagery: Computing infrastructure, data visualization\n\nGAMING AND CREATING:\n- Background: Dark gray surface\n- Layout: Description left, image cards right\n- Components: Gaming/creative content thumbnails\n- Buttons/CTAs: \"Quick Links\" section\n- Colors: Dark background, white text, green accents\n- Imagery: Gaming graphics, creative tools\n\nAUTOMOTIVE:\n- Background: Dark gray\n- Layout: Text left, image grid right (2 columns)\n- Components: Automotive technology image cards\n- Buttons/CTAs: \"Quick Links\" navigation\n- Colors: Dark surface, white text, green highlights\n- Imagery: Autonomous vehicles, car technology\n\nROBOTICS AND EDGE AI:\n- Background: Dark gray surface\n- Layout: Split with text and image grid\n- Components: Robotics and AI platform images\n- Buttons/CTAs: \"Quick Links\" section\n- Colors: Dark background, white typography, green accents\n- Imagery: Robots, edge computing devices, AI applications\n\nDATA CENTER AND CLOUD:\n- Background: Dark gray\n- Layout: Text content with image cards\n- Components: Server/infrastructure imagery\n- Buttons/CTAs: \"Quick Links\" navigation\n- Colors: Dark surface, white text, green indicators\n- Imagery: Data center hardware, cloud infrastructure\n\nABOUT NVIDIA:\n- Background: Dark gray surface\n- Layout: Text left, large image right\n- Components: Corporate/leadership imagery\n- Buttons/CTAs: \"Quick Links\" section\n- Colors: Dark background, white text, green accents\n- Imagery: Company/leadership photo or graphic\n\nFOOTER:\n- Background: Very dark gray/black\n- Layout: Multi-column link sections\n- Components: Email signup form, social media icons\n- Buttons/CTAs: Email submit button (likely green)\n- Typography: Light gray text on dark background\n- Colors: Dark background, light gray text, green submit button\n- Elements: Standard footer links, legal/privacy notices\n\nOVERALL DESIGN SYSTEM:\n- Consistent dark theme throughout (dark gray/black backgrounds)\n- NVIDIA brand green used for CTAs and accents\n- White typography for primary content\n- Card-based layout for events/sessions\n- Split layouts (text left, imagery right) repeated pattern\n- Professional, technical aesthetic\n- All buttons follow NVIDIA brand guidelines (green primary actions, outline secondary)",
+        "insights": [
+          "The layout follows a dense, card-based pattern with repeating split-screen modules (text left, imagery right) across all major content sections, creating a strong visual rhythm and scannable hierarchy.",
+          "Responsive strategy is highly detailed with four distinct breakpoints, each optimizing column count and gutter spacing - collapsing from 12-column desktop grids to single-column mobile layouts while maintaining consistent brand spacing.",
+          "The design system leverages NVIDIA's signature green (#76b900) exclusively for interactive elements (CTAs, link accents) against a predominantly dark (#000000) and neutral gray (#F7F7F7) palette, creating high contrast and clear visual affordances for user actions."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Serves as the foundational color for dark thematic sections, the global footer, and the default text color across light surfaces.",
+              "when_to_use": [
+                "Global page text",
+                "Carousel dark section backgrounds",
+                "Global footer background",
+                "Mega menu dark overlay"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Paper White",
+            "type": "Light",
+            "rules": {
+              "description": "Provides the primary canvas for the interface, defining light-themed content sections, navigation surfaces, and contrasting text on dark backgrounds.",
+              "when_to_use": [
+                "Primary navigation header background",
+                "Mega menu panel backgrounds",
+                "Text on dark surfaces",
+                "Form input and dropdown backgrounds"
+              ]
+            },
+            "hex": "#EEEEEE",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F7F7F7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F0F0F0",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E7E7E7",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0465
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Charcoal",
+            "type": "Dark",
+            "rules": {
+              "description": "Acts as a heavy secondary text color for strong hierarchy, utilized for section headings and specific dark structural components.",
+              "when_to_use": [
+                "Sub-navigation category headings",
+                "Accordion menu button text",
+                "Card description paragraphs",
+                "Mobile table-of-contents background"
+              ]
+            },
+            "hex": "#1A1A1A",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#222222",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#111111",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.016
+          },
+          {
+            "name": "NVIDIA Green",
+            "type": "Warm Color",
+            "rules": {
+              "description": "The core brand identity color, driving user engagement by highlighting primary calls to action, active states, and hyperlinks.",
+              "when_to_use": [
+                "Primary CTA button backgrounds",
+                "Footer text links",
+                "Active menu slider indicators",
+                "User account avatar styling"
+              ]
+            },
+            "hex": "#76B900",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#74B71B",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#134D00",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E2FF8C",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0158
+          },
+          {
+            "name": "Slate Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "Used for secondary typography and subtle UI elements to establish visual hierarchy without competing with primary content or brand accents.",
+              "when_to_use": [
+                "Secondary card descriptive text",
+                "Navigation utility icon strokes",
+                "Mega menu unselected category titles",
+                "Accordion caret borders"
+              ]
+            },
+            "hex": "#666666",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#5E5E5E",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#808080",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#747474",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0015
+          }
+        ],
+        "insights": [
+          "The palette relies heavily on stark black-and-white contrasts to create a sharp, technical, and premium aesthetic typical of high-end hardware and enterprise software.",
+          "NVIDIA's signature neon green is the sole pop of color, making it highly effective for wayfinding, signifying interactivity, and instantly reinforcing brand recognition.",
+          "Surface boundaries are defined by massive alternating blocks of pure black and white, rather than subtle gray borders, giving the page a bold, rhythmic structure."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "NVIDIA-NALA",
+              "role": "H1 Display",
+              "specs": {
+                "size": "3pc",
+                "line_height": "1.25em",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "H2",
+              "specs": {
+                "size": "36px",
+                "line_height": "1.25em",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "H3",
+              "specs": {
+                "size": "20px",
+                "line_height": "1.25em",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "H4 / Promo Headline",
+              "specs": {
+                "size": "18px",
+                "line_height": "150%",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Typography variants for body text and paragraphs.",
+          "variants": [
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Lead Body",
+              "specs": {
+                "size": "22px",
+                "line_height": "1.75em",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Primary Body / Summary",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Standard Body",
+              "specs": {
+                "size": "15px",
+                "line_height": "1.666em",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Small Body",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Typography variants for labels and captions.",
+          "variants": [
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Pagination / Button",
+              "specs": {
+                "size": "18px",
+                "line_height": "1.25em",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "UI Element / Navigation",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.25",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA Sans",
+              "role": "Tooltip / Citation",
+              "specs": {
+                "size": "12px",
+                "line_height": "18px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"NVIDIA Sans\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Micro Label / Capsule",
+              "specs": {
+                "size": "11px",
+                "line_height": "15.4px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NVIDIA-NALA",
+              "role": "Disclaimer / Tiny",
+              "specs": {
+                "size": "10px",
+                "line_height": "130%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Typography variants that don't fit other categories.",
+          "variants": [
+            {
+              "name": "Font Awesome 6 Pro",
+              "role": "Icons",
+              "specs": {
+                "size": "20px",
+                "line_height": "1.4",
+                "font_weight": "900",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Font Awesome 6 Pro\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Font Awesome 6 Sharp",
+              "role": "UI Icons",
+              "specs": {
+                "size": "16px",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Font Awesome 6 Sharp\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "Thick underlines for links (`text-decoration-thickness: 2px`) offset from the text (`text-underline-offset: .3125em`) with a brand green hover/active state (`#76b900`). External links automatically append a Font Awesome icon via pseudo-elements.",
+        "insights": [
+          "The design system is built entirely on custom localized brand fonts (e.g., NVIDIA-NALA for US/Americas, NVIDIA-EMEA, NVIDIA-APAC) to maintain a seamless global brand identity while supporting broad language requirements.",
+          "Line-heights rely extensively on relative units (`em` or `%`), such as `1.25em` for headings and `1.666em` for standard paragraphs, ensuring optimal vertical rhythm and scalability.",
+          "Links and interactive elements are highly accessible, utilizing offset green underlines that grow in contrast upon interaction, supplemented by external link icons mapped to pseudo-elements."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "gradient_radial"
+        ],
+        "solid_colors": [
+          {
+            "name": "Black Primary",
+            "description": "Primary background color for dark theme sections",
+            "when_to_use": [
+              "Dark themed containers",
+              "Main backgrounds",
+              "High contrast sections"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Dark Gray Surface",
+            "description": "Search input wrapper background",
+            "when_to_use": [
+              "Search input containers",
+              "Elevated dark surfaces"
+            ],
+            "hex": "#0B0B0B"
+          },
+          {
+            "name": "Dark Surface Secondary",
+            "description": "GFN promo background and YouTube consent overlay",
+            "when_to_use": [
+              "Card backgrounds on dark theme",
+              "Modal overlays"
+            ],
+            "hex": "#0C0C0C"
+          },
+          {
+            "name": "Light Gray Surface",
+            "description": "Light background for filters, tips, pagination center",
+            "when_to_use": [
+              "Filter containers",
+              "Search tips sections",
+              "Pagination centers"
+            ],
+            "hex": "#F7F7F7"
+          },
+          {
+            "name": "White Surface",
+            "description": "Primary light background",
+            "when_to_use": [
+              "Default page backgrounds",
+              "Card backgrounds in light theme"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Dark Elevated Surface",
+            "description": "GenAI wrapper and overlay container background",
+            "when_to_use": [
+              "AI summary sections",
+              "Overlay containers"
+            ],
+            "hex": "#161616"
+          },
+          {
+            "name": "Dropdown Background",
+            "description": "Navigation dropdown menu background",
+            "when_to_use": [
+              "Dropdown menus",
+              "Sub-navigation backgrounds"
+            ],
+            "hex": "#EEEEEE"
+          },
+          {
+            "name": "Divider Gray",
+            "description": "Horizontal rules and dividers",
+            "when_to_use": [
+              "Result dividers",
+              "Section separators"
+            ],
+            "hex": "#CCCCCC"
+          },
+          {
+            "name": "Tooltip Background",
+            "description": "Tooltip and popover background",
+            "when_to_use": [
+              "Tooltips",
+              "Small popovers",
+              "Contextual hints"
+            ],
+            "hex": "#313131"
+          },
+          {
+            "name": "NVIDIA Green",
+            "description": "Primary brand color for buttons and accents",
+            "when_to_use": [
+              "Primary CTAs",
+              "Brand accents",
+              "Active states"
+            ],
+            "hex": "#76B900"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Rotating Gold Gradient Border",
+            "description": "Animated conic gradient rotating through gold and brown tones",
+            "when_to_use": [
+              "Search input wrapper border",
+              "Gradient border accents",
+              "Animated decorative elements"
+            ],
+            "css_code": "conic-gradient(from 0deg, #8b7355 0%, #6d5a3a 5%, #7a6542 10%, #d4c4a8 15%, #b8956e 20%, #c9a86c 25%, #e8dcc4 30%, #f5ede0 35%, #c4a064 40%, #8b7355 45%, #7a6542 50%, #b89b6a 55%, #d4c4a8 60%, #e8dcc4 65%, #c9a86c 70%, #b8956e 75%, #a68b5b 80%, #8b7355 85%, #6d5a3a 90%, #9a8262 95%, #8b7355 100%)"
+          },
+          {
+            "name": "AI Summary Fade to Black",
+            "description": "Bottom fade gradient for AI summary text overflow",
+            "when_to_use": [
+              "AI summary text fade-out",
+              "Content overflow indicators"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 60%, #000 100%)"
+          },
+          {
+            "name": "GFN Promo Desktop Gradient",
+            "description": "Top to bottom gradient overlaying promotional card art (desktop)",
+            "when_to_use": [
+              "GFN games promo cards",
+              "Featured content backgrounds"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) -13.61%, #000 91.42%)"
+          },
+          {
+            "name": "GFN Promo Radial Scrim Desktop",
+            "description": "Radial gradient scrim from top-left for promotional art (desktop)",
+            "when_to_use": [
+              "GFN promo overlays",
+              "Top-left corner scrim effects"
+            ],
+            "css_code": "radial-gradient(178% 1105% at 0% 0%, var(--gfn-marquee-scrim) 10.47%, rgba(249, 233, 207, 0.00) 39.63%)"
+          },
+          {
+            "name": "GFN Promo Tablet Gradient",
+            "description": "Vertical gradient for GFN promo on tablet",
+            "when_to_use": [
+              "GFN promo tablet layout"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0.39%, #000 100.43%)"
+          },
+          {
+            "name": "GFN Promo Tablet Radial",
+            "description": "Radial gradient scrim for GFN promo tablet layout",
+            "when_to_use": [
+              "GFN promo tablet overlays"
+            ],
+            "css_code": "radial-gradient(75% 560% at 0% 0%, var(--gfn-marquee-scrim), rgba(249, 233, 207, 0.00) 100%)"
+          },
+          {
+            "name": "GFN Promo Mobile Gradient",
+            "description": "Vertical gradient for GFN promo on mobile",
+            "when_to_use": [
+              "GFN promo mobile layout"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0.39%, #000 75.43%)"
+          },
+          {
+            "name": "GFN Promo Mobile Radial",
+            "description": "Radial gradient scrim for GFN promo mobile layout",
+            "when_to_use": [
+              "GFN promo mobile overlays"
+            ],
+            "css_code": "radial-gradient(150% 300% at 0% 0%, var(--gfn-marquee-scrim) 10.47%, rgba(249, 233, 207, 0.00) 100%)"
+          },
+          {
+            "name": "Comparison Vignette Top (Desktop)",
+            "description": "Top vignette gradient for comparison component",
+            "when_to_use": [
+              "Comparison components",
+              "Top overlay vignettes"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0,0,0,.95) 90pt, transparent)"
+          },
+          {
+            "name": "Skinny Section Two-Tone Gradient",
+            "description": "Horizontal split gradient from white to light gray",
+            "when_to_use": [
+              "Skinny section backgrounds",
+              "Two-tone split layouts"
+            ],
+            "css_code": "linear-gradient(to right, #FFFFFF 0% calc(50% - 1250px), #F7F7F7 calc(50% + 1250px) 100%)"
+          }
+        ],
+        "highlights": [
+          "Rotating gold conic gradient border on search input with 20s animation",
+          "Box shadow on search input: 0 0 24px rgba(196, 160, 100, 0.18) with subtle gold glow",
+          "Tooltip surfaces with soft shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12) and 1px #636363 border",
+          "GFN promo cards use layered gradients combining linear and radial overlays on background art",
+          "AI summary text has fade-to-black gradient ::after pseudo-element for overflow indication",
+          "Comparison component has vignette gradients at top edge for content overlay"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Search Input Glow",
+              "type": "drop",
+              "description": "Golden/amber glow effect with 18% opacity for search input focus states. Creates a warm, branded elevation effect.",
+              "css_value": "0 0 24px rgba(196, 160, 100, 0.18)",
+              "when_to_use": [
+                "Search input containers",
+                "Focused input fields",
+                "AI-powered search elements"
+              ]
+            },
+            {
+              "name": "Tooltip Shadow",
+              "type": "drop",
+              "description": "Subtle shadow for tooltips and popovers with 12% black opacity and 4px Y-offset, 6px blur. Provides gentle lift for informational overlays.",
+              "css_value": "0 4px 6px 0 rgba(0, 0, 0, 0.12)",
+              "when_to_use": [
+                "Tooltips",
+                "Thumbs up/down feedback tooltips",
+                "Informational popovers"
+              ]
+            },
+            {
+              "name": "Overlay Container Shadow",
+              "type": "drop",
+              "description": "Dual-layer shadow for overlay containers: 19% opacity at 2px Y-offset with 6px blur, plus 19% opacity ambient shadow at 2px blur. Creates medium elevation for modal-like containers.",
+              "css_value": "0px 2px 6px 0px rgba(0, 0, 0, 0.19), 0px 0px 2px 0px rgba(0, 0, 0, 0.19)",
+              "when_to_use": [
+                "Overlay containers",
+                "Search overlay panels",
+                "Modal containers"
+              ]
+            },
+            {
+              "name": "GFN Promo Card Shadow - Mobile",
+              "type": "drop",
+              "description": "Card shadow for promotional content with 12% black opacity, 4px blur. Used for mobile viewport game promo cards.",
+              "css_value": "0 4px calc(6px / 1.5) 0 var(--translucent-black-120, rgba(0, 0, 0, 0.12))",
+              "when_to_use": [
+                "GFN game promotional cards",
+                "Featured content cards",
+                "Mobile promo elements"
+              ]
+            },
+            {
+              "name": "GFN Promo Card Shadow - Desktop",
+              "type": "drop",
+              "description": "Lighter card shadow for desktop/tablet viewports with 12% black opacity, 2px Y-offset, 4px blur.",
+              "css_value": "0 2px 4px 0 var(--translucent-black-120, rgba(0, 0, 0, 0.12))",
+              "when_to_use": [
+                "GFN game promotional cards on desktop",
+                "Featured content cards on larger screens"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#76B900",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DEDFDF",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#808080",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#636363",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#CCCCCC",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#333333",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#999999",
+            "width": "2px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "accordion",
+          "scroll_reveal",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "librarian-page-cascade-in",
+            "css": "@keyframes librarian-page-cascade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+            "description": "Cascading fade-in animation for search result items with staggered delays"
+          },
+          {
+            "name": "librarian-genai-fade-in",
+            "css": "@keyframes librarian-genai-fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+            "description": "Fade-in animation for AI-generated summary content items"
+          },
+          {
+            "name": "librarian-generating-dot",
+            "css": "@keyframes librarian-generating-dot { 0%, 80%, 100% { opacity: 0; } 40% { opacity: 1; } }",
+            "description": "Pulsing dot animation for loading indicator during AI content generation"
+          },
+          {
+            "name": "rotateGradientBorder",
+            "css": "@keyframes rotateGradientBorder { from { --angle: 0deg; } to { --angle: 360deg; } }",
+            "description": "Continuous 360-degree rotation animation for decorative gradient border on AI search input"
+          },
+          {
+            "name": "nv-fade-ready",
+            "css": "transition: opacity 800ms ease",
+            "description": "Opacity fade transition for video content reveal when loaded"
+          },
+          {
+            "name": "ot-go-spin",
+            "css": "@keyframes ot-go-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+            "description": "Spinner rotation animation for cookie consent loading states"
+          },
+          {
+            "name": "accordion-expand",
+            "css": "",
+            "description": "Max-height transition for accordion panel expand/collapse, JS-driven via inline style updates"
+          },
+          {
+            "name": "button-hover-transition",
+            "css": "transition: background 0.2s ease, opacity 0.2s ease",
+            "description": "Smooth background color transition on button hover states"
+          },
+          {
+            "name": "tooltip-fade",
+            "css": "transition: opacity 0.3s",
+            "description": "Opacity transition for tooltip visibility on hover"
+          },
+          {
+            "name": "arrow-rotation",
+            "css": "transition: transform 0.3s ease",
+            "description": "180-degree rotation transition for accordion caret icons"
+          }
+        ],
+        "insights": [
+          "NVIDIA's design system relies heavily on their signature green (#76B900) as the sole accent color against a stark black/white palette, making CTAs and interactive elements instantly recognizable across all page sections.",
+          "The page extensively uses accordion patterns with Quick Links toggles in each content section, providing progressive disclosure while keeping the main content scannable.",
+          "Animation patterns are subtle and functional - cascading fade-ins for search results and AI content generation feedback create a polished, responsive feel without overwhelming the technical content focus."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Previous/Next (Pagination Green)",
+            "usage": "Pagination controls for navigating through search results or content pages",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "18px",
+                  "padding": "12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#76B900",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#8FD400",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#76B900",
+                "border_width": "2px",
+                "opacity": "1",
+                "cursor": "auto"
+              }
+            }
+          },
+          {
+            "name": "Accept All (Cookie Consent Solid)",
+            "usage": "Primary action button in cookie consent banner for accepting all cookies",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "16px",
+                  "padding": "11px 13px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "#000000",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#1A1A1A",
+                "text_color": "#FFFFFF",
+                "border_color": "#000000",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Manage Settings / Reject Optional (Cookie Consent Outline)",
+            "usage": "Secondary action buttons in cookie consent banner for managing preferences or rejecting optional cookies",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "16px",
+                  "padding": "11px 13px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "#76B900",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "#000000",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Quick Links (Accordion Toggle)",
+            "usage": "Expandable accordion trigger buttons for revealing quick navigation links within content sections",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "16px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#76B900",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Apply (Filter Apply Green)",
+            "usage": "Primary action button for applying filter selections in search refinement panels",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "14px",
+                  "padding": "6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#76B900",
+                "text_color": "#000000",
+                "border_color": "#76B900",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#659F00",
+                "text_color": "#000000",
+                "border_color": "#659F00",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Reset (Filter Reset Outline)",
+            "usage": "Secondary action button for resetting filter selections in search refinement panels",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "14px",
+                  "padding": "6px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#76B900",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "#76B900",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Search Submit (Green Icon Button)",
+            "usage": "Submit button for AI-powered search input with paper plane icon",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "",
+                  "size": "",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#76B900",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#8FD400",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#CCCCCC",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.7",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Show More (Dark Theme Text Button)",
+            "usage": "Expand/collapse toggle for AI summary content on dark backgrounds",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Standard",
+                  "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+                  "size": "16px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#EEEEEE",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Horizontal button arrangements with consistent spacing, typically pairing primary green actions with outline secondary buttons",
+          "spacing": "16px"
+        },
+        "links": {
+          "text_decoration": "underline 2px rgb(118, 185, 0)"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "45px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/Paper White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Mega Menu Tab",
+          "description": "Navigation tabs that expand to reveal multi-level mega menu dropdowns with product categories and solution areas.",
+          "when_to_use": [
+            "Primary site navigation",
+            "Multi-level category organization",
+            "Product and solution discovery"
+          ],
+          "states": [
+            {
+              "name": "default",
+              "visual_change": "Black text on white background",
+              "background": null,
+              "text": "#000000",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Text color changes to NVIDIA green",
+              "background": null,
+              "text": "#76B900",
+              "icon": null
+            },
+            {
+              "name": "active",
+              "visual_change": "Green underline slider appears beneath active tab",
+              "background": null,
+              "text": "#76B900",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Content Card",
+            "description": "Image-based content cards displaying event sessions, articles, and product highlights with thumbnail, title, and category labels",
+            "when_to_use": [
+              "Event session listings",
+              "Blog article previews",
+              "Product feature highlights"
+            ]
+          },
+          {
+            "name": "Search Result Item",
+            "description": "Text-based search result entries with numbered ranking indicator, title link, description excerpt, and source URL",
+            "when_to_use": [
+              "Site search results",
+              "Content discovery listings"
+            ]
+          },
+          {
+            "name": "GFN Games Promo Card",
+            "description": "Full-width promotional card with background art, logo, headline, description, and CTA button for GeForce NOW game promotions",
+            "when_to_use": [
+              "Featured game promotions",
+              "Service marketing highlights"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Single open by default with animated expand/collapse transitions"
+        },
+        "dividers": [
+          {
+            "name": "Section Divider",
+            "description": "Horizontal rule separating major content sections",
+            "when_to_use": [
+              "Between homepage content blocks",
+              "Separating category sections"
+            ],
+            "color": "#A7A7A7",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Search Results Divider",
+            "description": "Subtle gray divider between search result groups",
+            "when_to_use": [
+              "Between search result items",
+              "Separating filter panels"
+            ],
+            "color": "#CCCCCC",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Menu Divider",
+            "description": "Vertical divider in mega menu navigation separating category lists",
+            "when_to_use": [
+              "Mega menu category separation"
+            ],
+            "color": "#DEDFDF",
+            "height": "100%",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Navigation & UI Icons",
+          "description": "Monoline and filled UI icons used in the global navigation menu and components for search, user profile, cart, and mobile menu toggles.",
+          "when_to_use": [
+            "Global Header",
+            "Navigation Menus",
+            "Search Inputs",
+            "Dropdowns"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Search",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon nav-search-icon\" aria-labelledby=\"search\"> <g><g id=\"n24-search\" viewBox=\"0 0 24 24\"> <title id=\"search\">Search icon</title> <desc>Click to search</desc> <defs> </defs> <g id=\"n24-icon-search-icon\"> <g id=\"n24-icon-search-boundary\" class=\"n24-icon-search-bg\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path></g> <path class=\"n24-icon-search-fill\" d=\"M9.9,4.05A5.85,5.85,0,1,1,4.05,9.9,5.8566,5.8566,0,0,1,9.9,4.05m0-1.5A7.35,7.35,0,1,0,17.25,9.9,7.35,7.35,0,0,0,9.9,2.55Z\"></path> <line class=\"n24-icon-search-stroke\" x1=\"15\" y1=\"15\" x2=\"19.875\" y2=\"19.875\"></line> </g> </g></g> </svg>"
+            },
+            {
+              "name": "Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon mega-nav-open-menu-icon\"> <g><g id=\"n24-menu\" viewBox=\"0 0 24 24\"> <title>Menu</title> <desc>Menu icon</desc> <defs> </defs> <g id=\"n24-icon-menu-group\"> <g id=\"n24-icon-menu-boundary\" class=\"n24-icon-menu-bg\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path></g> <line class=\"n24-icon-menu-stroke\" x1=\"4.5\" y1=\"7.5\" x2=\"19.5\" y2=\"7.5\"></line> <line class=\"n24-icon-menu-stroke\" x1=\"4.5\" y1=\"12\" x2=\"19.5\" y2=\"12\"></line> <line class=\"n24-icon-menu-stroke\" x1=\"4.5\" y1=\"16.5\" x2=\"19.5\" y2=\"16.5\"></line> </g> </g></g> </svg>"
+            },
+            {
+              "name": "Shopping Cart",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon nvcarticon n24-cart\" style=\"\" aria-labelledby=\"shopping_cart\"> <g><g id=\"n24-cart\" viewBox=\"0 0 24 24\"> <title id=\"shopping_cart\">Shopping Cart</title> <desc>Click to see cart items</desc> <defs> </defs> <g id=\"n24-icon-cart-icon\"> <g id=\"n24-icon-cart-boundary\" class=\"n24-icon-cart-bg\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path></g> <polyline class=\"n24-icon-cart-stroke\" points=\"1.5 3.75 4.894 3.75 7.707 14.25 16.5 14.25\"></polyline> <circle class=\"n24-icon-cart-stroke\" cx=\"8.25\" cy=\"18.75001\" r=\"1.5\"></circle> <circle class=\"n24-icon-cart-stroke\" cx=\"15.75\" cy=\"18.75001\" r=\"1.5\"></circle> <polyline class=\"n24-icon-cart-stroke\" points=\"5.295 5.25 18.714 5.25 17.142 11.25 6.903 11.25\"></polyline> </g> </g></g> </svg>"
+            },
+            {
+              "name": "Close",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon menu-button close\"> <g><g id=\"n24-close-small\" viewBox=\"0 0 24 24\"> <title>Close</title> <desc>Close icon</desc> <defs> </defs> <g id=\"n24-icon-close-small\"> <g id=\"boundary\"> <g class=\"n24-icon-close-small-cls-1\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path> </g> </g> <line class=\"n24-icon-close-small-cls-2\" x1=\"7.50005\" y1=\"7.50002\" x2=\"16.50005\" y2=\"16.50002\"></line> <line class=\"n24-icon-close-small-cls-2\" x1=\"7.50005\" y1=\"16.50002\" x2=\"16.50005\" y2=\"7.50002\"></line> </g> </g></g></svg>"
+            },
+            {
+              "name": "User Profile",
+              "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.65003 10.5C4.55165 10.9847 4.5 11.4863 4.5 12C4.5 12.5137 4.55165 13.0153 4.65003 13.5H7.55935C7.52023 13.0113 7.5 12.51 7.5 12C7.5 11.49 7.52023 10.9887 7.55935 10.5H4.65003ZM5.12407 9H7.74448C7.94369 7.82124 8.25841 6.75177 8.66557 5.85602C8.78395 5.5956 8.9143 5.34175 9.05649 5.09966C7.3001 5.84986 5.88822 7.25105 5.12407 9ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM12 4.5C11.4394 4.5 10.6869 5.03412 10.0311 6.47672C9.7109 7.18121 9.44812 8.03723 9.26799 9H14.732C14.5519 8.03723 14.2891 7.18121 13.9689 6.47672C13.3131 5.03412 12.5606 4.5 12 4.5ZM16.2555 9C16.0563 7.82124 15.7416 6.75177 15.3344 5.85602C15.2161 5.5956 15.0857 5.34175 14.9435 5.09966C16.6999 5.84986 18.1118 7.25105 18.8759 9H16.2555ZM14.9355 10.5H9.06454C9.02232 10.9837 9 11.4851 9 12C9 12.5149 9.02232 13.0163 9.06454 13.5H14.9355C14.9777 13.0163 15 12.5149 15 12C15 11.4851 14.9777 10.9837 14.9355 10.5ZM16.4407 13.5C16.4798 13.0113 16.5 12.51 16.5 12C16.5 11.49 16.4798 10.9887 16.4407 10.5H19.35C19.4484 10.9847 19.5 11.4863 19.5 12C19.5 12.5137 19.4484 13.0153 19.35 13.5H16.4407ZM14.732 15H9.26799C9.44812 15.9628 9.7109 16.8188 10.0311 17.5233C10.6869 18.9659 11.4394 19.5 12 19.5C12.5606 19.5 13.3131 18.9659 13.9689 17.5233C14.2891 16.8188 14.5519 15.9628 14.732 15ZM14.9435 18.9003C15.0857 18.6583 15.2161 18.4044 15.3344 18.144C15.7416 17.2482 16.0563 16.1788 16.2555 15H18.8759C18.1118 16.749 16.6999 18.1501 14.9435 18.9003ZM9.05648 18.9003C8.9143 18.6583 8.78395 18.4044 8.66557 18.144C8.25841 17.2482 7.94369 16.1788 7.74448 15H5.12407C5.88822 16.749 7.3001 18.1501 9.05648 18.9003Z\" fill=\"#5E5E5E\" stroke=\"white\" stroke-width=\"0.2\"></path> </svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/primary-inline.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/primary-inline.svg",
+            "origin_url": null,
+            "description": "NVIDIA Primary Logo - Inline SVG"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/primary-inline-2.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/primary-inline-2.svg",
+            "origin_url": null,
+            "description": "NVIDIA Primary Logo Alternate - Inline SVG"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/secondary-inline.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/secondary-inline.svg",
+            "origin_url": null,
+            "description": "NVIDIA Secondary Logo - Inline SVG"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/secondary.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/secondary.svg",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/mfg/gtc26-logo-black.svg",
+            "description": "NVIDIA GTC Logo Black"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/monochrome.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/logos/monochrome.svg",
+            "origin_url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/common/nvidia-logo-white.svg",
+            "description": "NVIDIA Logo White"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/open-graph-image.jpg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/open-graph-image.jpg",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/sfg/nvidia-corporate-og-image-1200x630.jpg",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "gtc26-animated-wmfg-desktop.webm",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/video/gtc26-animated-wmfg-desktop-webm.webm",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/video/gtc26-animated-wmfg-desktop-webm.webm",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/mfg/gtc26-animated-wmfg-desktop.webm",
+            "usage_context": "Hero background video animation for GTC."
+          },
+          {
+            "name": "gtc26-animated-wmfg-desktop.mp4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/video/gtc26-animated-wmfg-desktop-mp4.mp4",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/video/gtc26-animated-wmfg-desktop-mp4.mp4",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/mfg/gtc26-animated-wmfg-desktop.mp4",
+            "usage_context": "Hero background video animation for GTC."
+          },
+          {
+            "name": "gtc26-berlin-web-wmfg-phase4-offset-d.jpg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/gtc26-berlin-web-wmfg-phase4-offset-d-jpg.jpg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/gtc26-berlin-web-wmfg-phase4-offset-d-jpg.jpg",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/mfg/gtc26-berlin-web-wmfg-phase4-offset-d.jpg",
+            "usage_context": "Hero section background image for GTC Berlin."
+          },
+          {
+            "name": "gtc26-web-skinny-blade-bm-sm300-offset-left-d.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/gtc26-web-skinny-blade-bm-sm300-offset-left-d-png.png",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/gtc26-web-skinny-blade-bm-sm300-offset-left-d-png.png",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/mfg/gtc26-web-skinny-blade-bm-sm300-offset-left-d.png",
+            "usage_context": "Hero section overlay image."
+          },
+          {
+            "name": "nvidia-rtx-spark-sfg-pre-order-now-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1722277565106.coreimg.100{.width}.jpeg/1791903132384/nvidia-rtx-spark-sfg-pre-order-now-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "telco-tech-blog-blueprint-25-sfg-1920x1080.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1669196241041.coreimg.100{.width}.png/1791903132421/telco-tech-blog-blueprint-25-sfg-1920x1080.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "pinterest-cs-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1760642695091.coreimg.100{.width}.jpeg/1791903132478/pinterest-cs-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "new-nvidia-ai-for-media.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1711342352043.coreimg.100{.width}.jpeg/1791903132513/new-nvidia-ai-for-media.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-and-palantir-partnership-lockup-h-on-dark-ari.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1691512647007.coreimg.100{.width}.png/1791903132549/nvidia-and-palantir-partnership-lockup-h-on-dark-ari.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Partnership announcement thumbnail."
+          },
+          {
+            "name": "nvidia-crowdstrike-fal-con-2026-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1669196231595.coreimg.100{.width}.jpeg/1791903132571/nvidia-crowdstrike-fal-con-2026-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-and-perplexity-partnership-lockup-h-on-dark-ari.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1669196231595_c_431732407.coreimg.100{.width}.png/1791903132616/nvidia-and-perplexity-partnership-lockup-h-on-dark-ari.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Partnership announcement thumbnail."
+          },
+          {
+            "name": "nvidia-vera-cpu-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1722277565106_c.coreimg.100{.width}.jpeg/1791903132665/nvidia-vera-cpu-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nv-raig-weekly-kit-10132026-ari.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1722277565106_c_1801676144.coreimg.100{.width}.jpeg/1791903132702/nv-raig-weekly-kit-10132026-ari.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-rtx-ai-pc-dhc-nv-app-hero-1920x1080.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374/item_1670311956184.coreimg.100{.width}.png/1791903132737/nvidia-rtx-ai-pc-dhc-nv-app-hero-1920x1080.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "ov-x-astra-social-li-1200x628.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1710799952318.coreimg.100{.width}.png/1791903132936/ov-x-astra-social-li-1200x628.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "physical-ai-ta-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/nv_teaser_copy_20067.coreimg.100{.width}.jpeg/1791903132956/physical-ai-ta-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "ov-msignite-23-auto-build-1920x1080-v2.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1721986382382.coreimg.100{.width}.jpeg/1791903133003/ov-msignite-23-auto-build-1920x1080-v2.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "aeco-social-arup-1920x1080.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1722403062839.coreimg.100{.width}.png/1791903133038/aeco-social-arup-1920x1080.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "dac2026-sfg-2x.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1717141705488.coreimg.100{.width}.jpeg/1791903133061/dac2026-sfg-2x.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "ovrtx-sfg-1920x1080-5408654-alt.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1669209933306.coreimg.100{.width}.jpeg/1791903133097/ovrtx-sfg-1920x1080-5408654-alt.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "zalando-x-allsides-sfg-2x.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/nv_teaser_copy_2006776514.coreimg.100{.width}.jpeg/1791903133165/zalando-x-allsides-sfg-2x.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "new-autonomous-agent-engineer-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/nv_teaser_copy_copy.coreimg.100{.width}.jpeg/1791903133234/new-autonomous-agent-engineer-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-tsmc-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1669209928773.coreimg.100{.width}.jpeg/1791903133304/nvidia-tsmc-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "dassault-sfg.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1676348880688.coreimg.100{.width}.png/1791903133364/dassault-sfg.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "hannover-messe-blog-sfg-3.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20nv_carousel_10568374/item_1669209935575.coreimg.100{.width}.jpeg/1791903133413/hannover-messe-blog-sfg-3.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "quantum-cuda-q-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/nv_teaser_copy.coreimg.100{.width}.jpeg/1791903133629/quantum-cuda-q-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "hpc-top500-sfg-multi-image.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/nv_teaser_copy_copy_.coreimg.100{.width}.jpeg/1791903133699/hpc-top500-sfg-multi-image.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidai-vera-1920x1080-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/item_1678778522015.coreimg.100{.width}.jpeg/1791903133760/nvidai-vera-1920x1080-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "cuda-press-corp-blog-isc26-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/nv_teaser_copy_20067.coreimg.100{.width}.jpeg/1791903133809/cuda-press-corp-blog-isc26-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "hpc-jupiter-julich-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/item_1730558280916.coreimg.100{.width}.jpeg/1791903133879/hpc-jupiter-julich-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-ai-supercomputers-sfg-2x.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/item_1731658011588.coreimg.100{.width}.jpeg/1791903133897/nvidia-ai-supercomputers-sfg-2x.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "cuda-kv-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/item_1715357004595.coreimg.100{.width}.jpeg/1791903133910/cuda-kv-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-cuda-cuest-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_662431768/item_1706106769086.coreimg.100{.width}.jpeg/1791903133932/nvidia-cuda-cuest-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-rtx-spark-sfg-pre-order-now-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1677208629930_c_1661972703.coreimg.100{.width}.jpeg/1791903134166/nvidia-rtx-spark-sfg-pre-order-now-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "geforce-rtx-50series-nv-sfg-thumbnail-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1677208629930_c.coreimg.100{.width}.jpeg/1791903134221/geforce-rtx-50series-nv-sfg-thumbnail-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "geforce-50-series-laptops-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1669368462550_c_1050400531.coreimg.100{.width}.jpeg/1791903134277/geforce-50-series-laptops-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops-ogimage.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1745916215369_c.coreimg.100{.width}.jpeg/1791903134323/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops-ogimage.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "rtx-spark-game-announcements-nv-sfg-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/nv_teaser_copy.coreimg.100{.width}.jpeg/1791903134336/rtx-spark-game-announcements-nv-sfg-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gears-of-war-26-nv-sfg-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1745916215369_c_1843039778.coreimg.100{.width}.jpeg/1791903134396/gears-of-war-26-nv-sfg-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "val-fwg-nv-sfg-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1745916215369.coreimg.100{.width}.jpeg/1791903134409/val-fwg-nv-sfg-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gears-of-war-26-nv-sfg-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1677208629930_c_1548045980.coreimg.100{.width}.jpeg/1791903134421/gears-of-war-26-nv-sfg-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nv-raig-weekly-kit-10132026-ari.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1669368462550.coreimg.100{.width}.jpeg/1791903134478/nv-raig-weekly-kit-10132026-ari.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nv-app-hero-1920x1080.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_1056837463/item_1669368462550_c_1643339010.coreimg.100{.width}.png/1791903134523/nv-app-hero-1920x1080.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "auto-robotaxi-hero-kv-blog-r7-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy.coreimg.100{.width}.jpeg/1791903134746/auto-robotaxi-hero-kv-blog-r7-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "alpamayo-2-launch-kv-sfg-1920x1080-jpg.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy_20067.coreimg.100{.width}.png/1791903134818/alpamayo-2-launch-kv-sfg-1920x1080-jpg.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-and-company-toyota-partnership-lockup-h-on-dark-ari.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy_copy.coreimg.100{.width}.png/1791903134878/nvidia-and-company-toyota-partnership-lockup-h-on-dark-ari.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Partnership announcement thumbnail."
+          },
+          {
+            "name": "auto-promo-hyperion-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy_20067_437839001.coreimg.100{.width}.jpeg/1791903134947/auto-promo-hyperion-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtctpe26-auto-banners-alpamayo-super-295x166.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy_20067_2104660498.coreimg.100{.width}.png/1791903135017/gtctpe26-auto-banners-alpamayo-super-295x166.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "hyundai-kia-motional-cobrand-tech-blog-1920x1080.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy_20067_1598062812.coreimg.100{.width}.png/1791903135086/hyundai-kia-motional-cobrand-tech-blog-1920x1080.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Partnership announcement thumbnail."
+          },
+          {
+            "name": "av-special-address-sfg.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/item_1673404136944.coreimg.100{.width}.png/1791903135155/av-special-address-sfg.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-drive-hyperion-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/item_1673245523380.coreimg.100{.width}.jpeg/1791903135214/nvidia-drive-hyperion-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtc26-av-targeted-agemda-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/item_1672225972353.coreimg.100{.width}.jpeg/1791903135280/gtc26-av-targeted-agemda-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "cla-ncap-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1125374829/nv_teaser_copy_copy_.coreimg.100{.width}.jpeg/1791903135336/cla-ncap-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "robotics-sfg-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/Copy%20of%20nv_teaser_copy_copy.coreimg.100{.width}.jpeg/1791903135563/robotics-sfg-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "robotics-pr-halos-1600x900.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/nv_teaser_copy_copy.coreimg.100{.width}.png/1791903135642/robotics-pr-halos-1600x900.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "robotics-roscon-ari-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/item_1669214501170.coreimg.100{.width}.jpeg/1791903135712/robotics-roscon-ari-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtc-berlin-26-robotics-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/nv_teaser_copy_2006776514.coreimg.100{.width}.jpeg/1791903135770/gtc-berlin-26-robotics-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "robotics-promo-pack-new-nano-2-1920x1080.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/item_1669214522256.coreimg.100{.width}.jpeg/1791903135839/robotics-promo-pack-new-nano-2-1920x1080.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "actuate-2026.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/item_1669214460399.coreimg.100{.width}.jpeg/1791903135883/actuate-2026.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "firefly-aerospace-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/item_1669214511621.coreimg.100{.width}.jpeg/1791903135940/firefly-aerospace-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "robotics-halos-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/copy_of_copy_of_nv_c/item_1669214491821.coreimg.100{.width}.jpeg/1791903135984/robotics-halos-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "cisco-usfp-26-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/nv_teaser_copy_20067.coreimg.100{.width}.jpeg/1791903136179/cisco-usfp-26-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-gtc26-dsx-demo-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1678809496331.coreimg.100{.width}.jpeg/1791903136258/nvidia-gtc26-dsx-demo-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "fungibility-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1678779645907.coreimg.100{.width}.jpeg/1791903136281/fungibility-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-and-coreweave-partnership-lockup-h-on-dark-ari.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1678851189000.coreimg.100{.width}.png/1791903136303/nvidia-and-coreweave-partnership-lockup-h-on-dark-ari.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Partnership announcement thumbnail."
+          },
+          {
+            "name": "mlperf-inference-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1679115425536.coreimg.100{.width}.jpeg/1791903136339/mlperf-inference-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "ai-infra-26-ian-buck-sfg-multi-image.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/Copy%20of%20nv_teaser_copy_copy.coreimg.100{.width}.jpeg/1791903136386/ai-infra-26-ian-buck-sfg-multi-image.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-and-amazon-web-services-partnership-lockup-v-on-dark-ari.png",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/nv_teaser_copy.coreimg.100{.width}.png/1791903136446/nvidia-and-amazon-web-services-partnership-lockup-v-on-dark-ari.png",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Partnership announcement thumbnail."
+          },
+          {
+            "name": "cpu-vera-activation-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1678779645907_c.coreimg.100{.width}.jpeg/1791903136506/cpu-vera-activation-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "corporate-nvidia-in-brief.pdf",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/corporate-nvidia-in-brief-pdf.pdf",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/corporate-nvidia-in-brief-pdf.pdf",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/corporate-nvidia-in-brief.pdf",
+            "usage_context": "Downloadable corporate brief PDF."
+          },
+          {
+            "name": "gtc26-berlin-web-phase4-sfg-2x.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/item_1675738746388.coreimg.100{.width}.jpeg/1791903136697/gtc26-berlin-web-phase4-sfg-2x.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtc26-berlin-light-kv-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/item_1689310129402.coreimg.100{.width}.jpeg/1791903136753/gtc26-berlin-light-kv-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-made-in-america-2026-blog-ari.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/nv_teaser_copy.coreimg.100{.width}.jpeg/1791903136766/nvidia-made-in-america-2026-blog-ari.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-siggraph26-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/item_1686651298451.coreimg.100{.width}.jpeg/1791903136893/nvidia-siggraph26-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtc26-tpe-phase3-keynote-sfg-1920x1080-enen-4877850.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/item_1692804644222.coreimg.100{.width}.jpeg/1791903136916/gtc26-tpe-phase3-keynote-sfg-1920x1080-enen-4877850.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtc26-tpe-phase3-keynote-pregame-sfg-1920x1080-enen-4979800.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/item_1689080649212_c.coreimg.100{.width}.jpeg/1791903136929/gtc26-tpe-phase3-keynote-pregame-sfg-1920x1080-enen-4979800.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "gtc26-pregame-ari.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/nv_teaser_copy_copy.coreimg.100{.width}.jpeg/1791903136952/gtc26-pregame-ari.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "jhh-5-layer-cake-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/nv_teaser_copy_copy_.coreimg.100{.width}.jpeg/1791903137013/jhh-5-layer-cake-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "nvidia-corporate-brochure-sfg.jpeg",
+            "type": "image",
+            "url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/home/_jcr_content/root/responsivegrid/nv_carousel_10568374_1427616877/item_1697780118963.coreimg.100{.width}.jpeg/1791903137073/nvidia-corporate-brochure-sfg.jpeg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Thumbnail image for blog, news, or event announcement card."
+          },
+          {
+            "name": "NVIDIA-Story.pdf",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/nvidia-story-pdf.pdf",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/nvidia-story-pdf.pdf",
+            "origin_url": "https://images.nvidia.com/aem-dam/Solutions/homepage/pdf/NVIDIA-Story.pdf",
+            "usage_context": "Downloadable NVIDIA story PDF."
+          },
+          {
+            "name": "ot_persistent_cookie_icon.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/ot-persistent-cookie-icon-png.png",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/image/ot-persistent-cookie-icon-png.png",
+            "origin_url": "https://cdn.cookielaw.org/logos/static/ot_persistent_cookie_icon.png",
+            "usage_context": "Cookie preferences persistent icon."
+          },
+          {
+            "name": "ic_open_in_new_24px.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/ic-open-in-new-24px-svg.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/ic-open-in-new-24px-svg.svg",
+            "origin_url": "https://www.nvidia.com/content/dam/en-zz/Solutions/SHIELD/overview/phase2/sliders/ic_open_in_new_24px.svg",
+            "usage_context": "UI icon for opening external links."
+          },
+          {
+            "name": "search-green.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/search-green-svg.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/search-green-svg.svg",
+            "origin_url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/search-green.svg",
+            "usage_context": "Green search UI icon."
+          },
+          {
+            "name": "Search.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/search-svg.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/search-svg.svg",
+            "origin_url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/Search.svg",
+            "usage_context": "Search UI icon."
+          },
+          {
+            "name": "icon-expand-white.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/icon-expand-white-svg.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/icon-expand-white-svg.svg",
+            "origin_url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/icon-expand-white.svg",
+            "usage_context": "White expand UI icon."
+          },
+          {
+            "name": "icon-expand-green.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/icon-expand-green-svg.svg",
+            "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/site-assets/media/illustration/icon-expand-green-svg.svg",
+            "origin_url": "https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/icon-expand-green.svg",
+            "usage_context": "Green expand UI icon."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/x/2de209a8-0178-4ba8-aa46-007e6117c918.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "White NVIDIA eye emblem and wordmark centered on a bright green square background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/x/ec312145-886d-4e09-9de6-ee84f0f427c4.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Abstract lime-green layered ribbons curl into a dark, eye-shaped spiral on a white-to-green gradient background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/x/50b9aeb6-1b67-45f0-b5ab-4ba910d0c564.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Two men applaud before a large black event backdrop densely covered with white corporate logos and a prominent red map of France."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/x/b37a3a6f-5420-4923-bcb5-b5a2cdcbe999.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A gray-haired man in glasses and a black leather jacket signs a tablet before a vivid lime-green NVIDIA-branded backdrop."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/x/dfa97f99-1ddf-4b41-a9dd-6f2632c6e898.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A man in a black leather jacket points before a sponsor wall covered in white logos, with a central map of France in blue, white, and red."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/linkedin/cc979d4c-a76b-4f93-aa0b-831b34603433.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Three smiling coworkers walk through a bright office; the man wears a white T-shirt with a prominent green NVIDIA logo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/google_ads/9d7d3666-371f-4d0c-abd9-cce0b7df3412.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "NVIDIA blog graphic pairs a white NVIDIA-branded spacecraft in a dark server room with large efficiency claims and a blue “Learn More” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/linkedin/227c81a9-e48f-4263-bdde-cc88884498fb.png",
+            "source": "linkedin",
+            "content_type": "image/png",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "OpenAI, SB Energy, and NVIDIA logos appear in a centered horizontal row on black, with white lettering and NVIDIA’s bright green emblem."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/x/89ad0e23-3849-4f82-af5e-b5cfad6d7cd9.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Travel graphic reads “Bonjour, Paris” beside a red heart and Eiffel Tower photo, framed by a bright green diagonal border and pale geometric pattern."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/linkedin/88e67040-b43b-4a8b-b05a-26d382db4434.png",
+            "source": "linkedin",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A stylized computer server array feeds glowing gold lines to four floating screens showing scientific graphs, equations, and 3D visualizations."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/google_ads/9909944b-d6cd-470c-952f-46a9e02f1363.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "NVIDIA webpage promoting “AI Factory: Buy or Rent?” with a gray data-center illustration, green connected icons, and a blue Download button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/meta_ads/022e200f-4725-47c0-95dd-f27d33347bdb.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "NVIDIA GTC Washington, D.C. promotional graphic shows a silver-haired speaker in a black leather jacket beside bold white “See What’s Next in AI” text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/instagram_highlights/6409bafc-158f-45ee-8c4c-e8ef08f87797.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A white NVIDIA T-shirt with a detailed black-and-green illustration is centered beneath bold “CHOOSE YOUR GEAR” text on a black background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/instagram_highlights/55f05025-bd63-4fd1-8e6e-e012cb5f78cb.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Green promotional graphic with bold white text announcing exclusive NVIDIA GTC Berlin merchandise and a centered white “Join us!” button with blue link icon."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/meta_ads/064d3983-934d-4438-9939-b8f592d34e48.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "NVIDIA GTC event poster pairs a speaker in a leather jacket with two humanoid robots, on a geometric white background with October 20–22 | Berlin."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/instagram_highlights/f4659df8-3eb7-41d0-89d3-7e7820380fe0.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A presenter holding a bright green microphone stands beneath a vivid green NVIDIA GTC sign with bold white lettering and logo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/meta_ads/94ef1d9e-51f8-497a-95d5-d9a819be9ae2.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "An NVIDIA GTC event entrance features a bright green branded wall, a sponsor-logo banner, and black queue barriers."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/billboard/64b2fb27-b50e-456e-b11d-c8dd352ad304.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A towering green NVIDIA GTC banner on a metal building reads “Get Ready to Experience AI in Action,” against a clear blue sky."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/instagram_highlights/e2cf7ccf-2ad0-4ab1-be60-74b1e61d8f3c.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Crowd entering a vivid green NVIDIA event pavilion, with the white NVIDIA logo above the entrance and “Keynote starting soon!” overlay text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/billboard/ac79d14f-84e1-4f7b-8832-d744d05743b8.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A smiling man stands beneath a billboard featuring Snowflake and NVIDIA logos, bold “A WINNING PAIR” typography, and blue accents."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/billboard/2763218a-2d8b-4ce5-b318-8fc748bafbd8.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A roadside billboard against a blue sky pairs Snowflake and NVIDIA logos above bold text reading “A WINNING PAIR.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/billboard/86a9827a-b0ed-41c5-a9fa-5fee11abc9dc.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A curved lime-green Nasdaq billboard on a city building reads “Celebrating GeForce 256,” with NVIDIA branding and computer imagery."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/billboard/a0cb2e4d-3b72-4341-8b60-85939ba6ec8f.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A curved Nasdaq billboard on a New York skyscraper displays a purple-to-blue gradient, oversized “25,” and NVIDIA branding."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/brand-media/billboard/6e1ede69-f529-4bed-a043-b220c1b754f9.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A futuristic black-and-neon-green gaming PC display wraps around a building corner, with glowing internals and oversized fans."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Cookie/Privacy Consent Modal",
+          "layout_pattern": "Centered modal overlay",
+          "headline": "NVIDIA.com uses cookies to improve your experience...",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Manage Settings - outline button with dark border"
+            },
+            {
+              "type": "button",
+              "description": "Reject Optional - outline button with dark border"
+            },
+            {
+              "type": "button",
+              "description": "Accept All - solid black/dark background button"
+            }
+          ]
+        },
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal fixed header",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "NVIDIA logo in white/light color on left side"
+            },
+            {
+              "type": "icon",
+              "description": "Search icon"
+            },
+            {
+              "type": "icon",
+              "description": "User menu icon"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered with background image",
+          "headline": "Watch NVIDIA CEO Jensen Huang's Keynote From Berlin",
+          "subheadline": "October 11, 11am, Live | GTC 2025",
+          "components": [
+            {
+              "type": "image",
+              "description": "Dark background with digital/circuit patterns and blue accent lighting"
+            },
+            {
+              "type": "button",
+              "description": "+ Register - bright green NVIDIA brand color CTA"
+            }
+          ]
+        },
+        {
+          "type": "Event Promotion",
+          "layout_pattern": "Split layout - text left, logo right",
+          "headline": "GTC Washington, DC",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Learn More - outline or minimal style button"
+            },
+            {
+              "type": "logo",
+              "description": "NVIDIA GTC logo card on dark green background"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - Artificial Intelligence",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "Artificial Intelligence",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Tech/AI related photos in grid layout"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green accent indicators"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - Design and Simulation",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "Design and Simulation",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Design software and 3D rendering screenshots in grid"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green accents"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - High-Performance Computing",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "High-Performance Computing",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Computing infrastructure and data visualization images"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green highlights"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - Gaming and Creating",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "Gaming and Creating",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Gaming graphics and creative tools screenshots"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green accents"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - Automotive",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "Automotive",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Autonomous vehicles and car technology images"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green highlights"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - Robotics and Edge AI",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "Robotics and Edge AI",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Robots, edge computing devices, AI applications"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green accents"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - Data Center and Cloud",
+          "layout_pattern": "Split - text left, image grid right (2 columns)",
+          "headline": "Data Center and Cloud",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Data center hardware and cloud infrastructure photos"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green indicators"
+            }
+          ]
+        },
+        {
+          "type": "Content Section - About NVIDIA",
+          "layout_pattern": "Split - text left, large image right",
+          "headline": "About NVIDIA",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Corporate/leadership photo or graphic"
+            },
+            {
+              "type": "button",
+              "description": "Quick Links - text links with green accents"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column layout",
+          "headline": "Company Information",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Link sections for Company, Products, Support"
+            },
+            {
+              "type": "form",
+              "description": "Email signup form"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons"
+            },
+            {
+              "type": "button",
+              "description": "Email submit button in green"
+            },
+            {
+              "type": "navigation",
+              "description": "Legal/privacy links"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": null
+    }
+  }
+}

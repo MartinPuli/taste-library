@@ -1,0 +1,2031 @@
+{
+  "company": "Cursor",
+  "rank": 14,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://cursor.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:30.190454Z",
+  "completed_at": "2026-09-18T05:31:56.956697Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Cursor",
+        "tagline": null,
+        "source_url": "https://cursor.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / Developer Tools / AI",
+        "primary_purpose": "Drive product downloads and demo requests for AI-powered coding assistant platform",
+        "main_cta": "Download for macOS",
+        "copy_tone": [
+          "Confident",
+          "Technical",
+          "Direct"
+        ],
+        "brand_signature": "Cursor employs a sophisticated warm neutral palette with cream backgrounds (#f7f7f4) and deep olive-brown foregrounds (#26251e), creating an editorial, premium feel. The visual system combines product UI demonstrations with subtle card-based layouts and refined typography, projecting technical credibility while maintaining approachability through generous whitespace and soft shadows.",
+        "visual_language": {
+          "keywords": [
+            "editorial",
+            "technical",
+            "premium",
+            "utilitarian",
+            "warm-neutral",
+            "product-forward"
+          ],
+          "accent_strategy": "Orange accent (#f54e00) used sparingly for primary CTAs and interactive highlights, creating focal points against the muted warm palette",
+          "highlights": "Interactive product demos and mock IDE windows serve as primary visual anchors, with subtle card borders and soft shadows providing depth hierarchy"
+        },
+        "strategy": {
+          "target_audience": [
+            "Professional software engineers seeking AI-assisted coding tools",
+            "Engineering teams at enterprises evaluating developer productivity solutions",
+            "Technical leaders and CTOs exploring AI integration for development workflows",
+            "Individual developers wanting to accelerate coding with intelligent assistance"
+          ],
+          "executive_synthesis": "Cursor's visual strategy positions itself as the premium, intelligent choice for AI-assisted coding by combining warm editorial aesthetics with deeply technical product demonstrations. The sophisticated warm-neutral palette differentiates from competitor cold tech aesthetics while the extensive interactive demos communicate capability without requiring explanation. The enterprise logo garden (Stripe, Linear, Figma) and dual CTA structure (Download + Request Demo) target both individual developers and enterprise buyers simultaneously, supporting a product-led growth model with enterprise expansion potential."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The screenshot reveals a design with exceptional clarity and systematic organization that strongly aligns with Swiss Style principles. The warm off-white/cream background (#F7F7F4, #F2F1ED) is a hallmark of Swiss Style—not pure white, but the \"aged paper\" warmth described in the taxonomy. The layout demonstrates strict grid-based organization with a 24-column system, generous whitespace, and left-aligned/flush text hierarchy. Typography is clean, modern sans-serif (CursorGothic) with mathematical precision in sizing (4.5rem → 2.25rem → 1.625rem) and tight line-heights (1.1-1.3). The monochromatic color scheme—graphite (#26251E) on cream with a single orange accent (#F54E00)—embodies Swiss objectivity. Photography/screenshots dominate over illustration, another Swiss hallmark. The design achieves communication through clarity rather than decoration, with subtle 1px borders and systematic spacing rhythms.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The secondary Corporate modifier is evident through several professional signals: the logo garden featuring enterprise brands (Stripe, Adobe, Figma, OpenAI), testimonial sections, structured feature presentations with \"Learn more →\" CTAs, and the overall trust-building hierarchy. The restrained color palette with extreme accent color discipline (orange reserved only for tertiary links), the dense product mockups showcasing IDE interfaces, and the systematic multi-column footer all reinforce professional credibility. The glassmorphism effects noted in the surfaces profile (backdrop-filter blur with semi-transparent overlays) add a contemporary tech-corporate polish without compromising the foundational Swiss clarity."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 24,
+          "gutter": "calc(10rem / 16)",
+          "max_width": "1300px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 419px (1 Column, 16px gutter)",
+          "tablet": "420px - 899px (8 Columns, 16px gutter)",
+          "desktop": "900px - 1380px (24 Columns, calc(10rem / 16) gutter)",
+          "large": "1380px+ (24 Columns, calc(10rem / 16) gutter)"
+        },
+        "section_separation": "Sections alternate between light beige/cream background (#f7f7f4) and white card backgrounds (#f2f1ed). Generous vertical whitespace (calc(1rem * 1.4 * 3) to calc(1rem * 1.4 * 6)) separates major blocks. Subtle 1px borders (var(--color-theme-border-01)) on cards and media containers. No strong horizontal rules—separation achieved through background color shifts and spatial rhythm.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]          [Nav Links]          [Sign In] [Button] │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│   Cursor is your coding agent for                       │\n│   engineering in the AI age                              │\n│   [Start building for free]  [Get a Demo]               │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │     [Screenshot: Coding interface with panels]    │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                          │\n│         Recommended by builders from top companies       │\n├──────────────────────────────────────────────────────────┤\n│  [stripe] [O logo] [Lyonel] [W logo] [Figma] [openai]  │\n│  [O logo] [databricks] [Adobe]                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │     [Screenshot: Side-by-side code panels]        │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                          │\n│   Agents auto-release into code                         │\n│   [descriptive text about feature]                      │\n│   [Learn more about agents →]                           │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │     [Screenshot: Code editor with sidebar]        │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                          │\n│   Write, autocomplete, even if needed                   │\n│   [descriptive text]                                    │\n│   [Learn more about Cursor Tab →]                       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │     [Screenshot: Multiple code files/chat]        │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                          │\n│   Or every rule of every step                           │\n│   [descriptive text about debugging]                    │\n│   [Learn more about debugging →]                        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │     [Screenshot: Simple form interface]           │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n│                                                          │\n│   Automatic migrations work                             │\n│   [descriptive text]                                    │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│            The new way to build software.                │\n│                                                          │\n│  ┌──────────┐  ┌──────────┐  ┌──────────┐              │\n│  │ [Feature]│  │ [Feature]│  │ [Feature]│              │\n│  │  text    │  │  text    │  │  text    │              │\n│  │ Read More│  │ Read More│  │ Read More│              │\n│  └──────────┘  └──────────┘  └──────────┘              │\n│                                                          │\n│  ┌──────────┐  ┌──────────┐  ┌──────────┐              │\n│  │ [Feature]│  │ [Feature]│  │ [Feature]│              │\n│  │  text    │  │  text    │  │  text    │              │\n│  │ Read More│  │ Read More│  │ Read More│              │\n│  └──────────┘  └──────────┘  └──────────┘              │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Stop me the Second                                      │\n│                                                          │\n│  ┌────────────────┐  ┌─────────────────────────┐        │\n│  │ [Code snippet] │  │ [Mobile app screenshot] │        │\n│  └────────────────┘  └─────────────────────────┘        │\n│                                                          │\n│  [Descriptive text]  [Descriptive text]                 │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Debugging                                               │\n│                                                          │\n│  ┌──────────┐  ┌──────────┐  ┌──────────┐              │\n│  │ Feature  │  │ Feature  │  │ Feature  │              │\n│  │ text     │  │ text     │  │ text     │              │\n│  └──────────┘  └──────────┘  └──────────┘              │\n│                                                          │\n│  [Learn more about debugging →]                         │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [Large background graphic/image]                       │\n│  \"Cursor is helping us build                            │\n│  the future of software development.\"                   │\n│  - [attribution]                                        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Recent highlights                                       │\n│                                                          │\n│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐        │\n│  │ Video  │  │ Video  │  │ Video  │  │ Video  │        │\n│  │ thumb  │  │ thumb  │  │ thumb  │  │ thumb  │        │\n│  │ [text] │  │ [text] │  │ [text] │  │ [text] │        │\n│  └────────┘  └────────┘  └────────┘  └────────┘        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│              Try Cursor now.                             │\n│         [Download for free]                              │\n│                                                          │\n│              [macOS] [Windows] [Linux]                   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  PRODUCT     DOWNLOAD    RESOURCES                       │\n│  [links]     [links]     [links]      [Privacy/Terms]   │\n│  COMPANY     CURSOR      SUPPORT                         │\n│  [links]     [links]     [links]      [Social icons]    │\n│                                                          │\n│  [© Privacy Policy  Terms of Service  Privacy Notice]   │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: White/light blur overlay\n- Buttons/CTAs: \"Sign In\" (text link, dark) | Right button (solid dark, rounded)\n- Colors observed: White background, dark text, minimal contrast\n- Typography mood: Clean, modern sans-serif\n\nHERO:\n- Background: Light beige/cream\n- Buttons/CTAs: \"Start building for free\" (solid dark button, rounded) | \"Get a Demo\" (outline/ghost button, rounded)\n- Typography mood: Bold headline, large font size\n- Colors observed: Dark text on light background\n\nHERO IMAGE SECTION:\n- Background: Light beige/cream\n- Imagery: Large screenshot showing code editor interface with multiple panels, light theme, clean UI\n- Components: Embedded browser-style mockup with rounded corners and subtle shadow\n\nLOGO BANNER:\n- Background: White/light\n- Imagery: Monochrome company logos arranged horizontally\n- Colors observed: Black/dark gray logos on white\n- Typography mood: Corporate, clean\n\nFEATURE SECTION 1 (Agents):\n- Background: Light beige/cream\n- Imagery: Screenshot showing side-by-side code comparison panels\n- Buttons/CTAs: \"Learn more about agents →\" (text link with arrow, orange/coral color)\n- Colors observed: Coral/orange accent for links\n- Components: Descriptive text in smaller font\n\nFEATURE SECTION 2 (Autocomplete):\n- Background: Light beige/cream\n- Imagery: Code editor screenshot with sidebar navigation\n- Buttons/CTAs: \"Learn more about Cursor Tab →\" (text link with arrow, orange/coral)\n- Colors observed: Light interface with subtle borders\n- Components: Clean card-style layout\n\nFEATURE SECTION 3 (Debugging):\n- Background: Light beige/cream\n- Imagery: Multiple code file windows with chat interface overlay\n- Buttons/CTAs: \"Learn more about debugging →\" (text link with arrow, orange/coral)\n- Colors observed: Purple/lavender accents in code UI\n- Components: Overlapping panel design\n\nFEATURE SECTION 4 (Migrations):\n- Background: Light beige/cream\n- Imagery: Simple form interface screenshot, minimal design\n- Colors observed: White form on light background\n- Components: Clean, centered layout with descriptive text\n\nFEATURES GRID (New way to build):\n- Background: Off-white/cream\n- Components: 6 feature cards in 2 rows of 3\n- Buttons/CTAs: Each card has \"Read More\" (text link, dark)\n- Typography mood: Centered headlines, body text\n- Colors observed: Neutral palette with dark text\n\nPLATFORM SHOWCASE:\n- Background: Light beige\n- Imagery: Code snippet on left, mobile app mockup on right\n- Components: Split layout, screenshots with subtle shadows\n- Colors observed: Dark code editor, white mobile interface\n\nDEBUGGING FEATURES:\n- Background: Light/white\n- Components: 3 feature descriptions in row\n- Buttons/CTAs: \"Learn more about debugging →\" (text link, orange/coral)\n- Typography mood: Clean, minimal\n\nTESTIMONIAL:\n- Background: Large background image (muted/soft focus)\n- Typography mood: Large quote text, attribution\n- Colors observed: Light text overlay on image\n- Components: Full-width background treatment\n\nVIDEO HIGHLIGHTS:\n- Background: White/light\n- Components: 4 video thumbnail cards with play buttons\n- Imagery: Screenshot thumbnails with text labels\n- Colors observed: Colorful thumbnails, white cards\n- Typography mood: Small labels beneath thumbnails\n\nFINAL CTA:\n- Background: White\n- Buttons/CTAs: \"Download for free\" (solid dark button, large, rounded)\n- Typography mood: Bold, centered headline\n- Components: Platform selector (macOS/Windows/Linux as text links)\n- Colors observed: Dark button on white background\n\nFOOTER:\n- Background: White\n- Components: Multi-column link layout\n- Typography mood: Small, organized by category\n- Buttons/CTAs: Social media icons (right side)\n- Colors observed: Dark gray text on white\n- Components: Legal links at bottom, minimal styling",
+        "insights": [
+          "24-column grid system provides extreme flexibility for asymmetric layouts and precise alignment, with columns collapsing to 8 (tablet) and 1 (mobile).",
+          "Generous vertical spacing creates breathing room; sections use calc(1rem * 1.4) vertical rhythm multipliers (v1, v2, v3, v6) for consistent scale.",
+          "Interactive demo windows with resizable chrome and realistic product mockups dominate visual hierarchy; all feature sections pair text with large-scale product screenshots.",
+          "Minimal color palette: light beige/cream backgrounds, dark text, coral/orange accent (#f54e00) for links and CTAs. Dark buttons (#26251e) with rounded corners (3.40282e38px = fully rounded).",
+          "Typography hierarchy uses variable font sizes (1rem base, 1.375rem md, responsive scaling) with tight letter-spacing (-.005em to .01em) and modest line-heights (1.3-1.5)."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Graphite",
+            "type": "Dark",
+            "rules": {
+              "description": "Serves as the foundational ink color for high-contrast readability and solid interactive elements.",
+              "when_to_use": [
+                "Primary body text and headings",
+                "\"Download for macOS\" primary CTA background",
+                "Window borders and text in product mockups",
+                "Partner SVG logos in the logo garden"
+              ]
+            },
+            "hex": "#26251E",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#141414",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#1F211D",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#3A3A3C",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#3C3935",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#111110",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#1A1A1A",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#1C1C1E",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#2C2C2E",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#24231C",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0276
+          },
+          {
+            "name": "Paper",
+            "type": "Light",
+            "rules": {
+              "description": "Provides a warm, layered base for the page and its structural elements, reducing eye strain compared to pure white.",
+              "when_to_use": [
+                "Main page and header background (#F7F7F4)",
+                "Feature card backgrounds and product UI chrome (#F2F1ED)",
+                "Hover states and secondary \"Request a demo\" button backgrounds",
+                "Primary CTA text (#FFFFFF)"
+              ]
+            },
+            "hex": "#F2F1ED",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#F7F7F4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EBEAE5",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E6E5E0",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FCFCFC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#D9D5CF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E1E0DB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FBFBFB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E3EBF3",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EDECEC",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.048299999999999996
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Used structurally for depth and high-contrast hardware details rather than typography.",
+              "when_to_use": [
+                "Box-shadows for dropdowns and flyout menus",
+                "Mobile phone mockup camera notch background"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0115
+          },
+          {
+            "name": "Grok Ink",
+            "type": "Dark",
+            "rules": {
+              "description": "A localized dark shade used specifically to style the embedded Grok Bot demo interface.",
+              "when_to_use": [
+                "Grok Bot demo base text color",
+                "Grok Bot sidebar active item background (via alpha)"
+              ]
+            },
+            "hex": "#0A0A0A",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0088
+          },
+          {
+            "name": "Signal Orange",
+            "type": "Warm Color",
+            "rules": {
+              "description": "Acts as the sole vibrant accent to guide users to deeper product features and content.",
+              "when_to_use": [
+                "\"Learn about agentic development\" text links",
+                "\"Explore models\" inline links",
+                "\"View all blog posts\" link"
+              ]
+            },
+            "hex": "#F54E00",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#E7000B",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#ED712E",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0066
+          }
+        ],
+        "insights": [
+          "The design relies on a stark, utilitarian aesthetic using warm paper tones and graphite, mimicking a sophisticated, distraction-free code editor.",
+          "Color application is highly systemic: semantic hierarchy (borders, muted text, disabled states) is established almost entirely through alpha-transparency variations of the primary ink and paper colors.",
+          "The brand exercises extreme restraint with its accent color, reserving the bright orange exclusively for tertiary text links to drive engagement without competing with the heavy, monochrome primary CTAs."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "CursorGothic",
+              "role": "H1 Display (2XL)",
+              "specs": {
+                "size": "4.5rem",
+                "line_height": "1.1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "CursorGothic",
+              "role": "H2 Display (LG)",
+              "specs": {
+                "size": "2.25rem",
+                "line_height": "1.2",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "CursorGothic",
+              "role": "H1 Section (MD-LG)",
+              "specs": {
+                "size": "1.625rem",
+                "line_height": "1.25",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "CursorGothic",
+              "role": "H3 Heading (MD)",
+              "specs": {
+                "size": "1.375rem",
+                "line_height": "1.3",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "UI Interface Heading",
+              "specs": {
+                "size": "20px",
+                "line_height": "31px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "UI Section Subheading",
+              "specs": {
+                "size": "19px",
+                "line_height": "20.9px",
+                "font_weight": "510",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "UI Trigger Subheading",
+              "specs": {
+                "size": "14px",
+                "line_height": "21.7px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Main body text for narrative marketing, user documentation, and simulated browser contexts.",
+          "variants": [
+            {
+              "name": "CursorGothic",
+              "role": "Body Base",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "System Prose",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "EB Garamond",
+              "role": "Serif Browser Preview",
+              "specs": {
+                "size": "1.08rem",
+                "line_height": "1.35",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"EB Garamond\", Iowan Old Style, Palatino Linotype, URW Palladio L, P052, ui-serif, Georgia, Cambria, Times New Roman, Times, serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Extensive product tokens intended for dense IDE-like UI, sidebars, and control palettes.",
+          "variants": [
+            {
+              "name": "CursorGothic",
+              "role": "Type SM",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "CursorGothic",
+              "role": "Type XS",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "Product LG",
+              "specs": {
+                "size": "0.8125rem",
+                "line_height": "1.33333",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "Product Base",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1.33333",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "Product Base Medium",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1.33333",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "Product SM",
+              "specs": {
+                "size": "0.6875rem",
+                "line_height": "1.27273",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "Product SM Medium",
+              "specs": {
+                "size": "0.6875rem",
+                "line_height": "1.27273",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "berkeleyMono",
+              "role": "Product Mono Base",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1.25rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Lato",
+              "role": "Slack Integration Heading",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.33333",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Lato, \"Lato Fallback\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Micro statuses and technical prose code formatting.",
+          "variants": [
+            {
+              "name": "berkeleyMono",
+              "role": "Prose Pre / Code block",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.25",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+                "file_url": null
+              }
+            },
+            {
+              "name": "system-ui",
+              "role": "Status Micro / Breadcrumb",
+              "specs": {
+                "size": "11px",
+                "line_height": "14px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "Underlines utilize precise 1px thickness with a 0.125em offset, often taking 50% opacity of the current text color via color-mix. Syntax highlighting explicitly uses branded ANSI green and red CSS variables to show git/terminal diffs (+135, -21).",
+        "insights": [
+          "Dual Typography Ecosystem: Employs a custom brand font (CursorGothic) for overarching marketing and narrative elements, transitioning seamlessly to native OS typography (system-ui) within product IDE interfaces to feel familiar and performant.",
+          "Granular UI Scales: Product UI tokens (type-product-lg, type-product-base, type-product-sm) rely on exact sub-pixel rem values (e.g., 0.6875rem) paired with tight line-heights (1.27273) to create a highly dense, information-rich developer environment.",
+          "High-Fidelity Mimicry: The landing page injects highly specific fonts—such as Lato to mirror a Slack integration and EB Garamond for a simulated browser preview—to identically reproduce external contextual environments."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "glass_blur"
+        ],
+        "solid_colors": [
+          {
+            "name": "Theme Background",
+            "description": "Primary page background color",
+            "when_to_use": [
+              "Page backgrounds",
+              "Main content areas"
+            ],
+            "hex": "#F7F7F4"
+          },
+          {
+            "name": "Card Background",
+            "description": "Default card surface",
+            "when_to_use": [
+              "Card backgrounds",
+              "Container surfaces"
+            ],
+            "hex": "#F2F1ED"
+          },
+          {
+            "name": "Card Background 01",
+            "description": "Light card variant",
+            "when_to_use": [
+              "Subtle card backgrounds",
+              "Light containers"
+            ],
+            "hex": "#F0EFEB"
+          },
+          {
+            "name": "Card Background 02",
+            "description": "Medium card variant with more depth",
+            "when_to_use": [
+              "Hover states",
+              "Interactive cards",
+              "Secondary containers"
+            ],
+            "hex": "#EBEAE5"
+          },
+          {
+            "name": "Card Background 03",
+            "description": "Deeper card variant",
+            "when_to_use": [
+              "Active states",
+              "Emphasized containers"
+            ],
+            "hex": "#E6E5E0"
+          },
+          {
+            "name": "Card Background 04",
+            "description": "Darkest light-theme card variant",
+            "when_to_use": [
+              "Strong emphasis",
+              "Disabled states"
+            ],
+            "hex": "#E1E0DB"
+          },
+          {
+            "name": "Card Warm",
+            "description": "Warm-tinted card surface",
+            "when_to_use": [
+              "Warm-themed sections",
+              "Special content cards"
+            ],
+            "hex": "#F3EDE6"
+          },
+          {
+            "name": "Product Chrome",
+            "description": "Product interface chrome background",
+            "when_to_use": [
+              "Product UI chrome",
+              "Tool panels",
+              "Sidebar backgrounds"
+            ],
+            "hex": "#F2F1ED"
+          },
+          {
+            "name": "Product Editor",
+            "description": "Editor/content area background",
+            "when_to_use": [
+              "Editor surfaces",
+              "Code editor backgrounds",
+              "Text input areas"
+            ],
+            "hex": "#F7F7F4"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Color Theme Card 03",
+            "description": "Layered gradient with 5% dark overlay on card background",
+            "when_to_use": [
+              "Card surfaces with subtle depth",
+              "Layered UI elements"
+            ],
+            "css_code": "linear-gradient(color-mix(in oklab, #26251e 5%, transparent) 0% 100%), linear-gradient(#f2f1ed 0% 100%)"
+          },
+          {
+            "name": "Color Theme Card 02",
+            "description": "Layered gradient with 2.5% dark overlay on card background",
+            "when_to_use": [
+              "Subtle card depth",
+              "Light layered surfaces"
+            ],
+            "css_code": "linear-gradient(color-mix(in oklab, #26251e 2.5%, transparent) 0% 100%), linear-gradient(#f2f1ed 0% 100%)"
+          },
+          {
+            "name": "Color Theme Card",
+            "description": "Solid color expressed as gradient for consistency",
+            "when_to_use": [
+              "Base card surfaces",
+              "Default containers"
+            ],
+            "css_code": "linear-gradient(#f2f1ed 0% 100%)"
+          },
+          {
+            "name": "Product Chrome Fade Top",
+            "description": "Top-to-bottom fade from product chrome to transparent",
+            "when_to_use": [
+              "Sticky header overlays",
+              "Scroll fade effects"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--color-theme-product-chrome), transparent)"
+          },
+          {
+            "name": "Product Chrome Fade Bottom",
+            "description": "Bottom-to-top fade from product chrome to transparent",
+            "when_to_use": [
+              "Sticky footer overlays",
+              "Bottom scroll indicators"
+            ],
+            "css_code": "linear-gradient(to top, var(--color-theme-product-chrome), transparent)"
+          },
+          {
+            "name": "Theme Background Fade",
+            "description": "Background fade with 85% opacity transition",
+            "when_to_use": [
+              "Section transitions",
+              "Overlays on content"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(247, 247, 244, 0.85), var(--color-theme-bg))"
+          },
+          {
+            "name": "Content Fade Right",
+            "description": "Left-to-right fade from transparent to background",
+            "when_to_use": [
+              "Horizontal scroll indicators",
+              "Content truncation overlays"
+            ],
+            "css_code": "linear-gradient(90deg, transparent 0%, #f7f7f4 88%)"
+          },
+          {
+            "name": "iOS Glass Surface",
+            "description": "Glassmorphism gradient with diagonal direction for light theme",
+            "when_to_use": [
+              "Glassmorphic panels",
+              "Command menus",
+              "Floating UI elements"
+            ],
+            "css_code": "linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.2) 52%, rgba(255, 255, 255, 0.1) 100%)"
+          }
+        ],
+        "highlights": [
+          "Glass panels: backdrop-filter blur(20px) with semi-transparent white overlays and subtle border highlighting",
+          "iOS glass effect combines linear-gradient overlays with backdrop-filter blur(14px) saturate(1.45) for frosted glass appearance",
+          "Dark theme glass panels use backdrop-filter blur(18px) saturate(1.2) over semi-transparent black backgrounds",
+          "Layered card surfaces use multiple gradient overlays with color-mix() for subtle depth (2.5%, 5%, etc.)",
+          "Selection overlay effects with 8-15% opacity backgrounds and 2px colored borders",
+          "Shadow flyout style: 0 0 1rem rgba(0,0,0,0.02), 0 0 .5rem rgba(0,0,0,0.008)",
+          "Window shadows: 0 28px 70px rgba(0,0,0,0.14), 0 14px 32px rgba(0,0,0,0.1) for depth",
+          "Inset shadows for product chrome: 0 -1px 0 0 var(--color-theme-border-02) inset"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Inset Ring Shadow",
+              "type": "drop",
+              "description": "Tailwind reset/placeholder shadow with zero offset, zero blur, and transparent color. Used as a base value for shadow variables.",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "CSS variable reset",
+                "Shadow initialization"
+              ]
+            },
+            {
+              "name": "Shadow Flyout",
+              "type": "drop",
+              "description": "Very subtle dual-layer shadow for flyout menus and dropdowns. First layer: 1rem blur at 2% black opacity. Second layer: 0.5rem blur at ~1% black opacity.",
+              "css_value": "0 0 1rem #00000005, 0 0 .5rem #00000002",
+              "when_to_use": [
+                "Flyout menus",
+                "Sub-navigation dropdowns",
+                "Card flyouts"
+              ]
+            },
+            {
+              "name": "Window Shadow",
+              "type": "drop",
+              "description": "Large dramatic shadow for floating window elements like the demo IDE windows. Two layers with 28px/70px blur and 14px/32px blur at 14% and 10% black opacity respectively, plus a 1px border ring.",
+              "css_value": "0 28px 70px rgba(0, 0, 0, 0.14), 0 14px 32px rgba(0, 0, 0, 0.1), 0 0 0 1px var(--color-theme-border-02)",
+              "when_to_use": [
+                "Floating windows",
+                "Modal dialogs",
+                "Demo IDE windows",
+                "Desktop application frames"
+              ]
+            },
+            {
+              "name": "Window Shadow Large",
+              "type": "drop",
+              "description": "Extra large shadow for prominent floating elements with 22px/70px blur and 0.5px border ring at 30% and 15% black opacity.",
+              "css_value": "rgba(0, 0, 0, 0.3) 0px 22px 70px 4px, rgba(0, 0, 0, 0.15) 0px 0px 0px 0.5px",
+              "when_to_use": [
+                "Large modal windows",
+                "Feature showcase windows"
+              ]
+            },
+            {
+              "name": "Card Inner Shadow",
+              "type": "drop",
+              "description": "Inner shadow for nested cards and containers with 25px blur, 12px spread variant, plus 0.5px border ring.",
+              "css_value": "0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 12px 24px -8px rgba(0, 0, 0, 0.15), 0 0 0 0.5px var(--color-theme-border-02)",
+              "when_to_use": [
+                "Nested cards",
+                "Browser preview containers",
+                "Agent panels"
+              ]
+            },
+            {
+              "name": "iOS Glass Inner Highlight",
+              "type": "inset",
+              "description": "Glass-morphism effect with inner highlight at top, subtle inner shadow at bottom, and outer drop shadow for depth.",
+              "css_value": "inset 0 1px #ffffff9e,inset 0 -1px 1px #ffffff1f,0 6px 16px #1f435b1f,0 1px 1px #0000000f",
+              "when_to_use": [
+                "Glass-style buttons",
+                "iOS-inspired UI elements",
+                "Premium interactive elements"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#26251E",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F2F1ED",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F54E00",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "2px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "hover_transform",
+          "hover_lift",
+          "tab_switching"
+        ],
+        "animations": [
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }",
+            "description": "Simple opacity fade-in animation for revealing elements."
+          },
+          {
+            "name": "fadeSlideUp",
+            "css": "@keyframes fadeSlideUp { from { opacity: 0; transform: translateY(2px) } to { opacity: 1; transform: translateY(0) } }",
+            "description": "Combined fade and upward slide animation for content reveals."
+          },
+          {
+            "name": "fadeSlideRight",
+            "css": "@keyframes fadeSlideRight { from { opacity: 0; transform: translateX(-2px) } to { opacity: 1; transform: translateX(0) } }",
+            "description": "Combined fade and rightward slide animation for horizontal content reveals."
+          },
+          {
+            "name": "barGrow",
+            "css": "@keyframes barGrow { from { transform: scaleY(0) } to { transform: scaleY(1) } }",
+            "description": "Vertical scale animation for progress bars or chart elements."
+          },
+          {
+            "name": "tilePopIn",
+            "css": "@keyframes tilePopIn { from { opacity: 0; transform: scale(0.7) translateY(3px) } to { opacity: 1; transform: scale(1) translateY(0) } }",
+            "description": "Pop-in animation for tiles and cards with scale and position."
+          },
+          {
+            "name": "navItemSlideIn",
+            "css": "@keyframes navItemSlideIn { 0% { opacity: 0; transform: translateY(-4px) } to { opacity: 1; transform: translateY(0) } }",
+            "description": "Slide-in animation for navigation dropdown items."
+          },
+          {
+            "name": "navItemFade",
+            "css": "@keyframes navItemFade { 0% { opacity: 0 } to { opacity: 1 } }",
+            "description": "Fade animation for navigation CTA button appearance."
+          },
+          {
+            "name": "sonner-spin",
+            "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+            "description": "Loading spinner animation with opacity cycling for toast notifications."
+          },
+          {
+            "name": "sonner-fade-in",
+            "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(.8) } 100% { opacity: 1; transform: scale(1) } }",
+            "description": "Toast notification entrance animation with scale and fade."
+          },
+          {
+            "name": "global-transition",
+            "css": "transition: opacity 0.14s cubic-bezier(0.25, 1, 0.5, 1), transform 0.14s cubic-bezier(0.25, 1, 0.5, 1)",
+            "description": "Standard transition timing used for navigation items and interactive elements."
+          },
+          {
+            "name": "button-transition",
+            "css": "transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+            "description": "Default transition for button hover states and interactions."
+          },
+          {
+            "name": "gallery-marquee-item-slide-up",
+            "css": "@keyframes gallery-marquee-item-slide-up { /* Defined in CSS variable: --animate-gallery-marquee-item-slide-up */ }",
+            "description": "Slide-up animation for gallery marquee items, timing: 1s cubic-bezier(.25, 1, .5, 1)."
+          }
+        ],
+        "insights": [
+          "The design system uses full-radius (pill-shaped) buttons exclusively for primary and secondary CTAs, creating a soft, approachable aesthetic that contrasts with the sharp edges of product UI mockups.",
+          "Interactive product demos are a core component pattern, using nested window chrome with draggable/resizable containers to showcase the IDE experience directly on the marketing page.",
+          "The color system relies heavily on alpha transparency variations of the primary graphite color (#26251E) for creating subtle hierarchy in borders, text states, and backgrounds rather than introducing additional hue values."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Download for macOS (Primary)",
+            "usage": "Main call-to-action for downloading the application. Used in hero section and final CTA section.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "CursorGothic, system-ui, sans-serif",
+                  "size": "1rem",
+                  "padding": "0.78em 1.35em 0.8em"
+                },
+                {
+                  "name": "Small",
+                  "font": "CursorGothic, system-ui, sans-serif",
+                  "size": "0.875rem",
+                  "padding": "0.4em 0.75em 0.42em"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#26251E",
+                "text_color": "#F7F7F4",
+                "border_color": "#26251E",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#3B3A33",
+                "text_color": "#F7F7F4",
+                "border_color": "#3B3A33",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E6E5E0",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "rgba(38, 37, 30, 0.025)",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Request a demo (Secondary/Ghost)",
+            "usage": "Secondary action alongside primary CTA. Used for demo requests and less prominent actions.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "CursorGothic, system-ui, sans-serif",
+                  "size": "1rem",
+                  "padding": "0.78em 1.35em 0.8em"
+                },
+                {
+                  "name": "Small",
+                  "font": "CursorGothic, system-ui, sans-serif",
+                  "size": "0.875rem",
+                  "padding": "0.4em 0.75em 0.42em"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#26251E",
+                "border_color": "rgba(38, 37, 30, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F1ED",
+                "text_color": "#26251E",
+                "border_color": "rgba(38, 37, 30, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E6E5E0",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "rgba(38, 37, 30, 0.025)",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Contact sales (Ghost Small)",
+            "usage": "Navigation bar secondary action for enterprise sales contact.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "CursorGothic, system-ui, sans-serif",
+                  "size": "0.875rem",
+                  "padding": "0.4em 0.75em 0.42em"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#26251E",
+                "border_color": "rgba(38, 37, 30, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F1ED",
+                "text_color": "#26251E",
+                "border_color": "rgba(38, 37, 30, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E6E5E0",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "rgba(38, 37, 30, 0.025)",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Download (Primary Small)",
+            "usage": "Compact primary button in the navigation header for quick access to download.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "CursorGothic, system-ui, sans-serif",
+                  "size": "0.875rem",
+                  "padding": "0.4em 0.75em 0.42em"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#26251E",
+                "text_color": "#F7F7F4",
+                "border_color": "#26251E",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#3B3A33",
+                "text_color": "#F7F7F4",
+                "border_color": "#3B3A33",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E6E5E0",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "rgba(38, 37, 30, 0.025)",
+                "border_width": "1px",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Agent (Pill Toggle)",
+            "usage": "Mode selector pill button in the product demo chat input, used to toggle between Agent and other modes.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "system-ui, -apple-system, sans-serif",
+                  "size": "0.6875rem",
+                  "padding": "3px 8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E6E5E0",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E1E0DB",
+                "text_color": "#26251E",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Build (Accent Action)",
+            "usage": "Accent-colored action button in the product demo for triggering build/plan actions.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Extra Small",
+                  "font": "system-ui, -apple-system, sans-serif",
+                  "size": "0.75rem",
+                  "padding": "0.5px 8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgb(192, 133, 50)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgb(192, 133, 50)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Submit (Icon Circle)",
+            "usage": "Circular icon button for form submission in chat inputs. Contains arrow icon only.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "system-ui, sans-serif",
+                  "size": "12px",
+                  "padding": "5px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E1E0DB",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E6E5E0",
+                "text_color": "#26251E",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E1E0DB",
+                "text_color": "rgba(38, 37, 30, 0.6)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Primary and secondary CTAs placed side by side with consistent spacing.",
+          "spacing": "calc(10rem / 16)"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "56px",
+          "position": "fixed",
+          "background": {
+            "hex": "#F7F7F4",
+            "color_reference": "Paper / Theme Background",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Editor Tab",
+          "description": "Tabs in the product UI demo that show file names with close buttons, used for switching between open files in the code editor.",
+          "when_to_use": [
+            "File navigation in code editor",
+            "Switching between open documents",
+            "Multi-panel content organization"
+          ],
+          "states": [
+            {
+              "name": "selected",
+              "visual_change": "Active tab has editor background color, full opacity text, and bottom border removed",
+              "background": "#F7F7F4",
+              "text": "#26251E",
+              "icon": null
+            },
+            {
+              "name": "default",
+              "visual_change": "Inactive tabs have chrome background and muted text",
+              "background": "#F2F1ED",
+              "text": "rgba(38, 37, 30, 0.6)",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Close button becomes visible on hover",
+              "background": "rgba(235, 234, 229, 0.4)",
+              "text": null,
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [
+          {
+            "name": "Publications Table",
+            "description": "A simple data table showing research publications with year, title, and status columns. Uses minimal styling with subtle row borders.",
+            "when_to_use": [
+              "Displaying chronological data entries",
+              "Research or publication listings",
+              "Simple tabular data without complex interactions"
+            ]
+          }
+        ],
+        "tiles": [
+          {
+            "name": "Logo Garden Tile",
+            "description": "Company logo display tiles arranged in a responsive grid. Each tile contains a centered SVG logo on a card background.",
+            "when_to_use": [
+              "Social proof and partner logos",
+              "Brand recognition sections",
+              "Trust indicators"
+            ]
+          },
+          {
+            "name": "Feature Card",
+            "description": "Large feature showcase cards with text content on one side and interactive demo media on the other. Uses subgrid for alignment.",
+            "when_to_use": [
+              "Product feature highlights",
+              "Hero-adjacent content sections",
+              "Interactive demo showcases"
+            ]
+          },
+          {
+            "name": "Agent Sidebar Item",
+            "description": "List item tiles in the agent sidebar showing task status with icons, titles, and metadata. Supports in-progress, ready for review states.",
+            "when_to_use": [
+              "Task/agent status lists",
+              "Sidebar navigation items",
+              "Workflow state indicators"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Border",
+            "description": "Subtle border divider used between UI sections within product demos, such as between tab bar and content area.",
+            "when_to_use": [
+              "Between header and content areas",
+              "Separating toolbar from main content",
+              "Within product UI mockups"
+            ],
+            "color": "rgba(38, 37, 30, 0.1)",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Table Row Divider",
+            "description": "Light horizontal line separating table rows in data displays.",
+            "when_to_use": [
+              "Between table rows",
+              "List item separation"
+            ],
+            "color": "rgba(38, 37, 30, 0.08)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Lucide Line Icons",
+          "description": "Standard monoline UI icons used for interface actions and top-level controls.",
+          "when_to_use": [
+            "Primary navigation",
+            "Window controls",
+            "Action buttons"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "12px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.125\" stroke=\"currentColor\" width=\"100%\" height=\"100%\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5\"></path></svg>"
+            },
+            {
+              "name": "Close / X",
+              "svg_code": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke-width=\"1.25\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"h-full w-full\"><path d=\"M6 18L18 6M6 6l12 12\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Copy",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-copy\" aria-hidden=\"true\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"></rect><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Phosphor UI Icons",
+          "description": "Filled utility icons (256x256 viewBox) for buttons, small UI hints, and functional accents.",
+          "when_to_use": [
+            "Buttons",
+            "Breadcrumbs",
+            "Form elements",
+            "Small UI indicators"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "10px",
+            "medium": "18px"
+          },
+          "examples": [
+            {
+              "name": "Terminal / Command",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 256 256\"><path d=\"M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Zm56-12a12,12,0,1,0,12,12A12,12,0,0,0,196,116ZM60,116a12,12,0,1,0,12,12A12,12,0,0,0,60,116Z\"></path></svg>"
+            },
+            {
+              "name": "Settings / Gear",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" viewBox=\"0 0 256 256\" class=\"text-[color:rgba(242,242,242,0.9)]\"><path d=\"M136,32V64a8,8,0,0,1-16,0V32a8,8,0,0,1,16,0Zm37.25,58.75a8,8,0,0,0,5.66-2.35l22.63-22.62a8,8,0,0,0-11.32-11.32L167.6,77.09a8,8,0,0,0,5.65,13.66ZM224,120H192a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Zm-45.09,47.6a8,8,0,0,0-11.31,11.31l22.62,22.63a8,8,0,0,0,11.32-11.32ZM128,184a8,8,0,0,0-8,8v32a8,8,0,0,0,16,0V192A8,8,0,0,0,128,184ZM77.09,167.6,54.46,190.22a8,8,0,0,0,11.32,11.32L88.4,178.91A8,8,0,0,0,77.09,167.6ZM72,128a8,8,0,0,0-8-8H32a8,8,0,0,0,0,16H64A8,8,0,0,0,72,128ZM65.78,54.46A8,8,0,0,0,54.46,65.78L77.09,88.4A8,8,0,0,0,88.4,77.09Z\"></path></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"currentColor\" viewBox=\"0 0 256 256\"><path d=\"M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z\"></path></svg>"
+            },
+            {
+              "name": "Sidebar / Panel",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"currentColor\" viewBox=\"0 0 256 256\" class=\"-scale-x-100\"><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H80V200H40ZM216,200H96V56H216V200Z\"></path></svg>"
+            },
+            {
+              "name": "Chevron Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"currentColor\" viewBox=\"0 0 256 256\"><path d=\"M208.49,120.49a12,12,0,0,1-17,0L140,69V216a12,12,0,0,1-24,0V69L64.49,120.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,120.49Z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Custom Product SVGs",
+          "description": "Custom designed SVG elements for specific product representations, spark elements, and simulated cursors.",
+          "when_to_use": [
+            "Demo UI overlays",
+            "Custom badges",
+            "Simulated cursors"
+          ],
+          "format": "SVG",
+          "style": "Mixed (Filled & Line)",
+          "sizes": {
+            "small": "12px",
+            "medium": "20px"
+          },
+          "examples": [
+            {
+              "name": "Sparks / AI Agent",
+              "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 24.7969 11.3555\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" class=\"opacity-60\"><path d=\"M0 5.67188C0 9.11719 2.13281 11.3438 5.30859 11.3438C6.98438 11.3438 8.41406 10.6406 9.9375 9.17578L12.2227 6.96094L14.5078 9.17578C16.0312 10.6406 17.4609 11.3438 19.1367 11.3438C22.3125 11.3438 24.4453 9.11719 24.4453 5.67188C24.4453 2.22656 22.3125 0 19.1367 0C17.4609 0 16.0312 0.703125 14.5078 2.16797L12.2227 4.38281L9.9375 2.16797C8.41406 0.703125 6.98438 0 5.30859 0C2.13281 0 0 2.22656 0 5.67188ZM1.91016 5.67188C1.91016 3.36328 3.28125 1.91016 5.30859 1.91016C6.44531 1.91016 7.45312 2.44922 8.60156 3.52734L10.8867 5.67188L8.60156 7.81641C7.45312 8.89453 6.44531 9.43359 5.30859 9.43359C3.28125 9.43359 1.91016 7.98047 1.91016 5.67188ZM13.5586 5.67188L15.8438 3.52734C16.9922 2.44922 18 1.91016 19.1367 1.91016C21.1641 1.91016 22.5352 3.36328 22.5352 5.67188C22.5352 7.98047 21.1641 9.43359 19.1367 9.43359C18 9.43359 16.9922 8.89453 15.8438 7.81641Z\"></path></svg>"
+            },
+            {
+              "name": "Folder / Action",
+              "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 21.1172 18.6211\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10.875 15.4453L19.9102 15.4453C20.3789 15.4453 20.7656 15.0703 20.7656 14.6016C20.7656 14.1328 20.3789 13.7578 19.9102 13.7578L10.875 13.7578C10.4062 13.7578 10.0312 14.1328 10.0312 14.6016C10.0312 15.0703 10.4062 15.4453 10.875 15.4453Z\"></path><path d=\"M4.01953 18.6211C6.19922 18.6211 8.01562 16.7812 8.01562 14.6016C8.01562 12.4102 6.19922 10.582 4.01953 10.582C1.81641 10.582 0 12.4102 0 14.6016C0 16.7812 1.82812 18.6211 4.01953 18.6211ZM4.01953 17.0977C2.66016 17.0977 1.52344 15.9492 1.52344 14.6016C1.52344 13.2539 2.67188 12.1055 4.01953 12.1055C5.35547 12.1055 6.49219 13.2539 6.49219 14.6016C6.49219 15.9492 5.35547 17.0977 4.01953 17.0977Z\"></path><path d=\"M10.875 4.89844L19.9102 4.89844C20.3789 4.89844 20.7656 4.52344 20.7656 4.05469C20.7656 3.58594 20.3789 3.21094 19.9102 3.21094L10.875 3.21094C10.4062 3.21094 10.0312 3.58594 10.0312 4.05469C10.0312 4.52344 10.4062 4.89844 10.875 4.89844Z\"></path><path d=\"M4.01953 8.0625C6.19922 8.0625 8.01562 6.22266 8.01562 4.04297C8.01562 1.85156 6.19922 0.0351562 4.01953 0.0351562C1.81641 0.0351562 0 1.85156 0 4.04297C0 6.22266 1.82812 8.0625 4.01953 8.0625ZM4.01953 6.53906C2.66016 6.53906 1.52344 5.39062 1.52344 4.04297C1.52344 2.69531 2.67188 1.54688 4.01953 1.54688C5.35547 1.54688 6.49219 2.69531 6.49219 4.04297C6.49219 5.39062 5.35547 6.53906 4.01953 6.53906Z\"></path></svg>"
+            },
+            {
+              "name": "File Document",
+              "svg_code": "<svg class=\"h-5 w-5 text-theme-text\" xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 22\" fill=\"none\"><g fill=\"currentColor\"><path d=\"M19.162 5.452 10.698.565a.88.88 0 0 0-.879 0L1.356 5.452a.74.74 0 0 0-.37.64v9.853a.74.74 0 0 0 .37.64l8.464 4.887a.879.879 0 0 0 .879 0l8.464-4.886a.74.74 0 0 0 .37-.64V6.091a.74.74 0 0 0-.37-.64Zm-.531 1.035L10.46 20.639c-.055.095-.201.056-.201-.055v-9.266a.52.52 0 0 0-.26-.45L1.975 6.237c-.096-.056-.057-.202.054-.202h16.34c.233 0 .378.252.262.453Z\"></path></g></svg>"
+            },
+            {
+              "name": "Cursor Pointer",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" data-cursor-arrow=\"\" class=\"-scale-x-100 drop-shadow-[0_0.5px_1px_rgba(0,0,0,0.3)] shrink-0 transition-opacity duration-200\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.4775 2.375C15.1508 2.37522 15.5719 3.10428 15.2353 3.6875L8.63861 15.1143C8.19099 15.8892 7.00618 15.5716 7.00579 14.6768V7.56348L0.845638 4.00781C0.0708241 3.56015 0.388339 2.37535 1.28314 2.375H14.4775ZM7.69329 6.51758C8.04109 6.7186 8.25579 7.09044 8.25579 7.49219V13.2764L13.8271 3.625H2.68353L7.69329 6.51758Z\" fill=\"white\"></path><path d=\"M7.69329 6.51758C8.04109 6.7186 8.25579 7.09044 8.25579 7.49219V13.2764L13.8271 3.625H2.68353L7.69329 6.51758Z\" fill=\"#1a1a1a\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon.ico",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon.ico",
+            "origin_url": "https://cursor.com/marketing-static/favicon-light.ico",
+            "description": "Cursor Favicon (Light Theme ICO)"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon.png",
+            "origin_url": "https://cursor.com/marketing-static/icon-192x192-light.png",
+            "description": "Cursor Favicon 192x192 (Light Theme PNG)"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon.svg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon.svg",
+            "origin_url": "https://cursor.com/marketing-static/favicon-light.svg",
+            "description": "Cursor Favicon (Light Theme SVG)"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon-2.svg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon-2.svg",
+            "origin_url": "https://cursor.com/marketing-static/favicon.svg",
+            "description": "Cursor Favicon (Default SVG)"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon-2.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/logos/favicon-2.png",
+            "origin_url": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
+            "description": "Cursor Apple Touch Icon (Light Theme)"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/open-graph-image.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/open-graph-image.png",
+            "origin_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Cursor Animated Wordmark (MP4)",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/video/cursor-animated-wordmark-mp4.mp4",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/video/cursor-animated-wordmark-mp4.mp4",
+            "origin_url": "https://cursor.com/marketing-static/logo/logo-light-theme.mp4",
+            "usage_context": "Hero/Header animated logo loop."
+          },
+          {
+            "name": "Cursor Animated Wordmark (MOV)",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/video/cursor-animated-wordmark-mov.mov",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/video/cursor-animated-wordmark-mov.mov",
+            "origin_url": "https://cursor.com/marketing-static/logo/logo-light-theme.mov",
+            "usage_context": "Hero/Header animated logo loop alternative format."
+          },
+          {
+            "name": "Cursor Animated Wordmark (WebM)",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/video/cursor-animated-wordmark-webm.webm",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/video/cursor-animated-wordmark-webm.webm",
+            "origin_url": "https://cursor.com/marketing-static/logo/logo-light-theme.webm",
+            "usage_context": "Hero/Header animated logo loop alternative format."
+          },
+          {
+            "name": "Hero Background Editor Mockup",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/hero-background-editor-mockup.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/hero-background-editor-mockup.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-cc24ca462279ca23250c.jpg&w=3840&q=70",
+            "usage_context": "Background texture for the main hero section mockup."
+          },
+          {
+            "name": "Cursor Dashboard Wallpaper",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/cursor-dashboard-wallpaper.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/cursor-dashboard-wallpaper.png",
+            "origin_url": "https://cursor.com/marketing-static/demos/cursor-wallpaper.png",
+            "usage_context": "Thumbnail image used inside the Acme Research Dashboard demo."
+          },
+          {
+            "name": "Feature Section Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/feature-section-background.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/feature-section-background.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-85923e7fafe00c9c0d1f.jpg&w=3840&q=70",
+            "usage_context": "Background texture for the 'In every tool, at every step' section."
+          },
+          {
+            "name": "swhitmore Small Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/swhitmore-small-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/swhitmore-small-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Fswhitmore.png&w=48&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Small user avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "eric Small Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/eric-small-avatar.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/eric-small-avatar.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Feric.jpeg&w=48&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Small user avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "rikki Small Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/rikki-small-avatar.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/rikki-small-avatar.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Frikki.jpg&w=48&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Small user avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "ryo Small Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/ryo-small-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/ryo-small-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Fryo.png&w=48&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Small user avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "swhitmore Medium Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/swhitmore-medium-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/swhitmore-medium-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Fswhitmore.png&w=64&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Medium user avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "eric Medium Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/eric-medium-avatar.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/eric-medium-avatar.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Fusers%2Feric.jpeg&w=64&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Medium user avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "Cursor App Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/cursor-app-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/cursor-app-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=%2Fmarketing-static%2Ficon-192x192.png&w=64&q=70&dpl=dpl_2zPkozScaVySZPAxYpJMi2HhKfhX",
+            "usage_context": "Cursor bot avatar in the Slack collaboration demo."
+          },
+          {
+            "name": "Internal Brand Asset 023",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/internal-brand-asset-023.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/internal-brand-asset-023.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Finternal-brand%2Finternal-brand-023-3291bb4c.jpg&w=3840&q=70",
+            "usage_context": "Background texture for internal brand graphics."
+          },
+          {
+            "name": "Diana Hu Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/diana-hu-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/diana-hu-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fdiana-hu-avatar.png&w=96&q=70",
+            "usage_context": "Author avatar in the Testimonials section."
+          },
+          {
+            "name": "Jensen Huang Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/jensen-huang-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/jensen-huang-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fmisc%2Fasset-b7d40eac35d910f3448b.png&w=96&q=70",
+            "usage_context": "Author avatar in the Testimonials section (Jensen Huang)."
+          },
+          {
+            "name": "Andrej Karpathy Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/andrej-karpathy-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/andrej-karpathy-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fandrej-karpathy-avatar.png&w=96&q=70",
+            "usage_context": "Author avatar in the Testimonials section."
+          },
+          {
+            "name": "Patrick Collison Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/patrick-collison-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/patrick-collison-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fpatrick-collison-avatar.png&w=96&q=70",
+            "usage_context": "Author avatar in the Testimonials section."
+          },
+          {
+            "name": "shadcn Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/shadcn-avatar.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/shadcn-avatar.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fshadcn-avatar.png&w=96&q=70",
+            "usage_context": "Author avatar in the Testimonials section."
+          },
+          {
+            "name": "Greg Brockman Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/greg-brockman-avatar.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/greg-brockman-avatar.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fgreg-brockman-avatar.jpg&w=96&q=70",
+            "usage_context": "Author avatar in the Testimonials section."
+          },
+          {
+            "name": "Homepage Team Photo 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/homepage-team-photo-1.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/homepage-team-photo-1.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fhomepage%2Fhomepage-team-photo-1.jpg&w=1920&q=70",
+            "usage_context": "Team photo used in the 'Cursor is an applied research team' section."
+          },
+          {
+            "name": "Homepage Team Photo 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/homepage-team-photo-2.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/homepage-team-photo-2.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fhomepage%2Fhomepage-team-photo.jpg&w=1920&q=70",
+            "usage_context": "Alternative team photo used in the research team section."
+          },
+          {
+            "name": "Sasha Rush Avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/sasha-rush-avatar.jpg",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/sasha-rush-avatar.jpg",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fsasha-rush.jpeg&w=48&q=70",
+            "usage_context": "Avatar for the author of a blog post in the Recent Highlights."
+          },
+          {
+            "name": "Default 2D Avatar Dark",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/default-2d-avatar-dark.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/default-2d-avatar-dark.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Favatar-circle-2d-dark.png&w=48&q=70",
+            "usage_context": "Fallback or default dark theme avatar."
+          },
+          {
+            "name": "Default 2D Avatar White",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/default-2d-avatar-white.png",
+            "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/site-assets/media/image/default-2d-avatar-white.png",
+            "origin_url": "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Favatar-circle-2d-white.png&w=48&q=70",
+            "usage_context": "Fallback or default light theme avatar."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal bar, left-aligned logo, center nav links (desktop), right-aligned CTAs",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Animated SVG logo (video fallback), light/dark theme aware, top-left position"
+            },
+            {
+              "type": "navigation",
+              "description": "Desktop: horizontal menu with dropdown sub-menus (Models, Product, Resources). Mobile: hamburger menu icon"
+            },
+            {
+              "type": "button",
+              "description": "Sign in (ghost/tertiary), Contact sales (ghost), Download (primary dark button)"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered text with dual CTA buttons below",
+          "headline": "Cursor is your coding agent for engineering in the AI age",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Primary CTA: 'Download for macOS' (dark rounded button with download icon)"
+            },
+            {
+              "type": "button",
+              "description": "Secondary CTA: 'Request a demo' (ghost/outline button with arrow)"
+            }
+          ]
+        },
+        {
+          "type": "Hero Image Section",
+          "layout_pattern": "Full-width media container with interactive demo window",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Light beige/cream wallpaper background image, subtle texture"
+            },
+            {
+              "type": "video",
+              "description": "Interactive desktop IDE mockup showing Cursor interface with agent sidebar, code editor, and browser preview (resizable demo window with macOS-style chrome)"
+            }
+          ]
+        },
+        {
+          "type": "Logo Banner",
+          "layout_pattern": "Centered heading with 8-logo grid (4×2 on mobile, 8×1 on desktop)",
+          "headline": "Recommended by builders from top companies",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Monochrome company logos (Stripe, OpenAI, Lyft, Figma, Adobe, Databricks, etc.) in light card containers with subtle borders"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 layout: text left, visual right",
+          "headline": "Agents turn ideas into code",
+          "subheadline": "Your agents read docs, generate plans with checkboxes, ask clarifying questions, and build iteratively.",
+          "components": [
+            {
+              "type": "button",
+              "description": "Text link: 'Learn about agentic development →' (coral/orange accent color)"
+            },
+            {
+              "type": "video",
+              "description": "Interactive demo window showing agent planning interface with task list, multi-step workflow, and question prompts"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 layout: visual left, text right",
+          "headline": "Works autonomously, runs in parallel",
+          "subheadline": "Cloud agents work on long-running tasks even when your laptop is closed. See summaries and screen recordings of every run.",
+          "components": [
+            {
+              "type": "button",
+              "description": "Text link: 'Learn about cloud agents →' (coral/orange accent)"
+            },
+            {
+              "type": "image",
+              "description": "Agent dashboard mockup showing task history, progress indicators, screen recording thumbnail with play button, clean list-based UI"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 layout: text left, visual right",
+          "headline": "In every tool, at every step",
+          "subheadline": "Works in CLI, Slack, your editor, browser—any place you build.",
+          "components": [
+            {
+              "type": "button",
+              "description": "Install command snippet with copy button: 'curl https://cursor.com/install -fsS | bash' in code block with dark background"
+            },
+            {
+              "type": "image",
+              "description": "Slack integration mockup showing agent responding to @ mentions in channel, clean Slack UI with avatars and message threads"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Grid 3-column (2 rows on mobile)",
+          "headline": "The new way to build software.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "6 feature cards with headlines, body text, and 'Read More' links. Cards have light beige background with subtle borders, stacked layout"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split layout: code snippet left, mobile mockup right",
+          "headline": "Stop me the Second",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Code editor screenshot with dark theme, syntax highlighting"
+            },
+            {
+              "type": "image",
+              "description": "Mobile app interface mockup, light theme, clean white background"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Centered heading with 3-column feature grid",
+          "headline": "Debugging",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "3 debugging feature descriptions in horizontal row"
+            },
+            {
+              "type": "button",
+              "description": "Text link: 'Learn more about debugging →' (coral/orange accent)"
+            }
+          ]
+        },
+        {
+          "type": "Testimonial",
+          "layout_pattern": "Full-width background image with centered quote overlay",
+          "headline": null,
+          "subheadline": "\"Cursor is helping us build the future of software development.\"",
+          "components": [
+            {
+              "type": "image",
+              "description": "Large muted/soft-focus background image with light text overlay, scrim treatment for readability"
+            }
+          ]
+        },
+        {
+          "type": "Video Highlights",
+          "layout_pattern": "Centered heading with 4-column grid",
+          "headline": "Recent highlights",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "4 video thumbnail cards with play buttons, screenshot previews, and text labels below. White card backgrounds with colorful thumbnails"
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "layout_pattern": "Centered",
+          "headline": "Try Cursor now.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Large dark rounded button: 'Download for free'"
+            },
+            {
+              "type": "navigation",
+              "description": "Platform selector: macOS / Windows / Linux as text links below CTA"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column link grid with legal footer",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "6 columns: PRODUCT, DOWNLOAD, RESOURCES, COMPANY, CURSOR, SUPPORT. Small dark text on white background"
+            },
+            {
+              "type": "button",
+              "description": "Social media icons (right-aligned)"
+            },
+            {
+              "type": "navigation",
+              "description": "Legal links: © Privacy Policy, Terms of Service, Privacy Notice (small text at bottom)"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The foundational ink of the design, heavily utilizing opacity to create a comprehensive scale for text, borders, and shadows.",
+        "when_to_use": [
+          "Primary and secondary typography across all headings, body text, and menus",
+          "Subtle borders on cards, videos, and dropdowns (using low opacity)",
+          "Drop shadows on interactive components and bento boxes",
+          "Monochrome rendering for customer logos"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper White",
+      "type": "Light",
+      "rules": {
+        "description": "The dominant surface color that defines the clean, document-like feel, accompanied by subtle off-white and pastel shades for grouping.",
+        "when_to_use": [
+          "Global page background and sticky navigation panel",
+          "Text and icon color on primary CTA buttons",
+          "Off-white backgrounds for bento box headers and the bottom endcap section",
+          "Pale color-tinted backgrounds (blue, red, yellow) for product feature cards"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#F9F9F8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F5F4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F2F9FF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FEF3F1",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.15880000000000002,
+      "group": "baseline"
+    },
+    {
+      "name": "Marquee Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A specific muted gray used to visually de-emphasize continuous background information.",
+        "when_to_use": [
+          "Text color for the statistics within the scrolling marquee section"
+        ]
+      },
+      "hex": "#615D59",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#78736F",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.017499999999999998,
+      "group": "secondary"
+    },
+    {
+      "name": "Marquee Icon Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A soft, low-contrast gray specifically paired with marquee text.",
+        "when_to_use": [
+          "Icon fills accompanying the statistics in the scrolling marquee section"
+        ]
+      },
+      "hex": "#A39E98",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0159,
+      "group": "secondary"
+    },
+    {
+      "name": "Action Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "The sole structural accent color, used exclusively to highlight interactive elements, conversions, and key feature markers.",
+        "when_to_use": [
+          "Primary 'Get Notion free' CTA button backgrounds",
+          "Text color for 'Request a demo' secondary buttons",
+          "Inline text links with directional arrows",
+          "Filled graphic icons in the agent and feature prompt sections"
+        ]
+      },
+      "hex": "#097FE8",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#005BAB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#0075DE",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.011600000000000001,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "NotionInter",
+      "role": "H1 Display",
+      "specs": {
+        "size": "clamp(2.625rem, -25.5px + 11.25vw, 6rem)",
+        "line_height": "clamp(3rem, -17px + 10.8333vw, 6.25rem)",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NotionInter",
+      "role": "H2 Hero",
+      "specs": {
+        "size": "54px",
+        "line_height": "56px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NotionInter",
+      "role": "H2 Heading",
+      "specs": {
+        "size": "42px",
+        "line_height": "48px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NotionInter",
+      "role": "H3 Subheading",
+      "specs": {
+        "size": "22px",
+        "line_height": "28px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NotionInter",
+      "role": "H3 Card/Small",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NotionInter",
+      "role": "Body Medium",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NotionInter",
+      "role": "Body Regular",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NotionInter",
+      "role": "Body Small Medium",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NotionInter",
+      "role": "Body Small Regular",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NotionInter",
+      "role": "UI Micro / Features Label",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Lyon Text",
+      "role": "Editorial Serif / Quote",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.75rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"Lyon Text\", Georgia, YuMincho, \"Yu Mincho\", \"Hiragino Mincho ProN\", \"Hiragino Mincho Pro\", \"Songti TC\", \"Songti SC\", SimSun, \"Nanum Myeongjo\", NanumMyeongjo, Batang, serif",
+        "file_url": ""
+      },
+      "group": "others"
+    },
+    {
+      "name": "iA Writer Mono",
+      "role": "Code / Monospace",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.75rem",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"iA Writer Mono\", Nitti, Menlo, Courier, monospace",
+        "file_url": ""
+      },
+      "group": "others"
+    },
+    {
+      "name": "Permanent Marker",
+      "role": "Handwriting / Accent",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "Google Fonts"
+      },
+      "technical": {
+        "font_family_css": "\"Permanent Marker\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "others"
+    },
+    {
+      "name": "NotionInter",
+      "role": "Eyebrow",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, \"Apple Color Emoji\", Arial, sans-serif, \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": ""
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "28px",
+    "max_width": "1464px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 599px (1 Column, 16px gutter)",
+    "tablet": "600px - 839px (8 Columns, 12px gutter)",
+    "desktop": "840px - 1079px (12 Columns, 28px gutter)",
+    "large": "1080px - 1279px (12 Columns, 28px gutter)"
+  }
+}

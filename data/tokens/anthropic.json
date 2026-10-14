@@ -1,0 +1,516 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary dark ink used for all foundational typography, main UI elements, and inverted sections to ground the design.",
+        "when_to_use": [
+          "Body typography, headings, and inline link underlines",
+          "Primary CTA button backgrounds and borders",
+          "Footer and cookie consent banner backgrounds",
+          "Animated Lottie logo paths and mobile menu icons"
+        ]
+      },
+      "hex": "#141413",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#181818",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.0002,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper Ivory",
+      "type": "Light",
+      "rules": {
+        "description": "A suite of warm, print-inspired off-whites that serve as the foundational background for the site, creating an editorial, academic feel.",
+        "when_to_use": [
+          "Primary page, mobile menu, and dropdown menu backgrounds",
+          "Primary text and icon color in the dark footer and Fable CTA section",
+          "'Oat' background fills for the release package banners",
+          "Subtle borders separating nav items and dropdown content"
+        ]
+      },
+      "hex": "#FAF9F5",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#F0EEE6",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E3DACC",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F9F9F7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E8E6DC",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.6031000000000001,
+      "group": "baseline"
+    },
+    {
+      "name": "Stone Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A muted gray used strictly for secondary information and subdued links within dark-themed areas to ensure they don't compete with primary content.",
+        "when_to_use": [
+          "Footer copyright text and secondary links",
+          "Social media icon fills in the footer",
+          "Description text and secondary links in the cookie consent banner"
+        ]
+      },
+      "hex": "#B0AEA5",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#A1A0A0",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.2595,
+      "group": "secondary"
+    },
+    {
+      "name": "True Black",
+      "type": "Dark",
+      "rules": {
+        "description": "A purely structural black used to establish base fallbacks and build layered drop-shadows.",
+        "when_to_use": [
+          "Low-opacity layered box-shadows on navigation dropdowns",
+          "Root HTML tag fallback text color",
+          "Fallback text colors on video source tags"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0012,
+      "group": "secondary"
+    },
+    {
+      "name": "Charcoal",
+      "type": "Neutral",
+      "rules": {
+        "description": "A deep charcoal used to create subtle contrast and visual separation against the primary Ink Black background.",
+        "when_to_use": [
+          "Backgrounds for individual toggle panels within the cookie consent banner",
+          "Divider border on the dark 'Try Claude' combo button"
+        ]
+      },
+      "hex": "#3D3D3A",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0001,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Anthropic Sans",
+      "role": "Display XXL",
+      "specs": {
+        "size": "clamp(3rem, 2.3877551020408165rem + 2.612244897959184vw, 5rem)",
+        "line_height": "1.1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Display XL",
+      "specs": {
+        "size": "clamp(2.5rem, 2.0408163265306123rem + 1.9591836734693877vw, 4rem)",
+        "line_height": "1.1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Display L",
+      "specs": {
+        "size": "clamp(2rem, 1.6938775510204083rem + 1.306122448979592vw, 3rem)",
+        "line_height": "1.1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Display M",
+      "specs": {
+        "size": "clamp(1.75rem, 1.6734693877551021rem + 0.326530612244898vw, 2rem)",
+        "line_height": "1.1",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Serif",
+      "role": "Display M (Serif)",
+      "specs": {
+        "size": "clamp(1.75rem, 1.6734693877551021rem + 0.326530612244898vw, 2rem)",
+        "line_height": "1.1",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Display S",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "1.3",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Display XS",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.3",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Anthropic Serif",
+      "role": "Paragraph L",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Anthropic Serif",
+      "role": "Paragraph M",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Anthropic Serif",
+      "role": "Paragraph S",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Anthropic Serif",
+      "role": "Paragraph XS",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+        "file_url": ""
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Detail XL",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Detail L",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Detail M",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Detail S",
+      "specs": {
+        "size": ".875rem",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Anthropic Sans",
+      "role": "Detail XS / Micro",
+      "specs": {
+        "size": ".75rem",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Sans",
+      "role": "Button",
+      "specs": {
+        "size": ".9375rem",
+        "line_height": "1.2",
+        "font_weight": "600",
+        "font_variation_settings": "\"opsz\" 50"
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "inherit",
+        "file_url": ""
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Anthropic Mono",
+      "role": "Monospace / Code",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Mono\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "others"
+    },
+    {
+      "name": "Anthropic Mono",
+      "role": "Terminal",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Anthropic Mono\", Arial, sans-serif",
+        "file_url": ""
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "var(--site--gutter)",
+    "max_width": "89.5rem"
+  },
+  "breakpoints": {
+    "mobile": "0px - 767px (1 Column, 2rem gutter)",
+    "tablet": "768px - 991px (12 Columns, 2rem gutter)",
+    "desktop": "992px - 1440px (12 Columns, 2rem gutter)",
+    "large": "1441px+ (12 Columns, 2rem gutter)"
+  }
+}

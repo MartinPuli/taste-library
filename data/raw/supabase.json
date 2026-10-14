@@ -1,0 +1,2064 @@
+{
+  "company": "Supabase",
+  "rank": 17,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://supabase.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T05:03:40.894647Z",
+  "completed_at": "2026-10-14T05:07:03.498576Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Supabase",
+        "tagline": "Build in a weekend. Scale to millions.",
+        "source_url": "https://supabase.com/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / Backend-as-a-Service",
+        "primary_purpose": "Drive developer sign-ups and project creation by showcasing the integrated backend platform capabilities",
+        "main_cta": "Start your project",
+        "copy_tone": [
+          "Technical",
+          "Developer-friendly",
+          "Confident"
+        ],
+        "brand_signature": "Clean, minimal interface with generous whitespace and subtle gradient borders on product cards. Light background with dark foreground text creates a documentation-like technical aesthetic. Green accent color (#3ECF8E) used sparingly for primary actions and brand moments.",
+        "visual_language": {
+          "keywords": [
+            "minimal",
+            "technical",
+            "modular",
+            "developer-centric",
+            "clean",
+            "systematic"
+          ],
+          "accent_strategy": "Bright green (#3ECF8E) used for primary CTAs, code syntax highlighting, and interactive product icons against a neutral light/dark surface palette",
+          "highlights": "Subtle animated product illustrations, hover-triggered micro-interactions on feature cards, and code snippet previews that demonstrate SDK simplicity"
+        },
+        "strategy": {
+          "target_audience": [
+            "Full-stack developers seeking a Firebase alternative with Postgres flexibility",
+            "Startup technical founders who need to ship quickly without managing infrastructure",
+            "Enterprise engineering teams evaluating open-source backend platforms for scale",
+            "AI/ML developers requiring vector database capabilities for embeddings and RAG applications"
+          ],
+          "executive_synthesis": "Supabase positions itself as the rapid-to-production, scalable Postgres platform through a visual language that mirrors developer documentation—clean, modular, and code-forward. The green accent creates urgency around 'Start your project' while the extensive product grid demonstrates platform completeness. Social proof from GitHub stars (111.5K) and enterprise logos (Figma, GitHub, Mozilla) validates scale claims, while the 'Build in a weekend, Scale to millions' tagline directly addresses the developer desire for both speed and reliability."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals a clean, modern SaaS landing page with strong Flat Design characteristics. **Visual Analysis:** The page presents an extremely clean, white-dominant canvas with systematic organization. The hero section uses bold, clear typography with a single green accent color (#0E7E4E) for CTAs. The layout flows through card-based feature sections, logo strips, dashboard previews, and community elements—all maintaining visual consistency through generous whitespace (py-16 to py-24 spacing as noted).\n\n**Forensic Evidence Supporting Flat Design:**\n1. **Color Cleanliness:** Clean/Pure - The palette is highly disciplined with a monochromatic white base (#FDFDFD, #FAFAF9) punctuated by a single brand green. No muddy or gritty colors present.\n2. **Dimensionality:** Predominantly Flat (2D) - While soft shadows exist (shadow-lg on cards), they are subtle elevation cues rather than skeuomorphic depth. The texture classification confirms \"gradient_linear\" and \"shadows_soft\" - these are modern flat design conventions, not 3D effects.\n3. **Shape Language:** Geometric shapes with rounded corners (radius-lg to radius-xl) on cards and buttons - consistent with Flat Design's digital-native clarity.\n4. **Typography:** System sans-serif fonts (Inter, Manrope) in clean weights - modern, readable, without decorative ornamentation.\n5. **Layout:** Grid-based strict 12-column system with generous whitespace - the hallmark of Flat Design's clarity-first approach.\n6. **Visual Density:** Airy/Spacious - sections breathe with substantial padding, avoiding visual clutter.\n\n**Why NOT other styles:**\n- NOT Swiss Style: While grid-based, lacks the typography-driven \"International Style\" aesthetic, flush-left alignment emphasis, and retro-modern feel. Swiss Style would use more aggressive typography hierarchy and less decorative card treatments.\n- NOT Brutalism: Too polished, too much soft shadow, too refined. Brutalism requires raw, harsh contrast and anti-design aesthetic.\n- NOT Glassmorphism: No frosted glass transparency effects on main content (only subtle backdrop-blur on nav).",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate tonal modifier applies because this is clearly a B2B/developer SaaS product targeting professional audiences. Evidence: trust badges (SOC2, AWS Certified), enterprise customer logos (Figma, Vercel, GitHub), professional dashboard screenshots, code snippets for developers, and formal \"Request Demo\" CTA language. The overall tone communicates trust, reliability, and competence—key Corporate design attributes—while maintaining approachability through the friendly green accent and clean visual hierarchy."
+        }
+      },
+      "layout": {
+        "classification": [
+          "card_based",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "2rem",
+          "max_width": "1280px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 768px (1 Column, 16px gutter)",
+          "tablet": "769px - 1024px (8 Columns, 24px gutter)",
+          "desktop": "1025px - 1440px (12 Columns, 32px gutter)",
+          "large": null
+        },
+        "section_separation": "Sections are separated by alternating white backgrounds and subtle border-bottom dividers (border-b border-border). The page maintains a consistent white background throughout with generous vertical padding (py-16 to py-24) creating breathing room. Strategic use of border-y and border-x on certain sections (e.g., customer logos) creates visual containers. No dramatic color shifts, relying instead on whitespace and fine hairline borders for rhythm.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO Supabase]    Product Resources Pricing Blog      │\n│                               [Get Started] [Sign in]    │\n├──────────────────────────────────────────────────────────┤\n│                         [HERO - Left Aligned]            │\n│   Build in a weekend                                     │\n│   Scale to millions                                      │\n│   [Get Started →]  [Request Demo]                        │\n├──────────────────────────────────────────────────────────┤\n│                    [Features Grid - 3 columns]           │\n│ ┌──────────┐  ┌──────────┐  ┌──────────┐                │\n│ │PostgreSQL│  │Authorize │  │Edge Func │                │\n│ │[desc]    │  │[desc]    │  │[desc]    │                │\n│ └──────────┘  └──────────┘  └──────────┘                │\n│ ┌──────────┐  ┌──────────┐  ┌──────────┐                │\n│ │Storage   │  │Realtime  │  │Vector    │                │\n│ │[mockup]  │  │[mockup]  │  │[mockup]  │                │\n│ └──────────┘  └──────────┘  └──────────┘                │\n├──────────────────────────────────────────────────────────┤\n│      Use one or all. Best of breed products.            │\n│              Integrated as a platform.                   │\n├──────────────────────────────────────────────────────────┤\n│              [Customer Logos Section]                    │\n│  Lovable  Vercel  Zit.ink  Figma  vb  Bott              │\n│   Stripe  RabbitJS  Haptic  Roo.ai  Cera                │\n├──────────────────────────────────────────────────────────┤\n│   Stay productive and manage your app                   │\n│   without leaving the dashboard                         │\n│   [Dashboard Screenshot - Full Width]                   │\n├──────────────────────────────────────────────────────────┤\n│              Use Supabase with React                     │\n│              [Code Snippet + Framework Icons]            │\n│              React Angular Vue Svelte Flutter Next.js    │\n├──────────────────────────────────────────────────────────┤\n│   Kickstart your next project                           │\n│   with production ready templates                       │\n│                                                          │\n│ ┌────────────────┐  ┌────────────────┐                  │\n│ │ ChatGPT        │  │ QR Code        │                  │\n│ │ Clone template │  │ Template card  │                  │\n│ └────────────────┘  └────────────────┘                  │\n│ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐            │\n│ │Postgres│ │Next.js │ │Vite+React│ │TypeScript│         │\n│ └────────┘ └────────┘ └────────┘ └────────┘            │\n├──────────────────────────────────────────────────────────┤\n│   How industry leaders are building with Supabase       │\n│   [See customer stories]                                 │\n│   [Testimonial Cards - Gradient Background Red/Orange]  │\n│   ┌──────────────────────────────────────────┐          │\n│   │  [Quote from company]                    │          │\n│   │  [Profile image + name]                  │          │\n│   └──────────────────────────────────────────┘          │\n├──────────────────────────────────────────────────────────┤\n│                 Join the community                       │\n│   [Get more support] button                              │\n│ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐    │\n│ │Supabase  │ │Realtime  │ │Community │ │Forum     │    │\n│ │[card]    │ │[card]    │ │[card]    │ │[card]    │    │\n│ └──────────┘ └──────────┘ └──────────┘ └──────────┘    │\n│ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐    │\n│ │Showcase  │ │Integr.   │ │Resources │ │Careers   │    │\n│ │[card]    │ │[card]    │ │[card]    │ │[card]    │    │\n│ └──────────┘ └──────────┘ └──────────┘ └──────────┘    │\n├──────────────────────────────────────────────────────────┤\n│              Open source from day one                    │\n│              [Contribution Graph]                        │\n│              111.5k+ [Stars visualization]               │\n├──────────────────────────────────────────────────────────┤\n│              Build in a weekend, scale to millions       │\n│              [Get Started →]  [Request Demo]             │\n├──────────────────────────────────────────────────────────┤\n│              [Customer Logos - 4 companies]              │\n│              No credit card  AWS Certified  SOC2         │\n├──────────────────────────────────────────────────────────┤\n│                    [FOOTER - Multi Column]               │\n│ [LOGO]      Product    Resources   Company   Community  │\n│ Social:     Database   Blog        About     GitHub     │\n│ [X][LI]     Auth       Examples    Careers   Discord    │\n│ [GH][...]   Storage    Case St.    Privacy   Twitter    │\n│             APIs       Partners    Terms     Forums     │\n│ [Sign up]   Pricing    Guides      Support   Events     │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: White, minimal, clean\n- Logo: Supabase with green icon\n- Buttons/CTAs: \"Get Started\" (solid green, pill-shaped) | \"Sign in\" (text link)\n- Colors observed: White background, green accent\n- Typography mood: Clean, modern sans-serif\n\nHERO:\n- Background: White, minimal\n- Headline: Large bold text \"Build in a weekend / Scale to millions\" (green accent on key words)\n- Buttons/CTAs: \"Get Started →\" (solid green, pill-shaped) | \"Request Demo\" (outline/ghost style, gray)\n- Colors observed: Green primary, white background\n- Typography mood: Bold, impactful, large headlines\n\nFEATURES GRID:\n- Background: White with subtle grid pattern\n- Layout: 2x3 grid of feature cards\n- Components: Each card has icon, title, description, and some include mockups/screenshots\n- Cards: Minimal, clean, light borders, white background\n- Mockups: UI screenshots showing database tables, realtime charts, code snippets\n- Colors observed: White cards, green accents, gray text, colorful UI mockups\n- Typography mood: Clean, hierarchical headings\n\nPLATFORM SECTION:\n- Background: White, centered text\n- Typography: Large centered statement\n- Colors observed: Dark text on white\n- Typography mood: Bold statement, minimal\n\nCUSTOMER LOGOS:\n- Background: White\n- Layout: Two rows of grayscale company logos\n- Logos: Lovable, Vercel, Zit.ink, Figma, vb, Bott, Stripe, RabbitJS, Haptic, Roo.ai, Cera\n- Colors observed: Grayscale/monochrome logos\n- Typography mood: Subtle social proof\n\nDASHBOARD SECTION:\n- Background: White\n- Headline: Bold, left-aligned\n- Imagery: Large dashboard screenshot showing table view, data management interface\n- Screenshot: Clean UI with sidebar, data tables, light theme\n- Colors observed: White, light grays, subtle color accents in UI\n- Typography mood: Product-focused, clear\n\nCODE SNIPPET SECTION:\n- Background: White\n- Headline: \"Use Supabase with React\"\n- Code display: Syntax-highlighted code blocks\n- Framework icons: React, Angular, Vue, Svelte, Flutter, Next.js (colorful brand icons)\n- Colors observed: Code syntax colors (purple, blue, pink), framework brand colors\n- Typography mood: Developer-focused, technical\n\nTEMPLATES SECTION:\n- Background: White\n- Headline: Bold, \"Kickstart your next project with production ready templates\"\n- Cards: Template preview cards with thumbnails\n- Layout: Grid of template cards\n- Components: \"ChatGPT Clone\" and \"QR Code\" featured templates\n- Technology badges: Postgres, Next.js, Vite+React, TypeScript (colored pills)\n- Colors observed: Purple/pink badges, white cards\n- Typography mood: Clear, organized\n\nTESTIMONIALS:\n- Background: Vibrant gradient (red to orange, yellow at bottom)\n- Layout: Horizontal card carousel/slider\n- Quote card: White text on gradient, profile image circles\n- Button: \"See customer stories\" (white text, outline)\n- Colors observed: Red, orange, yellow gradient; white text\n- Typography mood: Bold, emotional, human-focused\n- Imagery: Profile photos in circular frames\n\nCOMMUNITY SECTION:\n- Background: White\n- Headline: \"Join the community\"\n- Button: \"Get more support\" (centered, outline style)\n- Layout: 2x4 grid of community resource cards\n- Cards: White background, icon, title, description, subtle borders\n- Icons: Various community/resource icons\n- Colors observed: White cards, colored icons (brand colors), gray text\n- Typography mood: Welcoming, organized\n\nOPEN SOURCE SECTION:\n- Background: White\n- Headline: \"Open source from day one\"\n- Visualization: GitHub contribution graph (green squares)\n- Stats: \"111.5k+\" stars display with graphic visualization\n- Colors observed: Green (GitHub contribution style), white background\n- Typography mood: Community-focused, data-driven\n- Imagery: Flat, data visualization style\n\nFINAL CTA:\n- Background: White\n- Headline: \"Build in a weekend, scale to millions\"\n- Buttons/CTAs: \"Get Started →\" (solid green, pill-shaped) | \"Request Demo\" (outline/ghost style)\n- Colors observed: Green primary, white background\n- Typography mood: Bold, action-oriented\n\nPRE-FOOTER BADGES:\n- Background: White\n- Layout: Centered logos and trust badges\n- Elements: 4 customer logos, \"No credit card\", \"AWS Certified\", \"SOC2\" badges\n- Colors observed: Grayscale logos, subtle badge styling\n- Typography mood: Trust-building, minimal\n\nFOOTER:\n- Background: White\n- Layout: Multi-column (5 columns: Logo/Social, Product, Resources, Company, Community)\n- Logo: Supabase logo top left\n- Social icons: X, LinkedIn, GitHub, and more (grayscale icons)\n- Links: Organized by category (Product: Database, Auth, Storage, APIs, Pricing | Resources: Blog, Examples, Case Studies, Partners, Guides | Company: About, Careers, Privacy, Terms, Support | Community: GitHub, Discord, Twitter, Forums, Events)\n- Button: \"Sign up\" (solid green pill at bottom left)\n- Colors observed: White background, dark gray text, green button\n- Typography mood: Organized, comprehensive, minimal",
+        "insights": [
+          "Card-based modular system with consistent panel styling: subtle gradients from border to surface-75, rounded corners (--radius-lg to --radius-xl), and hover shadow transitions create a cohesive visual language across features, examples, and community sections.",
+          "Generous whitespace strategy: sections breathe with py-16 to py-24 spacing, and the layout avoids visual clutter by using a clean white background (bg-surface-75, bg-background) with minimal color accents (green for CTAs, subtle gradients for testimonials).",
+          "Responsive grid shifts gracefully: 12-column desktop grid (grid-cols-12) collapses to 2 columns on tablet (sm:grid-cols-2) and single column on mobile, with components like the feature grid using col-span-6 to col-span-3 to create asymmetric yet balanced layouts."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Snow White",
+            "type": "Light",
+            "rules": {
+              "description": "Acts as the dominant structural background, creating a high-contrast canvas that allows the typography and primary brand green to command attention.",
+              "when_to_use": [
+                "Primary page background",
+                "Content card surfaces"
+              ]
+            },
+            "hex": "#FDFDFD",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Signal Green",
+            "type": "Cool Color",
+            "rules": {
+              "description": "Functions as the primary energetic brand accent, driving user engagement through interactive elements and key visual highlights.",
+              "when_to_use": [
+                "Primary CTA backgrounds",
+                "Active state indicators",
+                "Brand iconography"
+              ]
+            },
+            "hex": "#0E7E4E",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Midnight Ink",
+            "type": "Dark",
+            "rules": {
+              "description": "Serves as the primary typographic anchor, offering a slightly cooler, deep navy alternative to pure black for major headings and structural elements.",
+              "when_to_use": [
+                "Hero and section headings",
+                "Primary navigation links",
+                "Dark structural backgrounds like footers"
+              ]
+            },
+            "hex": "#0C0F24",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Carbon Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Provides maximum contrast for dense body copy and fine UI details, ensuring optimal readability across the page.",
+              "when_to_use": [
+                "Body paragraph text",
+                "Fine UI borders and dividers"
+              ]
+            },
+            "hex": "#030303",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          }
+        ],
+        "insights": [
+          "The design commits to a highly disciplined, monochromatic base (white and deep darks) punctuated by a single, powerful green accent color to direct user flow and highlight interactions.",
+          "By splitting its darks into a deep navy (#0C0F24) for headings/structure and pure black (#030303) for body text, the palette achieves subtle typographic depth without compromising readability."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "Toast Title",
+              "specs": {
+                "size": "13px",
+                "line_height": "1.5",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Manrope",
+              "role": "Customer Story Quote",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--font-heading)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Standard body copy and descriptive text within components.",
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "Toast Description",
+              "specs": {
+                "size": "13px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian styles used within UI components such as toasts and buttons.",
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "Toast Button",
+              "specs": {
+                "size": "12px",
+                "line_height": "",
+                "font_weight": "",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Sans",
+              "role": "Toast Base",
+              "specs": {
+                "size": "13px",
+                "line_height": "",
+                "font_weight": "",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Specialized text variants like code blocks.",
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Code Snippet",
+              "specs": {
+                "size": "0.8125rem",
+                "line_height": "1.7",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": null
+            }
+          ]
+        },
+        "highlights": "Text highlights are primarily handled via color contrast (e.g., text-primary for emphasis) and opacity shifts (text-foreground-lighter).",
+        "insights": [
+          "The typography system utilizes a dual-family strategy: Manrope for expressive headings (via var(--font-heading)) and Inter for body text, creating a strong distinction between display and content.",
+          "Utility classes (e.g., text-xs, text-sm, text-4xl) are heavily relied upon for responsive scaling, indicating a Tailwind-based structural approach.",
+          "The toast notification system utilizes an independent, highly defensive system-UI font stack with fixed pixel values (12px/13px) to ensure absolute OS-native legibility for critical alerts."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Background Surface",
+            "description": "Primary background color for light theme",
+            "when_to_use": [
+              "Page backgrounds",
+              "Main surface areas"
+            ],
+            "hex": "#FAFAF9"
+          },
+          {
+            "name": "Surface 75",
+            "description": "Secondary surface for cards and panels",
+            "when_to_use": [
+              "Card backgrounds",
+              "Product panels",
+              "Elevated surfaces"
+            ],
+            "hex": "#F5F5F4"
+          },
+          {
+            "name": "Surface 100",
+            "description": "Tertiary surface for deeper elevation",
+            "when_to_use": [
+              "Dropdown overlays",
+              "Modal backgrounds",
+              "Command menus"
+            ],
+            "hex": "#E7E5E4"
+          },
+          {
+            "name": "Surface 200",
+            "description": "Surface for hover states and deeper containers",
+            "when_to_use": [
+              "Hover states",
+              "Active backgrounds"
+            ],
+            "hex": "#D6D3D1"
+          },
+          {
+            "name": "Navigation Background",
+            "description": "Navigation bar background with 90% opacity and backdrop blur",
+            "when_to_use": [
+              "Sticky navigation",
+              "Header backgrounds"
+            ],
+            "hex": "#FAFAF9"
+          },
+          {
+            "name": "Border Default",
+            "description": "Default border color for UI elements",
+            "when_to_use": [
+              "Card borders",
+              "Panel borders",
+              "Dividers"
+            ],
+            "hex": "#E7E5E4"
+          },
+          {
+            "name": "Border Strong",
+            "description": "Stronger border color for emphasis",
+            "when_to_use": [
+              "Emphasized borders",
+              "Component separators"
+            ],
+            "hex": "#D6D3D1"
+          },
+          {
+            "name": "Popover Surface",
+            "description": "Surface color for popovers and floating menus",
+            "when_to_use": [
+              "Dropdown menus",
+              "Tooltips",
+              "Navigation panels"
+            ],
+            "hex": "#FAFAF9"
+          },
+          {
+            "name": "Alternative Surface",
+            "description": "Alternative surface for buttons and secondary elements",
+            "when_to_use": [
+              "Secondary buttons",
+              "Tabs",
+              "Chip backgrounds"
+            ],
+            "hex": "#F5F5F4"
+          },
+          {
+            "name": "Overlay",
+            "description": "Dark overlay with transparency for modals",
+            "when_to_use": [
+              "Modal overlays",
+              "Backdrop layers"
+            ],
+            "hex": "#0A0A0A"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "CTA Button Gradient",
+            "description": "Subtle top-to-bottom gradient for primary CTA buttons",
+            "when_to_use": [
+              "Primary action buttons",
+              "Start your project CTA",
+              "Sign up buttons"
+            ],
+            "css_code": "linear-gradient(to_bottom,hsl(var(--colors-white)/0.015),hsl(var(--colors-black)/0.01))"
+          },
+          {
+            "name": "Panel Border Gradient",
+            "description": "Top-to-bottom gradient for panel borders transitioning from solid to semi-transparent",
+            "when_to_use": [
+              "Product card borders",
+              "Feature panel borders"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--border), rgba(var(--border)/0.5))"
+          },
+          {
+            "name": "Visual Overlay Gradient",
+            "description": "Bottom-to-top gradient overlay for visual fade effects",
+            "when_to_use": [
+              "Realtime panel overlay",
+              "Image fade overlays"
+            ],
+            "css_code": "linear-gradient(to_top,transparent_0%,transparent_50%,var(--background-surface-75)_85%)"
+          },
+          {
+            "name": "Lovable Card Gradient",
+            "description": "Vibrant multi-color gradient transitioning from pink through red to orange",
+            "when_to_use": [
+              "Lovable customer story card",
+              "Featured case study backgrounds"
+            ],
+            "css_code": "linear-gradient(to bottom, #FD49A8 0%, #FD2980 10%, #FC1A58 20%, #FA1F41 30%, #FA2733 40%, #FB3D26 50%, #FC541F 60%, #FE6A1E 70%, #FE771D 80%, #FF861B 90%, #FF8F1B 100%)"
+          },
+          {
+            "name": "Rally Card Gradient",
+            "description": "Diagonal gradient in vibrant blue tones using Display P3 color space",
+            "when_to_use": [
+              "Rally customer story card",
+              "Premium feature highlights"
+            ],
+            "css_code": "linear-gradient(to bottom left, color(display-p3 0.275 0.306 0.8 / 1) 0%, color(display-p3 0.118 0.176 0.769 / 1) 100%)"
+          },
+          {
+            "name": "Mask Gradient Composite",
+            "description": "Vertical gradient mask for community section",
+            "when_to_use": [
+              "Community section masking",
+              "Content fade effects"
+            ],
+            "css_code": "linear-gradient(to bottom, black 50%, transparent 100%)"
+          },
+          {
+            "name": "Mask Gradient Horizontal",
+            "description": "Horizontal gradient mask fading edges",
+            "when_to_use": [
+              "Community section horizontal masking",
+              "Carousel edge fades"
+            ],
+            "css_code": "linear-gradient(to right, transparent, black 10%, black 90%, transparent)"
+          }
+        ],
+        "highlights": [
+          "Backdrop blur effect on navigation: 'backdrop-blur-xs' creates frosted glass effect on sticky header",
+          "Soft shadow on product panels: 'shadow-lg' and 'hover:shadow-md' for depth and interactivity",
+          "Panel border gradient treatment: 1px gradient border from full opacity to 50% opacity creates subtle depth",
+          "Raised button shadow: 'shadow-[var(--button-shadow-raised)]' adds elevation to primary CTAs",
+          "Toast notification shadow: 'box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px' for floating UI elements",
+          "Dashboard preview shadow: 'shadow-lg' on rounded container with border creates realistic depth",
+          "Customer story cards: Inset shadow 'box-shadow:inset 0 0 0 1px rgba(255,255,255,0.12)' creates subtle inner border glow on gradient backgrounds",
+          "Visual overlay fade: Linear gradient overlay on Realtime panel creates seamless content fade from transparent to surface-75",
+          "Animated marquee effect: File type icons in Storage panel use CSS animation for continuous scrolling",
+          "Blur transitions: Multiple elements use 'filter:blur()' with opacity for progressive disclosure effects"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Toast Shadow",
+              "type": "drop",
+              "description": "10% black opacity, 4px Y offset, 12px blur - used for toast notifications",
+              "css_value": "rgba(0, 0, 0, 0.1) 0px 4px 12px",
+              "when_to_use": [
+                "Toast notifications",
+                "Styled toasts"
+              ]
+            },
+            {
+              "name": "Toast Focus Ring",
+              "type": "drop",
+              "description": "Composite shadow with 10% opacity blur and 20% opacity ring - used for focus state on toasts",
+              "css_value": "rgba(0, 0, 0, 0.1) 0px 4px 12px, rgba(0, 0, 0, 0.2) 0px 0px 0px 2px",
+              "when_to_use": [
+                "Toast focus visible state",
+                "Close button focus state"
+              ]
+            },
+            {
+              "name": "Button Focus Ring",
+              "type": "drop",
+              "description": "40% black opacity focus ring - used for button focus states",
+              "css_value": "rgba(0, 0, 0, 0.4) 0px 0px 0px 2px",
+              "when_to_use": [
+                "Button focus visible state"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#EDEDED",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "marquee",
+          "hover_transform",
+          "hover_lift",
+          "tab_switching",
+          "scroll_reveal"
+        ],
+        "animations": [
+          {
+            "name": "swipe-out",
+            "css": "@keyframes swipe-out { 0% { transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount))); opacity: 1; } 100% { transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%)); opacity: 0; } }",
+            "description": "Toast swipe-out animation for dismissing notifications."
+          },
+          {
+            "name": "sonner-fade-in",
+            "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(0.8); } 100% { opacity: 1; transform: scale(1); } }",
+            "description": "Toast fade-in animation with scale effect for notification appearance."
+          },
+          {
+            "name": "sonner-fade-out",
+            "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(0.8); } }",
+            "description": "Toast fade-out animation with scale effect for notification dismissal."
+          },
+          {
+            "name": "sonner-spin",
+            "css": "@keyframes sonner-spin { 0% { opacity: 1; } 100% { opacity: 0.15; } }",
+            "description": "Loading spinner animation cycling opacity for loading bar elements."
+          },
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }",
+            "description": "Simple fade-in animation for drawer overlays."
+          },
+          {
+            "name": "fadeOut",
+            "css": "@keyframes fadeOut { 100% { opacity: 0; } }",
+            "description": "Simple fade-out animation for drawer overlays."
+          },
+          {
+            "name": "slideFromBottom",
+            "css": "@keyframes slideFromBottom { 0% { transform: translate3d(0,var(--initial-transform,100%),0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+            "description": "Drawer slide-in animation from bottom for mobile drawers."
+          },
+          {
+            "name": "slideToBottom",
+            "css": "@keyframes slideToBottom { 100% { transform: translate3d(0,var(--initial-transform,100%),0); } }",
+            "description": "Drawer slide-out animation to bottom for closing drawers."
+          },
+          {
+            "name": "slideFromTop",
+            "css": "@keyframes slideFromTop { 0% { transform: translate3d(0,calc(var(--initial-transform,100%) * -1),0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+            "description": "Drawer slide-in animation from top."
+          },
+          {
+            "name": "slideToTop",
+            "css": "@keyframes slideToTop { 100% { transform: translate3d(0,calc(var(--initial-transform,100%) * -1),0); } }",
+            "description": "Drawer slide-out animation to top."
+          },
+          {
+            "name": "slideFromLeft",
+            "css": "@keyframes slideFromLeft { 0% { transform: translate3d(calc(var(--initial-transform,100%) * -1),0,0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+            "description": "Drawer slide-in animation from left."
+          },
+          {
+            "name": "slideFromRight",
+            "css": "@keyframes slideFromRight { 0% { transform: translate3d(var(--initial-transform,100%),0,0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+            "description": "Drawer slide-in animation from right."
+          },
+          {
+            "name": "drawer-transition",
+            "css": "transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1)",
+            "description": "Drawer transform transition with custom ease-out curve for smooth drawer interactions."
+          },
+          {
+            "name": "toast-transition",
+            "css": "transition: transform 0.4s, opacity 0.4s, height 0.4s, box-shadow 0.2s",
+            "description": "Toast notification transition for mount/unmount animations."
+          },
+          {
+            "name": "button-transition",
+            "css": "transition: background-color 200ms cubic-bezier(0.22, 1, 0.36, 1), border-color 200ms cubic-bezier(0.22, 1, 0.36, 1), color 200ms cubic-bezier(0.22, 1, 0.36, 1), scale 200ms cubic-bezier(0.22, 1, 0.36, 1)",
+            "description": "Global button transition with custom easing for interactive states."
+          },
+          {
+            "name": "animate-marquee",
+            "css": "",
+            "description": "Continuous horizontal scrolling animation for storage file icons. Animation is likely defined via Tailwind config or JS-driven."
+          },
+          {
+            "name": "marquee-reverse",
+            "css": "",
+            "description": "Reverse marquee animation for Data APIs lines section, running at 30000ms linear infinite."
+          },
+          {
+            "name": "pulse",
+            "css": "",
+            "description": "Pulse animation for realtime typing indicators with 600ms cubic-bezier timing, staggered delays."
+          },
+          {
+            "name": "animate-fade-in",
+            "css": "",
+            "description": "Fade-in animation applied to navigation elements on page load with delay."
+          }
+        ],
+        "insights": [
+          "Supabase uses a sophisticated button system with 'raised-control-surface' and 'primary-solid' semantic tokens, enabling consistent theming across light/dark modes while maintaining visual hierarchy.",
+          "The design system heavily leverages CSS custom properties (variables) for colors, enabling seamless theme switching and component reusability. The cubic-bezier(0.22, 1, 0.36, 1) easing curve is used consistently across interactive elements for a smooth, premium feel.",
+          "Multiple marquee/scroll animations are used for visual interest in product cards (Storage file icons, Data APIs lines), but they pause by default and only run on hover to reduce visual noise and respect user attention."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Start your project (Primary Solid)",
+            "usage": "Primary CTA button used in hero sections, navigation, and final CTA blocks. Solid green background with white text.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Small (Nav)",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "12px",
+                  "padding": "4px 10px"
+                },
+                {
+                  "name": "Default",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--primary-solid)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--primary-solid-hover)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--primary-solid)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Request a demo (Raised Surface)",
+            "usage": "Secondary CTA button used alongside primary buttons. Has a raised control surface appearance with subtle shadow.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Sign in (Text Button)",
+            "usage": "Navigation sign-in button with raised surface styling for authenticated actions.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "12px",
+                  "padding": "4px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Join us on Discord (Raised Surface)",
+            "usage": "Community CTA button linking to Discord, uses raised control surface styling.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Navigation Dropdown (Ghost)",
+            "usage": "Navigation menu buttons for Product, Developers, Solutions dropdowns. Transparent background with hover state.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "var(--foreground)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--accent)",
+                "text_color": "var(--primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "var(--foreground)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Table Editor (Pill Tab)",
+            "usage": "Dashboard feature selector tabs with pill-shaped rounded-full styling.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "14px",
+                  "padding": "6px 12px"
+                },
+                {
+                  "name": "Large",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "14px",
+                  "padding": "8px 32px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--bg-alternative)",
+                "text_color": "var(--foreground-lighter)",
+                "border_color": "var(--border)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-alternative)",
+                "text_color": "var(--foreground)",
+                "border_color": "var(--foreground-lighter)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--bg-alternative)",
+                "text_color": "var(--foreground-lighter)",
+                "border_color": "var(--border)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Skip to content (Skip Link)",
+            "usage": "Accessibility skip link that appears on focus, allowing keyboard users to bypass navigation.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ui-sans-serif, system-ui, sans-serif",
+                  "size": "12px",
+                  "padding": "4px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--raised-control-surface)",
+                "text_color": "#0C0F24",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are placed inline with consistent spacing, typically primary CTA followed by secondary.",
+          "spacing": "8px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "64px",
+          "position": "sticky",
+          "background": {
+            "hex": "#FDFDFD",
+            "color_reference": "Baseline/Snow White",
+            "opacity": "0.9",
+            "blur": "backdrop-filter: blur(4px)"
+          },
+          "border_bottom": "1px solid var(--border-default)"
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Pill Tab",
+          "description": "Tabs organize content into multiple sections with pill-shaped styling and rounded-full borders.",
+          "when_to_use": [
+            "Dashboard content switching (Table Editor, SQL Editor, RLS Policies)",
+            "Framework selection (React, Angular, Vue, etc.)"
+          ],
+          "states": [
+            {
+              "name": "default",
+              "visual_change": "Opacity at 80%, standard border",
+              "background": "var(--bg-alternative)",
+              "text": "var(--foreground-lighter)",
+              "icon": null
+            },
+            {
+              "name": "selected",
+              "visual_change": "Opacity 100%, border color changes to foreground",
+              "background": "var(--bg-alternative)",
+              "text": "var(--foreground)",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Border color lightens, text becomes foreground",
+              "background": null,
+              "text": "var(--foreground)",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [
+          {
+            "name": "Dashboard Table Editor",
+            "description": "Full-featured database table editor showing rows and columns with inline editing capabilities.",
+            "when_to_use": [
+              "Database management",
+              "Viewing and editing Postgres data",
+              "Administrative tasks"
+            ]
+          }
+        ],
+        "tiles": [
+          {
+            "name": "Product Feature Card",
+            "description": "Card displaying a Supabase product feature (Database, Auth, Storage, etc.) with icon, title, description, and visual illustration.",
+            "when_to_use": [
+              "Showcasing platform features",
+              "Product overview sections"
+            ]
+          },
+          {
+            "name": "Customer Story Card",
+            "description": "Testimonial card with gradient background, company logo, quote, and author avatar.",
+            "when_to_use": [
+              "Customer testimonials",
+              "Case study highlights",
+              "Social proof sections"
+            ]
+          },
+          {
+            "name": "Template Card",
+            "description": "Card showcasing starter templates with technology icon, title, description, and visual preview.",
+            "when_to_use": [
+              "Displaying code templates",
+              "Starter kit showcases"
+            ]
+          },
+          {
+            "name": "Community Tweet Card",
+            "description": "Card displaying Twitter/X posts from community members with profile image, handle, and quote.",
+            "when_to_use": [
+              "Community social proof",
+              "User testimonials from social media"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Border",
+            "description": "Horizontal divider separating major content sections.",
+            "when_to_use": [
+              "Between major page sections",
+              "Dashboard section separation"
+            ],
+            "color": "var(--border)",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Card Border",
+            "description": "Border around cards and panels with gradient from border to transparent.",
+            "when_to_use": [
+              "Feature cards",
+              "Product panels"
+            ],
+            "color": "var(--border)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Lucide Outline Icons",
+          "description": "Standard outlined icons used for UI elements, actions, and navigation.",
+          "when_to_use": [
+            "Navigation menus",
+            "Buttons",
+            "Inline indicators"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Outlined",
+          "sizes": {
+            "small": "12px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down relative top-px ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg>"
+            },
+            {
+              "name": "Menu",
+              "svg_code": "<svg class=\"block w-6 h-6\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h16\"></path></svg>"
+            },
+            {
+              "name": "Check",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check inline h-4 w-4\"><path d=\"M20 6 9 17l-5-5\"></path></svg>"
+            },
+            {
+              "name": "Image",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-image w-6 h-6 md:w-6 md:h-6\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" ry=\"2\"></rect><circle cx=\"9\" cy=\"9\" r=\"2\"></circle><path d=\"m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21\"></path></svg>"
+            },
+            {
+              "name": "Arrow Up Right",
+              "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0\"><path d=\"M3.5 2.5H9.5V8.5M9.5 2.5L2.5 9.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Product Feature Icons",
+          "description": "Outlined functional icons with a 25x25 scale representing Supabase core product offerings.",
+          "when_to_use": [
+            "Product marketing grids",
+            "Feature lists"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "18px",
+            "medium": "25px"
+          },
+          "examples": [
+            {
+              "name": "Postgres Database",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5.18625 8.66531H19.5035V15.331H5.18625V8.66531Z M4 17.0007C4 16.0804 4.7461 15.3343 5.66645 15.3343H18.9984C19.9187 15.3343 20.6648 16.0804 20.6648 17.0007V20.3335C20.6648 21.2539 19.9187 22 18.9984 22H5.66646C4.7461 22 4 21.2539 4 20.3335V17.0007Z M4 3.66646C4 2.7461 4.7461 2 5.66645 2H18.9984C19.9187 2 20.6648 2.7461 20.6648 3.66645V6.99926C20.6648 7.91962 19.9187 8.66572 18.9984 8.66572H5.66646C4.7461 8.66572 4 7.91962 4 6.99926V3.66646Z\" stroke=\"currentColor\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path></svg>"
+            },
+            {
+              "name": "Authentication",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5.03305 15.8071H12.7252M5.03305 15.8071V18.884H12.7252V15.8071M5.03305 15.8071V12.7302H12.7252V15.8071M15.0419 8.15385V5.07692C15.0419 3.37759 13.6643 2 11.965 2C10.2657 2 8.88814 3.37759 8.88814 5.07692V8.15385M5 11.2307L5 18.9231C5 20.6224 6.37757 22 8.07689 22H15.769C17.4683 22 18.8459 20.6224 18.8459 18.9231V11.2307C18.8459 9.53142 17.4683 8.15385 15.769 8.15385L8.07689 8.15385C6.37757 8.15385 5 9.53142 5 11.2307Z\" stroke=\"currentColor\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path></svg>"
+            },
+            {
+              "name": "Edge Functions",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6.6594 21.8201C8.10788 22.5739 9.75418 23 11.5 23C17.299 23 22 18.299 22 12.5C22 10.7494 21.5716 9.09889 20.8139 7.64754M16.4016 3.21191C14.9384 2.43814 13.2704 2 11.5 2C5.70101 2 1 6.70101 1 12.5C1 14.287 1.44643 15.9698 2.23384 17.4428M2.23384 17.4428C1.81058 17.96 1.55664 18.6211 1.55664 19.3416C1.55664 20.9984 2.89979 22.3416 4.55664 22.3416C6.21349 22.3416 7.55664 20.9984 7.55664 19.3416C7.55664 17.6847 6.21349 16.3416 4.55664 16.3416C3.62021 16.3416 2.78399 16.7706 2.23384 17.4428ZM21.5 5.64783C21.5 7.30468 20.1569 8.64783 18.5 8.64783C16.8432 8.64783 15.5 7.30468 15.5 5.64783C15.5 3.99097 16.8432 2.64783 18.5 2.64783C20.1569 2.64783 21.5 3.99097 21.5 5.64783ZM18.25 12.5C18.25 16.2279 15.2279 19.25 11.5 19.25C7.77208 19.25 4.75 16.2279 4.75 12.5C4.75 8.77208 7.77208 5.75 11.5 5.75C15.2279 5.75 18.25 8.77208 18.25 12.5Z\" stroke=\"currentColor\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path></svg>"
+            },
+            {
+              "name": "Storage",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.4997 12.1386V9.15811L14.8463 3.53163H6.43717C5.57423 3.53163 4.87467 4.23119 4.87467 5.09413V9.78087M20.4447 9.13199L14.844 3.53125L14.844 7.56949C14.844 8.43243 15.5436 9.13199 16.4065 9.13199L20.4447 9.13199ZM7.12729 9.78087H4.83398C3.97104 9.78087 3.27148 10.4804 3.27148 11.3434V19.1559C3.27148 20.8818 4.67059 22.2809 6.39648 22.2809H18.8965C20.6224 22.2809 22.0215 20.8818 22.0215 19.1559V13.7011C22.0215 12.8381 21.3219 12.1386 20.459 12.1386H10.8032C10.3933 12.1386 9.99969 11.9774 9.70743 11.6899L8.22312 10.2296C7.93086 9.94202 7.53729 9.78087 7.12729 9.78087Z\" stroke=\"currentColor\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path></svg>"
+            },
+            {
+              "name": "Data APIs",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"18\" height=\"18\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.13477 12.8129C4.13477 14.1481 4.43245 15.4138 4.96506 16.5471M12.925 4.02271C11.5644 4.02271 10.276 4.33184 9.12614 4.88371M21.7152 12.8129C21.7152 11.4644 21.4115 10.1867 20.8688 9.0447M12.925 21.6032C14.2829 21.6032 15.5689 21.2952 16.717 20.7454M16.717 20.7454C17.2587 21.5257 18.1612 22.0366 19.1831 22.0366C20.84 22.0366 22.1831 20.6935 22.1831 19.0366C22.1831 17.3798 20.84 16.0366 19.1831 16.0366C17.5263 16.0366 16.1831 17.3798 16.1831 19.0366C16.1831 19.6716 16.3804 20.2605 16.717 20.7454ZM4.96506 16.5471C4.16552 17.086 3.63965 17.9999 3.63965 19.0366C3.63965 20.6935 4.98279 22.0366 6.63965 22.0366C8.2965 22.0366 9.63965 20.6935 9.63965 19.0366C9.63965 17.3798 8.2965 16.0366 6.63965 16.0366C6.01951 16.0366 5.44333 16.2248 4.96506 16.5471ZM9.12614 4.88371C8.58687 4.08666 7.67444 3.56274 6.63965 3.56274C4.98279 3.56274 3.63965 4.90589 3.63965 6.56274C3.63965 8.2196 4.98279 9.56274 6.63965 9.56274C8.2965 9.56274 9.63965 8.2196 9.63965 6.56274C9.63965 5.94069 9.45032 5.36285 9.12614 4.88371ZM20.8688 9.0447C21.6621 8.50486 22.1831 7.59464 22.1831 6.56274C22.1831 4.90589 20.84 3.56274 19.1831 3.56274C17.5263 3.56274 16.1831 4.90589 16.1831 6.56274C16.1831 8.2196 17.5263 9.56274 19.1831 9.56274C19.8081 9.56274 20.3884 9.37165 20.8688 9.0447Z\" stroke=\"currentColor\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Framework UI Tab Icons",
+          "description": "Abstract blocky, filled icons used for the code snippet framework tabs.",
+          "when_to_use": [
+            "Code block tabs",
+            "Framework selection"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "28px",
+            "medium": "61px"
+          },
+          "examples": [
+            {
+              "name": "Abstract Shape 1",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"28\" height=\"28\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" viewBox=\"0 0 61 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M42.3148 48.6796C38.9009 50.9525 34.8014 52.2771 30.3924 52.2771C18.4957 52.2771 8.85156 42.6329 8.85156 30.7362C8.85156 18.8395 18.4957 9.19531 30.3924 9.19531C42.2891 9.19531 51.9333 18.8395 51.9333 30.7362C51.9333 37.1564 49.1245 42.9207 44.6688 46.8671L39.5552 40.2803V21.8278H36.584V36.4531L25.2299 21.8278H21.4808V39.6473H24.4801V25.6368L42.3148 48.6796Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Abstract Shape 2",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"28\" height=\"28\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" viewBox=\"0 0 61 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M46.5067 10.3828L34.3509 10.3962L14.75 29.9971L20.7974 36.0519L26.1125 30.7666L46.5067 10.3828Z M34.6996 28.4653C34.5272 28.4573 34.3493 28.4491 34.2378 28.5965L23.7856 39.0471L29.7894 45.0142L29.7825 45.021L34.079 49.3212C34.1072 49.3462 34.1352 49.3741 34.1637 49.4026C34.2813 49.5201 34.4074 49.6462 34.5895 49.6055C36.5743 49.601 38.5591 49.6017 40.544 49.6025C42.529 49.6032 44.5142 49.604 46.4998 49.5995L35.9333 39.0234L46.4963 28.467L34.906 28.464C34.8415 28.4719 34.7711 28.4686 34.6996 28.4653Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Abstract Shape 3",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"28\" height=\"28\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" viewBox=\"0 0 61 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M43.0532 13.4531H50.1147L30.2756 47.8158L10.4365 13.4531H17.4978L30.2755 35.5845L43.0532 13.4531ZM42.1764 13.4531L30.2755 34.0659L18.3746 13.4531L25.6939 13.4531L30.2756 21.3888L34.8572 13.4531L42.1764 13.4531Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Abstract Shape 4",
+              "svg_code": "<svg aria-hidden=\"true\" width=\"28\" height=\"28\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" viewBox=\"0 0 61 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M32.5784 45.4741H50.2199C50.7802 45.4741 51.3307 45.3325 51.8159 45.0634C52.3012 44.7943 52.7041 44.4072 52.9842 43.9409C53.2642 43.4748 53.4115 42.946 53.4113 42.4078C53.4111 41.8696 53.2633 41.3409 52.9828 40.875L41.1352 21.164C40.8552 20.6979 40.4524 20.3109 39.9672 20.0418C39.4821 19.7727 38.9317 19.631 38.3715 19.631C37.8113 19.631 37.261 19.7727 36.7758 20.0418C36.2906 20.3109 35.8878 20.6979 35.6078 21.164L32.5784 26.2073L26.6555 16.3452C26.3753 15.8792 25.9723 15.4922 25.487 15.2232C25.0017 14.9541 24.4513 14.8125 23.8909 14.8125C23.3306 14.8125 22.7802 14.9541 22.2949 15.2232C21.8096 14.9541 21.4066 15.8792 21.1263 16.3452L6.38358 40.875C6.10311 41.3409 5.95532 41.8696 5.95508 42.4078C5.95483 42.946 6.10214 43.4748 6.38219 43.9409C6.66224 44.4072 7.06515 44.7943 7.5504 45.0634C8.03564 45.3325 8.58612 45.4741 9.14645 45.4741H20.2203C24.6079 45.4741 27.8436 43.6229 30.07 40.0113L38.3706 26.2073L47.0599 40.6619H35.4754L32.5784 45.4741Z\" fill=\"currentColor\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Supabase UI Icons",
+          "description": "Small solid custom UI shapes.",
+          "when_to_use": [
+            "Dashboard elements",
+            "Micro-interactions"
+          ],
+          "format": "SVG",
+          "style": "Filled / Solid",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "SBUI Polygon",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"none\" class=\"sbui-icon\" width=\"100%\" height=\"100%\"><path fill=\"currentColor\" d=\"M12.6009 0.903908H15.0544L9.69434 7.03008L16 15.3664H11.0627L7.19566 10.3105L2.77087 15.3664H0.31595L6.04904 8.81379L0 0.903908H5.06262L8.55811 5.52524L12.6009 0.903908ZM11.7399 13.8979H13.0993L4.32392 2.29528H2.86506L11.7399 13.8979Z\"></path></svg>"
+            },
+            {
+              "name": "SBUI Badge",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"none\" class=\"sbui-icon\" width=\"100%\" height=\"100%\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 0C3.5816 0 0 3.58719 0 8.01357C0 11.5535 2.292 14.5575 5.4712 15.6167C5.8712 15.6903 6.0168 15.4431 6.0168 15.2303C6.0168 15.0407 6.0104 14.5359 6.0064 13.8679C3.7808 14.3519 3.3112 12.7935 3.3112 12.7935C2.948 11.8671 2.4232 11.6207 2.4232 11.6207C1.6968 11.1247 2.4784 11.1343 2.4784 11.1343C3.2808 11.1903 3.7032 11.9599 3.7032 11.9599C4.4168 13.1839 5.576 12.8303 6.0312 12.6255C6.1048 12.1079 6.3112 11.7551 6.54 11.5551C4.764 11.3527 2.896 10.6647 2.896 7.59438C2.896 6.71998 3.208 6.00398 3.7192 5.44398C3.6368 5.24158 3.3624 4.42639 3.7976 3.32399C3.7976 3.32399 4.4696 3.10799 5.9976 4.14479C6.65022 3.9668 7.32355 3.87614 8 3.87519C8.68 3.87839 9.364 3.96719 10.0032 4.14479C11.5304 3.10799 12.2008 3.32319 12.2008 3.32319C12.6376 4.42639 12.3624 5.24158 12.2808 5.44398C12.7928 6.00398 13.1032 6.71998 13.1032 7.59438C13.1032 10.6727 11.232 11.3503 9.4504 11.5487C9.73762 11.7959 9.99282 12.2847 9.99282 13.0327C9.99282 14.1031 9.98322 14.9679 9.98322 15.2303C9.98322 15.4447 10.1272 15.6943 10.5336 15.6159C12.1266 15.0816 13.5115 14.0602 14.4924 12.696C15.4733 11.3318 16.0007 9.69382 16 8.01357C16 3.58719 12.4176 0 8 0Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "SBUI Shield",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"none\" class=\"sbui-icon\" width=\"100%\" height=\"100%\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.6657 4.13526C15.4817 3.44239 14.9395 2.8967 14.2511 2.71152C13.0033 2.37502 8 2.37502 8 2.37502C8 2.37502 2.99669 2.37502 1.74891 2.71152C1.06052 2.89673 0.518351 3.44239 0.334337 4.13526C1.90735e-06 5.39112 1.90735e-06 8.01137 1.90735e-06 8.01137C1.90735e-06 8.01137 1.90735e-06 10.6316 0.334337 11.8875C0.518351 12.5804 1.06052 13.1033 1.74891 13.2885C2.99669 13.625 8 13.625 8 13.625C8 13.625 13.0033 13.625 14.2511 13.2885C14.9395 13.1033 15.4817 12.5804 15.6657 11.8875C16 10.6316 16 8.01137 16 8.01137C16 8.01137 16 5.39112 15.6657 4.13526ZM6.36363 10.3904V5.63238L10.5454 8.01143L6.36363 10.3904Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "SBUI Shape",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"none\" class=\"sbui-icon\" width=\"100%\" height=\"100%\"><path fill=\"currentColor\" d=\"M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07Z\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/favicon.ico",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/favicon.ico",
+            "origin_url": "https://supabase.com/favicon/favicon.ico",
+            "description": "Supabase Favicon (ICO)"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/favicon.png",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/favicon.png",
+            "origin_url": "https://supabase.com/favicon/apple-icon-180x180.png",
+            "description": "Supabase Apple Touch Icon (PNG)"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/primary-inline.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/primary-inline.svg",
+            "origin_url": null,
+            "description": "Supabase Primary Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline.svg",
+            "origin_url": null,
+            "description": "PwC Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-2.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-2.svg",
+            "origin_url": null,
+            "description": "V0 Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-3.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-3.svg",
+            "origin_url": null,
+            "description": "Betashares Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-4.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-4.svg",
+            "origin_url": null,
+            "description": "LangChain Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-5.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-inline-5.svg",
+            "origin_url": null,
+            "description": "Supabase Logo (Monochrome Secondary)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-2.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://supabase.com/images/logos/frameworks/stripe.svg",
+            "description": "Stripe Framework Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary.svg",
+            "origin_url": "https://supabase.com/images/logos/frameworks/nextjs.svg",
+            "description": "Next.js Framework Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-3.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://supabase.com/images/logos/frameworks/openai.svg",
+            "description": "OpenAI Framework Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-4.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-4.svg",
+            "origin_url": "https://supabase.com/images/logos/frameworks/langchain.svg",
+            "description": "LangChain Framework Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-5.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-5.svg",
+            "origin_url": "https://supabase.com/images/logos/frameworks/flutter.svg",
+            "description": "Flutter Framework Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-6.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-6.svg",
+            "origin_url": "https://supabase.com/images/logos/frameworks/expo.svg",
+            "description": "Expo Framework Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-7.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-7.svg",
+            "origin_url": "https://supabase.com/images/customers/logos/lovable-homepage-icon.svg",
+            "description": "Lovable Customer Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-9.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-9.svg",
+            "origin_url": "https://supabase.com/images/customers/logos/exprealty-homepage-icon.svg",
+            "description": "eXp Realty Customer Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-8.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-8.svg",
+            "origin_url": "https://supabase.com/images/customers/logos/phoenix-energy-homepage-icon.svg",
+            "description": "Phoenix Energy Customer Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-10.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-10.svg",
+            "origin_url": "https://supabase.com/images/customers/logos/chatbase-homepage-icon.svg",
+            "description": "Chatbase Customer Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-11.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/logos/secondary-11.svg",
+            "origin_url": "https://supabase.com/images/customers/logos/rally-icon.svg",
+            "description": "Rally Customer Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Supabase Open Graph Preview",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-open-graph-preview.png",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-open-graph-preview.png",
+            "origin_url": "https://supabase.com/images/og/supabase-og.png",
+            "usage_context": "Meta og:image — social share preview"
+          },
+          {
+            "name": "Supabase Table Editor Overview Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/video/supabase-table-editor-overview-video.webm",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/video/supabase-table-editor-overview-video.webm",
+            "origin_url": "https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-table-editor-light.webm",
+            "usage_context": "Video demonstration of the dashboard table editor"
+          },
+          {
+            "name": "Supabase Postgres database (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-postgres-database-dark-mode.png",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-postgres-database-dark-mode.png",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Findex%2Fproducts%2Fdatabase-dark.png&w=3840&q=100",
+            "usage_context": "Product marketing illustration for Postgres Database"
+          },
+          {
+            "name": "Supabase Postgres database (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-postgres-database-light-mode.png",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-postgres-database-light-mode.png",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Findex%2Fproducts%2Fdatabase-light.png&w=3840&q=100",
+            "usage_context": "Product marketing illustration for Postgres Database"
+          },
+          {
+            "name": "Supabase Authentication user db rows (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/auth.svg",
+            "usage_context": "Product marketing illustration for Authentication"
+          },
+          {
+            "name": "Supabase Authentication user db rows active (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-active-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-active-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/auth-active.svg",
+            "usage_context": "Hover state product marketing illustration for Authentication"
+          },
+          {
+            "name": "Supabase Authentication user db rows (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/auth-light.svg",
+            "usage_context": "Product marketing illustration for Authentication"
+          },
+          {
+            "name": "Supabase Authentication user db rows active (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-active-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-authentication-user-db-rows-active-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/auth-active-light.svg",
+            "usage_context": "Hover state product marketing illustration for Authentication"
+          },
+          {
+            "name": "Supabase Edge Functions globe (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-edge-functions-globe-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-edge-functions-globe-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/edge-functions-dark.svg",
+            "usage_context": "Product marketing illustration for Edge Functions"
+          },
+          {
+            "name": "Supabase Edge Functions globe (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-edge-functions-globe-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-edge-functions-globe-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/edge-functions-light.svg",
+            "usage_context": "Product marketing illustration for Edge Functions"
+          },
+          {
+            "name": "Supabase Realtime (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-realtime-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-realtime-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/realtime-dark.svg",
+            "usage_context": "Product marketing illustration for Realtime"
+          },
+          {
+            "name": "Supabase Realtime (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-realtime-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-realtime-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/realtime-light.svg",
+            "usage_context": "Product marketing illustration for Realtime"
+          },
+          {
+            "name": "Supabase Vector graph (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-vector-graph-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-vector-graph-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/vector-dark.svg",
+            "usage_context": "Product marketing illustration for Vector"
+          },
+          {
+            "name": "Supabase Vector graph (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-vector-graph-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-vector-graph-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/vector-light.svg",
+            "usage_context": "Product marketing illustration for Vector"
+          },
+          {
+            "name": "Supabase restful DataAPIs lines (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-lines-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-lines-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/data-apis-lines-dark.svg",
+            "usage_context": "Animated product marketing illustration background for Data APIs"
+          },
+          {
+            "name": "Supabase restful DataAPIs lines (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-lines-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-lines-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/data-apis-lines-light.svg",
+            "usage_context": "Animated product marketing illustration background for Data APIs"
+          },
+          {
+            "name": "Supabase restful DataAPIs graph (Dark Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-graph-dark-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-graph-dark-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/data-apis-dark.svg",
+            "usage_context": "Product marketing illustration for Data APIs"
+          },
+          {
+            "name": "Supabase restful DataAPIs graph (Light Mode)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-graph-light-mode.svg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-restful-dataapis-graph-light-mode.svg",
+            "origin_url": "https://supabase.com/images/index/products/data-apis-light.svg",
+            "usage_context": "Product marketing illustration for Data APIs"
+          },
+          {
+            "name": "Supabase dashboard table editor poster",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-dashboard-table-editor-poster.png",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/supabase-dashboard-table-editor-poster.png",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Findex%2Fdashboard%2Fsupabase-table-editor-light.png&w=3840&q=75",
+            "usage_context": "Video poster/fallback for the Table Editor demonstration"
+          },
+          {
+            "name": "Bryan Byrne, Product Manager, Lovable",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/bryan-byrne-product-manager-lovable.jpeg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/bryan-byrne-product-manager-lovable.jpeg",
+            "origin_url": "https://supabase.com/images/blog/avatars/bryan-byrne-lovable.jpeg",
+            "usage_context": "Customer testimonial avatar"
+          },
+          {
+            "name": "Seth Siegler, Chief Innovation Officer, eXp Realty",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/seth-siegler-chief-innovation-officer-exp-realty.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/seth-siegler-chief-innovation-officer-exp-realty.jpg",
+            "origin_url": "https://supabase.com/images/blog/avatars/seth-siegler.jpg",
+            "usage_context": "Customer testimonial avatar"
+          },
+          {
+            "name": "Kris Woods, CTO, Phoenix Energy",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/kris-woods-cto-phoenix-energy.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/kris-woods-cto-phoenix-energy.jpg",
+            "origin_url": "https://supabase.com/images/blog/avatars/kris-woods-phoenix-energy.jpg",
+            "usage_context": "Customer testimonial avatar"
+          },
+          {
+            "name": "Yasser Elsaid, Founder and CEO, Chatbase",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/yasser-elsaid-founder-and-ceo-chatbase.jpeg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/yasser-elsaid-founder-and-ceo-chatbase.jpeg",
+            "origin_url": "https://supabase.com/images/blog/avatars/yasser-elsaid-chatbase.jpeg",
+            "usage_context": "Customer testimonial avatar"
+          },
+          {
+            "name": "Thiago Peres, Founder & CTO, Rally",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/thiago-peres-founder-cto-rally.jpeg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/thiago-peres-founder-cto-rally.jpeg",
+            "origin_url": "https://supabase.com/images/blog/avatars/thiago-peres-rally.jpeg",
+            "usage_context": "Customer testimonial avatar"
+          },
+          {
+            "name": "@nerdburn twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/nerdburn-twitter-avatar.png",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/nerdburn-twitter-avatar.png",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2F66VSV9Mm_400x400.png&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@adeelibr twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/adeelibr-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/adeelibr-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2Fk0aPYRHF_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@SteinlageScott twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/steinlagescott-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/steinlagescott-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FnbmmwDll_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@patrickc twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/patrickc-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/patrickc-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2F_iAaSUQf_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@TyronBache twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/tyronbache-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/tyronbache-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2F89h9ROOs_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@BowTiedQilin twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/bowtiedqilin-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/bowtiedqilin-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FZmOmQeTl_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@shadcn twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/shadcn-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/shadcn-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FTUYae5z7.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@MinimEditor twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/minimeditor-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/minimeditor-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2F5KvPPRZz_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@adm_lawson twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/adm-lawson-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/adm-lawson-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FI5pY1PAA_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@Aliahsan_sfv twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/aliahsan-sfv-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/aliahsan-sfv-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2F2SQwtv8c_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@orlandopedro_ twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/orlandopedro-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/orlandopedro-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FZjIOtCGg_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@gokul_i twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/gokul-i-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/gokul-i-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FEtC0mhne_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@yatsiv_yuriy twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/yatsiv-yuriy-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/yatsiv-yuriy-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FY1swF6ef_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@sdusteric twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/sdusteric-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/sdusteric-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FFQsUZJMC_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          },
+          {
+            "name": "@dadooos_ twitter avatar",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/dadooos-twitter-avatar.jpg",
+            "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/site-assets/media/image/dadooos-twitter-avatar.jpg",
+            "origin_url": "https://supabase.com/_next/image?url=%2Fimages%2Ftwitter-profiles%2FT42R9GFf_400x400.jpg&w=128&q=75",
+            "usage_context": "Community tweet avatar"
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/x/795f3d55-61a6-41d3-b399-bd93e4c75833.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Black promotional banner with “Build in a weekend” in white and “Scale to millions” in green beside a dotted digital globe."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/x/135df787-f0ec-4f63-b24e-50fc75f50481.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A bright green abstract logo of two opposing, rounded triangular shapes interlocking at the center on a black background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/x/8a1f751e-eeab-4164-b80b-78365725bdca.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Black Supabase announcement graphic with green lightning logo, white “Declarative Schemas” title, and an angled, color-coded code panel."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/x/7abcf255-f5ac-43cf-a7e4-24790adb347f.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A hand holds colorful candy bags with Google DeepMind cards beneath a curved green-and-blue “WEEKEND BUILD” event banner."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/x/f0e029cc-2845-4387-891b-fa816da81517.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A man wearing headphones speaks into a microphone in a dark workshop, with a glowing green lightning-bolt sign and Supabase logo visible."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/linkedin/eb5d7682-35c5-43fa-b474-3f9e50cab426.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Black event graphic with Supabase and Claude logos above large green-and-white “Dublin Meetup” text and a dotted globe."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/linkedin/ba3528d6-9567-4fc2-b5f8-41b1d213daae.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Dark event poster for “Supabase × Grafana,” with bold white typography, green and orange accents, and New York City meetup details."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/linkedin/82bdd405-478b-4eaa-89ec-204fbfc2c7eb.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Retro pixel-art event graphic reading “SUPABASE SELECT 26” and “MAIN STAGE,” with mint-green accents and a dark code-inspired lower panel."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/linkedin/273479b6-a33d-4411-87a2-97c62310172a.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Black event poster with Supabase and Datadog logos, large green-and-white “NYC Meetup” lettering, and a dotted globe graphic."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/linkedin/8390687f-3ab7-47e6-9963-73cc27b36f4e.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Dark “Getting Started” setup screen with a subtitle and a grid of rounded tiles displaying colorful framework and programming-language logos."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/x/c67396b1-19ca-4283-8c80-c4aec92f568c.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Stacksync and Supabase event graphic with bold “AI-Native Operations” typography above a blue dotted skyline and dark footer."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/billboard/69c8aa24-483f-484c-9cbf-44dc1dcf9c83.webp",
+            "source": "billboard",
+            "content_type": "image/webp",
+            "category": "brand_identity",
+            "asset_description": "A roadside billboard above a busy highway displays “supabase” in white beside a bright green lightning-bolt logo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/billboard/98c226ea-2dc8-458f-b2ae-a46e84f346e0.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A curved Nasdaq billboard displays “CLOUD INFRASTRUCTURE,” with Supabase and Redpoint logos on a white panel above a dark Nasdaq-branded base."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/billboard/35aa4671-4d32-47c8-842a-2e10c76d9e0e.png",
+            "source": "billboard",
+            "content_type": "image/png",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "SecurityPal AI webpage hero with oversized thin black headline above a climber holding a Supabase-branded flag amid colorful Everest prayer flags."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/billboard/3dcc0895-1eff-4a2d-89ec-cf1dea437e78.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A curved Nasdaq billboard in a city plaza features bold red “RED” lettering, Supabase branding, and a black Nasdaq logo panel."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/brand-media/linkedin/55adfc35-2cd7-4334-94ed-26d761e6e025.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Black “Weekly Changelog” livestream graphic with a glowing red Live badge, Monday schedule, and two stacked presenter portraits on the right."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal with centered nav items",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Supabase logo with green icon on the left"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal menu with Product, Developers, Solutions (dropdowns), Pricing, Docs, Blog links"
+            },
+            {
+              "type": "button",
+              "description": "GitHub stars button showing '111.5K' with star icon, gray background"
+            },
+            {
+              "type": "button",
+              "description": "'Sign in' button, minimal raised surface"
+            },
+            {
+              "type": "button",
+              "description": "'Start your project' button, solid green (primary) with pill shape"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Left-aligned, two-column grid on larger screens",
+          "headline": "Build in a weekend Scale to millions",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Start your project' primary CTA, solid green pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "'Request a demo' secondary CTA, outline/ghost style gray button"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Grid 2×3 on desktop (12-column responsive grid), card-based",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Postgres Database card: white card with subtle border, green database icon, headline, description text, checkmarks list, and large database UI mockup on right"
+            },
+            {
+              "type": "card",
+              "description": "Authentication card: white with user rows SVG illustration, purple/pink accent"
+            },
+            {
+              "type": "card",
+              "description": "Edge Functions card: dark gradient background with globe and command-line snippet overlay"
+            },
+            {
+              "type": "card",
+              "description": "Storage card: animated marquee of file/image/video icons, light border on hover"
+            },
+            {
+              "type": "card",
+              "description": "Realtime card: dark background with animated cursor bubbles and sync indicators"
+            },
+            {
+              "type": "card",
+              "description": "Vector card: graph network visualization with OpenAI and Hugging Face logos"
+            },
+            {
+              "type": "card",
+              "description": "Data APIs card: animated vertical lines pattern with REST API branding"
+            }
+          ]
+        },
+        {
+          "type": "Platform Statement",
+          "layout_pattern": "Centered",
+          "headline": "Use one or all. Best of breed products. Integrated as a platform.",
+          "subheadline": null,
+          "components": []
+        },
+        {
+          "type": "Customer Logos",
+          "layout_pattern": "Grid 3×4 on mobile, 6 columns on desktop",
+          "headline": "Trusted by fast-growing companies worldwide",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Grayscale company logos: Lovable, Mozilla, Pwc, Figma, V0, Bolt, Github, Betashares, Mobbin, Resend, Langchain, 1Password arranged in responsive grid"
+            }
+          ]
+        },
+        {
+          "type": "Dashboard Showcase",
+          "layout_pattern": "Centered, full-width screenshot with tab navigation above",
+          "headline": "Stay productive and manage your app without leaving the dashboard",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Tab buttons: 'Table Editor' (active with green accent), 'SQL Editor', 'RLS Policies' — pill-shaped, outlined"
+            },
+            {
+              "type": "image",
+              "description": "Large dashboard screenshot in browser chrome mockup showing table editor interface with data tables, light theme, subtle shadow"
+            }
+          ]
+        },
+        {
+          "type": "Code Snippet / Frameworks",
+          "layout_pattern": "Split 50/50 — headline on left, code + icons on right",
+          "headline": "Use Supabase with React",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "icon",
+              "description": "Framework icons: React, Angular, Vue, Svelte, Flutter, Next.js — colorful brand icons in horizontal strip"
+            },
+            {
+              "type": "card",
+              "description": "Syntax-highlighted code block with light/dark theme support, purple/pink syntax colors, bordered container"
+            },
+            {
+              "type": "button",
+              "description": "'Read docs for React' link button, small rounded pill in bottom-right corner"
+            }
+          ]
+        },
+        {
+          "type": "Templates / Examples",
+          "layout_pattern": "Grid 2 large cards + 4 small cards below",
+          "headline": "Kickstart your next project with production ready templates",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Stripe Subscriptions Starter — large card with Stripe logo, headline, description, and browser mockup showing pricing tiers with purple accent"
+            },
+            {
+              "type": "card",
+              "description": "Next.js Starter — large card with Next.js logo (inverted), browser mockup with sidebar and grid layout, blue accent"
+            },
+            {
+              "type": "card",
+              "description": "AI Chatbot — small card with OpenAI logo, headline and description, white surface"
+            },
+            {
+              "type": "card",
+              "description": "LangChain + Next.js Starter — small card with LangChain logo"
+            },
+            {
+              "type": "card",
+              "description": "Flutter User Management — small card with Flutter logo"
+            },
+            {
+              "type": "card",
+              "description": "Expo React Native Starter — small card with Expo logo"
+            }
+          ]
+        },
+        {
+          "type": "Testimonials / Customer Stories",
+          "layout_pattern": "Horizontal carousel/slider with large featured card",
+          "headline": "How industry leaders are building with Supabase",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Lovable testimonial card: vibrant red-to-orange-to-yellow gradient background, white text, company logo, quote, profile photo in circular frame, 'Read the story →' link"
+            },
+            {
+              "type": "card",
+              "description": "Additional testimonial cards (eXp Realty, Phoenix Energy, Chatbase, Rally) with distinct gradient/solid color backgrounds, company logos visible"
+            },
+            {
+              "type": "button",
+              "description": "'More customer stories' text link in header"
+            }
+          ]
+        },
+        {
+          "type": "Community",
+          "layout_pattern": "Centered headline + grid 2×4 cards",
+          "headline": "Join the community",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Join us on Discord' button, centered, raised control surface style"
+            },
+            {
+              "type": "card",
+              "description": "Community resource cards in 2×4 grid — white background, icon, title, description, subtle borders (representing Discord, GitHub, Forums, Events, etc.)"
+            }
+          ]
+        },
+        {
+          "type": "Open Source",
+          "layout_pattern": "Centered",
+          "headline": "Open source from day one",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "GitHub contribution graph with green squares showing activity heatmap"
+            },
+            {
+              "type": "illustration",
+              "description": "Stars visualization graphic showing '111.5k+' GitHub stars"
+            }
+          ]
+        },
+        {
+          "type": "Final CTA",
+          "layout_pattern": "Centered",
+          "headline": "Build in a weekend, scale to millions",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Get Started →' primary CTA, solid green pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "'Request Demo' secondary CTA, outline style"
+            }
+          ]
+        },
+        {
+          "type": "Pre-Footer Trust Badges",
+          "layout_pattern": "Centered",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "4 customer logos in grayscale, centered"
+            },
+            {
+              "type": "icon",
+              "description": "Trust badges: 'No credit card', 'AWS Certified', 'SOC2' — minimal text styling"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column (5 columns: Logo/Social, Product, Resources, Company, Community)",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Supabase logo in top-left of footer"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons (X, LinkedIn, GitHub, etc.) in grayscale"
+            },
+            {
+              "type": "navigation",
+              "description": "Link columns: Product (Database, Auth, Storage, APIs, Pricing), Resources (Blog, Examples, Case Studies, Partners, Guides), Company (About, Careers, Privacy, Terms, Support), Community (GitHub, Discord, Twitter, Forums, Events)"
+            },
+            {
+              "type": "button",
+              "description": "'Sign up' button at bottom-left, solid green pill"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": null
+    }
+  }
+}

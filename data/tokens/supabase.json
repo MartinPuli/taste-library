@@ -1,0 +1,181 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Snow White",
+      "type": "Light",
+      "rules": {
+        "description": "Acts as the dominant structural background, creating a high-contrast canvas that allows the typography and primary brand green to command attention.",
+        "when_to_use": [
+          "Primary page background",
+          "Content card surfaces"
+        ]
+      },
+      "hex": "#FDFDFD",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Signal Green",
+      "type": "Cool Color",
+      "rules": {
+        "description": "Functions as the primary energetic brand accent, driving user engagement through interactive elements and key visual highlights.",
+        "when_to_use": [
+          "Primary CTA backgrounds",
+          "Active state indicators",
+          "Brand iconography"
+        ]
+      },
+      "hex": "#0E7E4E",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Midnight Ink",
+      "type": "Dark",
+      "rules": {
+        "description": "Serves as the primary typographic anchor, offering a slightly cooler, deep navy alternative to pure black for major headings and structural elements.",
+        "when_to_use": [
+          "Hero and section headings",
+          "Primary navigation links",
+          "Dark structural backgrounds like footers"
+        ]
+      },
+      "hex": "#0C0F24",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Carbon Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Provides maximum contrast for dense body copy and fine UI details, ensuring optimal readability across the page.",
+        "when_to_use": [
+          "Body paragraph text",
+          "Fine UI borders and dividers"
+        ]
+      },
+      "hex": "#030303",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "System Sans",
+      "role": "Toast Title",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.5",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Manrope",
+      "role": "Customer Story Quote",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--font-heading)",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "System Sans",
+      "role": "Toast Description",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "System Sans",
+      "role": "Toast Button",
+      "specs": {
+        "size": "12px",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Sans",
+      "role": "Toast Base",
+      "specs": {
+        "size": "13px",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Code Snippet",
+      "specs": {
+        "size": "0.8125rem",
+        "line_height": "1.7",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": null,
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "2rem",
+    "max_width": "1280px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 16px gutter)",
+    "tablet": "769px - 1024px (8 Columns, 24px gutter)",
+    "desktop": "1025px - 1440px (12 Columns, 32px gutter)",
+    "large": null
+  }
+}

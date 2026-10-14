@@ -1,0 +1,464 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary high-contrast ink used for standard text, structural iconography, and standout primary button backgrounds.",
+        "when_to_use": [
+          "Body text color",
+          "Primary CTA button backgrounds",
+          "Nav logo and UI icons",
+          "Bullet point icons in the Control section"
+        ]
+      },
+      "hex": "#161514",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#17171F",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#0E0D0C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.0028000000000001,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper White",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational surface palette, defining the clean page background, crisp component cards, and subtle section delineations via its light gray tints.",
+        "when_to_use": [
+          "Main page background",
+          "Marketing card backgrounds",
+          "Primary CTA text and icons",
+          "Subtle borders and dividers (#F6F6F6, #ECECEB)"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#F6F6F6",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FAFAFA",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#ECECEB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EBEAE5",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EAE8E4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F6F0",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F5F4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F2F3F5",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F1F2EC",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.18830000000000005,
+      "group": "baseline"
+    },
+    {
+      "name": "Slate Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A softer text color utilized for secondary information, metadata, and structural eyebrows that shouldn't compete with primary headings.",
+        "when_to_use": [
+          "Section eyebrow text (e.g., 'Benefits', 'Flows')",
+          "Card descriptions and muted metadata",
+          "Footer navigation links",
+          "Muted terminal text and secondary code"
+        ]
+      },
+      "hex": "#71706F",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0703,
+      "group": "secondary"
+    },
+    {
+      "name": "Deep Olive Black",
+      "type": "Dark",
+      "rules": {
+        "description": "A distinct, intensely dark hue used selectively to anchor the most prominent typography and specific themed cards.",
+        "when_to_use": [
+          "Primary hero heading ('Natural powers agentic payments.')",
+          "Text and logos on warm-tinted investor cards"
+        ]
+      },
+      "hex": "#111400",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0227,
+      "group": "secondary"
+    },
+    {
+      "name": "Silver Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A muted, low-contrast shade reserved for fine print, legal disclosures, and subtle data visualization elements.",
+        "when_to_use": [
+          "Footer legal disclosure text",
+          "Benefit volume chart axis labels",
+          "Benefit chart gradient bars"
+        ]
+      },
+      "hex": "#AFAFAF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#BBB3B4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#D9CBCA",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.012,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "STK Miso",
+      "role": "H1 Display",
+      "specs": {
+        "size": "40px",
+        "line_height": "56px",
+        "font_weight": "360",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "H2",
+      "specs": {
+        "size": "32px",
+        "line_height": "40px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "H2 (Alt)",
+      "specs": {
+        "size": "32px",
+        "line_height": "48px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "H3",
+      "specs": {
+        "size": "var(--marketing-body-font-size)",
+        "line_height": "var(--marketing-body-line-height)",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Display",
+      "specs": {
+        "size": "28px",
+        "line_height": "40px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "H1",
+      "specs": {
+        "size": "20px",
+        "line_height": "32px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "H2 (CSS Variable)",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "420",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Body Default",
+      "specs": {
+        "size": "15px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Body Compact",
+      "specs": {
+        "size": "var(--marketing-body-font-size)",
+        "line_height": "18px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Body 1",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Body 2",
+      "specs": {
+        "size": "13px",
+        "line_height": "18px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Tab / Badge",
+      "specs": {
+        "size": "14px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Legal / Footer",
+      "specs": {
+        "size": "inherit",
+        "line_height": "inherit",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Button",
+      "specs": {
+        "size": "15px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "STK Miso",
+      "role": "Decorative",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"STK Miso\", \"STK Miso fallback\", monospace",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GT Standard Mono",
+      "role": "Code / Terminal",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GT Standard Mono\", \"GT Standard Mono fallback\", monospace, monospace",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "GT Standard Mono",
+      "role": "Code (Mono CSS Variable)",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "410",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GT Standard Mono\", \"GT Standard Mono fallback\", monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "20px",
+    "max_width": "1440px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 16px gutter)",
+    "tablet": "769px - 1024px (8 Columns, 20px gutter)",
+    "desktop": "1025px - 1440px (12 Columns, 20px gutter)",
+    "large": null
+  }
+}

@@ -1,0 +1,1596 @@
+{
+  "company": "Twitter",
+  "rank": 30,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://x.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T08:52:22.783751Z",
+  "completed_at": "2026-10-14T08:54:30.833239Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "X",
+        "tagline": null,
+        "source_url": "https://x.com",
+        "page_type_category": "Conversion",
+        "page_type": "Login/Signup Page",
+        "industry": "Social Media / Technology",
+        "primary_purpose": "Drive user registration and login to grow platform engagement",
+        "main_cta": "Continue with phone",
+        "copy_tone": [
+          "Confident",
+          "Direct",
+          "Minimal"
+        ],
+        "brand_signature": "A stark, high-contrast monochromatic design dominated by the oversized black \"X\" logo against white space. The visual identity emphasizes bold simplicity with clean typography and minimal interface elements, creating an authoritative and modern digital presence.",
+        "visual_language": {
+          "keywords": [
+            "monochromatic",
+            "bold",
+            "minimal",
+            "high-contrast",
+            "authoritative",
+            "clean"
+          ],
+          "accent_strategy": "Blue (#1d9bf0) reserved sparingly for interactive elements and brand accent, maintaining a predominantly black and white palette",
+          "highlights": "Large-scale logo treatment as visual anchor; generous whitespace creates focus on authentication actions"
+        },
+        "strategy": {
+          "target_audience": [
+            "New users seeking real-time information and social engagement, attracted by the platform's immediacy and cultural relevance",
+            "Returning users familiar with the platform looking for quick, frictionless sign-in options",
+            "Mobile-first users who expect seamless cross-device authentication via phone, Google, or Apple"
+          ],
+          "executive_synthesis": "X's login page visual strategy leverages extreme minimalism and the dominant X logo to project authority and brand recognition in a post-rebrand era. The high-contrast black-and-white design creates instant visual impact while the 'Happening now' headline reinforces the platform's core value proposition of real-time engagement. The streamlined authentication options prioritize conversion velocity over explanation, targeting users who already understand the platform's purpose."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals an extremely reductive, stark login page dominated by pure black and white contrast. The visual impression is one of extreme digital minimalism with corporate-level polish. The massive X logo on the right occupies half the viewport as pure black geometry on white—a flat, 2D mark with no gradients, shadows, or dimensional effects on the primary surfaces.\n\n**Visual Evidence from Screenshot:**\n- Monochromatic palette: Pure black (#000000) and white (#FFFFFF) dominate with no color accents except the teal/cyan input border\n- The X logo is completely flat—no bevels, no shadows, no textures\n- Buttons use pill-shaped containers with solid fills (black primary, white/outlined secondary)\n- Typography is clean sans-serif (TwitterChirp) with high contrast\n- Enormous negative space—the right half of the page is essentially a single logo\n\n**Forensic Profile Correlation:**\n- **Layout**: \"centered_symmetric\" and \"generous_whitespace\" classifications align perfectly with Flat Design's requirement for Grid-Based Strict and Generous Whitespace\n- **Color**: The \"fiercely monochromatic\" palette with \"stark black-and-white contrasts\" matches Flat Design's Primary Colors requirement (here reduced to the most fundamental: black/white)\n- **Typography**: Sans-Serif Modern (TwitterChirp) with systematic weight hierarchy (400-700) is textbook Flat Design typography\n- **Texture**: \"gradient_linear\" and \"shadows_soft\" appear only in system/overlay contexts, NOT on primary UI surfaces—the main interface is demonstrably flat\n\n**Six Spectra Analysis:**\n1. Visual Density: AIRY/SPACIOUS (extreme whitespace, logo takes half the screen)\n2. Color Cleanliness: CLEAN/PURE (black and white only, no muddy or vibrant colors)\n3. Chronology: MODERN (contemporary digital product)\n4. Dimensionality: FLAT (2D, no depth on primary elements)\n5. Decoration: MINIMAL (no ornament, pure function)\n6. Structure: RIGID GRID (left form column, right brand column)\n\nThis is quintessential Flat Design—digital-native clarity with no shadows, no textures, and no gradients on the primary interface elements.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies because this is clearly an enterprise-scale tech platform's login page designed to project trust, reliability, and professionalism. The conservative design choices—extreme reduction to black/white, no playful colors, formal button hierarchy, legal disclaimers prominently displayed, professional footer links (Ads & Business, Developers, Accessibility)—all signal corporate positioning. The proprietary brand font (TwitterChirp) and systematic type scale demonstrate institutional-level design system investment. This is not a startup's playful flat design; it's a global platform's professional face."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "1rem",
+          "max_width": "80rem"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (1 Column, 16px horizontal padding, stacked centered layout)",
+          "tablet": "768px - 1023px (Maintains desktop split layout, responsive scaling)",
+          "desktop": "1024px+ (2-column split: left form max-width 400px, right logo flex-1, max-width 7xl container)",
+          "large": null
+        },
+        "section_separation": "Minimal separation strategy: primary content uses off-white/light gray background (#F7F7F7 or similar) across entire viewport with no visible section dividers. Footer separated by whitespace only, no background change. Heavy reliance on generous whitespace (padding and margins) rather than structural lines or color shifts.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│   Happening                                              │\n│   now.                                    ┌────────────┐ │\n│                                           │            │ │\n│   ┌────────────────────────────┐          │            │ │\n│   │  Continue with phone       │          │            │ │\n│   └────────────────────────────┘          │            │ │\n│   ┌────────────────────────────┐          │     X      │ │\n│   │ G Continue with Google     │          │    Logo    │ │\n│   └────────────────────────────┘          │            │ │\n│   ┌────────────────────────────┐          │            │ │\n│   │  Continue with Apple       │          │            │ │\n│   └────────────────────────────┘          └────────────┘ │\n│                                                          │\n│               or                                         │\n│                                                          │\n│   ┌────────────────────────────┐          ┌────────────┐ │\n│   │ Email or username          │          │ Scan to get│ │\n│   └────────────────────────────┘          │  the app   │ │\n│                                           │            │ │\n│   ┌────────────────────────────┐          │  ┌──────┐  │ │\n│   │       Continue             │          │  │ QR   │  │ │\n│   └────────────────────────────┘          │  │ Code │  │ │\n│                                           │  └──────┘  │ │\n│   By continuing, you agree to our         └────────────┘ │\n│   Terms of Service, Privacy Policy                       │\n│   and Cookie Use.                                        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│ About · Get App · Grok · Help · Terms · Privacy ·        │\n│ Cookies · Careers · Ads & Business · Developers ·        │\n│ News · US TIDA · Accessibility · © 2026 X Corp.          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHERO/MAIN SECTION (Left Side):\n- Background: Off-white/light gray (#F7F7F7 or similar)\n- Typography mood: Bold, minimal - \"Happening now.\" headline in large, thick sans-serif black text\n- Components: Stacked button layout with multiple authentication options\n- Buttons/CTAs:\n  * \"Continue with phone\" (solid black, pill-shaped, white text, phone icon)\n  * \"Continue with Google\" (white/light gray background, border, black text, Google G logo)\n  * \"Continue with Apple\" (white/light gray background, border, black text, Apple logo)\n  * \"Continue\" (gray disabled state, pill-shaped, light gray background)\n- Input field: Teal/cyan outline, white background, placeholder text \"Email or username\"\n- Colors observed: Black, white, teal/cyan accent (border), light gray\n- Legal text: Small gray text with linked terms (Terms of Service, Privacy Policy, Cookie Use in black)\n\nBRANDING (Right Side):\n- Background: Same off-white/light gray as left\n- Imagery: Large minimalist X logo (Twitter/X Corp rebrand), black, geometric, thick strokes\n- Components: QR code card with white background, subtle shadow/border\n- QR Code section: \"Scan to get the app\" text above QR code containing small X logo in center\n- Colors observed: Black logo on light background\n\nFOOTER:\n- Background: Same off-white/light gray\n- Typography mood: Minimal, small, light gray text\n- Links separated by dots: About, Get App, Grok, Help, Terms, Privacy, Cookies, Careers, Ads & Business, Developers, News, US TIDA, Accessibility\n- Copyright: \"© 2026 X Corp.\" in same small gray text\n- Layout: Single horizontal row of footer links",
+        "insights": [
+          "Extreme minimalism with a single dominant call-to-action section and tertiary footer; all interactive elements confined to a narrow 400px max-width column on desktop, creating strong focal hierarchy.",
+          "Generous negative space: the X logo occupies an entire flex-1 column on desktop (effectively 50% of viewport width) with no other content, emphasizing brand and breathing room.",
+          "Responsive strategy inverts hierarchy: mobile places logo at top (30vh min-height) then form below, while desktop splits horizontally; QR code card uses fixed positioning with scale animation on hover, independent of document flow."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Brand Ink",
+            "type": "Dark",
+            "rules": {
+              "description": "Core brand ink used for typography and the primary brand mark.",
+              "when_to_use": [
+                "Main heading ('Happening now.')",
+                "Body text",
+                "X logo fill"
+              ]
+            },
+            "hex": "#0F141A",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#1A1A1A",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#222222",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0786
+          },
+          {
+            "name": "Core Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The heavy anchor color for primary interactions, inverted surfaces, and foundational for secondary text and borders via alpha transparency.",
+              "when_to_use": [
+                "Primary CTA background",
+                "Cookie consent banner background",
+                "Secondary text and structural borders (via opacity)"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.9958
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Surface White",
+            "type": "Light",
+            "rules": {
+              "description": "The primary canvas of the page and the high-contrast text color for dark components.",
+              "when_to_use": [
+                "Page background",
+                "Text on primary CTAs and cookie banner",
+                "Secondary login button backgrounds",
+                "Google button border"
+              ]
+            },
+            "hex": "#E4EAEC",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#D0DBE2",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#DADCE0",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0885
+          },
+          {
+            "name": "Disabled Stone",
+            "type": "Warm Color",
+            "rules": {
+              "description": "A muted neutral strictly used to communicate inactive or empty states.",
+              "when_to_use": [
+                "Inactive 'Continue' button text before input is entered"
+              ]
+            },
+            "hex": "#79716B",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0949
+          },
+          {
+            "name": "Third-party Slate",
+            "type": "Neutral",
+            "rules": {
+              "description": "A specific slate gray imported for third-party branding compliance and subtle gradient depth.",
+              "when_to_use": [
+                "Google single sign-on button text",
+                "Google single sign-on icon fill",
+                "X logo radial gradient stop"
+              ]
+            },
+            "hex": "#3C4043",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#333333",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0598
+          }
+        ],
+        "insights": [
+          "The palette is fiercely monochromatic, relying completely on stark black-and-white contrasts to establish visual hierarchy without any colored accents.",
+          "Instead of hard-coded gray hexes for text and borders, the design uses alpha transparencies of pure black (e.g., #00000099, #00000026) to generate secondary and tertiary UI elements dynamically.",
+          "Third-party requirements (Google button) dictate the only noticeable deviations from the pure black, white, and neutral scale."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "TwitterChirp",
+              "role": "Jumbo Heading (Mobile)",
+              "specs": {
+                "size": "50px",
+                "line_height": "0.9",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Jumbo Heading (Desktop)",
+              "specs": {
+                "size": "64px",
+                "line_height": "57.6px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Title 1",
+              "specs": {
+                "size": "calc(34 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(40 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Title 2",
+              "specs": {
+                "size": "calc(30 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(36 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Title 3",
+              "specs": {
+                "size": "calc(26 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(32 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Title 4",
+              "specs": {
+                "size": "calc(23 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(28 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Headline 1",
+              "specs": {
+                "size": "calc(20 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(24 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Headline 2",
+              "specs": {
+                "size": "calc(17 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(20 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text definitions utilizing fluid CSS root calculations for scale consistency and general readability.",
+          "variants": [
+            {
+              "name": "TwitterChirp",
+              "role": "Body",
+              "specs": {
+                "size": "calc(15 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(20 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Subtext 1",
+              "specs": {
+                "size": "calc(14 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(16 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Subtext 2",
+              "specs": {
+                "size": "calc(13 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(16 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Subtext 3",
+              "specs": {
+                "size": "calc(11 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "calc(12 / var(--x-root-font-size,16) * 1rem * 1)",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Paragraph Small",
+              "specs": {
+                "size": "12px",
+                "line_height": "18px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian styles used for buttons, inputs, placeholders, captions, and footer links.",
+          "variants": [
+            {
+              "name": "TwitterChirp",
+              "role": "Button Primary",
+              "specs": {
+                "size": "17px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Button Secondary",
+              "specs": {
+                "size": "15px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Button Small / Google",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Input Placeholder",
+              "specs": {
+                "size": "12px",
+                "line_height": "18px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Footer Links / Micro",
+              "specs": {
+                "size": "calc(11 / var(--x-root-font-size,16) * 1rem * 1)",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TwitterChirp",
+              "role": "Caption",
+              "specs": {
+                "size": "14px",
+                "line_height": "17.5px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "System monospace fallbacks for specific element styling or code contexts.",
+          "variants": [
+            {
+              "name": "SFMono-Regular",
+              "role": "Monospace",
+              "specs": {
+                "size": "1em",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "system"
+              },
+              "technical": {
+                "font_family_css": "ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "Heavy reliance on the custom brand font 'TwitterChirp' for all UI text, with inline responsive adjustments. Negative tracking is applied to large headings to improve visual coherence.",
+        "insights": [
+          "The system uses fluid 'calc' calculations tied to a root font size CSS variable, allowing the typography scale to intelligently adapt to user preferences and screen contexts.",
+          "A strict hierarchical scaling is implemented, shifting seamlessly from very tight line-heights on display headings (0.9) to readable body paragraph line-heights (1.33).",
+          "Consistently heavy use of medium (500) and semibold (600) weights to separate interactive and layout-critical components from regular prose, projecting structural clarity."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Background Primary",
+            "description": "Main page background color",
+            "when_to_use": [
+              "Page backgrounds",
+              "Modal backgrounds",
+              "Default surface"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Card Surface",
+            "description": "Card and container backgrounds (gray-0 from theme)",
+            "when_to_use": [
+              "Card backgrounds",
+              "Container surfaces"
+            ],
+            "hex": "#F2F7F9"
+          },
+          {
+            "name": "Secondary Surface",
+            "description": "Secondary background surface",
+            "when_to_use": [
+              "Secondary buttons",
+              "Subtle backgrounds"
+            ],
+            "hex": "#F2F2F2"
+          },
+          {
+            "name": "Tertiary Surface",
+            "description": "Tertiary background surface",
+            "when_to_use": [
+              "Tertiary buttons",
+              "Input backgrounds"
+            ],
+            "hex": "#EBEBEB"
+          },
+          {
+            "name": "Modal Background",
+            "description": "Modal and popover background",
+            "when_to_use": [
+              "Modals",
+              "Popovers",
+              "Overlays"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Border Normal",
+            "description": "Standard border color (gray-100)",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Input borders"
+            ],
+            "hex": "#E8ECEF"
+          },
+          {
+            "name": "Nested Border",
+            "description": "Nested element borders (gray-200)",
+            "when_to_use": [
+              "Nested borders",
+              "Secondary dividers"
+            ],
+            "hex": "#D7DCE0"
+          },
+          {
+            "name": "Brand Primary",
+            "description": "Primary brand blue color",
+            "when_to_use": [
+              "Primary buttons",
+              "Brand accents",
+              "Links",
+              "Focus states"
+            ],
+            "hex": "#1D9BF0"
+          },
+          {
+            "name": "Black Surface",
+            "description": "Black background for high contrast elements",
+            "when_to_use": [
+              "Primary buttons",
+              "Header backgrounds",
+              "High contrast surfaces"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Text Primary",
+            "description": "Primary text color (gray-1100)",
+            "when_to_use": [
+              "Headings",
+              "Body text",
+              "Primary content"
+            ],
+            "hex": "#141C24"
+          },
+          {
+            "name": "Modal Overlay",
+            "description": "Semi-transparent modal overlay",
+            "when_to_use": [
+              "Modal backgrounds",
+              "Overlay masks"
+            ],
+            "hex": "#B4B4B6"
+          },
+          {
+            "name": "Tooltip Background",
+            "description": "Dark tooltip background",
+            "when_to_use": [
+              "Tooltips",
+              "Small popups"
+            ],
+            "hex": "#333333"
+          },
+          {
+            "name": "Hover Subtle",
+            "description": "Subtle hover background (black/10)",
+            "when_to_use": [
+              "Hover states",
+              "Interactive element backgrounds"
+            ],
+            "hex": "#0A0A0A"
+          },
+          {
+            "name": "Inputs Background",
+            "description": "Input field background (black/10)",
+            "when_to_use": [
+              "Input fields",
+              "Text areas",
+              "Form elements"
+            ],
+            "hex": "#0A0A0A"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Modal Background Gradient",
+            "description": "Top to bottom gradient from transparent white to solid white",
+            "when_to_use": [
+              "Modal fade effects",
+              "Content transitions"
+            ],
+            "css_code": "linear-gradient(to bottom,#fff0,#fff)"
+          },
+          {
+            "name": "Text to Transparent Gradient",
+            "description": "Fade from dark text color to transparent",
+            "when_to_use": [
+              "Text fade-out effects",
+              "Overflow masks"
+            ],
+            "css_code": "linear-gradient(to bottom, hsl(210 25% 8%) 90%, transparent)"
+          },
+          {
+            "name": "Black Fade Bottom",
+            "description": "Black fading to transparent from top to bottom",
+            "when_to_use": [
+              "Image overlays",
+              "Content masks"
+            ],
+            "css_code": "linear-gradient(to bottom, #000 60%, transparent)"
+          },
+          {
+            "name": "Black Fade Top",
+            "description": "Black fading to transparent from bottom to top",
+            "when_to_use": [
+              "Bottom overlays",
+              "Reverse masks"
+            ],
+            "css_code": "linear-gradient(to top, #000 70%, transparent)"
+          },
+          {
+            "name": "Blue Gradient",
+            "description": "Brand blue to dark blue gradient",
+            "when_to_use": [
+              "Brand elements",
+              "Accent backgrounds"
+            ],
+            "css_code": "linear-gradient(to bottom, #1d9bf0, #006fd6)"
+          },
+          {
+            "name": "Purple Gradient",
+            "description": "Purple to dark purple gradient",
+            "when_to_use": [
+              "Premium features",
+              "Accent elements"
+            ],
+            "css_code": "linear-gradient(to bottom, #7856ff, #5234b7)"
+          },
+          {
+            "name": "Plum Gradient",
+            "description": "Multi-stop plum gradient",
+            "when_to_use": [
+              "Special features",
+              "Decorative accents"
+            ],
+            "css_code": "linear-gradient(to bottom, #d45cd6, #c936cc, #ab2bae)"
+          },
+          {
+            "name": "Green Fade Gradient",
+            "description": "Green accent fading to transparent",
+            "when_to_use": [
+              "Success indicators",
+              "Positive accents"
+            ],
+            "css_code": "linear-gradient(to bottom, #00ba7c 13%, transparent)"
+          },
+          {
+            "name": "Red Fade Gradient",
+            "description": "Red gradient with multiple stops",
+            "when_to_use": [
+              "Error states",
+              "Warning indicators"
+            ],
+            "css_code": "linear-gradient(to bottom, #f4212e 30%, #f4212e 20%, #f4212e 30%)"
+          },
+          {
+            "name": "Conic Loading Gradient",
+            "description": "Conic gradient for loading spinners with blue brand colors",
+            "when_to_use": [
+              "Loading indicators",
+              "Progress spinners"
+            ],
+            "css_code": "conic-gradient(transparent 0deg, color-mix(in srgb, #005ac2 60%, transparent) 20deg, color-mix(in srgb, #1d9bf0 80%, transparent) 60deg, transparent 80deg)"
+          },
+          {
+            "name": "Gray Subtle Fade",
+            "description": "Subtle gray gradient fade",
+            "when_to_use": [
+              "Subtle backgrounds",
+              "Divider accents"
+            ],
+            "css_code": "linear-gradient(to bottom, hsl(201 23% 78%) 30%, hsl(201 23% 78%) 20%, hsl(201 23% 78%) 30%)"
+          },
+          {
+            "name": "Yellow Gradient",
+            "description": "Dark yellow to light yellow gradient",
+            "when_to_use": [
+              "Warning elements",
+              "Highlight accents"
+            ],
+            "css_code": "linear-gradient(to bottom, #b88200, #ffe042)"
+          },
+          {
+            "name": "Green to Teal",
+            "description": "Green gradient at specific angle",
+            "when_to_use": [
+              "Nature themes",
+              "Success states"
+            ],
+            "css_code": "linear-gradient(61.63deg, #6fca6c, #6fca6c)"
+          },
+          {
+            "name": "Purple to Indigo",
+            "description": "Light purple to indigo gradient",
+            "when_to_use": [
+              "Premium accents",
+              "Creative elements"
+            ],
+            "css_code": "linear-gradient(to bottom, #a17dff, #9c63fa)"
+          },
+          {
+            "name": "White Fade Overlay",
+            "description": "White fading to transparent quickly",
+            "when_to_use": [
+              "Light overlays",
+              "Content fade effects"
+            ],
+            "css_code": "linear-gradient(to bottom, #fff 6%, transparent)"
+          },
+          {
+            "name": "Background Primary Fade",
+            "description": "Background white with opacity transition",
+            "when_to_use": [
+              "Scroll fade effects",
+              "Header transitions"
+            ],
+            "css_code": "linear-gradient(to bottom, #fff 50%, #fff 45%)"
+          }
+        ],
+        "highlights": [
+          "Soft drop shadows for depth: 0 4px 20px rgba(0,0,0,0.08) for popups",
+          "Medium shadows for modals: 0 8px 30px rgba(0,0,0,0.13)",
+          "Soft glow effects on brand elements: 0 0 20px rgba(29,155,240,0.3)",
+          "Subtle backdrop blur effects: backdrop-blur(4px) to backdrop-blur(24px)",
+          "Linear gradient masks for content overflow fade effects",
+          "Conic gradient loading spinner with brand blue colors",
+          "Toast notifications with shadow: 0 8px 32px rgba(0,0,0,0.2)",
+          "Ring focus states with brand blue color at 1-2px width"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Inset Ring Shadow",
+              "type": "drop",
+              "description": "Reset/base shadow with no visual effect - 0 blur, transparent color",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Base shadow reset",
+                "No elevation state"
+              ]
+            },
+            {
+              "name": "Shadow Small",
+              "type": "drop",
+              "description": "Subtle small shadow - 1px Y offset, 2px blur, 5% black opacity",
+              "css_value": "0 1px 2px #0000000d",
+              "when_to_use": [
+                "Subtle elevation",
+                "Input fields",
+                "Small interactive elements"
+              ]
+            },
+            {
+              "name": "Drop Shadow Small",
+              "type": "drop",
+              "description": "Small drop shadow filter - 1px Y offset, 2px blur, 15% black opacity",
+              "css_value": "0 1px 2px #00000026",
+              "when_to_use": [
+                "Filter-based shadows",
+                "Icon shadows",
+                "Subtle depth"
+              ]
+            },
+            {
+              "name": "Shadow Medium",
+              "type": "drop",
+              "description": "Medium elevation shadow - 4px Y offset, 12px blur, 8% black opacity",
+              "css_value": "0 4px 12px #00000014",
+              "when_to_use": [
+                "Cards",
+                "Dropdown menus",
+                "Moderate elevation"
+              ]
+            },
+            {
+              "name": "Shadow Popup",
+              "type": "drop",
+              "description": "Popup/popover shadow - 4px Y offset, 20px blur, 8% black opacity",
+              "css_value": "0 4px 20px #00000014",
+              "when_to_use": [
+                "Popovers",
+                "Popup menus",
+                "Floating panels",
+                "QR code popup"
+              ]
+            },
+            {
+              "name": "Shadow Large",
+              "type": "drop",
+              "description": "Large elevation shadow - 8px Y offset, 24px blur, 12% black opacity",
+              "css_value": "0 8px 24px #0000001f",
+              "when_to_use": [
+                "Modals",
+                "Large floating elements",
+                "High elevation surfaces"
+              ]
+            },
+            {
+              "name": "Shadow Toast",
+              "type": "drop",
+              "description": "Toast notification shadow - 8px Y offset, 32px blur, 20% black opacity",
+              "css_value": "0 8px 32px #0003",
+              "when_to_use": [
+                "Toast notifications",
+                "Snackbars",
+                "Alert messages"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#00000026",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DADCE0",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "slideUp",
+            "css": "@keyframes slideUp { from { bottom: 0; opacity: 0; } to { bottom: 1rem; opacity: 1; } }",
+            "description": "Slides element up from bottom with fade-in effect, used for fixed positioned elements"
+          },
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }",
+            "description": "Simple opacity fade-in animation"
+          },
+          {
+            "name": "slideDown",
+            "css": "@keyframes slideDown { from { bottom: 1rem; opacity: 1; } to { bottom: 0; opacity: 0; } }",
+            "description": "Slides element down with fade-out effect, reverse of slideUp"
+          },
+          {
+            "name": "fadeOut",
+            "css": "@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }",
+            "description": "Simple opacity fade-out animation"
+          },
+          {
+            "name": "sonner-fade-in",
+            "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(.8) } 100% { opacity: 1; transform: scale(1) } }",
+            "description": "Scale and fade entrance animation for toast notifications"
+          },
+          {
+            "name": "sonner-fade-out",
+            "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1) } 100% { opacity: 0; transform: scale(.8) } }",
+            "description": "Scale and fade exit animation for toast notifications"
+          },
+          {
+            "name": "sonner-spin",
+            "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+            "description": "Loading spinner opacity animation for toast loading states"
+          },
+          {
+            "name": "swipe-out-left",
+            "css": "@keyframes swipe-out-left { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) - 100%)); opacity: 0 } }",
+            "description": "Swipe dismissal animation for toasts swiped left"
+          },
+          {
+            "name": "swipe-out-right",
+            "css": "@keyframes swipe-out-right { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) + 100%)); opacity: 0 } }",
+            "description": "Swipe dismissal animation for toasts swiped right"
+          },
+          {
+            "name": "swipe-out-up",
+            "css": "@keyframes swipe-out-up { from { transform: var(--y) translateY(var(--swipe-amount-y)); opacity: 1 } to { transform: var(--y) translateY(calc(var(--swipe-amount-y) - 100%)); opacity: 0 } }",
+            "description": "Swipe dismissal animation for toasts swiped up"
+          },
+          {
+            "name": "swipe-out-down",
+            "css": "@keyframes swipe-out-down { from { transform: var(--y) translateY(var(--swipe-amount-y)); opacity: 1 } to { transform: var(--y) translateY(calc(var(--swipe-amount-y) + 100%)); opacity: 0 } }",
+            "description": "Swipe dismissal animation for toasts swiped down"
+          },
+          {
+            "name": "enter-fade-rise",
+            "css": "animation: enter-fade .39s ease-out var(--enter-delay,0s) both, enter-rise .65s cubic-bezier(.34, 1.4, .64, 1) var(--enter-delay,0s) both",
+            "description": "Combined fade and rise animation for QR code card entrance with spring easing"
+          },
+          {
+            "name": "hover-scale-transform",
+            "css": "transition-transform duration-200 ease-out",
+            "description": "Scale transform on hover for QR code card, scales to 1.08 on hover/focus"
+          }
+        ],
+        "insights": [
+          "The design uses a strictly monochromatic color palette with black, white, and gray tones, creating high contrast and visual clarity for authentication flows.",
+          "All buttons use rounded-full (pill shape) with 9999px border-radius, creating a consistent modern aesthetic across primary, secondary, and tertiary button variants.",
+          "The authentication form implements a progressive disclosure pattern where the Continue button changes from disabled gray to active black state only when input is provided, guiding user behavior."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Continue with phone (Primary Dark)",
+            "usage": "Primary call-to-action for phone-based signup/login flow",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "16px",
+                  "padding": "12px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#1A1A1A",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Continue with Google (Outlined)",
+            "usage": "Third-party OAuth login button for Google authentication",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "14px",
+                  "padding": "0px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#3C4043",
+                "border_color": "#DADCE0",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F7F7F7",
+                "text_color": "#3C4043",
+                "border_color": "#DADCE0",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#3C4043",
+                "border_color": "#DADCE0",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Continue with Apple (Outlined)",
+            "usage": "Third-party OAuth login button for Apple authentication",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "16px",
+                  "padding": "12px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#00000026",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F7F7F7",
+                "text_color": "#000000",
+                "border_color": "#00000026",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#00000026",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Continue (Disabled State)",
+            "usage": "Submit button for email/username form, disabled until input is provided",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "17px",
+                  "padding": "0px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#B2B2B2",
+                "text_color": "#79716B",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#B2B2B2",
+                "text_color": "#79716B",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "1",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Accept all cookies (Inverted)",
+            "usage": "Cookie consent banner primary action button",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "15px",
+                  "padding": "0px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E5E5E5",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Refuse non-essential cookies (Inverted)",
+            "usage": "Cookie consent banner secondary action button",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "15px",
+                  "padding": "0px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E5E5E5",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Scan to get the app (Card/Popup)",
+            "usage": "Fixed position QR code card for app download promotion",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "TwitterChirp",
+                  "size": "15px",
+                  "padding": "16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#0F141A",
+                "border_color": "#00000026",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#0F141A",
+                "border_color": "#00000026",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#0F141A",
+                "border_color": "#00000026",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Vertical stacking layout for authentication buttons",
+          "spacing": "20px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": null,
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "QR Code Card",
+            "description": "Fixed position card displaying QR code for app download with subtle shadow effect",
+            "when_to_use": [
+              "App promotion on landing pages",
+              "Cross-platform download CTAs"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Text Divider",
+            "description": "Horizontal divider with centered 'or' text separating authentication methods",
+            "when_to_use": [
+              "Separating primary auth methods from alternative options",
+              "Visual break between form sections"
+            ],
+            "color": "#00000026",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Authentication Icons",
+          "description": "Icons used in authentication and social login buttons.",
+          "when_to_use": [
+            "Login buttons",
+            "Sign up buttons"
+          ],
+          "format": "SVG",
+          "style": "Filled and Monoline",
+          "sizes": {
+            "small": "22px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Phone",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" data-icon=\"icon-phone\" viewBox=\"0 0 24 24\" display=\"flex\" role=\"img\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" class=\"size-[22px]\"><path d=\"M3 6.42A3.4 3.4 0 0 1 6.42 3h3.2l2.6 5.2-1.53 1.52a7 7 0 0 0 3.58 3.59l1.53-1.53 5.2 2.6v3.2A3.4 3.4 0 0 1 17.58 21 14.6 14.6 0 0 1 3 6.42m2 0C5 13.37 10.63 19 17.58 19c.78 0 1.42-.64 1.42-1.42v-1.96l-2.8-1.4-1 .99-.46.46-.61-.24a9.3 9.3 0 0 1-5.56-5.56l-.24-.61.46-.47 1-.99L8.38 5H6.41C5.64 5 5 5.64 5 6.42\"></path></svg>"
+            },
+            {
+              "name": "Google",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" data-icon=\"icon-logo-google-color\" viewBox=\"0 0 24 24\" display=\"flex\" role=\"img\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" class=\"size-[22px]\"><path fill=\"#4285f4\" d=\"M22.56 12.25q0-1.17-.2-2.25H12v4.26h5.92a5 5 0 0 1-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09\"></path><path fill=\"#34a853\" d=\"M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77A6.6 6.6 0 0 1 12 18.63a6.6 6.6 0 0 1-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23\"></path><path fill=\"#fbbc05\" d=\"M5.84 14.09a6.6 6.6 0 0 1 0-4.18V7.07H2.18A11 11 0 0 0 1 12c0 1.78.43 3.45 1.18 4.93l2.85-2.22z\"></path><path fill=\"#ea4335\" d=\"M12 5.38a6 6 0 0 1 4.21 1.64l3.15-3.15A10.6 10.6 0 0 0 12 1C7.7 1 3.99 3.47 2.18 7.07l3.66 2.84A6.6 6.6 0 0 1 12 5.38\"></path></svg>"
+            },
+            {
+              "name": "Apple",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" data-icon=\"icon-logo-apple\" viewBox=\"0 0 24 24\" display=\"flex\" role=\"img\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" class=\"size-[22px]\"><path d=\"M16.36 1.43c0 1.14-.49 2.27-1.17 3.08a4.3 4.3 0 0 1-2.99 1.57q-.27 0-.53-.06c0-.18-.04-.56-.04-.95A4.9 4.9 0 0 1 16.08.41q.06.33.06.68zm4.57 16.71c-.03.07-.46 1.58-1.52 3.12-.94 1.34-1.94 2.71-3.43 2.71-1.52 0-1.9-.88-3.63-.88-1.7 0-2.3.91-3.67.91s-2.33-1.26-3.43-2.8a13.4 13.4 0 0 1-2.32-7.28c0-4.28 2.8-6.55 5.55-6.55 1.45 0 2.68.95 3.6.95.87 0 2.23-1.01 3.9-1.01.62 0 2.9.06 4.38 2.19-.13.09-2.38 1.37-2.38 4.19a4.8 4.8 0 0 0 2.95 4.45\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.png",
+            "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.png",
+            "origin_url": "https://x.com/apple-touch-icon.png",
+            "description": "Apple Touch Icon"
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.ico",
+            "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.ico",
+            "origin_url": "https://x.com/favicon.ico",
+            "description": "Favicon"
+          }
+        ],
+        "media": [
+          {
+            "name": "X Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/x-open-graph-image.png",
+            "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/x-open-graph-image.png",
+            "origin_url": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Shooting Stars Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/shooting-stars-background.png",
+            "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/shooting-stars-background.png",
+            "origin_url": "https://abs.twimg.com/images/shooting_stars_background.png",
+            "usage_context": "Background image for promotional or decorative sections."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/brand-media/google_ads/0876fd87-1b15-4db8-999b-affa34a6fe03.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "X for Business ad on a white background features a minimalist orbit graphic and the headline “Get $500 when you invest $500 in X Ads.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/brand-media/google_ads/7679e0be-f554-4ab8-96cd-64c3ebbaa80b.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "X for Business ad with a black grid graphic and circular “Spend $500 Get $500” offer beside large promotional text and a blue Visit Site button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/brand-media/google_ads/18c32f82-0c76-4d5e-bfd4-9ddedc861992.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "X for Business ad pairs a black circular graphic reading “5.42x ROAS” with a large headline and blue Visit Site button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/brand-media/google_ads/0c4b4287-806a-4a50-aaeb-549bcc43cb81.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "X for Business ad pairs a black dotted panel and sample post claiming “5.42x ROAS” with large targeting copy and a blue Visit Site button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/brand-media/google_ads/1720bd8b-c920-4afc-bcfa-10809ccfb4ab.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "X for Business ad pairs a minimalist gray chart-style panel touting “5.42x ROAS” with bold AI-powered ad targeting text and a blue Visit Site button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/brand-media/google_ads/44b94717-02c2-4c00-8744-f082800996da.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "X for Business ad with a black-and-white palette, oversized “Reach High-Intent Audiences” headline, copy, and an embedded X post card."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Hero / Sign-in Form",
+          "layout_pattern": "Split layout: left-aligned form content on left (desktop), centered X logo on right (desktop); stacked centered layout on mobile",
+          "headline": "Happening now.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Solid black pill-shaped button with white text and phone icon: 'Continue with phone'"
+            },
+            {
+              "type": "button",
+              "description": "White button with border, Google G logo (multi-color), and black text: 'Continue with Google'"
+            },
+            {
+              "type": "button",
+              "description": "White button with border, Apple logo, and black text: 'Continue with Apple'"
+            },
+            {
+              "type": "divider",
+              "description": "Horizontal rule with centered 'or' text, light gray lines on either side"
+            },
+            {
+              "type": "form",
+              "description": "Email/username input field with teal/cyan border on focus, white background, gray placeholder text; disabled gray 'Continue' button that activates to black when input is filled"
+            },
+            {
+              "type": "image",
+              "description": "Large minimalist black X logo (Twitter rebrand), geometric thick strokes, displayed prominently on right side (desktop) or top (mobile)"
+            },
+            {
+              "type": "card",
+              "description": "QR code card with white background, subtle shadow/border, text 'Scan to get the app' above QR code containing small X logo in center; fixed bottom-right corner with scale hover animation"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Horizontal single-row navigation with dot separators",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Small gray text links separated by middot bullets: About, Get App, Grok, Help, Terms, Privacy, Cookies, Careers, Ads & Business, Developers, News, Accessibility, © 2026 X Corp."
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

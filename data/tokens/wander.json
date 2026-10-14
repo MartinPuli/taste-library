@@ -1,0 +1,408 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: icons."
+  ],
+  "colors": [
+    {
+      "name": "Brand Dark",
+      "type": "Dark",
+      "rules": {
+        "description": "Primary brand dark used for default typography, secondary buttons, and striking iconography.",
+        "when_to_use": [
+          "Primary body text",
+          "\"List on Wander\" header button background",
+          "Feature grid icon backgrounds",
+          "Footer Wander logo fill"
+        ]
+      },
+      "hex": "#202020",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#282828",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#151515",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.0004,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Pure black used for high-contrast section backgrounds, overlays, and primary call-to-action buttons.",
+        "when_to_use": [
+          "Hero section background",
+          "\"Search\" button background",
+          "Property card badging backgrounds and borders",
+          "\"The Wander difference\" dark section fill"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0379,
+      "group": "baseline"
+    },
+    {
+      "name": "Secondary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "Muted gray utilized for secondary text, metadata, and lower-priority interface elements.",
+        "when_to_use": [
+          "Search bar placeholder text",
+          "Property card ratings and metadata (beds, nights)",
+          "Footer navigation links"
+        ]
+      },
+      "hex": "#636363",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0296,
+      "group": "secondary"
+    },
+    {
+      "name": "Paper / White",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational light surface color that serves as the page background and high-contrast text on dark sections.",
+        "when_to_use": [
+          "Main page background",
+          "Footer area background",
+          "Inverted text and logos on dark sections (Hero, Wander difference)",
+          "Carousel navigation button backgrounds"
+        ]
+      },
+      "hex": "#F7F7F7",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F0F0F0",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0273,
+      "group": "secondary"
+    },
+    {
+      "name": "Success Green",
+      "type": "Warm Color",
+      "rules": {
+        "description": "A dedicated success hue used exclusively to highlight pricing value and deals.",
+        "when_to_use": [
+          "\"Less than other sites\" savings callouts on property cards"
+        ]
+      },
+      "hex": "#008433",
+      "alpha": null,
+      "shades": [],
+      "score": 0.008,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "instrumentSans",
+      "role": "Display Large (H1)",
+      "specs": {
+        "size": "3.25rem",
+        "line_height": "3.5rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Display",
+      "specs": {
+        "size": "2.25rem",
+        "line_height": "2.5rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Display Small",
+      "specs": {
+        "size": "2rem",
+        "line_height": "2rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Headline Large",
+      "specs": {
+        "size": "1.875rem",
+        "line_height": "2.25rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Headline (H2)",
+      "specs": {
+        "size": "1.5rem",
+        "line_height": "1.75rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Headline Small (H3)",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.25rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Body Large Long",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.5rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Body Large",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.25rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Body Long",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.25rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Body",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.0625rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Body Small",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "0.9375rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Text Large",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.5rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Eyebrow",
+      "specs": {
+        "size": "0.6875rem",
+        "line_height": "1.125rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Eyebrow Extra Small",
+      "specs": {
+        "size": "0.625rem",
+        "line_height": "1.125rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Extra Extra Small",
+      "specs": {
+        "size": "0.5625rem",
+        "line_height": "0.75rem",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "instrumentSans",
+      "role": "Badge / UI Medium Body",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.0625rem",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "SFMono-Regular",
+      "role": "Monospace / Code",
+      "specs": {
+        "size": "1em",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "2rem",
+    "max_width": "1832px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 24px gutter)",
+    "tablet": "769px - 1024px (Grid adjusts, ~24px gutter)",
+    "desktop": "1025px - 1832px (12 Columns, 2rem gutter)",
+    "large": "1833px+ (12 Columns, 2rem gutter, max-width: 1832px)"
+  }
+}

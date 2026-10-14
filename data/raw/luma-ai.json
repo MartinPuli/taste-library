@@ -1,0 +1,1591 @@
+{
+  "company": "Luma AI",
+  "rank": 39,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://lumalabs.ai/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:53:25.065633Z",
+  "completed_at": "2026-09-15T20:11:13.034995Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Luma",
+        "tagline": null,
+        "source_url": "https://lumalabs.ai",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "AI / Generative Video",
+        "primary_purpose": "Drive user signups and establish Luma as a creative AI partner for video generation and creative workflows",
+        "main_cta": "Try for free",
+        "copy_tone": [
+          "Aspirational",
+          "Approachable",
+          "Confident"
+        ],
+        "brand_signature": "Bold dark-to-light contrast with a cinematic hero section featuring ambient video background. Clean monochromatic palette with generous whitespace transitions to a bright, minimal content layout with subtle glassmorphism effects on interactive elements.",
+        "visual_language": {
+          "keywords": [
+            "cinematic",
+            "monochromatic",
+            "minimal",
+            "glassmorphic",
+            "editorial",
+            "premium"
+          ],
+          "accent_strategy": "Pure black/white contrast with subtle opacity variations; glassmorphic overlays with backdrop blur create depth without introducing color accents",
+          "highlights": "Ambient video backgrounds in hero, frosted glass input panels, and subtle transparency gradients for layered depth"
+        },
+        "strategy": {
+          "target_audience": [
+            "Creative professionals and agencies seeking AI-powered video generation tools",
+            "Marketers and content creators needing rapid production of product shots, social variants, and teasers",
+            "Enterprise teams at agencies like Dentsu, Publicis, and Serviceplan looking for scalable creative AI solutions"
+          ],
+          "executive_synthesis": "Luma positions itself as a 'creative partner' rather than just a tool, using cinematic visual language to demonstrate the quality of output users can expect. The dark-to-light page transition mirrors the creative journey from idea to finished work. Enterprise social proof via major agency logos builds credibility while the interactive prompt interface immediately demonstrates the conversational, accessible nature of the AI—lowering barriers for non-technical creatives while signaling professional-grade capabilities."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The visual impression from the screenshot reveals an exceptionally clean, confident AI company website with rigorous typographic hierarchy and mathematical precision. The design is dominated by generous whitespace, centered symmetric composition, and a strict monochromatic palette (pure black #000000 and white #FFFFFF with grays for hierarchy).\n\n**FORENSIC EVIDENCE MATCHING SWISS STYLE:**\n\n1. **Typography (PERFECT MATCH):** Graphik is a geometric sans-serif in the tradition of Swiss modernism—clean, neutral, highly legible. The consistent use of medium weight (500) for headings with tight negative letter-spacing (-0.04em) creates the crisp, objective communication Swiss Style demands. The systematic type scale (40px → 32px → 28px → 22px → 18px) demonstrates mathematical rigor.\n\n2. **Layout (PERFECT MATCH):** The grid-based strict 12-column system with generous whitespace (py-20 to py-40 spacing) and centered-symmetric alignment directly mirrors Swiss Style principles. The ASCII template shows clear vertical rhythm with content blocks aligned to a central axis—exactly the \"objective communication through mathematical clarity\" the taxonomy describes.\n\n3. **Color (PERFECT MATCH):** The strict monochromatic palette with alternating black/white sections for section demarcation (rather than decorative borders) embodies Swiss neutrality. The taxonomy states Swiss Style uses \"Primary Colors, Monochromatic\"—this design maximizes the monochromatic approach.\n\n4. **Shape & Texture (ALIGNMENT):** The texture_classification shows \"glass_blur\" and \"gradient_linear\"—the glass blur appears only in the navigation overlay (functional, not decorative), while gradients are used sparingly for masks and fades. The overall shape language is geometric/rectangular with no organic flourishes.\n\n**6 SPECTRA ANALYSIS:**\n- Visual Density: AIRY/SPACIOUS (extreme whitespace, 5-10rem between sections)\n- Color Cleanliness: CLEAN/PURE (pure black/white, no muddy tones)\n- Chronology: MODERN with retro-modern echoes\n- Dimensionality: FLAT (2D with minimal soft shadows)\n- Decoration: MINIMAL (no ornamentation, typography-driven)\n- Structure: RIGID GRID (strict centered-symmetric composition)\n\nThe design achieves what Swiss Style aspires to: letting content speak through objective typography and mathematical spacing rather than decorative elements.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The tonal modifier \"Corporate\" applies as a secondary classification because this Swiss Style foundation is deployed specifically to communicate trust, reliability, and technological competence expected of an AI company serving enterprise clients (\"Used by teams at: Samsung, Dentsu, HUMAIN, Aperture\"). The professional, formal presentation with pill-shaped CTAs, client logo strips, structured news grids, and Careers/Learning Center sections all signal corporate positioning. The design choices—proprietary Graphik typeface, restrained animation, alternating dark/light sections—balance aesthetic sophistication with business credibility. This is Swiss Style in service of corporate identity rather than pure artistic expression."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "2rem",
+          "max_width": "80rem"
+        },
+        "breakpoints": {
+          "mobile": "0px - 768px (1 Column, 16px / 1.5rem gutter)",
+          "tablet": "769px - 1024px (8 Columns, 24px / 1.5rem gutter)",
+          "desktop": "1025px - 1440px (12 Columns, 32px / 2rem gutter)",
+          "large": "1441px+ (12 Columns, 40px / 2rem gutter)"
+        },
+        "section_separation": "Alternating light/dark backgrounds: Dark hero with black background and white text, then white sections with black text, black research section with white text, back to white. Generous vertical padding (py-20 md:py-32 lg:py-40) creates breathing room. No visible dividers or rules—pure whitespace and color contrast define section boundaries. Fixed translucent navigation bar overlays all sections.",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│ ← LUMA    [Research] [Products] [Company] [More] [Apply] │\n├──────────────────────────────────────────────────────────┤\n│                      [HERO - Dark]                       │\n│                  Floating orb elements                   │\n│                                                          │\n│              Luma is your creative partner               │\n│                    [Subheadline]                         │\n│                   [Get Early Access]                     │\n│                                                          │\n│                    [Video Player]                        │\n├──────────────────────────────────────────────────────────┤\n│                    [Prompt Input Bar]                    │\n│          [Enhance]  [Keyframes]  [Extend]               │\n│         Video credit-based pricing. Learn more.          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│        Our Mission is to build unified general           │\n│     intelligence that can generate, understand,          │\n│          and operate in the physical world               │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│   USED BY TEAMS AT:                                      │\n│  [SAMSUNG] [denduo] [BRÜTAIN] [Jupiter] [AWS]           │\n├──────────────────────────────────────────────────────────┤\n│           Where ideas become the work                    │\n│               [Description text]                         │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Luma                                  [Learn more →]    │\n│  [Product description text block]                        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                    [RESEARCH - Black]                    │\n│                      Research                            │\n│              [Description paragraph]                     │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│           The Open Physical AI Lab                       │\n│              [Description text]              [Apply →]   │\n│                                                          │\n│              [Image: Mechanical crab art]                │\n│                                                          │\n│  ┌─────────────────────┐  ┌─────────────────────┐       │\n│  │ EUREKA [pill]       │  │ UNIT 1              │       │\n│  │ [Description]       │  │ [Description]       │       │\n│  │ [Read more →]       │  │ [Read more →]       │       │\n│  └─────────────────────┘  └─────────────────────┘       │\n├──────────────────────────────────────────────────────────┤\n│  ┌──────────────────────────────────────────────────┐   │\n│  │ Foundation Model     Neural Simulation...          │   │\n│  │ [News cards in row]                               │   │\n│  └──────────────────────────────────────────────────┘   │\n├──────────────────────────────────────────────────────────┤\n│              Recent News                   [View all →]  │\n│         Updates, partnerships, and more...               │\n│                                                          │\n│  ┌────────────────────┐  ┌────────────────────┐         │\n│  │ PRODUCT • Dec 2024 │  │ PRODUCT • Dec 2024 │  [...]  │\n│  │ [News headline]    │  │ [News headline]    │         │\n│  └────────────────────┘  └────────────────────┘         │\n├──────────────────────────────────────────────────────────┤\n│              Team & Community                            │\n│          [Description text]                              │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Careers                    Learning Center              │\n│  [Description text]         [Description text]           │\n│  [Learn more →]             [Learn more →]               │\n├──────────────────────────────────────────────────────────┤\n│  Luma                                                    │\n│  [Social icons: X, YouTube, LinkedIn, Discord, TikTok]  │\n│                                                          │\n│  COMPANY        PRODUCT           RESOURCES              │\n│  About          Research          API Docs               │\n│  Careers        Dream Machine     Showcase              │\n│  News           Genie             Community             │\n│  Brand Kit      Photon            Privacy               │\n│                 Ray2              Terms                  │\n│                                   Help Center            │\n│                                                          │\n│            © 2025 Luma AI, Inc.                         │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**NAV:**\n- Background: Dark translucent overlay, blurred backdrop\n- Buttons/CTAs: \"Apply\" (solid white pill, right-aligned)\n- Colors observed: Dark gray/black, white text\n- Typography mood: Clean, sans-serif, minimal\n\n**HERO:**\n- Background: Deep black with animated floating orb elements (soft bokeh effect, gray/blue tones)\n- Imagery: Abstract 3D spheres, floating particles, depth of field effect\n- Buttons/CTAs: \"Get Early Access\" (solid white pill, centered below headline)\n- Components: Video player embedded in center with custom UI\n- Colors observed: Black, white, muted blue/gray orbs\n- Typography mood: Bold, large headline, crisp white text\n\n**PROMPT INPUT BAR:**\n- Background: Light gray surface, elevated card design\n- Components: Text input field (white), three toggle pills \"Enhance\", \"Keyframes\", \"Extend\" (white with borders)\n- Colors observed: Light gray (#F5F5F5), white, subtle shadows\n- Typography mood: Clean, functional\n- Note: \"Learn more\" link visible below\n\n**MISSION STATEMENT:**\n- Background: White/off-white\n- Typography mood: Bold headline (large, centered), mix of regular and bold weights\n- Colors observed: Black text on white\n\n**LOGO STRIP:**\n- Background: White\n- Components: Grayscale logos in horizontal row\n- Typography mood: \"USED BY TEAMS AT:\" label in small caps\n\n**WHERE IDEAS SECTION:**\n- Background: White\n- Typography mood: Large headline, body text below\n- Colors observed: Black text on white\n\n**LUMA PRODUCT:**\n- Background: White\n- Buttons/CTAs: \"Learn more →\" (solid black pill, right-aligned)\n- Layout: Text left, CTA right\n- Colors observed: Black, white\n\n**RESEARCH SECTION:**\n- Background: Solid black\n- Typography mood: White text, bold headline\n- Colors observed: Black background, white text\n- Description text in lighter gray\n\n**OPEN PHYSICAL AI LAB:**\n- Background: Black\n- Imagery: Large artistic render (mechanical crab/creature, warm golden/bronze tones, dramatic lighting)\n- Buttons/CTAs: \"Apply →\" (solid white pill, top right)\n- Components: Two cards below image:\n  - \"EUREKA\" card: Black background, white text, \"Read more →\" (solid white pill)\n  - \"UNIT 1\" card: Black background, white text, \"Read more →\" (solid white pill)\n- Colors observed: Black, white, golden/amber (image), bronze, mechanical textures\n- Typography mood: Clean, bold headlines in cards\n\n**NEWS GRID (Foundation Model):**\n- Background: Black\n- Components: Horizontal row of news cards, white borders, text snippets\n- Colors observed: Black, white text\n\n**RECENT NEWS:**\n- Background: White\n- Buttons/CTAs: \"View all →\" (solid black pill, top right)\n- Components: News cards in grid (white background, subtle shadows, category pills like \"PRODUCT • Dec 2024\")\n- Colors observed: White, black text, light gray borders\n- Typography mood: Clean, hierarchical (category label, headline)\n\n**TEAM & COMMUNITY:**\n- Background: White\n- Typography mood: Headline + subtext, centered\n- Colors observed: Black on white\n\n**CAREERS / LEARNING CENTER:**\n- Background: White\n- Layout: Two-column split\n- Buttons/CTAs: \"Learn more →\" (solid black pill) under each section\n- Colors observed: Black text, white background\n\n**FOOTER:**\n- Background: White\n- Components: Logo, social media icons (circular, black), multi-column link grid\n- Social icons: X, YouTube, LinkedIn, Discord, TikTok\n- Colors observed: Black icons/text on white\n- Typography mood: Small, organized columns\n- Copyright notice at bottom center\n\n**OVERALL COLOR PALETTE:**\n- Primary: Black, white\n- Accent: Muted blue-gray orbs (hero), golden/bronze (research image)\n- UI: Light gray surfaces, white buttons, black pills for CTAs\n\n**BUTTON STYLES OBSERVED:**\n- Solid white pill (black background sections): \"Get Early Access\", \"Apply →\", \"Read more →\"\n- Solid black pill (white background sections): \"Learn more →\", \"View all →\"\n- Outline/toggle pills: \"Enhance\", \"Keyframes\", \"Extend\" (light gray section)",
+        "insights": [
+          "Extreme vertical rhythm with 5-10rem (20-40 spacing units) between major sections creates luxurious breathing room and forces focus on one idea at a time.",
+          "Centered-symmetric composition throughout—headlines, CTAs, and content blocks all align to a central vertical axis, reinforcing brand clarity and calm.",
+          "Minimal component vocabulary: pill buttons (white or black), elevated cards with subtle shadows, and full-bleed imagery. Only three primary UI elements repeated across the entire page.",
+          "Dark hero with inverted navigation (white text, mix-blend-difference) transitions seamlessly to light sections below, using color inversion rather than borders to mark the shift."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Provides maximum contrast, serving as the primary text color and the stark background for inverted sections.",
+              "when_to_use": [
+                "Primary body text and headings",
+                "Hero and Research section backgrounds",
+                "Primary CTA backgrounds on light sections",
+                "Subtle structural borders and box shadows"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Surface White",
+            "type": "Light",
+            "rules": {
+              "description": "Forms the foundational canvas of the page and acts as the inverted text color in dark sections.",
+              "when_to_use": [
+                "Page and main container backgrounds (as #FFFFFF)",
+                "Text and logos within dark hero and research sections",
+                "Elevated banner backgrounds like the 'Ray 3.2' announcement (as #EDEDED)",
+                "Inactive input labels like 'tab to accept' (as #CCCCCC)"
+              ]
+            },
+            "hex": "#E5E5E5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EDEDED",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#CCCCCC",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.5917
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Secondary Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "Provides typographical hierarchy by de-emphasizing supportive text and metadata.",
+              "when_to_use": [
+                "Subtitles under section headings",
+                "News card categories and publish dates",
+                "Secondary text in dark sections (as #8C8C8C)"
+              ]
+            },
+            "hex": "#737373",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#8C8C8C",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0465
+          },
+          {
+            "name": "Tertiary Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A low-contrast gray applied to input fields for inactive or placeholder elements.",
+              "when_to_use": [
+                "Prompt text area placeholder text",
+                "Submit prompt button icon"
+              ]
+            },
+            "hex": "#A6A6A6",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0036
+          },
+          {
+            "name": "Off-Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Barely appears in the provided markup; likely an incidental dark shade measured from rich media or an unstyled element.",
+              "when_to_use": [
+                "Incidental dark rendering",
+                "Unstyled deep background elements"
+              ]
+            },
+            "hex": "#101010",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0006
+          }
+        ],
+        "insights": [
+          "Strict Monochromatism: The brand completely relies on black, white, and grays for its UI, ensuring that colorful generative AI images and videos stand out without competition.",
+          "Section-Based Inversion: The design uses high-contrast blocking, alternating between stark white and pure black backgrounds to demarcate different sections instead of using dividers.",
+          "Text-Driven Hierarchy: Grays are exclusively reserved for text and icons, carefully establishing a visual hierarchy for metadata, dates, and placeholders without introducing new hues."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Graphik",
+              "role": "Display",
+              "specs": {
+                "size": "40px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "H1",
+              "specs": {
+                "size": "32px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "H2",
+              "specs": {
+                "size": "28px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "H3",
+              "specs": {
+                "size": "22px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "H4",
+              "specs": {
+                "size": "18px",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "H5",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "Subhead",
+              "specs": {
+                "size": "18px",
+                "line_height": "1.3",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Primary body copy for longer descriptions and secondary context text.",
+          "variants": [
+            {
+              "name": "Graphik",
+              "role": "Body Large",
+              "specs": {
+                "size": "18px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "Body Medium",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "Body Small",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Small text elements used for utility tags, badges, and component labeling.",
+          "variants": [
+            {
+              "name": "Graphik",
+              "role": "Label",
+              "specs": {
+                "size": "12px",
+                "line_height": "1",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Graphik",
+              "role": "Badge / Tag",
+              "specs": {
+                "size": "14px",
+                "line_height": "14px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": []
+        },
+        "highlights": null,
+        "insights": [
+          "The typography system relies entirely on Graphik for core UI, giving the interface a clean, modern, and highly legible geometric look.",
+          "Extensive use of negative letter-spacing (tracking) across both headings (up to -0.04em) and body (-0.03em) creates a tightly locked, crisp, and slightly technical aesthetic.",
+          "The semantic '.typo-' class structure (e.g., '.typo-display', '.typo-body-l') cleanly abstracts sizes and handles responsive scaling, stepping up sizes seamlessly at the 48rem breakpoint.",
+          "PP Editorial New is present in the font definitions, suggesting a planned secondary serif typeface for brand or editorial moments, though Graphik handles all primary communication."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "glass_blur",
+          "gradient_linear"
+        ],
+        "solid_colors": [
+          {
+            "name": "Surface Primary",
+            "description": "Primary background surface for light theme",
+            "when_to_use": [
+              "Page backgrounds",
+              "Card backgrounds",
+              "Default surface color"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Surface Subtle",
+            "description": "Subtle background surface, lighter than elevated (HSL 0 0% 95%)",
+            "when_to_use": [
+              "Secondary backgrounds",
+              "Highlighted sections",
+              "Hover states"
+            ],
+            "hex": "#F2F2F2"
+          },
+          {
+            "name": "Surface Elevated",
+            "description": "Elevated surface background (HSL 0 0% 93%)",
+            "when_to_use": [
+              "Cards",
+              "Modals",
+              "Raised components"
+            ],
+            "hex": "#EDEDED"
+          },
+          {
+            "name": "Surface Inverted Primary",
+            "description": "Inverted primary surface for dark sections",
+            "when_to_use": [
+              "Hero sections",
+              "Dark mode surfaces",
+              "High contrast areas"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Surface Inverted Subtle",
+            "description": "Subtle inverted surface (HSL 0 0% 15%)",
+            "when_to_use": [
+              "Dark backgrounds",
+              "Secondary dark surfaces"
+            ],
+            "hex": "#262626"
+          },
+          {
+            "name": "Surface Inverted Elevated",
+            "description": "Elevated inverted surface (HSL 0 0% 25%)",
+            "when_to_use": [
+              "Dark elevated cards",
+              "Dark modal backgrounds"
+            ],
+            "hex": "#404040"
+          },
+          {
+            "name": "Border Primary",
+            "description": "Primary border color (oklch 92.2% 0 0)",
+            "when_to_use": [
+              "Default borders",
+              "Dividers",
+              "Outlines"
+            ],
+            "hex": "#EBEBEB"
+          },
+          {
+            "name": "Glass Panel",
+            "description": "Glassmorphism surface with backdrop blur",
+            "when_to_use": [
+              "Floating navigation",
+              "Overlays",
+              "Command menus"
+            ],
+            "hex": "#000000"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Hero Section Gradient",
+            "description": "Gradient for hero sections with surface-inverted-primary variations",
+            "when_to_use": [
+              "Hero backgrounds",
+              "Dark section transitions"
+            ],
+            "css_code": "linear-gradient(var(--tw-gradient-position),rgba(0, 0, 0, 0) 0px,rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "name": "Bottom Fade Gradient",
+            "description": "Top to bottom fade gradient from black to transparent for masks",
+            "when_to_use": [
+              "Content fading",
+              "Scroll masks",
+              "Edge fades"
+            ],
+            "css_code": "linear-gradient(to bottom,#000 0,transparent 100%)"
+          },
+          {
+            "name": "Right Fade Gradient",
+            "description": "Horizontal fade gradient for masking horizontal scrollers",
+            "when_to_use": [
+              "Horizontal scroll masks",
+              "Logo carousel edges"
+            ],
+            "css_code": "linear-gradient(to right,transparent 0,#000 var(--mask-size),#000 calc(100% - var(--mask-size)),transparent 100%)"
+          },
+          {
+            "name": "Overlay Gradient Light to Dark",
+            "description": "Transition gradient from surface-primary to transparent",
+            "when_to_use": [
+              "Section transitions",
+              "Content overlays"
+            ],
+            "css_code": "linear-gradient(var(--tw-gradient-position),rgba(0, 0, 0, 0) 0px,rgba(0, 0, 0, 0) 50%,rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "name": "Glass Background Gradient",
+            "description": "Diagonal gradient for glass/blur effects from inverted-primary to surface-primary",
+            "when_to_use": [
+              "Glassmorphism panels",
+              "Frosted overlays",
+              "Search command UI"
+            ],
+            "css_code": "linear-gradient(to bottom right in oklab,hsl(0 0% 0%) 50%,hsl(0 0% 100%) 50%)"
+          },
+          {
+            "name": "Radial Spotlight Gradient",
+            "description": "Radial gradient creating a spotlight effect with surface-primary center",
+            "when_to_use": [
+              "Hero spotlights",
+              "Feature highlights",
+              "Center focus effects"
+            ],
+            "css_code": "radial-gradient(ellipse 35% 28% at 50% 50%,hsl(0 0% 100%) 35%,transparent 100%)"
+          }
+        ],
+        "highlights": [
+          "Glass panels: backdrop-filter: blur(xl) with bg-surface-primary/80 and border primary/30",
+          "Navigation bar uses backdrop-blur-xl with bg-surface-primary/80 for frosted glass effect",
+          "Radial dot pattern overlay: radial-gradient(hsl(0 0% 0%/.095) 1px,transparent 2px) for texture",
+          "Soft shadow effects: shadow-md, shadow-lg, shadow-xl with rgba black at low opacity",
+          "Command menu uses gradient border effect with bg-linear-to-br from-surface-inverted-primary/50 to-surface-primary/50"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Shadow",
+              "type": "drop",
+              "description": "Tailwind CSS ring shadow reset/placeholder value with zero blur and transparent color",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring utility base state",
+                "Focus ring placeholder"
+              ]
+            },
+            {
+              "name": "Shadow Default",
+              "type": "drop",
+              "description": "Standard shadow with 10% black opacity, 3px blur on first layer and 2px blur with -1px offset on second layer",
+              "css_value": "0 1px 3px 0 var(--tw-shadow-color,#0000001a),0 1px 2px -1px var(--tw-shadow-color,#0000001a)",
+              "when_to_use": [
+                "Cards",
+                "Default elevation",
+                "Subtle lift"
+              ]
+            },
+            {
+              "name": "Shadow XS",
+              "type": "drop",
+              "description": "Extra small shadow with 5% black opacity and 2px blur for minimal elevation",
+              "css_value": "0 1px 2px 0 var(--tw-shadow-color,#0000000d)",
+              "when_to_use": [
+                "Subtle elevation",
+                "Input fields",
+                "Small UI elements"
+              ]
+            },
+            {
+              "name": "Shadow SM",
+              "type": "drop",
+              "description": "Small shadow identical to default with 10% black opacity and 3px blur",
+              "css_value": "0 1px 3px 0 var(--tw-shadow-color,#0000001a),0 1px 2px -1px var(--tw-shadow-color,#0000001a)",
+              "when_to_use": [
+                "Buttons",
+                "Small cards",
+                "Tab active states"
+              ]
+            },
+            {
+              "name": "Shadow MD",
+              "type": "drop",
+              "description": "Medium shadow with 10% black opacity, 6px blur on first layer and 4px blur on second",
+              "css_value": "0 4px 6px -1px var(--tw-shadow-color,#0000001a),0 2px 4px -2px var(--tw-shadow-color,#0000001a)",
+              "when_to_use": [
+                "Cards",
+                "Modals",
+                "Floating panels",
+                "Form container"
+              ]
+            },
+            {
+              "name": "Shadow LG",
+              "type": "drop",
+              "description": "Large shadow with 10% black opacity, 15px blur and 6px blur layers for prominent elevation",
+              "css_value": "0 10px 15px -3px var(--tw-shadow-color,#0000001a),0 4px 6px -4px var(--tw-shadow-color,#0000001a)",
+              "when_to_use": [
+                "Dropdowns",
+                "Popovers",
+                "Elevated containers"
+              ]
+            },
+            {
+              "name": "Shadow XL",
+              "type": "drop",
+              "description": "Extra large shadow with 10% black opacity, 25px blur and 10px blur layers",
+              "css_value": "0 20px 25px -5px var(--tw-shadow-color,#0000001a),0 8px 10px -6px var(--tw-shadow-color,#0000001a)",
+              "when_to_use": [
+                "Modals",
+                "Large floating elements",
+                "Form inputs"
+              ]
+            },
+            {
+              "name": "Shadow 2XL",
+              "type": "drop",
+              "description": "Maximum shadow with 25% black opacity and 50px blur for highest elevation",
+              "css_value": "0 25px 50px -12px var(--tw-shadow-color,#00000040)",
+              "when_to_use": [
+                "Modal dialogs",
+                "Maximum elevation elements"
+              ]
+            },
+            {
+              "name": "Custom Glow Shadow",
+              "type": "drop",
+              "description": "Custom diffused glow shadow using HSL surface color at 25% opacity with 40px blur and 8px spread",
+              "css_value": "0 0 40px 8px var(--tw-shadow-color,hsl(0 0% 0%/.25))",
+              "when_to_use": [
+                "Glowing effects",
+                "Hero sections",
+                "Highlight elements"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "video_background",
+          "marquee"
+        ],
+        "animations": [
+          {
+            "name": "accordion-down",
+            "css": "@keyframes accordion-down { from { height: 0 } to { height: var(--radix-accordion-content-height) } }",
+            "description": "Expands accordion content from collapsed to full height"
+          },
+          {
+            "name": "accordion-up",
+            "css": "@keyframes accordion-up { from { height: var(--radix-accordion-content-height) } to { height: 0 } }",
+            "description": "Collapses accordion content from full height to zero"
+          },
+          {
+            "name": "spin",
+            "css": "@keyframes spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }",
+            "description": "Continuous rotation animation for loading spinners"
+          },
+          {
+            "name": "hero-search-band",
+            "css": "",
+            "description": "Custom animation applied to hero search band element, likely JS-driven based on class name pattern"
+          },
+          {
+            "name": "global-ease",
+            "css": "transition: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+            "description": "Default global transition applied to interactive elements with ease-in-out timing"
+          },
+          {
+            "name": "opacity-fade",
+            "css": "transition: opacity 0.2s ease-in-out",
+            "description": "Opacity transition for fade effects on overlays and mobile navigation"
+          },
+          {
+            "name": "logo-marquee",
+            "css": "",
+            "description": "JS-driven horizontal scrolling animation for partner logo strip, uses will-change: transform for GPU acceleration"
+          }
+        ],
+        "insights": [
+          "The design system employs a strict monochromatic palette (black/white) with inverted color schemes for dark and light sections, allowing full-bleed section transitions without visible dividers.",
+          "All primary buttons use rounded-full (pill) shapes with consistent height sizing (h-8 for small, h-10/h-12 for large CTAs), creating a cohesive action vocabulary across the entire page.",
+          "The navigation uses mix-blend-difference mode for the logo and text to automatically adapt colors based on underlying content, eliminating the need for multiple nav color variants."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Sign In (Primary Inverted - Dark)",
+            "usage": "Primary navigation CTA used in the header on dark backgrounds, links to app sign-in",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Graphik",
+                  "size": "14px",
+                  "padding": "0px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Try for free (Primary Hero CTA)",
+            "usage": "Main hero call-to-action button on dark backgrounds, links to app",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Graphik",
+                  "size": "18px",
+                  "padding": "0px 32px"
+                },
+                {
+                  "name": "Default",
+                  "font": "Graphik",
+                  "size": "16px",
+                  "padding": "0px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Product Hero Shots (Suggestion Pill)",
+            "usage": "Suggestion pills below the prompt input area to help users get started with creative prompts",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Graphik",
+                  "size": "14px",
+                  "padding": "0px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Try Free (Announcement Banner CTA - Light)",
+            "usage": "Secondary CTA button in the announcement banner on light backgrounds",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Graphik",
+                  "size": "14px",
+                  "padding": "0px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Learn more (Announcement Banner Secondary)",
+            "usage": "Secondary link-style button in announcement banner, used for less prominent actions",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Graphik",
+                  "size": "14px",
+                  "padding": "0px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F2F2F2",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Prompt Submit)",
+            "usage": "Circular icon-only button for submitting the prompt form, contains arrow icon",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "",
+                  "size": "44px",
+                  "padding": "0px"
+                },
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "32px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#595959",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#595959",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.7",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are typically displayed inline with flex layout and gap spacing",
+          "spacing": "12px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "4rem",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Surface Primary",
+            "opacity": "0.8",
+            "blur": "backdrop-filter: blur(24px)"
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": []
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Navigation Divider",
+            "description": "Thin horizontal line below the navigation bar to separate it from content",
+            "when_to_use": [
+              "Below fixed navigation on dark hero sections"
+            ],
+            "color": "#FFFFFF4D",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Social Media Icons",
+          "description": "Icons used for linking to social media profiles.",
+          "when_to_use": [
+            "Footer",
+            "Social media navigation",
+            "Mobile menu"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "32px",
+            "medium": "32px"
+          },
+          "examples": [
+            {
+              "name": "Instagram",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" fill=\"currentColor\" class=\"size-8 md:size-10\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM10.0472 7.47896C10.6111 7.25739 11.2561 7.10665 12.2007 7.06209C13.1475 7.01592 13.4494 7.00563 15.8602 7.00101C18.2711 6.99639 18.5753 7.00687 19.5202 7.0477C20.4651 7.08854 21.1104 7.2375 21.6754 7.45606C22.26 7.68119 22.7558 7.9839 23.2497 8.47659C23.7436 8.96928 24.0481 9.46339 24.2763 10.047C24.4977 10.6114 24.648 11.2543 24.6929 12.201C24.7379 13.1476 24.7487 13.4498 24.7533 15.8602C24.7579 18.2705 24.7482 18.5731 24.7068 19.5206C24.6658 20.4648 24.5172 21.1105 24.2984 21.6751C24.0728 22.26 23.7699 22.7553 23.2779 23.2496C22.7859 23.7439 22.2911 24.0482 21.7075 24.2765C21.1433 24.497 20.5018 24.6483 19.555 24.6932C18.6081 24.7382 18.3047 24.7488 15.8947 24.7534C13.4847 24.758 13.1805 24.7485 12.2357 24.7071C11.2908 24.6657 10.645 24.5169 10.0804 24.2987C9.49453 24.0725 8.99989 23.7702 8.50578 23.2778C8.01167 22.7855 7.70682 22.291 7.47903 21.7075C7.25746 21.1434 7.10725 20.4985 7.06216 19.5542C7.01635 18.6072 7.0057 18.305 7.00108 15.8943C6.99646 13.4835 7.0057 13.1798 7.04742 12.2347C7.08914 11.2896 7.23722 10.6441 7.45577 10.0789C7.68161 9.49446 7.98468 8.99946 8.47684 8.50553C8.96899 8.0116 9.46363 7.7064 10.0472 7.47896ZM10.6557 22.8082C10.9689 22.9286 11.4388 23.0724 12.3044 23.1101H12.3045C13.2407 23.1505 13.5204 23.1601 15.891 23.155C18.2615 23.1498 18.5421 23.1406 19.4783 23.0966C20.3427 23.0554 20.8127 22.9098 21.1252 22.7878C21.5396 22.6259 21.8348 22.4338 22.1448 22.122C22.4548 21.8103 22.6474 21.5146 22.8072 21.1001C22.9278 20.7865 23.0712 20.3164 23.1091 19.4509C23.1501 18.5154 23.1584 18.234 23.1542 15.8644C23.1499 13.4949 23.1398 13.2142 23.0952 12.278C23.0544 11.4123 22.9091 10.9431 22.7868 10.6311C22.6249 10.216 22.4326 9.92146 22.1207 9.61111C21.8087 9.30076 21.5135 9.10883 21.0985 8.94904C20.7859 8.82813 20.3152 8.68485 19.4504 8.64721C18.5138 8.60602 18.2326 8.59714 15.8629 8.60229C13.4932 8.60744 13.2127 8.61632 12.2765 8.6607C11.4113 8.7019 10.9419 8.84713 10.629 8.96928C10.2148 9.1312 9.91922 9.3233 9.6094 9.63525C9.29958 9.9472 9.10712 10.2421 8.94733 10.6574C8.82713 10.9704 8.68244 11.4409 8.64551 12.3057C8.60449 13.2416 8.59544 13.5221 8.60059 15.8921C8.60574 18.2622 8.61497 18.5431 8.659 19.4785C8.69948 20.3441 8.84595 20.8135 8.96757 21.1267C9.12949 21.5406 9.32124 21.8371 9.63337 22.1462C9.94549 22.4553 10.2409 22.6484 10.6557 22.8082ZM19.7218 11.7242C19.6045 11.5492 19.5416 11.3434 19.5413 11.1327C19.5408 10.8502 19.6526 10.5791 19.8519 10.379C20.0513 10.1789 20.322 10.0662 20.6044 10.0656C20.8151 10.0652 21.0212 10.1273 21.1967 10.244C21.3721 10.3607 21.509 10.5268 21.59 10.7213C21.671 10.9159 21.6925 11.13 21.6518 11.3368C21.611 11.5435 21.5099 11.7335 21.3612 11.8828C21.2125 12.032 21.0228 12.1338 20.8163 12.1753C20.6097 12.2168 20.3954 12.1961 20.2006 12.1158C20.0058 12.0355 19.8392 11.8992 19.7218 11.7242ZM15.8858 20.4352C13.3687 20.44 11.3241 18.4037 11.3192 15.8861C11.3144 13.3689 13.351 11.3239 15.8684 11.3189C18.3858 11.3139 20.431 13.3507 20.4358 15.8683C20.4406 18.3859 18.4029 20.4304 15.8858 20.4352ZM13.4136 14.2379C13.0894 14.7252 12.917 15.2976 12.9181 15.8829C12.9189 16.2715 12.9961 16.6562 13.1455 17.0149C13.2949 17.3737 13.5136 17.6995 13.7889 17.9737C14.0642 18.248 14.3909 18.4653 14.7502 18.6133C15.1096 18.7613 15.4945 18.837 15.8831 18.8362C16.4684 18.835 17.0402 18.6603 17.5262 18.3342C18.0122 18.0081 18.3905 17.5452 18.6134 17.004C18.8363 16.4629 18.8937 15.8678 18.7784 15.294C18.6631 14.7202 18.3802 14.1935 17.9656 13.7805C17.5509 13.3674 17.0231 13.0867 16.4488 12.9736C15.8746 12.8606 15.2797 12.9204 14.7395 13.1454C14.1992 13.3704 13.7378 13.7506 13.4136 14.2379Z\"></path></svg>"
+            },
+            {
+              "name": "YouTube",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" fill=\"currentColor\" class=\"size-8 md:size-10\"><path d=\"M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM23.3995 10.386C24.1918 10.5983 24.8156 11.2241 25.0273 12.0187C25.4121 13.4589 25.4121 16.4638 25.4121 16.4638C25.4121 16.4638 25.4121 19.4687 25.0273 20.9091C24.8156 21.7036 24.1918 22.3293 23.3995 22.5418C21.9637 22.9277 16.2061 22.9277 16.2061 22.9277C16.2061 22.9277 10.4484 22.9277 9.01256 22.5418C8.22039 22.3293 7.59646 21.7036 7.38474 20.9091C7 19.4687 7 16.4638 7 16.4638C7 16.4638 7 13.4589 7.38474 12.0187C7.59646 11.2241 8.22039 10.5983 9.01256 10.386C10.4484 10 16.2061 10 16.2061 10C16.2061 10 21.9637 10 23.3995 10.386Z\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.4164 20.2199L20.0419 16.4638L13.4164 12.7074V20.2199Z\"></path></svg>"
+            },
+            {
+              "name": "X / Twitter",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" fill=\"currentColor\" class=\"size-8 md:size-10\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM23.4491 9H20.9402L16.8139 13.7735L13.2157 9H8L14.206 17.1548L8.33011 23.9172H10.8389L15.3944 18.7128L19.3557 23.9172H24.4394L17.9693 15.3315L23.4491 9ZM21.4354 22.3924H20.049L10.938 10.4254H12.4565L21.4354 22.3924Z\"></path></svg>"
+            },
+            {
+              "name": "TikTok",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" fill=\"currentColor\" class=\"size-8 md:size-10\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM21.5645 11.4409C21.6728 11.5114 21.7845 11.5764 21.8992 11.6357C22.6458 12.0079 23.3749 12.1212 23.7341 12.0823V14.9806C23.7341 14.9806 22.7091 14.9381 21.9484 14.7363C20.8881 14.4526 20.2085 14.017 20.2085 14.017C20.2085 14.017 19.7368 13.705 19.7014 13.6837V19.6731C19.7014 20.006 19.6132 20.839 19.349 21.5335C19.1174 22.1273 18.7864 22.6774 18.3701 23.1601C18.3701 23.1601 17.7185 23.9679 16.5739 24.5101C15.6198 24.9622 14.7711 24.987 14.434 24.9968C14.4065 24.9976 14.3823 24.9983 14.3619 24.9992C14.3619 24.9992 12.7947 25.0622 11.3813 24.1017L11.3743 24.0947V24.1017C10.8964 23.7683 10.4703 23.3663 10.1096 22.9086C9.6623 22.3381 9.38783 21.6613 9.317 21.463V21.4559C9.20438 21.1191 8.96817 20.3042 9.00358 19.5176C9.05989 18.1318 9.52489 17.278 9.64813 17.0655C9.97199 16.4828 10.3951 15.9611 10.8983 15.5239C11.4726 15.0425 12.1404 14.6853 12.8597 14.4748C13.5789 14.2644 14.334 14.2054 15.0772 14.3014L15.0737 17.2741C14.8289 17.1943 14.573 17.1538 14.3155 17.154C12.9552 17.154 11.8527 18.2632 11.8527 19.6331C11.8527 21.0029 12.9552 22.1121 14.3155 22.1121C14.739 22.1127 15.1553 22.0028 15.5235 21.7934C15.8767 21.5927 16.1752 21.3083 16.3927 20.9652C16.6102 20.6221 16.74 20.2308 16.7708 19.8257V19.8194C16.7725 19.8109 16.7725 19.8024 16.7725 19.7942C16.7729 19.7878 16.7733 19.7816 16.7737 19.7756C16.7746 19.7632 16.7754 19.7514 16.7754 19.739C16.7818 19.5909 16.7818 19.4411 16.7818 19.2896V8H19.7014C19.6968 8 19.6663 8.27978 19.74 8.71219H19.7364C19.8246 9.23315 20.064 9.97721 20.705 10.7107C20.9612 10.9877 21.2498 11.2328 21.5645 11.4409Z\"></path></svg>"
+            },
+            {
+              "name": "LinkedIn",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" fill=\"currentColor\" class=\"size-8 md:size-10\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM21.3 23.5H24.5V16.7465C24.5 13.8889 22.8296 12.5078 20.5664 12.5078C18.304 12.5078 17.3 14.2695 17.3 14.2695V13.1H14.1V23.5H17.3V17.9008C17.3 16.4008 18.0848 15.5078 19.4072 15.5078C20.6224 15.5078 21.3 16.3648 21.3 17.9008V23.5ZM8.5 9.46797C8.5 10.5552 9.3744 11.4367 10.4536 11.4367C11.532 11.4367 12.4072 10.5552 12.4064 9.46797C12.4064 8.38157 11.532 7.5 10.4536 7.5C9.3744 7.5 8.5 8.38157 8.5 9.46797ZM12.5 23.5H8.5V13.1H12.5V23.5Z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "UI Functional Icons",
+          "description": "General purpose user interface icons for interaction and navigation.",
+          "when_to_use": [
+            "Interactive buttons",
+            "Mobile navigation",
+            "Search or prompt input forms"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Minimalist",
+          "sizes": {
+            "small": "20px",
+            "medium": "41px"
+          },
+          "examples": [
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1 7C1 6.44772 1.44772 6 2 6L18 6C18.5523 6 19 6.44772 19 7C19 7.55228 18.5523 8 18 8L2 8C1.44772 8 1 7.55229 1 7Z\" style=\"transform-origin: center center; transform: scale(1) rotateZ(0deg) translateY(0px);\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19 13C19 13.5523 18.5523 14 18 14L2 14C1.44772 14 1 13.5523 1 13C1 12.4477 1.44772 12 2 12L18 12C18.5523 12 19 12.4477 19 13Z\" style=\"transform-origin: center center; transform: scale(1) rotateZ(0deg) translateY(0px);\"></path></svg>"
+            },
+            {
+              "name": "Submit Prompt Arrow",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 41 41\" fill=\"currentColor\" class=\"size-8 transition-colors duration-150 sm:size-11 text-inverted-tertiary\"><path d=\"M20.582 40.8203C17.8346 40.8203 15.2565 40.2995 12.8477 39.2578C10.4388 38.2292 8.32292 36.8034 6.5 34.9805C4.67708 33.1445 3.24479 31.0286 2.20312 28.6328C1.17448 26.224 0.660156 23.6458 0.660156 20.8984C0.660156 18.151 1.17448 15.5729 2.20312 13.1641C3.24479 10.7552 4.67708 8.63932 6.5 6.81641C8.32292 4.99349 10.4388 3.56771 12.8477 2.53906C15.2565 1.4974 17.8346 0.976562 20.582 0.976562C23.3294 0.976562 25.9076 1.4974 28.3164 2.53906C30.7253 3.56771 32.8411 4.99349 34.6641 6.81641C36.487 8.63932 37.9128 10.7552 38.9414 13.1641C39.9831 15.5729 40.5039 18.151 40.5039 20.8984C40.5039 23.6458 39.9831 26.224 38.9414 28.6328C37.9128 31.0286 36.487 33.1445 34.6641 34.9805C32.8411 36.8034 30.7253 38.2292 28.3164 39.2578C25.9076 40.2995 23.3294 40.8203 20.582 40.8203ZM20.6016 10.7422C20.3932 10.7422 20.1979 10.7812 20.0156 10.8594C19.8333 10.9245 19.638 11.0612 19.4297 11.2695L12.7891 17.6758C12.6328 17.819 12.5156 17.9818 12.4375 18.1641C12.3594 18.3333 12.3203 18.5286 12.3203 18.75C12.3203 19.1536 12.457 19.4922 12.7305 19.7656C13.0039 20.026 13.349 20.1562 13.7656 20.1562C14.2344 20.1562 14.6055 19.9935 14.8789 19.668L17.9453 16.4062L19.1172 15.1758L18.9805 18.1836V29.4922C18.9805 29.9219 19.1367 30.293 19.4492 30.6055C19.7747 30.9049 20.1589 31.0547 20.6016 31.0547C21.0443 31.0547 21.4219 30.9049 21.7344 30.6055C22.0469 30.293 22.2031 29.9219 22.2031 29.4922V18.1836L22.0859 15.1758L23.2578 16.4062L26.3242 19.668C26.5846 19.9935 26.9492 20.1562 27.418 20.1562C27.8346 20.1562 28.1797 20.026 28.4531 19.7656C28.7396 19.4922 28.8828 19.1536 28.8828 18.75C28.8828 18.5286 28.8372 18.3333 28.7461 18.1641C28.668 17.9818 28.5508 17.819 28.3945 17.6758L21.7734 11.2695C21.5651 11.0612 21.3698 10.9245 21.1875 10.8594C21.0052 10.7812 20.8099 10.7422 20.6016 10.7422Z\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/favicon.ico",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/favicon.ico",
+            "origin_url": "https://lumalabs.ai/favicons/favicon-black.ico",
+            "description": "Detected from <link rel='icon'>. Black favicon."
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/favicon-2.ico",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/favicon-2.ico",
+            "origin_url": "https://lumalabs.ai/favicons/favicon-white.ico",
+            "description": "Detected from <link rel='icon'>. White favicon."
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-inline.svg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-inline.svg",
+            "origin_url": null,
+            "description": "Inline SVG secondary logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-3.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-3.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F4b9c323d4e5322022a2e39d24d16a70d8a259fad-739x76.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Serviceplan partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-6.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-6.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F3cc1ece7ee9dd135f711049f1960b3bc66def8f9-264x56.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Dentsu partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F37a25c7f2095d49814b1940c640b3c0cd06ab69e-344x48.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Humain partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-5.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-5.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Ff762baba31d95136de73a962e7f8c159a926d7d6-377x56.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Aperture partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-2.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-2.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Fed9c9f11052fade2a2c2488b3dc070b43cf1679c-132x128.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Publicis Groupe partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-4.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-4.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F04b81b6c20c77ce8b28ec26269008a61ef2e73e2-362x87.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Boundless partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-7.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-7.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Ffff4fd15dc4bbd586ce4fee59472542fa58f358c-112x99.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Mazda partner logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-8.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/logos/secondary-8.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Fd94398a074cc20aa1c8b6518b3676f9077f8e14a-277x60.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "description": "Uncharted partner logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/open-graph-image.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/open-graph-image.jpg",
+            "origin_url": "https://cdn.sanity.io/images/2ylxvaa2/production/ff7469d468f6f7e447ccb4a50276f1cb03c6664d-1200x630.jpg?w=1200&h=630&fm=jpg",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Luma hero background video loop",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/video/luma-hero-background-video-loop.mp4",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/video/luma-hero-background-video-loop.mp4",
+            "origin_url": "https://static.cdn-luma.com/files/sanity/7b077029-d756-49ad-9d9b-9ee0ad54ad02.mp4#t=0.001",
+            "usage_context": "Hero section ambient background loop"
+          },
+          {
+            "name": "Luma feature video asset",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/video/luma-feature-video-asset.mp4",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/video/luma-feature-video-asset.mp4",
+            "origin_url": "https://static.cdn-luma.com/files/sanity/522455bf-ff1f-41c5-a048-a9f40b06763c.mp4#t=0.001",
+            "usage_context": "Page video content/showcase"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-1.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-1.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F0bfd4636b5e513ee7950e36e123f32bb8b25f924-2328x960.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-2.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-2.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F099e66ae6ba403cb556111d6a1aadf6a8f4cb79b-1920x1080.png%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 3",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-3.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-3.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F97f67e5a2d71508ea393b791c2dce49693c30c3d-2688x1536.png%3Fw%3D2048%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 4",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-4.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-4.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F3ca793f40bb00da97c7e23195f699a013b07866e-1920x1080.png%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-5.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-5.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Fe2c2088ceca80060ea2b8c03fb010d1c9aa2a745-1920x1080.png%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 6",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-6.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-6.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fstatic.cdn-luma.com%2Ffiles%2Fsanity%2F6a602554-8735-4dd7-a46c-45adbd93268f.jpg&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-7.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-7.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Fb22198373d51654479a60c5bdac02241c7a0027f-1920x1084.png%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 8",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-8.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-8.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F2f5339a88bd93c37ce53ab8512bfc61145bc9029-1920x1080.png%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-9.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-9.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2Fd8d5d36fd6289f305b0d61359d053765a2bcb170-1920x1080.png%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 10",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-10.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-10.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F37bb21a6eeb02a82651071e34fde09e81dc69d85-1920x1080.jpg%3Fw%3D1920%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 11",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-11.jpg",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-11.jpg",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F663d5ff54ca7493b0a434ee917bdcc9693cb8fbb-1142x1398.png%3Fw%3D1142%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          },
+          {
+            "name": "Showcase / News Thumbnail Image 12",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-12.webp",
+            "path": "29fb264b-c70e-4f64-bab4-c15705863108/site-assets/media/image/showcase-news-thumbnail-image-12.webp",
+            "origin_url": "https://lumalabs.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2ylxvaa2%2Fproduction%2F8b443fee5ff0d69548982fe85ee8bce7d1847f36-1456x816.png%3Fw%3D1456%26fm%3Dwebp%26q%3D75%26fit%3Dmax&w=3840&q=75",
+            "usage_context": "Content showcase or recent news article thumbnail"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Split – Logo left, links center, CTA right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Luma logotype in white, minimal sans-serif"
+            },
+            {
+              "type": "navigation",
+              "description": "Uppercase link labels in white (Product, Pricing, API, Enterprise, News, Join us)"
+            },
+            {
+              "type": "button",
+              "description": "Solid white pill button with 'Sign In' label, black text"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered",
+          "headline": "Luma is your creative partner",
+          "subheadline": "You have the idea. Luma helps make it real.",
+          "components": [
+            {
+              "type": "video",
+              "description": "Full-bleed background video with muted blue/gray tones, floating orbs, depth-of-field bokeh effect"
+            },
+            {
+              "type": "button",
+              "description": "Solid white pill button with 'Try for free' label, centered below headline"
+            }
+          ]
+        },
+        {
+          "type": "Prompt Input Bar",
+          "layout_pattern": "Centered elevated card",
+          "headline": "What's due this week?",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "form",
+              "description": "Light gray elevated card with rounded corners, gradient border from black/50 to white/50, backdrop blur"
+            },
+            {
+              "type": "form",
+              "description": "Text input area with placeholder text, black background, white text"
+            },
+            {
+              "type": "button",
+              "description": "Three white pill buttons with black borders (Product Hero Shots, Paid Social Variants, Cut a Teaser)"
+            },
+            {
+              "type": "icon",
+              "description": "Submit arrow icon in tertiary color, bottom right of input"
+            }
+          ]
+        },
+        {
+          "type": "Announcement",
+          "layout_pattern": "Centered",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Rounded pill card with light gray background, border, centered text 'Ray 3.2 Is Here'"
+            },
+            {
+              "type": "button",
+              "description": "Solid white pill button 'Try Free'"
+            },
+            {
+              "type": "button",
+              "description": "Solid white pill button 'Learn more'"
+            }
+          ]
+        },
+        {
+          "type": "Mission Statement",
+          "layout_pattern": "Centered",
+          "headline": "Our Mission is to build unified general intelligence that can generate, understand, and operate in the physical world",
+          "subheadline": null,
+          "components": []
+        },
+        {
+          "type": "Logo Strip",
+          "layout_pattern": "Centered horizontal scroll",
+          "headline": null,
+          "subheadline": "USED BY TEAMS AT:",
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Infinite-scroll marquee of grayscale client logos (Serviceplan, Dentsu, Humain, Aperture, Publicis, Boundless, Mazda, Uncharted), horizontal mask fade on edges"
+            }
+          ]
+        },
+        {
+          "type": "Value Proposition",
+          "layout_pattern": "Centered",
+          "headline": "Where ideas become the work",
+          "subheadline": "Description text below headline",
+          "components": []
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split – text left, CTA right",
+          "headline": "Luma",
+          "subheadline": "Product description text block",
+          "components": [
+            {
+              "type": "button",
+              "description": "Solid black pill button with 'Learn more →' label, white text"
+            }
+          ]
+        },
+        {
+          "type": "Research",
+          "layout_pattern": "Centered",
+          "headline": "Research",
+          "subheadline": "Description paragraph explaining research initiatives",
+          "components": []
+        },
+        {
+          "type": "Open Physical AI Lab",
+          "layout_pattern": "Centered with stacked content",
+          "headline": "The Open Physical AI Lab",
+          "subheadline": "Description text",
+          "components": [
+            {
+              "type": "image",
+              "description": "Large artistic render of mechanical crab/creature with golden/bronze tones, dramatic lighting, warm amber highlights"
+            },
+            {
+              "type": "button",
+              "description": "Solid white pill button 'Apply →' positioned top right of section"
+            },
+            {
+              "type": "card",
+              "description": "Black card with 'EUREKA' headline and pill badge, white text, description, solid white pill 'Read more →' button"
+            },
+            {
+              "type": "card",
+              "description": "Black card with 'UNIT 1' headline, white text, description, solid white pill 'Read more →' button"
+            }
+          ]
+        },
+        {
+          "type": "News Grid",
+          "layout_pattern": "Horizontal row",
+          "headline": "Foundation Model",
+          "subheadline": "Neural Simulation...",
+          "components": [
+            {
+              "type": "card",
+              "description": "White-bordered news cards with black background, text snippets visible"
+            }
+          ]
+        },
+        {
+          "type": "Recent News",
+          "layout_pattern": "Grid 2-3 columns",
+          "headline": "Recent News",
+          "subheadline": "Updates, partnerships, and more...",
+          "components": [
+            {
+              "type": "button",
+              "description": "Solid black pill button 'View all →' positioned top right"
+            },
+            {
+              "type": "card",
+              "description": "White background news cards with light gray borders, subtle shadows, category pill badges 'PRODUCT • Dec 2024', headline text"
+            }
+          ]
+        },
+        {
+          "type": "Team & Community",
+          "layout_pattern": "Centered",
+          "headline": "Team & Community",
+          "subheadline": "Description text below headline",
+          "components": []
+        },
+        {
+          "type": "Careers / Learning Center",
+          "layout_pattern": "Split 50/50",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Left column: 'Careers' heading with description text and solid black pill 'Learn more →' button"
+            },
+            {
+              "type": "card",
+              "description": "Right column: 'Learning Center' heading with description text and solid black pill 'Learn more →' button"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Luma logotype in black"
+            },
+            {
+              "type": "icon",
+              "description": "Circular social media icons in black (X, YouTube, LinkedIn, Discord, TikTok)"
+            },
+            {
+              "type": "navigation",
+              "description": "Three-column link grid: COMPANY (About, Careers, News, Brand Kit), PRODUCT (Research, Dream Machine, Genie, Photon, Ray2), RESOURCES (API Docs, Showcase, Community, Privacy, Terms, Help Center)"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "29fb264b-c70e-4f64-bab4-c15705863108/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "29fb264b-c70e-4f64-bab4-c15705863108/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "29fb264b-c70e-4f64-bab4-c15705863108/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "29fb264b-c70e-4f64-bab4-c15705863108/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "29fb264b-c70e-4f64-bab4-c15705863108/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

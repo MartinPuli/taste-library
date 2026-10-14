@@ -1,0 +1,2371 @@
+{
+  "company": "fal",
+  "rank": 8,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://fal.ai/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:08:21.012353Z",
+  "completed_at": "2026-08-28T19:12:29.386999Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "fal",
+        "tagline": null,
+        "source_url": "https://fal.ai",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "AI Infrastructure / Generative Media",
+        "primary_purpose": "Drive developer adoption and enterprise engagement for generative AI platform offering model APIs, serverless GPU infrastructure, and dedicated compute clusters",
+        "main_cta": "Get started",
+        "copy_tone": [
+          "Technical",
+          "Confident",
+          "Developer-Friendly"
+        ],
+        "brand_signature": "Bold, energetic visual identity featuring a distinctive cyan (brand-sky) primary palette with vibrant accent colors including purple, lime green, and pink. The design combines playful geometric illustrations with technical credibility, using a modern rounded sans-serif (Public Sans Rounded) paired with a distinctive display typeface (Focal) for headlines.",
+        "visual_language": {
+          "keywords": [
+            "vibrant",
+            "developer-focused",
+            "energetic",
+            "technical",
+            "playful-professional",
+            "geometric"
+          ],
+          "accent_strategy": "High-contrast accent colors (purple #AB77FF, lime #F1FFD2, cyan #99EDFF, pink #FFC4D8) used to differentiate product sections and create visual hierarchy across feature cards",
+          "highlights": "Abstract geometric SVG illustrations and pixelated canvas elements create visual interest while maintaining technical credibility"
+        },
+        "strategy": {
+          "target_audience": [
+            "Software developers building AI-powered applications seeking fast, reliable inference APIs",
+            "ML engineers needing serverless GPU infrastructure for custom model deployment",
+            "Enterprise technical decision-makers evaluating scalable AI infrastructure with SOC 2 compliance",
+            "AI research labs requiring dedicated GPU clusters (H100, H200, B200) for training workloads"
+          ],
+          "executive_synthesis": "fal's visual identity strategically balances technical credibility with approachability, using a vibrant cyan hero section and playful geometric elements to differentiate from enterprise-heavy competitors while maintaining developer trust. The three-product architecture (Model APIs, Serverless, Compute) is visually coded through distinct color blocks, enabling rapid navigation for different buyer personas. Social proof from recognizable brands (Adobe, Shopify, Canva, Quora, Perplexity) combined with specific enterprise features positions fal as both startup-friendly and enterprise-ready."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals a contemporary SaaS/developer platform with a distinctly Flat Design foundation. Visual analysis shows: (1) **Flat, solid color blocks** dominate the page—the light cyan hero (#99EDFF), purple product cards (#F3ECFE, #4A17B0), green compute cards (#F1FFD2), and clean white sections create a vibrant yet flat color-block composition. (2) **No 3D effects or textures**—the surfaces profile confirms \"gradient_linear\" and \"shadows_soft\" only, with shadows used sparingly for depth hierarchy rather than tactile realism. The cards have minimal shadow treatment. (3) **Bold geometric shapes**—abstract decorative SVG elements in the hero (pink/purple gradient shapes, dot patterns) are flat geometric primitives without perspective or dimension. (4) **Clean sans-serif typography**—the \"focal\" heading typeface and \"publicSansRounded\" body font are modern geometric sans-serifs, characteristic of Flat Design. (5) **High-saturation primary/secondary color palette**—the brand purple (#5718C0), cyan (#99EDFF), lime green (#F1FFD2), and pink accents against white/dark surfaces follow Flat Design's bold, saturated color philosophy. The layout is grid-strict with generous whitespace between sections (7-14rem), card-based modular rhythm, and centered/symmetric alignment—all hallmarks of modern Flat Design applied to tech products.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies because this is clearly a B2B enterprise SaaS platform targeting developers and enterprises. Evidence includes: (1) **Trust signals**—social proof row with enterprise logos (Adobe, Shopify, Quora), \"Built for enterprise scale\" section with dark professional treatment. (2) **Conservative structure**—despite vibrant colors, the layout follows a predictable, trustworthy SaaS pattern: hero → social proof → features → pricing → testimonials → CTA → footer. (3) **Professional messaging**—language like \"1000+ generative media models. Ready for production,\" \"H100s, H200s, B200s starting at $1.89,\" and \"Transform your enterprise with AI\" targets business decision-makers. (4) **Formal information architecture**—multi-column footer with categorized product links, dedicated enterprise CTA sections, and pricing-focused cards signal B2B intent. The design balances playful brand colors with corporate reliability cues."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "1rem",
+          "max_width": "1440px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 768px (1 Column, 16px gutter)",
+          "tablet": "769px - 1024px (8 Columns, 24px gutter)",
+          "desktop": "1025px - 1440px (12 Columns, 32px gutter)",
+          "large": "1441px+ (12 Columns, 40px gutter)"
+        },
+        "section_separation": "Sections are separated by generous whitespace (typically 7-14rem vertical spacing), alternating background colors (white, light blue, purple, dark black/gray, light cyan), and occasional full-bleed decorative SVG illustrations that bleed into adjacent sections. No visible horizontal rules except for the enterprise section which uses a thin gray divider.",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│  [fal LOGO]           [Nav Links]         [Search][Login]│\n├──────────────────────────────────────────────────────────┤\n│                    [HERO - Left-aligned]                 │\n│  Generative                                              │\n│  media platform                                          │\n│  for developers.                                         │\n│                                                          │\n│  The world's first generative image, video, and         │\n│  audio API platform...                                  │\n│                                                          │\n│  [Get Started]  [View the docs]                         │\n│                                                          │\n│  [Pink/purple gradient decorative elements]             │\n├──────────────────────────────────────────────────────────┤\n│  [5 ICON BADGES - Social Proof Row]                     │\n│  Anthropic | Claude | OpenAI | Gemini | Discord         │\n├──────────────────────────────────────────────────────────┤\n│             The world's largest generative               │\n│                 media model gallery                      │\n│                                                          │\n│  Explore all models →                                   │\n│                                                          │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐   │\n│  │ Mochi/ks │ │ FLUX.1   │ │ Cineaste │ │ AnimaMax │   │\n│  │ Video-to-│ │ Image-to-│ │ Video    │ │ H3 Vid-to│   │\n│  │ Video    │ │ Video    │ │          │ │ Video    │   │\n│  └──────────┘ └──────────┘ └──────────┘ └──────────┘   │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │  Build,                [Circular gradient element] │  │\n│  │  deploy,                                           │  │\n│  │  train.                                            │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│  [fal INFERENCE APIs Section - Purple Card]             │\n│  1000+ generative media models. Ready for production.   │\n│  [Learn More →]                                         │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────┐   ┌────────────────────┐        │\n│  │ fal SERVERLESS     │   │ fal COMFYUI        │        │\n│  │ [Light blue card]  │   │ [Light green card] │        │\n│  │ On-demand          │   │ Dedicated clusters │        │\n│  │ serverless GPUs    │   │ for research labs  │        │\n│  │ [Get Started →]    │   │ [Get Started →]    │        │\n│  └────────────────────┘   └────────────────────┘        │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │  Why choose fal?         [Purple icon element]    │  │\n│  │                                                     │  │\n│  │  ┌─────────────────────────────────────────────┐  │  │\n│  │  │ Fastest inference engine for diffusion...   │  │  │\n│  │  │ [Code/comparison screenshot]                │  │  │\n│  │  └─────────────────────────────────────────────┘  │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────┐   ┌────────────────────┐        │\n│  │ On-demand GPUs...  │   │ H100s, H200s...    │        │\n│  │ [Icon grid display]│   │ [Pricing details]  │        │\n│  │ Built for developers│  │ [See Pricing]     │        │\n│  │ [See Pricing]      │   └────────────────────┘        │\n│  └────────────────────┘                                  │\n├──────────────────────────────────────────────────────────┤\n│                  Built for enterprise scale              │\n│                  [Dark background section]               │\n│                                                          │\n│  Gallery    Models    Community    Support              │\n│  [Feature list with checkmarks]                         │\n│                                                          │\n│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐          │\n│  │[Yellow │ │[Purple │ │[Cyan   │ │[Pink   │          │\n│  │ card]  │ │ card]  │ │ card]  │ │ card]  │          │\n│  └────────┘ └────────┘ └────────┘ └────────┘          │\n│                                                          │\n│  [Get in touch]                                         │\n├──────────────────────────────────────────────────────────┤\n│  Built with fal,                                        │\n│  loved by all.                                          │\n│                                                          │\n│  [Testimonial section with quotes]                      │\n├──────────────────────────────────────────────────────────┤\n│           Build with the fastest                        │\n│        inference platform on the                        │\n│                  planet                                 │\n│                                                          │\n│  Whatever you need to create generative AI apps...      │\n│                                                          │\n│  [Get Started]  [View the docs]                         │\n├──────────────────────────────────────────────────────────┤\n│  Ready to transform your enterprise with AI?            │\n│  [Contact us →]                                         │\n│                                                          │\n│  [Multi-column product/feature link list]               │\n│  - Image Generation                                     │\n│  - Video Generation                                     │\n│  - Audio & Music                                        │\n│  - Speech & Voice                                       │\n│  [etc.]                                                 │\n├──────────────────────────────────────────────────────────┤\n│                      [fal LOGO - Large]                 │\n│                                                          │\n│  Discover new APIs. Join fal.ai Discord community...   │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**NAV:**\n- Background: Transparent/white blur overlay\n- Logo: \"fal\" wordmark in black, left-aligned\n- Navigation links: Text-only, dark gray/black\n- Buttons/CTAs: \"Search\" (icon) | \"Login\" (text link, dark)\n- Colors: White/light background, black text\n- Typography: Clean, modern sans-serif\n\n**HERO:**\n- Background: Light blue gradient with abstract decorative elements (pink/purple gradient shapes, dot patterns in green/purple)\n- Imagery: Abstract geometric shapes (rounded rectangles, dots, organic forms) in yellow, pink, purple overlaying the blue\n- Headline: Extra-large bold sans-serif \"Generative media platform for developers\"\n- Buttons/CTAs: \"Get Started\" (solid black, pill-shaped) | \"View the docs\" (outlined, white/transparent with border)\n- Colors: Light blue base, yellow, pink, purple, green accents\n- Typography: Bold, large display type for headline\n\n**SOCIAL PROOF ROW:**\n- Background: White/light\n- Components: Row of 5 icon badges showing partner logos (Anthropic, Claude, OpenAI, Gemini, Discord)\n- Style: Simple icons with text labels beneath\n\n**GALLERY SECTION:**\n- Background: White\n- Headline: \"The world's largest generative media model gallery\"\n- Link: \"Explore all models →\" (arrow indicates clickable)\n- Cards: 4 video/image preview cards in grid layout showing model examples (Mochi/ks, FLUX.1, Cineaste, AnimaMax)\n- Card treatment: Image thumbnails with overlay text labels\n- Colors: Varied based on preview content (teal, purple, yellow, dark)\n\n**BUILD/DEPLOY/TRAIN SECTION:**\n- Background: White with large circular gradient element (blue/purple/pink gradient)\n- Typography: Large display text \"Build, deploy, train.\"\n- Imagery: Abstract circular gradient shape on right side\n- Layout: Text left, graphic right\n\n**FAL INFERENCE APIs:**\n- Background: Deep purple/violet solid card\n- Logo: \"fal INFERENCE APIs\" with gradient multi-color logo mark\n- Text: White text on purple, \"1000+ generative media models. Ready for production.\"\n- Buttons/CTAs: \"Learn More →\" (white text link with arrow)\n- Colors: Purple (#5B21B6 range), white text\n- Imagery: Circular geometric element (purple/pink gradient) on right\n\n**SERVERLESS + COMFYUI CARDS:**\n- Layout: Two-column card grid\n- Card 1 (fal SERVERLESS): Light cyan/blue background, dark text\n  - Icons: Checkmark bullets for feature list\n  - Button: \"Get Started →\" (dark button, pill-shaped)\n- Card 2 (fal COMFYUI): Light green/yellow background, dark text\n  - Similar layout to Card 1\n  - Button: \"Get Started →\" (dark button, pill-shaped)\n- Card treatment: Soft colored backgrounds, rounded corners, shadow\n\n**WHY CHOOSE FAL SECTION:**\n- Background: White\n- Headline: \"Why choose fal?\" with purple geometric icon/shape\n- Component: Large embedded screenshot/code comparison showing performance metrics\n- Imagery: Screenshot of interface with colorful icon grid (pink, purple, blue squares)\n- Typography: Bold headline, body text\n\n**GPU CARDS (2-column):**\n- Card 1: White background, icon grid showing GPU types, text \"Built for developers\"\n  - Button: \"See Pricing\" (dark, pill-shaped)\n- Card 2: White background, pricing details \"H100s, H200s, B200s starting at $1.89\"\n  - Button: \"See Pricing\" (dark, pill-shaped)\n- Icons: Colorful geometric icons in grid layout\n\n**ENTERPRISE SECTION:**\n- Background: Dark (black/very dark gray) with decorative yellow geometric pattern on right edge\n- Headline: \"Built for enterprise scale\" (white text, large)\n- Navigation: \"Gallery  Models  Community  Support\" (white text links)\n- Feature list: Bullet points with checkmarks (white text)\n- Cards: 4 colored cards in grid (yellow, purple, cyan, pink backgrounds) with text content\n- Button: \"Get in touch\" (white outlined, pill-shaped)\n- Colors: Dark base, white text, accent cards in pastel yellow, purple, cyan, pink\n- Typography: Bold white headlines on dark\n\n**TESTIMONIAL SECTION:**\n- Background: White\n- Headline: \"Built with fal, loved by all.\"\n- Content: Customer quotes/testimonials\n- Typography: Large display headline, lighter body text for quotes\n\n**BOTTOM CTA (Purple):**\n- Background: Solid deep purple/violet (#5B21B6)\n- Headline: \"Build with the fastest inference platform on the planet\" (white text, centered, large)\n- Subtext: White text describing capabilities\n- Buttons/CTAs: \"Get Started\" (white solid button, pill-shaped) | \"View the docs\" (white outlined button, pill-shaped)\n- Colors: Purple background, white text and buttons\n- Typography: Bold centered headline, clean sans-serif\n\n**ENTERPRISE CTA BAR:**\n- Background: Light cyan/turquoise\n- Text: \"Ready to transform your enterprise with AI?\"\n- Button: \"Contact us →\" (dark button with arrow, pill-shaped)\n- Layout: Horizontal bar spanning full width\n\n**FOOTER LINKS:**\n- Background: Light cyan/turquoise (same as CTA bar)\n- Layout: Multi-column link list\n- Categories: Image Generation, Video Generation, Audio & Music, Speech & Voice, etc.\n- Typography: Simple text links, dark color on light background\n\n**FOOTER LOGO:**\n- Background: White\n- Logo: Large \"fal\" wordmark with distinctive circular icon/mark\n- Text: Tagline about Discord community\n- Colors: Black logo on white\n- Typography: Clean, large logo treatment",
+        "insights": [
+          "Strong use of asymmetric decorative elements (SVG illustrations, gradient shapes) anchored to section edges to create visual interest while maintaining centered content alignment.",
+          "Card-based modular rhythm with consistent rounded corners and shadow treatments; alternating background colors (pastels, dark, white) create clear content hierarchy without relying on borders.",
+          "Generous vertical spacing between sections (100px+ on desktop) emphasizes distinct content blocks; horizontal scrolling used strategically for model gallery to avoid overwhelming the layout."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "White / Surface",
+            "type": "Neutral",
+            "rules": {
+              "description": "Primary surface and background color for light theme components.",
+              "when_to_use": [
+                "--surface-50",
+                "--surface-300",
+                "--composer-prompt-surface",
+                "--overlay-primary",
+                ".bg-surface-300"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [],
+            "score": 0
+          },
+          {
+            "name": "Neutral 1000 / Content Strong",
+            "type": "Neutral",
+            "rules": {
+              "description": "Foundational dark scale for typography, borders, and UI states.",
+              "when_to_use": [
+                "--neutral-1000",
+                ".bg-[#161618]",
+                ".text-content-strong"
+              ]
+            },
+            "hex": "#161618",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Neutral 950",
+                "hex": "#19191A",
+                "alpha": null,
+                "aliases": [
+                  "--neutral-950",
+                  "--content-strong",
+                  ".text-content-strong"
+                ]
+              },
+              {
+                "name": "Neutral Dark",
+                "hex": "#1D1D20",
+                "alpha": null,
+                "aliases": [
+                  ".text-[#1D1D20]"
+                ]
+              },
+              {
+                "name": "Neutral 900",
+                "hex": "#202022",
+                "alpha": null,
+                "aliases": [
+                  "--neutral-900",
+                  "--content-base",
+                  ".bg-[#202022]"
+                ]
+              },
+              {
+                "name": "Neutral 700",
+                "hex": "#494950",
+                "alpha": null,
+                "aliases": [
+                  "--neutral-700",
+                  "--content-control-muted",
+                  "--content-light"
+                ]
+              },
+              {
+                "name": "Neutral 500",
+                "hex": "#787881",
+                "alpha": null,
+                "aliases": [
+                  "--neutral-500",
+                  "--content-inverse-lighter",
+                  "--content-lighter",
+                  "--content-subtle"
+                ]
+              },
+              {
+                "name": "Neutral 150",
+                "hex": "#EBEBEB",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#EBEBEB]"
+                ]
+              },
+              {
+                "name": "Neutral 100",
+                "hex": "#F4F4F5",
+                "alpha": null,
+                "aliases": [
+                  "--neutral-100",
+                  "--surface-100",
+                  ".bg-[#F4F4F5]"
+                ]
+              },
+              {
+                "name": "Neutral 50",
+                "hex": "#FAFAFA",
+                "alpha": null,
+                "aliases": [
+                  "--neutral-50",
+                  "--surface-200",
+                  "--content-inverse-strong",
+                  "--content-inverse-base"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Prose Gray 900",
+            "type": "Neutral",
+            "rules": {
+              "description": "Secondary text scale utilized primarily in prose and markdown content.",
+              "when_to_use": [
+                "--tw-prose-headings",
+                ".text-gray-900",
+                ".bg-gray-900"
+              ]
+            },
+            "hex": "#111827",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Gray 600",
+                "hex": "#4B5563",
+                "alpha": null,
+                "aliases": [
+                  "--tw-prose-lead",
+                  "--tw-prose-invert-bullets"
+                ]
+              },
+              {
+                "name": "Gray 200",
+                "hex": "#E5E7EB",
+                "alpha": null,
+                "aliases": [
+                  "--tw-prose-hr",
+                  ".bg-gray-200",
+                  ".border-gray-200"
+                ]
+              },
+              {
+                "name": "Gray 100",
+                "hex": "#F3F4F6",
+                "alpha": null,
+                "aliases": [
+                  ".bg-gray-100"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Surface Alpha Light",
+            "type": "Dark",
+            "rules": {
+              "description": "Base color for dark-themed overlays, outlines, and structural UI elements.",
+              "when_to_use": [
+                "--surface-alpha-light",
+                "--surface-primary",
+                "--stroke-base",
+                ".bg-[#121216]"
+              ]
+            },
+            "hex": "#121216",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Zinc 900",
+                "hex": "#18181B",
+                "alpha": null,
+                "aliases": [
+                  ".text-zinc-900"
+                ]
+              },
+              {
+                "name": "Zinc 500",
+                "hex": "#71717A",
+                "alpha": null,
+                "aliases": [
+                  ".text-zinc-500"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Black",
+            "type": "Neutral",
+            "rules": {
+              "description": "Absolute black for maximum contrast text and overlays.",
+              "when_to_use": [
+                ".bg-black",
+                ".text-black",
+                ".border-black"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Brand Purple",
+            "type": "Cool Color",
+            "rules": {
+              "description": "Primary brand emphasis color used in banners, gradients, and key interactions.",
+              "when_to_use": [
+                ".bg-[#5718C0]",
+                "--product-banner-purple-light-foreground"
+              ]
+            },
+            "hex": "#5718C0",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Deep Purple",
+                "hex": "#1F0455",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#1F0455]"
+                ]
+              },
+              {
+                "name": "Vibrant Purple",
+                "hex": "#4A17B0",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#4A17B0]",
+                  ".border-[#4A17B0]"
+                ]
+              },
+              {
+                "name": "Lilac",
+                "hex": "#AB77FF",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#AB77FF]"
+                ]
+              },
+              {
+                "name": "Pastel Purple",
+                "hex": "#D0B7F9",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#D0B7F9]"
+                ]
+              },
+              {
+                "name": "Purple 100",
+                "hex": "#F3E8FF",
+                "alpha": null,
+                "aliases": [
+                  ".bg-purple-100"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Brand Blue / Sky",
+            "type": "Cool Color",
+            "rules": {
+              "description": "Secondary brand color for links, illustrations, and active states.",
+              "when_to_use": [
+                "--product-banner-blue-light-foreground",
+                "--product-banner-blue-dark-mark"
+              ]
+            },
+            "hex": "#115EF3",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Navy",
+                "hex": "#003279",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#003279]"
+                ]
+              },
+              {
+                "name": "Cobalt",
+                "hex": "#0A4DCE",
+                "alpha": null,
+                "aliases": [
+                  ".bg-[#0A4DCE]"
+                ]
+              },
+              {
+                "name": "Blue Dark Background",
+                "hex": "#142657",
+                "alpha": null,
+                "aliases": [
+                  "--product-banner-blue-dark-background"
+                ]
+              },
+              {
+                "name": "Blue Dark Foreground",
+                "hex": "#99EDFF",
+                "alpha": null,
+                "aliases": [
+                  "--product-banner-blue-dark-foreground",
+                  ".bg-[#99EDFF]"
+                ]
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "insights": [
+          "The design system leans heavily on a deeply saturated dark mode palette built upon extremely dark, low-saturation grays (Neutral 1000 #161618), combined with complex alpha-channel overlays.",
+          "For emphasis, the brand utilizes highly saturated neon and pastel accent colors (Bright Purple, Cyan, Lime Green), ensuring striking contrast against the dark foundational UI.",
+          "Typography and prose are meticulously structured around multiple simultaneous gray scales (Gray, Neutral, and Zinc) to adapt effortlessly across varying product sub-themes."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "focal",
+              "role": "H1 Display",
+              "specs": {
+                "size": "120px",
+                "line_height": "100px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "H1 Fluid",
+              "specs": {
+                "size": "min(80px, 6vw)",
+                "line_height": "90%",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "H1 / H4 Large",
+              "specs": {
+                "size": "80px",
+                "line_height": "70px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "H2 Large",
+              "specs": {
+                "size": "3.75rem",
+                "line_height": "1",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "H3 Medium",
+              "specs": {
+                "size": "2.25rem",
+                "line_height": "2.5rem",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "H2 / H3 Regular",
+              "specs": {
+                "size": "1.875rem",
+                "line_height": "2.25rem",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "H2 Small",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "1",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "Card Display",
+              "specs": {
+                "size": "40px",
+                "line_height": "0.9",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "publicSansRounded",
+              "role": "Body Large",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-public-sans-rounded), sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "publicSansRounded",
+              "role": "Body Regular",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-public-sans-rounded), sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "publicSansRounded",
+              "role": "Body Small",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-public-sans-rounded), sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "publicSansRounded",
+              "role": "Button Text",
+              "specs": {
+                "size": "14px",
+                "line_height": "24px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"publicSansRounded\", \"publicSansRounded Fallback\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "UI Strong",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "UI Label",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.25rem",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "UI Small (Nav)",
+              "specs": {
+                "size": "13px",
+                "line_height": "13px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "UI Tiny",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "focal",
+              "role": "UI Micro",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "var(--font-heading), ui-sans-serif, system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": [
+            {
+              "name": "Chivo Mono",
+              "role": "Code Snippet",
+              "specs": {
+                "size": "14px",
+                "line_height": "21px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Chivo Mono\", \"Chivo Mono Fallback\", ui-monospace, monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": null,
+        "insights": [
+          "The typography system heavily relies on the custom 'focal' typeface for display and heading roles, giving the interface a strong, structural brand identity.",
+          "Headings use significantly tightened tracking (up to -0.04em) and very tight line-heights (0.9 to 1.0) to maintain a compact, modern appearance at large scales.",
+          "Chivo Mono is exclusively employed for code snippets and technical data, reinforcing the developer-focused nature of the platform."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Hero Background",
+            "description": "Light cyan background for hero section - brand sky color",
+            "when_to_use": [
+              "Hero sections",
+              "Primary landing areas",
+              "Brand highlight zones"
+            ],
+            "hex": "#99EDFF"
+          },
+          {
+            "name": "Card Background - Purple",
+            "description": "Very light purple background for Model APIs card",
+            "when_to_use": [
+              "Product feature cards",
+              "Model API sections"
+            ],
+            "hex": "#F3ECFE"
+          },
+          {
+            "name": "Card Background - Cyan",
+            "description": "Bright cyan background for Serverless card",
+            "when_to_use": [
+              "Serverless feature sections",
+              "Infrastructure highlights"
+            ],
+            "hex": "#99EDFF"
+          },
+          {
+            "name": "Card Background - Green",
+            "description": "Light yellow-green background for Compute card",
+            "when_to_use": [
+              "Compute feature sections",
+              "Enterprise offerings"
+            ],
+            "hex": "#F1FFD2"
+          },
+          {
+            "name": "Feature Card Light Gray",
+            "description": "Light neutral gray for feature card backgrounds",
+            "when_to_use": [
+              "Feature cards",
+              "Why choose sections",
+              "Content containers"
+            ],
+            "hex": "#F4F4F5"
+          },
+          {
+            "name": "Feature Card Inner Gray",
+            "description": "Slightly darker gray for nested elements within feature cards",
+            "when_to_use": [
+              "Inner content areas",
+              "Nested chart backgrounds",
+              "Code preview surfaces"
+            ],
+            "hex": "#EBEBEB"
+          },
+          {
+            "name": "Footer - Dark",
+            "description": "Very dark background for enterprise scale section",
+            "when_to_use": [
+              "Footer backgrounds",
+              "Enterprise sections",
+              "Dark contrast areas"
+            ],
+            "hex": "#121216"
+          },
+          {
+            "name": "CTA Section - Purple",
+            "description": "Deep purple background for inference CTA section",
+            "when_to_use": [
+              "Primary CTA sections",
+              "Conversion-focused areas",
+              "High-impact banners"
+            ],
+            "hex": "#4A17B0"
+          },
+          {
+            "name": "Testimonial Card",
+            "description": "Light gray background for testimonial cards",
+            "when_to_use": [
+              "Testimonial cards",
+              "Quote backgrounds",
+              "Social proof sections"
+            ],
+            "hex": "#F4F4F5"
+          },
+          {
+            "name": "Product Banner - Blue Dark",
+            "description": "Dark blue background for top announcement banner",
+            "when_to_use": [
+              "Announcement banners",
+              "Top navigation overlays",
+              "Alert bars"
+            ],
+            "hex": "#142657"
+          },
+          {
+            "name": "White Surface",
+            "description": "Pure white surface for primary content areas and clean backgrounds",
+            "when_to_use": [
+              "Page backgrounds",
+              "Card surfaces",
+              "Clean content areas"
+            ],
+            "hex": "#FFFFFF"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Card Overlay Gradient",
+            "description": "Top to bottom gradient overlay transitioning from dark semi-transparent black to lighter, used for image overlays",
+            "when_to_use": [
+              "Image card overlays",
+              "Model preview cards",
+              "Text readability overlays on images"
+            ],
+            "css_code": "linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3))"
+          },
+          {
+            "name": "Hero Fade Gradient - Black",
+            "description": "Bottom to top gradient with black transparency for hero image overlays",
+            "when_to_use": [
+              "Hero section overlays",
+              "Large image backgrounds with text"
+            ],
+            "css_code": "linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3))"
+          }
+        ],
+        "highlights": [
+          "Drawer overlay backdrop blur effect: backdrop-filter: blur(4px) with rgba(0,0,0,0.3) background on drawer-toggle:checked state",
+          "Repeating striped pattern background: repeating-linear-gradient(to right, rgb(18 18 22 / 0.1) 0 7px, transparent 7px 14px)",
+          "Shadow overlays on various elements using CSS shadow variables like --shadow-md, --shadow-lg, --shadow-overlay-control-primary",
+          "Noise/grain texture references in CSS variables but not directly applied",
+          "Hover state transformations with scale(0.98) for interactive buttons",
+          "Pixelated canvas elements for decorative grid patterns in hero section (image-rendering: pixelated)"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Shadow Xs",
+              "type": "drop",
+              "description": "Extra small shadow with 1px Y offset and 2px blur at 5% black opacity. Provides minimal elevation for subtle UI elements.",
+              "css_value": "0 1px 2px 0 #0000000d",
+              "when_to_use": [
+                "Subtle card edges",
+                "Small interactive elements",
+                "Input fields"
+              ]
+            },
+            {
+              "name": "Shadow Sm",
+              "type": "drop",
+              "description": "Small shadow combining two layers - 6% and 5% black opacity with 2px and 3px blur. Creates light elevation.",
+              "css_value": "0 1px 2px 0 #0000000f, 0 1px 3px 0 #0000000d",
+              "when_to_use": [
+                "Cards",
+                "Small floating elements",
+                "Buttons"
+              ]
+            },
+            {
+              "name": "Shadow",
+              "type": "drop",
+              "description": "Default shadow with two layers at 3% and 5% opacity, 4px and 6px blur with negative spread. Standard elevation level.",
+              "css_value": "0 2px 4px -1px #00000008, 0 4px 6px -1px #0000000d",
+              "when_to_use": [
+                "Cards",
+                "Modals",
+                "Dropdowns"
+              ]
+            },
+            {
+              "name": "Shadow Md",
+              "type": "drop",
+              "description": "Medium shadow with 15px and 6px blur at 5% and 3% opacity. Used for moderate elevation.",
+              "css_value": "0 10px 15px -3px #0000000d, 0 4px 6px -2px #00000008",
+              "when_to_use": [
+                "Elevated cards",
+                "Popovers",
+                "Tooltips"
+              ]
+            },
+            {
+              "name": "Shadow Xl",
+              "type": "drop",
+              "description": "Extra large shadow with 50px blur and 25% black opacity for high elevation floating elements.",
+              "css_value": "0 25px 50px -12px #00000040",
+              "when_to_use": [
+                "Large modals",
+                "Full-screen overlays",
+                "High prominence dialogs"
+              ]
+            },
+            {
+              "name": "Shadow Queue Drawer",
+              "type": "drop",
+              "description": "Drawer shadow with two layers at 4% and 10% opacity, 10px and 25px blur. Used for slide-out panels.",
+              "css_value": "0 10px 10px -5px #0000000a, 0 20px 25px -5px #0000001a",
+              "when_to_use": [
+                "Side drawers",
+                "Queue panels",
+                "Slide-out menus"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Primary",
+              "type": "drop",
+              "description": "Primary overlay control shadow with 3 layers at 6% opacity each. Used for primary interactive controls.",
+              "css_value": "0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0000000f",
+              "when_to_use": [
+                "Primary buttons on overlays",
+                "Interactive controls"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Secondary",
+              "type": "drop",
+              "description": "Secondary overlay control shadow with 4 layers including 1px ring at 6% opacity.",
+              "css_value": "0 0 0 1px #0000000f, 0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0000000f",
+              "when_to_use": [
+                "Secondary buttons on overlays",
+                "Toggle controls"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Outline",
+              "type": "drop",
+              "description": "Outline variant shadow with dark ring at 60% black opacity for strong visual separation.",
+              "css_value": "0 0 0 1px #0000000f, 0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0009",
+              "when_to_use": [
+                "Outlined buttons",
+                "Toggle states",
+                "Active controls"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Outline Disabled",
+              "type": "drop",
+              "description": "Disabled state shadow for outlined controls with reduced visual prominence.",
+              "css_value": "0 0 0 1px #0000000f, 0 1px 1px -.5px #0000000f, 0 3px 3px -1.5px #0000000f",
+              "when_to_use": [
+                "Disabled buttons",
+                "Inactive controls"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Ghost",
+              "type": "drop",
+              "description": "Ghost control shadow with subtle 10% black ring for minimal elevation.",
+              "css_value": "0 0 0 1px #0000001a",
+              "when_to_use": [
+                "Ghost buttons",
+                "Minimal controls"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Ghost Text",
+              "type": "drop",
+              "description": "Text shadow for ghost controls at 45% black opacity with 3px blur.",
+              "css_value": "0 1px 3px #00000073",
+              "when_to_use": [
+                "Text on glass/overlay backgrounds",
+                "Ghost button text"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Ghost Icon",
+              "type": "drop",
+              "description": "Icon shadow for ghost controls at 35% black opacity with 2px blur.",
+              "css_value": "0 1px 2px #00000059",
+              "when_to_use": [
+                "Icons on overlay backgrounds",
+                "Ghost button icons"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Control Ghost Icon Disabled",
+              "type": "drop",
+              "description": "Disabled icon shadow at 25% black opacity with 4px blur.",
+              "css_value": "0 2px 4px #00000040",
+              "when_to_use": [
+                "Disabled icons on overlays"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Checkbox",
+              "type": "drop",
+              "description": "Checkbox shadow with subtle elevation and 20% black ring.",
+              "css_value": "0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0003",
+              "when_to_use": [
+                "Checkboxes on overlays",
+                "Selection controls"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Checkbox Checked",
+              "type": "drop",
+              "description": "Checked checkbox shadow with white ring at 60% opacity for selected state.",
+              "css_value": "0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #fff9",
+              "when_to_use": [
+                "Selected checkboxes",
+                "Active selection states"
+              ]
+            },
+            {
+              "name": "Shadow Overlay Chip",
+              "type": "drop",
+              "description": "Chip shadow with subtle 5% black ring for tag-like elements.",
+              "css_value": "0 0 0 1px #0000000d",
+              "when_to_use": [
+                "Chips",
+                "Tags",
+                "Badges"
+              ]
+            },
+            {
+              "name": "Composer Prompt Shadow",
+              "type": "drop",
+              "description": "Shadow for composer/prompt input areas with medium elevation.",
+              "css_value": "0 4px 6px -2px #00000008, 0 10px 15px -3px #0000000d",
+              "when_to_use": [
+                "Prompt input areas",
+                "Composer boxes",
+                "Search inputs"
+              ]
+            },
+            {
+              "name": "Tw Ring Shadow",
+              "type": "drop",
+              "description": "Tailwind ring shadow reset/placeholder with transparent value.",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring shadow reset",
+                "Base state for focus rings"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#E5E7EB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D1D5DB",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "hover_transform",
+          "hover_lift",
+          "tab_switching",
+          "carousel"
+        ],
+        "animations": [
+          {
+            "name": "swipe-out-left",
+            "css": "@keyframes swipe-out-left{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) - 100%));opacity:0}}",
+            "description": "Toast/notification swipe dismiss animation moving element left off screen."
+          },
+          {
+            "name": "swipe-out-right",
+            "css": "@keyframes swipe-out-right{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) + 100%));opacity:0}}",
+            "description": "Toast/notification swipe dismiss animation moving element right off screen."
+          },
+          {
+            "name": "swipe-out-up",
+            "css": "@keyframes swipe-out-up{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) - 100%));opacity:0}}",
+            "description": "Toast/notification swipe dismiss animation moving element upward off screen."
+          },
+          {
+            "name": "swipe-out-down",
+            "css": "@keyframes swipe-out-down{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) + 100%));opacity:0}}",
+            "description": "Toast/notification swipe dismiss animation moving element downward off screen."
+          },
+          {
+            "name": "sonner-fade-in",
+            "css": "@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}100%{opacity:1;transform:scale(1)}}",
+            "description": "Toast notification entrance animation with fade and scale up effect."
+          },
+          {
+            "name": "sonner-fade-out",
+            "css": "@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.8)}}",
+            "description": "Toast notification exit animation with fade and scale down effect."
+          },
+          {
+            "name": "sonner-spin",
+            "css": "@keyframes sonner-spin{0%{opacity:1}100%{opacity:.15}}",
+            "description": "Loading spinner animation cycling through opacity levels."
+          },
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn{from{opacity:0}to{opacity:1}}",
+            "description": "Simple fade in animation for overlays and modals."
+          },
+          {
+            "name": "fadeOut",
+            "css": "@keyframes fadeOut{to{opacity:0}}",
+            "description": "Simple fade out animation for overlay dismissal."
+          },
+          {
+            "name": "slideFromBottom",
+            "css": "@keyframes slideFromBottom{from{transform:translate3d(0,var(--initial-transform,100%),0)}to{transform:translate3d(0,0,0)}}",
+            "description": "Drawer slide-in animation from bottom of viewport."
+          },
+          {
+            "name": "slideToBottom",
+            "css": "@keyframes slideToBottom{to{transform:translate3d(0,var(--initial-transform,100%),0)}}",
+            "description": "Drawer slide-out animation to bottom of viewport."
+          },
+          {
+            "name": "slideFromTop",
+            "css": "@keyframes slideFromTop{from{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}to{transform:translate3d(0,0,0)}}",
+            "description": "Drawer slide-in animation from top of viewport."
+          },
+          {
+            "name": "slideToTop",
+            "css": "@keyframes slideToTop{to{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}}",
+            "description": "Drawer slide-out animation to top of viewport."
+          },
+          {
+            "name": "slideFromLeft",
+            "css": "@keyframes slideFromLeft{from{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}to{transform:translate3d(0,0,0)}}",
+            "description": "Drawer slide-in animation from left of viewport."
+          },
+          {
+            "name": "slideToLeft",
+            "css": "@keyframes slideToLeft{to{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}}",
+            "description": "Drawer slide-out animation to left of viewport."
+          },
+          {
+            "name": "slideFromRight",
+            "css": "@keyframes slideFromRight{from{transform:translate3d(var(--initial-transform,100%),0,0)}to{transform:translate3d(0,0,0)}}",
+            "description": "Drawer slide-in animation from right of viewport."
+          },
+          {
+            "name": "slideToRight",
+            "css": "@keyframes slideToRight{to{transform:translate3d(var(--initial-transform,100%),0,0)}}",
+            "description": "Drawer slide-out animation to right of viewport."
+          },
+          {
+            "name": "drawer-transition",
+            "css": "transition: transform .5s cubic-bezier(.32, .72, 0, 1)",
+            "description": "Vaul drawer smooth transition with custom cubic-bezier easing for natural feel."
+          },
+          {
+            "name": "button-transition",
+            "css": "transition: background-color 160ms ease-out, border-color 160ms ease-out, color 160ms ease-out, transform 160ms ease-out, opacity 160ms ease-out",
+            "description": "Button state transition with 160ms ease-out-quad timing for color and transform changes."
+          },
+          {
+            "name": "nav-link-transition",
+            "css": "transition: background-color 75ms cubic-bezier(0.23, 1, 0.32, 1), color 75ms cubic-bezier(0.23, 1, 0.32, 1)",
+            "description": "Fast navigation link hover transition with custom easing."
+          },
+          {
+            "name": "nav-button-transition",
+            "css": "transition: background-color 300ms cubic-bezier(0.23, 1, 0.32, 1), color 300ms cubic-bezier(0.23, 1, 0.32, 1)",
+            "description": "Navigation CTA button hover transition with smooth 300ms timing."
+          },
+          {
+            "name": "button-press-scale",
+            "css": "",
+            "description": "Active button press scale effect (scale 0.98) applied via transform-gpu class, JS-driven interaction."
+          }
+        ],
+        "insights": [
+          "The design system uses a comprehensive CSS variable architecture with semantic naming (--surface-*, --content-*, --stroke-*) enabling seamless light/dark theme switching through the .dark class.",
+          "Button interactions follow a consistent 160ms ease-out-quad timing with subtle scale feedback (0.98) on press, creating responsive tactile feel without being distracting.",
+          "The page employs multiple drawer animation patterns (Vaul library) with custom cubic-bezier(.32, .72, 0, 1) easing for native-like smooth gesture interactions on mobile."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Get started (Primary Dark)",
+            "usage": "Primary call-to-action button for user sign-up and onboarding, used in hero sections and prominent CTAs.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "publicSansRounded, sans-serif",
+                  "size": "16px",
+                  "padding": "12px 24px"
+                },
+                {
+                  "name": "Medium",
+                  "font": "publicSansRounded, sans-serif",
+                  "size": "16px",
+                  "padding": "11px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#202022",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#494950",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#D4D4D8",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.6",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Contact Sales (Secondary Outlined)",
+            "usage": "Secondary CTA button for enterprise sales inquiries, used alongside primary buttons in hero and footer sections.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "publicSansRounded, sans-serif",
+                  "size": "16px",
+                  "padding": "12px 24px"
+                },
+                {
+                  "name": "Medium",
+                  "font": "publicSansRounded, sans-serif",
+                  "size": "16px",
+                  "padding": "11px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#202022",
+                "border_color": "rgba(18, 18, 22, 0.15)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(18, 18, 22, 0.05)",
+                "text_color": "#202022",
+                "border_color": "rgba(18, 18, 22, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#D4D4D8",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.6",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Login (Nav Button)",
+            "usage": "Navigation login button in header, dark style for authentication action.",
+            "specs": {
+              "radius": "rounded-sm",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "focal, ui-sans-serif, system-ui, sans-serif",
+                  "size": "15px",
+                  "padding": "0 26px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#161618",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#202022",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#D4D4D8",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Contact Sales (Nav Light)",
+            "usage": "Navigation CTA button for enterprise contact, light variant with white background.",
+            "specs": {
+              "radius": "rounded-sm",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "focal, ui-sans-serif, system-ui, sans-serif",
+                  "size": "15px",
+                  "padding": "0 26px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#19191A",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.9)",
+                "text_color": "#19191A",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#D4D4D8",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Explore models (Card CTA)",
+            "usage": "Action button within product cards for exploring models, consistent dark primary style.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "publicSansRounded, sans-serif",
+                  "size": "16px",
+                  "padding": "11px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#202022",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#494950",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#D4D4D8",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.6",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Learn more (Enterprise Outlined)",
+            "usage": "CTA button in enterprise section with outlined style on dark background.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "publicSansRounded, sans-serif",
+                  "size": "16px",
+                  "padding": "11px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#202022",
+                "border_color": "rgba(18, 18, 22, 0.15)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(18, 18, 22, 0.05)",
+                "text_color": "#202022",
+                "border_color": "rgba(18, 18, 22, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#D4D4D8",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.6",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular Close)",
+            "usage": "Close button for dismissing announcement banners, circular icon-only button.",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "",
+                  "size": "",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#99EDFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.1)",
+                "text_color": "#99EDFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#A6A6AE",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are arranged inline horizontally with consistent spacing between primary and secondary actions.",
+          "spacing": "16px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "67px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": {
+          "background": "#142657",
+          "text_color": "#99EDFF",
+          "border_bottom": null,
+          "height": "32px"
+        },
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [
+          {
+            "name": "Inference Speed Comparison",
+            "description": "Horizontal bar chart comparing inference speeds across different platforms, with colored bars representing fal vs alternatives.",
+            "when_to_use": [
+              "Performance benchmarking",
+              "Comparing latency metrics",
+              "Highlighting platform advantages"
+            ]
+          }
+        ],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Model Gallery Card",
+            "description": "Large image card with gradient overlay and text label at bottom for model showcasing.",
+            "when_to_use": [
+              "Displaying AI model previews",
+              "Content galleries",
+              "Visual navigation between models"
+            ]
+          },
+          {
+            "name": "Product Feature Card",
+            "description": "Colored background card with icon, title, description, and CTA button for product sections.",
+            "when_to_use": [
+              "Highlighting product features",
+              "Service comparison",
+              "Product landing sections"
+            ]
+          },
+          {
+            "name": "GPU Type Tile",
+            "description": "Small square tile with GPU icon and label for hardware options display.",
+            "when_to_use": [
+              "Hardware specifications",
+              "Computing resources display",
+              "Infrastructure options"
+            ]
+          },
+          {
+            "name": "Enterprise Feature Chip",
+            "description": "Small rounded chip with icon showing enterprise compliance and features.",
+            "when_to_use": [
+              "Enterprise feature lists",
+              "Compliance badges",
+              "Feature highlights"
+            ]
+          },
+          {
+            "name": "Testimonial Card",
+            "description": "Quote card with company logo, testimonial text, and author attribution.",
+            "when_to_use": [
+              "Social proof sections",
+              "Customer testimonials",
+              "Brand endorsements"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Divider",
+            "description": "Full-width horizontal rule separating major page sections.",
+            "when_to_use": [
+              "Between major content sections",
+              "Footer separation",
+              "Content grouping"
+            ],
+            "color": "rgba(18, 18, 22, 0.1)",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Footer Color Bar",
+            "description": "Multi-colored decorative bar at bottom of footer with brand color segments.",
+            "when_to_use": [
+              "Footer decoration",
+              "Brand identity reinforcement"
+            ],
+            "color": "multiple",
+            "height": "6px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "UI Icons",
+          "description": "Small functional icons for UI actions, buttons, and navigation.",
+          "when_to_use": [
+            "Buttons",
+            "Links",
+            "Navigation menus"
+          ],
+          "format": "SVG",
+          "style": "Monoline / Line Art, 1.5px to 2px stroke",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Close / Cross",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\" aria-hidden=\"true\" role=\"img\"><path d=\"M4 4L12 12M12 4L4 12\" stroke=\"currentColor\" stroke-linecap=\"square\" stroke-width=\"1.5\"></path></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" role=\"img\" class=\"h-6 w-6\"><path stroke-linecap=\"square\" stroke-width=\"2\" d=\"m14 6 6 6-6 6m5-6H4\"></path></svg>"
+            },
+            {
+              "name": "Check Circle",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" role=\"img\" class=\"size-4 opacity-70\"><path stroke-linecap=\"square\" stroke-width=\"2\" d=\"M15 9.5 10.5 15l-2-2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Pixel Decorative Elements",
+          "description": "Tiny pixel-art style embellishments used around banners or hero text.",
+          "when_to_use": [
+            "Banners",
+            "Hero elements",
+            "Typographic decorations"
+          ],
+          "format": "SVG",
+          "style": "Pixelated, filled shapes",
+          "sizes": {
+            "small": "6px",
+            "medium": "6px"
+          },
+          "examples": [
+            {
+              "name": "Pixel Plus",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 6 6\" aria-hidden=\"true\" role=\"img\" class=\"size-1.5 shrink-0 text-[currentColor]\"><path d=\"M2.00024 6.62804e-05H0.000610352V1.99989H2.00024V6.62804e-05Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.55\"></path><path d=\"M6.00024 6.62804e-05H4.00061V1.99989H6.00024V6.62804e-05Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:1\"></path><path d=\"M1.99866 5.00022C1.99866 5.5524 2.44629 6.00013 2.99847 6.00013C3.55066 6.00013 3.99829 5.5524 3.99829 5.00022C3.99829 4.44804 3.55066 4.00031 2.99847 4.00031C2.44629 4.00031 1.99866 4.44804 1.99866 5.00022Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.15\"></path><path d=\"M5.99829 2.00019H3.99866V4.00001H5.99829V2.00019Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.75\"></path></svg>"
+            },
+            {
+              "name": "Pixel Shape",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 6 6\" aria-hidden=\"true\" role=\"img\" class=\"size-1.5 shrink-0 text-[currentColor]\"><path d=\"M4.00113 6H6.00098V4H4.00113V6Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.4\"></path><path d=\"M0.000156164 6H2V4H0.000156164V6Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.15\"></path><path d=\"M2 1C2 0.447758 1.55232 0 1.00008 0C0.447837 0 0.000156164 0.447758 0.000156164 1C0.000156164 1.55224 0.447837 2 1.00008 2C1.55232 2 2 1.55224 2 1Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.85\"></path><path d=\"M2.00016 4H4V2H2.00016V4Z\" fill=\"currentColor\" class=\"pixel-decoration-cell\" style=\"--pixel-phase:0.6\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Hardware & GPU Icons",
+          "description": "Illustrative icons representing hardware capabilities and GPU types (e.g., H100, A100).",
+          "when_to_use": [
+            "Hardware specs",
+            "Pricing tiers",
+            "Serverless features"
+          ],
+          "format": "SVG",
+          "style": "Filled path, dual-tone colored nodes",
+          "sizes": {
+            "small": "57px",
+            "medium": "57px"
+          },
+          "examples": [
+            {
+              "name": "H100 Node Green",
+              "svg_code": "<svg width=\"57\" height=\"57\" viewBox=\"0 0 57 57\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.25 2.5C0.25 1.39543 1.14543 0.5 2.25 0.5H54.25C55.3546 0.5 56.25 1.39543 56.25 2.5V54.5C56.25 55.6046 55.3546 56.5 54.25 56.5H2.25C1.14543 56.5 0.25 55.6046 0.25 54.5V2.5Z\" fill=\"#004012\"></path><path d=\"M32.3057 14.5C32.7907 14.5 33.1801 14.8942 33.2266 15.377C33.6402 19.6837 37.0679 23.1118 41.375 23.5254C41.8577 23.572 42.252 23.9604 42.252 24.4453V32.5547C42.252 33.0396 41.8577 33.428 41.375 33.4746C37.0679 33.8882 33.6402 37.3163 33.2266 41.623C33.1801 42.1058 32.7907 42.5 32.3057 42.5H24.1963C23.7113 42.5 23.3219 42.1058 23.2754 41.623C22.8617 37.3163 19.434 33.8882 15.127 33.4746C14.6443 33.4281 14.25 33.0396 14.25 32.5547V24.4453C14.25 23.9604 14.6443 23.5719 15.127 23.5254C19.434 23.1118 22.8617 19.6837 23.2754 15.377C23.3219 14.8942 23.7113 14.5 24.1963 14.5H32.3057ZM28.2988 20.041C23.645 20.041 19.8721 23.8178 19.8721 28.4766C19.8722 33.1351 23.6451 36.9111 28.2988 36.9111C32.9525 36.911 36.7254 33.1351 36.7256 28.4766C36.7256 23.8179 32.9526 20.0411 28.2988 20.041Z\" fill=\"#ADFF00\"></path><ellipse cx=\"42.9502\" cy=\"13.8\" rx=\"3.5\" ry=\"3.5\" fill=\"#ADFF00\"></ellipse></svg>"
+            },
+            {
+              "name": "H200 Node Blue",
+              "svg_code": "<svg width=\"57\" height=\"57\" viewBox=\"0 0 57 57\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.25 2.5C0.25 1.39543 1.14543 0.5 2.25 0.5H54.25C55.3546 0.5 56.25 1.39543 56.25 2.5V54.5C56.25 55.6046 55.3546 56.5 54.25 56.5H2.25C1.14543 56.5 0.25 55.6046 0.25 54.5V2.5Z\" fill=\"#115EF3\"></path><path d=\"M32.3057 14.5C32.7907 14.5 33.1801 14.8942 33.2266 15.377C33.6402 19.6837 37.0679 23.1118 41.375 23.5254C41.8577 23.572 42.252 23.9604 42.252 24.4453V32.5547C42.252 33.0396 41.8577 33.428 41.375 33.4746C37.0679 33.8882 33.6402 37.3163 33.2266 41.623C33.1801 42.1058 32.7907 42.5 32.3057 42.5H24.1963C23.7113 42.5 23.3219 42.1058 23.2754 41.623C22.8617 37.3163 19.434 33.8882 15.127 33.4746C14.6443 33.4281 14.25 33.0396 14.25 32.5547V24.4453C14.25 23.9604 14.6443 23.5719 15.127 23.5254C19.434 23.1118 22.8617 19.6837 23.2754 15.377C23.3219 14.8942 23.7113 14.5 24.1963 14.5H32.3057ZM28.2988 20.041C23.645 20.041 19.8721 23.8178 19.8721 28.4766C19.8722 33.1351 23.6451 36.9111 28.2988 36.9111C32.9525 36.911 36.7254 33.1351 36.7256 28.4766C36.7256 23.8179 32.9526 20.0411 28.2988 20.041Z\" fill=\"#3FB5FE\"></path><ellipse cx=\"42.9502\" cy=\"13.8\" rx=\"3.5\" ry=\"3.5\" fill=\"#3FB5FE\"></ellipse></svg>"
+            },
+            {
+              "name": "A6000 Node Pink",
+              "svg_code": "<svg width=\"57\" height=\"57\" viewBox=\"0 0 57 57\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0.25 2.5C0.25 1.39543 1.14543 0.5 2.25 0.5H54.25C55.3546 0.5 56.25 1.39543 56.25 2.5V54.5C56.25 55.6046 55.3546 56.5 54.25 56.5H2.25C1.14543 56.5 0.25 55.6046 0.25 54.5V2.5Z\" fill=\"#EC0649\"></path><path d=\"M32.3057 14.5C32.7907 14.5 33.1801 14.8942 33.2266 15.377C33.6402 19.6837 37.0679 23.1118 41.375 23.5254C41.8577 23.572 42.252 23.9604 42.252 24.4453V32.5547C42.252 33.0396 41.8577 33.428 41.375 33.4746C37.0679 33.8882 33.6402 37.3163 33.2266 41.623C33.1801 42.1058 32.7907 42.5 32.3057 42.5H24.1963C23.7113 42.5 23.3219 42.1058 23.2754 41.623C22.8617 37.3163 19.434 33.8882 15.127 33.4746C14.6443 33.4281 14.25 33.0396 14.25 32.5547V24.4453C14.25 23.9604 14.6443 23.5719 15.127 23.5254C19.434 23.1118 22.8617 19.6837 23.2754 15.377C23.3219 14.8942 23.7113 14.5 24.1963 14.5H32.3057ZM28.2988 20.041C23.645 20.041 19.8721 23.8178 19.8721 28.4766C19.8722 33.1351 23.6451 36.9111 28.2988 36.9111C32.9525 36.911 36.7254 33.1351 36.7256 28.4766C36.7256 23.8179 32.9526 20.0411 28.2988 20.041Z\" fill=\"#99EDFF\"></path><ellipse cx=\"42.9502\" cy=\"13.8\" rx=\"3.5\" ry=\"3.5\" fill=\"#99EDFF\"></ellipse></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Enterprise Feature Blocks",
+          "description": "Icons placed inside colored rounded squares representing enterprise capabilities.",
+          "when_to_use": [
+            "Enterprise features",
+            "Compliance",
+            "Security capabilities"
+          ],
+          "format": "SVG",
+          "style": "Solid colored rounded square background with inner shape",
+          "sizes": {
+            "small": "96px",
+            "medium": "96px"
+          },
+          "examples": [
+            {
+              "name": "SOC 2 Compliance",
+              "svg_code": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"96\" height=\"96\" rx=\"2\" fill=\"#004012\"></rect><path stroke=\"#F1FFD2\" stroke-width=\"0\" stroke-dasharray=\"0\" fill=\"#F1FFD2\" d=\"M57.3496 18C58.4082 18 59.2566 18.8593 59.3578 19.9111C60.2606 29.2937 67.7412 36.7606 77.1409 37.6617C78.1946 37.7627 79.0554 38.6096 79.0555 39.6663V57.3337C79.0554 58.3904 78.1946 59.2373 77.1409 59.3383C67.7412 60.2394 60.2606 67.7063 59.3578 77.0889C59.2566 78.1407 58.4082 79 57.3496 79H39.6502C38.5915 79 37.7432 78.1407 37.642 77.0889C36.7392 67.7063 29.2586 60.2394 19.8589 59.3383C18.8052 59.2373 17.9444 58.3904 17.9443 57.3337L17.9443 39.6663C17.9444 38.6096 18.8052 37.7627 19.8589 37.6617C29.2586 36.7606 36.7392 29.2937 37.642 19.9111C37.7432 18.8593 38.5915 18 39.6502 18L57.3496 18ZM48.6042 30.0712C38.4477 30.0712 30.2143 38.2989 30.2143 48.4483C30.2143 58.5977 38.4477 66.8253 48.6042 66.8253C58.7606 66.8253 66.994 58.5977 66.994 48.4483C66.994 38.2989 58.7606 30.0712 48.6042 30.0712Z\"></path></svg>"
+            },
+            {
+              "name": "Usage Pricing",
+              "svg_code": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"96\" height=\"96\" rx=\"2\" fill=\"#5718C0\"></rect><path stroke=\"#D0B7F9\" stroke-width=\"0\" stroke-dasharray=\"0\" fill=\"#D0B7F9\" d=\"M57.3496 18C58.4082 18 59.2566 18.8593 59.3578 19.9111C60.2606 29.2937 67.7412 36.7606 77.1409 37.6617C78.1946 37.7627 79.0554 38.6096 79.0555 39.6663V57.3337C79.0554 58.3904 78.1946 59.2373 77.1409 59.3383C67.7412 60.2394 60.2606 67.7063 59.3578 77.0889C59.2566 78.1407 58.4082 79 57.3496 79H39.6502C38.5915 79 37.7432 78.1407 37.642 77.0889C36.7392 67.7063 29.2586 60.2394 19.8589 59.3383C18.8052 59.2373 17.9444 58.3904 17.9443 57.3337L17.9443 39.6663C17.9444 38.6096 18.8052 37.7627 19.8589 37.6617C29.2586 36.7606 36.7392 29.2937 37.642 19.9111C37.7432 18.8593 38.5915 18 39.6502 18L57.3496 18ZM48.6042 30.0712C38.4477 30.0712 30.2143 38.2989 30.2143 48.4483C30.2143 58.5977 38.4477 66.8253 48.6042 66.8253C58.7606 66.8253 66.994 58.5977 66.994 48.4483C66.994 38.2989 58.7606 30.0712 48.6042 30.0712Z\"></path></svg>"
+            },
+            {
+              "name": "Forward Deployed Experts",
+              "svg_code": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"96\" height=\"96\" rx=\"2\" fill=\"#0A4DCE\"></rect><path stroke=\"#99EDFF\" stroke-width=\"0\" stroke-dasharray=\"0\" fill=\"#99EDFF\" d=\"M57.3496 18C58.4082 18 59.2566 18.8593 59.3578 19.9111C60.2606 29.2937 67.7412 36.7606 77.1409 37.6617C78.1946 37.7627 79.0554 38.6096 79.0555 39.6663V57.3337C79.0554 58.3904 78.1946 59.2373 77.1409 59.3383C67.7412 60.2394 60.2606 67.7063 59.3578 77.0889C59.2566 78.1407 58.4082 79 57.3496 79H39.6502C38.5915 79 37.7432 78.1407 37.642 77.0889C36.7392 67.7063 29.2586 60.2394 19.8589 59.3383C18.8052 59.2373 17.9444 58.3904 17.9443 57.3337L17.9443 39.6663C17.9444 38.6096 18.8052 37.7627 19.8589 37.6617C29.2586 36.7606 36.7392 29.2937 37.642 19.9111C37.7432 18.8593 38.5915 18 39.6502 18L57.3496 18ZM48.6042 30.0712C38.4477 30.0712 30.2143 38.2989 30.2143 48.4483C30.2143 58.5977 38.4477 66.8253 48.6042 66.8253C58.7606 66.8253 66.994 58.5977 66.994 48.4483C66.994 38.2989 58.7606 30.0712 48.6042 30.0712Z\"></path></svg>"
+            },
+            {
+              "name": "Private Endpoints",
+              "svg_code": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 96 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"96\" height=\"96\" rx=\"2\" fill=\"#EC0648\"></rect><path stroke=\"#ffffff\" stroke-width=\"1\" stroke-dasharray=\"3\" fill=\"none\" d=\"M57.3496 18C58.4082 18 59.2566 18.8593 59.3578 19.9111C60.2606 29.2937 67.7412 36.7606 77.1409 37.6617C78.1946 37.7627 79.0554 38.6096 79.0555 39.6663V57.3337C79.0554 58.3904 78.1946 59.2373 77.1409 59.3383C67.7412 60.2394 60.2606 67.7063 59.3578 77.0889C59.2566 78.1407 58.4082 79 57.3496 79H39.6502C38.5915 79 37.7432 78.1407 37.642 77.0889C36.7392 67.7063 29.2586 60.2394 19.8589 59.3383C18.8052 59.2373 17.9444 58.3904 17.9443 57.3337L17.9443 39.6663C17.9444 38.6096 18.8052 37.7627 19.8589 37.6617C29.2586 36.7606 36.7392 29.2937 37.642 19.9111C37.7432 18.8593 38.5915 18 39.6502 18L57.3496 18ZM48.6042 30.0712C38.4477 30.0712 30.2143 38.2989 30.2143 48.4483C30.2143 58.5977 38.4477 66.8253 48.6042 66.8253C58.7606 66.8253 66.994 58.5977 66.994 48.4483C66.994 38.2989 58.7606 30.0712 48.6042 30.0712Z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Abstract Nodes & Connections",
+          "description": "Abstract circular and connecting node graphics.",
+          "when_to_use": [
+            "Model APIs",
+            "Serverless diagrams",
+            "Background feature elements"
+          ],
+          "format": "SVG",
+          "style": "Filled paths, network node graphs",
+          "sizes": {
+            "small": "46px",
+            "medium": "46px"
+          },
+          "examples": [
+            {
+              "name": "Node Purple",
+              "svg_code": "<svg width=\"266\" height=\"266\" viewBox=\"0 0 46 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"absolute -bottom-[250px] left-[calc(100%+27px)] z-10 -translate-x-1/2 -translate-y-1/2 md:left-[calc(50%+20px)]\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M25.7943 6C26.4872 6 27.0426 6.56345 27.1089 7.25321C27.6998 13.4057 32.5965 18.302 38.7494 18.8929C39.4392 18.9591 40.0027 19.5145 40.0027 20.2074V31.7926C40.0027 32.4855 39.4392 33.0409 38.7494 33.1071C32.5965 33.698 27.6998 38.5943 27.1089 44.7468C27.0426 45.4366 26.4872 46 25.7943 46H14.2085C13.5155 46 12.9601 45.4366 12.8938 44.7468C12.3029 38.5943 7.40624 33.698 1.25329 33.1071C0.563484 33.0409 0 32.4855 0 31.7926V20.2074C0 19.5145 0.563488 18.9591 1.25329 18.8929C7.40624 18.302 12.3029 13.4057 12.8938 7.2532C12.9601 6.56345 13.5155 6 14.2084 6H25.7943ZM8.03166 25.966C8.03166 32.6214 13.4212 38.0166 20.0695 38.0166C26.7178 38.0166 32.1073 32.6214 32.1073 25.966C32.1073 19.3107 26.7178 13.9155 20.0695 13.9155C13.4212 13.9155 8.03166 19.3107 8.03166 25.966Z\" stroke=\"#4A17B0\" stroke-width=\"0\" stroke-dasharray=\"0\" fill=\"#4A17B0\"></path><circle cx=\"41\" cy=\"5\" r=\"5\" fill=\"#4A17B0\"></circle></svg>"
+            },
+            {
+              "name": "Node Blue",
+              "svg_code": "<svg width=\"266\" height=\"266\" viewBox=\"0 0 46 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"absolute -right-[160px] -top-[250px] translate-y-1/3\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M25.7943 6C26.4872 6 27.0426 6.56345 27.1089 7.25321C27.6998 13.4057 32.5965 18.302 38.7494 18.8929C39.4392 18.9591 40.0027 19.5145 40.0027 20.2074V31.7926C40.0027 32.4855 39.4392 33.0409 38.7494 33.1071C32.5965 33.698 27.6998 38.5943 27.1089 44.7468C27.0426 45.4366 26.4872 46 25.7943 46H14.2085C13.5155 46 12.9601 45.4366 12.8938 44.7468C12.3029 38.5943 7.40624 33.698 1.25329 33.1071C0.563484 33.0409 0 32.4855 0 31.7926V20.2074C0 19.5145 0.563488 18.9591 1.25329 18.8929C7.40624 18.302 12.3029 13.4057 12.8938 7.2532C12.9601 6.56345 13.5155 6 14.2084 6H25.7943ZM8.03166 25.966C8.03166 32.6214 13.4212 38.0166 20.0695 38.0166C26.7178 38.0166 32.1073 32.6214 32.1073 25.966C32.1073 19.3107 26.7178 13.9155 20.0695 13.9155C13.4212 13.9155 8.03166 19.3107 8.03166 25.966Z\" stroke=\"#0A4DCE\" stroke-width=\"0\" stroke-dasharray=\"0\" fill=\"#0A4DCE\"></path><circle cx=\"41\" cy=\"5\" r=\"5\" fill=\"#0A4DCE\"></circle></svg>"
+            },
+            {
+              "name": "Node Dashed Green",
+              "svg_code": "<svg width=\"266\" height=\"266\" viewBox=\"0 0 46 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"absolute -left-[120px] -top-[250px] translate-y-1/3\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M25.7943 6C26.4872 6 27.0426 6.56345 27.1089 7.25321C27.6998 13.4057 32.5965 18.302 38.7494 18.8929C39.4392 18.9591 40.0027 19.5145 40.0027 20.2074V31.7926C40.0027 32.4855 39.4392 33.0409 38.7494 33.1071C32.5965 33.698 27.6998 38.5943 27.1089 44.7468C27.0426 45.4366 26.4872 46 25.7943 46H14.2085C13.5155 46 12.9601 45.4366 12.8938 44.7468C12.3029 38.5943 7.40624 33.698 1.25329 33.1071C0.563484 33.0409 0 32.4855 0 31.7926V20.2074C0 19.5145 0.563488 18.9591 1.25329 18.8929C7.40624 18.302 12.3029 13.4057 12.8938 7.2532C12.9601 6.56345 13.5155 6 14.2084 6H25.7943ZM8.03166 25.966C8.03166 32.6214 13.4212 38.0166 20.0695 38.0166C26.7178 38.0166 32.1073 32.6214 32.1073 25.966C32.1073 19.3107 26.7178 13.9155 20.0695 13.9155C13.4212 13.9155 8.03166 19.3107 8.03166 25.966Z\" stroke=\"#004012\" stroke-width=\"0.5\" stroke-dasharray=\"2 2\" fill=\"none\"></path><circle cx=\"41\" cy=\"5\" r=\"5\" fill=\"#004012\"></circle></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Abstract Stack Decorations",
+          "description": "Abstract stacked block graphics used for dimensional background elements.",
+          "when_to_use": [
+            "Enterprise feature backgrounds",
+            "Card decorations"
+          ],
+          "format": "SVG",
+          "style": "Filled isometric stacked blocks",
+          "sizes": {
+            "small": "98px",
+            "medium": "98px"
+          },
+          "examples": [
+            {
+              "name": "Stack Lime",
+              "svg_code": "<svg width=\"98\" height=\"64\" viewBox=\"0 0 98 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"absolute bottom-5 left-1/2 hidden -translate-x-1/2 md:block\"><path d=\"M0.0810534 31.4216L0.0810547 21.8472L9.69821 21.8472L9.69821 31.4216L0.0810534 31.4216Z\" fill=\"#D5F393\"></path><path d=\"M19.3154 21.8469L19.3154 12.2725L28.9326 12.2725L28.9326 21.8469L19.3154 21.8469Z\" fill=\"#D5F393\"></path><rect width=\"10\" height=\"10\" transform=\"translate(31 43.6343)\" fill=\"#D5F393\"></rect><path d=\"M31 53.6343L31 43.6343L41 43.6343L41 53.6343L31 53.6343Z\" fill=\"#D5F393\"></path><path d=\"M21 63.6343L21 53.6343L31 53.6343L31 63.6343L21 63.6343Z\" fill=\"#D5F393\"></path><rect width=\"20\" height=\"20\" transform=\"translate(61 43.6343) rotate(90)\" fill=\"#D5F393\"></rect><path d=\"M51 43.6343L61 43.6343L61 53.6343L51 53.6343L51 43.6343Z\" fill=\"#D5F393\"></path><path d=\"M51 53.6343L61 53.6343L61 63.6343L51 63.6343L51 53.6343Z\" fill=\"#D5F393\"></path><path d=\"M41 43.6343L51 43.6343L51 53.6343L41 53.6343L41 43.6343Z\" fill=\"#D5F393\"></path><path d=\"M52.9756 12.2725C55.6195 12.2725 57.7841 14.4158 57.7841 17.0597C57.7841 19.7036 55.6195 21.8469 52.9756 21.8469C50.3317 21.8469 48.167 19.7036 48.167 17.0597C48.167 14.4158 50.3317 12.2725 52.9756 12.2725Z\" fill=\"#D5F393\"></path><path d=\"M87.5977 10.3577L87.5977 0.783203L97.2148 0.783204L97.2148 10.3577L87.5977 10.3577Z\" fill=\"#D5F393\"></path><path d=\"M87.5977 19.9324L87.5977 10.3579L97.2148 10.3579L97.2148 19.9324L87.5977 19.9324Z\" fill=\"#D5F393\"></path></svg>"
+            },
+            {
+              "name": "Stack Purple",
+              "svg_code": "<svg width=\"98\" height=\"79\" viewBox=\"0 0 98 79\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"absolute bottom-5 left-1/2 hidden -translate-x-1/2 md:block\"><path d=\"M0.840819 63.9749L0.84082 54.4004L10.458 54.4004L10.458 63.9749L0.840819 63.9749Z\" fill=\"#AB77FF\"></path><path d=\"M20.0752 54.4002L20.0752 44.8257L29.6923 44.8257L29.6923 54.4002L20.0752 54.4002Z\" fill=\"#AB77FF\"></path><path d=\"M20.0752 10.3577L20.0752 0.783203L29.6923 0.783204L29.6923 10.3577L20.0752 10.3577Z\" fill=\"#AB77FF\"></path><path d=\"M31.75 68.145L31.75 58.145L41.75 58.145L41.75 68.145L31.75 68.145Z\" fill=\"#AB77FF\"></path><path d=\"M21.75 78.145L21.75 68.145L31.75 68.145L31.75 78.145L21.75 78.145Z\" fill=\"#AB77FF\"></path><path d=\"M51.75 58.145L61.75 58.145L61.75 68.145L51.75 68.145L51.75 58.145Z\" fill=\"#AB77FF\"></path><path d=\"M51.75 68.145L61.75 68.145L61.75 78.145L51.75 78.145L51.75 68.145Z\" fill=\"#AB77FF\"></path><path d=\"M41.75 58.145L51.75 58.145L51.75 68.145L41.75 68.145L41.75 58.145Z\" fill=\"#AB77FF\"></path><path d=\"M53.7353 44.8257C56.3792 44.8257 58.5439 46.969 58.5439 49.6129C58.5439 52.2568 56.3792 54.4002 53.7353 54.4002C51.0914 54.4002 48.9268 52.2568 48.9268 49.6129C48.9268 46.969 51.0914 44.8257 53.7353 44.8257Z\" fill=\"#AB77FF\"></path><path d=\"M88.3564 42.9109L88.3564 33.3364L97.9736 33.3364L97.9736 42.9109L88.3564 42.9109Z\" fill=\"#AB77FF\"></path><path d=\"M88.3564 52.4856L88.3564 42.9111L97.9736 42.9111L97.9736 52.4856L88.3564 52.4856Z\" fill=\"#AB77FF\"></path></svg>"
+            },
+            {
+              "name": "Stack Cyan",
+              "svg_code": "<svg width=\"98\" height=\"64\" viewBox=\"0 0 98 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"absolute bottom-5 left-1/2 hidden -translate-x-1/2 scale-x-[-1] md:block\"><path d=\"M0.0810534 31.4216L0.0810547 21.8472L9.69821 21.8472L9.69821 31.4216L0.0810534 31.4216Z\" fill=\"#14CBF3\"></path><path d=\"M19.3154 21.8469L19.3154 12.2725L28.9326 12.2725L28.9326 21.8469L19.3154 21.8469Z\" fill=\"#14CBF3\"></path><rect width=\"10\" height=\"10\" transform=\"translate(31 43.6343)\" fill=\"#14CBF3\"></rect><path d=\"M31 53.6343L31 43.6343L41 43.6343L41 53.6343L31 53.6343Z\" fill=\"#14CBF3\"></path><path d=\"M21 63.6343L21 53.6343L31 53.6343L31 63.6343L21 63.6343Z\" fill=\"#14CBF3\"></path><rect width=\"20\" height=\"20\" transform=\"translate(61 43.6343) rotate(90)\" fill=\"#14CBF3\"></rect><path d=\"M51 43.6343L61 43.6343L61 53.6343L51 53.6343L51 43.6343Z\" fill=\"#14CBF3\"></path><path d=\"M51 53.6343L61 53.6343L61 63.6343L51 63.6343L51 53.6343Z\" fill=\"#14CBF3\"></path><path d=\"M41 43.6343L51 43.6343L51 53.6343L41 53.6343L41 43.6343Z\" fill=\"#14CBF3\"></path><path d=\"M52.9756 12.2725C55.6195 12.2725 57.7841 14.4158 57.7841 17.0597C57.7841 19.7036 55.6195 21.8469 52.9756 21.8469C50.3317 21.8469 48.167 19.7036 48.167 17.0597C48.167 14.4158 50.3317 12.2725 52.9756 12.2725Z\" fill=\"#14CBF3\"></path><path d=\"M87.5977 10.3577L87.5977 0.783203L97.2148 0.783204L97.2148 10.3577L87.5977 10.3577Z\" fill=\"#14CBF3\"></path><path d=\"M87.5977 19.9324L87.5977 10.3579L97.2148 10.3579L97.2148 19.9324L87.5977 19.9324Z\" fill=\"#14CBF3\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/logos/favicon.png",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/logos/favicon.png",
+            "origin_url": "https://fal.ai/favicon.png",
+            "description": "Detected from <link rel='shortcut icon'>"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/logos/favicon-2.png",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/logos/favicon-2.png",
+            "origin_url": "https://fal.ai/apple-touch-icon.png",
+            "description": "Detected from <link rel='apple-touch-icon'>"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/open-graph-image.webp",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/open-graph-image.webp",
+            "origin_url": "https://fal.ai/og-thumbnail.webp",
+            "usage_context": "Meta og:image — social share preview"
+          },
+          {
+            "name": "right-5.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/right-5-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/right-5-svg.svg",
+            "origin_url": "https://fal.ai/landing/right-5.svg",
+            "usage_context": "Background decorative graphic"
+          },
+          {
+            "name": "left-2.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-2-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-2-svg.svg",
+            "origin_url": "https://fal.ai/landing/left-2.svg",
+            "usage_context": "Background decorative graphic"
+          },
+          {
+            "name": "left-3.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-3-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-3-svg.svg",
+            "origin_url": "https://fal.ai/landing/left-3.svg",
+            "usage_context": "Background decorative graphic"
+          },
+          {
+            "name": "left-4.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-4-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-4-svg.svg",
+            "origin_url": "https://fal.ai/landing/left-4.svg",
+            "usage_context": "Background decorative graphic"
+          },
+          {
+            "name": "Hero illustration",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/hero-illustration.webp",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/hero-illustration.webp",
+            "origin_url": "https://fal.ai/landing/left-1.webp",
+            "usage_context": "Hero section character illustration"
+          },
+          {
+            "name": "right-1.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/right-1-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/right-1-svg.svg",
+            "origin_url": "https://fal.ai/landing/right-1.svg",
+            "usage_context": "Background decorative graphic"
+          },
+          {
+            "name": "MiniMax H3 Max Text to Video",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/minimax-h3-max-text-to-video.webp",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/minimax-h3-max-text-to-video.webp",
+            "origin_url": "https://refinery.fal.media/url/https%3A%2F%2Fv3b.fal.media%2Ffiles%2Fb%2F0aa7657e%2FLlavC7cCdZ_GGyvyglA82.jpg/tr:w-1920,q-80/LlavC7cCdZ_GGyvyglA82.webp",
+            "usage_context": "Model gallery preview thumbnail"
+          },
+          {
+            "name": "FLUX 3 Image to Video",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/flux-3-image-to-video.webp",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/flux-3-image-to-video.webp",
+            "origin_url": "https://refinery.fal.media/url/https%3A%2F%2Fv3b.fal.media%2Ffiles%2Fb%2F0aa2a1a0%2F7r9D_BVT3VK7MAtfsHBj9.jpg/tr:w-1920,q-80/7r9D_BVT3VK7MAtfsHBj9.webp",
+            "usage_context": "Model gallery preview thumbnail"
+          },
+          {
+            "name": "Seedance 2.5 Image to Video",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/seedance-2-5-image-to-video.webp",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/seedance-2-5-image-to-video.webp",
+            "origin_url": "https://refinery.fal.media/url/https%3A%2F%2Fv3b.fal.media%2Ffiles%2Fb%2F0aa30ef9%2F4Ux9T9X2458w7LH1AI_oz.jpg/tr:w-1920,q-80/4Ux9T9X2458w7LH1AI_oz.webp",
+            "usage_context": "Model gallery preview thumbnail"
+          },
+          {
+            "name": "MiniMax H3 Image to Video",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/minimax-h3-image-to-video.webp",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/minimax-h3-image-to-video.webp",
+            "origin_url": "https://refinery.fal.media/url/https%3A%2F%2Fv3b.fal.media%2Ffiles%2Fb%2F0aa42dac%2Fwjm-S2eWgG8vU2uJoRwPx.jpg/tr:w-1920,q-80/wjm-S2eWgG8vU2uJoRwPx.webp",
+            "usage_context": "Model gallery preview thumbnail"
+          },
+          {
+            "name": "fal-model-api",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/fal-model-api.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/fal-model-api.svg",
+            "origin_url": "https://fal.ai/landing/fal-model-api.svg",
+            "usage_context": "Feature block illustration for fal Model APIs"
+          },
+          {
+            "name": "fal-serverless",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/fal-serverless.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/fal-serverless.svg",
+            "origin_url": "https://fal.ai/landing/fal-serverless.svg",
+            "usage_context": "Feature block illustration for fal Serverless"
+          },
+          {
+            "name": "fal-compute",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/fal-compute.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/fal-compute.svg",
+            "origin_url": "https://fal.ai/landing/fal-compute.svg",
+            "usage_context": "Feature block illustration for fal Compute"
+          },
+          {
+            "name": "left-6.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-6-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/left-6-svg.svg",
+            "origin_url": "https://fal.ai/landing/left-6.svg",
+            "usage_context": "Background decorative graphic for Enterprise section"
+          },
+          {
+            "name": "enterprise-ready.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/enterprise-ready-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/enterprise-ready-svg.svg",
+            "origin_url": "https://fal.ai/landing/enterprise-ready.svg",
+            "usage_context": "Enterprise ready section decorative element"
+          },
+          {
+            "name": "testimonials-card-abstract.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/testimonials-card-abstract-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/testimonials-card-abstract-svg.svg",
+            "origin_url": "https://fal.ai/landing/testimonials-card-abstract.svg",
+            "usage_context": "Testimonial card background graphic"
+          },
+          {
+            "name": "Morgan Gautier profile picture",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/morgan-gautier-profile-picture.jpeg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/morgan-gautier-profile-picture.jpeg",
+            "origin_url": "https://fal.ai/landing/testimonial-canva-headshot.jpeg",
+            "usage_context": "Avatar for Canva testimonial"
+          },
+          {
+            "name": "Aravind Srinivas profile picture",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/aravind-srinivas-profile-picture.jpg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/aravind-srinivas-profile-picture.jpg",
+            "origin_url": "https://fal.ai/landing/testimonial-perplexity-headshot.jpg",
+            "usage_context": "Avatar for Perplexity testimonial"
+          },
+          {
+            "name": "Adam D'Angelo profile picture",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/adam-d-angelo-profile-picture.jpeg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/adam-d-angelo-profile-picture.jpeg",
+            "origin_url": "https://fal.ai/landing/testimonial-quora-headshot.jpeg",
+            "usage_context": "Avatar for Quora testimonial"
+          },
+          {
+            "name": "testimonials-abstract.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/testimonials-abstract-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/testimonials-abstract-svg.svg",
+            "origin_url": "https://fal.ai/landing/testimonials-abstract.svg",
+            "usage_context": "Abstract decoration for testimonials section"
+          },
+          {
+            "name": "inference-left.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/inference-left-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/inference-left-svg.svg",
+            "origin_url": "https://fal.ai/landing/inference-left.svg",
+            "usage_context": "Inference platform CTA background left"
+          },
+          {
+            "name": "inference-inner.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/inference-inner-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/inference-inner-svg.svg",
+            "origin_url": "https://fal.ai/landing/inference-inner.svg",
+            "usage_context": "Inference platform CTA inner decoration"
+          },
+          {
+            "name": "inference-right.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/inference-right-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/inference-right-svg.svg",
+            "origin_url": "https://fal.ai/landing/inference-right.svg",
+            "usage_context": "Inference platform CTA background right"
+          },
+          {
+            "name": "California Consumer Privacy Act (CCPA) Opt-Out Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/california-consumer-privacy-act-ccpa-opt-out-icon.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/image/california-consumer-privacy-act-ccpa-opt-out-icon.svg",
+            "origin_url": "https://fal.ai/privacy-options.svg",
+            "usage_context": "Privacy choices link icon in footer"
+          },
+          {
+            "name": "decor-top-left.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/decor-top-left-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/decor-top-left-svg.svg",
+            "origin_url": "https://fal.ai/assets/error-pages/decor-top-left.svg",
+            "usage_context": "Error page top left decoration"
+          },
+          {
+            "name": "decor-bottom-right.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/decor-bottom-right-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/decor-bottom-right-svg.svg",
+            "origin_url": "https://fal.ai/assets/error-pages/decor-bottom-right.svg",
+            "usage_context": "Error page bottom right decoration"
+          },
+          {
+            "name": "code-404.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/code-404-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/code-404-svg.svg",
+            "origin_url": "https://fal.ai/assets/error-pages/code-404.svg",
+            "usage_context": "Error 404 page graphic"
+          },
+          {
+            "name": "code-500.svg",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/code-500-svg.svg",
+            "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/site-assets/media/illustration/code-500-svg.svg",
+            "origin_url": "https://fal.ai/assets/error-pages/code-500.svg",
+            "usage_context": "Error 500 page graphic"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal bar with centered logo and split nav/CTA",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Black 'fal' wordmark logo on transparent background"
+            },
+            {
+              "type": "navigation",
+              "description": "Text links with dropdown triggers (Products, Resources) – dark gray text with hover states"
+            },
+            {
+              "type": "button",
+              "description": "'Contact Sales' – white background, black text, rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "'Login' – black background, white text, rounded corners"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Left-aligned text block with abstract graphic overlays on light blue gradient background",
+          "headline": "Generative media platform for developers.",
+          "subheadline": "The world's first generative image, video, and audio API platform...",
+          "components": [
+            {
+              "type": "button",
+              "description": "'Get Started' – black pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "'View the docs' – outlined white/transparent button"
+            },
+            {
+              "type": "illustration",
+              "description": "Abstract geometric shapes in pink, purple, yellow, green – organic rounded rectangles, dots, gradient circles overlaying light blue background"
+            }
+          ]
+        },
+        {
+          "type": "Social Proof",
+          "layout_pattern": "Centered horizontal row of icon badges",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "5 partner logos: Anthropic, Claude, OpenAI, Gemini, Discord – simple monochrome icons with labels below"
+            }
+          ]
+        },
+        {
+          "type": "Model Gallery",
+          "layout_pattern": "Centered headline with horizontal scrolling card grid",
+          "headline": "The world's largest generative media model gallery",
+          "subheadline": "Explore all models →",
+          "components": [
+            {
+              "type": "card",
+              "description": "4 video/image preview cards – large thumbnails with overlay text labels (Mochi/ks, FLUX.1, Cineaste, AnimaMax) – dark gradient overlays, rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "Arrow icon link (→) for navigation"
+            }
+          ]
+        },
+        {
+          "type": "Section Header",
+          "layout_pattern": "Left-aligned large display text with decorative gradient circle on right",
+          "headline": "Build, deploy, train.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "illustration",
+              "description": "Large circular gradient element (blue/purple/pink) on right side"
+            }
+          ]
+        },
+        {
+          "type": "Product Card – fal INFERENCE APIs",
+          "layout_pattern": "Full-width card with centered content",
+          "headline": "1000+ generative media models. Ready for production.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Deep purple/violet background card with white text and gradient logo mark"
+            },
+            {
+              "type": "button",
+              "description": "'Learn More →' – white text link with arrow"
+            },
+            {
+              "type": "illustration",
+              "description": "Circular geometric gradient element (purple/pink) on right edge"
+            }
+          ]
+        },
+        {
+          "type": "Product Cards – Serverless + ComfyUI",
+          "layout_pattern": "Two-column grid of product cards",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "fal SERVERLESS – light cyan/blue background, dark text, pill-shaped 'Get Started →' button"
+            },
+            {
+              "type": "card",
+              "description": "fal COMFYUI – light green/yellow background, dark text, pill-shaped 'Get Started →' button"
+            }
+          ]
+        },
+        {
+          "type": "Features – Why choose fal?",
+          "layout_pattern": "Headline left, grid of feature cards right (2-column on desktop)",
+          "headline": "Why choose fal?",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "White/light gray card with embedded performance chart/code screenshot showing colorful icons (pink, purple, blue)"
+            },
+            {
+              "type": "card",
+              "description": "White/light gray card with icon grid showing GPU types"
+            },
+            {
+              "type": "card",
+              "description": "White/light gray card with embedded code sample (syntax-highlighted TypeScript/JavaScript)"
+            },
+            {
+              "type": "image",
+              "description": "Screenshot of interface comparison with color-coded bars (purple, cyan, pink)"
+            }
+          ]
+        },
+        {
+          "type": "Enterprise",
+          "layout_pattern": "Dark background with centered headline, feature grid below",
+          "headline": "Built for enterprise scale",
+          "subheadline": "Trusted by over 1,500,000 developers and leading companies.",
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "4 enterprise client logos (Anthropic, Gemini, Perplexity, Quora) – white on dark"
+            },
+            {
+              "type": "card",
+              "description": "Grid of 4 colored cards (yellow, purple, cyan, pink) with feature text – pastel backgrounds, dark text"
+            },
+            {
+              "type": "icon",
+              "description": "Checkmark icons for feature list items"
+            },
+            {
+              "type": "button",
+              "description": "'Get in touch' – white outlined pill-shaped button on dark background"
+            },
+            {
+              "type": "illustration",
+              "description": "Decorative yellow geometric pattern on right edge, abstract shapes on left edge"
+            }
+          ]
+        },
+        {
+          "type": "Testimonials",
+          "layout_pattern": "Overlapping cards with centered headline on desktop; stacked on mobile",
+          "headline": "Built with fal, loved by all.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "3 testimonial cards – light gray background, quote text, headshot images, company logos (Canva, Perplexity, Quora), decorative abstract graphic in corner"
+            }
+          ]
+        },
+        {
+          "type": "CTA – Purple",
+          "layout_pattern": "Centered content on solid purple background with abstract graphic overlays",
+          "headline": "Build with the fastest inference platform on the planet",
+          "subheadline": "Whatever you need to create generative AI apps...",
+          "components": [
+            {
+              "type": "button",
+              "description": "'Get Started' – white solid pill-shaped button"
+            },
+            {
+              "type": "button",
+              "description": "'View the docs' – white outlined pill-shaped button"
+            },
+            {
+              "type": "illustration",
+              "description": "Abstract line illustrations (white/light) on left and right edges"
+            }
+          ]
+        },
+        {
+          "type": "Enterprise CTA Bar",
+          "layout_pattern": "Horizontal bar spanning full width",
+          "headline": "Ready to transform your enterprise with AI?",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "'Contact us →' – dark pill-shaped button with arrow on light cyan background"
+            }
+          ]
+        },
+        {
+          "type": "Footer Links",
+          "layout_pattern": "Multi-column link grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "6 columns of text links: Learn more, Image Generation, Video Generation, Audio & Music, Speech & Voice, etc. – dark text on light cyan background"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Full-width with large logo and tagline",
+          "headline": null,
+          "subheadline": "Discover new APIs. Join fal.ai Discord community...",
+          "components": [
+            {
+              "type": "logo",
+              "description": "Large 'fal' wordmark with circular icon/mark – black on white"
+            },
+            {
+              "type": "divider",
+              "description": "Thin horizontal color-block stripe (blue, pink, purple, cyan segments)"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

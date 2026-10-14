@@ -1,0 +1,209 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Posible carga incompleta de estilos: se detectó Times New Roman. Revisar tipografía y colores contra la captura antes de usarlos."
+  ],
+  "colors": [
+    {
+      "name": "Base Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary structural and typographical color, providing maximum contrast for body text and component borders.",
+        "when_to_use": [
+          "Global body text",
+          "Navigation and header button borders",
+          "UI icons like dropdown chevrons and the language globe"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Hyperlink Blue",
+      "type": "Dark",
+      "rules": {
+        "description": "An unapologetically raw web blue that acts as the universal interactive accent and paints the brand logo.",
+        "when_to_use": [
+          "Header brand wordmark logo",
+          "All text links in the navigation and footer",
+          "Entire clickable area of featured article cards",
+          "Social media icons"
+        ]
+      },
+      "hex": "#0000EE",
+      "alpha": null,
+      "shades": [],
+      "score": 0.2146,
+      "group": "baseline"
+    },
+    {
+      "name": "Control Surface",
+      "type": "Light",
+      "rules": {
+        "description": "A family of light grays and pure white used to give physical form to interactive controls and input fields.",
+        "when_to_use": [
+          "Backgrounds of secondary buttons (Search, Login, Language)",
+          "Play button backgrounds on video thumbnails",
+          "Chat prompt and search input backgrounds",
+          "Modal dialog backgrounds"
+        ]
+      },
+      "hex": "#F0F0F0",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EFEFEF",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0031999999999999997,
+      "group": "secondary"
+    },
+    {
+      "name": "Input Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A functional mid-gray used strictly to define the boundaries of user inputs and render secondary vector details.",
+        "when_to_use": [
+          "Borders of the main ChatGPT prompt textarea",
+          "Borders of the locale search input",
+          "Secondary paths in the privacy choices footer icon"
+        ]
+      },
+      "hex": "#767676",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#5D5D5D",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0011,
+      "group": "secondary"
+    },
+    {
+      "name": "Disabled Ink",
+      "type": "Dark",
+      "rules": {
+        "description": "A near-black that is exclusively applied with high transparency to indicate inactive states.",
+        "when_to_use": [
+          "Icon fill for the disabled 'Send prompt' button in the hero section"
+        ]
+      },
+      "hex": "#101010",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0005,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Times New Roman",
+      "role": "Display Heading",
+      "specs": {
+        "size": "28px",
+        "line_height": "34px",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Times New Roman\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Times New Roman",
+      "role": "Heading (H2 / H4)",
+      "specs": {
+        "size": "24px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Times New Roman\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Times New Roman",
+      "role": "Body Text",
+      "specs": {
+        "size": "16px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Times New Roman\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Arial",
+      "role": "Navigation / UI Labels",
+      "specs": {
+        "size": "13.3333px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Arial",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "monospace",
+      "role": "Input Text (Textarea)",
+      "specs": {
+        "size": "13.3333px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "24px",
+    "max_width": "1728px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 24px gutter)",
+    "tablet": "769px - 1024px (8 Columns, 24px gutter)",
+    "desktop": "1025px - 1728px (12 Columns, 32px gutter)",
+    "large": "1728px+ (12 Columns, 32px gutter)"
+  }
+}

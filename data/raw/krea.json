@@ -1,0 +1,2652 @@
+{
+  "company": "Krea",
+  "rank": 22,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://www.krea.ai/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:51:20.324335Z",
+  "completed_at": "2026-10-06T07:31:35.822728Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Krea",
+        "tagline": null,
+        "source_url": "https://www.krea.ai/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / AI Creative Tools",
+        "primary_purpose": "Drive user engagement with AI-powered creative tools including image generation, video creation, and agent-based workflows",
+        "main_cta": "Sign in",
+        "copy_tone": [
+          "Confident",
+          "Technical",
+          "Aspirational"
+        ],
+        "brand_signature": "Krea presents a sophisticated dark-mode interface with rich media previews showcasing AI-generated content. The visual identity balances professional tool aesthetics with creative inspiration through rounded cards, subtle shadows, and high-contrast white accents against deep black backgrounds.",
+        "visual_language": {
+          "keywords": [
+            "dark-mode",
+            "media-rich",
+            "tool-centric",
+            "rounded",
+            "immersive",
+            "professional"
+          ],
+          "accent_strategy": "Minimal white/light accents on dark backgrounds; blue gradient highlights for premium pricing CTAs; contextual colored overlays derived from featured media content",
+          "highlights": "Hover-reveal interactions with gradient overlays on media cards; animated video backgrounds in hero carousels; subtle glow effects on active elements"
+        },
+        "strategy": {
+          "target_audience": [
+            "Professional creatives and designers seeking AI-powered tools to accelerate their workflow",
+            "Content creators exploring video generation and image editing capabilities",
+            "Technical users and developers interested in agent-based AI workflows and integrations (MCP, After Effects plugins)",
+            "Enterprise teams evaluating AI creative solutions for commercial production"
+          ],
+          "executive_synthesis": "Krea's visual strategy positions it as a comprehensive AI creative suite rather than a single-purpose tool. The dark interface establishes professional credibility while extensive media showcases demonstrate output quality. The sidebar navigation organizes diverse tools (Image, Video, Enhancer, Realtime, Agent) into a coherent ecosystem, while premium pricing with 40% discount creates urgency. The integration of third-party model branding (FLUX, Ideogram, OpenAI, Seedance) signals platform breadth and industry partnerships, appealing to users who want access to multiple AI engines through a unified interface."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The design exhibits quintessential Flat Design characteristics with a modern digital application paradigm. VISUAL IMPRESSION: The screenshot reveals a sophisticated dark-mode creative platform with a pure black (#000000) canvas that acts as a neutral stage for colorful user-generated content. The UI chrome itself is remarkably restrained—monochromatic grays and whites with zero decorative elements.\n\nFORENSIC EVIDENCE FOR FLAT DESIGN:\n1. **Color**: Extreme monochromatic restraint in the UI layer—pure black backgrounds, white text, neutral grays (#262626, #737373, #A3A3A3). The taxonomy specifies Flat Design uses \"bold, saturated\" colors, and here the bold saturated colors appear exclusively in the content imagery while the interface remains deliberately neutral.\n\n2. **Typography**: Suisse Intl is a quintessential Swiss/geometric sans-serif with its mathematically precise construction. The 'Book' weight (450) at 3.75rem for hero text and systematic calc() line-heights demonstrate the rational, clarity-focused approach that defines Flat Design.\n\n3. **Shape/Texture Profile**: The texture classification explicitly shows \"gradient_linear\" and \"shadows_soft\"—however, these are used subtly for elevation hierarchy (card depth, hover states) rather than skeuomorphic realism. The shadows are systematic CSS custom properties (--shadow-elevation-low/medium/high), functional rather than decorative.\n\n4. **Layout**: Strict 12-column grid system with responsive breakpoints, card-based masonry layout, generous whitespace (p-6, md:p-12, gap-12). This is textbook Flat Design organizational structure.\n\n5. **Dimensionality**: While there are soft shadows and glass blur effects (backdrop-filter: blur), these are \"Flat 2.0\" evolutions—functional depth cues rather than skeuomorphic textures. The design remains fundamentally 2D in its visual language.\n\nWHY NOT OTHER STYLES:\n- NOT Brutalism: Too polished, too systematic. Brutalism would have raw, unstyled edges and deliberate visual discomfort.\n- NOT Glassmorphism: While glass blur exists in components, it's not the dominant aesthetic—the primary surfaces are solid blacks and grays.\n- NOT Swiss Style: Though the typography has Swiss DNA (Suisse Intl), the full Swiss Style requires flush-left alignment, stricter typography-driven layouts, and often primary color accents. This is more digitally native.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies because of the platform's professional, trust-building aesthetic positioning. The design choices signal reliability and competence: systematic elevation hierarchy through shadow custom properties, restrained color palette that doesn't compete with user content, consistent spacing tokens, professional-grade typography (Suisse Intl is a premium typeface), and the overall 'canvas for creativity' approach that suggests a serious tool rather than a playful toy. The footer structure with Product/Company/Resources/Social columns is textbook SaaS corporate pattern. The dark mode execution is cinematic and premium rather than rebellious or experimental, targeting professional creative users."
+        }
+      },
+      "layout": {
+        "classification": [
+          "grid_based_strict",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "1rem",
+          "max_width": "112rem"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (1-2 Columns, 16px gutter)",
+          "tablet": "768px - 919px (2-3 Columns, 24px gutter)",
+          "desktop": "920px - 1791px (3-11 Columns, 32px gutter)",
+          "large": "1792px+ (12 Columns, 48px gutter)"
+        },
+        "section_separation": "Sections are separated by consistent vertical gap spacing (gap-12 = 3rem). Hero carousel and featured content use full-bleed backgrounds with rounded-2xl corners. Alternating between pure black backgrounds (#000) and dark muted cards (dark:bg-muted). White space is generous with p-6 md:p-12 padding. Visual separation achieved through shadow elevation (home-card class with shadow-xs and ring borders) and subtle color transitions rather than hard dividers.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  ≡ [LOGO]          [Search...]         [+] [Profile]    │\n├──────────────────────────────────────────────────────────┤\n│  ┌─────────────┐                                         │\n│  │ Navigation  │  ┌────────────────────────────────────┐ │\n│  │  > Home     │  │     [Featured Content Header]      │ │\n│  │    Explore  │  │         [Blue Banner]              │ │\n│  │    Create   │  └────────────────────────────────────┘ │\n│  │    Library  │                                         │\n│  │    Profile  │  ┌────────────────────────────────────┐ │\n│  │    Settings │  │     \"CREATIVE SPACES\"              │ │\n│  └─────────────┘  │  [Featured creative workspaces]    │ │\n│                   └────────────────────────────────────┘ │\n├──────────────────────────────────────────────────────────┤\n│  ┌─────────────┐  ┌──────────┐ ┌──────────┐ ┌─────────┐ │\n│  │ Categories  │  │[Image 1] │ │[Image 2] │ │[Image 3]│ │\n│  │  - 3D       │  │  Card    │ │  Card    │ │  Card   │ │\n│  │  - Photo    │  └──────────┘ └──────────┘ └─────────┘ │\n│  │  - Graphic  │                                         │\n│  │  - UI/UX    │  ┌──────────┐ ┌──────────┐ ┌─────────┐ │\n│  └─────────────┘  │[Image 4] │ │[Image 5] │ │[Image 6]│ │\n│                   │  Card    │ │  Card    │ │  Card   │ │\n│                   └──────────┘ └──────────┘ └─────────┘ │\n├──────────────────────────────────────────────────────────┤\n│  ┌─────────────┐  ┌────────────────────────────────────┐ │\n│  │ Filters     │  │   \"CREATIVE STUDIO TOUR\"           │ │\n│  │  [Dropdown] │  │   [Large promotional banner]       │ │\n│  │  [Dropdown] │  └────────────────────────────────────┘ │\n│  └─────────────┘                                         │\n│                   ┌──────────┐ ┌──────────┐              │\n│                   │[Image 7] │ │[Image 8] │              │\n│                   │  Wide    │ │  Wide    │              │\n│                   └──────────┘ └──────────┘              │\n├──────────────────────────────────────────────────────────┤\n│                   ╔══════════════════════════════════╗   │\n│                   ║     \"A NEW ERA.\"                 ║   │\n│                   ║   [Starfield background]         ║   │\n│                   ║   [Centered text overlay]        ║   │\n│                   ╚══════════════════════════════════╝   │\n├──────────────────────────────────────────────────────────┤\n│  ┌─────────────┐  ┌──────────┐ ┌──────────┐              │\n│  │ Collections │  │[Image 9] │ │[Image 10]│              │\n│  │  Recent     │  │ Vintage  │ │  Nature  │              │\n│  │  Trending   │  └──────────┘ └──────────┘              │\n│  └─────────────┘                                         │\n├──────────────────────────────────────────────────────────┤\n│                   ┌──────────┐ ┌──────────┐              │\n│                   │[Image 11]│ │[Image 12]│              │\n│                   │ Abstract │ │ Product  │              │\n│                   └──────────┘ └──────────┘              │\n├──────────────────────────────────────────────────────────┤\n│                        \"GRID\"                            │\n│  ┌──────┐ ┌──────┐ ┌──────┐                             │\n│  │[Img] │ │[Img] │ │[Img] │                             │\n│  └──────┘ └──────┘ └──────┘                             │\n│  ┌──────┐ ┌──────┐ ┌──────┐                             │\n│  │[Img] │ │[Img] │ │[Img] │                             │\n│  └──────┘ └──────┘ └──────┘                             │\n│  ┌──────┐ ┌──────┐ ┌──────┐                             │\n│  │[Img] │ │[Img] │ │[Img] │                             │\n│  └──────┘ └──────┘ └──────┘                             │\n├──────────────────────────────────────────────────────────┤\n│  ┌──────────┐ ┌────────────┐ ┌──────────┐               │\n│  │[Portfolio│ │[Mixed Grid]│ │[Gallery] │               │\n│  │  Image]  │ │  Layout    │ │  Image]  │               │\n│  └──────────┘ └────────────┘ └──────────┘               │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Art]     │ │[Photo]   │ │[Design]  │                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[3D]      │ │[Paint]   │ │[Digital] │                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n├──────────────────────────────────────────────────────────┤\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Creative]│ │[Studio]  │ │[Product] │                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Fashion] │ │[Abstract]│ │[Nature]  │                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n├──────────────────────────────────────────────────────────┤\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Urban]   │ │[Fantasy] │ │[Tech]    │                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Minimal] │ │[Color]   │ │[Portrait]│                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n├──────────────────────────────────────────────────────────┤\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Modern]  │ │[Vintage] │ │[Artistic]│                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n│  ┌──────────┐ ┌──────────┐ ┌──────────┐                │\n│  │[Scene]   │ │[Object]  │ │[Character│                │\n│  └──────────┘ └──────────┘ └──────────┘                │\n├──────────────────────────────────────────────────────────┤\n│                      [Load More]                         │\n├──────────────────────────────────────────────────────────┤\n│  FOOTER                                                  │\n│  ┌─────────────┐ ┌──────────┐ ┌──────────┐ ┌─────────┐ │\n│  │  Product    │ │ Company  │ │Resources │ │ Social  │ │\n│  │  - Features │ │ - About  │ │ - Blog   │ │ - Twitter│ │\n│  │  - Pricing  │ │ - Careers│ │ - Help   │ │ - FB    │ │\n│  │  - API      │ │ - Contact│ │ - Docs   │ │ - IG    │ │\n│  └─────────────┘ └──────────┘ └──────────┘ └─────────┘ │\n│                                                          │\n│              © 2024 [Company] - All Rights Reserved     │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/NAV:\n- Background: Black (#000000) solid\n- Layout: Fixed top navigation with hamburger menu icon, logo left, search center, action buttons right\n- Buttons/CTAs: \"+\" (create new, white icon), Profile avatar (circular, right-aligned)\n- Colors observed: Pure black background, white text/icons\n- Typography mood: Clean, minimal, modern sans-serif\n\nLEFT SIDEBAR NAVIGATION:\n- Background: Dark charcoal (#1a1a1a)\n- Components: Vertical navigation menu with icons and labels\n- List items: Home, Explore, Create, Library, Profile, Settings\n- Colors observed: Dark gray background, white text, blue highlight for active state\n- Typography mood: Regular weight sans-serif, hierarchical\n\nFEATURED HEADER BANNER:\n- Background: Gradient blue banner (medium to light blue)\n- Layout: Full-width promotional strip\n- Colors observed: Blue gradient\n- Typography mood: Bold, attention-grabbing\n\nCREATIVE SPACES SECTION:\n- Background: Dark gray (#2a2a2a) with subtle texture\n- Layout: Horizontal banner with text overlay on workspace imagery\n- Imagery: Mixed media workspace photos, warm lighting\n- Typography mood: Bold headline, editorial style\n\nGRID GALLERY (Multiple Sections):\n- Background: Pure black (#000000)\n- Layout: Responsive masonry/grid layout, 3-column on desktop\n- Cards: Zero padding between images, seamless grid\n- Imagery: Mixed content - 3D renders, photography, illustrations, digital art, character designs\n  * Style variety: Photorealistic, flat design, isometric 3D, abstract, surreal\n  * Subjects: Products, landscapes, characters, abstract shapes, animals, architecture\n  * Treatments: High contrast, vibrant colors, moody lighting, studio photography\n- Colors observed: Full spectrum - neon pinks, deep blues, warm oranges, vibrant yellows, pastels\n- Components: Image cards with subtle hover states, metadata overlays (likes, views)\n\n\"A NEW ERA\" HERO SECTION:\n- Background: Deep space/starfield photograph, dark navy to black gradient\n- Layout: Full-width cinematic banner\n- Typography: Large centered white text, dramatic presentation\n- Imagery: Astronomy/space theme, stars scattered across dark sky\n- Colors observed: Deep blacks, midnight blue, white pinpoint stars\n- Typography mood: Bold, epic, centered, large format\n\nCREATIVE STUDIO TOUR SECTION:\n- Background: Dark surface with image overlays\n- Layout: Wide horizontal cards, 2-column layout\n- Imagery: Interior workspace photography, warm ambient lighting\n- Colors observed: Warm browns, golden hour lighting, natural wood tones\n- Typography mood: Clean headers, descriptive\n\nVINTAGE/RETRO SECTION:\n- Background: Warm sepia/brown tones\n- Imagery: Vintage product photography, nostalgic aesthetic\n- Cards: Wide format, landscape orientation\n- Colors observed: Browns, reds, warm metallics\n- Typography mood: Classic, refined\n\nABSTRACT/CONTEMPORARY SECTION:\n- Background: Black\n- Imagery: Bold abstract art, geometric shapes, vibrant color blocking\n- Style: Flat design, pop art influence, high saturation\n- Colors observed: Primary colors, neon accents, bold contrasts\n- Cards: Mixed sizes, dynamic grid layout\n\n3D RENDER SECTION:\n- Background: Black\n- Imagery: High-quality 3D renders, product visualization, character art\n- Style: Photorealistic rendering, studio lighting, clean compositions\n- Colors observed: Varied - product-specific palettes\n- Components: Portfolio-quality presentation\n\nPHOTOGRAPHY SECTION:\n- Background: Black\n- Imagery: Professional photography - portraits, landscapes, conceptual\n- Style: Editorial quality, dramatic lighting, cinematic color grading\n- Colors observed: Rich earth tones, sunset oranges, deep shadows\n- Typography mood: Minimal, lets imagery speak\n\nILLUSTRATION SECTION:\n- Background: Black\n- Imagery: Digital illustrations, character designs, concept art\n- Style: Mixed - painterly, vector, hand-drawn, digital painting\n- Colors observed: Vibrant palettes, fantasy-inspired hues\n- Cards: Varied aspect ratios to accommodate art formats\n\nNATURE/LANDSCAPE SECTION:\n- Background: Black\n- Imagery: Landscape photography, natural scenes, outdoor environments\n- Style: Wide cinematic formats, golden hour lighting, atmospheric\n- Colors observed: Natural greens, sky blues, sunset warmth\n- Typography mood: Subtle, non-intrusive\n\nURBAN/ARCHITECTURE SECTION:\n- Background: Black\n- Imagery: Architectural photography, cityscapes, interior design\n- Style: Clean lines, symmetry, modern aesthetic\n- Colors observed: Cool blues, concrete grays, accent lighting\n- Typography mood: Modern, geometric\n\nFANTASY/SURREAL SECTION:\n- Background: Black\n- Imagery: Surreal compositions, fantasy art, dreamlike scenes\n- Style: Mixed media, photo manipulation, digital painting\n- Colors observed: Mystical purples, ethereal blues, otherworldly palettes\n- Typography mood: Whimsical, imaginative\n\nLOAD MORE BUTTON:\n- Background: Transparent/dark\n- Buttons/CTAs: \"Load More\" (outline style, white border, centered, pill-shaped)\n- Typography mood: Simple, functional\n\nFOOTER:\n- Background: Pure black (#000000)\n- Layout: Multi-column footer with link groups\n- Columns: Product, Company, Resources, Social\n- Links: Standard footer navigation (Features, Pricing, API, About, Careers, Contact, Blog, Help, Docs, Twitter, Facebook, Instagram)\n- Colors observed: Black background, gray text (#666), white headings\n- Typography mood: Small, condensed, utilitarian\n- Components: Copyright notice centered at bottom\n- Legal: \"© 2024 [Company] - All Rights Reserved\"\n\nOVERALL DESIGN SYSTEM:\n- Color scheme: Dark mode (black/dark gray base)\n- Accent colors: Blue for interactive elements\n- Layout: Masonry grid, responsive\n- Card style: Borderless, image-first, minimal chrome\n- Interaction: Hover states reveal metadata\n- Typography: Sans-serif system, minimal text overlay\n- Imagery: Portfolio/showcase quality, diverse creative content",
+        "insights": [
+          "Dark mode-first design with sophisticated shadow elevation system using CSS custom properties (--shadow-elevation-low/medium/high) creating depth without borders.",
+          "Card-based masonry layout with intelligent responsive grid (@container queries) that adapts from 1-column mobile to 11-column desktop while maintaining visual hierarchy through varied card sizes.",
+          "Microinteraction-rich interface: icon-pulse, icon-shine, active-scale-98/99, and hover-supported transforms create tactile feedback without overwhelming motion-sensitive users (motion-reduce fallbacks throughout).",
+          "Hybrid carousel navigation using both auto-scroll transforms (translate3d) and manual navigation arrows, with overflow-visible allowing cards to peek beyond viewport edges.",
+          "Sophisticated image optimization strategy: WebP format with size-specific variants (128px, 256px, 1024px) served via optim-images CDN, with video posters for lazy-loading performance."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "White",
+            "type": "Light",
+            "rules": {
+              "description": "The foundational high-contrast color used primarily for text and primary action surfaces across the dark theme.",
+              "when_to_use": [
+                "Primary typography",
+                "Primary CTA background ('Get the plugin', 'Generate video')",
+                "Subtle borders and box-shadows (translucent)"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#E5E7EB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FAFAFA",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFDFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FCFFFC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F9FFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FCFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FAFFF6",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F3FFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F8FFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFCF5",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FDFFF7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F6FFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFEFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FDFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E8E9ED",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E4DDD4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFF1",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.1043999999999992
+          },
+          {
+            "name": "Muted Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A mid-tone gray utilized for structural text elements that require lower emphasis than primary content.",
+              "when_to_use": [
+                "Footer section headings ('Krea', 'About', 'Solutions')"
+              ]
+            },
+            "hex": "#737373",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#5C6362",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#585E54",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#8A8A8A",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#6C6C6C",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0701
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Deep Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The core background color forming the deep, immersive foundation of the dark mode interface.",
+              "when_to_use": [
+                "Sidebar background",
+                "Feature card backgrounds",
+                "Prompt input box background",
+                "Primary CTA text (on white)"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0281
+          },
+          {
+            "name": "Neutral Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A lighter gray providing readable but secondary text contrast against the dark background.",
+              "when_to_use": [
+                "Footer navigation links",
+                "Inactive tab text ('Moodboards')"
+              ]
+            },
+            "hex": "#A3A3A3",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#A1A1A1",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#B7B7B7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#BCB8AB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#A8A8A8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#C1C1C1",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0077
+          },
+          {
+            "name": "Charcoal",
+            "type": "Dark",
+            "rules": {
+              "description": "A deep charcoal acting as the base document background and building subtle elevation through translucent overlays.",
+              "when_to_use": [
+                "Base page body background (#101010)",
+                "Secondary 'Read more' button backgrounds (translucent)",
+                "Search bar background (#262626cc)",
+                "Specific image placeholder backgrounds"
+              ]
+            },
+            "hex": "#262626",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#101010",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#35333C",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#2A2E2A",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#10151C",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#3E3E40",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#2B221D",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#24292E",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#192127",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#3D3A3D",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#091216",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#121212",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#323232",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0096
+          }
+        ],
+        "insights": [
+          "Extreme monochromatic restraint: By relying entirely on a greyscale spectrum (black, white, and shades of gray), the UI acts as a neutral canvas that allows the colorful, generative AI media to take center stage.",
+          "High-contrast foundations: The design uses pure black (#000000) and pure white (#FFFFFF) heavily, opting for stark contrast rather than softer dark-mode alternatives, which lends a cinematic and premium feel.",
+          "Depth through opacity: Instead of introducing new hues for elevation, the interface utilizes translucent blacks and whites (e.g., #ffffff1a for borders, #10101066 for buttons) to achieve glassmorphism and visual hierarchy."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Suisse Intl",
+              "role": "H1 / Hero Display",
+              "specs": {
+                "size": "3.75rem",
+                "line_height": "1",
+                "font_weight": "450",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Book-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "H2 / Section Title",
+              "specs": {
+                "size": "1.875rem",
+                "line_height": "1",
+                "font_weight": "450",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Book-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "H3 / Card Title (Medium)",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "calc(2 / 1.5)",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Medium-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "H3 / Subheading (Book)",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "calc(2 / 1.5)",
+                "font_weight": "450",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Book-WebM.woff2"
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Text styles utilized for standard reading passages and secondary descriptive texts.",
+          "variants": [
+            {
+              "name": "Suisse Intl",
+              "role": "Body Base",
+              "specs": {
+                "size": "1rem",
+                "line_height": "calc(1.5 / 1)",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Regular-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "Body Small",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "calc(1.25 / .875)",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Regular-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "Body Small (Medium)",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "calc(1.25 / .875)",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Medium-WebM.woff2"
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian styles for interface elements like buttons, captions, and badges.",
+          "variants": [
+            {
+              "name": "Suisse Intl",
+              "role": "Button / Action Text",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "calc(1.25 / .875)",
+                "font_weight": "450",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Book-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "Caption / UI Micro",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "calc(1 / .75)",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-Regular-WebM.woff2"
+              }
+            },
+            {
+              "name": "Suisse Intl",
+              "role": "Badge / Accent Micro",
+              "specs": {
+                "size": "11px",
+                "line_height": "1",
+                "font_weight": "600",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "file_url": "./SuisseIntl-SemiBold-WebM.woff2"
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Specialty classifications and fallback styles.",
+          "variants": [
+            {
+              "name": "Suisse Intl Mono",
+              "role": "Code / Monospace",
+              "specs": {
+                "size": "1em",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Suisse Intl Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "The typography system distinguishes itself by heavily utilizing a 'Book' weight (450) for its primary action elements and major headings, striking a balance between the lightness of Regular (400) and the heaviness of Medium (500).",
+        "insights": [
+          "The typography hierarchy is mathematically driven, using exact CSS `calc()` operations for line-heights (e.g., `calc(1.25 / .875)`) to maintain perfect relative vertical rhythm across components.",
+          "A strong reliance on 'Suisse Intl' creates a highly functional, Swiss-style neutral aesthetic that prioritizes readability and structural cleanliness.",
+          "The non-standard 'Book' (450 weight) serves as the anchor for the system's interactive and display text, giving the interface a distinctly refined but authoritative tone."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Primary dark background surface for the page body",
+            "when_to_use": [
+              "Main page backgrounds",
+              "Root application container"
+            ],
+            "hex": "#0B0B0B"
+          },
+          {
+            "name": "Card Surface",
+            "description": "Elevated card background for content containers",
+            "when_to_use": [
+              "Card backgrounds",
+              "Content containers",
+              "Elevated surfaces"
+            ],
+            "hex": "#353535"
+          },
+          {
+            "name": "Muted Surface",
+            "description": "Secondary surface for less prominent elements",
+            "when_to_use": [
+              "Secondary backgrounds",
+              "Hover states on cards",
+              "Sidebar panels"
+            ],
+            "hex": "#454545"
+          },
+          {
+            "name": "Sidebar Background",
+            "description": "Dark sidebar background surface",
+            "when_to_use": [
+              "Sidebar backgrounds",
+              "Navigation panels"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Popover Background",
+            "description": "Background for floating popover elements",
+            "when_to_use": [
+              "Dropdown menus",
+              "Tooltips",
+              "Modal overlays"
+            ],
+            "hex": "#353535"
+          },
+          {
+            "name": "Primary Surface",
+            "description": "High contrast light surface",
+            "when_to_use": [
+              "Primary action buttons",
+              "Foreground elements",
+              "High emphasis surfaces"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Light Background",
+            "description": "Light theme background surface",
+            "when_to_use": [
+              "Light mode backgrounds",
+              "Secondary light surfaces"
+            ],
+            "hex": "#F5F5F5"
+          },
+          {
+            "name": "Accent Surface",
+            "description": "Accent surface for interactive elements",
+            "when_to_use": [
+              "Hover states",
+              "Active states",
+              "Interactive feedback"
+            ],
+            "hex": "#454545"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Hero Black Overlay",
+            "description": "Dark gradient overlay from bottom-left to top-right with fade to transparent at 60%",
+            "when_to_use": [
+              "Hero card overlays",
+              "Video backgrounds",
+              "Image overlays for text readability"
+            ],
+            "css_code": "linear-gradient(to top left, rgba(0,0,0,0.8) 0%, transparent 60%)"
+          },
+          {
+            "name": "Hero Overlay Alt",
+            "description": "Dark gradient from bottom to top with solid section then fade",
+            "when_to_use": [
+              "Hero sections",
+              "Video overlays",
+              "Text protection layers"
+            ],
+            "css_code": "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 40%, transparent 100%)"
+          },
+          {
+            "name": "Hero Light Overlay",
+            "description": "White gradient from bottom to top for light theme overlays",
+            "when_to_use": [
+              "Light theme hero sections",
+              "Light mode image overlays"
+            ],
+            "css_code": "linear-gradient(to top, white 0%, white 40%, transparent 100%)"
+          },
+          {
+            "name": "Glass Panel Background",
+            "description": "Subtle semi-transparent white gradient for glassmorphism effect",
+            "when_to_use": [
+              "Glass panels",
+              "Frosted overlays",
+              "Modal backgrounds with blur"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%)"
+          },
+          {
+            "name": "Button Gradient Action",
+            "description": "Blue action button gradient from dark to light blue",
+            "when_to_use": [
+              "Primary CTA buttons",
+              "Action buttons",
+              "Submit buttons"
+            ],
+            "css_code": "linear-gradient(to bottom in oklab, #165efc 0%, #2c7fff 100%)"
+          },
+          {
+            "name": "Icon Shimmer",
+            "description": "Diagonal shimmer effect gradient for icon highlights",
+            "when_to_use": [
+              "Icon hover effects",
+              "Loading states",
+              "Interactive feedback"
+            ],
+            "css_code": "linear-gradient(115deg, transparent 35%, rgba(255,255,255,0.55) 50%, transparent 65%)"
+          },
+          {
+            "name": "Shiny Border",
+            "description": "Conic gradient for animated border shine effect",
+            "when_to_use": [
+              "Card borders",
+              "Animated borders",
+              "Hover state highlights"
+            ],
+            "css_code": "conic-gradient(from 0deg, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0.65) 50%, rgba(255,255,255,0.1) 75%)"
+          },
+          {
+            "name": "Sidebar Pricing Glow",
+            "description": "Blue gradient from light to dark for pricing highlight",
+            "when_to_use": [
+              "Pricing section highlights",
+              "Special offer backgrounds",
+              "Premium feature indicators"
+            ],
+            "css_code": "linear-gradient(to right, oklch(93.2% .032 255.585) 0%, oklch(80.9% .105 251.813) 50%, oklch(42.4% .199 265.638) 100%)"
+          }
+        ],
+        "highlights": [
+          "Glass panels with backdrop-filter: blur(40px) over semi-transparent backgrounds with subtle ring borders",
+          "Animated conic gradient borders on cards with rotating shine effect",
+          "Icon shimmer effects on hover using diagonal linear gradients (115deg angle)",
+          "Soft elevation shadows: 0px .5px .6px for near shadows, scaling to 2.2px 27px 29.9px for far shadows",
+          "Home cards with inset ring shadows and dual-layer shadow system (soft + ring)",
+          "Transparency checkerboard pattern background for image preview: 8px grid with 45deg rotation",
+          "Gradient overlays on hero sections with scale-101 for subtle depth",
+          "Shimmer loading effect using mask-image with linear-gradient animation",
+          "Glass blur effect: backdrop-blur-sm with semi-transparent white/black backgrounds",
+          "Sidebar pricing glow: horizontal gradient from blue-100 through blue-300 to blue-800 in dark mode"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Inset Ring Shadow",
+              "type": "drop",
+              "description": "Transparent placeholder shadow used for Tailwind ring utilities",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring utilities",
+                "Focus states base"
+              ]
+            },
+            {
+              "name": "Shadow 2xs",
+              "type": "drop",
+              "description": "Extra extra small shadow with 5% black opacity, 1px vertical offset",
+              "css_value": "0 1px #0000000d",
+              "when_to_use": [
+                "Subtle elevation",
+                "Minimal lift"
+              ]
+            },
+            {
+              "name": "Shadow Xs",
+              "type": "drop",
+              "description": "Extra small shadow with 5% black opacity, 1px vertical offset, 2px blur",
+              "css_value": "0 1px 2px 0 #0000000d",
+              "when_to_use": [
+                "Small cards",
+                "Input fields",
+                "Subtle buttons"
+              ]
+            },
+            {
+              "name": "Shadow Sm",
+              "type": "drop",
+              "description": "Small composite shadow with 10% black opacity, dual layer for depth",
+              "css_value": "0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a",
+              "when_to_use": [
+                "Cards",
+                "Buttons",
+                "Small elevated components"
+              ]
+            },
+            {
+              "name": "Shadow Md",
+              "type": "drop",
+              "description": "Medium composite shadow with 10% black opacity, 4px and 2px vertical offsets",
+              "css_value": "0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a",
+              "when_to_use": [
+                "Dropdowns",
+                "Popovers",
+                "Medium elevation cards"
+              ]
+            },
+            {
+              "name": "Shadow Lg",
+              "type": "drop",
+              "description": "Large composite shadow with 10% black opacity, 10px and 4px vertical offsets",
+              "css_value": "0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a",
+              "when_to_use": [
+                "Modals",
+                "Dialogs",
+                "High elevation elements"
+              ]
+            },
+            {
+              "name": "Shadow Xl",
+              "type": "drop",
+              "description": "Extra large composite shadow with 10% black opacity, 20px and 8px vertical offsets",
+              "css_value": "0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a",
+              "when_to_use": [
+                "Large modals",
+                "Overlays",
+                "Prominent floating elements"
+              ]
+            },
+            {
+              "name": "Shadow 2xl",
+              "type": "drop",
+              "description": "Extra extra large shadow with 25% black opacity, 25px vertical offset, 50px blur",
+              "css_value": "0 25px 50px -12px #00000040",
+              "when_to_use": [
+                "Full-screen overlays",
+                "Maximum elevation"
+              ]
+            },
+            {
+              "name": "Inset Shadow 2xs",
+              "type": "inset",
+              "description": "Extra extra small inset shadow with 5% black opacity, 1px offset",
+              "css_value": "inset 0 1px #0000000d",
+              "when_to_use": [
+                "Subtle pressed states",
+                "Inner highlights"
+              ]
+            },
+            {
+              "name": "Inset Shadow Xs",
+              "type": "inset",
+              "description": "Extra small inset shadow with 5% black opacity, 1px offset and blur",
+              "css_value": "inset 0 1px 1px #0000000d",
+              "when_to_use": [
+                "Input fields",
+                "Pressed button states"
+              ]
+            },
+            {
+              "name": "Inset Shadow Sm",
+              "type": "inset",
+              "description": "Small inset shadow with 5% black opacity, 2px offset, 4px blur",
+              "css_value": "inset 0 2px 4px #0000000d",
+              "when_to_use": [
+                "Active states",
+                "Inset containers",
+                "Well components"
+              ]
+            },
+            {
+              "name": "Drop Shadow Xs",
+              "type": "drop",
+              "description": "Extra small filter drop shadow with 5% black opacity",
+              "css_value": "0 1px 1px #0000000d",
+              "when_to_use": [
+                "SVG shadows",
+                "Icon elevation"
+              ]
+            },
+            {
+              "name": "Drop Shadow Sm",
+              "type": "drop",
+              "description": "Small filter drop shadow with 15% black opacity",
+              "css_value": "0 1px 2px #00000026",
+              "when_to_use": [
+                "Small icons",
+                "Text shadows"
+              ]
+            },
+            {
+              "name": "Drop Shadow Md",
+              "type": "drop",
+              "description": "Medium filter drop shadow with 12% black opacity, 3px offset",
+              "css_value": "0 3px 3px #0000001f",
+              "when_to_use": [
+                "Medium icons",
+                "Floating elements"
+              ]
+            },
+            {
+              "name": "Drop Shadow Lg",
+              "type": "drop",
+              "description": "Large filter drop shadow with 15% black opacity, 4px offset",
+              "css_value": "0 4px 4px #00000026",
+              "when_to_use": [
+                "Large icons",
+                "Prominent elements"
+              ]
+            },
+            {
+              "name": "Drop Shadow Xl",
+              "type": "drop",
+              "description": "Extra large filter drop shadow with 10% black opacity, 9px offset",
+              "css_value": "0 9px 7px #0000001a",
+              "when_to_use": [
+                "Hero elements",
+                "Large floating components"
+              ]
+            },
+            {
+              "name": "Drop Shadow 2xl",
+              "type": "drop",
+              "description": "Extra extra large filter drop shadow with 15% black opacity, 25px offset",
+              "css_value": "0 25px 25px #00000026",
+              "when_to_use": [
+                "Maximum filter shadow",
+                "Dramatic elevation"
+              ]
+            },
+            {
+              "name": "Elevation Low",
+              "type": "drop",
+              "description": "Custom low elevation with multiple layers using hsl() values, subtle depth",
+              "css_value": "0px .5px .5px hsl(0deg 0% 0% / .25), 0px .8px .8px -1.5px hsl(0deg 0% 0% / .21), 0px 1.7px 1.8px -3.1px hsl(0deg 0% 0% / .18)",
+              "when_to_use": [
+                "Subtle card elevation",
+                "Low prominence elements"
+              ]
+            },
+            {
+              "name": "Elevation Medium",
+              "type": "drop",
+              "description": "Custom medium elevation with multiple layers using hsl() values, moderate depth",
+              "css_value": "0px .5px .5px hsl(0deg 0% 0% / .26), 0px 1.4px 1.4px -1px hsl(0deg 0% 0% / .23), 0px 3.4px 3.5px -2.1px hsl(0deg 0% 0% / .21), .1px 8.6px 8.9px -3.1px hsl(0deg 0% 0% / .18)",
+              "when_to_use": [
+                "Medium card elevation",
+                "Interactive elements"
+              ]
+            },
+            {
+              "name": "Elevation High",
+              "type": "drop",
+              "description": "Custom high elevation with multiple layers using hsl() values, dramatic depth effect",
+              "css_value": "0px .5px .5px hsl(0deg 0% 0% / .24), 0px 1.7px 1.8px -.4px hsl(0deg 0% 0% / .23), 0px 3.1px 3.2px -.9px hsl(0deg 0% 0% / .22), 0px 5.2px 5.4px -1.3px hsl(0deg 0% 0% / .21), .1px 8.6px 8.9px -1.8px hsl(0deg 0% 0% / .19), .1px 13.8px 14.3px -2.2px hsl(0deg 0% 0% / .18), .1px 21.4px 22.1px -2.7px hsl(0deg 0% 0% / .17), .2px 32px 33.1px -3.1px hsl(0deg 0% 0% / .16)",
+              "when_to_use": [
+                "High prominence cards",
+                "Modals",
+                "Feature highlights"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#FFFFFF",
+            "width": "0.5px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "carousel",
+          "video_background",
+          "hover_lift",
+          "hover_transform",
+          "accordion",
+          "sticky_header"
+        ],
+        "animations": [
+          {
+            "name": "krea-firework",
+            "css": "@keyframes svelte-wmncy5-krea-firework{0%{width:var(--particle-size);opacity:0;transform:translate(-50%,60vh)}10%{opacity:1}42%{width:var(--particle-size);opacity:1;transform:translate(-50%,-50%)}to{width:var(--firework-size);opacity:0;transform:translate(-50%,-50%)}}",
+            "description": "Firework burst animation moving from bottom to center while expanding and fading"
+          },
+          {
+            "name": "trustpilot-rating-heartbeat",
+            "css": "@keyframes svelte-c4dyy0-trustpilot-rating-heartbeat{0%,to{filter:drop-shadow(0 0 #ef444400);transform:scale(1)}16%{filter:drop-shadow(0 0 7px #ef44448c);transform:scale(1.34)}32%{transform:scale(.88)}48%{filter:drop-shadow(0 0 5px #ef444473);transform:scale(1.18)}74%{filter:drop-shadow(0 0 #ef444400);transform:scale(1)}}",
+            "description": "Pulsing heartbeat animation with scale and glow effects for rating hearts"
+          },
+          {
+            "name": "fade",
+            "css": "@keyframes svelte-98gxws-fade{0%{opacity:0}to{opacity:1}}",
+            "description": "Simple opacity fade-in animation for loading overlays"
+          },
+          {
+            "name": "accordion-down",
+            "css": "--animate-accordion-down:accordion-down var(--tw-animation-duration,var(--tw-duration,.2s))var(--tw-ease,ease-out)0s1normalnone",
+            "description": "Accordion content expanding downward with 0.2s ease-out timing"
+          },
+          {
+            "name": "accordion-up",
+            "css": "--animate-accordion-up:accordion-up var(--tw-animation-duration,var(--tw-duration,.2s))var(--tw-ease,ease-out)0s1normalnone",
+            "description": "Accordion content collapsing upward with 0.2s ease-out timing"
+          },
+          {
+            "name": "collapsible-down",
+            "css": "--animate-collapsible-down:collapsible-down var(--tw-animation-duration,var(--tw-duration,.2s))var(--tw-ease,ease-out)0s1normalnone",
+            "description": "Collapsible section expanding animation"
+          },
+          {
+            "name": "collapsible-up",
+            "css": "--animate-collapsible-up:collapsible-up var(--tw-animation-duration,var(--tw-duration,.2s))var(--tw-ease,ease-out)0s1normalnone",
+            "description": "Collapsible section collapsing animation"
+          },
+          {
+            "name": "caret-blink",
+            "css": "--animate-caret-blink:caret-blink 1.25s ease-out infinite",
+            "description": "Input caret blinking animation at 1.25s interval"
+          },
+          {
+            "name": "shiny-rotate",
+            "css": "animation:2s linear infinite shiny-rotate",
+            "description": "Continuous 2s rotation for shiny border conic gradient effect"
+          },
+          {
+            "name": "genius-soft-bounce",
+            "css": "--ease-genius-soft-bounce:linear(0 0%, .004 1%, .017 2%, .037 3%, .064 4%, .097 5%, .135 6%, .178 7%, .225 8%, .274 9%, .327 10%, .38 11%, .436 12%, .491 13%, .547 14%, .603 15%, .658 16%, .711 17%, .763 18%, .813 19%, .86 20%, .906 21%, .948 22%, .988 23%, 1.025 24%, 1.058 25%, 1.089 26%, 1.117 27%, 1.141 28%, 1.162 29%, 1.181 30%, 1.196 31%, 1.208 32%, 1.218 33%, 1.225 34%, 1.229 35%, 1.231 36%, 1.232 37%, 1.23 38%, 1.226 39%, 1.221 40%, 1.214 41%, 1.205 42%, 1.196 43%, 1.186 44%, 1.174 45%, 1.163 46%, 1.15 47%, 1.138 48%, 1.125 49%, 1.112 50%, 1.099 51%, 1.086 52%, 1.073 53%, 1.061 54%, 1.049 55%, 1.038 56%, 1.027 57%, 1.017 58%, 1.008 59%, .999 60%, .99 61%, .983 62%, .976 63%, .97 64%, .965 65%, .96 66%, .956 67%, .953 68%, .951 69%, .949 70%, .947 71%, .946 72%, .946 73%, .946 74%, .947 75%, .948 76%, .95 77%, .951 78%, .953 79%, .956 80%, .958 81%, .961 82%, .964 83%, .967 84%, .969 85%, .972 86%, .975 87%, .978 88%, .981 89%, .984 90%, .987 91%, .99 92%, .992 93%, .995 94%, .997 95%, .999 96%, 1.001 97%, 1.003 98%, 1.004 99%, 1.006 100%)",
+            "description": "Custom soft bounce easing function for genius hover float effect"
+          },
+          {
+            "name": "hover-card-reveal",
+            "css": "transition-[translate,opacity] duration-500 ease-out",
+            "description": "Card content reveal on hover with translate and opacity transition over 500ms"
+          },
+          {
+            "name": "hover-scale-zoom",
+            "css": "transition-transform duration-500 motion-reduce:transition-none",
+            "description": "Video/image scale zoom effect on hover with 500ms duration"
+          },
+          {
+            "name": "button-arrow-shift",
+            "css": "transition-[translate] duration-150 ease-out group-hover/btn:translate-x-0.5",
+            "description": "Subtle arrow icon shift on button hover with 150ms ease-out"
+          },
+          {
+            "name": "sidebar-transition",
+            "css": "transition-[width,height,padding,transform] duration-150 ease-out",
+            "description": "Sidebar width/layout transition for collapse states"
+          }
+        ],
+        "insights": [
+          "The design system uses a sophisticated layered hover interaction pattern where card content (title, description, CTA) reveals with staggered translate-y animations while background media scales up, creating depth and engagement.",
+          "Pill-shaped buttons (rounded-full) dominate CTAs while system UI elements use rounded-lg (10px), establishing clear visual hierarchy between marketing actions and application controls.",
+          "Custom easing curves like genius-soft-bounce with 100+ keyframes demonstrate investment in micro-interaction polish, particularly for hover lift effects with coordinated shadow transitions."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Get the plugin (Primary CTA)",
+            "usage": "Primary call-to-action button on hero carousel cards, used for main conversion actions",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "0px 40px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.9)",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Read more (Secondary Ghost)",
+            "usage": "Secondary action button on hero cards, used alongside primary CTAs for additional information",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "0px 40px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(16, 16, 16, 0.4)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(16, 16, 16, 0.5)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(16, 16, 16, 0.4)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Previous slide (Icon Navigation)",
+            "usage": "Carousel navigation button for moving to previous slide",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "oklch(0.269 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": null
+              },
+              "hover": {
+                "background": "oklch(0.269 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "oklch(0.269 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Next slide (Icon Navigation)",
+            "usage": "Carousel navigation button for moving to next slide",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "oklch(0.269 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(38, 38, 38, 0.8)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "oklch(0.269 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Sign in (Auth Button)",
+            "usage": "Authentication button in sidebar footer for user login",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FAFAFA",
+                "text_color": "#252525",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E5E5E5",
+                "text_color": "#252525",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FAFAFA",
+                "text_color": "#252525",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Toggle Sidebar (Icon Button)",
+            "usage": "Icon-only button for collapsing/expanding the sidebar navigation",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#B3B3B3",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "oklch(26.9% 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#B3B3B3",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Krea (Dropdown Trigger)",
+            "usage": "Dropdown menu trigger button in sidebar header for workspace/account switching",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "16px",
+                  "padding": "8px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#B3B3B3",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "oklch(26.9% 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#B3B3B3",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Tools (Collapsible Section)",
+            "usage": "Section header button that expands/collapses tool navigation items in sidebar",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "0px 8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "rgba(250, 250, 250, 0.3)",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "oklch(26.9% 0 0)",
+                "text_color": "rgba(250, 250, 250, 0.3)",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "rgba(250, 250, 250, 0.3)",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "More (Overflow Menu)",
+            "usage": "Overflow/ellipsis menu button appearing on hover for additional actions on sidebar items",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Suisse Intl",
+                  "size": "14px",
+                  "padding": "8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "rgba(250, 250, 250, 0.3)",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "oklch(26.9% 0 0)",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "rgba(250, 250, 250, 0.3)",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Hero carousel buttons use horizontal grouping at @xl breakpoint with column layout on smaller screens",
+          "spacing": "16px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": null,
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Sidebar Navigation Tab",
+          "description": "Vertical sidebar navigation using icon + label items that highlight on hover and selection.",
+          "when_to_use": [
+            "Primary app navigation in sidebar",
+            "Switching between main app sections"
+          ],
+          "states": [
+            {
+              "name": "default",
+              "visual_change": "Normal state with foreground text color",
+              "background": null,
+              "text": "oklch(0.985 0 0)",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Background changes to sidebar-accent on hover",
+              "background": "oklch(26.9% 0 0)",
+              "text": null,
+              "icon": null
+            },
+            {
+              "name": "active",
+              "visual_change": "Shows shadow and thin border when active",
+              "background": "oklch(26.9% 0 0)",
+              "text": "oklch(98.5% 0 0)",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Feature Tile",
+            "description": "Grid tiles showcasing app features with icon, title, and description, using hover lift effect",
+            "when_to_use": [
+              "Feature showcase grids",
+              "Tool/capability navigation",
+              "Quick action cards"
+            ]
+          },
+          {
+            "name": "Hero Carousel Card",
+            "description": "Full-width video/image background cards with overlay CTAs in carousel format",
+            "when_to_use": [
+              "Product announcements",
+              "Feature highlights",
+              "Marketing hero sections"
+            ]
+          },
+          {
+            "name": "Agent Template Card",
+            "description": "Horizontal scrolling cards with video backgrounds and template CTAs for agent workflows",
+            "when_to_use": [
+              "Template galleries",
+              "Workflow showcases",
+              "Use case demonstrations"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Collapsible sections with animated height transitions (0.2s ease-out), single or multiple open allowed"
+        },
+        "dividers": [
+          {
+            "name": "Sidebar Border",
+            "description": "Subtle right border separating sidebar from main content",
+            "when_to_use": [
+              "Sidebar navigation boundaries",
+              "Panel separations"
+            ],
+            "color": "rgba(255, 255, 255, 0.1)",
+            "height": "0.5px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Lucide UI Icons - Outline",
+          "description": "Standard monoline outline icons for general UI actions and navigation.",
+          "when_to_use": [
+            "Buttons",
+            "Navigation",
+            "Context menus"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline (2px stroke)",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "ellipsis",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-ellipsis\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg>"
+            },
+            {
+              "name": "arrow-right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-arrow-right transition-[translate] duration-150 ease-out group-hover/btn:translate-x-0.5 motion-reduce:transition-none\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg>"
+            },
+            {
+              "name": "arrow-left",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-arrow-left size-4\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg>"
+            },
+            {
+              "name": "search",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-search\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Lucide UI Icons - Heavy",
+          "description": "Heavier stroked icons for strong emphasis, often scaled down for small UI components.",
+          "when_to_use": [
+            "Small UI toggles",
+            "Search inputs",
+            "Close buttons"
+          ],
+          "format": "SVG",
+          "style": "Heavy Outline (2.5px stroke)",
+          "sizes": {
+            "small": "14px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "chevron-down-heavy",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-chevron-down size-3.5!\"><path d=\"m6 9 6 6 6-6\"></path></svg>"
+            },
+            {
+              "name": "search-heavy",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-search\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg>"
+            },
+            {
+              "name": "search-heavy-small",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-search\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg>"
+            },
+            {
+              "name": "x-heavy-small",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-x\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Filled Decorative Icons",
+          "description": "Solid or specially filled shapes used for active states, highlights, or decorative accents.",
+          "when_to_use": [
+            "Highlights",
+            "Feature callouts",
+            "Active indicators"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "sparkle",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-sparkle fill-white text-white drop-shadow-sm dark:fill-black dark:text-black\"><path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"></path></svg>"
+            },
+            {
+              "name": "zap",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-zap size-4 opacity-100\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"></path></svg>"
+            },
+            {
+              "name": "abstract-shape",
+              "svg_code": "<svg class=\"h-4 w-4\" fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 48 48\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><polygon fill-rule=\"evenodd\" points=\"24.032,28.919 40.145,5.989 33.145,5.989 20.518,23.958\" clip-rule=\"evenodd\"></polygon><polygon fill-rule=\"evenodd\" points=\"14.591,32.393 7.145,42.989 14.145,42.989 18.105,37.354\" clip-rule=\"evenodd\"></polygon><polygon fill-rule=\"evenodd\" points=\"14.547,18.989 7.547,18.989 24.547,42.989 31.547,42.989\" clip-rule=\"evenodd\"></polygon><polygon fill-rule=\"evenodd\" points=\"35,16.789 35,43 41,43 41,8.251\" clip-rule=\"evenodd\"></polygon></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-7.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-7.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-32.png",
+            "description": "Krea 32x32 Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-6.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-6.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-32-dark.png",
+            "description": "Krea 32x32 Dark Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-64.png",
+            "description": "Krea 64x64 Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-4.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-4.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-64-dark.png",
+            "description": "Krea 64x64 Dark Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-5.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-5.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-128.png",
+            "description": "Krea 128x128 Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-3.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-3.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-128-dark.png",
+            "description": "Krea 128x128 Dark Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-2.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-2.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-192.png",
+            "description": "Krea 192x192 Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-8.png",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/favicon-8.png",
+            "origin_url": "https://www.krea.ai/favicon/favicon-192-dark.png",
+            "description": "Krea 192x192 Dark Favicon"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline.svg",
+            "origin_url": null,
+            "description": "Ideogram logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-2.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-2.svg",
+            "origin_url": null,
+            "description": "OpenAI logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-3.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-3.svg",
+            "origin_url": null,
+            "description": "Bytedance logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-4.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-4.svg",
+            "origin_url": null,
+            "description": "OpenAI logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-5.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-5.svg",
+            "origin_url": null,
+            "description": "OpenAI logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-6.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-6.svg",
+            "origin_url": null,
+            "description": "Claude logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-7.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-7.svg",
+            "origin_url": null,
+            "description": "Gemini logo"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-8.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-inline-8.svg",
+            "origin_url": null,
+            "description": "Krea Primary Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary.webp",
+            "origin_url": "https://krea.ai/seedance-studio/seedance-studio-logo.webp",
+            "description": "Seedance Studio Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "WEBP",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-2.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-2.webp",
+            "origin_url": "https://krea.ai/seedance-studio/seedance-studio-logo-dark.webp",
+            "description": "Seedance Studio Logo (Dark Mode)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary.svg",
+            "origin_url": "https://s.krea.ai/plugins/logos/after-effects.svg",
+            "description": "After Effects Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-2.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://s.krea.ai/seedance2Title.svg",
+            "description": "Seedance 2 Title Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "After Effects Showcase Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/after-effects-showcase-video.webm",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/after-effects-showcase-video.webm",
+            "origin_url": "https://s.krea.ai/aftereffects.webm",
+            "usage_context": "Hero background video for After Effects plugin showcase"
+          },
+          {
+            "name": "FLUX 3 Showcase Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/flux-3-showcase-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/flux-3-showcase-video.mp4",
+            "origin_url": "https://s.krea.ai/flux3.mp4",
+            "usage_context": "Showcase video for FLUX 3 Image capabilities"
+          },
+          {
+            "name": "Ideogram 4.5 Showcase Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/ideogram-4-5-showcase-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/ideogram-4-5-showcase-video.mp4",
+            "origin_url": "https://s.krea.ai/krea_ideogram45-compressed.mp4",
+            "usage_context": "Showcase video for Ideogram 4.5 capabilities"
+          },
+          {
+            "name": "Open Agent Demo Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/open-agent-demo-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/open-agent-demo-video.mp4",
+            "origin_url": "https://s.krea.ai/krea-66a2e171-5401-4b0d-9d88-55e3ccd88a91_1.mp4",
+            "usage_context": "Showcase background video for Krea Agent demo"
+          },
+          {
+            "name": "GPT Image 2.5 Showcase Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/gpt-image-2-5-showcase-video.webm",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/gpt-image-2-5-showcase-video.webm",
+            "origin_url": "https://s.krea.ai/gpt25.webm",
+            "usage_context": "Showcase video for GPT Image 2.5"
+          },
+          {
+            "name": "Agent Launch Demo Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/agent-launch-demo-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/agent-launch-demo-video.mp4",
+            "origin_url": "https://s.krea.ai/news/agent-beta/agent-launch-demo.mp4",
+            "usage_context": "Hero background video for Krea Agent launch section"
+          },
+          {
+            "name": "Seedance Studio Showcase Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/seedance-studio-showcase-video.webm",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/seedance-studio-showcase-video.webm",
+            "origin_url": "https://s.krea.ai/Seedance_Studio_4k.webm",
+            "usage_context": "Showcase background video for Seedance Studio 4K"
+          },
+          {
+            "name": "Seedance 2.5 Hero Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/seedance-2-5-hero-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/seedance-2-5-hero-video.mp4",
+            "origin_url": "https://s.krea.ai/seedance-25-hero-2.mp4",
+            "usage_context": "Hero video for Seedance 2.5"
+          },
+          {
+            "name": "MiniMax H3 Showcase Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/minimax-h3-showcase-video.webm",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/minimax-h3-showcase-video.webm",
+            "origin_url": "https://s.krea.ai/minih3.webm",
+            "usage_context": "Showcase video for MiniMax H3 capabilities"
+          },
+          {
+            "name": "Seedance 2 Hero Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/seedance-2-hero-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/seedance-2-hero-video.mp4",
+            "origin_url": "https://s.krea.ai/seedance2-hero.mp4",
+            "usage_context": "Hero video for Seedance 2"
+          },
+          {
+            "name": "Krea 2 Hero Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/krea-2-hero-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/krea-2-hero-video.mp4",
+            "origin_url": "https://s.krea.ai/krea-2-video-6s.mp4",
+            "usage_context": "Hero video showcasing Krea 2"
+          },
+          {
+            "name": "Watercolor Moon Landing Agent Template",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/watercolor-moon-landing-agent-template.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/watercolor-moon-landing-agent-template.mp4",
+            "origin_url": "https://krea.ai/marketing/faceless-video/watercolor-apollo.mp4",
+            "usage_context": "Agent template showcase preview"
+          },
+          {
+            "name": "Blue Outfits Agent Template Thumbnail",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/blue-outfits-agent-template-thumbnail.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/blue-outfits-agent-template-thumbnail.mp4",
+            "origin_url": "https://s.krea.ai/agent-templates/blue-outfits-thumbnail-compressed.mp4",
+            "usage_context": "Thumbnail video for outfit montage agent template"
+          },
+          {
+            "name": "Krea Fashion Agent Template Thumbnail",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/krea-fashion-agent-template-thumbnail.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/krea-fashion-agent-template-thumbnail.mp4",
+            "origin_url": "https://s.krea.ai/agent-templates/krea-fshn-compressed.mp4",
+            "usage_context": "Agent template preview for fashion"
+          },
+          {
+            "name": "Caesar Explainer Agent Template",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/caesar-explainer-agent-template.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/caesar-explainer-agent-template.mp4",
+            "origin_url": "https://s.krea.ai/agent-templates/caesar-explainer-compressed.mp4",
+            "usage_context": "Agent template preview for explainers"
+          },
+          {
+            "name": "Hand Drawn Printing Faceless Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/hand-drawn-printing-faceless-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/hand-drawn-printing-faceless-video.mp4",
+            "origin_url": "https://krea.ai/marketing/faceless-video/hand-drawn-printing.mp4",
+            "usage_context": "Marketing video example for faceless content"
+          },
+          {
+            "name": "Fairy Tale Flight Faceless Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/fairy-tale-flight-faceless-video.mp4",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/video/fairy-tale-flight-faceless-video.mp4",
+            "origin_url": "https://krea.ai/marketing/faceless-video/fairy-tale-flight.mp4",
+            "usage_context": "Marketing video example for faceless content"
+          },
+          {
+            "name": "Home Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/home-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/home-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-HomeIcon-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Home"
+          },
+          {
+            "name": "Moodboards Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/moodboards-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/moodboards-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-Personalization2-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Moodboards"
+          },
+          {
+            "name": "Train Lora Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/train-lora-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/train-lora-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-Train-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Train Lora"
+          },
+          {
+            "name": "Node Editor Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/node-editor-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/node-editor-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-NodeEditor-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Node Editor"
+          },
+          {
+            "name": "Assets Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/assets-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/assets-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-Assets-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Assets"
+          },
+          {
+            "name": "Image Feature Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/image-feature-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/image-feature-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-imageV4-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Image generation tools"
+          },
+          {
+            "name": "Video Feature Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/video-feature-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/video-feature-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-videoV2-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Video generation tools"
+          },
+          {
+            "name": "Enhancer Feature Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/enhancer-feature-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/enhancer-feature-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-Enhance-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Enhancer tool"
+          },
+          {
+            "name": "Nano Banana Feature Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/nano-banana-feature-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/nano-banana-feature-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-NanoBanana-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Nano Banana tool"
+          },
+          {
+            "name": "Realtime Feature Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/realtime-feature-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/realtime-feature-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-realtimeV2-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Realtime generation tool"
+          },
+          {
+            "name": "Edit Feature Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/edit-feature-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/edit-feature-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-icons-Edit-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Edit tool"
+          },
+          {
+            "name": "Krea Agent Navigation Icon",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/krea-agent-navigation-icon.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/krea-agent-navigation-icon.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-KreaAgent-iOS-Default-1024x1024-1x-png-128.webp",
+            "usage_context": "Sidebar navigation icon for Krea Agent"
+          },
+          {
+            "name": "Decorative Overlay Frame",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/decorative-overlay-frame.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/decorative-overlay-frame.svg",
+            "origin_url": "https://s.krea.ai/4234Frame%201.svg",
+            "usage_context": "Overlay graphic used in the Agent demo hero card"
+          },
+          {
+            "name": "Clear Sky Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/clear-sky-background.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/clear-sky-background.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-day-clear-sky-no-clouds-1-png.webp",
+            "usage_context": "Background image for 'Introducing Krea 2' showcase card"
+          },
+          {
+            "name": "Contra Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/contra-background.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/contra-background.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-contra-png.webp",
+            "usage_context": "Background image for a Krea 2 feature showcase card"
+          },
+          {
+            "name": "Seedance 2.0 Prompt Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/seedance-2-0-prompt-background.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/seedance-2-0-prompt-background.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-seedance2-anything-into-prompt-webp.webp",
+            "usage_context": "Background image for a Seedance 2.0 feature showcase card"
+          },
+          {
+            "name": "Agent Backdrop",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/agent-backdrop.jpg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/agent-backdrop.jpg",
+            "origin_url": "https://krea.ai/_app/6692fa2eece07660/immutable/assets/agent-backdrop.C889PczC.jpg",
+            "usage_context": "Background poster/backdrop for the Krea Agent hero card"
+          },
+          {
+            "name": "Openclaw Decorative Graphic",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/openclaw-decorative-graphic.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/openclaw-decorative-graphic.svg",
+            "origin_url": "https://krea.ai/_app/6692fa2eece07660/immutable/assets/openclaw.Dbw1_Vo6.svg",
+            "usage_context": "Decorative graphic used in 'Connect your agent' card"
+          },
+          {
+            "name": "Desert Car Agent Template Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/desert-car-agent-template-thumbnail.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/desert-car-agent-template-thumbnail.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-agent-templates-desert-car-thumbnail-webp-1024.webp",
+            "usage_context": "Thumbnail image for Commercial Mockups agent template"
+          },
+          {
+            "name": "Shoes Agent Template Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/shoes-agent-template-thumbnail.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/shoes-agent-template-thumbnail.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-agent-templates-shoes-webp-1024.webp",
+            "usage_context": "Thumbnail image for Shoes agent template"
+          },
+          {
+            "name": "Chair Design Agent Template Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/chair-design-agent-template-thumbnail.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/chair-design-agent-template-thumbnail.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-agent-templates-chair-design-thumbnail-webp-1024.webp",
+            "usage_context": "Thumbnail image for Chair Design agent template"
+          },
+          {
+            "name": "Keyboard Packaging Agent Template Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/keyboard-packaging-agent-template-thumbnail.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/keyboard-packaging-agent-template-thumbnail.webp",
+            "origin_url": "https://optim-images.krea.ai/https---s-krea-ai-agent-templates-keyboard-packaging-thumbnail-webp-1024.webp",
+            "usage_context": "Thumbnail image for Keyboard Packaging agent template"
+          },
+          {
+            "name": "Agent Starfield Backdrop",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/agent-starfield-backdrop.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/agent-starfield-backdrop.webp",
+            "origin_url": "https://krea.ai/_app/6692fa2eece07660/immutable/assets/agent-starfield-backdrop.B4RfXhic.webp",
+            "usage_context": "Background asset for agent interface"
+          },
+          {
+            "name": "Sign In Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/sign-in-background.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/sign-in-background.webp",
+            "origin_url": "https://krea.ai/plugins/sign-in-background.webp",
+            "usage_context": "Background image for the sign in prompt/page"
+          },
+          {
+            "name": "Star Slider Overlay",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/star-slider-overlay.webp",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/star-slider-overlay.webp",
+            "origin_url": "https://s.krea.ai/starSliderOverlay.webp",
+            "usage_context": "Graphic overlay used for a custom UI slider"
+          },
+          {
+            "name": "Effort Slider Thumb",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/effort-slider-thumb.svg",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/effort-slider-thumb.svg",
+            "origin_url": "https://krea.ai/agent/effort-slider-thumb.svg",
+            "usage_context": "Custom thumb graphic for an effort slider control"
+          },
+          {
+            "name": "K2 Large Image Model Endpoint",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/k2-large-image-model-endpoint.html",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/k2-large-image-model-endpoint.html",
+            "origin_url": "https://krea.ai/image/k2-large",
+            "usage_context": "Linked asset reference for K2 large image model route"
+          },
+          {
+            "name": "GPT Image 2 Endpoint",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/gpt-image-2-endpoint.html",
+            "path": "33b89e0e-5906-43d9-b45c-752729e90672/site-assets/media/image/gpt-image-2-endpoint.html",
+            "origin_url": "https://krea.ai/image/gpt-image-2",
+            "usage_context": "Linked asset reference for GPT Image 2 model route"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Header",
+          "layout_pattern": "Fixed top navigation, left-aligned logo, center search, right action buttons",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Black background (#000000), hamburger menu icon, logo left, search bar center, white icons on right"
+            },
+            {
+              "type": "button",
+              "description": "'+' create new icon, white on black"
+            },
+            {
+              "type": "image",
+              "description": "Circular profile avatar, right-aligned"
+            }
+          ]
+        },
+        {
+          "type": "Sidebar Navigation",
+          "layout_pattern": "Fixed left sidebar, vertical navigation menu",
+          "headline": "Krea",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Dark charcoal background (#1a1a1a), vertical menu items with icons and labels"
+            },
+            {
+              "type": "button",
+              "description": "Toggle sidebar button with menu icon"
+            },
+            {
+              "type": "navigation",
+              "description": "Menu items: Home, Explore, Create, Library, Profile, Settings with icon images"
+            },
+            {
+              "type": "button",
+              "description": "Dropdown menu button for organization/workspace selection"
+            }
+          ]
+        },
+        {
+          "type": "Hero Carousel",
+          "layout_pattern": "Full-width horizontal scrolling carousel",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Horizontal auto-scrolling carousel of hero cards, full-width banners"
+            },
+            {
+              "type": "card",
+              "description": "After Effects plugin card with video background showing workspace, blue gradient banner"
+            },
+            {
+              "type": "video",
+              "description": "Autoplay looping video backgrounds for each hero card"
+            },
+            {
+              "type": "button",
+              "description": "White rounded-full primary CTA buttons 'Get the plugin', 'Try FLUX 3 Image', etc."
+            },
+            {
+              "type": "button",
+              "description": "Translucent secondary buttons with backdrop blur, white/40 background"
+            }
+          ]
+        },
+        {
+          "type": "Featured Banners Section",
+          "layout_pattern": "Full-width carousel with navigation arrows",
+          "headline": "Krea After Effects Plugin",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Large promotional banner cards with video/image backgrounds, rounded-2xl corners"
+            },
+            {
+              "type": "button",
+              "description": "Carousel navigation arrows, left/right, circular secondary buttons"
+            },
+            {
+              "type": "video",
+              "description": "Background videos showcasing plugin features, After Effects integration"
+            }
+          ]
+        },
+        {
+          "type": "Tools Grid",
+          "layout_pattern": "Grid layout, 2-column mobile, 3-column desktop (@xl breakpoint), responsive masonry",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Tool cards with dark gray/muted background, icon images (Image, Video, Enhancer, etc.), rounded-2xl"
+            },
+            {
+              "type": "image",
+              "description": "Tool icons 128px optimized WebP images, size-7 display"
+            },
+            {
+              "type": "card",
+              "description": "Agent card spanning full width with video background, larger featured card"
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA overlays on hover, black background with white text"
+            }
+          ]
+        },
+        {
+          "type": "Navigation Tools",
+          "layout_pattern": "Collapsible sidebar section with vertical list",
+          "headline": "Tools",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Collapsible section header button"
+            },
+            {
+              "type": "navigation",
+              "description": "Vertical list of tool links with icons: Image, Video, Enhancer, Seedance Studio, Nano Banana, Realtime, Edit"
+            },
+            {
+              "type": "button",
+              "description": "Three-dot ellipsis menu buttons for each tool, opacity-0 by default, visible on hover"
+            },
+            {
+              "type": "image",
+              "description": "Tool icons, optimized WebP format, 128px source"
+            }
+          ]
+        },
+        {
+          "type": "Agent Templates Section",
+          "layout_pattern": "Horizontal scrolling carousel",
+          "headline": "Create with Krea Agent",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Horizontal scrolling template showcase, -ml-8 offset"
+            },
+            {
+              "type": "card",
+              "description": "Template cards h-80 w-74/sm:w-124, video/image backgrounds, rounded-2xl"
+            },
+            {
+              "type": "video",
+              "description": "Looping preview videos showing template examples (watercolor, commercial mockups, outfit montage)"
+            },
+            {
+              "type": "button",
+              "description": "Carousel navigation arrows at top right, secondary style"
+            },
+            {
+              "type": "button",
+              "description": "'Use template' CTA overlays, rounded-full, visible on hover"
+            }
+          ]
+        },
+        {
+          "type": "FLUX 3 Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": "FLUX 3 Image",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Background video showing FLUX 3 demonstrations, poster image fallback"
+            },
+            {
+              "type": "logo",
+              "description": "FLUX logo SVG, white color, size-7"
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA 'Try FLUX 3 Image' rounded-full, white background"
+            },
+            {
+              "type": "button",
+              "description": "Secondary 'Read more' button, translucent backdrop blur"
+            }
+          ]
+        },
+        {
+          "type": "Ideogram Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": "Ideogram 4.5",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Background video, Ideogram 4.5 demo"
+            },
+            {
+              "type": "logo",
+              "description": "Ideogram logo SVG"
+            },
+            {
+              "type": "button",
+              "description": "'Try Ideogram 4.5' primary CTA"
+            }
+          ]
+        },
+        {
+          "type": "Krea Agent Featured",
+          "layout_pattern": "Large featured card with video background",
+          "headline": "Krea Agent",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Agent launch demo video background, autoplay muted loop"
+            },
+            {
+              "type": "button",
+              "description": "'Open Agent' primary CTA, black background white text"
+            },
+            {
+              "type": "image",
+              "description": "Agent backdrop JPG, static fallback"
+            }
+          ]
+        },
+        {
+          "type": "GPT Image Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": "GPT Image 2.5",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Background video demonstrating GPT Image capabilities"
+            },
+            {
+              "type": "logo",
+              "description": "OpenAI logo SVG, white color"
+            }
+          ]
+        },
+        {
+          "type": "Seedance Studio Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Seedance Studio 4k demo video"
+            },
+            {
+              "type": "button",
+              "description": "'Open Seedance Studio' primary CTA"
+            }
+          ]
+        },
+        {
+          "type": "Seedance 2.5 Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": "Seedance 2.5",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Seedance 2.5 hero demo video"
+            },
+            {
+              "type": "logo",
+              "description": "Bytedance logo SVG"
+            }
+          ]
+        },
+        {
+          "type": "MiniMax Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": "MiniMax H3",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "MiniMax H3 demo video"
+            },
+            {
+              "type": "logo",
+              "description": "MiniMax logo SVG"
+            }
+          ]
+        },
+        {
+          "type": "Krea 2 Announcement",
+          "layout_pattern": "Full-width hero card with centered text",
+          "headline": "Introducing Krea 2",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Sky/clouds background image, light blue (#4a90d8)"
+            },
+            {
+              "type": "card",
+              "description": "Rounded-2xl card with gradient background"
+            }
+          ]
+        },
+        {
+          "type": "Seedance 2 Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Seedance 2 hero demo video"
+            },
+            {
+              "type": "image",
+              "description": "Seedance2 title SVG logo overlay"
+            }
+          ]
+        },
+        {
+          "type": "Krea 2 Video Banner",
+          "layout_pattern": "Full-width hero card",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Krea 2 video 6-second demo"
+            }
+          ]
+        },
+        {
+          "type": "Additional Banners",
+          "layout_pattern": "Full-width hero cards",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Static promotional images for various features"
+            },
+            {
+              "type": "button",
+              "description": "CTA overlays on hover"
+            }
+          ]
+        },
+        {
+          "type": "Quick Access Grid",
+          "layout_pattern": "Grid 2-column mobile, 3-column @xl, mixed with larger featured card",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Feature cards: Create images, After Effects, Create videos, Edit by typing, Connect agent, Render as you draw"
+            },
+            {
+              "type": "icon",
+              "description": "Tool icons with icon-pulse and icon-shine animations on hover"
+            },
+            {
+              "type": "card",
+              "description": "Dark muted background cards (bg-muted), rounded-2xl, min-h-32"
+            }
+          ]
+        },
+        {
+          "type": "Sidebar Footer",
+          "layout_pattern": "Vertical stacked links at bottom of sidebar",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Pricing link with gradient glow, blue gradient background, '40% off' badge"
+            },
+            {
+              "type": "button",
+              "description": "Enterprise link"
+            },
+            {
+              "type": "button",
+              "description": "'Sign in' button, large, centered, dark background with white text"
+            },
+            {
+              "type": "navigation",
+              "description": "Link to Krea Agent with icon"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column footer (not visible in HTML excerpt)",
+          "headline": null,
+          "subheadline": null,
+          "components": []
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "33b89e0e-5906-43d9-b45c-752729e90672/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "33b89e0e-5906-43d9-b45c-752729e90672/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "33b89e0e-5906-43d9-b45c-752729e90672/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "33b89e0e-5906-43d9-b45c-752729e90672/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "33b89e0e-5906-43d9-b45c-752729e90672/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

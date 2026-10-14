@@ -1,0 +1,184 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Warm Beige",
+      "type": "Light",
+      "rules": {
+        "description": "Serves as the primary canvas for the entire page, providing a softer, warmer alternative to stark white.",
+        "when_to_use": [
+          "Main page background",
+          "Card and container backgrounds"
+        ]
+      },
+      "hex": "#F2EFE6",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Mint Green",
+      "type": "Cool Color",
+      "rules": {
+        "description": "Acts as the primary energetic accent color used to draw attention to interactive elements and important calls to action.",
+        "when_to_use": [
+          "Primary CTA button background",
+          "Active state indicators"
+        ]
+      },
+      "hex": "#34D399",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Delivers high contrast for typography and critical UI elements against the warm beige background.",
+        "when_to_use": [
+          "Primary headings",
+          "Body copy text",
+          "Dark section backgrounds"
+        ]
+      },
+      "hex": "#181611",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Soft Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "Provides a cooler secondary accent to contrast with the energetic mint green, often used for supporting highlights.",
+        "when_to_use": [
+          "Secondary interactive elements",
+          "Highlight accents in illustrations"
+        ]
+      },
+      "hex": "#869EF4",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    },
+    {
+      "name": "Slate Brown",
+      "type": "Neutral",
+      "rules": {
+        "description": "Used for secondary text and structural borders where stark black would be too heavy or distracting.",
+        "when_to_use": [
+          "Secondary body text",
+          "Subtle divider lines",
+          "Meta information text"
+        ]
+      },
+      "hex": "#5E5B55",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Chakra Petch",
+      "role": "Heading / Display",
+      "specs": {
+        "size": "34px",
+        "line_height": "1.15",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Chakra Petch",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Iowan Old Style",
+      "role": "Body Text",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Iowan Old Style",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "SF Mono",
+      "role": "Navigation Link",
+      "specs": {
+        "size": "12px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--font-mono)",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "SF Mono",
+      "role": "Metadata / Date",
+      "specs": {
+        "size": "12px",
+        "line_height": "",
+        "font_weight": "",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--font-mono)",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "System Default",
+      "role": "Primary Button",
+      "specs": {
+        "size": "13px",
+        "line_height": "",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "",
+        "file_url": null
+      },
+      "group": "labels"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "2rem",
+    "max_width": "1280px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 16px gutter)",
+    "tablet": "769px - 1024px (8 Columns, 24px gutter)",
+    "desktop": "1025px - 1440px (12 Columns, 32px gutter)",
+    "large": null
+  }
+}

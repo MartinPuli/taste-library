@@ -1,0 +1,2079 @@
+{
+  "company": "Nothing",
+  "rank": 11,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://nothing.tech/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:26.792242Z",
+  "completed_at": "2026-09-19T06:36:19.660967Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Nothing",
+        "tagline": null,
+        "source_url": "https://nothing.tech/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Consumer Electronics / Technology",
+        "primary_purpose": "Showcase product portfolio and drive discovery of smartphones, earbuds, and audio devices through an immersive, design-forward experience",
+        "main_cta": "Discover",
+        "copy_tone": [
+          "Minimal",
+          "Confident",
+          "Design-Conscious"
+        ],
+        "brand_signature": "A stark monochromatic foundation with signature dot-grid patterns creates an industrial-meets-digital aesthetic. Frosted glass overlays and clean sans-serif typography emphasize premium minimalism, while full-bleed product imagery with transparent device elements reinforces the brand's \"transparent technology\" philosophy.",
+        "visual_language": {
+          "keywords": [
+            "transparent",
+            "grid-based",
+            "industrial-minimal",
+            "monochrome",
+            "frosted-glass",
+            "stark"
+          ],
+          "accent_strategy": "Near-absence of accent colors; relies on product photography colors (pink, orange, blue earbuds) as the sole color injection against pure black and white canvas",
+          "highlights": "Dot-grid matrix overlay creates subtle texture and depth; frosted glass cards float over full-screen hero imagery for product feature callouts"
+        },
+        "strategy": {
+          "target_audience": [
+            "Design-conscious tech enthusiasts aged 22-38 who prioritize aesthetics and unique product identity over mainstream brand choices",
+            "Early adopters and tech-savvy consumers seeking alternatives to Apple/Samsung ecosystem with distinctive visual identity",
+            "Creative professionals and minimalism advocates who appreciate transparent design philosophy and community-driven brand culture"
+          ],
+          "executive_synthesis": "Nothing's visual strategy weaponizes negative space and industrial restraint to position against glossy consumer electronics competitors. The transparent device aesthetic translated to web through dot-grid overlays and stark monochrome creates immediate brand recognition. Full-bleed product hero sections with minimal copy establish product-first storytelling, while the consistent 'Discover' CTA maintains exploratory brand positioning. The frosted glass UI treatment echoes the physical product's transparent casing philosophy, creating cohesive brand experience across physical and digital touchpoints."
+        },
+        "style_classification": {
+          "primary_style": "Glassmorphism",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The visual impression is immediately striking: frosted white cards float over full-bleed product photography, creating a layered, translucent depth. The texture profile explicitly confirms \"glass_blur\" and \"shadows_soft\" as primary classifications, with backdrop-filter: blur(45px) and 80% opacity white panels throughout. These frosted glass product cards are the defining visual system—you can literally see through the elements to the imagery beneath, which is THE key differentiator for Glassmorphism per the taxonomy. The color palette is ultra-monochromatic (pure black #000000 typography against pure white #FFFFFF and off-white #F4F4F4 backgrounds), but the dimensionality comes from the layered transparency effects rather than flat surfaces. The shape language uses predominantly rounded/soft containers with generous border-radius on cards and buttons (8px border-radius noted), combined with geometric product photography arrangements. The layout is centered/symmetric with full-viewport sections and card-based overlays anchored consistently at the bottom of each section. Soft box shadows (0 20px 50px rgba(0,0,0,0.1)) add depth without harsh edges, further confirming the Glassmorphism paradigm.",
+          "secondary_style": "Brutalism",
+          "reasoning_secondary": "The Brutalism influence emerges through the typography system and stark design choices. The site employs three highly distinctive custom typefaces: Ndot-Regular (a dot-matrix display font), NType82-Regular (a geometric sans-serif used at unusually lightweight 100 weights), and LatteraMonoLL (a strict monospace for all UI labels and functional text). This technical, code-like typography aesthetic is a hallmark of Brutalism—raw, honest, deliberately unstyled in the conventional sense. The monochromatic color palette stripped to pure black and white extremes, the rejection of decorative color, and the deliberate contrast between #000000 for text versus #040404 for surfaces reflects Brutalist precision. The footer's solid black background with uppercase white navigation links reinforces this raw, anti-ornamental sensibility. The product naming convention (phone (2a), ear (3a)) uses lowercase technical notation, further emphasizing the brutalist tech-industrial aesthetic beneath the glassmorphic surface treatment."
+        }
+      },
+      "layout": {
+        "classification": [
+          "card_based",
+          "centered_symmetric"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "32px",
+          "max_width": "512px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (3 columns, 16px gutter)",
+          "tablet": "768px - 913px (8 columns, 24px gutter)",
+          "desktop": "914px - 1536px (12 columns, 32px gutter)",
+          "large": "1537px+ (12 columns, 32px gutter)"
+        },
+        "section_separation": "Full-screen sections with no visible separators; transitions occur through vertical scroll; alternating between full-bleed imagery/video and frosted glass overlay cards; consistent bottom-anchored card pattern throughout; footer transitions via solid black background.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                      [Header/Logo Area]                  │\n│                                                          │\n│  ┌────────────────────────────────────────────────┐     │\n│  │           NOTHING OS NOTICE MODAL              │     │\n│  │  [Title: NOTHING IRL]                          │     │\n│  │  [Privacy/terms explanation text block]        │     │\n│  │                                                 │     │\n│  │  [Learn More]  [Accept & continue →]           │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│               [HERO SECTION - Art Gallery]               │\n│      [Large minimalist image: figure in gallery]         │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  NOTHING IRL                                    │     │\n│  │  Take them of Push to Check in a call           │     │\n│  │  [User avatar]                                  │     │\n│  │  [Share your experience →]                      │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│           [PRODUCT SHOWCASE 1 - Phones Stack]            │\n│    [Large product photo: 3 phones stacked vertically,    │\n│     showing camera modules - pink, white, dark blue]     │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  PHONE (2a) plus                                │     │\n│  │  Drop in the moment with                        │     │\n│  │  Nothing's new Camera                           │     │\n│  │  [Share your experience →]                      │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│           [PRODUCT SHOWCASE 2 - Phones Angled]           │\n│    [Product photo: 3 phones at angles showing camera     │\n│     modules and backs - pink, white, blue]               │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  PHONE (2a)                                     │     │\n│  │  Get this Nothing exclusive Glyph                │     │\n│  │  wallpaper for free                             │     │\n│  │  [Share your experience →]                      │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│           [PRODUCT SHOWCASE 3 - Earbuds]                 │\n│    [Product photo: Coral/orange earbuds with case        │\n│     and buds displayed in 3D arrangement]                │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  CMF Buds Pro 2                                 │     │\n│  │  Ad-free weekend? Oh yes, from                  │     │\n│  │  [Product thumbnail]                            │     │\n│  │  [Share your experience →]                      │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│           [PRODUCT SHOWCASE 4 - Headphones]              │\n│    [Product photo: White/transparent headphones with     │\n│     black headband on light background]                  │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  HEADPHONES                                     │     │\n│  │  Original sound with turning up                 │     │\n│  │  [User avatar]                                  │     │\n│  │  [Share your experience →]                      │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│        [PRODUCT SHOWCASE 5 - Exploded View]              │\n│    [Gradient background: purple/green/pastel blend]      │\n│    [Product photo: Phone exploded view showing           │\n│     components, circuit boards, camera modules]          │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  NOTHING                                        │     │\n│  │  Open. Black, and true.                         │     │\n│  │  [Longer description text]                      │     │\n│  │  [Share your experience →]                      │     │\n│  └────────────────────────────────────────────────┘     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                    [FOOTER - Black]                      │\n│                                                          │\n│                        ABOUT                             │\n│                   NOTHING OS 3.0                         │\n│                     COMMUNITY                            │\n│                 CLUB NOTHING (R)                         │\n│                    PLAYGROUND                            │\n│                      OFFERS                              │\n│                                                          │\n│  ┌────────────────────────────────────────────────┐     │\n│  │  [Newsletter signup]                            │     │\n│  │  [Social media links]                           │     │\n│  │  [Legal links - Privacy, Terms, Cookies, etc]   │     │\n│  └────────────────────────────────────────────────┘     │\n│                                                          │\n│  [Language: English] [Currency] [Region]                 │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/MODAL (Top):\n- Background: Cream/beige pastel with soft gradient overlay\n- Modal: White card with clean typography, centered overlay\n- Buttons/CTAs: \"Learn More\" (text link, minimal) | \"Accept & continue →\" (solid black button, pill-shaped, white text)\n- Typography mood: Clean, sans-serif, modern\n- Colors observed: Cream, white, black accent\n\nHERO SECTION (Gallery):\n- Background: Dark gray wall with white panels/frames\n- Imagery: Minimalist photography, silhouette in modern gallery space\n- Card: White overlay card with text and avatar\n- Buttons/CTAs: \"Share your experience →\" (solid black button, rectangular)\n- Colors observed: Dark gray, white, black\n- Typography mood: Bold headlines, clean body text\n\nPRODUCT SHOWCASE 1 (Phones Stack):\n- Background: Pure white/light gray\n- Imagery: Product photography - premium phone stack showing camera details\n- Products shown: Pink, white, and dark blue phones with prominent camera modules\n- Card: White card overlay with product details\n- Buttons/CTAs: \"Share your experience →\" (solid black button)\n- Colors observed: Rose/pink, white, navy blue, black\n- Typography mood: Tech-focused, clean sans-serif\n\nPRODUCT SHOWCASE 2 (Phones Angled):\n- Background: Light neutral/white\n- Imagery: Dynamic product photography - phones at angles\n- Products: Same three phones showing rear cameras and Glyph interface\n- Card: White card with promotional text about exclusive wallpaper\n- Buttons/CTAs: \"Share your experience →\" (solid black button)\n- Colors observed: Pink, white, blue, black accents\n- Typography mood: Marketing-focused, friendly\n\nPRODUCT SHOWCASE 3 (Earbuds):\n- Background: Very light gray/white gradient\n- Imagery: 3D product photography - coral/orange earbuds\n- Products: Case, individual earbuds floating in artistic arrangement\n- Card: White card with product info and thumbnail\n- Buttons/CTAs: \"Share your experience →\" (solid black button)\n- Colors observed: Coral/orange (primary product color), white, black\n- Typography mood: Playful, modern\n\nPRODUCT SHOWCASE 4 (Headphones):\n- Background: Light blue-gray gradient\n- Imagery: Premium product photography - transparent/white headphones\n- Visual style: See-through design showing internal components\n- Card: White card with user avatar\n- Buttons/CTAs: \"Share your experience →\" (solid black button)\n- Colors observed: White, transparent materials, black accents, light blue background\n- Typography mood: Premium, tech-forward\n\nPRODUCT SHOWCASE 5 (Exploded View):\n- Background: Vibrant gradient (purple, green, yellow, pastel blend)\n- Imagery: Technical exploded view - phone components separated\n- Visual style: Engineering/technical illustration meets marketing\n- Shows: Circuit boards, camera modules, internal components\n- Card: White card with longer description text\n- Buttons/CTAs: \"Share your experience →\" (solid black button)\n- Colors observed: Gradient pastels, tech component colors (green PCB, black modules)\n- Typography mood: Technical but accessible\n\nFOOTER:\n- Background: Solid black\n- Typography: White text, uppercase navigation links\n- Layout: Multi-column layout with centered navigation sections\n- Buttons/CTAs: Newsletter signup (likely black/dark input field with submit)\n- Components: Newsletter form, social icons (white), legal links\n- Colors observed: Black background, white text\n- Typography mood: Minimal, corporate, clean\n- Additional elements: Language/currency/region selectors in footer bottom\n\nOVERALL DESIGN LANGUAGE:\n- Consistent use of white cards overlaying product photography\n- Black CTA buttons throughout (\"Share your experience →\" repeated pattern)\n- Mix of minimal photography and vibrant product shots\n- Clean, modern sans-serif typography\n- High contrast between sections (white/light backgrounds vs dark footer)\n- Product-focused with emphasis on camera technology and transparency aesthetic",
+        "insights": [
+          "Card-based overlay system with consistent frosted-glass aesthetic (frost-white-intense) creates visual continuity across all product showcases while maintaining readability over varied background imagery.",
+          "Constrained max-width of 512px (max-w-lg) creates a mobile-first vertical rhythm, centering content and ensuring comfortable reading width even on large desktop screens.",
+          "Full-viewport sections (min-h-svh) with snap-scroll behavior create deliberate, immersive product reveals; each section functions as a self-contained story beat with uniform card positioning at bottom."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Base Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The primary ink for typography across the site, establishing a sharp, high-contrast aesthetic.",
+              "when_to_use": [
+                "Global body typography",
+                "Promotional banner link underlines",
+                "Cookie consent primary CTA background"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Pure White",
+            "type": "Light",
+            "rules": {
+              "description": "The foundational surface and background color, providing a stark, minimalist canvas that lets product imagery stand out.",
+              "when_to_use": [
+                "Main page and section backgrounds (#F4F4F4)",
+                "Frosted glass product cards and navigation (#ffffffcc)",
+                "Reversed typography and icons in the dark footer",
+                "Faint ghost buttons in the footer (#ffffff0d)"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#E5E7EB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F4F4F4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EEEEEE",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.8639000000000001
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The brand's deliberate 'Pure Black', applied to heavy surface areas and primary interface components to create deep contrast.",
+              "when_to_use": [
+                "Footer section background",
+                "Product 'Discover' call-to-action buttons",
+                "Location modal typography and icons"
+              ]
+            },
+            "hex": "#040404",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0333
+          }
+        ],
+        "insights": [
+          "The brand relies on an ultra-minimalist, monochromatic design system, stripping away color entirely to let product hardware imagery take center stage.",
+          "Translucency is a foundational structural tool, utilizing semi-transparent white fills to create frosted glass product cards that overlay seamlessly onto background photography.",
+          "The palette subtly distinguishes between a strict #000000 for global document text and a deliberate #040404 ('pure-black') for heavy UI surfaces like the footer and primary buttons."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Ndot-Regular",
+              "role": "Display XXXL",
+              "specs": {
+                "size": "3.75rem",
+                "line_height": "1",
+                "font_weight": "55",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Display XXL",
+              "specs": {
+                "size": "3.75rem",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Display XL",
+              "specs": {
+                "size": "3rem",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "Display XXL / Category",
+              "specs": {
+                "size": "2.5rem",
+                "line_height": "1",
+                "font_weight": "55",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Display LG",
+              "specs": {
+                "size": "2.5rem",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Type Title",
+              "specs": {
+                "size": "2rem",
+                "line_height": "2.2rem",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Heading XL",
+              "specs": {
+                "size": "2rem",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "Display XL",
+              "specs": {
+                "size": "1.875rem",
+                "line_height": "1",
+                "font_weight": "57",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Type Headline",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "1.65rem",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Heading LG",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "1.1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "Type Logo",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.35rem",
+                "font_weight": "55",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "Type Product Name",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.25rem",
+                "font_weight": "55",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "Heading LG",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1",
+                "font_weight": "57",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Heading MD",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.2",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Location Title",
+              "specs": {
+                "size": "32px",
+                "line_height": "35.2px",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "H2 Subheading",
+              "specs": {
+                "size": "24px",
+                "line_height": "30px",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "H3 Store Locator",
+              "specs": {
+                "size": "20px",
+                "line_height": "21.6px",
+                "font_weight": "55",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "H3 Product Name",
+              "specs": {
+                "size": "20px",
+                "line_height": "20px",
+                "font_weight": "55",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text variants primarily utilizing the NType82 sans-serif.",
+          "variants": [
+            {
+              "name": "NType82-Regular",
+              "role": "Body LG",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.2",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Subheading LG",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Type Body",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.4rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Body SM",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "NType82-Regular",
+              "role": "Rendered Paragraphs",
+              "specs": {
+                "size": "16px",
+                "line_height": "22.4px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "NType82-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Arial",
+              "role": "Banner Body",
+              "specs": {
+                "size": "15px",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Monospace variants and third-party fallback (Arial) for buttons, badges, and smaller UI details.",
+          "variants": [
+            {
+              "name": "LatteraMonoLL",
+              "role": "Text Field / Text Mono LG",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.2rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "LatteraMonoLL",
+              "role": "Text Mono MD",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.25",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "LatteraMonoLL",
+              "role": "Text Mono SM",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1.25",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "LatteraMonoLL",
+              "role": "Type Callout / Text Mono XS",
+              "specs": {
+                "size": "0.6875rem",
+                "line_height": "0.75625rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "LatteraMonoLL",
+              "role": "Go To Text",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "LatteraMonoLL",
+              "role": "Location Notice",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "LatteraMonoLL",
+              "role": "Support / Footer links",
+              "specs": {
+                "size": "11px",
+                "line_height": "12.1px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "LatteraMonoLL, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Arial",
+              "role": "Banner Button",
+              "specs": {
+                "size": "16px",
+                "line_height": "22.4px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Arial",
+              "role": "Banner Data Processing Bold",
+              "specs": {
+                "size": "12px",
+                "line_height": "19.2px",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Arial",
+              "role": "Banner Data Processing",
+              "specs": {
+                "size": "12px",
+                "line_height": "19.2px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Small heading utilities scaling below typical H1-H6 use cases.",
+          "variants": [
+            {
+              "name": "Ndot-Regular",
+              "role": "Heading SM",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1",
+                "font_weight": "57",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Ndot-Regular",
+              "role": "Heading XS",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1",
+                "font_weight": "57",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "Ndot-Regular, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "Text transformations like `text-transform: uppercase` are used for technical and micro UI text (LatteraMonoLL) and headings (STORE LOCATOR). Lowercase is exclusively used to distinctively brand product names such as `ear ( 3a )` and `phone ( 4a )`.",
+        "insights": [
+          "The Nothing brand identity heavily leverages typography, notably using the distinctive dot-matrix `Ndot` font for hero typography, logos, and product names (often styled in lowercase or uppercase depending on context).",
+          "`NType82` is deployed as a high-contrast utilitarian sans-serif for body copy and secondary headings, providing modern structural clarity, and unusually lightweight weights (100) are utilized to create an airy visual balance against the technical aesthetics.",
+          "`LatteraMonoLL`, a monospace typeface, is strictly allocated for UI components, form fields, callouts, and functional labels, reinforcing a technical, code-like, and brutalist aesthetic."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "glass_blur",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Card Background",
+            "description": "Default white background for consent popups, cards, and containers",
+            "when_to_use": [
+              "Popup containers",
+              "Button backgrounds",
+              "Card surfaces",
+              "Modal overlays"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Backdrop Overlay",
+            "description": "Semi-transparent white backdrop for popup overlays (80% opacity)",
+            "when_to_use": [
+              "Modal backdrops",
+              "Popup backgrounds",
+              "Overlay screens"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Button Default",
+            "description": "Light grey background for standard buttons",
+            "when_to_use": [
+              "Standard buttons",
+              "Secondary actions",
+              "Default UI elements"
+            ],
+            "hex": "#EEEEEE"
+          },
+          {
+            "name": "Button Agree (Black)",
+            "description": "Pure black background for primary action buttons",
+            "when_to_use": [
+              "Primary CTAs",
+              "Agree buttons",
+              "Submit actions"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Radio Agree (Green)",
+            "description": "Green background for agree/accept radio options",
+            "when_to_use": [
+              "Accept toggles",
+              "Agree radio buttons",
+              "Positive confirmations"
+            ],
+            "hex": "#3D8548"
+          },
+          {
+            "name": "Radio Disagree (Red)",
+            "description": "Red background for disagree/reject radio options",
+            "when_to_use": [
+              "Reject toggles",
+              "Disagree radio buttons",
+              "Negative confirmations"
+            ],
+            "hex": "#E60000"
+          },
+          {
+            "name": "Greyscale Lightest",
+            "description": "Very light grey surface for backgrounds",
+            "when_to_use": [
+              "Page backgrounds",
+              "Section fills",
+              "Subtle containers"
+            ],
+            "hex": "#F4F4F4"
+          },
+          {
+            "name": "Greyscale 200",
+            "description": "Light grey for borders and dividers",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Subtle separators"
+            ],
+            "hex": "#D8D9D9"
+          },
+          {
+            "name": "Greyscale 900",
+            "description": "Dark grey for text and UI elements",
+            "when_to_use": [
+              "Body text",
+              "Secondary UI elements",
+              "Muted content"
+            ],
+            "hex": "#595A5A"
+          },
+          {
+            "name": "Greyscale Black",
+            "description": "Near-black for text and dark surfaces",
+            "when_to_use": [
+              "Headings",
+              "Primary text",
+              "Dark mode backgrounds"
+            ],
+            "hex": "#040404"
+          },
+          {
+            "name": "Greyscale DM Light",
+            "description": "Dark mode light background",
+            "when_to_use": [
+              "Dark mode page backgrounds",
+              "Dark mode containers"
+            ],
+            "hex": "#181818"
+          },
+          {
+            "name": "Greyscale DM Dark",
+            "description": "Dark mode dark background",
+            "when_to_use": [
+              "Dark mode cards",
+              "Dark mode overlays"
+            ],
+            "hex": "#040404"
+          },
+          {
+            "name": "Accent Red",
+            "description": "Brand red accent color",
+            "when_to_use": [
+              "Error states",
+              "Brand accents",
+              "Alert highlights"
+            ],
+            "hex": "#C8102E"
+          },
+          {
+            "name": "Accent Yellow",
+            "description": "Brand yellow accent color",
+            "when_to_use": [
+              "Highlights",
+              "Warnings",
+              "Brand accents"
+            ],
+            "hex": "#FFC700"
+          },
+          {
+            "name": "Accent Blue",
+            "description": "Brand blue accent color",
+            "when_to_use": [
+              "Links",
+              "Information",
+              "Brand accents"
+            ],
+            "hex": "#002F6C"
+          },
+          {
+            "name": "Glassmorphism Panel",
+            "description": "Frosted glass effect surface with backdrop blur (45px) and 80% opacity",
+            "when_to_use": [
+              "Header bars",
+              "Floating cards",
+              "Overlay panels",
+              "Product cards",
+              "Footer buttons"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Glassmorphism Grey Intense",
+            "description": "Dark frosted glass with 60% opacity and 45px blur",
+            "when_to_use": [
+              "Dark mode headers",
+              "Dark overlays",
+              "Dark mode floating panels"
+            ],
+            "hex": "#595A5A"
+          },
+          {
+            "name": "Glassmorphism Grey Low",
+            "description": "Subtle frosted glass with 5% opacity and 45px blur",
+            "when_to_use": [
+              "Subtle overlays",
+              "Hover states",
+              "Light backgrounds"
+            ],
+            "hex": "#595A5A"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Gradient to Bottom",
+            "description": "Tailwind utility gradient from top to bottom",
+            "when_to_use": [
+              "Fade overlays",
+              "Section transitions"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Gradient to Left",
+            "description": "Tailwind utility gradient from right to left",
+            "when_to_use": [
+              "Directional fades",
+              "Edge masks"
+            ],
+            "css_code": "linear-gradient(to left, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Gradient to Top",
+            "description": "Tailwind utility gradient from bottom to top",
+            "when_to_use": [
+              "Bottom fade overlays",
+              "Footer transitions"
+            ],
+            "css_code": "linear-gradient(to top, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Mask Gradient (Horizontal)",
+            "description": "Dynamic horizontal mask gradient with band effect using CSS variables",
+            "when_to_use": [
+              "Image masks",
+              "Reveal animations",
+              "Horizontal fade effects"
+            ],
+            "css_code": "linear-gradient(90deg,transparent calc(0 * 100% - var(--band-spread)),#000 calc(0 * 100%),transparent calc(0 * 100% + var(--band-spread)))"
+          },
+          {
+            "name": "Mask Gradient (Vertical)",
+            "description": "Vertical mask gradient with top and bottom fade zones",
+            "when_to_use": [
+              "Scroll masks",
+              "Vertical content fades",
+              "Overflow indicators"
+            ],
+            "css_code": "linear-gradient(to bottom,rgba(0,0,0,1),#000 24px,#000 calc(100% - 24px),rgba(0,0,0,1))"
+          },
+          {
+            "name": "Radial Mask (Circle)",
+            "description": "Circular radial mask creating a transparent center hole (mobile)",
+            "when_to_use": [
+              "Focus effects",
+              "Spotlight masks",
+              "Circular reveals"
+            ],
+            "css_code": "radial-gradient(165px at 50% 40%,#0000 100%,#000 0)"
+          },
+          {
+            "name": "Radial Mask (Circle Large)",
+            "description": "Larger circular radial mask (desktop breakpoint)",
+            "when_to_use": [
+              "Focus effects on larger screens",
+              "Spotlight masks",
+              "Circular reveals"
+            ],
+            "css_code": "radial-gradient(240px at 50% 40%,#0000 100%,#000 0)"
+          },
+          {
+            "name": "Greyscale Black Fade",
+            "description": "Gradient from greyscale black (60% opacity) to transparent",
+            "when_to_use": [
+              "Image overlays",
+              "Text contrast backgrounds"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "White Fade",
+            "description": "Gradient from white to transparent",
+            "when_to_use": [
+              "Light overlays",
+              "Section fades"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+          }
+        ],
+        "highlights": [
+          "Glassmorphism panels: backdrop-filter: blur(45px) with frost-white-intense (rgba(255,255,255,0.8)) for light mode headers and floating cards",
+          "Glassmorphism panels: backdrop-filter: blur(45px) with frost-grey-intense (rgba(89,90,90,0.6)) for dark mode headers and overlays",
+          "Soft box shadows on popups: 0 20px 50px rgba(0, 0, 0, 0.1)",
+          "Multiple shadow layers on cards: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1)",
+          "Custom grid dot pattern overlay with radial gradient dots (white 1px, transparent 1.5px) at 50% opacity with mix-blend-difference",
+          "Radial gradient masks for circular reveals at 165px (mobile) and 240px (desktop) centered at 50% 40%",
+          "Dynamic horizontal band mask using CSS variables for reveal animations",
+          "Consent popup exterior border with 8px border-radius and hsl(0deg 0% 100% / 80%) background",
+          "Frost effect variations: frost-white-low (5% opacity), frost-white-intense (80% opacity), frost-grey-low (5% opacity), frost-grey-intense (60% opacity)",
+          "Transition animations: 1.25s cubic-bezier(0.74,0,0.19,0.99) for band effects",
+          "Selection highlight: background greyscale-900 (#595A5A) with white text"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Offset Shadow",
+              "type": "drop",
+              "description": "Transparent placeholder shadow used for Tailwind ring offset calculations",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring offset calculations",
+                "Focus states"
+              ]
+            },
+            {
+              "name": "Radio Option Shadow",
+              "type": "drop",
+              "description": "Subtle offset shadow with 10% black opacity for radio button options",
+              "css_value": "1px 1px 0 0 rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Radio button options",
+                "Toggle controls",
+                "Selection UI"
+              ]
+            },
+            {
+              "name": "Focus Slider Shadow",
+              "type": "drop",
+              "description": "Subtle blue focus indicator shadow for slider toggle inputs",
+              "css_value": "0 0 1px #2196f3",
+              "when_to_use": [
+                "Focus states on sliders",
+                "Toggle inputs"
+              ]
+            },
+            {
+              "name": "Mobile Notice Shadow",
+              "type": "drop",
+              "description": "Directional shadow for mobile notice header/footer separation with 10% opacity",
+              "css_value": "0 -3px 10px -2px rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Mobile notice buttons",
+                "Scrollable content dividers",
+                "Footer separation"
+              ]
+            },
+            {
+              "name": "Popup Notice Header Shadow",
+              "type": "drop",
+              "description": "Downward-facing shadow for popup header indicating content scrolling beneath",
+              "css_value": "0 3px 10px -2px rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Popup headers",
+                "Logo containers",
+                "Content separation when scrolled"
+              ]
+            },
+            {
+              "name": "Exterior Border Floating Shadow",
+              "type": "drop",
+              "description": "Large soft elevation shadow for modal/popup containers with 10% opacity and 50px blur",
+              "css_value": "0 20px 50px rgba(0, 0, 0, 0.1)",
+              "when_to_use": [
+                "Modal containers",
+                "Cookie consent popups",
+                "Floating panels"
+              ]
+            },
+            {
+              "name": "Aside Panel Shadow",
+              "type": "drop",
+              "description": "Large diffuse shadow for slide-out aside panels",
+              "css_value": "0 0 50px #0000004d",
+              "when_to_use": [
+                "Cart aside",
+                "Slide-out panels",
+                "Side drawers"
+              ]
+            },
+            {
+              "name": "Card Shadow Custom",
+              "type": "drop",
+              "description": "Custom dual-layer shadow for elevated cards with 30% opacity",
+              "css_value": "0 0 25px -5px #0000004d,0 0 10px -6px #0000004d",
+              "when_to_use": [
+                "Elevated cards",
+                "Featured content"
+              ]
+            },
+            {
+              "name": "Focus Ring Shadow",
+              "type": "drop",
+              "description": "4px solid shadow ring for focus states",
+              "css_value": "0px 0px 0px 4px",
+              "when_to_use": [
+                "Focus indicators",
+                "Active states"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#EEEEEE",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#3F8964",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E60000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#3D8548",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#EBEBEB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DDD",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E6E2D7",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E7E2D6",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "dashed"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "video_background",
+          "scroll_reveal",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "scroll-left",
+            "css": "@keyframes scroll-left{0%{transform:translate(0)}to{transform:translate(-100%)}}",
+            "description": "Continuous horizontal scroll animation for marquee-style content, looping infinitely"
+          },
+          {
+            "name": "scroll-right",
+            "css": "@keyframes scroll-right{0%{transform:translate(0)}to{transform:translate(100%)}}",
+            "description": "Continuous horizontal scroll animation in reverse direction for alternating marquee rows"
+          },
+          {
+            "name": "spin",
+            "css": "@keyframes spin{to{transform:rotate(360deg)}}",
+            "description": "Full rotation animation for loading spinners"
+          },
+          {
+            "name": "pulse",
+            "css": "@keyframes pulse{50%{opacity:.5}}",
+            "description": "Pulsing opacity animation for loading states or attention indicators"
+          },
+          {
+            "name": "lds-ellipsis1",
+            "css": "@keyframes lds-ellipsis1{0%{transform:scale(0)}to{transform:scale(1)}}",
+            "description": "Scale-in animation for loading ellipsis dots in cookie consent popup"
+          },
+          {
+            "name": "lds-ellipsis2",
+            "css": "@keyframes lds-ellipsis2{0%{transform:translate(0)}to{transform:translate(19px)}}",
+            "description": "Horizontal translation for loading ellipsis middle dots"
+          },
+          {
+            "name": "lds-ellipsis3",
+            "css": "@keyframes lds-ellipsis3{0%{transform:scale(1)}to{transform:scale(0)}}",
+            "description": "Scale-out animation for loading ellipsis dots"
+          },
+          {
+            "name": "button-hover-transition",
+            "css": "transition: all 0.2s ease-in-out",
+            "description": "Smooth transition for button hover states including opacity and background changes"
+          },
+          {
+            "name": "image-opacity-transition",
+            "css": "transition-duration: 300ms; transition-property: opacity",
+            "description": "Fade-in transition for lazy-loaded product images"
+          },
+          {
+            "name": "footer-link-transition",
+            "css": "transition: opacity 0.1s ease",
+            "description": "Quick opacity transition for footer navigation link hover states"
+          },
+          {
+            "name": "accordion-content-transition",
+            "css": "transition: all .1s ease-in-out; transition-property: opacity, max-height, transform, visibility, padding-bottom",
+            "description": "Smooth expand/collapse animation for accordion content in cookie consent preferences"
+          },
+          {
+            "name": "radio-option-transition",
+            "css": "transition: background-color .2s, border-color .2s; transition-timing-function: ease",
+            "description": "Color transition for radio button options in consent forms"
+          }
+        ],
+        "insights": [
+          "The design system uses a strict monochromatic palette with #000000 for text and #040404 (Pure Black) for heavy UI surfaces, creating deep contrast against white/light backgrounds",
+          "Glassmorphism is a core visual pattern using 'frost-white-intense' classes with backdrop-blur for product cards and navigation overlays, creating depth without sacrificing readability",
+          "Button radius varies intentionally by context: rounded-md (6px) for product CTAs, rounded-lg (8px) for location selector, and rounded-none for cookie consent modal buttons - suggesting legacy third-party components vs native design system"
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Discover (Primary Dark)",
+            "usage": "Primary call-to-action button used on product cards throughout the homepage to direct users to product detail pages",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "LatteraMonoLL, sans-serif",
+                  "size": "11px",
+                  "padding": "16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#040404",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(4, 4, 4, 0.8)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#040404",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Support (Secondary Ghost)",
+            "usage": "Secondary ghost button used in footer for navigation links like Support, Newsletter, Business Sales Enquiries",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "LatteraMonoLL, sans-serif",
+                  "size": "11px",
+                  "padding": "16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(255, 255, 255, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(255, 255, 255, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Learn More → (Cookie Banner Secondary)",
+            "usage": "Secondary button in cookie consent modal for users who want to learn more about privacy options",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Arial, sans-serif",
+                  "size": "16px",
+                  "padding": "2px 25px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#EEEEEE",
+                "text_color": "#000000",
+                "border_color": "rgba(34, 34, 34, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#EEEEEE",
+                "text_color": "#000000",
+                "border_color": "rgba(34, 34, 34, 0.2)",
+                "border_width": "1px",
+                "opacity": "0.7",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#EEEEEE",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.4",
+                "cursor": "auto"
+              }
+            }
+          },
+          {
+            "name": "Agree and close (Cookie Banner Primary)",
+            "usage": "Primary CTA in cookie consent modal for users to accept cookies and close the banner",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Arial, sans-serif",
+                  "size": "16px",
+                  "padding": "2px 25px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(0, 0, 0, 0.3)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(0, 0, 0, 0.3)",
+                "border_width": "1px",
+                "opacity": "0.7",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.4",
+                "cursor": "auto"
+              }
+            }
+          },
+          {
+            "name": "Go to: United States (Location Selector Primary)",
+            "usage": "Primary CTA in location/region selection modal to redirect users to the appropriate regional store",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "LatteraMonoLL, sans-serif",
+                  "size": "14px",
+                  "padding": "24px 40px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#040404",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#040404",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.8",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#040404",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Stay on United Kingdom (Location Selector Secondary)",
+            "usage": "Secondary text button with underline in location modal allowing users to dismiss and stay on current regional store",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "LatteraMonoLL, sans-serif",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#595A5A",
+                "border_color": "#595A5A",
+                "border_width": "0px 0px 1px 0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#595A5A",
+                "border_color": "#595A5A",
+                "border_width": "0px 0px 1px 0px",
+                "opacity": "0.5",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#595A5A",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Navigation Close/Menu)",
+            "usage": "Circular or square icon-only buttons used in header navigation for menu, close, and other icon actions",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "16px",
+                  "padding": "16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.8",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Cookie banner buttons arranged horizontally with consistent spacing",
+          "spacing": "10px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "80px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/White",
+            "opacity": "0.8",
+            "blur": "backdrop-filter: blur(10px)"
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Product Card",
+            "description": "Frosted glass product card with product name, headline, thumbnail image, and CTA button. Uses frost-white-intense backdrop blur effect for glassmorphism.",
+            "when_to_use": [
+              "Homepage product showcases",
+              "Product feature sections",
+              "Landing page hero call-to-actions"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": []
+      },
+      "icons": [
+        {
+          "name": "Dot Matrix UI Icons",
+          "description": "Dot matrix / pixel art style UI icons used for functional controls and footer links",
+          "when_to_use": [
+            "Navigation",
+            "Footer Links",
+            "UI Controls"
+          ],
+          "format": "SVG",
+          "style": "Dot Matrix / Pixel",
+          "sizes": {
+            "small": "16px",
+            "medium": "16px"
+          },
+          "examples": [
+            {
+              "name": "close / cross",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"text-grey-darker dark:text-pure-white\"><path d=\"M5 4C5 3.44772 4.55228 3 4 3C3.44772 3 3 3.44772 3 4C3 4.55228 3.44772 5 4 5C4.55228 5 5 4.55228 5 4Z\" fill=\"currentColor\"></path><path d=\"M7 6C7 5.44772 6.55228 5 6 5C5.44772 5 5 5.44772 5 6C5 6.55228 5.44772 7 6 7C6.55228 7 7 6.55228 7 6Z\" fill=\"currentColor\"></path><path d=\"M9 8C9 7.44772 8.55228 7 8 7C7.44772 7 7 7.44772 7 8C7 8.55228 7.44772 9 8 9C8.55228 9 9 8.55228 9 8Z\" fill=\"currentColor\"></path><path d=\"M11 10C11 9.44772 10.5523 9 10 9C9.44772 9 9 9.44772 9 10C9 10.5523 9.44772 11 10 11C10.5523 11 11 10.5523 11 10Z\" fill=\"currentColor\"></path><path d=\"M13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12Z\" fill=\"currentColor\"></path><path d=\"M12 5C12.5523 5 13 4.55228 13 4C13 3.44772 12.5523 3 12 3C11.4477 3 11 3.44772 11 4C11 4.55228 11.4477 5 12 5Z\" fill=\"currentColor\"></path><path d=\"M10 7C10.5523 7 11 6.55228 11 6C11 5.44772 10.5523 5 10 5C9.44772 5 9 5.44772 9 6C9 6.55228 9.44772 7 10 7Z\" fill=\"currentColor\"></path><path d=\"M8 9C8.55228 9 9 8.55228 9 8C9 7.44772 8.55228 7 8 7C7.44772 7 7 7.44772 7 8C7 8.55228 7.44772 9 8 9Z\" fill=\"currentColor\"></path><path d=\"M6 11C6.55228 11 7 10.5523 7 10C7 9.44772 6.55228 9 6 9C5.44772 9 5 9.44772 5 10C5 10.5523 5.44772 11 6 11Z\" fill=\"currentColor\"></path><path d=\"M4 13C4.55228 13 5 12.5523 5 12C5 11.4477 4.55228 11 4 11C3.44772 11 3 11.4477 3 12C3 12.5523 3.44772 13 4 13Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "location / map pin",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"size-8\"><path d=\"M13 4C13.5523 4 14 3.55228 14 3C14 2.44772 13.5523 2 13 2C12.4477 2 12 2.44772 12 3C12 3.55228 12.4477 4 13 4Z\" fill=\"currentColor\"></path><path d=\"M11 2C11.5523 2 12 1.55228 12 1C12 0.447715 11.5523 2.41411e-08 11 0C10.4477 -2.41411e-08 10 0.447715 10 1C10 1.55228 10.4477 2 11 2Z\" fill=\"currentColor\"></path><path d=\"M9 2C9.55228 2 10 1.55228 10 1C10 0.447715 9.55228 2.41411e-08 9 0C8.44772 -2.41411e-08 8 0.447715 8 1C8 1.55228 8.44772 2 9 2Z\" fill=\"currentColor\"></path><path d=\"M7 2C7.55228 2 8 1.55228 8 1C8 0.447715 7.55228 2.41411e-08 7 0C6.44772 -2.41411e-08 6 0.447715 6 1C6 1.55228 6.44772 2 7 2Z\" fill=\"currentColor\"></path><path d=\"M5 2C5.55228 2 6 1.55228 6 1C6 0.447715 5.55228 2.41411e-08 5 0C4.44772 -2.41411e-08 4 0.447715 4 1C4 1.55228 4.44772 2 5 2Z\" fill=\"currentColor\"></path><path d=\"M3 8C3.55228 8 4 7.55228 4 7C4 6.44772 3.55228 6 3 6C2.44772 6 2 6.44772 2 7C2 7.55228 2.44772 8 3 8Z\" fill=\"currentColor\"></path><path d=\"M8 16C8.55228 16 9 15.5523 9 15C9 14.4477 8.55228 14 8 14C7.44772 14 7 14.4477 7 15C7 15.5523 7.44772 16 8 16Z\" fill=\"currentColor\"></path><path d=\"M9 14C9.55228 14 10 13.5523 10 13C10 12.4477 9.55228 12 9 12C8.44772 12 8 12.4477 8 13C8 13.5523 8.44772 14 9 14Z\" fill=\"currentColor\"></path><path d=\"M11 12C11.5523 12 12 11.5523 12 11C12 10.4477 11.5523 10 11 10C10.4477 10 10 10.4477 10 11C10 11.5523 10.4477 12 11 12Z\" fill=\"currentColor\"></path><path d=\"M5 12C5.55228 12 6 11.5523 6 11C6 10.4477 5.55228 10 5 10C4.44772 10 4 10.4477 4 11C4 11.5523 4.44772 12 5 12Z\" fill=\"currentColor\"></path><path d=\"M3 10C3.55228 10 4 9.55228 4 9C4 8.44772 3.55228 8 3 8C2.44772 8 2 8.44772 2 9C2 9.55228 2.44772 10 3 10Z\" fill=\"currentColor\"></path><path d=\"M13 10C13.5523 10 14 9.55228 14 9C14 8.44772 13.5523 8 13 8C12.4477 8 12 8.44772 12 9C12 9.55228 12.4477 10 13 10Z\" fill=\"currentColor\"></path><path d=\"M7 6C7.55228 6 8 5.55228 8 5C8 4.44772 7.55228 4 7 4C6.44772 4 6 4.44772 6 5C6 5.55228 6.44772 6 7 6Z\" fill=\"currentColor\"></path><path d=\"M9 6C9.55228 6 10 5.55228 10 5C10 4.44772 9.55228 4 9 4C8.44772 4 8 4.44772 8 5C8 5.55228 8.44772 6 9 6Z\" fill=\"currentColor\"></path><path d=\"M9 8C9.55228 8 10 7.55228 10 7C10 6.44772 9.55228 6 9 6C8.44772 6 8 6.44772 8 7C8 7.55228 8.44772 8 9 8Z\" fill=\"currentColor\"></path><path d=\"M7 8C7.55228 8 8 7.55228 8 7C8 6.44772 7.55228 6 7 6C6.44772 6 6 6.44772 6 7C6 7.55228 6.44772 8 7 8Z\" fill=\"currentColor\"></path><path d=\"M7 14C7.55228 14 8 13.5523 8 13C8 12.4477 7.55228 12 7 12C6.44772 12 6 12.4477 6 13C6 13.5523 6.44772 14 7 14Z\" fill=\"currentColor\"></path><path d=\"M3 6C3.55228 6 4 5.55228 4 5C4 4.44772 3.55228 4 3 4C2.44772 4 2 4.44772 2 5C2 5.55228 2.44772 6 3 6Z\" fill=\"currentColor\"></path><path d=\"M3 4C3.55228 4 4 3.55228 4 3C4 2.44772 3.55228 2 3 2C2.44772 2 2 2.44772 2 3C2 3.55228 2.44772 4 3 4Z\" fill=\"currentColor\"></path><path d=\"M13 6C13.5523 6 14 5.55228 14 5C14 4.44772 13.5523 4 13 4C12.4477 4 12 4.44772 12 5C12 5.55228 12.4477 6 13 6Z\" fill=\"currentColor\"></path><path d=\"M13 8C13.5523 8 14 7.55228 14 7C14 6.44772 13.5523 6 13 6C12.4477 6 12 6.44772 12 7C12 7.55228 12.4477 8 13 8Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "support / chevron",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5 4C5 3.44772 4.55228 3 4 3C3.44772 3 3 3.44772 3 4C3 4.55228 3.44772 5 4 5C4.55228 5 5 4.55228 5 4Z\" fill=\"currentColor\"></path><path d=\"M5 6C5 5.44772 4.55228 5 4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7C4.55228 7 5 6.55228 5 6Z\" fill=\"currentColor\"></path><path d=\"M7 2C7 1.44772 6.55228 1 6 1C5.44772 1 5 1.44772 5 2C5 2.55228 5.44772 3 6 3C6.55228 3 7 2.55228 7 2Z\" fill=\"currentColor\"></path><path d=\"M9 2C9 1.44772 8.55228 1 8 1C7.44772 1 7 1.44772 7 2C7 2.55228 7.44772 3 8 3C8.55228 3 9 2.55228 9 2Z\" fill=\"currentColor\"></path><path d=\"M11 2C11 1.44772 10.5523 1 10 1C9.44772 1 9 1.44772 9 2C9 2.55228 9.44772 3 10 3C10.5523 3 11 2.55228 11 2Z\" fill=\"currentColor\"></path><path d=\"M13 4C13 3.44772 12.5523 3 12 3C11.4477 3 11 3.44772 11 4C11 4.55228 11.4477 5 12 5C12.5523 5 13 4.55228 13 4Z\" fill=\"currentColor\"></path><path d=\"M13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7C12.5523 7 13 6.55228 13 6Z\" fill=\"currentColor\"></path><path d=\"M11 8C11 7.44772 10.5523 7 10 7C9.44772 7 9 7.44772 9 8C9 8.55228 9.44772 9 10 9C10.5523 9 11 8.55228 11 8Z\" fill=\"currentColor\"></path><path d=\"M9 10C9 9.44772 8.55228 9 8 9C7.44772 9 7 9.44772 7 10C7 10.5523 7.44772 11 8 11C8.55228 11 9 10.5523 9 10Z\" fill=\"currentColor\"></path><path d=\"M9 14C9 13.4477 8.55228 13 8 13C7.44772 13 7 13.4477 7 14C7 14.5523 7.44772 15 8 15C8.55228 15 9 14.5523 9 14Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "newsletter / envelope",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M6 4C6.55228 4 7 3.55228 7 3C7 2.44772 6.55228 2 6 2C5.44772 2 5 2.44772 5 3C5 3.55228 5.44772 4 6 4Z\" fill=\"currentColor\"></path><path d=\"M14 16C14.5523 16 15 15.5523 15 15C15 14.4477 14.5523 14 14 14C13.4477 14 13 14.4477 13 15C13 15.5523 13.4477 16 14 16Z\" fill=\"currentColor\"></path><path d=\"M14 12C14.5523 12 15 11.5523 15 11C15 10.4477 14.5523 10 14 10C13.4477 10 13 10.4477 13 11C13 11.5523 13.4477 12 14 12Z\" fill=\"currentColor\"></path><path d=\"M14 14C14.5523 14 15 13.5523 15 13C15 12.4477 14.5523 12 14 12C13.4477 12 13 12.4477 13 13C13 13.5523 13.4477 14 14 14Z\" fill=\"currentColor\"></path><path d=\"M14 8C14.5523 8 15 7.55228 15 7C15 6.44772 14.5523 6 14 6C13.4477 6 13 6.44772 13 7C13 7.55228 13.4477 8 14 8Z\" fill=\"currentColor\"></path><path d=\"M8 12C8.55228 12 9 11.5523 9 11C9 10.4477 8.55228 10 8 10C7.44772 10 7 10.4477 7 11C7 11.5523 7.44772 12 8 12Z\" fill=\"currentColor\"></path><path d=\"M6 10C6.55228 10 7 9.55228 7 9C7 8.44772 6.55228 8 6 8C5.44772 8 5 8.44772 5 9C5 9.55228 5.44772 10 6 10Z\" fill=\"currentColor\"></path><path d=\"M10 10C10.5523 10 11 9.55228 11 9C11 8.44772 10.5523 8 10 8C9.44772 8 9 8.44772 9 9C9 9.55228 9.44772 10 10 10Z\" fill=\"currentColor\"></path><path d=\"M14 10C14.5523 10 15 9.55228 15 9C15 8.44772 14.5523 8 14 8C13.4477 8 13 8.44772 13 9C13 9.55228 13.4477 10 14 10Z\" fill=\"currentColor\"></path><path d=\"M2 16C2.55228 16 3 15.5523 3 15C3 14.4477 2.55228 14 2 14C1.44772 14 1 14.4477 1 15C1 15.5523 1.44772 16 2 16Z\" fill=\"currentColor\"></path><path d=\"M2 10C2.55228 10 3 9.55228 3 9C3 8.44772 2.55228 8 2 8C1.44772 8 1 8.44772 1 9C1 9.55228 1.44772 10 2 10Z\" fill=\"currentColor\"></path><path d=\"M2 12C2.55228 12 3 11.5523 3 11C3 10.4477 2.55228 10 2 10C1.44772 10 1 10.4477 1 11C1 11.5523 1.44772 12 2 12Z\" fill=\"currentColor\"></path><path d=\"M2 14C2.55228 14 3 13.5523 3 13C3 12.4477 2.55228 12 2 12C1.44772 12 1 12.4477 1 13C1 13.5523 1.44772 14 2 14Z\" fill=\"currentColor\"></path><path d=\"M2 8C2.55228 8 3 7.55228 3 7C3 6.44772 2.55228 6 2 6C1.44772 6 1 6.44772 1 7C1 7.55228 1.44772 8 2 8Z\" fill=\"currentColor\"></path><path d=\"M4 6C4.55228 6 5 5.55228 5 5C5 4.44772 4.55228 4 4 4C3.44772 4 3 4.44772 3 5C3 5.55228 3.44772 6 4 6Z\" fill=\"currentColor\"></path><path d=\"M10 4C10.5523 4 11 3.55228 11 3C11 2.44772 10.5523 2 10 2C9.44772 2 9 2.44772 9 3C9 3.55228 9.44772 4 10 4Z\" fill=\"currentColor\"></path><path d=\"M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z\" fill=\"currentColor\"></path><path d=\"M12 16C12.5523 16 13 15.5523 13 15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15C11 15.5523 11.4477 16 12 16Z\" fill=\"currentColor\"></path><path d=\"M10 16C10.5523 16 11 15.5523 11 15C11 14.4477 10.5523 14 10 14C9.44772 14 9 14.4477 9 15C9 15.5523 9.44772 16 10 16Z\" fill=\"currentColor\"></path><path d=\"M8 2C8.55228 2 9 1.55228 9 1C9 0.447715 8.55228 2.41411e-08 8 0C7.44772 -2.41411e-08 7 0.447715 7 1C7 1.55228 7.44772 2 8 2Z\" fill=\"currentColor\"></path><path d=\"M8 16C8.55228 16 9 15.5523 9 15C9 14.4477 8.55228 14 8 14C7.44772 14 7 14.4477 7 15C7 15.5523 7.44772 16 8 16Z\" fill=\"currentColor\"></path><path d=\"M6 16C6.55228 16 7 15.5523 7 15C7 14.4477 6.55228 14 6 14C5.44772 14 5 14.4477 5 15C5 15.5523 5.44772 16 6 16Z\" fill=\"currentColor\"></path><path d=\"M4 16C4.55228 16 5 15.5523 5 15C5 14.4477 4.55228 14 4 14C3.44772 14 3 14.4477 3 15C3 15.5523 3.44772 16 4 16Z\" fill=\"currentColor\"></path></g></svg>"
+            },
+            {
+              "name": "caret / chevron down",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9 10C9 10.5523 8.55228 11 8 11C7.44772 11 7 10.5523 7 10C7 9.44772 7.44772 9 8 9C8.55228 9 9 9.44772 9 10Z\" fill=\"currentColor\"></path><path d=\"M11 8C11 8.55228 10.5523 9 10 9C9.44772 9 9 8.55228 9 8C9 7.44772 9.44772 7 10 7C10.5523 7 11 7.44772 11 8Z\" fill=\"currentColor\"></path><path d=\"M13 6C13 6.55228 12.5523 7 12 7C11.4477 7 11 6.55228 11 6C11 5.44772 11.4477 5 12 5C12.5523 5 13 5.44772 13 6Z\" fill=\"currentColor\"></path><path d=\"M7 8C7 8.55228 6.55228 9 6 9C5.44772 9 5 8.55228 5 8C5 7.44772 5.44772 7 6 7C6.55228 7 7 7.44772 7 8Z\" fill=\"currentColor\"></path><path d=\"M5 6C5 6.55228 4.55228 7 4 7C3.44772 7 3 6.55228 3 6C3 5.44772 3.44772 5 4 5C4.55228 5 5 5.44772 5 6Z\" fill=\"currentColor\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Primary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/primary.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/primary.png",
+            "origin_url": "https://cdn.sanity.io/media-libraries/mlnZYCoN2JXF/images/containers/38CqooTR9eOb7fKUKrLF3IAZ6dt/nothing-tech-logo-cookie-banner.png",
+            "description": "Nothing Tech Cookie Banner Logo"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon.svg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon.svg",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/favicon-red-Y_6swvx7.svg",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon.ico",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon.ico",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/favicon-D2Xec4jO.ico",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon-2.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon-2.png",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/favicon-red_32px-D2M2tjlT.png",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon.png",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/favicon-red_96x96-BGabpTxr.png",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon-3.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/logos/favicon-3.png",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/favicon-red_128px-Bkp3sDzU.png",
+            "description": "Detected from <link rel='icon'>."
+          }
+        ],
+        "media": [
+          {
+            "name": "04b62d522a73fb4e6c7128039d8c5fd926f6f7ba-4000x2250.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/04b62d522a73fb4e6c7128039d8c5fd926f6f7ba-4000x2250-webp.webp",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/04b62d522a73fb4e6c7128039d8c5fd926f6f7ba-4000x2250-webp.webp",
+            "origin_url": "https://cdn.sanity.io/images/gtd4w1cq/production/04b62d522a73fb4e6c7128039d8c5fd926f6f7ba-4000x2250.webp?auto=format",
+            "usage_context": "Background image for the ear ( 3a ) product showcase section"
+          },
+          {
+            "name": "product-thumbnail-pink.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/product-thumbnail-pink-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/product-thumbnail-pink-png.png",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/product-thumbnail-pink.png?v=1782317092",
+            "usage_context": "Thumbnail image of ear ( 3a ) in pink"
+          },
+          {
+            "name": "headphone-a-white-3_4-view-thumbnail.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/headphone-a-white-3-4-view-thumbnail-webp.webp",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/headphone-a-white-3-4-view-thumbnail-webp.webp",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/headphone-a-white-3_4-view-thumbnail.webp?v=1788847550",
+            "usage_context": "Thumbnail image of headphone ( a ) in white"
+          },
+          {
+            "name": "d537f4c841503edee2f704a0a279697e8a1ce909-4096x2305.jpg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/d537f4c841503edee2f704a0a279697e8a1ce909-4096x2305-jpg.jpg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/d537f4c841503edee2f704a0a279697e8a1ce909-4096x2305-jpg.jpg",
+            "origin_url": "https://cdn.sanity.io/images/gtd4w1cq/production/d537f4c841503edee2f704a0a279697e8a1ce909-4096x2305.jpg?auto=format",
+            "usage_context": "Background image for the phone ( 4a ) pro product showcase section"
+          },
+          {
+            "name": "Phone-4a-Pro-White.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/phone-4a-pro-white-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/phone-4a-pro-white-png.png",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/Phone-4a-Pro-White.png?v=1771948315",
+            "usage_context": "Thumbnail image of phone ( 4a ) pro in white"
+          },
+          {
+            "name": "d2a928661850d77fa8db5489eb53af14990639e8-4096x2305.jpg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/d2a928661850d77fa8db5489eb53af14990639e8-4096x2305-jpg.jpg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/d2a928661850d77fa8db5489eb53af14990639e8-4096x2305-jpg.jpg",
+            "origin_url": "https://cdn.sanity.io/images/gtd4w1cq/production/d2a928661850d77fa8db5489eb53af14990639e8-4096x2305.jpg?auto=format",
+            "usage_context": "Background image for the phone ( 4a ) product showcase section"
+          },
+          {
+            "name": "Phone-4a-White.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/phone-4a-white-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/phone-4a-white-png.png",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/Phone-4a-White.png?v=1771948069",
+            "usage_context": "Thumbnail image of phone ( 4a ) in white"
+          },
+          {
+            "name": "ff70ea539429586ca098b61ca9d6232e43cf5145-7592x4271.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/ff70ea539429586ca098b61ca9d6232e43cf5145-7592x4271-webp.webp",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/ff70ea539429586ca098b61ca9d6232e43cf5145-7592x4271-webp.webp",
+            "origin_url": "https://cdn.sanity.io/images/gtd4w1cq/production/ff70ea539429586ca098b61ca9d6232e43cf5145-7592x4271.webp?auto=format",
+            "usage_context": "Background image for the CMF Clip Pro product showcase section"
+          },
+          {
+            "name": "product-thumbnail-orange.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/product-thumbnail-orange-webp.webp",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/product-thumbnail-orange-webp.webp",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/product-thumbnail-orange.webp?v=1785149726",
+            "usage_context": "Thumbnail image of CMF Clip Pro in orange"
+          },
+          {
+            "name": "1cb755a0792e7ee8611c70b56e2f08fad95ce0d4-4096x2305.jpg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/1cb755a0792e7ee8611c70b56e2f08fad95ce0d4-4096x2305-jpg.jpg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/1cb755a0792e7ee8611c70b56e2f08fad95ce0d4-4096x2305-jpg.jpg",
+            "origin_url": "https://cdn.sanity.io/images/gtd4w1cq/production/1cb755a0792e7ee8611c70b56e2f08fad95ce0d4-4096x2305.jpg?auto=format",
+            "usage_context": "Background image for the headphone ( 1 ) product showcase section"
+          },
+          {
+            "name": "headphone-1-white-3_4-view-thumbnail.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/headphone-1-white-3-4-view-thumbnail-webp.webp",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/headphone-1-white-3-4-view-thumbnail-webp.webp",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/headphone-1-white-3_4-view-thumbnail.webp?v=1788847549",
+            "usage_context": "Thumbnail image of headphone ( 1 ) in white"
+          },
+          {
+            "name": "63f0a5870bac4035b50e56d6c8728d223a75aed0-3840x2160.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/63f0a5870bac4035b50e56d6c8728d223a75aed0-3840x2160-webp.webp",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/63f0a5870bac4035b50e56d6c8728d223a75aed0-3840x2160-webp.webp",
+            "origin_url": "https://cdn.sanity.io/images/gtd4w1cq/production/63f0a5870bac4035b50e56d6c8728d223a75aed0-3840x2160.webp?auto=format",
+            "usage_context": "Background image for the NOTHING OS 5.0 section"
+          },
+          {
+            "name": "cb5b80c89a9fda353482-gpc.large.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/cb5b80c89a9fda353482-gpc-large-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/cb5b80c89a9fda353482-gpc-large-png.png",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/cb5b80c89a9fda353482-gpc.large.png",
+            "usage_context": "Global Privacy Control large label background in privacy modal"
+          },
+          {
+            "name": "d8d7828e2df9a281bd96-gpc.icon.large.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/d8d7828e2df9a281bd96-gpc-icon-large-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/d8d7828e2df9a281bd96-gpc-icon-large-png.png",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/d8d7828e2df9a281bd96-gpc.icon.large.png",
+            "usage_context": "Global Privacy Control large icon in privacy modal"
+          },
+          {
+            "name": "6d53c29e73450d19e18a-gpc.medium.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/6d53c29e73450d19e18a-gpc-medium-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/6d53c29e73450d19e18a-gpc-medium-png.png",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/6d53c29e73450d19e18a-gpc.medium.png",
+            "usage_context": "Global Privacy Control medium label background in privacy modal"
+          },
+          {
+            "name": "2059cb26072bf78c2af3-gpc.icon.medium.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/2059cb26072bf78c2af3-gpc-icon-medium-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/2059cb26072bf78c2af3-gpc-icon-medium-png.png",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/2059cb26072bf78c2af3-gpc.icon.medium.png",
+            "usage_context": "Global Privacy Control medium icon in privacy modal"
+          },
+          {
+            "name": "73e53fb633306e475eef-gpc.small.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/73e53fb633306e475eef-gpc-small-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/73e53fb633306e475eef-gpc-small-png.png",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/73e53fb633306e475eef-gpc.small.png",
+            "usage_context": "Global Privacy Control small label background in privacy modal"
+          },
+          {
+            "name": "178a6780e8762f4b120b-gpc.icon.small.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/178a6780e8762f4b120b-gpc-icon-small-png.png",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/178a6780e8762f4b120b-gpc-icon-small-png.png",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/178a6780e8762f4b120b-gpc.icon.small.png",
+            "usage_context": "Global Privacy Control small icon in privacy modal"
+          },
+          {
+            "name": "b76a404a9fedcf3f2c2f-toggle-cross.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/b76a404a9fedcf3f2c2f-toggle-cross-svg.svg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/b76a404a9fedcf3f2c2f-toggle-cross-svg.svg",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/b76a404a9fedcf3f2c2f-toggle-cross.svg",
+            "usage_context": "Toggle cross icon used in the Didomi privacy consent slider"
+          },
+          {
+            "name": "0b30234b8ef077d3d0a4-toggle-check.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/0b30234b8ef077d3d0a4-toggle-check-svg.svg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/0b30234b8ef077d3d0a4-toggle-check-svg.svg",
+            "origin_url": "https://sdk.privacy-center.org/sdk/293825789bccfa76ed05739421d75bbfad80585f/modern/images/0b30234b8ef077d3d0a4-toggle-check.svg",
+            "usage_context": "Toggle check icon used in the Didomi privacy consent slider"
+          },
+          {
+            "name": "community_edition-DOgUasVx.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/community-edition-doguasvx-svg.svg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/community-edition-doguasvx-svg.svg",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/community_edition-DOgUasVx.svg",
+            "usage_context": "Community Edition badge or asset"
+          },
+          {
+            "name": "community_edition_left-DhyKu2OY.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/community-edition-left-dhyku2oy-svg.svg",
+            "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/site-assets/media/image/community-edition-left-dhyku2oy-svg.svg",
+            "origin_url": "https://cdn.shopify.com/oxygen-v2/43495/38485/80939/4487662/assets/community_edition_left-DhyKu2OY.svg",
+            "usage_context": "Community Edition badge or asset (left variation)"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Modal",
+          "layout_pattern": "Centered overlay",
+          "headline": "NOTHING IRL",
+          "subheadline": "With your agreement, we and our 26 partners...",
+          "components": [
+            {
+              "type": "logo",
+              "description": "Nothing tech logo in black, centered at top of modal"
+            },
+            {
+              "type": "button",
+              "description": "Learn More button - light gray background, black text, rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "Agree and close button - solid black background, white text, rounded corners"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "ear ( 3a )",
+          "subheadline": "...",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-screen minimalist photography - figure in white gallery space with large frames"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with product name, description, and pink earbuds thumbnail"
+            },
+            {
+              "type": "button",
+              "description": "Discover button - solid black, white text, rounded corners, full-width"
+            },
+            {
+              "type": "image",
+              "description": "Product thumbnail - pink earbuds, 128px square, top-right of card"
+            }
+          ]
+        },
+        {
+          "type": "Product Showcase",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "headphone ( a )",
+          "subheadline": "Five days of back-to-back tracks",
+          "components": [
+            {
+              "type": "video",
+              "description": "Full-screen mux-player background video, auto-playing and looping"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with product details and white headphones thumbnail"
+            },
+            {
+              "type": "button",
+              "description": "Discover button - solid black, white text, rounded corners"
+            },
+            {
+              "type": "image",
+              "description": "Product thumbnail - white/transparent headphones, 128px square"
+            }
+          ]
+        },
+        {
+          "type": "Product Showcase",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "phone ( 4a ) pro",
+          "subheadline": "Stay in the moment with Essential Notifications",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-screen product photography - white phone with camera modules visible"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with product name and white phone thumbnail"
+            },
+            {
+              "type": "button",
+              "description": "Discover button - solid black, white text, rounded corners"
+            },
+            {
+              "type": "image",
+              "description": "Product thumbnail - white phone, 128px square"
+            }
+          ]
+        },
+        {
+          "type": "Product Showcase",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "phone ( 4a )",
+          "subheadline": "Get live delivery updates with the new Glyph Bar",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-screen product photography - phone showing rear design and Glyph interface"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with product details and phone thumbnail"
+            },
+            {
+              "type": "button",
+              "description": "Discover button - solid black, white text, rounded corners"
+            },
+            {
+              "type": "image",
+              "description": "Product thumbnail - white phone, 128px square"
+            }
+          ]
+        },
+        {
+          "type": "Product Showcase",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "CMF Clip Pro",
+          "subheadline": "All-day comfort. Clip on. Keep on.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-screen product photography - orange earbuds with case in 3D arrangement"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with product name and orange earbuds thumbnail"
+            },
+            {
+              "type": "button",
+              "description": "Discover button - solid black, white text, rounded corners"
+            },
+            {
+              "type": "image",
+              "description": "Product thumbnail - orange earbuds, 128px square"
+            }
+          ]
+        },
+        {
+          "type": "Product Showcase",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "headphone ( 1 )",
+          "subheadline": "Custom sound with tuning by KEF",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-screen product photography - white headphones with black headband on light background"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with product details and white headphones thumbnail"
+            },
+            {
+              "type": "button",
+              "description": "Discover button - solid black, white text, rounded corners"
+            },
+            {
+              "type": "image",
+              "description": "Product thumbnail - white headphones 3/4 view, 128px square"
+            }
+          ]
+        },
+        {
+          "type": "Product Showcase",
+          "layout_pattern": "Full-screen with overlay card",
+          "headline": "NOTHING OS 5.0",
+          "subheadline": "Open Beta, out now",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-screen gradient background - purple/green/pastel blend with phone exploded view showing internal components"
+            },
+            {
+              "type": "card",
+              "description": "Frosted white overlay card with OS version and description"
+            },
+            {
+              "type": "button",
+              "description": "Learn more button - solid black, white text, rounded corners"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Centered multi-column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Vertical list of uppercase links - About, Nothing OS 5.0, Community, Club Nothing, Playground, Offers"
+            },
+            {
+              "type": "button",
+              "description": "Multiple frosted white buttons with icons - Support, Newsletter, Business Enquiries, Store, Language, Consent"
+            },
+            {
+              "type": "navigation",
+              "description": "Bottom navigation - Account, Contact, Careers, Legal links on left; Instagram, YouTube, X, TikTok on right"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

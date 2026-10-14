@@ -1,0 +1,1794 @@
+{
+  "company": "Airbnb",
+  "rank": 27,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://www.airbnb.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:52:18.357310Z",
+  "completed_at": "2026-10-08T15:15:43.471119Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Airbnb",
+        "tagline": null,
+        "source_url": "https://www.airbnb.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Travel / Hospitality / Marketplace",
+        "primary_purpose": "Drive accommodation bookings and travel service discovery through destination browsing and search",
+        "main_cta": "Search destinations",
+        "copy_tone": [
+          "Friendly",
+          "Inviting",
+          "Casual"
+        ],
+        "brand_signature": "Clean, minimal white interface with photography-forward content showcasing diverse global destinations. The design prioritizes visual browsing with card-based layouts, rounded corners, and a signature coral/pink accent color on the search button. Custom \"Airbnb Cereal\" typography maintains consistency across the platform.",
+        "visual_language": {
+          "keywords": [
+            "minimal",
+            "photography-centric",
+            "rounded",
+            "spacious",
+            "accessible",
+            "card-based"
+          ],
+          "accent_strategy": "Signature coral/pink (#FF385C) used sparingly but prominently on primary search CTA, creating strong visual hierarchy against the predominantly white and grey neutral palette.",
+          "highlights": "Guest favourite badges with subtle pill-shaped indicators, heart icons for wishlisting, and star ratings to surface social proof on listing cards"
+        },
+        "strategy": {
+          "target_audience": [
+            "Leisure travelers seeking unique accommodations and experiences globally",
+            "Budget-conscious to mid-range travelers looking for alternatives to traditional hotels",
+            "Experience seekers interested in local activities, services, and authentic destinations",
+            "Hosts and property owners considering listing their spaces"
+          ],
+          "executive_synthesis": "Airbnb's visual strategy prioritizes trust and aspiration through high-quality destination photography and social proof indicators (Guest favourite badges, ratings). The minimal, clutter-free interface removes friction from the booking journey while the prominent multi-category search (Homes, Experiences, Services) communicates platform breadth. The warm coral accent color humanizes the transaction, aligning with the brand's community-centric positioning of 'belonging anywhere.' Personalized destination recommendations create immediate relevance, reducing the cognitive load of travel planning."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The visual impression from the screenshot reveals a pristine, highly polished digital product interface dominated by pure white backgrounds, card-based layouts, and generous negative space. The design language is unmistakably modern digital-native UI with clean geometric shapes and zero texture.\n\n**Shape & Texture Analysis (Primary Signal):**\n- Texture classification: \"shadows_soft\" — the ONLY texture present is subtle drop shadows for elevation\n- Shape language: Rounded/Soft corners throughout (border-radius: 12px on cards, 50px pills on search bar)\n- No gradients visible in the UI chrome itself (gradients exist in brand assets but aren't applied to surfaces)\n- Completely flat card surfaces with no skeuomorphic depth\n\n**Color Evidence:**\n- Pure monochromatic palette: #FFFFFF (surface white), #222222 (ink black), #6C6C6C (muted gray)\n- Zero decorative color in the UI framework — color comes only from photography and the singular pink accent (#FF385C)\n- Bold, saturated primary accent color (Airbnb Rausch pink) used sparingly for CTAs\n\n**Typography Evidence:**\n- Sans-serif modern: \"Airbnb Cereal VF\" — a proprietary geometric sans-serif\n- Clean, rounded letterforms with consistent weight hierarchy (400-600 weights)\n- Typography drives visual hierarchy without decorative treatments\n\n**Layout Evidence:**\n- Grid-Based Strict: 12-column grid with systematic gutters (24px)\n- Generous Whitespace: Sections separated by 48-64px padding, no dividers\n- Card-based modularity with consistent aspect ratios\n\nThis matches the Flat Design taxonomy definition precisely: \"Digital-native clarity. 2D, no shadows, no gradients, no textures\" with \"Primary Colors, Warm Colors (bold, saturated)\" and \"Sans-Serif Modern, Geometric\" typography on a \"Grid-Based Strict, Generous Whitespace\" layout. The soft shadows are minimal elevation cues standard in mature Flat Design (post-2014 \"Flat 2.0\").",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier is strongly present as a tonal layer. The design communicates trust, reliability, and professional competence through: (1) extremely conservative color usage — nearly the entire interface is grayscale, letting content speak; (2) meticulous systematic spacing and grid adherence suggesting engineering precision; (3) proprietary custom typeface investment indicating enterprise-level brand maturity; (4) restrained emotional expression — no playful elements, illustrations, or personality beyond the functional. The cookie consent modal with \"Accept all\" / \"Only necessary\" buttons in stark black demonstrates the legal/corporate overlay. This is Flat Design deployed for maximum trustworthiness in a marketplace context where users need confidence to complete transactions."
+        }
+      },
+      "layout": {
+        "classification": [
+          "generous_whitespace",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "24px",
+          "max_width": "1440px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 743px (1 Column, 16px gutter)",
+          "tablet": "743.1px - 1127px (Variable columns, 24px gutter)",
+          "desktop": "1127.1px - 1439px (12 Columns, 24px gutter)",
+          "large": "1440px+ (12 Columns, 40px gutter)"
+        },
+        "section_separation": "Clean whitespace-driven separation with consistent vertical padding between major sections. No visible divider lines or background color alternation—white background throughout. Sections distinguished primarily by generous spacing (appears to be 48-64px vertical gaps) and subtle visual hierarchy through typography scale changes.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [Airbnb LOGO]    🌐All  Homes  Experiences  Services   │\n│                                  Become a host  [⚙] [☰] │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  ┌─────────────────────────────────────────────────┐    │\n│  │ Where           │  When        │  Who        │ [●]│  │\n│  │ Search dest...  │  Add dates   │  Add guests │    │  │\n│  └─────────────────────────────────────────────────┘    │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Destinations for you                              [→]  │\n│  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ...   │\n│  │ LA  │ │ SD  │ │ LV  │ │ TYO │ │ NYC │ │ PAR │       │\n│  │[img]│ │[img]│ │[img]│ │[img]│ │[img]│ │[img]│       │\n│  └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Find services near you                                 │\n│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌──────┐  │\n│  │Car hire│ │Photo   │ │Cleaning│ │Home    │ │Spa...│  │\n│  └────────┘ └────────┘ └────────┘ └────────┘ └──────┘  │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Stay in Lake Tahoe  →                                  │\n│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐    │\n│  │Guest fav. ♡ │ │Guest fav. ♡ │ │Guest fav. ♡ │    │\n│  │ [Cabin img]  │ │ [Home img]   │ │ [Home img]   │    │\n│  │ South Lake T │ │ South Lake T │ │ South Lake T │    │\n│  │ £590 ★4.83  │ │ £1247 ★4.97 │ │ £837 ★5.0   │    │\n│  └──────────────┘ └──────────────┘ └──────────────┘    │\n│                                                          │\n│  ┌─────────────────────────────────────────────────┐    │\n│  │  Help us improve your experience                │    │\n│  │  [Cookie policy text...]                        │    │\n│  │  [Accept all] [Only necessary] [Manage prefs]   │    │\n│  └─────────────────────────────────────────────────┘    │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/NAV:\n- Background: White, clean minimal\n- Logo: Airbnb logo in pink/coral (#FF385C)\n- Navigation: Horizontal tabs with globe icon \"All\", text links \"Homes\", \"Experiences\", \"Services\"\n- Buttons/CTAs: \"Become a host\" (text link, black), user icon (circle outline), hamburger menu icon (three lines)\n- Colors observed: White background, pink logo, black/gray text\n- Typography mood: Clean, sans-serif, minimal\n\nSEARCH BAR:\n- Background: White rounded pill-shaped container with subtle shadow\n- Components: Three input sections (Where/When/Who) separated by vertical dividers\n- Buttons/CTAs: Red/pink circular search button (●) on far right\n- Colors observed: White surface, light gray dividers, pink/red search button\n- Typography mood: Light gray placeholder text, clean sans-serif\n\nDESTINATIONS CAROUSEL:\n- Background: White surface\n- Imagery: Rounded-corner photo cards showing city landmarks (palm trees for LA, coastline for SD, Vegas skyline, Tokyo architecture, Brooklyn Bridge for NYC, Eiffel Tower for Paris, Seattle Space Needle)\n- Components: Horizontally scrolling card grid, right arrow navigation\n- Colors observed: Natural photography colors, warm sunset tones\n- Typography mood: Bold city names, light descriptive text below\n- Layout: 6+ cards visible, more accessible via scroll\n\nSERVICES SECTION:\n- Background: White surface\n- Components: Gray placeholder boxes in horizontal row\n- Text labels: \"Car hire\", \"Photography\", \"Cleaning\", \"Home improvement\", \"Spa treatments\", \"Catering\"\n- Colors observed: Light gray boxes, black text\n- Typography mood: Simple, sans-serif labels\n\nLAKE TAHOE LISTINGS:\n- Background: White surface\n- Components: Property cards with images, \"Guest favourite\" badges with heart icons\n- Imagery: Property photos (cabins, homes)\n- Text: Location names, date ranges, prices (£), star ratings\n- Colors observed: Property images, white cards, gray text, black hearts\n- Typography mood: Mixed weights - bold for location, regular for details\n\nCOOKIE MODAL (overlay):\n- Background: White modal with subtle shadow, centered overlay\n- Text: Cookie policy explanation in gray\n- Buttons/CTAs: \"Accept all\" (black filled button), \"Only necessary\" (black filled button), \"Manage preferences\" (text link underlined)\n- Colors observed: White modal background, black buttons, gray text\n- Typography mood: Regular body text, medium weight for buttons",
+        "insights": [
+          "Airbnb's homepage employs generous whitespace and card-based modularity to create a clean, breathable layout. The fixed header with pill-shaped search bar establishes a strong horizontal rhythm that carries through the entire page.",
+          "Visual hierarchy is achieved through typography scale and weight variation rather than color or structural dividers—section headlines are bold and larger, while property cards use mixed weights (bold location, regular details) to guide the eye.",
+          "The layout demonstrates responsive sophistication: breakpoints adjust column counts dynamically (mobile 1-col, tablet variable, desktop 3-col grid for listings), and the search bar transforms between compact and expanded states based on viewport and interaction.",
+          "Cards maintain consistent aspect ratios and internal padding across all sections (destinations, services, listings), creating a unified compositional language. The 'Guest favourite' badge overlay pattern adds Z-axis depth without disrupting the flat, minimal aesthetic."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The primary text and active icon color, ensuring high legibility across the interface.",
+              "when_to_use": [
+                "Primary body and heading text",
+                "Active search tab underline",
+                "Primary interface icon strokes"
+              ]
+            },
+            "hex": "#222222",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#29211F",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1
+          },
+          {
+            "name": "Muted Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A secondary text color used for placeholders, deactivated elements, and supporting details.",
+              "when_to_use": [
+                "Unselected search tab text",
+                "Search input placeholders",
+                "Listing card subtitles and ratings"
+              ]
+            },
+            "hex": "#6C6C6C",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#71645E",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.086
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Surface White",
+            "type": "Light",
+            "rules": {
+              "description": "The foundational background color for the page and elevated interactive components.",
+              "when_to_use": [
+                "Main page background",
+                "Search bar container background",
+                "Hover and interaction button backgrounds (as light gray tints)",
+                "Guest favorite floating badge backgrounds"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#F2F2F2",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EBEBEB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F4F2EC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F8F8F8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F5EDE7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FCEFE8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EDDFD8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F9F2EE",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.019000000000000003
+          },
+          {
+            "name": "Divider Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A structural color used for thin borders, structural dividers, and image placeholders.",
+              "when_to_use": [
+                "Search input separators",
+                "Listing image placeholder backgrounds",
+                "Search bar borders",
+                "Disabled carousel arrow icons"
+              ]
+            },
+            "hex": "#C1C1C1",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#DDDDDD",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E8D9D1",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#DDCEC9",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0188
+          },
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Used exclusively with varying opacities to create shadows, backdrops, and translucent icons.",
+              "when_to_use": [
+                "Component drop shadows",
+                "Page-level background overlays",
+                "Translucent heart icon fills on listing cards"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0055
+          }
+        ],
+        "insights": [
+          "The palette is entirely monochromatic and neutral, intentionally stepping back so that the user's attention is drawn completely to the colorful property photography.",
+          "Hierarchy is achieved entirely through grayscale contrast, distinguishing primary text from metadata using stark black versus muted gray.",
+          "Depth is created subtly by layering clean white cards over white backgrounds using delicate, translucent black drop shadows rather than solid borders."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Title Semibold 22/26",
+              "specs": {
+                "size": "var(--typography-titles-semibold_22_26-font-size)",
+                "line_height": "var(--typography-titles-semibold_22_26-line-height)",
+                "font_weight": "var(--typography-titles-semibold_22_26-font-weight)",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Title Semibold 18/24",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.5rem",
+                "font_weight": "var(--typography-titles-semibold_18_24-font-weight)",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Section Title / H2",
+              "specs": {
+                "size": "14px",
+                "line_height": "20.02px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text variants used for general content and descriptions.",
+          "variants": [
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Body Medium",
+              "specs": {
+                "size": "16px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Body Regular",
+              "specs": {
+                "size": "14px",
+                "line_height": "20.02px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian styles used for metadata, pricing, badges, and separators on cards.",
+          "variants": [
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Subtitle / Meta Label",
+              "specs": {
+                "size": "0.8125rem",
+                "line_height": "1rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Pricing Unit Price",
+              "specs": {
+                "size": "12px",
+                "line_height": "16px",
+                "font_weight": "var(--pricing-guest-primary-line-unit-price-font-weight,var(--typography-weight-semibold600))",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Pricing Qualifier",
+              "specs": {
+                "size": "min(var(--pricing-guest-primary-line-qualifier-font-size,15px),16Px)",
+                "line_height": "var(--pricing-guest-primary-line-qualifier-line-height,18px)",
+                "font_weight": "var(--pricing-guest-primary-line-qualifier-font-weight,var(--typography-weight-book400))",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Dot Separator",
+              "specs": {
+                "size": "var(--dot-separator_font-size,inherit)",
+                "line_height": "16px",
+                "font_weight": "bold",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Airbnb Cereal VF",
+              "role": "Badge / Guest Favorite",
+              "specs": {
+                "size": "0.6875rem",
+                "line_height": "0.8125rem",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Miscellaneous or unclassified typography usage.",
+          "variants": []
+        },
+        "highlights": "No special highlight text treatments like brush strokes or marker underlines observed in this scope.",
+        "insights": [
+          "The typography system exclusively relies on the proprietary 'Airbnb Cereal VF' variable font, ensuring a highly cohesive and distinct brand voice across all touchpoints.",
+          "Extensive use of CSS custom properties with built-in fallbacks (e.g., var(--pricing-guest-primary-line-unit-price-font-weight, var(--typography-weight-semibold600))) allows for highly modular and dynamic text scaling.",
+          "Micro-typography relies on precise sub-rem measurements (such as 0.6875rem for badges and 0.8125rem for secondary metadata) to guarantee legibility while maintaining high information density on listing cards."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Primary Background",
+            "description": "Main body background color",
+            "when_to_use": [
+              "Page backgrounds",
+              "Card surfaces",
+              "Default content areas"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Text Primary",
+            "description": "Primary text color",
+            "when_to_use": [
+              "Body text",
+              "Headings",
+              "Primary labels"
+            ],
+            "hex": "#222222"
+          },
+          {
+            "name": "Grey 200",
+            "description": "Light grey surface for subtle UI elements",
+            "when_to_use": [
+              "Button backgrounds",
+              "Icon button fills",
+              "Disabled states"
+            ],
+            "hex": "#EBEBEB"
+          },
+          {
+            "name": "Grey 300",
+            "description": "Mid-light grey for hover states",
+            "when_to_use": [
+              "Hover backgrounds",
+              "Secondary borders"
+            ],
+            "hex": "#D9D9D9"
+          },
+          {
+            "name": "Grey 500",
+            "description": "Mid grey for disabled elements",
+            "when_to_use": [
+              "Disabled text",
+              "Disabled borders"
+            ],
+            "hex": "#717171"
+          },
+          {
+            "name": "Grey 1000",
+            "description": "Darkest grey for high-contrast elements",
+            "when_to_use": [
+              "Primary text",
+              "High-contrast UI elements"
+            ],
+            "hex": "#222222"
+          },
+          {
+            "name": "Grey 100",
+            "description": "Very light grey for active states",
+            "when_to_use": [
+              "Active button backgrounds"
+            ],
+            "hex": "#F7F7F7"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Rausch Gradient (Core)",
+            "description": "Primary brand gradient, left to right with Airbnb signature pink to magenta",
+            "when_to_use": [
+              "Primary brand accents",
+              "Core theme gradients"
+            ],
+            "css_code": "linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%)"
+          },
+          {
+            "name": "Rausch Gradient (Core RTL)",
+            "description": "Primary brand gradient, right to left for RTL languages",
+            "when_to_use": [
+              "Primary brand accents in RTL layouts"
+            ],
+            "css_code": "linear-gradient(to left,#E61E4D 0%,#E31C5F 50%,#D70466 100%)"
+          },
+          {
+            "name": "Plus Gradient",
+            "description": "Deeper premium gradient for Plus tier",
+            "when_to_use": [
+              "Plus tier branding",
+              "Premium feature highlights"
+            ],
+            "css_code": "linear-gradient(to right,#BD1E59 0%,#92174D 50%,#861453 100%)"
+          },
+          {
+            "name": "Plus Gradient (RTL)",
+            "description": "Plus gradient for RTL languages",
+            "when_to_use": [
+              "Plus tier branding in RTL layouts"
+            ],
+            "css_code": "linear-gradient(to left,#BD1E59 0%,#92174D 50%,#861453 100%)"
+          },
+          {
+            "name": "Plus Radial Gradient",
+            "description": "Radial gradient with deep magenta to purple for Plus spotlight effects",
+            "when_to_use": [
+              "Plus tier spotlight effects",
+              "Premium radial accents"
+            ],
+            "css_code": "radial-gradient(circle at center,#D70466 0%,#BD1E59 30%,#92174D 55%,#861453 72.5%,#6C0D63 90%,#6C0D63 100%)"
+          },
+          {
+            "name": "Core Hover Radial",
+            "description": "Radial gradient for core hover states with brighter center",
+            "when_to_use": [
+              "Interactive hover states",
+              "Button hover effects"
+            ],
+            "css_code": "radial-gradient(circle at center,#FF385C 0%,#E61E4D 27.5%,#E31C5F 40%,#D70466 57.5%,#BD1E59 75%,#BD1E59 100%)"
+          },
+          {
+            "name": "Luxe Hover Radial",
+            "description": "Radial gradient for luxe tier hover states",
+            "when_to_use": [
+              "Luxe tier hover effects",
+              "Premium interactive elements"
+            ],
+            "css_code": "radial-gradient(circle at center,#FF385C 0%,#E61E4D 30%,#E31C5F 55%,#D70466 72.5%,#BD1E59 90%,#BD1E59 100%)"
+          }
+        ],
+        "highlights": [
+          "Soft shadows used throughout UI for card elevation (e.g., box-shadow with large blur radius)",
+          "Subtle border effects on buttons and interactive elements (1px borders in grey tones)",
+          "Rounded corners on all major UI components (border-radius: 12px, 50px for pills)",
+          "Backdrop blur effects on glassmorphism elements (though not actively visible in default state)",
+          "Transform scale animations on interactive elements for press states"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Elevation Level 0 (Border Inset)",
+              "type": "inset",
+              "description": "1px inset border shadow using #DDDDDD. Creates a subtle inner border effect for flat elements that need definition without appearing raised.",
+              "css_value": "0px 0px 0px 1px #DDDDDD inset",
+              "when_to_use": [
+                "Input fields",
+                "Cards at rest",
+                "Flat containers with border definition"
+              ]
+            },
+            {
+              "name": "Tertiary Elevation",
+              "type": "drop",
+              "description": "18% opacity black / Blur: 4px / Y-offset: 2px. Subtle shadow for minimal lift.",
+              "css_value": "0 2px 4px rgba(0,0,0,0.18)",
+              "when_to_use": [
+                "Small UI elements",
+                "Badges",
+                "Lightweight hover states"
+              ]
+            },
+            {
+              "name": "Secondary Elevation",
+              "type": "drop",
+              "description": "12% opacity black / Blur: 16px / Y-offset: 6px. Medium elevation for interactive elements.",
+              "css_value": "0 6px 16px rgba(0,0,0,0.12)",
+              "when_to_use": [
+                "Dropdowns",
+                "Popovers",
+                "Tooltips"
+              ]
+            },
+            {
+              "name": "High Elevation",
+              "type": "drop",
+              "description": "28% opacity black / Blur: 28px / Y-offset: 8px. Strong elevation for prominent floating elements.",
+              "css_value": "0 8px 28px rgba(0,0,0,0.28)",
+              "when_to_use": [
+                "Modals",
+                "Dialogs",
+                "Overlays"
+              ]
+            },
+            {
+              "name": "Primary Elevation",
+              "type": "drop",
+              "description": "20% opacity black / Blur: 20px / Y-offset: 6px. Standard elevated shadow for cards and panels.",
+              "css_value": "0 6px 20px rgba(0,0,0,0.2)",
+              "when_to_use": [
+                "Cards",
+                "Floating panels",
+                "Expanded search bars"
+              ]
+            },
+            {
+              "name": "Focus Ring (Composite)",
+              "type": "drop",
+              "description": "Complex composite shadow for focus states: 4% opacity subtle shadow, 20% primary elevation, plus 2px white and 4px dark focus rings.",
+              "css_value": "0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 6px 20px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff, 0 0 0 4px #222222",
+              "when_to_use": [
+                "Focus states",
+                "Skip to content links",
+                "Keyboard navigation indicators"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#DDDDDD",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#222222",
+            "width": "4px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "carousel",
+          "sticky_header",
+          "hover_transform",
+          "tab_switching"
+        ],
+        "animations": [
+          {
+            "name": "p2-stays-map-fade-out",
+            "css": "@keyframes p2-stays-map-fade-out{0%{opacity:1}to{opacity:0}}",
+            "description": "Fade out animation for map transitions on stays page"
+          },
+          {
+            "name": "p2-stays-map-fade-in",
+            "css": "@keyframes p2-stays-map-fade-in{0%{opacity:0}to{opacity:1}}",
+            "description": "Fade in animation for map transitions on stays page"
+          },
+          {
+            "name": "p2-stays-map-icon-exit",
+            "css": "@keyframes p2-stays-map-icon-exit{to{filter:blur(8px);transform:scale(.6)}}",
+            "description": "Exit animation for map control icons with blur and scale down effect"
+          },
+          {
+            "name": "p2-stays-map-icon-enter",
+            "css": "@keyframes p2-stays-map-icon-enter{0%{filter:blur(8px);transform:scale(.6)}}",
+            "description": "Enter animation for map control icons transitioning from blurred and scaled state"
+          },
+          {
+            "name": "p2-stays-map-feed-recede",
+            "css": "@keyframes p2-stays-map-feed-recede{0%{scale:1}to{scale:.94}}",
+            "description": "Scale down animation when map expands, feed content recedes"
+          },
+          {
+            "name": "p2-stays-map-feed-restore",
+            "css": "@keyframes p2-stays-map-feed-restore{0%{scale:.94}to{scale:1}}",
+            "description": "Scale restore animation when map collapses, feed content returns to normal"
+          },
+          {
+            "name": "view-transition-springs",
+            "css": "",
+            "description": "JS-driven spring animations using CSS variables (--motion-springs-standard-easing, --motion-springs-fast-easing) for view transitions between map expand/collapse states"
+          },
+          {
+            "name": "tab-underline-slide",
+            "css": "",
+            "description": "JS-driven animation for the tab underline indicator that slides horizontally between navigation tabs (All, Homes, Experiences, Services)"
+          }
+        ],
+        "insights": [
+          "Airbnb uses a highly minimalist monochromatic palette where components step back to let photography be the hero, with sharp corners on most UI elements and rounded corners reserved for interactive components like search bars and cards.",
+          "The design system employs sophisticated view transition APIs with spring-based easing for map interactions, showing advanced use of CSS @keyframes combined with JS-driven motion for complex state changes.",
+          "Button hierarchy is established through fill styles rather than color variation - primary actions use solid black fills while tertiary actions use transparent backgrounds with hover state reveals, maintaining the neutral palette throughout."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Accept all (Primary Filled)",
+            "usage": "Primary action in cookie consent modal, accepting all cookies",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Airbnb Cereal VF",
+                  "size": "16px",
+                  "padding": "0px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#222222",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#222222",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Only necessary (Secondary Filled)",
+            "usage": "Secondary action in cookie consent modal, accepting only necessary cookies",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Airbnb Cereal VF",
+                  "size": "16px",
+                  "padding": "0px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#222222",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#222222",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Become a host (Tertiary Text)",
+            "usage": "Navigation action in header for hosts to access hosting features",
+            "specs": {
+              "radius": "rounded-xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Airbnb Cereal VF",
+                  "size": "14px",
+                  "padding": "11px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--palette-bg-primary-hover)",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Search (Circular Icon)",
+            "usage": "Primary search action button in the search bar, triggers search functionality",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Airbnb Cereal VF",
+                  "size": "16px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FF385C",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E31C5F",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FF385C",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular)",
+            "usage": "Circular icon-only buttons used for user menu, hamburger navigation, and carousel navigation arrows",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Airbnb Cereal VF",
+                  "size": "14px",
+                  "padding": "0px"
+                },
+                {
+                  "name": "Small",
+                  "font": "Airbnb Cereal VF",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F2F2F2",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--palette-grey300)",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F2F2F2",
+                "text_color": "#C1C1C1",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Heart/Favorite (Transparent Icon)",
+            "usage": "Wishlist/favorite action button overlaid on property listing cards",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Airbnb Cereal VF",
+                  "size": "16px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#222222",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Cookie consent modal uses horizontal button layout with equal-width buttons",
+          "spacing": "16px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "80px",
+          "position": "relative",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Secondary/Surface White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Icon Tab with Underline",
+          "description": "Tabs with icon images and text labels, featuring an animated underline indicator that moves between active tabs.",
+          "when_to_use": [
+            "Main category navigation (All, Homes, Experiences, Services)",
+            "Search type switching",
+            "Content filtering by category"
+          ],
+          "states": [
+            {
+              "name": "selected",
+              "visual_change": "Black underline indicator appears below tab, text remains dark",
+              "background": null,
+              "text": "#222222",
+              "icon": null
+            },
+            {
+              "name": "unselected",
+              "visual_change": "No underline, text appears with same color but visually subordinate",
+              "background": null,
+              "text": "#222222",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Destination Card",
+            "description": "Vertical card showing destination image with city name and description below. Uses rounded corners on images with location details.",
+            "when_to_use": [
+              "Destinations for you carousel",
+              "Suggested travel destinations",
+              "Category browsing"
+            ]
+          },
+          {
+            "name": "Property Listing Card",
+            "description": "Vertical card showing property image, Guest favourite badge, heart icon overlay, property title, pricing info, and star rating. Images use rounded corners.",
+            "when_to_use": [
+              "Stay in [Location] carousels",
+              "Search results",
+              "Featured listings"
+            ]
+          },
+          {
+            "name": "Service Category Card",
+            "description": "Simple card with icon/image placeholder and service label below, used for services like Car hire, Photography, Spa treatments.",
+            "when_to_use": [
+              "Find services near you section",
+              "Service category browsing"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Search Bar Section Divider",
+            "description": "Subtle vertical divider separating search input sections (Where, When, Who) in the pill-shaped search bar",
+            "when_to_use": [
+              "Between search bar input segments",
+              "Visual separation of search criteria"
+            ],
+            "color": "#DDDDDD",
+            "height": "32px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Line Art UI Icons",
+          "description": "Primary line art icon set used for navigation, controls, and general UI actions.",
+          "when_to_use": [
+            "Navigation bars",
+            "Buttons and links",
+            "Search inputs",
+            "Modals and overlays"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "12px",
+            "medium": "16px"
+          },
+          "examples": [
+            {
+              "name": "Search",
+              "svg_code": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;fill:none;height:16px;width:16px;stroke:currentColor;stroke-width:4;overflow:visible\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\"><path d=\"m20.666 20.666 10 10\"></path><path d=\"m24.0002 12.6668c0 6.2593-5.0741 11.3334-11.3334 11.3334-6.2592 0-11.3333-5.0741-11.3333-11.3334 0-6.2592 5.0741-11.3333 11.3333-11.3333 6.2593 0 11.3334 5.0741 11.3334 11.3333z\" fill=\"none\"></path></svg>"
+            },
+            {
+              "name": "Globe / Language",
+              "svg_code": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;fill:none;height:24px;width:24px;stroke:currentColor;stroke-width:2.6666666666666665;overflow:visible\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\"><g fill=\"none\"><circle cx=\"16\" cy=\"16\" r=\"14\"></circle><path d=\"m26.46 25.62c-1.58-2.81-4.26-4.9-7.46-5.73v-.72c1.79-1.04 3-2.96 3-5.17 0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.22 1.21 4.14 3 5.17v.72c-3.16.82-5.83 2.87-7.42 5.64\"></path></g></svg>"
+            },
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;\"><g fill=\"none\"><path d=\"M2 16h28M2 24h28M2 8h28\"></path></g></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" style=\"display:block;fill:none;height:16px;width:16px;stroke:currentColor;stroke-width:4;overflow:visible\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\"><g fill=\"none\"><path d=\"M28 16H2M17 4l11.3 11.3a1 1 0 0 1 0 1.4L17 28\"></path></g></svg>"
+            },
+            {
+              "name": "Close / X",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;\"><path d=\"m6 6 20 20M26 6 6 26\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Filled UI Icons",
+          "description": "Filled icons used for state indicators like ratings and favoriting.",
+          "when_to_use": [
+            "Wishlists and favorites",
+            "Review ratings",
+            "Active states"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "8px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Heart / Favorite",
+              "svg_code": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: currentColor; stroke-width: 2; overflow: visible;\"><path d=\"m15.9998 28.6668c7.1667-4.8847 14.3334-10.8844 14.3334-18.1088 0-1.84951-.6993-3.69794-2.0988-5.10877-1.3996-1.4098-3.2332-2.11573-5.0679-2.11573-1.8336 0-3.6683.70593-5.0668 2.11573l-2.0999 2.11677-2.0988-2.11677c-1.3995-1.4098-3.2332-2.11573-5.06783-2.11573-1.83364 0-3.66831.70593-5.06683 2.11573-1.39955 1.41083-2.09984 3.25926-2.09984 5.10877 0 7.2244 7.16667 13.2241 14.3333 18.1088z\"></path></svg>"
+            },
+            {
+              "name": "Star / Rating",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; height: 8px; width: 8px; fill: currentcolor;\"><path fill-rule=\"evenodd\" d=\"m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-5.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-5.png",
+            "origin_url": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-76x76-3b313d93b1b5823293524b9764352ac9.png",
+            "description": "Apple Touch Icon 76x76"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-3.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-3.png",
+            "origin_url": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-120x120-52b1adb4fe3a8f825fc4b143de12ea4b.png",
+            "description": "Apple Touch Icon 120x120"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon.png",
+            "origin_url": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-152x152-7b7c6444b63d8b6ebad9dae7169e5ed6.png",
+            "description": "Apple Touch Icon 152x152"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-2.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-2.png",
+            "origin_url": "https://a0.muscache.com/airbnb/static/icons/apple-touch-icon-180x180-bcbe0e3960cd084eb8eaf1353cf3c730.png",
+            "description": "Apple Touch Icon 180x180"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-4.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon-4.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-Favicons/original/d1fcc0b3-865f-485a-b28b-43ca0bf7c891.png?im_w=240",
+            "description": "Airbnb Primary Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon.svg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/logos/favicon.svg",
+            "origin_url": "https://a0.muscache.com/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Favicons/original/304e8c59-05df-4fab-9846-f69fd7f749b0.svg?im_w=240",
+            "description": "Airbnb SVG Favicon"
+          }
+        ],
+        "media": [
+          {
+            "name": "Airbnb Open Graph Share Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/airbnb-open-graph-share-image.jpg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/airbnb-open-graph-share-image.jpg",
+            "origin_url": "https://a0.muscache.com/im/pictures/fe7217ff-0b24-438d-880d-b94722c75bf5.jpg?im_w=1200",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Category Tab Icon: All",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-all.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-all.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-search-bar-icons/original/f50ce552-509c-4f54-af4c-605c5220d906.png?im_w=240",
+            "usage_context": "Homepage category navigation."
+          },
+          {
+            "name": "Category Tab Icon: All (Active)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-all-active.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-all-active.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/AirbnbPlatformAssets/AirbnbPlatformAssets-search-bar-icons/original/a811de29-114f-43a0-b8c5-698d4564bd04.png?im_w=240",
+            "usage_context": "Homepage category navigation active state."
+          },
+          {
+            "name": "Category Tab Icon: Homes",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-homes.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-homes.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/a32adab1-f9df-47e1-a411-bdff91b579c3.png?im_w=240",
+            "usage_context": "Homepage category navigation."
+          },
+          {
+            "name": "Category Tab Icon: Homes (Active)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-homes-active.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-homes-active.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png?im_w=240",
+            "usage_context": "Homepage category navigation active state."
+          },
+          {
+            "name": "Category Tab Icon: Experiences",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-experiences.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-experiences.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/e47ab655-027b-4679-b2e6-df1c99a5c33d.png?im_w=240",
+            "usage_context": "Homepage category navigation."
+          },
+          {
+            "name": "Category Tab Icon: Experiences (Active)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-experiences-active.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-experiences-active.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/1e24b1c9-b070-48d9-8a70-91aae3151830.png?im_w=240",
+            "usage_context": "Homepage category navigation active state."
+          },
+          {
+            "name": "Category Tab Icon: Services",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-services.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-services.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240",
+            "usage_context": "Homepage category navigation."
+          },
+          {
+            "name": "Category Tab Icon: Services (Active)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-services-active.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/category-tab-icon-services-active.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/2bf5d36d-e731-4465-a8ef-91abbf2ae8ce.png?im_w=240",
+            "usage_context": "Homepage category navigation active state."
+          },
+          {
+            "name": "Apartment in Riga Listing Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/apartment-in-riga-listing-thumbnail.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/apartment-in-riga-listing-thumbnail.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1649891832836920558/original/01e220e1-5cf0-4ec7-b5fa-492e050e3cd1.png?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Loft in Riga Listing Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/loft-in-riga-listing-thumbnail.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/loft-in-riga-listing-thumbnail.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/miso/Hosting-572172118137614490/original/8bab2cc8-5fc4-462f-a68b-720401149117.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Condo in Centrs Listing Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/condo-in-centrs-listing-thumbnail.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/condo-in-centrs-listing-thumbnail.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/miso/Hosting-588103600080737786/original/68e5eeba-6c9f-4e2a-8c77-4f1b88c1bc1f.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Apartment in Centrs Listing Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/apartment-in-centrs-listing-thumbnail.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/apartment-in-centrs-listing-thumbnail.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1629069629092514349/original/a6fc428d-1295-4954-a3b2-3f776dde08b1.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-5.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-5.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1652887583596737724/original/46a49603-e400-41a3-8776-7f8498a499bb.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 6",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-6.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-6.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NzMxNTM4OTkxMTMyNjk0Nw==/original/2e98012a-4488-475b-a029-53159ce4714d.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-7.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-7.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIyODg3MDIwNzg4OTMwNDc1MA%3D%3D/original/013c0820-cc18-497e-b9c9-8774fec8561b.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 8",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-8.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-8.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-43785567/original/b68e4488-97a0-4638-a0d0-8c3f0bede2f4.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-9.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-9.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDgyNTI1Mjc=/original/53ac6568-0697-4f25-a084-100fc34f7aa6.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 10",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-10.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-10.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1639678813492888258/original/1aa1c526-d915-43da-871f-823ee7b99c0f.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 11",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-11.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-11.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/miso/Hosting-26600590/original/9f445da0-2265-40ff-8055-7a3782502cde.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 12",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-12.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-12.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1156284024874604714/original/0711ec76-dc75-4881-b0d5-9d72f9dffdec.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 13",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-13.png",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-13.png",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1761759980140267237/original/10c374ce-8235-4bbd-b62e-a18d55b8343d.png?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 14",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-14.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-14.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM0NTYyOTk1NDgxMTMwMjE5NQ%3D%3D/original/54e83176-cbba-4bae-8c55-2de1f51b6be8.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Destination Photo: Los Angeles",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-los-angeles.jpg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-los-angeles.jpg",
+            "origin_url": "https://a0.muscache.com/im/pictures/3705f425-b405-416c-8076-0a10c0597b73.jpg?im_w=720",
+            "usage_context": "Destination card."
+          },
+          {
+            "name": "Property Listing Thumbnail 15",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-15.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-15.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-40301587/original/7f03af83-dfd5-43b8-a0cd-dae22f980fdb.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 16",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-16.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-16.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MzkyODk4NTc=/original/ccd186d9-db6e-47aa-8dab-f007d68afbce.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 17",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-17.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-17.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1197038353053429230/original/2f1b9564-d410-4e36-8175-162f6693d5ad.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 18",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-18.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-18.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1432349962205438496/original/6f0dd103-e484-4292-8eb7-12396c75f742.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 19",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-19.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-19.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI5MDQ2MTU1MDMwNTQ2MjM1NA%3D%3D/original/6b6a77dc-6634-43ae-ae70-9faee24c5715.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Property Listing Thumbnail 20",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-20.jpeg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/property-listing-thumbnail-20.jpeg",
+            "origin_url": "https://a0.muscache.com/im/pictures/miso/Hosting-651257817975414190/original/6c928748-1fe2-41b0-a3ac-4700e9e13459.jpeg?im_w=720",
+            "usage_context": "Property listing card in search results."
+          },
+          {
+            "name": "Destination Photo: San Diego",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-san-diego.jpg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-san-diego.jpg",
+            "origin_url": "https://a0.muscache.com/im/pictures/f059d8bb-346e-4dd7-8bf2-215a623a4096.jpg?im_w=720",
+            "usage_context": "Destination card."
+          },
+          {
+            "name": "Destination Photo: Las Vegas",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-las-vegas.jpg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-las-vegas.jpg",
+            "origin_url": "https://a0.muscache.com/im/pictures/69fc635b-ca4a-4266-bc64-f9af9eb543a4.jpg?im_w=720",
+            "usage_context": "Destination card."
+          },
+          {
+            "name": "Destination Photo: Tokyo",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-tokyo.jpg",
+            "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/site-assets/media/image/destination-photo-tokyo.jpg",
+            "origin_url": "https://a0.muscache.com/im/pictures/5bf3ff4f-bbc0-4ca0-bee7-ccf2665d60e1.jpg?im_w=720",
+            "usage_context": "Destination card."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/x/13234d80-c4a3-437b-b0a6-a47bf5033bb7.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Two people recline on a curved glass bench beside floor-to-ceiling windows overlooking lush greenery, in a warmly lit wooden interior."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/x/7fb08267-4f34-424e-a255-254e75897e57.png",
+            "source": "x",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "White Airbnb looped logo centered on a bright pink-red square background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/x/0069e424-fb57-42ac-b547-341609e7af5d.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "French Airbnb.org announcement in large centered white sans-serif text on a deep magenta-to-pink gradient background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/x/2596efdb-b588-4ed0-891e-b4aa7b931b2a.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A cropped red car’s front side and wheel enter from the lower left against a mostly blank white background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/x/6ecd9fd9-013b-4e92-bfa7-ff2fdd1608ee.png",
+            "source": "x",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimalist black poster with centered white Spanish text about Airbnb.org offering free emergency lodging after wildfires in Spain, and the airbnb.org wordmark below."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/x/0f5081f8-77d5-43ba-918d-fc039a66ca9f.png",
+            "source": "x",
+            "content_type": "image/png",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Minimal black poster with centered white text announcing Airbnb.org emergency housing for people affected by wildfires in Spain."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/google_ads/cca7aba3-eea4-44a6-864b-0a171af732c9.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Airbnb ad in Korean pairs a pink Airbnb logo and bold Korean text with a dusk photo of a warmly lit modern cabin."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/email/55338a29-b95d-4e51-aba6-2ff69f710e4d.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Airbnb 2022 Summer Release email with bold black headline, a centered phone over colorful rental listings, and a clean white layout."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/google_ads/53abd283-1bf1-4e7c-b9a2-15b757d73424.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Airbnb ad shows a woman on a balcony framed by warm curtains, with bold white “SPACE TO SWITCH OFF” lettering and “Stay your way” text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/email/eb5646bb-7091-4f36-a459-ef9f7b523572.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Airbnb promotional email with a red logo and bold headline above a framed photo of children playing with bubbles in a wooden room."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/email/e86b6afd-4154-4ab5-9940-c1184dbc389e.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A tall Airbnb reservation confirmation email features coral branding, a bedroom photo, booking details, a prominent red itinerary button, and San Francisco experience cards."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/email/3c874ca4-d6ae-46fb-8a3d-253a8baf7e01.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A tall Airbnb 2025 Summer Release email features black typography, stacked smartphone app previews, service and experience sections, and a pink Airbnb logo in the footer."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/google_ads/5d36ddc3-eb7c-4604-8fd1-9aa0a138bc3d.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Airbnb AirCover ad pairs a bright living-room photo and red logo with Portuguese safety messaging and a blue “Saber mais” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/google_ads/1f196c93-5946-4341-af79-7d0d37a8de4f.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Airbnb promotion pairs a tropical A-frame cabin photo with bold white discount text and a blue “Book now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/email/6093d0f6-3f7b-43d9-8d92-9471ddf87713.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A tall Airbnb welcome email features bold charcoal typography, teal links, and travel photos of homes, guests, and hosts."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/google_ads/e9e95cc4-62d4-466e-b7fe-5ef8ec387d8b.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Airbnb hosting promotion in Portuguese, with a red logo, a miniature host at a doorway, bold welcoming headline, and blue “Saber mais” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/google_ads/6d1568e4-7612-4075-8aac-c07828741359.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Airbnb promotional graphic pairs a coastal modern home photo with bold white “Stay together. Save together.” text and a blue “Book now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/billboard/95deb8a0-d75b-4638-8000-31aa3b4d093a.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A roadside billboard reads “Trippy.” in oversized black type beside a photo of a whimsical mushroom house, with Airbnb branding below."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/billboard/3bca5571-085b-4826-8a73-7c72ae2d9b45.webp",
+            "source": "billboard",
+            "content_type": "image/webp",
+            "category": "brand_identity",
+            "asset_description": "A rooftop billboard reads “Cluck yeah. Farms Category airbnb” beside a farm photo, set against a lavender city skyline."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/billboard/644b55f5-7bac-43cd-a422-6c2c8d2c414a.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A diagonal row of framed Airbnb advertisements on a gray station wall, mixing colorful host recruitment panels with lifestyle portraits."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/billboard/e4c5f2f6-d493-44ee-9f7a-623ef1b96323.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A rooftop billboard reads “Greetings.” in bold black type beside Airbnb branding and a colorful UFO-shaped lodging photo, set against a city skyline."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/billboard/2e04ff2f-daa5-44d8-9c37-827cfae99c3a.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A large white Airbnb billboard on a brick building reads “Read the room.” above a cozy library interior photo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/brand-media/billboard/d15a4ce7-54ed-4d48-853e-59d484c18dfa.png",
+            "source": "billboard",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Large roadside Airbnb billboard features a castle photo and bold black “Actual size.” text against a white background."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Header",
+          "layout_pattern": "Horizontal navigation with centered logo, split left-right utilities",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Airbnb logo in pink/coral (#FF385C) on white background"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal tab navigation with globe icon and text links: 'All', 'Homes', 'Experiences', 'Services' with animated underline indicator"
+            },
+            {
+              "type": "button",
+              "description": "'Become a host' text button in black with hover state"
+            },
+            {
+              "type": "button",
+              "description": "Globe/language selector icon button, circular, gray background"
+            },
+            {
+              "type": "button",
+              "description": "User menu hamburger icon button, circular, gray background"
+            }
+          ]
+        },
+        {
+          "type": "Search Bar",
+          "layout_pattern": "Centered pill-shaped container with horizontal three-section form",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "form",
+              "description": "White rounded pill container with subtle shadow containing three input sections (Where/When/Who) separated by vertical gray dividers, with pink circular search button on far right"
+            },
+            {
+              "type": "button",
+              "description": "Red/pink circular search icon button (#FF385C) with magnifying glass icon"
+            }
+          ]
+        },
+        {
+          "type": "Destinations Carousel",
+          "layout_pattern": "Horizontal scrolling card grid with navigation arrows",
+          "headline": "Destinations for you",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Horizontally scrolling cards with rounded-corner city imagery (LA palm trees, SD coastline, Vegas skyline, Tokyo architecture, NYC Brooklyn Bridge, Paris Eiffel Tower, Seattle Space Needle), bold city names, warm sunset photography tones"
+            },
+            {
+              "type": "button",
+              "description": "Right arrow navigation button for carousel"
+            }
+          ]
+        },
+        {
+          "type": "Services Section",
+          "layout_pattern": "Horizontal row of labeled boxes",
+          "headline": "Find services near you",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Light gray placeholder boxes in horizontal row with labels: 'Car hire', 'Photography', 'Cleaning', 'Home improvement', 'Spa treatments', 'Catering'"
+            }
+          ]
+        },
+        {
+          "type": "Listings / Featured Properties",
+          "layout_pattern": "Grid 3-column with title header and navigation arrows",
+          "headline": "Stay in Riga",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Property cards with rounded-corner images, 'Guest favourite' badges with heart icons, white card backgrounds, location names (South Lake Tahoe), date ranges, prices in GBP (£590, £1247, £837), star ratings (4.83, 4.97, 5.0), natural property photography"
+            },
+            {
+              "type": "button",
+              "description": "Heart icon wishlist button, circular white background, positioned top-right on card"
+            },
+            {
+              "type": "button",
+              "description": "Left/right carousel navigation buttons, circular gray background, positioned at title level"
+            }
+          ]
+        },
+        {
+          "type": "Cookie Consent Modal",
+          "layout_pattern": "Centered overlay modal",
+          "headline": "Help us improve your experience",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Black filled button labeled 'Accept all'"
+            },
+            {
+              "type": "button",
+              "description": "Black filled button labeled 'Only necessary'"
+            },
+            {
+              "type": "button",
+              "description": "Text link button labeled 'Manage preferences', underlined"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

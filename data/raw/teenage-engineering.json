@@ -1,0 +1,1748 @@
+{
+  "company": "teenage engineering",
+  "rank": 5,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://teenage.engineering/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:22.839694Z",
+  "completed_at": "2026-09-19T08:37:42.947619Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "teenage engineering",
+        "tagline": null,
+        "source_url": "https://teenage.engineering/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Consumer Electronics / Audio Equipment",
+        "primary_purpose": "Showcase product portfolio and drive exploration across synthesizers, audio devices, and accessories",
+        "main_cta": "explore all products",
+        "copy_tone": [
+          "Minimal",
+          "Playful",
+          "Technical"
+        ],
+        "brand_signature": "Ultra-clean, Swiss-inspired design with stark white backgrounds, thin sans-serif typography, and product photography as hero content. Visual identity emphasizes negative space, precise grid systems, and a restrained monochromatic palette punctuated by product colors.",
+        "visual_language": {
+          "keywords": [
+            "minimalist",
+            "precision",
+            "utilitarian",
+            "editorial",
+            "product-focused",
+            "grid-driven",
+            "Scandinavian"
+          ],
+          "accent_strategy": "Blue (#0071bb) used sparingly for interactive 'buy now' links against neutral backgrounds, creating clear action points without disrupting visual hierarchy",
+          "highlights": "Product photography against pure white or black backgrounds creates natural focal points; subtle gray borders define content sections"
+        },
+        "strategy": {
+          "target_audience": [
+            "Music producers and electronic musicians seeking professional-grade portable instruments",
+            "Design-conscious audiophiles who value aesthetics as much as functionality",
+            "Creative professionals and hobbyists drawn to unique, collectible audio hardware",
+            "Tech enthusiasts interested in innovative Swedish engineering and build quality"
+          ],
+          "executive_synthesis": "teenage engineering's homepage employs radical minimalism as a strategic differentiator in the consumer electronics space. The Swiss-inspired precision and gallery-like product presentation position their devices as collectible design objects rather than commodity electronics. The sparse blue accent strategy creates clear purchase pathways while the predominantly monochromatic interface lets the products—with their distinctive industrial design—serve as the primary visual content. This approach attracts a premium-seeking audience who values craftsmanship and aesthetics, justifying higher price points through perceived design authority."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The screenshot reveals a portfolio/gallery website with unmistakable Swiss Style DNA. **Visual Evidence:** The design exhibits extreme typographic discipline with ultralight sans-serif type (weight 100-300) in a proprietary geometric font (\"te-20\", \"te-40\"), viewport-scaled sizing creating mathematical precision, and flush-left alignment. The 12-column grid with generous whitespace creates the \"breathing room\" characteristic of International Typographic Style. **Color Analysis:** The starkly monochromatic palette (pure black #000000, ink #0F0E12, and off-white tones #F5F5F5, #FFFFFF) with a single functional blue accent (#0071BB) reserved solely for CTAs is textbook Swiss objectivity—letting content speak without decorative color interference. **Layout Structure:** Card-based gallery with systematic section separation using alternating white/gray/black backgrounds demonstrates the Swiss commitment to hierarchy through spatial rhythm rather than ornament. The photography-driven narrative with minimal text intervention reflects Swiss Style's preference for \"objective communication.\" **6 Spectra Analysis:** Visual Density = Airy/Spacious | Color Cleanliness = Clean/Pure | Chronology = Modern | Dimensionality = Flat (2D) | Decoration = Minimal | Structure = Rigid Grid.",
+          "secondary_style": "Brutalism",
+          "reasoning_secondary": "The secondary Brutalist influence emerges from several intentional \"raw\" design choices. **Evidence:** The stark high-contrast alternation between pure black (#0F0E12) sections and white creates a confrontational, anti-smooth aesthetic rather than the warmer off-white/cream typical of classic Swiss. The hand-drawn illustration style (\"Daily Life Mr. UFO\"), mixed with dramatic editorial photography and collage elements (maps, urban imagery, bicycle), breaks from Swiss purity toward deliberate eclecticism. The use of multiple decorative/playful custom typefaces (franxurter, TechnoType, swingus, riddim) for product branding introduces an anti-establishment, raw experimentation layer. The viewport-scaled typography using calc() functions creates a systematic but \"unstyled\" technical appearance. This isn't polished corporate design—it's intentionally stripped-back, letting the photography and grid do the work without embellishment, which aligns with Brutalism's \"honest materials\" ethos applied to digital design."
+        }
+      },
+      "layout": {
+        "classification": [
+          "card_based",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "10px",
+          "max_width": "980px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (12 Columns, 10px gutter, viewport-scaled)",
+          "tablet": "768px - 1200px (12 Columns, 10px gutter, viewport-scaled)",
+          "desktop": "1201px+ (12 Columns, 10px gutter, max 980px)",
+          "large": null
+        },
+        "section_separation": "Alternating backgrounds (white, light gray #f5f5f5, and pure black #0f0e12), minimal visible structural lines (1px solid #b2b2b2 borders), generous whitespace between gallery sections, no traditional horizontal dividers - relies on strong color contrast and spatial rhythm",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [=]  [ICONS: mobile, square, pen, text, shapes, user]  │\n├──────────────────────────────────────────────────────────┤\n│                     DAILY LIFE                           │\n│                     MR. UFO                              │\n│                                                          │\n│              [Building illustration with UFO]            │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  ┌────────────────────────────────────────────────────┐ │\n│  │                                                    │ │\n│  │              [Large Black Space]                  │ │\n│  │                                                    │ │\n│  │          [Gray sculptural form image]             │ │\n│  │                                                    │ │\n│  │                                                    │ │\n│  │         [Red/Orange object on black]              │ │\n│  │                                                    │ │\n│  └────────────────────────────────────────────────────┘ │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  ┌────────────────────────────────────────────────────┐ │\n│  │                                                    │ │\n│  │         [Dark gradient image section]             │ │\n│  │                                                    │ │\n│  │           [White geometric shape]                 │ │\n│  └────────────────────────────────────────────────────┘ │\n│                                                          │\n│  [Small thumbnail]          [Small thumbnail]            │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  ┌────────────────────────────────────────────────────┐ │\n│  │                                                    │ │\n│  │         [Black background with light trails]      │ │\n│  │              [Red light elements]                 │ │\n│  │                                                    │ │\n│  └────────────────────────────────────────────────────┘ │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [Small image]                                           │\n│                                                          │\n│  ┌────────────────────────────────────────────────────┐ │\n│  │                                                    │ │\n│  │         [Collage: Maps, graphics, orange          │ │\n│  │          elements, bicycle, urban imagery]        │ │\n│  │                                                    │ │\n│  └────────────────────────────────────────────────────┘ │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [Small green/teal image]                                │\n│                                                          │\n│  ┌────────────────────────────────────────────────────┐ │\n│  │                                                    │ │\n│  │              [Black background]                   │ │\n│  │         [Keyboard/tech equipment image]           │ │\n│  │                                                    │ │\n│  └────────────────────────────────────────────────────┘ │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/NAV:\n- Background: White/light gray\n- Layout: Minimal, icon-based navigation\n- Icons: Menu hamburger, mobile device, square/frame, pen/edit tool, text, shapes/layers, user profile\n- Typography: Clean, sans-serif icons\n- Colors: Black icons on white background\n- No visible text buttons/CTAs in nav\n\nTITLE SECTION:\n- Background: White\n- Typography: Bold, condensed sans-serif \"DAILY LIFE\" and \"MR. UFO\"\n- Imagery: Black and white line illustration showing urban buildings/cityscape with UFO element\n- Style: Hand-drawn, sketch-like illustration\n- Colors: Black on white\n\nGALLERY SECTION 1 (Large Black Space):\n- Background: Deep black\n- Images: Three stacked photographs\n  1. Gray sculptural/architectural form (minimalist, monochromatic)\n  2. Dramatic lighting on dark background\n  3. Red/orange glossy object on black (high contrast product-style photography)\n- Photography style: High-end, dramatic, editorial\n- Colors: Black, gray, red/orange accent\n- Layout: Vertical scroll gallery, full-width on right side\n\nGALLERY SECTION 2 (Gradient):\n- Background: Black to gray gradient\n- Imagery: White geometric/architectural element\n- Photography style: Minimalist, high contrast\n- Small thumbnails below: Additional project previews\n- Colors: Black, white, gray tones\n\nGALLERY SECTION 3 (Light Trails):\n- Background: Pure black\n- Imagery: Long exposure photography with light trails\n- Colors: Red/orange light elements against black\n- Style: Abstract, motion-based photography\n- Mood: Dynamic, energetic\n\nGALLERY SECTION 4 (Collage):\n- Background: Light/white\n- Imagery: Mixed media collage including:\n  - Maps and urban planning documents\n  - Orange graphic elements\n  - Bicycle illustration\n  - Text fragments\n  - Urban photography\n- Style: Editorial, layered composition\n- Colors: Orange, teal, black, white, natural paper tones\n- Mood: Urban, exploratory, documentary\n\nGALLERY SECTION 5 (Tech/Keyboard):\n- Background: Black\n- Small preview: Green/teal colored image at top\n- Main image: Keyboard or technical equipment in dark lighting\n- Photography style: Product/tech photography\n- Colors: Black background with equipment details\n- Mood: Professional, technical\n\nOVERALL DESIGN NOTES:\n- Portfolio/gallery layout\n- Strong contrast between sections (black/white alternation)\n- No traditional buttons/CTAs visible - interaction likely through image clicks\n- Vertical scroll layout\n- Photography-focused presentation\n- Minimal text, image-driven narrative\n- Professional/artistic portfolio aesthetic\n- Responsive single-column layout for mobile view",
+        "insights": [
+          "Portfolio/gallery-first layout with minimal text - images drive the narrative with titles overlaid or positioned adjacent",
+          "Strong tonal contrast strategy: pure black (#0f0e12) backgrounds alternate with white (#fff) and light gray (#f5f5f5) creating dramatic visual rhythm",
+          "Viewport-scaled grid system (vw units) ensures consistent proportions across all screen sizes, with 12-column base maintaining modular flexibility",
+          "Mobile view transforms multi-column product grids into single-column vertical scroll with rounded corner cards, maintaining generous whitespace and breathing room"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Primary high-contrast color used for base text, underline states, and premium product card surfaces.",
+              "when_to_use": [
+                "Global body text",
+                "Link text decoration color",
+                "Background fill for standout product cards ('field system', 'OB-4')",
+                "Select dropdown text"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Ink",
+            "type": "Dark",
+            "rules": {
+              "description": "A deep, near-black ink used heavily for navigation, footers, and large architectural blocks.",
+              "when_to_use": [
+                "Header navigation icons and text fills",
+                "Footer and mobile menu background fill",
+                "'Explore all products' container background",
+                "Text for specific product titles (e.g., 'pocket operator')"
+              ]
+            },
+            "hex": "#0F0E12",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#231F20",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.1461
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Mid Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A mid-tone gray utilized for secondary information, muted icons, and subtle interactive elements.",
+              "when_to_use": [
+                "Product titles on black cards ('field system', 'OB-4')",
+                "Footer navigational icons and chevrons",
+                "'Join our newsletter' button background"
+              ]
+            },
+            "hex": "#B2B2B2",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0573
+          },
+          {
+            "name": "Paper",
+            "type": "Light",
+            "rules": {
+              "description": "The foundational bright palette defining the page canvas, distinct card surfaces, and inverted typography.",
+              "when_to_use": [
+                "Global page background (pure white)",
+                "Standard product card backgrounds (off-white)",
+                "Inverted text on dark footer and product cards",
+                "Mobile menu text and Japanese footer text"
+              ]
+            },
+            "hex": "#E5E5E5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#F6F8F7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F5F5F5",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F1F2F2",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.06449999999999999
+          },
+          {
+            "name": "Signal Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "The sole vibrant accent color in the entire design, strictly reserved for driving conversions.",
+              "when_to_use": [
+                "'Buy now' action links on product cards"
+              ]
+            },
+            "hex": "#0071BB",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0134
+          }
+        ],
+        "insights": [
+          "The palette is starkly minimalist and strictly monochromatic, relying on pure black, off-whites, and grays to let the product photography stand out.",
+          "Surface hierarchy is achieved without borders; instead, subtle off-white and light gray tints separate standard product cards from the pure white page background.",
+          "By restricting color almost entirely, the single vivid blue creates an undeniable focal point specifically tailored to purchasing actions."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "te-40",
+              "role": "Display H1 (fs-40)",
+              "specs": {
+                "size": "calc(.0367347 * 100vw)",
+                "line_height": "calc(.0408163 * 100vw)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-40\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Display H2 (fs-30)",
+              "specs": {
+                "size": "calc(.027551 * 100vw)",
+                "line_height": "calc(.0306122 * 100vw)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Display H3 (fs-25)",
+              "specs": {
+                "size": "calc(.0234694 * 100vw)",
+                "line_height": "calc(.0306122 * 100vw)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Dynamic Title Extra Large (.txt .xl)",
+              "specs": {
+                "size": "calc((var(--txt-bh-unit) * 4 - var(--txt-px-unit) * 4) * var(--txt-scale))",
+                "line_height": "calc(var(--txt-bh-unit) * 4 * var(--txt-scale))",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Dynamic Title Large (.txt .l)",
+              "specs": {
+                "size": "calc((var(--txt-bh-unit) * 3 - var(--txt-px-unit) * 3) * var(--txt-scale))",
+                "line_height": "calc(var(--txt-bh-unit) * 3 * var(--txt-scale))",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "UniversNextPro-Thin",
+              "role": "Display Thin (.cls-6, .cls-5)",
+              "specs": {
+                "size": "19.5px",
+                "line_height": "",
+                "font_weight": "200",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "system"
+              },
+              "technical": {
+                "font_family_css": "UniversNextPro-Thin",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text and multi-line descriptions.",
+          "variants": [
+            {
+              "name": "te-20",
+              "role": "Body Large (fs-20)",
+              "specs": {
+                "size": "calc(.0183673 * 100vw)",
+                "line_height": "calc(.0204082 * 100vw)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Body Standard (fs-15)",
+              "specs": {
+                "size": "calc(.0132653 * 100vw)",
+                "line_height": "calc(.0153061 * 100vw)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Dynamic Text Base (.txt)",
+              "specs": {
+                "size": "calc((var(--txt-bh-unit) * 2 - var(--txt-px-unit) * 2) * var(--txt-scale))",
+                "line_height": "calc(var(--txt-bh-unit) * 2 * var(--txt-scale))",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Dynamic Text Medium (.txt .m)",
+              "specs": {
+                "size": "calc((var(--txt-bh-unit) * 1.5 - var(--txt-px-unit) * 2) * var(--txt-scale))",
+                "line_height": "calc(var(--txt-bh-unit) * 1.5 * var(--txt-scale))",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Small functional labels, captions, and microcopy sizes.",
+          "variants": [
+            {
+              "name": "te-20",
+              "role": "Small Label (fs-10)",
+              "specs": {
+                "size": "calc(.00918367 * 100vw)",
+                "line_height": "calc(.0102041 * 100vw)",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "te-20",
+              "role": "Dynamic Small Text (.txt .s)",
+              "specs": {
+                "size": "calc((var(--txt-bh-unit) - var(--txt-px-unit)) * var(--txt-scale))",
+                "line_height": "calc(var(--txt-bh-unit) * var(--txt-scale))",
+                "font_weight": "100",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "UniversNextPro-Thin",
+              "role": "Smallest Caption (.cls-4)",
+              "specs": {
+                "size": "9px",
+                "line_height": "",
+                "font_weight": "200",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "system"
+              },
+              "technical": {
+                "font_family_css": "UniversNextPro-Thin",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Arial",
+              "role": "Video Player UI (video-js)",
+              "specs": {
+                "size": "10px",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "system"
+              },
+              "technical": {
+                "font_family_css": "Arial",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Decorative and playful typography for specific product branding and logotypes.",
+          "variants": [
+            {
+              "name": "franxurter",
+              "role": "Decorative Logotype (.fx)",
+              "specs": {
+                "size": "",
+                "line_height": "0.75em",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "franxurter",
+                "file_url": null
+              }
+            },
+            {
+              "name": "TechnoType",
+              "role": "Decorative Logotype (.tt)",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "TechnoType",
+                "file_url": null
+              }
+            },
+            {
+              "name": "swingus",
+              "role": "Decorative Logotype (.sw)",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "swingus",
+                "file_url": null
+              }
+            },
+            {
+              "name": "riddim",
+              "role": "Decorative Logotype (.rt)",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "riddim",
+                "file_url": null
+              }
+            },
+            {
+              "name": "riddimscript",
+              "role": "Decorative Logotype (.rs)",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "riddimscript",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "Special text styles include inline links displaying on hover with an underline, and playful display usages of custom typefaces like 'franxurter', 'swingus', 'riddim', and 'riddimscript' for decorative product logotypes and playful graphic elements.",
+        "insights": [
+          "The typography system relies heavily on fluid viewport-based units (`calc(... * 100vw)`) combined with local scale variables, ensuring a rigid but highly responsive grid-locked typographic scale.",
+          "A strict adherence to ultralight (100) and light (300) font weights establishes a highly technical, minimalist, and airy aesthetic typical of industrial design.",
+          "Two primary proprietary sans-serif typefaces (`te-20` and `te-40`) carry the majority of the UI, differentiating largely by their intended scale, while a robust set of decorative fonts provides distinctive branding per product."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "patterns"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Primary white page background",
+            "when_to_use": [
+              "Default page background",
+              "Main content areas"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Product Card Background Light",
+            "description": "Light grey surface for product cards and tiles",
+            "when_to_use": [
+              "Product cards",
+              "Secondary content containers",
+              "Card backgrounds"
+            ],
+            "hex": "#F5F5F5"
+          },
+          {
+            "name": "Product Card Background Alt",
+            "description": "Slightly tinted off-white background for product variations",
+            "when_to_use": [
+              "Product detail sections",
+              "Alternate card backgrounds"
+            ],
+            "hex": "#F6F8F7"
+          },
+          {
+            "name": "Footer Background",
+            "description": "Dark near-black background for footer and headers",
+            "when_to_use": [
+              "Footer",
+              "Header",
+              "Dark UI sections",
+              "CTA backgrounds"
+            ],
+            "hex": "#0F0E12"
+          },
+          {
+            "name": "Divider Grey",
+            "description": "Light grey for dividers and borders",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Subtle separators"
+            ],
+            "hex": "#E5E5E5"
+          },
+          {
+            "name": "Border Grey",
+            "description": "Medium grey for visible borders",
+            "when_to_use": [
+              "Card borders",
+              "Outlined elements",
+              "Form field borders"
+            ],
+            "hex": "#B2B2B2"
+          },
+          {
+            "name": "Button Grey",
+            "description": "Grey for secondary buttons and disabled states",
+            "when_to_use": [
+              "Secondary buttons",
+              "Disabled button backgrounds"
+            ],
+            "hex": "#CCCCCC"
+          },
+          {
+            "name": "Accent Blue",
+            "description": "Brand blue for interactive elements and links",
+            "when_to_use": [
+              "Links",
+              "Call-to-action text",
+              "Interactive elements"
+            ],
+            "hex": "#0071BB"
+          },
+          {
+            "name": "Success Green",
+            "description": "Green for success states and affirmative actions",
+            "when_to_use": [
+              "Success messages",
+              "Primary action buttons",
+              "Positive indicators"
+            ],
+            "hex": "#006837"
+          },
+          {
+            "name": "Error Red",
+            "description": "Red for error states and warnings",
+            "when_to_use": [
+              "Error messages",
+              "Warning indicators",
+              "Out of stock badges"
+            ],
+            "hex": "#C0262C"
+          },
+          {
+            "name": "Alert Yellow",
+            "description": "Yellow for alerts and highlights",
+            "when_to_use": [
+              "Alert badges",
+              "Warning messages",
+              "Highlight elements"
+            ],
+            "hex": "#FAB413"
+          },
+          {
+            "name": "Modal Backdrop Dark",
+            "description": "Black backdrop for modals with 70% opacity (#000000b3)",
+            "when_to_use": [
+              "Modal overlays",
+              "Dropdown backgrounds",
+              "Dimming layers"
+            ],
+            "hex": "#000000"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Modal Backdrop Gradient",
+            "description": "Top to bottom gradient from black to transparent for modal dialogs",
+            "when_to_use": [
+              "Modal dialog backgrounds",
+              "Overlay effects"
+            ],
+            "css_code": "linear-gradient(#000c,#fff0)"
+          },
+          {
+            "name": "Button Inset Shadow Gradient",
+            "description": "Bottom to top gradient for button depth effect",
+            "when_to_use": [
+              "Track settings control buttons",
+              "Interactive button states"
+            ],
+            "css_code": "linear-gradient(-180deg,#fff 88%,#73859f 100%)"
+          },
+          {
+            "name": "Video Control Bar Gradient",
+            "description": "Top to bottom gradient for video player controls",
+            "when_to_use": [
+              "Video control overlays",
+              "Player UI backgrounds"
+            ],
+            "css_code": "linear-gradient(#000c,#fff0)"
+          },
+          {
+            "name": "Title Bar Gradient",
+            "description": "Top fade gradient from black to transparent",
+            "when_to_use": [
+              "Video title bars",
+              "Header overlays on images"
+            ],
+            "css_code": "linear-gradient(#000000e6 0%,#000000b3 60%,#0000 100%)"
+          }
+        ],
+        "highlights": [
+          "Rounded corners on mobile product cards with border-radius calc(0.036734693877551024 * var(--client-width))",
+          "Soft box shadows on messages: rgba(0,0,0,0.5) 0 calc(0.00408163 * 100vw) calc(0.0163265 * 100vw) on mobile, rgb(0 0 0 / 50%) 0 calc(0.00204082 * 100vw) calc(0.00816327 * 100vw) on desktop",
+          "Border system using CSS custom properties with 1px, 0.5px (retina), 0.75px (mobile retina), and 1.5px (mobile) variants",
+          "Button inset shadow: inset 0 calc(-0.00102041 * 100vw) 0 0 rgba(0,0,0,0.3) for depth",
+          "Video loading spinner with animated border gradient and 50% border-radius"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Message Container Shadow",
+              "type": "drop",
+              "description": "50% black opacity with viewport-relative blur (~0.8vw). Used for floating toast/message notifications.",
+              "css_value": "#00000080 0 calc(.00408163 * 100vw) calc(.0163265 * 100vw)",
+              "when_to_use": [
+                "Toast notifications",
+                "Add to cart messages",
+                "Floating message containers"
+              ]
+            },
+            {
+              "name": "Header Shadow",
+              "type": "drop",
+              "description": "Solid dark shadow (0.5vw blur) matching header background for seamless sticky header effect.",
+              "css_value": "0 calc(.00510204 * 100vw) calc(.00510204 * 100vw) #0f0e12",
+              "when_to_use": [
+                "Sticky header",
+                "Mobile header",
+                "Navigation bar"
+              ]
+            },
+            {
+              "name": "Search Field Shadow",
+              "type": "drop",
+              "description": "Dark shadow for search field overlay to separate from background content.",
+              "css_value": "0 0 calc(.0102041 * 100vw) 0 #0f0e12",
+              "when_to_use": [
+                "Search input field",
+                "Search overlay"
+              ]
+            },
+            {
+              "name": "Search Field Shadow Mobile",
+              "type": "drop",
+              "description": "Directional shadow for mobile search field with vertical offset.",
+              "css_value": "0 calc(.0102041 * 100vw) calc(.0102041 * 100vw) #0f0e12",
+              "when_to_use": [
+                "Mobile search input",
+                "Mobile search overlay"
+              ]
+            },
+            {
+              "name": "Button Inset Shadow",
+              "type": "inset",
+              "description": "Subtle inset shadow at bottom of buttons for depth effect, 50% black opacity.",
+              "css_value": "inset 0 calc(-.00102041 * 100vw) 0 0 #0000004d",
+              "when_to_use": [
+                "CTA buttons",
+                "Action buttons",
+                "Text buttons with background"
+              ]
+            },
+            {
+              "name": "Product Image Focus Shadow",
+              "type": "inset",
+              "description": "Blue inset border shadow for focus/hover states on product images.",
+              "css_value": "0 0 0 2px inset #0071bb",
+              "when_to_use": [
+                "Product image links on hover",
+                "Product image links on focus",
+                "Interactive image elements"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#B2B2B2",
+            "width": "calc(.00102041 * 100vw)",
+            "style": "solid"
+          },
+          {
+            "hex": "#272727",
+            "width": "calc(.00306122 * 100vw)",
+            "style": "solid"
+          },
+          {
+            "hex": "#E5E5E5",
+            "width": "calc(.00102041 * 100vw)",
+            "style": "solid"
+          },
+          {
+            "hex": "#E5E5E5",
+            "width": "calc(.00612245 * 100vw)",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "hover_transform",
+          "scroll_reveal",
+          "carousel"
+        ],
+        "animations": [
+          {
+            "name": "bulge",
+            "css": "@keyframes bulge { 0% { transform: scale(1) } 50% { transform: scale(1.25) } to { transform: scale(1) } }",
+            "description": "Pulsing scale animation used for shopping bag icon feedback when items are added."
+          },
+          {
+            "name": "bag-animation",
+            "css": "animation: .25s ease-in-out alternate bulge",
+            "description": "Applied to bag icon with a transform-origin of 32.5% for add-to-cart visual feedback."
+          },
+          {
+            "name": "spinner-load",
+            "css": "@keyframes _load_hiku9_1 { 0% { transform: rotate(0) } to { transform: rotate(360deg) } }",
+            "description": "Continuous 360-degree rotation for loading spinner indicators."
+          },
+          {
+            "name": "marquee-scroll",
+            "css": "@keyframes _mrq-scroll_tykyq_1 { 0% { transform: translate(0,0) } to { transform: translate3d(calc(-100% / var(--mrq-copies)), 0, 0) } }",
+            "description": "Horizontal scrolling animation for marquee/ticker content with CSS variable-driven distance."
+          },
+          {
+            "name": "global-transition",
+            "css": "transition: background-color .2s ease-in",
+            "description": "Standard transition for background color changes across the site, used on navigation and interactive elements."
+          },
+          {
+            "name": "add-to-cart-scale",
+            "css": "transition: transform .25s, opacity .15s",
+            "description": "Combined transform and opacity transition for add-to-cart button interactions with scale hover effect."
+          },
+          {
+            "name": "slider-transition",
+            "css": "transition: left var(--slider-transition-time)",
+            "description": "CSS variable-driven horizontal slide transition for image sliders and carousels."
+          },
+          {
+            "name": "bag-overlay-reveal",
+            "css": "transition: transform .2s ease-in",
+            "description": "Vertical slide-in transition for the fixed shopping bag overlay element."
+          }
+        ],
+        "insights": [
+          "The design system uses viewport-width-based calculations (vw units) for nearly all sizing, creating a fully fluid and responsive layout that scales proportionally across devices.",
+          "Button styling is intentionally minimal with no border-radius, favoring sharp geometric forms that align with the brand's industrial design aesthetic. Color is used sparingly with Signal Blue (#0071BB) reserved exclusively for purchase CTAs.",
+          "Motion design is subtle and functional, with micro-interactions limited to essential feedback (cart additions, loading states) and content transitions (sliders, marquees), avoiding decorative animations."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "join our newsletter (Primary CTA)",
+            "usage": "Used in the mobile footer as the main call-to-action for newsletter subscription. Full-width button with dark background.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "te-20",
+                  "size": "calc(.027551 * 100vw)",
+                  "padding": "0 1em"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#0F0E12",
+                "text_color": "#F5F5F5",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#0F0E12",
+                "text_color": "#F5F5F5",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": "0.7",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#B2B2B2",
+                "text_color": "#F5F5F5",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "explore all products (CTA Link)",
+            "usage": "Used as a full-width banner link at the bottom of product sections to encourage browsing all products. Appears in both desktop and mobile layouts.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "te-40",
+                  "size": "calc(.027551 * 100vw)",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#0F0E12",
+                "text_color": "#E5E5E5",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#0F0E12",
+                "text_color": "#E5E5E5",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "buy now (Inline Text Link)",
+            "usage": "Used as a subtle call-to-action link within product cards to trigger purchase. Styled as blue text without underline in default state.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "te-20",
+                  "size": "calc(.00918367 * 100vw)",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#0071BB",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#0071BB",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Menu Toggle)",
+            "usage": "Used in mobile header as a menu toggle button. Contains three vertical dots icon pattern.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "inherit",
+                  "size": "16px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#0F0E12",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#0F0E12",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "search (Search Button)",
+            "usage": "Used in the navigation area to trigger search functionality.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "te-20",
+                  "size": "16px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#0F0E12",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#0F0E12",
+                "border_color": "",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are typically used as standalone elements or within card containers. No explicit button grouping patterns observed.",
+          "spacing": ""
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "var(--header-height)",
+          "position": "absolute",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Product Card Tile",
+            "description": "Square image-focused product tiles displaying products with minimal text overlay. Features product name and 'buy now' link positioned at top-left corner.",
+            "when_to_use": [
+              "Product grid displays",
+              "Homepage product showcase sections",
+              "Category landing pages"
+            ]
+          },
+          {
+            "name": "Hero Product Tile",
+            "description": "Full-width or large-format product tiles used as section headers. Contains dramatic product photography with minimal text labels.",
+            "when_to_use": [
+              "Section introductions",
+              "Featured product highlights",
+              "Landing page hero areas"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Grid Divider",
+            "description": "Thin horizontal and vertical dividers used between product grid cells to create visual separation.",
+            "when_to_use": [
+              "Between product card tiles in grids",
+              "Section boundaries within product catalogs"
+            ],
+            "color": "#B2B2B2",
+            "height": "calc(.00102041 * 100vw)",
+            "style": "solid"
+          },
+          {
+            "name": "Product Section Border",
+            "description": "Border lines used at top and bottom of product tile rows for visual grouping.",
+            "when_to_use": [
+              "Top and bottom of product tile rows",
+              "Section separation in catalog views"
+            ],
+            "color": "#B2B2B2",
+            "height": "var(--border-width)",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Navigation & UI Icons",
+          "description": "Functional line-art and geometric icons used for site navigation, menus, and UI controls.",
+          "when_to_use": [
+            "Header navigation",
+            "Checkout links",
+            "Dropdown selects",
+            "Floating cart"
+          ],
+          "format": "SVG",
+          "style": "Line Art & Geometric",
+          "sizes": {
+            "small": "15x150",
+            "medium": "24x24"
+          },
+          "examples": [
+            {
+              "name": "Shopping Bag Checkout",
+              "svg_code": "<svg height=\"10cqw\" class=\"_root_8dz2p_1\" viewBox=\"0 0 30 40\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 0C1.79086 0 0 1.79086 0 4V36C0 38.2091 1.79086 40 4 40H26C28.2091 40 30 38.2091 30 36V4C30 1.79086 28.2091 0 26 0H4ZM11 4C9.89543 4 9 4.89543 9 6C9 7.10457 9.89543 8 11 8H19C20.1046 8 21 7.10457 21 6C21 4.89543 20.1046 4 19 4H11Z\"></path><text transform=\"translate(15.6 31)\" text-anchor=\"middle\"><tspan x=\"0\" y=\"0\">0</tspan></text></svg>"
+            },
+            {
+              "name": "Vertical Ellipsis Menu",
+              "svg_code": "<svg viewBox=\"0 0 15 150\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_svg_9o8vd_9\" style=\"background:transparent;color:currentColor;height:10cqw\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\"><g fill=\"currentColor\"><circle cx=\"15\" cy=\"20\" r=\"15\"></circle><circle cx=\"15\" cy=\"75\" r=\"15\"></circle><circle cx=\"15\" cy=\"130\" r=\"15\"></circle></g></g></svg>"
+            },
+            {
+              "name": "Country Select Chevron",
+              "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_country-select-chevron_11j21_41 _svg_9o8vd_9\" style=\"background: transparent; color: currentcolor; height: 1em;\"><path d=\"M18 9L12 15L6 9\" stroke=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Right Chevron",
+              "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_svg_9o8vd_9\" style=\"background:transparent;color:currentColor\"><g id=\"chevron-right\"><path d=\"M9 6L15 12L9 18\" stroke=\"currentColor\"></path></g></svg>"
+            },
+            {
+              "name": "Floating Shopping Bag",
+              "svg_code": "<svg class=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 33 60.5\" aria-hidden=\"true\"><path d=\"M6.55.25h20l5,5H1.55L6.55.25ZM32.75,20.25H.25v40h32.5V20.25ZM26.45,6.55v12.5h6.3V6.55h-6.3ZM.25,6.55v12.5h6.2V6.55H.25Z\" fill=\"currentColor\" stroke-width=\"0\"></path><text transform=\"translate(16.25 47.75)\" fill=\"currentColor\" font-size=\"23\" text-anchor=\"middle\" font-weight=\"100\"></text></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Brand Typography Graphics",
+          "description": "Inline SVGs used for decorative typographic blocks and brand messaging.",
+          "when_to_use": [
+            "Footer sections",
+            "Brand communication areas"
+          ],
+          "format": "SVG",
+          "style": "Typographic",
+          "sizes": {
+            "small": "98x78",
+            "medium": "98x78"
+          },
+          "examples": [
+            {
+              "name": "Japanese Text Block Graphic",
+              "svg_code": "<svg viewBox=\"0 0 98 78\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_svg_9o8vd_9\" style=\"background:transparent;color:currentColor;width:100%;height:auto\" role=\"presentation\" font-weight=\"400\"><text transform=\"translate(0 8)\" font-size=\"8\"><tspan x=\"0\" y=\"0\"> 10代工学は未来の製品とコ </tspan><tspan><tspan x=\"0\" y=\"9.75\"> ミュニケーションを生み出 </tspan></tspan><tspan><tspan x=\"0\" y=\"19.5\"> すスタジオです。私たちの </tspan></tspan><tspan><tspan x=\"0\" y=\"29.25\"> ミッションは先端工学を用 </tspan></tspan><tspan><tspan x=\"0\" y=\"39\"> いて上質で機能的なデザイ </tspan></tspan><tspan><tspan x=\"0\" y=\"48.75\"> ンの製品を作り出すことで </tspan></tspan><tspan><tspan x=\"0\" y=\"58.5\"> す。是非、新たなスタイル </tspan></tspan><tspan><tspan x=\"0\" y=\"68.25\"> で音楽をお楽しみくだい。 </tspan></tspan></text></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/logos/favicon.png",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/logos/favicon.png",
+            "origin_url": "https://teenage.engineering/favicon.png",
+            "description": "Teenage Engineering Favicon"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/logos/primary-inline.svg",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/logos/primary-inline.svg",
+            "origin_url": null,
+            "description": "teenage engineering primary inline logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/open-graph-image.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/open-graph-image.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/696754d96ee112550bbd1dfa_1024.webp",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Hero Illustration (Daily Life Mr. UP)",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/illustration/hero-illustration-daily-life-mr-up.svg",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/illustration/hero-illustration-daily-life-mr-up.svg",
+            "origin_url": "https://assets.teenage.engineering/_img/6a3afd2f71543654d645de7d_opt.svg",
+            "usage_context": "Main hero banner illustration on the homepage."
+          },
+          {
+            "name": "APC-2 Product Showcase",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/apc-2-product-showcase.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/apc-2-product-showcase.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6a22f65d10e67f78270510f7_128.webp",
+            "usage_context": "Product showcase banner image for APC-2."
+          },
+          {
+            "name": "APC-2 Product Showcase Alternate",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/apc-2-product-showcase-alternate.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/apc-2-product-showcase-alternate.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6a50a18df6c6fa7a8cdef871_128.webp",
+            "usage_context": "Secondary product showcase image for APC-2."
+          },
+          {
+            "name": "Sinus Transmission Completed Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/sinus-transmission-completed-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/sinus-transmission-completed-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6a208e4390df3367668f14fa_128.webp",
+            "usage_context": "Product banner link image."
+          },
+          {
+            "name": "EP-133 K.O. II Product Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-133-k-o-ii-product-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-133-k-o-ii-product-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6978c061edd4be589c072ea3_128.webp",
+            "usage_context": "Product banner link image for EP-133 K.O. II."
+          },
+          {
+            "name": "EP-133 K.O. II Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-133-k-o-ii-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-133-k-o-ii-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/69679fcdc59421146f2da1d5_128.webp",
+            "usage_context": "Store catalog thumbnail for EP-133 K.O. II."
+          },
+          {
+            "name": "EP Splash Cover Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-splash-cover-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-splash-cover-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/654e3948255502e470bf2649_128.webp",
+            "usage_context": "Store catalog thumbnail for EP Splash Cover."
+          },
+          {
+            "name": "K.O. II Soft Bag Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/k-o-ii-soft-bag-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/k-o-ii-soft-bag-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/65bb545c604563e4f94c9726_128.webp",
+            "usage_context": "Store catalog thumbnail for K.O. II Soft Bag."
+          },
+          {
+            "name": "K.O.-SIDEKICK Product Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/k-o-sidekick-product-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/k-o-sidekick-product-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/69fb290acbb33728c83adf79_128.webp",
+            "usage_context": "Product banner link image for K.O.-SIDEKICK."
+          },
+          {
+            "name": "K.O.-SIDEKICK Starter Pack Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/k-o-sidekick-starter-pack-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/k-o-sidekick-starter-pack-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6a0478c28fa08037d0b1da88_128.webp",
+            "usage_context": "Store catalog thumbnail for K.O.-SIDEKICK Starter Pack."
+          },
+          {
+            "name": "Ultimate K.O. Pack Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ultimate-k-o-pack-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ultimate-k-o-pack-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6a048b74e7daa247db147cb4_128.webp",
+            "usage_context": "Store catalog thumbnail for Ultimate K.O. Pack."
+          },
+          {
+            "name": "EP-40 Riddim Product Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-40-riddim-product-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-40-riddim-product-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/691c2c32e6d1b72313eaddae_128.webp",
+            "usage_context": "Product banner link image for EP-40 Riddim."
+          },
+          {
+            "name": "EP-40 Riddim Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-40-riddim-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-40-riddim-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/696755e3eb8e82548817c970_128.webp",
+            "usage_context": "Store catalog thumbnail for EP-40 Riddim."
+          },
+          {
+            "name": "EP-2350 Ting Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-2350-ting-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ep-2350-ting-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6909f5eece0edc6c5aa5ad94_128.webp",
+            "usage_context": "Store catalog thumbnail for EP-2350 Ting."
+          },
+          {
+            "name": "Riddim Shoulder Bag Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/riddim-shoulder-bag-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/riddim-shoulder-bag-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6967568e2862e5548d453dd4_128.webp",
+            "usage_context": "Store catalog thumbnail for Riddim Shoulder Bag."
+          },
+          {
+            "name": "Field System Product Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/field-system-product-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/field-system-product-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/696754d96ee112550bbd1dfa_128.webp",
+            "usage_context": "Product banner link image for Field System."
+          },
+          {
+            "name": "TP-7 Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/tp-7-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/tp-7-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6936cf6b31b17b0c0d42b5a3_128.webp",
+            "usage_context": "Store catalog thumbnail for TP-7."
+          },
+          {
+            "name": "CM-15 Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/cm-15-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/cm-15-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6936cf7cd5f3c70c0de0ca72_128.webp",
+            "usage_context": "Store catalog thumbnail for CM-15."
+          },
+          {
+            "name": "TX-6 Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/tx-6-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/tx-6-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6936cf7306f1cb0c0d2f44b3_128.webp",
+            "usage_context": "Store catalog thumbnail for TX-6."
+          },
+          {
+            "name": "OB-4 Product Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-product-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-product-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/65d76f2629ef82a510098040_128.webp",
+            "usage_context": "Product banner link image for OB-4."
+          },
+          {
+            "name": "OB-4 White Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-white-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-white-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/65d60dadbc5d93ee6c84d6df_128.webp",
+            "usage_context": "Store catalog thumbnail for OB-4 White."
+          },
+          {
+            "name": "OB-4 Black Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-black-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-black-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/64e4bae0f6978f8fbc213275_128.webp",
+            "usage_context": "Store catalog thumbnail for OB-4 Black."
+          },
+          {
+            "name": "OB-4 Red Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-red-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-red-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/655f76b353ef663eb648bfd9_128.webp",
+            "usage_context": "Store catalog thumbnail for OB-4 Red."
+          },
+          {
+            "name": "Pocket Operator Product Banner",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/pocket-operator-product-banner.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/pocket-operator-product-banner.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6936d02279d6e114f9dd6fdf_128.webp",
+            "usage_context": "Product banner link image for Pocket Operator."
+          },
+          {
+            "name": "PO-12 Rhythm Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-12-rhythm-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-12-rhythm-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/694908b63b11bf435b471530_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-12 Rhythm."
+          },
+          {
+            "name": "PO-14 Sub Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-14-sub-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-14-sub-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/694908d835c9f0435af791be_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-14 Sub."
+          },
+          {
+            "name": "PO-16 Factory Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-16-factory-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-16-factory-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/694908efd641af435baca4f5_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-16 Factory."
+          },
+          {
+            "name": "PO-20 Arcade Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-20-arcade-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-20-arcade-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6949090506ea89435a286b13_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-20 Arcade."
+          },
+          {
+            "name": "PO-24 Office Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-24-office-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-24-office-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6949090aa797d8435b724ccc_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-24 Office."
+          },
+          {
+            "name": "PO-28 Robot Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-28-robot-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-28-robot-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6949090e44fa5f435a932b59_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-28 Robot."
+          },
+          {
+            "name": "PO-32 Tonic Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-32-tonic-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-32-tonic-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6949091842cc65435b5cf1bc_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-32 Tonic."
+          },
+          {
+            "name": "PO-33 K.O! Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-33-k-o-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-33-k-o-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/69490911e874be435a66eed3_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-33 K.O!."
+          },
+          {
+            "name": "PO-35 Speak Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-35-speak-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/po-35-speak-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6949091da8b2eb435a6d28ef_128.webp",
+            "usage_context": "Store catalog thumbnail for PO-35 Speak."
+          },
+          {
+            "name": "Mobile Hero Illustration",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/illustration/mobile-hero-illustration.svg",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/illustration/mobile-hero-illustration.svg",
+            "origin_url": "https://assets.teenage.engineering/_img/6a3bdc2638fc31151a900e4d_opt.svg",
+            "usage_context": "Mobile hero banner illustration."
+          },
+          {
+            "name": "Field System Mobile Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/field-system-mobile-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/field-system-mobile-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/6a5c9ccec88f5551e8d09f8e_128.webp",
+            "usage_context": "Mobile view store catalog thumbnail for Field System."
+          },
+          {
+            "name": "Pocket Operator Mobile Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/pocket-operator-mobile-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/pocket-operator-mobile-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/69b2de3ac4b7c86057ec493c_128.webp",
+            "usage_context": "Mobile view store catalog thumbnail for Pocket Operator."
+          },
+          {
+            "name": "OB-4 Mobile Store Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-mobile-store-thumbnail.webp",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/ob-4-mobile-store-thumbnail.webp",
+            "origin_url": "https://assets.teenage.engineering/_img/67506bcfedd15a6d08d903fc_128.webp",
+            "usage_context": "Mobile view store catalog thumbnail for OB-4."
+          },
+          {
+            "name": "Interactive Component Joystick Shadow",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/interactive-component-joystick-shadow.png",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/interactive-component-joystick-shadow.png",
+            "origin_url": "https://teenage.engineering/assets/joystick_shadow.Dh5SPi3A.png",
+            "usage_context": "Background shadow asset for interactive joystick component."
+          },
+          {
+            "name": "Fader Component Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/fader-component-image.png",
+            "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/site-assets/media/image/fader-component-image.png",
+            "origin_url": "https://teenage.engineering/assets/fader.B-K-ADTU.png",
+            "usage_context": "Image asset for interactive fader component."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Minimal icon-based navigation",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Icon-based navigation bar with menu hamburger, mobile device, square/frame, pen/edit tool, text, shapes/layers, and user profile icons in black on white background"
+            },
+            {
+              "type": "logo",
+              "description": "Teenage Engineering logo/wordmark in header"
+            },
+            {
+              "type": "button",
+              "description": "Shopping cart/bag icon in black"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered full-width",
+          "headline": "DAILY LIFE",
+          "subheadline": "MR. UFO",
+          "components": [
+            {
+              "type": "illustration",
+              "description": "Black and white line illustration showing urban buildings/cityscape with UFO element in hand-drawn, sketch-like style"
+            }
+          ]
+        },
+        {
+          "type": "Gallery Section",
+          "layout_pattern": "Vertical scroll, full-width single column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Deep black background with gray sculptural/architectural form - minimalist, monochromatic editorial photography"
+            },
+            {
+              "type": "image",
+              "description": "Dramatic lighting on dark background - high contrast"
+            },
+            {
+              "type": "image",
+              "description": "Red/orange glossy object on pure black background - high-end product-style photography with high contrast"
+            }
+          ]
+        },
+        {
+          "type": "Gallery Section",
+          "layout_pattern": "Vertical scroll with thumbnails below",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Black to gray gradient background with white geometric/architectural element - minimalist, high contrast style"
+            },
+            {
+              "type": "image",
+              "description": "Small thumbnail preview images in grayscale tones"
+            }
+          ]
+        },
+        {
+          "type": "Gallery Section",
+          "layout_pattern": "Full-width vertical",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Pure black background with long exposure light trails - red/orange light elements creating abstract, motion-based photography with dynamic, energetic mood"
+            }
+          ]
+        },
+        {
+          "type": "Gallery Section",
+          "layout_pattern": "Vertical scroll with preview",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Small green/teal colored preview image at top"
+            },
+            {
+              "type": "image",
+              "description": "Mixed media collage on light/white background including maps, urban planning documents, orange graphic elements, bicycle illustration, text fragments, urban photography - editorial, layered composition in orange, teal, black, white, and natural paper tones"
+            }
+          ]
+        },
+        {
+          "type": "Gallery Section",
+          "layout_pattern": "Vertical scroll with preview",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Small green/teal colored preview image at top"
+            },
+            {
+              "type": "image",
+              "description": "Black background with keyboard or technical equipment in dark lighting - product/tech photography with professional, technical mood"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid layout",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "form",
+              "description": "Country/region selector dropdown in white text on dark background"
+            },
+            {
+              "type": "navigation",
+              "description": "Footer links including newsletter, retailers, store, terms, press, contact, returns in white text on dark #0f0e12 background"
+            },
+            {
+              "type": "button",
+              "description": "Newsletter signup button with gray background"
+            },
+            {
+              "type": "logo",
+              "description": "Teenage Engineering logo in footer"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

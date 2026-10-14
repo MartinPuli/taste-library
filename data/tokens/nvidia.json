@@ -1,0 +1,428 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Serves as the foundational color for dark thematic sections, the global footer, and the default text color across light surfaces.",
+        "when_to_use": [
+          "Global page text",
+          "Carousel dark section backgrounds",
+          "Global footer background",
+          "Mega menu dark overlay"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper White",
+      "type": "Light",
+      "rules": {
+        "description": "Provides the primary canvas for the interface, defining light-themed content sections, navigation surfaces, and contrasting text on dark backgrounds.",
+        "when_to_use": [
+          "Primary navigation header background",
+          "Mega menu panel backgrounds",
+          "Text on dark surfaces",
+          "Form input and dropdown backgrounds"
+        ]
+      },
+      "hex": "#EEEEEE",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F7F7F7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F0F0F0",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E7E7E7",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0465,
+      "group": "baseline"
+    },
+    {
+      "name": "Charcoal",
+      "type": "Dark",
+      "rules": {
+        "description": "Acts as a heavy secondary text color for strong hierarchy, utilized for section headings and specific dark structural components.",
+        "when_to_use": [
+          "Sub-navigation category headings",
+          "Accordion menu button text",
+          "Card description paragraphs",
+          "Mobile table-of-contents background"
+        ]
+      },
+      "hex": "#1A1A1A",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#222222",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#111111",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.016,
+      "group": "secondary"
+    },
+    {
+      "name": "NVIDIA Green",
+      "type": "Warm Color",
+      "rules": {
+        "description": "The core brand identity color, driving user engagement by highlighting primary calls to action, active states, and hyperlinks.",
+        "when_to_use": [
+          "Primary CTA button backgrounds",
+          "Footer text links",
+          "Active menu slider indicators",
+          "User account avatar styling"
+        ]
+      },
+      "hex": "#76B900",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#74B71B",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#134D00",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E2FF8C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0158,
+      "group": "secondary"
+    },
+    {
+      "name": "Slate Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "Used for secondary typography and subtle UI elements to establish visual hierarchy without competing with primary content or brand accents.",
+        "when_to_use": [
+          "Secondary card descriptive text",
+          "Navigation utility icon strokes",
+          "Mega menu unselected category titles",
+          "Accordion caret borders"
+        ]
+      },
+      "hex": "#666666",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#5E5E5E",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#808080",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#747474",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0015,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "NVIDIA-NALA",
+      "role": "H1 Display",
+      "specs": {
+        "size": "3pc",
+        "line_height": "1.25em",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "H2",
+      "specs": {
+        "size": "36px",
+        "line_height": "1.25em",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "H3",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.25em",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "H4 / Promo Headline",
+      "specs": {
+        "size": "18px",
+        "line_height": "150%",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Lead Body",
+      "specs": {
+        "size": "22px",
+        "line_height": "1.75em",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Primary Body / Summary",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Standard Body",
+      "specs": {
+        "size": "15px",
+        "line_height": "1.666em",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Small Body",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Pagination / Button",
+      "specs": {
+        "size": "18px",
+        "line_height": "1.25em",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "UI Element / Navigation",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.25",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NVIDIA Sans",
+      "role": "Tooltip / Citation",
+      "specs": {
+        "size": "12px",
+        "line_height": "18px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"NVIDIA Sans\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Micro Label / Capsule",
+      "specs": {
+        "size": "11px",
+        "line_height": "15.4px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "NVIDIA-NALA",
+      "role": "Disclaimer / Tiny",
+      "specs": {
+        "size": "10px",
+        "line_height": "130%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Font Awesome 6 Pro",
+      "role": "Icons",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.4",
+        "font_weight": "900",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Font Awesome 6 Pro\"",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Font Awesome 6 Sharp",
+      "role": "UI Icons",
+      "specs": {
+        "size": "16px",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Font Awesome 6 Sharp\"",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "2rem",
+    "max_width": "1290px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 639px (1 Column, 16px gutter)",
+    "tablet": "640px - 1023px (8 Columns, 24px gutter)",
+    "desktop": "1024px - 1349px (12 Columns, 32px gutter)",
+    "large": "1350px+ (12 Columns, 40px gutter)"
+  }
+}

@@ -1,0 +1,2078 @@
+{
+  "company": "Runway",
+  "rank": 6,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://runwayml.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T05:03:27.636083Z",
+  "completed_at": "2026-10-14T05:06:35.508514Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Runway",
+        "tagline": null,
+        "source_url": "https://runwayml.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "AI / Creative Technology",
+        "primary_purpose": "Drive product awareness and trial adoption across Runway's AI platform offerings (Creative, Dev, Robotics)",
+        "main_cta": "Try Runway for free",
+        "copy_tone": [
+          "Ambitious",
+          "Technical",
+          "Confident"
+        ],
+        "brand_signature": "A refined, editorial aesthetic combining generous white space with cinematic full-bleed video backgrounds. The visual identity pairs a custom sans-serif typeface (ABC Normal) with an elegant serif (Times Now) for display moments, creating a premium tech-meets-creative feel anchored by a near-monochromatic palette with strategic use of a signature blue accent.",
+        "visual_language": {
+          "keywords": [
+            "cinematic",
+            "editorial",
+            "precise",
+            "premium",
+            "expansive"
+          ],
+          "accent_strategy": "A vivid blue (#2B22FA) used sparingly for promotional banners and interactive highlights, creating high contrast against the neutral palette",
+          "highlights": "Full-bleed video hero sections with subtle dark overlays; rounded card containers with light borders to create depth hierarchy"
+        },
+        "strategy": {
+          "target_audience": [
+            "Creative professionals and content creators seeking AI-powered video and image generation tools for commercial projects",
+            "Enterprise marketing and media teams requiring scalable, secure AI creative solutions with API access",
+            "Developers and technical teams building AI-powered applications needing video generation APIs",
+            "Robotics engineers and researchers exploring simulation and policy training through world models"
+          ],
+          "executive_synthesis": "Runway's homepage strategically positions the brand at the intersection of cutting-edge AI research and practical creative tooling. The three-pillar product architecture (Creative, Dev, Robotics) is visually unified through consistent card-based presentation while differentiated by distinct CTAs. The cinematic hero treatment establishes creative credibility, while the technical language ('General World Models', 'Real-World Intelligence') signals research depth to enterprise and developer audiences. The prominent partner logos and news section reinforce market validation, supporting conversion paths that span from individual trial signups to enterprise sales outreach."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "**Visual Analysis:** The screenshot reveals a highly polished, modern tech company website with a clean, professional aesthetic. The hero section features a dramatic atmospheric photograph with white text overlay, while the rest of the page alternates between crisp white sections and a deep black footer. The overall impression is restrained elegance with careful attention to spacing and hierarchy.\n\n**Forensic Evidence Supporting Flat Design:**\n\n1. **Color Palette (Clean/Pure):** The palette is strictly grayscale—Paper White (#FFFFFF), Off-Black (#0C0C0C), and Body Gray (#404040)—with a single accent (Promo Blue #2B22FA). This minimalist, high-contrast palette is characteristic of Flat Design's bold, saturated-yet-limited color approach.\n\n2. **Typography (Sans-Serif Modern, Geometric):** The design uses a single proprietary typeface (abcNormal) throughout, a geometric sans-serif with tight tracking on display sizes. The fluid typography scale via CSS clamp() and the weight hierarchy (400-600) creates clear visual order without introducing multiple font families—hallmark Flat Design systematization.\n\n3. **Shape/Texture Profile:** The texture classification indicates \"gradient_linear\" and \"shadows_soft\"—importantly, these are utilitarian (carousel fades, subtle button shadows) rather than decorative. Cards use subtle borders (border-black/10) and rounded corners (rounded-lg, rounded-xl) but remain fundamentally flat surfaces. No skeuomorphic effects, no complex gradients.\n\n4. **Layout (Grid-Based Strict, Generous Whitespace):** The 12-column grid with 100px+ vertical padding between sections creates clear visual breathing room. The strict adherence to grid alignment and systematic spacing is textbook Flat Design/Swiss-influenced digital design.\n\n5. **Dimensionality Score:** Almost entirely 2D. While soft shadows exist, they're minimal and functional—creating subtle elevation hierarchy rather than tactile depth. No glass effects, no neumorphic extrusion, no 3D elements.\n\n**Key Differentiator from Minimalism:** This is NOT extreme reduction. The page has substantial content density—three product cards, news grid, extensive footer, logo marquee. It's organized abundance, not emptiness.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "**Corporate Modifier Applied:** The design strongly exhibits corporate tonal qualities that modify the base Flat Design:\n\n1. **Trust signals:** Enterprise-focused CTAs (\"For Enterprise,\" \"Contact Sales\"), partner logos (nvidia, Amazon), compliance badges (GDPR, SOC 2 Type II in footer).\n\n2. **Professional restraint:** Muted color palette, formal typographic hierarchy, conservative button styling with opacity-based hover states rather than playful animations.\n\n3. **B2B structure:** Three-product platform presentation, research/technical documentation sections (GWM-1, Gen-4.5), multi-column mega footer with extensive link architecture—all hallmarks of enterprise SaaS design.\n\n4. **Photography style:** The atmospheric hero and professional team photos convey competence and scale rather than playfulness or creativity.\n\nThe Corporate modifier accurately captures the audience-appropriate formality layered onto the Flat Design foundation."
+        }
+      },
+      "layout": {
+        "classification": [
+          "grid_based_strict",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "1.5rem",
+          "max_width": "1600px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 639px (1 Column, 1.25rem padding)",
+          "tablet": "640px - 1023px (2-4 Columns, 1.5rem padding)",
+          "desktop": "1024px - 1439px (12 Columns, 1.5rem padding)",
+          "large": "1440px+ (12 Columns, 1.5rem padding)"
+        },
+        "section_separation": "Sections are separated by generous vertical whitespace (py-[100px], py-24, py-32 classes). Background colors alternate between white and dark (offBlack). No visible divider lines between major sections, relying on color contrast and spacing rhythm. Cards and panels use subtle borders (border-black/10) and rounded corners (rounded-lg, rounded-xl).",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│  Banner: Employees get 3 months off wages free  Sign Up │\n├──────────────────────────────────────────────────────────┤\n│ [LOGO]  Clients▾ Dev  Solutions▾ Research▾ Resources▾   │\n│         Enterprise  Pricing    Experiments Learn  Login  │\n│         [Sign Up]                                        │\n├──────────────────────────────────────────────────────────┤\n│                       [HERO]                             │\n│                                                          │\n│         Intelligent tools for scaling                   │\n│         content and teams.                              │\n│                                                          │\n│         Runway is a leading marketplace that gives...   │\n│                                                          │\n│         [Try Runway for free]                           │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│              [LOGO MARQUEE]                              │\n│  nvidia  gut  [logo]  LONGREADS  amazon  ■■  [logo]     │\n├──────────────────────────────────────────────────────────┤\n│      Three platforms built on-top of the same           │\n│        Real-World Intelligence models.                  │\n├──────────────────────────────────────────────────────────┤\n│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐     │\n│ │ Runway       │ │ Runway Dev   │ │ Runway       │     │\n│ │ Creative     │ │              │ │ Robotics     │     │\n│ │ [B&W team    │ │ [Person in   │ │ [Robot arm   │     │\n│ │  photo]      │ │  workspace]  │ │  image]      │     │\n│ │              │ │              │ │              │     │\n│ │ Your complete│ │ The AI media │ │ A complete   │     │\n│ │ Creative...  │ │ platform...  │ │ toolkit...   │     │\n│ │              │ │              │ │              │     │\n│ │ [Try Now]    │ │ [Get API Key]│ │ [Try Now]    │     │\n│ │ Code-access  │ │ Value props  │ │ Contact Sales│     │\n│ │ For Enterprise│ │ For Enterprise│ │              │     │\n│ └──────────────┘ └──────────────┘ └──────────────┘     │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│ Runway Creative    Runway Dev       Runway Robotics    │\n│                                                          │\n│ ┌────────────────────────────────────────────────────┐  │\n│ │                                                    │  │\n│ │  How Runway is Used                               │  │\n│ │                                                    │  │\n│ │  Build your own Workflows                         │  │\n│ │                                                    │  │\n│ │  Enterprise grade                                 │  │\n│ │                                                    │  │\n│ │  The World's Best Models                          │  │\n│ │                                                    │  │\n│ │         [Illustration: Couch sketch]              │  │\n│ │                                                    │  │\n│ └────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│              [DARK GRADIENT SECTION]                     │\n│                                                          │\n│  Runway Research                                        │\n│                                                          │\n│  We are building foundational General World            │\n│  Models that will be capable of simulating all         │\n│  aspects of the real world. The next frontier of       │\n│  intelligence will come from models that can            │\n│  understand personas and act in the world.             │\n│                                                          │\n│  [Learn More]                                           │\n│                                                          │\n│                        GWM-1                            │\n│                        [...description...]              │\n│                        [Read Technical Report]          │\n│                                                          │\n│                        Gen-4.5                          │\n│                        [...description...]              │\n│                        [Try Now]                        │\n│                                                          │\n│                        General World Models             │\n│                        [...description...]              │\n│                        [Read Paper]                     │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│           See the latest from Runway                    │\n│                                                          │\n│ ┌──────────────┐  ┌──────────────┐                      │\n│ │[Runway Ads   │  │[Pixela-1     │                      │\n│ │ thumbnail]   │  │ thumbnail]   │                      │\n│ │Introducing   │  │Introducing   │                      │\n│ │Runway Ads    │  │Pixela-1      │                      │\n│ │[Learn more →]│  │[Learn more →]│                      │\n│ └──────────────┘  └──────────────┘                      │\n│ ┌──────────────┐  ┌──────────────┐                      │\n│ │[OpenAI logo] │  │[Citadel logo]│                      │\n│ │Runway joins  │  │Runway's in   │                      │\n│ │OpenAI...     │  │Citadel...    │                      │\n│ │[Learn more →]│  │[Learn more →]│                      │\n│ └──────────────┘  └──────────────┘                      │\n├──────────────────────────────────────────────────────────┤\n│                    [FOOTER - Black]                      │\n│                                                          │\n│ Products        Models          Company      Download   │\n│ Magic Cutter    Models +        Privacy      App Store  │\n│ Generative AI   Mobile Models   Security     Data Security│\n│ AI Video        API Models      Careers      Media Kit   │\n│ AI Gen          Gen-4           Contact Sales            │\n│ Creative AI     MediaAI                                  │\n│ Text-to-Video   Runway ML                                │\n│ Image Gen       Gen-3                                    │\n│ AI Tools        Pricing                                  │\n│ AI API                                                   │\n│                                                          │\n│ Research Hub   Academia▾         AI Institute           │\n│ GWM            Machine learning  Worlds                  │\n│ Publications   Research Hub      Gen-1                   │\n│ Papers         Theory            Affiliate Program       │\n│                                  Custom Training         │\n│                                  Partners                │\n│                                  Partnerships            │\n│                                                          │\n│ [LOGO] © 2023 RunwayML Inc. All rights reserved         │\n│        GDPR • SOC 2 Type II • Privacy Policy            │\n│                                         [Social Icons]   │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**BANNER (Top)**\n- Background: Deep blue bar\n- Typography: White text \"Employees get 3 months of wages free. Sign Up $250\" | \"Careers page >\"\n- Appears to be a promotional/announcement banner\n\n**NAVIGATION**\n- Background: White with slight transparency/blur\n- Logo: \"runway\" wordmark in black, left-aligned\n- Links: Black text navigation (Clients, Dev, Solutions, Research, Resources, Enterprise, Pricing, Experiments, Learn)\n- Buttons/CTAs: \"Login\" (text link) | \"Sign Up\" (dark navy/black solid button, rounded)\n- Layout: Horizontal, clean, minimal\n\n**HERO**\n- Background: Large atmospheric photograph - blue/teal tones, appears to be between ice walls or canyon (dramatic perspective)\n- Typography mood: Bold white headline text, large and prominent\n- Text overlay: \"Intelligent tools for scaling content and teams.\" + subheading in smaller white text\n- Buttons/CTAs: \"Try Runway for free\" (white/light gray solid button, rounded)\n- Colors observed: Deep blues, teals, whites, atmospheric/moody\n\n**LOGO MARQUEE**\n- Background: White\n- Layout: Horizontal row of partner/client logos in grayscale\n- Text: \"Companies we work with the world's leading organizations to solve problems.\"\n- Logos: nvidia, gut, streaming service logo, LONGREADS, amazon, grid icon, additional logo\n- All logos appear monochromatic/black\n\n**HEADLINE SECTION**\n- Background: White\n- Typography: Large black centered text\n- Content: \"Three platforms built on-top of the same Real-World Intelligence models.\"\n- Minimal, clean spacing\n\n**THREE PLATFORM CARDS**\n- Background: White page background\n- Layout: Three equal-width cards in row\n\nCard 1 - Runway Creative:\n- Image: Black and white photograph of professional team (3-4 people in business attire)\n- Heading: \"Your complete Creative Suite with everything you need to make anything you want.\"\n- Body text: Feature descriptions\n- Buttons/CTAs: \"Try Now\" (black solid button) | \"Code-access\" (text link) | \"For Enterprise\" (text link)\n\nCard 2 - Runway Dev:\n- Image: Warm-toned photo of person working in creative workspace with yellow/orange lighting\n- Heading: \"The AI media platform for developers to build with the best models from Runway and other labs.\"\n- Body text: Feature descriptions\n- Buttons/CTAs: \"Get API Key\" (black solid button) | \"Value propositions\" (text link) | \"For Enterprise\" (text link)\n\nCard 3 - Runway Robotics:\n- Image: Industrial/tech aesthetic - robotic arm against light background\n- Heading: \"A complete toolkit to run policy inference through photorealistic simulation.\"\n- Body text: Feature descriptions\n- Buttons/CTAs: \"Try Now\" (black solid button) | \"Contact Sales\" (text link)\n\n**TABS SECTION**\n- Background: White\n- Layout: Three tab labels \"Runway Creative | Runway Dev | Runway Robotics\"\n- Below: Large illustrated diagram area\n- Content: Left sidebar with text \"How Runway is Used | Build your own Workflows | Enterprise grade | The World's Best Models\"\n- Illustration: Line drawing/sketch of a couch in minimalist style (gray lines on light gray background)\n\n**RESEARCH SECTION**\n- Background: Dark gradient (olive/dark green to brown to black, atmospheric/bokeh effect)\n- Typography mood: White text, clean sans-serif\n- Heading: \"Runway Research\" (small caps or label style)\n- Main text: Large white paragraph about General World Models\n- Buttons/CTAs: \"Learn More\" (white outline button, rounded)\n- Right side has three stacked content blocks:\n  - \"GWM-1\" with description and \"Read Technical Report\" link\n  - \"Gen-4.5\" with description and \"Try Now\" link  \n  - \"General World Models\" with description and \"Read Paper\" link\n- Colors observed: Dark olive, golden brown, black, white text\n- Mood: Premium, technical, forward-looking\n\n**NEWS/BLOG SECTION**\n- Background: White\n- Heading: \"See the latest from Runway\" (black text, left-aligned)\n- Layout: 2x2 grid of news cards\n\nCard 1:\n- Image: Dark thumbnail with \"runway Ads\" branding\n- Title: \"Introducing Runway Ads\"\n- Buttons/CTAs: \"Learn more →\" (arrow link)\n\nCard 2:\n- Image: Warm-toned photo thumbnail labeled \"Introducing\"\n- Title: \"Introducing Pixela-1\"\n- Buttons/CTAs: \"Learn more →\"\n\nCard 3:\n- Image: Blue gradient with OpenAI + runway logos\n- Title: \"Runway joins the OpenAI Marketplace\"\n- Buttons/CTAs: \"Learn more →\"\n\nCard 4:\n- Image: Dark background with Citadel + Claude logos\n- Title: \"Runway's in Citadel Security...\"\n- Buttons/CTAs: \"Learn more →\"\n\n**FOOTER**\n- Background: Solid black\n- Typography: White text, organized in columns\n- Layout: Multi-column footer with sections\n\nColumns:\n1. Products: Magic Cutter, Generative AI, AI Video, AI Gen, Creative AI, Text-to-Video, Image Gen, AI Tools, AI API\n\n2. Models: Models +, Mobile Models, API Models, Gen-4, MediaAI, Runway ML, Gen-3, Pricing\n\n3. Company: Privacy, Security, Careers, Contact Sales\n\n4. Download: App Store, Data Security, Media Kit\n\nSecond row:\n- Research Hub, Publications, Papers\n- Academia (dropdown), Machine learning, Research Hub, Theory\n- AI Institute, Worlds, Gen-1, Affiliate Program, Custom Training, Partners, Partnerships\n\nBottom:\n- Logo: \"runway\" wordmark\n- Legal: \"© 2023 RunwayML Inc. All rights reserved | GDPR • SOC 2 Type II • Privacy Policy\"\n- Social icons: X (Twitter), Instagram, LinkedIn, YouTube (right-aligned, white icons)\n\n- Colors observed: Pure black background, white text, minimal accent colors\n- Mood: Professional, comprehensive, corporate",
+        "insights": [
+          "The layout employs a strict 12-column grid system with generous whitespace (100px+ vertical padding) creating clear visual breathing room between sections.",
+          "Responsive breakpoints cascade from single-column mobile (0-639px) to 2-column tablet (640-1023px) to full 12-column desktop (1024px+), with content containers maxing at 1600px.",
+          "Visual hierarchy is reinforced through color blocking: white sections for content, deep blue promo banner, atmospheric dark gradient for research, and solid black footer create distinct zones.",
+          "The design uses a minimal color palette (offBlack #0c0c0c, offWhite #f6f6f6, darkGray #7c7c7c) with strategic accent colors (promoBlue #2b22fa) maintaining a clean, professional aesthetic.",
+          "Typographic rhythm follows a clear scale system (rw-display-m, rw-h5, rw-paragraph-l custom classes) with tight tracking (-0.32px to -2.8px) for large display text.",
+          "Interactive elements maintain consistent border-radius (rounded-md, rounded-lg) and use opacity transitions (opacity-50 hover:opacity-80) for subtle feedback rather than aggressive hover states."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Paper White",
+            "type": "Light",
+            "rules": {
+              "description": "Acts as the foundational surface and the primary text color over dark themes, maintaining a clean, high-contrast aesthetic.",
+              "when_to_use": [
+                "Main page background",
+                "Hero and footer section text",
+                "Secondary CTA button backgrounds (#EEF1F5, #F7F7F7)",
+                "Translucent outlines and borders"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#E5E7EB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EEF1F5",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F7F7F7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E4E5E6",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F6F6F6",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.6061999999999999
+          },
+          {
+            "name": "Body Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "Serves as the default document text color, slightly softer than pure black to improve readability across long sections.",
+              "when_to_use": [
+                "Default HTML body text"
+              ]
+            },
+            "hex": "#404040",
+            "alpha": null,
+            "shades": [],
+            "score": 0.4883
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Provides maximum contrast for graphic elements and forms subtle structural boundaries when used translucently.",
+              "when_to_use": [
+                "Partner logo ticker fills",
+                "Translucent card borders",
+                "Video container dimming overlays"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0969
+          },
+          {
+            "name": "Off Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Carries the primary brand weight, acting as both a bold typography ink and a deep background for high-impact sections.",
+              "when_to_use": [
+                "Navigation bar text and logo",
+                "Footer and hero section backgrounds",
+                "Primary headings",
+                "Secondary CTA button text (#1A1A1A)"
+              ]
+            },
+            "hex": "#0C0C0C",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#1A1A1A",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.09870000000000001
+          },
+          {
+            "name": "Muted Gray",
+            "type": "Cool Color",
+            "rules": {
+              "description": "De-emphasizes secondary information to establish a clear typographic hierarchy.",
+              "when_to_use": [
+                "News article descriptions",
+                "Footer column headers",
+                "App banner dismiss icon"
+              ]
+            },
+            "hex": "#6B7280",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#666E7A",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0257
+          }
+        ],
+        "insights": [
+          "High Contrast Minimalism: The palette is strictly grayscale, relying on stark contrasts to ensure the colorful generative video content remains the focal point.",
+          "Intentional Blacks: The design splits its darkest tones, using pure black (#000000) for vector logos while reserving softer off-blacks (#0C0C0C) for heavy backgrounds and primary typography.",
+          "Translucency over Solid Grays: Rather than introducing mid-tone grays, the design frequently uses translucent whites and blacks to create subtle borders, hovers, and overlays."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "abcNormal",
+              "role": "Display XL",
+              "specs": {
+                "size": "clamp(3rem, 2.2571rem + 3.0476vw, 5rem)",
+                "line_height": "1.05",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Display L / H2",
+              "specs": {
+                "size": "clamp(2.25rem, 1.7857rem + 1.9048vw, 3.5rem)",
+                "line_height": "1.1",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Display M / H1",
+              "specs": {
+                "size": "clamp(1.75rem, 1.4714rem + 1.1429vw, 2.5rem)",
+                "line_height": "1.15",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Display S",
+              "specs": {
+                "size": "clamp(1.5rem, 1.3607rem + .5714vw, 1.875rem)",
+                "line_height": "1.2",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Display XS",
+              "specs": {
+                "size": "clamp(1.25rem, 1.1571rem + .381vw, 1.5rem)",
+                "line_height": "1.25",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "H1 Alt",
+              "specs": {
+                "size": "48px",
+                "line_height": "0.95",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "H5 / H3",
+              "specs": {
+                "size": "24px",
+                "line_height": "1.15",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "H4",
+              "specs": {
+                "size": "20px",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Heading Min",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Variants used for body text and long passages.",
+          "variants": [
+            {
+              "name": "abcNormal",
+              "role": "Paragraph Large",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.55",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Paragraph Medium",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.6",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Paragraph Small",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "1.55",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Paragraph Alt (14px)",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.25",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "List Item",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.3",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian styles for UI text, labels, navigation, and captions.",
+          "variants": [
+            {
+              "name": "abcNormal",
+              "role": "Detail Nav",
+              "specs": {
+                "size": "clamp(.9375rem, 1.0232rem - .0952vw, 1rem)",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Detail CTA",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "1",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Detail Label",
+              "specs": {
+                "size": ".8125rem",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Caption",
+              "specs": {
+                "size": ".75rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Micro",
+              "specs": {
+                "size": ".625rem",
+                "line_height": "1.3",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "UI Bold 14",
+              "specs": {
+                "size": "14px",
+                "line_height": "20px",
+                "font_weight": "600",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "UI Bold 16",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "600",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+              }
+            },
+            {
+              "name": "abcNormal",
+              "role": "Micro Inline",
+              "specs": {
+                "size": "12px",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Special text variants outside standard categories.",
+          "variants": [
+            {
+              "name": "abcNormal",
+              "role": "Stat",
+              "specs": {
+                "size": "clamp(2rem, 1.7214rem + 1.1429vw, 2.75rem)",
+                "line_height": "1.1",
+                "font_weight": "400",
+                "font_variation_settings": "normal"
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "var(--abcNormal)",
+                "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+              }
+            }
+          ]
+        },
+        "highlights": "Interactive text highlighting uses opacity-based transitions (e.g., text-white/90 hovering to text-white) and inline arrows (↗) appended to navigation cards. Occasional use of text-balance for centering copy nicely across viewports.",
+        "insights": [
+          "Extensive use of fluid typography via CSS `clamp()` functions across all display headings and some labels allows for smooth scaling between mobile and desktop viewports.",
+          "The hierarchy utilizes a strict, inverse relationship between font-size and line-height, where smaller UI text uses spacious 1.4-1.6 line-heights for readability, while massive display headings tighten up to 1.05 and 0.95.",
+          "A unified typographic voice is maintained by leveraging a single primary custom typeface (`abcNormal`), utilizing weights from 400 to 600 to distinguish context without introducing visual clutter from multiple font families."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "White Background",
+            "description": "Primary background color for the page and cards",
+            "when_to_use": [
+              "Main page background",
+              "Card surfaces",
+              "Default sections"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Off-Black Surface",
+            "description": "Dark surface used for footer and hero overlay",
+            "when_to_use": [
+              "Footer background",
+              "Dark sections",
+              "Overlay backgrounds"
+            ],
+            "hex": "#0C0C0C"
+          },
+          {
+            "name": "Off-White Alt",
+            "description": "Light neutral surface for header and subtle backgrounds",
+            "when_to_use": [
+              "Header background",
+              "Subtle section backgrounds"
+            ],
+            "hex": "#F6F6F6"
+          },
+          {
+            "name": "Light Gray Surface",
+            "description": "Border and subtle background surface",
+            "when_to_use": [
+              "Borders",
+              "Light section backgrounds",
+              "Dividers"
+            ],
+            "hex": "#E4E5E6"
+          },
+          {
+            "name": "Neutral 800",
+            "description": "CTA button background",
+            "when_to_use": [
+              "Primary button backgrounds",
+              "Dark UI elements"
+            ],
+            "hex": "#262626"
+          },
+          {
+            "name": "Promo Blue",
+            "description": "Promotional banner background",
+            "when_to_use": [
+              "Promotional banners",
+              "Accent sections"
+            ],
+            "hex": "#2B22FA"
+          },
+          {
+            "name": "Light Button Surface",
+            "description": "Secondary button background color",
+            "when_to_use": [
+              "Secondary buttons",
+              "Subtle interactive elements"
+            ],
+            "hex": "#EEF1F5"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "White Fade to Transparent (Left)",
+            "description": "Left-edge fade gradient for logo carousel",
+            "when_to_use": [
+              "Logo carousel edge masks",
+              "Horizontal content fades"
+            ],
+            "css_code": "linear-gradient(to right, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "White Fade to Transparent (Right)",
+            "description": "Right-edge fade gradient for logo carousel",
+            "when_to_use": [
+              "Logo carousel edge masks",
+              "Horizontal content fades"
+            ],
+            "css_code": "linear-gradient(to left, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Black Overlay 20%",
+            "description": "Subtle dark overlay for hero video",
+            "when_to_use": [
+              "Video overlays",
+              "Image darkening for text readability"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+          }
+        ],
+        "highlights": [
+          "White backdrop blur (95% opacity) with blur-md on header for glassmorphism effect",
+          "Soft shadows on cards and buttons with varying blur radius (e.g., shadow-md, shadow-lg, shadow-xl)",
+          "Black overlay with 20% opacity on hero video background for better text contrast"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Offset Shadow",
+              "type": "drop",
+              "description": "Tailwind CSS default ring offset shadow placeholder with zero values",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring offset base",
+                "Focus states"
+              ]
+            },
+            {
+              "name": "Shadow Default",
+              "type": "drop",
+              "description": "Standard shadow with 10% black opacity, 3px blur and secondary 2px blur layer",
+              "css_value": "0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a",
+              "when_to_use": [
+                "Cards",
+                "Subtle elevation"
+              ]
+            },
+            {
+              "name": "Shadow Small",
+              "type": "drop",
+              "description": "Minimal shadow with 5% black opacity and 2px blur",
+              "css_value": "0 1px 2px 0 #0000000d",
+              "when_to_use": [
+                "Buttons",
+                "Small interactive elements"
+              ]
+            },
+            {
+              "name": "Shadow Medium",
+              "type": "drop",
+              "description": "Medium elevation with 10% black opacity, 6px blur primary and 4px blur secondary",
+              "css_value": "0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a",
+              "when_to_use": [
+                "Dropdown menus",
+                "Popovers"
+              ]
+            },
+            {
+              "name": "Shadow Large",
+              "type": "drop",
+              "description": "Large elevation with 10% black opacity, 15px blur primary and 6px secondary",
+              "css_value": "0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a",
+              "when_to_use": [
+                "Modals",
+                "Elevated cards",
+                "Hover states"
+              ]
+            },
+            {
+              "name": "Shadow Extra Large",
+              "type": "drop",
+              "description": "Extra large elevation with 10% black opacity, 25px and 10px blur layers",
+              "css_value": "0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a",
+              "when_to_use": [
+                "Large modals",
+                "Important overlays"
+              ]
+            },
+            {
+              "name": "Shadow 2XL",
+              "type": "drop",
+              "description": "Maximum elevation with 25% black opacity and 50px blur",
+              "css_value": "0 25px 50px -12px #00000040",
+              "when_to_use": [
+                "Prominent floating elements",
+                "Hero sections"
+              ]
+            },
+            {
+              "name": "Shadow Card",
+              "type": "drop",
+              "description": "Custom card shadow with 5% black opacity and 24px blur",
+              "css_value": "0px 12px 24px 0px #0000000d",
+              "when_to_use": [
+                "Content cards",
+                "Product cards"
+              ]
+            },
+            {
+              "name": "Shadow Blur 11",
+              "type": "drop",
+              "description": "Soft glow shadow with 25% black opacity and 11px blur",
+              "css_value": "0 0 11px #00000040",
+              "when_to_use": [
+                "Glowing effects",
+                "Highlighted elements"
+              ]
+            },
+            {
+              "name": "Shadow Deep 60",
+              "type": "drop",
+              "description": "Deep shadow with 20% black opacity and 60px blur with negative spread",
+              "css_value": "0 20px 60px -20px #0003",
+              "when_to_use": [
+                "Hero images",
+                "Large feature cards"
+              ]
+            },
+            {
+              "name": "Shadow Deep 80",
+              "type": "drop",
+              "description": "Very deep shadow with 18% black opacity and 80px blur",
+              "css_value": "0 24px 80px -12px #0000002e",
+              "when_to_use": [
+                "Large floating panels",
+                "Modal dialogs"
+              ]
+            },
+            {
+              "name": "Shadow Soft 4",
+              "type": "drop",
+              "description": "Soft subtle shadow with 6% black opacity and 4px blur",
+              "css_value": "0 4px 4px #0000000f",
+              "when_to_use": [
+                "Subtle lift",
+                "List items"
+              ]
+            },
+            {
+              "name": "Shadow Medium 18",
+              "type": "drop",
+              "description": "Medium shadow with 18% black opacity and 18px blur",
+              "css_value": "0 6px 18px #0000002e",
+              "when_to_use": [
+                "Elevated containers",
+                "Action panels"
+              ]
+            },
+            {
+              "name": "Shadow Soft 20",
+              "type": "drop",
+              "description": "Soft shadow with 10% black opacity, 20px blur and negative spread",
+              "css_value": "0 6px 20px -8px #0000001a",
+              "when_to_use": [
+                "Floating buttons",
+                "Subtle elevation"
+              ]
+            },
+            {
+              "name": "Shadow Dark 24",
+              "type": "drop",
+              "description": "Dark intense shadow with 90% black opacity and 24px blur",
+              "css_value": "0 8px 24px -12px #000000e6",
+              "when_to_use": [
+                "Dark theme elements",
+                "High contrast cards"
+              ]
+            },
+            {
+              "name": "Shadow Medium Dark 24",
+              "type": "drop",
+              "description": "Medium dark shadow with 65% black opacity and 24px blur",
+              "css_value": "0 8px 24px -14px #000000a6",
+              "when_to_use": [
+                "Dark overlays",
+                "Prominent elevation"
+              ]
+            },
+            {
+              "name": "Shadow Soft 9.5",
+              "type": "drop",
+              "description": "Soft shadow with 6% black opacity and 9.5px blur",
+              "css_value": "0px 4.7px 9.5px 0px #0000000f",
+              "when_to_use": [
+                "Refined cards",
+                "Subtle components"
+              ]
+            },
+            {
+              "name": "Shadow Ambient 13.5",
+              "type": "drop",
+              "description": "Ambient shadow with 1% black opacity, 13.5px blur and large spread",
+              "css_value": "0px 4px 13.5px 10px #00000003",
+              "when_to_use": [
+                "Ambient lighting effect",
+                "Background depth"
+              ]
+            },
+            {
+              "name": "Shadow Small 8",
+              "type": "drop",
+              "description": "Small shadow with 5% black opacity and 8px blur",
+              "css_value": "0px 4px 8px 0px #0000000d",
+              "when_to_use": [
+                "Small cards",
+                "Input fields"
+              ]
+            },
+            {
+              "name": "Shadow Small 16",
+              "type": "drop",
+              "description": "Small shadow with 5% black opacity and 16px blur",
+              "css_value": "0px 8px 16px 0px #0000000d",
+              "when_to_use": [
+                "Medium cards",
+                "Panels"
+              ]
+            },
+            {
+              "name": "Shadow Hover 8",
+              "type": "drop",
+              "description": "Hover state shadow with 6% black opacity and 8px blur",
+              "css_value": "0 4px 8px 0 #0000000f",
+              "when_to_use": [
+                "Hover states",
+                "Interactive elements"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#E5E7EB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#0C0C0C",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#7C7C7C",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#C6C6C6",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DCDCDC",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E8EBF0",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#C8CBD5",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DEE4EC",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E8EAF0",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#EDEDED",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#666E7A",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#C4C4CB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E4E5E6",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D0D4D4",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D9D9DD",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E2E8F0",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#73B3D9",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#85BF59",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D1D5DB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#EF4444",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "video_background",
+          "marquee",
+          "tab_switching",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }",
+            "description": "Elements fade in and slide up from below, used for scroll-triggered content reveals"
+          },
+          {
+            "name": "pulse",
+            "css": "@keyframes pulse { 50% { opacity: 0.5; } }",
+            "description": "Pulsing opacity animation for loading indicators or attention states"
+          },
+          {
+            "name": "spin",
+            "css": "@keyframes spin { to { transform: rotate(360deg); } }",
+            "description": "Continuous rotation for loading spinners"
+          },
+          {
+            "name": "blink",
+            "css": "@keyframes blink { 50% { opacity: 0; } }",
+            "description": "Blinking animation for cursor or attention indicators"
+          },
+          {
+            "name": "global-transition",
+            "css": "transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+            "description": "Default transition applied to interactive elements for smooth state changes"
+          },
+          {
+            "name": "header-opacity-transition",
+            "css": "transition: opacity 0.2s ease",
+            "description": "Smooth opacity transition for header backdrop blur reveal on scroll"
+          },
+          {
+            "name": "logo-marquee",
+            "css": "",
+            "description": "Continuous horizontal scrolling of partner logos strip, JS-driven via transform: translate3d updates"
+          },
+          {
+            "name": "tab-progress-bar",
+            "css": "",
+            "description": "Animated width progress indicator under tabs, JS-driven via inline style width percentage updates"
+          }
+        ],
+        "insights": [
+          "The design system uses a highly restrained grayscale palette with subtle translucent overlays (#F7F7F7/5, white/75) to create depth without introducing color complexity.",
+          "Button hierarchy is clearly defined through background fills: solid dark (#262626) for primary actions, light gray (#EEF1F5) for secondary, and transparent with outline for tertiary/ghost states.",
+          "Motion is primarily JS-driven (marquee, tab progress) rather than CSS keyframes, allowing for precise control over timing and state synchronization with interactive elements."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Try Runway (Primary Dark)",
+            "usage": "Main conversion CTA in navigation bar and hero sections for starting free trial",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "abcNormal",
+                  "size": "14px",
+                  "padding": "6px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#262626",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#262626",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Try Runway for free (Hero CTA Light)",
+            "usage": "Large hero button for primary conversion action over dark backgrounds",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "abcNormal",
+                  "size": "16px",
+                  "padding": "8px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F7F7F7",
+                "text_color": "#0C0C0C",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#0C0C0C",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F7F7F7",
+                "text_color": "#0C0C0C",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Enterprise Sales (Secondary Light)",
+            "usage": "Secondary CTA for enterprise contact in navigation and product cards",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "abcNormal",
+                  "size": "14px",
+                  "padding": "6px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#EEF1F5",
+                "text_color": "#1A1A1A",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#E7EAF0",
+                "text_color": "#1A1A1A",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#EEF1F5",
+                "text_color": "#1A1A1A",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Contact sales (Banner Outline)",
+            "usage": "Ghost button style used in promotional announcement banner",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "abcNormal",
+                  "size": "14px",
+                  "padding": "4px 8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(247, 247, 247, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.75)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(247, 247, 247, 0.15)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.75)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(247, 247, 247, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.75)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Learn more (Ghost)",
+            "usage": "Tertiary action for inline text links in news cards and article previews",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "abcNormal",
+                  "size": "14px",
+                  "padding": "4px 8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#1A1A1A",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F5F7FA",
+                "text_color": "#1A1A1A",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#1A1A1A",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Learn more (Research Outline)",
+            "usage": "Outline button on dark research section background for secondary actions",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "abcNormal",
+                  "size": "14px",
+                  "padding": "6px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(247, 247, 247, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.75)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(247, 247, 247, 0.15)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.75)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(247, 247, 247, 0.05)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.75)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Horizontal row with primary and secondary CTAs, commonly used in product cards and hero sections",
+          "spacing": "8px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "68px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/Paper White",
+            "opacity": "0.95",
+            "blur": "backdrop-filter: blur(12px)"
+          },
+          "border_bottom": "1px solid #E4E5E6"
+        },
+        "announcement_bar": {
+          "background": "#2B22FA",
+          "text_color": "#FFFFFF",
+          "border_bottom": null,
+          "height": null
+        },
+        "tabs": {
+          "style_name": "Product Section Tabs",
+          "description": "Horizontal tabs used to switch between product sections (Runway Creative, Runway Dev, Runway Robotics) with animated progress indicator.",
+          "when_to_use": [
+            "Switching between product feature views",
+            "Organizing content by product line"
+          ],
+          "states": [
+            {
+              "name": "selected",
+              "visual_change": "Full opacity (1.0) with animated progress bar beneath",
+              "background": null,
+              "text": "#0C0C0C",
+              "icon": null
+            },
+            {
+              "name": "default",
+              "visual_change": "Reduced opacity (0.5)",
+              "background": null,
+              "text": "#0C0C0C",
+              "icon": null
+            },
+            {
+              "name": "hover",
+              "visual_change": "Increased opacity (0.8)",
+              "background": null,
+              "text": "#0C0C0C",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Product Feature Card",
+            "description": "Card displaying product platform with video thumbnail, title, description, and multiple CTA buttons arranged in a 3-column grid",
+            "when_to_use": [
+              "Showcasing product offerings on homepage",
+              "Feature comparison sections"
+            ]
+          },
+          {
+            "name": "News Article Card",
+            "description": "Horizontal card with image thumbnail on left and article title, description, and learn more link on right",
+            "when_to_use": [
+              "Blog/news listing sections",
+              "Latest updates feed"
+            ]
+          },
+          {
+            "name": "Research Link Card",
+            "description": "Compact list item with title, description, and arrow icon used in dark research section for linking to research papers",
+            "when_to_use": [
+              "Research publication listings",
+              "Model documentation links"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Progress Divider",
+            "description": "Horizontal line with animated fill showing progress through tabbed content sections",
+            "when_to_use": [
+              "Between tab labels to show active state",
+              "Progress indicators"
+            ],
+            "color": "#E4E5E6",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Research Section Divider",
+            "description": "White semi-transparent horizontal line used between research link items on dark backgrounds",
+            "when_to_use": [
+              "Separating list items in dark sections",
+              "Visual grouping in footer-like areas"
+            ],
+            "color": "rgba(255, 255, 255, 0.95)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Line UI Icons",
+          "description": "Outlined functional icons used for UI navigation, actions, and interactive controls.",
+          "when_to_use": [
+            "Navigation dropdowns",
+            "Action buttons",
+            "Language selection menus",
+            "Dismissal controls"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Outlined",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Close / Dismiss",
+              "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 4L4 12M4 4L12 12\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+            },
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down mt-0.5 transition-transform duration-200\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg>"
+            },
+            {
+              "name": "Chevron Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"></path></svg>"
+            },
+            {
+              "name": "Globe / Language Selector",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M2 12h20\"></path><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Solid UI Icons",
+          "description": "Filled shapes used for high-contrast structural toggles.",
+          "when_to_use": [
+            "Mobile navigation toggles"
+          ],
+          "format": "SVG",
+          "style": "Filled / Solid",
+          "sizes": {
+            "small": "23x9px",
+            "medium": "23x9px"
+          },
+          "examples": [
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg width=\"23\" height=\"9\" viewBox=\"0 0 23 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"23\" height=\"1\" class=\"fill-current\"></rect><rect y=\"4\" width=\"23\" height=\"1\" class=\"fill-current\"></rect><rect y=\"8\" width=\"23\" height=\"1\" class=\"fill-current\"></rect></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/logos/secondary.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/logos/secondary.png",
+            "origin_url": "https://runwayml.com/_next/image?url=%2Fimages%2Flogos%2Frunway-app-icon.png&w=96&q=75&dpl=dpl_AvqLdFnspqc5XtRG54S5HQX6eeD4",
+            "description": "Runway App Icon from the top mobile app banner"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/logos/favicon.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/logos/favicon.png",
+            "origin_url": "https://runwayml.com/icon.png?icon.35ps9bmugbe1e.png",
+            "description": "Runway Favicon"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/open-graph-image.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/open-graph-image.webp",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Top Promo Banner Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/top-promo-banner-background.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/top-promo-banner-background.png",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/rectangle-bg.png",
+            "usage_context": "Background image for the top promotional banner highlighting enterprise free usage."
+          },
+          {
+            "name": "Introducing Runway Ads Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/introducing-runway-ads-thumbnail.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/introducing-runway-ads-thumbnail.png",
+            "origin_url": "https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Fsanity%2F2026%2F09%2F092826-runwayads-blogpost-band-flank-a12dbf4e-80c0-41f0-b3e1-79471c65f728.png&w=3840&q=75",
+            "usage_context": "Blog post thumbnail in the 'See the latest from Runway' section."
+          },
+          {
+            "name": "Introducing Praxis-1 Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/introducing-praxis-1-thumbnail.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/introducing-praxis-1-thumbnail.webp",
+            "origin_url": "https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fresearch%2Fpraxis-1%2Fimages%2Fpraxis-1-card.webp&w=3840&q=75",
+            "usage_context": "Blog post thumbnail in the 'See the latest from Runway' section."
+          },
+          {
+            "name": "Runway Joins OpenAI Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-joins-openai-thumbnail.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-joins-openai-thumbnail.png",
+            "origin_url": "https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Fsanity%2F2026%2F09%2Fv2092826-openai-casestudy-c-ff45e702-aa7b-484e-8ad2-6c3d3153ea74.png&w=3840&q=75",
+            "usage_context": "Blog post thumbnail in the 'See the latest from Runway' section."
+          },
+          {
+            "name": "Runway in Claude Motion Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-in-claude-motion-thumbnail.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-in-claude-motion-thumbnail.png",
+            "origin_url": "https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Fsanity%2F2026%2F10%2F100726-claude-casestudy-a-ivory-bc47bc61-759e-4955-90d3-1e18f8cc0356.png&w=3840&q=75",
+            "usage_context": "Blog post thumbnail in the 'See the latest from Runway' section."
+          },
+          {
+            "name": "Social Content Marketing Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/social-content-marketing-image.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/social-content-marketing-image.png",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/10/social-content-25a9da55-32c1-468d-b286-2110700313d8.png",
+            "usage_context": "Preloaded asset for marketing content."
+          },
+          {
+            "name": "Real Estate Example Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/real-estate-example-image.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/real-estate-example-image.png",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/10/real-estate-c846dcf0-ec6d-46d6-9f1a-8c8ba232230c.png",
+            "usage_context": "Preloaded asset demonstrating real-estate outputs."
+          },
+          {
+            "name": "Ideogram Establishing Shot Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/ideogram-establishing-shot-image.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/ideogram-establishing-shot-image.png",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/10/ideogram-p-image-establishing-shot-shot-framing-the-inside-o-7005d1dd-75e4-4f24-ae09-54c0f37c48af.png",
+            "usage_context": "Preloaded asset for ideogram features or gallery."
+          },
+          {
+            "name": "RNA CTA Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/rna-cta-background.png",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/rna-cta-background.png",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/rna-sessions/rna-cta-bg.png",
+            "usage_context": "Background image for RNA call-to-action sessions."
+          },
+          {
+            "name": "Building Real-World Intelligence Hero Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/video/building-real-world-intelligence-hero-video.m3u8",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/video/building-real-world-intelligence-hero-video.m3u8",
+            "origin_url": "https://stream.mux.com/JFHOwdZ8ujlrDDSLujoSv9su9PQb5001CiRiNdMgIjnk.m3u8?min_resolution=720p",
+            "usage_context": "Autoplaying background video stream in the primary hero section."
+          },
+          {
+            "name": "Hero Background Poster",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/hero-background-poster.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/hero-background-poster.webp",
+            "origin_url": "https://image.mux.com/JFHOwdZ8ujlrDDSLujoSv9su9PQb5001CiRiNdMgIjnk/thumbnail.webp?time=0&width=1920",
+            "usage_context": "Fallback thumbnail image for the hero background video."
+          },
+          {
+            "name": "Runway Creative Poster Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-creative-poster-image.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-creative-poster-image.webp",
+            "origin_url": "https://image.mux.com/5I5te5Vx7NV1gi8DtjSgz702DYWSqbF02RGvQHM3Rjk8M/thumbnail.webp?time=0&width=1920",
+            "usage_context": "Video thumbnail for the Runway Creative platform showcase."
+          },
+          {
+            "name": "Runway Dev Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-dev-background.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-dev-background.webp",
+            "origin_url": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/rw-dev-homepage-card.webp",
+            "usage_context": "CSS background image covering the Runway Dev platform card."
+          },
+          {
+            "name": "Runway Robotics Poster Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-robotics-poster-image.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-robotics-poster-image.webp",
+            "origin_url": "https://image.mux.com/MqYdmPpxdf6cd3OsBFaiwluV8ize2PzjjZCUW2O02aWw/thumbnail.webp?time=0&width=1920",
+            "usage_context": "Video thumbnail for the Runway Robotics platform showcase."
+          },
+          {
+            "name": "How Runway is Used UI Showcase",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/how-runway-is-used-ui-showcase.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/how-runway-is-used-ui-showcase.webp",
+            "origin_url": "https://image.mux.com/Bd17Bgkw00lq6QqwOAAxkXKYs7hy3RnHj1JQjUwYmdZA/thumbnail.webp?time=0&width=1920",
+            "usage_context": "Poster image covering the 'How Runway is Used' interactive UI pane."
+          },
+          {
+            "name": "Runway Research Poster Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-research-poster-image.webp",
+            "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/site-assets/media/image/runway-research-poster-image.webp",
+            "origin_url": "https://image.mux.com/T3MxHKsagNzekzmQK4dWkxm01bAW00Rki7Kzg6odj4rIQ/thumbnail.webp?time=0&width=1920",
+            "usage_context": "Background poster image backing the Runway Research news block."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/x/6eb29843-f655-42d6-9944-8c084d1b6a88.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Abstract blurred gradient background with sweeping bands of orange, red, golden yellow, and muted lavender; no text or distinct subject."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/x/001a2bff-fe9f-4d84-adf6-9060b1de2db5.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "The black lowercase word “runway” appears in bold, rounded lettering centered on a plain white background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/x/ca091878-5ba6-4d61-b1cb-0e31077576e0.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Dim, warmly lit living room with a patterned rug, bookshelves, sofa, and glowing table lamp; a large “Win credits” overlay spans the center."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/x/58c9bf15-6856-4e63-8639-b6ad61e84524.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A man uses a silver Apple laptop while reclining in bed against a red brick wall; white “runway” branding appears at bottom right."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/linkedin/315eba4c-9f55-4aa1-b0f6-cd67e810eea8.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Dark charcoal Runway Hackathon poster with colorful code-style typography, prize details, and AWS and NVIDIA logos along the bottom."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/x/d9a20874-8fbb-42e3-af59-9a07bb8d17c3.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Minimalist Runway AI Summit SF 2026 graphic with small white branding at upper left and oversized headline clipped across a muted gray-blue gradient."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/linkedin/3a163ea2-4150-42be-8ce1-22a62062ac75.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Dark blue-gray Runway infographic ranks six AI agents by overall quality, with rounded progress bars, scores, and a highlighted #1 badge."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/linkedin/ab12e79c-25f7-4358-adf6-a298ea674750.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A dark blurred gradient poster features centered white text, “Create your own frontier models with Runway model licensing,” above the Runway wordmark."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/linkedin/9fba1e2e-94c1-416e-a7f7-d491d8e3d804.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A softly blurred, abstract gray-blue surface with a warm cream glow near the upper center and darker edges."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/google_ads/c663d86c-cf98-4fc4-b20e-a797946a4d16.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimal Runway AI, Inc. promotional screen with bold dark “Bring Stories To Life” typography, descriptive copy, and a black Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/linkedin/95e9d0b8-7141-4920-b0a8-21dd126f0ff9.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "White OpenAI and runway wordmarks separated by a thin vertical line, centered on a softly textured turquoise-blue background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/google_ads/10f296c6-6670-4867-baf0-df3b8548ec78.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Runway AI, Inc. promotional graphic with bold “Meet Aleph 2.0” headline, feature text, food-video preview, and black Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/google_ads/da5316be-a537-4d91-b705-b7dc2cb5cba1.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Runway Agent promotional webpage pairs a cinema audience image with bold “Meet Runway Agent” text and a bright blue “Visit Site” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/google_ads/f3a874c9-4391-4f26-96db-2db8109cb8e7.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Cream promotional mobile page for Runway AI features oversized dark olive “Astra Plans. Runway Shoots.” text, a black ChatGPT–Runway banner, and an Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/google_ads/4b6d5c8a-3cdf-4b52-8a7d-653aa14d10a5.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Runway AI Inc. promotional page with bold olive “Dialogue and Sound Built In” typography and a video ad collage above a dark Open bar."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/x/aad62c5d-8d97-49cf-a26d-d6db805117fc.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Minimal Runway AI Summit SF 2026 title card with large white “The State of General Purpose Robotics” text partially sliced across a blurred gray-blue gradient."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/linkedin/3b2710ae-af25-45e1-b4a1-81d525842ae1.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Abstract horizontal gradient blending vivid orange and red on the left into warm beige and pale pink on the right."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/brand-media/google_ads/aee804e6-9889-4892-b53f-487bb0b1fc4a.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Runway AI mobile webpage with a black-and-white logo, oversized “Enterprise-ready AI video” headline, and a leaping goat image."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Banner",
+          "layout_pattern": "Full-width bar",
+          "headline": "Employees get 3 months of wages free. See terms",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "White text 'Contact sales' button with white outline and arrow icon on deep blue background"
+            }
+          ]
+        },
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal split - logo left, nav center, actions right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Black 'runway' wordmark in lowercase, clean sans-serif"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal text links: Clients, Dev, Solutions, Research, Resources, Enterprise, Pricing with dropdown chevrons; black text on white"
+            },
+            {
+              "type": "button",
+              "description": "Light gray 'Login' text link"
+            },
+            {
+              "type": "button",
+              "description": "Dark navy/black rounded solid button labeled 'Try Runway'"
+            }
+          ]
+        },
+        {
+          "type": "Promo Banner",
+          "layout_pattern": "Centered horizontal",
+          "headline": "...",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "White outlined button 'Contact sales' with arrow on blue gradient background with textured overlay"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered content over full-width video background",
+          "headline": "Building Real-World Intelligence",
+          "subheadline": "...",
+          "components": [
+            {
+              "type": "video",
+              "description": "Atmospheric autoplay background video - blue/teal ice canyon perspective with dark overlay"
+            },
+            {
+              "type": "button",
+              "description": "White rounded solid button 'Try Runway for free' with chevron icon"
+            }
+          ]
+        },
+        {
+          "type": "Logo Marquee",
+          "layout_pattern": "Centered horizontal scrolling strip",
+          "headline": "...",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Infinite horizontal scroll of monochromatic client logos: nvidia, gut, streaming service, LONGREADS, amazon, grid icon, and more; all black on white; gradient fade edges"
+            }
+          ]
+        },
+        {
+          "type": "Section Headline",
+          "layout_pattern": "Centered",
+          "headline": "...",
+          "subheadline": null,
+          "components": []
+        },
+        {
+          "type": "Three Platform Cards",
+          "layout_pattern": "Grid 3-column equal-width",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Card 1 - Runway Creative: Black & white team photo, title, description paragraph, three buttons (black 'Try now', gray 'Learn more', gray 'For Enterprise'), caption text"
+            },
+            {
+              "type": "card",
+              "description": "Card 2 - Runway Dev: Warm-toned workspace photo with orange/yellow lighting, title, description paragraph, three buttons (black 'Get API Key', gray 'View documentation', gray 'For Enterprise')"
+            },
+            {
+              "type": "card",
+              "description": "Card 3 - Runway Robotics: Industrial robotic arm on light background, title, description paragraph, two buttons (black 'Learn more', gray 'Contact Sales')"
+            }
+          ]
+        },
+        {
+          "type": "Tabbed Content Section",
+          "layout_pattern": "Horizontal tabs with content panel below",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Three tab buttons: 'Runway Creative' (active), 'Runway Dev', 'Runway Robotics' with underline progress indicator"
+            },
+            {
+              "type": "card",
+              "description": "White rounded card with border, split layout: left sidebar with vertical text menu (How Runway is Used, Create with Agent, Build Workflows, Enterprise-grade, World's Best Models), right side with large illustration/sketch of couch in gray lines on light background"
+            }
+          ]
+        },
+        {
+          "type": "Research Section",
+          "layout_pattern": "Split horizontal - text left, list right",
+          "headline": "Runway Research",
+          "subheadline": "We are building foundational General World Models...",
+          "components": [
+            {
+              "type": "video",
+              "description": "Dark gradient atmospheric background - olive/brown to black bokeh effect"
+            },
+            {
+              "type": "button",
+              "description": "White outlined rounded button 'Learn more'"
+            },
+            {
+              "type": "card",
+              "description": "Three stacked content blocks on right: 'GWM-1' with Read Technical Report link, 'Gen-4.5' with Try Now link, 'General World Models' with Read Paper link; white text on dark gradient"
+            }
+          ]
+        },
+        {
+          "type": "News/Blog Grid",
+          "layout_pattern": "Grid 2x2",
+          "headline": "See the latest from Runway",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Card 1: Dark thumbnail with runway Ads branding, title 'Introducing Runway Ads', description text, 'Learn more →' link"
+            },
+            {
+              "type": "card",
+              "description": "Card 2: Warm photo thumbnail, title 'Introducing Praxis-1', description text, 'Learn more →' link"
+            },
+            {
+              "type": "card",
+              "description": "Card 3: Blue gradient with OpenAI + runway logos, title 'Runway Joins the OpenAI Marketplace', description text, 'Learn more →' link"
+            },
+            {
+              "type": "card",
+              "description": "Card 4: Dark background with Citadel + Claude logos, title 'Runway is in Claude Motion', description text, 'Learn more →' link"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid on black background",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Eight columns of white text links organized by category: Creative, Dev, Robotics, Enterprise, Research, Resources, Events & Programs, Company"
+            },
+            {
+              "type": "logo",
+              "description": "White 'runway' wordmark at bottom left"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons (X/Twitter, Instagram, YouTube, Discord) in white, right-aligned"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

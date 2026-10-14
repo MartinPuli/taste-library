@@ -1,0 +1,589 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Paper White",
+      "type": "Light",
+      "rules": {
+        "description": "Acts as the foundational surface and the primary text color over dark themes, maintaining a clean, high-contrast aesthetic.",
+        "when_to_use": [
+          "Main page background",
+          "Hero and footer section text",
+          "Secondary CTA button backgrounds (#EEF1F5, #F7F7F7)",
+          "Translucent outlines and borders"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#E5E7EB",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EEF1F5",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F7F7F7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E4E5E6",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F6F6",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.6061999999999999,
+      "group": "baseline"
+    },
+    {
+      "name": "Body Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "Serves as the default document text color, slightly softer than pure black to improve readability across long sections.",
+        "when_to_use": [
+          "Default HTML body text"
+        ]
+      },
+      "hex": "#404040",
+      "alpha": null,
+      "shades": [],
+      "score": 0.4883,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Provides maximum contrast for graphic elements and forms subtle structural boundaries when used translucently.",
+        "when_to_use": [
+          "Partner logo ticker fills",
+          "Translucent card borders",
+          "Video container dimming overlays"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0969,
+      "group": "secondary"
+    },
+    {
+      "name": "Off Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Carries the primary brand weight, acting as both a bold typography ink and a deep background for high-impact sections.",
+        "when_to_use": [
+          "Navigation bar text and logo",
+          "Footer and hero section backgrounds",
+          "Primary headings",
+          "Secondary CTA button text (#1A1A1A)"
+        ]
+      },
+      "hex": "#0C0C0C",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#1A1A1A",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.09870000000000001,
+      "group": "secondary"
+    },
+    {
+      "name": "Muted Gray",
+      "type": "Cool Color",
+      "rules": {
+        "description": "De-emphasizes secondary information to establish a clear typographic hierarchy.",
+        "when_to_use": [
+          "News article descriptions",
+          "Footer column headers",
+          "App banner dismiss icon"
+        ]
+      },
+      "hex": "#6B7280",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#666E7A",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0257,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "abcNormal",
+      "role": "Display XL",
+      "specs": {
+        "size": "clamp(3rem, 2.2571rem + 3.0476vw, 5rem)",
+        "line_height": "1.05",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Display L / H2",
+      "specs": {
+        "size": "clamp(2.25rem, 1.7857rem + 1.9048vw, 3.5rem)",
+        "line_height": "1.1",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Display M / H1",
+      "specs": {
+        "size": "clamp(1.75rem, 1.4714rem + 1.1429vw, 2.5rem)",
+        "line_height": "1.15",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Display S",
+      "specs": {
+        "size": "clamp(1.5rem, 1.3607rem + .5714vw, 1.875rem)",
+        "line_height": "1.2",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Display XS",
+      "specs": {
+        "size": "clamp(1.25rem, 1.1571rem + .381vw, 1.5rem)",
+        "line_height": "1.25",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "H1 Alt",
+      "specs": {
+        "size": "48px",
+        "line_height": "0.95",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "H5 / H3",
+      "specs": {
+        "size": "24px",
+        "line_height": "1.15",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "H4",
+      "specs": {
+        "size": "20px",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Heading Min",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Paragraph Large",
+      "specs": {
+        "size": "1.25rem",
+        "line_height": "1.55",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Paragraph Medium",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.6",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Paragraph Small",
+      "specs": {
+        "size": ".875rem",
+        "line_height": "1.55",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Paragraph Alt (14px)",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.25",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "abcNormal",
+      "role": "List Item",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.3",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Detail Nav",
+      "specs": {
+        "size": "clamp(.9375rem, 1.0232rem - .0952vw, 1rem)",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Detail CTA",
+      "specs": {
+        "size": ".875rem",
+        "line_height": "1",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Detail Label",
+      "specs": {
+        "size": ".8125rem",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Caption",
+      "specs": {
+        "size": ".75rem",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Micro",
+      "specs": {
+        "size": ".625rem",
+        "line_height": "1.3",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "UI Bold 14",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "600",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "UI Bold 16",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "600",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Neutral-s.p.2n7_-unbs3n48.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Micro Inline",
+      "specs": {
+        "size": "12px",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "abcNormal",
+      "role": "Stat",
+      "specs": {
+        "size": "clamp(2rem, 1.7214rem + 1.1429vw, 2.75rem)",
+        "line_height": "1.1",
+        "font_weight": "400",
+        "font_variation_settings": "normal"
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "var(--abcNormal)",
+        "file_url": "/_next/static/immutable/media/ABCNormal_Regular-s.p.1b_g1ycxls7-a.woff2"
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "1.5rem",
+    "max_width": "1600px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 639px (1 Column, 1.25rem padding)",
+    "tablet": "640px - 1023px (2-4 Columns, 1.5rem padding)",
+    "desktop": "1024px - 1439px (12 Columns, 1.5rem padding)",
+    "large": "1440px+ (12 Columns, 1.5rem padding)"
+  }
+}

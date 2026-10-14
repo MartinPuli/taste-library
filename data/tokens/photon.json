@@ -1,0 +1,408 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Core Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Acts as the foundational high-contrast color for the site, providing stark backgrounds for feature sections and clear typography in light sections.",
+        "when_to_use": [
+          "Global text color in light sections",
+          "Hero and feature section backgrounds",
+          "Primary CTA background"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper & Surfaces",
+      "type": "Light",
+      "rules": {
+        "description": "Provides the primary light surfaces and contrasting text, creating clean reading environments and sharp contrast inside dark bands.",
+        "when_to_use": [
+          "Base page background (#F5F5F7)",
+          "Feature and testimonial card backgrounds",
+          "Typography inside dark sections"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#EEEEEE",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F5F5F7",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0866,
+      "group": "baseline"
+    },
+    {
+      "name": "Interactive Blue",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary interactive and brand accent, heavily indexing on a utilitarian default-link blue to signify clickability.",
+        "when_to_use": [
+          "Hyperlinks and inline links",
+          "Code snippet accents and background variants",
+          "Tinted feature image backgrounds"
+        ]
+      },
+      "hex": "#0000EE",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#2972C4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#3B7AD9",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#1954D4",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.03490000000000001,
+      "group": "secondary"
+    },
+    {
+      "name": "Tertiary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "Muted neutral used for tertiary information, preventing secondary elements from fighting for attention.",
+        "when_to_use": [
+          "Partner and integration labels in the ticker",
+          "Syntax highlighting punctuation",
+          "Testimonial card borders"
+        ]
+      },
+      "hex": "#999999",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#AAAAAA",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#808080",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0044,
+      "group": "secondary"
+    },
+    {
+      "name": "Dark Slate",
+      "type": "Dark",
+      "rules": {
+        "description": "An off-black that provides subtle elevation and hierarchy against the pure black backgrounds or pure white surfaces.",
+        "when_to_use": [
+          "Footer column headings",
+          "System status badge background",
+          "Gradient overlays on feature images"
+        ]
+      },
+      "hex": "#202020",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0016,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "H1 Display",
+      "specs": {
+        "size": "48px",
+        "line_height": "52.8px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 550"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "H2 Primary",
+      "specs": {
+        "size": "40px",
+        "line_height": "42px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 600"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "H2 Secondary",
+      "specs": {
+        "size": "36px",
+        "line_height": "43.2px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 550"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "H3 Primary",
+      "specs": {
+        "size": "28px",
+        "line_height": "36.4px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 500"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "H3 Secondary",
+      "specs": {
+        "size": "24px",
+        "line_height": "28.8px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 450"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "Large Body / Lead",
+      "specs": {
+        "size": "24px",
+        "line_height": "28.8px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 500"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "Medium Body",
+      "specs": {
+        "size": "20px",
+        "line_height": "30px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 450"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "Base Body / Overview",
+      "specs": {
+        "size": "15px",
+        "line_height": "24px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 450"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/ITOtz0GJh0f4Y4Fu3osXqgXYuAw.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "PolySans Arabic VF Variable Slim",
+      "role": "Small Helper Text",
+      "specs": {
+        "size": "14px",
+        "line_height": "16.8px",
+        "font_weight": "300",
+        "font_variation_settings": "\"wght\" 400"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic VF Variable Slim\", \"PolySans Arabic VF Variable Slim Placeholder\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "-apple-system",
+      "role": "System UI / Tag Bold",
+      "specs": {
+        "size": "15px",
+        "line_height": "normal",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "-apple-system",
+      "role": "System UI / Tag Small Bold",
+      "specs": {
+        "size": "13.5px",
+        "line_height": "normal",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "-apple-system",
+      "role": "User Handle / Metadata",
+      "specs": {
+        "size": "14px",
+        "line_height": "normal",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Azeret Mono",
+      "role": "Code Snippets / Technical Data",
+      "specs": {
+        "size": "12px",
+        "line_height": "18px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Azeret Mono\", \"Azeret Mono Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/third-party-assets/fontshare/wf/..."
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Buttons / Navigation Links",
+      "specs": {
+        "size": "14px",
+        "line_height": "16.8px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Inter, sans-serif",
+        "file_url": "https://framerusercontent.com/assets/..."
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Photon_Symbol Regular",
+      "role": "Brand Logo / Symbol",
+      "specs": {
+        "size": "24px",
+        "line_height": "120%",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Photon_Symbol Regular\", \"Photon_Symbol Regular Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/w4HtWyew4MeOXhPdszyyqEOTfY.woff2"
+      },
+      "group": "others"
+    },
+    {
+      "name": "PolySans Arabic Trial Neutral",
+      "role": "Counter / Stat Fallback",
+      "specs": {
+        "size": "15px",
+        "line_height": "normal",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"PolySans Arabic Trial Neutral\", \"PolySans Arabic Trial Neutral Placeholder\", sans-serif",
+        "file_url": "https://framerusercontent.com/assets/YFfTVenVBSrky7RUqS326jm5SLU.woff2"
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "32px",
+    "max_width": "1376px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 719px (1 Column, 16px gutter)",
+    "tablet": "720px - 1199px (8 Columns, 24px gutter)",
+    "desktop": "1200px+ (12 Columns, 32px gutter)",
+    "large": null
+  }
+}

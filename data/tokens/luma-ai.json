@@ -1,0 +1,363 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Provides maximum contrast, serving as the primary text color and the stark background for inverted sections.",
+        "when_to_use": [
+          "Primary body text and headings",
+          "Hero and Research section backgrounds",
+          "Primary CTA backgrounds on light sections",
+          "Subtle structural borders and box shadows"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Surface White",
+      "type": "Light",
+      "rules": {
+        "description": "Forms the foundational canvas of the page and acts as the inverted text color in dark sections.",
+        "when_to_use": [
+          "Page and main container backgrounds (as #FFFFFF)",
+          "Text and logos within dark hero and research sections",
+          "Elevated banner backgrounds like the 'Ray 3.2' announcement (as #EDEDED)",
+          "Inactive input labels like 'tab to accept' (as #CCCCCC)"
+        ]
+      },
+      "hex": "#E5E5E5",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EDEDED",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#CCCCCC",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.5917,
+      "group": "baseline"
+    },
+    {
+      "name": "Secondary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "Provides typographical hierarchy by de-emphasizing supportive text and metadata.",
+        "when_to_use": [
+          "Subtitles under section headings",
+          "News card categories and publish dates",
+          "Secondary text in dark sections (as #8C8C8C)"
+        ]
+      },
+      "hex": "#737373",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#8C8C8C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0465,
+      "group": "secondary"
+    },
+    {
+      "name": "Tertiary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A low-contrast gray applied to input fields for inactive or placeholder elements.",
+        "when_to_use": [
+          "Prompt text area placeholder text",
+          "Submit prompt button icon"
+        ]
+      },
+      "hex": "#A6A6A6",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0036,
+      "group": "secondary"
+    },
+    {
+      "name": "Off-Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Barely appears in the provided markup; likely an incidental dark shade measured from rich media or an unstyled element.",
+        "when_to_use": [
+          "Incidental dark rendering",
+          "Unstyled deep background elements"
+        ]
+      },
+      "hex": "#101010",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0006,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Graphik",
+      "role": "Display",
+      "specs": {
+        "size": "40px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "H1",
+      "specs": {
+        "size": "32px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "H2",
+      "specs": {
+        "size": "28px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "H3",
+      "specs": {
+        "size": "22px",
+        "line_height": "1.2",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "H4",
+      "specs": {
+        "size": "18px",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "H5",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.4",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "Subhead",
+      "specs": {
+        "size": "18px",
+        "line_height": "1.3",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Graphik",
+      "role": "Body Large",
+      "specs": {
+        "size": "18px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Graphik",
+      "role": "Body Medium",
+      "specs": {
+        "size": "16px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Graphik",
+      "role": "Body Small",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.4",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Graphik",
+      "role": "Label",
+      "specs": {
+        "size": "12px",
+        "line_height": "1",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Graphik",
+      "role": "Badge / Tag",
+      "specs": {
+        "size": "14px",
+        "line_height": "14px",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"__graphik_7126cf\", \"__graphik_Fallback_7126cf\"",
+        "file_url": null
+      },
+      "group": "labels"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "2rem",
+    "max_width": "80rem"
+  },
+  "breakpoints": {
+    "mobile": "0px - 768px (1 Column, 16px / 1.5rem gutter)",
+    "tablet": "769px - 1024px (8 Columns, 24px / 1.5rem gutter)",
+    "desktop": "1025px - 1440px (12 Columns, 32px / 2rem gutter)",
+    "large": "1441px+ (12 Columns, 40px / 2rem gutter)"
+  }
+}

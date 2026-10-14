@@ -1,0 +1,2362 @@
+{
+  "company": "Pinterest",
+  "rank": 38,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.pinterest.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T05:03:43.487322Z",
+  "completed_at": "2026-10-14T05:06:49.351030Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Pinterest",
+        "tagline": null,
+        "source_url": "https://www.pinterest.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Social Media / Visual Discovery",
+        "primary_purpose": "Drive user sign-ups and demonstrate platform value through visual discovery features",
+        "main_cta": "Join Pinterest for free",
+        "copy_tone": [
+          "Inspirational",
+          "Friendly",
+          "Accessible"
+        ],
+        "brand_signature": "Clean, image-forward design with generous white space and rounded card-based layouts. The visual identity centers on vibrant, curated photography organized in grid and carousel patterns, accented by the signature Pinterest red. Soft, approachable typography balances the rich visual content.",
+        "visual_language": {
+          "keywords": [
+            "image-centric",
+            "grid-based",
+            "curated",
+            "warm",
+            "inviting",
+            "discovery-oriented"
+          ],
+          "accent_strategy": "Pinterest red (#e60023) used sparingly for primary CTAs, logo, and verification badges to draw attention to key actions while letting user-generated imagery dominate.",
+          "highlights": "Large rounded image containers with subtle shadows, card-based feature showcases, and lifestyle photography collages that demonstrate platform functionality"
+        },
+        "strategy": {
+          "target_audience": [
+            "Creative individuals seeking visual inspiration for projects, events, and personal style",
+            "DIY enthusiasts and hobbyists looking for ideas across home decor, fashion, food, and crafts",
+            "Planners and organizers who want to collect and organize visual references for future use",
+            "Social users interested in collaborative boards and sharing ideas with friends"
+          ],
+          "executive_synthesis": "Pinterest's homepage design strategically prioritizes visual impact to immediately convey its core value proposition as a visual discovery platform. The image-heavy approach with minimal text demonstrates rather than explains, using seasonal content (Halloween) to show relevance and timeliness. Feature sections systematically address user needs—inclusive search (skin tone filters), collaboration (group boards), and visual search—while the persistent sign-up modal and repeated CTAs create a conversion-focused funnel. The warm, inviting color palette and rounded interface elements reduce friction and communicate approachability to a broad consumer audience."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals Pinterest's landing page with a quintessentially modern digital product aesthetic. The visual impression is clean, welcoming, and polished—dominated by generous whitespace, soft rounded corners on all interactive elements (cards, buttons, modals), and a purely white canvas punctuated by warm user-generated imagery. The texture profile confirms \"gradient_linear\" and \"shadows_soft\" as primary classifications, which align perfectly with Flat Design's modern evolution (sometimes called Flat 2.0). The shadows are subtle and functional (0px 3px 12px for modals, soft depth cues) rather than skeuomorphic or heavy. The color palette is intentionally monochromatic at the UI layer—black text, white backgrounds, gray borders—allowing the single brand accent (#E60023 Pinterest red) to dominate CTAs. This is classic Flat Design: bold saturated primary colors for actions, geometric sans-serif typography (Pin Sans throughout), completely flat 2D surfaces without texture or noise, and strict geometric shapes. The layout uses a centered symmetric grid with card-based patterns, generous 60-100px section separation, and alternating cream/white backgrounds—all hallmarks of clean digital UI paradigms. Typography is purely functional with no decorative elements: a single proprietary geometric sans-serif at various weights (400-900) maintaining perfect hierarchy.",
+          "secondary_style": "Friendly",
+          "reasoning_secondary": "The Friendly tonal modifier is essential because the design deliberately softens what could be corporate sterility. Evidence: universally rounded corners (4-8px radius) on buttons, cards, and input fields; pill-shaped CTAs with inviting red; warm earth-toned imagery showcasing crafts, plants, and diverse people; approachable copy like \"Create the life you love\" and \"Welcome to Pinterest\"; and the use of cream/off-white (#F6F6F3) instead of stark white for section backgrounds. The visual search feature mockup with interactive tags and the skin tone search UI both demonstrate inclusive, people-centered design thinking. The modal signup form uses friendly language and social login options. This warmth transforms standard Flat Design into an approachable, trust-building experience rather than a cold utility."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "16px",
+          "max_width": "1440px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 575px (Single column, 16px padding)",
+          "tablet": "576px - 767px (Flexible columns, 16px gutter)",
+          "desktop": "768px - 1311px (12 columns, 16px gutter)",
+          "large": "1312px+ (12 columns, 16px - 40px gutter)"
+        },
+        "section_separation": "Sections are separated by generous whitespace (60px - 100px vertical padding) and alternating background colors (white and off-white/cream gradients). No hard dividers or structural lines; transitions rely on color shifts and spatial breathing room.",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│ [Pinterest]  Explore  Shop  [Search...]  About Business │\n│ Create  News                     [Log in]  [Sign up]    │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  Create the life you love       ┌──────┐               │\n│  on Pinterest                    │ img  │  ┌────┐       │\n│                           ┌──────┤ grid │  │img │       │\n│  [Join Pinterest for free] │ img  │pins  │  └────┘       │\n│  [Already have an account] └──────┴──────┘  ┌────┐       │\n│                                     │img │       │\n│                                     └────┘       │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│          Bring your favorite ideas to life               │\n│   With Pinterest, you can unlock tools that spark your   │\n│         creativity and help you find more inspiration.   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────┐         Search by skin tone      │\n│  │  Skin tone search  │                                  │\n│  │  interface mockup  │  Search with skin tone ranges    │\n│  │  [skin swatches]   │  for beauty ideas that represent │\n│  │  [example images]  │  you                             │\n│  └────────────────────┘         [Start Pinterest]        │\n├──────────────────────────────────────────────────────────┤\n│  Collaborate with group boards   ┌──────────────────┐    │\n│                                  │  Earthy space    │    │\n│  Visualize your ideas with       │  inspo board     │    │\n│  others, using a Pinterest       │  preview         │    │\n│  account                         │  [80 Pins]       │    │\n│                                  │  [avatars]       │    │\n│  [Join Pinterest]                └──────────────────┘    │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────┐   Search visually with images    │\n│  │  Woman in red      │                                  │\n│  │  sweater           │   Search objects within an image │\n│  │  [Cherry red]      │   to find more styles you'll love│\n│  │  [Knit sweater]    │                                  │\n│  │  [Preppy look]     │   [Join Pinterest]               │\n│  └────────────────────┘                                  │\n├──────────────────────────────────────────────────────────┤\n│                        ┌──────────────────────────────┐  │\n│  Sign up to get        │  [SIGNUP MODAL OVERLAY]      │  │\n│  your ideas            │  Welcome to Pinterest        │  │\n│                        │  Join Pinterest for free to  │  │\n│  [Background: grid     │  discover more ideas         │  │\n│   of Pinterest pins    │                              │  │\n│   in soft colors]      │  [Email field]               │  │\n│                        │  [Password field]            │  │\n│                        │  [Birthday field]            │  │\n│                        │                              │  │\n│                        │  [Continue]                  │  │\n│                        │  OR                          │  │\n│                        │  [Continue with Google]      │  │\n│                        │                              │  │\n│                        │  Already have an account?    │  │\n│                        │  Log in                      │  │\n│                        │  Are you a business?         │  │\n│                        │  Get started here            │  │\n│                        └──────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│                        [BLACK FOOTER]                    │\n│                                                          │\n│  Pinterest     Get the app    Quick links    Policies    │\n│                                                          │\n│                iOS           Explore      Terms of service│\n│                Android       Shop         Privacy policy │\n│                              Help Center  Personalized ads│\n│                © 2025 Pinterest                          │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**NAV:**\n- Background: White, clean\n- Logo: Red Pinterest script logo on left\n- Buttons/CTAs: \"Log in\" (white background, black text, rounded), \"Sign up\" (white background, black text, rounded)\n- Colors observed: Red (#E60023 Pinterest brand), white, black text\n- Typography mood: Clean, minimal sans-serif\n\n**HERO:**\n- Background: White/cream gradient\n- Imagery: Collage of Pinterest pins at various angles - food photography (yellow flowers, pumpkins), architectural/design images, showing diverse content\n- Buttons/CTAs: \"Join Pinterest for free\" (solid red #E60023, white text, pill-shaped), \"Already have an account\" (text link, minimal)\n- Colors observed: Red brand color, warm photo tones\n- Typography mood: Bold, large display font for headline\n\n**BRING IDEAS SECTION:**\n- Background: Off-white/cream\n- Typography mood: Clean, centered, medium weight\n- Colors observed: Black text on light background\n\n**SKIN TONE SEARCH FEATURE:**\n- Background: Light beige/cream\n- Left: Mockup of skin tone search interface with gradient swatches and diverse beauty photography\n- Right: Descriptive text area\n- Buttons/CTAs: \"Start Pinterest\" (solid red, white text, pill-shaped)\n- Imagery: UI mockup showing inclusive beauty search with various skin tone samples\n- Components: Interface mockup has subtle shadows, rounded corners\n- Colors observed: Red CTA, diverse skin tones, neutral backgrounds\n\n**COLLABORATE SECTION:**\n- Background: White\n- Right: Board preview card showing \"Earthy space inspo\" with terracotta/earth tone interior design images, showing 80 Pins and contributor avatars\n- Buttons/CTAs: \"Join Pinterest\" (solid red, white text, pill-shaped)\n- Components: Board card has soft shadow, rounded corners\n- Colors observed: Earth tones (terracotta, sage green, warm woods), red CTA\n- Typography mood: Bold section heading, clean body text\n\n**VISUAL SEARCH FEATURE:**\n- Background: Light cream/beige\n- Left: Image mockup showing woman in red knit sweater with interactive tags (\"Cherry red\", \"Knit sweater\", \"Preppy look\")\n- Right: Descriptive text area\n- Buttons/CTAs: \"Join Pinterest\" (solid red, white text, pill-shaped)\n- Imagery: Fashion photography with overlay UI elements\n- Components: Tag bubbles with white backgrounds, subtle shadows\n- Colors observed: Bold cherry red, blue denim, white tags, red CTA\n\n**SIGNUP SECTION + MODAL:**\n- Background: Mosaic of Pinterest pins in soft pastels (greens, pinks, yellows, neutrals) - knitting, plants, crafts, home decor\n- Left: White text overlay \"Sign up to get your ideas\"\n- Right: White modal card overlaying the pin grid\n- Modal components:\n  - Pinterest logo (red)\n  - Heading: \"Welcome to Pinterest\"\n  - Three input fields (email, password, birthday) with icons\n  - Buttons/CTAs: \"Continue\" (solid red, full width), \"Continue with Google\" (white with Google icon, full width, outlined)\n  - Links: \"Log in\" (blue hyperlink), \"Get started here\" (blue hyperlink)\n- Components: Modal has strong drop shadow, rounded corners, clean form fields with right-aligned icons\n- Colors observed: Soft pastels in background, white modal, red primary CTA, blue links\n- Typography mood: Friendly, welcoming, medium weight\n\n**FOOTER:**\n- Background: Solid black (#000000)\n- Layout: Multi-column link structure\n- Sections: Pinterest branding, \"Get the app\" (iOS/Android), \"Quick links\" (Explore, Shop, Help Center), \"Policies\" (Terms, Privacy, Personalized ads)\n- Copyright: © 2025 Pinterest\n- Colors observed: White text on black background\n- Typography mood: Small, clean, organized",
+        "insights": [
+          "Heavy reliance on 50/50 split layouts that alternate left/right orientation, creating a rhythmic zigzag reading pattern down the page.",
+          "Consistent use of rounded corners (4px - 8px radius) and soft shadows across cards, buttons, and modals, reinforcing a friendly, approachable brand personality.",
+          "Strategic use of high-contrast red CTAs (#E60023) against neutral backgrounds (white, cream, pastels) to drive conversion actions at consistent intervals throughout the scroll experience."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Base Dark",
+            "type": "Dark",
+            "rules": {
+              "description": "Serves as the baseline document text color and provides a dramatic, near-black backdrop for the top hero section.",
+              "when_to_use": [
+                "Document default text color",
+                "Top hero section background (#08070E)",
+                "Hidden tracking iframe borders"
+              ]
+            },
+            "hex": "#211922",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#08070E",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0013
+          },
+          {
+            "name": "Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Provides stark maximum contrast for primary typography and anchors the bottom of the page with a solid dark footer.",
+              "when_to_use": [
+                "Main UI typography and headings",
+                "Page footer background",
+                "Translucent overlay washes on image cards (#0000000a)",
+                "Signup modal drop shadow (#00000033)"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.1661
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Canvas & Surface White",
+            "type": "Light",
+            "rules": {
+              "description": "Forms the foundational canvas of the site and shapes the interactive containers that rest on it.",
+              "when_to_use": [
+                "Main page and navigation background",
+                "Secondary button and search bar fills (#E5E5E0)",
+                "Image loading placeholders (#EFEFEF)",
+                "Primary button text and logo fill"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#E5E5E0",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#EFEFEF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F6F6F3",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.1107
+          },
+          {
+            "name": "Subtle Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "De-emphasizes secondary metadata and helper copy to maintain a clear, scannable typographic hierarchy.",
+              "when_to_use": [
+                "Board card metadata (Pin counts and timestamps)",
+                "Search bar icon fill",
+                "Form field helper text and legal disclaimers"
+              ]
+            },
+            "hex": "#62625B",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0201
+          },
+          {
+            "name": "Border Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "Outlines interactive form fields and external elements without competing visually with the text inside them.",
+              "when_to_use": [
+                "Signup form input borders",
+                "Social login button borders",
+                "reCAPTCHA widget shadow (#808080)"
+              ]
+            },
+            "hex": "#91918C",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#808080",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0087
+          }
+        ],
+        "insights": [
+          "The measured palette is entirely monochromatic, relying on stark black, white, and grays to build the UI shell. This effectively forces user-generated imagery to provide all the actual color on the page.",
+          "Visual hierarchy and component bounds are established through a wide spectrum of grays—from light structural washes (#E5E5E0) for secondary interactive surfaces down to mid-tones (#62625B) for metadata.",
+          "The design commits to absolute black (#000000) for major typography and heavy structural blocks like the footer, resulting in a punchy, high-contrast aesthetic against the white canvas rather than a softer, low-contrast UI."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Pin Sans",
+              "role": "Display 1000",
+              "specs": {
+                "size": "72px",
+                "line_height": "1.1",
+                "font_weight": "900",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Display 900",
+              "specs": {
+                "size": "60px",
+                "line_height": "1.1",
+                "font_weight": "900",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Display 800",
+              "specs": {
+                "size": "48px",
+                "line_height": "1.1",
+                "font_weight": "900",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Display 700",
+              "specs": {
+                "size": "36px",
+                "line_height": "1.1",
+                "font_weight": "900",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Heading 700",
+              "specs": {
+                "size": "36px",
+                "line_height": "1.1",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Heading 600",
+              "specs": {
+                "size": "28px",
+                "line_height": "1.1",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Heading 500",
+              "specs": {
+                "size": "24px",
+                "line_height": "1.1",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Heading 400",
+              "specs": {
+                "size": "20px",
+                "line_height": "1.2",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Heading 300",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.4",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Heading 200",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.4",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Inline Hero Title",
+              "specs": {
+                "size": "70px",
+                "line_height": "",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Inline Large Title",
+              "specs": {
+                "size": "50px",
+                "line_height": "",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Inline Title",
+              "specs": {
+                "size": "38px",
+                "line_height": "",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body content typography used for longer reading passages.",
+          "variants": [
+            {
+              "name": "Pin Sans",
+              "role": "Body 400 Default",
+              "specs": {
+                "size": "20px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 400 Emphasis",
+              "specs": {
+                "size": "20px",
+                "line_height": "1.4",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 300 Default",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 300 Emphasis",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.4",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 200 Default",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 200 Emphasis",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.4",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 100 Default",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Body 100 Emphasis",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.5",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Inline Body OR",
+              "specs": {
+                "size": "14px",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian text styles specifically designated for UI elements, labels, and compact micro-copy.",
+          "variants": [
+            {
+              "name": "Pin Sans",
+              "role": "UI 400",
+              "specs": {
+                "size": "20px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "UI 300",
+              "specs": {
+                "size": "16px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "UI 200",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.2",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "UI 100",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.3",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Compact 100 Default",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.2",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Pin Sans",
+              "role": "Compact 100 Emphasis",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.2",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Pinterest"
+              },
+              "technical": {
+                "font_family_css": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, \"ヒラギノ角ゴ Pro W3\", Meiryo, \"ＭＳ Ｐゴシック\", Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Code and specific unclassified inline instances.",
+          "variants": [
+            {
+              "name": "SF Mono",
+              "role": "Code Monospace",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "System"
+              },
+              "technical": {
+                "font_family_css": "\"SF Mono\", \"Segoe UI Mono\", \"Roboto Mono\", \"Ubuntu Mono\", \"Menlo\", \"Consolas\", \"Courier\", monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": null,
+        "insights": [
+          "The typography architecture relies on a strict token-based semantic system separated into 'Display', 'Heading', 'Body', 'UI', and 'Compact' usage roles.",
+          "'Pin Sans' serves as the primary brand typeface, supported by a highly exhaustive fallback stack that explicitly addresses internationalization (e.g., Japanese system fonts like Hiragino and Meiryo).",
+          "There is a clear typographic distinction between reading text (Body with 1.4-1.5 line height and regular 400 weight) and interactive elements (UI with tighter 1.2-1.3 line height and medium 500 weight)."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Default Background",
+            "description": "Primary white background for cards, containers, and main surfaces",
+            "when_to_use": [
+              "Default page backgrounds",
+              "Card backgrounds",
+              "Modal backgrounds"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Secondary Background",
+            "description": "Light gray background for secondary containers",
+            "when_to_use": [
+              "Secondary surfaces",
+              "Input backgrounds",
+              "Search box containers"
+            ],
+            "hex": "#E5E5E0"
+          },
+          {
+            "name": "Subtle Background",
+            "description": "Off-white subtle background for elevated surfaces",
+            "when_to_use": [
+              "Hover states",
+              "Elevated cards",
+              "Subtle containers"
+            ],
+            "hex": "#F6F6F3"
+          },
+          {
+            "name": "Inverse Background",
+            "description": "Black background for dark sections and inverse surfaces",
+            "when_to_use": [
+              "Footer",
+              "Dark hero sections",
+              "High contrast areas"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Primary Brand",
+            "description": "Pinterest red for primary brand surfaces",
+            "when_to_use": [
+              "Primary buttons",
+              "Brand accents",
+              "Call-to-action surfaces"
+            ],
+            "hex": "#E60023"
+          },
+          {
+            "name": "Info Weak",
+            "description": "Light blue background for informational surfaces",
+            "when_to_use": [
+              "Info banners",
+              "Informational callouts"
+            ],
+            "hex": "#EBEEFF"
+          },
+          {
+            "name": "Error Weak",
+            "description": "Light red background for error states",
+            "when_to_use": [
+              "Error banners",
+              "Error message backgrounds"
+            ],
+            "hex": "#FFEBEB"
+          },
+          {
+            "name": "Warning Weak",
+            "description": "Light orange background for warning surfaces",
+            "when_to_use": [
+              "Warning banners",
+              "Cautionary message backgrounds"
+            ],
+            "hex": "#FFEDE0"
+          },
+          {
+            "name": "Success Weak",
+            "description": "Light green background for success states",
+            "when_to_use": [
+              "Success banners",
+              "Confirmation backgrounds"
+            ],
+            "hex": "#E3F7EC"
+          },
+          {
+            "name": "Recommendation Weak",
+            "description": "Light purple background for recommendation surfaces",
+            "when_to_use": [
+              "Recommendation cards",
+              "Promotional surfaces"
+            ],
+            "hex": "#FDEBFF"
+          },
+          {
+            "name": "Neutral Weak",
+            "description": "Neutral light gray background",
+            "when_to_use": [
+              "Neutral banners",
+              "Subtle containers"
+            ],
+            "hex": "#F6F6F3"
+          },
+          {
+            "name": "Tertiary",
+            "description": "Medium gray background for tertiary surfaces",
+            "when_to_use": [
+              "Tertiary buttons",
+              "Secondary containers"
+            ],
+            "hex": "#74746C"
+          },
+          {
+            "name": "Selected",
+            "description": "Dark gray background for selected states",
+            "when_to_use": [
+              "Selected items",
+              "Active states"
+            ],
+            "hex": "#33332E"
+          },
+          {
+            "name": "Disabled",
+            "description": "Disabled state background",
+            "when_to_use": [
+              "Disabled buttons",
+              "Inactive controls"
+            ],
+            "hex": "#E5E5E0"
+          },
+          {
+            "name": "Education",
+            "description": "Blue background for educational surfaces",
+            "when_to_use": [
+              "Educational content",
+              "Tutorial backgrounds"
+            ],
+            "hex": "#435EE5"
+          },
+          {
+            "name": "Performance Plus",
+            "description": "Purple background for performance plus surfaces",
+            "when_to_use": [
+              "Premium features",
+              "Performance indicators"
+            ],
+            "hex": "#774FC4"
+          },
+          {
+            "name": "Performance Plus Weak",
+            "description": "Light purple background for performance plus surfaces",
+            "when_to_use": [
+              "Performance plus cards",
+              "Premium feature backgrounds"
+            ],
+            "hex": "#EBE2FD"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Sema Color Background Fade Darken Bottom Weak",
+            "description": "Top to bottom gradient fading to dark translucent black, weak intensity",
+            "when_to_use": [
+              "Image overlays",
+              "Content fade effects",
+              "Bottom darkening on images"
+            ],
+            "css_code": "linear-gradient(180deg,transparent,rgba(0,0,0,.4))"
+          },
+          {
+            "name": "Comp Searchguide Color Background Rainbow Default",
+            "description": "Multi-color rainbow gradient from purple to teal to lime to orange",
+            "when_to_use": [
+              "Search guide backgrounds",
+              "Colorful accent surfaces",
+              "Featured content"
+            ],
+            "css_code": "linear-gradient(-60deg,#d4b0ff,#90f0e1 37%,#c7f783 66%,#ffa570)"
+          },
+          {
+            "name": "Sema Color Background Fade Darken Top Weak",
+            "description": "Bottom to top gradient fading to dark translucent black, weak intensity",
+            "when_to_use": [
+              "Image overlays",
+              "Top darkening on images"
+            ],
+            "css_code": "linear-gradient(0deg,transparent,rgba(0,0,0,.4))"
+          },
+          {
+            "name": "Sema Color Background Fade Darken Bottom Strong",
+            "description": "Top to bottom gradient fading to dark translucent black, strong intensity",
+            "when_to_use": [
+              "Hero image overlays",
+              "Strong content fade effects"
+            ],
+            "css_code": "linear-gradient(180deg,transparent,rgba(0,0,0,.8))"
+          },
+          {
+            "name": "Sema Color Hover Background Scrims Opaque",
+            "description": "Solid-like gradient in light gray for hover scrims",
+            "when_to_use": [
+              "Hover state overlays",
+              "Opaque scrim effects"
+            ],
+            "css_code": "linear-gradient(180deg,hsla(60,6%,83%,.8),hsla(60,6%,83%,.8))"
+          },
+          {
+            "name": "Comp Iconbuttonsocial Color Background Container Imessage",
+            "description": "Vertical gradient from light green to dark green for iMessage social icon",
+            "when_to_use": [
+              "iMessage social buttons",
+              "Green brand gradients"
+            ],
+            "css_code": "linear-gradient(180deg,#5bf675,#0cbd2a)"
+          },
+          {
+            "name": "Sema Color Pressed Background Scrims Opaque",
+            "description": "Solid-like gradient in medium gray for pressed scrims",
+            "when_to_use": [
+              "Pressed state overlays",
+              "Active scrim effects"
+            ],
+            "css_code": "linear-gradient(180deg,hsla(60,3%,74%,.8),hsla(60,3%,74%,.8))"
+          },
+          {
+            "name": "Sema Color Background Fade Darken Top Strong",
+            "description": "Bottom to top gradient fading to dark translucent black, strong intensity",
+            "when_to_use": [
+              "Strong top darkening on images",
+              "Header overlays"
+            ],
+            "css_code": "linear-gradient(0deg,transparent,rgba(0,0,0,.8))"
+          },
+          {
+            "name": "Comp Iconbuttonsocial Color Background Container Samsung Messages",
+            "description": "Vertical gradient from light blue to darker blue for Samsung Messages",
+            "when_to_use": [
+              "Samsung Messages social buttons",
+              "Blue brand gradients"
+            ],
+            "css_code": "linear-gradient(180deg,#4189ed,#376df6)"
+          },
+          {
+            "name": "Comp Sheet Color Background Scrim Opaque",
+            "description": "Light cream opaque scrim gradient for sheet backgrounds",
+            "when_to_use": [
+              "Sheet overlays",
+              "Modal scrims"
+            ],
+            "css_code": "linear-gradient(180deg,hsla(53,29%,95%,.8) 40%,hsla(53,29%,95%,.8))"
+          },
+          {
+            "name": "Comp Iconbuttonsocial Color Background Container Telegram",
+            "description": "Vertical gradient from light blue to darker blue for Telegram",
+            "when_to_use": [
+              "Telegram social buttons",
+              "Cyan brand gradients"
+            ],
+            "css_code": "linear-gradient(180deg,#2aabee,#229ed9)"
+          },
+          {
+            "name": "Comp Iconbuttonsocial Color Background Container Wechat",
+            "description": "Vertical gradient from bright green to darker green for WeChat",
+            "when_to_use": [
+              "WeChat social buttons",
+              "Green brand gradients"
+            ],
+            "css_code": "linear-gradient(180deg,#05d50b,#02b70e)"
+          },
+          {
+            "name": "Hero Gradient Background",
+            "description": "Top to bottom gradient from light gray to transparent",
+            "when_to_use": [
+              "Hero section backgrounds",
+              "Content section transitions",
+              "Fade-out effects"
+            ],
+            "css_code": "linear-gradient(rgb(246, 246, 243) 0%, rgba(246, 246, 243, 0) 100%)"
+          },
+          {
+            "name": "Video Controls Gradient",
+            "description": "Multi-stop gradient from transparent to dark black for video controls",
+            "when_to_use": [
+              "Video player controls overlay",
+              "Media controller backgrounds"
+            ],
+            "css_code": "linear-gradient(180deg,hsla(0,0%,71%,0),rgba(0,0,0,.2) 33%,rgba(0,0,0,.5) 66%,rgba(0,0,0,.7))"
+          },
+          {
+            "name": "Social Icon Hover Gradient - Generic",
+            "description": "Subtle dark overlay for social icon hover states",
+            "when_to_use": [
+              "Social button hover overlays",
+              "Interactive icon states"
+            ],
+            "css_code": "linear-gradient(0deg,rgba(36,36,35,.09) 0,rgba(36,36,35,.09) 100%)"
+          },
+          {
+            "name": "Social Icon Active Gradient - Generic",
+            "description": "Darker overlay for social icon active/pressed states",
+            "when_to_use": [
+              "Social button pressed states",
+              "Active icon overlays"
+            ],
+            "css_code": "linear-gradient(0deg,rgba(57,57,55,.14) 0,rgba(57,57,55,.14) 100%)"
+          }
+        ],
+        "highlights": [
+          "Image wash overlay: rgba(0,0,0,.04) tint applied to all image surfaces",
+          "Floating shadow: 0px 3px 12px 0px rgba(0,0,0,.2) for elevated cards and modals",
+          "Raised shadow: 0px 1.5px 6px 0px rgba(0,0,0,.2) for slightly elevated surfaces",
+          "Surface shadow: 0px 0.5px 3px 0px rgba(0,0,0,.2) for subtle depth",
+          "White border overlay: 1px solid border in white (#FFFFFF) used on image grids for separation",
+          "Semi-transparent wash surfaces at 50% opacity for light (hsla(60,20%,98%,.5)) and dark (rgba(36,36,33,.5)) overlays",
+          "Translucent scrim: hsla(60,2%,45%,.4) for modal backdrops and overlays",
+          "Skeleton shimmer effect: animated pulse between #e5e5e0 and #f6f6f3",
+          "Search box has subtle gray background (var(--sema-color-background-secondary)) with 48px height and border-radius: 12px"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "None / Transparent",
+              "type": "drop",
+              "description": "Transparent shadow with 0% opacity - no visual elevation. Used for sheet mobile partial container.",
+              "css_value": "0px 0px 0px 0px hsla(0,0%,100%,0)",
+              "when_to_use": [
+                "Sheet mobile partial container",
+                "Elements requiring no elevation"
+              ]
+            },
+            {
+              "name": "Surface",
+              "type": "drop",
+              "description": "Subtle shadow with 20% black opacity, 0.5px Y-offset, 3px blur. Lowest elevation level for surface elements.",
+              "css_value": "0px 0.5px 3px 0px rgba(0,0,0,.2)",
+              "when_to_use": [
+                "Slider handles",
+                "Surface-level components",
+                "Subtle depth indicators"
+              ]
+            },
+            {
+              "name": "Raised",
+              "type": "drop",
+              "description": "Medium shadow with 20% black opacity, 1.5px Y-offset, 6px blur. Used for raised elements.",
+              "css_value": "0px 1.5px 6px 0px rgba(0,0,0,.2)",
+              "when_to_use": [
+                "Raised containers",
+                "Cards with moderate elevation",
+                "Top-positioned raised elements"
+              ]
+            },
+            {
+              "name": "Raised Bottom",
+              "type": "drop",
+              "description": "Upward shadow with 12% black opacity, -2px Y-offset, 8px blur. Used for bottom-positioned raised elements.",
+              "css_value": "0px -2px 8px 0px rgba(0,0,0,.12)",
+              "when_to_use": [
+                "Bottom navigation bars",
+                "Bottom sheets",
+                "Upward elevation effect"
+              ]
+            },
+            {
+              "name": "Floating",
+              "type": "drop",
+              "description": "Strong shadow with 20% black opacity, 3px Y-offset, 12px blur. Highest elevation level for floating elements.",
+              "css_value": "0px 3px 12px 0px rgba(0,0,0,.2)",
+              "when_to_use": [
+                "Modals",
+                "Popovers",
+                "Dropdowns",
+                "Notification messages",
+                "Floating banners",
+                "Buttons with floating effect",
+                "Wrapper containers"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#C8C8C1",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#494943",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#91918C",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#435EE5",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DD0E0E",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#068440",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#33332E",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#435EE5",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E60023",
+            "width": "2px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "carousel",
+          "sticky_header",
+          "hover_lift"
+        ],
+        "animations": [
+          {
+            "name": "tapTransition",
+            "css": "",
+            "description": "Interactive tap/click transition applied to buttons and interactive elements; timing is JS-driven"
+          },
+          {
+            "name": "spinner",
+            "css": "",
+            "description": "Loading spinner animation with CSS variable --g-enter-delay for staggered appearance in loading states"
+          },
+          {
+            "name": "nav-slide",
+            "css": "transition: left 200ms",
+            "description": "Horizontal slide transition for the fixed navigation bar positioning"
+          },
+          {
+            "name": "modal-width-transition",
+            "css": "transition: width 0.25s ease-out",
+            "description": "Smooth width transition for the signup modal container during form state changes"
+          }
+        ],
+        "insights": [
+          "Pinterest uses a consistent 16px border-radius (rounded-2xl) pill-shaped button design across all CTAs, creating a friendly and approachable visual language.",
+          "The design system employs CSS custom properties extensively (--sema-*, --comp-*) for tokens like rounding, spacing, and colors, enabling consistent theming.",
+          "The page relies on subtle motion through JS-driven tap transitions rather than elaborate CSS animations, keeping interactions responsive and lightweight."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Log in (Primary)",
+            "usage": "Primary login action in top navigation bar",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E60023",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#AD081B",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Sign up (Secondary)",
+            "usage": "Secondary signup action in top navigation bar",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E5E5E0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#DADADA",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Join Pinterest for free (Primary)",
+            "usage": "Primary CTA button in hero section encouraging new user signup",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E60023",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#AD081B",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "I already have an account (Secondary)",
+            "usage": "Secondary CTA in hero for existing users to login",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E5E5E0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#DADADA",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Join Pinterest (Primary)",
+            "usage": "Primary CTA button used in feature sections throughout the page to encourage signup",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E60023",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#AD081B",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Continue (Primary Block)",
+            "usage": "Full-width primary submit button in signup modal form",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "12px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E60023",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#AD081B",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Continue with Google (Social)",
+            "usage": "Social login button for Google OAuth in signup modal",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "12px 44px 12px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#91918C",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F6F6F3",
+                "text_color": "#000000",
+                "border_color": "#91918C",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#C8C8C1",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "See more (Secondary Link)",
+            "usage": "Secondary button-styled link to view more content in carousel sections",
+            "specs": {
+              "radius": "rounded-2xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "Pin Sans",
+                  "size": "16px",
+                  "padding": "6px 14px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#E5E5E0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#DADADA",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#E5E5E0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "2px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular)",
+            "usage": "Icon-only circular buttons used for carousel navigation arrows and action pogs",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "",
+                  "size": "",
+                  "padding": "10px"
+                },
+                {
+                  "name": "Large",
+                  "font": "",
+                  "size": "",
+                  "padding": "12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F6F6F3",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are grouped horizontally with flex layout and consistent spacing",
+          "spacing": "8px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "80px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Pin Board Card",
+            "description": "Card displaying a Pinterest board with 3-image grid layout (1 large + 2 small), board title, category badge, pin count, and timestamp",
+            "when_to_use": [
+              "Showcasing curated content collections",
+              "Carousel displays of themed boards",
+              "Browse and discovery sections"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": []
+      },
+      "icons": [
+        {
+          "name": "Standard UI Icons",
+          "description": "General UI icons used for navigation, interaction, and inputs on Pinterest.",
+          "when_to_use": [
+            "Navigation buttons",
+            "Search fields",
+            "Modals and forms"
+          ],
+          "format": "SVG",
+          "style": "Filled & Monoline",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Search icon",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Search icon\" class=\"icon_C iconBlock_C subtle_C\" height=\"16\" role=\"img\" viewBox=\"0 0 24 24\" width=\"16\"><path d=\"M17.33 18.74a10 10 0 1 1 1.41-1.41l4.47 4.47-1.41 1.41zM11 3a8 8 0 1 0 0 16 8 8 0 0 0 0-16\"></path></svg>"
+            },
+            {
+              "name": "Chevron down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" aria-label=\"\" class=\"icon_C iconBlock_C light_C\" height=\"24\" role=\"img\" viewBox=\"0 0 24 24\" width=\"24\"><path d=\"m12 3.59 11.7 11.7-1.4 1.42L12 6.4 1.7 16.71.3 15.29z\"></path></svg>"
+            },
+            {
+              "name": "Previous/Next arrow",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" aria-label=\"\" class=\"rtlSupport_C icon_C iconBlock_C default_C\" height=\"16\" role=\"img\" viewBox=\"0 0 24 24\" width=\"16\"><path d=\"m6.41 12 10.3-10.3L15.29.3 3.6 12l11.7 11.7 1.42-1.4z\"></path></svg>"
+            },
+            {
+              "name": "Identity verification badge",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Identity verification badge icon\" class=\"icon_C iconBlock_C error_C\" height=\"12\" role=\"img\" viewBox=\"0 0 16 16\" width=\"12\"><path d=\"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m-1-4.09-3.7-3.7 1.4-1.42L7 9.1l4.3-4.3 1.4 1.42z\"></path></svg>"
+            },
+            {
+              "name": "Info visibility icon",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" aria-label=\"\" class=\"icon_C iconBlock_C default_C\" height=\"16\" role=\"img\" viewBox=\"0 0 24 24\" width=\"16\"><path d=\"M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6m11.8 3.4a.9.9 0 0 0 0-.8c-.21-.43-.63-1.19-1.23-2.08C20.77 6.86 17.24 3 12 3 6.65 3 3.1 7.02 1.32 9.69.78 10.5.4 11.19.19 11.6a.9.9 0 0 0 0 .8 23 23 0 0 0 1.24 2.08C3.23 17.14 6.76 21 12 21c5.35 0 8.9-4.02 10.68-6.69m-1.66-1.11a17 17 0 0 1-3.25 3.63A9.2 9.2 0 0 1 12 19a9.2 9.2 0 0 1-5.77-2.17q-.54-.43-1.02-.9c-.93-.92-1.68-1.9-2.23-2.73a2.1 2.1 0 0 1 0-2.4 17 17 0 0 1 3.25-3.63A9.2 9.2 0 0 1 12 5c2.28 0 4.21.92 5.77 2.17q.54.43 1.02.9c.93.92 1.68 1.9 2.23 2.73.49.74.49 1.66 0 2.4\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/favicon-2.png",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/favicon-2.png",
+            "origin_url": "https://s.pinimg.com/webapp/logo_transparent_144x144-3da7a67b.png",
+            "description": "Pinterest Apple Touch Icon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/favicon.png",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/favicon.png",
+            "origin_url": "https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png",
+            "description": "Pinterest Favicon 48x48"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/secondary-inline.svg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/secondary-inline.svg",
+            "origin_url": null,
+            "description": "Pinterest logo (fallback/secondary inline)"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/favicon.svg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/logos/favicon.svg",
+            "origin_url": "https://s.pinimg.com/webapp/pinterest_favicon-70db4fa7.svg",
+            "description": "Pinterest SVG Favicon"
+          }
+        ],
+        "media": [
+          {
+            "name": "Hero banner image collage",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/hero-banner-image-collage.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/hero-banner-image-collage.jpg",
+            "origin_url": "https://i.pinimg.com/1200x/25/f9/41/25f9416b640a416da82fbbe11f3fe766.jpg",
+            "usage_context": "Background image for the main 'Conjure your best Halloween' hero section"
+          },
+          {
+            "name": "Trending halloween costumes - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/trending-halloween-costumes-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/trending-halloween-costumes-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/1200x/fd/2b/cd/fd2bcdc99c0843641c57095b91a15b57.jpg",
+            "usage_context": "Primary large image in the 'Trending halloween costumes' carousel card"
+          },
+          {
+            "name": "Trending halloween costumes - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/trending-halloween-costumes-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/trending-halloween-costumes-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/be/96/e6/be96e626e852c09b38e3286bdcaf160c.jpg",
+            "usage_context": "Top right secondary image in the 'Trending halloween costumes' carousel card"
+          },
+          {
+            "name": "Trending halloween costumes - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/trending-halloween-costumes-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/trending-halloween-costumes-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/c8/b8/9c/c8b89cc8e2ccba191c955ab107641720.jpg",
+            "usage_context": "Bottom right secondary image in the 'Trending halloween costumes' carousel card"
+          },
+          {
+            "name": "Costume planning starts here - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/costume-planning-starts-here-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/costume-planning-starts-here-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/236x/c8/1f/5f/c81f5f766dac436f994d14895340ec53.jpg",
+            "usage_context": "Primary large image in the 'Costume planning starts here' carousel card"
+          },
+          {
+            "name": "Costume planning starts here - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/costume-planning-starts-here-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/costume-planning-starts-here-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/76/ba/02/76ba02edcfc264b05d629b2d82942ce1.jpg",
+            "usage_context": "Top right secondary image in the 'Costume planning starts here' carousel card"
+          },
+          {
+            "name": "Costume planning starts here - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/costume-planning-starts-here-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/costume-planning-starts-here-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/c8/69/83/c8698351088af1f3364000b3d25e4ce3.jpg",
+            "usage_context": "Bottom right secondary image in the 'Costume planning starts here' carousel card"
+          },
+          {
+            "name": "Spooky season aesthetic - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/spooky-season-aesthetic-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/spooky-season-aesthetic-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/236x/74/72/1a/74721acde8f2da175d11d6b03b2f3f99.jpg",
+            "usage_context": "Primary large image in the 'Spooky season aesthetic' carousel card"
+          },
+          {
+            "name": "Spooky season aesthetic - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/spooky-season-aesthetic-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/spooky-season-aesthetic-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/6f/a7/a2/6fa7a220faa44a418d713ad3835895cd.jpg",
+            "usage_context": "Top right secondary image in the 'Spooky season aesthetic' carousel card"
+          },
+          {
+            "name": "Spooky season aesthetic - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/spooky-season-aesthetic-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/spooky-season-aesthetic-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/b0/06/49/b00649ab9132240f58ceb711a7a5f473.jpg",
+            "usage_context": "Bottom right secondary image in the 'Spooky season aesthetic' carousel card"
+          },
+          {
+            "name": "Halloween home inspo - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-home-inspo-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-home-inspo-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/236x/9d/f3/86/9df3862b43e1e26b069d0462534e6cd1.jpg",
+            "usage_context": "Primary large image in the 'Halloween home inspo' carousel card"
+          },
+          {
+            "name": "Halloween home inspo - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-home-inspo-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-home-inspo-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/ea/49/01/ea4901055a80b99eb00664da371697f4.jpg",
+            "usage_context": "Top right secondary image in the 'Halloween home inspo' carousel card"
+          },
+          {
+            "name": "Halloween home inspo - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-home-inspo-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-home-inspo-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/7e/7e/dd/7e7edd7dfef88c3c3300da97ace31c4e.jpg",
+            "usage_context": "Bottom right secondary image in the 'Halloween home inspo' carousel card"
+          },
+          {
+            "name": "Halloween drinks to get in the spirit - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-drinks-to-get-in-the-spirit-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-drinks-to-get-in-the-spirit-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/236x/eb/6b/c5/eb6bc5c051f31424cab2c5968b6a6f72.jpg",
+            "usage_context": "Primary large image in the 'Halloween drinks' carousel card"
+          },
+          {
+            "name": "Halloween drinks to get in the spirit - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-drinks-to-get-in-the-spirit-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-drinks-to-get-in-the-spirit-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/21/4e/1e/214e1e9a1d4650fa29d591859077d63b.jpg",
+            "usage_context": "Top right secondary image in the 'Halloween drinks' carousel card"
+          },
+          {
+            "name": "Halloween drinks to get in the spirit - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-drinks-to-get-in-the-spirit-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/halloween-drinks-to-get-in-the-spirit-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/0f/b6/22/0fb6222f9afceacc25a67557a06a3731.jpg",
+            "usage_context": "Bottom right secondary image in the 'Halloween drinks' carousel card"
+          },
+          {
+            "name": "Dark academia decor - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/dark-academia-decor-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/dark-academia-decor-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/236x/d1/ab/32/d1ab328f4f89d6a63e39cd06bcc22447.jpg",
+            "usage_context": "Primary large image in the 'Dark academia decor' carousel card"
+          },
+          {
+            "name": "Dark academia decor - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/dark-academia-decor-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/dark-academia-decor-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/42/f7/50/42f7504ae7a45ce906ac2851eeb5e6a8.jpg",
+            "usage_context": "Top right secondary image in the 'Dark academia decor' carousel card"
+          },
+          {
+            "name": "Dark academia decor - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/dark-academia-decor-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/dark-academia-decor-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/39/72/46/3972464bbc1a4a0a00ebe8465aac09f1.jpg",
+            "usage_context": "Bottom right secondary image in the 'Dark academia decor' carousel card"
+          },
+          {
+            "name": "Main character costumes - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/main-character-costumes-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/main-character-costumes-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/1200x/61/a2/4c/61a24c5066fd8722db8ca5fc66555bcc.jpg",
+            "usage_context": "Primary large image in the 'Main character costumes' carousel card"
+          },
+          {
+            "name": "Main character costumes - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/main-character-costumes-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/main-character-costumes-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/61/a2/4c/61a24c5066fd8722db8ca5fc66555bcc.jpg",
+            "usage_context": "Top right secondary image in the 'Main character costumes' carousel card"
+          },
+          {
+            "name": "Main character costumes - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/main-character-costumes-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/main-character-costumes-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/f5/c8/92/f5c8928e2383e65f5338fca818c51d5b.jpg",
+            "usage_context": "Bottom right secondary image in the 'Main character costumes' carousel card"
+          },
+          {
+            "name": "Vamp Romantic home decor is so dramatic - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/vamp-romantic-home-decor-is-so-dramatic-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/vamp-romantic-home-decor-is-so-dramatic-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/1200x/bf/2b/82/bf2b8264057ea3aa882cd81efebcba6c.jpg",
+            "usage_context": "Primary large image in the 'Vamp Romantic home decor' carousel card"
+          },
+          {
+            "name": "Vamp Romantic home decor is so dramatic - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/vamp-romantic-home-decor-is-so-dramatic-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/vamp-romantic-home-decor-is-so-dramatic-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/8e/04/27/8e0427903142343fc7a3645a0c0c2619.jpg",
+            "usage_context": "Top right secondary image in the 'Vamp Romantic home decor' carousel card"
+          },
+          {
+            "name": "Vamp Romantic home decor is so dramatic - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/vamp-romantic-home-decor-is-so-dramatic-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/vamp-romantic-home-decor-is-so-dramatic-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/3c/1b/49/3c1b493939d6b6fc69bfa4ed09af75d6.jpg",
+            "usage_context": "Bottom right secondary image in the 'Vamp Romantic home decor' carousel card"
+          },
+          {
+            "name": "Matching costume ideas - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/matching-costume-ideas-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/matching-costume-ideas-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/1200x/7e/02/df/7e02dff7f433bbd7043e91d038901a03.jpg",
+            "usage_context": "Primary large image in the 'Matching costume ideas' carousel card"
+          },
+          {
+            "name": "Matching costume ideas - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/matching-costume-ideas-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/matching-costume-ideas-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/df/c8/29/dfc82921d513e270833a3cae1e4cbcf2.jpg",
+            "usage_context": "Top right secondary image in the 'Matching costume ideas' carousel card"
+          },
+          {
+            "name": "Matching costume ideas - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/matching-costume-ideas-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/matching-costume-ideas-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/a8/6c/22/a86c2203bf147785c1fad6a5f1e20af8.jpg",
+            "usage_context": "Bottom right secondary image in the 'Matching costume ideas' carousel card"
+          },
+          {
+            "name": "Scary good snacks for Halloween - Main image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/scary-good-snacks-for-halloween-main-image.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/scary-good-snacks-for-halloween-main-image.jpg",
+            "origin_url": "https://i.pinimg.com/1200x/a0/a3/e8/a0a3e87a24931f2098ccddd2dc07d20e.jpg",
+            "usage_context": "Primary large image in the 'Scary good snacks' carousel card"
+          },
+          {
+            "name": "Scary good snacks for Halloween - Secondary image 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/scary-good-snacks-for-halloween-secondary-image-1.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/scary-good-snacks-for-halloween-secondary-image-1.jpg",
+            "origin_url": "https://i.pinimg.com/236x/d4/78/d3/d478d3b70c2cd36db28e4fc98a00905d.jpg",
+            "usage_context": "Top right secondary image in the 'Scary good snacks' carousel card"
+          },
+          {
+            "name": "Scary good snacks for Halloween - Secondary image 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/scary-good-snacks-for-halloween-secondary-image-2.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/scary-good-snacks-for-halloween-secondary-image-2.jpg",
+            "origin_url": "https://i.pinimg.com/236x/bd/da/99/bdda99c84f91c49ba91949809080b972.jpg",
+            "usage_context": "Bottom right secondary image in the 'Scary good snacks' carousel card"
+          },
+          {
+            "name": "Search results for 'bold lip,' featuring photos of women wearing bright lip colors, along with a 'Search by skin tone' selector displaying diverse skin tone options",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/search-results-for-bold-lip-featuring-photos-of-women-wearing-bright-lip-colors-along-with-a-search-by-skin-tone-selector-displaying-diverse-skin-tone-options.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/search-results-for-bold-lip-featuring-photos-of-women-wearing-bright-lip-colors-along-with-a-search-by-skin-tone-selector-displaying-diverse-skin-tone-options.jpg",
+            "origin_url": "https://i.pinimg.com/736x/31/e8/45/31e8455b6b965b1b93b35c0b4466f836.jpg",
+            "usage_context": "Mockup image showcasing the 'Search by skin tone' feature on Pinterest"
+          },
+          {
+            "name": "Group board titled 'Earthy space inspo,' showing photos of orange walls, beige cabinets with plants, a yellow pendant light, green bedding, and two male profile avatars",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/group-board-titled-earthy-space-inspo-showing-photos-of-orange-walls-beige-cabinets-with-plants-a-yellow-pendant-light-green-bedding-and-two-male-profile-avatars.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/group-board-titled-earthy-space-inspo-showing-photos-of-orange-walls-beige-cabinets-with-plants-a-yellow-pendant-light-green-bedding-and-two-male-profile-avatars.jpg",
+            "origin_url": "https://i.pinimg.com/736x/81/b5/20/81b52024529990e2f09b2ba79cc400e7.jpg",
+            "usage_context": "Mockup image showcasing the 'Collaborate with group boards' feature on Pinterest"
+          },
+          {
+            "name": "Photo of a woman in a cherry-patterned sweater vest, white shirt, blue skirt, and red tights, with search terms for 'Cherry red,' 'Knit sweater,' and 'Preppy look'",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/photo-of-a-woman-in-a-cherry-patterned-sweater-vest-white-shirt-blue-skirt-and-red-tights-with-search-terms-for-cherry-red-knit-sweater-and-preppy-look.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/photo-of-a-woman-in-a-cherry-patterned-sweater-vest-white-shirt-blue-skirt-and-red-tights-with-search-terms-for-cherry-red-knit-sweater-and-preppy-look.jpg",
+            "origin_url": "https://i.pinimg.com/736x/aa/6e/0c/aa6e0c763a7b742461b30c29a7dacda6.jpg",
+            "usage_context": "Mockup image showcasing the 'Search visually with images' feature on Pinterest"
+          },
+          {
+            "name": "Background photo grid for sign up section",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/background-photo-grid-for-sign-up-section.jpg",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/background-photo-grid-for-sign-up-section.jpg",
+            "origin_url": "https://i.pinimg.com/originals/07/18/2b/07182b0091c01cd3ff2d4cb80a16e344.jpg",
+            "usage_context": "Background collage in the 'Sign up to get your ideas' registration section"
+          },
+          {
+            "name": "Pinterest miscellaneous image asset",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/pinterest-miscellaneous-image-asset.png",
+            "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/site-assets/media/image/pinterest-miscellaneous-image-asset.png",
+            "origin_url": "https://i.pinimg.com/originals/d5/3b/01/d53b014d86a6b6761bf649a0ed813c2b.png",
+            "usage_context": "Unknown background image or asset"
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/x/2e2ecb80-bdfd-40a9-96fa-2be2c509dac4.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A bold red Pinterest “P” formed by a white cutout sits centered inside a red circular mark on white."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/x/4736cb91-3404-48d5-ac56-2d8e77c57ee9.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Pinterest “It’s Possible.” campaign graphic pairs a bold red logo and slogan with a colorful collage of lifestyle and inspiration photos."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/x/717d9051-1d70-4d8b-9dfa-a031cf40ab7e.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Pinterest-style graphic with bold white “A groovier vibe? It’s Possible.” text over a warm orange-and-yellow retro room and hanging globe lamp."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/x/32bf64cb-380b-4eb3-851b-697fa358258e.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A glass of iced coffee swirls with cream beneath bold white text reading “More than cream and sugar? It’s Possible.” and a Pinterest logo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/x/c22683cd-c2d9-43b8-b662-0bc32067d866.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A Pinterest-style poster shows decorated hands writing in a lined notebook beneath bold white text reading “Discovering yourself through words? It’s Possible.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/google_ads/031820a7-ca3d-47e9-94de-46e3f564ebae.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest promotional screen with oversized burgundy “Plan the perfect party” text on pale pink and a dark “Open” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/google_ads/de5956fa-ef19-4b91-a1ae-470acdf5fe10.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest promotional graphic reads “Declutter your life,” with a bicycle, stacked skateboards, tools, and bold red accents."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/x/84278873-a35b-4f2f-b89e-f7b7d79629ea.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A fluffy orange dog lounges beside a bright blue pool beneath bold white text reading “Time for a spaw day? It’s Possible.” and a Pinterest logo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/google_ads/2021a3b9-781e-4dbf-a560-244b3f8aad26.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest promotion on a pale pink background, with oversized burgundy “Claim $500 in ad credits” typography and a dark burgundy Get Offer bar."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/google_ads/2c0384f7-3c85-42cc-abb9-3a81fbe5f46f.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest promotional graphic with a colorful DIY craft photo collage, a dark “DIY craft ideas” search pill, and “New hobby unlocked” text beside a blue See More button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/google_ads/d0acec24-0933-48e2-97ab-1b3c4a992c46.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest mobile-style ad with a red logo, oversized burgundy “Lunchbox-ready meals” headline, pale pink background, and pesto pasta photo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/billboard/3b9ddf48-389b-4a65-9590-42b6f0da492e.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A busy city intersection features a large digital billboard with colorful food advertisements and a dark movie promotion above pedestrians and traffic."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/email/012ce41b-4a3b-47b8-96e6-1be6c73f67bf.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest password-reset email with a red logo and prominent “Reset password” button, gray body text, and a light gray footer."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/billboard/eaee2887-b8fc-44e1-a295-f9c425f0bc5b.webp",
+            "source": "billboard",
+            "content_type": "image/webp",
+            "category": "brand_photography_identity",
+            "asset_description": "Three Pinterest Do. posters line a black outdoor wall; the central yellow ad shows a person with colorful hair and bold black text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/billboard/b89855da-3c86-42b3-b0a7-885cc72c0db3.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A pale green Pinterest billboard pairs photos of sushi burgers with the red slogan “How do you choose between sushi and a burger? You don’t.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/google_ads/c639d29c-28a9-4bf8-b0ad-09e666ccec7e.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Pinterest promotional graphic on a pale pink background, featuring a red logo, bold burgundy headline, and a man in a blue floral shirt."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/billboard/b2d9229c-17ca-4a29-8493-e5ab8d7a0d1e.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A long Pinterest-branded street poster features food photos and small text across alternating turquoise, cream, and coral-red panels."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/billboard/35e66d3d-faf2-4d8c-bf3f-282e61356cc7.webp",
+            "source": "billboard",
+            "content_type": "image/webp",
+            "category": "brand_identity",
+            "asset_description": "A large red billboard against a clear blue sky displays Pinterest’s white circular P logo, with the sign’s metal supports visible below."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/brand-media/billboard/5416c273-e8fb-4239-9f20-45c10d434264.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Street scene with large Pinterest billboards featuring vivid red, purple, and green fashion imagery above a busy Chicago intersection."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal bar with centered search",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Red Pinterest script logo on the left"
+            },
+            {
+              "type": "button",
+              "description": "\"Explore\" text button, transparent background"
+            },
+            {
+              "type": "form",
+              "description": "Search bar with rounded corners, light gray background, search icon on left, placeholder text 'Search for easy dinners, fashion, etc.'"
+            },
+            {
+              "type": "navigation",
+              "description": "Text links for About, Businesses, Create, News"
+            },
+            {
+              "type": "button",
+              "description": "\"Log in\" button with white background, black text, rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "\"Sign up\" button with white background, black text, rounded corners"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Split 50/50 - left text, right image collage",
+          "headline": "Conjure your best Halloween",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-width background image showing Halloween-themed collage with food photography, yellow flowers, pumpkins, architecture, diverse content at various angles"
+            },
+            {
+              "type": "button",
+              "description": "\"Join Pinterest for free\" primary CTA - solid red (#E60023), white text, pill-shaped"
+            },
+            {
+              "type": "button",
+              "description": "\"I already have an account\" secondary CTA - text link, minimal styling"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Centered",
+          "headline": "More bewitching ideas",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Horizontal scrolling carousel of Pinterest board cards, each showing a grid of pins with board title, category badge, pin count, and time metadata. Cards have rounded corners and soft shadows."
+            },
+            {
+              "type": "button",
+              "description": "\"See more\" link button, secondary styling"
+            },
+            {
+              "type": "card",
+              "description": "Board preview cards with 8-column/4-column split layout, showing pin collages with terracotta, earth tones, warm colors"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Centered",
+          "headline": "Bring your favorite ideas to life",
+          "subheadline": "With Pinterest, you can unlock tools that spark your creativity and help you find more inspiration.",
+          "components": []
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - left image, right text",
+          "headline": "Search by skin tone",
+          "subheadline": "Search with skin tone ranges for beauty ideas that represent you",
+          "components": [
+            {
+              "type": "image",
+              "description": "UI mockup showing skin tone search interface with gradient swatches displaying diverse skin tone samples, featuring beauty photography with various skin tones on neutral/beige background"
+            },
+            {
+              "type": "button",
+              "description": "\"Start Pinterest\" CTA - solid red, white text, pill-shaped"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - left text, right image",
+          "headline": "Collaborate with group boards",
+          "subheadline": "Visualize your ideas with others, using a Pinterest account",
+          "components": [
+            {
+              "type": "card",
+              "description": "Board preview card titled 'Earthy space inspo' showing terracotta/earth tone interior design images (orange walls, sage green, warm woods), displays '80 Pins' and contributor avatars, has soft shadow and rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "\"Join Pinterest\" CTA - solid red, white text, pill-shaped"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - left image, right text",
+          "headline": "Search visually with images",
+          "subheadline": "Search objects within an image to find more styles you'll love",
+          "components": [
+            {
+              "type": "image",
+              "description": "Fashion photography mockup showing woman in cherry red knit sweater with interactive white tag bubbles overlaid ('Cherry red', 'Knit sweater', 'Preppy look') on blue denim background with subtle shadows"
+            },
+            {
+              "type": "button",
+              "description": "\"Join Pinterest\" CTA - solid red, white text, pill-shaped"
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "layout_pattern": "Split 50/50 with modal overlay - left text, right signup modal over pin grid background",
+          "headline": "Sign up to get your ideas",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Mosaic background of Pinterest pins in soft pastels (greens, pinks, yellows, neutrals) showing knitting, plants, crafts, home decor"
+            },
+            {
+              "type": "form",
+              "description": "White modal card with strong drop shadow and rounded corners, containing: Pinterest logo (red), heading 'Welcome to Pinterest', three input fields (email, password with strength indicator, birthday with calendar icon), 'Continue' button (solid red, full width), 'Continue with Google' button (white with Google icon, outlined), 'Log in' and 'Get started here' blue hyperlinks, terms of service text at bottom"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Pinterest logo in white"
+            },
+            {
+              "type": "navigation",
+              "description": "Four columns of links: 'Get the app' (iOS, Android), 'Quick links' (Explore, Shop, Help Center), 'Policies' (Terms of service, Privacy policy, Personalized ads). White text on solid black (#000000) background"
+            },
+            {
+              "type": "divider",
+              "description": "Copyright notice: © 2025 Pinterest"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

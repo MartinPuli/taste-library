@@ -1,0 +1,251 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Primary White",
+      "type": "Light",
+      "rules": {
+        "description": "The highest contrast color used for primary readable text, brand logos, and prominent button surfaces.",
+        "when_to_use": [
+          "Global body text",
+          "Primary 'Open App' button background",
+          "Spotify logo in the top bar",
+          "Active bottom navigation tab"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Secondary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A softer gray used for secondary actions, standard links, and inactive navigation items to establish visual hierarchy.",
+        "when_to_use": [
+          "Footer navigation links",
+          "Inactive bottom tab navigation icons and text",
+          "Hamburger menu icon",
+          "Copyright text"
+        ]
+      },
+      "hex": "#B3B3B3",
+      "alpha": null,
+      "shades": [],
+      "score": 0.044,
+      "group": "baseline"
+    },
+    {
+      "name": "Tertiary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A darker gray reserved for the least prominent text, fine borders, and subtle structural dividers.",
+        "when_to_use": [
+          "Premium banner subdued legal text",
+          "Footer horizontal rule",
+          "Language selection button border"
+        ]
+      },
+      "hex": "#939393",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#808080",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#7C7C7C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0050999999999999995,
+      "group": "secondary"
+    },
+    {
+      "name": "Core Background",
+      "type": "Dark",
+      "rules": {
+        "description": "A very dark gray that serves as the foundational surface for the entire application, offering a softer alternative to pure black.",
+        "when_to_use": [
+          "Main page background",
+          "Footer container background",
+          "Language selection modal surface",
+          "Divider borders"
+        ]
+      },
+      "hex": "#121212",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#292929",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#282828",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0038,
+      "group": "secondary"
+    },
+    {
+      "name": "True Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Pure black used for deep contrasting elements, inverted text on light buttons, and semi-transparent modal scrims.",
+        "when_to_use": [
+          "Top navigation bar background",
+          "Text inside primary white buttons",
+          "Semi-transparent modal overlay backdrops",
+          "Bottom tab bar gradient stop"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0026,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "SpotifyMixUITitle",
+      "role": "Title Small (H2)",
+      "specs": {
+        "size": "24px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "SpotifyMixUI",
+      "role": "Body Medium Bold (H4)",
+      "specs": {
+        "size": "16px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "SpotifyMixUI",
+      "role": "Body Medium",
+      "specs": {
+        "size": "16px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "SpotifyMixUI",
+      "role": "Body Small",
+      "specs": {
+        "size": "14px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "SpotifyMixUI",
+      "role": "Button / Body Small Bold",
+      "specs": {
+        "size": "14px",
+        "line_height": "",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "SpotifyMixUI",
+      "role": "Marginal / Micro",
+      "specs": {
+        "size": "12px",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+        "file_url": null
+      },
+      "group": "labels"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "16px",
+    "max_width": "1199px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 767px (1 Column, 16px gutter)",
+    "tablet": "768px - 991px (Variable columns, 24px gutter)",
+    "desktop": "992px - 1199px (12 Columns, 32px gutter)",
+    "large": "1200px+ (12 Columns, 32px gutter)"
+  }
+}

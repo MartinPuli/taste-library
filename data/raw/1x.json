@@ -1,0 +1,1514 @@
+{
+  "company": "1X",
+  "rank": 18,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.1x.tech/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:28.471343Z",
+  "completed_at": "2026-09-15T22:09:10.226409Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "1X Technologies",
+        "tagline": null,
+        "source_url": "https://www.1x.tech",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Robotics / AI",
+        "primary_purpose": "Introduce the NEO home robot and drive pre-orders while attracting talent and building brand awareness",
+        "main_cta": "Order",
+        "copy_tone": [
+          "Refined",
+          "Futuristic",
+          "Human-centered"
+        ],
+        "brand_signature": "A sophisticated, minimalist visual identity featuring full-viewport imagery with soft, muted tones and humanoid robot photography. The design employs elegant typography with generous negative space, creating a premium yet approachable aesthetic that bridges technology and humanity.",
+        "visual_language": {
+          "keywords": [
+            "minimalist",
+            "cinematic",
+            "soft industrial",
+            "humanoid",
+            "premium",
+            "editorial"
+          ],
+          "accent_strategy": "Muted neutral palette dominated by warm grays (#413E3E) and soft frost tones (#F8F8F8) with subtle transparency effects on text and UI elements",
+          "highlights": "Full-bleed hero imagery with soft shadows and blur effects to create depth and focus; humanoid robots photographed alongside humans to emphasize connection"
+        },
+        "strategy": {
+          "target_audience": [
+            "Tech-forward early adopters seeking premium home robotics solutions",
+            "Prospective employees in robotics, AI, and engineering looking for cutting-edge career opportunities",
+            "Investors and media interested in the future of humanoid robotics"
+          ],
+          "executive_synthesis": "1X Technologies positions itself at the intersection of premium consumer technology and accessible robotics through a visual strategy that humanizes their NEO robot. The editorial photography style—showing robots alongside humans in intimate, lifestyle contexts—directly addresses the primary barrier to home robot adoption: the uncanny valley. By employing soft, warm tones and cinematic compositions, the brand signals luxury positioning ($200 deposit pre-order model) while the careers-focused hero section (88 open roles) communicates rapid growth and attracts top talent in a competitive market."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The visual impression is one of extreme refinement and technological sophistication—a premium robotics brand showcasing humanoid robots through immersive, full-bleed photography against muted, neutral backgrounds. The design communicates futuristic technology with warmth and approachability.\n\n**Shape & Texture Analysis (PRIMARY signals):**\n- Texture classification shows \"gradient_linear\" and \"glass_blur\" effects\n- The glassmorphism effects (backdrop-filter blur 60px on header, blur overlays) suggest a contemporary digital aesthetic\n- However, the shapes are predominantly Geometric (rounded pill buttons, clean rectangular sections) and the texture effects are subtle rather than dominant\n- No glass transparency panels as main UI elements—blur is used for subtle depth, not as the primary design language\n\n**Color Analysis:**\n- Heavily monochromatic: near-black (#0A0A0A) ink, frost whites (#F8F8F8, #E5E5E5), charcoal surfaces (#222222)\n- Strategic use of opacity (72% black for softer text) creates sophisticated layering\n- Bold, saturated colors are completely absent—this is pure neutral territory\n- The warm beige gradients add subtle warmth without color\n\n**Typography:**\n- ABCDiatype (Dinamo foundry)—a highly geometric, modern sans-serif family\n- Clean, rational letterforms with tight negative letter-spacing (-0.04em)\n- Sans-serif throughout with clear hierarchy (44px hero down to 9px micro)\n- This matches Flat Design's \"Sans-Serif Modern, Geometric\" specification perfectly\n\n**Layout:**\n- Generous whitespace with centered/symmetric composition\n- Full-viewport hero sections (100vh)\n- Grid-Based Strict: 12-column grid with 32px gutters, max-width 2036px\n- Clean mathematical clarity in spacing and proportions\n\n**Why Flat Design (not Glassmorphism or Swiss Style):**\n- While glass effects exist, they're subtle utility features (header blur), not the defining visual language\n- No frosted transparency panels with visible content behind them\n- The design is fundamentally FLAT: clean surfaces, no heavy shadows, no 3D embossing\n- Color is bold and saturated within its monochromatic constraints (pure blacks, crisp whites)\n- Differs from Swiss Style: no typography-driven hierarchy, no flush-left alignment, not strictly informational",
+          "secondary_style": "Luxurious",
+          "reasoning_secondary": "The **Luxurious** modifier applies due to:\n- Extreme restraint and negative space signaling premium positioning\n- Premium product photography with soft, studio-quality lighting\n- Sophisticated use of opacity states (72% black) creating visual refinement\n- Custom proprietary typeface (ABCDiatype from Dinamo) rather than system fonts\n- Warm undertones in gradients (#EAE4E1, #F9F5F2) adding subtle warmth to the monochromatic palette\n- $200 deposit positioning and \"high-tech\" robotics category suggest premium market positioning\n- The overall mood evokes Apple-level product design sophistication"
+        }
+      },
+      "layout": {
+        "classification": [
+          "generous_whitespace",
+          "centered_symmetric"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "32px",
+          "max_width": "2036px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (Variable columns, 20-32px gutter)",
+          "tablet": "768px - 1023px (8 columns, 32px gutter)",
+          "desktop": "1024px - 1199px (12 columns, 32px gutter)",
+          "large": "1200px+ (12 columns, 40px gutter, 2036px max-width)"
+        },
+        "section_separation": "Full-bleed sections with no visible dividers between hero blocks; sections separated by distinct background colors (light gray #f7f7f7, dark navy #222, soft blue backgrounds); footer separated by 1px border-top in light gray with alternating background from dark to light",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]    NEO  AI  FACTORY  STORES  CAREERS  ABOUT    ORDER│\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO SECTION 1]                      │\n│                                                          │\n│  NEO Home Robot                                          │\n│                                                          │\n│        [Three white humanoid robots in row]              │\n│        [Blue, Beige, Black heads with oval faces]        │\n│                                                          │\n│                          $200 Deposit [Order]            │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO SECTION 2]                      │\n│                                                          │\n│  Careers 88 Open roles                                   │\n│                                                          │\n│        [Human with beige robot on shoulder]              │\n│        [Blue background lifestyle photo]                 │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO SECTION 3]                      │\n│                                                          │\n│  Experience NEO                                          │\n│                                                          │\n│        [Robot foot on yellow platform device]            │\n│        [Dark navy background]                            │\n│                                     [Book demo]          │\n│                                     [Get notified]       │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                       [FOOTER]                           │\n│                                                          │\n│  ⊗  ⊕  ⊖                                                │\n│                                                          │\n│  1X © 2025                                               │\n│                                                          │\n│  NEO            LINKEDIN        TERMS OF USE             │\n│  CAREERS        YOUTUBE         PRIVACY & COOKIES        │\n│  AI             INSTAGRAM       PRESS                    │\n│  FACTORY        TIKTOK          INVESTOR RELATIONS       │\n│  ABOUT                          SUPPORT                  │\n│  STORES         X                                        │\n│  ROBOT FLEET                                             │\n│  JOBS                                                    │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: Light gray/off-white, minimal, floating\n- Typography: Ultra-minimal, light gray text, widely spaced\n- Logo: Simple \"1X\" mark in dark gray, top left\n- Buttons/CTAs: \"ORDER\" (text link, top right, dark text)\n- Colors: Soft neutrals, high contrast black text on light background\n\nHERO SECTION 1 (NEO Home Robot):\n- Background: Very light gray, almost white, clean studio aesthetic\n- Imagery: Three humanoid robots in a row (blue-gray, beige, black heads), minimalist product photography, frontal pose, soft shadows\n- Typography: \"NEO\" in bold, \"Home Robot\" in lighter weight, left-aligned\n- Buttons/CTAs: \"$200 Deposit\" (text label, gray) | \"Order\" (solid black pill button, white text)\n- Colors: Neutral whites, soft grays, black accents\n- Components: Product hero with clean minimalist styling\n\nHERO SECTION 2 (Careers):\n- Background: Soft blue backdrop, professional studio photography\n- Imagery: Human male with beige humanoid robot on shoulder, intimate lifestyle shot, photographic realism\n- Typography: \"Careers\" in bold white, \"88 Open roles\" in lighter weight, left-aligned\n- Colors: Soft blues, warm beige robot, natural skin tones\n- Components: Lifestyle photography emphasizing human-robot interaction\n\nHERO SECTION 3 (Experience NEO):\n- Background: Dark navy/slate blue, moody product shot\n- Imagery: Close-up of white robot foot/leg on yellow-orange stepped platform device, dramatic angle\n- Typography: \"Experience\" in light weight, \"NEO\" in bold, white text, left-aligned\n- Buttons/CTAs: \"Book demo\" (text in small yellow box) | \"Get notified\" (text link, light gray)\n- Colors: Deep navy blue, bright yellow-orange platform, white robot\n- Components: Dramatic product detail shot, strong color accent\n\nFOOTER:\n- Background: Light gray/off-white matching nav\n- Typography: Minimal, light gray, organized in columns\n- Social icons: Three circular outline icons (X/Twitter, Instagram, LinkedIn)\n- Layout: Multi-column link structure\n- Links organized by category: Company (NEO, CAREERS, AI, FACTORY, ABOUT, STORES, ROBOT FLEET, JOBS) | Social (LINKEDIN, YOUTUBE, INSTAGRAM, TIKTOK, X) | Legal/Resources (TERMS OF USE, PRIVACY & COOKIES, PRESS, INVESTOR RELATIONS, SUPPORT)\n- Colors: Soft gray text on light background\n- Copyright: \"1X © 2025\" in small text\n\nOVERALL DESIGN LANGUAGE:\n- Minimalist, premium aesthetic\n- Heavy use of whitespace and breathing room\n- Muted color palette with strategic accent colors\n- Full-bleed photography\n- Sans-serif typography throughout\n- Clean, modern tech brand styling",
+        "insights": [
+          "Extreme minimalism with full-viewport hero sections creating immersive product experiences—each section occupies 100vh with generous negative space around centered content",
+          "Typography hierarchy is subtle and restrained: 40-44px headlines with very light weight (400), minimal tracking (-0.03em to -0.04em), and strategic opacity states (60% for secondary text) to create visual depth without heavy contrast",
+          "Layout uses a fixed max-width container (2036px) at XL breakpoint with symmetrical padding, maintaining centered composition across all screen sizes while allowing full-bleed imagery to extend edge-to-edge",
+          "Translucent overlays and backdrop blur effects (blur(60px) on header, opacity 0.72 on text) create layered depth while maintaining readability over complex imagery—consistent with premium tech brand aesthetic"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Base Ink",
+            "type": "Dark",
+            "rules": {
+              "description": "The default dark ink used at the root level of the document, establishing the baseline for text readability.",
+              "when_to_use": [
+                "Body text base color"
+              ]
+            },
+            "hex": "#0A0A0A",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Frost White",
+            "type": "Light",
+            "rules": {
+              "description": "The primary light theme surface and inverse text color, providing a crisp backdrop and high-contrast typography in dark sections.",
+              "when_to_use": [
+                "Global page background",
+                "Footer section background",
+                "Primary CTA button text",
+                "Typography and form inputs over dark media sections"
+              ]
+            },
+            "hex": "#E5E5E5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F7F7F7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F8F8F8",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E5E7EB",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.9364
+          },
+          {
+            "name": "Swiper Pagination Active",
+            "type": "Neutral",
+            "rules": {
+              "description": "Used for active swiper pagination bullets",
+              "when_to_use": [
+                "Carousel pagination indicator (active state)"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": 0.72,
+            "shades": [],
+            "score": 0.85
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Gamma Grey",
+            "type": "Neutral",
+            "rules": {
+              "description": "A warm, mid-tone grey that separates specific content sections and serves as subdued ink for secondary elements.",
+              "when_to_use": [
+                "Background fill for the 'Careers' section",
+                "Secondary text and copyright links in the footer",
+                "Delicate separator border in the footer",
+                "Alternate logo fill on hover"
+              ]
+            },
+            "hex": "#4F4749",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#41403C",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.26
+          },
+          {
+            "name": "Core Black",
+            "type": "Dark",
+            "rules": {
+              "description": "A pure black primarily used with alpha transparency to create softened, sophisticated overlays for typography and UI controls.",
+              "when_to_use": [
+                "Header navigation links and floating deposit text (at 72% opacity)",
+                "Primary 'Order' CTA background",
+                "Hamburger menu icon lines",
+                "'NEO Home Robot' primary heading text"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.068
+          },
+          {
+            "name": "Charcoal Surface",
+            "type": "Dark",
+            "rules": {
+              "description": "A deep charcoal grey used as a solid backdrop behind full-screen, media-heavy robot showcases.",
+              "when_to_use": [
+                "Background for the main 'NEO Home Robot' image section",
+                "Background for the 'Experience NEO' video section"
+              ]
+            },
+            "hex": "#222222",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0369
+          }
+        ],
+        "insights": [
+          "The design system is heavily monochromatic and relies on stark contrasts to let the product photography and videos be the sole source of vibrant color.",
+          "Opacity is a core architectural tool: pure black is consistently washed to 72% opacity for headings, nav links, and buttons to soften the harshness of high-contrast design.",
+          "There is a deliberate temperature shift in the dark surfaces, contrasting the neutral Charcoal (#222222) of the product sections with the warmer Gamma Grey (#4F4749) of the corporate 'Careers' section."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "ABCDiatypeMedium",
+              "role": "Hero Display / Large Heading",
+              "specs": {
+                "size": "44px",
+                "line_height": "44px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatypeMedium, sans-serif",
+                "file_url": "/fonts/ABCDinamoDiatypeMedium.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatypeBold",
+              "role": "H1 Heading (.neo-h1)",
+              "specs": {
+                "size": "24px",
+                "line_height": "130%",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatypeBold, sans-serif",
+                "file_url": "/fonts/ABCDinamoDiatypeBold.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "H2 Heading (.neoH2)",
+              "specs": {
+                "size": "36px",
+                "line_height": "40px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "H3 Heading (.neoH3)",
+              "specs": {
+                "size": "20px",
+                "line_height": "28px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "Heading Text (.neo-heading-text)",
+              "specs": {
+                "size": "20px",
+                "line_height": "130%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "ABCDiatype",
+              "role": "Primary Body (.neo-body)",
+              "specs": {
+                "size": "16px",
+                "line_height": "130%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "Body Regular",
+              "specs": {
+                "size": "16px",
+                "line_height": "24px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "Small Body (.neo-sm)",
+              "specs": {
+                "size": "16px",
+                "line_height": "130%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "ABCDiatype",
+              "role": "Button / UI Small (.neo-xs)",
+              "specs": {
+                "size": "14px",
+                "line_height": "140%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatypeBold",
+              "role": "UI Label (.neo-label)",
+              "specs": {
+                "size": "11px",
+                "line_height": "140%",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatypeBold, sans-serif",
+                "file_url": "/fonts/ABCDinamoDiatypeBold.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatypeMedium",
+              "role": "Navigation / Uppercase Meta",
+              "specs": {
+                "size": "11px",
+                "line_height": "20px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatypeMedium, sans-serif",
+                "file_url": "/fonts/ABCDinamoDiatypeMedium.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "Form Subtext / Caption",
+              "specs": {
+                "size": "12px",
+                "line_height": "19.2px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            },
+            {
+              "name": "ABCDiatype",
+              "role": "Footer Micro / Legal",
+              "specs": {
+                "size": "9px",
+                "line_height": "14.4px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatype, sans-serif",
+                "file_url": "/fonts/ABCDiatypeRegular.ttf"
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": [
+            {
+              "name": "ABCDiatypeMono",
+              "role": "Code / Monospace",
+              "specs": {
+                "size": "1em",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "ABCDiatypeMono, monospace",
+                "file_url": "/fonts/abc-diatype-mono-regular.otf"
+              }
+            }
+          ]
+        },
+        "highlights": "Typographic elements frequently use blur backdrops (.boxBlur) combined with animated hover opacities (opacity-50 to hover:opacity-100) and negative letter-spacing for tight, modern aesthetic lockups.",
+        "insights": [
+          "The typographic strategy centers on the custom Dinamo typeface family (ABCDiatype), projecting a modern, highly engineered, and technical brand identity.",
+          "Tight negative letter-spacing (e.g., -0.04em or -0.64px) is consistently applied to display headings to create solid, monolithic text blocks.",
+          "Extensive use of responsive relative line-heights (120%, 130%, 140%) ensures text scalability, while precise pixel values are strictly reserved for tightly controlled UI components like nav links and small labels."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "glass_blur"
+        ],
+        "solid_colors": [
+          {
+            "name": "Primary Background",
+            "description": "Main page background color (neoFrost)",
+            "when_to_use": [
+              "Page backgrounds",
+              "Footer sections",
+              "Light surface areas"
+            ],
+            "hex": "#F8F8F8"
+          },
+          {
+            "name": "Dark Background",
+            "description": "Dark section background for hero areas",
+            "when_to_use": [
+              "Hero sections",
+              "Video backgrounds",
+              "High-contrast sections"
+            ],
+            "hex": "#222222"
+          },
+          {
+            "name": "Gamma Grey",
+            "description": "Primary dark grey surface",
+            "when_to_use": [
+              "Main content backgrounds",
+              "Section dividers"
+            ],
+            "hex": "#4F4749"
+          },
+          {
+            "name": "Neo Grey",
+            "description": "Medium dark grey surface (discoveryDark)",
+            "when_to_use": [
+              "Text overlays",
+              "Secondary backgrounds",
+              "Borders"
+            ],
+            "hex": "#413E3E"
+          },
+          {
+            "name": "Neo Frost",
+            "description": "Light frost surface color",
+            "when_to_use": [
+              "Input fields",
+              "Light text areas",
+              "Placeholder backgrounds"
+            ],
+            "hex": "#F8F8F8"
+          },
+          {
+            "name": "Neo Light Grey",
+            "description": "Light grey for borders and dividers",
+            "when_to_use": [
+              "Borders",
+              "Dividers",
+              "Subtle separators"
+            ],
+            "hex": "#DEDCD8"
+          },
+          {
+            "name": "Neo Medium Grey",
+            "description": "Medium grey for secondary elements",
+            "when_to_use": [
+              "Secondary text",
+              "Placeholder text",
+              "Muted elements"
+            ],
+            "hex": "#8E8C84"
+          },
+          {
+            "name": "Section Gradient Background",
+            "description": "Warm beige gradient start color",
+            "when_to_use": [
+              "Section backgrounds with gradient treatment"
+            ],
+            "hex": "#EAE4E1"
+          },
+          {
+            "name": "Hero Gradient Light",
+            "description": "Hero section gradient start (warm white)",
+            "when_to_use": [
+              "Hero section backgrounds"
+            ],
+            "hex": "#F9F5F2"
+          },
+          {
+            "name": "Updates Gradient Base",
+            "description": "Updates section gradient start",
+            "when_to_use": [
+              "Updates sections",
+              "Content cards"
+            ],
+            "hex": "#EFEDEC"
+          },
+          {
+            "name": "White Surface",
+            "description": "Pure white surface",
+            "when_to_use": [
+              "Cards",
+              "Overlays",
+              "Button backgrounds"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Black Surface",
+            "description": "Pure black surface for high contrast",
+            "when_to_use": [
+              "CTA buttons",
+              "Text overlays",
+              "High-contrast elements"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Glass Panel",
+            "description": "Glassmorphism surface with backdrop blur",
+            "when_to_use": [
+              "Command menus",
+              "Floating panels",
+              "Modal overlays"
+            ],
+            "hex": "#0F1011"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Frost Gradient Right",
+            "description": "Right to left frost fade gradient",
+            "when_to_use": [
+              "Edge fades",
+              "Horizontal scroll indicators",
+              "Right-side overlays"
+            ],
+            "css_code": "linear-gradient(270deg, #f8f8f8 0.03%, hsla(0, 0%, 97%, 0.8) 24.94%, hsla(0, 0%, 97%, 0) 99.97%)"
+          },
+          {
+            "name": "Frost Gradient Left",
+            "description": "Left to right frost fade gradient",
+            "when_to_use": [
+              "Edge fades",
+              "Horizontal scroll indicators",
+              "Left-side overlays"
+            ],
+            "css_code": "linear-gradient(90deg, #f8f8f8 0.03%, hsla(0, 0%, 97%, 0.8) 24.94%, hsla(0, 0%, 97%, 0) 99.97%)"
+          },
+          {
+            "name": "Background Gradient Overlay",
+            "description": "Dark overlay gradient from right to transparent left",
+            "when_to_use": [
+              "Image overlays",
+              "Video backgrounds",
+              "Content readability enhancement"
+            ],
+            "css_code": "linear-gradient(270deg, transparent 26.32%, rgba(0, 0, 0, 0.12) 83.92%)"
+          },
+          {
+            "name": "404 Gradient",
+            "description": "Brown gradient with transparent center for error pages",
+            "when_to_use": [
+              "404 pages",
+              "Error states",
+              "Special page backgrounds"
+            ],
+            "css_code": "linear-gradient(270deg, rgba(71, 34, 0, 0.45) 0.1%, rgba(71, 34, 0, 0) 30.05%, rgba(71, 34, 0, 0) 70.32%, rgba(71, 34, 0, 0.45) 100.49%)"
+          },
+          {
+            "name": "Section One Gradient",
+            "description": "Warm beige to grey gradient",
+            "when_to_use": [
+              "Section backgrounds",
+              "Hero areas",
+              "Content transitions"
+            ],
+            "css_code": "linear-gradient(0.301turn, #eae4e1 1.25%, #dad2ce 96.59%)"
+          },
+          {
+            "name": "Video Blur Gradient",
+            "description": "Top to bottom blur gradient mask",
+            "when_to_use": [
+              "Video overlays",
+              "Bottom fade effects",
+              "Content transitions"
+            ],
+            "css_code": "linear-gradient(180deg, #413e3e00 0%, #413e3e 50%)"
+          },
+          {
+            "name": "Video Background Gradient",
+            "description": "Dark grey gradient for video backgrounds",
+            "when_to_use": [
+              "Video player overlays",
+              "Media backgrounds"
+            ],
+            "css_code": "linear-gradient(180deg, #413e3e00 0, #413e3ec3)"
+          },
+          {
+            "name": "Gamma Info Gradient",
+            "description": "Bottom to top black gradient",
+            "when_to_use": [
+              "Info overlays",
+              "Text readability enhancement",
+              "Bottom overlays"
+            ],
+            "css_code": "linear-gradient(0deg, transparent, #000)"
+          },
+          {
+            "name": "Hero Gradient",
+            "description": "Diagonal warm white to grey gradient",
+            "when_to_use": [
+              "Hero sections",
+              "Landing page backgrounds",
+              "Feature sections"
+            ],
+            "css_code": "linear-gradient(113.36deg, #f9f5f2 6.62%, #dad2ce 105.89%)"
+          },
+          {
+            "name": "Updates Gradient",
+            "description": "Diagonal gradient from warm grey to white",
+            "when_to_use": [
+              "Updates sections",
+              "Content cards",
+              "News areas"
+            ],
+            "css_code": "linear-gradient(295.74deg, #efedec 0.1%, #f8f8f8)"
+          },
+          {
+            "name": "Config Gradient",
+            "description": "Complex multi-stop white fade gradient with easing",
+            "when_to_use": [
+              "Configuration overlays",
+              "Modal backgrounds",
+              "Complex fade transitions"
+            ],
+            "css_code": "linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.008) 7.94%, hsla(0, 0%, 100%, 0.032) 14.39%, hsla(0, 0%, 100%, 0.07) 19.6%, hsla(0, 0%, 100%, 0.121) 23.78%, hsla(0, 0%, 100%, 0.181) 27.17%, hsla(0, 0%, 100%, 0.251) 29.99%, hsla(0, 0%, 100%, 0.328) 32.47%, hsla(0, 0%, 100%, 0.411) 34.84%, hsla(0, 0%, 100%, 0.497) 37.32%, hsla(0, 0%, 100%, 0.585) 40.14%, hsla(0, 0%, 100%, 0.674) 43.52%, hsla(0, 0%, 100%, 0.762) 47.71%, hsla(0, 0%, 100%, 0.846) 52.92%, hsla(0, 0%, 100%, 0.926) 59.37%, #fff 67.31%)"
+          },
+          {
+            "name": "Line Break Gradient",
+            "description": "Horizontal divider gradient with center emphasis",
+            "when_to_use": [
+              "Dividers",
+              "Section breaks",
+              "Horizontal rules"
+            ],
+            "css_code": "linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.088) 49.52%, transparent)"
+          },
+          {
+            "name": "Model Viewer Gradient",
+            "description": "Radial gradient from transparent center to frost edges",
+            "when_to_use": [
+              "3D model backgrounds",
+              "Product viewers",
+              "Spotlight effects"
+            ],
+            "css_code": "radial-gradient(ellipse at center, transparent 20%, #f8f8f8 65%)"
+          },
+          {
+            "name": "Tailwind Gradient Bottom Black",
+            "description": "Top to bottom gradient using Tailwind stops",
+            "when_to_use": [
+              "Dynamic gradients with from-black to-transparent"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "Tailwind Gradient Top",
+            "description": "Bottom to top gradient using Tailwind stops",
+            "when_to_use": [
+              "Bottom overlays",
+              "Reverse fade effects"
+            ],
+            "css_code": "linear-gradient(to top, var(--tw-gradient-stops))"
+          }
+        ],
+        "highlights": [
+          "Glass panels: backdrop-filter blur(20px-70px) over rgba(255,255,255,0.03) with subtle borders for glassmorphism effect",
+          "Box blur effect: Positioned blur masks with backdrop-filter blur(2px-6px) using complex mask compositing for selective blur areas",
+          "Scrolled header: backdrop-filter blur(60px) with rgba(255,255,255,0.92) background when scrolled",
+          "Video blur overlay: 25% height backdrop-filter blur(15px) with linear gradient mask from transparent to solid",
+          "Wipe animation: Linear gradient mask animation for reveal effects",
+          "Swiper pagination bullets: 8px rounded with rgba(0,0,0,0.06) inactive and rgba(0,0,0,0.72) active states"
+        ]
+      },
+      "elevation": {
+        "description": " Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Offset Shadow",
+              "type": "drop",
+              "description": "Transparent shadow placeholder used by Tailwind for ring utilities - 0px offset with transparent color",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring offset utilities",
+                "Focus states"
+              ]
+            },
+            {
+              "name": "App Screen Shadow",
+              "type": "drop",
+              "description": "Multi-layered shadow creating deep depth effect with progressively fading layers - 10% to 0% opacity black, blur from 20px to 63px",
+              "css_value": "0 9px 20px 0 #0000001a,0 36px 36px 0 #00000017,0 81px 49px 0 #0000000d,0 144px 58px 0 #00000003,0 226px 63px 0 #00000000",
+              "when_to_use": [
+                "App screen mockups",
+                "Device frames",
+                "Hero images with depth"
+              ]
+            },
+            {
+              "name": "Skills Shadow",
+              "type": "drop",
+              "description": "Medium multi-layered shadow with subtle depth progression - 10% to 0% opacity black, blur from 4px to 12px",
+              "css_value": "0 2px 4px 0 #0000001a,0 7px 7px 0 #00000017,0 16px 10px 0 #0000000d,0 28px 11px 0 #00000003,0 44px 12px 0 #00000000",
+              "when_to_use": [
+                "Skills sections",
+                "Card elements",
+                "Feature highlights"
+              ]
+            },
+            {
+              "name": "Reveal Slider Tab Shadow",
+              "type": "drop",
+              "description": "Subtle 1px shadow layers for tab indicators - rgba black with 43% to 1% opacity",
+              "css_value": "0 0 1px 0 rgba(0,0,0,.43),0 0 1px 0 rgba(0,0,0,.25),0 0 1px 0 rgba(0,0,0,.07),0 0 1px 0 rgba(0,0,0,.01)",
+              "when_to_use": [
+                "Slider tabs",
+                "Toggle indicators",
+                "Segmented controls"
+              ]
+            },
+            {
+              "name": "Shadow Default",
+              "type": "drop",
+              "description": "Tailwind default shadow - dual layer with 10% opacity black, 3px and 2px blur",
+              "css_value": "0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Default card elevation",
+                "Subtle lift effects"
+              ]
+            },
+            {
+              "name": "Shadow Large",
+              "type": "drop",
+              "description": "Tailwind large shadow - dual layer with 10% opacity black, 15px and 6px blur",
+              "css_value": "0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Modals",
+                "Dropdowns",
+                "Elevated cards"
+              ]
+            },
+            {
+              "name": "Shadow Medium",
+              "type": "drop",
+              "description": "Tailwind medium shadow - dual layer with 10% opacity black, 6px and 4px blur",
+              "css_value": "0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Buttons",
+                "Interactive elements",
+                "Medium lift cards"
+              ]
+            },
+            {
+              "name": "Shadow Small",
+              "type": "drop",
+              "description": "Tailwind small shadow - single layer with 5% opacity black, 2px blur",
+              "css_value": "0 1px 2px 0 rgba(0,0,0,.05)",
+              "when_to_use": [
+                "Subtle inputs",
+                "Minimal elevation",
+                "Form fields"
+              ]
+            },
+            {
+              "name": "Shadow None",
+              "type": "drop",
+              "description": "No shadow - transparent placeholder value",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Reset shadow",
+                "Flat elements",
+                "No elevation states"
+              ]
+            },
+            {
+              "name": "Swiper Pagination Tab",
+              "type": "drop",
+              "description": "Multiple subtle layers for swiper pagination tab",
+              "css_value": "0 0 1px 0 rgba(0,0,0,.43),0 0 1px 0 rgba(0,0,0,.25),0 0 1px 0 rgba(0,0,0,.07),0 0 1px 0 rgba(0,0,0,.01)",
+              "when_to_use": [
+                "Pagination dots/tabs in carousel components"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#E5E7EB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#413E3E",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#4F4749",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DEDCD8",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#6F6F67",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#8E8C84",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FF9300",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FECACA",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#EF4444",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F7F7F7",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F8F8F8",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "2px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "video_background",
+          "scroll_reveal",
+          "hover_transform",
+          "accordion"
+        ],
+        "animations": [
+          {
+            "name": "slideDown",
+            "css": "@keyframes slideDown{0%{height:0}to{height:var(--radix-accordion-content-height)}}",
+            "description": "Expands accordion content from zero to full height when opening"
+          },
+          {
+            "name": "slideUp",
+            "css": "@keyframes slideUp{0%{height:var(--radix-accordion-content-height)}to{height:0}}",
+            "description": "Collapses accordion content from full height to zero when closing"
+          },
+          {
+            "name": "sonner-fade-in",
+            "css": "@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}100%{opacity:1;transform:scale(1)}}",
+            "description": "Toast notification entrance animation with scale and fade"
+          },
+          {
+            "name": "sonner-fade-out",
+            "css": "@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.8)}}",
+            "description": "Toast notification exit animation with scale and fade"
+          },
+          {
+            "name": "sonner-spin",
+            "css": "@keyframes sonner-spin{0%{opacity:1}100%{opacity:.15}}",
+            "description": "Loading spinner opacity animation for toast loading states"
+          },
+          {
+            "name": "swipe-out-left",
+            "css": "@keyframes swipe-out-left{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) - 100%));opacity:0}}",
+            "description": "Toast dismissal animation when swiped left"
+          },
+          {
+            "name": "swipe-out-right",
+            "css": "@keyframes swipe-out-right{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) + 100%));opacity:0}}",
+            "description": "Toast dismissal animation when swiped right"
+          },
+          {
+            "name": "fade-in (view-transition)",
+            "css": "@keyframes fade-in{0%{opacity:0}}",
+            "description": "View transition fade-in for page navigation"
+          },
+          {
+            "name": "fade-out (view-transition)",
+            "css": "@keyframes fade-out{to{opacity:0}}",
+            "description": "View transition fade-out for page navigation"
+          },
+          {
+            "name": "wipeAnimation",
+            "css": "@keyframes wipeAnimation{0%{--mask-position:-100%}to{--mask-position:120%}}",
+            "description": "CSS custom property animation for mask-based wipe reveal effect"
+          },
+          {
+            "name": "enter",
+            "css": "@keyframes enter{0%{opacity:var(--tw-enter-opacity,1);transform:translate3d(var(--tw-enter-translate-x,0),var(--tw-enter-translate-y,0),0) scale3d(var(--tw-enter-scale,1),var(--tw-enter-scale,1),var(--tw-enter-scale,1)) rotate(var(--tw-enter-rotate,0))}}",
+            "description": "Tailwind CSS animate-in entrance keyframe for modals and popovers"
+          },
+          {
+            "name": "exit",
+            "css": "@keyframes exit{to{opacity:var(--tw-exit-opacity,1);transform:translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0) scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}",
+            "description": "Tailwind CSS animate-out exit keyframe for modals and popovers"
+          },
+          {
+            "name": "global-opacity-transition",
+            "css": "transition: opacity 0.3s",
+            "description": "Standard opacity transition used on nav items, buttons, and interactive elements"
+          },
+          {
+            "name": "mobile-menu-slide",
+            "css": "transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1)",
+            "description": "Mobile menu slide-in animation with custom easing"
+          },
+          {
+            "name": "menu-line-transform",
+            "css": "transition: transform 0.3s, background 0.3s",
+            "description": "Hamburger menu icon line animation for open/close states"
+          },
+          {
+            "name": "header-scroll-transition",
+            "css": "transition-property: all; transition-duration: 0.3s",
+            "description": "Header background and styling transition when scrolling"
+          },
+          {
+            "name": "animatedLink-underline",
+            "css": "transition: all 0.3s ease-in-out 0s",
+            "description": "Animated underline reveal on link hover using scaleX transform"
+          },
+          {
+            "name": "animatedFooterLink-underline",
+            "css": "transition: opacity 0.2s ease-in",
+            "description": "Footer link underline opacity fade-in on hover"
+          },
+          {
+            "name": "accordion-content-blur",
+            "css": "transition: all 0.3s ease-in",
+            "description": "Accordion content opacity and blur transition for open/close states"
+          },
+          {
+            "name": "swiper pagination fade",
+            "css": "transition: background .2s, opacity .3s",
+            "description": "Swiper pagination bullet background changes on active state using transition timing"
+          }
+        ],
+        "insights": [
+          "The design system uses a monochromatic palette with strategic use of opacity (72% black) for softer UI elements rather than introducing additional gray shades.",
+          "Fixed header employs glassmorphism with backdrop-filter blur(60px) and 92% white opacity on scroll, creating depth without visual heaviness.",
+          "View transitions are implemented for page navigation using CSS @keyframes fade-in/fade-out with 0.25s timing, indicating a modern SPA architecture with native-like transitions."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Order (Primary CTA)",
+            "usage": "Primary call-to-action for placing pre-orders, appears in hero sections with deposit price context",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ABCDiatype",
+                  "size": "14px",
+                  "padding": "12px 24px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.72)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(0, 0, 0, 0.72)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(0, 0, 0, 0.72)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get notified (Form Submit)",
+            "usage": "Email signup form submission button, appears in dark hero sections for newsletter/updates opt-in",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ABCDiatype",
+                  "size": "12px",
+                  "padding": "18.5px 0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#F7F7F7",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#F7F7F7",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.6",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#F7F7F7",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "btn (Outline Style)",
+            "usage": "Generic button class for outlined style buttons with rounded pill shape",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "ABCDiatype",
+                  "size": "14px",
+                  "padding": "16px 28px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "rgba(0, 0, 0, 0.72)",
+                "border_color": "rgba(0, 0, 0, 0.72)",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "#000000",
+                "border_width": "2px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "rgba(0, 0, 0, 0.72)",
+                "border_color": "rgba(0, 0, 0, 0.72)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are typically paired with contextual text labels (e.g., '$200 Deposit' + 'Order' button)",
+          "spacing": "16px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "60px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Frost White",
+            "opacity": "0.92",
+            "blur": "backdrop-filter: blur(60px)"
+          },
+          "border_bottom": "1px solid rgba(0, 0, 0, 0)"
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": []
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Single open by default, uses slideDown/slideUp animations with cubic-bezier(0.62, 0.05, 0.01, 0.99) easing"
+        },
+        "dividers": [
+          {
+            "name": "AI Divider",
+            "description": "Gradient divider that fades from transparent to subtle black and back",
+            "when_to_use": [
+              "Section separation in AI content areas",
+              "Subtle visual breaks between content blocks"
+            ],
+            "color": "rgba(0, 0, 0, 0.088)",
+            "height": "1px",
+            "style": "linear-gradient"
+          },
+          {
+            "name": "Line Break Gradient",
+            "description": "Horizontal gradient line for content separation",
+            "when_to_use": [
+              "Breaking up content sections",
+              "Visual emphasis between components"
+            ],
+            "color": "rgba(0, 0, 0, 0.088)",
+            "height": "1px",
+            "style": "linear-gradient"
+          },
+          {
+            "name": "Footer Border",
+            "description": "Top border for footer section separation",
+            "when_to_use": [
+              "Footer section boundary"
+            ],
+            "color": "rgba(79, 71, 73, 0.05)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "UI Icons",
+          "description": "Inline SVG icons detected on the page.",
+          "when_to_use": [],
+          "format": "SVG",
+          "style": "",
+          "sizes": {
+            "small": "",
+            "medium": ""
+          },
+          "examples": [
+            {
+              "name": "icon_01",
+              "svg_code": "<svg class=\"w-[28px] h-[20px] transition-colors duration-300 relative z-[1] !opacity-0\" width=\"26\" height=\"16\" viewBox=\"0 0 26 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25.699 15.1299C25.6859 15.5128 25.5403 15.7825 25.248 15.9137C24.8209 16.1058 24.5071 15.8624 24.2196 15.5713C22.9454 14.2756 21.6724 12.98 20.3934 11.689C18.574 9.85052 17.3606 9.84217 15.5627 11.6556C14.3135 12.9155 13.0679 14.1778 11.8236 15.4413C11.4501 15.8207 11.0421 16.274 10.51 15.7884C9.923 15.2528 10.3573 14.7922 10.7725 14.3723C12.2328 12.8952 13.6597 11.386 15.1534 9.94358C16.7343 8.41525 18.8723 8.25538 20.4316 9.67037C22.1604 11.2381 23.7448 12.9621 25.3829 14.6264C25.5284 14.7743 25.6083 14.9843 25.6978 15.1299H25.699Z\" fill=\"#F7F7F7\"></path><path d=\"M17.9015 7.21649C16.8504 7.22842 15.9508 6.85022 15.2147 6.11648C13.715 4.62036 12.2308 3.10993 10.7407 1.60427C10.3625 1.2213 9.95442 0.781053 10.4328 0.276382C10.9888 -0.311803 11.4362 0.170199 11.8419 0.580616C13.1769 1.93476 14.4965 3.3056 15.8506 4.64065C17.2536 6.02342 18.6543 6.027 20.0514 4.65258C21.3769 3.34974 22.6618 2.00634 23.973 0.689186C24.387 0.272803 24.8273 -0.370264 25.4668 0.27161C26.0263 0.834741 25.4859 1.28453 25.0933 1.68302C23.6688 3.13141 22.2383 4.57383 20.809 6.01745C20.0108 6.82397 19.054 7.25706 17.9015 7.2153V7.21649Z\" fill=\"#F7F7F7\"></path><path d=\"M7.46868 2.38692C7.47703 3.1648 7.48419 3.93911 7.2933 4.70506C6.91032 6.24532 5.94751 7.16637 4.381 7.46822C3.26071 7.68297 2.12967 7.57917 1.00222 7.5911C0.478458 7.59468 0.00480805 7.42169 3.57557e-05 6.81919C-0.00473654 6.19998 0.468914 6.07829 0.997445 6.08187C1.77891 6.08783 2.56276 6.1105 3.34184 6.07351C4.9501 5.99716 5.89143 5.04151 5.94751 3.4404C5.97614 2.62076 5.95944 1.79992 5.95347 0.97909C5.9499 0.42789 6.15868 0.0127 6.75761 0.0425268C7.27779 0.0675813 7.46271 0.476806 7.46629 0.96C7.46987 1.43484 7.46629 1.90969 7.46629 2.38453L7.46868 2.38692Z\" fill=\"#F7F7F7\"></path><path d=\"M5.95483 12.205C5.95483 11.2577 5.95483 10.3104 5.95483 9.36312C5.95483 8.88589 6.09204 8.47666 6.63727 8.44206C7.26006 8.4015 7.46169 8.83936 7.46527 9.36431C7.4772 11.2589 7.47839 13.1535 7.46527 15.0469C7.46169 15.5707 7.25648 16.0121 6.63727 15.9704C6.0992 15.9346 5.95483 15.5253 5.95603 15.0457C5.95961 14.0984 5.95603 13.1511 5.95603 12.2038L5.95483 12.205Z\" fill=\"#F7F7F7\"></path></svg>"
+            },
+            {
+              "name": "icon_02",
+              "svg_code": "<svg class=\"w-[28px] h-[20px] transition-opacity duration-300 opacity-0 opacity-0 absolute z-[2] inset-0 !opacity-100\" width=\"26\" height=\"16\" viewBox=\"0 0 26 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25.699 15.1299C25.6859 15.5128 25.5403 15.7825 25.248 15.9137C24.8209 16.1058 24.5071 15.8624 24.2196 15.5713C22.9454 14.2756 21.6724 12.98 20.3934 11.689C18.574 9.85052 17.3606 9.84217 15.5627 11.6556C14.3135 12.9155 13.0679 14.1778 11.8236 15.4413C11.4501 15.8207 11.0421 16.274 10.51 15.7884C9.923 15.2528 10.3573 14.7922 10.7725 14.3723C12.2328 12.8952 13.6597 11.386 15.1534 9.94358C16.7343 8.41525 18.8723 8.25538 20.4316 9.67037C22.1604 11.2381 23.7448 12.9621 25.3829 14.6264C25.5284 14.7743 25.6083 14.9843 25.6978 15.1299H25.699Z\" fill=\"#41403C\"></path><path d=\"M17.9015 7.21649C16.8504 7.22842 15.9508 6.85022 15.2147 6.11648C13.715 4.62036 12.2308 3.10993 10.7407 1.60427C10.3625 1.2213 9.95442 0.781053 10.4328 0.276382C10.9888 -0.311803 11.4362 0.170199 11.8419 0.580616C13.1769 1.93476 14.4965 3.3056 15.8506 4.64065C17.2536 6.02342 18.6543 6.027 20.0514 4.65258C21.3769 3.34974 22.6618 2.00634 23.973 0.689186C24.387 0.272803 24.8273 -0.370264 25.4668 0.27161C26.0263 0.834741 25.4859 1.28453 25.0933 1.68302C23.6688 3.13141 22.2383 4.57383 20.809 6.01745C20.0108 6.82397 19.054 7.25706 17.9015 7.2153V7.21649Z\" fill=\"#41403C\"></path><path d=\"M7.46868 2.38692C7.47703 3.1648 7.48419 3.93911 7.2933 4.70506C6.91032 6.24532 5.94751 7.16637 4.381 7.46822C3.26071 7.68297 2.12967 7.57917 1.00222 7.5911C0.478458 7.59468 0.00480805 7.42169 3.57557e-05 6.81919C-0.00473654 6.19998 0.468914 6.07829 0.997445 6.08187C1.77891 6.08783 2.56276 6.1105 3.34184 6.07351C4.9501 5.99716 5.89143 5.04151 5.94751 3.4404C5.97614 2.62076 5.95944 1.79992 5.95347 0.97909C5.9499 0.42789 6.15868 0.0127 6.75761 0.0425268C7.27779 0.0675813 7.46271 0.476806 7.46629 0.96C7.46987 1.43484 7.46629 1.90969 7.46629 2.38453L7.46868 2.38692Z\" fill=\"#41403C\"></path><path d=\"M5.95483 12.205C5.95483 11.2577 5.95483 10.3104 5.95483 9.36312C5.95483 8.88589 6.09204 8.47666 6.63727 8.44206C7.26006 8.4015 7.46169 8.83936 7.46527 9.36431C7.4772 11.2589 7.47839 13.1535 7.46527 15.0469C7.46169 15.5707 7.25648 16.0121 6.63727 15.9704C6.0992 15.9346 5.95483 15.5253 5.95603 15.0457C5.95961 14.0984 5.95603 13.1511 5.95603 12.2038L5.95483 12.205Z\" fill=\"#41403C\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://www.1x.tech/apple-touch-icon.png",
+            "path": null,
+            "origin_url": null,
+            "description": "Apple Touch Icon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/logos/favicon.png",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/logos/favicon.png",
+            "origin_url": "https://www.1x.tech/favicon/favicon-32x32.png",
+            "description": "32x32 Favicon"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/logos/favicon-2.png",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/logos/favicon-2.png",
+            "origin_url": "https://www.1x.tech/favicon/favicon-16x16.png",
+            "description": "16x16 Favicon"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/logos/primary.svg",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/logos/primary.svg",
+            "origin_url": "https://www.1x.tech/icons/1xLogo.svg",
+            "description": "1X Primary Brand Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/open-graph-image.jpg",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/open-graph-image.jpg",
+            "origin_url": "https://cdn.sanity.io/images/qka6yvsc/production/fdda789a2e7c6caa9a798dd920b8a0acb254ea9d-1200x630.jpg?fit=max&amp;auto=format",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Experience NEO Background Video",
+            "type": "video",
+            "url": "blob:https://www.1x.tech/aedbfae6-e40d-4370-b7ce-80e0ad5c172e",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Background video for the 'Experience NEO' section."
+          },
+          {
+            "name": "Three different Colored NEO robots (Mobile)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/three-different-colored-neo-robots-mobile.webp",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/three-different-colored-neo-robots-mobile.webp",
+            "origin_url": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fqka6yvsc%2Fproduction%2F7d7c76fff5aced119246042ffd9141e8f17d632a-3665x2062.webp%3Fq%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=100",
+            "usage_context": "Hero section background image on mobile displaying three NEO robots."
+          },
+          {
+            "name": "Three different Colored NEO robots (Desktop)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/three-different-colored-neo-robots-desktop.webp",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/three-different-colored-neo-robots-desktop.webp",
+            "origin_url": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fqka6yvsc%2Fproduction%2F8b499fd222782ed77d495cddb6e584c82ef1cd91-3665x2062.webp%3Fq%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=100",
+            "usage_context": "Hero section background image on desktop displaying three NEO robots."
+          },
+          {
+            "name": "NEO and man standing back to back (Mobile)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/neo-and-man-standing-back-to-back-mobile.webp",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/neo-and-man-standing-back-to-back-mobile.webp",
+            "origin_url": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fqka6yvsc%2Fproduction%2F9840f02d5ae03f52b20b1f13c6a0e9ae222c69ce-3813x4096.webp%3Fq%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=100",
+            "usage_context": "Background image for the Careers section on mobile."
+          },
+          {
+            "name": "NEO and man standing back to back (Desktop)",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/neo-and-man-standing-back-to-back-desktop.webp",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/neo-and-man-standing-back-to-back-desktop.webp",
+            "origin_url": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fqka6yvsc%2Fproduction%2Fcebc94870b713ade3075f429f51ed823bb476ca4-2400x1368.webp%3Fq%3D100%26fit%3Dmax%26auto%3Dformat&w=3840&q=100",
+            "usage_context": "Background image for the Careers section on desktop."
+          },
+          {
+            "name": "Mux Video Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/mux-video-thumbnail.jpg",
+            "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/site-assets/media/image/mux-video-thumbnail.jpg",
+            "origin_url": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fimage.mux.com%2FneStydCcdA013wVjNgJb2wCjVHGQDPc0082024lFtNaoZE%2Fthumbnail.webp%3Fwidth%3D1920%26height%3D1080%26time%3D0&w=3840&q=75",
+            "usage_context": "Thumbnail fallback image for the Mux background video in the Experience NEO section."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Centered horizontal with fixed positioning",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "1X logo mark in dark gray/black, simple geometric design, top left"
+            },
+            {
+              "type": "navigation",
+              "description": "Uppercase text links (NEO, AI, FACTORY, STORIES, CAREERS, ABOUT) in light gray, centered, minimal spacing, 11px tracking"
+            },
+            {
+              "type": "button",
+              "description": "ORDER text link, top right, dark text on light background"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered full-screen with product imagery",
+          "headline": "NEO",
+          "subheadline": "Home Robot",
+          "components": [
+            {
+              "type": "image",
+              "description": "Three humanoid robots in a row with blue-gray, beige, and black heads, minimalist studio photography on very light gray/white background, frontal product shot with soft shadows"
+            },
+            {
+              "type": "button",
+              "description": "$200 Deposit label in gray text, Order button with solid black/72% opacity pill shape with white text, positioned bottom right"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered full-screen with lifestyle imagery",
+          "headline": "Careers",
+          "subheadline": "88 Open roles",
+          "components": [
+            {
+              "type": "image",
+              "description": "Human male with beige humanoid robot on shoulder, soft blue backdrop studio photography, intimate lifestyle shot with photographic realism"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered full-screen with video/product detail",
+          "headline": "Experience",
+          "subheadline": "NEO",
+          "components": [
+            {
+              "type": "video",
+              "description": "Close-up of white robot foot/leg on yellow-orange stepped platform device, dark navy/slate blue moody background, dramatic angle product shot"
+            },
+            {
+              "type": "form",
+              "description": "Email input field with transparent background, white placeholder text, Get notified button, bottom right positioning"
+            },
+            {
+              "type": "button",
+              "description": "Get notified text link in light gray, positioned alongside email form"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid layout",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "1X logo mark in dark gray, top left of footer"
+            },
+            {
+              "type": "icon",
+              "description": "Social media circular outline icons (LinkedIn, YouTube, Instagram, TikTok, X) in light gray"
+            },
+            {
+              "type": "navigation",
+              "description": "Multi-column link structure: Company links (NEO, CAREERS, AI, FACTORY, ABOUT, STORIES, ROBOT FLEET, LOGS), Social links (LINKEDIN, YOUTUBE, INSTAGRAM, TIKTOK, X), Legal/Resources (TERMS OF USE, PRIVACY & COOKIES, PRESS, SUPPORT, GET UPDATES, INVESTOR RELATIONS), all in uppercase, 9-10px font, light gray text on light background"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

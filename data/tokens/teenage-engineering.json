@@ -1,0 +1,503 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Primary high-contrast color used for base text, underline states, and premium product card surfaces.",
+        "when_to_use": [
+          "Global body text",
+          "Link text decoration color",
+          "Background fill for standout product cards ('field system', 'OB-4')",
+          "Select dropdown text"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Ink",
+      "type": "Dark",
+      "rules": {
+        "description": "A deep, near-black ink used heavily for navigation, footers, and large architectural blocks.",
+        "when_to_use": [
+          "Header navigation icons and text fills",
+          "Footer and mobile menu background fill",
+          "'Explore all products' container background",
+          "Text for specific product titles (e.g., 'pocket operator')"
+        ]
+      },
+      "hex": "#0F0E12",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#231F20",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.1461,
+      "group": "baseline"
+    },
+    {
+      "name": "Mid Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A mid-tone gray utilized for secondary information, muted icons, and subtle interactive elements.",
+        "when_to_use": [
+          "Product titles on black cards ('field system', 'OB-4')",
+          "Footer navigational icons and chevrons",
+          "'Join our newsletter' button background"
+        ]
+      },
+      "hex": "#B2B2B2",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0573,
+      "group": "secondary"
+    },
+    {
+      "name": "Paper",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational bright palette defining the page canvas, distinct card surfaces, and inverted typography.",
+        "when_to_use": [
+          "Global page background (pure white)",
+          "Standard product card backgrounds (off-white)",
+          "Inverted text on dark footer and product cards",
+          "Mobile menu text and Japanese footer text"
+        ]
+      },
+      "hex": "#E5E5E5",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#F6F8F7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F5F5F5",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F1F2F2",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.06449999999999999,
+      "group": "secondary"
+    },
+    {
+      "name": "Signal Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "The sole vibrant accent color in the entire design, strictly reserved for driving conversions.",
+        "when_to_use": [
+          "'Buy now' action links on product cards"
+        ]
+      },
+      "hex": "#0071BB",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0134,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "te-40",
+      "role": "Display H1 (fs-40)",
+      "specs": {
+        "size": "calc(.0367347 * 100vw)",
+        "line_height": "calc(.0408163 * 100vw)",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-40\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "te-20",
+      "role": "Display H2 (fs-30)",
+      "specs": {
+        "size": "calc(.027551 * 100vw)",
+        "line_height": "calc(.0306122 * 100vw)",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "te-20",
+      "role": "Display H3 (fs-25)",
+      "specs": {
+        "size": "calc(.0234694 * 100vw)",
+        "line_height": "calc(.0306122 * 100vw)",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "te-20",
+      "role": "Dynamic Title Extra Large (.txt .xl)",
+      "specs": {
+        "size": "calc((var(--txt-bh-unit) * 4 - var(--txt-px-unit) * 4) * var(--txt-scale))",
+        "line_height": "calc(var(--txt-bh-unit) * 4 * var(--txt-scale))",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "te-20",
+      "role": "Dynamic Title Large (.txt .l)",
+      "specs": {
+        "size": "calc((var(--txt-bh-unit) * 3 - var(--txt-px-unit) * 3) * var(--txt-scale))",
+        "line_height": "calc(var(--txt-bh-unit) * 3 * var(--txt-scale))",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "UniversNextPro-Thin",
+      "role": "Display Thin (.cls-6, .cls-5)",
+      "specs": {
+        "size": "19.5px",
+        "line_height": "",
+        "font_weight": "200",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "system"
+      },
+      "technical": {
+        "font_family_css": "UniversNextPro-Thin",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "te-20",
+      "role": "Body Large (fs-20)",
+      "specs": {
+        "size": "calc(.0183673 * 100vw)",
+        "line_height": "calc(.0204082 * 100vw)",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "te-20",
+      "role": "Body Standard (fs-15)",
+      "specs": {
+        "size": "calc(.0132653 * 100vw)",
+        "line_height": "calc(.0153061 * 100vw)",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "te-20",
+      "role": "Dynamic Text Base (.txt)",
+      "specs": {
+        "size": "calc((var(--txt-bh-unit) * 2 - var(--txt-px-unit) * 2) * var(--txt-scale))",
+        "line_height": "calc(var(--txt-bh-unit) * 2 * var(--txt-scale))",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "te-20",
+      "role": "Dynamic Text Medium (.txt .m)",
+      "specs": {
+        "size": "calc((var(--txt-bh-unit) * 1.5 - var(--txt-px-unit) * 2) * var(--txt-scale))",
+        "line_height": "calc(var(--txt-bh-unit) * 1.5 * var(--txt-scale))",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "te-20",
+      "role": "Small Label (fs-10)",
+      "specs": {
+        "size": "calc(.00918367 * 100vw)",
+        "line_height": "calc(.0102041 * 100vw)",
+        "font_weight": "300",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "te-20",
+      "role": "Dynamic Small Text (.txt .s)",
+      "specs": {
+        "size": "calc((var(--txt-bh-unit) - var(--txt-px-unit)) * var(--txt-scale))",
+        "line_height": "calc(var(--txt-bh-unit) * var(--txt-scale))",
+        "font_weight": "100",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "UniversNextPro-Thin",
+      "role": "Smallest Caption (.cls-4)",
+      "specs": {
+        "size": "9px",
+        "line_height": "",
+        "font_weight": "200",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "system"
+      },
+      "technical": {
+        "font_family_css": "UniversNextPro-Thin",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Arial",
+      "role": "Video Player UI (video-js)",
+      "specs": {
+        "size": "10px",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": "system"
+      },
+      "technical": {
+        "font_family_css": "Arial",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "franxurter",
+      "role": "Decorative Logotype (.fx)",
+      "specs": {
+        "size": "",
+        "line_height": "0.75em",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "franxurter",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "TechnoType",
+      "role": "Decorative Logotype (.tt)",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "TechnoType",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "swingus",
+      "role": "Decorative Logotype (.sw)",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "swingus",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "riddim",
+      "role": "Decorative Logotype (.rt)",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "riddim",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "riddimscript",
+      "role": "Decorative Logotype (.rs)",
+      "specs": {
+        "size": "",
+        "line_height": "",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": true,
+        "source": "self-hosted"
+      },
+      "technical": {
+        "font_family_css": "riddimscript",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "10px",
+    "max_width": "980px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 767px (12 Columns, 10px gutter, viewport-scaled)",
+    "tablet": "768px - 1200px (12 Columns, 10px gutter, viewport-scaled)",
+    "desktop": "1201px+ (12 Columns, 10px gutter, max 980px)",
+    "large": null
+  }
+}

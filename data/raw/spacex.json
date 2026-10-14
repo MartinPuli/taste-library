@@ -1,0 +1,1706 @@
+{
+  "company": "SpaceX",
+  "rank": 21,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://www.spacex.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:51:18.383010Z",
+  "completed_at": "2026-07-23T01:41:07.004114Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "SpaceX",
+        "tagline": null,
+        "source_url": "https://www.spacex.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Aerospace / Space Technology",
+        "primary_purpose": "Showcase SpaceX's mission, vehicles, and services while driving engagement with launch events, human spaceflight programs, and Starlink/AI initiatives",
+        "main_cta": "WATCH",
+        "copy_tone": [
+          "Visionary",
+          "Bold",
+          "Technical"
+        ],
+        "brand_signature": "Cinematic dark aesthetic with full-bleed video and photography of rockets, space, and planetary imagery. Clean uppercase typography in D-DIN font family creates an industrial, engineered feel with high contrast white text on pure black backgrounds.",
+        "visual_language": {
+          "keywords": [
+            "cinematic",
+            "industrial",
+            "futuristic",
+            "immersive",
+            "monumental",
+            "technical"
+          ],
+          "accent_strategy": "Minimal accent usage—white text and UI elements on pure black backgrounds create stark contrast; subtle white borders on CTAs with hover state inversions",
+          "highlights": "Full-screen video backgrounds and high-impact photography serve as visual highlights, with gradient overlays directing focus to text content"
+        },
+        "strategy": {
+          "target_audience": [
+            "Space enthusiasts and technology aficionados who follow launch events and space exploration news",
+            "Government and commercial aerospace clients seeking reliable launch services",
+            "Starlink customers looking for high-speed satellite internet solutions",
+            "Prospective employees and engineers attracted to cutting-edge aerospace innovation",
+            "Investors and stakeholders interested in SpaceX's expanding portfolio including AI and orbital compute"
+          ],
+          "executive_synthesis": "SpaceX's visual strategy employs cinematic immersion to translate complex aerospace technology into aspirational human narrative. The dark, minimal interface positions the brand as technically sophisticated while full-bleed video creates emotional connection to the mission of making life multiplanetary. Strategic content hierarchy leads with immediate launch events, reinforces core vehicle/service offerings, and introduces emerging business lines (Starlink, Orbital AI) to diversify audience engagement pathways."
+        },
+        "style_classification": {
+          "primary_style": "Futurism",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The SpaceX website embodies a modern interpretation of Futurism's core philosophy: celebration of speed, technology, and machines. The visual impression is immediately cinematic and aspirational—dramatic full-bleed photography of rockets, launches, and space imagery creates a sense of technological progress and motion.\n\n**Visual Density:** Airy/Spacious - Full-viewport sections (100vh) with generous negative space around text elements.\n**Color Cleanliness:** Clean/Pure - The monochromatic palette (pure black #000000, off-white #F0F0FA) is extremely disciplined and sophisticated.\n**Chronology:** Futuristic - Subject matter (space exploration, Mars colonization, orbital AI) and treatment project forward.\n**Dimensionality:** Flat with depth via photography - UI elements are flat, but cinematic imagery provides depth.\n**Decoration:** Minimal - No ornamental elements; every element serves communication.\n**Structure:** Rigid Grid - Clean 12-column grid with symmetrical alternating split layouts.\n\n**Design Element Cross-Reference:**\n- *Color:* Monochromatic black/white palette matches Futurism's metallic/monochromatic specification\n- *Type:* D-DIN is a geometric sans-serif with industrial character; bold display headlines (5rem/60px) in all-caps create poster-like impact—matching Futurism's \"Bold Display, Geometric\" requirements\n- *Shape:* Angular/sharp geometric shapes implied in the grid structure and rectangular image containers\n- *Texture:* Linear gradients (black-to-transparent scrims) match Futurism's \"Gradients (Linear)\" specification\n- *Layout:* Alternating asymmetric split layouts with overlapping/layered text on photography aligns with Futurism's \"Asymmetric/Broken Grid, Dense/Packed, Overlapping/Layered\"\n\nThe tight line-heights (90-95%), uppercase treatment, and dramatic visual hierarchy create the \"bold, poster-like quality\" noted in typography insights—directly echoing Italian Futurist poster design sensibilities adapted for the digital age.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies due to the professional, trust-building communication strategy. Despite the dramatic imagery, the design maintains conservative business credibility: consistent CTA patterns (\"LEARN MORE →\" outline buttons throughout), clear information hierarchy, systematic navigation structure, and restrained color palette. The typography system's technical precision (Roboto Mono for data/subheaders) reinforces competence and reliability. This is a corporate website masquerading as aspirational art—communicating SpaceX as a trustworthy enterprise capable of delivering on ambitious promises, not a speculative startup. The monochromatic sophistication and cinematic photography treatment elevates beyond typical corporate blandness into premium \"Luxurious\" territory, but \"Corporate\" better captures the underlying trust/competence communication strategy."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "40px",
+          "max_width": "1700px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 961px (1 Column, 16px gutter, full-width sections)",
+          "tablet": "962px - 1279px (fluid layout, reduced padding)",
+          "desktop": "1280px - 1500px (12 Columns, 40px gutter, max-width 1400-1700px)",
+          "large": "1501px+ (12 Columns, 40px gutter, max-width 1700px)"
+        },
+        "section_separation": "Full-height viewport sections (100vh/100svh) with no visible gaps between sections. Separation achieved through alternating split-layout patterns (left/right text positioning), contrasting black gradient overlays on full-bleed photography/video backgrounds, and consistent use of negative space within each section. No structural dividers or color background changes - visual rhythm created by alternating content positioning and dramatic imagery.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│ [SPACEX LOGO]  [NAV: VEHICLES MISSIONS SHOP]  [≡]  [🔍] │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│                    [HERO SECTION 1]                      │\n│           [Rocket on launch pad silhouette]              │\n│                                                          │\n│               STARSHIP'S THIRTEENTH                      │\n│                   FLIGHT TEST                            │\n│                                                          │\n│                  [LEARN MORE →]                          │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [SECTION 2 - Split Layout]                              │\n│  ┌────────────────────────┐  ┌──────────────────────┐   │\n│  │                        │  │                      │   │\n│  │  MAKING                │  │                      │   │\n│  │  LIFE                  │  │   [Mars Image]       │   │\n│  │  MULTIPLANETARY        │  │                      │   │\n│  │                        │  │                      │   │\n│  │  [Description text]    │  │                      │   │\n│  │                        │  │                      │   │\n│  │  [LEARN MORE →]        │  │                      │   │\n│  └────────────────────────┘  └──────────────────────┘   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│                    [SECTION 3]                           │\n│            [Rocket launch at sunset/dusk]                │\n│                                                          │\n│                                                          │\n│                  REVOLUTIONIZING                         │\n│                 SPACE TECHNOLOGY                         │\n│                                                          │\n│               [Description text]                         │\n│                                                          │\n│                 [LEARN MORE →]                           │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│                    [SECTION 4]                           │\n│          [Rocket launch against blue sky]                │\n│                                                          │\n│             WORLD'S LEADING                              │\n│            LAUNCH SERVICE                                │\n│               PROVIDER                                   │\n│                                                          │\n│            [Description text]                            │\n│                                                          │\n│            [LEARN MORE →]                                │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [SECTION 5 - Split Layout]                              │\n│  ┌────────────────────────┐  ┌──────────────────────┐   │\n│  │                        │  │  ADVANCING HUMAN     │   │\n│  │  [Black background/    │  │  SPACEFLIGHT         │   │\n│  │   minimal imagery]     │  │                      │   │\n│  │                        │  │  [Description text]  │   │\n│  │                        │  │                      │   │\n│  │                        │  │  [LEARN MORE →]      │   │\n│  └────────────────────────┘  └──────────────────────┘   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [SECTION 6 - Split Layout]                              │\n│  ┌────────────────────────┐  ┌──────────────────────┐   │\n│  │  DELIVERING HIGH-      │  │                      │   │\n│  │  SPEED INTERNET        │  │                      │   │\n│  │  FROM SPACE            │  │  [Starlink          │   │\n│  │                        │  │   satellites         │   │\n│  │  [Description text]    │  │   image]             │   │\n│  │                        │  │                      │   │\n│  │  [LEARN MORE →]        │  │                      │   │\n│  └────────────────────────┘  └──────────────────────┘   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  [SECTION 7 - Split Layout]                              │\n│  ┌────────────────────────┐  ┌──────────────────────┐   │\n│  │                        │  │  DEVELOPING          │   │\n│  │  [Black background/    │  │  ORBITAL AI          │   │\n│  │   minimal imagery]     │  │  COMPUTE             │   │\n│  │                        │  │                      │   │\n│  │                        │  │  [Description text]  │   │\n│  │                        │  │                      │   │\n│  │                        │  │  [LEARN MORE →]      │   │\n│  └────────────────────────┘  └──────────────────────┘   │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│                    [FOOTER]                              │\n│  SpaceX © 2025                                           │\n│  [PRIVACY] [SUPPLIERS] [CAREERS] [MORE] [SOCIAL ICONS]   │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: Transparent/semi-transparent black overlay on hero image\n- Colors: White text and icons on dark\n- Buttons/CTAs: Hamburger menu [≡] (minimal, white), Search icon [🔍] (white)\n- Typography mood: Clean, modern sans-serif, uppercase for nav items\n\nHERO SECTION 1 (Starship's Thirteenth Flight Test):\n- Background: Dramatic monochrome/desaturated image of Starship rocket on launch pad with industrial tower structure, moody sky\n- Imagery: Photographic, high contrast, silhouetted rocket, cinematic composition\n- Colors observed: Grays, blacks, subtle warm tones in sky\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text, minimal style)\n- Typography mood: Bold, large headline, all caps, high impact\n\nSECTION 2 (Making Life Multiplanetary):\n- Background: Split layout - left side black, right side features Mars planet image\n- Imagery: Photographic rendering of Mars (orange-red planet), realistic space photography style\n- Colors observed: Deep blacks, rust/orange tones of Mars, white text\n- Components: Two-column layout with text left, image right\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text on black)\n- Typography mood: Bold headlines, clean body text, dramatic contrast\n\nSECTION 3 (Revolutionizing Space Technology):\n- Background: Full-bleed photo of rocket launching at sunset/dusk over water\n- Imagery: Photographic, warm sunset colors (orange, pink, blue), dramatic launch plume, silhouetted launch pad\n- Colors observed: Warm oranges, pinks, blues, ocean blues, black silhouettes\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text)\n- Typography mood: Bold white text on photo, strong readability\n\nSECTION 4 (World's Leading Launch Service Provider):\n- Background: Full-bleed photo of Falcon rocket launching against blue sky\n- Imagery: Photographic, daylight launch, coastal landscape, green terrain, blue sky\n- Colors observed: Blues (sky, water), greens (landscape), white (rocket), launch exhaust\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text)\n- Typography mood: Bold white headlines, strong contrast against sky\n\nSECTION 5 (Advancing Human Spaceflight):\n- Background: Split layout - left side black/minimal, right side text on black\n- Imagery: Minimal imagery, focus on typography\n- Colors observed: Deep blacks, white text\n- Components: Two-column layout, text-heavy right column\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text)\n- Typography mood: Clean, minimal, bold headlines\n\nSECTION 6 (Delivering High-Speed Internet From Space):\n- Background: Split layout - left side text on dark, right side shows Starlink satellite array\n- Imagery: Technical/product photography, grayscale/monochrome, detailed satellite hardware\n- Colors observed: Blacks, grays, whites, metallic tones\n- Components: Two-column layout with text left, technical image right\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text on dark)\n- Typography mood: Bold, technical, modern sans-serif\n\nSECTION 7 (Developing Orbital AI Compute):\n- Background: Split layout - left side black/minimal, right side text on black\n- Imagery: Minimal, dark, abstract or minimal technical imagery\n- Colors observed: Deep blacks, white text\n- Components: Two-column layout, text-focused\n- Buttons/CTAs: \"LEARN MORE →\" (outline button, white border, white text)\n- Typography mood: Bold, futuristic, clean sans-serif\n\nFOOTER:\n- Background: Black\n- Colors observed: White text, gray text for secondary links\n- Buttons/CTAs: Social media icons (minimal, white), footer links (white/gray text, no buttons)\n- Typography mood: Small, clean, minimal footer text\n- Components: Single row with copyright, links, and social icons aligned horizontally\n\nOVERALL DESIGN PATTERNS:\n- Consistent use of full-bleed photography and split layouts\n- Monochromatic color scheme with dramatic photography\n- All CTAs use identical style: \"LEARN MORE →\" with outline button treatment\n- White text on dark backgrounds throughout\n- Heavy use of negative space and bold typography\n- Cinematic, high-impact space photography\n- Clean, modern, minimal interface design",
+        "insights": []
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Space Black",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Core background color for the space-themed aesthetic, heavily modified with alpha channels to create overlays, shadows, and gradients.",
+              "when_to_use": [
+                ".app-background",
+                ".black-background",
+                ".video-overlay",
+                ".image-wrapper"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Black 80%",
+                "hex": "#000000",
+                "alpha": 0.8,
+                "aliases": [
+                  "--black-80",
+                  ".black-background-gradient-right",
+                  ".black-background-gradient-left"
+                ]
+              },
+              {
+                "name": "Black 75%",
+                "hex": "#000000",
+                "alpha": 0.75,
+                "aliases": [
+                  ".menu-backdrop"
+                ]
+              },
+              {
+                "name": "Black 60%",
+                "hex": "#000000",
+                "alpha": 0.6,
+                "aliases": [
+                  ".header"
+                ]
+              },
+              {
+                "name": "Black 50%",
+                "hex": "#000000",
+                "alpha": 0.5,
+                "aliases": [
+                  "--black-50",
+                  ".header-shadow",
+                  ".primary"
+                ]
+              },
+              {
+                "name": "Black 32%",
+                "hex": "#000000",
+                "alpha": 0.32,
+                "aliases": [
+                  ".cdk-overlay-dark-backdrop"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Off-White / Pale Gray",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Primary ink and typography color used across the site. Possesses a very subtle cool tone to pair with the dark theme natively.",
+              "when_to_use": [
+                "--white-100",
+                ".app-background",
+                "h1",
+                "h2",
+                "p",
+                ".title",
+                ".feature-header"
+              ]
+            },
+            "hex": "#F0F0FA",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Off-White 90%",
+                "hex": "#F0F0FA",
+                "alpha": 0.9,
+                "aliases": [
+                  "--white-90",
+                  ".nav-links",
+                  ".time"
+                ]
+              },
+              {
+                "name": "Off-White 80%",
+                "hex": "#F0F0FA",
+                "alpha": 0.8,
+                "aliases": [
+                  "--white-80",
+                  ".minimal",
+                  ".countdown",
+                  ".feature-text"
+                ]
+              },
+              {
+                "name": "Off-White 70%",
+                "hex": "#F0F0FA",
+                "alpha": 0.7,
+                "aliases": [
+                  "--white-70"
+                ]
+              },
+              {
+                "name": "Off-White 60%",
+                "hex": "#F0F0FA",
+                "alpha": 0.6,
+                "aliases": [
+                  "--white-60"
+                ]
+              },
+              {
+                "name": "Off-White 50%",
+                "hex": "#F0F0FA",
+                "alpha": 0.5,
+                "aliases": [
+                  "--white-50",
+                  ".section-subheader"
+                ]
+              },
+              {
+                "name": "Off-White 35%",
+                "hex": "#F0F0FA",
+                "alpha": 0.35,
+                "aliases": [
+                  "--white-35",
+                  "a"
+                ]
+              },
+              {
+                "name": "Off-White 30%",
+                "hex": "#F0F0FA",
+                "alpha": 0.3,
+                "aliases": [
+                  "--white-30"
+                ]
+              },
+              {
+                "name": "Off-White 15%",
+                "hex": "#F0F0FA",
+                "alpha": 0.15,
+                "aliases": [
+                  "--white-15"
+                ]
+              },
+              {
+                "name": "Off-White 10%",
+                "hex": "#F0F0FA",
+                "alpha": 0.1,
+                "aliases": [
+                  "--white-10",
+                  ".social"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Space Dark Gray",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Secondary dark neutral used for subtle background layering and interactive element borders.",
+              "when_to_use": [
+                "--gray-80"
+              ]
+            },
+            "hex": "#252628",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Dark Gray 80%",
+                "hex": "#252628",
+                "alpha": 0.8,
+                "aliases": [
+                  "--gray-80"
+                ]
+              },
+              {
+                "name": "Dark Gray 60%",
+                "hex": "#252628",
+                "alpha": 0.6,
+                "aliases": [
+                  "--gray-60",
+                  ".thin"
+                ]
+              },
+              {
+                "name": "Dark Gray 40%",
+                "hex": "#252628",
+                "alpha": 0.4,
+                "aliases": [
+                  "--gray-40"
+                ]
+              },
+              {
+                "name": "Tertiary Background",
+                "hex": "#232323",
+                "alpha": null,
+                "aliases": [
+                  ".tertiary"
+                ]
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Pure White",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Used sparingly as an absolute brightest peak for specific borders and data strokes on SVG components.",
+              "when_to_use": [
+                "data-stroke",
+                "--white-25",
+                ".upcoming-launch-widget"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "White 25%",
+                "hex": "#FFFFFF",
+                "alpha": 0.25,
+                "aliases": [
+                  "--white-25",
+                  ".divider"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Highlight Blue",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "A rare, distinct brand accident color used exclusively for career search highlight tags.",
+              "when_to_use": [
+                "career-search-tile .highlighted-keyword"
+              ]
+            },
+            "hex": "#01579B",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Highlight Blue Faded",
+                "hex": "#01579B",
+                "alpha": 0.45,
+                "aliases": [
+                  ".highlighted-keyword"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Light Gray Hover",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Interactive hover state strictly used for inline textual links within CMS-rendered content fields.",
+              "when_to_use": [
+                ".innerhtml-from-cms a:hover"
+              ]
+            },
+            "hex": "#CCCCCC",
+            "alpha": null,
+            "shades": [],
+            "score": 0
+          }
+        ],
+        "insights": [
+          "The design system leverages a heavily 'monochromatic via opacity' architecture, generating almost of its entire palette from varying Alpha channel values of pure Black (#000000) and a customized Space Off-White (#F0F0FA).",
+          "By applying a very subtle blue/cool tint to the primary white (#F0F0FA), the system reduces the harshness of high-contrast text on pure black, creating a more sophisticated, cinematic atmosphere.",
+          "Gradient usage relies strictly on fading black-to-transparent layers to serve as reading scrims beneath text and UI elements over imagery/video, maintaining maximal focus on the visual content."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "D-DIN-Bold",
+              "role": "Hero Display (H2)",
+              "specs": {
+                "size": "5rem",
+                "line_height": "95%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN-Bold",
+              "role": "Large Display (H2)",
+              "specs": {
+                "size": "60px",
+                "line_height": "90%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN-Bold",
+              "role": "Primary Heading (H1/H2)",
+              "specs": {
+                "size": "3rem",
+                "line_height": "60px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN-Bold",
+              "role": "Secondary Heading (H1/H2 Alternate)",
+              "specs": {
+                "size": "3rem",
+                "line_height": "48px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN-Bold",
+              "role": "Feature Header (H3)",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.2",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Standard body texts for descriptions, mission statements, and other narrative copy in paragraphs.",
+          "variants": [
+            {
+              "name": "D-DIN",
+              "role": "Primary Body Text",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.5rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN",
+              "role": "Secondary Body / Lists",
+              "specs": {
+                "size": "16px",
+                "line_height": "94%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Small navigational, labeling, and utility styles, designed for compactness and high legibility in dense UI spaces.",
+          "variants": [
+            {
+              "name": "D-DIN",
+              "role": "Nav Links / Important Labels",
+              "specs": {
+                "size": "0.813rem",
+                "line_height": "94%",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Roboto Mono",
+              "role": "Subheader / Technical Data",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "140%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'Roboto Mono', monospace",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN",
+              "role": "UI Small / Date / Footer",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "110%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "D-DIN",
+              "role": "UI Micro / Widget Title",
+              "specs": {
+                "size": "0.625rem",
+                "line_height": "94%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": [
+            {
+              "name": "D-DIN-Bold",
+              "role": "Mobile Navigation / Large Labels",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "120%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "highlights": null,
+        "insights": [
+          "The typography system relies exclusively on the geometric and technical 'D-DIN' typeface, producing an industrial, aerospace-oriented aesthetic that aligns perfectly with engineering precision.",
+          "Roboto Mono is strategically used selectively for countdowns and subheaders, reinforcing a utilitarian, telemetry-like interface in functional areas.",
+          "Extensive use of uppercase text and unusually tight line-heights (e.g., 90%, 94%, 95%) in both dramatic headings and micro UI elements gives the layout a bold, poster-like quality."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "App Background",
+            "description": "Primary background color for the entire application",
+            "when_to_use": [
+              "Page background",
+              "Default surface color"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Card Background - Primary",
+            "description": "Solid black background with 50% opacity for primary buttons and cards",
+            "when_to_use": [
+              "Primary button backgrounds",
+              "Overlay surfaces"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Card Background - Tertiary",
+            "description": "Dark gray background for tertiary buttons",
+            "when_to_use": [
+              "Tertiary button surfaces",
+              "Alternative card backgrounds"
+            ],
+            "hex": "#232323"
+          },
+          {
+            "name": "Social Button Background",
+            "description": "Footer social button surface with 10% white opacity (rgba(240, 240, 250, .1))",
+            "when_to_use": [
+              "Social media buttons",
+              "Icon button backgrounds"
+            ],
+            "hex": "#0F0F0F"
+          },
+          {
+            "name": "Thin Button Background",
+            "description": "Gray background for thin button variant with 60% opacity (rgba(37, 38, 40, .6))",
+            "when_to_use": [
+              "Thin button surfaces",
+              "Compact UI elements"
+            ],
+            "hex": "#252628"
+          },
+          {
+            "name": "White Button Background",
+            "description": "Light background for white button variant (rgba(240, 240, 250, 1))",
+            "when_to_use": [
+              "White/light button surfaces",
+              "Hover states",
+              "Active states"
+            ],
+            "hex": "#F0F0FA"
+          },
+          {
+            "name": "Image Wrapper Background",
+            "description": "Black background for image and video wrapper containers",
+            "when_to_use": [
+              "Image container backgrounds",
+              "Video wrapper backgrounds"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Black Overlay",
+            "description": "Solid black overlay for mobile menu",
+            "when_to_use": [
+              "Mobile menu overlays",
+              "Full-screen overlays"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Video Overlay",
+            "description": "Black background for video overlay modal",
+            "when_to_use": [
+              "Video modal backgrounds",
+              "Full-screen video overlays"
+            ],
+            "hex": "#000000"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Header Gradient",
+            "description": "Top to bottom gradient for header, fading from semi-transparent black to fully transparent",
+            "when_to_use": [
+              "Fixed header background",
+              "Navigation bar"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 95%)"
+          },
+          {
+            "name": "Header Shadow Gradient",
+            "description": "Top to bottom gradient for header shadow effect, fading from 50% black to transparent",
+            "when_to_use": [
+              "Header shadow overlay",
+              "Top section ambient shadow"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%)"
+          },
+          {
+            "name": "Menu Backdrop Gradient",
+            "description": "Complex top to bottom gradient with multiple stops, creating a sophisticated fade from dark to transparent",
+            "when_to_use": [
+              "Mobile menu backdrop",
+              "Extended navigation overlay"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.55) 35%, rgba(0,0,0,.25) 70%, rgba(0,0,0,0) 100%)"
+          },
+          {
+            "name": "Section Gradient - Bottom Fade",
+            "description": "Bottom fade gradient transitioning from transparent to solid black",
+            "when_to_use": [
+              "Section bottom overlays",
+              "Content fade effects",
+              "Image bottom gradients"
+            ],
+            "css_code": "linear-gradient(180deg, rgba(0,0,0,0) 50%, black 100%)"
+          },
+          {
+            "name": "Section Gradient - Right Fade",
+            "description": "Left to right gradient fading from transparent to 80% black",
+            "when_to_use": [
+              "Right-side content overlays",
+              "Image right fade"
+            ],
+            "css_code": "linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.8) 100%)"
+          },
+          {
+            "name": "Section Gradient - Left Fade",
+            "description": "Right to left gradient fading from transparent to 80% black",
+            "when_to_use": [
+              "Left-side content overlays",
+              "Image left fade"
+            ],
+            "css_code": "linear-gradient(270deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.8) 100%)"
+          },
+          {
+            "name": "Section Gradient - Bottom and Left Combined",
+            "description": "Multi-layer gradient combining left fade and bottom fade effects",
+            "when_to_use": [
+              "Complex content overlays",
+              "Corner fade effects",
+              "Multi-directional image gradients"
+            ],
+            "css_code": "linear-gradient(270deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.8) 100%), linear-gradient(180deg, rgba(0,0,0,0) 50%, black 100%)"
+          },
+          {
+            "name": "Mobile Section Gradient - Top and Bottom",
+            "description": "Mobile-specific gradient with fade from bottom black through transparent to top semi-transparent black",
+            "when_to_use": [
+              "Mobile section overlays",
+              "Responsive image gradients"
+            ],
+            "css_code": "linear-gradient(0deg, black 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,.5) 100%)"
+          }
+        ],
+        "highlights": [
+          "Backdrop blur effect on launch card container with blur(6px)",
+          "Backdrop filter brightness effect on overlay with brightness(.5)",
+          "Subtle career search highlighting with semi-transparent blue background (#01579b73)",
+          "Border accent on upcoming launch widget with rgba(255, 255, 255, .25)",
+          "Border accent on buttons with rgba(240, 240, 250, .35)"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This design system does not utilize box-shadow properties for elevation; instead, it relies on borders and background colors to create visual hierarchy.",
+          "levels": []
+        },
+        "borders": [
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "2px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "video_background",
+          "scroll_reveal",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "spin",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "slide-in",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "slide-out",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "slide-up",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "reveal-header",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "reveal-subheader",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "reveal-button",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "hide",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "global-button-ease",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "global-hover-ease",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "header-fade",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "menu-backdrop-ease",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "submenu-reveal",
+            "css": "",
+            "description": ""
+          },
+          {
+            "name": "countdown-digit",
+            "css": "",
+            "description": ""
+          }
+        ],
+        "insights": [
+          "SpaceX uses a highly consistent button system with a single primary style (semi-transparent black with off-white border) that inverts to solid white on hover, creating dramatic contrast against their cinematic dark backgrounds.",
+          "The design system employs staggered reveal animations (reveal-header, reveal-subheader, reveal-button) with progressive delays (0s, 0.5s, 1s) to create a cinematic entrance sequence for section content.",
+          "Navigation uses a gradient shadow overlay (linear-gradient from 60% black to transparent) rather than a solid background, allowing the header to blend seamlessly with video backgrounds while maintaining text legibility."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "WATCH (Primary CTA)",
+            "usage": "Primary call-to-action button used in hero sections and content sections for main user actions like watching launches, exploring content, learning more",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "default"
+              }
+            }
+          },
+          {
+            "name": "EXPLORE (Primary CTA)",
+            "usage": "Primary button variant for exploration and discovery actions on content sections",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "default"
+              }
+            }
+          },
+          {
+            "name": "LEARN MORE (Primary CTA)",
+            "usage": "Standard call-to-action for learning more about topics, used across multiple content sections",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "default"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular Social)",
+            "usage": "Circular icon-only button used for social media links in the footer, contains X/Twitter icon",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "",
+                  "padding": "18px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(240, 240, 250, 0.1)",
+                "text_color": "#F0F0FA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(240, 240, 250, 0.2)",
+                "text_color": "#F0F0FA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "pointer"
+              },
+              "disabled": {
+                "background": "rgba(240, 240, 250, 0.1)",
+                "text_color": "#F0F0FA",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "White (Inverted CTA)",
+            "usage": "Inverted button style with white background for high contrast situations",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "#FFFFFF",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "default"
+              }
+            }
+          },
+          {
+            "name": "Thin (Secondary)",
+            "usage": "Compact secondary button with no border, used for less prominent actions",
+            "specs": {
+              "radius": "rounded",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(37, 38, 40, 0.6)",
+                "text_color": "rgba(240, 240, 250, 0.8)",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(37, 38, 40, 0.6)",
+                "text_color": "rgba(240, 240, 250, 0.8)",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.3",
+                "cursor": "default"
+              }
+            }
+          },
+          {
+            "name": "RESERVE YOUR RIDE",
+            "usage": "Primary button for launch services section with actual button text from HTML",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": null
+            }
+          },
+          {
+            "name": "JOIN A MISSION",
+            "usage": "Primary button for human spaceflight section with actual button text from HTML",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": null
+            }
+          },
+          {
+            "name": "ORDER NOW",
+            "usage": "Primary button for Starlink section with actual button text from HTML",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": null
+            }
+          },
+          {
+            "name": "STARMIND",
+            "usage": "Primary button for AI compute section with actual button text from HTML",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "D-DIN",
+                  "size": "0.75rem",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(0, 0, 0, 0.5)",
+                "text_color": "#F0F0FA",
+                "border_color": "rgba(240, 240, 250, 0.35)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0FA",
+                "text_color": "#000000",
+                "border_color": "#F0F0FA",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": null
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are typically used individually within content sections, centered or aligned to the left of text blocks",
+          "spacing": "30px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "74px",
+          "position": "fixed",
+          "background": {
+            "hex": "#000000",
+            "color_reference": "Space Black 60%",
+            "opacity": "0.6",
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Upcoming Launch Card",
+            "description": "Card component displaying upcoming launch information with thumbnail image, mission title, and countdown/date",
+            "when_to_use": [
+              "Navigation dropdown widgets",
+              "Launch schedule displays",
+              "Mission previews"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Widget Divider",
+            "description": "Horizontal divider used between launch cards in the upcoming launches widget",
+            "when_to_use": [
+              "Between list items in widgets",
+              "Separating card content"
+            ],
+            "color": "rgba(255, 255, 255, 0.25)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "SpaceX UI Icons",
+          "description": "Minimalist, geometric monoline SVG icons used for navigation elements, buttons, and social media links across the site.",
+          "when_to_use": [
+            "Site header navigation (e.g., dropdown arrows)",
+            "Call to action buttons (e.g., forward arrows)",
+            "Widget menus (e.g., grid layout icon)",
+            "Footer social links"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "9px",
+            "medium": "16px"
+          },
+          "examples": [
+            {
+              "name": "menu",
+              "svg_code": "<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" data-elements=\"3\" data-types=\"path:3\"></svg>"
+            },
+            {
+              "name": "down-arrow",
+              "svg_code": "<svg viewBox=\"0 0 10 6\" width=\"10\" height=\"6\" class=\"menu-icon\" data-elements=\"1\" data-types=\"path:1\" data-stroke=\"#FFFFFF\"></svg>"
+            },
+            {
+              "name": "arrow",
+              "svg_code": "<svg viewBox=\"0 0 13 12\" width=\"13\" height=\"12\" data-elements=\"1\" data-types=\"path:1\"></svg>"
+            },
+            {
+              "name": "grid",
+              "svg_code": "<svg viewBox=\"0 0 9 13\" width=\"9\" height=\"13\" data-elements=\"1\" data-types=\"path:1\"></svg>"
+            },
+            {
+              "name": "x-social",
+              "svg_code": "<svg viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" data-elements=\"1\" data-types=\"path:1\"></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "",
+            "path": null,
+            "origin_url": null,
+            "description": "SpaceX Primary Brand Wordmark (Inline SVG from Header)"
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/logos/favicon.ico",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/logos/favicon.ico",
+            "origin_url": "https://www.spacex.com/assets/favicon-spacex.ico",
+            "description": "SpaceX Favicon"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/open-graph-image.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/open-graph-image.jpg",
+            "origin_url": "https://www.spacex.com/assets/images/share.jpg",
+            "usage_context": "Meta og:image — social share preview when linking the site."
+          },
+          {
+            "name": "Starship Thirteenth Flight Test Hero Video",
+            "type": "video",
+            "url": "https://sxcontent9668.azureedge.us/cms-assets/assets/20260716_ST_SUNRISEFULLSTACK_LOWY_VIDEO_0004b_66a402cb4d.mp4",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Hero background video looping in the featured top mission section."
+          },
+          {
+            "name": "Mars Rotation Background Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/video/mars-rotation-background-video.mp4",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/video/mars-rotation-background-video.mp4",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Mars_Rotation_Web_HB_d96299f9de.mp4",
+            "usage_context": "Background video for the 'Making life multiplanetary' content section."
+          },
+          {
+            "name": "Falcon Heavy UAS Landing Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/video/falcon-heavy-uas-landing-video.mp4",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/video/falcon-heavy-uas-landing-video.mp4",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Space_X_Falcon_Heavy_UAS_Landing_DESKTOP_compress_b4568daf9c_5e2026727a.mp4",
+            "usage_context": "Background video for the 'World's leading launch service provider' content section."
+          },
+          {
+            "name": "Starlink Deploy Background Video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/video/starlink-deploy-background-video.mp4",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/video/starlink-deploy-background-video.mp4",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_12_10_20250428_Deploy_website_DESKTOP_14fe7e072c.mp4",
+            "usage_context": "Background video for the 'Delivering high-speed internet from space' content section."
+          },
+          {
+            "name": "Starship Wet Dress Rehearsal Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/starship-wet-dress-rehearsal-thumbnail.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/starship-wet-dress-rehearsal-thumbnail.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/20260511_Wet_Dress_Actual_4_600x600_2efaf3e3dc.jpg",
+            "usage_context": "Cover thumbnail for the 'Starship's Thirteenth Flight Test' card in the upcoming launches widget."
+          },
+          {
+            "name": "SLC 4 Launch Pad Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/slc-4-launch-pad-thumbnail.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/slc-4-launch-pad-thumbnail.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/SLC_4_E_600x600_24dd9e969c.jpg",
+            "usage_context": "Cover thumbnail for the 'Starlink Mission' card in the upcoming launches widget."
+          },
+          {
+            "name": "Revolutionizing Space Tech Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/revolutionizing-space-tech-background.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/revolutionizing-space-tech-background.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Revolutionizing_Space_Tech_Desktop_ec67ad03c2.jpg",
+            "usage_context": "Background imagery for the 'Revolutionizing space technology' content section."
+          },
+          {
+            "name": "Advancing Human Spaceflight Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/advancing-human-spaceflight-background.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/advancing-human-spaceflight-background.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Advancing_Human_Spaceflight_Desktop_61c8ba1c67.jpg",
+            "usage_context": "Background imagery for the 'Advancing human spaceflight' content section."
+          },
+          {
+            "name": "Orbital AI Compute / Starmind Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/orbital-ai-compute-starmind-background.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/orbital-ai-compute-starmind-background.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Always_Sunny_v4_d8b76550ae.jpg",
+            "usage_context": "Background imagery for the 'Developing Orbital AI Compute' section promoting Starmind."
+          },
+          {
+            "name": "SpaceX Privacy Policy Document",
+            "type": "illustration",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/illustration/spacex-privacy-policy-document.pdf",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/illustration/spacex-privacy-policy-document.pdf",
+            "origin_url": "https://www.spacex.com/assets/media/privacy_policy_spacex.pdf",
+            "usage_context": "PDF document linked in the footer section."
+          },
+          {
+            "name": "Mars Rotation Video Poster",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/mars-rotation-video-poster.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/mars-rotation-video-poster.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Mars_Web_8fafe15a48.jpg",
+            "usage_context": "Poster image fallback for the Mars rotation HTML5 video."
+          },
+          {
+            "name": "Leading Launch Service Video Poster",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/leading-launch-service-video-poster.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/leading-launch-service-video-poster.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Leading_Launch_Service_Desktop_06a98ac534.jpg",
+            "usage_context": "Poster image fallback for the Falcon Heavy HTML5 video."
+          },
+          {
+            "name": "Highspeed Internet Video Poster",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/highspeed-internet-video-poster.jpg",
+            "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/site-assets/media/image/highspeed-internet-video-poster.jpg",
+            "origin_url": "https://sxcontent9668.azureedge.us/cms-assets/assets/Delivering_Highspeed_Desktop_d50314640c.jpg",
+            "usage_context": "Poster image fallback for the Starlink deployment HTML5 video."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal navigation bar with logo left, menu items center, upcoming launches widget right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "SpaceX logo in white, positioned top-left"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal menu with uppercase text links: Vehicles, Human Spaceflight, Starlink, Starshield, SPACEXAI, Terafab, Company, Shop - white text on transparent dark gradient background"
+            },
+            {
+              "type": "button",
+              "description": "Hamburger menu icon (mobile) - white, minimal"
+            },
+            {
+              "type": "card",
+              "description": "Upcoming launches widget with border outline, countdown timer, thumbnail images of launch vehicles"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered text over full-bleed video/image background",
+          "headline": "STARSHIP'S THIRTEENTH FLIGHT TEST",
+          "subheadline": "T- 12:08:56 (countdown timer)",
+          "components": [
+            {
+              "type": "video",
+              "description": "Full-screen looping video of Starship rocket on launch pad at sunrise, dramatic silhouette with moody sky, monochrome color treatment"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with text 'WATCH' and right arrow icon, minimal style"
+            },
+            {
+              "type": "divider",
+              "description": "Black gradient overlay from transparent at top to solid black at bottom"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - text left, video/image right",
+          "headline": "Making life multiplanetary",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Rotating Mars planet video on right side, photographic with orange-red tones against black space background"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with 'EXPLORE' text and arrow icon on left text area"
+            },
+            {
+              "type": "divider",
+              "description": "Black background on left text area"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - image left, text right",
+          "headline": "Revolutionizing space technology",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Rocket launch at sunset/dusk with warm orange, pink, and blue tones, dramatic plume over water"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with 'LEARN MORE' text and arrow icon"
+            },
+            {
+              "type": "divider",
+              "description": "Black gradient overlay from transparent left to dark right"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - video left, text right",
+          "headline": "World's leading launch service provider",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Full-screen looping video of Falcon Heavy rocket launching with daylight blue sky, coastal green landscape, white rocket against blue"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with 'RESERVE YOUR RIDE' text and arrow icon"
+            },
+            {
+              "type": "divider",
+              "description": "Black gradient overlay from transparent right to dark left"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - image left, text right",
+          "headline": "Advancing human spaceflight",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Dark minimal background image on left with astronaut or spacecraft imagery, grayscale/monochrome treatment"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with 'JOIN A MISSION' text and arrow icon"
+            },
+            {
+              "type": "divider",
+              "description": "Black gradient overlay from transparent left to dark right"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - text left, video right",
+          "headline": "Delivering high-speed internet from space",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Starlink satellites deploying in orbit, grayscale technical/product photography with metallic hardware details"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with 'ORDER NOW' text and arrow icon"
+            },
+            {
+              "type": "divider",
+              "description": "Black gradient overlay from transparent top to solid black bottom"
+            }
+          ]
+        },
+        {
+          "type": "Features",
+          "layout_pattern": "Split 50/50 - image left, text right",
+          "headline": "DEVELOPING ORBITAL AI COMPUTE",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Abstract minimal dark background with subtle technical or space imagery on left"
+            },
+            {
+              "type": "button",
+              "description": "White outline button with 'STARMIND' text and arrow icon"
+            },
+            {
+              "type": "divider",
+              "description": "Black gradient overlay from transparent left to dark right"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Horizontal layout with social icon left, nav links center, copyright right",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "X (Twitter) social icon in circular button with light gray background, white icon"
+            },
+            {
+              "type": "navigation",
+              "description": "Footer links in uppercase white text: Careers, Updates, Privacy Policy, Suppliers, Investors"
+            },
+            {
+              "type": "icon",
+              "description": "Copyright text '© 2026 SpaceX' in white, small uppercase font"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": null,
+      "full_page_screenshot": {
+        "path": "cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": null
+    }
+  }
+}

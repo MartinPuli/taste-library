@@ -1,0 +1,1701 @@
+{
+  "company": "Anthropic",
+  "rank": 10,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.anthropic.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:23.648680Z",
+  "completed_at": "2026-09-15T16:01:07.284282Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Anthropic",
+        "tagline": null,
+        "source_url": "https://www.anthropic.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / AI",
+        "primary_purpose": "Establish brand authority as a safety-focused AI research company and drive adoption of Claude AI products",
+        "main_cta": "Try Claude",
+        "copy_tone": [
+          "Thoughtful",
+          "Authoritative",
+          "Mission-Driven"
+        ],
+        "brand_signature": "A refined, warm ivory palette anchored by sophisticated serif and sans-serif typography creates an editorial, research-forward aesthetic. Dark slate buttons and terracotta accents provide purposeful contrast against the soft cream backgrounds, evoking scholarly credibility with modern polish.",
+        "visual_language": {
+          "keywords": [
+            "editorial",
+            "scholarly",
+            "warm minimalism",
+            "research-focused",
+            "refined"
+          ],
+          "accent_strategy": "Terracotta/clay (#d97757) accents used sparingly on primary CTAs and interactive elements to create warmth against ivory backgrounds",
+          "highlights": "Atmospheric sky imagery with soft gradients for hero announcements; subtle border treatments and card shadows for depth"
+        },
+        "strategy": {
+          "target_audience": [
+            "AI researchers and academics seeking cutting-edge, safety-conscious AI tools and publications",
+            "Enterprise decision-makers evaluating AI solutions for coding, knowledge work, and business applications",
+            "Developers and technical professionals looking for powerful, well-documented AI APIs and models"
+          ],
+          "executive_synthesis": "Anthropic's visual identity translates its mission of responsible AI development into a design language that feels academic, trustworthy, and intentionally unhurried. The warm ivory palette and serif typography signal intellectual seriousness and differentiate from competitors' cooler, tech-forward aesthetics. By leading with research announcements and safety messaging rather than aggressive product promotion, the homepage builds credibility with discerning buyers who value ethics alongside capability. The terracotta accent humanizes the brand while the structured grid and clear hierarchy guide visitors toward product exploration without pressure."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The visual impression from the screenshot reveals a distinctly editorial, academic aesthetic with extreme restraint and mathematical clarity. The warm off-white/cream (#FAF9F5) background mimics aged paper—a hallmark of Swiss Style that rarely uses pure white. The design exhibits generous whitespace with 10rem vertical spacing between sections, creating the deliberate breathing room characteristic of International Typographic Style.\n\nTypography is the primary vehicle for hierarchy: \"Anthropic Sans\" (a geometric sans-serif) for bold display headlines and \"Anthropic Serif\" for body copy creates the classic Swiss pairing of objective, readable typography. The strict 12-column grid with asymmetric usage (7/5 split in hero, 4/8 in mission statement, equal 3-column for cards) demonstrates the mathematical grid-based layouts that define this movement.\n\nColor palette matches Swiss Style perfectly: monochromatic with warm neutrals (cream/beige backgrounds, black text), no vibrant brand colors—just editorial restraint. The design eschews gradients and heavy effects in favor of subtle soft shadows and flat surfaces. Shape language is geometric with rounded corners on cards (1rem radius) but overall rectangular, grid-based composition.\n\nThe layout is flush-left aligned with clear information hierarchy, systematic metadata presentation on cards (DATE, CATEGORY, DETAILS labels), and objective communication prioritized over decoration. This is textbook Swiss Style translated into digital form.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies as a tonal layer over the Swiss Style foundation. The design projects trust, reliability, and professional competence appropriate for an AI research company handling serious topics like safety. The conservative color palette, formal typography hierarchy, extensive footer with organized link categories (Products, Solutions, Resources, Company), and structured card-based announcements with metadata all signal corporate professionalism. The mission-driven messaging (\"AI to serve humanity's long-term well-being\") combined with the academic/editorial aesthetic positions this as trustworthy enterprise communication rather than playful consumer design."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "var(--site--gutter)",
+          "max_width": "89.5rem"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (1 Column, 2rem gutter)",
+          "tablet": "768px - 991px (12 Columns, 2rem gutter)",
+          "desktop": "992px - 1440px (12 Columns, 2rem gutter)",
+          "large": "1441px+ (12 Columns, 2rem gutter)"
+        },
+        "section_separation": "Generous vertical spacing (var(--_spacing---section-space--main) = 10rem on desktop, 6rem tablet, 4rem mobile) between major sections. Alternating background colors: Hero and Mission sections use warm off-white (#faf9f5), Feature Banner uses full-bleed photography/canvas, Latest Releases uses same off-white, Footer uses very dark gray (#141413). Rounded corners on cards and the feature banner (1rem radius) create visual separation without relying on lines.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  ANTHROPIC    Research Policy Commitments Learn News      │\n│                                          [Try Claude →]   │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  AI research and              AI will have a vast       │\n│  products that put            impact on the world.      │\n│  safety at the frontier       Anthropic is a public     │\n│                               benefit corporation...     │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │         Claude Fable 5.1                          │  │\n│  │         and Mythos 5.1                            │  │\n│  │                                                    │  │\n│  │    The world's most advanced models               │  │\n│  │    for coding and knowledge work.                 │  │\n│  │                                                    │  │\n│  │            [Read more →]                          │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│  Latest releases                                         │\n│                                                          │\n│  ┌─────────────────┐ ┌─────────────────┐ ┌────────────┐ │\n│  │ Introducing     │ │ Introducing     │ │Introducing │ │\n│  │ Fable 5.1 and   │ │ Opus 5          │ │Sonnet 5    │ │\n│  │ Mythos 5.1      │ │                 │ │            │ │\n│  │                 │ │ Opus 5 is a     │ │Our most    │ │\n│  │ Our most        │ │ step change...  │ │agentic...  │ │\n│  │ advanced models │ │                 │ │            │ │\n│  │ for coding...   │ │                 │ │            │ │\n│  │                 │ │                 │ │            │ │\n│  │ DATE            │ │ DATE            │ │DATE        │ │\n│  │ September 1,2026│ │ July 24, 2026   │ │June 30,2026│ │\n│  │ CATEGORY        │ │ CATEGORY        │ │CATEGORY    │ │\n│  │ Announcements   │ │ Announcements   │ │Announce... │ │\n│  │ DETAILS         │ │ DETAILS         │ │DETAILS     │ │\n│  │ Fable  Mythos   │ │ Opus            │ │Sonnet      │ │\n│  │                 │ │                 │ │            │ │\n│  │[Read announce →]│ │[Read announce →]│ │[Read ann →]│ │\n│  └─────────────────┘ └─────────────────┘ └────────────┘ │\n├──────────────────────────────────────────────────────────┤\n│  At Anthropic, we build                                  │\n│  AI to serve humanity's                                  │\n│  long-term well-being.                                   │\n│                                                          │\n│  Claude Science                        Announcements     │\n│  Core views on AI safety               Announcements     │\n│  Anthropic's Responsible Scaling Policy Alignment Sci... │\n│  Anthropic Academy: Build and Learn... Education         │\n│  Anthropic's Economic Index            Economic Research │\n│  Claude's Constitution                 Announcements     │\n├──────────────────────────────────────────────────────────┤\n│  [A]                                                     │\n│                                                          │\n│  Products          Solutions        Resources   Company  │\n│  Claude            AI agents        Blog        Anthropic│\n│  Claude Chat       API integration  Claude gar...Careers │\n│  Claude Code for..  Coding         Community   Leader... │\n│  Claude Connect    Enterprise      Customers   Policy   │\n│  @Claude           Customer support  Courses    Econom...│\n│  Claude Mobile     Research labs    Customer st...News...│\n│  Claude Science    Financial serv... Engineering at Ant. │\n│  Claude Security   Government       Events      Claude's │\n│  Claude Sonnet     Sales            Forum       News...  │\n│  Claude for Slack  Storytelling     Glossary    Fact-ch. │\n│  Claude for Amazon Higher education Privacy by...Policy..│\n│  Claude app        Life sciences    Using partners       │\n│  Slob              Legal            Tutorials   Respon...│\n│  Haiku app         Newsrooms        Career      Security │\n│  Racing            Nonprofits                   Transpa. │\n│  Try Claude                                              │\n│                                                          │\n│  Models            Claude Platform  Programs            │\n│  Mythos            Overview         Startup             │\n│  Opus              Enterprise       Scaleups            │\n│  Opus              Pricing                               │\n│  Sonnet            Ecosystem        Help and security    │\n│  Haiku             Integrations     Availability         │\n│                    Marketplace      Status               │\n│                    Migrating to..   Support center       │\n│                    Claude on AWS    Support guides       │\n│                    Google Cloud                          │\n│                    Microsoft Foundry                     │\n│                    Console login                         │\n│                                                          │\n│  ©2025 Anthropic                   Terms and policies    │\n│  [X] [LinkedIn] [YouTube]          Privacy policies...   │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: Off-white/cream (warm neutral)\n- Buttons/CTAs: \"Try Claude →\" (solid black, rounded, white text)\n- Typography mood: Clean, modern sans-serif\n- Colors observed: Black text, warm beige background\n\nHERO SECTION:\n- Background: Same off-white/cream as nav\n- Typography mood: Bold, large headlines with underlines on \"research\" and \"products\"\n- Layout: Split layout - headline left, mission statement right\n- Colors observed: Black text on cream\n- Imagery: Text-focused, no images\n\nHERO BANNER (Claude Fable/Mythos):\n- Background: Dreamy gradient photograph of clouds (soft blues, purples, warm peachy tones)\n- Imagery: Ethereal sky/cloud photography with soft, peaceful atmosphere\n- Components: Rounded rectangle card with overlay text\n- Buttons/CTAs: \"Read more →\" (white pill-shaped button with dark text)\n- Typography mood: Elegant serif headline, centered\n- Colors observed: Soft blue, lavender, peach, white text\n\nLATEST RELEASES SECTION:\n- Background: Off-white/cream\n- Components: Three card grid layout with rounded corners, subtle shadows\n- Cards: Light beige/tan background with dark text, uniform height\n- Buttons/CTAs: \"Read announcement →\" (black solid rounded button, white text) on each card\n- Typography mood: Clean hierarchy with bold headlines, structured metadata\n- Colors observed: Beige cards, black text, black buttons\n- Layout: Three equal-width columns\n\nMISSION STATEMENT SECTION:\n- Background: Off-white/cream\n- Layout: Left-aligned headline with right-aligned list of links\n- Typography mood: Bold statement headline, clean link list\n- Colors observed: Black text, muted gray category labels\n- Components: Text links with category tags (Announcements, Education, etc.)\n\nFOOTER:\n- Background: Very dark gray/black\n- Typography mood: Small, organized, hierarchical\n- Layout: Multi-column grid (Products, Solutions, Resources, Company)\n- Buttons/CTAs: None visible in footer proper\n- Colors observed: White/light gray text on dark background\n- Components: Logo mark \"[A]\" in white, social icons (X, LinkedIn, YouTube) at bottom\n- Footer includes extensive link categorization with nested sublists\n\nOVERALL VISUAL THEME:\n- Color palette: Warm neutrals (cream/beige), black, with ethereal photography accent\n- Design style: Minimal, clean, structured, professional\n- Photography style: Dreamy, atmospheric cloud imagery with soft color treatment\n- Button style: Consistently rounded/pill-shaped, solid black or white outline\n- Card treatment: Subtle shadows, rounded corners, cohesive sizing",
+        "insights": [
+          "Extreme vertical rhythm: sections are separated by 10rem (160px) on desktop, creating a slow, deliberate scroll experience that emphasizes breathing room and focus.",
+          "Asymmetric grid usage: Hero uses a 7/5 split, Mission Statement uses 4/8, but Latest Releases uses a strict 3-column equal grid – variety within a 12-column system.",
+          "Typography hierarchy is soft: large display serif headlines (Anthropic Serif) anchor sections, but body text is generous (1.25rem / 20px base, 1.4 line-height) and inviting, never cramped.",
+          "The Feature Banner employs a scroll-driven animation (manatee video fades out, WebGL sky fades in) that transforms the hero as the user scrolls – a sophisticated layering technique for storytelling.",
+          "Color palette is minimal and warm: cream/beige backgrounds, black text, accent orange (#d97757) for CTAs, dark footer – no gradients or heavy color blocking, allowing photography and whitespace to carry visual interest."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The primary dark ink used for all foundational typography, main UI elements, and inverted sections to ground the design.",
+              "when_to_use": [
+                "Body typography, headings, and inline link underlines",
+                "Primary CTA button backgrounds and borders",
+                "Footer and cookie consent banner backgrounds",
+                "Animated Lottie logo paths and mobile menu icons"
+              ]
+            },
+            "hex": "#141413",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#181818",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0002
+          },
+          {
+            "name": "Paper Ivory",
+            "type": "Light",
+            "rules": {
+              "description": "A suite of warm, print-inspired off-whites that serve as the foundational background for the site, creating an editorial, academic feel.",
+              "when_to_use": [
+                "Primary page, mobile menu, and dropdown menu backgrounds",
+                "Primary text and icon color in the dark footer and Fable CTA section",
+                "'Oat' background fills for the release package banners",
+                "Subtle borders separating nav items and dropdown content"
+              ]
+            },
+            "hex": "#FAF9F5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#F0EEE6",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E3DACC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F9F9F7",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E8E6DC",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.6031000000000001
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Stone Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A muted gray used strictly for secondary information and subdued links within dark-themed areas to ensure they don't compete with primary content.",
+              "when_to_use": [
+                "Footer copyright text and secondary links",
+                "Social media icon fills in the footer",
+                "Description text and secondary links in the cookie consent banner"
+              ]
+            },
+            "hex": "#B0AEA5",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#A1A0A0",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.2595
+          },
+          {
+            "name": "True Black",
+            "type": "Dark",
+            "rules": {
+              "description": "A purely structural black used to establish base fallbacks and build layered drop-shadows.",
+              "when_to_use": [
+                "Low-opacity layered box-shadows on navigation dropdowns",
+                "Root HTML tag fallback text color",
+                "Fallback text colors on video source tags"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0012
+          },
+          {
+            "name": "Charcoal",
+            "type": "Neutral",
+            "rules": {
+              "description": "A deep charcoal used to create subtle contrast and visual separation against the primary Ink Black background.",
+              "when_to_use": [
+                "Backgrounds for individual toggle panels within the cookie consent banner",
+                "Divider border on the dark 'Try Claude' combo button"
+              ]
+            },
+            "hex": "#3D3D3A",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0001
+          }
+        ],
+        "insights": [
+          "The palette eschews vibrant brand colors entirely, relying on a stark, high-contrast, editorial combination of warm ivory paper and ink black to project academic seriousness, safety, and transparency.",
+          "Dark mode inversion is used strategically to create visual impact for major product announcements (like Fable and Mythos) and to anchor the footer, without needing to introduce new accent colors.",
+          "Depth and structure are handled with extreme subtlety—using very low opacity blacks for shadows and tinted blacks for borders—to maintain a flat, print-like aesthetic across the interface."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Anthropic Sans",
+              "role": "Display XXL",
+              "specs": {
+                "size": "clamp(3rem, 2.3877551020408165rem + 2.612244897959184vw, 5rem)",
+                "line_height": "1.1",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Display XL",
+              "specs": {
+                "size": "clamp(2.5rem, 2.0408163265306123rem + 1.9591836734693877vw, 4rem)",
+                "line_height": "1.1",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Display L",
+              "specs": {
+                "size": "clamp(2rem, 1.6938775510204083rem + 1.306122448979592vw, 3rem)",
+                "line_height": "1.1",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Display M",
+              "specs": {
+                "size": "clamp(1.75rem, 1.6734693877551021rem + 0.326530612244898vw, 2rem)",
+                "line_height": "1.1",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Serif",
+              "role": "Display M (Serif)",
+              "specs": {
+                "size": "clamp(1.75rem, 1.6734693877551021rem + 0.326530612244898vw, 2rem)",
+                "line_height": "1.1",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Display S",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "1.3",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Display XS",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.3",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "Anthropic Serif",
+              "role": "Paragraph L",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Serif",
+              "role": "Paragraph M",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Serif",
+              "role": "Paragraph S",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Serif",
+              "role": "Paragraph XS",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "Anthropic Sans",
+              "role": "Detail XL",
+              "specs": {
+                "size": "1.25rem",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Detail L",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Detail M",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Detail S",
+              "specs": {
+                "size": ".875rem",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Sans",
+              "role": "Detail XS / Micro",
+              "specs": {
+                "size": ".75rem",
+                "line_height": "1.4",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "System Sans",
+              "role": "Button",
+              "specs": {
+                "size": ".9375rem",
+                "line_height": "1.2",
+                "font_weight": "600",
+                "font_variation_settings": "\"opsz\" 50"
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "inherit",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": [
+            {
+              "name": "Anthropic Mono",
+              "role": "Monospace / Code",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Mono\", Arial, sans-serif",
+                "file_url": ""
+              }
+            },
+            {
+              "name": "Anthropic Mono",
+              "role": "Terminal",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.4",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": ""
+              },
+              "technical": {
+                "font_family_css": "\"Anthropic Mono\", Arial, sans-serif",
+                "file_url": ""
+              }
+            }
+          ]
+        },
+        "highlights": "Links use a distinct underline offset (`0.2em`) and thickness (`0.06em`) for readability, while animated display typography reveals words sequentially using staggered transition-delays on inline spans. Tags and badges employ inverted or subtle backgrounds with tight line-heights to stand out cleanly.",
+        "insights": [
+          "The pairing of custom Anthropic Sans for headings and Anthropic Serif for body copy establishes a strong, editorial aesthetic, reinforcing a thoughtful, research-driven brand voice.",
+          "A meticulously scaled fluid typography system using `clamp()` ensures consistent, proportionate hierarchy across varying viewport sizes, especially for large display text (e.g., Display XXL).",
+          "Utility-first text classes (e.g., `u-display-*`, `u-paragraph-*`, `u-detail-*`) separate visual hierarchy from semantic HTML tags, offering maximum composability without relying on direct tag-based styling."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_radial",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Main page background, light ivory surface",
+            "when_to_use": [
+              "Page backgrounds",
+              "Default surface color"
+            ],
+            "hex": "#FAF9F5"
+          },
+          {
+            "name": "Card Background",
+            "description": "Card surface, pure white background",
+            "when_to_use": [
+              "Card backgrounds",
+              "Elevated content containers"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Secondary Background",
+            "description": "Secondary surface for differentiation",
+            "when_to_use": [
+              "Section backgrounds",
+              "Subtle contrast areas",
+              "Navigation hover states"
+            ],
+            "hex": "#F0EEE6"
+          },
+          {
+            "name": "Tertiary Background",
+            "description": "Tertiary background for additional layering",
+            "when_to_use": [
+              "Nested sections",
+              "Toggle switches",
+              "Hover states"
+            ],
+            "hex": "#E8E6DC"
+          },
+          {
+            "name": "Dark Surface",
+            "description": "Dark surface for high contrast elements",
+            "when_to_use": [
+              "Buttons",
+              "Dark theme sections",
+              "Terminal backgrounds",
+              "Footer"
+            ],
+            "hex": "#141413"
+          },
+          {
+            "name": "Medium Dark Surface",
+            "description": "Medium dark surface for secondary dark elements",
+            "when_to_use": [
+              "Dark theme cards",
+              "Terminal headers",
+              "Hover states on dark buttons"
+            ],
+            "hex": "#3D3D3A"
+          },
+          {
+            "name": "Faded Card Background",
+            "description": "Translucent card background with 10% opacity",
+            "when_to_use": [
+              "Faded cards",
+              "Subtle containers",
+              "Overlay surfaces"
+            ],
+            "hex": "#1414131A"
+          },
+          {
+            "name": "Faded Card Hover",
+            "description": "Faded card hover state with 20% opacity",
+            "when_to_use": [
+              "Card hover states",
+              "Interactive faded elements"
+            ],
+            "hex": "#14141333"
+          },
+          {
+            "name": "Video Thumbnail Background",
+            "description": "Pure black background for video thumbnails",
+            "when_to_use": [
+              "Video player thumbnails",
+              "Media overlays"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Form Success",
+            "description": "Form success message background",
+            "when_to_use": [
+              "Success messages",
+              "Form confirmations"
+            ],
+            "hex": "#F0EEE6"
+          },
+          {
+            "name": "Form Error",
+            "description": "Form error message background",
+            "when_to_use": [
+              "Error messages",
+              "Form validation feedback"
+            ],
+            "hex": "#FFDEDE"
+          },
+          {
+            "name": "Accent Surface - Oat",
+            "description": "Warm accent surface",
+            "when_to_use": [
+              "Package banners",
+              "Accent sections"
+            ],
+            "hex": "#E3DACC"
+          },
+          {
+            "name": "Accent Surface - Olive",
+            "description": "Green accent surface",
+            "when_to_use": [
+              "Themed sections",
+              "Navigation banner"
+            ],
+            "hex": "#788C5D"
+          },
+          {
+            "name": "Accent Surface - Clay",
+            "description": "Coral accent surface for CTAs",
+            "when_to_use": [
+              "Primary CTAs",
+              "Highlight buttons",
+              "Active states"
+            ],
+            "hex": "#D97757"
+          },
+          {
+            "name": "Accent Surface - Cactus",
+            "description": "Teal accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#BCD1CA"
+          },
+          {
+            "name": "Accent Surface - Sky",
+            "description": "Blue accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#6A9BCC"
+          },
+          {
+            "name": "Accent Surface - Heather",
+            "description": "Purple accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#CBCADB"
+          },
+          {
+            "name": "Accent Surface - Fig",
+            "description": "Pink accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#C46686"
+          },
+          {
+            "name": "Accent Surface - Coral",
+            "description": "Light coral accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#EBCECE"
+          },
+          {
+            "name": "Accent Surface - Manilla",
+            "description": "Warm beige accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#EBDBBC"
+          },
+          {
+            "name": "Accent Surface - Kraft",
+            "description": "Tan accent surface",
+            "when_to_use": [
+              "Accent sections",
+              "Themed containers"
+            ],
+            "hex": "#D4A27F"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Orbit Center Gradient",
+            "description": "Radial gradient from transparent center to page background, creating orbit effect",
+            "when_to_use": [
+              "Orbit logo sections",
+              "Centered focal elements",
+              "Decorative radial effects"
+            ],
+            "css_code": "radial-gradient(circle farthest-side at 50% 50%, transparent 50%, #faf9f5)"
+          },
+          {
+            "name": "Orbit Linear Gradient",
+            "description": "Top to bottom gradient with solid ends and transparent middle",
+            "when_to_use": [
+              "Orbit sections with linear fade",
+              "Vertical masking effects"
+            ],
+            "css_code": "linear-gradient(180deg, #faf9f5, transparent 30%, transparent 70%, #faf9f5)"
+          },
+          {
+            "name": "Horizontal Scroll Mask",
+            "description": "Horizontal gradient mask for scroll areas, fading at edges",
+            "when_to_use": [
+              "Horizontal scrolling containers",
+              "Carousel edge fades"
+            ],
+            "css_code": "linear-gradient(90deg, #0000 0%, #000 8% 92%, #0000 100%)"
+          }
+        ],
+        "highlights": [
+          "Soft shadows on dropdown menus and elevated surfaces: box-shadow: 0 2px 2px rgba(0,0,0,0.03), 0 4px 4px rgba(0,0,0,0.05), 0 16px 24px rgba(0,0,0,0.1)",
+          "Radial gradient spotlight effect on orbit sections creating depth",
+          "Linear gradient mask on horizontal scroll containers for fade-in/fade-out edges",
+          "Dialog backdrop with color-mix overlay: background: color-mix(in srgb, #141413 80%, transparent)",
+          "Canvas-based animated 'Fable sky' gradient background (WebGL2) for hero CTA sections",
+          "Translucent faded card surfaces with opacity variations for depth layering"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Floating Element",
+              "type": "drop",
+              "description": "Multi-layer shadow with subtle opacity (3%, 5%, 10%) providing floating elevation for cards, dropdowns, and modals. Blur values: 2px, 4px, 24px.",
+              "css_value": "0 2px 2px #00000003,0 4px 4px #00000005,0 16px 24px #0000000a",
+              "when_to_use": [
+                "Cards on hover",
+                "Dropdown menus",
+                "Tooltips",
+                "Form inputs with Claude styling",
+                "Calendar dropdowns"
+              ]
+            },
+            {
+              "name": "Raised Element",
+              "type": "drop",
+              "description": "Heavier multi-layer shadow with 6 levels of increasing blur (3px to 120px) and opacity (5% to ~7%) for highly elevated elements like terminal windows. Creates deep depth.",
+              "css_value": "0 4px 3px #00000005,0 10px 8px #00000008,0 19px 15px #0000000a,0 34px 27px #0000000a,0 63px 50px #0000000d,0 150px 120px #00000012",
+              "when_to_use": [
+                "Terminal/code windows",
+                "Highly elevated components",
+                "Featured content blocks"
+              ]
+            },
+            {
+              "name": "Model Family Card",
+              "type": "drop",
+              "description": "Simple soft shadow for model family cards with 10% black opacity and 6px blur.",
+              "css_value": "0 1px 6px #0000001a",
+              "when_to_use": [
+                "Model family cards",
+                "Product cards"
+              ]
+            },
+            {
+              "name": "Button Primary",
+              "type": "drop",
+              "description": "Multi-layer button shadow with outer shadows and inset highlights for 3D button effect. Includes inset white highlights at 12% and 20% opacity.",
+              "css_value": "0 4px 4px #08080814,0 1px 2px #08080833,inset 0 6px 12px #ffffff1f,inset 0 1px 1px #fff3",
+              "when_to_use": [
+                "Primary action buttons",
+                "CTA buttons"
+              ]
+            },
+            {
+              "name": "Button Hover",
+              "type": "drop",
+              "description": "Reduced outer shadow on hover with retained inset highlights for pressed button appearance.",
+              "css_value": "0 1px 1px #08080814,0 1px 1px #08080833,inset 0 6px 12px #ffffff1f,inset 0 1px 1px #fff3",
+              "when_to_use": [
+                "Button hover states"
+              ]
+            },
+            {
+              "name": "Webflow Badge",
+              "type": "drop",
+              "description": "Subtle badge shadow with 10% black opacity border simulation and soft drop shadow.",
+              "css_value": "0 0 0 1px #0000001a,0 1px 3px #0000001a",
+              "when_to_use": [
+                "Badges",
+                "System UI elements"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#1414131A",
+            "width": "0.0625rem",
+            "style": "solid"
+          },
+          {
+            "hex": "#F0EEE6",
+            "width": "0.0625rem",
+            "style": "solid"
+          },
+          {
+            "hex": "#141413",
+            "width": "0.0625rem",
+            "style": "solid"
+          },
+          {
+            "hex": "#B0AEA5",
+            "width": "0.0625rem",
+            "style": "solid"
+          },
+          {
+            "hex": "#14141333",
+            "width": "0.0625rem",
+            "style": "solid"
+          },
+          {
+            "hex": "#FAF9F51A",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "video_background",
+          "hover_transform",
+          "hover_lift"
+        ],
+        "animations": [
+          {
+            "name": "marquee",
+            "css": "@keyframes marquee { 0% { transform: translateX(0%); } 100% { transform: translateX(-100%); } }",
+            "description": "Continuous horizontal scroll animation for logo marquee strips, 48s duration, linear timing, infinite loop."
+          },
+          {
+            "name": "menuOpen",
+            "css": "@keyframes menuOpen { from { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); } to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } }",
+            "description": "Mobile menu reveal animation using clip-path to wipe down from top, 400ms ease-in-out."
+          },
+          {
+            "name": "menuClose",
+            "css": "@keyframes menuClose { from { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } to { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); } }",
+            "description": "Mobile menu close animation, reverses the menuOpen clip-path wipe, 400ms ease-in-out."
+          },
+          {
+            "name": "fadein",
+            "css": "@keyframes fadein { 0% { opacity: 0; } 100% { opacity: 1; } }",
+            "description": "Simple fade-in animation for modal dialogs, 400ms ease-out."
+          },
+          {
+            "name": "word-animation",
+            "css": "transition: opacity 800ms cubic-bezier(0.16, 1, 0.3, 1), transform 800ms cubic-bezier(0.16, 1, 0.3, 1)",
+            "description": "Staggered word reveal animation for hero headlines. Each word translates up from 24px with fade-in using exponential ease-out curve."
+          },
+          {
+            "name": "rotating-text",
+            "css": "transition: opacity 500ms cubic-bezier(0.16, 1, 0.3, 1), transform 500ms cubic-bezier(0.16, 1, 0.3, 1)",
+            "description": "Word rotation animation for cycling through text options with vertical slide and fade transitions."
+          },
+          {
+            "name": "dropdown-reveal",
+            "css": "transition: opacity 400ms cubic-bezier(.77,0,.175,1)",
+            "description": "Navigation dropdown fade-in with custom ease curve for smooth reveal of menu content."
+          },
+          {
+            "name": "button-hover",
+            "css": "transition: border-color .2s, color .2s, background-color .2s",
+            "description": "Standard button hover transition for color properties, 200ms ease timing."
+          },
+          {
+            "name": "link-hover",
+            "css": "transition-property: color; transition-duration: .2s; transition-timing-function: ease",
+            "description": "Global link color transition on hover, 200ms ease."
+          },
+          {
+            "name": "image-scale-hover",
+            "css": "transition: transform 0.2s ease",
+            "description": "Card image zoom effect on hover, scales to 1.05 with 200ms ease transition."
+          },
+          {
+            "name": "consent-dialog-reveal",
+            "css": "transition: opacity 0.3s ease-out, transform 0.3s ease-out",
+            "description": "Cookie consent dialog entrance animation, fades in and translates up from 16px offset."
+          },
+          {
+            "name": "fable-sky-canvas-fade",
+            "css": "transition: opacity 0.6s cubic-bezier(0.22, 0.61, 0.36, 1)",
+            "description": "WebGL canvas fade-in for the Fable hero sky background effect."
+          },
+          {
+            "name": "fable-manatee-video-fade",
+            "css": "transition: opacity 0.8s cubic-bezier(0.22, 0.61, 0.36, 1)",
+            "description": "Video background fade-out to reveal underlying sky canvas animation."
+          },
+          {
+            "name": "spin",
+            "css": "@keyframes spin { 0% { transform: rotate(0); } to { transform: rotate(360deg); } }",
+            "description": "Loading spinner rotation animation, continuous 360deg loop."
+          },
+          {
+            "name": "slider-opacity",
+            "css": "transition: opacity 0.2s ease",
+            "description": "Slider inactive slide fade effect, non-active slides show at 0.3 opacity."
+          },
+          {
+            "name": "hamburger-line-animation",
+            "css": "",
+            "description": "JS-driven hamburger menu icon animation. Lines translate and rotate to form X on open state."
+          }
+        ],
+        "insights": [
+          "The design system employs a sophisticated warm neutral palette (ivory/cream backgrounds, ink black text) that creates an academic, editorial aesthetic while maintaining excellent contrast ratios.",
+          "Animation design follows a consistent exponential ease-out curve (cubic-bezier 0.16, 1, 0.3, 1) for entrance animations, creating a snappy but elegant motion language that respects reduced-motion preferences.",
+          "Button hierarchy is established through color rather than size variations: accent coral for primary CTAs, solid dark for standard actions, and transparent/outlined for tertiary options, maintaining visual consistency across contexts."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Try Claude (Primary Nav CTA)",
+            "usage": "Primary call-to-action in the navigation bar to direct users to try the Claude product. Appears as part of a combo button with dropdown.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Anthropic Sans",
+                  "size": "1rem",
+                  "padding": "0.5rem 1rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#C6613F",
+                "text_color": "#FAF9F5",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#D97757",
+                "text_color": "#FAF9F5",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Log in to Claude (Primary)",
+            "usage": "Secondary navigation button allowing users to log in. Appears alongside the Try Claude button.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Anthropic Sans",
+                  "size": "1rem",
+                  "padding": "0.5rem 1rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#C6613F",
+                "text_color": "#FAF9F5",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#D97757",
+                "text_color": "#FAF9F5",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Download app (Tertiary Outline)",
+            "usage": "Tertiary button in navigation for app download action. Uses transparent background with subtle border.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Anthropic Sans",
+                  "size": "1rem",
+                  "padding": "0.5rem 1rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#141413",
+                "border_color": "#1414131a",
+                "border_width": "0.0625rem",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#141413",
+                "border_color": "#141413",
+                "border_width": "0.0625rem",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Read more (Primary Dark)",
+            "usage": "Primary CTA button used in hero banners and card sections. Solid dark background with light text and optional arrow icon.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Anthropic Sans",
+                  "size": "0.9375rem",
+                  "padding": "0.5rem 1rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#141413",
+                "text_color": "#FAF9F5",
+                "border_color": "#141413",
+                "border_width": "0.0625rem",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#3D3D3A",
+                "text_color": "#FAF9F5",
+                "border_color": "#3D3D3A",
+                "border_width": "0.0625rem",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Read announcement (Primary Dark)",
+            "usage": "CTA button used in release announcement cards. Directs users to read full announcement articles.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Anthropic Sans",
+                  "size": "0.9375rem",
+                  "padding": "0.5rem 1rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#141413",
+                "text_color": "#FAF9F5",
+                "border_color": "#141413",
+                "border_width": "0.0625rem",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#3D3D3A",
+                "text_color": "#FAF9F5",
+                "border_color": "#3D3D3A",
+                "border_width": "0.0625rem",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Accept all cookies (Accent)",
+            "usage": "Primary action in cookie consent dialog. Uses the brand accent color to draw attention to the accept action.",
+            "specs": {
+              "radius": "rounded-xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "inherit",
+                  "size": "inherit",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#D97757",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#D97757",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Reject all cookies (Ghost Dark)",
+            "usage": "Secondary action in cookie consent dialog. Transparent with subtle border for de-emphasized action.",
+            "specs": {
+              "radius": "rounded-xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "inherit",
+                  "size": "inherit",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "#87867F",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "#87867F",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Customize cookie settings (Ghost Dark)",
+            "usage": "Tertiary action in cookie consent dialog. Opens detailed cookie preferences panel.",
+            "specs": {
+              "radius": "rounded-xl",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "inherit",
+                  "size": "inherit",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "#87867F",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "#87867F",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are grouped with flex layout and consistent gap spacing",
+          "spacing": "1rem"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "4.25rem",
+          "position": "relative",
+          "background": {
+            "hex": "#F0EEE6",
+            "color_reference": "Baseline/Paper Ivory",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Release Announcement Card",
+            "description": "Card component displaying product release information with title, description, metadata (date, category, details), and CTA button. Uses warm oat/beige background.",
+            "when_to_use": [
+              "Announcing new product releases or updates",
+              "Displaying time-sensitive news on homepage",
+              "Showcasing multiple releases in a grid layout"
+            ]
+          },
+          {
+            "name": "Article List Item",
+            "description": "Horizontal list item displaying article title with category tag on the right. Clickable entire row with subtle hover state.",
+            "when_to_use": [
+              "Listing recent articles or announcements",
+              "Displaying categorized content links",
+              "Secondary content navigation below featured items"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "List Item Divider",
+            "description": "Subtle horizontal divider between list items in article sections",
+            "when_to_use": [
+              "Separating items in article lists",
+              "Creating visual hierarchy in stacked content"
+            ],
+            "color": "#1414131a",
+            "height": "0.0625rem",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Functional UI Icons",
+          "description": "Minimalist, functional UI icons used throughout the navigation and interactive elements of the site.",
+          "when_to_use": [
+            "Navigation menus",
+            "Buttons",
+            "External links"
+          ],
+          "format": "SVG",
+          "style": "Solid / Monoline",
+          "sizes": {
+            "small": "12px - 13px",
+            "medium": "24px - 30px"
+          },
+          "examples": [
+            {
+              "name": "Navigation Chevron",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 12 24\" fill=\"none\" aria-preserveaspectratio=\"xMidYMid meet\" aria-hidden=\"true\" role=\"img\"> <path d=\"M10.0477 9.21908C10.2289 9.01803 10.5399 9.00187 10.7412 9.18268C10.9424 9.36385 10.9587 9.67486 10.7776 9.87617L6.36391 14.7803L6.28729 14.8493C6.20426 14.9095 6.10327 14.9422 5.99898 14.9422C5.86007 14.9422 5.72699 14.8836 5.63405 14.7803L1.22035 9.87617L1.16192 9.79571C1.04669 9.59907 1.08075 9.34113 1.25675 9.18268C1.43286 9.02424 1.69301 9.01759 1.87647 9.15299L1.95022 9.21908L5.99898 13.7181L10.0477 9.21908Z\" fill=\"currentColor\"></path> </svg>"
+            },
+            {
+              "name": "External Link",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 12 13\" fill=\"none\" class=\"nav_linkout_icon\"><path d=\"M5.60002 0.899994C5.82094 0.899994 6.00002 1.07908 6.00002 1.29999C6.00002 1.52091 5.82094 1.69999 5.60002 1.69999H1.60002C1.37911 1.69999 1.20002 1.87908 1.20002 2.09999V10.9C1.20002 11.1209 1.37911 11.3 1.60002 11.3H10.4C10.6209 11.3 10.8 11.1209 10.8 10.9V6.89999C10.8 6.67908 10.9791 6.49999 11.2 6.49999C11.4209 6.49999 11.6 6.67908 11.6 6.89999V10.9C11.6 11.5627 11.0628 12.1 10.4 12.1H1.60002C0.937283 12.1 0.400024 11.5627 0.400024 10.9V2.09999C0.400024 1.43725 0.937283 0.899994 1.60002 0.899994H5.60002ZM11.2 0.899994C11.2299 0.899994 11.2598 0.903486 11.2891 0.91015C11.3078 0.91442 11.3259 0.920467 11.3438 0.927338C11.3496 0.9296 11.3552 0.932601 11.361 0.93515C11.3771 0.942258 11.3927 0.950169 11.4078 0.959369C11.414 0.963129 11.4206 0.966183 11.4266 0.970306C11.4466 0.984054 11.4654 0.999763 11.4828 1.01718L11.5344 1.07968C11.5431 1.09292 11.5485 1.1079 11.5555 1.12187C11.56 1.13085 11.5657 1.13915 11.5696 1.14843C11.5832 1.18169 11.5911 1.21637 11.5953 1.25156C11.5973 1.26761 11.6 1.28365 11.6 1.29999V4.49999C11.6 4.72091 11.4209 4.89999 11.2 4.89999C10.9791 4.89999 10.8 4.72091 10.8 4.49999V2.26562L7.48284 5.58281C7.32663 5.73902 7.07342 5.73902 6.91721 5.58281C6.761 5.4266 6.761 5.17339 6.91721 5.01718L10.2344 1.69999H8.00003C7.77911 1.69999 7.60003 1.52091 7.60003 1.29999C7.60003 1.07908 7.77911 0.899994 8.00003 0.899994H11.2Z\" fill=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Wide Nav Chevron",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" viewBox=\"0 0 47 24\" fill=\"none\" aria-hidden=\"true\" class=\"nav_links_svg\"><path d=\"M1 1L23.5 23L46 1\" stroke=\"currentColor\" vector-effect=\"non-scaling-stroke\" stroke-width=\"currentColor\"></path></svg>"
+            },
+            {
+              "name": "Arrow Right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" viewBox=\"0 0 30 30\" fill=\"none\" class=\"g_svg\"><path d=\"M25.9758 15.6633L17.5383 24.1008C17.3624 24.2767 17.1238 24.3755 16.875 24.3755C16.6262 24.3755 16.3876 24.2767 16.2117 24.1008C16.0358 23.9248 15.937 23.6863 15.937 23.4375C15.937 23.1887 16.0358 22.9501 16.2117 22.7742L23.0496 15.9375H4.6875C4.43886 15.9375 4.2004 15.8387 4.02459 15.6629C3.84877 15.4871 3.75 15.2486 3.75 15C3.75 14.7513 3.84877 14.5129 4.02459 14.3371C4.2004 14.1612 4.43886 14.0625 4.6875 14.0625H23.0496L16.2117 7.22575C16.0358 7.04984 15.937 6.81125 15.937 6.56247C15.937 6.31369 16.0358 6.0751 16.2117 5.89919C16.3876 5.72328 16.6262 5.62445 16.875 5.62445C17.1238 5.62445 17.3624 5.72328 17.5383 5.89919L25.9758 14.3367C26.0629 14.4238 26.1321 14.5272 26.1793 14.641C26.2265 14.7548 26.2507 14.8768 26.2507 15C26.2507 15.1232 26.2265 15.2452 26.1793 15.359C26.1321 15.4728 26.0629 15.5762 25.9758 15.6633Z\" fill=\"currentColor\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/logos/favicon-2.png",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/logos/favicon-2.png",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/681d52619fec35886a7f1a70_favicon.png",
+            "description": "Anthropic Favicon (32x32)"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/logos/favicon.png",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/logos/favicon.png",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/67d31dd7aa394792257596c5_webclip.png",
+            "description": "Anthropic Apple Touch Icon (Webclip)"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/open-graph-image.jpg",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/open-graph-image.jpg",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/68309ab48369f7ad9b4a40e1_open-graph.jpg",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "Fable Manatee Background Video (MOV)",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/video/fable-manatee-background-video-mov.mov",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/video/fable-manatee-background-video-mov.mov",
+            "origin_url": "https://cdn.sanity.io/files/4zrzovbb/website/2471bf20827901f94b1739010670e94ad4200e87.mov",
+            "usage_context": "Background video for the Fable 5.1 and Mythos 5.1 feature section."
+          },
+          {
+            "name": "Fable Manatee Background Video (WebM)",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/video/fable-manatee-background-video-webm.webm",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/video/fable-manatee-background-video-webm.webm",
+            "origin_url": "https://cdn.sanity.io/files/4zrzovbb/website/c366490be9cec9f759551733810da19103c0be33.webm",
+            "usage_context": "Background video for the Fable 5.1 and Mythos 5.1 feature section."
+          },
+          {
+            "name": "Select Field Dropdown Arrow",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/select-field-dropdown-arrow.svg",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/select-field-dropdown-arrow.svg",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/67f0a72738c0c95d6dfc7845_dropdown.svg",
+            "usage_context": "CSS background-image for form select dropdown elements."
+          },
+          {
+            "name": "Decorative Dots Pattern",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/decorative-dots-pattern.svg",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/decorative-dots-pattern.svg",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/67ce28d0ec624e2b733f8ad0_dots.svg",
+            "usage_context": "Decorative background pattern used in layouts."
+          },
+          {
+            "name": "Fable Marmot Background Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/fable-marmot-background-image.avif",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/fable-marmot-background-image.avif",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6a21d6a1ead92f4d43a1aff7_fable-marmot_bg.avif",
+            "usage_context": "Background image for Fable content block."
+          },
+          {
+            "name": "S5 Hero Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/s5-hero-background.webp",
+            "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/site-assets/media/image/s5-hero-background.webp",
+            "origin_url": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/6a3bec86ab1f707eeea80cf5_s5-hero-bg.webp",
+            "usage_context": "Background image for hero section."
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal, full-width, sticky header",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Anthropic wordmark logo, black on cream background"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal nav links: Research, Policy, Commitments (dropdown), Learn (dropdown), News"
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA 'Try Claude' – solid black, rounded, white text with dropdown arrow for model selection"
+            },
+            {
+              "type": "button",
+              "description": "Secondary buttons 'Log in to Claude' (solid accent orange) and 'Download app' (outlined)"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Split layout (7 columns / 5 columns), left-aligned headline with right-aligned mission text",
+          "headline": "AI research and products that put safety at the frontier",
+          "subheadline": "AI will have a vast impact on the world. Anthropic is a public benefit corporation...",
+          "components": [
+            {
+              "type": "text",
+              "description": "Large serif headline with underlined links on 'research' and 'products'"
+            },
+            {
+              "type": "text",
+              "description": "Body paragraph on right, warm cream background"
+            }
+          ]
+        },
+        {
+          "type": "Feature / CTA Banner",
+          "layout_pattern": "Centered, full-bleed card with scroll-driven animated background",
+          "headline": "Claude Fable 5.1 and Mythos 5.1",
+          "subheadline": "The world's most advanced models for coding and knowledge work.",
+          "components": [
+            {
+              "type": "video",
+              "description": "Background video of ethereal clouds/sky – soft blues, purples, peach tones – fades out on scroll to reveal canvas animation"
+            },
+            {
+              "type": "canvas",
+              "description": "WebGL2 animated sky gradient (custom Fable sky effect) – dreamy, gradient background"
+            },
+            {
+              "type": "card",
+              "description": "Centered white text overlay on video/canvas background, rounded corners"
+            },
+            {
+              "type": "button",
+              "description": "'Read more' link – white pill-shaped button with arrow icon"
+            }
+          ]
+        },
+        {
+          "type": "Latest Releases / News Grid",
+          "layout_pattern": "Grid 3-column, equal-width cards",
+          "headline": "Latest releases",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Three cards: 'Introducing Fable 5.1 and Mythos 5.1', 'Introducing Opus 5', 'Introducing Sonnet 5' – light beige background, rounded corners, subtle shadow"
+            },
+            {
+              "type": "card",
+              "description": "Each card contains: headline (Display-S), snippet (Paragraph-S), metadata list (Date, Category, Details), and a 'Read announcement' button (black, rounded, white text)"
+            },
+            {
+              "type": "button",
+              "description": "'Read announcement' – solid black rounded button with right arrow icon"
+            }
+          ]
+        },
+        {
+          "type": "Mission Statement / Link List",
+          "layout_pattern": "Split (4 columns / 8 columns), left headline, right link list",
+          "headline": "At Anthropic, we build AI to serve humanity's long-term well-being.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "text",
+              "description": "Bold mission statement on left (4 columns)"
+            },
+            {
+              "type": "card",
+              "description": "Right side (8 columns): structured list of article links, each with title and category tag (gray)"
+            },
+            {
+              "type": "text",
+              "description": "Six items: 'Claude Science', 'Core views on AI safety', 'Anthropic's Responsible Scaling Policy', 'Anthropic Academy', 'Anthropic's Economic Index', 'Claude's Constitution' – each with category label (Announcements, Alignment Science, Education, Economic Research)"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid (5 major columns: Products, Solutions, Claude Platform, Resources/Programs/Help, Company/Terms), dark background",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Anthropic '[A]' monogram in white, top-left of footer"
+            },
+            {
+              "type": "navigation",
+              "description": "Five vertical link columns organized by category headings"
+            },
+            {
+              "type": "text",
+              "description": "Column headings: 'Products', 'Models', 'Solutions', 'Claude Platform', 'Resources', 'Programs', 'Help and security', 'Company', 'Terms and policies' – small, uppercase, gray"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons at bottom: X (Twitter), LinkedIn, YouTube – white outlines on dark background"
+            },
+            {
+              "type": "text",
+              "description": "Copyright text '© 2026 Anthropic PBC' in light gray"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

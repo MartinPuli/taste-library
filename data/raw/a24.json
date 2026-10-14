@@ -1,0 +1,1876 @@
+{
+  "company": "A24",
+  "rank": 4,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://a24films.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T05:02:20.148522Z",
+  "completed_at": "2026-10-14T05:05:03.673018Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "A24",
+        "tagline": null,
+        "source_url": "https://a24films.com/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Entertainment / Film & Television Production",
+        "primary_purpose": "Showcase upcoming films, promote merchandise, and drive engagement with the A24 brand through content discovery and newsletter signup",
+        "main_cta": "Shop Now",
+        "copy_tone": [
+          "Minimalist",
+          "Cultural",
+          "Understated"
+        ],
+        "brand_signature": "A stark black-and-white visual identity with generous whitespace, employing NB International typeface in clean, editorial layouts. Large cinematic imagery dominates the page while typography remains restrained and functional, creating a gallery-like experience that elevates film content as art.",
+        "visual_language": {
+          "keywords": [
+            "editorial",
+            "cinematic",
+            "gallery-like",
+            "monochromatic",
+            "refined",
+            "stark"
+          ],
+          "accent_strategy": "Pure black text and UI elements on white backgrounds create maximum contrast; no color accents—visual interest derived entirely from photographic content and film stills.",
+          "highlights": "Full-bleed cinematic imagery serves as the primary highlight mechanism, with film titles rendered in bold, oversized typography to create visual hierarchy."
+        },
+        "strategy": {
+          "target_audience": [
+            "Film enthusiasts and cinephiles who value auteur-driven, independent cinema and seek culturally significant content",
+            "Urban, design-conscious millennials and Gen Z consumers who engage with A24 as a lifestyle brand through merchandise and membership",
+            "Cultural tastemakers and media-savvy individuals who follow entertainment through podcasts, social media, and curated content experiences"
+          ],
+          "executive_synthesis": "A24's visual strategy deliberately positions the studio as a cultural institution rather than a traditional film distributor. The editorial, gallery-like presentation elevates each film and product to art-object status, reinforcing the brand's reputation for prestige and taste. The monochromatic palette and refined typography create instant brand recognition while the homepage's blend of films, merchandise, and podcasts establishes A24 as a lifestyle ecosystem. The minimalist approach trusts the cinematic imagery to communicate quality, appealing to an audience that identifies with understated sophistication and cultural credibility."
+        },
+        "style_classification": {
+          "primary_style": "Swiss Style / International Typographic Style",
+          "confidence": "High",
+          "category_style": "Historical Movement",
+          "reasoning": "The visual impression from the screenshot reveals a strikingly disciplined, typography-driven editorial design with cinematic gravitas. The page uses a strictly monochromatic palette (pure black #000000 and white #FFFFFF with functional grays) that creates a gallery-like or \"white cube\" aesthetic where colorful film photography becomes the only chromatic accent—consistent with Swiss Style's principle of letting content speak through neutral design. The typography profile confirms exclusive use of NB International Web, a geometric neo-grotesque sans-serif in the lineage of Helvetica/Akzidenz-Grotesk, the hallmark typefaces of Swiss Style. The layout exhibits the defining characteristics: a strict 12-column grid system, generous whitespace (24px-54px between sections), consistent left-aligned text, and mathematical precision in the alternating rhythm between full-bleed imagery and contained product cards. The card-based modular system with 50/50 split layouts and minimal 0.5px borders demonstrates the \"objective communication through mathematical clarity\" principle. The texture profile shows flat, clean surfaces with no decorative elements—only functional linear gradients for UI states. This is textbook International Typographic Style: photography over illustration, readability, objectivity, and neutrality achieved through systematic grid structures and modernist typography.",
+          "secondary_style": "Elegant",
+          "reasoning_secondary": "While the Swiss Style provides the structural foundation, the design carries a distinct Elegant tonal modifier through its refined execution. The cinematic full-bleed photography with dramatic lighting (warm amber tones in \"Onslaught,\" motion blur effects), the theatrical black backgrounds evoking \"cinema in the dark,\" and the restrained use of the monospace variant (NB International Mono) for temporal metadata all contribute to a sense of curated sophistication. The design feels like a high-end film house or art gallery rather than a generic corporate application of Swiss principles. The generous breathing room, the understated arrow links (→), and the overall editorial pacing create a quality-focused, refined experience that elevates the Swiss foundation into luxurious territory without becoming overtly opulent."
+        }
+      },
+      "layout": {
+        "classification": [
+          "card_based",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "12px",
+          "max_width": "1600px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 640px (1 Column, 18px gutter)",
+          "tablet": "641px - 1023px (8 Columns, 24px gutter)",
+          "desktop": "1024px - 1299px (12 Columns, 24px gutter)",
+          "large": "1300px+ (12 Columns, 42px gutter)"
+        },
+        "section_separation": "Alternating full-width photographic hero sections with white product/content card sections. Film features use full-bleed imagery with text overlays, while product/content sections have clean white backgrounds. Minimal use of borders (0.5px black when present). Generous vertical whitespace (24px-54px) between sections.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│ [LOGO/MENU ICON]    [LOGIN FORM/OVERLAY]         [X]     │\n│                                                          │\n│           PRIMETIME                                      │\n│           Misty Green                                    │\n│           You Can See Everything                         │\n│                                                          │\n│           The Debut                                      │\n│                                                          │\n│  [HERO IMAGE: Person with glasses, outdoor setting]     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌───────────────────┐                                   │\n│  │                   │  Primetime                        │\n│  │  [VINYL RECORD    │  Original                         │\n│  │   WITH BLUE       │  Motion Picture                   │\n│  │   COVER ART]      │  Soundtrack                       │\n│  │                   │                                   │\n│  └───────────────────┘  [→] Letterboxd                   │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  Big weird                ┌──────────────────┐           │\n│  Swings with              │                  │           │\n│  Tim & Eric               │  [TWO B&W        │           │\n│  Giacinto &               │   PORTRAITS]     │           │\n│  Austin                   │                  │           │\n│  Beedeion                 │                  │           │\n│                           └──────────────────┘           │\n│  [→] Letterboxd                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌────────────────────┐                                  │\n│  │                    │  The                             │\n│  │  [BOOK COVER:      │  Encyclopedia                    │\n│  │   WAKE CATS        │  of Movie Cats                   │\n│  │   with cat         │                                  │\n│  │   illustration]    │                                  │\n│  │                    │  [→] Letterboxd                  │\n│  └────────────────────┘                                  │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│                                                          │\n│     [PHOTO: Close-up of person wearing glasses with      │\n│              reflections in lenses]                      │\n│                                                          │\n│     Onslaught                                            │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌────────────────┐  AAA24                               │\n│  │  [STYLIZED     │  Membership                          │\n│  │   LOGO/TEXT]   │                                      │\n│  │                │                                      │\n│  └────────────────┘  [→] Letterboxd                      │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  First to Laugh         ┌──────────────────┐             │\n│  with Matt              │                  │             │\n│  Johnson &              │  [TWO B&W        │             │\n│  Shamos                 │   PORTRAITS]     │             │\n│  Bullock                │                  │             │\n│                         └──────────────────┘             │\n│  [→] Letterboxd                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌──────────────────┐                                    │\n│  │                  │  The Invite Blu-                   │\n│  │  [BLU-RAY/DVD    │  ray                               │\n│  │   COVER ART]     │                                    │\n│  │                  │                                    │\n│  └──────────────────┘  [→] Letterboxd                    │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│                                                          │\n│     [PHOTO: Person in motion, dramatic lighting]         │\n│                                                          │\n│     Testy                                                │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌─────────────────┐  Genuine                            │\n│  │                 │  Curiosity with                     │\n│  │  [TWO B&W       │  Devonte                            │\n│  │   PORTRAITS]    │  Hynes &                            │\n│  │                 │  Tony the                           │\n│  └─────────────────┘  Bangalter                          │\n│                                                          │\n│                      [→] Letterboxd                      │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  Primetime               ┌────────────────┐              │\n│  Necktie                 │                │              │\n│                          │  [NAVY/BLACK   │              │\n│                          │   NECKTIE]     │              │\n│                          │                │              │\n│  [→] Letterboxd          │                │              │\n│                          └────────────────┘              │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌─────────────────┐  Black Logo                         │\n│  │                 │  Outline                            │\n│  │  [BLACK         │  Crewneck                           │\n│  │   SWEATSHIRT]   │                                     │\n│  │                 │                                     │\n│  └─────────────────┘  [→] Letterboxd                     │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│     [PHOTO: Three people in indoor setting]              │\n│                                                          │\n│     The Invite                                           │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌──────────────────┐                                    │\n│  │  SING SING        │  Sing Sing                        │\n│  │                   │  Screenplay                       │\n│  │  [ORANGE BOOK     │  Book                             │\n│  │   COVER]          │                                   │\n│  │  BY               │                                   │\n│  │  GREG KWEDAR      │  [→] Letterboxd                   │\n│  └──────────────────┘                                    │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nTOP LOGIN/OVERLAY:\n- Background: Dark semi-transparent overlay over page content\n- Components: Login form with email/password fields, close button (X)\n- Buttons/CTAs: Visible close icon [X] in top right\n- Colors observed: Dark overlay, white text\n- Typography mood: Clean, minimal\n\nHERO SECTION (Primetime Misty Green):\n- Background: Photographic background with person outdoors\n- Imagery: Candid photo, natural lighting, person with glasses\n- Colors observed: Natural tones, muted colors\n- Typography mood: Bold white text overlay, modern sans-serif\n- Text: \"Primetime / Misty Green / You Can See Everything / The Debut\"\n\nVINYL RECORD SECTION:\n- Background: White/light gray\n- Imagery: Product photo of vinyl record with blue holographic cover art showing \"PRIMETIME\" text\n- Components: Split layout - image left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Blue, black (vinyl), white background\n- Typography mood: Clean, modern sans-serif\n\nBIG WEIRD SWINGS SECTION:\n- Background: White\n- Imagery: Two black & white portrait photographs side by side\n- Components: Split layout - text left, portraits right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Black and white photography\n- Typography mood: Bold black text, playful/quirky\n\nENCYCLOPEDIA OF MOVIE CATS:\n- Background: White\n- Imagery: Book cover illustration with retro design, cat artwork\n- Components: Split layout - book cover left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Muted vintage tones, cream/beige\n- Typography mood: Classic, clean\n\nONSLAUGHT PHOTO SECTION:\n- Background: Full-width photographic background\n- Imagery: Cinematic close-up, person wearing glasses with reflections, warm/golden tones\n- Colors observed: Warm amber, brown, yellow tones\n- Typography mood: White text overlay, minimal\n\nAAA24 MEMBERSHIP:\n- Background: White\n- Imagery: Stylized graphic logo/text design in grayscale\n- Components: Split layout - graphic left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Gray, white\n- Typography mood: Modern, bold\n\nFIRST TO LAUGH SECTION:\n- Background: White\n- Imagery: Two black & white portrait photographs\n- Components: Split layout - text left, portraits right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Black and white photography\n- Typography mood: Clean sans-serif\n\nTHE INVITE BLU-RAY:\n- Background: White\n- Imagery: Product photo of Blu-ray/DVD cover with movie artwork\n- Components: Split layout - product left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Multi-colored cover art\n- Typography mood: Minimal, clean\n\nTESTY PHOTO SECTION:\n- Background: Full-width photographic background\n- Imagery: Dynamic motion shot, person in movement with dramatic lighting\n- Colors observed: Warm tones, motion blur effect\n- Typography mood: White text overlay, simple\n\nGENUINE CURIOSITY SECTION:\n- Background: White\n- Imagery: Two black & white portrait photographs\n- Components: Split layout - portraits left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Black and white photography\n- Typography mood: Clean, modern\n\nPRIMETIME NECKTIE:\n- Background: White\n- Imagery: Product photo of navy/black necktie against white background\n- Components: Split layout - text left, product right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Navy/black, white\n- Typography mood: Minimal, clean\n\nBLACK LOGO CREWNECK:\n- Background: White\n- Imagery: Product photo of black crewneck sweatshirt\n- Components: Split layout - product left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Black, white\n- Typography mood: Clean, simple\n\nTHE INVITE PHOTO SECTION:\n- Background: Full-width photographic background\n- Imagery: Interior scene with three people, cinematic lighting\n- Colors observed: Cool tones, indoor lighting\n- Typography mood: White text overlay\n\nSING SING SCREENPLAY BOOK:\n- Background: White\n- Imagery: Book cover photo with orange/yellow background, portrait photo\n- Components: Split layout - book cover left, text right\n- Buttons/CTAs: \"[→] Letterboxd\" (minimal link with arrow)\n- Colors observed: Orange, yellow, white\n- Typography mood: Bold, clean\n\nOVERALL DESIGN SYSTEM:\n- Layout pattern: Alternating full-width photos and split product/content sections\n- Consistent use of \"[→] Letterboxd\" links throughout\n- Minimal color palette: Primarily black, white, with colorful product/photo accents\n- Clean, modern typography throughout\n- Photography style: Mix of candid/cinematic and clean product shots",
+        "insights": [
+          "Card-based modular system with consistent split-layout pattern (50/50) for products and content, creating predictable rhythm",
+          "Generous whitespace strategy with minimal borders creates breathing room and emphasizes individual content blocks",
+          "Alternating rhythm between full-width cinematic film features and contained product cards establishes visual hierarchy and pacing",
+          "Monochromatic color palette (black/white/gray) with colorful accents only in product photography maintains editorial sophistication",
+          "Consistent use of minimal arrow links '[→]' and uppercase eyebrow labels creates unified interaction pattern across all card types"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Pitch Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The dominant structural color used for deep theatrical backgrounds and primary text on light surfaces.",
+              "when_to_use": [
+                "Dark section backgrounds (hero, footer, newsletter banner)",
+                "Image container and thumbnail backgrounds",
+                "Primary default text color for the light theme",
+                "Submit button text on white backgrounds"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Pure White",
+            "type": "Light",
+            "rules": {
+              "description": "Serves as the primary contrast color for text, icons, and buttons against cinematic black backgrounds.",
+              "when_to_use": [
+                "Primary text and headings on dark backgrounds",
+                "Brand logo and UI icon fills",
+                "Submit button backgrounds and input borders",
+                "Image loading placeholders (#EEEEEE)"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#EEEEEE",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F1F1F1",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.2601
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Eyebrow Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A medium gray used to establish typographic hierarchy and categorize content without competing with primary headings.",
+              "when_to_use": [
+                "Card category eyebrows ('Shop', 'Podcast', 'WATCH NOW')",
+                "Header navigation links",
+                "Form validation messages in the footer"
+              ]
+            },
+            "hex": "#888888",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#787878",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0186
+          },
+          {
+            "name": "Disclaimer Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A lighter, muted gray used to de-emphasize secondary legal text and contextual form messages.",
+              "when_to_use": [
+                "Newsletter signup disclaimers",
+                "Privacy policy link underlines",
+                "Form validation messages in the header banner"
+              ]
+            },
+            "hex": "#CACACA",
+            "alpha": null,
+            "shades": [],
+            "score": 0.002
+          },
+          {
+            "name": "Slate Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A mid-dark neutral gray specifically utilized to frame elements within mobile-specific interactive components.",
+              "when_to_use": [
+                "Background for mobile featured film cards in the hero carousel"
+              ]
+            },
+            "hex": "#646464",
+            "alpha": null,
+            "shades": [],
+            "score": 0
+          }
+        ],
+        "insights": [
+          "The palette is strictly monochromatic, relying exclusively on black, white, and grays to allow vibrant movie posters and trailers to serve as the only distinct sources of color.",
+          "A significant portion of the page uses inverted dark sections (hero, footer, banners), evoking a cinematic, theater-in-the-dark mood consistent with a film production company.",
+          "Grayscale shades are employed functionally for typographic hierarchy, with mathematically distinct grays assigned to eyebrows, disclaimers, and UI element backgrounds."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "NB International Web",
+              "role": "Hero / Display Title",
+              "specs": {
+                "size": "74px",
+                "line_height": "0.92",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Large Media Title",
+              "specs": {
+                "size": "62px",
+                "line_height": "0.92",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Content H1/H2",
+              "specs": {
+                "size": "28px",
+                "line_height": "36px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Content H3 / Feature Title",
+              "specs": {
+                "size": "24px",
+                "line_height": "1",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body copy, descriptions, and list items.",
+          "variants": [
+            {
+              "name": "NB International Web",
+              "role": "Body Text Standard",
+              "specs": {
+                "size": "18px",
+                "line_height": "1.33",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Body Text Large / List Item",
+              "specs": {
+                "size": "27px",
+                "line_height": "1.46",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Text Content Large",
+              "specs": {
+                "size": "24px",
+                "line_height": "1.15",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Component labels, small metadata, utility text, and interactive buttons.",
+          "variants": [
+            {
+              "name": "NB International Web",
+              "role": "Eyebrow / H6 / Meta",
+              "specs": {
+                "size": "13px",
+                "line_height": "16px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Action Link / Small Button",
+              "specs": {
+                "size": "21px",
+                "line_height": "21px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalpromed-webfont.woff2"
+              }
+            },
+            {
+              "name": "NB International Mono Web",
+              "role": "Date / Superscript",
+              "specs": {
+                "size": "15px",
+                "line_height": "normal",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Mono Web\"",
+                "file_url": "../fonts/nbinternationalpromono-webfont.woff2"
+              }
+            },
+            {
+              "name": "Akzidenz-Grotesk Extended",
+              "role": "Form Submit Button",
+              "specs": {
+                "size": "16px",
+                "line_height": "normal",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "Typekit"
+              },
+              "technical": {
+                "font_family_css": "\"akzidenz-grotesk-extended\"",
+                "file_url": "https://use.typekit.net/af/6bb33f/00000000000000000001375e/27/l"
+              }
+            },
+            {
+              "name": "NB International Web",
+              "role": "Micro Label / Validation Message",
+              "specs": {
+                "size": "10px",
+                "line_height": "normal",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Other text instances not fitting conventional headings or paragraphs.",
+          "variants": [
+            {
+              "name": "NB International Web",
+              "role": "Pullquote",
+              "specs": {
+                "size": "48px",
+                "line_height": "0.92",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"NB International Web\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": "../fonts/nbinternationalproreg-webfont.woff2"
+              }
+            }
+          ]
+        },
+        "highlights": "- Hover effects on text-content links are implemented using `linear-gradient` backgrounds that create an underline, transitioning to a solid block on hover.\n- Aggressive breakpoint scaling for display typography, where sizes often jump non-linearly (e.g., from 48px on mobile to 38px on tablet, then up to 74px on wide desktop).\n- Widespread use of `text-transform: uppercase` combined with tight letter-spacing for structural elements like eyebrows (H6) and section headers.",
+        "insights": [
+          "The typographic system is almost entirely built around NB International Web, maintaining a strict modernist and utilitarian aesthetic across the site.",
+          "NB International Mono Web is utilized surgically for temporal metadata (e.g., superscript years, release dates), providing a subtle, technical contrast to the primary proportional sans-serif.",
+          "Akzidenz-Grotesk Extended is reserved exclusively for high-impact interactions (such as the form submit button), adding an unexpected brutalist edge to an otherwise highly uniform type palette."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear"
+        ],
+        "solid_colors": [
+          {
+            "name": "Primary Background",
+            "description": "Main page background color",
+            "when_to_use": [
+              "Page backgrounds",
+              "Header backgrounds",
+              "Card backgrounds"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Primary Foreground",
+            "description": "Primary black surface for high contrast elements",
+            "when_to_use": [
+              "Footer backgrounds",
+              "Mobile menu backgrounds",
+              "Search overlay backgrounds",
+              "Modal overlays"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Light Gray Surface",
+            "description": "Light gray surface for secondary elements",
+            "when_to_use": [
+              "Flash messages",
+              "Responsive image placeholders",
+              "Hover states"
+            ],
+            "hex": "#EEEEEE"
+          },
+          {
+            "name": "Mid Gray Surface",
+            "description": "Mid-tone gray for inactive states",
+            "when_to_use": [
+              "Hover states",
+              "Link underlines",
+              "Disabled states"
+            ],
+            "hex": "#888888"
+          },
+          {
+            "name": "Dark Gray Surface",
+            "description": "Dark gray background for featured items",
+            "when_to_use": [
+              "Featured mobile item backgrounds"
+            ],
+            "hex": "#646464"
+          },
+          {
+            "name": "Indicator Line",
+            "description": "Scrollbar track and UI indicators",
+            "when_to_use": [
+              "Scrollbar thumbs",
+              "Progress indicators"
+            ],
+            "hex": "#444444"
+          },
+          {
+            "name": "Light Border Gray",
+            "description": "Light gray for borders and disabled states",
+            "when_to_use": [
+              "Disabled button icons",
+              "Subtle borders"
+            ],
+            "hex": "#CACACA"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Link Underline Gradient",
+            "description": "Horizontal gradient creating underline effect for links in text content on retina displays",
+            "when_to_use": [
+              "Text content link underlines (h1, h2, large text)"
+            ],
+            "css_code": "linear-gradient(to bottom, transparent 86%, #888888 86%, #888888 91%, transparent 91%)"
+          },
+          {
+            "name": "Link Underline Hover Gradient",
+            "description": "Horizontal gradient for link underline hover state on retina displays",
+            "when_to_use": [
+              "Text content link underlines on hover"
+            ],
+            "css_code": "linear-gradient(to bottom, transparent 86%, black 86%, black 91%, transparent 91%)"
+          },
+          {
+            "name": "Media Tile Overlay Fade",
+            "description": "Vertical gradient from transparent to black, creating a fade effect at the bottom of media tiles",
+            "when_to_use": [
+              "Media tile overlay bottom fade",
+              "Image overlay effects"
+            ],
+            "css_code": "linear-gradient(transparent 0%, black 90%)"
+          },
+          {
+            "name": "Shop Product Hover Overlay",
+            "description": "Semi-transparent black overlay for product tiles on hover",
+            "when_to_use": [
+              "Product tile hover states"
+            ],
+            "css_code": "rgba(0, 0, 0, 0.55)"
+          },
+          {
+            "name": "Modal Background Overlay",
+            "description": "Dark semi-transparent overlay for modals and full-screen overlays",
+            "when_to_use": [
+              "Modal backgrounds",
+              "Search overlays",
+              "Media tile overlays"
+            ],
+            "css_code": "rgba(0, 0, 0, 0.9)"
+          },
+          {
+            "name": "Loader Background",
+            "description": "Light semi-transparent white overlay for fullscreen loading states",
+            "when_to_use": [
+              "Fullscreen loader backgrounds"
+            ],
+            "css_code": "rgba(255, 255, 255, 0.9)"
+          },
+          {
+            "name": "Slideshow Indicator Active",
+            "description": "Semi-transparent white for active slideshow indicators",
+            "when_to_use": [
+              "Active slideshow dots"
+            ],
+            "css_code": "rgba(255, 255, 255, 0.75)"
+          },
+          {
+            "name": "Slideshow Indicator Inactive",
+            "description": "More transparent white for inactive slideshow indicators",
+            "when_to_use": [
+              "Inactive slideshow dots"
+            ],
+            "css_code": "rgba(255, 255, 255, 0.5)"
+          }
+        ],
+        "highlights": [
+          "SVG icon patterns embedded via data URIs throughout interface (arrows, search, close, play, etc.)",
+          "Animated loader icons using CSS spin animation with circular partial-stroke SVG",
+          "Responsive image placeholders with light gray (#EEEEEE) background",
+          "Black background surfaces (#000000) used for featured item images and hero sections",
+          "White indicator lines with height transitions on mobile featured carousel",
+          "Slideshow navigation arrows with white SVG icons on semi-transparent backgrounds"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Mobile Menu Panel",
+              "type": "drop",
+              "description": "Multi-layer smooth shadow creating depth for slide-out navigation panel. Uses 6 layered shadows with varying blur and opacity values for realistic depth.",
+              "css_value": "2.1px 0px 2.2px rgba(0, 0, 0, 0.025), 5.1px 0px 5.3px rgba(0, 0, 0, 0.036), 9.5px 0px 9.9px rgba(0, 0, 0, 0.045), 17px 0px 17.6px rgba(0, 0, 0, 0.054), 31.8px 0px 33px rgba(0, 0, 0, 0.065), 76px 0px 79px rgba(0, 0, 0, 0.09)",
+              "when_to_use": [
+                "Mobile navigation menu",
+                "Slide-out panels",
+                "Off-canvas navigation"
+              ]
+            },
+            {
+              "name": "Polaroid Image Shadow",
+              "type": "drop",
+              "description": "Soft subtle shadow for polaroid-style images. 5px blur with light gray color at 75% opacity.",
+              "css_value": "0 0 5px rgba(238, 238, 238, 0.75)",
+              "when_to_use": [
+                "Profile polaroid images",
+                "Photo-style card elements"
+              ]
+            },
+            {
+              "name": "Form Autofill Inset",
+              "type": "inset",
+              "description": "Large inset shadow used to override browser autofill styling. Creates a cyan background effect via inset shadow.",
+              "css_value": "0 0 0 1000px #0FF inset",
+              "when_to_use": [
+                "Form input autofill states",
+                "Browser autofill styling override"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "0.5px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "2px",
+            "style": "solid"
+          },
+          {
+            "hex": "#888888",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#CACACA",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "video_background",
+          "hover_lift",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "site-container-transition",
+            "css": "transition: 0.25s cubic-bezier(0, 1, 0.6, 1) transform",
+            "description": "Transform transition for site container during mobile menu interactions"
+          },
+          {
+            "name": "body-slide-transition",
+            "css": "transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right",
+            "description": "Right position transition for body element during menu toggle"
+          },
+          {
+            "name": "header-transition",
+            "css": "transition: background-color 0.15s linear, transform 0.2s ease-in-out",
+            "description": "Combined background color and transform transition for sticky header behavior"
+          },
+          {
+            "name": "mobile-menu-transition",
+            "css": "transition: opacity 250ms ease, left 0ms 250ms ease",
+            "description": "Opacity fade and position slide for mobile menu open/close"
+          },
+          {
+            "name": "newsletter-banner-transition",
+            "css": "transition: max-height 500ms ease-out",
+            "description": "Max-height transition for newsletter banner reveal animation"
+          },
+          {
+            "name": "accordion-rotate-transition",
+            "css": "transition: transform 250ms ease-out",
+            "description": "Rotate transition for accordion chevron icons on toggle"
+          },
+          {
+            "name": "image-scale-hover",
+            "css": "transition: transform 250ms ease-out",
+            "description": "Scale transform transition for image hover zoom effect on video slides"
+          },
+          {
+            "name": "link-hover-transition",
+            "css": "transition: 0.1s linear color",
+            "description": "Color transition for header navigation link hover states"
+          },
+          {
+            "name": "svg-fill-transition",
+            "css": "transition: 0.1s linear fill",
+            "description": "Fill color transition for SVG icons on hover"
+          },
+          {
+            "name": "footer-fade",
+            "css": "transition: 150ms linear opacity",
+            "description": "Opacity transition for footer ready state visibility"
+          }
+        ],
+        "insights": [
+          "The design system employs a strictly monochromatic palette (black, white, grays) to let colorful film imagery and product photography serve as the primary visual interest, creating a cinematic gallery aesthetic.",
+          "Component interactions rely heavily on subtle CSS transitions with custom cubic-bezier easing curves, creating a refined, minimal motion feel that doesn't compete with the content-heavy imagery.",
+          "The navigation system uses a fixed header with transparent-to-white background transition, adapting based on hero content darkness - a sophisticated pattern for cinematic landing pages."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Sign Up (Form Submit)",
+            "usage": "Newsletter signup form submission button in both header banner and footer",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "akzidenz-grotesk-extended",
+                  "size": "16px",
+                  "padding": "4px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#CACACA",
+                "border_color": "#CACACA",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "default"
+              }
+            }
+          },
+          {
+            "name": "Close (Icon Button)",
+            "usage": "Dismisses newsletter signup banner overlay - X icon button",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "NB International Web",
+                  "size": "15px",
+                  "padding": "0"
+                },
+                {
+                  "name": "Large",
+                  "font": "NB International Web",
+                  "size": "15px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "pointer"
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.75",
+                "cursor": "pointer"
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#CACACA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Shop Now / Listen Now (Text Link with Arrow)",
+            "usage": "CTA links on product and content cards throughout the homepage stack",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "NB International Web",
+                  "size": "21px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "pointer"
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "#000000",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": "pointer"
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#CACACA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Mobile Menu Toggle (Burger)",
+            "usage": "Opens mobile navigation menu - hamburger icon button",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "NB International Web",
+                  "size": "15px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "pointer"
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#888888",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": "pointer"
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#CACACA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "No explicit button groups observed - buttons are standalone elements",
+          "spacing": ""
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "auto",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/Pure White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Product Card",
+            "description": "Card displaying shop products with image, eyebrow label, title and CTA link",
+            "when_to_use": [
+              "Showcasing merchandise items",
+              "Shop product listings",
+              "E-commerce content blocks"
+            ]
+          },
+          {
+            "name": "Content Card (Podcast/Notes)",
+            "description": "Card displaying editorial content with portrait images, eyebrow label, title and CTA link",
+            "when_to_use": [
+              "Podcast episode features",
+              "Blog/notes content",
+              "Editorial content promotion"
+            ]
+          },
+          {
+            "name": "Film Feature Card",
+            "description": "Full-width card displaying film/TV content with hero image and title overlay",
+            "when_to_use": [
+              "Featured film promotion",
+              "Full-width content sections",
+              "Hero content blocks"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Footer Column Divider",
+            "description": "Top border divider used on footer column eyebrows",
+            "when_to_use": [
+              "Separating footer sections",
+              "Column header boundaries"
+            ],
+            "color": "#FFFFFF",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Content Section Divider",
+            "description": "Subtle divider used between content sections",
+            "when_to_use": [
+              "Separating major content sections",
+              "Visual content breaks"
+            ],
+            "color": "#000000",
+            "height": "0.5px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "UI Icons",
+          "description": "Functional monoline icons for navigation and actions.",
+          "when_to_use": [
+            "Site navigation",
+            "Directional indicators in hero sections"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "22px",
+            "medium": "55x20px"
+          },
+          "examples": [
+            {
+              "name": "search",
+              "svg_code": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 22 22\" style=\"enable-background:new 0 0 22 22;\" xml:space=\"preserve\"> <path d=\"M9.57143 18.6429C14.5814 18.6429 18.6429 14.5814 18.6429 9.57143H17.6429C17.6429 14.0292 14.0292 17.6429 9.57143 17.6429V18.6429ZM0.5 9.57143C0.5 14.5814 4.56142 18.6429 9.57143 18.6429V17.6429C5.1137 17.6429 1.5 14.0292 1.5 9.57143H0.5ZM9.57143 0.5C4.56142 0.5 0.5 4.56142 0.5 9.57143H1.5C1.5 5.1137 5.1137 1.5 9.57143 1.5V0.5ZM18.6429 9.57143C18.6429 4.56142 14.5814 0.5 9.57143 0.5V1.5C14.0292 1.5 17.6429 5.1137 17.6429 9.57143H18.6429ZM21.3535 20.6465L15.9859 15.2788L15.2788 15.9859L20.6464 21.3536L21.3535 20.6465Z\"></path> </svg>"
+            },
+            {
+              "name": "arrow-right-long",
+              "svg_code": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 55 20\" style=\"enable-background:new 0 0 55 20;\" xml:space=\"preserve\"> <polygon style=\"fill-rule:evenodd;clip-rule:evenodd;\" points=\"43.3,0 55,10 43.3,20 42.4,19.1 52.2,10.7 0,10.7 0,9.3 52.2,9.3 42.4,0.9 43.3,0 \"></polygon> </svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/favicon.ico",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/favicon.ico",
+            "origin_url": "https://a24films.com/assets/images/icons/favicon.ico",
+            "description": "A24 Favicon (ICO format)"
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/favicon.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/favicon.svg",
+            "origin_url": "https://a24films.com/assets/images/icons/favicon.svg",
+            "description": "A24 Favicon (SVG format)"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/favicon.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/favicon.png",
+            "origin_url": "https://a24films.com/assets/images/icons/apple-touch-icon.png",
+            "description": "A24 Apple Touch Icon"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-4.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-4.svg",
+            "origin_url": "https://a24films.com/assets/images/AAOF.svg",
+            "description": "Apple Original Films partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-2.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://a24films.com/assets/images/hulu_logo-black.svg",
+            "description": "Hulu partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-5.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-5.svg",
+            "origin_url": "https://a24films.com/assets/images/prime_video_logo-black.svg",
+            "description": "Prime Video partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary.svg",
+            "origin_url": "https://a24films.com/assets/images/netflix_logo-black.svg",
+            "description": "Netflix partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-3.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://a24films.com/assets/images/hbo_max_logo-black.svg",
+            "description": "HBO Max partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-6.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-6.svg",
+            "origin_url": "https://a24films.com/assets/images/apple_tv-black.svg",
+            "description": "Apple TV partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-7.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-7.svg",
+            "origin_url": "https://a24films.com/assets/images/showtime-black.svg",
+            "description": "Showtime partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-8.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-8.svg",
+            "origin_url": "https://a24films.com/assets/images/peacock-black.svg",
+            "description": "Peacock partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-9.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-9.svg",
+            "origin_url": "https://a24films.com/assets/images/paramount_plus-black.svg",
+            "description": "Paramount Plus partner logo (Black)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-10.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/secondary-10.svg",
+            "origin_url": "https://a24films.com/assets/images/mubi_logo-black.svg",
+            "description": "MUBI partner logo (Black)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome.svg",
+            "origin_url": "https://a24films.com/assets/images/AAOF-white.svg",
+            "description": "Apple Original Films partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-3.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-3.svg",
+            "origin_url": "https://a24films.com/assets/images/hulu_logo-white.svg",
+            "description": "Hulu partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-2.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-2.svg",
+            "origin_url": "https://a24films.com/assets/images/prime_video_logo-white.svg",
+            "description": "Prime Video partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-4.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-4.svg",
+            "origin_url": "https://a24films.com/assets/images/netflix_logo-white.svg",
+            "description": "Netflix partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-5.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-5.svg",
+            "origin_url": "https://a24films.com/assets/images/hbo_max_logo-white.svg",
+            "description": "HBO Max partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-6.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-6.svg",
+            "origin_url": "https://a24films.com/assets/images/apple_tv-white.svg",
+            "description": "Apple TV partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-7.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-7.svg",
+            "origin_url": "https://a24films.com/assets/images/showtime-white.svg",
+            "description": "Showtime partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-8.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-8.svg",
+            "origin_url": "https://a24films.com/assets/images/peacock-white.svg",
+            "description": "Peacock partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-9.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-9.svg",
+            "origin_url": "https://a24films.com/assets/images/paramount_plus-white.svg",
+            "description": "Paramount Plus partner logo (White)"
+          },
+          {
+            "role": "Monochrome",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-10.svg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/logos/monochrome-10.svg",
+            "origin_url": "https://a24films.com/assets/images/mubi_logo-white.svg",
+            "description": "MUBI partner logo (White)"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://atwenty-four.transforms.svdcdn.com/production/images/new-web-sharecard-every-film.jpg?w=1200&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1768430544&amp;s=87326e843bc56f9ca2402380e835d0e5",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Meta og:image — social share preview"
+          },
+          {
+            "name": "Primetime Teaser 16x9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-teaser-16x9.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-teaser-16x9.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/Primetime-Teaser-16x9.png?w=3840&auto=compress%2Cformat&fit=crop&dm=1779888756&s=3ffac20ceb5fdf4ed239104742230048",
+            "usage_context": "Hero banner image for Primetime teaser"
+          },
+          {
+            "name": "Primetime Teaser 8x10",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-teaser-8x10.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-teaser-8x10.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/Primetime-Teaser-16x9_2026-05-27-133450_nmpy.png?w=1728&auto=compress%2Cformat&fit=crop&dm=1779888908&s=85a587b5afd15c0434165b258c45c182",
+            "usage_context": "Mobile hero banner image for Primetime teaser"
+          },
+          {
+            "name": "Misty Green Trailer 8x10",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/misty-green-trailer-8x10.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/misty-green-trailer-8x10.jpg",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/MG-Thumb-TXTLS_2026-07-22-123320_pvnr.jpg?w=1009&auto=compress%2Cformat&fit=crop&dm=1784723618&s=4ecdd36459898d5cfc90ed3dc0ae5c78",
+            "usage_context": "Mobile hero banner image for Misty Green trailer"
+          },
+          {
+            "name": "YCSE Trailer YT Thubmnail 16x9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/ycse-trailer-yt-thubmnail-16x9.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/ycse-trailer-yt-thubmnail-16x9.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/YCSE_Trailer_YTThubmnail_16x9_2026-09-06-233215_bncz.png?w=1007&auto=compress%2Cformat&fit=crop&dm=1788737535&s=5afb459bd84c259a5633d7540417b08e",
+            "usage_context": "Mobile hero banner image for You Can See Everything trailer"
+          },
+          {
+            "name": "CK Trailer YT Thubmnail 8x10 TXTLS",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/ck-trailer-yt-thubmnail-8x10-txtls.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/ck-trailer-yt-thubmnail-8x10-txtls.jpg",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/CK_Trailer_YTThubmnail_16x9-TXTLS.jpg?w=1010&auto=compress%2Cformat&fit=crop&dm=1787095277&s=4c6da18566f35e99354b69079b6662a8",
+            "usage_context": "Mobile hero banner image for Club Kid trailer"
+          },
+          {
+            "name": "The Debut 8x10 Trailer",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-debut-8x10-trailer.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-debut-8x10-trailer.jpg",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/CLEAN-TheDebut_16x9_Trailer_Thubmnail_2026-06-22-214405_ubce.jpg?w=899&auto=compress%2Cformat&fit=crop&dm=1782164657&s=d5627a6489ded12edb577f9c5cf02e7f",
+            "usage_context": "Mobile hero banner image for The Debut trailer"
+          },
+          {
+            "name": "Primetime Original Motion Picture Soundtrack Vinyl",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-original-motion-picture-soundtrack-vinyl.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-original-motion-picture-soundtrack-vinyl.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/Primetime_Gray.jpg?v=1790705144",
+            "usage_context": "Shop product image for Primetime Soundtrack"
+          },
+          {
+            "name": "Big Weird Swings with Skyler Gisondo & Austin Abrams Podcast Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/big-weird-swings-with-skyler-gisondo-austin-abrams-podcast-thumbnail.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/big-weird-swings-with-skyler-gisondo-austin-abrams-podcast-thumbnail.jpg",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/0091526-Skyler-Gisondo-Austin-Abrams-_Landscape.jpg?w=2400&q=82&fm=webp&fit=clip&dm=1789503653&s=ce7390e419d3f84927f36a274c6e9bc4",
+            "usage_context": "Podcast episode thumbnail"
+          },
+          {
+            "name": "The Encyclopedia of Movie Cats Book",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-encyclopedia-of-movie-cats-book.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-encyclopedia-of-movie-cats-book.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/MovieCats_Thumb_21f23616-54c0-48d4-a25e-df662b34c2cc.jpg?v=1789154393",
+            "usage_context": "Shop product image for Movie Cats book"
+          },
+          {
+            "name": "Onslaught 16x9 Trailer Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/onslaught-16x9-trailer-thumbnail.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/onslaught-16x9-trailer-thumbnail.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/Onslaught-16x9-Trailer.png?w=2400&q=82&fm=webp&fit=clip&dm=1780354789&s=6dc4f2ee3a683641c4920473d67d18b7",
+            "usage_context": "Thumbnail for Onslaught film section"
+          },
+          {
+            "name": "Onslaught 8x10 Trailer Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/onslaught-8x10-trailer-thumbnail.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/onslaught-8x10-trailer-thumbnail.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/Onslaught-16x9-Trailer_2026-06-01-230127_gcqs.png?w=1200&fm=webp&auto=compress&fit=clip&dm=1780354945&s=62968dafdba729dd81c5713906d541a1",
+            "usage_context": "Mobile thumbnail for Onslaught film section"
+          },
+          {
+            "name": "AAA24 Membership Product Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/aaa24-membership-product-image.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/aaa24-membership-product-image.png",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/aaa24-logo.60q.600.png?v=1753198976",
+            "usage_context": "Shop product image for AAA24 Membership"
+          },
+          {
+            "name": "First to Laugh with Matt Johnson & Stavros Halkias Podcast Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/first-to-laugh-with-matt-johnson-stavros-halkias-podcast-thumbnail.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/first-to-laugh-with-matt-johnson-stavros-halkias-podcast-thumbnail.jpg",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/081126-Matt-JohnsonStavros-Halkias_Landscape.jpg?w=2400&q=82&fm=webp&fit=clip&dm=1786560872&s=21846a3f04d62b6c0cbf61647877c7a1",
+            "usage_context": "Podcast episode thumbnail"
+          },
+          {
+            "name": "The Invite Blu-ray Product Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-invite-blu-ray-product-image.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-invite-blu-ray-product-image.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/4K_Gray_Thumb_30337277-5479-46a8-9e4a-fe710ede3415.jpg?v=1790019049",
+            "usage_context": "Shop product image for The Invite Blu-ray"
+          },
+          {
+            "name": "Tony 16x9 Trailer Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/tony-16x9-trailer-thumbnail.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/tony-16x9-trailer-thumbnail.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/Tony-16x9.png?w=2400&q=82&fm=webp&fit=clip&dm=1777927754&s=2d3c00c5fb31d96db8d45aa00b568193",
+            "usage_context": "Thumbnail for Tony film section"
+          },
+          {
+            "name": "Tony 8x10 Trailer Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/tony-8x10-trailer-thumbnail.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/tony-8x10-trailer-thumbnail.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/Tony-16x9_2026-05-04-204857_kveo.png?w=1200&fm=webp&auto=compress&fit=clip&dm=1777927764&s=310be019d9bf8c5599d7ac2c79121e37",
+            "usage_context": "Mobile thumbnail for Tony film section"
+          },
+          {
+            "name": "Genuine Curiosity with Devonté Hynes & Thomas Bangalter Podcast Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/genuine-curiosity-with-devont-hynes-thomas-bangalter-podcast-thumbnail.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/genuine-curiosity-with-devont-hynes-thomas-bangalter-podcast-thumbnail.jpg",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/071526-Devonte-Hynes-Thomas-Bangalter_Landscape-aa.jpg?w=2400&q=82&fm=webp&fit=clip&dm=1784226019&s=70efb5ff08d1d854e102fee2a5527fbe",
+            "usage_context": "Podcast episode thumbnail"
+          },
+          {
+            "name": "Primetime Necktie Product Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-necktie-product-image.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/primetime-necktie-product-image.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/primetime_tie_E_1x1_313698c3-2c8a-46a8-9d87-0242f143c795.jpg?v=1789055071",
+            "usage_context": "Shop product image for Primetime Necktie"
+          },
+          {
+            "name": "Black Logo Outline Crewneck Product Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/black-logo-outline-crewneck-product-image.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/black-logo-outline-crewneck-product-image.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/Black_Gray_Emb_769ede10-85ef-4876-bd6b-ac578b2182ef.jpg?v=1771443601",
+            "usage_context": "Shop product image for Crewneck"
+          },
+          {
+            "name": "The Invite 16x9 Trailer Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-invite-16x9-trailer-thumbnail.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-invite-16x9-trailer-thumbnail.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/TheInvite_16x9_Trailer_Thubmnail-1.png?w=2400&q=82&fm=webp&fit=clip&dm=1775567365&s=b5eec2e0e9c5ba81430ae8ded92dd3be",
+            "usage_context": "Thumbnail for The Invite film section"
+          },
+          {
+            "name": "The Invite 8x10 Trailer Thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-invite-8x10-trailer-thumbnail.png",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/the-invite-8x10-trailer-thumbnail.png",
+            "origin_url": "https://atwenty-four.transforms.svdcdn.com/production/images/TheInvite_16x9_Trailer_Thubmnail-1_2026-04-07-130950_lyfb.png?w=1200&fm=webp&auto=compress&fit=clip&dm=1775567410&s=5e82d4a1cc2a98873eeae42f2d71f1f2",
+            "usage_context": "Mobile thumbnail for The Invite film section"
+          },
+          {
+            "name": "Sing Sing Screenplay Book",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/sing-sing-screenplay-book.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/sing-sing-screenplay-book.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/Sing_Sing_1x1_7d59d7bc-173f-4864-830d-53e9d3e40efd.jpg?v=1783371754",
+            "usage_context": "Shop product image for Sing Sing book"
+          },
+          {
+            "name": "Cap'n Clark's Tee Product Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/cap-n-clark-s-tee-product-image.jpg",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/cap-n-clark-s-tee-product-image.jpg",
+            "origin_url": "https://cdn.shopify.com/s/files/1/0023/3789/8540/files/Backrooms_Tee_Gray.jpg?v=1776447748",
+            "usage_context": "Shop product image for T-shirt"
+          },
+          {
+            "name": "Site Webmanifest",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/site-webmanifest.webmanifest",
+            "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/site-assets/media/image/site-webmanifest.webmanifest",
+            "origin_url": "https://a24films.com/assets/images/icons/site.webmanifest",
+            "usage_context": "Web App Manifest"
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/x/638d89b4-39cc-431a-8d48-4879d217fffa.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "White stylized “A24” lettering with sharp geometric forms centered on a solid black square background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/x/1c0b867d-f573-4e3e-8a9f-375bd82de5a5.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Abstract black-and-white geometric graphic with broad curved and diagonal bands forming a stark, cropped composition."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/x/a4618755-76d2-4514-ad88-69f573261faa.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A close-up portrait of a man shouting, dramatically lit in cool teal tones against a dark, blurred background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/google_ads/4ce9b4fd-7629-494a-a465-ec59e7923ff8.jpg",
+            "source": "google_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Movie poster for “TONY,” featuring a curly-haired man in a white jacket, bold red title lettering, and “A Matt Johnson Film” text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/google_ads/529c1557-66a6-461b-a313-e28e3e5401b3.jpg",
+            "source": "google_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Vertical Tony Bourdain film poster with bold orange-red title, black and red headline, warm-toned portrait, and theater ticket button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/google_ads/ce249e1e-5dc9-4940-9d61-c21d498d78c9.jpg",
+            "source": "google_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "White TONY banner with large red-orange lettering, ticket button, and promotional text for Anthony Bourdain."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/email/7a8f1654-e613-4f95-93c5-c02ea8181928.png",
+            "source": "email",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A white A24 promotional email advertises the Tony Original Soundtrack vinyl, featuring Provincetown artwork, product images, and a bold black “Preorder” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/google_ads/9b66f6cc-df00-4759-b3ba-ecc0f7765161.jpg",
+            "source": "google_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "White banner with “TONY” in large red letters, “Before He Became Anthony Bourdain He Was...” at left, and a red GET TICKETS button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/x/d72cce0d-e5b8-4d4e-8e43-577c75079a4c.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Music promo poster featuring Misty Green reclining with voluminous curls, overlaid with large gradient “NOW PLAYING” typography and “NY & LA.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/billboard/a91614c3-781a-4774-887f-1008b9e8dbfd.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A roadside billboard has a mostly blank white face, black A24 logo, small date and time, and purple OUTFRONT panel."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/billboard/6061da2e-bc64-4729-8710-27e2f0181121.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A blank white billboard beneath an elevated train, with a small black A24 logo and the date “08.10.2019” at lower right."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/google_ads/f0062c31-f565-4373-b31d-d9bb4b79c5d1.jpg",
+            "source": "google_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Movie poster for TONY, featuring a curly-haired man in a white chef’s jacket above bold red typography and theater listings."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/google_ads/046f206e-a370-4070-a009-d7f1a4d6e14d.jpg",
+            "source": "google_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A movie banner pairs a warm-toned film still with bold red “TONY” lettering and black-and-red promotional text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/billboard/ef24bd29-198c-40ef-9c0f-3a2e27206220.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A black roadside billboard displays the white A24 wordmark against a dusky purple sky, above a busy commercial strip."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/billboard/6b054a38-adc8-4284-9a44-3838e23a3273.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A roadside Lamar billboard has a blank white face, a rust-orange lower strip, and a small date and time printed near the bottom right."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/billboard/78135959-4820-43d5-bea7-e598b23c7ca6.webp",
+            "source": "billboard",
+            "content_type": "image/webp",
+            "category": "brand_identity",
+            "asset_description": "A2⁴-branded event image shows a dusk outdoor screening beneath a vivid blue-pink sky, with a large billboard and seated audience."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/meta_ads/257a603c-eb41-4bd6-b754-e819feecdcf2.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A Backrooms Special Edition Blu-ray box stands against brushed metal, featuring a mustard-yellow cover with a cropped person and blue spine."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/meta_ads/90008684-1197-4f89-8147-e28f49dbdc9a.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Close-up portrait of a curly-haired, bearded man in tortoiseshell glasses speaking into a black Shure microphone; A24 logo appears above."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/meta_ads/e8cb4361-5a4f-4de6-b094-c269565d88ee.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A book titled “The Encyclopedia of Movie Cats” features a large white cat and bold white serif lettering against a dark cover."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/meta_ads/8d13dd92-d326-4436-ab2e-5549641717f7.jpg",
+            "source": "meta_ads",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Book cover titled “The Encyclopedia of Movie Cats,” featuring a fluffy white cat and a hand grooming it against a dark background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/instagram_highlights/e9ba3967-3e05-4a1c-b5a3-55c74315b8d9.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A black “Tuesday on The A24 Podcast” poster features Jonah Hill and Michael Cera in grayscale portraits, with bright neon accents and bold white text."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/instagram_highlights/f7e6915d-4aaa-4fef-aa52-1eb0567e5fef.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A vertical A24 Podcast poster features black-and-white portraits of Martin Scorsese and Joanna Hogg, bold white typography, and bright cyan accents."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/instagram_highlights/7890807f-d34f-491e-a4a1-7436db68d7af.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Two people record a podcast at a table; green banners read “The A24 Podcast” and “Monday 4.22.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/brand-media/instagram_highlights/6c2a0246-6310-4f91-b626-aae341a27e77.jpg",
+            "source": "instagram_highlights",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Promotional podcast image shows Martin Scorsese and Joanna Hogg seated beside a microphone, with bold white text on blue banners reading “The A24 Podcast.”"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Hero / Login Overlay",
+          "layout_pattern": "Overlay modal centered",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "form",
+              "description": "Dark semi-transparent login form with email/password fields, white text on dark overlay background"
+            },
+            {
+              "type": "button",
+              "description": "Close icon (X) in top right corner, white color"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Full-width with centered text overlay",
+          "headline": "Primetime",
+          "subheadline": "Misty Green / You Can See Everything / The Debut",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-width photographic hero image showing person with glasses in outdoor setting with natural muted tones"
+            },
+            {
+              "type": "logo",
+              "description": "Top left A24 logo with navigation menu icon"
+            },
+            {
+              "type": "navigation",
+              "description": "Minimal header navigation with login/search elements"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Image left, text right",
+          "headline": "Primetime Original Motion Picture Soundtrack",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Product photo of vinyl record with blue holographic cover art showing PRIMETIME text on white background"
+            },
+            {
+              "type": "button",
+              "description": "Minimal arrow link '[→] Letterboxd' in black text"
+            }
+          ]
+        },
+        {
+          "type": "Content Feature / Podcast",
+          "layout_pattern": "Split 50/50 - Text left, portraits right",
+          "headline": "Big weird Swings with Tim & Eric Giacinto & Austin Beedeion",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Two black & white portrait photographs side by side"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd' in black"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Image left, text right",
+          "headline": "The Encyclopedia of Movie Cats",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Book cover with retro illustration featuring cat artwork in muted vintage cream/beige tones"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Full-Width Film Feature",
+          "layout_pattern": "Centered full-width",
+          "headline": "Onslaught",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Cinematic close-up photo of person wearing glasses with reflections in lenses, warm amber/brown/yellow tones"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Image left, text right",
+          "headline": "AAA24 Membership",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Stylized graphic logo/text design in grayscale on white background"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Content Feature / Podcast",
+          "layout_pattern": "Split 50/50 - Text left, portraits right",
+          "headline": "First to Laugh with Matt Johnson & Shamos Bullock",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Two black & white portrait photographs"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd' in black"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Image left, text right",
+          "headline": "The Invite Blu-ray",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Product photo of Blu-ray/DVD cover with multi-colored movie artwork"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Full-Width Film Feature",
+          "layout_pattern": "Centered full-width",
+          "headline": "Testy",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Dynamic motion shot with person in movement, dramatic lighting and warm tones with motion blur effect"
+            }
+          ]
+        },
+        {
+          "type": "Content Feature / Podcast",
+          "layout_pattern": "Split 50/50 - Portraits left, text right",
+          "headline": "Genuine Curiosity with Devonte Hynes & Tony the Bangalter",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Two black & white portrait photographs"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Text left, product right",
+          "headline": "Primetime Necktie",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Product photo of navy/black necktie against clean white background"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Image left, text right",
+          "headline": "Black Logo Outline Crewneck",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Product photo of black crewneck sweatshirt on white background"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Full-Width Film Feature",
+          "layout_pattern": "Centered full-width",
+          "headline": "The Invite",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Interior scene photograph with three people, cinematic lighting with cool tones"
+            }
+          ]
+        },
+        {
+          "type": "Product Feature",
+          "layout_pattern": "Split 50/50 - Image left, text right",
+          "headline": "Sing Sing Screenplay Book",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Book cover photo with orange/yellow background featuring portrait photo"
+            },
+            {
+              "type": "button",
+              "description": "Arrow link '[→] Letterboxd'"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Footer navigation links in uppercase white text on black background"
+            },
+            {
+              "type": "form",
+              "description": "Newsletter signup form with email input and submit button, dark theme with white text"
+            },
+            {
+              "type": "logo_strip",
+              "description": "Social media icons (Facebook, Twitter, Instagram, YouTube) in white"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The foundational dark ink used for primary typography, dominant brand actions, and logos.",
+        "when_to_use": [
+          "Body typography and large hero headings",
+          "Primary CTA backgrounds ('Sign Up', 'Deploy now')",
+          "Customer marquee logos (OpenAI, DoorDash)",
+          "Vercel logo and header icons"
+        ]
+      },
+      "hex": "#171717",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper",
+      "type": "Light",
+      "rules": {
+        "description": "The core surface palette, defining the page foundation and lifting interactive components through crisp backgrounds and borders.",
+        "when_to_use": [
+          "Main page background fill (#FAFAFA)",
+          "Dropdown menu and secondary button surfaces (#FFFFFF)",
+          "Subtle 1px button and card borders (#EBEBEB)",
+          "Tooltip and menu wrappers"
+        ]
+      },
+      "hex": "#EBEBEB",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FAFAFA",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#DBDBDB",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.7444000000000001,
+      "group": "baseline"
+    },
+    {
+      "name": "Secondary Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A muted gray that establishes typographic hierarchy, receding secondary information behind the primary black text.",
+        "when_to_use": [
+          "Top navigation links ('Products', 'Resources')",
+          "Sub-navigation category labels",
+          "Secondary descriptive text in feature sections",
+          "Footer menu links"
+        ]
+      },
+      "hex": "#4D4D4D",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#666666",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.2225,
+      "group": "secondary"
+    },
+    {
+      "name": "Accent Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "A vibrant blue reserved strictly for accessibility indicators and highly specific illustration highlights.",
+        "when_to_use": [
+          "'Skip to content' focus ring and text",
+          "Gradient stop in the 'Passport' feature card illustration"
+        ]
+      },
+      "hex": "#0072F5",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#38A2FF",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0179,
+      "group": "secondary"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "A pitch black deployed almost entirely as an alpha-channel base for drop shadows and delicate structural borders.",
+        "when_to_use": [
+          "Translucent borders on dropdown menus and feature cards",
+          "Drop shadows lifting sticky headers and navigation panels"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0163,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "GeistSans",
+      "role": "Heading 72",
+      "specs": {
+        "size": "72px",
+        "line_height": "72px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 64",
+      "specs": {
+        "size": "64px",
+        "line_height": "64px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 56",
+      "specs": {
+        "size": "56px",
+        "line_height": "56px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 48",
+      "specs": {
+        "size": "48px",
+        "line_height": "56px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 40",
+      "specs": {
+        "size": "40px",
+        "line_height": "48px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 32",
+      "specs": {
+        "size": "32px",
+        "line_height": "40px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 24",
+      "specs": {
+        "size": "24px",
+        "line_height": "32px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 20",
+      "specs": {
+        "size": "20px",
+        "line_height": "26px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 16",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "450",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Heading 14",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Copy 24",
+      "specs": {
+        "size": "24px",
+        "line_height": "36px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Copy 20",
+      "specs": {
+        "size": "20px",
+        "line_height": "36px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Copy 18",
+      "specs": {
+        "size": "18px",
+        "line_height": "28px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Copy 16",
+      "specs": {
+        "size": "16px",
+        "line_height": "24px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Copy 14",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Copy 13",
+      "specs": {
+        "size": "13px",
+        "line_height": "18px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "Copy 14 Mono",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "Copy 13 Mono",
+      "specs": {
+        "size": "13px",
+        "line_height": "18px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Label 20",
+      "specs": {
+        "size": "20px",
+        "line_height": "32px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Label 18",
+      "specs": {
+        "size": "18px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Label 16",
+      "specs": {
+        "size": "16px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Label 14",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Label 13",
+      "specs": {
+        "size": "13px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Label 12",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "Label 14 Mono",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "Label 13 Mono",
+      "specs": {
+        "size": "13px",
+        "line_height": "20px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "Label 12 Mono",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Button 16",
+      "specs": {
+        "size": "16px",
+        "line_height": "20px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Button 14",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Button 12",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "GeistSans",
+      "role": "Badge",
+      "specs": {
+        "size": "11px",
+        "line_height": "20px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"GeistSans\", \"GeistSans Fallback\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "Micro / Badge Mono",
+      "specs": {
+        "size": "11px",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Georgia",
+      "role": "Quote",
+      "specs": {
+        "size": "inherit",
+        "line_height": "inherit",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Georgia",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Geist Pixel Circle",
+      "role": "Decorative",
+      "specs": {
+        "size": "inherit",
+        "line_height": "inherit",
+        "font_weight": "inherit",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--font-geist-pixel-circle)",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Geist Pixel Square",
+      "role": "Decorative",
+      "specs": {
+        "size": "inherit",
+        "line_height": "inherit",
+        "font_weight": "inherit",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--font-geist-pixel-square)",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Geist Pixel Line",
+      "role": "Decorative",
+      "specs": {
+        "size": "inherit",
+        "line_height": "inherit",
+        "font_weight": "inherit",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--font-geist-pixel-line)",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "20px",
+    "max_width": "1400px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 600px (1 Column, 24px gutter)",
+    "tablet": "601px - 960px (8 Columns, 20px gutter)",
+    "desktop": "961px - 1400px (12 Columns, 20px gutter)",
+    "large": "1401px+ (12 Columns, 20px gutter)"
+  }
+}

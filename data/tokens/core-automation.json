@@ -1,0 +1,460 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The foundational dark ink color used for primary typography, borders, and thematic dark fills for specific content sections.",
+        "when_to_use": [
+          "Body text",
+          "Brand logo fill",
+          "'Approach' and 'Vision' puzzle piece fills",
+          "Footer background pattern"
+        ]
+      },
+      "hex": "#111111",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#040404",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.006,
+      "group": "baseline"
+    },
+    {
+      "name": "Pure Black",
+      "type": "Dark",
+      "rules": {
+        "description": "A pure black used sparingly for isolated structural components.",
+        "when_to_use": [
+          "Mobile menu toggle border and icon",
+          "Document root text color"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0319,
+      "group": "baseline"
+    },
+    {
+      "name": "Signal Red",
+      "type": "Warm Color",
+      "rules": {
+        "description": "A vibrant, high-energy accent used to drive attention in the hero and to theme the 'Research' section.",
+        "when_to_use": [
+          "Hero title and intro text highlights",
+          "Active navigation link",
+          "'Research' puzzle piece and panel accents"
+        ]
+      },
+      "hex": "#FF2D09",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0193,
+      "group": "secondary"
+    },
+    {
+      "name": "Electric Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "A secondary bright accent that provides a cooler counterbalance to the red, exclusively theming the 'Team' section.",
+        "when_to_use": [
+          "'Team' puzzle piece fill",
+          "'Team' panel borders and headers",
+          "'Join us' CTA link"
+        ]
+      },
+      "hex": "#699EFF",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0132,
+      "group": "secondary"
+    },
+    {
+      "name": "Canvas Grays",
+      "type": "Light",
+      "rules": {
+        "description": "The light neutral structural family that forms the page's background and distinguishes layered surfaces.",
+        "when_to_use": [
+          "Main page background",
+          "Blog feature card background",
+          "Puzzle board background geometry",
+          "White text over colored puzzle pieces"
+        ]
+      },
+      "hex": "#ECECEC",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#CECECE",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F0F0F0",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F2EF",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.013299999999999998,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Helvetica",
+      "role": "Hero Title",
+      "specs": {
+        "size": "74px",
+        "line_height": "0.95",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Blog Title",
+      "specs": {
+        "size": "56px",
+        "line_height": "1.01",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Article Title",
+      "specs": {
+        "size": "50px",
+        "line_height": "56px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Panel Title",
+      "specs": {
+        "size": "24px",
+        "line_height": "0.95",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Blog Card Title",
+      "specs": {
+        "size": "22px",
+        "line_height": "26px",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Article Section Title",
+      "specs": {
+        "size": "20px",
+        "line_height": "1.05",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Article Quote",
+      "specs": {
+        "size": "21px",
+        "line_height": "1.28",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Body Text (Panels)",
+      "specs": {
+        "size": "17px",
+        "line_height": "1.66",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Body Text (Articles)",
+      "specs": {
+        "size": "17px",
+        "line_height": "1.62",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Hero Intro",
+      "specs": {
+        "size": "17px",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Blog Excerpt",
+      "specs": {
+        "size": "17px",
+        "line_height": "1.45",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Caption",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.45",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Footnote / Secondary List",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Subheading / Bullet Title",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.15",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Navigation Link / Footer Credit",
+      "specs": {
+        "size": "12px",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Eyebrow / TOC Title",
+      "specs": {
+        "size": "11px",
+        "line_height": "1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Helvetica",
+      "role": "Call to Action (CTA)",
+      "specs": {
+        "size": "19px",
+        "line_height": "1",
+        "font_weight": "700",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "Helvetica, Arial, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Berkeley Mono",
+      "role": "Code Card",
+      "specs": {
+        "size": "18px",
+        "line_height": "1.55",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"Berkeley Mono\"",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "SF Mono",
+      "role": "Article Code",
+      "specs": {
+        "size": "14px",
+        "line_height": "1.6",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "\"SF Mono\", Menlo, Consolas, monospace",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "ui-monospace",
+      "role": "Bibtex Code",
+      "specs": {
+        "size": "13px",
+        "line_height": "1.5",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "ui-monospace",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "34px",
+    "max_width": "1080px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 640px (1 Column, 16px effective gutter, 70px side margins)",
+    "tablet": "641px - 960px (8 Columns, 24px gutter)",
+    "desktop": "961px - 1440px (12 Columns, 34px gutter, 1080px max width)",
+    "large": null
+  }
+}

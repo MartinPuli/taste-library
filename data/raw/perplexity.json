@@ -1,0 +1,1275 @@
+{
+  "company": "Perplexity",
+  "rank": 25,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://perplexity.ai/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T08:52:13.971479Z",
+  "completed_at": "2026-10-14T08:54:30.860526Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Perplexity",
+        "tagline": null,
+        "source_url": "https://www.perplexity.ai/",
+        "page_type_category": "Product",
+        "page_type": "Search Interface",
+        "industry": "SaaS / AI Search",
+        "primary_purpose": "Enable users to ask questions and receive AI-powered search answers from trusted sources",
+        "main_cta": "Ask anything...",
+        "copy_tone": [
+          "Conversational",
+          "Minimal",
+          "Direct"
+        ],
+        "brand_signature": "Clean, utilitarian interface with an off-white warm background and minimal visual ornamentation. The design centers on a prominent search input field with subtle teal accent gradients on feature cards, creating a focused, distraction-free environment for AI-assisted research.",
+        "visual_language": {
+          "keywords": [
+            "minimal",
+            "utilitarian",
+            "warm neutral",
+            "clean",
+            "focused",
+            "conversational"
+          ],
+          "accent_strategy": "Subtle teal-cyan gradients used sparingly on feature cards to differentiate product capabilities while maintaining overall restraint",
+          "highlights": "Soft radial gradients on feature cards create subtle depth and visual hierarchy without overwhelming the minimal aesthetic"
+        },
+        "strategy": {
+          "target_audience": [
+            "Knowledge workers and researchers seeking fast, accurate answers from trusted sources",
+            "Professionals who need reliable information without navigating multiple search results",
+            "Tech-savvy users comfortable with AI-powered tools looking for productivity enhancements"
+          ],
+          "executive_synthesis": "Perplexity's visual strategy deliberately strips away complexity to position AI search as an approachable, trustworthy utility rather than intimidating technology. The warm off-white background and minimal UI signal reliability and calm focus, while the conversational 'What do you want to know?' prompt lowers barriers to entry. The introduction of 'Computer' as a companion feature with NEW badge indicates strategic expansion from pure search into task automation, targeting users who want AI assistance beyond information retrieval."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals a quintessential modern SaaS/AI product interface with clear Flat Design characteristics. Visual analysis shows: (1) **Extreme whitespace dominance** - the interface is 70%+ empty space with the search bar floating in the optical center, creating an \"Airy/Spacious\" score on the density spectrum. (2) **Clean, pure color palette** - near-white backgrounds (#FBFBFB, #FCFCF9), minimal accent colors (teal badges, blue accents), and high-contrast black text on white. No muddy or vibrant neon colors. (3) **Completely flat surfaces** - the cards and input field use extremely soft shadows (shadow-sm) and subtle radial gradients for depth, but these are so minimal they don't break the flat aesthetic. No skeuomorphic textures, no glass effects, no 3D dimensionality. (4) **Geometric sans-serif typography** - Roboto/system sans-serif stack throughout, clean hierarchy with weight variations (400-500) rather than decorative treatments. (5) **Grid-based strict layout** - centered symmetric composition, 12-column grid, generous gutters, everything aligned to a clear mathematical structure. The sidebar uses icon + text patterns, the main content uses centered card layouts. The rounded corners on inputs and cards (rounded-2xl) are characteristic of modern Flat Design evolution (sometimes called \"Flat 2.0\"). The subtle radial gradients on feature cards add visual interest without breaking the flat paradigm.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The design exhibits strong Corporate modifier characteristics layered onto the Flat Design foundation. Evidence: (1) **Professional, conservative color scheme** - the palette mirrors Google's Material Design approach (primary blue #1A73E8, neutral grays, white surfaces), signaling trust and reliability. (2) **Utilitarian typography** - Roboto as the primary face is the epitome of corporate tech typography, designed for maximum readability over personality. (3) **Formal information hierarchy** - clear labeling (\"Search\", \"Projects\", \"Sessions\"), predictable navigation patterns (sidebar with collapsible sections), and conventional UI patterns (search bar, feature cards, cookie consent). (4) **Professional visual language** - simple icons, \"NEW\" badges for feature marketing, subscription/plan CTAs (\"View plans\", \"Sign In\"). This is clearly a B2B/productivity tool interface designed to communicate competence and reliability rather than playfulness or edge."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "0.75rem",
+          "max_width": "768px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 767px (1 Column, responsive padding)",
+          "tablet": "768px - 1024px (Sidebar visible, centered content)",
+          "desktop": "1025px+ (240px sidebar, max-w-screen-md content area)",
+          "large": null
+        },
+        "section_separation": "Generous vertical whitespace (40vh top spacing on desktop), subtle background color transitions (bg-base vs bg-subtle vs bg-raised), and minimal use of borders. Sidebar separated by border-r border-soft. Main content uses padding-based separation rather than structural dividers. Cookie banner floats as overlay with shadow-sm.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]     🔍  ☰                       💾  ☰            │\n├──────────────────────────────────────────────────────────┤\n│ SIDEBAR       │        MAIN CONTENT AREA                 │\n│               │                                          │\n│ + New         │                                          │\n│ 💻 Computer    │         Search                           │\n│ ⚙ Automations│    What do you want to know?             │\n│ 📦 Artifacts  │                                          │\n│ 🎯 Customize  │   ┌────────────────────────────────┐     │\n│               │   │  Ask anything...               │     │\n│ Projects    ∨ │   │                                │     │\n│ No projects   │   │  + 🔍 Search ∨ 💬  Model ∨ 🎤 ⚫ │     │\n│               │   └────────────────────────────────┘     │\n│ Sessions    ∨ │                                          │\n│ No recent     │   ┌──────────────┐ ┌─────────────────┐  │\n│ sessions      │   │🔍 Search      │ │💻 Get work done │  │\n│               │   │   anything    │ │   with Computer │  │\n│               │   │               │ │   [NEW]         │  │\n│               │   │ Get fast and  │ │ Hand off your   │  │\n│               │   │ accurate...   │ │ projects to...  │  │\n│               │   └──────────────┘ └─────────────────┘  │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │              ┌──────────────────────┐   │\n│               │              │🍪 Cookie Policy      │   │\n│               │              │                      │   │\n│ ⊞ View plans  │              │ We and our partners  │   │\n│               │              │ use cookies, pixels, │   │\n│ 👤 Sign In  > │              │ SDKs, APIs...        │   │\n│               │              │                      │   │\n└───────────────┴──────────────│ [Decline optional]   │───┘\n                               │ [Got it]            │\n                               └─────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/NAV:\n- Background: Light gray/off-white\n- Layout: Left-aligned logo (icon/symbol), search and menu icons on left, utility icons (save, menu) on right\n- Buttons/CTAs: Search icon (🔍), Menu icon (☰), Save icon (💾), Menu icon (☰)\n- Colors observed: Neutral grays, minimal\n- Typography mood: Clean, minimal\n\nSIDEBAR (Left Navigation):\n- Background: Light gray/off-white panel\n- Components: Icon + text menu items, collapsible sections\n- Menu items: \"+ New\", \"💻 Computer\", \"⚙ Automations\", \"📦 Artifacts\", \"🎯 Customize\"\n- Buttons/CTAs: \"View plans\" (bottom), \"Sign In >\" (bottom with chevron)\n- Colors observed: Dark gray text on light background\n- Typography mood: Clean, functional\n- Sections: \"Projects\" (collapsible, shows \"No projects\"), \"Sessions\" (collapsible, shows \"No recent sessions\")\n\nMAIN CONTENT (Center Area):\n- Background: White/very light gray\n- Layout: Centered search interface\n- Heading: \"Search\" label above \"What do you want to know?\"\n- Search bar: Large rounded rectangle with placeholder \"Ask anything...\"\n- Buttons/CTAs in search bar: \n  * \"+\" (add button)\n  * \"🔍 Search ∨\" (dropdown)\n  * \"💬\" (attachment icon)\n  * \"Model ∨\" (dropdown button)\n  * \"🎤\" (microphone icon)\n  * \"⚫\" (dark circle submit/send button)\n- Colors observed: White input field, gray placeholder text, dark submit button\n- Typography mood: Large, welcoming headline, clean search interface\n\nFEATURE CARDS (Below Search):\n- Background: Light gray cards with subtle borders\n- Layout: Two-column grid\n- Card 1: \"🔍 Search anything\" with description \"Get fast and accurate answers from the most trusted sources.\"\n- Card 2: \"💻 Get work done with Computer\" with [NEW] badge, description \"Hand off your projects to get polished, reliable deliverables around the clock.\"\n- Components: Rounded corners, icon + heading + description\n- Colors observed: Light gray background, dark text, teal/green \"NEW\" badge\n- Typography mood: Clear hierarchy with bold headings\n\nCOOKIE BANNER (Bottom Right):\n- Background: White card with drop shadow\n- Layout: Fixed position overlay in bottom right\n- Heading: \"🍪 Cookie Policy\"\n- Description: Privacy text about cookies, pixels, SDKs, APIs\n- Buttons/CTAs: \n  * \"Decline optional\" (outline/ghost button, gray)\n  * \"Got it\" (solid dark/black button)\n- Components: Card with shadow, two-button choice pattern\n- Colors observed: White background, dark text, black CTA button\n- Typography mood: Small, informative text with clear action buttons",
+        "insights": [
+          "Extreme vertical centering on desktop with 40vh spacer pushes search interface into optical center, creating strong focal hierarchy and sense of calm",
+          "Color-coded micro-interactions: hover states consistently use bg-subtle, focus states use shadow-sm-focus, and active states use opacity transitions—creating predictable affordance patterns",
+          "Sidebar uses 240px fixed width with --sidebar-pinned-width CSS variable, allowing programmatic width control and smooth expand/collapse animations",
+          "Feature cards employ radial gradient backgrounds with different origins (110.21% at 0% vs 120.49% at 150.32%) creating subtle directional lighting that guides eye movement left-to-right",
+          "Search input uses sophisticated layering: bg-raised on rounded-2xl container, with after: pseudo-element for shadow-sm-focus, and contenteditable div for text—enabling rich composer functionality while maintaining visual simplicity"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Light Surface",
+            "type": "Light",
+            "rules": {
+              "description": "Serves as the primary canvas for the page, ensuring readability and providing a clean, open feel.",
+              "when_to_use": [
+                "Main page background",
+                "Card and container backgrounds"
+              ]
+            },
+            "hex": "#FBFBFB",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Primary Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "The core brand and action color, drawing the user's eye to primary interactions and links.",
+              "when_to_use": [
+                "Primary CTA button background",
+                "Text links",
+                "Active state icons"
+              ]
+            },
+            "hex": "#1A73E8",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Used for high-contrast, readable text across the main content areas.",
+              "when_to_use": [
+                "Body copy text",
+                "Main headings"
+              ]
+            },
+            "hex": "#252525",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Deep Navy Accent",
+            "type": "Dark",
+            "rules": {
+              "description": "Provides high contrast for secondary dark sections or prominent headers, adding depth.",
+              "when_to_use": [
+                "Dark section backgrounds",
+                "Footer background",
+                "Secondary headings"
+              ]
+            },
+            "hex": "#0B2833",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Solid Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Used sparingly for maximum contrast in typography or structural borders.",
+              "when_to_use": [
+                "High-emphasis text elements",
+                "Borders or subtle drop shadows"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          }
+        ],
+        "insights": [
+          "The palette relies heavily on a crisp, high-contrast structural foundation (#FBFBFB and #252525) punctuated by a strong, recognizable brand blue (#1A73E8).",
+          "Pure black and deep navy serve to ground the design, likely creating depth through distinct header or footer regions.",
+          "This is a very classic, utilitarian color scheme reminiscent of Google's Material Design, prioritizing legibility and clear calls to action."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "Display Heading (H1)",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text used for descriptions, prompts, and longer passages.",
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "Body Text",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Small, utilitarian styles used for components, badges, and navigation labels.",
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "Badge",
+              "specs": {
+                "size": "11px",
+                "line_height": "",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Sans",
+              "role": "Button / Nav Label Medium",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Sans",
+              "role": "Sidebar Item",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Sans",
+              "role": "UI Micro / Helper",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Other typography usages for general UI spans and spans without explicit size variants.",
+          "variants": [
+            {
+              "name": "System Sans",
+              "role": "General UI Text",
+              "specs": {
+                "size": "",
+                "line_height": "",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "No special text highlighting styles (e.g., brush strokes, marker underlines) are present in the provided HTML.",
+        "insights": [
+          "Typography relies on a multi-platform standard sans-serif stack (Roboto, Helvetica Neue, Arial, Noto Sans) to ensure maximum OS compatibility without loading custom web fonts.",
+          "Visual hierarchy is primarily driven by text color (using primary, secondary, tertiary text variables) and utility classes rather than a wide range of font weights.",
+          "Micro-typography is heavily utilized for interface elements like badges (down to 11px) and keyboard shortcuts, catering to a power-user or technical audience."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_radial",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Base Background",
+            "description": "Primary light theme background surface",
+            "when_to_use": [
+              "Page background",
+              "Default surface color"
+            ],
+            "hex": "#FCFCF9"
+          },
+          {
+            "name": "Dark Background",
+            "description": "Primary dark theme background surface",
+            "when_to_use": [
+              "Dark mode page background"
+            ],
+            "hex": "#100E12"
+          },
+          {
+            "name": "Raised Surface",
+            "description": "Elevated surface for input containers and cards",
+            "when_to_use": [
+              "Input fields",
+              "Composer background",
+              "Elevated containers"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Subtle Surface",
+            "description": "Subtle background for secondary surfaces",
+            "when_to_use": [
+              "Hover states",
+              "Secondary containers",
+              "Composer chin area"
+            ],
+            "hex": "#F5F5F5"
+          },
+          {
+            "name": "Soft Surface",
+            "description": "Soft background for interactive elements",
+            "when_to_use": [
+              "Buttons",
+              "Toggle backgrounds",
+              "Interactive containers"
+            ],
+            "hex": "#E8E8E8"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Header Fade Overlay",
+            "description": "Top to bottom fade from base background to transparent, creates visual depth at page top",
+            "when_to_use": [
+              "Header overlays",
+              "Top section fade effects"
+            ],
+            "css_code": "linear-gradient(to bottom, var(--bg-base), transparent)"
+          },
+          {
+            "name": "Education Card Light (Teal Accent)",
+            "description": "Radial gradient creating subtle teal accent glow from top-left corner, layered over subtle background",
+            "when_to_use": [
+              "Education cards",
+              "Feature highlights",
+              "Search prompt cards"
+            ],
+            "css_code": "radial-gradient(110.21% 173.1% at 0% -79.81%, rgba(61, 149, 149, 0.10) 0%, rgba(61, 149, 149, 0.00) 100%)"
+          },
+          {
+            "name": "Education Card Dark (Teal Glow)",
+            "description": "Radial gradient with teal glow from top-right corner in dark theme",
+            "when_to_use": [
+              "Dark mode education cards",
+              "Dark theme feature highlights"
+            ],
+            "css_code": "radial-gradient(90% 130% at 100% 0%, rgba(100, 182, 186, 0.55) 0%, rgba(100, 182, 186, 0) 70%)"
+          },
+          {
+            "name": "Education Card Light Alt (Teal Top-Right)",
+            "description": "Radial gradient with teal accent from top-right corner, slightly stronger opacity",
+            "when_to_use": [
+              "Secondary education cards",
+              "Computer feature cards",
+              "Variant card backgrounds"
+            ],
+            "css_code": "radial-gradient(120.49% 162.23% at 150.32% -44.82%, rgba(61, 149, 149, 0.15) 0%, rgba(61, 149, 149, 0.00) 100%)"
+          },
+          {
+            "name": "Education Card Dark Alt (Subtle Teal)",
+            "description": "Darker teal radial gradient for dark theme secondary cards",
+            "when_to_use": [
+              "Dark mode secondary cards",
+              "Computer feature cards in dark mode"
+            ],
+            "css_code": "radial-gradient(90% 120% at 100% 0%, rgba(20, 107, 116, 0.5) 0%, rgba(20, 107, 116, 0) 62%)"
+          }
+        ],
+        "highlights": [
+          "Soft shadow effect on composer input: 'dglow-shadow-idle' class creates subtle glow around rounded input container",
+          "Radial teal accent gradients on education/feature cards create subtle depth and visual hierarchy",
+          "Linear fade overlay at page header (top-to-bottom) creates visual depth and content separation",
+          "Scrollable container uses 'mask-image: linear-gradient()' for edge fade effect on sidebar scroll",
+          "Dark mode uses solid color #016a71 and #081F22 bases layered with radial gradients for depth"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This design system primarily uses borders and subtle background color changes rather than box-shadows for elevation.",
+          "levels": [
+            {
+              "name": "Small Focus Shadow",
+              "type": "drop",
+              "description": "Subtle focus indicator shadow used on interactive elements. Applied via utility class for accessibility focus states.",
+              "css_value": "shadow-sm-focus",
+              "when_to_use": [
+                "Focus states",
+                "Composer input focus",
+                "Interactive element highlighting"
+              ]
+            },
+            {
+              "name": "Cookie Banner Shadow",
+              "type": "drop",
+              "description": "Small shadow applied to the fixed cookie policy banner for elevation above page content.",
+              "css_value": "shadow-sm",
+              "when_to_use": [
+                "Cookie consent banners",
+                "Fixed notification toasts",
+                "Floating UI elements"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "dashed"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "accordion",
+          "hover_lift",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "button-transition",
+            "css": "transition: background-color 300ms ease-out, border-color 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out",
+            "description": "Smooth 300ms ease-out transition for button background, border, color, and opacity changes on interaction"
+          },
+          {
+            "name": "opacity-fade",
+            "css": "transition: opacity 150ms",
+            "description": "Quick 150ms opacity fade used for button content swaps and loading states"
+          },
+          {
+            "name": "delayed-opacity-fade",
+            "css": "transition: opacity 150ms 150ms",
+            "description": "150ms opacity transition with 150ms delay for staggered content reveals in buttons"
+          },
+          {
+            "name": "chevron-rotate",
+            "css": "transition-transform",
+            "description": "Transform transition for rotating chevron icons in accordion expand/collapse"
+          },
+          {
+            "name": "card-hover-scale",
+            "css": "transition-transform hover:scale-[1.01]",
+            "description": "Subtle 1% scale increase on feature card hover for lift effect"
+          },
+          {
+            "name": "sidebar-slide",
+            "css": "",
+            "description": "JS-driven transform: translate3d animation for sidebar panel open/close"
+          },
+          {
+            "name": "mode-tab-indicator",
+            "css": "",
+            "description": "JS-driven width and inset-inline-start animation for sliding pill indicator behind selected mode tab"
+          },
+          {
+            "name": "accordion-height",
+            "css": "",
+            "description": "JS-driven height animation for accordion section expand/collapse, uses will-change: height"
+          },
+          {
+            "name": "text-blur-reveal",
+            "css": "",
+            "description": "JS-driven filter: blur() and opacity animation for headline text reveal effect"
+          }
+        ],
+        "insights": [
+          "The design system uses CSS variables extensively (--bg-soft, --text-primary, --border-soft) enabling seamless dark/light mode switching with prefers-color-scheme media queries.",
+          "Button interactions favor opacity changes over background shifts for primary CTAs, creating a subtle but cohesive hover feedback pattern.",
+          "The composer input area uses a sophisticated tab switching mechanism with animated sliding pill indicators, suggesting a polished micro-interaction focus throughout the UI."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Got it (Primary CTA)",
+            "usage": "Primary confirmation action in cookie consent banner and modal dialogs",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Roboto, sans-serif",
+                  "size": "14px",
+                  "padding": "0 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--bg-button-bg)",
+                "text_color": "var(--text-inverse)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-button-bg)",
+                "text_color": "var(--text-inverse)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.8",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--bg-button-bg)",
+                "text_color": "var(--text-inverse)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Decline optional (Secondary Ghost)",
+            "usage": "Secondary action for declining optional cookies or dismissing non-critical prompts",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Roboto, sans-serif",
+                  "size": "14px",
+                  "padding": "0 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--bg-soft)",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-subtle)",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--bg-soft)",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "View plans (Outline Pill)",
+            "usage": "Sidebar CTA for viewing subscription plans, upgrade prompts",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Extra Small",
+                  "font": "Roboto, sans-serif",
+                  "size": "12px",
+                  "padding": "0 8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "var(--text-primary)",
+                "border_color": "var(--border-base)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-subtle)",
+                "text_color": "var(--text-primary)",
+                "border_color": "var(--border-base)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "var(--text-primary)",
+                "border_color": "var(--border-base)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Search (Composer Mode Tab)",
+            "usage": "Mode selector pill inside composer for switching to search mode",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Roboto, sans-serif",
+                  "size": "14px",
+                  "padding": "0 8px 0 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular)",
+            "usage": "Utility actions in header, composer toolbar, and sidebar - includes menu toggle, search, attachment, microphone, and submit actions",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "Roboto, sans-serif",
+                  "size": "16px",
+                  "padding": "0"
+                },
+                {
+                  "name": "Small",
+                  "font": "Roboto, sans-serif",
+                  "size": "14px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "var(--text-secondary)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-soft)",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "var(--text-secondary)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Submit (Dark Circular)",
+            "usage": "Primary submit action in composer input, voice input activation",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Medium",
+                  "font": "Roboto, sans-serif",
+                  "size": "16px",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--bg-button-bg)",
+                "text_color": "var(--text-inverse)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-button-bg)",
+                "text_color": "var(--text-inverse)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.8",
+                "cursor": null
+              },
+              "disabled": {
+                "background": "var(--bg-button-bg)",
+                "text_color": "var(--text-inverse)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Model (Ghost Dropdown)",
+            "usage": "Model selector dropdown trigger in composer toolbar",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Roboto, sans-serif",
+                  "size": "14px",
+                  "padding": "0 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "var(--text-secondary)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--bg-soft)",
+                "text_color": "var(--text-primary)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "var(--text-secondary)",
+                "border_color": "transparent",
+                "border_width": "0",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Horizontal button groups with consistent spacing for cookie banner actions",
+          "spacing": "8px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": null,
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Mode Selector Tab",
+          "description": "Toggle between Search and Computer modes in the composer input area.",
+          "when_to_use": [
+            "Switching between search and computer assistant modes",
+            "Mode selection in query composer"
+          ],
+          "states": [
+            {
+              "name": "selected",
+              "visual_change": "Background pill indicator slides behind selected tab, border becomes visible",
+              "background": "var(--bg-raised)",
+              "text": "text-primary",
+              "icon": null
+            },
+            {
+              "name": "default",
+              "visual_change": "No background, muted text color",
+              "background": "transparent",
+              "text": "text-secondary",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Feature Card",
+            "description": "Gradient-background cards promoting key features like Search and Computer modes, with icon, title, optional badge, and description",
+            "when_to_use": [
+              "Feature promotion on landing/home views",
+              "Onboarding education cards",
+              "Mode selection interfaces"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Single section open at a time, chevron rotates 90deg on expand, smooth height animation"
+        },
+        "dividers": [
+          {
+            "name": "Sidebar Section Divider",
+            "description": "Horizontal divider separating sidebar navigation sections (main nav from projects/sessions)",
+            "when_to_use": [
+              "Separating primary nav from collapsible sections",
+              "Visual grouping in sidebar"
+            ],
+            "color": "var(--border-soft)",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Mobile Header Divider",
+            "description": "Bottom border on mobile header separating nav from content",
+            "when_to_use": [
+              "Mobile viewport header separation"
+            ],
+            "color": "var(--border-soft)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Perplexity UI Line Icons",
+          "description": "Monoline interface icons used for navigation, actions, and controls.",
+          "when_to_use": [
+            "Sidebar navigation",
+            "Search bar",
+            "Action buttons",
+            "Cookie banner"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline (1.75 stroke)",
+          "sizes": {
+            "small": "14px",
+            "medium": "16px, 18px, 20px"
+          },
+          "examples": [
+            {
+              "name": "Search",
+              "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"16\" height=\"16\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-search\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0 M21 21l-6 -6\"></path></g></g></svg>"
+            },
+            {
+              "name": "Layout Sidebar",
+              "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"16\" height=\"16\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-layout-sidebar\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z M9 4l0 16\"></path></g></g></svg>"
+            },
+            {
+              "name": "Computer",
+              "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-custom-computer\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.875 7.813v2.124m4.25-2.124v2.124M1.375 20.5h21.25m-4.25-17H5.625A2.125 2.125 0 0 0 3.5 5.625v8.5c0 1.174.951 2.125 2.125 2.125h12.75a2.125 2.125 0 0 0 2.125-2.125v-8.5A2.125 2.125 0 0 0 18.375 3.5Z\"></path></g></g></svg>"
+            },
+            {
+              "name": "Settings",
+              "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-settings-2\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\"></path></g></g></svg>"
+            },
+            {
+              "name": "Cookie",
+              "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-cookie\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13v.01 M12 17v.01 M12 12v.01 M16 14v.01 M11 8v.01 M13.148 3.476l2.667 1.104a4 4 0 0 0 4.656 6.14l.053 .132a3 3 0 0 1 0 2.296q -.745 1.18 -1.024 1.852q -.283 .684 -.66 2.216a3 3 0 0 1 -1.624 1.623q -1.572 .394 -2.216 .661q -.712 .295 -1.852 1.024a3 3 0 0 1 -2.296 0q -1.203 -.754 -1.852 -1.024q -.707 -.292 -2.216 -.66a3 3 0 0 1 -1.623 -1.624q -.397 -1.577 -.661 -2.216q -.298 -.718 -1.024 -1.852a3 3 0 0 1 0 -2.296q .719 -1.116 1.024 -1.852q .257 -.62 .66 -2.216a3 3 0 0 1 1.624 -1.623q 1.547 -.384 2.216 -.661q .687 -.285 1.852 -1.024a3 3 0 0 1 2.296 0\"></path></g></g></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Perplexity UI Filled Icons",
+          "description": "Solid filled interface icons used for specific actions or emphasis.",
+          "when_to_use": [
+            "Prominent action buttons",
+            "Specific tool features"
+          ],
+          "format": "SVG",
+          "style": "Filled / Solid",
+          "sizes": {
+            "small": "16px",
+            "medium": "18px"
+          },
+          "examples": [
+            {
+              "name": "Custom Plus Large",
+              "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-custom-plus-large\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M11.125 21V12.875H3a.875.875 0 0 1 0-1.75h8.125V3a.875.875 0 1 1 1.75 0v8.125h8.125a.875.875 0 0 1 0 1.75H12.875V21a.875.875 0 0 1-1.75 0Z\"></path></g></g></svg>"
+            },
+            {
+              "name": "Perplexity Voice to Voice",
+              "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"16\" height=\"16\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-custom-perplexity-v2v\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M0 12.6663C0 13.4018 0.59792 13.9997 1.33333 13.9997C2.06875 13.9997 2.66667 13.4018 2.66667 12.6663V11.333C2.66667 10.5975 2.06875 9.99967 1.33333 9.99967C0.59792 9.99967 0 10.5975 0 11.333V12.6663ZM6.66667 5.33301C7.40213 5.33301 8 5.93087 8 6.66634V17.333C8 18.0685 7.40213 18.6663 6.66667 18.6663C5.9312 18.6663 5.33333 18.0685 5.33333 17.333V6.66634C5.33333 5.93087 5.9312 5.33301 6.66667 5.33301ZM10.6667 21.333C10.6667 22.0685 11.2645 22.6663 12 22.6663C12.7355 22.6663 13.3333 22.0685 13.3333 21.333V2.66634C13.3333 1.93093 12.7355 1.33301 12 1.33301C11.2645 1.33301 10.6667 1.93093 10.6667 2.66634V21.333ZM17.3333 5.33301C18.0688 5.33301 18.6667 5.93087 18.6667 6.66634V17.333C18.6667 18.0685 18.0688 18.6663 17.3333 18.6663C16.5979 18.6663 16 18.0685 16 17.333V6.66634C16 5.93087 16.5979 5.33301 17.3333 5.33301ZM24 11.333C24 10.5975 23.4021 9.99967 22.6667 9.99967C21.9312 9.99967 21.3333 10.5975 21.3333 11.333V12.6663C21.3333 13.4018 21.9312 13.9997 22.6667 13.9997C23.4021 13.9997 24 13.4018 24 12.6663V11.333Z\" fill-rule=\"evenodd\"></path></g></g></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/favicon.svg",
+            "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/favicon.svg",
+            "origin_url": "https://www.perplexity.ai/favicon.svg",
+            "description": "Perplexity Favicon SVG"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://www.perplexity.ai/favicon.png",
+            "path": null,
+            "origin_url": null,
+            "description": "Perplexity Favicon PNG"
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/favicon.png",
+            "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/favicon.png",
+            "origin_url": "https://www.perplexity.ai/apple-touch-icon.png",
+            "description": "Perplexity Apple Touch Icon"
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/favicon.ico",
+            "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/favicon.ico",
+            "origin_url": "https://www.perplexity.ai/favicon.ico",
+            "description": "Perplexity Favicon ICO"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/secondary-inline.svg",
+            "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/secondary-inline.svg",
+            "origin_url": null,
+            "description": "Perplexity Secondary Logo (Inline SVG)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/secondary-inline-2.svg",
+            "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/logos/secondary-inline-2.svg",
+            "origin_url": null,
+            "description": "Perplexity Secondary Logo 2 (Inline SVG)"
+          }
+        ],
+        "media": [
+          {
+            "name": "Perplexity Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/media/image/perplexity-open-graph-image.png",
+            "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/site-assets/media/image/perplexity-open-graph-image.png",
+            "origin_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+            "usage_context": "Meta og:image — social share preview."
+          }
+        ]
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/x/2dcb237a-3c08-4409-b25b-d4efb93a67c6.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Glowing cyan geometric star-like emblem with translucent panels, centered on a black background over faint construction lines."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/x/5b06b6c1-bb0f-4d5b-8690-1fb3d30946ab.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A glowing translucent orb with a simple gray device-like icon floats above a sunlit field of white wildflowers against a dark background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/x/91e1697e-5b5d-42a5-a7f7-cf3caceaee1b.png",
+            "source": "x",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A grid-backed workflow diagram shows three agents and a human sending edits to a teal-outlined project repository box."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/x/e3031f91-2852-4d0c-8d74-0515b9f45b04.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A technical comparison diagram contrasts long-lived shared sandboxes with short-lived sandboxes, stateless replicas, and teal-highlighted shared AWS S3 storage."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/x/bc5594dd-9210-4e63-8cb5-5db09c3fc3c9.png",
+            "source": "x",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A grid-backed workflow diagram shows concurrent agent submissions, with teal arrows and repository head progressing from H0 to H2."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/x/297eabaa-26a5-41f6-9fa6-f57f34a1a11d.png",
+            "source": "x",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Editorial infographic compares semantic search with an exploration agent, using teal and gray bars to show retrieval and answer scores."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/google_ads/44198653-4cff-45ca-8477-5a0ac009969c.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A Perplexity AI mobile ad with bold “AI for Content Creators” typography, a creator-tool preview, and a black Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/google_ads/b6abc389-de74-4e25-bd0c-8bc39674f08d.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimal Perplexity AI mobile ad with bold black “Claude, GPT, Gemini + More” typography, real estate research copy, and a bottom Open button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/google_ads/db892764-f8df-4527-a459-acb1fa46ae82.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Perplexity AI mobile ad with a black geometric logo, oversized “Positions You Missed” headline, career-assistant copy, and dark application-preview panel."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/google_ads/7c4b5262-6664-4e9c-9085-1e51a01c126a.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Perplexity Computer promotional graphic with a pale blue background, bold dark teal headline, and a small AI-themed globe image above an “Open” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/google_ads/38545a43-ac20-46d0-9840-d3585af317a9.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "A sparse white ad layout labeled “Collapsed ad on mobile,” “Collapsed ad on desktop,” and “Expanded ad,” with a thin outlined horizontal bar."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/billboard/314e31e3-a973-4328-8cf5-6ffe4cc9185c.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A German billboard pairs a magenta panel with bold white text and arrows with a cyan Perplexity panel and magenta Telekom logo."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/google_ads/2b6f959a-defa-4be2-a2db-9c87367ab4a5.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Perplexity mobile ad with a pale blue background, bold dark teal headline “GPT, Claude, Gemini & More,” and a conductor image promoting access to AI models."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/brand-media/billboard/f25aff52-4c16-4bc6-9782-2245439178fb.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Large outdoor magenta-and-cyan billboard shows a reclining teenager, bold German text, the Perplexity logo, and a Telekom “T” mark."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Header",
+          "layout_pattern": "Horizontal split with left-aligned logo and right-aligned utility icons",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Perplexity logo icon in primary color, size-5, placed in a rounded-lg container with hover state"
+            },
+            {
+              "type": "button",
+              "description": "Search icon button, size-8, rounded-full with hover:bg-subtle state"
+            },
+            {
+              "type": "button",
+              "description": "Save/bookmark icon button on right side, rounded-full with subtle hover effect"
+            },
+            {
+              "type": "button",
+              "description": "Menu hamburger icon button, rounded-full, text-secondary color"
+            }
+          ]
+        },
+        {
+          "type": "Sidebar Navigation",
+          "layout_pattern": "Left-aligned fixed sidebar, 240px width",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Vertical navigation menu with icon + text items: New (with keyboard shortcut ⌃I), Computer, Automations, Artifacts, Customize. Each item has 40px height, rounded-lg hover state with bg-subtle"
+            },
+            {
+              "type": "accordion",
+              "description": "Projects collapsible section with chevron toggle, shows 'No projects' empty state in tertiary text"
+            },
+            {
+              "type": "accordion",
+              "description": "Sessions collapsible section with chevron toggle, shows 'No recent sessions' empty state in tertiary text"
+            },
+            {
+              "type": "button",
+              "description": "View plans button at bottom, rounded-full with border-base, h-6, text-xs, with icon on left"
+            },
+            {
+              "type": "button",
+              "description": "Sign In button with chevron right arrow, h-10, rounded-lg, at bottom of sidebar with user icon"
+            }
+          ]
+        },
+        {
+          "type": "Hero / Search Interface",
+          "layout_pattern": "Centered with 40vh top spacing on desktop",
+          "headline": "What do you want to know?",
+          "subheadline": "Search",
+          "components": [
+            {
+              "type": "form",
+              "description": "Large centered search input with rounded-2xl border, bg-raised, shadow-sm-focus. Placeholder text 'Ask anything…' in tertiary color"
+            },
+            {
+              "type": "button",
+              "description": "Plus icon button inside input, size-8, rounded-full, text-secondary, for file attachment"
+            },
+            {
+              "type": "button",
+              "description": "Search mode toggle button with icon and 'Search' label plus dropdown chevron, h-8, rounded-full in pill group with animated background indicator"
+            },
+            {
+              "type": "button",
+              "description": "Attachment/paperclip icon button in pill group, dashed border when inactive, text-secondary"
+            },
+            {
+              "type": "button",
+              "description": "Model selector dropdown button with text 'Model' and chevron, h-8, rounded-full, text-secondary hover:text-primary"
+            },
+            {
+              "type": "button",
+              "description": "Microphone voice input button, size-8, rounded-full, text-secondary"
+            },
+            {
+              "type": "button",
+              "description": "Submit button, dark circular button (aspect-[9/8]), bg-button-bg, text-inverse, prominent CTA"
+            }
+          ]
+        },
+        {
+          "type": "Feature Cards",
+          "layout_pattern": "Two-column grid with equal width cards, gap-3",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Search anything card with teal radial gradient background (light: rgba(61, 149, 149, 0.10), dark: #016a71), rounded-xl, p-4, search icon, text-primary dark:text-white heading, text-secondary description, hover:scale-[1.01] transition"
+            },
+            {
+              "type": "card",
+              "description": "Get work done with Computer card with teal/green radial gradient (light: rgba(61, 149, 149, 0.15), dark: rgba(20, 107, 116, 0.5)), rounded-xl, p-4, computer icon, 'NEW' badge with bg-super-soft text-super-primary, hover:scale-[1.01] transition"
+            }
+          ]
+        },
+        {
+          "type": "Cookie Consent Banner",
+          "layout_pattern": "Fixed bottom-right overlay, max-w-md",
+          "headline": "🍪 Cookie Policy",
+          "subheadline": "We and our partners use cookies, pixels, SDKs, APIs...",
+          "components": [
+            {
+              "type": "card",
+              "description": "White card (bg-base) with shadow-sm, rounded-lg, p-4, positioned bottom-2 inset-x-2 on mobile, bottom-2 right-2 on desktop"
+            },
+            {
+              "type": "icon",
+              "description": "Cookie emoji/icon (🍪) inline with heading, size-18"
+            },
+            {
+              "type": "button",
+              "description": "Decline optional button, h-8, text-sm, rounded-lg, bg-soft text-primary with border, hover:bg-subtle"
+            },
+            {
+              "type": "button",
+              "description": "Got it primary CTA button, h-8, text-sm, rounded-lg, bg-button-bg text-inverse, hover:opacity-80"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": null
+    }
+  }
+}

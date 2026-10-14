@@ -1,0 +1,1992 @@
+{
+  "company": "Figma",
+  "rank": 7,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.figma.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:03:25.991731Z",
+  "completed_at": "2026-09-15T16:36:48.597923Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Figma",
+        "tagline": null,
+        "source_url": "https://www.figma.com/",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Design Software / Collaborative Tools",
+        "primary_purpose": "Drive product adoption and signups by showcasing Figma's intelligent design canvas and AI-powered creative tools for teams",
+        "main_cta": "Get started",
+        "copy_tone": [
+          "Aspirational",
+          "Empowering",
+          "Precise"
+        ],
+        "brand_signature": "Clean, white-dominated interface with bold black typography and vibrant green (#0ACF83) accent CTAs. The visual identity balances minimalist UI patterns with expressive, colorful product imagery showcasing creative possibilities.",
+        "visual_language": {
+          "keywords": [
+            "intelligent",
+            "infinite",
+            "collaborative",
+            "expressive",
+            "precise",
+            "creative",
+            "modern"
+          ],
+          "accent_strategy": "High-contrast green (#0ACF83) buttons used exclusively for primary CTAs against white backgrounds and black text, creating strong visual hierarchy and action orientation.",
+          "highlights": "Product showcases featuring rich, colorful design examples and videos demonstrating creative capabilities, contrasted against the minimal white canvas aesthetic"
+        },
+        "strategy": {
+          "target_audience": [
+            "Product designers seeking powerful, collaborative design tools for end-to-end product development",
+            "Design team leads and managers at enterprises evaluating design systems and workflow solutions",
+            "Developers and engineers needing design-to-code translation and handoff capabilities",
+            "Creative professionals exploring AI-powered design and content generation workflows"
+          ],
+          "executive_synthesis": "Figma's homepage positions the platform as an 'intelligent canvas for infinite creativity' - emphasizing both AI capabilities and unlimited creative expression. The visual strategy uses a clean, minimalist interface as a neutral canvas that lets vibrant product showcases demonstrate possibilities, while the prominent green CTAs and 95% Fortune 500 social proof drive enterprise credibility. The messaging architecture flows from aspirational creativity to concrete product capabilities to community validation, building a narrative that Figma is both creatively liberating and professionally essential."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "**Visual Analysis:** The Figma homepage presents a striking, high-contrast aesthetic dominated by pure black (#000000) and white (#FFFFFF) with bold neon green CTA banners as visual punctuation. The design feels modern, clean, and digitally-native with excellent clarity and objective communication.\n\n**6 Spectra Scoring:**\n1. Visual Density: **Airy/Spacious** — Generous whitespace (5-7.5rem section padding), centered symmetric layout, 12-column grid with controlled max-width\n2. Color Cleanliness: **Clean/Pure** — Stark black/white foundation with vibrant green accents, no muddy or gritty tones\n3. Chronology: **Modern** — Contemporary digital product aesthetic, current design patterns\n4. Dimensionality: **Flat (2D)** — Soft shadows exist but are minimal; no skeuomorphic depth, no glass effects, no 3D elements\n5. Decoration: **Minimal** — Typography-driven, geometric shapes, no ornamental flourishes\n6. Structure: **Rigid Grid** — Strict 12-column system, centered symmetric composition, clear section separation\n\n**Forensic Element Matching:**\n- **Shape:** Geometric, rectangular grids, pill-shaped buttons — matches Flat Design's \"Geometric Shapes\"\n- **Texture:** Shadows are soft but subtle (0.25rem blur with 90% transparency), primarily flat surfaces with no blur effects or noise — \"Flat/No Effects\" profile\n- **Color:** High-contrast black/white with saturated accent (neon green) — matches Flat Design's \"bold, saturated\" color profile\n- **Typography:** Sans-Serif Modern (figmaSans variable font), geometric, clean hierarchy — directly matches Flat Design taxonomy\n- **Layout:** Grid-Based Strict, Generous Whitespace — core Flat Design characteristics\n\n**Key Differentiators:**\n- NOT Brutalism: Despite high contrast, the design is polished, refined, and maintains traditional grid structure rather than raw/anti-design aesthetic\n- NOT Swiss Style: While typography-driven, it lacks the characteristic off-white/cream paper tones and historical movement feel; this is digital-native\n- NOT Glassmorphism/Neumorphism: No blur effects, no extruded elements, no frosted transparency\n- The soft shadows prevent this from being \"completely flat,\" but they serve functional rather than decorative purposes\n\n**Secondary Style - Corporate:**\nThe design communicates trust, reliability, and professionalism through its conservative color choices, systematic grid, clear hierarchy, and enterprise client logos (Microsoft, Netflix, Stripe). The formal structure and objective communication style positions this as a major tech company's product page, warranting the Corporate modifier.",
+          "secondary_style": "Corporate",
+          "reasoning_secondary": "The Corporate modifier applies because this is clearly enterprise-focused SaaS marketing: testimonial section with Fortune 500 logos (Microsoft, Netflix, Stripe, GitHub), professional trust signals (\"71%\" statistic callout), systematic product ecosystem presentation (Dev Mode, Slides with color-coded icons), and formal multi-column footer with comprehensive navigation. The design prioritizes competence and reliability signals over playful or experimental aesthetics, positioning Figma as a serious tool for professional teams rather than a creative experiment."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "1rem",
+          "max_width": "95rem"
+        },
+        "breakpoints": {
+          "mobile": "0px - 479px (4 Columns, 1rem gutter)",
+          "tablet": "480px - 1023px (12 Columns, 1rem gutter)",
+          "desktop": "1024px - 1599px (12 Columns, 1rem gutter)",
+          "large": "1600px+ (12 Columns, 1rem gutter)"
+        },
+        "section_separation": "Sections are separated by full-width neon green CTA banner blocks that repeat between major content sections. The banners provide strong visual punctuation and rhythm. Additional separation includes alternating white backgrounds for content sections, generous vertical padding (5rem to 7.5rem on desktop), and solid black CTA section for high-contrast transition. The green banners act as consistent dividers throughout the entire page.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]    Products  Solutions  Resources  Pricing       │\n│                              Log in  [Sign up for free]  │\n├──────────────────────────────────────────────────────────┤\n│                      [HERO - Split]                      │\n│  The intelligent                    ┌─────────────────┐  │\n│  canvas for                         │  [Product UI    │  │\n│  infinite                           │   Screenshots]  │  │\n│  creativity          [Get started]  └─────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│                     [SECTION 1]                          │\n│    One workspace for your entire product development     │\n│              Made in one where one than 200...           │\n│  ┌─────────────────┐    ┌─────────────────┐             │\n│  │  MODULAR LIVING │    │  [Mobile App    │             │\n│  │  [Website       │    │   Interface     │             │\n│  │   Mockup]       │    │   Grid]         │             │\n│  └─────────────────┘    └─────────────────┘             │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│  • [Bullet point]                                        │\n│    Design with                                           │\n│    [Additional text]                                     │\n│  • [Bullet point]                                        │\n│    Prototype and test                                    │\n│    [Additional text]                                     │\n├──────────────────────────────────────────────────────────┤\n│                     [SECTION 2]                          │\n│     Make text in the right direction on any device       │\n│                [Description text]                        │\n│            ┌───────────────────────┐                     │\n│            │   [Mobile Phone       │                     │\n│            │    Mockup showing     │                     │\n│            │    UI Components]     │                     │\n│            └───────────────────────┘                     │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│                     [SECTION 3]                          │\n│         Powerfully expressive. Endlessly artistic.       │\n│                [Description text]                        │\n│  ┌──────┐  ┌──────┐  ┌──────┐  ┌──────┐                 │\n│  │[Grid]│  │[Grid]│  │[Grid]│  │[Grid]│                 │\n│  │      │  │      │  │      │  │      │                 │\n│  │[Img] │  │[Img] │  │[Img] │  │[Img] │                 │\n│  └──────┘  └──────┘  └──────┘  └──────┘                 │\n│  ┌──────┐  ┌──────┐  ┌──────┐  ┌──────┐                 │\n│  │[Grid]│  │[Grid]│  │[Grid]│  │[Grid]│                 │\n│  │      │  │      │  │      │  │      │                 │\n│  │[Img] │  │[Img] │  │[Img] │  │[Img] │                 │\n│  └──────┘  └──────┘  └──────┘  └──────┘                 │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│                     [SECTION 4]                          │\n│      Start with design content. Build with consistency   │\n│                [Description text]                        │\n│            ┌─────────────────────────┐                   │\n│            │  [GitHub Icon]          │                   │\n│            │  Clone repo    [ht]     │                   │\n│            └─────────────────────────┘                   │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│                  [TESTIMONIAL SECTION]                   │\n│  The products you love are designed in Figma             │\n│                                                          │\n│  \"Everyone is able to influence, inspire, and give       │\n│   their without even opinion...                      71% │\n│                                                          │\n│  [Company Logos: Patagonia, Microsoft, Dropbox, Netflix, │\n│                  Airbnb, etc.]                           │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│                  [Black CTA Section]                     │\n│                   [Get started]                          │\n├──────────────────────────────────────────────────────────┤\n│                     [SECTION 5]                          │\n│     Explore what you can do in Figma.                    │\n│     See examples of work made by the community           │\n│  ┌──────┐  ┌──────┐  ┌──────┐  ┌──────┐                 │\n│  │[Card]│  │[Card]│  │[Card]│  │[Card]│                 │\n│  └──────┘  └──────┘  └──────┘  └──────┘                 │\n│  ┌──────┐  ┌──────┐                                      │\n│  │[Card]│  │[Card]│                                      │\n│  └──────┘  └──────┘                                      │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│                      [FOOTER]                            │\n│  Figma                                                   │\n│  ★★★★★                                                   │\n│                                                          │\n│  [Col 1]      [Col 2]      [Col 3]      [Col 4]         │\n│  Products     Features    Resources    Company          │\n│  Solutions    Templates   Blog         About            │\n│  Pricing      Downloads   Community    Contact          │\n│  ...          ...         ...          ...              │\n├──────────────────────────────────────────────────────────┤\n│                 [Green CTA Banner]                       │\n│            [Explore Figma] ───────────────→              │\n├──────────────────────────────────────────────────────────┤\n│  [Legal Links]                                           │\n│  © 2024 Figma  Privacy  Terms  [Social Icons]           │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: White, clean minimal header\n- Logo: \"Figma\" wordmark on left\n- Buttons/CTAs: \"Log in\" (text link, black) | \"Sign up for free\" (solid black pill, white text)\n- Colors: Black, white\n- Typography: Clean sans-serif, minimal\n\nHERO:\n- Background: White left side, right side shows product screenshot with dark UI\n- Layout: Split layout - text left, visuals right\n- Buttons/CTAs: \"Get started\" (solid black pill, white text)\n- Imagery: Product screenshots showing infinite canvas with various UI elements, cards, and components\n- Colors: Black text, white background, colorful product screenshots (purple, red, yellow accents)\n- Typography: Large bold headline, clean sans-serif\n\nGREEN CTA BANNER (Recurring):\n- Background: Bright neon green (#00FF00 or similar)\n- Buttons/CTAs: \"Explore Figma\" with right arrow (→) - appears as text link\n- Pattern: Full-width banner, repeats between major sections\n- Colors: Neon green background, black text\n- Typography: Bold, prominent\n\nSECTION 1 (Workspace):\n- Background: White\n- Imagery: Two side-by-side mockups - left shows \"MODULAR LIVING\" yellow website design, right shows dark mobile app interface grid\n- Components: Clean mockup presentation with subtle shadows\n- Colors: Yellow/lime green accent (MODULAR LIVING), dark UI themes\n- Typography: Centered headline, subtext\n\nBULLET POINTS SECTION:\n- Background: White\n- Layout: Two-column bullet list\n- Typography: Clean, minimal\n- Bullets: \"Design with...\" and \"Prototype and test\"\n\nSECTION 2 (Mobile Direction):\n- Background: Light gray/off-white\n- Imagery: Large centered mobile phone mockup showing purple-gradient UI with components\n- Components: Phone mockup shows currency exchange UI with bright lime/yellow cards\n- Colors: Purple gradient background on phone, neon yellow/green UI elements\n- Typography: Centered headline\n\nSECTION 3 (Gallery Grid):\n- Background: White\n- Layout: 4x2 grid of diverse creative work\n- Imagery: Mix of styles - RE:FINISHED branding, gradients, blue athletic imagery, VAULT text, neon effects, nature photography\n- Components: Card grid with various aspect ratios\n- Colors: Highly diverse - blues, yellows, purples, greens, naturalistic tones\n- Typography: Centered headline above grid\n\nSECTION 4 (GitHub Clone):\n- Background: Light mint/cyan gradient\n- Imagery: Large rounded rectangle showing GitHub-style clone interface\n- Components: GitHub icon, dropdown showing \"Clone repo\", text input with \"ht\"\n- Colors: Soft cyan/mint background, white card, black text\n- Typography: Centered headline\n\nTESTIMONIAL SECTION:\n- Background: White\n- Layout: Quote on left, \"71%\" statistic on right\n- Imagery: Headshot photo of person\n- Components: Company logos in row - Patagonia, Microsoft, Dropbox, Netflix, Prosper, Airbnb, Valve\n- Colors: Grayscale logos, black text\n- Typography: Large quote text, percentage callout\n\nBLACK CTA SECTION:\n- Background: Solid black\n- Buttons/CTAs: \"Get started\" (large white pill button, black text)\n- Colors: Black background, white button\n- Typography: Bold, high contrast\n\nSECTION 5 (Community Examples):\n- Background: White\n- Layout: Grid of community work cards (6 visible)\n- Imagery: Various design examples - mobile UI, branding, web design\n- Components: Cards with preview images\n- Colors: Diverse based on content\n- Typography: Headline with subtext\n\nFOOTER:\n- Background: Black\n- Layout: Multi-column footer links\n- Components: Star rating (5 stars), multiple link columns\n- Columns: Products, Features, Resources, Company with various links under each\n- Colors: White text on black\n- Typography: Clean, organized hierarchy\n\nFINAL GREEN BANNER:\n- Background: Neon green\n- Buttons/CTAs: \"Explore Figma\" with arrow\n\nLEGAL FOOTER:\n- Background: Black\n- Components: Copyright text, Privacy/Terms links, social icons\n- Colors: Gray/white text on black\n- Typography: Small, legal text size\n\nOVERALL DESIGN LANGUAGE:\n- Modern, minimal, high contrast\n- Consistent use of neon green as accent/separator\n- Black and white primary palette\n- Pill-shaped buttons throughout\n- Clean sans-serif typography\n- Mix of product screenshots and creative work examples\n- Strong use of whitespace and section separation",
+        "insights": [
+          "The page uses a highly rhythmic structure with recurring neon green CTA banners as visual separators, creating a predictable cadence that guides the user through content.",
+          "Layout favors centered, symmetric composition with generous whitespace (5rem-7.5rem section padding). Hero and feature sections use 50/50 splits or centered single-column layouts, reinforcing balance.",
+          "The testimonial section introduces asymmetry with a side-by-side quote/statistic layout and an animated logo carousel, providing dynamic visual interest after several static content blocks.",
+          "Typography hierarchy is clear: large display headlines (3.5rem-5.5rem) for major sections, with consistent button styling (pill-shaped with arrow animations on hover). The black-and-white color scheme with neon green accents creates high contrast and modern aesthetic.",
+          "Grid system adapts from 4 columns (mobile) to 12 columns (desktop+) with consistent 1rem gutters, and a constrained max-width of 95rem maintains readability on large screens."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Ink Black",
+            "type": "Dark",
+            "rules": {
+              "description": "The foundational dark color used for primary text, major interactive elements, and dark architectural sections.",
+              "when_to_use": [
+                "Primary page typography and headings",
+                "Solid background for 'Get started' CTAs",
+                "Global footer section background",
+                "Video player control containers"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 1
+          },
+          {
+            "name": "Canvas White",
+            "type": "Light",
+            "rules": {
+              "description": "The primary structural surface color and contrasting text hue for dark components.",
+              "when_to_use": [
+                "Main application background",
+                "Navigation dropdown menu surfaces",
+                "Inverse text inside solid black buttons",
+                "Subtle grayish-blue tint (shade) for AI product icons like Figma Make"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#E3ECF2",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.5061
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Brand Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "A vibrant blue accent used in the primary brand mark and select decorative highlights.",
+              "when_to_use": [
+                "Top node in the header logo SVG",
+                "Conic gradient background framing customer testimonial headshots"
+              ]
+            },
+            "hex": "#00B6FF",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0001
+          },
+          {
+            "name": "Dev Green",
+            "type": "Warm Color",
+            "rules": {
+              "description": "A vivid green brand accent used in the logo and systematically assigned to development-focused tools.",
+              "when_to_use": [
+                "Left node in the header logo SVG",
+                "Figma Dev Mode navigation icon fill"
+              ]
+            },
+            "hex": "#24CB71",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#14AE5C",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Slides Orange",
+            "type": "Warm Color",
+            "rules": {
+              "description": "An energetic orange brand accent used in the logo and systematically assigned to presentation-focused tools.",
+              "when_to_use": [
+                "Right node in the header logo SVG",
+                "Figma Slides navigation icon fill"
+              ]
+            },
+            "hex": "#FF7237",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FF5C16",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "insights": [
+          "**High-Contrast Foundation:** The interface relies entirely on a stark black-and-white structural foundation, keeping the UI strictly neutral to let user content and colorful brand elements stand out.",
+          "**Color-Coded Ecosystem:** The vibrant accent colors (blue, green, orange) are extracted directly from the logo and assigned to distinct sub-products in the navigation (e.g., green for Dev Mode, orange for Slides) to aid intuitive wayfinding.",
+          "**Alpha-Channel Shading:** Instead of introducing a wide palette of static gray hexes, the design systematically applies alpha transparency to black and white to generate secondary text (#0000008a), subtle borders (#00000029), and beta badges (#00000014)."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "figmaSans",
+              "role": "Title 1 (H1)",
+              "specs": {
+                "size": "var(--fig-typography-size-title1)",
+                "line_height": "var(--fig-typography-lh-none)",
+                "font_weight": "var(--fig-typography-weight)",
+                "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-condensed),\"wght\" var(--fig-typography-variation-wght-regular)"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Title 2 (H2)",
+              "specs": {
+                "size": "var(--fig-typography-size-title2)",
+                "line_height": "var(--fig-typography-lh-tight)",
+                "font_weight": "var(--fig-typography-weight)",
+                "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Title 3 (H2/P)",
+              "specs": {
+                "size": "var(--fig-typography-size-title3)",
+                "line_height": "var(--fig-typography-lh-snug)",
+                "font_weight": "var(--fig-typography-weight)",
+                "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Display Large",
+              "specs": {
+                "size": "5.5rem",
+                "line_height": "1",
+                "font_weight": "normal",
+                "font_variation_settings": "\"wdth\" 96, \"wght\" 400"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaMono",
+              "role": "Mono Heading",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.3",
+                "font_weight": "400",
+                "font_variation_settings": "\"wdth\" 100, \"MONO\" 100, \"wght\" 400"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "figmaSans",
+              "role": "Body Large",
+              "specs": {
+                "size": "var(--fig-typography-size-bodyL)",
+                "line_height": "var(--fig-typography-lh-relaxed)",
+                "font_weight": "var(--fig-typography-weight)",
+                "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Body Default",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.4",
+                "font_weight": "330",
+                "font_variation_settings": "\"wdth\" 98, \"wght\" 330"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Nav Item",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.45",
+                "font_weight": "320",
+                "font_variation_settings": "\"wdth\" 98, \"wght\" 320"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Body",
+              "specs": {
+                "size": "var(--fig-typography-size-body)",
+                "line_height": "var(--fig-typography-lh-loose)",
+                "font_weight": "var(--fig-typography-weight)",
+                "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaSans",
+              "role": "Small Body",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.45",
+                "font_weight": "normal",
+                "font_variation_settings": "\"wdth\" 100, \"wght\" 400"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "figmaSans",
+              "role": "Button",
+              "specs": {
+                "size": "var(--fig-typography-size-button)",
+                "line_height": "var(--fig-typography-lh-relaxed)",
+                "font_weight": "var(--fig-typography-weight)",
+                "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaMono",
+              "role": "Mono Label",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.3",
+                "font_weight": "normal",
+                "font_variation_settings": "\"wdth\" 96, \"wght\" 400, \"MONO\" 100"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-mono)",
+                "file_url": null
+              }
+            },
+            {
+              "name": "figmaMono",
+              "role": "Badge",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "1",
+                "font_weight": "400",
+                "font_variation_settings": "\"wdth\" 100, \"MONO\" 100, \"wght\" 400"
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": []
+        },
+        "highlights": "Emphasis and strong states are handled via variable font axes, applying `\"slnt\" -6` for italics and exact `\"wght\"` values (e.g., 550, 600) for bolding text dynamically, avoiding traditional discrete font weights.",
+        "insights": [
+          "The typography system heavily leverages variable fonts (`font-variation-settings`), fine-tuning width (`wdth`), weight (`wght`), and slant (`slnt`) across breakpoints and semantic tags.",
+          "Extensive use of CSS variables (e.g., `--fig-typography-size-title1`) creates a highly flexible, token-driven hierarchy capable of responding to varying viewport sizes seamlessly.",
+          "Monospace fonts (`figmaMono`) are strategically used not just for code, but for structural labels, badges, and tertiary headings to introduce technical sophistication into the visual rhythm."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_conic",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Primary page background color",
+            "when_to_use": [
+              "Main page background",
+              "Section backgrounds",
+              "Card backgrounds"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Dark Surface",
+            "description": "Dark surface for footer and primary buttons",
+            "when_to_use": [
+              "Footer background",
+              "Primary button background",
+              "Navigation bar"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Card Background",
+            "description": "Card background with slight transparency (color-mix with 96% transparency)",
+            "when_to_use": [
+              "Card components",
+              "Badge backgrounds",
+              "Form input backgrounds"
+            ],
+            "hex": "#0A0A0A"
+          },
+          {
+            "name": "Transparent Button Background",
+            "description": "Transparent button background (color-mix with 96% transparency)",
+            "when_to_use": [
+              "Secondary buttons",
+              "Ghost buttons",
+              "Transparent UI elements"
+            ],
+            "hex": "#0A0A0A"
+          },
+          {
+            "name": "Badge Surface",
+            "description": "Badge background (color-mix with 92% transparency)",
+            "when_to_use": [
+              "Badge components",
+              "Labels",
+              "Tag elements"
+            ],
+            "hex": "#141414"
+          },
+          {
+            "name": "Icon Background",
+            "description": "Icon background in footer with rgba(255, 255, 255, 0.24) transparency",
+            "when_to_use": [
+              "Social media icons",
+              "Circular icon containers"
+            ],
+            "hex": "#3D3D3D"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Conic Spinner Gradient",
+            "description": "Repeating conic gradient creating a spinner/loading effect with cyan stripes",
+            "when_to_use": [
+              "Loading animations",
+              "Decorative elements",
+              "Animated spinner icons"
+            ],
+            "css_code": "repeating-conic-gradient(#00b6ff 0deg 18deg, transparent 18deg 30deg)"
+          },
+          {
+            "name": "Horizontal Edge Fade",
+            "description": "Dual horizontal gradients fading from white to transparent on left and right edges",
+            "when_to_use": [
+              "Carousel edge masks",
+              "Scrollable content edge indicators",
+              "Logo marquee overlays"
+            ],
+            "css_code": "linear-gradient(90deg, #FFFFFF 0px, transparent 2.5rem),linear-gradient(270deg, #FFFFFF 0px, transparent 2.5rem)"
+          },
+          {
+            "name": "Focus Highlight",
+            "description": "Solid lime-yellow gradient used for focus states",
+            "when_to_use": [
+              "Skip to content link focus",
+              "Keyboard navigation highlights",
+              "Accessibility focus indicators"
+            ],
+            "css_code": "linear-gradient(to bottom, #E4FF97 0%, #E4FF97 100%)"
+          }
+        ],
+        "highlights": [
+          "Conic gradient spinner with cyan (#00b6ff) stripes used for animated decorative elements",
+          "Soft box shadows with large blur radius: 0 0.25rem 2rem with 90% transparency for elevation-1",
+          "Horizontal edge fade gradients on logo carousel creating smooth left/right masks",
+          "Animated conic gradient rotates continuously at 25s duration on decorative spinner element"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Elevation Level 1",
+              "type": "drop",
+              "description": "Subtle elevation shadow with 10% black opacity and 2rem blur. Used for cards and floating elements.",
+              "css_value": "0 0.25rem 2rem 0 color-mix(in oklch, #000000, transparent 90%)",
+              "when_to_use": [
+                "Cards",
+                "Floating panels",
+                "Subtle depth effects"
+              ]
+            },
+            {
+              "name": "Elevation Level 2",
+              "type": "drop",
+              "description": "More pronounced elevation shadow with 10% black opacity and 4.375rem blur. Used for modals and prominent floating elements.",
+              "css_value": "0 1.5rem 4.375rem 0 color-mix(in oklch, #000000, transparent 90%)",
+              "when_to_use": [
+                "Modals",
+                "Dialogs",
+                "Prominent floating elements"
+              ]
+            },
+            {
+              "name": "Header Border Shadow",
+              "type": "drop",
+              "description": "1px bottom border shadow using theme border color for header separation.",
+              "css_value": "0 1px 0 var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+              "when_to_use": [
+                "Header",
+                "Navigation bar",
+                "Fixed elements"
+              ]
+            },
+            {
+              "name": "Secondary Button Border",
+              "type": "inset",
+              "description": "Inset 1px border shadow for secondary buttons using theme border color.",
+              "css_value": "inset 0 0 0 1px var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+              "when_to_use": [
+                "Secondary buttons",
+                "Outlined buttons",
+                "Form inputs"
+              ]
+            },
+            {
+              "name": "Secondary Button Border Hover",
+              "type": "inset",
+              "description": "Inset 1px border shadow for secondary buttons on hover with darker border color.",
+              "css_value": "inset 0 0 0 1px var(--fig-theme-border-hover, color-mix(in oklch, #000000, transparent 60%))",
+              "when_to_use": [
+                "Secondary button hover state",
+                "Outlined button hover state"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "marquee",
+          "video_background",
+          "carousel",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "scroll-reveal",
+            "css": "",
+            "description": "Elements fade in and translate up (translateY(32px) to none) as they enter the viewport. JS-driven via inline style updates, no @keyframes definition found."
+          },
+          {
+            "name": "testimonial-avatar-spin",
+            "css": "@keyframes animation-1ps4q2h { from { rotate: 0deg; } to { rotate: 360deg; } }",
+            "description": "Continuous 360-degree rotation over 25s for the decorative conic gradient ring around testimonial avatar photos."
+          },
+          {
+            "name": "button-text-translate",
+            "css": "transition: translate 180ms ease-out",
+            "description": "Button text slides left by 0.5625rem on hover to reveal the arrow icon. Applied to .btn-text elements inside buttons."
+          },
+          {
+            "name": "button-arrow-opacity",
+            "css": "transition: opacity 180ms ease-out",
+            "description": "Arrow icon fades in from opacity 0 to 1 on button hover. Applied to .btn-builtin-icon elements."
+          },
+          {
+            "name": "nav-underline",
+            "css": "transition: transform 250ms, opacity 250ms",
+            "description": "Navigation link underline animates in from translateY(3px) scaleY(0) to translateY(0) scaleY(1) on hover."
+          },
+          {
+            "name": "dropdown-chevron-rotate",
+            "css": "transition: transform 250ms",
+            "description": "Dropdown chevron icon rotates 180 degrees when aria-expanded is true."
+          },
+          {
+            "name": "modal-scale-fade",
+            "css": "transition: all 200ms ease",
+            "description": "Modal dialogs scale from 0.95 to 1 and fade from opacity 0 to 1 when entering, with data-enter/data-leave attributes."
+          },
+          {
+            "name": "global-button-ease",
+            "css": "transition: background 180ms ease-out, box-shadow 180ms ease-out",
+            "description": "Standard easing transition applied to all button background and box-shadow changes on hover/active states."
+          },
+          {
+            "name": "link-arrow-transform",
+            "css": "transition: transform 180ms ease-out",
+            "description": "Arrow icon on text links translates right by 0.25rem on hover for directional affordance."
+          },
+          {
+            "name": "marquee-scroll",
+            "css": "",
+            "description": "Continuous horizontal scroll for the partner logo strip. JS-driven via inline transform: translateX() updates, no CSS @keyframes found."
+          }
+        ],
+        "insights": [
+          "The design system uses a strict black-and-white button palette with consistent 180ms ease-out transitions, creating a cohesive and predictable interaction language.",
+          "CSS variables (--fig-theme-*) provide comprehensive theming support for light/dark modes and component-level color mixing via oklch color space for alpha transparency.",
+          "The page heavily relies on JS-driven animations (scroll reveal, marquee) rather than CSS @keyframes, with explicit transition definitions for micro-interactions like button hovers and navigation underlines."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Get started (Primary Large - Hero)",
+            "usage": "Primary call-to-action button used in the hero section to drive signups. Large size variant for maximum prominence.",
+            "specs": {
+              "radius": "rounded-xl",
+              "sizes": [
+                {
+                  "name": "Large",
+                  "font": "var(--global-font-sans)",
+                  "size": "1.875rem",
+                  "padding": "1.5rem 2rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--fig-theme-btn-primary-bg-hover, color-mix(in oklch, #000000, transparent 15%))",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get started for free (Primary Default - Header)",
+            "usage": "Primary CTA button in the fixed navigation header for signup conversion.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--global-font-sans)",
+                  "size": "1rem",
+                  "padding": "0.75rem 1.375rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--fig-theme-btn-primary-bg-hover, color-mix(in oklch, #000000, transparent 15%))",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#000000",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Contact sales (Secondary - Header)",
+            "usage": "Secondary button in navigation header for enterprise/sales inquiries. Uses ghost style with border.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--global-font-sans)",
+                  "size": "1rem",
+                  "padding": "0.75rem 1.375rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--fig-theme-btn-secondary-bg, color-mix(in oklch, #000000, transparent 100%))",
+                "text_color": "#000000",
+                "border_color": "var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--fig-theme-btn-secondary-bg, color-mix(in oklch, #000000, transparent 100%))",
+                "text_color": "#000000",
+                "border_color": "var(--fig-theme-border-hover, color-mix(in oklch, #000000, transparent 60%))",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Explore Figma Design (Text Link with Arrow)",
+            "usage": "Tertiary text link button with animated arrow icon. Used throughout the page for secondary navigation to product pages.",
+            "specs": {
+              "radius": "rounded-sm",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--global-font-sans)",
+                  "size": "1rem",
+                  "padding": "0"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Allow all cookies (Cookie Banner)",
+            "usage": "Button used in the cookie consent banner to accept all cookies.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "var(--global-font-sans)",
+                  "size": "1rem",
+                  "padding": "0.75rem 1.375rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular)",
+            "usage": "Icon-only circular buttons used for carousel navigation, video controls, and logo strip scrolling. Contains only an SVG icon with no text.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "",
+                  "padding": "0.5rem"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "var(--fig-theme-btn-transparent-bg, color-mix(in oklch, #000000, transparent 96%))",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "var(--fig-theme-btn-transparent-bg-hover, color-mix(in oklch, #000000, transparent 92%))",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Buttons are laid out horizontally with flex, wrapping on mobile.",
+          "spacing": "0.75rem"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "78px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FFFFFF",
+            "color_reference": "Baseline/Canvas White",
+            "opacity": null,
+            "blur": null
+          },
+          "border_bottom": "0 1px 0 var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))"
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Statistic Tile",
+            "description": "Large percentage statistic (e.g., '71%', '45%') displayed with a left border accent and supporting description text below.",
+            "when_to_use": [
+              "Highlighting key metrics or social proof",
+              "Customer adoption statistics",
+              "Impact numbers in testimonial sections"
+            ]
+          },
+          {
+            "name": "Logo Strip",
+            "description": "Horizontal scrolling marquee of customer logos (Airbnb, Atlassian, Microsoft, Netflix, etc.) with fade-out gradients on edges.",
+            "when_to_use": [
+              "Social proof sections",
+              "Customer testimonials",
+              "Enterprise credibility displays"
+            ]
+          },
+          {
+            "name": "Feature Card Grid",
+            "description": "4-column responsive grid of product feature images with varied aspect ratios (portrait, square, landscape).",
+            "when_to_use": [
+              "Showcasing product capabilities",
+              "Gallery of design examples",
+              "Feature highlights"
+            ]
+          },
+          {
+            "name": "Community Resource Carousel",
+            "description": "Horizontal scrollable carousel of community-created templates and resources with category labels.",
+            "when_to_use": [
+              "Browsing community content",
+              "Template discovery",
+              "Resource exploration"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Section Border",
+            "description": "Subtle horizontal divider using CSS variable-based border color for separating major content sections.",
+            "when_to_use": [
+              "Between footer and main content",
+              "Navigation dropdown separation"
+            ],
+            "color": "var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Blockquote Left Border",
+            "description": "Vertical left border accent used for testimonial blockquotes and statistic callouts.",
+            "when_to_use": [
+              "Testimonial quotes",
+              "Statistics with descriptions",
+              "Pull quotes"
+            ],
+            "color": "var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "Functional UI Icons",
+          "description": "Line art interface icons for navigation, controls, and basic actions.",
+          "when_to_use": [
+            "Buttons",
+            "Navigation",
+            "Dropdowns"
+          ],
+          "format": "SVG",
+          "style": "Monoline / Line Art",
+          "sizes": {
+            "small": "16px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Check / Chevron",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"btn-builtin-icon fig-crjwdy\" aria-hidden=\"true\"><path fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.13\" d=\"m12.57 4.205 7.477 7.75.043.045-.043.045-7.478 7.75-.046.047-.046-.045-.734-.71-.046-.044.045-.047 6.195-6.42H3.935v-1.151h14.003l-6.196-6.421-.045-.047.046-.045.734-.709.046-.045z\"></path></svg>"
+            },
+            {
+              "name": "Close / X",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-gjw6ce\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"m11.647 12.89-7.955 7.956-.891-.891L10.756 12 2.8 4.045l.89-.89 7.956 7.954 8.308-8.308.89.89L12.538 12l8.309 8.308-.891.891z\"></path></svg>"
+            },
+            {
+              "name": "Chevron right",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-19f7go4\" aria-hidden=\"true\" style=\"transform:rotate(0)\"><path stroke=\"currentColor\" stroke-width=\"1.25\" d=\"m19.75 8.75-7.25 7-7.25-7\"></path></svg>"
+            },
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-gjw6ce\" aria-hidden=\"true\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M20 16.25H4V15h16zM20 9.25H4V8h16z\" clip-rule=\"evenodd\"></path></svg>"
+            },
+            {
+              "name": "Chevron down",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-wy7jyj\" aria-hidden=\"true\"><path stroke=\"currentColor\" stroke-width=\"1.25\" d=\"m19.75 8.75-7.25 7-7.25-7\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Figma Product Icons",
+          "description": "Colorful filled icons inside rounded rectangles representing Figma's various tools and products.",
+          "when_to_use": [
+            "Product navigation",
+            "Feature lists",
+            "Dropdown menus"
+          ],
+          "format": "SVG",
+          "style": "Filled / Colorful with rounded background",
+          "sizes": {
+            "small": "24px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "Figma Design",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-xhf46l\" aria-hidden=\"true\"><rect width=\"24\" height=\"24\" fill=\"#E5F4FF\" rx=\"6\"></rect><path fill=\"#0D99FF\" fill-rule=\"evenodd\" d=\"M5.547 3.845a.25.25 0 0 1 .226-.068l7.644 1.548a7.06 7.06 0 0 1 5.655 7.076l-.009.377a.25.25 0 0 0 .073.182l1.349 1.349a.375.375 0 0 1 0 .53l-5.645 5.646a.375.375 0 0 1-.53 0l-1.35-1.349a.25.25 0 0 0-.182-.073l-.377.009a7.06 7.06 0 0 1-7.076-5.655L3.777 5.773a.25.25 0 0 1 .068-.226zm4.775 5.341a.18.18 0 0 0 .213.03 3.125 3.125 0 1 1-.644 5.089l-.116-.11a3.13 3.13 0 0 1-.557-3.663.18.18 0 0 0-.03-.213L5.606 6.738l1.29 6.362a5.45 5.45 0 0 0 5.222 4.369h.248l.728-.017h.001l.333-.006a.25.25 0 0 1 .182.073l.875.875a.125.125 0 0 0 .177 0l3.732-3.732a.125.125 0 0 0 0-.177l-.875-.875a.25.25 0 0 1-.073-.183l.003-.138.021-.924a5.454 5.454 0 0 0-4.37-5.469L6.744 5.608zm2.812 1.65a1.625 1.625 0 1 0-2.298 2.298 1.625 1.625 0 0 0 2.298-2.298\" clip-rule=\"evenodd\"></path></svg>"
+            },
+            {
+              "name": "Figma Make",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-xhf46l\" aria-hidden=\"true\"><rect width=\"24\" height=\"24\" fill=\"#E3ECF2\" rx=\"6\"></rect><path fill=\"#252D41\" d=\"M13.906 11.632a.174.174 0 0 1 .193-.178q.62.071 1.17.178c.08.015.138.086.14.168l.001.199c0 2.203-.321 4.231-.864 5.734-.27.749-.61 1.407-1.024 1.893-.413.483-.971.872-1.66.872-.69 0-1.248-.39-1.66-.872-.414-.486-.754-1.144-1.024-1.893q-.13-.361-.243-.761a.174.174 0 0 1 .192-.219q.6.078 1.227.123a.18.18 0 0 1 .156.121q.038.116.078.227c.236.653.5 1.13.755 1.428.257.301.435.346.518.346s.263-.044.52-.346c.255-.298.518-.775.754-1.428.47-1.302.775-3.149.775-5.225q0-.185-.004-.367M6.99 9.22a.174.174 0 0 1 .219.19q-.07.6-.107 1.224a.18.18 0 0 1-.121.158l-.207.071c-.653.236-1.13.5-1.428.754-.301.257-.346.436-.346.52 0 .083.045.261.346.518.298.255.775.52 1.428.755 1.302.47 3.149.775 5.225.775q.168 0 .333-.004c.107-.002.191.09.177.196q-.082.626-.2 1.17a.17.17 0 0 1-.168.136l-.142.002c-2.203 0-4.23-.322-5.734-.865-.749-.27-1.407-.61-1.893-1.024-.483-.412-.872-.97-.872-1.66 0-.689.39-1.247.872-1.66.486-.414 1.144-.754 1.893-1.024q.345-.124.725-.232m5.009-.632c2.203 0 4.231.321 5.734.864.749.27 1.407.61 1.893 1.025.483.412.872.97.872 1.66 0 .689-.39 1.247-.872 1.659-.486.415-1.144.754-1.893 1.024q-.49.177-1.05.321a.174.174 0 0 1-.215-.194q.08-.595.127-1.216a.18.18 0 0 1 .126-.157q.263-.078.503-.164c.653-.236 1.13-.5 1.428-.755.301-.257.346-.435.346-.518s-.044-.263-.346-.52c-.298-.255-.775-.518-1.428-.754-1.302-.47-3.149-.775-5.225-.775q-.325 0-.64.01a.175.175 0 0 1-.18-.193q.07-.622.177-1.171a.17.17 0 0 1 .166-.14q.237-.006.477-.006M11.861 3.5c.69 0 1.248.39 1.66.872.415.486.755 1.145 1.025 1.894q.172.473.31 1.011a.174.174 0 0 1-.19.216 22 22 0 0 0-1.214-.11.18.18 0 0 1-.159-.126 9 9 0 0 0-.158-.483c-.236-.653-.5-1.129-.754-1.427-.257-.302-.436-.347-.52-.347-.083 0-.261.046-.518.347-.255.298-.52.774-.755 1.427-.47 1.302-.774 3.149-.775 5.225q0 .306.01.607a.175.175 0 0 1-.197.18 15 15 0 0 1-1.172-.2.17.17 0 0 1-.136-.167q-.005-.21-.005-.42c0-2.203.322-4.23.865-5.733.27-.749.61-1.408 1.024-1.894.412-.483.97-.872 1.66-.872\"></path></svg>"
+            },
+            {
+              "name": "Figma Motion",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-xhf46l\" aria-hidden=\"true\"><rect width=\"24\" height=\"24\" fill=\"#E5F4FF\" rx=\"6\"></rect><path fill=\"#0D99FF\" d=\"M11.295 3.542a.997.997 0 0 1 1.41 0l7.753 7.753c.39.39.39 1.02 0 1.41l-7.753 7.753a.997.997 0 0 1-1.41 0l-7.753-7.753a.997.997 0 0 1 0-1.41zm.882 1.586a.25.25 0 0 0-.353 0l-6.696 6.696a.25.25 0 0 0 0 .353l6.696 6.695a.25.25 0 0 0 .353 0l6.695-6.695a.25.25 0 0 0 0-.353zm-.529 2.294a.5.5 0 0 1 .707 0l4.227 4.226a.5.5 0 0 1 0 .707l-4.227 4.228a.5.5 0 0 1-.707 0l-.35-.35a.5.5 0 0 1 0-.708l3.347-3.346a.25.25 0 0 0 0-.354l-3.346-3.347a.5.5 0 0 1 0-.707zM9.533 9.536a.5.5 0 0 1 .708 0l2.113 2.112a.5.5 0 0 1 0 .707l-2.113 2.113a.5.5 0 0 1-.707 0l-.35-.35a.5.5 0 0 1 0-.707l1.231-1.232a.25.25 0 0 0 0-.354l-1.231-1.231a.5.5 0 0 1 0-.707z\"></path></svg>"
+            },
+            {
+              "name": "FigJam",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-xhf46l\" aria-hidden=\"true\"><rect width=\"24\" height=\"24\" fill=\"#F1E5FF\" rx=\"6\"></rect><path fill=\"#9747FF\" fill-rule=\"evenodd\" d=\"M19.5 13.564a.75.75 0 0 1-.22.53l-5.185 5.186a.75.75 0 0 1-.53.22H5.25a.75.75 0 0 1-.75-.75V5.25a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 .75.75zM6 17.75c0 .138.112.25.25.25h6.156a.25.25 0 0 0 .25-.25v-4.844a.25.25 0 0 1 .25-.25h4.844a.25.25 0 0 0 .25-.25V6.25a.25.25 0 0 0-.25-.25H6.25a.25.25 0 0 0-.25.25zm8.156-.954c0 .111.135.167.214.088l2.514-2.514a.125.125 0 0 0-.088-.214H14.28a.125.125 0 0 0-.125.125z\" clip-rule=\"evenodd\"></path></svg>"
+            },
+            {
+              "name": "Figma Slides",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"fig-xhf46l\" aria-hidden=\"true\"><rect width=\"24\" height=\"24\" fill=\"#FFDFCC\" rx=\"6\"></rect><path fill=\"#FF5C16\" d=\"M20.5 15.215a1 1 0 0 1-1 1h-1.81a.125.125 0 0 0-.114.177l1.029 2.254a.25.25 0 0 1-.227.354h-1.1a.25.25 0 0 1-.227-.146l-1.138-2.492a.25.25 0 0 0-.228-.147H8.314a.25.25 0 0 0-.227.146l-1.138 2.493A.25.25 0 0 1 6.72 19h-1.1a.25.25 0 0 1-.227-.354l1.03-2.254a.125.125 0 0 0-.114-.177H4.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1zM5 14.465c0 .138.112.25.25.25h13.5a.25.25 0 0 0 .25-.25V6.75a.25.25 0 0 0-.25-.25H5.25a.25.25 0 0 0-.25.25zm2.288-2.922a.935.935 0 1 1 0 1.869h-.02a.935.935 0 0 1 0-1.87zm0-3.74a.935.935 0 0 1 0 1.87h-.02a.935.935 0 0 1 0-1.87z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Social Icons",
+          "description": "Brand icons for social media platforms.",
+          "when_to_use": [
+            "Footer",
+            "Social links"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "24px",
+            "medium": "24px"
+          },
+          "examples": [
+            {
+              "name": "X / Twitter",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"fig-1kb6yjw\"><path fill=\"currentColor\" d=\"m13.312 10.9 5.212-6.052h-1.252l-4.515 5.257-3.611-5.257H4.979l5.463 7.957-5.463 6.347h1.234l4.783-5.552 3.809 5.552h4.175zm-1.699 1.967-.545-.787L6.66 5.779h1.895l3.559 5.087.554.786 4.622 6.616h-1.904l-3.764-5.4z\"></path></svg>"
+            },
+            {
+              "name": "YouTube",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"fig-1kb6yjw\"><path fill=\"currentColor\" d=\"M19.6 8c.4 1.4.4 4.4.4 4.4s0 3-.4 4.4c-.2.8-.8 1.4-1.5 1.6-1.4.4-6.1.4-6.1.4s-4.7 0-6-.4c-.8-.2-1.4-.8-1.6-1.6-.4-1.4-.4-4.4-.4-4.4s0-3 .4-4.4c.2-.8.8-1.4 1.5-1.6C7.3 6 12 6 12 6s4.7 0 6 .4c.8.2 1.4.8 1.6 1.6m-9.2 7.2 4.8-2.8-4.8-2.8z\"></path></svg>"
+            },
+            {
+              "name": "Instagram",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"fig-1kb6yjw\"><path fill=\"currentColor\" d=\"M11.988 7.89a4.09 4.09 0 0 0-4.094 4.095 4.09 4.09 0 0 0 4.094 4.094 4.09 4.09 0 0 0 4.095-4.094 4.09 4.09 0 0 0-4.095-4.095m0 6.757a2.667 2.667 0 0 1-2.661-2.662 2.664 2.664 0 0 1 2.661-2.662 2.664 2.664 0 0 1 2.662 2.662 2.667 2.667 0 0 1-2.662 2.662m5.217-6.924a.953.953 0 0 1-1.485.794.955.955 0 1 1 1.485-.794m2.712.97c-.06-1.28-.353-2.413-1.29-3.347-.933-.934-2.067-1.226-3.346-1.29-1.318-.075-5.27-.075-6.589 0-1.276.06-2.409.353-3.346 1.287S4.12 7.409 4.056 8.689c-.075 1.318-.075 5.27 0 6.589.06 1.279.353 2.412 1.29 3.346.937.933 2.067 1.225 3.346 1.29 1.319.074 5.27.074 6.59 0 1.278-.061 2.412-.353 3.345-1.29.934-.934 1.226-2.067 1.29-3.346.075-1.319.075-5.267 0-6.586m-1.703 8a2.7 2.7 0 0 1-1.518 1.517c-1.052.417-3.546.321-4.708.321-1.161 0-3.66.093-4.707-.32a2.7 2.7 0 0 1-1.518-1.519c-.417-1.051-.32-3.546-.32-4.707s-.093-3.66.32-4.707a2.7 2.7 0 0 1 1.518-1.519c1.051-.416 3.546-.32 4.707-.32s3.66-.093 4.708.32a2.7 2.7 0 0 1 1.518 1.519c.417 1.05.32 3.545.32 4.707s.097 3.66-.32 4.707\"></path></svg>"
+            },
+            {
+              "name": "Facebook",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"fig-1kb6yjw\"><path fill=\"currentColor\" d=\"M12.03 4a8.03 8.03 0 0 1 .973 16v-5.517h2.172l.45-2.454h-2.622v-.868c0-1.296.508-1.795 1.824-1.795.409 0 .738.01.928.03V7.172c-.36-.1-1.237-.2-1.745-.2l-.248.005a6.6 6.6 0 0 0-.906.09q-1.15.204-1.813.88a2.7 2.7 0 0 0-.42.559q-.046.078-.087.159-.368.736-.432 1.812-.015.239-.015.495v1.057H8.434v2.454h1.655v5.338A8.03 8.03 0 0 1 12.029 4\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon.png",
+            "origin_url": "https://static.figma.com/app/icon/2/icon-128.png",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-3.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-3.png",
+            "origin_url": "https://static.figma.com/app/icon/2/icon-192.png",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-2.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-2.png",
+            "origin_url": "https://static.figma.com/app/icon/2/icon-256.png",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-5.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-5.png",
+            "origin_url": "https://static.figma.com/app/icon/2/favicon.png",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon.svg",
+            "origin_url": "https://static.figma.com/app/icon/2/favicon.svg",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon.ico",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon.ico",
+            "origin_url": "https://static.figma.com/app/icon/2/favicon.ico",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-4.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-4.png",
+            "origin_url": "https://static.figma.com/app/icon/2/touch-76.png",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-6.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-6.png",
+            "origin_url": "https://static.figma.com/app/icon/2/touch-120.png",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-7.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-7.png",
+            "origin_url": "https://static.figma.com/app/icon/2/touch-152.png",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-9.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-9.png",
+            "origin_url": "https://static.figma.com/app/icon/2/touch-167.png",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-8.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/favicon-8.png",
+            "origin_url": "https://static.figma.com/app/icon/2/touch-180.png",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/primary-inline.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/primary-inline.svg",
+            "origin_url": null,
+            "description": "Homepage Primary Logo"
+          },
+          {
+            "role": "Primary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/primary-inline-2.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/primary-inline-2.svg",
+            "origin_url": null,
+            "description": "Homepage Primary Logo (Alternative)"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-4.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-4.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/717af6633a6896341b7c95807c05f449597ef769-98x32.svg?q=75&fit=max&auto=format",
+            "description": "Airbnb Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-3.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-3.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/855afc6ef4bb9d8394d6e431355190296391803d-155x32.svg?q=75&fit=max&auto=format",
+            "description": "Atlassian Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/b294234a9bfdd4a158e20e92fbac3c629f6e9170-124x32.svg?q=75&fit=max&auto=format",
+            "description": "Dropbox Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-2.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-2.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/04c81a93b530b57e29b1fabbb263cd398637e0c3-107x32.svg?q=75&fit=max&auto=format",
+            "description": "Duolingo Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-8.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-8.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/9e4f6f88c28e657c5b56355f210f3b0ca4f6f93c-87x32.svg?q=75&fit=max&auto=format",
+            "description": "GitHub Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-6.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-6.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/6a3dc606d7d09fc8e5c6750e614571151be3700d-380x56.svg?q=75&fit=max&auto=format",
+            "description": "Mercado Libre Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-5.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-5.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/6b1738a69bdca9a6b7eb575a5e9aad7851edfab6-120x32.svg?q=75&fit=max&auto=format",
+            "description": "Microsoft Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-7.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-7.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/176848b4508f88d6e99cbebe953a99544383503f-84x32.svg?q=75&fit=max&auto=format",
+            "description": "Netflix Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-10.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-10.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/86f3e1fdd939b2b55742aeb050901033ac11df68-130x32.svg?q=75&fit=max&auto=format",
+            "description": "Pentagram Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-9.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-9.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/f810691e526e4f771f2ebf33ddcd0f566117da1f-97x32.svg?q=75&fit=max&auto=format",
+            "description": "Slack Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-11.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-11.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/291a41dd8ae8cd7f9bde48427197b549a75109a7-66x32.svg?q=75&fit=max&auto=format",
+            "description": "Stripe Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-12.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-12.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/41d8568f985d041ccbcb64865c56c5d04dacbe77-180x32.svg?q=75&fit=max&auto=format",
+            "description": "The New York Times Partner Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "SVG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-13.svg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/logos/secondary-13.svg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/9152f45c8c5c17a2071ee4d2f04507c89240eafe-86x32.svg?q=75&fit=max&auto=format",
+            "description": "Zoom Partner Logo"
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://cdn.sanity.io/images/599r6htc/regionalized/b08d37520f7d5ad8d6562975b5932dd2d9a862bb-1200x630.gif?w=1200&q=70&fit=max&auto=format",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "4b9ade839f38291c91b76608d22e7c7a9ad525fd-542x305.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/4b9ade839f38291c91b76608d22e7c7a9ad525fd-542x305-png.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/4b9ade839f38291c91b76608d22e7c7a9ad525fd-542x305-png.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/4b9ade839f38291c91b76608d22e7c7a9ad525fd-542x305.png?w=542&h=305&q=75&fit=max&auto=format",
+            "usage_context": "Thumbnail for 'Design and explore' dropdown menu item"
+          },
+          {
+            "name": "7e39b983c6ad865e0a7a5243d914020e69a23f70-542x305.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/7e39b983c6ad865e0a7a5243d914020e69a23f70-542x305-png.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/7e39b983c6ad865e0a7a5243d914020e69a23f70-542x305-png.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/7e39b983c6ad865e0a7a5243d914020e69a23f70-542x305.png?w=542&h=305&q=75&fit=max&auto=format",
+            "usage_context": "Thumbnail for 'Build and ship products' dropdown menu item"
+          },
+          {
+            "name": "1883a9ebc4ce697b718301ad247c0fff45c572c1-540x304.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/1883a9ebc4ce697b718301ad247c0fff45c572c1-540x304-png.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/1883a9ebc4ce697b718301ad247c0fff45c572c1-540x304-png.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/1883a9ebc4ce697b718301ad247c0fff45c572c1-540x304.png?w=540&h=304&q=75&fit=max&auto=format",
+            "usage_context": "Thumbnail for 'The Figma blog' in resources menu"
+          },
+          {
+            "name": "A mock website showing Texture values",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/a-mock-website-showing-texture-values.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/a-mock-website-showing-texture-values.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/b82592e52a6cc84b26ac68a8fd0fd5f2d05e0a34-656x816.png?w=656&h=816&q=75&fit=max&auto=format",
+            "usage_context": "Feature showcase for powerfully expressive tools"
+          },
+          {
+            "name": "UI showing different brush stokes that can be applied to type",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/ui-showing-different-brush-stokes-that-can-be-applied-to-type.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/ui-showing-different-brush-stokes-that-can-be-applied-to-type.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/a92909334c175cb8deb08724809a6a133a2fdaee-656x816.png?w=656&h=816&q=75&fit=max&auto=format",
+            "usage_context": "Feature showcase for powerfully expressive tools"
+          },
+          {
+            "name": "A cursor vector editing a design",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/a-cursor-vector-editing-a-design.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/a-cursor-vector-editing-a-design.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/93c59de7e67fe357465b8ec359399d7afb637499-656x816.png?w=656&h=816&q=75&fit=max&auto=format",
+            "usage_context": "Feature showcase for powerfully expressive tools"
+          },
+          {
+            "name": "Type on a path shown in purple and teal against a pink background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/type-on-a-path-shown-in-purple-and-teal-against-a-pink-background.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/type-on-a-path-shown-in-purple-and-teal-against-a-pink-background.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/a43092a3987b43555ead7b8bba779647c4f28fc1-656x816.png?w=656&h=816&q=75&fit=max&auto=format",
+            "usage_context": "Feature showcase for powerfully expressive tools"
+          },
+          {
+            "name": "A prompt node and a pre-selected image node connect to create the visual output of a butterfly on the Figma Weave interface",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/a-prompt-node-and-a-pre-selected-image-node-connect-to-create-the-visual-output-of-a-butterfly-on-the-figma-weave-interface.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/a-prompt-node-and-a-pre-selected-image-node-connect-to-create-the-visual-output-of-a-butterfly-on-the-figma-weave-interface.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/b87135e6a9c3ac94f0a433889659b3434086682e-656x816.png?w=656&h=816&q=75&fit=max&auto=format",
+            "usage_context": "Feature showcase for AI workflows (Figma Weave)"
+          },
+          {
+            "name": "UI over a butterfly bitmap mosaic with optionality to change the spacing and establish minimum and maximum sizes",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/ui-over-a-butterfly-bitmap-mosaic-with-optionality-to-change-the-spacing-and-establish-minimum-and-maximum-sizes.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/ui-over-a-butterfly-bitmap-mosaic-with-optionality-to-change-the-spacing-and-establish-minimum-and-maximum-sizes.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/55e1130298788b5d059c311fcc01437142024bd5-992x1232.png?w=992&h=1232&q=75&fit=max&auto=format",
+            "usage_context": "Feature showcase for AI workflows"
+          },
+          {
+            "name": "headshot of Francisco",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/headshot-of-francisco.jpg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/headshot-of-francisco.jpg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/e4a6dd16868d021fe75ff5cdc4e920e422471a2f-876x876.jpg?w=48&h=48&q=75&fit=max&auto=format",
+            "usage_context": "Customer testimonial author avatar"
+          },
+          {
+            "name": "Components for chips, cards, tiles, and checkboxes",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/components-for-chips-cards-tiles-and-checkboxes.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/components-for-chips-cards-tiles-and-checkboxes.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/49adaf90dfa6810bb58849391baa1c63997c205c-984x1476.png?w=984&h=1476&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: UI Kits preview"
+          },
+          {
+            "name": "Laptop displaying a camping website",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/laptop-displaying-a-camping-website.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/laptop-displaying-a-camping-website.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/a1a3c0b5d4d50c322fc65cac50dd6002a1bad886-984x984.png?w=984&h=984&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Websites preview"
+          },
+          {
+            "name": "Social media graphic promoting brunch at a coffee shop",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/social-media-graphic-promoting-brunch-at-a-coffee-shop.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/social-media-graphic-promoting-brunch-at-a-coffee-shop.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/e9d39e9ed2b2566143fb3e43b6d3b1439f9503dc-984x1476.png?w=984&h=1476&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Social media preview"
+          },
+          {
+            "name": "Running mobile app displaying a map",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/running-mobile-app-displaying-a-map.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/running-mobile-app-displaying-a-map.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/bafd1ed5cecdcc3a2b0e2ed559b9f3c55164812d-984x984.png?w=984&h=984&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Mobile apps preview"
+          },
+          {
+            "name": "Brand Vision presentation template",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/brand-vision-presentation-template.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/brand-vision-presentation-template.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/cf29a13641419e219ff32ad7672a5c06a53fc078-984x656.png?w=984&h=656&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Presentations preview"
+          },
+          {
+            "name": "Wireframe of a website",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/wireframe-of-a-website.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/wireframe-of-a-website.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/4db4d42b78081b829f42f7292111b4062a5fd1e2-984x984.png?w=984&h=984&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Wireframes preview"
+          },
+          {
+            "name": "Butterfly illustration",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/butterfly-illustration.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/butterfly-illustration.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/99cb6044391d18db5db1faeeef73a06debe25455-984x656.png?w=984&h=656&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Illustrations preview"
+          },
+          {
+            "name": "Personal portfolio website pulled up on an ipad",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/personal-portfolio-website-pulled-up-on-an-ipad.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/personal-portfolio-website-pulled-up-on-an-ipad.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/836e57c15aa7167b38429208e7cfa48363ce7340-984x984.png?w=984&h=984&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Portfolios preview"
+          },
+          {
+            "name": "Ad for a sale",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/ad-for-a-sale.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/ad-for-a-sale.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/b9b26ef1239186ebedb97f8a4cf62b2d512bb842-984x1476.png?w=984&h=1476&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Web ads preview"
+          },
+          {
+            "name": "sixteen icon variations in purple and pink",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/sixteen-icon-variations-in-purple-and-pink.png",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/sixteen-icon-variations-in-purple-and-pink.png",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/0d876c21c66527fa11544614dae3e6f69f3b6919-984x984.png?w=984&h=984&q=75&fit=max&auto=format",
+            "usage_context": "Community resources: Icons preview"
+          },
+          {
+            "name": "rive.ac4ff0e0.wasm",
+            "type": "animation",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/animation/rive-ac4ff0e0-wasm.wasm",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/animation/rive-ac4ff0e0-wasm.wasm",
+            "origin_url": "https://www.figma.com/_netlify/_next/static/media/rive.ac4ff0e0.wasm",
+            "usage_context": "Interactive animation asset used in the UI"
+          },
+          {
+            "name": "Modern slavery statement document",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/modern-slavery-statement-document.pdf",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/modern-slavery-statement-document.pdf",
+            "origin_url": "https://static.figma.com/uploads/35bc6db4415269cfeace41c8c4637945a85732b2.pdf",
+            "usage_context": "Footer resource link"
+          },
+          {
+            "name": "Climate disclosure statement document",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/climate-disclosure-statement-document.pdf",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/climate-disclosure-statement-document.pdf",
+            "origin_url": "https://static.figma.com/uploads/d2a204b5cc4d64ff539fcd445d0ddedab7dc00f6",
+            "usage_context": "Footer resource link"
+          },
+          {
+            "name": "2b9cde1ef61edbe24913804173039282db976113-894x1080.jpg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/2b9cde1ef61edbe24913804173039282db976113-894x1080-jpg.jpg",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/image/2b9cde1ef61edbe24913804173039282db976113-894x1080-jpg.jpg",
+            "origin_url": "https://cdn.sanity.io/images/599r6htc/regionalized/2b9cde1ef61edbe24913804173039282db976113-894x1080.jpg?w=1280&q=75&fit=max&auto=format",
+            "usage_context": "Hero video poster image"
+          },
+          {
+            "name": "Hero section video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/hero-section-video.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/hero-section-video.html",
+            "origin_url": "https://vimeo.com/1202887330",
+            "usage_context": "Background video playing in the Hero section"
+          },
+          {
+            "name": "Design anything you can imagine video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/design-anything-you-can-imagine-video.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/design-anything-you-can-imagine-video.html",
+            "origin_url": "https://vimeo.com/1202195955?share=copy&fl=sv&fe=ci",
+            "usage_context": "Video demonstrating design tool features"
+          },
+          {
+            "name": "Build with intention video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/build-with-intention-video.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/build-with-intention-video.html",
+            "origin_url": "https://vimeo.com/1202195324?share=copy&fl=sv&fe=ci",
+            "usage_context": "Video demonstrating developer mode and build tools"
+          },
+          {
+            "name": "Feature showcase video 1",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-1.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-1.html",
+            "origin_url": "https://vimeo.com/1202189219?share=copy&fl=sv&fe=ci",
+            "usage_context": "UI interaction showcase for precise technical tools"
+          },
+          {
+            "name": "Feature showcase video 2",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-2.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-2.html",
+            "origin_url": "https://vimeo.com/1202189216?share=copy&fl=sv&fe=ci",
+            "usage_context": "UI interaction showcase for precise technical tools"
+          },
+          {
+            "name": "Feature showcase video 3",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-3.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-3.html",
+            "origin_url": "https://vimeo.com/1202189217?share=copy&fl=sv&fe=ci",
+            "usage_context": "UI interaction showcase for precise technical tools"
+          },
+          {
+            "name": "Feature showcase video 4",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-4.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-4.html",
+            "origin_url": "https://vimeo.com/1202189218?share=copy&fl=sv&fe=ci",
+            "usage_context": "UI interaction showcase for precise technical tools"
+          },
+          {
+            "name": "Feature showcase video 5",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-5.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-5.html",
+            "origin_url": "https://vimeo.com/1202194414?share=copy&fl=sv&fe=ci",
+            "usage_context": "UI interaction showcase for precise technical tools"
+          },
+          {
+            "name": "Feature showcase video 6",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-6.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/feature-showcase-video-6.html",
+            "origin_url": "https://vimeo.com/1203604825?share=copy&fl=sv&fe=ci",
+            "usage_context": "UI interaction showcase for precise technical tools"
+          },
+          {
+            "name": "Explore Figma Make video",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/explore-figma-make-video.html",
+            "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/site-assets/media/video/explore-figma-make-video.html",
+            "origin_url": "https://vimeo.com/1204234347?share=copy&fl=sv&fe=ci",
+            "usage_context": "Video demonstrating Figma Make AI tools"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Centered horizontal nav bar with split left-right layout",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Figma wordmark logo in black on the left"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal menu items: Products, Solutions, Community, Resources, Pricing with dropdown menus"
+            },
+            {
+              "type": "button",
+              "description": "Log in text link (black)"
+            },
+            {
+              "type": "button",
+              "description": "Contact sales button with white background, black text, black border"
+            },
+            {
+              "type": "button",
+              "description": "Get started button - solid black pill with white text"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Split 50/50 - text left, product screenshot right",
+          "headline": "The intelligent canvas for infinite creativity",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "video",
+              "description": "Product UI screenshot video showing infinite canvas with purple, yellow, and red UI elements on dark background"
+            },
+            {
+              "type": "button",
+              "description": "Get started - large black pill button with white text (1.5rem padding)"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background (#00FF00 or similar), black text"
+            }
+          ]
+        },
+        {
+          "type": "Features - Workspace",
+          "layout_pattern": "Centered with two-column image grid below",
+          "headline": "One workspace for your entire product development",
+          "subheadline": "Made in one where one than 200...",
+          "components": [
+            {
+              "type": "video",
+              "description": "Video showing product interface with various UI elements and mockups"
+            },
+            {
+              "type": "image",
+              "description": "Left: MODULAR LIVING yellow/lime green website design mockup with subtle shadow"
+            },
+            {
+              "type": "image",
+              "description": "Right: Dark mobile app interface grid showing multiple screens"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "Features - Bullet Points",
+          "layout_pattern": "Two-column bullet list",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "icon",
+              "description": "Bullet point icons with headings 'Design with' and 'Prototype and test'"
+            }
+          ]
+        },
+        {
+          "type": "Features - Mobile Direction",
+          "layout_pattern": "Centered with large centered image below",
+          "headline": "Make text in the right direction on any device",
+          "subheadline": "Description text",
+          "components": [
+            {
+              "type": "video",
+              "description": "Large centered mobile phone mockup showing purple-gradient UI with bright lime/yellow card components for currency exchange"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "Features - Gallery",
+          "layout_pattern": "Centered headline with 4x2 grid below (8 items)",
+          "headline": "Powerfully expressive. Endlessly artistic.",
+          "subheadline": "Description text",
+          "components": [
+            {
+              "type": "image",
+              "description": "Grid of 8 diverse creative work examples: RE:FINISHED branding, gradients, blue athletic imagery, VAULT text, neon effects, nature photography, various design styles"
+            },
+            {
+              "type": "button",
+              "description": "Explore Figma Design link with arrow"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "Features - GitHub Clone",
+          "layout_pattern": "Centered with large rounded card image below",
+          "headline": "Start with design content. Build with consistency",
+          "subheadline": "Description text",
+          "components": [
+            {
+              "type": "video",
+              "description": "Large rounded rectangle on soft cyan/mint gradient background showing GitHub-style clone interface with GitHub icon, 'Clone repo' dropdown, text input with 'ht'"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "Testimonials",
+          "layout_pattern": "Split layout - quote left, statistic right, logo strip below",
+          "headline": "The products you love are designed in Figma",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Headshot photo of Francisco Seiz with animated rotating gradient border ring"
+            },
+            {
+              "type": "card",
+              "description": "Quote card: 'Everyone is able to influence, inspire, and give their without even opinion...'"
+            },
+            {
+              "type": "card",
+              "description": "Statistic card showing '45%' (visually shows 71% in the design)"
+            },
+            {
+              "type": "logo_strip",
+              "description": "Horizontal scrolling row of grayscale company logos: Airbnb, Atlassian, Dropbox, Duolingo, GitHub, Mercado Libre, Microsoft, Netflix, Pentagram, Slack, Stripe, The New York Times, Zoom"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "CTA - Black",
+          "layout_pattern": "Centered on solid black background",
+          "headline": "Ideas no longer have to wait their turn",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Get started - large white pill button with black text on black background"
+            }
+          ]
+        },
+        {
+          "type": "Community Gallery",
+          "layout_pattern": "Centered headline with responsive card grid below (2x3 visible, 6 cards)",
+          "headline": "Explore what you can do in Figma.",
+          "subheadline": "See examples of work made by the community",
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Horizontal scrolling carousel of community work examples"
+            },
+            {
+              "type": "card",
+              "description": "Card 1: UI kits - Components for chips, cards, tiles, checkboxes"
+            },
+            {
+              "type": "card",
+              "description": "Card 2: Websites - Laptop displaying camping website"
+            },
+            {
+              "type": "card",
+              "description": "Card 3: Social media - Social media graphic promoting brunch at coffee shop"
+            },
+            {
+              "type": "card",
+              "description": "Card 4: Mobile apps - Running mobile app displaying map"
+            },
+            {
+              "type": "card",
+              "description": "Card 5: Presentations - Brand Vision presentation template"
+            },
+            {
+              "type": "card",
+              "description": "Card 6: Wireframes - Website wireframe"
+            },
+            {
+              "type": "button",
+              "description": "Browse all templates text link with arrow"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid layout with logo top-left",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Figma logo in white"
+            },
+            {
+              "type": "icon",
+              "description": "Five-star rating display"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons: X (Twitter), YouTube, Instagram, Facebook in circular containers"
+            },
+            {
+              "type": "navigation",
+              "description": "Column 1 - Product: Figma Design, Figma Make, Figma Weave, Dev Mode, Figma Motion, FigJam, Figma Slides, Figma Draw, Figma Sites, Figma Buzz, etc."
+            },
+            {
+              "type": "navigation",
+              "description": "Column 2 - Plans: Pricing, Enterprise, Organization, Professional"
+            },
+            {
+              "type": "navigation",
+              "description": "Column 3 - Use cases: UI design, UX design, Wireframing, Diagramming, Prototyping, Brainstorming, etc."
+            },
+            {
+              "type": "navigation",
+              "description": "Column 4 - Resources: Blog, Best practices, Templates, Developers, Integrations, Support, etc."
+            },
+            {
+              "type": "navigation",
+              "description": "Column 5 - Company: Events, Customers, Careers, Newsroom, Brand assets"
+            },
+            {
+              "type": "button",
+              "description": "Cookie settings button"
+            },
+            {
+              "type": "button",
+              "description": "Language selector dropdown (English) with globe icon"
+            }
+          ]
+        },
+        {
+          "type": "CTA Banner",
+          "layout_pattern": "Full-width banner",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Explore Figma text link with right arrow on bright neon green background, black text"
+            }
+          ]
+        },
+        {
+          "type": "Legal Footer",
+          "layout_pattern": "Centered horizontal layout",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Legal links: © 2024 Figma, Privacy, Terms"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons (repeated)"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

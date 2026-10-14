@@ -1,0 +1,2073 @@
+{
+  "company": "Apple",
+  "rank": 1,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": true,
+  "status": "completed",
+  "source_url": "https://www.apple.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T05:08:20.713949Z",
+  "completed_at": "2026-09-24T14:14:29.940321Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Apple",
+        "tagline": null,
+        "source_url": "https://www.apple.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Consumer Electronics / Technology",
+        "primary_purpose": "Showcase flagship products and drive consideration across Apple's ecosystem of devices, services, and retail offerings",
+        "main_cta": "Learn more",
+        "copy_tone": [
+          "Confident",
+          "Minimal",
+          "Aspirational"
+        ],
+        "brand_signature": "Apple's visual identity embodies premium minimalism with expansive product photography on clean backgrounds, typography-forward headlines, and generous white space. The design language emphasizes product as hero through cinematic imagery and restrained UI elements that let hardware and software speak for themselves.",
+        "visual_language": {
+          "keywords": [
+            "minimalist",
+            "premium",
+            "cinematic",
+            "product-centric",
+            "typographic hierarchy",
+            "editorial"
+          ],
+          "accent_strategy": "Blue accent buttons used sparingly against predominantly neutral backgrounds (white, black, subtle grays), creating clear action hierarchy without visual clutter",
+          "highlights": "Full-bleed hero imagery with subtle gradient overlays, dynamic product photography featuring depth and dimensionality, theme switching between light and dark contexts"
+        },
+        "strategy": {
+          "target_audience": [
+            "Tech-forward consumers seeking premium, integrated device ecosystems",
+            "Creative professionals and prosumers who value performance and design quality",
+            "Aspirational buyers drawn to status and innovation signaling",
+            "Existing Apple users ready to upgrade within the ecosystem"
+          ],
+          "executive_synthesis": "Apple's homepage operates as a brand temple and product discovery engine, deploying cinematic product imagery and minimal copy to create desire while systematically guiding visitors through hero announcements (iPhone 18 Pro, iPhone Duo, Apple Watch Series 12) to secondary products and services. The visual restraint and premium photography reinforce brand positioning as a luxury technology company, while the modular tile system enables flexible merchandising of new launches. Strategic emphasis on upgrade programs and Apple Card underscores the business model's focus on ecosystem lock-in and recurring revenue."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals Apple's signature clean, product-focused design language with stark visual clarity. The layout employs alternating black and white/light gray hero sections creating dramatic contrast bands - pure black backgrounds for premium \"Pro\" products (iPhone 18 Pro, Apple Watch) and off-white (#F5F5F7) for consumer products. Typography is exclusively SF Pro Display/Text - a geometric sans-serif family used at precise scales (56px display headlines down to 12px labels) with tight line-heights creating mathematical rhythm. The color palette is aggressively minimal: monochromatic blacks/whites with a single accent blue (#2997FF) exclusively for interactive elements. The layout is centered-symmetric with strict 12-column grid, card-based product sections in 50/50 splits, and generous whitespace. This aligns perfectly with Flat Design's defining characteristics: 2D clarity, no decorative gradients in content areas, bold saturated accent colors, geometric sans-serif typography, and strict grid-based structure. The design is distinctly modern/futuristic in chronology, completely flat in dimensionality, minimal in decoration, and rigidly structured.",
+          "secondary_style": "Glassmorphism",
+          "reasoning_secondary": "The surfaces profile reveals significant Glassmorphism influence specifically in the navigation system: \"backdrop-filter: saturate(180%) blur(20px)\" with semi-transparent backgrounds (rgba(250, 250, 252, 0.8)), \"curtain scrim: backdrop-filter: blur(20px)\" for modal overlays, and \"Glass Panel Surface\" explicitly noted for flyout menus and floating elements. The navigation bar uses translucent frosted-glass treatment with variable opacity - you can see through to content behind. This is the KEY DIFFERENTIATOR for Glassmorphism: frosted transparency with blur effects. While the primary content areas are pure Flat Design, the UI chrome (navigation, modals, scrims) employs layered transparency characteristic of Glassmorphism. The rounded/soft button shapes and soft shadow effects mentioned in the profile further support this secondary classification. This creates a hybrid: Flat Design foundations with Glassmorphism UI components."
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "card_based"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "2rem",
+          "max_width": "1024px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 733px (1 Column, 16px gutter)",
+          "tablet": "734px - 1068px (Variable columns, 22px padding)",
+          "desktop": "1069px - 1440px (12 Columns, 22px padding)",
+          "large": "1441px+ (12 Columns, 22px padding)"
+        },
+        "section_separation": "Alternating background colors (pure black for dark theme sections, white/light gray for light theme sections), generous vertical whitespace between major blocks, no visible dividers or structural lines. Ribbon section uses animated gradient background. Hero sections are full-bleed with integrated imagery. Promo grid sections use 50/50 split cards with vertical dividers implied by content edges.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]  [Store] [Mac] [iPad] [Watch] [AirPods] [...] │\n│         [Vision] [TV & Home] [Entertainment] [...]      │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO - iPhone 18 Pro]                │\n│                      iPhone 18 Pro                       │\n│                      Pro. Further.                       │\n│                [Learn more]  [Buy]                       │\n│       [Three iPhone devices in titanium colors]          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                   [HERO - iPhone Duo]                    │\n│                      iPhone Duo                          │\n│                     Hello, hello.                        │\n│      The only note taking in its own class to fold       │\n│              Meet a man. Imagine all that.              │\n│                [Learn more]  [Buy]                       │\n│        [Hands holding folded iPhone device]              │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                [HERO - Apple WATCH SERIES 12]            │\n│                  🍎 WATCH SERIES 12                      │\n│         [Two Apple Watches - health displays]            │\n│    The most accurate heart rate sensing in a wristable.*│\n│                [Learn more]  [Buy]                       │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│  ┌────────────────────┬─────────────────────────────┐   │\n│  │ [Mac mini section] │  [Mac mini section - white] │   │\n│  │ A healthy payload… │  More runs for the Pro.     │   │\n│  │   [Learn more] [Buy] [Learn more] [Buy]         │   │\n│  └────────────────────┴─────────────────────────────┘   │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────┬─────────────────────────────┐   │\n│  │  [MacBook Air]     │  [MacBook Air - light bg]   │   │\n│  │ New supersized by M3│ Now supersized by M4.      │   │\n│  │ [Learn more] [Buy]  │  [Learn more] [Buy]        │   │\n│  └────────────────────┴─────────────────────────────┘   │\n├──────────────────────────────────────────────────────────┤\n│  ┌────────────────────┬─────────────────────────────┐   │\n│  │ [Loan & Lease]     │  [iPad credit back]         │   │\n│  │ Lock & Lease & Upgrade it.* Get up to 1% daily. │   │\n│  │  [Learn more]      │  [Learn more] [Apply now]   │   │\n│  └────────────────────┴─────────────────────────────┘   │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│               Endless entertainment.                     │\n├──────────────────────────────────────────────────────────┤\n│  [Three promotional cards for Apple services]            │\n│  ┌─────────┬─────────┬─────────┐                        │\n│  │ [Card 1]│ [Card 2]│ [Card 3]│                        │\n│  └─────────┴─────────┴─────────┘                        │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                    [FOOTER - Legal Text]                 │\n│  [Fine print, disclaimers, and legal information]        │\n├──────────────────────────────────────────────────────────┤\n│                  [FOOTER - Navigation]                   │\n│  ┌──────────┬──────────┬──────────┬──────────┐         │\n│  │ Shop and │ Services │ Apple    │ For      │         │\n│  │ Learn    │          │ Store    │ Business │         │\n│  │ [Links]  │ [Links]  │ [Links]  │ [Links]  │         │\n│  └──────────┴──────────┴──────────┴──────────┘         │\n│  [More text]   [Apple Values]   [About Apple]           │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: White/light gray\n- Horizontal navigation with Apple logo left, utility links right\n- Buttons/CTAs: Multiple navigation links (Store, Mac, iPad, Watch, AirPods, Vision, TV & Home, Entertainment, etc.)\n- Colors: Black text on white background\n- Typography: Clean, minimal Apple system font\n\nHERO - iPhone 18 Pro:\n- Background: Pure black\n- Imagery: Three iPhone 18 Pro devices shown in premium titanium finishes (space black, natural titanium, desert titanium) with metallic reflective surfaces\n- Buttons/CTAs: \"Learn more\" (solid blue pill button) | \"Buy\" (outline/ghost button)\n- Colors: Black background, blue accent for primary CTA\n- Typography: Bold, dramatic headline in white\n- Visual style: Premium product photography with dramatic lighting\n\nHERO - iPhone Duo:\n- Background: Light gray/off-white\n- Imagery: Product photography showing hands holding a folded iPhone device, screen displays iOS interface with colorful app icons\n- Buttons/CTAs: \"Learn more\" (solid blue pill button) | \"Buy\" (outline button)\n- Colors: Light background, blue primary CTA, colorful screen content\n- Typography: Clean headline, descriptive subtext\n- Visual style: Lifestyle photography, natural hand positioning\n\nHERO - Apple WATCH SERIES 12:\n- Background: Pure black\n- Imagery: Two Apple Watch faces showing health monitoring features - one with red heart rate display (62 BPM), one with green health rings\n- Buttons/CTAs: \"Learn more\" (solid blue pill button) | \"Buy\" (outline button)\n- Colors: Black background, vibrant red and green displays on watches, blue CTA\n- Typography: Bold Apple Watch branding\n- Visual style: Product-focused with glowing displays\n\nMAC MINI SPLIT SECTION:\n- Background: Left half black, right half light gray/white - clear vertical split\n- Left side text: \"A healthy payload built in.\" with product tagline\n- Right side text: \"More runs for the Pro.\"\n- Buttons/CTAs: Left: \"Learn more\" (blue) | \"Buy\" (outline) | Right: \"Learn more\" (blue) | \"Buy\" (outline)\n- Colors: High contrast split, blue CTAs\n- Visual style: Minimalist, text-focused product intro\n\nMACBOOK AIR SPLIT SECTION:\n- Background: Both halves light gray/white with subtle product imagery\n- Left: \"New supersized by M3\"\n- Right: \"Now supersized by M4\"\n- Buttons/CTAs: \"Learn more\" (blue) | \"Buy\" (outline) repeated for each side\n- Colors: Light neutral backgrounds, blue CTAs\n- Typography: Product-focused headlines\n\nLOAN & CREDIT SECTION:\n- Background: Split layout - left and right promotional areas with light backgrounds\n- Left: \"Lock & Lease & Upgrade it.\" promotional text\n- Right: \"Get up to 1% daily. Cards back.\" credit offer\n- Buttons/CTAs: Left: \"Learn more\" | Right: \"Learn more\" (blue) | \"Apply now\" (outline)\n- Colors: Light backgrounds, blue primary buttons\n- Typography: Promotional, benefit-focused\n\nENDLESS ENTERTAINMENT:\n- Background: White section header, three black promotional cards below\n- Imagery: Three service promotion cards (likely Apple TV+, Apple Music, Apple Arcade)\n- Buttons/CTAs: Individual CTAs on each card\n- Colors: Black cards with service-specific imagery, colorful content\n- Typography: Bold section header\n- Visual style: Card-based layout for service promotions\n\nFOOTER - LEGAL:\n- Background: Light gray\n- Typography: Small print, dense legal text\n- Colors: Gray text on light background\n- Content: Disclaimers, footnotes, legal requirements\n\nFOOTER - NAVIGATION:\n- Background: Light gray\n- Layout: Multi-column link directory\n- Sections: \"Shop and Learn\" | \"Services\" | \"Apple Store\" | \"For Business\" | \"Apple Values\" | \"About Apple\"\n- Colors: Dark gray/black text links\n- Typography: Small, organized in clear columns\n- Additional elements: Copyright, country selector, legal links at bottom",
+        "insights": [
+          "Apple employs a strict centered-symmetric layout with precise vertical rhythm – hero sections alternate between dark and light themes creating strong visual cadence.",
+          "Navigation system uses sophisticated flyout submenus with staggered animations (20ms per item, 40-80ms per group) and complex state management for mobile/desktop responsive behavior.",
+          "Responsive strategy shifts from horizontal navigation (desktop) to full-screen flyout menu (mobile <834px) with transform-based animations and careful opacity/visibility timing.",
+          "Grid system uses max-width:1024px container with padding adjusted by safe-area-insets for notched devices, 12-column desktop collapses to single column mobile with 48px side padding.",
+          "Typography scales dramatically – navigation links jump from 12px (desktop) to 28px SF Pro Display (mobile), hero headlines use 24px+ SF Pro Display with precise letter-spacing adjustments.",
+          "Card-based promo grid maintains strict 50/50 split on desktop, stacks vertically on mobile with consistent 48px horizontal padding and full-width tiles.",
+          "Media gallery carousel uses translate3d transforms with dot navigation that includes timed progress indicators (--sk-dotnav-variable-duration: 1000ms) and play/pause controls."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Primary Ink",
+            "type": "Dark",
+            "rules": {
+              "description": "The primary text color and a deep background for localized UI elements.",
+              "when_to_use": [
+                "Body text color",
+                "Global navigation submenu links",
+                "Locale switcher primary button background"
+              ]
+            },
+            "hex": "#1D1D1F",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#333336",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1
+          },
+          {
+            "name": "Absolute Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Provides high-contrast canvas for premium product sections and acts as a base for translucent icons and text.",
+              "when_to_use": [
+                "Backgrounds for 'Pro' and dark-themed product sections (iPhone 18 Pro, Apple Watch)",
+                "Media gallery item backgrounds",
+                "Global navigation icons and footer text (via varying opacities)"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.9302
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Action Blue",
+            "type": "Cool Color",
+            "rules": {
+              "description": "The universal interactive accent color, strictly reserved for actionable elements.",
+              "when_to_use": [
+                "Primary 'Learn more' CTA backgrounds",
+                "Secondary 'Buy' CTA text and borders",
+                "Inline text links in ribbons and galleries"
+              ]
+            },
+            "hex": "#2997FF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#0066CC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#0071E3",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#9FC6F4",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#002C66",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0883999999999998
+          },
+          {
+            "name": "System Background",
+            "type": "Light",
+            "rules": {
+              "description": "The foundation of the light theme, used to structure the majority of the page's sections and elevated components.",
+              "when_to_use": [
+                "Promo product section backgrounds (Mac mini, iPad Air)",
+                "Global navigation bar background (with transparency)",
+                "Main page body and ribbon backgrounds",
+                "Text color on primary dark buttons"
+              ]
+            },
+            "hex": "#F5F5F7",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#FAFAFC",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F4F8FB",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#E8E8ED",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.1572
+          },
+          {
+            "name": "Secondary Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "A subdued ink used to establish typographic hierarchy and de-emphasize secondary information.",
+              "when_to_use": [
+                "Global navigation submenu category headers",
+                "Product card callout text",
+                "Search menu section titles"
+              ]
+            },
+            "hex": "#6E6E73",
+            "alpha": null,
+            "shades": [],
+            "score": 0.003
+          }
+        ],
+        "insights": [
+          "The design alternates between absolute black and off-white bands to dramatically demarcate different product tiers (e.g., 'Pro' models sit on black, standard models on light gray).",
+          "The palette commits to strict monochromatic minimalism with a single vivid blue hue that exclusively signals interactivity.",
+          "Rather than defining dozens of unique gray hexes, the page relies heavily on applying opacity to absolute black and white to create dynamic, layered components like the navigation bar and footer text."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "SF Pro Display",
+              "role": "H2 Display",
+              "specs": {
+                "size": "56px",
+                "line_height": "1.07143",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Display",
+              "role": "H3 Display",
+              "specs": {
+                "size": "40px",
+                "line_height": "1.1",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "H2 Secondary",
+              "specs": {
+                "size": "25.5px",
+                "line_height": "37.5px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+          "variants": [
+            {
+              "name": "SF Pro Display",
+              "role": "Body Large",
+              "specs": {
+                "size": "21px",
+                "line_height": "1.19048",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "Body Regular",
+              "specs": {
+                "size": "17px",
+                "line_height": "25px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "Body Medium Bold",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.28577",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+          "variants": [
+            {
+              "name": "SF Pro Display",
+              "role": "Nav Item Elevated",
+              "specs": {
+                "size": "24px",
+                "line_height": "1.1666666667",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "SF Pro Display",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "Nav Link Apple",
+              "specs": {
+                "size": "17px",
+                "line_height": "1.2353641176",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "SF Pro Text",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "Button",
+              "specs": {
+                "size": "14px",
+                "line_height": "1.2857742857",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "SF Pro Text",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "UI Label Bold",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.33337",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "UI Label Regular",
+              "specs": {
+                "size": "12px",
+                "line_height": "1.33337",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "SF Pro Text",
+              "role": "Badge",
+              "specs": {
+                "size": "10px",
+                "line_height": "1.3",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "self-hosted"
+              },
+              "technical": {
+                "font_family_css": "SF Pro Text",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Font that does not have a classifier, that is small like regular.",
+          "variants": []
+        },
+        "highlights": null,
+        "insights": [
+          "Apple utilizes SF Pro Display for large headlines (40px+) and elevated UI elements, transitioning to SF Pro Text for sizes below 25px to optimize readability.",
+          "Extensive use of tightly calculated fractional line-heights (e.g., 1.07143 for display, 1.33337 for small labels) ensures precise vertical rhythm.",
+          "UI components like badges and submenu labels scale down to 10px and 12px respectively, maintaining legibility through specific font weights (600 for emphasis)."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "glass_blur",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Global Nav Background (Light Scrim)",
+            "description": "Primary navigation bar background with opacity for glassmorphism effect",
+            "when_to_use": [
+              "Global navigation bar",
+              "Stuck navigation state",
+              "Light theme default"
+            ],
+            "hex": "#FAFAFC"
+          },
+          {
+            "name": "Global Nav Background (Dark Scrim)",
+            "description": "Dark theme navigation bar background with opacity for glassmorphism effect",
+            "when_to_use": [
+              "Global navigation bar dark mode",
+              "Dark theme navigation"
+            ],
+            "hex": "#161617"
+          },
+          {
+            "name": "Global Nav Open Background (Light)",
+            "description": "Solid background when navigation flyout is open",
+            "when_to_use": [
+              "Navigation flyout expanded state",
+              "Menu open state"
+            ],
+            "hex": "#FAFAFC"
+          },
+          {
+            "name": "Global Nav Open Background (Dark)",
+            "description": "Dark solid background when navigation flyout is open",
+            "when_to_use": [
+              "Navigation flyout expanded state dark mode",
+              "Menu open state dark"
+            ],
+            "hex": "#161617"
+          },
+          {
+            "name": "Footer Background (Light)",
+            "description": "Global footer background color",
+            "when_to_use": [
+              "Global footer",
+              "Footer sections",
+              "Light theme footer"
+            ],
+            "hex": "#F5F5F7"
+          },
+          {
+            "name": "Footer Background (Dark)",
+            "description": "Dark theme footer background color",
+            "when_to_use": [
+              "Global footer dark mode",
+              "Footer sections dark theme"
+            ],
+            "hex": "#1D1D1F"
+          },
+          {
+            "name": "Buystrip Background (Light)",
+            "description": "Promotional buystrip section background",
+            "when_to_use": [
+              "Buystrip promotional sections",
+              "Marketing callout backgrounds"
+            ],
+            "hex": "#F5F5F7"
+          },
+          {
+            "name": "Buystrip Background (Dark)",
+            "description": "Dark promotional buystrip section background",
+            "when_to_use": [
+              "Buystrip promotional sections dark mode",
+              "Marketing callout backgrounds dark"
+            ],
+            "hex": "#1D1D1F"
+          },
+          {
+            "name": "Curtain Background (Light)",
+            "description": "Modal curtain overlay with 40% opacity",
+            "when_to_use": [
+              "Modal overlays",
+              "Menu curtain backgrounds",
+              "Scrim overlays"
+            ],
+            "hex": "#E8E8ED"
+          },
+          {
+            "name": "Curtain Background (Dark)",
+            "description": "Dark modal curtain overlay with 40% opacity",
+            "when_to_use": [
+              "Modal overlays dark mode",
+              "Menu curtain backgrounds dark",
+              "Scrim overlays dark"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Search List Item Hover (Light)",
+            "description": "Search results and list item hover state background",
+            "when_to_use": [
+              "Search result hover states",
+              "List item interactive states"
+            ],
+            "hex": "#F5F5F7"
+          },
+          {
+            "name": "Search List Item Hover (Dark)",
+            "description": "Dark search results and list item hover state background",
+            "when_to_use": [
+              "Search result hover states dark mode",
+              "List item interactive states dark"
+            ],
+            "hex": "#1D1D1F"
+          },
+          {
+            "name": "Glass Panel Surface",
+            "description": "Base color for glassmorphism surfaces with backdrop blur",
+            "when_to_use": [
+              "Flyout menus",
+              "Search panels",
+              "Floating navigation elements"
+            ],
+            "hex": "#FFFFFF"
+          }
+        ],
+        "gradients": [],
+        "highlights": [
+          "Glass blur panels: backdrop-filter: saturate(180%) blur(20px) with rgba(250, 250, 252, 0.8) light background or rgba(22, 22, 23, 0.8) dark background on navigation",
+          "Curtain scrim: backdrop-filter: blur(20px) over rgba(232, 232, 237, 0.4) light or rgba(0, 0, 0, 0.4) dark",
+          "Soft shadow effects with large blur radius throughout global navigation and flyout menus",
+          "Glassmorphism treatment on global navigation bar with variable opacity and backdrop blur support",
+          "Translucent scrim overlays with blur effects for modal states and menu transitions"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This site uses backdrop-filter blur effects rather than traditional box-shadows for elevation, creating a frosted glass appearance on navigation elements.",
+          "levels": []
+        },
+        "borders": [
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FAFAFC",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "carousel",
+          "hover_transform",
+          "video_background"
+        ],
+        "animations": [
+          {
+            "name": "globalnav-flyout-slide-forward-next",
+            "css": "@keyframes globalnav-flyout-slide-forward-next{0%{opacity:0;transform:translate(8px)}to{opacity:1;transform:translate(0)}}",
+            "description": "Slide and fade animation for navigation flyout menus appearing from right"
+          },
+          {
+            "name": "globalnav-flyout-slide-forward-previous",
+            "css": "@keyframes globalnav-flyout-slide-forward-previous{0%{opacity:1;transform:translate(0)}to{opacity:0;transform:translate(-8px)}}",
+            "description": "Slide and fade out animation for navigation flyout menus exiting to left"
+          },
+          {
+            "name": "globalnav-flyout-slide-back-previous",
+            "css": "@keyframes globalnav-flyout-slide-back-previous{0%{opacity:1;transform:translate(0)}to{opacity:0;transform:translate(8px)}}",
+            "description": "Reverse slide animation for navigation menu going back"
+          },
+          {
+            "name": "globalnav-flyout-slide-back-next",
+            "css": "@keyframes globalnav-flyout-slide-back-next{0%{opacity:0;transform:translate(-8px)}to{opacity:1;transform:translate(0)}}",
+            "description": "Reverse slide in animation for navigation menu appearing from left"
+          },
+          {
+            "name": "globalnav-chevron-slide-in-hover",
+            "css": "@keyframes globalnav-chevron-slide-in-hover{0%{opacity:0;transform:translate(-4px)}to{opacity:1;transform:translate(0)}}",
+            "description": "Chevron icon slides in on hover state for navigation links"
+          },
+          {
+            "name": "globalnav-chevron-hover-off",
+            "css": "@keyframes globalnav-chevron-hover-off{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(.8)}}",
+            "description": "Chevron icon fades and scales down when hover ends"
+          },
+          {
+            "name": "globalnav-search-fade-and-slide",
+            "css": "@keyframes globalnav-search-fade-and-slide{0%{opacity:0;transform:translateY(calc(var(--r-globalnav-search-shift-vertical) * -1))}to{opacity:1;transform:translateY(0)}}",
+            "description": "Search results fade in and slide down from top"
+          },
+          {
+            "name": "globalnav-search-input-intro",
+            "css": "@keyframes globalnav-search-input-intro{0%{opacity:0;transform:translateY(var(--r-globalnav-search-input-vertical-shift))}to{opacity:1;transform:translateY(0)}}",
+            "description": "Search input field intro animation with vertical slide"
+          },
+          {
+            "name": "globalnav-scrim-height-change",
+            "css": "@keyframes globalnav-scrim-height-change{0%{height:var(--r-globalnav-previous-flyout-height)}to{height:var(--r-globalnav-next-flyout-height)}}",
+            "description": "Height transition animation for navigation backdrop scrim"
+          },
+          {
+            "name": "globalnav-fade-in",
+            "css": "@keyframes globalnav-fade-in{0%{opacity:0}to{opacity:1}}",
+            "description": "Simple opacity fade in animation for navigation elements"
+          },
+          {
+            "name": "progress-indicator-animating",
+            "css": "@keyframes progress-indicator-animating{0%{opacity:1}12.5%{opacity:.9}25%{opacity:.7}37.5%{opacity:.6}50%{opacity:.4}62.5%{opacity:.3}75%{opacity:.2}87.5%{opacity:.13}}",
+            "description": "Loading spinner spoke animation cycling through opacity values"
+          },
+          {
+            "name": "nav-link-color-transition",
+            "css": "transition: color .32s cubic-bezier(.4,0,.6,1)",
+            "description": "Color transition for navigation link hover states"
+          },
+          {
+            "name": "flyout-item-reveal",
+            "css": "transition: opacity .32s cubic-bezier(.4,0,.6,1), transform .32s cubic-bezier(.4,0,.6,1)",
+            "description": "Staggered reveal animation for flyout menu items with opacity and transform"
+          },
+          {
+            "name": "globalnav-curtain-transition",
+            "css": "transition: opacity .32s cubic-bezier(.4,0,.6,1) 80ms, visibility .32s step-end 80ms",
+            "description": "Curtain overlay fade transition with delayed visibility toggle"
+          }
+        ],
+        "insights": [
+          "Apple's design system uses a consistent cubic-bezier(.4,0,.6,1) easing curve across all navigation animations creating a unified, polished motion language",
+          "The navigation employs sophisticated staggered animations with CSS custom properties (--r-globalnav-flyout-item-number) to calculate individual item delays dynamically",
+          "Button radius is consistently rounded-lg (8px via CSS variable --sk-button-border-radius) across all CTA variations, with rounded-full reserved exclusively for icon-only buttons"
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Learn more (Primary Dark)",
+            "usage": "Primary CTA on dark hero sections (iPhone 18 Pro, Apple Watch). Solid blue pill button for main action.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#0071E3",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#0077ED",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#0071E3",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Buy (Secondary Dark)",
+            "usage": "Secondary CTA on dark hero sections. Outline/ghost button for secondary purchase action.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#2997FF",
+                "border_color": "#2997FF",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "#FFFFFF",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#2997FF",
+                "border_color": "#2997FF",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Learn more (Primary Light)",
+            "usage": "Primary CTA on light sections (iPhone Duo, MacBook Air). Solid blue pill button.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#0066CC",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#0071E3",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#0066CC",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "View pricing (Secondary Light)",
+            "usage": "Secondary CTA on light sections. Outline button linking to pricing pages.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#0066CC",
+                "border_color": "#0066CC",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "#000000",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#0066CC",
+                "border_color": "#0066CC",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Continue (Locale Switcher)",
+            "usage": "Confirmation button in locale/country switcher modal.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#1D1D1F",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#333336",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#1D1D1F",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Stream now (Neutral Gallery)",
+            "usage": "CTA button inside entertainment gallery cards. Neutral styling against media backgrounds.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(255, 255, 255, 0.15)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.3)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.25)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.5)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(255, 255, 255, 0.15)",
+                "text_color": "#FFFFFF",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Apply now (Secondary)",
+            "usage": "Secondary CTA for Apple Card application. Outline button for secondary action.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "SF Pro Text",
+                  "size": "14px",
+                  "padding": "8px 15px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#0066CC",
+                "border_color": "#0066CC",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#000000",
+                "border_color": "#000000",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#0066CC",
+                "border_color": "#0066CC",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular Close)",
+            "usage": "Close button for modals and overlays. Circular icon-only button.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "",
+                  "size": "17px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(210, 210, 215, 0.64)",
+                "text_color": "rgba(0, 0, 0, 0.48)",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(210, 210, 215, 0.8)",
+                "text_color": "rgba(0, 0, 0, 0.7)",
+                "border_color": "",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(210, 210, 215, 0.64)",
+                "text_color": "rgba(0, 0, 0, 0.48)",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Hero CTAs are paired horizontally with primary action first, secondary action second",
+          "spacing": "10px"
+        },
+        "links": {
+          "text_decoration": "underline"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "48px",
+          "position": "fixed",
+          "background": {
+            "hex": "#FAFAFC",
+            "color_reference": "System Background",
+            "opacity": "0.8",
+            "blur": "saturate(1.8) blur(20px)"
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Product Hero Tile",
+            "description": "Full-width promotional card with background image, headline, subheadline, and CTA buttons. Used for flagship product announcements.",
+            "when_to_use": [
+              "Hero product announcements",
+              "New product launches",
+              "Primary marketing messaging"
+            ]
+          },
+          {
+            "name": "Product Promo Tile",
+            "description": "Half-width promotional card with product image and CTAs. Used in grid layout for secondary product promotion.",
+            "when_to_use": [
+              "Product lineup display",
+              "Secondary product promotion",
+              "Feature highlights"
+            ]
+          },
+          {
+            "name": "Entertainment Gallery Card",
+            "description": "Media card with background image, show logo, and stream CTA. Used in horizontal carousel for Apple TV+ content.",
+            "when_to_use": [
+              "Streaming content promotion",
+              "Apple TV+ show highlights",
+              "Entertainment services"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": []
+      },
+      "icons": [
+        {
+          "name": "Global Navigation Filled Menu Icons",
+          "description": "Filled product silhouette icons used in the global navigation flyout menus.",
+          "when_to_use": [
+            "Global Navigation Flyout Menus",
+            "Product Categories"
+          ],
+          "format": "SVG",
+          "style": "Filled silhouette",
+          "sizes": {
+            "small": "44px",
+            "medium": "48px"
+          },
+          "examples": [
+            {
+              "name": "Store",
+              "svg_code": "<svg height=\"44\" viewBox=\"0 0 30 44\" width=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m26.5679 20.4629c1.002 0 1.67.738 1.693 1.857h-3.48c.076-1.119.779-1.857 1.787-1.857zm2.754 2.672v-.387c0-1.963-1.037-3.176-2.742-3.176-1.735 0-2.848 1.289-2.848 3.276 0 1.998 1.096 3.263 2.848 3.263 1.383 0 2.367-.668 2.66-1.746h-1.008c-.264.557-.814.856-1.629.856-1.072 0-1.769-.791-1.822-2.039v-.047zm-9.547-3.451h.96v.937h.094c.188-.615.914-1.049 1.752-1.049.164 0 .375.012.504.03v1.007c-.082-.023-.445-.058-.644-.058-.961 0-1.659 1.098-1.659 1.535v3.914h-1.007zm-4.27 5.519c-1.195 0-1.869-.867-1.869-2.361 0-1.5.674-2.361 1.869-2.361 1.196 0 1.87.861 1.87 2.361 0 1.494-.674 2.361-1.87 2.361zm0-5.631c-1.798 0-2.912 1.237-2.912 3.27 0 2.027 1.114 3.269 2.912 3.269 1.799 0 2.913-1.242 2.913-3.269 0-2.033-1.114-3.27-2.913-3.27zm-5.478-1.475v1.635h1.407v.843h-1.407v3.575c0 .744.282 1.06.938 1.06.182 0 .281-.006.469-.023v.849c-.199.035-.393.059-.592.059-1.301 0-1.822-.481-1.822-1.688v-3.832h-1.02v-.843h1.02v-1.635zm-8.103 5.694c.129.885.973 1.447 2.174 1.447 1.137 0 1.975-.615 1.975-1.453 0-.72-.527-1.177-1.693-1.47l-1.084-.282c-1.53-.386-2.192-1.078-2.192-2.279 0-1.436 1.201-2.408 2.988-2.408 1.635 0 2.854.972 2.942 2.338h-1.061c-.146-.867-.861-1.383-1.916-1.383-1.125 0-1.869.562-1.869 1.418 0 .662.463 1.043 1.629 1.342l.885.234c1.752.439 2.455 1.119 2.455 2.361 0 1.553-1.225 2.543-3.158 2.543-1.793 0-3.03-.949-3.141-2.408z\"></path></svg>"
+            },
+            {
+              "name": "Mac",
+              "svg_code": "<svg height=\"44\" viewBox=\"0 0 23 44\" width=\"23\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m8.1558 25.9987v-6.457h-.0703l-2.666 6.457h-.8907l-2.666-6.457h-.0703v6.457h-.9844v-8.4551h1.2246l2.8945 7.0547h.0938l2.8945-7.0547h1.2246v8.4551zm2.5166-1.7696c0-1.1309.832-1.7812 2.3027-1.8691l1.8223-.1113v-.5742c0-.7793-.4863-1.207-1.4297-1.207-.7559 0-1.2832.2871-1.4238.7852h-1.0195c.1348-1.0137 1.1309-1.6816 2.4785-1.6816 1.541 0 2.4023.791 2.4023 2.1035v4.3242h-.9609v-.9318h-.0938c-.4102.6738-1.1016 1.043-1.9453 1.043-1.2246 0-2.1328-.7266-2.1328-1.8809zm4.125-.5859v-.5801l-1.6992.1113c-.9609.0645-1.3828.3984-1.3828 1.0312 0 .6445.5449 1.0195 1.2773 1.0195 1.0371.0001 1.8047-.6796 1.8047-1.5819zm6.958-2.0273c-.1641-.627-.7207-1.1367-1.6289-1.1367-1.1367 0-1.8516.9082-1.8516 2.3379 0 1.459.7266 2.3848 1.8516 2.3848.8496 0 1.4414-.3926 1.6289-1.1074h1.0195c-.1816 1.1602-1.125 2.0156-2.6426 2.0156-1.7695 0-2.9004-1.2832-2.9004-3.293 0-1.9688 1.125-3.2461 2.8945-3.2461 1.5352 0 2.4727.9199 2.6484 2.0449z\"></path></svg>"
+            },
+            {
+              "name": "iPad",
+              "svg_code": "<svg height=\"44\" viewBox=\"0 0 24 44\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m14.9575 23.7002c0 .902-.768 1.582-1.805 1.582-.732 0-1.277-.375-1.277-1.02 0-.632.422-.966 1.383-1.031l1.699-.111zm-1.395-4.072c-1.347 0-2.343.668-2.478 1.681h1.019c.141-.498.668-.785 1.424-.785.944 0 1.43.428 1.43 1.207v.574l-1.822.112c-1.471.088-2.303.738-2.303 1.869 0 1.154.908 1.881 2.133 1.881.844 0 1.535-.369 1.945-1.043h.094v.931h.961v-4.324c0-1.312-.862-2.103-2.403-2.103zm6.769 5.575c-1.155 0-1.846-.885-1.846-2.361 0-1.471.697-2.362 1.846-2.362 1.142 0 1.857.914 1.857 2.362 0 1.459-.709 2.361-1.857 2.361zm1.834-8.027v3.503h-.088c-.358-.691-1.102-1.107-1.981-1.107-1.605 0-2.654 1.289-2.654 3.27 0 1.986 1.037 3.269 2.654 3.269.873 0 1.623-.416 2.022-1.119h.093v1.008h.961v-8.824zm-15.394 4.869h-1.863v-3.563h1.863c1.225 0 1.899.639 1.899 1.799 0 1.119-.697 1.764-1.899 1.764zm.276-4.5h-3.194v8.455h1.055v-3.018h2.127c1.588 0 2.719-1.119 2.719-2.701 0-1.611-1.108-2.736-2.707-2.736zm-6.064 8.454h1.008v-6.316h-1.008zm-.199-8.237c0-.387.316-.704.703-.704s.703.317.703.704c0 .386-.316.703-.703.703s-.703-.317-.703-.703z\"></path></svg>"
+            },
+            {
+              "name": "iPhone",
+              "svg_code": "<svg height=\"44\" viewBox=\"0 0 38 44\" width=\"38\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m32.7129 22.3203h3.48c-.023-1.119-.691-1.857-1.693-1.857-1.008 0-1.711.738-1.787 1.857zm4.459 2.045c-.293 1.078-1.277 1.746-2.66 1.746-1.752 0-2.848-1.266-2.848-3.264 0-1.986 1.113-3.275 2.848-3.275 1.705 0 2.742 1.213 2.742 3.176v.386h-4.541v.047c.053 1.248.75 2.039 1.822 2.039.815 0 1.366-.298 1.629-.855zm-12.282-4.682h.961v.996h.094c.316-.697.932-1.107 1.898-1.107 1.418 0 2.209.838 2.209 2.338v4.09h-1.007v-3.844c0-1.137-.481-1.676-1.489-1.676s-1.658.674-1.658 1.781v3.739h-1.008zm-2.499 3.158c0-1.5-.674-2.361-1.869-2.361-1.196 0-1.87.861-1.87 2.361 0 1.495.674 2.362 1.87 2.362 1.195 0 1.869-.867 1.869-2.362zm-4.782 0c0-2.033 1.114-3.269 2.913-3.269 1.798 0 2.912 1.236 2.912 3.269 0 2.028-1.114 3.27-2.912 3.27-1.799 0-2.913-1.242-2.913-3.27zm-6.636-5.666h1.008v3.504h.093c.317-.697.979-1.107 1.946-1.107 1.336 0 2.179.855 2.179 2.338v4.09h-1.007v-3.844c0-1.119-.504-1.676-1.459-1.676-1.131 0-1.752.715-1.752 1.781v3.739h-1.008zm-6.015 4.87h1.863c1.202 0 1.899-.645 1.899-1.764 0-1.16-.674-1.799-1.899-1.799h-1.863zm2.139-4.5c1.599 0 2.707 1.125 2.707 2.736 0 1.582-1.131 2.701-2.719 2.701h-2.127v3.018h-1.055v-8.455zm-6.114 8.454h1.008v-6.316h-1.008zm-.2-8.238c0-.386.317-.703.703-.703.387 0 .704.317.704.703 0 .387-.317.704-.704.704-.386 0-.703-.317-.703-.704z\"></path></svg>"
+            },
+            {
+              "name": "Bag",
+              "svg_code": "<svg height=\"44\" viewBox=\"0 0 14 44\" width=\"14\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z\"></path></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Global Navigation Line Icons",
+          "description": "Monoline utility icons for navigation triggers and state changes.",
+          "when_to_use": [
+            "Hamburger Menu",
+            "Close buttons",
+            "Mobile Nav"
+          ],
+          "format": "SVG",
+          "style": "Line Art / Monoline",
+          "sizes": {
+            "small": "14px",
+            "medium": "18px"
+          },
+          "examples": [
+            {
+              "name": "Close / Cross",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\"><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"3.5 15, 15 3.5\"></polyline><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"3.5 3.5, 15 15\"></polyline></svg>"
+            },
+            {
+              "name": "Hamburger Menu",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><polyline id=\"globalnav-menutrigger-bread-bottom\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"2 12, 16 12\" class=\"globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom\"></polyline><polyline id=\"globalnav-menutrigger-bread-top\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" points=\"2 5, 16 5\" class=\"globalnav-menutrigger-bread globalnav-menutrigger-bread-top\"></polyline></svg>"
+            }
+          ]
+        },
+        {
+          "name": "Media Control Icons",
+          "description": "Solid circular icons for playback control.",
+          "when_to_use": [
+            "Media Galleries",
+            "Video Playback"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "56px",
+            "medium": "56px"
+          },
+          "examples": [
+            {
+              "name": "Pause",
+              "svg_code": "<svg class=\"media-gallery-dotnav-iconcontrol-pause dotnav-iconcontrol-pause\" viewBox=\"0 0 56 56\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"m21.7334 36.67h2.5342c1.1483 0 1.7324-.5796 1.7324-1.7193v-13.9015c0-1.12-.5841-1.6898-1.7324-1.7193h-2.5342c-1.1483 0-1.7324.5698-1.7324 1.7193v13.9015c-.0297 1.1396.5544 1.7193 1.7324 1.7193zm9.9992 0h2.5347c1.1485 0 1.7327-.5796 1.7327-1.7193v-13.9015c0-1.12-.5842-1.7193-1.7327-1.7193h-2.5347c-1.1485 0-1.7327.5698-1.7327 1.7193v13.9015c0 1.1396.5545 1.7193 1.7327 1.7193z\"></path> </svg>"
+            },
+            {
+              "name": "Play",
+              "svg_code": "<svg class=\"media-gallery-dotnav-iconcontrol-play dotnav-iconcontrol-play\" viewBox=\"0 0 56 56\" xmlns=\"http://www.w3.org/2000/svg\"> <path d=\"m23.7555 36.6237c.4478 0 .8598-.1343 1.4241-.4568l10.9178-6.3322c.8598-.5016 1.3614-1.021 1.3614-1.8361 0-.8061-.5016-1.3255-1.3614-1.8271l-10.9178-6.3322c-.5643-.3314-.9762-.4657-1.4241-.4657-.9315 0-1.7555.7165-1.7555 1.9435v13.3629c0 1.227.824 1.9435 1.7555 1.9435z\"></path> </svg>"
+            }
+          ]
+        },
+        {
+          "name": "Navigation Chevrons",
+          "description": "Small functional chevrons for list items and carousels.",
+          "when_to_use": [
+            "Links",
+            "Menus",
+            "Carousels"
+          ],
+          "format": "SVG",
+          "style": "Filled",
+          "sizes": {
+            "small": "16px",
+            "medium": "48px"
+          },
+          "examples": [
+            {
+              "name": "Chevron Down",
+              "svg_code": "<svg height=\"48\" viewBox=\"0 0 9 48\" width=\"9\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m8.1155 30.358a.6.6 0 1 1 -.831.8653l-7-6.7242a.6.6 0 0 1 -.0045-.8613l7-6.8569a.6.6 0 1 1 .84.8574l-6.5582 6.4238z\"></path></svg>"
+            },
+            {
+              "name": "Chevron Right Small",
+              "svg_code": "<svg height=\"16\" viewBox=\"0 0 9 16\" width=\"9\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m8.6124 8.1035-2.99 2.99a.5.5 0 0 1 -.7071-.7071l2.1366-2.1364h-6.316a.5.5 0 0 1 0-1h6.316l-2.1368-2.1367a.5.5 0 0 1 .7071-.7071l2.99 2.99a.5.5 0 0 1 .0002.7073z\"></path></svg>"
+            },
+            {
+              "name": "Chevron Right Large",
+              "svg_code": "<svg height=\"25\" viewBox=\"0 0 13 25\" width=\"13\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m12.3577 13.4238-4.4444 4.4444a.6.6 0 0 1 -.8486-.8477l3.37-3.37h-9.3231a.65.65 0 0 1 0-1.3008h9.3232l-3.37-3.37a.6.6 0 0 1 .8486-.8477l4.4444 4.4444a.5989.5989 0 0 1 -.0001.8474z\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Primary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/primary.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/primary.png",
+            "origin_url": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202609042047",
+            "description": "Apple Open Graph Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-3.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-3.png",
+            "origin_url": "https://apple.com/v/homepage/images/logos/apple-watch-series-12/a/hero_logo_apple_watch_series_12__eze8r897c5me_large.png",
+            "description": "Apple Watch Series 12 Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-4.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-4.png",
+            "origin_url": "https://apple.com/v/homepage/images/logos/apple-watch-ultra-4/a/promo_logo_apple_watch_ultra_4__bc6ish8cjaeq_large.png",
+            "description": "Apple Watch Ultra 4 Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-6.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-6.png",
+            "origin_url": "https://apple.com/v/homepage/images/logos/ipad-air-m4/a/promo_logo_ipad_air__dqdj4ni03quu_large.png",
+            "description": "iPad Air Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-2.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-2.png",
+            "origin_url": "https://apple.com/v/homepage/images/logos/apple-upgrade/a/promo_logo_apple_upgrade__lwuohffdzjem_large.png",
+            "description": "Apple Upgrade Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-5.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-5.png",
+            "origin_url": "https://apple.com/v/homepage/images/logos/apple-card/a/promo_logo_apple_card__28vxrcexz0ia_large.png",
+            "description": "Apple Card Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-7.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-7.png",
+            "origin_url": "https://apple.com/v/home/cj/images/tv-gallery/logo_hero_light__d7t8cya4x26a_small.png",
+            "description": "Apple TV Plus Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/Zx5Sg1u1k0piIUXxTOWIYw/220x54.png",
+            "description": "Brothers Title Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-8.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-8.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/EJSCPD6sWV9Ib13RNrmy2g/220x54.png",
+            "description": "Slow Horses Title Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-10.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-10.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f0/ac/1e/f0ac1e58-0027-49d0-378e-68470edfb0ec/3b7d6fac-0061-401c-9716-742245053fd0.png/220x54.png",
+            "description": "F1 on Apple TV Title Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-11.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-11.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/Cc6MMzxFzD1gVqnd6IslKA/220x54.png",
+            "description": "Ted Lasso Title Logo"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-12.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-12.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/Kc1Xx3Z1QBOuXe1EHDu4TA/220x54.png",
+            "description": "Apple TV Plus Show Title Logo 5"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-9.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-9.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/h3886zSp5gKViScZl44WTw/220x54.png",
+            "description": "Apple TV Plus Show Title Logo 6"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-13.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-13.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/vXNv4MQ8aLXIkWQTZxw-BQ/220x54.png",
+            "description": "Apple TV Plus Show Title Logo 7"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-14.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-14.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/2O76_V3dS7VrJAjsyXvY2Q/220x54.png",
+            "description": "Apple TV Plus Show Title Logo 8"
+          },
+          {
+            "role": "Secondary",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-15.png",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/logos/secondary-15.png",
+            "origin_url": "https://is1-ssl.mzstatic.com/image/thumb/HG_g_V2N88edyDw_J1KvSw/220x54.png",
+            "description": "Apple TV Plus Show Title Logo 9"
+          }
+        ],
+        "media": [
+          {
+            "name": "Apple Upgrade Promo Animation",
+            "type": "video",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/video/apple-upgrade-promo-animation.mp4",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/video/apple-upgrade-promo-animation.mp4",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/video/apple-upgrade-promo-animation.mp4",
+            "usage_context": "Promo tile background video for Apple Upgrade"
+          },
+          {
+            "name": "iPhone 18 Pro Hero Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/iphone-18-pro-hero-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/iphone-18-pro-hero-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/iphone-18-pro-hero-image.jpg",
+            "usage_context": "Homepage hero tile background"
+          },
+          {
+            "name": "iPhone Duo Hero Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/iphone-duo-hero-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/iphone-duo-hero-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/iphone-duo-hero-image.jpg",
+            "usage_context": "Homepage hero tile background"
+          },
+          {
+            "name": "Apple Watch Series 12 Hero Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-watch-series-12-hero-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-watch-series-12-hero-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-watch-series-12-hero-image.jpg",
+            "usage_context": "Homepage hero tile background"
+          },
+          {
+            "name": "Apple Watch Ultra 4 Promo Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-watch-ultra-4-promo-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-watch-ultra-4-promo-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-watch-ultra-4-promo-image.jpg",
+            "usage_context": "Promo tile background"
+          },
+          {
+            "name": "Mac mini Promo Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/mac-mini-promo-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/mac-mini-promo-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/mac-mini-promo-image.jpg",
+            "usage_context": "Promo tile background"
+          },
+          {
+            "name": "MacBook Air Promo Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/macbook-air-promo-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/macbook-air-promo-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/macbook-air-promo-image.jpg",
+            "usage_context": "Promo tile background"
+          },
+          {
+            "name": "iPad Air Promo Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/ipad-air-promo-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/ipad-air-promo-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/ipad-air-promo-image.jpg",
+            "usage_context": "Promo tile background"
+          },
+          {
+            "name": "Apple Upgrade Start Frame",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-upgrade-start-frame.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-upgrade-start-frame.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-upgrade-start-frame.jpg",
+            "usage_context": "Video start frame for Apple Upgrade promo"
+          },
+          {
+            "name": "Apple Upgrade Promo Background",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-upgrade-promo-background.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-upgrade-promo-background.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-upgrade-promo-background.jpg",
+            "usage_context": "Promo tile background for Apple Upgrade"
+          },
+          {
+            "name": "Apple Card Promo Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-card-promo-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-card-promo-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-card-promo-image.jpg",
+            "usage_context": "Promo tile background"
+          },
+          {
+            "name": "Brothers Cover Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/brothers-cover-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/brothers-cover-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/brothers-cover-image.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Slow Horses Cover Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/slow-horses-cover-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/slow-horses-cover-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/slow-horses-cover-image.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "F1 on Apple TV Cover Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/f1-on-apple-tv-cover-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/f1-on-apple-tv-cover-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/f1-on-apple-tv-cover-image.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Ted Lasso Cover Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/ted-lasso-cover-image.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/ted-lasso-cover-image.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/ted-lasso-cover-image.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Apple TV+ Content Cover 5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-5.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-5.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-5.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Apple TV+ Content Cover 6",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-6.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-6.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-6.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Apple TV+ Content Cover 7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-7.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-7.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-7.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Apple TV+ Content Cover 8",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-8.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-8.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-8.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Apple TV+ Content Cover 9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-9.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-9.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/apple-tv-content-cover-9.jpg",
+            "usage_context": "Endless Entertainment TV+ carousel item"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-1.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-1.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-1.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-2.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-2.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-2.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 3",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-3.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-3.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-3.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 4",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-4.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-4.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-4.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-5.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-5.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-5.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 6",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-6.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-6.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-6.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-7.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-7.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-7.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 8",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-8.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-8.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-8.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Entertainment Service Thumbnail 9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-9.jpg",
+            "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-9.jpg",
+            "origin_url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/site-assets/media/image/entertainment-service-thumbnail-9.jpg",
+            "usage_context": "Endless Entertainment services thumbnail"
+          },
+          {
+            "name": "Buystrip Icon - Apple TV Plus (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/appletvplus/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Apple TV Plus (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/appletvplus/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - ASA (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/asa/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - ASA (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/asa/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Bag (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/bag/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Bag (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/bag/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Call (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/call/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Call (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/call/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Engraving (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/engraving/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Engraving (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/engraving/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Financing (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/financing/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Financing (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/financing/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Giftwrap (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/giftwrap/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Giftwrap (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/giftwrap/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Help (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/help/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Help (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/help/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - HomeKit (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/homekit/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - HomeKit (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/homekit/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Learning (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/learning/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Learning (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/learning/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Personal Setup (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/personal_setup/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Personal Setup (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/personal_setup/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Retail (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/retail/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Retail (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/retail/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Shipping (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/shipping/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Shipping (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/shipping/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Third Party Retail (Light)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/thirdparty_retail/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Buystrip Icon - Third Party Retail (Dark)",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Buystrip descriptive icon"
+          },
+          {
+            "name": "Breadcrumbs Apple Icon",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-footer/breadcrumbs/apple/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Footer breadcrumb icon"
+          },
+          {
+            "name": "Breadcrumbs Separator Icon",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-footer/breadcrumbs/separator/icon_large.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Footer breadcrumb icon"
+          },
+          {
+            "name": "Localnav Chevron Medium",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-localnav/chevron/chevron-medium.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Local navigation control"
+          },
+          {
+            "name": "Localnav Chevron Small",
+            "type": "illustration",
+            "url": "https://apple.com/assets/ac-localnav/chevron/chevron-small.svg",
+            "path": null,
+            "origin_url": null,
+            "usage_context": "Local navigation control"
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal, centered, space-between",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Apple logo, white on light background, left-aligned"
+            },
+            {
+              "type": "navigation",
+              "description": "Horizontal navigation links: Store, Mac, iPad, iPhone, Watch, AirPods, Vision, TV & Home, Entertainment, Accessories, Support. Black text on white background, SF Pro Text, 12px. Expands into flyout submenus with multi-column layouts."
+            },
+            {
+              "type": "button",
+              "description": "Search icon button, magnifying glass SVG, black on white"
+            },
+            {
+              "type": "button",
+              "description": "Shopping bag icon button, black on white, with dynamic badge counter"
+            }
+          ]
+        },
+        {
+          "type": "Ribbon",
+          "layout_pattern": "Full-width banner, centered text",
+          "headline": null,
+          "subheadline": "Get 3 months of Apple One free when you buy an eligible Apple device.",
+          "components": [
+            {
+              "type": "button",
+              "description": "Text link 'Learn more' in white on animated blue-to-default gradient background"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered, full-bleed",
+          "headline": "iPhone 18 Pro",
+          "subheadline": "Pro further.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Three iPhone 18 Pro devices in premium titanium finishes (space black, natural titanium, desert titanium) with metallic reflective surfaces. Pro Fusion camera system visible, Apple logo center, glowing text with blue-pink neon effect. Pure black background."
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA 'Learn more' – solid blue pill button"
+            },
+            {
+              "type": "button",
+              "description": "Secondary CTA 'Buy' – outline/ghost button"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered, full-bleed",
+          "headline": "iPhone Duo",
+          "subheadline": "Hello, hello.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Product photography showing hands holding a folded iPhone device in landscape orientation. Screen displays iOS Home Screen with colorful app icons. Light gray/off-white background."
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA 'Learn more' – solid blue pill button"
+            },
+            {
+              "type": "button",
+              "description": "Secondary CTA 'View pricing' – outline button"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Split layout, logo and copy on top half, image below",
+          "headline": "WATCH SERIES 12",
+          "subheadline": "The most accurate heart rate sensing in a wristable.*",
+          "components": [
+            {
+              "type": "logo",
+              "description": "Apple Watch logo with apple symbol, white on black"
+            },
+            {
+              "type": "image",
+              "description": "Two Apple Watch faces on pure black background showing health monitoring features – one with red heart rate display (62 BPM), one with green health rings. Glowing displays, vibrant red and green."
+            },
+            {
+              "type": "button",
+              "description": "Primary CTA 'Learn more' – solid blue pill button"
+            },
+            {
+              "type": "button",
+              "description": "Secondary CTA 'Buy' – outline button"
+            }
+          ]
+        },
+        {
+          "type": "Promo Grid",
+          "layout_pattern": "Split 50/50, vertical divide",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Left card: Apple Watch Ultra 4, dark theme, titanium case on black background with 'A battery you can't outrun' tagline"
+            },
+            {
+              "type": "card",
+              "description": "Right card: Mac mini, light theme, product floating on fingertips with 'Now with M6 and M5 Pro' tagline"
+            }
+          ]
+        },
+        {
+          "type": "Promo Grid",
+          "layout_pattern": "Split 50/50, vertical divide",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Left card: MacBook Air, light background, two laptops forming arrow shape, 'Now supercharged by M5' tagline"
+            },
+            {
+              "type": "card",
+              "description": "Right card: iPad Air, light background, floating iPads showing front and back, 'Now supercharged by M4' tagline"
+            }
+          ]
+        },
+        {
+          "type": "Promo Grid",
+          "layout_pattern": "Split 50/50, vertical divide",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Left card: Apple Upgrade logo, animated video of iPhone silhouette fanning into spectrum of purple/red, 'Love it. Lease it. Upgrade it.' tagline"
+            },
+            {
+              "type": "card",
+              "description": "Right card: Apple Card, product image showing titanium card with Apple logo and cardholder name, cashback offer text"
+            }
+          ]
+        },
+        {
+          "type": "Media Gallery",
+          "layout_pattern": "Full-width carousel with centered content and dot navigation",
+          "headline": "Endless entertainment.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Media gallery carousel with 9 slides showcasing Apple TV+ shows and content. Each slide features full-bleed hero image with overlaid logo, genre tag, tagline, and 'Stream now' CTA. Dark theme throughout."
+            },
+            {
+              "type": "navigation",
+              "description": "Dot navigation with timed progress indicators and play/pause control"
+            },
+            {
+              "type": "card",
+              "description": "First slide: 'Brothers' comedy show with Apple TV+ logo overlay and genre tag"
+            },
+            {
+              "type": "card",
+              "description": "Additional slides featuring Slow Horses, Formula 1, Ted Lasso, and other Apple TV+ content"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-section: legal text block followed by multi-column link grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "divider",
+              "description": "Fine print disclaimers and legal footnotes in small gray text on light gray background"
+            },
+            {
+              "type": "navigation",
+              "description": "Multi-column footer navigation with sections: 'Shop and Learn', 'Services', 'Apple Store', 'For Business', 'Apple Values', 'About Apple'. Dark gray/black text links organized in clear columns."
+            },
+            {
+              "type": "navigation",
+              "description": "Bottom footer row with copyright, country selector, legal links (Privacy Policy, Terms of Use, etc.)"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

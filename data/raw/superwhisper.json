@@ -1,0 +1,3912 @@
+{
+  "company": "superwhisper",
+  "rank": 24,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://superwhisper.com/",
+  "cache_hit": true,
+  "accepted_at": "2026-10-14T08:52:10.741016Z",
+  "completed_at": "2026-08-31T02:39:50.943536Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Superwhisper",
+        "tagline": null,
+        "source_url": "https://superwhisper.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "SaaS / Productivity",
+        "primary_purpose": "Drive downloads of voice-to-text transcription app for Mac and Windows",
+        "main_cta": "Download for Mac",
+        "copy_tone": [
+          "Confident",
+          "Direct",
+          "Minimal"
+        ],
+        "brand_signature": "Dark, cinematic interface with deep blue-to-black gradient backgrounds featuring atmospheric desktop scene illustrations. Clean, Apple-inspired aesthetic with high-contrast white typography and subtle glassmorphism effects on UI elements.",
+        "visual_language": {
+          "keywords": [
+            "cinematic",
+            "atmospheric",
+            "dark-mode",
+            "minimal",
+            "premium",
+            "Apple-like"
+          ],
+          "accent_strategy": "Bright blue (#08f) used sparingly for primary CTAs and interactive elements against predominantly dark backgrounds",
+          "highlights": "Subtle ambient lighting effects in hero illustrations, glassmorphic UI overlays, and gradient glow effects around key interface elements"
+        },
+        "strategy": {
+          "target_audience": [
+            "Knowledge workers and professionals who communicate frequently via Slack, email, and messaging apps and want faster text input",
+            "Developers and technical users who value keyboard shortcuts, IDE integrations, and system-level productivity tools",
+            "Mac and Windows power users who appreciate polished, native desktop applications with premium design"
+          ],
+          "executive_synthesis": "Superwhisper positions itself as a premium, native voice-to-text solution through its dark, cinematic visual language that mirrors high-end developer tools and Apple design sensibilities. The atmospheric desktop illustrations and glassmorphic UI elements signal professional-grade software, while the minimal copy and prominent download CTAs prioritize immediate conversion over extended explanation. The visual demonstration of integrations with Slack, Cursor IDE, and Notes reinforces the product's universal compatibility narrative."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The design exhibits core Flat Design characteristics: clean 2D interface elements, bold saturated colors (TriBlue #0088FF, TriPink #DD55E7, TriGreen #16C253), geometric sans-serif typography (Inter at various weights), and strictly grid-based centered/symmetric layout with generous whitespace. The color profile shows Primary Colors and Cool Colors applied with digital clarity - no ornamental textures, no 3D skeuomorphic effects on the primary UI. The shape language is predominantly geometric with rounded/soft corners on buttons and cards. The texture classification confirms \"gradient_linear\" and \"shadows_soft\" - not heavy 3D effects. The atmospheric twilight gradients (navy to purple to black) serve as ambient backgrounds rather than decorative elements, maintaining the flat paradigm's focus on content clarity over visual decoration.",
+          "secondary_style": "Glassmorphism",
+          "reasoning_secondary": "Glassmorphism appears as a secondary style through specific UI treatments: the \"Vibe Gradient Blur Mask\" with backdrop-filter blur(8px), progressive blur overlays with blur(4px), translucent white gradient borders (white/40 to white/10), and the testimonial gradient masks. The surfaces profile explicitly notes \"Backdrop blur effects ranging from blur(4px) to blur(100px) for glassmorphism.\" The soft shadows (rgba(0,0,0,0.12) to rgba(0,0,0,0.35)) and subtle inset borders (white/5, white/10 opacity) create layered transparency effects on the browser window mockups. This frosted glass treatment on dark backgrounds with white semi-transparent borders directly matches the Glassmorphism taxonomy: \"Frosted glass effect, background blur\" with \"Pastel Colors, Cool Colors\" and \"Rounded/Soft, Geometric Shapes.\""
+        }
+      },
+      "layout": {
+        "classification": [
+          "centered_symmetric",
+          "generous_whitespace"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "1rem",
+          "max_width": "1280px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 640px (1 Column, 16px gutter)",
+          "tablet": "641px - 1024px (8 Columns, 24px gutter)",
+          "desktop": "1025px - 1400px (12 Columns, 32px gutter)",
+          "large": "1401px+ (12 Columns, 40px gutter)"
+        },
+        "section_separation": "Sections are separated by alternating dark backgrounds (black, deep blue gradients, purple gradients) with generous vertical whitespace (64px-96px margins). Browser window mockups create visual rhythm through repeated window chrome elements. Color temperature shifts from deep blue (night theme) through purple to black create atmospheric transitions. No visible divider lines except decorative horizontal rules below select headlines.",
+        "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                      [HERO - Centered]                   │\n│                   [Silhouette profile]                   │\n│                                                          │\n│                    Just speak.                           │\n│                   Write faster.                          │\n│               [Download for Mac]                         │\n│              [Try Web Version (Beta)]                    │\n│                                                          │\n│      Type hands-free at up to 250 words per minute      │\n│           with AI-powered voice dictation.               │\n│                                                          │\n│                      [▼ scroll]                          │\n├──────────────────────────────────────────────────────────┤\n│                   [Browser Window Frame]                 │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │              Just speak.                           │  │\n│  │             Write faster.                          │  │\n│  │         [Download for Mac]                         │  │\n│  │        [Try Web Version (Beta)]                    │  │\n│  │                                                    │  │\n│  │   Type hands-free at up to 250 words per minute   │  │\n│  │        with AI-powered voice dictation.            │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│                   [Browser Window Frame]                 │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │              Just speak.                           │  │\n│  │             Write faster.                          │  │\n│  │         [Download for Mac]                         │  │\n│  │        [Try Web Version (Beta)]                    │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│                   [Browser Window Frame]                 │\n│  ┌────────────────────────────────────────────────────┐  │\n│  │                                                    │  │\n│  │         Ready to get more done?                    │  │\n│  │               [Get Started]                        │  │\n│  │                                                    │  │\n│  └────────────────────────────────────────────────────┘  │\n├──────────────────────────────────────────────────────────┤\n│                  [Pagination Dots]                       │\n│              ● ○ ○ ○ ○ ○                                │\n│         Loved by those who love Google Suite             │\n│                [5-star reviews]                          │\n├──────────────────────────────────────────────────────────┤\n│                   [Feature Section]                      │\n│                                                          │\n│  [Chat Bubble]                                           │\n│  User message: \"Write a product description\"            │\n│  Assistant reply in blue bubble                          │\n│                                     [App icons/logos]    │\n│                    [More]  [Share]                       │\n├──────────────────────────────────────────────────────────┤\n│              [Three Feature Cards Row]                   │\n│  ┌──────────┐  ┌──────────┐  ┌──────────┐               │\n│  │ Wi-Fi    │  │  Green   │  │  Red     │               │\n│  │ Symbol   │  │  Code    │  │  App     │               │\n│  │          │  │  Screen  │  │  Icons   │               │\n│  │ Feature  │  │  Feature │  │  Feature │               │\n│  │ Text     │  │  Text    │  │  Text    │               │\n│  └──────────┘  └──────────┘  └──────────┘               │\n│  [Bullet points with descriptions]                       │\n├──────────────────────────────────────────────────────────┤\n│                  Build it yourself                       │\n│              ─────────────────────                       │\n│                                                          │\n│  [Code/IDE Screenshot]                                   │\n│                                    [Feature list]        │\n│                                    ✓ Premium voices      │\n│                                    ✓ Custom commands     │\n│                                    ✓ Speaker detection   │\n│                                    ✓ Batch transcription │\n├──────────────────────────────────────────────────────────┤\n│                 Works anywhere                           │\n│                you can type                              │\n│              ─────────────────                           │\n│                                                          │\n│     [Application Icons Grid Display]                     │\n│  [Multiple rows of popular app logos/icons]             │\n├──────────────────────────────────────────────────────────┤\n│              Faster speech, smarter                      │\n│                  responses                               │\n│                                                          │\n│  [Feature bullets with icons]                            │\n│  • 99% accurate out of the box                          │\n│  • Up to 250 words per minute                           │\n│  • Customize with your own vocabulary                   │\n├──────────────────────────────────────────────────────────┤\n│              [Purple AI Grid Pattern]                    │\n│                                                          │\n│              Also available for iOS                      │\n│           [Get it on the App Store]                      │\n├──────────────────────────────────────────────────────────┤\n│          Loved by thousands,                             │\n│         built for how you work                           │\n│      ─────────────────────────────                       │\n│                                                          │\n│  [Product Screenshot]         [Feature Checkmarks]       │\n│  [Interface mockup]            ✓ Fast transcription     │\n│                                ✓ Works everywhere       │\n│                                ✓ Custom commands        │\n│                                ✓ Privacy focused        │\n├──────────────────────────────────────────────────────────┤\n│              [Three Pricing Tiers]                       │\n│  ┌──────────┐  ┌──────────┐  ┌──────────┐               │\n│  │    O     │  │   Star   │  │  Custom  │               │\n│  │  Free    │  │  Premium │  │Enterprise│               │\n│  │          │  │          │  │          │               │\n│  │ Features │  │ Features │  │ Features │               │\n│  │   List   │  │   List   │  │   List   │               │\n│  └──────────┘  └──────────┘  └──────────┘               │\n├──────────────────────────────────────────────────────────┤\n│              Take notice from                            │\n│              every source                                │\n│                                                          │\n│  [Slack icon] [Screenshot] [Mobile devices] [Desktop]   │\n│         [Integration/usage demonstration]                │\n├──────────────────────────────────────────────────────────┤\n│           Frequently asked questions                     │\n│                                                          │\n│  [Expandable FAQ items]                                  │\n│  • Question about pricing                                │\n│  • Question about features                               │\n│  • Question about compatibility                          │\n├──────────────────────────────────────────────────────────┤\n│                     [FOOTER]                             │\n│  [Footer columns with links]                             │\n│  Product  Company  Resources  Legal                      │\n│  [Links]  [Links]  [Links]    [Links]                    │\n│                                                          │\n│  [Social media icons]                                    │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHERO:\n- Background: Deep blue gradient (navy to lighter blue sky), sunset/dusk atmosphere\n- Imagery: Large silhouette profile on left edge, creating dramatic contrast\n- Buttons/CTAs: \"Download for Mac\" (solid blue button, rounded) | \"Try Web Version (Beta)\" (outline/ghost button, white border)\n- Colors observed: Deep blue (#1E3A8A range), white text\n- Typography mood: Bold, large headline in white sans-serif, clean and modern\n\nBROWSER WINDOW FRAME SECTIONS (Repeating):\n- Background: Blue gradient sky background within simulated browser chrome\n- Components: Browser window mockup with top bar/tabs visible\n- Buttons/CTAs: Same CTAs repeated - \"Download for Mac\" | \"Try Web Version (Beta)\"\n- Colors observed: Blue gradients, white UI elements\n- Typography mood: Consistent with hero, centered layout\n\nCALL-TO-ACTION WINDOW:\n- Background: Light blue gradient\n- Buttons/CTAs: \"Get Started\" (centered, solid blue button)\n- Typography mood: Simple, friendly prompt\n\nPAGINATION & TESTIMONIAL:\n- Background: Black/very dark background\n- Components: Circular pagination dots, first one filled\n- Typography mood: Light gray text, \"Loved by those who love Google Suite\"\n\nCHAT BUBBLE FEATURE:\n- Background: Dark background\n- Components: Chat interface mockup with blue message bubbles\n- Imagery: App icons/logos displayed on right side\n- Buttons/CTAs: \"More\" | \"Share\" (small action buttons)\n- Colors observed: Blue chat bubbles, dark UI, white/gray text\n\nTHREE FEATURE CARDS:\n- Background: Dark background\n- Cards: Three separate feature cards with distinct visual themes\n  - Left: Purple/pink card with Wi-Fi symbol\n  - Center: Dark green card with code interface\n  - Right: Dark red card with app icon grid\n- Components: Each card has icon/visual at top, descriptive text below\n- Typography mood: Clean, organized with bullet points\n\nBUILD IT YOURSELF:\n- Background: Black background\n- Imagery: Code editor/IDE screenshot on left\n- Components: Feature checklist on right with checkmarks\n- Colors observed: Syntax highlighting in code (blues, greens), white text\n- Typography mood: Technical, developer-focused\n- Features listed: Premium voices, Custom commands, Speaker detection, Batch transcription\n\nWORKS ANYWHERE:\n- Background: Black background\n- Imagery: Grid of colorful application icons/logos\n- Components: Multiple rows showcasing app integrations (Slack, Google Docs, etc.)\n- Colors observed: Multi-colored app icons on dark background\n- Typography mood: Bold headline, centered\n\nFASTER SPEECH:\n- Background: Dark background\n- Components: Bullet points with icons\n- Typography mood: Stats-focused (99% accurate, 250 words per minute)\n\nAI PATTERN SECTION:\n- Background: Deep blue gradient\n- Imagery: Purple/blue AI-themed grid pattern, neural network visual\n- Buttons/CTAs: \"Get it on the App Store\" (iOS badge)\n- Colors observed: Purple, blue, gradient effects\n- Typography mood: \"Also available for iOS\" headline\n\nLOVED BY THOUSANDS:\n- Background: Blue to purple gradient\n- Imagery: Product interface screenshot on left\n- Components: Feature checkmarks on right side\n- Colors observed: Blue, purple gradient, white UI elements\n- Typography mood: Customer-focused, benefit-oriented\n\nPRICING TIERS:\n- Background: Black background\n- Cards: Three pricing cards side by side\n  - Left: \"O\" Free tier with dark styling\n  - Center: Star icon Premium tier with blue highlight\n  - Right: Custom Enterprise tier, dark styling\n- Components: Feature lists within each card\n- Colors observed: Blue accent on premium tier, white/gray text\n- Typography mood: Clear hierarchy, pricing-focused\n\nTAKE NOTICE:\n- Background: Dark background\n- Imagery: Multiple device mockups (Slack interface, mobile, desktop)\n- Components: Integration demonstration across platforms\n- Colors observed: Slack green, device screens, colorful UI elements\n\nFAQ SECTION:\n- Background: Dark background\n- Components: Expandable question items\n- Typography mood: Clean, organized, helpful\n\nFOOTER:\n- Background: Black/dark background\n- Components: Multi-column link layout (Product, Company, Resources, Legal)\n- Colors observed: Gray text, subtle separations\n- Typography mood: Minimal, organized, standard footer layout",
+        "insights": [
+          "Heavy use of centered, symmetric composition creates calm, focused hierarchy—text, CTAs, and demo windows all center-aligned with generous breathing room",
+          "Atmospheric gradient backgrounds (navy to purple to black) set emotional tone while window mockups (browser chrome, app UIs) ground abstract product in familiar contexts",
+          "Repeating browser window frames with macOS-style traffic lights create visual rhythm and establish product integration narrative through simulated in-app experiences"
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Pure Black",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "The core background color establishing the dark theme of the marketing site.",
+              "when_to_use": [
+                "--pure-black",
+                "--background-start-rgb",
+                "--background-end-rgb",
+                "bg-black",
+                "text-black",
+                "border-black",
+                "from-black",
+                "to-black"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Black 03",
+                "hex": "#030719",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#030719]"
+                ]
+              },
+              {
+                "name": "Black 0B",
+                "hex": "#0B0B0B",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#0b0b0b]"
+                ]
+              },
+              {
+                "name": "TriGray 950",
+                "hex": "#0F0F10",
+                "alpha": null,
+                "aliases": [
+                  "bg-trigray-950",
+                  "text-trigray-950",
+                  "bg-[#0F0F10]"
+                ]
+              },
+              {
+                "name": "Cursor UI Dark",
+                "hex": "#181818",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#181818]"
+                ]
+              },
+              {
+                "name": "Black 1A",
+                "hex": "#1A1A1A",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#1a1a1a]",
+                  "text-[#1A1A1A]",
+                  "fill-[#1A1A1A]"
+                ]
+              },
+              {
+                "name": "TriGray 800",
+                "hex": "#1C1D1F",
+                "alpha": null,
+                "aliases": [
+                  "bg-trigray-800",
+                  "border-trigray-800",
+                  "text-[#1c1d1f]"
+                ]
+              },
+              {
+                "name": "Black 1D",
+                "hex": "#1D1D1D",
+                "alpha": null,
+                "aliases": [
+                  "text-[#1D1D1D]"
+                ]
+              },
+              {
+                "name": "Black 21",
+                "hex": "#212121",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#212121]"
+                ]
+              },
+              {
+                "name": "Black 29",
+                "hex": "#292929",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#292929]"
+                ]
+              },
+              {
+                "name": "Slack Text Dark",
+                "hex": "#302C30",
+                "alpha": null,
+                "aliases": [
+                  "text-[#302C30]",
+                  "stroke-[#302C30]"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Pure White",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "The core text, border, and prominent UI surface color.",
+              "when_to_use": [
+                "--foreground-rgb",
+                "bg-white",
+                "text-white",
+                "border-white",
+                "fill-white",
+                "--tw-ring-offset-color"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Neutral 50",
+                "hex": "#FAFAFA",
+                "alpha": null,
+                "aliases": [
+                  "bg-neutral-50",
+                  "text-trigray-100",
+                  "text-[#FAFAFA]",
+                  "--primary-foreground"
+                ]
+              },
+              {
+                "name": "Notes UI Light",
+                "hex": "#F5F5F5",
+                "alpha": null,
+                "aliases": [
+                  "bg-neutral-100",
+                  "text-neutral-100",
+                  "bg-[#F5F5F5]"
+                ]
+              },
+              {
+                "name": "White F0",
+                "hex": "#F0F0F0",
+                "alpha": null,
+                "aliases": [
+                  "download-cta-mac"
+                ]
+              },
+              {
+                "name": "Gray 200",
+                "hex": "#E5E7EB",
+                "alpha": null,
+                "aliases": [
+                  "bg-gray-200",
+                  "text-gray-200",
+                  "border-gray-200"
+                ]
+              },
+              {
+                "name": "White E2",
+                "hex": "#E2E2E2",
+                "alpha": null,
+                "aliases": [
+                  "border-[#e2e2e2]"
+                ]
+              },
+              {
+                "name": "White E4",
+                "hex": "#E4E8EF",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#E4E8EF]"
+                ]
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "secondary": [
+          {
+            "name": "TriBlue Primary",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "The primary blue accent used for interactive elements and branding highlights.",
+              "when_to_use": [
+                "text-[#08F]",
+                "bg-[#08f]",
+                "bg-triblue-500",
+                "text-triblue-500",
+                "accent-[#08f]",
+                "decoration-[#08f]"
+              ]
+            },
+            "hex": "#0088FF",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Blue 0072FB",
+                "hex": "#0072FB",
+                "alpha": null,
+                "aliases": [
+                  "to-[#0072fb]"
+                ]
+              },
+              {
+                "name": "Blue 0668E1",
+                "hex": "#0668E1",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#0668E1]"
+                ]
+              },
+              {
+                "name": "Slack Caret Blue",
+                "hex": "#1264A3",
+                "alpha": null,
+                "aliases": [
+                  "caret-[#1264A3]"
+                ]
+              },
+              {
+                "name": "Blue 400",
+                "hex": "#60A5FA",
+                "alpha": null,
+                "aliases": [
+                  "text-blue-400"
+                ]
+              },
+              {
+                "name": "TriBlue 400",
+                "hex": "#83C9FF",
+                "alpha": null,
+                "aliases": [
+                  "text-triblue-400"
+                ]
+              },
+              {
+                "name": "Blue 0FB7FA",
+                "hex": "#0FB7FA",
+                "alpha": null,
+                "aliases": [
+                  "text-[#0fb7fa]",
+                  "from-[#0fb7fa]"
+                ]
+              },
+              {
+                "name": "Gradient Blue",
+                "hex": "#1999E8",
+                "alpha": null,
+                "aliases": [
+                  "bg-testimonial-gradient-mask"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "TriPink",
+            "type": "Neon Colors",
+            "rules": {
+              "description": "Vibrant magenta pink used for highlights and gradients.",
+              "when_to_use": [
+                "text-[#DD55E7]",
+                "text-tripink-500"
+              ]
+            },
+            "hex": "#DD55E7",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Pink B855E7",
+                "hex": "#B855E7",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#b855e7]",
+                  "text-[#b855e7]"
+                ]
+              },
+              {
+                "name": "Gradient Pink",
+                "hex": "#A45BF2",
+                "alpha": null,
+                "aliases": [
+                  "bg-testimonial-gradient-mask"
+                ]
+              },
+              {
+                "name": "Pink FF9DC4",
+                "hex": "#FF9DC4",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#FF9DC4]",
+                  "text-[#FF9DC4]"
+                ]
+              },
+              {
+                "name": "Syntax Pink",
+                "hex": "#DB90A5",
+                "alpha": null,
+                "aliases": [
+                  "text-[#DB90A5]"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "TriGreen Success",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "Green for positive actions, success states, and UI indicators.",
+              "when_to_use": [
+                "bg-[#16c253]",
+                "text-[#16c253]"
+              ]
+            },
+            "hex": "#16C253",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Green 17C253",
+                "hex": "#17C253",
+                "alpha": null,
+                "aliases": [
+                  "text-[#17C253]"
+                ]
+              },
+              {
+                "name": "Green 500",
+                "hex": "#22C55E",
+                "alpha": null,
+                "aliases": [
+                  "bg-green-500",
+                  "text-green-500"
+                ]
+              },
+              {
+                "name": "Green 27C93F",
+                "hex": "#27C93F",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#27C93F]",
+                  "text-[#27C93F]"
+                ]
+              },
+              {
+                "name": "Teal 1CECBB",
+                "hex": "#1CECBB",
+                "alpha": null,
+                "aliases": [
+                  "text-[#1CECBB]"
+                ]
+              },
+              {
+                "name": "Green 10A37F",
+                "hex": "#10A37F",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#10A37F]"
+                ]
+              },
+              {
+                "name": "Slack Online Status",
+                "hex": "#007A5A",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#007A5A]"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "TriYellow Warning",
+            "type": "Warm Colors",
+            "rules": {
+              "description": "Bright yellow used for warning states, syntax highlighting, and Mac UI controls.",
+              "when_to_use": [
+                "text-[#fd0]",
+                "text-triyellow-500"
+              ]
+            },
+            "hex": "#FFDD00",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Yellow FFD700",
+                "hex": "#FFD700",
+                "alpha": null,
+                "aliases": [
+                  "text-[#FFD700]"
+                ]
+              },
+              {
+                "name": "Syntax Yellow",
+                "hex": "#FFEA00",
+                "alpha": null,
+                "aliases": [
+                  "text-[#FFEA00]"
+                ]
+              },
+              {
+                "name": "Notes Active Item",
+                "hex": "#FFE48F",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#FFE48F]"
+                ]
+              },
+              {
+                "name": "Syntax Gold",
+                "hex": "#D3C207",
+                "alpha": null,
+                "aliases": [
+                  "text-[#D3C207]"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Slack Aubergine",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "The core brand color for the recreated Slack interface demo.",
+              "when_to_use": [
+                "bg-[#471848]",
+                "border-[#471848]"
+              ]
+            },
+            "hex": "#471848",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Slack Badge Purple",
+                "hex": "#611E69",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#611E69]"
+                ]
+              },
+              {
+                "name": "Slack Hover Purple",
+                "hex": "#6C466D",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#6c466d]"
+                ]
+              },
+              {
+                "name": "Slack Search Purple",
+                "hex": "#764E78",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#764e78]"
+                ]
+              },
+              {
+                "name": "Slack Active Channel",
+                "hex": "#83388A",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#83388a]"
+                ]
+              },
+              {
+                "name": "Slack Sidebar Text",
+                "hex": "#DEC7E4",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#dec7e4]",
+                  "text-[#dec7e4]",
+                  "stroke-[#DEC7E4]"
+                ]
+              },
+              {
+                "name": "Slack Avatar Border",
+                "hex": "#DAC8E2",
+                "alpha": null,
+                "aliases": [
+                  "border-[#dac8e2]"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Muted Gray",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Mid-tone grays used extensively for secondary text, borders, and muted icons across demos.",
+              "when_to_use": [
+                "text-[#7A7A7A]",
+                "text-[#7a7a7a]"
+              ]
+            },
+            "hex": "#7A7A7A",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Gray 787878",
+                "hex": "#787878",
+                "alpha": null,
+                "aliases": [
+                  "text-[#787878]",
+                  "placeholder:text-[#787878]"
+                ]
+              },
+              {
+                "name": "Gray 808080",
+                "hex": "#808080",
+                "alpha": null,
+                "aliases": [
+                  "text-[#808080]"
+                ]
+              },
+              {
+                "name": "Gray 6B6B6B",
+                "hex": "#6B6B6B",
+                "alpha": null,
+                "aliases": [
+                  "text-[#6B6B6B]"
+                ]
+              },
+              {
+                "name": "Gray 666666",
+                "hex": "#666666",
+                "alpha": null,
+                "aliases": [
+                  "text-[#666666]"
+                ]
+              },
+              {
+                "name": "Zinc 500",
+                "hex": "#555555",
+                "alpha": null,
+                "aliases": [
+                  "text-zinc-500",
+                  "text-gray-500"
+                ]
+              },
+              {
+                "name": "Gray ABABAB",
+                "hex": "#ABABAB",
+                "alpha": null,
+                "aliases": [
+                  "border-[#ababab]"
+                ]
+              },
+              {
+                "name": "Gray C4C4C4",
+                "hex": "#C4C4C4",
+                "alpha": null,
+                "aliases": [
+                  "border-[#c4c4c4]"
+                ]
+              },
+              {
+                "name": "Gray C6C6C6",
+                "hex": "#C6C6C6",
+                "alpha": null,
+                "aliases": [
+                  "text-[#C6C6C6]"
+                ]
+              },
+              {
+                "name": "Gray D1D1D1",
+                "hex": "#D1D1D1",
+                "alpha": null,
+                "aliases": [
+                  "border-[#D1D1D1]",
+                  "text-[#D1D1D1]"
+                ]
+              },
+              {
+                "name": "Gray 3C3C3B",
+                "hex": "#3C3C3B",
+                "alpha": null,
+                "aliases": [
+                  "text-[#3C3C3B]"
+                ]
+              },
+              {
+                "name": "Gray 70757C",
+                "hex": "#70757C",
+                "alpha": null,
+                "aliases": [
+                  "text-[#70757c]"
+                ]
+              },
+              {
+                "name": "Gray 798498",
+                "hex": "#798498",
+                "alpha": null,
+                "aliases": [
+                  "text-[#798498]"
+                ]
+              },
+              {
+                "name": "TriGray 400",
+                "hex": "#888B91",
+                "alpha": null,
+                "aliases": [
+                  "text-[#888B91]",
+                  "text-trigray-400"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Syntax Teal",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "A muted teal used specifically for code syntax highlighting in the Cursor demo.",
+              "when_to_use": [
+                "text-[#9CCCC2]"
+              ]
+            },
+            "hex": "#9CCCC2",
+            "alpha": null,
+            "shades": [],
+            "score": 0
+          },
+          {
+            "name": "Twilight Blue Gradient",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "A rich, multi-stop atmospheric gradient used on hover states for main containers.",
+              "when_to_use": [
+                ".hover-gradient:hover"
+              ]
+            },
+            "hex": "#112D72",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Deep Navy",
+                "hex": "#050116",
+                "alpha": null,
+                "aliases": [
+                  "gradient-stop"
+                ]
+              },
+              {
+                "name": "Twilight Blue",
+                "hex": "#4B68AA",
+                "alpha": null,
+                "aliases": [
+                  "gradient-stop"
+                ]
+              },
+              {
+                "name": "Soft Periwinkle",
+                "hex": "#87A7DC",
+                "alpha": null,
+                "aliases": [
+                  "gradient-stop"
+                ]
+              },
+              {
+                "name": "Muted Sky",
+                "hex": "#9CACD0",
+                "alpha": null,
+                "aliases": [
+                  "gradient-stop"
+                ]
+              },
+              {
+                "name": "Dawn Pink",
+                "hex": "#FCDBEF",
+                "alpha": null,
+                "aliases": [
+                  "gradient-stop"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Night Demo Gradient",
+            "type": "Cool Colors",
+            "rules": {
+              "description": "Cool tones representing the night state in the time-switcher demo.",
+              "when_to_use": [
+                ".gradient-layer",
+                ".night"
+              ]
+            },
+            "hex": "#022044",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Night Sky Blue",
+                "hex": "#1F5D87",
+                "alpha": null,
+                "aliases": [
+                  ".gradient-layer",
+                  ".night"
+                ]
+              },
+              {
+                "name": "Night Fog",
+                "hex": "#5D6D8E",
+                "alpha": null,
+                "aliases": [
+                  ".gradient-layer",
+                  ".night"
+                ]
+              },
+              {
+                "name": "Night Dust",
+                "hex": "#9F8A91",
+                "alpha": null,
+                "aliases": [
+                  ".gradient-layer",
+                  ".night"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Day Demo Gradient",
+            "type": "Warm Colors",
+            "rules": {
+              "description": "Warm sunset/day tones used in the time-switcher demo gradient layer.",
+              "when_to_use": [
+                ".gradient-layer",
+                ".day"
+              ]
+            },
+            "hex": "#CD4015",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "Sunset Orange",
+                "hex": "#FF7E22",
+                "alpha": null,
+                "aliases": [
+                  ".gradient-layer",
+                  ".day"
+                ]
+              },
+              {
+                "name": "Day Orange",
+                "hex": "#FA500F",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#FA500F]"
+                ]
+              },
+              {
+                "name": "Sunset F26F24",
+                "hex": "#F26F24",
+                "alpha": null,
+                "aliases": [
+                  "to-[#f26f24]"
+                ]
+              },
+              {
+                "name": "Daybreak FD9426",
+                "hex": "#FD9426",
+                "alpha": null,
+                "aliases": [
+                  "from-[#fd9426]"
+                ]
+              },
+              {
+                "name": "Sunlight FFB764",
+                "hex": "#FFB764",
+                "alpha": null,
+                "aliases": [
+                  "bg-[#ffb764]",
+                  "text-[#ffb764]"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Alpha Black 50%",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Semi-transparent blacks used for deep overlays, backgrounds, and shadows.",
+              "when_to_use": [
+                "bg-black/50",
+                "via-black/50",
+                "rgba(0,0,0,0.5)"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": 0.5,
+            "shades": [
+              {
+                "name": "Alpha Black 5%",
+                "hex": "#000000",
+                "alpha": 0.05,
+                "aliases": [
+                  "bg-black/5",
+                  "rgba(0,0,0,0.05)"
+                ]
+              },
+              {
+                "name": "Alpha Black 10%",
+                "hex": "#000000",
+                "alpha": 0.1,
+                "aliases": [
+                  "bg-black/10",
+                  "rgba(0,0,0,0.1)"
+                ]
+              },
+              {
+                "name": "Alpha Black 20%",
+                "hex": "#000000",
+                "alpha": 0.2,
+                "aliases": [
+                  "to-black/20",
+                  "rgba(0,0,0,0.2)"
+                ]
+              },
+              {
+                "name": "Alpha Black 35%",
+                "hex": "#000000",
+                "alpha": 0.35,
+                "aliases": [
+                  "group-hover:bg-black/35"
+                ]
+              },
+              {
+                "name": "Alpha Black 70%",
+                "hex": "#000000",
+                "alpha": 0.7,
+                "aliases": [
+                  "group-hover:bg-black/70"
+                ]
+              },
+              {
+                "name": "Alpha Black 95%",
+                "hex": "#000000",
+                "alpha": 0.95,
+                "aliases": [
+                  "via-black/95"
+                ]
+              }
+            ],
+            "score": 0
+          },
+          {
+            "name": "Alpha White 50%",
+            "type": "Neutral Colors",
+            "rules": {
+              "description": "Semi-transparent whites used heavily to establish visual hierarchy on the dark canvas without introducing new hues.",
+              "when_to_use": [
+                "bg-white/50",
+                "text-white/50",
+                "rgba(255,255,255,0.5)"
+              ]
+            },
+            "hex": "#FFFFFF",
+            "alpha": 0.5,
+            "shades": [
+              {
+                "name": "Alpha White 5%",
+                "hex": "#FFFFFF",
+                "alpha": 0.05,
+                "aliases": [
+                  "bg-white/5",
+                  "border-white/5"
+                ]
+              },
+              {
+                "name": "Alpha White 10%",
+                "hex": "#FFFFFF",
+                "alpha": 0.1,
+                "aliases": [
+                  "bg-white/10",
+                  "border-white/10"
+                ]
+              },
+              {
+                "name": "Alpha White 20%",
+                "hex": "#FFFFFF",
+                "alpha": 0.2,
+                "aliases": [
+                  "bg-white/20",
+                  "ring-white/20"
+                ]
+              },
+              {
+                "name": "Alpha White 30%",
+                "hex": "#FFFFFF",
+                "alpha": 0.3,
+                "aliases": [
+                  "bg-white/30",
+                  "ring-white/30"
+                ]
+              },
+              {
+                "name": "Alpha White 40%",
+                "hex": "#FFFFFF",
+                "alpha": 0.4,
+                "aliases": [
+                  "bg-white/40",
+                  "ring-white/40"
+                ]
+              },
+              {
+                "name": "Alpha White 60%",
+                "hex": "#FFFFFF",
+                "alpha": 0.6,
+                "aliases": [
+                  "text-white/60"
+                ]
+              },
+              {
+                "name": "Alpha White 70%",
+                "hex": "#FFFFFF",
+                "alpha": 0.7,
+                "aliases": [
+                  "text-white/70"
+                ]
+              },
+              {
+                "name": "Alpha White 80%",
+                "hex": "#FFFFFF",
+                "alpha": 0.8,
+                "aliases": [
+                  "text-white/80"
+                ]
+              },
+              {
+                "name": "Alpha White 90%",
+                "hex": "#FFFFFF",
+                "alpha": 0.9,
+                "aliases": [
+                  "text-white/90"
+                ]
+              }
+            ],
+            "score": 0
+          }
+        ],
+        "insights": [
+          "The brand establishes a high-contrast dark theme by default, pairing a pure black background with stark white text to create a modern, sleek canvas.",
+          "The secondary palette is extraordinarily vibrant and varied, used to highlight UI elements in recreated mock apps (Slack, Notes, Cursor) to visually demonstrate cross-app functionality.",
+          "Atmospheric and twilight gradients are heavily utilized for interactive elements and demo backdrops, bringing dynamic depth to the dark base without cluttering it."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Hero Display",
+              "specs": {
+                "size": "48px",
+                "line_height": "51px",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H1 Display",
+              "specs": {
+                "size": "1.875rem",
+                "line_height": "2.25rem",
+                "font_weight": "700",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H2 Heading",
+              "specs": {
+                "size": "31px",
+                "line_height": "2rem",
+                "font_weight": "600",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "H3 Heading",
+              "specs": {
+                "size": "1rem",
+                "line_height": "140%",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body copy styles used for product description blocks and feature lists.",
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Body Large",
+              "specs": {
+                "size": "16px",
+                "line_height": "22.4px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Body Regular",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.5rem",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Body Small",
+              "specs": {
+                "size": "14px",
+                "line_height": "22.75px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Extensive system of UI and micro-copy styles used to build application interfaces.",
+          "variants": [
+            {
+              "name": "Inter",
+              "role": "Button Large",
+              "specs": {
+                "size": "15px",
+                "line_height": "normal",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "Button / Input Small",
+              "specs": {
+                "size": "14px",
+                "line_height": "21px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "App UI Metadata",
+              "specs": {
+                "size": "13px",
+                "line_height": "normal",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "App UI Standard",
+              "specs": {
+                "size": "12px",
+                "line_height": "130%",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "UI Badge / Tab",
+              "specs": {
+                "size": "10px",
+                "line_height": "15px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "UI Micro Label",
+              "specs": {
+                "size": "9px",
+                "line_height": "13.5px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Inter",
+              "role": "UI Nano Label",
+              "specs": {
+                "size": "7px",
+                "line_height": "10.5px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Google Fonts"
+              },
+              "technical": {
+                "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Sans",
+              "role": "System Badge",
+              "specs": {
+                "size": "10px",
+                "line_height": "16px",
+                "font_weight": "500",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "OS Default"
+              },
+              "technical": {
+                "font_family_css": "-apple-system, BlinkMacSystemFont, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Mono",
+              "role": "Technical Micro (Version/Status)",
+              "specs": {
+                "size": "11px",
+                "line_height": "11px",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "OS Default"
+              },
+              "technical": {
+                "font_family_css": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Decorative fonts, pseudo-content, and editor styles used primarily in product demo illustrations.",
+          "variants": [
+            {
+              "name": "System Mono",
+              "role": "Editor Code Syntax",
+              "specs": {
+                "size": "8px",
+                "line_height": "normal",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "OS Default"
+              },
+              "technical": {
+                "font_family_css": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+                "file_url": null
+              }
+            },
+            {
+              "name": "System Mono",
+              "role": "Background Decorative Text",
+              "specs": {
+                "size": "6px",
+                "line_height": "normal",
+                "font_weight": "300",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": true,
+                "source": "OS Default"
+              },
+              "technical": {
+                "font_family_css": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+                "file_url": null
+              }
+            },
+            {
+              "name": "Flow Circular",
+              "role": "Wireframe / Skeleton Text",
+              "specs": {
+                "size": "8px",
+                "line_height": "normal",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": {
+                "is_proprietary": false,
+                "source": "Self-hosted"
+              },
+              "technical": {
+                "font_family_css": "\"Flow Circular\"",
+                "file_url": "/fonts/FlowCircular-Regular.ttf"
+              }
+            }
+          ]
+        },
+        "highlights": "Syntax highlighting and specific brand colors are applied to typography in product demos (e.g., #DB90A5, #FFEA00 for code, and #DD55E7 for feature callouts), functioning as specialized inline highlighting techniques.",
+        "insights": [
+          "Highly utilitarian typography scaling down to extreme micro sizes (6px-10px) to realistically render complex UI mockups (like Slack, Code Editor, and Apple Notes within the hero section).",
+          "The system mixes a primary brand sans-serif (Inter) with native system fonts (-apple-system, ui-monospace) for rendering native-looking UI components within the product demonstrations.",
+          "Typography is optimized for dense data and application interfaces, prioritizing legibility at extremely small sizes with precise line-height control and tracking (e.g., -0.025em for headings)."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "gradient_linear",
+          "shadows_soft"
+        ],
+        "solid_colors": [
+          {
+            "name": "Page Background",
+            "description": "Primary background for the entire page",
+            "when_to_use": [
+              "Main page background",
+              "Dark theme base"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Window Container - Slack",
+            "description": "Dark purple background for Slack window",
+            "when_to_use": [
+              "Slack application window",
+              "App container backgrounds"
+            ],
+            "hex": "#471848"
+          },
+          {
+            "name": "Slack Sidebar",
+            "description": "Light purple sidebar background",
+            "when_to_use": [
+              "Slack sidebar",
+              "Navigation panels"
+            ],
+            "hex": "#DEC7E4"
+          },
+          {
+            "name": "Slack Sidebar Hover",
+            "description": "Darker purple for hover states in Slack sidebar",
+            "when_to_use": [
+              "Hover states on sidebar items"
+            ],
+            "hex": "#6C466D"
+          },
+          {
+            "name": "Slack Channel Active",
+            "description": "Active channel selection background",
+            "when_to_use": [
+              "Active channel indicator",
+              "Selected items"
+            ],
+            "hex": "#83388A"
+          },
+          {
+            "name": "Slack Search Bar",
+            "description": "Search bar background",
+            "when_to_use": [
+              "Search input fields in Slack"
+            ],
+            "hex": "#764E78"
+          },
+          {
+            "name": "Notes Window Background",
+            "description": "Light gray background for Notes app window",
+            "when_to_use": [
+              "Notes application",
+              "Light mode windows"
+            ],
+            "hex": "#F5F5F5"
+          },
+          {
+            "name": "Notes Selected Item",
+            "description": "Yellow highlight for selected note",
+            "when_to_use": [
+              "Selected note in sidebar",
+              "Active item highlight"
+            ],
+            "hex": "#FFE48F"
+          },
+          {
+            "name": "Notes Content Area",
+            "description": "White background for note content",
+            "when_to_use": [
+              "Note editing area",
+              "Content backgrounds"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Cursor/Code Editor Window",
+            "description": "Dark background for code editor",
+            "when_to_use": [
+              "Code editor window",
+              "Dark IDE backgrounds"
+            ],
+            "hex": "#181818"
+          },
+          {
+            "name": "Code Editor Panel",
+            "description": "Slightly lighter dark background for panels",
+            "when_to_use": [
+              "Editor panels",
+              "Nested containers"
+            ],
+            "hex": "#212121"
+          },
+          {
+            "name": "macOS Window Control Red",
+            "description": "Red window control button (close)",
+            "when_to_use": [
+              "Window close button"
+            ],
+            "hex": "#ED6A5E"
+          },
+          {
+            "name": "macOS Window Control Yellow",
+            "description": "Yellow window control button (minimize)",
+            "when_to_use": [
+              "Window minimize button"
+            ],
+            "hex": "#F4BD4F"
+          },
+          {
+            "name": "macOS Window Control Green",
+            "description": "Green window control button (maximize)",
+            "when_to_use": [
+              "Window maximize button"
+            ],
+            "hex": "#61C354"
+          },
+          {
+            "name": "Slack Status Online",
+            "description": "Green online status indicator",
+            "when_to_use": [
+              "Online status badges",
+              "Active indicators"
+            ],
+            "hex": "#007A5A"
+          },
+          {
+            "name": "Slack Badge",
+            "description": "Purple notification badge background",
+            "when_to_use": [
+              "Unread message counts",
+              "Notification badges"
+            ],
+            "hex": "#611E69"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Page Background Gradient",
+            "description": "Top to bottom gradient from transparent to black over black base",
+            "when_to_use": [
+              "Main page background",
+              "Subtle depth effect on dark backgrounds"
+            ],
+            "css_code": "linear-gradient(to bottom, transparent, rgb(0, 0, 0)) rgb(0, 0, 0)"
+          },
+          {
+            "name": "Hover Gradient Effect",
+            "description": "Multi-stop gradient from dark purple to light pink",
+            "when_to_use": [
+              "Interactive hover states",
+              "Button hover effects"
+            ],
+            "css_code": "linear-gradient(180deg, #050116 0, #112d72 30%, #4b68aa 45%, #87a7dc 64%, #9cacd0 88%, #fcdbef 98%)"
+          },
+          {
+            "name": "Border Separator Gradient",
+            "description": "Diagonal gradient with CSS variable stops for borders",
+            "when_to_use": [
+              "Window separators",
+              "Subtle dividers"
+            ],
+            "css_code": "linear-gradient(to bottom right, var(--tw-gradient-stops))"
+          },
+          {
+            "name": "White Border Fade",
+            "description": "White gradient fading from 40% to transparent opacity",
+            "when_to_use": [
+              "Top borders with glow effect",
+              "Subtle highlights"
+            ],
+            "css_code": "linear-gradient(to bottom right, from-white/40 via-white/10 to-white/0)"
+          },
+          {
+            "name": "Cursor Tab Gradient",
+            "description": "Bottom to top gradient transitioning to white",
+            "when_to_use": [
+              "Active tab indicators"
+            ],
+            "css_code": "linear-gradient(to top, white)"
+          },
+          {
+            "name": "Testimonial Gradient Mask",
+            "description": "Horizontal gradient from cyan blue to purple",
+            "when_to_use": [
+              "Testimonial overlays",
+              "Decorative masks with 15% opacity overlay blend"
+            ],
+            "css_code": "linear-gradient(90deg, #1999e8 0, #a45bf2)"
+          },
+          {
+            "name": "Vibe Gradient Blur Mask",
+            "description": "Complex horizontal white gradient with varying opacity stops",
+            "when_to_use": [
+              "Glassmorphism mask effects",
+              "Progressive blur overlays with backdrop-filter blur(8px)"
+            ],
+            "css_code": "linear-gradient(90deg, hsla(0,0%,100%,.3) 0, #fff 50%, hsla(0,0%,100%,.8) 70%, hsla(0,0%,100%,.2) 80%, hsla(0,0%,100%,.1))"
+          },
+          {
+            "name": "Progressive Blur Overlay Right",
+            "description": "Horizontal gradient from black to transparent (right to left)",
+            "when_to_use": [
+              "Right-side edge blur masks with backdrop-filter blur(4px)"
+            ],
+            "css_code": "linear-gradient(270deg, #000 60%, transparent)"
+          },
+          {
+            "name": "Progressive Blur Overlay Left",
+            "description": "Horizontal gradient from black to transparent (left to right)",
+            "when_to_use": [
+              "Left-side edge blur masks with backdrop-filter blur(4px)"
+            ],
+            "css_code": "linear-gradient(90deg, #000 60%, transparent)"
+          },
+          {
+            "name": "Whats Inside Card Border",
+            "description": "Diagonal gradient creating shimmer border effect with white varying opacity",
+            "when_to_use": [
+              "Card borders",
+              "Shimmer border effects with mask-composite"
+            ],
+            "css_code": "linear-gradient(135deg, hsla(0,0%,100%,.4), hsla(0,0%,100%,.1) 25%, hsla(0,0%,100%,.2) 50%, hsla(0,0%,100%,.1) 75%, hsla(0,0%,100%,.4))"
+          },
+          {
+            "name": "Letter Matrix Radial Mask",
+            "description": "Radial ellipse gradient from white to transparent",
+            "when_to_use": [
+              "Masking letter matrix displays",
+              "Spotlight effects on text grids"
+            ],
+            "css_code": "radial-gradient(ellipse 80% 50% at 50% 50%, white 0%, white 60%, transparent 90%)"
+          },
+          {
+            "name": "Scroll to Bottom Mask",
+            "description": "Top to bottom gradient from black to transparent at 60% mark",
+            "when_to_use": [
+              "Scroll container fade masks"
+            ],
+            "css_code": "linear-gradient(180deg, #000 60%, transparent)"
+          }
+        ],
+        "highlights": [
+          "Noise texture overlay on testimonial cards: background-image url(/image/noise.webp) at 50% opacity with overlay blend mode",
+          "Soft box shadows with rgba(0,0,0,0.12) to rgba(0,0,0,0.35) for window depth",
+          "Inset shadows for subtle depth: inset 0 0 0 1px rgba(255,255,255,0.06) and inset 0 1px 0 rgba(255,255,255,0.06)",
+          "Window shadows with soft blur: 0px 8px 30px rgb(0,0,0,0.12), 0px 12px 40px rgba(0,0,0,0.35)",
+          "Ring effects with white/5 to white/30 opacity for focus states",
+          "Backdrop blur effects ranging from blur(4px) to blur(100px) for glassmorphism",
+          "Animated letter matrix display with individual character opacity and scale transforms",
+          "Clip-path animations for dynamic window recording interfaces",
+          "Subtle 1px borders with white/10 to white/40 opacity for panel separators"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Tw Ring Offset Shadow",
+              "type": "drop",
+              "description": "Tailwind CSS ring offset shadow reset - 0 offset, 0 blur, transparent black",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring offset utility reset",
+                "Focus ring base"
+              ]
+            },
+            {
+              "name": "Recording Window Shadow",
+              "type": "drop",
+              "description": "Soft shadow for floating recording window - 30px blur with 12% opacity black",
+              "css_value": "0 8px 30px rgb(0,0,0,0.12)",
+              "when_to_use": [
+                "Recording window",
+                "Floating UI elements",
+                "Demo containers"
+              ]
+            },
+            {
+              "name": "Deep Shadow",
+              "type": "drop",
+              "description": "Deep shadow with 32px blur and 40% opacity for elevated elements",
+              "css_value": "0 8px 32px rgba(0,0,0,.4)",
+              "when_to_use": [
+                "Modal dialogs",
+                "Elevated cards"
+              ]
+            },
+            {
+              "name": "Composite Border Shadow",
+              "type": "drop",
+              "description": "Composite shadow with 1px border ring and 48px blur shadow at 30-35% opacity",
+              "css_value": "0px 0px 0px 1px rgba(0,0,0,.3),0px 16px 48px 0px rgba(0,0,0,.35)",
+              "when_to_use": [
+                "Dropdown menus",
+                "Popovers",
+                "Floating panels"
+              ]
+            },
+            {
+              "name": "Subtle Ambient Shadow",
+              "type": "drop",
+              "description": "Very subtle 10px blur shadow at 4-6% opacity for light elevation",
+              "css_value": "0px 0px 10px rgba(0,0,0,.04)",
+              "when_to_use": [
+                "Cards with subtle lift",
+                "Input fields"
+              ]
+            },
+            {
+              "name": "Transparent Reset Shadow",
+              "type": "drop",
+              "description": "2px blur shadow with 0% opacity - effectively no shadow",
+              "css_value": "0px 0px 2px transparent",
+              "when_to_use": [
+                "Shadow reset states",
+                "Disabled elements"
+              ]
+            },
+            {
+              "name": "Subtle Blur Shadow",
+              "type": "drop",
+              "description": "Small 2px blur shadow at 40% opacity for subtle definition",
+              "css_value": "0px 0px 2px rgba(0,0,0,.4)",
+              "when_to_use": [
+                "Small interactive elements",
+                "Buttons"
+              ]
+            },
+            {
+              "name": "Large Floating Shadow",
+              "type": "drop",
+              "description": "Large 40px blur shadow at 35% opacity for floating elements",
+              "css_value": "0px 12px 40px rgba(0,0,0,.35)",
+              "when_to_use": [
+                "Large floating cards",
+                "Hero elements"
+              ]
+            },
+            {
+              "name": "Card Shadow",
+              "type": "drop",
+              "description": "12px blur shadow at 12% opacity for cards",
+              "css_value": "0px 2px 12px rgba(0,0,0,.12)",
+              "when_to_use": [
+                "Cards",
+                "Elevated content blocks"
+              ]
+            },
+            {
+              "name": "Medium Floating Shadow",
+              "type": "drop",
+              "description": "20px blur shadow at 25% opacity for medium-sized floating elements",
+              "css_value": "0px 3px 20px 0px rgba(0,0,0,.25)",
+              "when_to_use": [
+                "Medium floating elements",
+                "Tooltips"
+              ]
+            },
+            {
+              "name": "Strong Floating Shadow",
+              "type": "drop",
+              "description": "30px blur shadow at 35% opacity for prominent floating elements",
+              "css_value": "0px 3px 30px 0px rgba(0,0,0,.35)",
+              "when_to_use": [
+                "Prominent floating elements",
+                "Feature highlights"
+              ]
+            },
+            {
+              "name": "Standard Floating Shadow",
+              "type": "drop",
+              "description": "22px blur shadow at 25% opacity for standard floating elements",
+              "css_value": "0px 7px 22px 0px rgba(0,0,0,.25)",
+              "when_to_use": [
+                "Standard floating UI",
+                "Dropdowns"
+              ]
+            },
+            {
+              "name": "Modal Shadow",
+              "type": "drop",
+              "description": "24px blur shadow at 35% opacity for modals and dialogs",
+              "css_value": "0px 8px 24px rgba(0,0,0,.35)",
+              "when_to_use": [
+                "Modals",
+                "Dialog boxes",
+                "Overlays"
+              ]
+            },
+            {
+              "name": "Inset Border Light 6%",
+              "type": "inset",
+              "description": "Inset 1px border shadow at 6% white opacity for subtle inner borders",
+              "css_value": "inset 0 0 0 1px hsla(0,0%,100%,.06)",
+              "when_to_use": [
+                "Dark mode cards",
+                "Subtle inner borders"
+              ]
+            },
+            {
+              "name": "Inset Border Light 8%",
+              "type": "inset",
+              "description": "Inset 1px border shadow at 8% white opacity for inner borders",
+              "css_value": "inset 0 0 0 1px hsla(0,0%,100%,.08)",
+              "when_to_use": [
+                "Dark mode input fields",
+                "Inner card borders"
+              ]
+            },
+            {
+              "name": "Inset Top Highlight",
+              "type": "inset",
+              "description": "Inset top highlight at 6% white opacity for bevel effect",
+              "css_value": "inset 0 1px 0 hsla(0,0%,100%,.06)",
+              "when_to_use": [
+                "Button highlights",
+                "Input field highlights"
+              ]
+            },
+            {
+              "name": "Toggle Switch Inner Shadow",
+              "type": "inset",
+              "description": "Toggle switch inner shadow with top shadow at 30% black and bottom highlight at 25% white",
+              "css_value": "inset 0 1px 2px 0 rgba(0,0,0,.3),inset 0 -1px 2px 0 hsla(0,0%,100%,.25)",
+              "when_to_use": [
+                "Toggle switches",
+                "Switch tracks"
+              ]
+            },
+            {
+              "name": "Focus With Glow",
+              "type": "drop",
+              "description": "Focus state shadow with white glow at 7.5% and 4.5% opacity",
+              "css_value": "0 0 0 5px hsla(0,0%,100%,.075),0 10px 26px hsla(0,0%,100%,.045)",
+              "when_to_use": [
+                "Focus states",
+                "Input focus"
+              ]
+            },
+            {
+              "name": "Hover Shadow Light",
+              "type": "drop",
+              "description": "Hover shadow with 20px blur at 8% opacity",
+              "css_value": "0px 0px 20px rgba(0,0,0,.08)",
+              "when_to_use": [
+                "Card hover states"
+              ]
+            },
+            {
+              "name": "Hover Card Shadow",
+              "type": "drop",
+              "description": "Hover shadow with 16px blur at 10% opacity",
+              "css_value": "0px 2px 16px rgba(0,0,0,.1)",
+              "when_to_use": [
+                "Interactive card hover"
+              ]
+            },
+            {
+              "name": "Hover Elevated Shadow",
+              "type": "drop",
+              "description": "Hover shadow with 16px blur at 8% opacity for elevated hover state",
+              "css_value": "0px 4px 16px rgba(0,0,0,.08)",
+              "when_to_use": [
+                "Elevated card hover"
+              ]
+            },
+            {
+              "name": "Hover Deep Shadow",
+              "type": "drop",
+              "description": "Hover shadow with 20px blur at 9% opacity",
+              "css_value": "0px 4px 20px rgba(0,0,0,.09)",
+              "when_to_use": [
+                "Deep hover states",
+                "Feature card hover"
+              ]
+            },
+            {
+              "name": "Hover Inset Highlight",
+              "type": "inset",
+              "description": "Hover inset highlight at 12% white opacity",
+              "css_value": "inset 0 1px 0 hsla(0,0%,100%,.12)",
+              "when_to_use": [
+                "Button hover highlights"
+              ]
+            },
+            {
+              "name": "Focus Inset Border",
+              "type": "inset",
+              "description": "Focus inset border at 26% white opacity",
+              "css_value": "inset 0 0 0 1px hsla(0,0%,100%,.26)",
+              "when_to_use": [
+                "Focus state borders",
+                "Input focus"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#2D2D2D",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#471848",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D1D1D1",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FAFAFA",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#ABABAB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#C4C4C4",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DAC8E2",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DBDCE0",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E2E2E2",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#E5E7EB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#D1D5DB",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#4B5563",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F5F5F5",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#525252",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#404040",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#262626",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F87171",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#EF4444",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#DC2626",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#1C1D1F",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#FFFFFF",
+            "width": "1px",
+            "style": "solid"
+          },
+          {
+            "hex": "#F3F4F6",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "scroll_reveal",
+          "accordion",
+          "hover_transform",
+          "video_background",
+          "parallax"
+        ],
+        "animations": [
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn{from{opacity:0}to{opacity:1}}",
+            "description": "Simple opacity fade-in animation used for page load and scroll reveal elements."
+          },
+          {
+            "name": "marquee",
+            "css": "@keyframes marquee{0%{transform:translateX(0)}to{transform:translateX(calc(-100% - var(--gap)))}}",
+            "description": "Continuous horizontal scroll animation for logo strips and partner showcases."
+          },
+          {
+            "name": "marquee-vertical",
+            "css": "@keyframes marquee-vertical{0%{transform:translateY(0)}to{transform:translateY(calc(-100% - var(--gap)))}}",
+            "description": "Vertical continuous scroll animation for testimonial or content strips."
+          },
+          {
+            "name": "bounce",
+            "css": "@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}",
+            "description": "Bouncing animation used on scroll indicator arrow at bottom of hero."
+          },
+          {
+            "name": "blink",
+            "css": "@keyframes blink{0%,49%{opacity:1}50%,to{opacity:0}}",
+            "description": "Cursor blink animation for text input caret simulation."
+          },
+          {
+            "name": "wave",
+            "css": "@keyframes wave{0%,to{transform:scaleY(1);opacity:1}25%{transform:scaleY(.2);opacity:.5}50%{transform:scaleY(1.15);opacity:1}75%{transform:scaleY(.5);opacity:.5}}",
+            "description": "Audio waveform visualization animation for the voice recording indicator."
+          },
+          {
+            "name": "mini-recorder-appear",
+            "css": "@keyframes mini-recorder-appear{0%{transform:translateY(10px) scale(0);opacity:0}to{transform:translateY(0) scale(1);opacity:1}}",
+            "description": "Entrance animation for the mini voice recorder component appearing on screen."
+          },
+          {
+            "name": "pill-select-mask-up",
+            "css": "@keyframes pill-select-mask-up{to{mask-size:calc(100% - 10px) 96px,100% 100%;-webkit-mask-size:calc(100% - 10px) 96px,100% 100%}}",
+            "description": "Scroll-linked mask animation for pill select dropdown scrolling effect."
+          },
+          {
+            "name": "hover-gradient",
+            "css": "transition: background-position 0.8s ease; background-size: 200% 200%; background-position: 0 0; background-image: linear-gradient(180deg, #050116 0, #112d72 30%, #4b68aa 45%, #87a7dc 64%, #9cacd0 88%, #fcdbef 98%)",
+            "description": "Twilight gradient background shift on hover for main interactive containers."
+          },
+          {
+            "name": "global-transition",
+            "css": "transition: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+            "description": "Default transition token applied to interactive elements for smooth state changes."
+          },
+          {
+            "name": "demo-container-intro",
+            "css": "",
+            "description": "JS-driven entrance animation for hero intro content with opacity and transform. Motion controlled via React/Framer."
+          },
+          {
+            "name": "time-switcher-highlight",
+            "css": "",
+            "description": "JS-driven sliding highlight indicator for the day/dusk/night time switcher buttons."
+          }
+        ],
+        "insights": [
+          "The design system leverages a high-contrast dark theme with extensive use of semi-transparent white overlays (white/10, white/20) to create depth and hierarchy without introducing new colors.",
+          "Button variations follow a consistent pill-to-rounded-lg radius pattern, with CTAs using more pronounced styling (filled backgrounds) while secondary actions use ghost/transparent treatments.",
+          "Motion design emphasizes smooth, cubic-bezier eased transitions (0.4, 0, 0.2, 1) with marquee animations for social proof elements and wave animations for the voice recording visualization, creating a cohesive motion language."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Download for Mac (Primary CTA)",
+            "usage": "Primary call-to-action button in the hero section for macOS downloads. Prominent white/light background with dark text.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "15px",
+                  "padding": "0px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F0F0F0",
+                "text_color": "#1A1A1A",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#FFFFFF",
+                "text_color": "#1A1A1A",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#F0F0F0",
+                "text_color": "#1A1A1A",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Download for Windows (Secondary CTA)",
+            "usage": "Secondary download button for Windows users in the hero section. Transparent/dark background with white text.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "15px",
+                  "padding": "0px 12px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "rgba(255, 255, 255, 0.8)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "rgba(255, 255, 255, 0.8)",
+                "border_color": "transparent",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Download (Form Submit)",
+            "usage": "Small submit button inside email input form for download. White background with black text, compact size.",
+            "specs": {
+              "radius": "rounded-md",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Inter",
+                  "size": "13px",
+                  "padding": "4px 10px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.9)",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Play Demo (Pill Button)",
+            "usage": "Demo trigger button with play icon and text. Pill-shaped with frosted glass appearance.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "16px",
+                  "padding": "4px 16px 4px 4px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.2)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.2)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.3)",
+                "border_width": "1px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "rgba(255, 255, 255, 0.2)",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Monthly (Pricing Toggle)",
+            "usage": "Pricing period toggle button in the pricing section. Pill-shaped toggle style.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "14px",
+                  "padding": "10px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Yearly (2 months free) (Pricing Toggle Inactive)",
+            "usage": "Inactive pricing period toggle. Muted appearance when not selected.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "14px",
+                  "padding": "10px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#888B91",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(255, 255, 255, 0.05)",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#888B91",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "FAQ Accordion Button",
+            "usage": "Expandable FAQ question buttons. Full-width with consistent padding for accordion interaction.",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "16px",
+                  "padding": "16px 0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Icon Button (Circular)",
+            "usage": "Used for navigation controls, dock items, and window control buttons. Circular shape with icon only.",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Small",
+                  "font": "Inter",
+                  "size": "12px",
+                  "padding": "8px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "rgba(228, 232, 239, 0.1)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "rgba(228, 232, 239, 0.2)",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "rgba(228, 232, 239, 0.1)",
+                "text_color": "rgba(209, 213, 219, 0.4)",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Get Pro (Navigation CTA)",
+            "usage": "Navigation bar call-to-action link for premium upgrade.",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "Inter",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#FFFFFF",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "transparent",
+                "text_color": "#FAFAFA",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Download buttons arranged horizontally in the hero section with consistent spacing",
+          "spacing": "8px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "41px",
+          "position": "fixed",
+          "background": {
+            "hex": "#000000",
+            "color_reference": "Pure Black",
+            "opacity": "0.8",
+            "blur": "backdrop-filter: blur(5px)"
+          },
+          "border_bottom": null
+        },
+        "announcement_bar": null,
+        "tabs": {
+          "style_name": "Time Switcher Tabs",
+          "description": "Toggle buttons for switching between day/dusk/night visual modes in the hero demo.",
+          "when_to_use": [
+            "Switching between visual themes or modes",
+            "Time-based content preview",
+            "Multi-state toggle control"
+          ],
+          "states": [
+            {
+              "name": "default",
+              "visual_change": "Inactive state with muted white text",
+              "background": null,
+              "text": "rgba(255, 255, 255, 0.4)",
+              "icon": null
+            },
+            {
+              "name": "active",
+              "visual_change": "Full opacity white text indicates active selection",
+              "background": null,
+              "text": "rgba(255, 255, 255, 0.95)",
+              "icon": null
+            }
+          ]
+        }
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Pricing Tier Card",
+            "description": "Three-column pricing comparison cards displaying Free, Pro, and Enterprise tiers with feature lists and CTAs.",
+            "when_to_use": [
+              "Pricing page comparison",
+              "Subscription tier selection",
+              "Feature comparison display"
+            ]
+          },
+          {
+            "name": "App Demo Window",
+            "description": "Interactive mock application windows (Slack, Notes, Cursor) demonstrating cross-app voice dictation functionality.",
+            "when_to_use": [
+              "Product demonstrations",
+              "Feature showcases",
+              "Interactive tutorials"
+            ]
+          },
+          {
+            "name": "Feature Card",
+            "description": "Visual feature cards with icons, titles, and descriptions showcasing product capabilities.",
+            "when_to_use": [
+              "Feature sections",
+              "Product benefit highlights",
+              "Capability comparisons"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": {
+          "interaction": "Single open by default - clicking a FAQ question expands it while collapsing others"
+        },
+        "dividers": [
+          {
+            "name": "Section Divider",
+            "description": "Subtle horizontal line separating major content sections",
+            "when_to_use": [
+              "Between major page sections",
+              "Separating feature blocks"
+            ],
+            "color": "#1C1D1F",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "List Item Divider",
+            "description": "Light separator within lists like FAQ items and sidebar navigation",
+            "when_to_use": [
+              "Between FAQ questions",
+              "Sidebar list items",
+              "Notes app list entries"
+            ],
+            "color": "#D1D1D1",
+            "height": "1px",
+            "style": "solid"
+          },
+          {
+            "name": "Window Border",
+            "description": "Gradient border used on demo window components for depth",
+            "when_to_use": [
+              "Mock application windows",
+              "Card borders with glassmorphism"
+            ],
+            "color": "rgba(255, 255, 255, 0.1)",
+            "height": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": [
+        {
+          "name": "UI Icons",
+          "description": "Inline SVG icons detected on the page.",
+          "when_to_use": [],
+          "format": "SVG",
+          "style": "",
+          "sizes": {
+            "small": "",
+            "medium": ""
+          },
+          "examples": [
+            {
+              "name": "icon_01",
+              "svg_code": "<svg width=\"15\" height=\"14\" viewBox=\"0 0 828 755\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" style=\"transform: rotate(180deg) scaleY(-1);\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M531.147 67.6699C479.376 -22.5565 348.472 -22.5567 296.701 67.6698L17.9125 553.543C-33.3743 642.926 31.5864 754.027 135.135 754.027H692.712C796.261 754.027 861.222 642.926 809.935 553.543L531.147 67.6699ZM413.924 197.368C351.676 234.479 218.218 363.624 182.363 583.318C267.02 620.429 478.163 672.384 645.484 583.318C635.525 496.727 575.269 298.309 413.924 197.368Z\"></path></svg>"
+            },
+            {
+              "name": "icon_02",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"5\"></circle><path d=\"M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"></path></svg>"
+            },
+            {
+              "name": "icon_03",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 7a5 5 0 0 1 5 5h-10a5 5 0 0 1 5-5z\"></path><path d=\"M12 2v2M4.22 4.22l1.42 1.42M2 12h2M4.22 19.78l1.42-1.42M19.78 4.22l-1.42 1.42M22 12h-2\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"></path><path d=\"M3 17h18M5 20h14\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" fill=\"none\" opacity=\"0.6\"></path></svg>"
+            },
+            {
+              "name": "icon_04",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"></path><circle cx=\"18\" cy=\"5\" r=\"1\" opacity=\"0.6\"></circle><circle cx=\"20\" cy=\"8\" r=\"0.5\" opacity=\"0.4\"></circle><circle cx=\"16\" cy=\"3\" r=\"0.5\" opacity=\"0.4\"></circle></svg>"
+            },
+            {
+              "name": "icon_05",
+              "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-3 w-3\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"></path></svg>"
+            }
+          ]
+        }
+      ],
+      "assets": {
+        "logos": [
+          {
+            "role": "Favicon",
+            "format": "ICO",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/logos/favicon.ico",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/logos/favicon.ico",
+            "origin_url": "https://superwhisper.com/favicon.ico",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/logos/favicon-2.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/logos/favicon-2.png",
+            "origin_url": "https://superwhisper.com/icon.png?65555eabc972a88c",
+            "description": "Detected from <link rel='icon'>."
+          },
+          {
+            "role": "Favicon",
+            "format": "PNG",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/logos/favicon.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/logos/favicon.png",
+            "origin_url": "https://superwhisper.com/apple-icon.png?b8fd5aa9880888f1",
+            "description": "Detected from <link rel='apple-touch-icon'>."
+          }
+        ],
+        "media": [
+          {
+            "name": "Open Graph Image",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/open-graph-image.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/open-graph-image.png",
+            "origin_url": "https://superwhisper.com/api/og",
+            "usage_context": "Meta og:image — social share preview."
+          },
+          {
+            "name": "appicon-5.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/appicon-5-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/appicon-5-webp.webp",
+            "origin_url": "https://superwhisper.com/image/keyboard/apps/appicon-5.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "You",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/you.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/you.webp",
+            "origin_url": "https://superwhisper.com/image/demo/pfp-you.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Lisa",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/lisa.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/lisa.webp",
+            "origin_url": "https://superwhisper.com/image/demo/pfp-lisa.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Dario",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/dario.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/dario.webp",
+            "origin_url": "https://superwhisper.com/image/demo/pfp-dario.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "cursor-sidebar-button.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-sidebar-button-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-sidebar-button-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/cursor-sidebar-button.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "cursor-bottombar-button.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-bottombar-button-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-bottombar-button-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/cursor-bottombar-button.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "cursor-ridebar-button.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-ridebar-button-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-ridebar-button-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/cursor-ridebar-button.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "cursor-gear-button.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-gear-button-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor-gear-button-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/cursor-gear-button.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "rust.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/rust-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/rust-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/rust.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "chevron-right.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/chevron-right-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/chevron-right-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/chevron-right.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "day-left.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/day-left-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/day-left-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/day-left.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "dusk-left.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/dusk-left-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/dusk-left-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/dusk-left.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "night-left.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/night-left-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/night-left-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/night-left.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "evening-left.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/evening-left-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/evening-left-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/evening-left.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "day-right.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/day-right-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/day-right-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/day-right.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "dusk-right.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/dusk-right-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/dusk-right-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/dusk-right.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "night-right.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/night-right-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/night-right-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/night-right.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "evening-right.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/evening-right-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/evening-right-webp.webp",
+            "origin_url": "https://superwhisper.com/image/demo/evening-right.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Cursor",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cursor.webp",
+            "origin_url": "https://superwhisper.com/image/demo/cursor.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Slack",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/slack.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/slack.webp",
+            "origin_url": "https://superwhisper.com/image/demo/slack.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Notes",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/notes.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/notes.webp",
+            "origin_url": "https://superwhisper.com/image/demo/notes.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Vercel.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/vercel-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/vercel-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/Vercel.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Spotify.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/spotify-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/spotify-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/Spotify.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "OpenAI.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/openai-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/openai-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/OpenAI.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Shopify.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/shopify-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/shopify-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/Shopify.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Meta.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/meta-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/meta-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/Meta.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Applelogo.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/applelogo-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/applelogo-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/Applelogo.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "background.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp.webp",
+            "origin_url": "https://superwhisper.com/image/whatsinside/offline/background.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg.svg",
+            "origin_url": "https://superwhisper.com/image/whatsinside/offline/icon.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "background.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-2.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-2.webp",
+            "origin_url": "https://superwhisper.com/image/whatsinside/vocabulary/background.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-2.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-2.svg",
+            "origin_url": "https://superwhisper.com/image/whatsinside/vocabulary/icon.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "background.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-3.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-3.webp",
+            "origin_url": "https://superwhisper.com/image/whatsinside/modes/background.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-4.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-4.svg",
+            "origin_url": "https://superwhisper.com/image/whatsinside/modes/icon.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "background.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-4.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-4.webp",
+            "origin_url": "https://superwhisper.com/image/whatsinside/language/background.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-3.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-3.svg",
+            "origin_url": "https://superwhisper.com/image/whatsinside/language/icon.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "background.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-5.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-5.webp",
+            "origin_url": "https://superwhisper.com/image/whatsinside/clipboard/background.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-5.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-5.svg",
+            "origin_url": "https://superwhisper.com/image/whatsinside/clipboard/icon.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "background.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-6.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/background-webp-6.webp",
+            "origin_url": "https://superwhisper.com/image/whatsinside/meeting/background.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-6.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-svg-6.svg",
+            "origin_url": "https://superwhisper.com/image/whatsinside/meeting/icon.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "house-fill.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/house-fill-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/house-fill-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/sf/house-fill.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "sparkles.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/sparkles-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/sparkles-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/sf/sparkles.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "doc-text-fill.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/doc-text-fill-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/doc-text-fill-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/sf/doc-text-fill.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "gearshape-fill.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/gearshape-fill-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/gearshape-fill-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/sf/gearshape-fill.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "openai.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/openai-svg-2.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/openai-svg-2.svg",
+            "origin_url": "https://superwhisper.com/icon/providers/openai.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Telegram",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/telegram.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/telegram.webp",
+            "origin_url": "https://superwhisper.com/icon/apps/telegram.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "WhatsApp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/whatsapp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/whatsapp.webp",
+            "origin_url": "https://superwhisper.com/icon/apps/whatsapp.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "anthropic.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/anthropic-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/anthropic-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/providers/anthropic.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "meta.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/meta-svg-2.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/meta-svg-2.svg",
+            "origin_url": "https://superwhisper.com/icon/providers/meta.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "grok.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/grok-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/grok-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/providers/grok.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "gemini.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/gemini-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/gemini-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/providers/gemini.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "mistral.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/mistral-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/mistral-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/providers/mistral.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "key-0",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-0.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-0.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-0.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-1",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-1.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-1.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-1.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-2",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-2.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-2.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-2.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-3",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-3.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-3.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-3.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-4",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-4.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-4.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-4.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-5",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-5.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-5.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-5.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-6",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-6.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-6.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-6.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-7",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-7.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-7.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-7.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-8",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-8.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-8.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-8.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-9",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-9.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-9.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-9.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-10",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-10.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-10.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-10.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-11",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-11.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-11.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-11.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "enter",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/enter.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/enter.svg",
+            "origin_url": "https://superwhisper.com/image/keyboard/keys/key-enter-r.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "key-12",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-12.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-12.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-12.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-13",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-13.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-13.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-13.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-14",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-14.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-14.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-14.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-15",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-15.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-15.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-15.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-16",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-16.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-16.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-16.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-17",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-17.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-17.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-17.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-18",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-18.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-18.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-18.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-19",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-19.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-19.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-19.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-20",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-20.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-20.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-20.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-21",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-21.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-21.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-21.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-22",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-22.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-22.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-22.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-23",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-23.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-23.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-23.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-24",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-24.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-24.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-24.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-25",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-25.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-25.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-25.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-26",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-26.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-26.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-26.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-27",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-27.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-27.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-27.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-28",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-28.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-28.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-28.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-29",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-29.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-29.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-29.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-30",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-30.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-30.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-30.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-31",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-31.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-31.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-31.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-32",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-32.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-32.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-32.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-33",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-33.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-33.webp",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-33.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "key-34",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-34.jpg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/key-34.jpg",
+            "origin_url": "https://superwhisper.com/_next/image?url=%2Fimage%2Fkeyboard%2Fapps%2Fappicon-34.webp&w=384&q=75",
+            "usage_context": ""
+          },
+          {
+            "name": "sliders-yellow.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/sliders-yellow-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/sliders-yellow-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/sliders-yellow.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "cpu-yellow.svg",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cpu-yellow-svg.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/cpu-yellow-svg.svg",
+            "origin_url": "https://superwhisper.com/icon/cpu-yellow.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "App Store QR Code",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/app-store-qr-code.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/app-store-qr-code.svg",
+            "origin_url": "https://superwhisper.com/image/appstore-qr.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Andrej Karpathy",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/andrej-karpathy.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/andrej-karpathy.webp",
+            "origin_url": "https://superwhisper.com/image/twitter/karpathy.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "verified-badge.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/verified-badge-png.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/verified-badge-png.png",
+            "origin_url": "https://superwhisper.com/image/verified-badge.png",
+            "usage_context": ""
+          },
+          {
+            "name": "paperclip.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/paperclip-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/paperclip-webp.webp",
+            "origin_url": "https://superwhisper.com/image/paperclip.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Pieter Levels",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/pieter-levels.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/pieter-levels.webp",
+            "origin_url": "https://superwhisper.com/image/twitter/levelsio.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Andrew Wilkinson",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/andrew-wilkinson.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/andrew-wilkinson.webp",
+            "origin_url": "https://superwhisper.com/image/twitter/awilkinson.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Guillermo Rauch",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/guillermo-rauch.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/guillermo-rauch.webp",
+            "origin_url": "https://superwhisper.com/image/twitter/rauchg.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Backed by API Capital",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/backed-by-api-capital.svg",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/backed-by-api-capital.svg",
+            "origin_url": "https://superwhisper.com/image/api-capital-logo.svg",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/2.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-2.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-2.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/5.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-3.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-3.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/1.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-4.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-4.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/7.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-5.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-5.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/6.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-6.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-6.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/4.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Video thumbnail",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-7.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/video-thumbnail-7.webp",
+            "origin_url": "https://superwhisper.com/image/usecases/3.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "Superwhisper",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/superwhisper.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/superwhisper.png",
+            "origin_url": "https://superwhisper.com/image/lettermark.png",
+            "usage_context": ""
+          },
+          {
+            "name": "0",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/0.bin",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/0.bin",
+            "origin_url": "https://bat.bing.com/action/0?ti=343110024&Ver=2&mid=d5ef88e5-4855-4786-9fbe-a698dcac7c22&bo=1&sid=cba280a0a4e411f198693b5bedba45ed&vid=cba28320a4e411f18316139b1dad98e4&vids=1&msclkid=N&uach=pv%3D19.0.0&pi=2083220816&lg=en-US&sw=1920&sh=1080&sc=32&tl=Superwhisper%20%E2%80%94%20AI%20Voice%20to%20Text%20for%20macOS,%20Windows%20%26%20iOS%20%7C%20Superwhisper&kw=voice%20to%20text,%20speech%20to%20text,%20AI%20dictation,%20dictation%20app,%20voice%20transcription,%20offline%20speech%20to%20text,%20dictation%20software%20mac,%20voice%20to%20text%20windows,%20voice%20coding,%20transcription%20app&p=https%3A%2F%2Fsuperwhisper.com%2F&r=&lt=1944&evt=pageLoad&sv=2&cdb=AQAQ&rn=794375",
+            "usage_context": ""
+          },
+          {
+            "name": "favicon.ico",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/favicon-ico.ico",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/favicon-ico.ico",
+            "origin_url": "https://superwhisper.com/favicon.ico",
+            "usage_context": ""
+          },
+          {
+            "name": "icon.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-png.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/icon-png.png",
+            "origin_url": "https://superwhisper.com/icon.png?65555eabc972a88c",
+            "usage_context": ""
+          },
+          {
+            "name": "apple-icon.png",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/apple-icon-png.png",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/apple-icon-png.png",
+            "origin_url": "https://superwhisper.com/apple-icon.png?b8fd5aa9880888f1",
+            "usage_context": ""
+          },
+          {
+            "name": "testimonial-texture.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/testimonial-texture-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/testimonial-texture-webp.webp",
+            "origin_url": "https://superwhisper.com/image/testimonial-texture.webp",
+            "usage_context": ""
+          },
+          {
+            "name": "noise.webp",
+            "type": "image",
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/noise-webp.webp",
+            "path": "84c930a5-39af-404a-b113-61c991b3ab26/site-assets/media/image/noise-webp.webp",
+            "origin_url": "https://superwhisper.com/image/noise.webp",
+            "usage_context": ""
+          }
+        ]
+      },
+      "brand_assets": null,
+      "sections": [
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered",
+          "headline": "Just speak. Write faster.",
+          "subheadline": "Type hands-free at up to 250 words per minute with AI-powered voice dictation.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Large silhouette profile on left edge, creating dramatic contrast against deep blue gradient background"
+            },
+            {
+              "type": "button",
+              "description": "Download for Mac - solid blue button with rounded corners, white text, contains Apple logo icon"
+            },
+            {
+              "type": "button",
+              "description": "Try Web Version (Beta) - outline/ghost button with white border, transparent background"
+            },
+            {
+              "type": "form",
+              "description": "Email input field with download button overlay"
+            },
+            {
+              "type": "icon",
+              "description": "Scroll indicator - downward chevron with animation"
+            },
+            {
+              "type": "navigation",
+              "description": "Floating navigation bar with Home, Blog, Docs, Pricing links and download button"
+            },
+            {
+              "type": "button",
+              "description": "Time switcher with Day/Dusk/Night toggle buttons"
+            }
+          ]
+        },
+        {
+          "type": "Demo - Browser Window 1",
+          "layout_pattern": "Centered window mockup",
+          "headline": "Just speak. Write faster.",
+          "subheadline": "Type hands-free at up to 250 words per minute with AI-powered voice dictation.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Browser window frame with macOS-style traffic light controls (red, yellow, green)"
+            },
+            {
+              "type": "button",
+              "description": "Download for Mac button within simulated browser"
+            },
+            {
+              "type": "button",
+              "description": "Try Web Version (Beta) button within simulated browser"
+            }
+          ]
+        },
+        {
+          "type": "Demo - Browser Window 2",
+          "layout_pattern": "Centered window mockup",
+          "headline": "Just speak. Write faster.",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Browser window frame mockup with top bar and tabs visible"
+            },
+            {
+              "type": "button",
+              "description": "Download for Mac CTA"
+            },
+            {
+              "type": "button",
+              "description": "Try Web Version (Beta) CTA"
+            }
+          ]
+        },
+        {
+          "type": "Demo - Browser Window 3",
+          "layout_pattern": "Centered window mockup",
+          "headline": "Ready to get more done?",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Browser window frame with light blue gradient background"
+            },
+            {
+              "type": "button",
+              "description": "Get Started - centered solid blue button"
+            }
+          ]
+        },
+        {
+          "type": "Testimonials",
+          "layout_pattern": "Centered with pagination",
+          "headline": "Loved by those who love Google Suite",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "carousel",
+              "description": "Pagination dots indicator - 6 circular dots, first one filled (active), rest outlined"
+            },
+            {
+              "type": "icon",
+              "description": "5-star review display"
+            }
+          ]
+        },
+        {
+          "type": "Feature - Chat Interface",
+          "layout_pattern": "Split layout",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Chat bubble interface mockup with user message and assistant reply in blue bubble on dark background"
+            },
+            {
+              "type": "icon",
+              "description": "App icons/logos displayed on right side"
+            },
+            {
+              "type": "button",
+              "description": "More button - small action button"
+            },
+            {
+              "type": "button",
+              "description": "Share button - small action button"
+            }
+          ]
+        },
+        {
+          "type": "Features - Three Card Row",
+          "layout_pattern": "Grid 3-column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Left card - Purple/pink with Wi-Fi symbol icon, feature text below"
+            },
+            {
+              "type": "card",
+              "description": "Center card - Dark green with code screen/IDE interface visual, feature text below"
+            },
+            {
+              "type": "card",
+              "description": "Right card - Dark red with app icon grid display, feature text below"
+            },
+            {
+              "type": "icon",
+              "description": "Bullet points with feature descriptions"
+            }
+          ]
+        },
+        {
+          "type": "Features - Build It Yourself",
+          "layout_pattern": "Split 50/50",
+          "headline": "Build it yourself",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Code/IDE screenshot on left showing syntax-highlighted code (blues, greens) on black background"
+            },
+            {
+              "type": "icon",
+              "description": "Feature checklist on right with checkmarks: Premium voices, Custom commands, Speaker detection, Batch transcription"
+            },
+            {
+              "type": "divider",
+              "description": "Horizontal line separator below headline"
+            }
+          ]
+        },
+        {
+          "type": "Features - Works Anywhere",
+          "layout_pattern": "Centered",
+          "headline": "Works anywhere you can type",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo_strip",
+              "description": "Grid of colorful application icons/logos (Slack, Google Docs, etc.) displayed on dark background"
+            },
+            {
+              "type": "divider",
+              "description": "Horizontal line separator below headline"
+            }
+          ]
+        },
+        {
+          "type": "Features - Speed and Accuracy",
+          "layout_pattern": "Centered",
+          "headline": "Faster speech, smarter responses",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "icon",
+              "description": "Bullet points with icons showing: 99% accurate out of the box, Up to 250 words per minute, Customize with your own vocabulary"
+            }
+          ]
+        },
+        {
+          "type": "CTA - iOS",
+          "layout_pattern": "Centered",
+          "headline": "Also available for iOS",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Purple/blue AI-themed grid pattern with neural network visual on deep blue gradient background"
+            },
+            {
+              "type": "button",
+              "description": "Get it on the App Store - iOS badge button"
+            }
+          ]
+        },
+        {
+          "type": "Features - Product Benefits",
+          "layout_pattern": "Split 50/50",
+          "headline": "Loved by thousands, built for how you work",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Product interface screenshot on left with blue/purple gradient background, white UI elements"
+            },
+            {
+              "type": "icon",
+              "description": "Feature checkmarks on right: Fast transcription, Works everywhere, Custom commands, Privacy focused"
+            },
+            {
+              "type": "divider",
+              "description": "Horizontal line separator below headline"
+            }
+          ]
+        },
+        {
+          "type": "Pricing",
+          "layout_pattern": "Grid 3-column",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "card",
+              "description": "Free tier card - dark styling with 'O' icon, feature list"
+            },
+            {
+              "type": "card",
+              "description": "Premium tier card - blue highlight with star icon, feature list, emphasized/highlighted"
+            },
+            {
+              "type": "card",
+              "description": "Enterprise tier card - dark styling with 'Custom' label, feature list"
+            }
+          ]
+        },
+        {
+          "type": "Features - Integration Demo",
+          "layout_pattern": "Multi-device showcase",
+          "headline": "Take notice from every source",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "image",
+              "description": "Slack interface screenshot showing green branding"
+            },
+            {
+              "type": "image",
+              "description": "Mobile device mockups"
+            },
+            {
+              "type": "image",
+              "description": "Desktop interface mockup"
+            },
+            {
+              "type": "icon",
+              "description": "Slack icon/logo"
+            }
+          ]
+        },
+        {
+          "type": "FAQ",
+          "layout_pattern": "Centered",
+          "headline": "Frequently asked questions",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "accordion",
+              "description": "Expandable FAQ items about pricing, features, and compatibility"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-column grid",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "navigation",
+              "description": "Four footer columns with links: Product, Company, Resources, Legal"
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons"
+            }
+          ]
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "84c930a5-39af-404a-b113-61c991b3ab26/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "84c930a5-39af-404a-b113-61c991b3ab26/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "84c930a5-39af-404a-b113-61c991b3ab26/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "84c930a5-39af-404a-b113-61c991b3ab26/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "84c930a5-39af-404a-b113-61c991b3ab26/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Secciones sin datos: brand_assets."
+  ],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The foundational dark color used for primary text, major interactive elements, and dark architectural sections.",
+        "when_to_use": [
+          "Primary page typography and headings",
+          "Solid background for 'Get started' CTAs",
+          "Global footer section background",
+          "Video player control containers"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 1,
+      "group": "baseline"
+    },
+    {
+      "name": "Canvas White",
+      "type": "Light",
+      "rules": {
+        "description": "The primary structural surface color and contrasting text hue for dark components.",
+        "when_to_use": [
+          "Main application background",
+          "Navigation dropdown menu surfaces",
+          "Inverse text inside solid black buttons",
+          "Subtle grayish-blue tint (shade) for AI product icons like Figma Make"
+        ]
+      },
+      "hex": "#FFFFFF",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#E3ECF2",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.5061,
+      "group": "baseline"
+    },
+    {
+      "name": "Brand Blue",
+      "type": "Cool Color",
+      "rules": {
+        "description": "A vibrant blue accent used in the primary brand mark and select decorative highlights.",
+        "when_to_use": [
+          "Top node in the header logo SVG",
+          "Conic gradient background framing customer testimonial headshots"
+        ]
+      },
+      "hex": "#00B6FF",
+      "alpha": null,
+      "shades": [],
+      "score": 0.0001,
+      "group": "secondary"
+    },
+    {
+      "name": "Dev Green",
+      "type": "Warm Color",
+      "rules": {
+        "description": "A vivid green brand accent used in the logo and systematically assigned to development-focused tools.",
+        "when_to_use": [
+          "Left node in the header logo SVG",
+          "Figma Dev Mode navigation icon fill"
+        ]
+      },
+      "hex": "#24CB71",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#14AE5C",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0,
+      "group": "secondary"
+    },
+    {
+      "name": "Slides Orange",
+      "type": "Warm Color",
+      "rules": {
+        "description": "An energetic orange brand accent used in the logo and systematically assigned to presentation-focused tools.",
+        "when_to_use": [
+          "Right node in the header logo SVG",
+          "Figma Slides navigation icon fill"
+        ]
+      },
+      "hex": "#FF7237",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#FF5C16",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "figmaSans",
+      "role": "Title 1 (H1)",
+      "specs": {
+        "size": "var(--fig-typography-size-title1)",
+        "line_height": "var(--fig-typography-lh-none)",
+        "font_weight": "var(--fig-typography-weight)",
+        "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-condensed),\"wght\" var(--fig-typography-variation-wght-regular)"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Title 2 (H2)",
+      "specs": {
+        "size": "var(--fig-typography-size-title2)",
+        "line_height": "var(--fig-typography-lh-tight)",
+        "font_weight": "var(--fig-typography-weight)",
+        "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Title 3 (H2/P)",
+      "specs": {
+        "size": "var(--fig-typography-size-title3)",
+        "line_height": "var(--fig-typography-lh-snug)",
+        "font_weight": "var(--fig-typography-weight)",
+        "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Display Large",
+      "specs": {
+        "size": "5.5rem",
+        "line_height": "1",
+        "font_weight": "normal",
+        "font_variation_settings": "\"wdth\" 96, \"wght\" 400"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans)",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "figmaMono",
+      "role": "Mono Heading",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.3",
+        "font_weight": "400",
+        "font_variation_settings": "\"wdth\" 100, \"MONO\" 100, \"wght\" 400"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+        "file_url": null
+      },
+      "group": "titles"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Body Large",
+      "specs": {
+        "size": "var(--fig-typography-size-bodyL)",
+        "line_height": "var(--fig-typography-lh-relaxed)",
+        "font_weight": "var(--fig-typography-weight)",
+        "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Body Default",
+      "specs": {
+        "size": "1.125rem",
+        "line_height": "1.4",
+        "font_weight": "330",
+        "font_variation_settings": "\"wdth\" 98, \"wght\" 330"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans)",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Nav Item",
+      "specs": {
+        "size": "1rem",
+        "line_height": "1.45",
+        "font_weight": "320",
+        "font_variation_settings": "\"wdth\" 98, \"wght\" 320"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Body",
+      "specs": {
+        "size": "var(--fig-typography-size-body)",
+        "line_height": "var(--fig-typography-lh-loose)",
+        "font_weight": "var(--fig-typography-weight)",
+        "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Small Body",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.45",
+        "font_weight": "normal",
+        "font_variation_settings": "\"wdth\" 100, \"wght\" 400"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans)",
+        "file_url": null
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "figmaSans",
+      "role": "Button",
+      "specs": {
+        "size": "var(--fig-typography-size-button)",
+        "line_height": "var(--fig-typography-lh-relaxed)",
+        "font_weight": "var(--fig-typography-weight)",
+        "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "figmaMono",
+      "role": "Mono Label",
+      "specs": {
+        "size": "0.875rem",
+        "line_height": "1.3",
+        "font_weight": "normal",
+        "font_variation_settings": "\"wdth\" 96, \"wght\" 400, \"MONO\" 100"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-mono)",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "figmaMono",
+      "role": "Badge",
+      "specs": {
+        "size": "0.75rem",
+        "line_height": "1",
+        "font_weight": "400",
+        "font_variation_settings": "\"wdth\" 100, \"MONO\" 100, \"wght\" 400"
+      },
+      "licensing": null,
+      "technical": {
+        "font_family_css": "var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+        "file_url": null
+      },
+      "group": "labels"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "1rem",
+    "max_width": "95rem"
+  },
+  "breakpoints": {
+    "mobile": "0px - 479px (4 Columns, 1rem gutter)",
+    "tablet": "480px - 1023px (12 Columns, 1rem gutter)",
+    "desktop": "1024px - 1599px (12 Columns, 1rem gutter)",
+    "large": "1600px+ (12 Columns, 1rem gutter)"
+  }
+}

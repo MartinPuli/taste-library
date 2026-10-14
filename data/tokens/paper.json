@@ -1,0 +1,541 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "colors": [
+    {
+      "name": "Ink Black",
+      "type": "Dark",
+      "rules": {
+        "description": "The primary high-contrast foreground color for typography, icons, and solid accents.",
+        "when_to_use": [
+          "Body text and primary headings",
+          "Primary CTA button backgrounds (e.g., 'download Paper')",
+          "SVG iconography (strokes and fills)"
+        ]
+      },
+      "hex": "#181818",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#11161F",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#222222",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 1.0053,
+      "group": "baseline"
+    },
+    {
+      "name": "True Black",
+      "type": "Dark",
+      "rules": {
+        "description": "Used strictly as an alpha-channel base to generate shadows, text opacities, and grid patterns.",
+        "when_to_use": [
+          "Component box shadows on navigation and cards",
+          "Translucent text and overlays within the app mockup",
+          "Linear gradients for background grid patterns"
+        ]
+      },
+      "hex": "#000000",
+      "alpha": null,
+      "shades": [],
+      "score": 0.1387,
+      "group": "baseline"
+    },
+    {
+      "name": "Paper Cream",
+      "type": "Light",
+      "rules": {
+        "description": "The foundational light surface color that gives the brand its namesake warm, physical 'paper' feel.",
+        "when_to_use": [
+          "Global page background",
+          "Sticky navigation bar background",
+          "Feature card and layout grid cell fills",
+          "Application mockup surface panels"
+        ]
+      },
+      "hex": "#FCFCF9",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#EFEFE4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FFFFFF",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#DCDEE1",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#EAEAE7",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F9F9F9",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F2F2F2",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#E2E2E2",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F7F8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F4F4F4",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#DDDDDD",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FDFDFD",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#FCFBFD",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#F6F6F6",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.049300000000000004,
+      "group": "secondary"
+    },
+    {
+      "name": "Blueprint Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A structural mid-gray used exclusively to define the rigorous layout grid and geometric illustrations.",
+        "when_to_use": [
+          "Feature grid borders and dividers",
+          "SVG background grid lines and decorative circles",
+          "Decorative corner vertex squares"
+        ]
+      },
+      "hex": "#D7D7D6",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#C1C1C0",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#BDBFC3",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#DADADA",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#D8D7D8",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#D7D7D7",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.039400000000000004,
+      "group": "secondary"
+    },
+    {
+      "name": "Muted Gray",
+      "type": "Neutral",
+      "rules": {
+        "description": "A low-contrast gray for secondary typography and inactive interface elements.",
+        "when_to_use": [
+          "Hero section subheadings",
+          "Social proof labels ('used in production by designers at')",
+          "Inactive icons and secondary text within app mockups"
+        ]
+      },
+      "hex": "#909090",
+      "alpha": null,
+      "shades": [
+        {
+          "name": "",
+          "hex": "#797979",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#7F8389",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#959595",
+          "alpha": null,
+          "aliases": []
+        },
+        {
+          "name": "",
+          "hex": "#808080",
+          "alpha": null,
+          "aliases": []
+        }
+      ],
+      "score": 0.0217,
+      "group": "secondary"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Matter",
+      "role": "H1 Display Large",
+      "specs": {
+        "size": "64px",
+        "line_height": "64px",
+        "font_weight": "360",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui",
+        "file_url": "/matter.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Matter",
+      "role": "H2 Display",
+      "specs": {
+        "size": "48px",
+        "line_height": "48px",
+        "font_weight": "360",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui",
+        "file_url": "/matter.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Matter",
+      "role": "H3",
+      "specs": {
+        "size": "18px",
+        "line_height": "28px",
+        "font_weight": "550",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui",
+        "file_url": "/matter.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Matter",
+      "role": "H4 / Overline",
+      "specs": {
+        "size": "14px",
+        "line_height": "28px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui",
+        "file_url": "/matter.woff2"
+      },
+      "group": "titles"
+    },
+    {
+      "name": "Matter",
+      "role": "Body Regular",
+      "specs": {
+        "size": "18px",
+        "line_height": "28px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui",
+        "file_url": "/matter.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Matter",
+      "role": "Body Medium",
+      "specs": {
+        "size": "18px",
+        "line_height": "28px",
+        "font_weight": "480",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui",
+        "file_url": "/matter.woff2"
+      },
+      "group": "paragraphs"
+    },
+    {
+      "name": "Paper Mono",
+      "role": "Code Snippet / Command Path",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "\"Paper Mono\", SFMono-Regular, Menlo, ui-monospace, monospace",
+        "file_url": "/paper-mono-0.100.woff2"
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "UI Action / Shortcut (e.g., Copy Link, ⌘ L)",
+      "specs": {
+        "size": "12px",
+        "line_height": "12px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "UI Secondary / Metadata",
+      "specs": {
+        "size": "12px",
+        "line_height": "16px",
+        "font_weight": "400",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Mockup List Item",
+      "specs": {
+        "size": "14px",
+        "line_height": "20px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "system-ui",
+      "role": "PUI Tree Item",
+      "specs": {
+        "size": "13px",
+        "line_height": "16px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "-apple-system",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Inter",
+      "role": "Mockup Tab / Micro Label",
+      "specs": {
+        "size": "10px",
+        "line_height": "12px",
+        "font_weight": "500",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "labels"
+    },
+    {
+      "name": "Matter",
+      "role": "Mockup Large Title",
+      "specs": {
+        "size": "36px",
+        "line_height": "36px",
+        "font_weight": "570",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Matter",
+      "role": "Mockup Standard Title",
+      "specs": {
+        "size": "26px",
+        "line_height": "28px",
+        "font_weight": "570",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Matter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    },
+    {
+      "name": "Inter",
+      "role": "Mockup Clock / Time",
+      "specs": {
+        "size": "17px",
+        "line_height": "22px",
+        "font_weight": "600",
+        "font_variation_settings": ""
+      },
+      "licensing": {
+        "is_proprietary": false,
+        "source": ""
+      },
+      "technical": {
+        "font_family_css": "Inter, system-ui, sans-serif",
+        "file_url": null
+      },
+      "group": "others"
+    }
+  ],
+  "grid": {
+    "columns": 12,
+    "gutter": "28px",
+    "max_width": "1080px"
+  },
+  "breakpoints": {
+    "mobile": "0px - 639px (1 Column, 16px gutter)",
+    "tablet": "640px - 899px (Variable, 28px gutter)",
+    "desktop": "900px - 1470px (12 Columns, 28px gutter, max-width 1080px)",
+    "large": "1471px+ (12 Columns, max-width 1321px)"
+  }
+}
