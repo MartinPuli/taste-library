@@ -1,0 +1,191 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/ghost.json",
+  "data": [
+    {
+      "type": "Announcement Bar",
+      "layout_pattern": "Centered",
+      "headline": "GHOST LAUNCHES CORE: WATCH VIDEO NOW",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Close button with white 'X' icon, positioned top-right of orange bar"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, vertically dominant",
+      "headline": "CORE",
+      "subheadline": "The personal AI computer",
+      "components": [
+        {
+          "type": "image",
+          "description": "3D product render of Ghost Core device with glowing edge, dramatic lighting, floating on dark navy/black gradient background with blue accent glow"
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Order Now' with bright blue (#006ddf) background, white uppercase text, rectangular shape"
+        },
+        {
+          "type": "card",
+          "description": "Four feature badges in 2×2 grid layout with blue borders: 'No subscription', 'Entirely on device', 'Continuous context', '30 day returns' — each with checkmark icon"
+        }
+      ]
+    },
+    {
+      "type": "Product Gallery",
+      "layout_pattern": "Split 50/50 — text left, carousel right",
+      "headline": "Intelligence you own.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Image carousel showing 4 product angles of Core device in dark studio lighting with gradient backgrounds — includes navigation dots, counter '01 / 04', and arrow buttons"
+        },
+        {
+          "type": "button",
+          "description": "'View Core' link styled as button with arrow icon, blue text"
+        }
+      ]
+    },
+    {
+      "type": "Technical Exploded View",
+      "layout_pattern": "Centered, large viewport canvas",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "animation",
+          "description": "Interactive exploded-view 3D animation of Core internal components: GPU, CPU, memory, SSD — dark monochrome with subtle shadows"
+        },
+        {
+          "type": "card",
+          "description": "Horizontal pill list showing AI models: 'Qwen 3.8-Next', 'Qwen 3.8-27B', 'Gemma 4-31B', 'Muse-Glimmer-30B' with orange 'Models' label, light borders on light gray background"
+        },
+        {
+          "type": "button",
+          "description": "Interactive component labels (GPU, CPU, Memory, Storage) that expand to show detailed specs on hover — ghost buttons with translucent white backgrounds and orange active state"
+        }
+      ]
+    },
+    {
+      "type": "Features — Local Intelligence",
+      "layout_pattern": "Split asymmetric — visual left, text right",
+      "headline": "Intelligence stays yours on Core.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "illustration",
+          "description": "Abstract data visualization frame with glowing blue gradient overlay, grid lines, and shadow effects suggesting secure local processing"
+        }
+      ]
+    },
+    {
+      "type": "Features — Continuous Context",
+      "layout_pattern": "Split asymmetric — cards left, text right",
+      "headline": "Context that builds over time.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Background timelapse video showing day-to-night transition with warm orange/amber color overlay"
+        },
+        {
+          "type": "card",
+          "description": "Stacked notification cards showing contextual AI insights at different times of day (6:48 AM, 2:15 PM, 1:28 AM) with icons and white text on translucent dark backgrounds"
+        }
+      ]
+    },
+    {
+      "type": "Features — Proactive Agent",
+      "layout_pattern": "Full-bleed photo with interactive hotspots, text overlay top-right",
+      "headline": "Core doesn't wait to be asked.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Wide-angle kitchen photograph with natural lighting, showing real-world environment"
+        },
+        {
+          "type": "button",
+          "description": "Three interactive hotspot buttons overlaid on kitchen photo highlighting objects (apple, coffee machine, keys) with white rectangular outlines"
+        },
+        {
+          "type": "card",
+          "description": "Contextual AI suggestion callouts with cyan (#baeaff) accent color, appearing near tagged objects with white text and icon markers"
+        }
+      ]
+    },
+    {
+      "type": "Spacer",
+      "layout_pattern": "Full-width black void",
+      "headline": null,
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "Device Integration Grid",
+      "layout_pattern": "Grid layout with animated transitions between states",
+      "headline": null,
+      "subheadline": "Captures context from the apps you use every day. / Connect to the devices in the world around you / Learns from your routine, recovery, and activity.",
+      "components": [
+        {
+          "type": "card",
+          "description": "Grid of device/app icons (Email, Calendar, Finances, Files, Recordings, Browser, Light, Fridge, Speaker, Cameras, Health Records, Whoop, Oura, Eight Sleep) — each 156px or 218px square with dark borders and labels, displayed on technical grid background with scan lines"
+        },
+        {
+          "type": "button",
+          "description": "Three-tab segmented control with blue active state: 'Digital', 'Home', 'Health'"
+        },
+        {
+          "type": "animation",
+          "description": "Scan-line drifting effect overlay on device icons, suggesting technical interface aesthetic"
+        }
+      ]
+    },
+    {
+      "type": "Final CTA",
+      "layout_pattern": "Centered",
+      "headline": "Own your intelligence.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Ghost Core product render, front view, centered on dark background with gradient glow"
+        },
+        {
+          "type": "button",
+          "description": "'Order Now' button, white background with dark text, large and prominent"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Centered, minimal",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Horizontal text link navigation: X, LinkedIn, Support, support@ghost.ai — light gray uppercase text on light background"
+        },
+        {
+          "type": "image",
+          "description": "Full-width background photograph with subtle overlay, creating atmospheric footer backdrop"
+        }
+      ]
+    }
+  ]
+}

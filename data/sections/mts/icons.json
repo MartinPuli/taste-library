@@ -1,0 +1,100 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/mts.json",
+  "data": [
+    {
+      "name": "Social Brand Icons",
+      "description": "Brand marks for social media platforms.",
+      "when_to_use": [
+        "Social media links",
+        "Footer links",
+        "Guest social profiles"
+      ],
+      "format": "SVG",
+      "style": "Filled",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "X / Twitter Icon",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"></path></svg>"
+        },
+        {
+          "name": "Discord Icon",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.548-13.66a.061.061 0 0 0-.031-.03zM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z\"></path></svg>"
+        },
+        {
+          "name": "Substack Icon",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z\"></path></svg>"
+        },
+        {
+          "name": "YouTube Icon",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"></path></svg>"
+        },
+        {
+          "name": "Spotify Icon",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.301.421-1.02.599-1.56.3z\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "UI & Navigation Icons",
+      "description": "Functional icons for navigation and actions.",
+      "when_to_use": [
+        "Buttons",
+        "Navigation menus",
+        "External links"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Hamburger Menu",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M2 4h12\"></path><path d=\"M2 8h12\"></path><path d=\"M2 12h12\"></path></svg>"
+        },
+        {
+          "name": "External Link",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 5h10v10\"></path><path d=\"M19 5L7 17\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Decorative Layout Graphics",
+      "description": "Large structural SVG elements used for page layout and borders.",
+      "when_to_use": [
+        "Video player borders",
+        "Section backgrounds"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "552px",
+        "medium": "640px"
+      },
+      "examples": [
+        {
+          "name": "Video Edge Graphic",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"geo-edge\" aria-hidden=\"true\" viewBox=\"0 0 963 552\" style=\"z-index: 2;\"><path class=\"gp\" pathLength=\"1\" d=\"M18.5 0.5 L944.5 0.5 Q962.5 0.5 962.5 18.5 L962.5 533.5 Q962.5 551.5 944.5 551.5 L18.5 551.5 Q0.5 551.5 0.5 533.5 L0.5 18.5 Q0.5 0.5 18.5 0.5 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"></path><path class=\"gp\" pathLength=\"1\" d=\"M20.5 6.5 L942.5 6.5 Q956.5 6.5 956.5 20.5 L956.5 531.5 Q956.5 545.5 942.5 545.5 L20.5 545.5 Q6.5 545.5 6.5 531.5 L6.5 20.5 Q6.5 6.5 20.5 6.5 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"></path><g class=\"gg\"><rect x=\"30\" y=\"543.5\" width=\"60\" height=\"16\" rx=\"8\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"></rect><circle cx=\"38\" cy=\"551.5\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"49\" cy=\"551.5\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"60\" cy=\"551.5\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"71\" cy=\"551.5\" r=\"3\" fill=\"currentColor\"></circle><circle cx=\"82\" cy=\"551.5\" r=\"3\" fill=\"currentColor\"></circle></g></svg>"
+        },
+        {
+          "name": "Background Map Graphic",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 640\" preserveAspectRatio=\"xMidYMid slice\" class=\"si-svg\"><path class=\"si-arc\" pathLength=\"1\" d=\"M1020.1 595.4 L985.0 575.9 L950.6 555.3 L916.9 533.4 L884.0 510.4 L852.0 486.2 L820.8 461.0 L790.5 434.6 L761.1 407.2 L732.8 378.9 L705.4 349.5 L679.0 319.2 L653.8 288.0 L629.6 256.0 L606.6 223.1 L584.7 189.4 L564.1 155.0 L544.6 119.9 L526.4 84.1 L509.4 47.7 L493.7 10.8 L479.4 -26.7 L466.3 -64.6 L454.5 -103.0 L444.2 -141.8 L435.1 -180.9 L427.5 -220.3 L421.2 -260.0 L416.3 -299.8 L412.8 -339.8\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-width=\"1.1\" style=\"stroke-dashoffset: 1px; stroke-dasharray: 1;\"></path><path class=\"si-arc\" pathLength=\"1\" d=\"M945.0 736.7 L905.0 714.5 L865.8 690.9 L827.5 666.0 L790.0 639.8 L753.5 612.3 L717.9 583.5 L683.4 553.5 L650.0 522.3 L617.7 490.0 L586.5 456.6 L556.5 422.1 L527.7 386.5 L500.2 350.0 L474.0 312.5 L449.1 274.2 L425.5 235.0 L403.3 195.0 L382.6 154.3 L363.3 112.8 L345.4 70.7 L329.0 28.0 L314.1 -15.2 L300.7 -58.9 L288.9 -103.1 L278.6 -147.6 L269.9 -192.5 L262.7 -237.7 L257.2 -283.1 L253.2 -328.6\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-width=\"1.1\" style=\"stroke-dashoffset: 1px; stroke-dasharray: 1;\"></path><path class=\"si-arc\" pathLength=\"1\" d=\"M865.2 886.8 L820.0 861.7 L775.7 835.1 L732.4 807.0 L690.1 777.3 L648.8 746.3 L608.7 713.7 L569.7 679.9 L531.9 644.6 L495.4 608.1 L460.1 570.3 L426.3 531.3 L393.7 491.2 L362.7 449.9 L333.0 407.6 L304.9 364.3 L278.3 320.0 L253.2 274.8 L229.8 228.8 L208.0 182.0 L187.8 134.4 L169.3 86.2 L152.4 37.3 L137.3 -12.1 L124.0 -62.0 L112.3 -112.3 L102.5 -163.0 L94.4 -214.0 L88.1 -265.3 L83.6 -316.8\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-width=\"1.1\" style=\"stroke-dashoffset: 1px; stroke-dasharray: 1;\"></path><path class=\"si-arc\" pathLength=\"1\" d=\"M780.7 1045.7 L730.0 1017.6 L680.3 987.8 L631.7 956.2 L584.3 923.0 L538.0 888.1 L493.0 851.6 L449.2 813.6 L406.9 774.1 L365.9 733.1 L326.4 690.8 L288.4 647.0 L251.9 602.0 L217.0 555.7 L183.8 508.3 L152.2 459.7 L122.4 410.0 L94.3 359.3 L68.0 307.7 L43.5 255.2 L20.9 201.8 L0.1 147.8 L-18.8 93.0 L-35.7 37.6 L-50.7 -18.4 L-63.7 -74.9 L-74.8 -131.7 L-83.8 -189.0 L-90.9 -246.5 L-96.0 -304.2\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-width=\"1.1\" style=\"stroke-dashoffset: 1px; stroke-dasharray: 1;\"></path><g class=\"si-anno\" style=\"opacity: 0;\"> <line x1=\"684\" y1=\"192\" x2=\"840\" y2=\"192\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"1\"></line> <line x1=\"900\" y1=\"192\" x2=\"990\" y2=\"192\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"1\" stroke-dasharray=\"6 6\"></line> <path d=\"M852 184 L888 184 L896 192 L888 200 L852 200 L844 192 Z\" fill=\"currentColor\" stroke=\"currentColor\" stroke-opacity=\"0.7\" stroke-width=\"1.1\"></path> </g></svg>"
+        }
+      ]
+    }
+  ]
+}

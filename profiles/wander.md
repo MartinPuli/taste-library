@@ -2,31 +2,49 @@
 
 Give accommodation photos space and use restrained controls for browsing and comparison.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 33 · Captured 2026-10-14T08:56:06.649511Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 33 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T08:56:06.649511Z |
-| Suggested uses | hospitality |
-| Visual approach | image-led, warm-editorial |
+[Original website](https://www.wander.com/) · [Full extraction](../data/raw/wander.json) · [Review record](../data/reviews/wander.json)
 
-## Details to compare
+[Small visual preview](../data/previews/wander.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/full.jpg)
 
-- Detected type families: instrumentSans, SFMono-Regular.
-- Recorded palette: #202020, #000000, #636363, #F7F7F7, #008433.
-- Grid: `{"columns": 12, "gutter": "2rem", "max_width": "1832px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A scenic accommodation hero sits above image-rich property cards, with a compact search bar over the photograph.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.wander.com/) · [Extraction](../data/raw/wander.json) · [Tokens](../data/tokens/wander.json)
+Project types: hospitality. Styles: image-led, warm-editorial. These are editorial tags.
 
-```sh
-python3 scripts/query.py show wander --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Give accommodation photos space and use restrained controls for browsing and comparison. Evidence: [layout](../data/sections/wander/layout.json), [sections](../data/sections/wander/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/wander/actions.json).
+
+## Content to bring
+
+Consistent property photography and useful details such as location and booking context. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/wander/profile.json)
+- [Layout](../data/sections/wander/layout.json)
+- [Colors](../data/sections/wander/colors.json)
+- [Typography](../data/sections/wander/typography.json)
+- [Surfaces](../data/sections/wander/surfaces.json)
+- [Elevation](../data/sections/wander/elevation.json)
+- [Interactions](../data/sections/wander/interactions.json)
+- [Actions](../data/sections/wander/actions.json)
+- [Navigation](../data/sections/wander/navigation.json)
+- [Data Display](../data/sections/wander/data_display.json)
+- [Structure](../data/sections/wander/structure.json)
+- [Icons](../data/sections/wander/icons.json)
+- [Assets](../data/sections/wander/assets.json)
+- [Brand Assets](../data/sections/wander/brand_assets.json)
+- [Sections](../data/sections/wander/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

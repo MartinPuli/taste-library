@@ -1,0 +1,90 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "hover_transform",
+      "scroll_reveal",
+      "accordion",
+      "tab_switching"
+    ],
+    "animations": [
+      {
+        "name": "scaleIn",
+        "css": "",
+        "description": "Mega-menu scale-in animation for opening dropdown panels. Motion-safe animation triggered on data-[state=open]. JS/Radix-driven."
+      },
+      {
+        "name": "scaleOut",
+        "css": "",
+        "description": "Mega-menu scale-out animation for closing dropdown panels. Motion-safe animation triggered on data-[state=closed]. JS/Radix-driven."
+      },
+      {
+        "name": "enterMenu",
+        "css": "",
+        "description": "Menu content enter animation for sliding panels when switching between menu items. Triggered by data-[motion=from-end] and data-[motion=from-start]. JS/Radix-driven."
+      },
+      {
+        "name": "exitMenu",
+        "css": "",
+        "description": "Menu content exit animation for sliding panels when switching between menu items. Triggered by data-[motion=to-end] and data-[motion=to-start]. JS/Radix-driven."
+      },
+      {
+        "name": "disclaimer-extend",
+        "css": "@keyframes styles-module__zTVSPq__disclaimer-extend{0%{padding-bottom:calc(12px + 0px);translate:0}to{padding-bottom:12px;translate:0 100%}}",
+        "description": "Scroll-driven animation for disclaimer section that extends padding and translates element as user scrolls."
+      },
+      {
+        "name": "disclaimer-divider-fade",
+        "css": "@keyframes styles-module__zTVSPq__disclaimer-divider-fade{0%{opacity:1}to{opacity:0}}",
+        "description": "Scroll-driven opacity fade for disclaimer divider element, tied to --disclaimer-scroll timeline."
+      },
+      {
+        "name": "react-loading-skeleton",
+        "css": "@keyframes react-loading-skeleton{to{transform:translate(100%)}}",
+        "description": "Shimmer effect for loading skeleton components. Translates highlight gradient across element."
+      },
+      {
+        "name": "noise",
+        "css": "@keyframes styles-module__u8VSFG__noise{0%{background-position:0 0}10%{background-position:-5% -10%}20%{background-position:-15% 5%}30%{background-position:7% -25%}40%{background-position:20% 25%}50%{background-position:-25% 10%}60%{background-position:15% 5%}70%{background-position:0 15%}80%{background-position:25% 35%}90%{background-position:-10% 10%}to{background-position:0 0}}",
+        "description": "Film grain noise animation shifting background position rapidly for textured visual effect."
+      },
+      {
+        "name": "moneyFall",
+        "css": "@keyframes styles-module__tlJb8G__moneyFall{0%{opacity:var(--opacity);transform:translateY(-100%)rotate(0)}50%{opacity:var(--opacity)}to{opacity:0;transform:translateY(100vh)rotate(360deg)}}",
+        "description": "Falling animation with rotation for decorative money/particle elements. Uses CSS custom properties for opacity."
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin{to{transform:rotate(360deg)}}",
+        "description": "Continuous 360-degree rotation for loading spinners. Linear infinite animation."
+      },
+      {
+        "name": "global-transition",
+        "css": "transition: color 0.3s ease-out, background-color 0.3s ease-out, opacity 0.3s ease-out",
+        "description": "Standard 300ms ease-out transition used globally for color, background, and opacity state changes on interactive elements."
+      },
+      {
+        "name": "books-hero-asset-enter",
+        "css": "",
+        "description": "Fade-in animation for Books hero section assets. Uses --books-hero-fade CSS variable for duration. JS-driven."
+      }
+    ],
+    "insights": [
+      "The design system uses a comprehensive dark-neutral theme with semantic color tokens (surface-primary, text-default, border-frosted) enabling easy theme switching.",
+      "Navigation employs Radix UI primitives with motion-safe animations, showing accessibility-first approach to dropdown interactions.",
+      "Button hierarchy is clearly defined: primary (solid purple), tonal (semi-transparent purple), and ghost (transparent) variants with consistent 40px height and pill shapes (rounded-4xl/5xl)."
+    ]
+  }
+}

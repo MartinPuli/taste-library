@@ -1,0 +1,57 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "top_nav": {
+      "height": "72px",
+      "position": "fixed",
+      "background": {
+        "hex": "#0B0B0B",
+        "color_reference": "Deep Space / Surfaces",
+        "opacity": "0.8",
+        "blur": "backdrop-filter: blur(20px)"
+      },
+      "border_bottom": "1px solid rgba(255, 255, 255, 0.08)"
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Pill Nav Tab",
+      "description": "Navigation tabs styled as pill-shaped buttons with hover and active states for seamless section switching.",
+      "when_to_use": [
+        "Primary site navigation between Product, Resources, Customers, etc.",
+        "Switching between main content areas"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Muted gray text, no background",
+          "background": "transparent",
+          "text": "#8A8F98",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Text brightens to white, subtle glass background appears",
+          "background": "rgba(255, 255, 255, 0.08)",
+          "text": "#F7F8F8",
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Full white text with glass background, indicating current selection",
+          "background": "rgba(255, 255, 255, 0.08)",
+          "text": "#F7F8F8",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

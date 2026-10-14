@@ -1,0 +1,44 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Destination Card",
+        "description": "Vertical card showing destination image with city name and description below. Uses rounded corners on images with location details.",
+        "when_to_use": [
+          "Destinations for you carousel",
+          "Suggested travel destinations",
+          "Category browsing"
+        ]
+      },
+      {
+        "name": "Property Listing Card",
+        "description": "Vertical card showing property image, Guest favourite badge, heart icon overlay, property title, pricing info, and star rating. Images use rounded corners.",
+        "when_to_use": [
+          "Stay in [Location] carousels",
+          "Search results",
+          "Featured listings"
+        ]
+      },
+      {
+        "name": "Service Category Card",
+        "description": "Simple card with icon/image placeholder and service label below, used for services like Car hire, Photography, Spa treatments.",
+        "when_to_use": [
+          "Find services near you section",
+          "Service category browsing"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default. Clicking an accordion header expands that section and collapses others. Uses grid-template-rows animation for smooth height transitions."
+    },
+    "dividers": [
+      {
+        "name": "List Item Divider",
+        "description": "Thin horizontal line separating benchmark list items",
+        "when_to_use": [
+          "Between list items in data tables",
+          "Separating repeated content blocks"
+        ],
+        "color": "rgba(20,32,30,0.1)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

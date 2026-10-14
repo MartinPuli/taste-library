@@ -2,31 +2,49 @@
 
 Combine technical content and nature photography to explain payment infrastructure.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 23 · Captured 2026-09-16T05:13:16.972528Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 23 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-16T05:13:16.972528Z |
-| Suggested uses | fintech, developer-tools |
-| Visual approach | warm-editorial, modular |
+[Original website](https://www.natural.com/) · [Full extraction](../data/raw/natural.json) · [Review record](../data/reviews/natural.json)
 
-## Details to compare
+[Small visual preview](../data/previews/natural.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/full.jpg)
 
-- Detected type families: STK Miso, GT Standard Mono.
-- Recorded palette: #161514, #FFFFFF, #71706F, #111400, #AFAFAF.
-- Grid: `{"columns": 12, "gutter": "20px", "max_width": "1440px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A mostly white hero gives a short payments statement and dark call to action generous space. The captured central visual is faint.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.natural.com/) · [Extraction](../data/raw/natural.json) · [Tokens](../data/tokens/natural.json)
+Project types: fintech, developer-tools. Styles: warm-editorial, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show natural --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Combine technical content and nature photography to explain payment infrastructure. Evidence: [layout](../data/sections/natural/layout.json), [sections](../data/sections/natural/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/natural/actions.json).
+
+## Content to bring
+
+Concrete product screens and a clearly explained financial workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/natural/profile.json)
+- [Layout](../data/sections/natural/layout.json)
+- [Colors](../data/sections/natural/colors.json)
+- [Typography](../data/sections/natural/typography.json)
+- [Surfaces](../data/sections/natural/surfaces.json)
+- [Elevation](../data/sections/natural/elevation.json)
+- [Interactions](../data/sections/natural/interactions.json)
+- [Actions](../data/sections/natural/actions.json)
+- [Navigation](../data/sections/natural/navigation.json)
+- [Data Display](../data/sections/natural/data_display.json)
+- [Structure](../data/sections/natural/structure.json)
+- [Icons](../data/sections/natural/icons.json)
+- [Assets](../data/sections/natural/assets.json)
+- [Brand Assets](../data/sections/natural/brand_assets.json) · no observed data
+- [Sections](../data/sections/natural/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

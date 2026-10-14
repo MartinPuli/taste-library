@@ -1,0 +1,57 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "brand_name": "Airbnb",
+    "tagline": null,
+    "source_url": "https://www.airbnb.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Travel / Hospitality / Marketplace",
+    "primary_purpose": "Drive accommodation bookings and travel service discovery through destination browsing and search",
+    "main_cta": "Search destinations",
+    "copy_tone": [
+      "Friendly",
+      "Inviting",
+      "Casual"
+    ],
+    "brand_signature": "Clean, minimal white interface with photography-forward content showcasing diverse global destinations. The design prioritizes visual browsing with card-based layouts, rounded corners, and a signature coral/pink accent color on the search button. Custom \"Airbnb Cereal\" typography maintains consistency across the platform.",
+    "visual_language": {
+      "keywords": [
+        "minimal",
+        "photography-centric",
+        "rounded",
+        "spacious",
+        "accessible",
+        "card-based"
+      ],
+      "accent_strategy": "Signature coral/pink (#FF385C) used sparingly but prominently on primary search CTA, creating strong visual hierarchy against the predominantly white and grey neutral palette.",
+      "highlights": "Guest favourite badges with subtle pill-shaped indicators, heart icons for wishlisting, and star ratings to surface social proof on listing cards"
+    },
+    "strategy": {
+      "target_audience": [
+        "Leisure travelers seeking unique accommodations and experiences globally",
+        "Budget-conscious to mid-range travelers looking for alternatives to traditional hotels",
+        "Experience seekers interested in local activities, services, and authentic destinations",
+        "Hosts and property owners considering listing their spaces"
+      ],
+      "executive_synthesis": "Airbnb's visual strategy prioritizes trust and aspiration through high-quality destination photography and social proof indicators (Guest favourite badges, ratings). The minimal, clutter-free interface removes friction from the booking journey while the prominent multi-category search (Homes, Experiences, Services) communicates platform breadth. The warm coral accent color humanizes the transaction, aligning with the brand's community-centric positioning of 'belonging anywhere.' Personalized destination recommendations create immediate relevance, reducing the cognitive load of travel planning."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The visual impression from the screenshot reveals a pristine, highly polished digital product interface dominated by pure white backgrounds, card-based layouts, and generous negative space. The design language is unmistakably modern digital-native UI with clean geometric shapes and zero texture.\n\n**Shape & Texture Analysis (Primary Signal):**\n- Texture classification: \"shadows_soft\" — the ONLY texture present is subtle drop shadows for elevation\n- Shape language: Rounded/Soft corners throughout (border-radius: 12px on cards, 50px pills on search bar)\n- No gradients visible in the UI chrome itself (gradients exist in brand assets but aren't applied to surfaces)\n- Completely flat card surfaces with no skeuomorphic depth\n\n**Color Evidence:**\n- Pure monochromatic palette: #FFFFFF (surface white), #222222 (ink black), #6C6C6C (muted gray)\n- Zero decorative color in the UI framework — color comes only from photography and the singular pink accent (#FF385C)\n- Bold, saturated primary accent color (Airbnb Rausch pink) used sparingly for CTAs\n\n**Typography Evidence:**\n- Sans-serif modern: \"Airbnb Cereal VF\" — a proprietary geometric sans-serif\n- Clean, rounded letterforms with consistent weight hierarchy (400-600 weights)\n- Typography drives visual hierarchy without decorative treatments\n\n**Layout Evidence:**\n- Grid-Based Strict: 12-column grid with systematic gutters (24px)\n- Generous Whitespace: Sections separated by 48-64px padding, no dividers\n- Card-based modularity with consistent aspect ratios\n\nThis matches the Flat Design taxonomy definition precisely: \"Digital-native clarity. 2D, no shadows, no gradients, no textures\" with \"Primary Colors, Warm Colors (bold, saturated)\" and \"Sans-Serif Modern, Geometric\" typography on a \"Grid-Based Strict, Generous Whitespace\" layout. The soft shadows are minimal elevation cues standard in mature Flat Design (post-2014 \"Flat 2.0\").",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier is strongly present as a tonal layer. The design communicates trust, reliability, and professional competence through: (1) extremely conservative color usage — nearly the entire interface is grayscale, letting content speak; (2) meticulous systematic spacing and grid adherence suggesting engineering precision; (3) proprietary custom typeface investment indicating enterprise-level brand maturity; (4) restrained emotional expression — no playful elements, illustrations, or personality beyond the functional. The cookie consent modal with \"Accept all\" / \"Only necessary\" buttons in stark black demonstrates the legal/corporate overlay. This is Flat Design deployed for maximum trustworthiness in a marketplace context where users need confidence to complete transactions."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Brand Ink",
+        "type": "Dark",
+        "rules": {
+          "description": "Core brand ink used for typography and the primary brand mark.",
+          "when_to_use": [
+            "Main heading ('Happening now.')",
+            "Body text",
+            "X logo fill"
+          ]
+        },
+        "hex": "#0F141A",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#1A1A1A",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#222222",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0786
+      },
+      {
+        "name": "Core Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The heavy anchor color for primary interactions, inverted surfaces, and foundational for secondary text and borders via alpha transparency.",
+          "when_to_use": [
+            "Primary CTA background",
+            "Cookie consent banner background",
+            "Secondary text and structural borders (via opacity)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.9958
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Surface White",
+        "type": "Light",
+        "rules": {
+          "description": "The primary canvas of the page and the high-contrast text color for dark components.",
+          "when_to_use": [
+            "Page background",
+            "Text on primary CTAs and cookie banner",
+            "Secondary login button backgrounds",
+            "Google button border"
+          ]
+        },
+        "hex": "#E4EAEC",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D0DBE2",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#DADCE0",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0885
+      },
+      {
+        "name": "Disabled Stone",
+        "type": "Warm Color",
+        "rules": {
+          "description": "A muted neutral strictly used to communicate inactive or empty states.",
+          "when_to_use": [
+            "Inactive 'Continue' button text before input is entered"
+          ]
+        },
+        "hex": "#79716B",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0949
+      },
+      {
+        "name": "Third-party Slate",
+        "type": "Neutral",
+        "rules": {
+          "description": "A specific slate gray imported for third-party branding compliance and subtle gradient depth.",
+          "when_to_use": [
+            "Google single sign-on button text",
+            "Google single sign-on icon fill",
+            "X logo radial gradient stop"
+          ]
+        },
+        "hex": "#3C4043",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#333333",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0598
+      }
+    ],
+    "insights": [
+      "The palette is fiercely monochromatic, relying completely on stark black-and-white contrasts to establish visual hierarchy without any colored accents.",
+      "Instead of hard-coded gray hexes for text and borders, the design uses alpha transparencies of pure black (e.g., #00000099, #00000026) to generate secondary and tertiary UI elements dynamically.",
+      "Third-party requirements (Google button) dictate the only noticeable deviations from the pure black, white, and neutral scale."
+    ]
+  }
+}

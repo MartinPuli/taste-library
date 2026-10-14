@@ -1,0 +1,102 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/midjourney.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/midjourney.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Deep dark blue primary page background",
+        "when_to_use": [
+          "Main page background",
+          "Full viewport surface"
+        ],
+        "hex": "#06051D"
+      },
+      {
+        "name": "Floating Panel",
+        "description": "Mid-tone blue surface for elevated UI elements",
+        "when_to_use": [
+          "Sticky navigation panels",
+          "Floating control bars"
+        ],
+        "hex": "#314062"
+      },
+      {
+        "name": "Glass Panel - Sky",
+        "description": "Dark blue glass surface with backdrop blur for language button",
+        "when_to_use": [
+          "Utility buttons",
+          "Floating controls"
+        ],
+        "hex": "#060522"
+      },
+      {
+        "name": "Card Background - Sign Up",
+        "description": "Dark blue card background for sign up CTA",
+        "when_to_use": [
+          "Primary action cards",
+          "Sign up buttons"
+        ],
+        "hex": "#0F1C36"
+      },
+      {
+        "name": "Card Background - Log In",
+        "description": "Dark purple card background for log in CTA",
+        "when_to_use": [
+          "Secondary action cards",
+          "Log in buttons"
+        ],
+        "hex": "#281730"
+      },
+      {
+        "name": "Card Background - Explore",
+        "description": "Dark magenta card background for explore CTA",
+        "when_to_use": [
+          "Tertiary action cards",
+          "Explore buttons"
+        ],
+        "hex": "#2D0E36"
+      },
+      {
+        "name": "Project Card Background",
+        "description": "Slate background for project grid items (from bg-slate-800/20 applied to slate-800)",
+        "when_to_use": [
+          "Project cards",
+          "Image grid backgrounds",
+          "Content cards"
+        ],
+        "hex": "#1E293B"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Background Gradient",
+        "description": "Vertical gradient from deep dark blue to slightly lighter blue, creating depth in hero section",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Main viewport backgrounds above fold"
+        ],
+        "css_code": "linear-gradient(0deg, rgb(6, 5, 29) 30%, rgb(6, 20, 52))"
+      }
+    ],
+    "highlights": [
+      "Backdrop blur effect on navigation buttons: backdrop-blur-md with semi-transparent colored backgrounds (emerald-900/20, yellow-900/20, orange-900/20, rose-900/20)",
+      "Glass effect on language button: bg-[#060522]/40 with backdrop-blur-md and border-white/10",
+      "Soft shadows on all buttons: shadow-md hover:shadow-lg transitions",
+      "Semi-transparent overlay on project cards: bg-black/60 on hover with opacity transitions",
+      "White border overlays on all cards and buttons: border-white/10 hover:border-white/20 creating subtle glow effects"
+    ]
+  }
+}

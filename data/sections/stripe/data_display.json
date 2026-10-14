@@ -1,0 +1,71 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "charts": [
+      {
+        "name": "Usage Bar Chart",
+        "description": "Vertical bar chart showing token usage over time with gradient-colored bars",
+        "when_to_use": [
+          "Displaying billing/usage metrics over a period",
+          "Showing subscription consumption patterns"
+        ]
+      },
+      {
+        "name": "Globe Visualization",
+        "description": "3D world map visualization showing global commerce transactions in real-time",
+        "when_to_use": [
+          "Illustrating global reach and scale",
+          "Stats section hero imagery"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "Payments Dashboard Table",
+        "description": "Data grid showing transaction history with sortable columns for status, amount, and date",
+        "when_to_use": [
+          "Admin dashboard payment lists",
+          "Platform connect account views"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Stats Tile",
+        "description": "Large statistic display with value, description, and optional interactive state",
+        "when_to_use": [
+          "Hero metrics display",
+          "Key performance indicators",
+          "Trust signals"
+        ]
+      },
+      {
+        "name": "Bento Card",
+        "description": "Interactive product feature card with graphic, title, and expandable dialog",
+        "when_to_use": [
+          "Product feature showcase",
+          "Solution overview grids"
+        ]
+      },
+      {
+        "name": "Customer Story Card",
+        "description": "Accordion-style card with logo, description, stats, and expandable content",
+        "when_to_use": [
+          "Customer testimonials",
+          "Case study previews"
+        ]
+      }
+    ]
+  }
+}

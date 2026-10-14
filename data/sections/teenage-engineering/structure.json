@@ -1,0 +1,41 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Grid Divider",
+        "description": "Thin horizontal and vertical dividers used between product grid cells to create visual separation.",
+        "when_to_use": [
+          "Between product card tiles in grids",
+          "Section boundaries within product catalogs"
+        ],
+        "color": "#B2B2B2",
+        "height": "calc(.00102041 * 100vw)",
+        "style": "solid"
+      },
+      {
+        "name": "Product Section Border",
+        "description": "Border lines used at top and bottom of product tile rows for visual grouping.",
+        "when_to_use": [
+          "Top and bottom of product tile rows",
+          "Section separation in catalog views"
+        ],
+        "color": "#B2B2B2",
+        "height": "var(--border-width)",
+        "style": "solid"
+      }
+    ]
+  }
+}

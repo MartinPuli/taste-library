@@ -1,0 +1,198 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Tw Ring Offset Shadow",
+          "type": "drop",
+          "description": "Transparent placeholder shadow used for Tailwind CSS ring utilities",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Ring offset utilities",
+            "Base shadow variable"
+          ]
+        },
+        {
+          "name": "Hero Image Shadow",
+          "type": "drop",
+          "description": "Multi-layered shadow with border ring and progressive blur creating depth for hero images. Combines 1px ring at 26% opacity, with blur values of 26px, 24px, 20px, 15px, and 8px at various opacities.",
+          "css_value": "0 0 0 1px #80808026,0 93px 26px #0000,0 59px 24px #00000003,0 33px 20px #0000000d,0 15px 15px #00000017,0 4px 8px #0000001a",
+          "when_to_use": [
+            "Hero images",
+            "Featured content cards",
+            "Primary visual elements"
+          ]
+        },
+        {
+          "name": "Button Blue Inset",
+          "type": "inset",
+          "description": "Subtle inset shadow for blue buttons creating a soft beveled look with white highlight on top and dark shadow on bottom",
+          "css_value": "inset 0 1px #ffffff1f,inset 0 -1px #0000001f",
+          "when_to_use": [
+            "Primary action buttons",
+            "Call-to-action buttons"
+          ]
+        },
+        {
+          "name": "Main Layer Shadow",
+          "type": "drop",
+          "description": "Complex layered shadow system for main content layer with multiple offset shadows at 16px, 8px, 4px, 2px offsets plus 1px border ring",
+          "css_value": "0 16px 32px -16px #0000001f,0 8px 16px -8px #00000014,0 4px 8px -4px #0000000a,0 2px 4px #00000005,0 0 0 1px #00000014",
+          "when_to_use": [
+            "Main content containers",
+            "Primary page sections",
+            "Elevated panels"
+          ]
+        },
+        {
+          "name": "PUI Control Shadow Light",
+          "type": "inset",
+          "description": "Complex control shadow for Paper UI system with inset white highlights and outer shadows for depth",
+          "css_value": "#fff8 0 1px 0 inset,#fff8 0 0 1px 1px inset,#0001 0 .5px 1px,#0002 0 0 1px,#0002 0 0 4px -1px",
+          "when_to_use": [
+            "UI controls",
+            "Form fields",
+            "Interactive elements"
+          ]
+        },
+        {
+          "name": "PUI Thumb Shadow Light",
+          "type": "inset",
+          "description": "Thumb/handle shadow with inset white highlights and outer shadow for slider thumbs and draggable handles",
+          "css_value": "#fff8 0 1px 0 inset,#fff8 0 0 1px 1px inset,#0002 0 0 1px,#0002 0 0 3px -1px",
+          "when_to_use": [
+            "Slider thumbs",
+            "Drag handles",
+            "Toggle switches"
+          ]
+        },
+        {
+          "name": "PUI Swatch Shadow Light",
+          "type": "inset",
+          "description": "Color swatch shadow with strong white inset highlights and subtle outer shadows",
+          "css_value": "#fffa 0 1px 0 inset,#fffa 0 0 1px 1px inset,#0002 0 .5px 1px,#00000018 0 0 1px 1px,#0001 0 0 3px -1px",
+          "when_to_use": [
+            "Color swatches",
+            "Color pickers",
+            "Color indicators"
+          ]
+        },
+        {
+          "name": "PUI Slider Shadow Light",
+          "type": "inset",
+          "description": "Slider track shadow with white inset highlights and darker outer shadows for depth",
+          "css_value": "#fff8 0 1px 0 inset,#fff8 0 0 1px 1px inset,#00000059 0 2px 4px -2px,#0000004d 0 0 1px .5px",
+          "when_to_use": [
+            "Slider tracks",
+            "Progress bars",
+            "Range inputs"
+          ]
+        },
+        {
+          "name": "Chat Bubble Shadow Light",
+          "type": "drop",
+          "description": "Chat bubble shadow with outline ring and progressive blur layers for floating chat elements",
+          "css_value": "0 0 0 var(--chat-outline-width)#00000014,0 20px 6px 0 #0000,0 13px 5px 0 #00000003,0 7px 4px 0 #00000005,0 3px 3px 0 #00000008,0 1px 2px 0 #0000000a",
+          "when_to_use": [
+            "Chat bubbles",
+            "Tooltips",
+            "Floating messages"
+          ]
+        },
+        {
+          "name": "Nav Bottom Border Shadow",
+          "type": "drop",
+          "description": "Subtle 1px bottom border shadow for navigation scroll state indication",
+          "css_value": "0 1px 0 0 rgba(0,0,0,0.08)",
+          "when_to_use": [
+            "Navigation bars",
+            "Sticky headers",
+            "Scroll indicators"
+          ]
+        },
+        {
+          "name": "Small Card Shadow",
+          "type": "drop",
+          "description": "Simple drop shadow for small UI elements with 2px Y offset and 4px blur",
+          "css_value": "0 2px 4px #00000020",
+          "when_to_use": [
+            "Small cards",
+            "Dropdown menus",
+            "Popovers"
+          ]
+        },
+        {
+          "name": "Billing Switch Inset",
+          "type": "inset",
+          "description": "Inset shadow for toggle switch background creating recessed track appearance",
+          "css_value": "inset 0 0 0 1px #0000000d,inset 0 1.5px 2px #0000001a",
+          "when_to_use": [
+            "Toggle switches",
+            "Billing toggles",
+            "On/off controls"
+          ]
+        },
+        {
+          "name": "Billing Switch Thumb",
+          "type": "drop",
+          "description": "Thumb shadow for billing toggle switch with soft spread and blur",
+          "css_value": "0 0 1px 1px #0000001a,0 1px 1px #0000001a,1px 2px 4px -1px #0000001a",
+          "when_to_use": [
+            "Toggle switch thumbs",
+            "Slider knobs"
+          ]
+        },
+        {
+          "name": "Slider Thumb Shadow",
+          "type": "drop",
+          "description": "Shadow for slider thumb control with Y offset and ring border",
+          "css_value": "0 2px 4px -2px #00000059,0 0 1px 1px #00000026",
+          "when_to_use": [
+            "Range slider thumbs",
+            "Volume controls",
+            "Seek bars"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#E2E2E2",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#373737",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#CFD9DE",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#425364",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#262628",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

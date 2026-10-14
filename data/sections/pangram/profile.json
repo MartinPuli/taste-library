@@ -1,0 +1,58 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "brand_name": "Pangram",
+    "tagline": null,
+    "source_url": "https://www.pangram.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / AI Detection",
+    "primary_purpose": "Drive trial signups and enterprise partnerships for AI detection software by demonstrating accuracy, reliability, and third-party verification",
+    "main_cta": "Try It for Free",
+    "copy_tone": [
+      "Confident",
+      "Educational",
+      "Authoritative"
+    ],
+    "brand_signature": "Pangram employs a warm, approachable visual identity combining soft cream backgrounds with vibrant accent colors (orange, yellow, purple, green). The design balances technical credibility through clean card layouts and data visualizations with editorial warmth via illustrative seasonal imagery and playful corner fold interactions.",
+    "visual_language": {
+      "keywords": [
+        "warm",
+        "credible",
+        "approachable",
+        "editorial",
+        "research-backed",
+        "premium SaaS"
+      ],
+      "accent_strategy": "High-energy orange (#FF6106) used consistently for CTAs and brand emphasis, supported by a diverse palette of yellow, purple, blue, and deep green for feature differentiation and visual variety",
+      "highlights": "Illustrative seasonal artwork in hero section creates emotional warmth; interactive accordion cards with corner-fold hover effects add polish; color-coded benchmark cards reinforce technical precision"
+    },
+    "strategy": {
+      "target_audience": [
+        "Enterprise content teams and publishers seeking to verify content authenticity at scale, concerned about AI-generated misinformation",
+        "Higher education administrators and educators needing reliable academic integrity tools that minimize false positives",
+        "Content marketing managers and SEO professionals who must ensure human-written quality for brand trust and search compliance"
+      ],
+      "executive_synthesis": "Pangram's visual strategy bridges the credibility gap inherent in AI detection tools by combining research-backed authority (University of Maryland partnership, third-party verification callouts, benchmark tables) with an unusually warm, illustrative aesthetic that humanizes technical claims. The prominent product demo in the hero enables immediate trial while the educational accordion and feature cards address buyer skepticism. The warm color palette and seasonal illustrations soften what could feel clinical, positioning Pangram as a trustworthy partner rather than just detection software."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals a distinctly modern digital product website with clear Flat Design characteristics. The visual impression is warm, approachable, and editorial—featuring bold color blocks (bright yellow, soft pink, dark teal, espresso brown) used as section backgrounds rather than decorative elements. The hero section showcases flat vector illustrations with simplified geometric forms (house, landscape) in muted pastels without shadows or depth. Cards throughout use solid color fills with no gradients or dimensional effects on the card surfaces themselves. Typography pairs a refined serif heading font with IBM Plex Sans body text, creating an editorial quality. The layout employs generous whitespace, a strict 12-column grid, and card-based organization with clean borders. The texture profile confirms \"gradient_linear\" and \"shadows_soft\"—but these are used sparingly for structural purposes (section fades, subtle card elevation) rather than decorative depth. The design is fundamentally 2D: geometric shapes, flat color surfaces, no skeuomorphic textures, and no complex dimensionality. This matches Flat Design's key differentiators: digital-native clarity, 2D aesthetic, bold saturated colors, geometric shapes, and grid-based strict layout with generous whitespace.",
+      "secondary_style": "Friendly",
+      "reasoning_secondary": "The Friendly modifier applies strongly here. The warm color palette (yellows, creams, soft pinks, earthy browns), approachable serif headlines, playful illustration style, and testimonial section with varied pastel cards all communicate accessibility and trust. The rounded pill-shaped CTAs in vibrant orange, the editorial tone, and the card-based testimonial grid with colorful backgrounds create a welcoming, non-intimidating product experience. This isn't cold corporate or stark minimalism—it's deliberately warm and inviting, targeting educators and institutions who need to feel the product is approachable. The playful micro-interactions noted (corner accents, rotation transforms) reinforce this friendly personality without compromising professionalism."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Background",
+        "description": "Primary page background surface",
+        "when_to_use": [
+          "Page backgrounds",
+          "Main content areas"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Secondary Surface",
+        "description": "Secondary surface for cards and elevated content",
+        "when_to_use": [
+          "Card backgrounds",
+          "Input fields",
+          "Elevated panels"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Primary Accent 4",
+        "description": "Subtle background accent for interactive elements",
+        "when_to_use": [
+          "Button hover states",
+          "Focus backgrounds"
+        ],
+        "hex": "#F3F3F3"
+      },
+      {
+        "name": "Primary Accent 12",
+        "description": "Border and subtle surface treatment",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Card placeholders"
+        ],
+        "hex": "#E5E5E5"
+      },
+      {
+        "name": "Loading Surface",
+        "description": "Placeholder background for loading images",
+        "when_to_use": [
+          "Image loading states",
+          "Skeleton screens"
+        ],
+        "hex": "#F5F5F5"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Scroll Control Fade",
+        "description": "Multi-stop linear gradient fade for horizontal scroll controls, fading from background color to transparent over 10 steps",
+        "when_to_use": [
+          "Horizontal scroll overflow indicators",
+          "Carousel edge fades"
+        ],
+        "css_code": "linear-gradient(var(--dotcom-chart-overflow-fade-direction), var(--dotcom-chart-color-background) 0%, color-mix(in srgb, var(--dotcom-chart-color-background) 92%, transparent) 9%, color-mix(in srgb, var(--dotcom-chart-color-background) 78%, transparent) 18%, color-mix(in srgb, var(--dotcom-chart-color-background) 62%, transparent) 27%, color-mix(in srgb, var(--dotcom-chart-color-background) 45%, transparent) 36%, color-mix(in srgb, var(--dotcom-chart-color-background) 32%, transparent) 45%, color-mix(in srgb, var(--dotcom-chart-color-background) 21%, transparent) 54%, color-mix(in srgb, var(--dotcom-chart-color-background) 13%, transparent) 63%, color-mix(in srgb, var(--dotcom-chart-color-background) 6%, transparent) 72%, color-mix(in srgb, var(--dotcom-chart-color-background) 2%, transparent) 81%, transparent 90%)"
+      }
+    ],
+    "highlights": [
+      "Soft box shadows on scroll control buttons: 0 2px 8px rgba(0,0,0,0.12)",
+      "Light border shadows on input fields (light:shadow-splash-chatpgpt-input)",
+      "Light link shadows (light:shadow-splash-chatpgpt-links)",
+      "Subtle backdrop blur effects: backdrop-blur-[50px] and backdrop-blur-[4.375rem] on modal overlays and buttons"
+    ]
+  }
+}

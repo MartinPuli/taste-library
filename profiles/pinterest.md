@@ -2,31 +2,49 @@
 
 Support visual discovery through grids and cards with little interface weight.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 38 · Captured 2026-10-14T05:06:49.351030Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 38 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T05:06:49.351030Z |
-| Suggested uses | media-discovery |
-| Visual approach | image-led, modular |
+[Original website](https://www.pinterest.com/) · [Full extraction](../data/raw/pinterest.json) · [Review record](../data/reviews/pinterest.json)
 
-## Details to compare
+[Small visual preview](../data/previews/pinterest.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/full.jpg)
 
-- Detected type families: Pin Sans, SF Mono.
-- Recorded palette: #211922, #000000, #FFFFFF, #62625B, #91918C.
-- Grid: `{"columns": 12, "gutter": "16px", "max_width": "1440px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A seasonal photographic banner leads into rows of image cards. Red account actions stand out against otherwise neutral navigation.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.pinterest.com/) · [Extraction](../data/raw/pinterest.json) · [Tokens](../data/tokens/pinterest.json)
+Project types: media-discovery. Styles: image-led, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show pinterest --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Support visual discovery through grids and cards with little interface weight. Evidence: [layout](../data/sections/pinterest/layout.json), [sections](../data/sections/pinterest/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/pinterest/actions.json).
+
+## Content to bring
+
+A collection of labeled images or media that readers can browse and compare. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/pinterest/profile.json)
+- [Layout](../data/sections/pinterest/layout.json)
+- [Colors](../data/sections/pinterest/colors.json)
+- [Typography](../data/sections/pinterest/typography.json)
+- [Surfaces](../data/sections/pinterest/surfaces.json)
+- [Elevation](../data/sections/pinterest/elevation.json)
+- [Interactions](../data/sections/pinterest/interactions.json)
+- [Actions](../data/sections/pinterest/actions.json)
+- [Navigation](../data/sections/pinterest/navigation.json)
+- [Data Display](../data/sections/pinterest/data_display.json)
+- [Structure](../data/sections/pinterest/structure.json) · no observed data
+- [Icons](../data/sections/pinterest/icons.json)
+- [Assets](../data/sections/pinterest/assets.json)
+- [Brand Assets](../data/sections/pinterest/brand_assets.json)
+- [Sections](../data/sections/pinterest/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

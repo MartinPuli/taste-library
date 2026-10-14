@@ -1,0 +1,289 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/supabase.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal with centered nav items",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Supabase logo with green icon on the left"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal menu with Product, Developers, Solutions (dropdowns), Pricing, Docs, Blog links"
+        },
+        {
+          "type": "button",
+          "description": "GitHub stars button showing '111.5K' with star icon, gray background"
+        },
+        {
+          "type": "button",
+          "description": "'Sign in' button, minimal raised surface"
+        },
+        {
+          "type": "button",
+          "description": "'Start your project' button, solid green (primary) with pill shape"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Left-aligned, two-column grid on larger screens",
+      "headline": "Build in a weekend Scale to millions",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Start your project' primary CTA, solid green pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "'Request a demo' secondary CTA, outline/ghost style gray button"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Grid 2×3 on desktop (12-column responsive grid), card-based",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Postgres Database card: white card with subtle border, green database icon, headline, description text, checkmarks list, and large database UI mockup on right"
+        },
+        {
+          "type": "card",
+          "description": "Authentication card: white with user rows SVG illustration, purple/pink accent"
+        },
+        {
+          "type": "card",
+          "description": "Edge Functions card: dark gradient background with globe and command-line snippet overlay"
+        },
+        {
+          "type": "card",
+          "description": "Storage card: animated marquee of file/image/video icons, light border on hover"
+        },
+        {
+          "type": "card",
+          "description": "Realtime card: dark background with animated cursor bubbles and sync indicators"
+        },
+        {
+          "type": "card",
+          "description": "Vector card: graph network visualization with OpenAI and Hugging Face logos"
+        },
+        {
+          "type": "card",
+          "description": "Data APIs card: animated vertical lines pattern with REST API branding"
+        }
+      ]
+    },
+    {
+      "type": "Platform Statement",
+      "layout_pattern": "Centered",
+      "headline": "Use one or all. Best of breed products. Integrated as a platform.",
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "Customer Logos",
+      "layout_pattern": "Grid 3×4 on mobile, 6 columns on desktop",
+      "headline": "Trusted by fast-growing companies worldwide",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Grayscale company logos: Lovable, Mozilla, Pwc, Figma, V0, Bolt, Github, Betashares, Mobbin, Resend, Langchain, 1Password arranged in responsive grid"
+        }
+      ]
+    },
+    {
+      "type": "Dashboard Showcase",
+      "layout_pattern": "Centered, full-width screenshot with tab navigation above",
+      "headline": "Stay productive and manage your app without leaving the dashboard",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Tab buttons: 'Table Editor' (active with green accent), 'SQL Editor', 'RLS Policies' — pill-shaped, outlined"
+        },
+        {
+          "type": "image",
+          "description": "Large dashboard screenshot in browser chrome mockup showing table editor interface with data tables, light theme, subtle shadow"
+        }
+      ]
+    },
+    {
+      "type": "Code Snippet / Frameworks",
+      "layout_pattern": "Split 50/50 — headline on left, code + icons on right",
+      "headline": "Use Supabase with React",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "icon",
+          "description": "Framework icons: React, Angular, Vue, Svelte, Flutter, Next.js — colorful brand icons in horizontal strip"
+        },
+        {
+          "type": "card",
+          "description": "Syntax-highlighted code block with light/dark theme support, purple/pink syntax colors, bordered container"
+        },
+        {
+          "type": "button",
+          "description": "'Read docs for React' link button, small rounded pill in bottom-right corner"
+        }
+      ]
+    },
+    {
+      "type": "Templates / Examples",
+      "layout_pattern": "Grid 2 large cards + 4 small cards below",
+      "headline": "Kickstart your next project with production ready templates",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Stripe Subscriptions Starter — large card with Stripe logo, headline, description, and browser mockup showing pricing tiers with purple accent"
+        },
+        {
+          "type": "card",
+          "description": "Next.js Starter — large card with Next.js logo (inverted), browser mockup with sidebar and grid layout, blue accent"
+        },
+        {
+          "type": "card",
+          "description": "AI Chatbot — small card with OpenAI logo, headline and description, white surface"
+        },
+        {
+          "type": "card",
+          "description": "LangChain + Next.js Starter — small card with LangChain logo"
+        },
+        {
+          "type": "card",
+          "description": "Flutter User Management — small card with Flutter logo"
+        },
+        {
+          "type": "card",
+          "description": "Expo React Native Starter — small card with Expo logo"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials / Customer Stories",
+      "layout_pattern": "Horizontal carousel/slider with large featured card",
+      "headline": "How industry leaders are building with Supabase",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Lovable testimonial card: vibrant red-to-orange-to-yellow gradient background, white text, company logo, quote, profile photo in circular frame, 'Read the story →' link"
+        },
+        {
+          "type": "card",
+          "description": "Additional testimonial cards (eXp Realty, Phoenix Energy, Chatbase, Rally) with distinct gradient/solid color backgrounds, company logos visible"
+        },
+        {
+          "type": "button",
+          "description": "'More customer stories' text link in header"
+        }
+      ]
+    },
+    {
+      "type": "Community",
+      "layout_pattern": "Centered headline + grid 2×4 cards",
+      "headline": "Join the community",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Join us on Discord' button, centered, raised control surface style"
+        },
+        {
+          "type": "card",
+          "description": "Community resource cards in 2×4 grid — white background, icon, title, description, subtle borders (representing Discord, GitHub, Forums, Events, etc.)"
+        }
+      ]
+    },
+    {
+      "type": "Open Source",
+      "layout_pattern": "Centered",
+      "headline": "Open source from day one",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "GitHub contribution graph with green squares showing activity heatmap"
+        },
+        {
+          "type": "illustration",
+          "description": "Stars visualization graphic showing '111.5k+' GitHub stars"
+        }
+      ]
+    },
+    {
+      "type": "Final CTA",
+      "layout_pattern": "Centered",
+      "headline": "Build in a weekend, scale to millions",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Get Started →' primary CTA, solid green pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "'Request Demo' secondary CTA, outline style"
+        }
+      ]
+    },
+    {
+      "type": "Pre-Footer Trust Badges",
+      "layout_pattern": "Centered",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "4 customer logos in grayscale, centered"
+        },
+        {
+          "type": "icon",
+          "description": "Trust badges: 'No credit card', 'AWS Certified', 'SOC2' — minimal text styling"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column (5 columns: Logo/Social, Product, Resources, Company, Community)",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Supabase logo in top-left of footer"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons (X, LinkedIn, GitHub, etc.) in grayscale"
+        },
+        {
+          "type": "navigation",
+          "description": "Link columns: Product (Database, Auth, Storage, APIs, Pricing), Resources (Blog, Examples, Case Studies, Partners, Guides), Company (About, Careers, Privacy, Terms, Support), Community (GitHub, Discord, Twitter, Forums, Events)"
+        },
+        {
+          "type": "button",
+          "description": "'Sign up' button at bottom-left, solid green pill"
+        }
+      ]
+    }
+  ]
+}

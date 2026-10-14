@@ -1,0 +1,119 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "texture_classification": [
+      "gradient_conic",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary page background color",
+        "when_to_use": [
+          "Main page background",
+          "Section backgrounds",
+          "Card backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Dark Surface",
+        "description": "Dark surface for footer and primary buttons",
+        "when_to_use": [
+          "Footer background",
+          "Primary button background",
+          "Navigation bar"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Card Background",
+        "description": "Card background with slight transparency (color-mix with 96% transparency)",
+        "when_to_use": [
+          "Card components",
+          "Badge backgrounds",
+          "Form input backgrounds"
+        ],
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Transparent Button Background",
+        "description": "Transparent button background (color-mix with 96% transparency)",
+        "when_to_use": [
+          "Secondary buttons",
+          "Ghost buttons",
+          "Transparent UI elements"
+        ],
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Badge Surface",
+        "description": "Badge background (color-mix with 92% transparency)",
+        "when_to_use": [
+          "Badge components",
+          "Labels",
+          "Tag elements"
+        ],
+        "hex": "#141414"
+      },
+      {
+        "name": "Icon Background",
+        "description": "Icon background in footer with rgba(255, 255, 255, 0.24) transparency",
+        "when_to_use": [
+          "Social media icons",
+          "Circular icon containers"
+        ],
+        "hex": "#3D3D3D"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Conic Spinner Gradient",
+        "description": "Repeating conic gradient creating a spinner/loading effect with cyan stripes",
+        "when_to_use": [
+          "Loading animations",
+          "Decorative elements",
+          "Animated spinner icons"
+        ],
+        "css_code": "repeating-conic-gradient(#00b6ff 0deg 18deg, transparent 18deg 30deg)"
+      },
+      {
+        "name": "Horizontal Edge Fade",
+        "description": "Dual horizontal gradients fading from white to transparent on left and right edges",
+        "when_to_use": [
+          "Carousel edge masks",
+          "Scrollable content edge indicators",
+          "Logo marquee overlays"
+        ],
+        "css_code": "linear-gradient(90deg, #FFFFFF 0px, transparent 2.5rem),linear-gradient(270deg, #FFFFFF 0px, transparent 2.5rem)"
+      },
+      {
+        "name": "Focus Highlight",
+        "description": "Solid lime-yellow gradient used for focus states",
+        "when_to_use": [
+          "Skip to content link focus",
+          "Keyboard navigation highlights",
+          "Accessibility focus indicators"
+        ],
+        "css_code": "linear-gradient(to bottom, #E4FF97 0%, #E4FF97 100%)"
+      }
+    ],
+    "highlights": [
+      "Conic gradient spinner with cyan (#00b6ff) stripes used for animated decorative elements",
+      "Soft box shadows with large blur radius: 0 0.25rem 2rem with 90% transparency for elevation-1",
+      "Horizontal edge fade gradients on logo carousel creating smooth left/right masks",
+      "Animated conic gradient rotates continuously at 25s duration on decorative spinner element"
+    ]
+  }
+}

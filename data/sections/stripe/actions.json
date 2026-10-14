@@ -1,0 +1,394 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Get started (Primary CTA)",
+        "usage": "Hero section primary call-to-action for user registration/signup",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "15px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#4032C8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact sales (Primary Nav CTA)",
+        "usage": "Navigation bar primary CTA button linking to sales contact",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Compact",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "14px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#4032C8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign in (Secondary Nav)",
+        "usage": "Navigation bar secondary button for existing user sign-in",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Compact",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "14px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#533AFD",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#533AFD",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#533AFD",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign up with Google (Secondary with Icon)",
+        "usage": "Hero section secondary CTA for OAuth sign-up flow",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "15px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.65)",
+            "text_color": "#061B31",
+            "border_color": "#E5EDF5",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#061B31",
+            "border_color": "#E5EDF5",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0.65)",
+            "text_color": "#061B31",
+            "border_color": "#E5EDF5",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Stripe for enterprises (Section CTA)",
+        "usage": "Section-level primary CTA button for enterprise content",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "15px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#4032C8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Read the story (Secondary Outline)",
+        "usage": "Customer story cards, secondary action buttons",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Compact",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "14px",
+              "padding": "0px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#533AFD",
+            "border_color": "#E5EDF5",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E8E9FF",
+            "text_color": "#533AFD",
+            "border_color": "#D6D9FC",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#533AFD",
+            "border_color": "#E5EDF5",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Watch now (Sessions CTA)",
+        "usage": "Event/video content primary call-to-action",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "15px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#4032C8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#533AFD",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Chat now with sales (Dark Footer CTA)",
+        "usage": "Footer dark section secondary button with border",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "sohne-var, SF Pro Display, sans-serif",
+              "size": "15px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0A2540",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.12)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#1A2C44",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#0A2540",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.12)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Navigation Hamburger (Icon Button)",
+        "usage": "Mobile navigation toggle button, icon-only circular/square",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#533AFD",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E8E9FF",
+            "text_color": "#533AFD",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#533AFD",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Horizontal layout with primary and secondary buttons side by side",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

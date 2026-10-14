@@ -1,0 +1,312 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Sign up for free (Primary Dark)",
+        "usage": "Primary CTA button used throughout the page for user acquisition - appears in navigation, hero section, and multiple CTAs",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "9px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#161514",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#161514",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#161514",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Talk to the team (Ghost/Transparent)",
+        "usage": "Secondary CTA button used alongside primary CTAs for alternative actions like contacting the team",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "6px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Products (Nav Link)",
+        "usage": "Navigation menu buttons in the top nav bar for dropdown menus",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "6px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Claude Code (API Tab Selected)",
+        "usage": "Selected state for API explorer tabs in the Developers section",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "9px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#161514",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Codex (API Tab Unselected)",
+        "usage": "Unselected state for API explorer tabs in the Developers section",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "9px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "All (Filter Tab Active)",
+        "usage": "Active filter tab in the Investors section for filtering investor cards",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "4px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#111400",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#111400",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#111400",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Firms (Filter Tab Inactive)",
+        "usage": "Inactive filter tab in the Investors section",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "STK Miso",
+              "size": "15px",
+              "padding": "4px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#D7D6D4",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#D7D6D4",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#D7D6D4",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Horizontal button groups with primary dark CTA followed by ghost/transparent secondary CTA",
+      "spacing": "12px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

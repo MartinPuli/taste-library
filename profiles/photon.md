@@ -2,31 +2,49 @@
 
 Present integrations and code examples with dark backgrounds and spectrum accents.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 40 · Captured 2026-10-14T08:56:53.304387Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 40 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T08:56:53.304387Z |
-| Suggested uses | developer-tools |
-| Visual approach | dark-technical, color-accent |
+[Original website](https://photon.codes/) · [Full extraction](../data/raw/photon.json) · [Review record](../data/reviews/photon.json)
 
-## Details to compare
+[Small visual preview](../data/previews/photon.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/full.jpg)
 
-- Detected type families: PolySans Arabic VF Variable Slim, -apple-system, Azeret Mono, Inter, Photon_Symbol Regular, PolySans Arabic Trial Neutral.
-- Recorded palette: #000000, #FFFFFF, #0000EE, #999999, #202020.
-- Grid: `{"columns": 12, "gutter": "32px", "max_width": "1376px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+White text and inline platform icons sit above overlapping spectrum-colored squares on black, with a compact code-instruction control.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://photon.codes/) · [Extraction](../data/raw/photon.json) · [Tokens](../data/tokens/photon.json)
+Project types: developer-tools. Styles: dark-technical, color-accent. These are editorial tags.
 
-```sh
-python3 scripts/query.py show photon --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Present integrations and code examples with dark backgrounds and spectrum accents. Evidence: [layout](../data/sections/photon/layout.json), [sections](../data/sections/photon/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/photon/actions.json).
+
+## Content to bring
+
+A real product workflow, readable interface examples, and a clear first action for developers. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/photon/profile.json)
+- [Layout](../data/sections/photon/layout.json)
+- [Colors](../data/sections/photon/colors.json)
+- [Typography](../data/sections/photon/typography.json)
+- [Surfaces](../data/sections/photon/surfaces.json)
+- [Elevation](../data/sections/photon/elevation.json)
+- [Interactions](../data/sections/photon/interactions.json)
+- [Actions](../data/sections/photon/actions.json)
+- [Navigation](../data/sections/photon/navigation.json)
+- [Data Display](../data/sections/photon/data_display.json)
+- [Structure](../data/sections/photon/structure.json)
+- [Icons](../data/sections/photon/icons.json)
+- [Assets](../data/sections/photon/assets.json)
+- [Brand Assets](../data/sections/photon/brand_assets.json) · no observed data
+- [Sections](../data/sections/photon/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

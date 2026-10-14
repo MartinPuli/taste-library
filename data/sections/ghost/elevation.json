@@ -1,0 +1,59 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This site primarily uses blur effects, backdrop filters, and borders rather than traditional box-shadows for elevation.",
+      "levels": [
+        {
+          "name": "Inset Shadow",
+          "type": "inset",
+          "description": "Inset shadow used on UI elements to create depth within containers. 25% black opacity with 8px vertical offset and 12px blur.",
+          "css_value": "inset 0px 8px 12px 0px rgba(0,0,0,0.25)",
+          "when_to_use": [
+            "Inner container depth",
+            "Recessed UI panels"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#006DDF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D6EAFF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#BAEAFF",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#F2F5F8",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

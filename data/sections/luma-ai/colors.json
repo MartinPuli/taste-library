@@ -1,0 +1,131 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Provides maximum contrast, serving as the primary text color and the stark background for inverted sections.",
+          "when_to_use": [
+            "Primary body text and headings",
+            "Hero and Research section backgrounds",
+            "Primary CTA backgrounds on light sections",
+            "Subtle structural borders and box shadows"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Surface White",
+        "type": "Light",
+        "rules": {
+          "description": "Forms the foundational canvas of the page and acts as the inverted text color in dark sections.",
+          "when_to_use": [
+            "Page and main container backgrounds (as #FFFFFF)",
+            "Text and logos within dark hero and research sections",
+            "Elevated banner backgrounds like the 'Ray 3.2' announcement (as #EDEDED)",
+            "Inactive input labels like 'tab to accept' (as #CCCCCC)"
+          ]
+        },
+        "hex": "#E5E5E5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EDEDED",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#CCCCCC",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.5917
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Secondary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "Provides typographical hierarchy by de-emphasizing supportive text and metadata.",
+          "when_to_use": [
+            "Subtitles under section headings",
+            "News card categories and publish dates",
+            "Secondary text in dark sections (as #8C8C8C)"
+          ]
+        },
+        "hex": "#737373",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#8C8C8C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0465
+      },
+      {
+        "name": "Tertiary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A low-contrast gray applied to input fields for inactive or placeholder elements.",
+          "when_to_use": [
+            "Prompt text area placeholder text",
+            "Submit prompt button icon"
+          ]
+        },
+        "hex": "#A6A6A6",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0036
+      },
+      {
+        "name": "Off-Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Barely appears in the provided markup; likely an incidental dark shade measured from rich media or an unstyled element.",
+          "when_to_use": [
+            "Incidental dark rendering",
+            "Unstyled deep background elements"
+          ]
+        },
+        "hex": "#101010",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0006
+      }
+    ],
+    "insights": [
+      "Strict Monochromatism: The brand completely relies on black, white, and grays for its UI, ensuring that colorful generative AI images and videos stand out without competition.",
+      "Section-Based Inversion: The design uses high-contrast blocking, alternating between stark white and pure black backgrounds to demarcate different sections instead of using dividers.",
+      "Text-Driven Hierarchy: Grays are exclusively reserved for text and icons, carefully establishing a visual hierarchy for metadata, dates, and placeholders without introducing new hues."
+    ]
+  }
+}

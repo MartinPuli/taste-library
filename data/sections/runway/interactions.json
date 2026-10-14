@@ -1,0 +1,68 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "video_background",
+      "marquee",
+      "tab_switching",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }",
+        "description": "Elements fade in and slide up from below, used for scroll-triggered content reveals"
+      },
+      {
+        "name": "pulse",
+        "css": "@keyframes pulse { 50% { opacity: 0.5; } }",
+        "description": "Pulsing opacity animation for loading indicators or attention states"
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin { to { transform: rotate(360deg); } }",
+        "description": "Continuous rotation for loading spinners"
+      },
+      {
+        "name": "blink",
+        "css": "@keyframes blink { 50% { opacity: 0; } }",
+        "description": "Blinking animation for cursor or attention indicators"
+      },
+      {
+        "name": "global-transition",
+        "css": "transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "description": "Default transition applied to interactive elements for smooth state changes"
+      },
+      {
+        "name": "header-opacity-transition",
+        "css": "transition: opacity 0.2s ease",
+        "description": "Smooth opacity transition for header backdrop blur reveal on scroll"
+      },
+      {
+        "name": "logo-marquee",
+        "css": "",
+        "description": "Continuous horizontal scrolling of partner logos strip, JS-driven via transform: translate3d updates"
+      },
+      {
+        "name": "tab-progress-bar",
+        "css": "",
+        "description": "Animated width progress indicator under tabs, JS-driven via inline style width percentage updates"
+      }
+    ],
+    "insights": [
+      "The design system uses a highly restrained grayscale palette with subtle translucent overlays (#F7F7F7/5, white/75) to create depth without introducing color complexity.",
+      "Button hierarchy is clearly defined through background fills: solid dark (#262626) for primary actions, light gray (#EEF1F5) for secondary, and transparent with outline for tertiary/ghost states.",
+      "Motion is primarily JS-driven (marquee, tab progress) rather than CSS keyframes, allowing for precise control over timing and state synchronization with interactive elements."
+    ]
+  }
+}

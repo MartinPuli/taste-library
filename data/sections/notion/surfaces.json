@@ -1,0 +1,120 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "texture_classification": [
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Base Background",
+        "description": "Primary page background",
+        "when_to_use": [
+          "Page backgrounds",
+          "Default surfaces"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Card Background - Gray 100",
+        "description": "Light gray surface for cards and containers",
+        "when_to_use": [
+          "Card backgrounds",
+          "Bento grid items",
+          "Elevated content areas"
+        ],
+        "hex": "#F9F9F8"
+      },
+      {
+        "name": "Card Background - Gray 200",
+        "description": "Slightly darker gray for nested surfaces",
+        "when_to_use": [
+          "Nested cards",
+          "Secondary surface areas"
+        ],
+        "hex": "#F6F5F4"
+      },
+      {
+        "name": "Border - Neutral",
+        "description": "Neutral border color for surface differentiation",
+        "when_to_use": [
+          "Card borders with surface neutral variant",
+          "2px borders"
+        ],
+        "hex": "#F6F5F4"
+      },
+      {
+        "name": "Text - Dark",
+        "description": "Primary text color with 95% opacity",
+        "when_to_use": [
+          "Headings",
+          "Primary body text"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Text - Medium",
+        "description": "Medium emphasis text with 54% opacity",
+        "when_to_use": [
+          "Secondary text",
+          "Meta information"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Text - Light",
+        "description": "Low emphasis text with 38% opacity",
+        "when_to_use": [
+          "Captions",
+          "Disabled states"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Accent - Blue",
+        "description": "Primary blue accent color",
+        "when_to_use": [
+          "Primary CTA buttons",
+          "Interactive elements",
+          "Links"
+        ],
+        "hex": "#097FE8"
+      },
+      {
+        "name": "Accent - Green",
+        "description": "Green accent for success states and highlights",
+        "when_to_use": [
+          "Success messages",
+          "Product pill backgrounds"
+        ],
+        "hex": "#1AAE39"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Product Image Media Gradient",
+        "description": "Subtle top-to-bottom fade overlay on hero media",
+        "when_to_use": [
+          "Hero video overlays",
+          "Product image fade effects"
+        ],
+        "css_code": "linear-gradient(to top, rgba(0,0,0,0.1), transparent)"
+      }
+    ],
+    "highlights": [
+      "Soft drop shadows on elevated surfaces: --tatami-shadow-100: 0px .7px 1.462px 0px #00000004, 0px 3px 9px 0px #00000008",
+      "Medium drop shadows on cards: --tatami-shadow-200: 0px .175px 1.041px 0px #00000003, 0px .8px 2.925px 0px #00000005, 0px 2.025px 7.847px 0px #00000007, 0px 4px 18px 0px #0000000a",
+      "Deep drop shadows for layered content: --tatami-shadow-300: 0px .667px 3.502px 0px #00000002, 0px 2.933px 7.252px 0px #00000004, 0px 7.2px 14.462px 0px #00000005, 0px 13.867px 28.348px 0px #00000006, 0px 23.333px 52.123px 0px #00000008, 0px 36px 89px 0px #0000000a",
+      "Bento grid layer drop shadows applied to stacked images and UI elements",
+      "Rounded corners on cards using --tatami-border-radius-500 (.5rem) to --tatami-border-radius-900 (1rem)"
+    ]
+  }
+}

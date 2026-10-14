@@ -1,0 +1,234 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/sandbar.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Preorder (Primary)",
+        "usage": "Main CTA in navigation header for preordering the product",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Nav",
+              "font": "Messina Sans",
+              "size": "1.6rem",
+              "padding": "1.1rem 2.4rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0C0B0B",
+            "text_color": "#FFFFFF",
+            "border_color": "#0C0B0B",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#0C0B0B",
+            "border_color": "#E0DFDC",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn More (Primary)",
+        "usage": "CTA button in product showcase section linking to shop",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Messina Sans",
+              "size": "1.6rem",
+              "padding": "1.7rem 4rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0C0B0B",
+            "text_color": "#FFFFFF",
+            "border_color": "#0C0B0B",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#0C0B0B",
+            "border_color": "#E0DFDC",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Submit (Form Submit)",
+        "usage": "Newsletter form submit button for email signups",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Messina Sans",
+              "size": "1.6rem",
+              "padding": "1.7rem 4rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0C0B0B",
+            "text_color": "#FFFFFF",
+            "border_color": "#0C0B0B",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#0C0B0B",
+            "border_color": "#E0DFDC",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular Close)",
+        "usage": "Close button for modals and lightbox overlays",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "inherit",
+              "size": "16px",
+              "padding": "1px 6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F0F0F0",
+            "text_color": "#0C0B0B",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E0DFDC",
+            "text_color": "#0C0B0B",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Play Button (Video Player)",
+        "usage": "Play/pause control for video players with glassmorphism effect",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "",
+              "size": "",
+              "padding": "0.7em"
+            },
+            {
+              "name": "Large",
+              "font": "",
+              "size": "",
+              "padding": "1em"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.4)",
+            "text_color": "#3A231C",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.6)",
+            "text_color": "#3A231C",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are displayed flexibly with horizontal alignment and wrapping",
+      "spacing": "1.6rem"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

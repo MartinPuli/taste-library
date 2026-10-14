@@ -1,0 +1,164 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/midjourney.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/midjourney.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "JetBrains Mono",
+          "role": "H1 Section Title (Desktop)",
+          "specs": {
+            "size": "1.875rem",
+            "line_height": "2.25rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"JetBrains Mono\", monospace",
+            "file_url": null
+          }
+        },
+        {
+          "name": "JetBrains Mono",
+          "role": "H1 Section Title (Mobile)",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "2rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"JetBrains Mono\", monospace",
+            "file_url": null
+          }
+        },
+        {
+          "name": "JetBrains Mono",
+          "role": "Project Card Title",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.25",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"JetBrains Mono\", monospace",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "JetBrains Mono",
+          "role": "Body Text",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.625",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"JetBrains Mono\", monospace",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "DM Sans",
+          "role": "Navigation Button (Desktop)",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.5rem",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"DM Sans\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "DM Sans",
+          "role": "Navigation Button (Mobile)",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"DM Sans\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "JetBrains Mono",
+          "role": "Footer Link",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"JetBrains Mono\", monospace",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": []
+    },
+    "highlights": "Text treatments are minimal, relying primarily on standard underlines with offset (`underline-offset-2`) and color shifts for links.",
+    "insights": [
+      "Unconventional use of monospace (JetBrains Mono) for primary headings and body copy, giving the site a distinct technical and developer-oriented identity.",
+      "DM Sans (a sans-serif) is reserved specifically for interactive top-level navigation buttons, drawing clear distinction between UI controls and content.",
+      "Typography relies on standard weights (400 for text, 500 for cards, 700 for buttons) combined with precise line heights (e.g., `leading-relaxed` for long-form text, `leading-tight` for cards)."
+    ]
+  }
+}

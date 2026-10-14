@@ -1,0 +1,336 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/krea.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "White",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational high-contrast color used primarily for text and primary action surfaces across the dark theme.",
+          "when_to_use": [
+            "Primary typography",
+            "Primary CTA background ('Get the plugin', 'Generate video')",
+            "Subtle borders and box-shadows (translucent)"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAFAFA",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFDFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFFFC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F9FFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAFFF6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F3FFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F8FFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFCF5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FDFFF7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6FFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFEFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FDFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E8E9ED",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E4DDD4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFF1",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.1043999999999992
+      },
+      {
+        "name": "Muted Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A mid-tone gray utilized for structural text elements that require lower emphasis than primary content.",
+          "when_to_use": [
+            "Footer section headings ('Krea', 'About', 'Solutions')"
+          ]
+        },
+        "hex": "#737373",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#5C6362",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#585E54",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#8A8A8A",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#6C6C6C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0701
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Deep Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The core background color forming the deep, immersive foundation of the dark mode interface.",
+          "when_to_use": [
+            "Sidebar background",
+            "Feature card backgrounds",
+            "Prompt input box background",
+            "Primary CTA text (on white)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0281
+      },
+      {
+        "name": "Neutral Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A lighter gray providing readable but secondary text contrast against the dark background.",
+          "when_to_use": [
+            "Footer navigation links",
+            "Inactive tab text ('Moodboards')"
+          ]
+        },
+        "hex": "#A3A3A3",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#A1A1A1",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#B7B7B7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#BCB8AB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#A8A8A8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#C1C1C1",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0077
+      },
+      {
+        "name": "Charcoal",
+        "type": "Dark",
+        "rules": {
+          "description": "A deep charcoal acting as the base document background and building subtle elevation through translucent overlays.",
+          "when_to_use": [
+            "Base page body background (#101010)",
+            "Secondary 'Read more' button backgrounds (translucent)",
+            "Search bar background (#262626cc)",
+            "Specific image placeholder backgrounds"
+          ]
+        },
+        "hex": "#262626",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#101010",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#35333C",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#2A2E2A",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#10151C",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#3E3E40",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#2B221D",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#24292E",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#192127",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#3D3A3D",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#091216",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#121212",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#323232",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0096
+      }
+    ],
+    "insights": [
+      "Extreme monochromatic restraint: By relying entirely on a greyscale spectrum (black, white, and shades of gray), the UI acts as a neutral canvas that allows the colorful, generative AI media to take center stage.",
+      "High-contrast foundations: The design uses pure black (#000000) and pure white (#FFFFFF) heavily, opting for stark contrast rather than softer dark-mode alternatives, which lends a cinematic and premium feel.",
+      "Depth through opacity: Instead of introducing new hues for elevation, the interface utilizes translucent blacks and whites (e.g., #ffffff1a for borders, #10101066 for buttons) to achieve glassmorphism and visual hierarchy."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "top_nav": {
+      "height": "60px",
+      "position": "fixed",
+      "background": {
+        "hex": "#000000",
+        "color_reference": "Baseline/Core Black",
+        "opacity": "1",
+        "blur": "backdrop-filter: blur(10px)"
+      },
+      "border_bottom": "1px solid rgba(0, 0, 0, 0.05)"
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Platform Navigation Tabs",
+      "description": "Navigation links for platform sections (iMessage, WhatsApp, Pricing, Docs, Blog) using lightweight text links with subtle opacity states.",
+      "when_to_use": [
+        "Primary navigation between platform sections",
+        "Horizontal navigation in header"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "25% opacity white text",
+          "background": null,
+          "text": "rgba(255, 255, 255, 0.25)",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Text transitions to full white with 0.4s ease",
+          "background": null,
+          "text": "#FFFFFF",
+          "icon": null
+        },
+        {
+          "name": "current",
+          "visual_change": "Full white text indicating active state",
+          "background": null,
+          "text": "#FFFFFF",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

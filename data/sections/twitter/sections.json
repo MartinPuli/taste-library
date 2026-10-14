@@ -1,0 +1,64 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/twitter.json",
+  "data": [
+    {
+      "type": "Hero / Sign-in Form",
+      "layout_pattern": "Split layout: left-aligned form content on left (desktop), centered X logo on right (desktop); stacked centered layout on mobile",
+      "headline": "Happening now.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Solid black pill-shaped button with white text and phone icon: 'Continue with phone'"
+        },
+        {
+          "type": "button",
+          "description": "White button with border, Google G logo (multi-color), and black text: 'Continue with Google'"
+        },
+        {
+          "type": "button",
+          "description": "White button with border, Apple logo, and black text: 'Continue with Apple'"
+        },
+        {
+          "type": "divider",
+          "description": "Horizontal rule with centered 'or' text, light gray lines on either side"
+        },
+        {
+          "type": "form",
+          "description": "Email/username input field with teal/cyan border on focus, white background, gray placeholder text; disabled gray 'Continue' button that activates to black when input is filled"
+        },
+        {
+          "type": "image",
+          "description": "Large minimalist black X logo (Twitter rebrand), geometric thick strokes, displayed prominently on right side (desktop) or top (mobile)"
+        },
+        {
+          "type": "card",
+          "description": "QR code card with white background, subtle shadow/border, text 'Scan to get the app' above QR code containing small X logo in center; fixed bottom-right corner with scale hover animation"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Horizontal single-row navigation with dot separators",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Small gray text links separated by middot bullets: About, Get App, Grok, Help, Terms, Privacy, Cookies, Careers, Ads & Business, Developers, News, Accessibility, © 2026 X Corp."
+        }
+      ]
+    }
+  ]
+}

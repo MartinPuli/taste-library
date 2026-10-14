@@ -22,10 +22,22 @@ def validate(root=ROOT):
     ranks = [e['rank'] for e in entries]
     if len(ranks) != len(set(ranks)):
         errors.append('Duplicate source ranks')
+    if sorted(ranks) != list(range(1, 41)):
+        errors.append('Collection must preserve exactly the Cosign top 40')
     if set(ids) != {e['id'] for e in manifest['records']}:
         errors.append('Manifest and catalog IDs differ')
-    if catalog['schema_version'] != '1.0':
+    if catalog['schema_version'] != '1.1':
         errors.append('Unsupported catalog version')
+    expected_counts = {
+        'records': len(entries),
+        'default_references': sum(e['quality'] != 'limited' for e in entries),
+        'saved_capture_reviews': sum((root / e['paths']['review']).is_file() for e in entries),
+    }
+    if catalog['counts'] != expected_counts:
+        errors.append('Catalog counts differ from records')
+    compact = json.loads((root / 'catalog/search.json').read_text())
+    if compact['counts'] != expected_counts or {e['id'] for e in compact['entries']} != set(ids):
+        errors.append('Compact catalog differs')
     records = {e['id']: e for e in manifest['records']}
     required = {'id','name','rank','source_url','captured_at','page_type','use_cases',
                 'styles','quality','warnings','selection_note','note_basis','paths'}
@@ -70,7 +82,45 @@ def validate(root=ROOT):
             errors.append(f'{id}: empty palette must be marked limited')
         if any(key in raw for key in ['user_id','api_key','api_key_name','credit_ref_id','submission_id']):
             errors.append(f'{id}: account metadata in public export')
+        system = raw['result']['design_system']
+        if set(e['sections']) != set(system):
+            errors.append(f'{id}: section inventory differs')
+        for name, section in e['sections'].items():
+            path = root / section['path']
+            if not path.is_file():
+                errors.append(f'{id}: missing section {name}')
+                continue
+            value = json.loads(path.read_text())
+            if value['data'] != system.get(name):
+                errors.append(f'{id}: section content differs: {name}')
+            for key in ['quality','warnings','source_url','captured_at']:
+                if value[key] != e[key]:
+                    errors.append(f'{id}: section {name} provenance differs: {key}')
+            if value['source_pointer'] != '/result/design_system/' + name or value['source_file'] != e['paths']['raw']:
+                errors.append(f'{id}: invalid section source pointer: {name}')
+        if not set(e['components']) <= set(taxonomy['components']) or set(e['components']) != set(e['component_evidence']):
+            errors.append(f'{id}: component inventory differs')
+        for component, pointers in e['component_evidence'].items():
+            for pointer in pointers:
+                try:
+                    target = system[pointer['section']]
+                    for part in pointer['pointer'].strip('/').split('/'):
+                        target = target[int(part)] if isinstance(target,list) else target[part]
+                    if not target:
+                        raise ValueError('empty evidence')
+                except (KeyError, IndexError, ValueError, TypeError):
+                    errors.append(f'{id}: broken component pointer for {component}')
+        review = json.loads((root / e['paths']['review']).read_text())
+        if review['raw_sha256'] != hashlib.sha256(raw_path.read_bytes()).hexdigest():
+            errors.append(f'{id}: review refers to a different raw version')
+        if not (root / e['preview']).is_file():
+            errors.append(f'{id}: missing preview')
+        c = next((x for x in compact['entries'] if x['id'] == id), None)
+        if c is None or any(c[k] != e[k] for k in c if k != 'profile') or c['profile'] != e['paths']['profile']:
+            errors.append(f'{id}: compact entry differs')
     for path in root.rglob('*.md'):
+        if any(part in {'.git', 'node_modules', '.e2e'} for part in path.relative_to(root).parts):
+            continue
         for target in re.findall(r'\]\(([^)]+)\)', path.read_text()):
             if '://' in target or target.startswith('#'):
                 continue

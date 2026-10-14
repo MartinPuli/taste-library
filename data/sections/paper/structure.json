@@ -1,0 +1,41 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Hairline Divider",
+        "description": "Ultra-thin separator used between sections and list items in the application mockup UI.",
+        "when_to_use": [
+          "Separating list items",
+          "Between sidebar sections",
+          "Below navigation elements"
+        ],
+        "color": "#E2E2E2",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Section Border",
+        "description": "Structural border used in the blueprint-style grid system to define content areas.",
+        "when_to_use": [
+          "Page section boundaries",
+          "Card outlines",
+          "Grid cell borders"
+        ],
+        "color": "#D7D7D6",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -2,31 +2,49 @@
 
 Study how object photography, small labels, and a regular grid work together.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 5 · Captured 2026-09-19T08:37:42.947619Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 5 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-19T08:37:42.947619Z |
-| Suggested uses | hardware |
-| Visual approach | monochrome, image-led, modular |
+[Original website](https://teenage.engineering/) · [Full extraction](../data/raw/teenage-engineering.json) · [Review record](../data/reviews/teenage-engineering.json)
 
-## Details to compare
+[Small visual preview](../data/previews/teenage-engineering.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/full.jpg)
 
-- Detected type families: te-40, te-20, UniversNextPro-Thin, Arial, franxurter, TechnoType, swingus, riddim, riddimscript.
-- Recorded palette: #000000, #0F0E12, #B2B2B2, #E5E5E5, #0071BB.
-- Grid: `{"columns": 12, "gutter": "10px", "max_width": "980px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A dense illustrated header leads into oversized black lettering and a black-and-white comic illustration on white.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://teenage.engineering/) · [Extraction](../data/raw/teenage-engineering.json) · [Tokens](../data/tokens/teenage-engineering.json)
+Project types: hardware. Styles: monochrome, image-led, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show teenage-engineering --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study how object photography, small labels, and a regular grid work together. Evidence: [layout](../data/sections/teenage-engineering/layout.json), [sections](../data/sections/teenage-engineering/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/teenage-engineering/actions.json).
+
+## Content to bring
+
+Product photography with enough detail and consistent framing to carry large sections. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/teenage-engineering/profile.json)
+- [Layout](../data/sections/teenage-engineering/layout.json)
+- [Colors](../data/sections/teenage-engineering/colors.json)
+- [Typography](../data/sections/teenage-engineering/typography.json)
+- [Surfaces](../data/sections/teenage-engineering/surfaces.json)
+- [Elevation](../data/sections/teenage-engineering/elevation.json)
+- [Interactions](../data/sections/teenage-engineering/interactions.json)
+- [Actions](../data/sections/teenage-engineering/actions.json)
+- [Navigation](../data/sections/teenage-engineering/navigation.json)
+- [Data Display](../data/sections/teenage-engineering/data_display.json)
+- [Structure](../data/sections/teenage-engineering/structure.json)
+- [Icons](../data/sections/teenage-engineering/icons.json)
+- [Assets](../data/sections/teenage-engineering/assets.json)
+- [Brand Assets](../data/sections/teenage-engineering/brand_assets.json) · no observed data
+- [Sections](../data/sections/teenage-engineering/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

@@ -1,0 +1,57 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "top_nav": {
+      "height": "64px",
+      "position": "sticky",
+      "background": {
+        "hex": "#000000",
+        "color_reference": "ghost-void",
+        "opacity": "0.55",
+        "blur": "backdrop-filter: blur(9px)"
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": {
+      "background": "#FF5517",
+      "text_color": "#FFFFFF",
+      "border_bottom": null,
+      "height": "34px"
+    },
+    "tabs": {
+      "style_name": "Segmented Control",
+      "description": "Tabs organize content into multiple sections with a sliding indicator showing the active state.",
+      "when_to_use": [
+        "Switching between Digital, Home, and Health categories",
+        "Filtering content within a single view"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "Blue background with light text and small indicator bar",
+          "background": "#006DDF",
+          "text": "#D6EAFF",
+          "icon": null
+        },
+        {
+          "name": "default",
+          "visual_change": "No background, muted blue text",
+          "background": "transparent",
+          "text": "rgba(0, 109, 223, 0.6)",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

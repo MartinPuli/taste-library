@@ -1,0 +1,154 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "tab_switching",
+      "hover_lift"
+    ],
+    "animations": [
+      {
+        "name": "swipe-out-left",
+        "css": "@keyframes swipe-out-left{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) - 100%));opacity:0}}",
+        "description": "Swipe out animation to the left for toast/notification dismissal"
+      },
+      {
+        "name": "swipe-out-right",
+        "css": "@keyframes swipe-out-right{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) + 100%));opacity:0}}",
+        "description": "Swipe out animation to the right for toast/notification dismissal"
+      },
+      {
+        "name": "swipe-out-up",
+        "css": "@keyframes swipe-out-up{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) - 100%));opacity:0}}",
+        "description": "Swipe out animation upward for toast/notification dismissal"
+      },
+      {
+        "name": "swipe-out-down",
+        "css": "@keyframes swipe-out-down{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) + 100%));opacity:0}}",
+        "description": "Swipe out animation downward for toast/notification dismissal"
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}100%{opacity:1;transform:scale(1)}}",
+        "description": "Fade in with scale animation for toast notifications"
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.8)}}",
+        "description": "Fade out with scale animation for toast notifications"
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin{0%{opacity:1}100%{opacity:.15}}",
+        "description": "Spinning loader animation for toast loading states"
+      },
+      {
+        "name": "spin",
+        "css": "animation: spin 1s linear infinite",
+        "description": "Standard infinite rotation animation for spinners"
+      },
+      {
+        "name": "pulse",
+        "css": "animation: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+        "description": "Pulsing animation for attention indicators"
+      },
+      {
+        "name": "pressable",
+        "css": "transition-property:transform,border-color,background-color,opacity,box-shadow;transition-duration:.32s;transition-timing-function:cubic-bezier(.24, .8, .24, 1)",
+        "description": "Pressable button interaction with scale and color transitions"
+      },
+      {
+        "name": "pressable-active",
+        "css": "transform:translateZ(0) scale(.992);transition-duration:.2s;transition-timing-function:cubic-bezier(.24, .8, .24, 1)",
+        "description": "Active press state for pressable elements with slight scale down"
+      },
+      {
+        "name": "drawer-in",
+        "css": "animation:drawer-in .24s cubic-bezier(.24, 1, .36, 1)",
+        "description": "Drawer panel entrance animation"
+      },
+      {
+        "name": "drawer-out",
+        "css": "animation:drawer-out .24s cubic-bezier(.4, 0, .24, 1)",
+        "description": "Drawer panel exit animation"
+      },
+      {
+        "name": "modal-in",
+        "css": "animation:modal-in .16s cubic-bezier(.24, 1, .36, 1)",
+        "description": "Modal entrance animation with ease-enter timing"
+      },
+      {
+        "name": "modal-out",
+        "css": "animation:modal-out .16s cubic-bezier(.4, 0, .24, 1)",
+        "description": "Modal exit animation with ease-exit timing"
+      },
+      {
+        "name": "sheet-in",
+        "css": "animation:sheet-in .25s cubic-bezier(.32, .72, 0, 1)",
+        "description": "Bottom sheet entrance animation"
+      },
+      {
+        "name": "sheet-out",
+        "css": "animation:sheet-out .25s cubic-bezier(.32, .72, 0, 1)",
+        "description": "Bottom sheet exit animation"
+      },
+      {
+        "name": "content-reveal",
+        "css": "animation:.52s cubic-bezier(.22,.61,.36,1) backwards content-reveal",
+        "description": "Content reveal animation for page entrance effects"
+      },
+      {
+        "name": "skeleton-shimmer",
+        "css": "animation:skeleton-shimmer var(--skeleton-duration,2s) ease-in-out infinite",
+        "description": "Skeleton loading shimmer effect"
+      },
+      {
+        "name": "spinner-ring",
+        "css": "animation:spin var(--spinner-duration,.8s) linear infinite",
+        "description": "Spinner ring rotation animation"
+      },
+      {
+        "name": "global-hover-fade",
+        "css": "transition-duration:var(--duration-hover-fade,.12s);transition-timing-function:cubic-bezier(.25, .8, .25, 1)",
+        "description": "Global hover fade transition for interactive elements"
+      },
+      {
+        "name": "ease-gentle",
+        "css": "transition-timing-function:cubic-bezier(.24, .8, .24, 1)",
+        "description": "Gentle easing curve for smooth interactions"
+      },
+      {
+        "name": "ease-enter",
+        "css": "transition-timing-function:cubic-bezier(.24, 1, .36, 1)",
+        "description": "Entry easing curve for elements appearing"
+      },
+      {
+        "name": "ease-exit",
+        "css": "transition-timing-function:cubic-bezier(.4, 0, .24, 1)",
+        "description": "Exit easing curve for elements disappearing"
+      },
+      {
+        "name": "page-entrance",
+        "css": "",
+        "description": "Page entrance animation with staggered delays - JS-driven via page-entrance classes with entrance-delay and entrance-duration modifiers"
+      }
+    ],
+    "insights": [
+      "The design system uses a sophisticated pressable interaction pattern with subtle scale transforms (0.992) and custom cubic-bezier easing curves for a premium tactile feel",
+      "A comprehensive modal/sheet system is implemented with distinct enter/exit animations using different easing curves - ease-enter for appearing elements and ease-exit for disappearing ones",
+      "The navigation features a glassmorphism effect with 75% opacity white background and 10px blur, creating a modern frosted glass aesthetic while maintaining sticky positioning"
+    ]
+  }
+}

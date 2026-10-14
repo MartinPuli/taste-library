@@ -1,0 +1,56 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "brand_name": "Runway",
+    "tagline": null,
+    "source_url": "https://runwayml.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "AI / Creative Technology",
+    "primary_purpose": "Drive product awareness and trial adoption across Runway's AI platform offerings (Creative, Dev, Robotics)",
+    "main_cta": "Try Runway for free",
+    "copy_tone": [
+      "Ambitious",
+      "Technical",
+      "Confident"
+    ],
+    "brand_signature": "A refined, editorial aesthetic combining generous white space with cinematic full-bleed video backgrounds. The visual identity pairs a custom sans-serif typeface (ABC Normal) with an elegant serif (Times Now) for display moments, creating a premium tech-meets-creative feel anchored by a near-monochromatic palette with strategic use of a signature blue accent.",
+    "visual_language": {
+      "keywords": [
+        "cinematic",
+        "editorial",
+        "precise",
+        "premium",
+        "expansive"
+      ],
+      "accent_strategy": "A vivid blue (#2B22FA) used sparingly for promotional banners and interactive highlights, creating high contrast against the neutral palette",
+      "highlights": "Full-bleed video hero sections with subtle dark overlays; rounded card containers with light borders to create depth hierarchy"
+    },
+    "strategy": {
+      "target_audience": [
+        "Creative professionals and content creators seeking AI-powered video and image generation tools for commercial projects",
+        "Enterprise marketing and media teams requiring scalable, secure AI creative solutions with API access",
+        "Developers and technical teams building AI-powered applications needing video generation APIs",
+        "Robotics engineers and researchers exploring simulation and policy training through world models"
+      ],
+      "executive_synthesis": "Runway's homepage strategically positions the brand at the intersection of cutting-edge AI research and practical creative tooling. The three-pillar product architecture (Creative, Dev, Robotics) is visually unified through consistent card-based presentation while differentiated by distinct CTAs. The cinematic hero treatment establishes creative credibility, while the technical language ('General World Models', 'Real-World Intelligence') signals research depth to enterprise and developer audiences. The prominent partner logos and news section reinforce market validation, supporting conversion paths that span from individual trial signups to enterprise sales outreach."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "**Visual Analysis:** The screenshot reveals a highly polished, modern tech company website with a clean, professional aesthetic. The hero section features a dramatic atmospheric photograph with white text overlay, while the rest of the page alternates between crisp white sections and a deep black footer. The overall impression is restrained elegance with careful attention to spacing and hierarchy.\n\n**Forensic Evidence Supporting Flat Design:**\n\n1. **Color Palette (Clean/Pure):** The palette is strictly grayscale—Paper White (#FFFFFF), Off-Black (#0C0C0C), and Body Gray (#404040)—with a single accent (Promo Blue #2B22FA). This minimalist, high-contrast palette is characteristic of Flat Design's bold, saturated-yet-limited color approach.\n\n2. **Typography (Sans-Serif Modern, Geometric):** The design uses a single proprietary typeface (abcNormal) throughout, a geometric sans-serif with tight tracking on display sizes. The fluid typography scale via CSS clamp() and the weight hierarchy (400-600) creates clear visual order without introducing multiple font families—hallmark Flat Design systematization.\n\n3. **Shape/Texture Profile:** The texture classification indicates \"gradient_linear\" and \"shadows_soft\"—importantly, these are utilitarian (carousel fades, subtle button shadows) rather than decorative. Cards use subtle borders (border-black/10) and rounded corners (rounded-lg, rounded-xl) but remain fundamentally flat surfaces. No skeuomorphic effects, no complex gradients.\n\n4. **Layout (Grid-Based Strict, Generous Whitespace):** The 12-column grid with 100px+ vertical padding between sections creates clear visual breathing room. The strict adherence to grid alignment and systematic spacing is textbook Flat Design/Swiss-influenced digital design.\n\n5. **Dimensionality Score:** Almost entirely 2D. While soft shadows exist, they're minimal and functional—creating subtle elevation hierarchy rather than tactile depth. No glass effects, no neumorphic extrusion, no 3D elements.\n\n**Key Differentiator from Minimalism:** This is NOT extreme reduction. The page has substantial content density—three product cards, news grid, extensive footer, logo marquee. It's organized abundance, not emptiness.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "**Corporate Modifier Applied:** The design strongly exhibits corporate tonal qualities that modify the base Flat Design:\n\n1. **Trust signals:** Enterprise-focused CTAs (\"For Enterprise,\" \"Contact Sales\"), partner logos (nvidia, Amazon), compliance badges (GDPR, SOC 2 Type II in footer).\n\n2. **Professional restraint:** Muted color palette, formal typographic hierarchy, conservative button styling with opacity-based hover states rather than playful animations.\n\n3. **B2B structure:** Three-product platform presentation, research/technical documentation sections (GWM-1, Gen-4.5), multi-column mega footer with extensive link architecture—all hallmarks of enterprise SaaS design.\n\n4. **Photography style:** The atmospheric hero and professional team photos convey competence and scale rather than playfulness or creativity.\n\nThe Corporate modifier accurately captures the audience-appropriate formality layered onto the Flat Design foundation."
+    }
+  }
+}

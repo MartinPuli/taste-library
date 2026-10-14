@@ -1,0 +1,37 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Search Bar Divider",
+        "description": "Vertical divider between search bar segments (Where, When, Who)",
+        "when_to_use": [
+          "Separating interactive segments within the search bar"
+        ],
+        "color": "#00000014",
+        "height": "20px",
+        "style": "solid"
+      },
+      {
+        "name": "Section Spacing",
+        "description": "Visual separation between property carousel sections using vertical spacing",
+        "when_to_use": [
+          "Between homepage category carousels"
+        ],
+        "color": "transparent",
+        "height": "32px",
+        "style": "solid"
+      }
+    ]
+  }
+}

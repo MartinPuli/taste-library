@@ -1,0 +1,125 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Base Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary structural and typographical color, providing maximum contrast for body text and component borders.",
+          "when_to_use": [
+            "Global body text",
+            "Navigation and header button borders",
+            "UI icons like dropdown chevrons and the language globe"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Hyperlink Blue",
+        "type": "Dark",
+        "rules": {
+          "description": "An unapologetically raw web blue that acts as the universal interactive accent and paints the brand logo.",
+          "when_to_use": [
+            "Header brand wordmark logo",
+            "All text links in the navigation and footer",
+            "Entire clickable area of featured article cards",
+            "Social media icons"
+          ]
+        },
+        "hex": "#0000EE",
+        "alpha": null,
+        "shades": [],
+        "score": 0.2146
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Control Surface",
+        "type": "Light",
+        "rules": {
+          "description": "A family of light grays and pure white used to give physical form to interactive controls and input fields.",
+          "when_to_use": [
+            "Backgrounds of secondary buttons (Search, Login, Language)",
+            "Play button backgrounds on video thumbnails",
+            "Chat prompt and search input backgrounds",
+            "Modal dialog backgrounds"
+          ]
+        },
+        "hex": "#F0F0F0",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EFEFEF",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0031999999999999997
+      },
+      {
+        "name": "Input Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A functional mid-gray used strictly to define the boundaries of user inputs and render secondary vector details.",
+          "when_to_use": [
+            "Borders of the main ChatGPT prompt textarea",
+            "Borders of the locale search input",
+            "Secondary paths in the privacy choices footer icon"
+          ]
+        },
+        "hex": "#767676",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#5D5D5D",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0011
+      },
+      {
+        "name": "Disabled Ink",
+        "type": "Dark",
+        "rules": {
+          "description": "A near-black that is exclusively applied with high transparency to indicate inactive states.",
+          "when_to_use": [
+            "Icon fill for the disabled 'Send prompt' button in the hero section"
+          ]
+        },
+        "hex": "#101010",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0005
+      }
+    ],
+    "insights": [
+      "The palette evokes a raw, unstyled web aesthetic by using the default browser #0000EE blue not just for every interactive link and card, but for the main brand wordmark itself.",
+      "Surface hierarchy is extremely flat; the page relies on the white background, using light gray fills exclusively to define touch targets like buttons and inputs rather than broad page sections.",
+      "Form inputs are distinctly styled with structural gray borders, rejecting borderless modern input trends to maintain clear, utilitarian usability."
+    ]
+  }
+}

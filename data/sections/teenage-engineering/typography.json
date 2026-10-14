@@ -1,0 +1,383 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "te-40",
+          "role": "Display H1 (fs-40)",
+          "specs": {
+            "size": "calc(.0367347 * 100vw)",
+            "line_height": "calc(.0408163 * 100vw)",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-40\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Display H2 (fs-30)",
+          "specs": {
+            "size": "calc(.027551 * 100vw)",
+            "line_height": "calc(.0306122 * 100vw)",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Display H3 (fs-25)",
+          "specs": {
+            "size": "calc(.0234694 * 100vw)",
+            "line_height": "calc(.0306122 * 100vw)",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Dynamic Title Extra Large (.txt .xl)",
+          "specs": {
+            "size": "calc((var(--txt-bh-unit) * 4 - var(--txt-px-unit) * 4) * var(--txt-scale))",
+            "line_height": "calc(var(--txt-bh-unit) * 4 * var(--txt-scale))",
+            "font_weight": "100",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Dynamic Title Large (.txt .l)",
+          "specs": {
+            "size": "calc((var(--txt-bh-unit) * 3 - var(--txt-px-unit) * 3) * var(--txt-scale))",
+            "line_height": "calc(var(--txt-bh-unit) * 3 * var(--txt-scale))",
+            "font_weight": "100",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "UniversNextPro-Thin",
+          "role": "Display Thin (.cls-6, .cls-5)",
+          "specs": {
+            "size": "19.5px",
+            "line_height": "",
+            "font_weight": "200",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "system"
+          },
+          "technical": {
+            "font_family_css": "UniversNextPro-Thin",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text and multi-line descriptions.",
+      "variants": [
+        {
+          "name": "te-20",
+          "role": "Body Large (fs-20)",
+          "specs": {
+            "size": "calc(.0183673 * 100vw)",
+            "line_height": "calc(.0204082 * 100vw)",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Body Standard (fs-15)",
+          "specs": {
+            "size": "calc(.0132653 * 100vw)",
+            "line_height": "calc(.0153061 * 100vw)",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Dynamic Text Base (.txt)",
+          "specs": {
+            "size": "calc((var(--txt-bh-unit) * 2 - var(--txt-px-unit) * 2) * var(--txt-scale))",
+            "line_height": "calc(var(--txt-bh-unit) * 2 * var(--txt-scale))",
+            "font_weight": "100",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Dynamic Text Medium (.txt .m)",
+          "specs": {
+            "size": "calc((var(--txt-bh-unit) * 1.5 - var(--txt-px-unit) * 2) * var(--txt-scale))",
+            "line_height": "calc(var(--txt-bh-unit) * 1.5 * var(--txt-scale))",
+            "font_weight": "100",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Small functional labels, captions, and microcopy sizes.",
+      "variants": [
+        {
+          "name": "te-20",
+          "role": "Small Label (fs-10)",
+          "specs": {
+            "size": "calc(.00918367 * 100vw)",
+            "line_height": "calc(.0102041 * 100vw)",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "te-20",
+          "role": "Dynamic Small Text (.txt .s)",
+          "specs": {
+            "size": "calc((var(--txt-bh-unit) - var(--txt-px-unit)) * var(--txt-scale))",
+            "line_height": "calc(var(--txt-bh-unit) * var(--txt-scale))",
+            "font_weight": "100",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"te-20\", \"Unicode\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "UniversNextPro-Thin",
+          "role": "Smallest Caption (.cls-4)",
+          "specs": {
+            "size": "9px",
+            "line_height": "",
+            "font_weight": "200",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "system"
+          },
+          "technical": {
+            "font_family_css": "UniversNextPro-Thin",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Arial",
+          "role": "Video Player UI (video-js)",
+          "specs": {
+            "size": "10px",
+            "line_height": "1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "system"
+          },
+          "technical": {
+            "font_family_css": "Arial",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Decorative and playful typography for specific product branding and logotypes.",
+      "variants": [
+        {
+          "name": "franxurter",
+          "role": "Decorative Logotype (.fx)",
+          "specs": {
+            "size": "",
+            "line_height": "0.75em",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "franxurter",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TechnoType",
+          "role": "Decorative Logotype (.tt)",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TechnoType",
+            "file_url": null
+          }
+        },
+        {
+          "name": "swingus",
+          "role": "Decorative Logotype (.sw)",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "swingus",
+            "file_url": null
+          }
+        },
+        {
+          "name": "riddim",
+          "role": "Decorative Logotype (.rt)",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "riddim",
+            "file_url": null
+          }
+        },
+        {
+          "name": "riddimscript",
+          "role": "Decorative Logotype (.rs)",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "riddimscript",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "highlights": "Special text styles include inline links displaying on hover with an underline, and playful display usages of custom typefaces like 'franxurter', 'swingus', 'riddim', and 'riddimscript' for decorative product logotypes and playful graphic elements.",
+    "insights": [
+      "The typography system relies heavily on fluid viewport-based units (`calc(... * 100vw)`) combined with local scale variables, ensuring a rigid but highly responsive grid-locked typographic scale.",
+      "A strict adherence to ultralight (100) and light (300) font weights establishes a highly technical, minimalist, and airy aesthetic typical of industrial design.",
+      "Two primary proprietary sans-serif typefaces (`te-20` and `te-40`) carry the majority of the UI, differentiating largely by their intended scale, while a robust set of decorative fonts provides distinctive branding per product."
+    ]
+  }
+}

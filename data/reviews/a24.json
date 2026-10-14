@@ -1,0 +1,50 @@
+{
+  "id": "a24",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "Full-bleed film photography supports oversized white film titles. A newsletter overlay obscures the center of this capture.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/viewport.jpg",
+    "sha256": "688ad575cac89fda0ae374ef0ae43b2d16e17471b9e3790bc196733b77037d58"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/styles.css",
+    "sha256": "1095e85fdd7c0abb8a44960e781472033b2f31a01595931b9d87d264bd44f76a",
+    "bytes": 311200,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#888888",
+      "#CACACA",
+      "#646464"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#FFFFFF",
+      "#888888",
+      "#CACACA",
+      "#646464"
+    ],
+    "font_names_found": [
+      "NB International Web",
+      "NB International Mono Web"
+    ],
+    "font_names_checked": [
+      "NB International Web",
+      "NB International Mono Web",
+      "Akzidenz-Grotesk Extended"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "0e46af5a9abd727968e7edb1d062253fb5b4c5a7777fce2d923e5482233b85ae"
+}

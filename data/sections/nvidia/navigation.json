@@ -1,0 +1,58 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "top_nav": {
+      "height": "45px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Baseline/Paper White",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Mega Menu Tab",
+      "description": "Navigation tabs that expand to reveal multi-level mega menu dropdowns with product categories and solution areas.",
+      "when_to_use": [
+        "Primary site navigation",
+        "Multi-level category organization",
+        "Product and solution discovery"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Black text on white background",
+          "background": null,
+          "text": "#000000",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Text color changes to NVIDIA green",
+          "background": null,
+          "text": "#76B900",
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Green underline slider appears beneath active tab",
+          "background": null,
+          "text": "#76B900",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

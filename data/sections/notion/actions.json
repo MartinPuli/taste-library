@@ -1,0 +1,310 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Get Notion free (Primary CTA)",
+        "usage": "Main conversion button in navigation header and hero sections. Used for user signup/registration.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+              "size": "14px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#097FE8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0075DE",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#097FE8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get Notion free (Hero Primary)",
+        "usage": "Primary CTA in hero section with larger sizing for visual prominence.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+              "size": "16px",
+              "padding": "12px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#097FE8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0075DE",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#097FE8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Request a demo (Secondary Link)",
+        "usage": "Secondary action in hero and footer sections. Styled as text link with blue color.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#005BAB",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#097FE8",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#005BAB",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Product (Nav Dropdown Trigger)",
+        "usage": "Navigation dropdown trigger button for expandable menus.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+              "size": "16px",
+              "padding": "5px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000E5",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.05)",
+            "text_color": "#000000E5",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000E5",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "English (US) (Language Selector)",
+        "usage": "Language/locale selector button in footer with pill shape and border.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+              "size": "14px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000F2",
+            "border_color": "rgba(0, 0, 0, 0.1)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F6F5F4",
+            "text_color": "#000000F2",
+            "border_color": "rgba(0, 0, 0, 0.1)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000F2",
+            "border_color": "rgba(0, 0, 0, 0.1)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Pause (Icon Button Circular)",
+        "usage": "Play/pause control for hero video. Icon-only circular button.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "16px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0, 0, 0, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Ghost Button (Logo Wall Item)",
+        "usage": "Logo wall items styled as ghost buttons for hover interactivity on company logos.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "NotionInter, Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+              "size": "16px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000F2",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.05)",
+            "text_color": "#000000F2",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000F2",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Primary + Secondary button pairing with horizontal layout",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

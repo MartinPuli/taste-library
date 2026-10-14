@@ -1,0 +1,67 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "global_patterns": [
+      "carousel",
+      "sticky_header",
+      "hover_transform",
+      "tab_switching"
+    ],
+    "animations": [
+      {
+        "name": "p2-stays-map-fade-out",
+        "css": "@keyframes p2-stays-map-fade-out{0%{opacity:1}to{opacity:0}}",
+        "description": "Fade out animation for map transitions on stays page"
+      },
+      {
+        "name": "p2-stays-map-fade-in",
+        "css": "@keyframes p2-stays-map-fade-in{0%{opacity:0}to{opacity:1}}",
+        "description": "Fade in animation for map transitions on stays page"
+      },
+      {
+        "name": "p2-stays-map-icon-exit",
+        "css": "@keyframes p2-stays-map-icon-exit{to{filter:blur(8px);transform:scale(.6)}}",
+        "description": "Exit animation for map control icons with blur and scale down effect"
+      },
+      {
+        "name": "p2-stays-map-icon-enter",
+        "css": "@keyframes p2-stays-map-icon-enter{0%{filter:blur(8px);transform:scale(.6)}}",
+        "description": "Enter animation for map control icons transitioning from blurred and scaled state"
+      },
+      {
+        "name": "p2-stays-map-feed-recede",
+        "css": "@keyframes p2-stays-map-feed-recede{0%{scale:1}to{scale:.94}}",
+        "description": "Scale down animation when map expands, feed content recedes"
+      },
+      {
+        "name": "p2-stays-map-feed-restore",
+        "css": "@keyframes p2-stays-map-feed-restore{0%{scale:.94}to{scale:1}}",
+        "description": "Scale restore animation when map collapses, feed content returns to normal"
+      },
+      {
+        "name": "view-transition-springs",
+        "css": "",
+        "description": "JS-driven spring animations using CSS variables (--motion-springs-standard-easing, --motion-springs-fast-easing) for view transitions between map expand/collapse states"
+      },
+      {
+        "name": "tab-underline-slide",
+        "css": "",
+        "description": "JS-driven animation for the tab underline indicator that slides horizontally between navigation tabs (All, Homes, Experiences, Services)"
+      }
+    ],
+    "insights": [
+      "Airbnb uses a highly minimalist monochromatic palette where components step back to let photography be the hero, with sharp corners on most UI elements and rounded corners reserved for interactive components like search bars and cards.",
+      "The design system employs sophisticated view transition APIs with spring-based easing for map interactions, showing advanced use of CSS @keyframes combined with JS-driven motion for complex state changes.",
+      "Button hierarchy is established through fill styles rather than color variation - primary actions use solid black fills while tertiary actions use transparent backgrounds with hover state reveals, maintaining the neutral palette throughout."
+    ]
+  }
+}

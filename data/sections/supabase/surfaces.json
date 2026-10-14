@@ -1,0 +1,193 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Background Surface",
+        "description": "Primary background color for light theme",
+        "when_to_use": [
+          "Page backgrounds",
+          "Main surface areas"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Surface 75",
+        "description": "Secondary surface for cards and panels",
+        "when_to_use": [
+          "Card backgrounds",
+          "Product panels",
+          "Elevated surfaces"
+        ],
+        "hex": "#F5F5F4"
+      },
+      {
+        "name": "Surface 100",
+        "description": "Tertiary surface for deeper elevation",
+        "when_to_use": [
+          "Dropdown overlays",
+          "Modal backgrounds",
+          "Command menus"
+        ],
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Surface 200",
+        "description": "Surface for hover states and deeper containers",
+        "when_to_use": [
+          "Hover states",
+          "Active backgrounds"
+        ],
+        "hex": "#D6D3D1"
+      },
+      {
+        "name": "Navigation Background",
+        "description": "Navigation bar background with 90% opacity and backdrop blur",
+        "when_to_use": [
+          "Sticky navigation",
+          "Header backgrounds"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Border Default",
+        "description": "Default border color for UI elements",
+        "when_to_use": [
+          "Card borders",
+          "Panel borders",
+          "Dividers"
+        ],
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Border Strong",
+        "description": "Stronger border color for emphasis",
+        "when_to_use": [
+          "Emphasized borders",
+          "Component separators"
+        ],
+        "hex": "#D6D3D1"
+      },
+      {
+        "name": "Popover Surface",
+        "description": "Surface color for popovers and floating menus",
+        "when_to_use": [
+          "Dropdown menus",
+          "Tooltips",
+          "Navigation panels"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Alternative Surface",
+        "description": "Alternative surface for buttons and secondary elements",
+        "when_to_use": [
+          "Secondary buttons",
+          "Tabs",
+          "Chip backgrounds"
+        ],
+        "hex": "#F5F5F4"
+      },
+      {
+        "name": "Overlay",
+        "description": "Dark overlay with transparency for modals",
+        "when_to_use": [
+          "Modal overlays",
+          "Backdrop layers"
+        ],
+        "hex": "#0A0A0A"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "CTA Button Gradient",
+        "description": "Subtle top-to-bottom gradient for primary CTA buttons",
+        "when_to_use": [
+          "Primary action buttons",
+          "Start your project CTA",
+          "Sign up buttons"
+        ],
+        "css_code": "linear-gradient(to_bottom,hsl(var(--colors-white)/0.015),hsl(var(--colors-black)/0.01))"
+      },
+      {
+        "name": "Panel Border Gradient",
+        "description": "Top-to-bottom gradient for panel borders transitioning from solid to semi-transparent",
+        "when_to_use": [
+          "Product card borders",
+          "Feature panel borders"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--border), rgba(var(--border)/0.5))"
+      },
+      {
+        "name": "Visual Overlay Gradient",
+        "description": "Bottom-to-top gradient overlay for visual fade effects",
+        "when_to_use": [
+          "Realtime panel overlay",
+          "Image fade overlays"
+        ],
+        "css_code": "linear-gradient(to_top,transparent_0%,transparent_50%,var(--background-surface-75)_85%)"
+      },
+      {
+        "name": "Lovable Card Gradient",
+        "description": "Vibrant multi-color gradient transitioning from pink through red to orange",
+        "when_to_use": [
+          "Lovable customer story card",
+          "Featured case study backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, #FD49A8 0%, #FD2980 10%, #FC1A58 20%, #FA1F41 30%, #FA2733 40%, #FB3D26 50%, #FC541F 60%, #FE6A1E 70%, #FE771D 80%, #FF861B 90%, #FF8F1B 100%)"
+      },
+      {
+        "name": "Rally Card Gradient",
+        "description": "Diagonal gradient in vibrant blue tones using Display P3 color space",
+        "when_to_use": [
+          "Rally customer story card",
+          "Premium feature highlights"
+        ],
+        "css_code": "linear-gradient(to bottom left, color(display-p3 0.275 0.306 0.8 / 1) 0%, color(display-p3 0.118 0.176 0.769 / 1) 100%)"
+      },
+      {
+        "name": "Mask Gradient Composite",
+        "description": "Vertical gradient mask for community section",
+        "when_to_use": [
+          "Community section masking",
+          "Content fade effects"
+        ],
+        "css_code": "linear-gradient(to bottom, black 50%, transparent 100%)"
+      },
+      {
+        "name": "Mask Gradient Horizontal",
+        "description": "Horizontal gradient mask fading edges",
+        "when_to_use": [
+          "Community section horizontal masking",
+          "Carousel edge fades"
+        ],
+        "css_code": "linear-gradient(to right, transparent, black 10%, black 90%, transparent)"
+      }
+    ],
+    "highlights": [
+      "Backdrop blur effect on navigation: 'backdrop-blur-xs' creates frosted glass effect on sticky header",
+      "Soft shadow on product panels: 'shadow-lg' and 'hover:shadow-md' for depth and interactivity",
+      "Panel border gradient treatment: 1px gradient border from full opacity to 50% opacity creates subtle depth",
+      "Raised button shadow: 'shadow-[var(--button-shadow-raised)]' adds elevation to primary CTAs",
+      "Toast notification shadow: 'box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px' for floating UI elements",
+      "Dashboard preview shadow: 'shadow-lg' on rounded container with border creates realistic depth",
+      "Customer story cards: Inset shadow 'box-shadow:inset 0 0 0 1px rgba(255,255,255,0.12)' creates subtle inner border glow on gradient backgrounds",
+      "Visual overlay fade: Linear gradient overlay on Realtime panel creates seamless content fade from transparent to surface-75",
+      "Animated marquee effect: File type icons in Storage panel use CSS animation for continuous scrolling",
+      "Blur transitions: Multiple elements use 'filter:blur()' with opacity for progressive disclosure effects"
+    ]
+  }
+}

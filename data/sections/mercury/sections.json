@@ -1,0 +1,294 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/mercury.json",
+  "data": [
+    {
+      "type": "Header Navigation",
+      "layout_pattern": "Horizontal split with logo left, nav center, CTA buttons right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Mercury logo in default icon color (dark), SVG format"
+        },
+        {
+          "type": "navigation",
+          "description": "Dropdown menu buttons (Products, Solutions, Resources, About, Pricing) with rounded pill-shaped buttons, emphasized hover states"
+        },
+        {
+          "type": "button",
+          "description": "Log in button: rounded pill, emphasized surface background"
+        },
+        {
+          "type": "button",
+          "description": "Open account CTA: rounded pill, primary surface background (purple), gradient shimmer effect overlay"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Radically different banking",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Get early access CTA: primary purple button with gradient"
+        },
+        {
+          "type": "image",
+          "description": "Bench on mountain landscape: dramatic outdoor photography with dark stormy sky, moody atmospheric lighting"
+        },
+        {
+          "type": "image",
+          "description": "Product preview overlay on hero image"
+        }
+      ]
+    },
+    {
+      "type": "Laptop Mockup Section",
+      "layout_pattern": "Centered single image",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "MacBook Pro display showing dark-themed banking interface with transaction list, navy/black UI with purple/blue accents"
+        }
+      ]
+    },
+    {
+      "type": "Person/Lifestyle",
+      "layout_pattern": "Centered image with text overlay",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Person in warm interior setting, lifestyle photography with soft natural lighting, warm neutrals and browns"
+        }
+      ]
+    },
+    {
+      "type": "Two Column Feature",
+      "layout_pattern": "Split 50/50",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Dark card mockup: banking interface card with subtle shadow and rounded corners on light background"
+        },
+        {
+          "type": "card",
+          "description": "Description text area with feature copy"
+        }
+      ]
+    },
+    {
+      "type": "Spending Features Grid",
+      "layout_pattern": "Grid 2x2",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Spending UI with chart/interface: modern fintech app design, blues and purples on white"
+        },
+        {
+          "type": "image",
+          "description": "Spending UI with timeline view: transaction timeline interface"
+        },
+        {
+          "type": "card",
+          "description": "Feature detail card with clean borders"
+        },
+        {
+          "type": "card",
+          "description": "Feature detail card with organized layout"
+        }
+      ]
+    },
+    {
+      "type": "Testimonial Quote",
+      "layout_pattern": "Centered",
+      "headline": null,
+      "subheadline": "\"We can only see a short distance ahead, but we can see plenty...\" - Alan Turing",
+      "components": []
+    },
+    {
+      "type": "Road/Journey Visual Section",
+      "layout_pattern": "Split 50/50",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Highway image with vanishing point: cool tones (blues, grays, whites), atmospheric perspective, minimalist composition"
+        },
+        {
+          "type": "card",
+          "description": "Left text area with description and stats/metrics"
+        }
+      ]
+    },
+    {
+      "type": "Circular Product Feature",
+      "layout_pattern": "Split 50/50",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Concentric circles/dial product shot: 3D rendered, precise, centered with white/gray subtle gradients"
+        },
+        {
+          "type": "card",
+          "description": "Feature bullets list on right side"
+        }
+      ]
+    },
+    {
+      "type": "Business Features Section",
+      "layout_pattern": "Grid 2x2",
+      "headline": "Run your business like a combined you",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Wave visual product mockup: smooth organic 3D flowing wave in blues/purples"
+        },
+        {
+          "type": "image",
+          "description": "Chat/message UI interface preview: modern messaging interface"
+        },
+        {
+          "type": "image",
+          "description": "Expense tracking interface detail: fintech UI with transaction tracking"
+        },
+        {
+          "type": "image",
+          "description": "Dark card UI feature showcase: dark navy/black card interface"
+        }
+      ]
+    },
+    {
+      "type": "Central Message",
+      "layout_pattern": "Centered",
+      "headline": "\"You're creating something to stand the test of time. So are we.\"",
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "Security Features Grid",
+      "layout_pattern": "Grid 3-column",
+      "headline": "Designed to protect every detail. Mercury meets...",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Phone stack: layered mobile devices on dark background with purple/blue glows, high-tech aesthetic"
+        },
+        {
+          "type": "image",
+          "description": "Biometric fingerprint scan: glowing purple/blue biometric UI on dark background"
+        },
+        {
+          "type": "image",
+          "description": "Premium metal card: brushed finish card on dark background, sleek and modern"
+        }
+      ]
+    },
+    {
+      "type": "Press/Logo Section",
+      "layout_pattern": "Grid 3-column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "CNBC logo in white/light treatment on dark background with quote"
+        },
+        {
+          "type": "logo_strip",
+          "description": "FORTUNE logo in white/light treatment on dark background with quote"
+        },
+        {
+          "type": "logo_strip",
+          "description": "WSJ logo in white/light treatment on dark background with quote"
+        }
+      ]
+    },
+    {
+      "type": "Info Cards Section",
+      "layout_pattern": "Grid 2-column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "\"What is it?\" card with description text on dark background with subtle borders"
+        },
+        {
+          "type": "card",
+          "description": "\"What's the pledge?\" card with description text on dark background with subtle borders"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid (4-5 columns)",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Product links column: vertical stack, white/gray text on dark background"
+        },
+        {
+          "type": "navigation",
+          "description": "Company links column: vertical stack, white/gray text on dark background"
+        },
+        {
+          "type": "navigation",
+          "description": "Learn links column: vertical stack, white/gray text on dark background"
+        },
+        {
+          "type": "navigation",
+          "description": "Contact links column: vertical stack, white/gray text on dark background"
+        },
+        {
+          "type": "icon",
+          "description": "Social icons: light colored on dark background"
+        },
+        {
+          "type": "navigation",
+          "description": "Legal links: horizontal bottom row"
+        }
+      ]
+    },
+    {
+      "type": "Legal Disclaimer",
+      "layout_pattern": "Full-width single column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Fine print text area: multiple paragraphs, gray text on dark background, very small dense typography"
+        }
+      ]
+    }
+  ]
+}

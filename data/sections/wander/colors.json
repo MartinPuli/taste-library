@@ -1,0 +1,130 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Brand Dark",
+        "type": "Dark",
+        "rules": {
+          "description": "Primary brand dark used for default typography, secondary buttons, and striking iconography.",
+          "when_to_use": [
+            "Primary body text",
+            "\"List on Wander\" header button background",
+            "Feature grid icon backgrounds",
+            "Footer Wander logo fill"
+          ]
+        },
+        "hex": "#202020",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#282828",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#151515",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0004
+      },
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Pure black used for high-contrast section backgrounds, overlays, and primary call-to-action buttons.",
+          "when_to_use": [
+            "Hero section background",
+            "\"Search\" button background",
+            "Property card badging backgrounds and borders",
+            "\"The Wander difference\" dark section fill"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0379
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Secondary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "Muted gray utilized for secondary text, metadata, and lower-priority interface elements.",
+          "when_to_use": [
+            "Search bar placeholder text",
+            "Property card ratings and metadata (beds, nights)",
+            "Footer navigation links"
+          ]
+        },
+        "hex": "#636363",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0296
+      },
+      {
+        "name": "Paper / White",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational light surface color that serves as the page background and high-contrast text on dark sections.",
+          "when_to_use": [
+            "Main page background",
+            "Footer area background",
+            "Inverted text and logos on dark sections (Hero, Wander difference)",
+            "Carousel navigation button backgrounds"
+          ]
+        },
+        "hex": "#F7F7F7",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F0F0F0",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0273
+      },
+      {
+        "name": "Success Green",
+        "type": "Warm Color",
+        "rules": {
+          "description": "A dedicated success hue used exclusively to highlight pricing value and deals.",
+          "when_to_use": [
+            "\"Less than other sites\" savings callouts on property cards"
+          ]
+        },
+        "hex": "#008433",
+        "alpha": null,
+        "shades": [],
+        "score": 0.008
+      }
+    ],
+    "insights": [
+      "The brand employs an ultra-minimalist, monochromatic strategy that allows rich property photography to stand out as the primary visual focus.",
+      "There is a deliberate absence of brand color in the core UI; the only true hue introduced is green, specifically chosen to anchor financial value and savings.",
+      "Sophistication is achieved through a heavy reliance on black, white, and varying levels of translucent overlays (e.g., black alpha on badges and hero images) rather than color blocking."
+    ]
+  }
+}

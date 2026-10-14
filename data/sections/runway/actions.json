@@ -1,0 +1,269 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Try Runway (Primary Dark)",
+        "usage": "Main conversion CTA in navigation bar and hero sections for starting free trial",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "abcNormal",
+              "size": "14px",
+              "padding": "6px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#262626",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#262626",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Try Runway for free (Hero CTA Light)",
+        "usage": "Large hero button for primary conversion action over dark backgrounds",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "abcNormal",
+              "size": "16px",
+              "padding": "8px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F7F7F7",
+            "text_color": "#0C0C0C",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#0C0C0C",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F7F7F7",
+            "text_color": "#0C0C0C",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Enterprise Sales (Secondary Light)",
+        "usage": "Secondary CTA for enterprise contact in navigation and product cards",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "abcNormal",
+              "size": "14px",
+              "padding": "6px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#EEF1F5",
+            "text_color": "#1A1A1A",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E7EAF0",
+            "text_color": "#1A1A1A",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#EEF1F5",
+            "text_color": "#1A1A1A",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact sales (Banner Outline)",
+        "usage": "Ghost button style used in promotional announcement banner",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "abcNormal",
+              "size": "14px",
+              "padding": "4px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(247, 247, 247, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.75)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(247, 247, 247, 0.15)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.75)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(247, 247, 247, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.75)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn more (Ghost)",
+        "usage": "Tertiary action for inline text links in news cards and article previews",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "abcNormal",
+              "size": "14px",
+              "padding": "4px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#1A1A1A",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F5F7FA",
+            "text_color": "#1A1A1A",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#1A1A1A",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn more (Research Outline)",
+        "usage": "Outline button on dark research section background for secondary actions",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "abcNormal",
+              "size": "14px",
+              "padding": "6px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(247, 247, 247, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.75)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(247, 247, 247, 0.15)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.75)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(247, 247, 247, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.75)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Horizontal row with primary and secondary CTAs, commonly used in product cards and hero sections",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

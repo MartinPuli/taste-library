@@ -1,0 +1,230 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "join our newsletter (Primary CTA)",
+        "usage": "Used in the mobile footer as the main call-to-action for newsletter subscription. Full-width button with dark background.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "te-20",
+              "size": "calc(.027551 * 100vw)",
+              "padding": "0 1em"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0F0E12",
+            "text_color": "#F5F5F5",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0F0E12",
+            "text_color": "#F5F5F5",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.7",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#B2B2B2",
+            "text_color": "#F5F5F5",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "explore all products (CTA Link)",
+        "usage": "Used as a full-width banner link at the bottom of product sections to encourage browsing all products. Appears in both desktop and mobile layouts.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "te-40",
+              "size": "calc(.027551 * 100vw)",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0F0E12",
+            "text_color": "#E5E5E5",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0F0E12",
+            "text_color": "#E5E5E5",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "buy now (Inline Text Link)",
+        "usage": "Used as a subtle call-to-action link within product cards to trigger purchase. Styled as blue text without underline in default state.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "te-20",
+              "size": "calc(.00918367 * 100vw)",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#0071BB",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#0071BB",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Menu Toggle)",
+        "usage": "Used in mobile header as a menu toggle button. Contains three vertical dots icon pattern.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "inherit",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#0F0E12",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#0F0E12",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "search (Search Button)",
+        "usage": "Used in the navigation area to trigger search functionality.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "te-20",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#0F0E12",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#0F0E12",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are typically used as standalone elements or within card containers. No explicit button grouping patterns observed.",
+      "spacing": ""
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

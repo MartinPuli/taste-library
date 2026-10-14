@@ -1,0 +1,61 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "global_patterns": [
+      "hover_transform",
+      "sticky_header",
+      "scroll_reveal"
+    ],
+    "animations": [
+      {
+        "name": "hover-transition",
+        "css": "transition: color 320ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "description": "Global hover transition for navigation links and CTA elements with custom easing."
+      },
+      {
+        "name": "puzzle-hover-transition",
+        "css": "transition: opacity 540ms ease-in-out",
+        "description": "Slower transition for puzzle piece artwork reveal on hover interaction."
+      },
+      {
+        "name": "one-layer-deeper-banner-alternate",
+        "css": "@keyframes one-layer-deeper-banner-alternate { 0%, 35% { opacity: 0; animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1); } 50%, 85% { opacity: 1; animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1); } 100% { opacity: 0; } }",
+        "description": "Crossfade animation for alternating blog article banner images on a 6-second loop."
+      },
+      {
+        "name": "one-layer-deeper-banner-primary",
+        "css": "@keyframes one-layer-deeper-banner-primary { 0%, 35% { opacity: 1; animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1); } 50%, 85% { opacity: 0; animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1); } 100% { opacity: 1; } }",
+        "description": "Complementary crossfade animation for primary blog article banner images."
+      },
+      {
+        "name": "article-theme-transition",
+        "css": "transition: opacity 260ms cubic-bezier(0.22, 1, 0.36, 1), transform 260ms cubic-bezier(0.22, 1, 0.36, 1), color 260ms cubic-bezier(0.22, 1, 0.36, 1), background-color 260ms cubic-bezier(0.22, 1, 0.36, 1), border-color 260ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "description": "Multi-property transition for light/dark theme toggle on blog article pages."
+      },
+      {
+        "name": "theme-toggle-thumb",
+        "css": "transition: transform 420ms cubic-bezier(0.2, 0.9, 0.3, 1), background-color 260ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "description": "Smooth sliding animation for the theme toggle switch thumb element."
+      },
+      {
+        "name": "piece-underline-fade",
+        "css": "transition: opacity 360ms ease-in-out",
+        "description": "Fade transition for puzzle piece underline text on hover/focus states."
+      }
+    ],
+    "insights": [
+      "The design system uses a strict color-coding strategy where Signal Red (#FF2D09) themes Research, Electric Blue (#699EFF) themes Team, and Ink Black (#111111) themes Approach/Vision sections.",
+      "Navigation and CTA interactions share a consistent cubic-bezier(0.22, 1, 0.36, 1) easing curve at 320ms, creating a smooth, slightly bouncy feel across all hover states.",
+      "The architectural panel borders with notched connector corners create visual continuity between the puzzle grid and content sections, reinforcing the modular design language."
+    ]
+  }
+}

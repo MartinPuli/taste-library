@@ -1,0 +1,47 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Product Feature Card",
+        "description": "Dark-themed cards displaying banking interface mockups with transaction lists and financial data visualization.",
+        "when_to_use": [
+          "Showcasing product UI",
+          "Feature demonstrations",
+          "Banking interface previews"
+        ]
+      },
+      {
+        "name": "Press Logo Tile",
+        "description": "Publication logo tiles (CNBC, Fortune, WSJ) with quotes used for social proof and credibility.",
+        "when_to_use": [
+          "Media mentions section",
+          "Trust building",
+          "Social proof display"
+        ]
+      },
+      {
+        "name": "Info Card",
+        "description": "Two-column informational cards with titles like 'What is it?' and descriptive content.",
+        "when_to_use": [
+          "FAQ-style content",
+          "Product explanations",
+          "Feature breakdowns"
+        ]
+      }
+    ]
+  }
+}

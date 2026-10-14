@@ -1,0 +1,228 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Open App (Primary White)",
+        "usage": "Primary call-to-action in the top navigation bar prompting users to open the native Spotify app.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "SpotifyMixUI",
+              "size": "14px",
+              "padding": "4px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0F0",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Try 1 month for $0 (Spotify Green)",
+        "usage": "High-impact promotional CTA for premium trial subscription in the premium upsell banner.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "SpotifyMixUI",
+              "size": "14px",
+              "padding": "4px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#1ED760",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#1ABC54",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#1ED760",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View all plans (Tertiary Text)",
+        "usage": "Secondary action in the premium upsell section for users who want more subscription options.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "SpotifyMixUI",
+              "size": "14px",
+              "padding": "4px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#1ED760",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign up free (White Pill)",
+        "usage": "Primary CTA in the bottom preview banner encouraging free sign-up for non-authenticated users.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "SpotifyMixUI",
+              "size": "14px",
+              "padding": "4px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0F0",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Icon-only buttons used for menu toggles, close actions, and navigation controls throughout the app.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "SpotifyMixUI",
+              "size": "16px",
+              "padding": "12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#B3B3B3",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#B3B3B3",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons stacked vertically in promotional sections with consistent spacing",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

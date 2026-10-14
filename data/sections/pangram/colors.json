@@ -1,0 +1,230 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Pangram Black",
+        "type": "Dark",
+        "rules": {
+          "description": "A deep, green-tinted black acting as the primary text ink and anchoring highly technical sections with dark backgrounds.",
+          "when_to_use": [
+            "Main body and heading typography throughout the page",
+            "Navigation and UI icon strokes",
+            "Technical diagram and evaluation section backgrounds ('#001C17', '#001A16')"
+          ]
+        },
+        "hex": "#14201E",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#090A0B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#001C17",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#001A16",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#272E31",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0417
+      },
+      {
+        "name": "Paper Grays",
+        "type": "Light",
+        "rules": {
+          "description": "A comprehensive suite of whites and off-whites that structure the layout, delineate content, and provide soft contrast.",
+          "when_to_use": [
+            "Primary feature cards and sticky header backgrounds ('#FFFFFF')",
+            "Default page and hero section containers ('#F8F7F5', '#F3F3F3')",
+            "Interactive text input fields and file upload zones ('#F3F3F3')",
+            "Subtle dividers and borders on interactive elements ('#E5E7EB', '#D1D5DB')"
+          ]
+        },
+        "hex": "#E2E8F0",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F8F7F6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F3F3F3",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F8F7F5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5F5F5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D9D9D9",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D1D5DB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EBEBEB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FBFBFC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E0E0E0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EBEEF0",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.8924999999999998
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Absolute black applied selectively for maximum contrast, primarily isolating the blog content from the core product UI.",
+          "when_to_use": [
+            "Article titles, author names, and metadata in the blog carousel",
+            "Category pill borders on blog cards",
+            "Subtle drop shadows on 'How it works' instructional cards"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0531
+      },
+      {
+        "name": "Mid Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A muted secondary ink providing visual hierarchy for supporting information and deactivated states.",
+          "when_to_use": [
+            "Model manufacturer labels in benchmark cards (e.g., Anthropic, OpenAI)",
+            "Instructional microcopy like 'Try an example' and 'Try a sample image'",
+            "Footer navigation links"
+          ]
+        },
+        "hex": "#777777",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0437
+      },
+      {
+        "name": "Pangram Orange",
+        "type": "Warm Color",
+        "rules": {
+          "description": "The vibrant brand accent driving core conversions, scaling down into rich espresso browns for premium feature cards.",
+          "when_to_use": [
+            "Primary 'Try It for Free' and 'Contact Sales' button backgrounds",
+            "Highlighted step numbers and accent typography (e.g., 'Global Brands')",
+            "Enterprise solution and plagiarism feature card backgrounds ('#562301', '#612700')",
+            "Footer category headers"
+          ]
+        },
+        "hex": "#FF6106",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#562301",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#612700",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#502000",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FB4902",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0265
+      }
+    ],
+    "insights": [
+      "The design leverages a stark contrast between airy, off-white layouts and dense, ultra-dark technical sections, balancing approachable product marketing with rigorous scientific authority.",
+      "Rather than defaulting to neutral grays for dark mode components, the brand commits to deep forest greens and espresso browns, embedding an earthy, academic mood directly into the UI.",
+      "Vibrant orange is used sparingly but effectively, cutting through both pure white surfaces and dark environments to guarantee high visibility for primary actions and data points."
+    ]
+  }
+}

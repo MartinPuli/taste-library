@@ -2,31 +2,49 @@
 
 Connect device presentation with dot typography and an industrial structure.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 11 · Captured 2026-09-19T06:36:19.660967Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 11 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-19T06:36:19.660967Z |
-| Suggested uses | hardware |
-| Visual approach | monochrome, modular |
+[Original website](https://nothing.tech/) · [Full extraction](../data/raw/nothing.json) · [Review record](../data/reviews/nothing.json)
 
-## Details to compare
+[Small visual preview](../data/previews/nothing.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/full.jpg)
 
-- Detected type families: Ndot-Regular, NType82-Regular, Arial, LatteraMonoLL.
-- Recorded palette: #000000, #FFFFFF, #040404.
-- Grid: `{"columns": 12, "gutter": "32px", "max_width": "512px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A consent dialog with dot-style branding covers most of the captured hero; the pale background remains visible around it.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://nothing.tech/) · [Extraction](../data/raw/nothing.json) · [Tokens](../data/tokens/nothing.json)
+Project types: hardware. Styles: monochrome, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show nothing --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Connect device presentation with dot typography and an industrial structure. Evidence: [layout](../data/sections/nothing/layout.json), [sections](../data/sections/nothing/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/nothing/actions.json).
+
+## Content to bring
+
+Product photography with enough detail and consistent framing to carry large sections. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/nothing/profile.json)
+- [Layout](../data/sections/nothing/layout.json)
+- [Colors](../data/sections/nothing/colors.json)
+- [Typography](../data/sections/nothing/typography.json)
+- [Surfaces](../data/sections/nothing/surfaces.json)
+- [Elevation](../data/sections/nothing/elevation.json)
+- [Interactions](../data/sections/nothing/interactions.json)
+- [Actions](../data/sections/nothing/actions.json)
+- [Navigation](../data/sections/nothing/navigation.json)
+- [Data Display](../data/sections/nothing/data_display.json)
+- [Structure](../data/sections/nothing/structure.json) · no observed data
+- [Icons](../data/sections/nothing/icons.json)
+- [Assets](../data/sections/nothing/assets.json)
+- [Brand Assets](../data/sections/nothing/brand_assets.json) · no observed data
+- [Sections](../data/sections/nothing/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

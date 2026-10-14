@@ -1,0 +1,353 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Learn more (Primary Dark)",
+        "usage": "Primary CTA on dark hero sections (iPhone 18 Pro, Apple Watch). Solid blue pill button for main action.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0071E3",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0077ED",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#0071E3",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Buy (Secondary Dark)",
+        "usage": "Secondary CTA on dark hero sections. Outline/ghost button for secondary purchase action.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#2997FF",
+            "border_color": "#2997FF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#2997FF",
+            "border_color": "#2997FF",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn more (Primary Light)",
+        "usage": "Primary CTA on light sections (iPhone Duo, MacBook Air). Solid blue pill button.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0066CC",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0071E3",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#0066CC",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View pricing (Secondary Light)",
+        "usage": "Secondary CTA on light sections. Outline button linking to pricing pages.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#0066CC",
+            "border_color": "#0066CC",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "#000000",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#0066CC",
+            "border_color": "#0066CC",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Continue (Locale Switcher)",
+        "usage": "Confirmation button in locale/country switcher modal.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#1D1D1F",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#333336",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#1D1D1F",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Stream now (Neutral Gallery)",
+        "usage": "CTA button inside entertainment gallery cards. Neutral styling against media backgrounds.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.15)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.3)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.25)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.5)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0.15)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Apply now (Secondary)",
+        "usage": "Secondary CTA for Apple Card application. Outline button for secondary action.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "SF Pro Text",
+              "size": "14px",
+              "padding": "8px 15px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#0066CC",
+            "border_color": "#0066CC",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "#000000",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#0066CC",
+            "border_color": "#0066CC",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular Close)",
+        "usage": "Close button for modals and overlays. Circular icon-only button.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "17px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(210, 210, 215, 0.64)",
+            "text_color": "rgba(0, 0, 0, 0.48)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(210, 210, 215, 0.8)",
+            "text_color": "rgba(0, 0, 0, 0.7)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(210, 210, 215, 0.64)",
+            "text_color": "rgba(0, 0, 0, 0.48)",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Hero CTAs are paired horizontally with primary action first, secondary action second",
+      "spacing": "10px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

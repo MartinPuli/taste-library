@@ -1,0 +1,99 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Warm Beige",
+        "type": "Light",
+        "rules": {
+          "description": "Serves as the primary canvas for the entire page, providing a softer, warmer alternative to stark white.",
+          "when_to_use": [
+            "Main page background",
+            "Card and container backgrounds"
+          ]
+        },
+        "hex": "#F2EFE6",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Mint Green",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Acts as the primary energetic accent color used to draw attention to interactive elements and important calls to action.",
+          "when_to_use": [
+            "Primary CTA button background",
+            "Active state indicators"
+          ]
+        },
+        "hex": "#34D399",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Delivers high contrast for typography and critical UI elements against the warm beige background.",
+          "when_to_use": [
+            "Primary headings",
+            "Body copy text",
+            "Dark section backgrounds"
+          ]
+        },
+        "hex": "#181611",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Soft Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Provides a cooler secondary accent to contrast with the energetic mint green, often used for supporting highlights.",
+          "when_to_use": [
+            "Secondary interactive elements",
+            "Highlight accents in illustrations"
+          ]
+        },
+        "hex": "#869EF4",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Slate Brown",
+        "type": "Neutral",
+        "rules": {
+          "description": "Used for secondary text and structural borders where stark black would be too heavy or distracting.",
+          "when_to_use": [
+            "Secondary body text",
+            "Subtle divider lines",
+            "Meta information text"
+          ]
+        },
+        "hex": "#5E5B55",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "insights": [
+      "The palette uses a warm, earthy base (#F2EFE6, #181611) combined with vibrant, modern accents (#34D399, #869EF4) to create a balance between approachability and digital energy.",
+      "High contrast is maintained for readability using an off-black against an off-white, reducing eye strain compared to pure black and pure white."
+    ]
+  }
+}

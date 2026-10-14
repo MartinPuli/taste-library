@@ -1,0 +1,55 @@
+{
+  "id": "paper",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A warm white hero uses a two-tone headline above a large editor screenshot, with a fine grid appearing along the right edge.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/viewport.jpg",
+    "sha256": "16cdb54e867dcc712244de96e7d790565f1e119f426a60a2d0ded19cd9e04bd2"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/styles.css",
+    "sha256": "f8084842c23865b3ffd38cbd133513ccb9d9b57497ecf770bcc3558de381ce0c",
+    "bytes": 143462,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#181818",
+      "#000000",
+      "#FCFCF9",
+      "#D7D7D6",
+      "#909090"
+    ],
+    "palette_literals_checked": [
+      "#181818",
+      "#000000",
+      "#FCFCF9",
+      "#D7D7D6",
+      "#909090"
+    ],
+    "font_names_found": [
+      "Matter",
+      "Paper Mono",
+      "system-ui",
+      "Inter"
+    ],
+    "font_names_checked": [
+      "Matter",
+      "Paper Mono",
+      "system-ui",
+      "Inter"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "6806c9cd7321add0e48b4424c823a7727548c295e95d69acba8a0864adeec149"
+}

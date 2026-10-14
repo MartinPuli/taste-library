@@ -1,0 +1,174 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/sandbar.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Acts as the primary ink for text, primary buttons, and solid dark backgrounds, establishing a bold, high-contrast anchor for the design.",
+          "when_to_use": [
+            "Body and heading text",
+            "Primary CTA buttons (Preorder, Learn More)",
+            "Brand logo fill",
+            "App features grid dark gradient background"
+          ]
+        },
+        "hex": "#0C0B0B",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#1B1B1B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0E0E0E",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#191512",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0017999999999998
+      },
+      {
+        "name": "Warm Paper",
+        "type": "Light",
+        "rules": {
+          "description": "Provides the warm off-white canvas for the page and acts as the crisp bright surface for inverted text and interactive elements on dark backgrounds.",
+          "when_to_use": [
+            "Main page background",
+            "Newsletter section background",
+            "Inverted text on media players and dark hero sections",
+            "Form input fields"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F2F0E6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAF8F0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E0DFDC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFBF5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F0F0F0",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.1827
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Charcoal Slate",
+        "type": "Neutral",
+        "rules": {
+          "description": "Serves as the secondary ink for muted typography and subdued graphic elements, maintaining readability without competing with the primary black.",
+          "when_to_use": [
+            "'Featured in' partner logo fills",
+            "Secondary footer and legal text",
+            "Carousel navigation arrows"
+          ]
+        },
+        "hex": "#6F6E6E",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#5B636A",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#646464",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0481
+      },
+      {
+        "name": "Warm Ivory",
+        "type": "Light",
+        "rules": {
+          "description": "A targeted warm highlight used to tint text and loading elements against dark cinematic backgrounds, harmonizing with the page's off-white base.",
+          "when_to_use": [
+            "Feature headings over dark background images",
+            "Video player loading spinners"
+          ]
+        },
+        "hex": "#FCFAE9",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#DDDBCA",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0219
+      },
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Employed exclusively as an underlying structure for shadows, modal backdrops, and media player base layers through various opacities.",
+          "when_to_use": [
+            "Modal and popup backdrop overlays",
+            "Media player interface background layers",
+            "App features image dark tint overlays"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0018
+      }
+    ],
+    "insights": [
+      "The palette completely eschews stark, clinical whites in favor of a warm, parchment-like background (#FAF8F0), giving the brand an organic, premium feel.",
+      "Darkness is applied strategically: while the page is fundamentally light, heavy cinematic video sections and app feature grids use dense, dark gradients to create immersive 'dark mode' pockets.",
+      "Text color hierarchy is strict and binary, relying on a solid Ink Black for primary reading and a softer Charcoal Slate for UI metadata and legal prose."
+    ]
+  }
+}

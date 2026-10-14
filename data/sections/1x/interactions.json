@@ -1,0 +1,130 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "video_background",
+      "scroll_reveal",
+      "hover_transform",
+      "accordion"
+    ],
+    "animations": [
+      {
+        "name": "slideDown",
+        "css": "@keyframes slideDown{0%{height:0}to{height:var(--radix-accordion-content-height)}}",
+        "description": "Expands accordion content from zero to full height when opening"
+      },
+      {
+        "name": "slideUp",
+        "css": "@keyframes slideUp{0%{height:var(--radix-accordion-content-height)}to{height:0}}",
+        "description": "Collapses accordion content from full height to zero when closing"
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}100%{opacity:1;transform:scale(1)}}",
+        "description": "Toast notification entrance animation with scale and fade"
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.8)}}",
+        "description": "Toast notification exit animation with scale and fade"
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin{0%{opacity:1}100%{opacity:.15}}",
+        "description": "Loading spinner opacity animation for toast loading states"
+      },
+      {
+        "name": "swipe-out-left",
+        "css": "@keyframes swipe-out-left{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) - 100%));opacity:0}}",
+        "description": "Toast dismissal animation when swiped left"
+      },
+      {
+        "name": "swipe-out-right",
+        "css": "@keyframes swipe-out-right{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) + 100%));opacity:0}}",
+        "description": "Toast dismissal animation when swiped right"
+      },
+      {
+        "name": "fade-in (view-transition)",
+        "css": "@keyframes fade-in{0%{opacity:0}}",
+        "description": "View transition fade-in for page navigation"
+      },
+      {
+        "name": "fade-out (view-transition)",
+        "css": "@keyframes fade-out{to{opacity:0}}",
+        "description": "View transition fade-out for page navigation"
+      },
+      {
+        "name": "wipeAnimation",
+        "css": "@keyframes wipeAnimation{0%{--mask-position:-100%}to{--mask-position:120%}}",
+        "description": "CSS custom property animation for mask-based wipe reveal effect"
+      },
+      {
+        "name": "enter",
+        "css": "@keyframes enter{0%{opacity:var(--tw-enter-opacity,1);transform:translate3d(var(--tw-enter-translate-x,0),var(--tw-enter-translate-y,0),0) scale3d(var(--tw-enter-scale,1),var(--tw-enter-scale,1),var(--tw-enter-scale,1)) rotate(var(--tw-enter-rotate,0))}}",
+        "description": "Tailwind CSS animate-in entrance keyframe for modals and popovers"
+      },
+      {
+        "name": "exit",
+        "css": "@keyframes exit{to{opacity:var(--tw-exit-opacity,1);transform:translate3d(var(--tw-exit-translate-x,0),var(--tw-exit-translate-y,0),0) scale3d(var(--tw-exit-scale,1),var(--tw-exit-scale,1),var(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}",
+        "description": "Tailwind CSS animate-out exit keyframe for modals and popovers"
+      },
+      {
+        "name": "global-opacity-transition",
+        "css": "transition: opacity 0.3s",
+        "description": "Standard opacity transition used on nav items, buttons, and interactive elements"
+      },
+      {
+        "name": "mobile-menu-slide",
+        "css": "transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1)",
+        "description": "Mobile menu slide-in animation with custom easing"
+      },
+      {
+        "name": "menu-line-transform",
+        "css": "transition: transform 0.3s, background 0.3s",
+        "description": "Hamburger menu icon line animation for open/close states"
+      },
+      {
+        "name": "header-scroll-transition",
+        "css": "transition-property: all; transition-duration: 0.3s",
+        "description": "Header background and styling transition when scrolling"
+      },
+      {
+        "name": "animatedLink-underline",
+        "css": "transition: all 0.3s ease-in-out 0s",
+        "description": "Animated underline reveal on link hover using scaleX transform"
+      },
+      {
+        "name": "animatedFooterLink-underline",
+        "css": "transition: opacity 0.2s ease-in",
+        "description": "Footer link underline opacity fade-in on hover"
+      },
+      {
+        "name": "accordion-content-blur",
+        "css": "transition: all 0.3s ease-in",
+        "description": "Accordion content opacity and blur transition for open/close states"
+      },
+      {
+        "name": "swiper pagination fade",
+        "css": "transition: background .2s, opacity .3s",
+        "description": "Swiper pagination bullet background changes on active state using transition timing"
+      }
+    ],
+    "insights": [
+      "The design system uses a monochromatic palette with strategic use of opacity (72% black) for softer UI elements rather than introducing additional gray shades.",
+      "Fixed header employs glassmorphism with backdrop-filter blur(60px) and 92% white opacity on scroll, creating depth without visual heaviness.",
+      "View transitions are implemented for page navigation using CSS @keyframes fade-in/fade-out with 0.25s timing, indicating a modern SPA architecture with native-like transitions."
+    ]
+  }
+}

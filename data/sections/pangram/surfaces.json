@@ -1,0 +1,205 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary page background color used throughout the site",
+        "when_to_use": [
+          "Main page backgrounds",
+          "Section backgrounds",
+          "General layout containers"
+        ],
+        "hex": "#F8F7F5"
+      },
+      {
+        "name": "White Surface",
+        "description": "Pure white used for cards and elevated surfaces",
+        "when_to_use": [
+          "Card backgrounds",
+          "Modal overlays",
+          "Elevated panels",
+          "Navigation bars"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Pangram Gray",
+        "description": "Light gray surface for subtle backgrounds",
+        "when_to_use": [
+          "Input fields",
+          "Secondary card backgrounds",
+          "Hover states"
+        ],
+        "hex": "#F3F3F3"
+      },
+      {
+        "name": "Yellow Surface",
+        "description": "Bright yellow background for feature highlights",
+        "when_to_use": [
+          "Feature card backgrounds",
+          "Accent sections",
+          "Visual emphasis areas"
+        ],
+        "hex": "#FFE782"
+      },
+      {
+        "name": "Purple Surface",
+        "description": "Light purple background for product features",
+        "when_to_use": [
+          "Product feature cards",
+          "Secondary highlights"
+        ],
+        "hex": "#F1AAFF"
+      },
+      {
+        "name": "Dark Brown Surface",
+        "description": "Dark brown background for contrast sections",
+        "when_to_use": [
+          "Dark themed cards",
+          "High contrast sections"
+        ],
+        "hex": "#612700"
+      },
+      {
+        "name": "Green Dark Surface",
+        "description": "Deep green background for primary dark sections",
+        "when_to_use": [
+          "Feature section backgrounds",
+          "Dark themed areas",
+          "Footer sections"
+        ],
+        "hex": "#012B24"
+      },
+      {
+        "name": "Glass Panel (Translucent White)",
+        "description": "Glassmorphism surface with backdrop blur and translucency",
+        "when_to_use": [
+          "Hero section cards",
+          "Floating panels",
+          "Overlay elements"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Semi-transparent Green",
+        "description": "Transparent green background for card overlays",
+        "when_to_use": [
+          "Feature cards",
+          "Overlay panels",
+          "Grouped content areas"
+        ],
+        "hex": "#1A4039"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Header Fade Top",
+        "description": "Top-to-bottom gradient using Tailwind gradient stops (various color combinations found throughout)",
+        "when_to_use": [
+          "Section fades",
+          "Overlay effects",
+          "Transitional elements"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Elebeb Gray Fade",
+        "description": "Bottom-to-top gradient from gray to transparent for bottom overlay effects",
+        "when_to_use": [
+          "Bottom text overlays",
+          "Card bottom fades"
+        ],
+        "css_code": "linear-gradient(to top, #EBEBEB var(--tw-gradient-from-position), #EBEBEB/0.9 var(--tw-gradient-via-position), transparent var(--tw-gradient-to-position))"
+      },
+      {
+        "name": "Gray to White Fade",
+        "description": "Gray gradient for subtle transitions",
+        "when_to_use": [
+          "Section backgrounds",
+          "Content area transitions"
+        ],
+        "css_code": "linear-gradient(to bottom, #f3f4f6 var(--tw-gradient-from-position), #f3f4f6 var(--tw-gradient-to-position))"
+      },
+      {
+        "name": "Green Gradient Fade",
+        "description": "Green fade from semi-transparent to transparent",
+        "when_to_use": [
+          "Green section overlays",
+          "Success state backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, #f0fdf4/0.8 var(--tw-gradient-from-position), #f0fdf4/0 var(--tw-gradient-to-position))"
+      },
+      {
+        "name": "Red Gradient Fade",
+        "description": "Red fade from semi-transparent to transparent",
+        "when_to_use": [
+          "Error state backgrounds",
+          "Warning overlays"
+        ],
+        "css_code": "linear-gradient(to bottom, #fef2f2/0.8 var(--tw-gradient-from-position), #fef2f2/0 var(--tw-gradient-to-position))"
+      },
+      {
+        "name": "Pink Gradient",
+        "description": "Pink multi-stop gradient",
+        "when_to_use": [
+          "Accent sections",
+          "Feature highlights"
+        ],
+        "css_code": "linear-gradient(to bottom, #fce7f3 var(--tw-gradient-from-position), #fdf2f8 var(--tw-gradient-via-position), #fce7f3 var(--tw-gradient-to-position))"
+      },
+      {
+        "name": "Transparent to White",
+        "description": "Fade from transparent to white",
+        "when_to_use": [
+          "Image overlays",
+          "Content fade-ins"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent var(--tw-gradient-from-position), #fff var(--tw-gradient-to-position))"
+      },
+      {
+        "name": "White Side Fade Left",
+        "description": "Left-to-right fade from white to transparent for left edge masking",
+        "when_to_use": [
+          "Logo carousel left edge",
+          "Horizontal scroll fade"
+        ],
+        "css_code": "linear-gradient(to right, white, transparent)"
+      },
+      {
+        "name": "White Side Fade Right",
+        "description": "Right-to-left fade from white to transparent for right edge masking",
+        "when_to_use": [
+          "Logo carousel right edge",
+          "Horizontal scroll fade"
+        ],
+        "css_code": "linear-gradient(to left, white, transparent)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-blur(10px) over rgba(255,255,255,0.4) with 1px rgba(255,255,255,0.2) border",
+      "Shimmer animation on 'NEW' badge with conic-gradient rotating effect",
+      "Soft shadows throughout: 0 2px 4px rgba(145,158,171,0.16) on cards",
+      "Subtle noise/grain on hero background illustrations",
+      "Corner accent graphics: 53x53px decorative corner SVG overlays on feature cards",
+      "Bookmark decorative elements on feature cards (11x23px SVG positioned at top-left)",
+      "Logo marquee with horizontal gradient masks on both edges (36px-72px width fades)",
+      "Rotated card effects: transform rotate(-2.5deg) and rotate(1.9deg) on select feature cards"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Thin horizontal line separating content sections in the drops/research area",
+        "when_to_use": [
+          "Between article listings",
+          "Separating content rows"
+        ],
+        "color": "var(--ink)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

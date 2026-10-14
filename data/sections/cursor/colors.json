@@ -1,0 +1,234 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Graphite",
+        "type": "Dark",
+        "rules": {
+          "description": "Serves as the foundational ink color for high-contrast readability and solid interactive elements.",
+          "when_to_use": [
+            "Primary body text and headings",
+            "\"Download for macOS\" primary CTA background",
+            "Window borders and text in product mockups",
+            "Partner SVG logos in the logo garden"
+          ]
+        },
+        "hex": "#26251E",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#141414",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1F211D",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#3A3A3C",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#3C3935",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#111110",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1A1A1A",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1C1C1E",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#2C2C2E",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#24231C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0276
+      },
+      {
+        "name": "Paper",
+        "type": "Light",
+        "rules": {
+          "description": "Provides a warm, layered base for the page and its structural elements, reducing eye strain compared to pure white.",
+          "when_to_use": [
+            "Main page and header background (#F7F7F4)",
+            "Feature card backgrounds and product UI chrome (#F2F1ED)",
+            "Hover states and secondary \"Request a demo\" button backgrounds",
+            "Primary CTA text (#FFFFFF)"
+          ]
+        },
+        "hex": "#F2F1ED",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F7F7F4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EBEAE5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E6E5E0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFCFC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D9D5CF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E1E0DB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FBFBFB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E3EBF3",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EDECEC",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.048299999999999996
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Used structurally for depth and high-contrast hardware details rather than typography.",
+          "when_to_use": [
+            "Box-shadows for dropdowns and flyout menus",
+            "Mobile phone mockup camera notch background"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0115
+      },
+      {
+        "name": "Grok Ink",
+        "type": "Dark",
+        "rules": {
+          "description": "A localized dark shade used specifically to style the embedded Grok Bot demo interface.",
+          "when_to_use": [
+            "Grok Bot demo base text color",
+            "Grok Bot sidebar active item background (via alpha)"
+          ]
+        },
+        "hex": "#0A0A0A",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0088
+      },
+      {
+        "name": "Signal Orange",
+        "type": "Warm Color",
+        "rules": {
+          "description": "Acts as the sole vibrant accent to guide users to deeper product features and content.",
+          "when_to_use": [
+            "\"Learn about agentic development\" text links",
+            "\"Explore models\" inline links",
+            "\"View all blog posts\" link"
+          ]
+        },
+        "hex": "#F54E00",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E7000B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#ED712E",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0066
+      }
+    ],
+    "insights": [
+      "The design relies on a stark, utilitarian aesthetic using warm paper tones and graphite, mimicking a sophisticated, distraction-free code editor.",
+      "Color application is highly systemic: semantic hierarchy (borders, muted text, disabled states) is established almost entirely through alpha-transparency variations of the primary ink and paper colors.",
+      "The brand exercises extreme restraint with its accent color, reserving the bright orange exclusively for tertiary text links to drive engagement without competing with the heavy, monochrome primary CTAs."
+    ]
+  }
+}

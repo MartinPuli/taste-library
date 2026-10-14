@@ -1,0 +1,51 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "top_nav": {
+      "height": "80px",
+      "position": "relative",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Secondary/Surface White",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Icon Tab with Underline",
+      "description": "Tabs with icon images and text labels, featuring an animated underline indicator that moves between active tabs.",
+      "when_to_use": [
+        "Main category navigation (All, Homes, Experiences, Services)",
+        "Search type switching",
+        "Content filtering by category"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "Black underline indicator appears below tab, text remains dark",
+          "background": null,
+          "text": "#222222",
+          "icon": null
+        },
+        {
+          "name": "unselected",
+          "visual_change": "No underline, text appears with same color but visually subordinate",
+          "background": null,
+          "text": "#222222",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

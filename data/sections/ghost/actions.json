@@ -1,0 +1,330 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Order Now (Primary CTA)",
+        "usage": "Main conversion action for ordering the Ghost Core device, appears in hero section and navigation",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Archivo Narrow",
+              "size": "24px",
+              "padding": "12px 16px"
+            },
+            {
+              "name": "Large Desktop",
+              "font": "Archivo Narrow",
+              "size": "28px",
+              "padding": "12px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#006DDF",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#006DDF",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.8",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#006DDF",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "order now (Footer CTA - Light on Dark)",
+        "usage": "Order button in dark footer/end sections with inverted colors",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Archivo Narrow",
+              "size": "22px",
+              "padding": "10px 20px"
+            },
+            {
+              "name": "Large Desktop",
+              "font": "Archivo Narrow",
+              "size": "26px",
+              "padding": "10px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#00050A",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#00050A",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.8",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#00050A",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View Core (Text Link with Arrow)",
+        "usage": "Secondary link to product page with arrow icon, used in content sections",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Archivo",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#006DDF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#006DDF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.6",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#006DDF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button - Close (Circular)",
+        "usage": "Close button for dismissing the announcement bar",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.6",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "GPU / CPU / Memory / Storage (Spec Label Button)",
+        "usage": "Interactive labels for hardware specifications that expand on click/hover",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Archivo",
+              "size": "16px",
+              "padding": "0 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(245,245,245,0.5)",
+            "text_color": "rgba(0,5,10,0.5)",
+            "border_color": "rgba(0,5,10,0.5)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(245,245,245,0.5)",
+            "text_color": "rgba(0,5,10,0.8)",
+            "border_color": "rgba(0,5,10,0.5)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(245,245,245,0.5)",
+            "text_color": "rgba(0,5,10,0.3)",
+            "border_color": "rgba(0,5,10,0.3)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Feature Badge (No subscription / Entirely on device)",
+        "usage": "Feature highlight badges displayed in grid layout below pricing",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Mobile",
+              "font": "Archivo Narrow",
+              "size": "clamp(10px,2.8vw,13px)",
+              "padding": "8px 6px"
+            },
+            {
+              "name": "Desktop",
+              "font": "Archivo Narrow",
+              "size": "16px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#006DDF",
+            "border_color": "#006DDF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#006DDF",
+            "border_color": "#006DDF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#006DDF",
+            "border_color": "#006DDF",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Carousel Arrow Button",
+        "usage": "Navigation arrows for image gallery carousel",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "24px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#00050A",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#00050A",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.6",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#00050A",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are typically used individually or paired with price display",
+      "spacing": "24px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

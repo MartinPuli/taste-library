@@ -1,0 +1,109 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/linear.json",
+  "data": [
+    {
+      "name": "UI Icons",
+      "description": "General interface icons for navigation and actions",
+      "when_to_use": [
+        "Buttons",
+        "Navigation",
+        "Toolbars"
+      ],
+      "format": "SVG",
+      "style": "Solid / Filled",
+      "sizes": {
+        "small": "16px",
+        "medium": "20px"
+      },
+      "examples": [
+        {
+          "name": "Chevron",
+          "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" role=\"img\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-13wgh6h sx-31pjnn sx-m5nenu sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\" style=\"--x---icon-default-color:currentColor\" fill=\"currentColor\"><path d=\"M4.53 5.47a.75.75 0 0 0-1.06 1.06l4 4a.75.75 0 0 0 1.054.007l4-3.903a.75.75 0 0 0-1.048-1.073l-3.47 3.385L4.53 5.47Z\"></path></svg>"
+        },
+        {
+          "name": "More Horizontal",
+          "svg_code": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" role=\"img\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-13wgh6h sx-31pjnn sx-m5nenu sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\" style=\"--x---icon-default-color:#9c9da1\" fill=\"#9c9da1\"><path d=\"M3 6.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z\"></path></svg>"
+        },
+        {
+          "name": "Plus",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8 4a2 2 0 0 0-2 2v.5a2 2 0 0 0 4 0V6a2 2 0 0 0-2-2\"></path><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14m-2.879-4.121-1.01 1.01a5.5 5.5 0 1 1 7.778 0l-1.01-1.01A3 3 0 0 0 8.757 10H7.243a3 3 0 0 0-2.122.879\" clip-rule=\"evenodd\"></path></svg>"
+        },
+        {
+          "name": "Inbox",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"none\" viewBox=\"0 0 20 20\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M10.75 3.25a.75.75 0 1 0-1.5 0v6H3.251A.75.75 0 0 0 2.5 10a.75.75 0 0 0 .75.75h6v6a.75.75 0 1 0 1.5 0v-6h6a.75.75 0 1 0 0-1.5h-6z\" clip-rule=\"evenodd\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Priority Icons",
+      "description": "Icons indicating issue priority level",
+      "when_to_use": [
+        "Issue lists",
+        "Issue details",
+        "Badges"
+      ],
+      "format": "SVG",
+      "style": "Filled Rectangles",
+      "sizes": {
+        "small": "12px",
+        "medium": "16px"
+      },
+      "examples": [
+        {
+          "name": "High Priority",
+          "svg_code": "<svg aria-label=\"High Priority\" width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-13wgh6h sx-31pjnn sx-m5nenu sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\" style=\"--x---icon-default-color:#9c9da1\" fill=\"#9c9da1\"><rect x=\"1.5\" y=\"8\" width=\"3\" height=\"6\" rx=\"1\"></rect><rect x=\"6.5\" y=\"5\" width=\"3\" height=\"9\" rx=\"1\"></rect><rect x=\"11.5\" y=\"2\" width=\"3\" height=\"12\" rx=\"1\"></rect></svg>"
+        },
+        {
+          "name": "Medium Priority",
+          "svg_code": "<svg aria-label=\"Medium Priority\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-13wgh6h sx-31pjnn sx-m5nenu sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\" style=\"--x---icon-default-color:currentColor\" fill=\"currentColor\"><rect x=\"1.5\" y=\"8\" width=\"3\" height=\"6\" rx=\"1\"></rect><rect x=\"6.5\" y=\"5\" width=\"3\" height=\"9\" rx=\"1\"></rect><rect x=\"11.5\" y=\"2\" width=\"3\" height=\"12\" rx=\"1\" fill-opacity=\"0.4\"></rect></svg>"
+        },
+        {
+          "name": "Low Priority",
+          "svg_code": "<svg aria-label=\"Low Priority\" width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-13wgh6h sx-31pjnn sx-m5nenu sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\" style=\"--x---icon-default-color:#9c9da1\" fill=\"#9c9da1\"><rect x=\"1.5\" y=\"8\" width=\"3\" height=\"6\" rx=\"1\"></rect><rect x=\"6.5\" y=\"5\" width=\"3\" height=\"9\" rx=\"1\" fill-opacity=\"0.4\"></rect><rect x=\"11.5\" y=\"2\" width=\"3\" height=\"12\" rx=\"1\" fill-opacity=\"0.4\"></rect></svg>"
+        },
+        {
+          "name": "No Priority",
+          "svg_code": "<svg aria-label=\"No Priority\" width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-13wgh6h sx-31pjnn sx-m5nenu sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\" style=\"--x---icon-default-color:#9c9da1\" fill=\"#9c9da1\"><rect x=\"1.5\" y=\"7.25\" width=\"3\" height=\"1.5\" rx=\"0.5\" opacity=\"0.9\"></rect><rect x=\"6.5\" y=\"7.25\" width=\"3\" height=\"1.5\" rx=\"0.5\" opacity=\"0.9\"></rect><rect x=\"11.5\" y=\"7.25\" width=\"3\" height=\"1.5\" rx=\"0.5\" opacity=\"0.9\"></rect></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Status Icons",
+      "description": "Icons indicating the state of an issue (Todo, In Progress, Done)",
+      "when_to_use": [
+        "Issue lists",
+        "Issue details",
+        "Status indicators"
+      ],
+      "format": "SVG",
+      "style": "Outlined Circle with fill variations",
+      "sizes": {
+        "small": "14px",
+        "medium": "16px"
+      },
+      "examples": [
+        {
+          "name": "Status In Progress",
+          "svg_code": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" role=\"img\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\"><rect x=\"1\" y=\"1\" width=\"12\" height=\"12\" rx=\"6\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"></rect><path fill=\"currentColor\" stroke=\"none\" d=\"M 3.5,3.5 L3.5,0 A3.5,3.5 0 0,1 3.5, 7 z\" transform=\"translate(3.5,3.5)\"></path></svg>"
+        },
+        {
+          "name": "Status Todo",
+          "svg_code": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" role=\"img\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\"><rect x=\"1\" y=\"1\" width=\"12\" height=\"12\" rx=\"6\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"></rect><path fill=\"currentColor\" stroke=\"none\" d=\"M 3.5,3.5 L3.5,0 A3.5,3.5 0 0,1 3.5, 0 z\" transform=\"translate(3.5,3.5)\"></path></svg>"
+        },
+        {
+          "name": "Status Done",
+          "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 14 14\" role=\"img\" focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" class=\"sx-1fwcy2r sx-13jp3wb sx-18202ia sx-ge2tmq\"><rect x=\"1\" y=\"1\" width=\"12\" height=\"12\" rx=\"6\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"></rect><path fill=\"currentColor\" stroke=\"none\" d=\"M 3.5,3.5 L3.5,0 A3.5,3.5 0 0,1 3.5, 7 z\" transform=\"translate(3.5,3.5)\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

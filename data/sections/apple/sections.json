@@ -1,0 +1,208 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/apple.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal, centered, space-between",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Apple logo, white on light background, left-aligned"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal navigation links: Store, Mac, iPad, iPhone, Watch, AirPods, Vision, TV & Home, Entertainment, Accessories, Support. Black text on white background, SF Pro Text, 12px. Expands into flyout submenus with multi-column layouts."
+        },
+        {
+          "type": "button",
+          "description": "Search icon button, magnifying glass SVG, black on white"
+        },
+        {
+          "type": "button",
+          "description": "Shopping bag icon button, black on white, with dynamic badge counter"
+        }
+      ]
+    },
+    {
+      "type": "Ribbon",
+      "layout_pattern": "Full-width banner, centered text",
+      "headline": null,
+      "subheadline": "Get 3 months of Apple One free when you buy an eligible Apple device.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Text link 'Learn more' in white on animated blue-to-default gradient background"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, full-bleed",
+      "headline": "iPhone 18 Pro",
+      "subheadline": "Pro further.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Three iPhone 18 Pro devices in premium titanium finishes (space black, natural titanium, desert titanium) with metallic reflective surfaces. Pro Fusion camera system visible, Apple logo center, glowing text with blue-pink neon effect. Pure black background."
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Learn more' – solid blue pill button"
+        },
+        {
+          "type": "button",
+          "description": "Secondary CTA 'Buy' – outline/ghost button"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, full-bleed",
+      "headline": "iPhone Duo",
+      "subheadline": "Hello, hello.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Product photography showing hands holding a folded iPhone device in landscape orientation. Screen displays iOS Home Screen with colorful app icons. Light gray/off-white background."
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Learn more' – solid blue pill button"
+        },
+        {
+          "type": "button",
+          "description": "Secondary CTA 'View pricing' – outline button"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Split layout, logo and copy on top half, image below",
+      "headline": "WATCH SERIES 12",
+      "subheadline": "The most accurate heart rate sensing in a wristable.*",
+      "components": [
+        {
+          "type": "logo",
+          "description": "Apple Watch logo with apple symbol, white on black"
+        },
+        {
+          "type": "image",
+          "description": "Two Apple Watch faces on pure black background showing health monitoring features – one with red heart rate display (62 BPM), one with green health rings. Glowing displays, vibrant red and green."
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Learn more' – solid blue pill button"
+        },
+        {
+          "type": "button",
+          "description": "Secondary CTA 'Buy' – outline button"
+        }
+      ]
+    },
+    {
+      "type": "Promo Grid",
+      "layout_pattern": "Split 50/50, vertical divide",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Left card: Apple Watch Ultra 4, dark theme, titanium case on black background with 'A battery you can't outrun' tagline"
+        },
+        {
+          "type": "card",
+          "description": "Right card: Mac mini, light theme, product floating on fingertips with 'Now with M6 and M5 Pro' tagline"
+        }
+      ]
+    },
+    {
+      "type": "Promo Grid",
+      "layout_pattern": "Split 50/50, vertical divide",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Left card: MacBook Air, light background, two laptops forming arrow shape, 'Now supercharged by M5' tagline"
+        },
+        {
+          "type": "card",
+          "description": "Right card: iPad Air, light background, floating iPads showing front and back, 'Now supercharged by M4' tagline"
+        }
+      ]
+    },
+    {
+      "type": "Promo Grid",
+      "layout_pattern": "Split 50/50, vertical divide",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Left card: Apple Upgrade logo, animated video of iPhone silhouette fanning into spectrum of purple/red, 'Love it. Lease it. Upgrade it.' tagline"
+        },
+        {
+          "type": "card",
+          "description": "Right card: Apple Card, product image showing titanium card with Apple logo and cardholder name, cashback offer text"
+        }
+      ]
+    },
+    {
+      "type": "Media Gallery",
+      "layout_pattern": "Full-width carousel with centered content and dot navigation",
+      "headline": "Endless entertainment.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Media gallery carousel with 9 slides showcasing Apple TV+ shows and content. Each slide features full-bleed hero image with overlaid logo, genre tag, tagline, and 'Stream now' CTA. Dark theme throughout."
+        },
+        {
+          "type": "navigation",
+          "description": "Dot navigation with timed progress indicators and play/pause control"
+        },
+        {
+          "type": "card",
+          "description": "First slide: 'Brothers' comedy show with Apple TV+ logo overlay and genre tag"
+        },
+        {
+          "type": "card",
+          "description": "Additional slides featuring Slow Horses, Formula 1, Ted Lasso, and other Apple TV+ content"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-section: legal text block followed by multi-column link grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "divider",
+          "description": "Fine print disclaimers and legal footnotes in small gray text on light gray background"
+        },
+        {
+          "type": "navigation",
+          "description": "Multi-column footer navigation with sections: 'Shop and Learn', 'Services', 'Apple Store', 'For Business', 'Apple Values', 'About Apple'. Dark gray/black text links organized in clear columns."
+        },
+        {
+          "type": "navigation",
+          "description": "Bottom footer row with copyright, country selector, legal links (Privacy Policy, Terms of Use, etc.)"
+        }
+      ]
+    }
+  ]
+}

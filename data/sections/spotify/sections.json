@@ -1,0 +1,162 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/spotify.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar with logo, search, and CTAs",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Spotify logo in white, 24px height"
+        },
+        {
+          "type": "button",
+          "description": "Open App - primary CTA button, inverted light theme (white button with black text, rounded pill)"
+        },
+        {
+          "type": "button",
+          "description": "Menu hamburger button - tertiary style, icon-only, subdued text color"
+        }
+      ]
+    },
+    {
+      "type": "Hero / Promotional Banner",
+      "layout_pattern": "Centered, full-width overlay banner",
+      "headline": "...",
+      "subheadline": "Only $12.99/month after. Cancel anytime.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Try 1 month for $0 - primary bright accent button (green background, black text, pill-shaped)"
+        },
+        {
+          "type": "button",
+          "description": "View all plans - tertiary text button"
+        },
+        {
+          "type": "image",
+          "description": "Promotional graphic/logo element"
+        }
+      ]
+    },
+    {
+      "type": "Content Section - Trending Songs",
+      "layout_pattern": "Horizontal scrollable carousel with multiple cards",
+      "headline": "Trending songs",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Small square album cover cards (152px min-width) with 4px border radius, dark background, image + text label below. Multiple cards visible: Cold Shoulder (beige/cream), Draw You Out (cinematic outdoor), Uncertain TX (red with silhouettes), STORM II, Stop The Wedding (purple/blue artistic), and more"
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scroll container with snap scrolling, 16px gap between cards, full-bleed layout with 8px margin"
+        }
+      ]
+    },
+    {
+      "type": "Content Section - Popular Artists",
+      "layout_pattern": "Horizontal scrollable carousel with circular images",
+      "headline": "Popular artists",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Small cards with circular artist photos (152px, 4px border-radius for square container), grayscale/color treatment. Artists include Kendrick Lamar, Drake, The Weeknd, Morgan Wallen, Post Malone, etc."
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scroll container matching Trending Songs layout"
+        }
+      ]
+    },
+    {
+      "type": "Content Section - Popular Albums and Singles",
+      "layout_pattern": "Horizontal scrollable carousel with square cards",
+      "headline": "Popular albums and singles",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Small square album cover cards, 4px border radius, various album art imagery"
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scroll container"
+        }
+      ]
+    },
+    {
+      "type": "Content Section - Popular Radio",
+      "layout_pattern": "Horizontal scrollable carousel",
+      "headline": "Popular radio",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Radio playlist cards with generated artist imagery, square format"
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scroll container"
+        }
+      ]
+    },
+    {
+      "type": "Content Section - Featured Charts",
+      "layout_pattern": "Horizontal scrollable carousel",
+      "headline": "Featured Charts",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Chart playlist cards with standardized chart imagery (Top Songs Global, Top Songs USA, etc.)"
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scroll container"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid layout",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Footer navigation organized in columns: Company (About, Jobs, For the Record), Communities (For Artists, For Creators), with white text on dark background (#121212)"
+        },
+        {
+          "type": "button",
+          "description": "Language selector button with globe icon"
+        }
+      ]
+    },
+    {
+      "type": "Bottom Banner / Preview CTA",
+      "layout_pattern": "Fixed bottom bar, full-width",
+      "headline": "Preview of Spotify",
+      "subheadline": "Sign up to get unlimited songs and podcasts...",
+      "components": [
+        {
+          "type": "button",
+          "description": "Sign up free - white pill button with black text on gradient purple-to-blue background"
+        }
+      ]
+    }
+  ]
+}

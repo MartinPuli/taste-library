@@ -1,0 +1,28 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Implicit vertical spacing between content sections rather than visible line dividers",
+        "when_to_use": [
+          "Between carousel sections",
+          "Separating different content categories"
+        ],
+        "color": "",
+        "height": "24px",
+        "style": "none"
+      }
+    ]
+  }
+}

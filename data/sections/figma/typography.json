@@ -1,0 +1,235 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "figmaSans",
+          "role": "Title 1 (H1)",
+          "specs": {
+            "size": "var(--fig-typography-size-title1)",
+            "line_height": "var(--fig-typography-lh-none)",
+            "font_weight": "var(--fig-typography-weight)",
+            "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-condensed),\"wght\" var(--fig-typography-variation-wght-regular)"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Title 2 (H2)",
+          "specs": {
+            "size": "var(--fig-typography-size-title2)",
+            "line_height": "var(--fig-typography-lh-tight)",
+            "font_weight": "var(--fig-typography-weight)",
+            "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Title 3 (H2/P)",
+          "specs": {
+            "size": "var(--fig-typography-size-title3)",
+            "line_height": "var(--fig-typography-lh-snug)",
+            "font_weight": "var(--fig-typography-weight)",
+            "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Display Large",
+          "specs": {
+            "size": "5.5rem",
+            "line_height": "1",
+            "font_weight": "normal",
+            "font_variation_settings": "\"wdth\" 96, \"wght\" 400"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaMono",
+          "role": "Mono Heading",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.3",
+            "font_weight": "400",
+            "font_variation_settings": "\"wdth\" 100, \"MONO\" 100, \"wght\" 400"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "figmaSans",
+          "role": "Body Large",
+          "specs": {
+            "size": "var(--fig-typography-size-bodyL)",
+            "line_height": "var(--fig-typography-lh-relaxed)",
+            "font_weight": "var(--fig-typography-weight)",
+            "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Body Default",
+          "specs": {
+            "size": "1.125rem",
+            "line_height": "1.4",
+            "font_weight": "330",
+            "font_variation_settings": "\"wdth\" 98, \"wght\" 330"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Nav Item",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.45",
+            "font_weight": "320",
+            "font_variation_settings": "\"wdth\" 98, \"wght\" 320"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Body",
+          "specs": {
+            "size": "var(--fig-typography-size-body)",
+            "line_height": "var(--fig-typography-lh-loose)",
+            "font_weight": "var(--fig-typography-weight)",
+            "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaSans",
+          "role": "Small Body",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.45",
+            "font_weight": "normal",
+            "font_variation_settings": "\"wdth\" 100, \"wght\" 400"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans)",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "figmaSans",
+          "role": "Button",
+          "specs": {
+            "size": "var(--fig-typography-size-button)",
+            "line_height": "var(--fig-typography-lh-relaxed)",
+            "font_weight": "var(--fig-typography-weight)",
+            "font_variation_settings": "\"wdth\" var(--fig-typography-variation-wdth-narrow),\"wght\" var(--fig-typography-variation-wght-regular)"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-sans, 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaMono",
+          "role": "Mono Label",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.3",
+            "font_weight": "normal",
+            "font_variation_settings": "\"wdth\" 96, \"wght\" 400, \"MONO\" 100"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-mono)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "figmaMono",
+          "role": "Badge",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "1",
+            "font_weight": "400",
+            "font_variation_settings": "\"wdth\" 100, \"MONO\" 100, \"wght\" 400"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--global-font-mono, 'figmaMono', 'figmaMono Fallback', SF Mono, menlo, monospace)",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": []
+    },
+    "highlights": "Emphasis and strong states are handled via variable font axes, applying `\"slnt\" -6` for italics and exact `\"wght\"` values (e.g., 550, 600) for bolding text dynamically, avoiding traditional discrete font weights.",
+    "insights": [
+      "The typography system heavily leverages variable fonts (`font-variation-settings`), fine-tuning width (`wdth`), weight (`wght`), and slant (`slnt`) across breakpoints and semantic tags.",
+      "Extensive use of CSS variables (e.g., `--fig-typography-size-title1`) creates a highly flexible, token-driven hierarchy capable of responding to varying viewport sizes seamlessly.",
+      "Monospace fonts (`figmaMono`) are strategically used not just for code, but for structural labels, badges, and tertiary headings to introduce technical sophistication into the visual rhythm."
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "texture_classification": [
+      "glass_blur",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Card Background",
+        "description": "Default white background for consent popups, cards, and containers",
+        "when_to_use": [
+          "Popup containers",
+          "Button backgrounds",
+          "Card surfaces",
+          "Modal overlays"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Backdrop Overlay",
+        "description": "Semi-transparent white backdrop for popup overlays (80% opacity)",
+        "when_to_use": [
+          "Modal backdrops",
+          "Popup backgrounds",
+          "Overlay screens"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Button Default",
+        "description": "Light grey background for standard buttons",
+        "when_to_use": [
+          "Standard buttons",
+          "Secondary actions",
+          "Default UI elements"
+        ],
+        "hex": "#EEEEEE"
+      },
+      {
+        "name": "Button Agree (Black)",
+        "description": "Pure black background for primary action buttons",
+        "when_to_use": [
+          "Primary CTAs",
+          "Agree buttons",
+          "Submit actions"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Radio Agree (Green)",
+        "description": "Green background for agree/accept radio options",
+        "when_to_use": [
+          "Accept toggles",
+          "Agree radio buttons",
+          "Positive confirmations"
+        ],
+        "hex": "#3D8548"
+      },
+      {
+        "name": "Radio Disagree (Red)",
+        "description": "Red background for disagree/reject radio options",
+        "when_to_use": [
+          "Reject toggles",
+          "Disagree radio buttons",
+          "Negative confirmations"
+        ],
+        "hex": "#E60000"
+      },
+      {
+        "name": "Greyscale Lightest",
+        "description": "Very light grey surface for backgrounds",
+        "when_to_use": [
+          "Page backgrounds",
+          "Section fills",
+          "Subtle containers"
+        ],
+        "hex": "#F4F4F4"
+      },
+      {
+        "name": "Greyscale 200",
+        "description": "Light grey for borders and dividers",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Subtle separators"
+        ],
+        "hex": "#D8D9D9"
+      },
+      {
+        "name": "Greyscale 900",
+        "description": "Dark grey for text and UI elements",
+        "when_to_use": [
+          "Body text",
+          "Secondary UI elements",
+          "Muted content"
+        ],
+        "hex": "#595A5A"
+      },
+      {
+        "name": "Greyscale Black",
+        "description": "Near-black for text and dark surfaces",
+        "when_to_use": [
+          "Headings",
+          "Primary text",
+          "Dark mode backgrounds"
+        ],
+        "hex": "#040404"
+      },
+      {
+        "name": "Greyscale DM Light",
+        "description": "Dark mode light background",
+        "when_to_use": [
+          "Dark mode page backgrounds",
+          "Dark mode containers"
+        ],
+        "hex": "#181818"
+      },
+      {
+        "name": "Greyscale DM Dark",
+        "description": "Dark mode dark background",
+        "when_to_use": [
+          "Dark mode cards",
+          "Dark mode overlays"
+        ],
+        "hex": "#040404"
+      },
+      {
+        "name": "Accent Red",
+        "description": "Brand red accent color",
+        "when_to_use": [
+          "Error states",
+          "Brand accents",
+          "Alert highlights"
+        ],
+        "hex": "#C8102E"
+      },
+      {
+        "name": "Accent Yellow",
+        "description": "Brand yellow accent color",
+        "when_to_use": [
+          "Highlights",
+          "Warnings",
+          "Brand accents"
+        ],
+        "hex": "#FFC700"
+      },
+      {
+        "name": "Accent Blue",
+        "description": "Brand blue accent color",
+        "when_to_use": [
+          "Links",
+          "Information",
+          "Brand accents"
+        ],
+        "hex": "#002F6C"
+      },
+      {
+        "name": "Glassmorphism Panel",
+        "description": "Frosted glass effect surface with backdrop blur (45px) and 80% opacity",
+        "when_to_use": [
+          "Header bars",
+          "Floating cards",
+          "Overlay panels",
+          "Product cards",
+          "Footer buttons"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Glassmorphism Grey Intense",
+        "description": "Dark frosted glass with 60% opacity and 45px blur",
+        "when_to_use": [
+          "Dark mode headers",
+          "Dark overlays",
+          "Dark mode floating panels"
+        ],
+        "hex": "#595A5A"
+      },
+      {
+        "name": "Glassmorphism Grey Low",
+        "description": "Subtle frosted glass with 5% opacity and 45px blur",
+        "when_to_use": [
+          "Subtle overlays",
+          "Hover states",
+          "Light backgrounds"
+        ],
+        "hex": "#595A5A"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Gradient to Bottom",
+        "description": "Tailwind utility gradient from top to bottom",
+        "when_to_use": [
+          "Fade overlays",
+          "Section transitions"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Gradient to Left",
+        "description": "Tailwind utility gradient from right to left",
+        "when_to_use": [
+          "Directional fades",
+          "Edge masks"
+        ],
+        "css_code": "linear-gradient(to left, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Gradient to Top",
+        "description": "Tailwind utility gradient from bottom to top",
+        "when_to_use": [
+          "Bottom fade overlays",
+          "Footer transitions"
+        ],
+        "css_code": "linear-gradient(to top, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Mask Gradient (Horizontal)",
+        "description": "Dynamic horizontal mask gradient with band effect using CSS variables",
+        "when_to_use": [
+          "Image masks",
+          "Reveal animations",
+          "Horizontal fade effects"
+        ],
+        "css_code": "linear-gradient(90deg,transparent calc(0 * 100% - var(--band-spread)),#000 calc(0 * 100%),transparent calc(0 * 100% + var(--band-spread)))"
+      },
+      {
+        "name": "Mask Gradient (Vertical)",
+        "description": "Vertical mask gradient with top and bottom fade zones",
+        "when_to_use": [
+          "Scroll masks",
+          "Vertical content fades",
+          "Overflow indicators"
+        ],
+        "css_code": "linear-gradient(to bottom,rgba(0,0,0,1),#000 24px,#000 calc(100% - 24px),rgba(0,0,0,1))"
+      },
+      {
+        "name": "Radial Mask (Circle)",
+        "description": "Circular radial mask creating a transparent center hole (mobile)",
+        "when_to_use": [
+          "Focus effects",
+          "Spotlight masks",
+          "Circular reveals"
+        ],
+        "css_code": "radial-gradient(165px at 50% 40%,#0000 100%,#000 0)"
+      },
+      {
+        "name": "Radial Mask (Circle Large)",
+        "description": "Larger circular radial mask (desktop breakpoint)",
+        "when_to_use": [
+          "Focus effects on larger screens",
+          "Spotlight masks",
+          "Circular reveals"
+        ],
+        "css_code": "radial-gradient(240px at 50% 40%,#0000 100%,#000 0)"
+      },
+      {
+        "name": "Greyscale Black Fade",
+        "description": "Gradient from greyscale black (60% opacity) to transparent",
+        "when_to_use": [
+          "Image overlays",
+          "Text contrast backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "White Fade",
+        "description": "Gradient from white to transparent",
+        "when_to_use": [
+          "Light overlays",
+          "Section fades"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+      }
+    ],
+    "highlights": [
+      "Glassmorphism panels: backdrop-filter: blur(45px) with frost-white-intense (rgba(255,255,255,0.8)) for light mode headers and floating cards",
+      "Glassmorphism panels: backdrop-filter: blur(45px) with frost-grey-intense (rgba(89,90,90,0.6)) for dark mode headers and overlays",
+      "Soft box shadows on popups: 0 20px 50px rgba(0, 0, 0, 0.1)",
+      "Multiple shadow layers on cards: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1)",
+      "Custom grid dot pattern overlay with radial gradient dots (white 1px, transparent 1.5px) at 50% opacity with mix-blend-difference",
+      "Radial gradient masks for circular reveals at 165px (mobile) and 240px (desktop) centered at 50% 40%",
+      "Dynamic horizontal band mask using CSS variables for reveal animations",
+      "Consent popup exterior border with 8px border-radius and hsl(0deg 0% 100% / 80%) background",
+      "Frost effect variations: frost-white-low (5% opacity), frost-white-intense (80% opacity), frost-grey-low (5% opacity), frost-grey-intense (60% opacity)",
+      "Transition animations: 1.25s cubic-bezier(0.74,0,0.19,0.99) for band effects",
+      "Selection highlight: background greyscale-900 (#595A5A) with white text"
+    ]
+  }
+}

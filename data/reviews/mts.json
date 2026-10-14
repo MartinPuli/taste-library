@@ -1,0 +1,44 @@
+{
+  "id": "mts",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A dithered radial image surrounds a centered serif headline. Small uppercase navigation and a framed content panel continue the editorial treatment.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-full.jpg",
+    "sha256": "a1f861450d63ccc9c34f2a9115481f6fb4c1011f285384da4814221fafaef7bc"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl.css",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [],
+    "palette_literals_checked": [
+      "#F2EFE6",
+      "#34D399",
+      "#181611",
+      "#869EF4",
+      "#5E5B55"
+    ],
+    "font_names_found": [],
+    "font_names_checked": [
+      "Chakra Petch",
+      "Iowan Old Style",
+      "SF Mono",
+      "System Default"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "d23ebffbbb70792925ff7f4b225ddc7acba624a3b15f9678902291bbe2ef07bf"
+}

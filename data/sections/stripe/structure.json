@@ -1,0 +1,55 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default, clicking another item closes the current and opens the new one"
+    },
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Full-width horizontal line separating major content sections",
+        "when_to_use": [
+          "Between section header and content",
+          "Section boundaries"
+        ],
+        "color": "#E5EDF5",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Card Border",
+        "description": "Subtle border around cards and content containers",
+        "when_to_use": [
+          "Card outlines",
+          "Input field borders",
+          "Navigation panel edges"
+        ],
+        "color": "#E5EDF5",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Dashed List Divider",
+        "description": "Dashed horizontal divider between accordion items",
+        "when_to_use": [
+          "Between navigation items",
+          "Accordion/list separators"
+        ],
+        "color": "#E5EDF5",
+        "height": "1px",
+        "style": "dashed"
+      }
+    ]
+  }
+}

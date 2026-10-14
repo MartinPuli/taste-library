@@ -1,0 +1,37 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "layout",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/layout",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "classification": [
+      "generous_whitespace",
+      "card_based"
+    ],
+    "grid": {
+      "columns": 12,
+      "gutter": "24px",
+      "max_width": "1440px"
+    },
+    "breakpoints": {
+      "mobile": "0px - 743px (1 Column, 16px gutter)",
+      "tablet": "743.1px - 1127px (Variable columns, 24px gutter)",
+      "desktop": "1127.1px - 1439px (12 Columns, 24px gutter)",
+      "large": "1440px+ (12 Columns, 40px gutter)"
+    },
+    "section_separation": "Clean whitespace-driven separation with consistent vertical padding between major sections. No visible divider lines or background color alternation—white background throughout. Sections distinguished primarily by generous spacing (appears to be 48-64px vertical gaps) and subtle visual hierarchy through typography scale changes.",
+    "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [Airbnb LOGO]    🌐All  Homes  Experiences  Services   │\n│                                  Become a host  [⚙] [☰] │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│  ┌─────────────────────────────────────────────────┐    │\n│  │ Where           │  When        │  Who        │ [●]│  │\n│  │ Search dest...  │  Add dates   │  Add guests │    │  │\n│  └─────────────────────────────────────────────────┘    │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Destinations for you                              [→]  │\n│  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ...   │\n│  │ LA  │ │ SD  │ │ LV  │ │ TYO │ │ NYC │ │ PAR │       │\n│  │[img]│ │[img]│ │[img]│ │[img]│ │[img]│ │[img]│       │\n│  └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘       │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Find services near you                                 │\n│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌──────┐  │\n│  │Car hire│ │Photo   │ │Cleaning│ │Home    │ │Spa...│  │\n│  └────────┘ └────────┘ └────────┘ └────────┘ └──────┘  │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│  Stay in Lake Tahoe  →                                  │\n│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐    │\n│  │Guest fav. ♡ │ │Guest fav. ♡ │ │Guest fav. ♡ │    │\n│  │ [Cabin img]  │ │ [Home img]   │ │ [Home img]   │    │\n│  │ South Lake T │ │ South Lake T │ │ South Lake T │    │\n│  │ £590 ★4.83  │ │ £1247 ★4.97 │ │ £837 ★5.0   │    │\n│  └──────────────┘ └──────────────┘ └──────────────┘    │\n│                                                          │\n│  ┌─────────────────────────────────────────────────┐    │\n│  │  Help us improve your experience                │    │\n│  │  [Cookie policy text...]                        │    │\n│  │  [Accept all] [Only necessary] [Manage prefs]   │    │\n│  └─────────────────────────────────────────────────┘    │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/NAV:\n- Background: White, clean minimal\n- Logo: Airbnb logo in pink/coral (#FF385C)\n- Navigation: Horizontal tabs with globe icon \"All\", text links \"Homes\", \"Experiences\", \"Services\"\n- Buttons/CTAs: \"Become a host\" (text link, black), user icon (circle outline), hamburger menu icon (three lines)\n- Colors observed: White background, pink logo, black/gray text\n- Typography mood: Clean, sans-serif, minimal\n\nSEARCH BAR:\n- Background: White rounded pill-shaped container with subtle shadow\n- Components: Three input sections (Where/When/Who) separated by vertical dividers\n- Buttons/CTAs: Red/pink circular search button (●) on far right\n- Colors observed: White surface, light gray dividers, pink/red search button\n- Typography mood: Light gray placeholder text, clean sans-serif\n\nDESTINATIONS CAROUSEL:\n- Background: White surface\n- Imagery: Rounded-corner photo cards showing city landmarks (palm trees for LA, coastline for SD, Vegas skyline, Tokyo architecture, Brooklyn Bridge for NYC, Eiffel Tower for Paris, Seattle Space Needle)\n- Components: Horizontally scrolling card grid, right arrow navigation\n- Colors observed: Natural photography colors, warm sunset tones\n- Typography mood: Bold city names, light descriptive text below\n- Layout: 6+ cards visible, more accessible via scroll\n\nSERVICES SECTION:\n- Background: White surface\n- Components: Gray placeholder boxes in horizontal row\n- Text labels: \"Car hire\", \"Photography\", \"Cleaning\", \"Home improvement\", \"Spa treatments\", \"Catering\"\n- Colors observed: Light gray boxes, black text\n- Typography mood: Simple, sans-serif labels\n\nLAKE TAHOE LISTINGS:\n- Background: White surface\n- Components: Property cards with images, \"Guest favourite\" badges with heart icons\n- Imagery: Property photos (cabins, homes)\n- Text: Location names, date ranges, prices (£), star ratings\n- Colors observed: Property images, white cards, gray text, black hearts\n- Typography mood: Mixed weights - bold for location, regular for details\n\nCOOKIE MODAL (overlay):\n- Background: White modal with subtle shadow, centered overlay\n- Text: Cookie policy explanation in gray\n- Buttons/CTAs: \"Accept all\" (black filled button), \"Only necessary\" (black filled button), \"Manage preferences\" (text link underlined)\n- Colors observed: White modal background, black buttons, gray text\n- Typography mood: Regular body text, medium weight for buttons",
+    "insights": [
+      "Airbnb's homepage employs generous whitespace and card-based modularity to create a clean, breathable layout. The fixed header with pill-shaped search bar establishes a strong horizontal rhythm that carries through the entire page.",
+      "Visual hierarchy is achieved through typography scale and weight variation rather than color or structural dividers—section headlines are bold and larger, while property cards use mixed weights (bold location, regular details) to guide the eye.",
+      "The layout demonstrates responsive sophistication: breakpoints adjust column counts dynamically (mobile 1-col, tablet variable, desktop 3-col grid for listings), and the search bar transforms between compact and expanded states based on viewport and interaction.",
+      "Cards maintain consistent aspect ratios and internal padding across all sections (destinations, services, listings), creating a unified compositional language. The 'Guest favourite' badge overlay pattern adds Z-axis depth without disrupting the flat, minimal aesthetic."
+    ]
+  }
+}

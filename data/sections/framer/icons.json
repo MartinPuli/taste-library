@@ -1,0 +1,141 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/framer.json",
+  "data": [
+    {
+      "name": "Main UI Icons",
+      "description": "Primary 20x20 monoline icons used for core UI actions and navigation",
+      "when_to_use": [
+        "Navigation",
+        "Buttons",
+        "Dropdowns",
+        "Checkmarks"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline, 2px stroke",
+      "sizes": {
+        "small": "16px",
+        "medium": "20px"
+      },
+      "examples": [
+        {
+          "name": "Plus",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" id=\"svg10522329964\"><path d=\"M 10 5 L 10 15\" fill=\"transparent\" stroke-width=\"2\" stroke=\"rgb(0, 153, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M 5 10 L 15 10\" fill=\"transparent\" stroke-width=\"2\" stroke=\"rgb(0, 153, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Dropdown",
+          "svg_code": "<svg display=\"block\" id=\"367334708\" role=\"presentation\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 7 L 6.293 0.707 C 6.683 0.317 7.317 0.317 7.707 0.707 L 14 7\" fill=\"transparent\" height=\"7px\" id=\"aD_3Sblea\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" stroke=\"rgb(136, 136, 136)\" transform=\"translate(3 6.5) rotate(540 7 3.5)\" width=\"14px\"></path></svg>"
+        },
+        {
+          "name": "Check Circle",
+          "svg_code": "<svg display=\"block\" id=\"3797874707\" role=\"presentation\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 7.5 0 C 11.642 0 15 3.358 15 7.5 C 15 11.642 11.642 15 7.5 15 C 3.358 15 0 11.642 0 7.5 C 0 3.358 3.358 0 7.5 0 Z M 13 13 L 16 16\" fill=\"rgba(136, 136, 136, 0.2)\" height=\"16px\" id=\"Uo84kFvT9\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" stroke-width=\"2\" stroke=\"rgb(136, 136, 136)\" transform=\"translate(2 2)\" width=\"16px\"></path></svg>"
+        },
+        {
+          "name": "Checkmark",
+          "svg_code": "<svg display=\"block\" id=\"3674388221\" role=\"presentation\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 6.5 L 4 6.5 L 7 0 L 10.5 14 L 13.5 6.5 L 18 6.5\" fill=\"transparent\" height=\"14px\" id=\"XrVXzKI92\" stroke-dasharray=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" stroke=\"rgb(136, 136, 136)\" transform=\"translate(1 3)\" width=\"18px\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Small Interface Icons",
+      "description": "Smaller 12x12 to 14x14 monoline icons used for secondary actions and inline labels",
+      "when_to_use": [
+        "Inline text",
+        "Secondary actions",
+        "Small labels"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline, 1.5px stroke",
+      "sizes": {
+        "small": "12px",
+        "medium": "14px"
+      },
+      "examples": [
+        {
+          "name": "Search",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 14 14\" id=\"svg10231122378\"><path d=\"M 1.75 6.417 C 1.75 3.839 3.839 1.75 6.417 1.75 C 8.994 1.75 11.083 3.839 11.083 6.417 C 11.083 8.994 8.994 11.083 6.417 11.083 C 3.839 11.083 1.75 8.994 1.75 6.417 Z M 12.25 12.25 L 9.713 9.713\" fill=\"transparent\" stroke-width=\"1.4\" stroke=\"rgb(255, 255, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Folder",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 12 12\" id=\"svg11600158194\"><path d=\"M 1.25 4.25 L 1.25 4.25 L 1.25 9 C 1.25 9.966 2.034 10.75 3 10.75 L 9 10.75 C 9.966 10.75 10.75 9.966 10.75 9 L 10.75 5.75 C 10.75 4.922 10.078 4.25 9.25 4.25 L 8 4.25 C 7.448 4.25 7 3.802 7 3.25 L 7 2.75 C 7 1.922 6.328 1.25 5.5 1.25 L 2.75 1.25 C 1.922 1.25 1.25 1.922 1.25 2.75 Z\" fill=\"rgba(136, 136, 136, 0.2)\" stroke-width=\"1.5\" stroke=\"rgb(136, 136, 136)\"></path><path d=\"M 8.5 4.25 L 1.5 4.25\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153)\"></path></svg>"
+        },
+        {
+          "name": "User",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 12 12\" id=\"svg11797708346\"><path d=\"M 5 0 C 7.761 0 10 2.239 10 5 C 10 6.046 9.679 7.017 9.13 7.819 L 11.164 9.854 C 11.457 10.146 11.457 10.621 11.164 10.914 C 10.871 11.207 10.396 11.207 10.104 10.914 L 8.107 8.918 C 7.254 9.595 6.174 10 5 10 C 2.239 10 0 7.761 0 5 C 0 2.239 2.239 0 5 0 Z M 1.5 5 C 1.5 6.933 3.067 8.5 5 8.5 C 6.933 8.5 8.5 6.933 8.5 5 C 8.5 3.067 6.933 1.5 5 1.5 C 3.067 1.5 1.5 3.067 1.5 5 Z\" fill=\"rgb(153, 153, 153)\"></path></svg>"
+        },
+        {
+          "name": "Gear Settings",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 12 12\" id=\"svg10848680545\"><path d=\"M 5.052 1.125 C 5.402 0.577 6.25 0.825 6.25 1.475 L 6.25 3.65 L 10.32 3.65 C 10.832 3.65 11.143 4.214 10.87 4.647 L 6.949 10.852 C 6.602 11.402 5.75 11.156 5.75 10.504 L 5.75 8.25 L 1.687 8.25 C 1.173 8.25 0.862 7.683 1.139 7.25 Z\" fill=\"rgba(135, 135, 135, 0.2) \" stroke-width=\"1.5\" stroke=\"rgb(255, 255, 255)\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Medium Action Icons",
+      "description": "Medium 19.5x19.5 monoline icons typically used in feature lists and editor toolbars",
+      "when_to_use": [
+        "Feature Lists",
+        "Editor Actions",
+        "Toolbar"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline, 1.5px stroke",
+      "sizes": {
+        "small": "16px",
+        "medium": "19.5px"
+      },
+      "examples": [
+        {
+          "name": "Edit Pencil",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19.5 19.5\" id=\"svg11460081331\"><path d=\"M 6.181 0.73 C 5.987 0.402 5.513 0.402 5.319 0.73 L 0.652 8.644 C 0.421 9.036 0.793 9.509 1.229 9.376 L 5.75 8 L 10.271 9.376 C 10.707 9.509 11.079 9.036 10.848 8.644 Z\" transform=\"translate(2.75 3.75) rotate(-45 5.75 5)\" fill=\"rgba(153, 153, 153, 0.2) \" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Plus Action",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19.5 19.5\" id=\"svg11855643982\"><g transform=\"translate(4.75 4.75)\"><path d=\"M 5 0 L 5 10\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M 0 5 L 10 5\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g></svg>"
+        },
+        {
+          "name": "Arrow Right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19.5 19.5\" id=\"svg10115357809\"><path d=\"M 4.75 9.5 L 9.043 5.207 C 9.433 4.817 10.067 4.817 10.457 5.207 L 14.75 9.5\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M 9.75 6.253 L 9.75 14.753\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(153, 153, 153) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Tiny Indicator Icons",
+      "description": "Tiny 6x6 to 10x10 icons used for status dots and micro chevrons",
+      "when_to_use": [
+        "Status indicators",
+        "Micro chevrons",
+        "Window controls"
+      ],
+      "format": "SVG",
+      "style": "Filled and Thick stroke",
+      "sizes": {
+        "small": "6px",
+        "medium": "10px"
+      },
+      "examples": [
+        {
+          "name": "Chevron Right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 8 8\" id=\"svg10994104066\"><path d=\"M 0 6 L 2.293 3.707 C 2.683 3.317 2.683 2.683 2.293 2.293 L 0 0\" transform=\"translate(2.5 1) rotate(90 1.5 3)\" fill=\"transparent\" stroke-width=\"1.5\" stroke=\"rgb(102, 102, 102) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Status Dot Green",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 6 6\" overflow=\"visible\" id=\"svg-1890267923_314\"><path d=\"M 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 C 0 1.343 1.343 0 3 0 Z\" fill=\"rgb(76, 217, 99)\"></path></svg>"
+        },
+        {
+          "name": "Chevron Down",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 10 5\" overflow=\"visible\" id=\"svg-977085200_417\"><path d=\"M 0 5 L 4.293 0.707 C 4.683 0.317 5.317 0.317 5.707 0.707 L 10 5\" fill=\"transparent\" stroke-width=\"2\" stroke=\"rgb(255, 255, 255) \" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "a24",
+  "source_url": "https://a24films.com/",
+  "captured_at": "2026-10-14T05:05:03.673018Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/a24.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/a24.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Footer Column Divider",
+        "description": "Top border divider used on footer column eyebrows",
+        "when_to_use": [
+          "Separating footer sections",
+          "Column header boundaries"
+        ],
+        "color": "#FFFFFF",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Content Section Divider",
+        "description": "Subtle divider used between content sections",
+        "when_to_use": [
+          "Separating major content sections",
+          "Visual content breaks"
+        ],
+        "color": "#000000",
+        "height": "0.5px",
+        "style": "solid"
+      }
+    ]
+  }
+}

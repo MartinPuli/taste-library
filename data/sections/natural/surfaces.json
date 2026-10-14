@@ -1,0 +1,346 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Background Primary",
+        "description": "Main page background",
+        "when_to_use": [
+          "Page backgrounds",
+          "Card surfaces",
+          "Modal backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Background Secondary",
+        "description": "Secondary background surface (oklch(98.2% .001 75))",
+        "when_to_use": [
+          "Chips",
+          "Secondary cards",
+          "Muted surfaces"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Background Hover",
+        "description": "Hover state background (oklch(98.5% .001 75))",
+        "when_to_use": [
+          "Button hover states",
+          "Interactive element hover"
+        ],
+        "hex": "#FBFBFB"
+      },
+      {
+        "name": "Background Secondary Hover",
+        "description": "Secondary hover state (oklch(96.6% .001 75))",
+        "when_to_use": [
+          "Secondary button hover states"
+        ],
+        "hex": "#F7F7F7"
+      },
+      {
+        "name": "Background Button",
+        "description": "Primary button background (oklch(24.4% .001 75))",
+        "when_to_use": [
+          "Primary CTA buttons",
+          "Accent buttons"
+        ],
+        "hex": "#292929"
+      },
+      {
+        "name": "Background Button Hover",
+        "description": "Button hover state (oklch(60.2% .001 75))",
+        "when_to_use": [
+          "Primary button hover states"
+        ],
+        "hex": "#838383"
+      },
+      {
+        "name": "Surface",
+        "description": "White surface layer",
+        "when_to_use": [
+          "Cards",
+          "Panels",
+          "Modals"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Surface Muted",
+        "description": "Muted surface variant (oklch(98.2% .001 75))",
+        "when_to_use": [
+          "Secondary surfaces",
+          "Nested containers"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Veil",
+        "description": "Translucent overlay (rgba(7,7,0,0.16))",
+        "when_to_use": [
+          "Modal backdrops",
+          "Overlay scrims"
+        ],
+        "hex": "#07070029"
+      },
+      {
+        "name": "Wash",
+        "description": "Subtle background wash (rgba(47,47,5,0.024))",
+        "when_to_use": [
+          "Subtle hover states",
+          "Agent wash effects"
+        ],
+        "hex": "#2F2F0506"
+      },
+      {
+        "name": "Stroke",
+        "description": "Border color (oklch(91.9% .001 75))",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Hairlines"
+        ],
+        "hex": "#EFEFEF"
+      },
+      {
+        "name": "Stroke Hover",
+        "description": "Border hover state (oklch(77.9% .001 75))",
+        "when_to_use": [
+          "Hover borders",
+          "Active borders"
+        ],
+        "hex": "#C7C7C7"
+      },
+      {
+        "name": "Stroke Active",
+        "description": "Active stroke (oklch(37.5% .001 75))",
+        "when_to_use": [
+          "Active borders",
+          "Focus rings"
+        ],
+        "hex": "#414140"
+      },
+      {
+        "name": "Line",
+        "description": "Line separator (oklch(91.9% .001 75))",
+        "when_to_use": [
+          "Horizontal rules",
+          "Separators"
+        ],
+        "hex": "#EFEFEF"
+      },
+      {
+        "name": "Chip",
+        "description": "Chip background (oklch(98.2% .001 75))",
+        "when_to_use": [
+          "Status chips",
+          "Tags",
+          "Badges"
+        ],
+        "hex": "#FAFAF9"
+      },
+      {
+        "name": "Container Nested",
+        "description": "Nested container background (oklch(96.6% .001 75))",
+        "when_to_use": [
+          "Nested cards",
+          "Secondary containers"
+        ],
+        "hex": "#F7F7F7"
+      },
+      {
+        "name": "Sandbox Frame",
+        "description": "Sandbox frame background (oklch(89.4% .057 70))",
+        "when_to_use": [
+          "Sandbox environments",
+          "Code previews"
+        ],
+        "hex": "#EDDBB7"
+      },
+      {
+        "name": "Ice 100",
+        "description": "Pure white ice variant",
+        "when_to_use": [
+          "Overlays on dark backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Ice 75",
+        "description": "Semi-transparent white (rgba(255,255,255,0.7))",
+        "when_to_use": [
+          "Glass effects",
+          "Overlays"
+        ],
+        "hex": "#FFFFFFB4"
+      },
+      {
+        "name": "Ice 50",
+        "description": "Semi-transparent white (rgba(255,255,255,0.48))",
+        "when_to_use": [
+          "Hover fills on dark backgrounds"
+        ],
+        "hex": "#FFFFFF7B"
+      },
+      {
+        "name": "Ice 25",
+        "description": "Semi-transparent white (rgba(255,255,255,0.22))",
+        "when_to_use": [
+          "Subtle overlays"
+        ],
+        "hex": "#FFFFFF38"
+      },
+      {
+        "name": "Midnight 100",
+        "description": "Dark midnight (oklch(15% .001 75))",
+        "when_to_use": [
+          "Text on light backgrounds",
+          "Primary buttons"
+        ],
+        "hex": "#0B0B0B"
+      },
+      {
+        "name": "Midnight 75",
+        "description": "Semi-transparent black (rgba(0,0,0,0.87))",
+        "when_to_use": [
+          "Overlays",
+          "Shadows"
+        ],
+        "hex": "#000000DF"
+      },
+      {
+        "name": "Midnight 50",
+        "description": "Semi-transparent black (rgba(2,2,0,0.61))",
+        "when_to_use": [
+          "Modal overlays"
+        ],
+        "hex": "#0202009B"
+      },
+      {
+        "name": "Midnight 25",
+        "description": "Semi-transparent black (rgba(5,5,0,0.21))",
+        "when_to_use": [
+          "Subtle shadows"
+        ],
+        "hex": "#05050035"
+      },
+      {
+        "name": "Error Background",
+        "description": "Error state background (oklch(94.8% .037 26.3))",
+        "when_to_use": [
+          "Error messages",
+          "Validation states"
+        ],
+        "hex": "#F8E7E7"
+      },
+      {
+        "name": "Success Background",
+        "description": "Success state background (oklch(94.8% .042 147.5))",
+        "when_to_use": [
+          "Success messages",
+          "Confirmation states"
+        ],
+        "hex": "#E5F5EC"
+      },
+      {
+        "name": "Warning Background",
+        "description": "Warning state background (oklch(98% .042 55))",
+        "when_to_use": [
+          "Warning messages",
+          "Caution states"
+        ],
+        "hex": "#FEF9EB"
+      },
+      {
+        "name": "Warning Subtle",
+        "description": "Subtle warning background (oklch(99% .013 55))",
+        "when_to_use": [
+          "Subtle warning surfaces"
+        ],
+        "hex": "#FFFCF4"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Gradient (Top to Bottom)",
+        "description": "Top-to-bottom gradient for hero sections",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Fade-out effects"
+        ],
+        "css_code": "linear-gradient(to bottom in oklab, oklch(100% 0 0), rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)"
+      },
+      {
+        "name": "Hero Gradient (Bottom to Top)",
+        "description": "Bottom-to-top gradient for hero sections",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Fade-in effects from bottom"
+        ],
+        "css_code": "linear-gradient(to top in oklab, oklch(100% 0 0), rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)"
+      },
+      {
+        "name": "Background Fade (Top)",
+        "description": "Fade from background-primary to transparent",
+        "when_to_use": [
+          "Section transitions",
+          "Soft edges"
+        ],
+        "css_code": "linear-gradient(to bottom in oklab, oklch(100% 0 0), transparent)"
+      },
+      {
+        "name": "Surface Fade (Top)",
+        "description": "Fade from surface to transparent",
+        "when_to_use": [
+          "Card transitions",
+          "Scroll fades"
+        ],
+        "css_code": "linear-gradient(to bottom in oklab, oklch(100% 0 0), transparent)"
+      },
+      {
+        "name": "Ghost Block Shimmer",
+        "description": "Animated shimmer gradient for skeleton loading",
+        "when_to_use": [
+          "Loading states",
+          "Skeleton screens"
+        ],
+        "css_code": "linear-gradient(105deg, #0000 0% 32%, #00000003 44%, #00000005, #00000003 56%, #0000 68% 100%)"
+      },
+      {
+        "name": "Skeleton Shimmer",
+        "description": "Skeleton shimmer effect with highlight band",
+        "when_to_use": [
+          "Skeleton loading UI",
+          "Content placeholders"
+        ],
+        "css_code": "linear-gradient(90deg, transparent 0%, transparent calc(50% - var(--skeleton-band, 0%) - var(--skeleton-feather, 12%)), var(--skeleton-highlight, #ffffff8c) calc(50% - var(--skeleton-band, 0%)), var(--skeleton-highlight, #ffffff8c) calc(50% + var(--skeleton-band, 0%)), transparent calc(50% + var(--skeleton-band, 0%) + var(--skeleton-feather, 12%)), transparent 100%)"
+      }
+    ],
+    "highlights": [
+      "Soft shadows with large blur radius: box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.04)",
+      "Strong shadows: box-shadow: 0px 4px 32px 0px rgba(0,0,0,0.08)",
+      "Ghost block shimmer: Animated linear gradient at 105deg with multiple color stops, background-size: 60vw 100%, 3s cubic-bezier(.45,.05,.55,.95) infinite animation",
+      "Skeleton shimmer: Animated highlight band moving across elements, background-size: 220% 100%, var(--skeleton-duration, 2s) ease-in-out infinite",
+      "Texture overlay on splash images: Layered paper, print, scan, and grain textures with opacity: 0.1",
+      "Backdrop blur effects: backdrop-filter: blur(8px) and blur(10px) on modals and overlays",
+      "Glass panels: Ice-50 (#ffffff7b) and Ice-75 (#ffffffb4) used for translucent hover fills over dark surfaces",
+      "Inset shadows for borders: box-shadow: inset 0 0 0 0.5px var(--color-stroke) and inset 0 0 0 1px var(--color-stroke)"
+    ]
+  }
+}

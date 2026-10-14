@@ -1,0 +1,52 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/nvidia.json",
+  "data": [
+    {
+      "name": "Navigation & UI Icons",
+      "description": "Monoline and filled UI icons used in the global navigation menu and components for search, user profile, cart, and mobile menu toggles.",
+      "when_to_use": [
+        "Global Header",
+        "Navigation Menus",
+        "Search Inputs",
+        "Dropdowns"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Search",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon nav-search-icon\" aria-labelledby=\"search\"> <g><g id=\"n24-search\" viewBox=\"0 0 24 24\"> <title id=\"search\">Search icon</title> <desc>Click to search</desc> <defs> </defs> <g id=\"n24-icon-search-icon\"> <g id=\"n24-icon-search-boundary\" class=\"n24-icon-search-bg\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path></g> <path class=\"n24-icon-search-fill\" d=\"M9.9,4.05A5.85,5.85,0,1,1,4.05,9.9,5.8566,5.8566,0,0,1,9.9,4.05m0-1.5A7.35,7.35,0,1,0,17.25,9.9,7.35,7.35,0,0,0,9.9,2.55Z\"></path> <line class=\"n24-icon-search-stroke\" x1=\"15\" y1=\"15\" x2=\"19.875\" y2=\"19.875\"></line> </g> </g></g> </svg>"
+        },
+        {
+          "name": "Menu",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon mega-nav-open-menu-icon\"> <g><g id=\"n24-menu\" viewBox=\"0 0 24 24\"> <title>Menu</title> <desc>Menu icon</desc> <defs> </defs> <g id=\"n24-icon-menu-group\"> <g id=\"n24-icon-menu-boundary\" class=\"n24-icon-menu-bg\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path></g> <line class=\"n24-icon-menu-stroke\" x1=\"4.5\" y1=\"7.5\" x2=\"19.5\" y2=\"7.5\"></line> <line class=\"n24-icon-menu-stroke\" x1=\"4.5\" y1=\"12\" x2=\"19.5\" y2=\"12\"></line> <line class=\"n24-icon-menu-stroke\" x1=\"4.5\" y1=\"16.5\" x2=\"19.5\" y2=\"16.5\"></line> </g> </g></g> </svg>"
+        },
+        {
+          "name": "Shopping Cart",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon nvcarticon n24-cart\" style=\"\" aria-labelledby=\"shopping_cart\"> <g><g id=\"n24-cart\" viewBox=\"0 0 24 24\"> <title id=\"shopping_cart\">Shopping Cart</title> <desc>Click to see cart items</desc> <defs> </defs> <g id=\"n24-icon-cart-icon\"> <g id=\"n24-icon-cart-boundary\" class=\"n24-icon-cart-bg\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path></g> <polyline class=\"n24-icon-cart-stroke\" points=\"1.5 3.75 4.894 3.75 7.707 14.25 16.5 14.25\"></polyline> <circle class=\"n24-icon-cart-stroke\" cx=\"8.25\" cy=\"18.75001\" r=\"1.5\"></circle> <circle class=\"n24-icon-cart-stroke\" cx=\"15.75\" cy=\"18.75001\" r=\"1.5\"></circle> <polyline class=\"n24-icon-cart-stroke\" points=\"5.295 5.25 18.714 5.25 17.142 11.25 6.903 11.25\"></polyline> </g> </g></g> </svg>"
+        },
+        {
+          "name": "Close",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"n24-icon menu-button close\"> <g><g id=\"n24-close-small\" viewBox=\"0 0 24 24\"> <title>Close</title> <desc>Close icon</desc> <defs> </defs> <g id=\"n24-icon-close-small\"> <g id=\"boundary\"> <g class=\"n24-icon-close-small-cls-1\"> <path d=\"M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z\"></path> </g> </g> <line class=\"n24-icon-close-small-cls-2\" x1=\"7.50005\" y1=\"7.50002\" x2=\"16.50005\" y2=\"16.50002\"></line> <line class=\"n24-icon-close-small-cls-2\" x1=\"7.50005\" y1=\"16.50002\" x2=\"16.50005\" y2=\"7.50002\"></line> </g> </g></g></svg>"
+        },
+        {
+          "name": "User Profile",
+          "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.65003 10.5C4.55165 10.9847 4.5 11.4863 4.5 12C4.5 12.5137 4.55165 13.0153 4.65003 13.5H7.55935C7.52023 13.0113 7.5 12.51 7.5 12C7.5 11.49 7.52023 10.9887 7.55935 10.5H4.65003ZM5.12407 9H7.74448C7.94369 7.82124 8.25841 6.75177 8.66557 5.85602C8.78395 5.5956 8.9143 5.34175 9.05649 5.09966C7.3001 5.84986 5.88822 7.25105 5.12407 9ZM12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM12 4.5C11.4394 4.5 10.6869 5.03412 10.0311 6.47672C9.7109 7.18121 9.44812 8.03723 9.26799 9H14.732C14.5519 8.03723 14.2891 7.18121 13.9689 6.47672C13.3131 5.03412 12.5606 4.5 12 4.5ZM16.2555 9C16.0563 7.82124 15.7416 6.75177 15.3344 5.85602C15.2161 5.5956 15.0857 5.34175 14.9435 5.09966C16.6999 5.84986 18.1118 7.25105 18.8759 9H16.2555ZM14.9355 10.5H9.06454C9.02232 10.9837 9 11.4851 9 12C9 12.5149 9.02232 13.0163 9.06454 13.5H14.9355C14.9777 13.0163 15 12.5149 15 12C15 11.4851 14.9777 10.9837 14.9355 10.5ZM16.4407 13.5C16.4798 13.0113 16.5 12.51 16.5 12C16.5 11.49 16.4798 10.9887 16.4407 10.5H19.35C19.4484 10.9847 19.5 11.4863 19.5 12C19.5 12.5137 19.4484 13.0153 19.35 13.5H16.4407ZM14.732 15H9.26799C9.44812 15.9628 9.7109 16.8188 10.0311 17.5233C10.6869 18.9659 11.4394 19.5 12 19.5C12.5606 19.5 13.3131 18.9659 13.9689 17.5233C14.2891 16.8188 14.5519 15.9628 14.732 15ZM14.9435 18.9003C15.0857 18.6583 15.2161 18.4044 15.3344 18.144C15.7416 17.2482 16.0563 16.1788 16.2555 15H18.8759C18.1118 16.749 16.6999 18.1501 14.9435 18.9003ZM9.05648 18.9003C8.9143 18.6583 8.78395 18.4044 8.66557 18.144C8.25841 17.2482 7.94369 16.1788 7.74448 15H5.12407C5.88822 16.749 7.3001 18.1501 9.05648 18.9003Z\" fill=\"#5E5E5E\" stroke=\"white\" stroke-width=\"0.2\"></path> </svg>"
+        }
+      ]
+    }
+  ]
+}

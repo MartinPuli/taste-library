@@ -1,0 +1,51 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "top_nav": {
+      "height": "61px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FCFCF9",
+        "color_reference": "Paper/paper-50",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Pill Tab",
+      "description": "Tabs organize content into multiple sections and allow users to navigate between them. Used in the application mockup UI.",
+      "when_to_use": [
+        "Navigation between workspace views",
+        "Switching between canvas pages",
+        "Content category filtering"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Muted text color, no background",
+          "background": null,
+          "text": "var(--pui-tab-ink)",
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Elevated background with shadow, darker text",
+          "background": "var(--pui-control)",
+          "text": "var(--pui-tab-ink-active)",
+          "icon": "var(--pui-tab-icon-active)"
+        }
+      ]
+    }
+  }
+}

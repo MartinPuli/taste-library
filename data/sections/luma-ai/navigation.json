@@ -1,0 +1,29 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": {
+    "top_nav": {
+      "height": "4rem",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Surface Primary",
+        "opacity": "0.8",
+        "blur": "backdrop-filter: blur(24px)"
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": null
+  }
+}

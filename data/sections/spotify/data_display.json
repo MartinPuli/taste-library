@@ -1,0 +1,28 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Media Card (Small)",
+        "description": "Square album/artist card with cover art image and title text below, used in horizontal scroll carousels for content discovery.",
+        "when_to_use": [
+          "Displaying trending songs in horizontal carousels",
+          "Showcasing popular artists with circular images",
+          "Listing popular albums and singles",
+          "Radio station previews"
+        ]
+      }
+    ]
+  }
+}

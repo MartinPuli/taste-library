@@ -1,0 +1,41 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Border Divider",
+        "description": "Vertical border dividers on left and right sides of container sections with decorative dot markers at intersections.",
+        "when_to_use": [
+          "Between major content sections",
+          "Creating visual separation in long-form pages"
+        ],
+        "color": "rgba(0, 0, 0, 0.05)",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Horizontal Section Divider",
+        "description": "Subtle horizontal line divider with 5% black opacity, used to separate content blocks.",
+        "when_to_use": [
+          "Between page sections",
+          "Above footer areas"
+        ],
+        "color": "rgba(0, 0, 0, 0.05)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

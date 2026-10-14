@@ -1,0 +1,65 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "carousel",
+      "tab_switching",
+      "hover_lift",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "button-transition",
+        "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;",
+        "description": "Standard button state transition applied to all interactive buttons for smooth hover and active state changes."
+      },
+      {
+        "name": "tab-indicator-transition",
+        "css": "transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;",
+        "description": "Opacity transition for tab selection indicator backgrounds."
+      },
+      {
+        "name": "carousel-slide",
+        "css": "",
+        "description": "JS-driven carousel animation for voice cards. Cards scale and translate with easing (360ms transition-duration, ease timing function) as they move between positions. Includes opacity transitions for edge items."
+      },
+      {
+        "name": "card-hover-scale",
+        "css": "transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 200ms;",
+        "description": "Hover scale effect on voice cards with border ring appearing. Scale transitions from 0.985 to 1 with opacity change."
+      },
+      {
+        "name": "active-scale",
+        "css": "transform: scale(0.98);",
+        "description": "Active/pressed state scale transformation for buttons, providing tactile feedback on click."
+      },
+      {
+        "name": "sticky-header-slide",
+        "css": "transition-property: transform, visibility; transition-duration: 300ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);",
+        "description": "Sticky contextual navigation bar slides in from top with transform translateY and visibility transitions."
+      },
+      {
+        "name": "color-transition",
+        "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;",
+        "description": "Standard color transition for text and background color changes on interactive elements."
+      }
+    ],
+    "insights": [
+      "The design system uses a pill-shaped (rounded-full) button paradigm consistently across all interactive elements, from CTAs to tabs to icon buttons, creating strong visual cohesion.",
+      "A sophisticated tab system with three distinct states (selected, default, hover) uses white backgrounds with subtle shadows for selection, avoiding harsh borders in favor of elevation for state indication.",
+      "The carousel component employs JS-driven animations with progressive scaling and opacity changes to create depth perception, making adjacent items appear to recede into the background."
+    ]
+  }
+}

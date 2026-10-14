@@ -1,0 +1,211 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "gradient_radial"
+    ],
+    "solid_colors": [
+      {
+        "name": "Black Primary",
+        "description": "Primary background color for dark theme sections",
+        "when_to_use": [
+          "Dark themed containers",
+          "Main backgrounds",
+          "High contrast sections"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Dark Gray Surface",
+        "description": "Search input wrapper background",
+        "when_to_use": [
+          "Search input containers",
+          "Elevated dark surfaces"
+        ],
+        "hex": "#0B0B0B"
+      },
+      {
+        "name": "Dark Surface Secondary",
+        "description": "GFN promo background and YouTube consent overlay",
+        "when_to_use": [
+          "Card backgrounds on dark theme",
+          "Modal overlays"
+        ],
+        "hex": "#0C0C0C"
+      },
+      {
+        "name": "Light Gray Surface",
+        "description": "Light background for filters, tips, pagination center",
+        "when_to_use": [
+          "Filter containers",
+          "Search tips sections",
+          "Pagination centers"
+        ],
+        "hex": "#F7F7F7"
+      },
+      {
+        "name": "White Surface",
+        "description": "Primary light background",
+        "when_to_use": [
+          "Default page backgrounds",
+          "Card backgrounds in light theme"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Dark Elevated Surface",
+        "description": "GenAI wrapper and overlay container background",
+        "when_to_use": [
+          "AI summary sections",
+          "Overlay containers"
+        ],
+        "hex": "#161616"
+      },
+      {
+        "name": "Dropdown Background",
+        "description": "Navigation dropdown menu background",
+        "when_to_use": [
+          "Dropdown menus",
+          "Sub-navigation backgrounds"
+        ],
+        "hex": "#EEEEEE"
+      },
+      {
+        "name": "Divider Gray",
+        "description": "Horizontal rules and dividers",
+        "when_to_use": [
+          "Result dividers",
+          "Section separators"
+        ],
+        "hex": "#CCCCCC"
+      },
+      {
+        "name": "Tooltip Background",
+        "description": "Tooltip and popover background",
+        "when_to_use": [
+          "Tooltips",
+          "Small popovers",
+          "Contextual hints"
+        ],
+        "hex": "#313131"
+      },
+      {
+        "name": "NVIDIA Green",
+        "description": "Primary brand color for buttons and accents",
+        "when_to_use": [
+          "Primary CTAs",
+          "Brand accents",
+          "Active states"
+        ],
+        "hex": "#76B900"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Rotating Gold Gradient Border",
+        "description": "Animated conic gradient rotating through gold and brown tones",
+        "when_to_use": [
+          "Search input wrapper border",
+          "Gradient border accents",
+          "Animated decorative elements"
+        ],
+        "css_code": "conic-gradient(from 0deg, #8b7355 0%, #6d5a3a 5%, #7a6542 10%, #d4c4a8 15%, #b8956e 20%, #c9a86c 25%, #e8dcc4 30%, #f5ede0 35%, #c4a064 40%, #8b7355 45%, #7a6542 50%, #b89b6a 55%, #d4c4a8 60%, #e8dcc4 65%, #c9a86c 70%, #b8956e 75%, #a68b5b 80%, #8b7355 85%, #6d5a3a 90%, #9a8262 95%, #8b7355 100%)"
+      },
+      {
+        "name": "AI Summary Fade to Black",
+        "description": "Bottom fade gradient for AI summary text overflow",
+        "when_to_use": [
+          "AI summary text fade-out",
+          "Content overflow indicators"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 60%, #000 100%)"
+      },
+      {
+        "name": "GFN Promo Desktop Gradient",
+        "description": "Top to bottom gradient overlaying promotional card art (desktop)",
+        "when_to_use": [
+          "GFN games promo cards",
+          "Featured content backgrounds"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) -13.61%, #000 91.42%)"
+      },
+      {
+        "name": "GFN Promo Radial Scrim Desktop",
+        "description": "Radial gradient scrim from top-left for promotional art (desktop)",
+        "when_to_use": [
+          "GFN promo overlays",
+          "Top-left corner scrim effects"
+        ],
+        "css_code": "radial-gradient(178% 1105% at 0% 0%, var(--gfn-marquee-scrim) 10.47%, rgba(249, 233, 207, 0.00) 39.63%)"
+      },
+      {
+        "name": "GFN Promo Tablet Gradient",
+        "description": "Vertical gradient for GFN promo on tablet",
+        "when_to_use": [
+          "GFN promo tablet layout"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0.39%, #000 100.43%)"
+      },
+      {
+        "name": "GFN Promo Tablet Radial",
+        "description": "Radial gradient scrim for GFN promo tablet layout",
+        "when_to_use": [
+          "GFN promo tablet overlays"
+        ],
+        "css_code": "radial-gradient(75% 560% at 0% 0%, var(--gfn-marquee-scrim), rgba(249, 233, 207, 0.00) 100%)"
+      },
+      {
+        "name": "GFN Promo Mobile Gradient",
+        "description": "Vertical gradient for GFN promo on mobile",
+        "when_to_use": [
+          "GFN promo mobile layout"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0.39%, #000 75.43%)"
+      },
+      {
+        "name": "GFN Promo Mobile Radial",
+        "description": "Radial gradient scrim for GFN promo mobile layout",
+        "when_to_use": [
+          "GFN promo mobile overlays"
+        ],
+        "css_code": "radial-gradient(150% 300% at 0% 0%, var(--gfn-marquee-scrim) 10.47%, rgba(249, 233, 207, 0.00) 100%)"
+      },
+      {
+        "name": "Comparison Vignette Top (Desktop)",
+        "description": "Top vignette gradient for comparison component",
+        "when_to_use": [
+          "Comparison components",
+          "Top overlay vignettes"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0,0,0,.95) 90pt, transparent)"
+      },
+      {
+        "name": "Skinny Section Two-Tone Gradient",
+        "description": "Horizontal split gradient from white to light gray",
+        "when_to_use": [
+          "Skinny section backgrounds",
+          "Two-tone split layouts"
+        ],
+        "css_code": "linear-gradient(to right, #FFFFFF 0% calc(50% - 1250px), #F7F7F7 calc(50% + 1250px) 100%)"
+      }
+    ],
+    "highlights": [
+      "Rotating gold conic gradient border on search input with 20s animation",
+      "Box shadow on search input: 0 0 24px rgba(196, 160, 100, 0.18) with subtle gold glow",
+      "Tooltip surfaces with soft shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12) and 1px #636363 border",
+      "GFN promo cards use layered gradients combining linear and radial overlays on background art",
+      "AI summary text has fade-to-black gradient ::after pseudo-element for overflow indication",
+      "Comparison component has vignette gradients at top edge for content overlay"
+    ]
+  }
+}

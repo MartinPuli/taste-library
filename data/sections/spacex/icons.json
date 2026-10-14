@@ -1,0 +1,54 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/spacex.json",
+  "data": [
+    {
+      "name": "SpaceX UI Icons",
+      "description": "Minimalist, geometric monoline SVG icons used for navigation elements, buttons, and social media links across the site.",
+      "when_to_use": [
+        "Site header navigation (e.g., dropdown arrows)",
+        "Call to action buttons (e.g., forward arrows)",
+        "Widget menus (e.g., grid layout icon)",
+        "Footer social links"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "9px",
+        "medium": "16px"
+      },
+      "examples": [
+        {
+          "name": "menu",
+          "svg_code": "<svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" data-elements=\"3\" data-types=\"path:3\"></svg>"
+        },
+        {
+          "name": "down-arrow",
+          "svg_code": "<svg viewBox=\"0 0 10 6\" width=\"10\" height=\"6\" class=\"menu-icon\" data-elements=\"1\" data-types=\"path:1\" data-stroke=\"#FFFFFF\"></svg>"
+        },
+        {
+          "name": "arrow",
+          "svg_code": "<svg viewBox=\"0 0 13 12\" width=\"13\" height=\"12\" data-elements=\"1\" data-types=\"path:1\"></svg>"
+        },
+        {
+          "name": "grid",
+          "svg_code": "<svg viewBox=\"0 0 9 13\" width=\"9\" height=\"13\" data-elements=\"1\" data-types=\"path:1\"></svg>"
+        },
+        {
+          "name": "x-social",
+          "svg_code": "<svg viewBox=\"0 0 12 12\" width=\"12\" height=\"12\" data-elements=\"1\" data-types=\"path:1\"></svg>"
+        }
+      ]
+    }
+  ]
+}

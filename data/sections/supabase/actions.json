@@ -1,0 +1,322 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Start your project (Primary Solid)",
+        "usage": "Primary CTA button used in hero sections, navigation, and final CTA blocks. Solid green background with white text.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small (Nav)",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "12px",
+              "padding": "4px 10px"
+            },
+            {
+              "name": "Default",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "14px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--primary-solid)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--primary-solid-hover)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--primary-solid)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Request a demo (Raised Surface)",
+        "usage": "Secondary CTA button used alongside primary buttons. Has a raised control surface appearance with subtle shadow.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "14px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign in (Text Button)",
+        "usage": "Navigation sign-in button with raised surface styling for authenticated actions.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "12px",
+              "padding": "4px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Join us on Discord (Raised Surface)",
+        "usage": "Community CTA button linking to Discord, uses raised control surface styling.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "14px",
+              "padding": "8px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Navigation Dropdown (Ghost)",
+        "usage": "Navigation menu buttons for Product, Developers, Solutions dropdowns. Transparent background with hover state.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "14px",
+              "padding": "8px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "var(--foreground)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--accent)",
+            "text_color": "var(--primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "var(--foreground)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Table Editor (Pill Tab)",
+        "usage": "Dashboard feature selector tabs with pill-shaped rounded-full styling.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "14px",
+              "padding": "6px 12px"
+            },
+            {
+              "name": "Large",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "14px",
+              "padding": "8px 32px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--bg-alternative)",
+            "text_color": "var(--foreground-lighter)",
+            "border_color": "var(--border)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-alternative)",
+            "text_color": "var(--foreground)",
+            "border_color": "var(--foreground-lighter)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--bg-alternative)",
+            "text_color": "var(--foreground-lighter)",
+            "border_color": "var(--border)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Skip to content (Skip Link)",
+        "usage": "Accessibility skip link that appears on focus, allowing keyboard users to bypass navigation.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ui-sans-serif, system-ui, sans-serif",
+              "size": "12px",
+              "padding": "4px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--raised-control-surface)",
+            "text_color": "#0C0F24",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are placed inline with consistent spacing, typically primary CTA followed by secondary.",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

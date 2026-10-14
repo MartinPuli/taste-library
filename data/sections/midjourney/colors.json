@@ -1,0 +1,87 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/midjourney.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/midjourney.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Deep Space Navy",
+        "type": "Dark",
+        "rules": {
+          "description": "Serves as the primary dark surface and structural backbone of the design, providing a high-contrast canvas.",
+          "when_to_use": [
+            "Main page background",
+            "Primary structural element fill",
+            "High-contrast base for typography"
+          ]
+        },
+        "hex": "#06051D",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Electric Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Acts as the primary action and highlight color, drawing attention to interactive elements against the dark canvas.",
+          "when_to_use": [
+            "Primary CTA backgrounds",
+            "Text highlights and links",
+            "Active state indicators"
+          ]
+        },
+        "hex": "#63B3ED",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Slate Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Provides low-contrast structural support and legible secondary text styling against the deep dark backgrounds.",
+          "when_to_use": [
+            "Secondary text and captions",
+            "Subdued borders and dividers",
+            "Muted icon fills"
+          ]
+        },
+        "hex": "#CAD5E2",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Deep Plum",
+        "type": "Dark",
+        "rules": {
+          "description": "Adds warmth and depth as a secondary dark background, creating visual hierarchy and section separation from the primary navy.",
+          "when_to_use": [
+            "Distinct section backgrounds",
+            "Card or banner gradients",
+            "Secondary thematic surfaces"
+          ]
+        },
+        "hex": "#2D0E36",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "insights": [
+      "The palette relies on an ultra-dark primary background (#06051D) to allow the luminous electric blue (#63B3ED) to pop as a highly visible accent.",
+      "A shift from cool dark navy to a deep plum (#2D0E36) provides subtle, warm thematic variation in dark surfaces without relying on flat grays.",
+      "The reliance on muted slate (#CAD5E2) for secondary elements ensures UI components remain visible but secondary to the vibrant interactive blue."
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Sign up (Invert/Primary CTA)",
+        "usage": "Primary call-to-action button used in the header navigation for user registration. Inverted style with white background on dark page.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter Variable",
+              "size": "13px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E5E5E6",
+            "text_color": "#08090A",
+            "border_color": "#E5E5E6",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#08090A",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E6",
+            "text_color": "#08090A",
+            "border_color": "#E5E5E6",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Open app (Invert/Secondary CTA)",
+        "usage": "Secondary header CTA button for authenticated users to access the application.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter Variable",
+              "size": "13px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E5E5E6",
+            "text_color": "#08090A",
+            "border_color": "#E5E5E6",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#08090A",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E6",
+            "text_color": "#08090A",
+            "border_color": "#E5E5E6",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Log in (Ghost/Text)",
+        "usage": "Tertiary text link button for existing users to log in, minimal visual emphasis.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter Variable",
+              "size": "13px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.08)",
+            "text_color": "#F7F8F8",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Product (Navigation Dropdown Trigger)",
+        "usage": "Navigation dropdown trigger buttons in the header for accessing Product and Resources menus.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter Variable",
+              "size": "13px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.08)",
+            "text_color": "#F7F8F8",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Pulse (Sidebar Nav Item)",
+        "usage": "Sidebar navigation buttons within the product mockup interface for switching between app sections.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter Variable",
+              "size": "13px",
+              "padding": "0px 7px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#D0D6E0",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#F7F8F8",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#D0D6E0",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Performance (Label Tag)",
+        "usage": "Label tag buttons used for categorization within issues, displaying category names with accent colors.",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter Variable",
+              "size": "12px",
+              "padding": "0px 11px 0px 7px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#D0D6E0",
+            "border_color": "#2E2E32",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#F7F8F8",
+            "border_color": "#3E3E44",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#D0D6E0",
+            "border_color": "#2E2E32",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Icon-only circular buttons used for actions like search, close, navigation arrows, and contextual controls throughout the interface.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter Variable",
+              "size": "16px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#62666D",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.08)",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#62666D",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Pill Button (Small Feature Badge)",
+        "usage": "Small pill-shaped buttons/badges used for feature indicators like 'New' in the hero section.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Mini",
+              "font": "Inter Variable",
+              "size": "12px",
+              "padding": "0px 7px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.02)",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#D0D6E0",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0.02)",
+            "text_color": "#8A8F98",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are typically arranged horizontally with consistent spacing, often separated by visual dividers in navigation contexts.",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

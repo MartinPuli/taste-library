@@ -1,0 +1,94 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/ghost.json",
+  "data": [
+    {
+      "name": "UI Outlined Icons",
+      "description": "Monoline outlined icons used for feature lists, arrows, and navigation controls.",
+      "when_to_use": [
+        "Feature lists",
+        "Button icons",
+        "Carousel controls"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Outlined",
+      "sizes": {
+        "small": "12px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "feature-no-subscription",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-3 shrink-0\"><path d=\"M4 7h16v10H4z M4 10h16 M3 21 21 3\"></path></svg>"
+        },
+        {
+          "name": "feature-on-device",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-3 shrink-0\"><path d=\"M7 7h10v10H7z M9 2v5m6-5v5M9 17v5m6-5v5M2 9h5m-5 6h5m10-6h5m-5 6h5\"></path></svg>"
+        },
+        {
+          "name": "feature-context",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-3 shrink-0\"><path d=\"M8 8c-5-5-9 7-3 8 5 1 9-12 14-11 6 1 2 13-3 8L8 8\"></path></svg>"
+        },
+        {
+          "name": "feature-returns",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-3 shrink-0\"><path d=\"M4 10a8 8 0 1 1 1 8 M4 4v6h6 M12 8v5l3 2\"></path></svg>"
+        },
+        {
+          "name": "arrow-right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M4 12h15m-6-7 7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.5\"></path></svg>"
+        },
+        {
+          "name": "arrow-left",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" style=\"transform:rotate(180deg)\"><path d=\"M4 12h15m-6-7 7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.5\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Layout & Mask SVGs",
+      "description": "Structural SVG elements used for background effects, clipping masks, and layout outlines.",
+      "when_to_use": [
+        "Background elements",
+        "Hover borders",
+        "Text clipping masks"
+      ],
+      "format": "SVG",
+      "style": "Geometric / Structural",
+      "sizes": {
+        "small": "164px",
+        "medium": "717px"
+      },
+      "examples": [
+        {
+          "name": "hero-circle-glow-mobile",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" data-hero-circle-glow=\"true\" viewBox=\"0 0 402 778\" preserveAspectRatio=\"none\" class=\"absolute inset-0 size-full mix-blend-screen\" style=\"opacity:0.06\"><defs><filter id=\"_R_5ainjb_-bloom\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"402\" height=\"778\" color-interpolation-filters=\"sRGB\"><feGaussianBlur stdDeviation=\"9\"></feGaussianBlur></filter><filter id=\"_R_5ainjb_-rim\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"402\" height=\"778\" color-interpolation-filters=\"sRGB\"><feGaussianBlur stdDeviation=\"3\"></feGaussianBlur></filter></defs><path d=\"M 0 501.7 A 900 900 0 0 1 402 501.7\" fill=\"none\" stroke=\"#7bc5ff\" stroke-width=\"14\" opacity=\"0.65\" filter=\"url(#_R_5ainjb_-bloom)\"></path><path d=\"M 0 501.7 A 900 900 0 0 1 402 501.7\" fill=\"none\" stroke=\"#b4e5ff\" stroke-width=\"4\" filter=\"url(#_R_5ainjb_-rim)\"></path></svg>"
+        },
+        {
+          "name": "hero-circle-glow-desktop",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" data-hero-circle-glow=\"true\" viewBox=\"0 0 1512 800\" preserveAspectRatio=\"none\" class=\"absolute inset-0 size-full mix-blend-screen\" style=\"opacity:0.06\"><defs><filter id=\"_R_12cinjb_-bloom\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"1512\" height=\"800\" color-interpolation-filters=\"sRGB\"><feGaussianBlur stdDeviation=\"18\"></feGaussianBlur></filter><filter id=\"_R_12cinjb_-rim\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"1512\" height=\"800\" color-interpolation-filters=\"sRGB\"><feGaussianBlur stdDeviation=\"6\"></feGaussianBlur></filter></defs><path d=\"M 0 572 A 2800 2800 0 0 1 1512 572\" fill=\"none\" stroke=\"#7bc5ff\" stroke-width=\"28\" opacity=\"0.65\" filter=\"url(#_R_12cinjb_-bloom)\"></path><path d=\"M 0 572 A 2800 2800 0 0 1 1512 572\" fill=\"none\" stroke=\"#b4e5ff\" stroke-width=\"8\" filter=\"url(#_R_12cinjb_-rim)\"></path></svg>"
+        },
+        {
+          "name": "intelligence-outline",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" viewBox=\"0 0 717 497\" class=\"pointer-events-none absolute top-0 left-0 block h-[497px] w-[717px]\"><rect data-intelligence-outline=\"true\" x=\"1\" y=\"1\" width=\"715\" height=\"495\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" pathLength=\"1\" stroke-dashoffset=\"0\" stroke-dasharray=\"0 1\" style=\"opacity:0\"></rect></svg>"
+        },
+        {
+          "name": "kitchen-outline-apple",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" class=\"pointer-events-none absolute inset-0 size-full overflow-visible\" viewBox=\"0 0 164 136\"><rect data-kitchen-outline=\"true\" x=\"1\" y=\"1\" width=\"162\" height=\"134\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" pathLength=\"1\" stroke-dashoffset=\"0\" stroke-dasharray=\"0 1\" style=\"opacity:0\"></rect></svg>"
+        },
+        {
+          "name": "core-wordmark-mask",
+          "svg_code": "<svg viewBox=\"0 0 0 0\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" width=\"0\" height=\"0\" class=\"absolute\"><defs><clipPath id=\"wordmark-letters\" clipPathUnits=\"objectBoundingBox\"><path d=\"M910.754 243.36C907.19 229.866 901.723 217.168 894.596 205.543C882.59 185.752 865.913 169.075 846.122 157.07C824.187 143.68 798.479 135.999 770.939 135.999C743.398 135.999 717.621 143.68 695.72 157.07C675.964 169.075 659.322 185.752 647.247 205.543C640.154 217.168 634.687 229.866 631.124 243.36C627.871 255.296 626.21 267.787 626.21 280.692C626.21 291.764 627.456 302.559 629.843 312.904C632.853 326.363 637.766 339.026 644.34 350.721C656.45 372.726 674.234 391.271 695.72 404.315C707.138 411.304 719.628 416.736 732.879 420.265C744.989 423.621 757.756 425.386 770.973 425.386C784.19 425.386 796.922 423.621 809.067 420.265C822.284 416.701 834.739 411.304 846.157 404.315C867.643 391.271 885.427 372.726 897.571 350.721C904.111 338.992 909.058 326.328 912.068 312.904C914.317 303.147 915.563 293.009 915.667 282.561V278.824C915.563 266.541 913.833 254.674 910.788 243.36H910.754ZM836.158 243.36C842.524 254.397 846.122 267.164 846.122 280.761C846.122 292.248 843.528 303.182 838.891 312.939C830.76 330.169 816.229 343.836 798.341 350.755C789.864 354.111 780.592 355.945 770.939 355.945C761.285 355.945 752.013 354.111 743.536 350.755C725.648 343.801 711.082 330.169 702.951 312.939C698.315 303.182 695.72 292.248 695.72 280.761C695.72 267.164 699.318 254.397 705.685 243.36C718.625 220.732 743.017 205.543 770.973 205.543C798.929 205.543 823.252 220.767 836.192 243.36H836.158Z\" transform=\"scale(0.000722543352601156 0.0019548507666924705) translate(-23.01 -17.75)\"></path><path d=\"M1406.94 135.929V205.473H1301.07V297.784C1301.07 303.008 1301.79 308.094 1303.25 312.869C1309.75 334.736 1329.99 350.72 1354 350.72H1406.98V420.265H1353.93C1335.01 420.265 1317.12 415.974 1301.14 408.293C1275.95 396.287 1255.57 375.874 1243.56 350.72C1237.96 339.06 1234.15 326.293 1232.53 312.869C1231.87 307.99 1231.59 302.974 1231.59 297.888V205.473H1197.62V135.929H1231.59V47.3554H1301.14V135.929H1407.01H1406.94Z\" transform=\"scale(0.000722543352601156 0.0019548507666924705) translate(-23.01 -17.75)\"></path><path d=\"M1181.87 331.796C1181.87 338.301 1181.18 344.598 1179.87 350.722C1176.96 363.973 1171.15 376.083 1163.05 386.324C1146.86 407.014 1121.67 420.266 1093.4 420.266H935.356V350.722H1093.4C1103.85 350.722 1112.33 342.314 1112.33 331.796C1112.33 321.278 1103.85 312.87 1093.4 312.87H1023.86C1018.25 312.87 1012.72 312.317 1007.36 311.348C972.515 304.809 944.939 277.787 937.466 243.361C936.082 237.237 935.39 230.939 935.39 224.435C935.39 217.93 936.082 211.564 937.466 205.475C946.15 165.72 981.511 135.965 1023.86 135.965H1163.09V205.475H1023.96C1013.51 205.475 1005.04 213.951 1005.04 224.435C1005.04 234.918 1013.51 243.361 1023.96 243.361H1093.44C1099.04 243.361 1104.58 243.914 1109.94 244.883C1131.43 248.931 1150.15 260.729 1163.09 277.302C1171.18 287.613 1177 299.653 1179.9 312.87C1181.22 318.994 1181.91 325.291 1181.91 331.796H1181.87Z\" transform=\"scale(0.000722543352601156 0.0019548507666924705) translate(-23.01 -17.75)\"></path><path d=\"M307.484 238.239C303.92 224.745 298.454 212.048 291.43 200.388C279.355 180.597 262.643 163.886 242.853 151.81C220.917 138.524 195.21 130.809 167.738 130.809C140.266 130.809 114.49 138.49 92.5542 151.81C79.4412 159.837 67.6775 169.837 57.7821 181.462C52.6614 187.378 48.0944 193.745 43.9771 200.388C36.9188 212.013 31.4522 224.711 27.9231 238.239C24.6708 250.176 23.01 262.666 23.01 275.572C23.01 286.643 24.2556 297.438 26.6429 307.783C29.653 321.242 34.5661 333.906 41.1399 345.6C45.8108 354.181 51.4505 362.208 57.7821 369.577C61.8302 374.352 66.2589 378.884 70.9298 383.14C77.5728 389.16 84.8386 394.523 92.5542 399.263C104.041 406.218 116.497 411.615 129.748 415.179C132.274 415.906 134.834 416.494 137.429 417.047C147.186 419.158 157.324 420.265 167.738 420.265H312.432V275.572C312.432 262.666 310.771 250.141 307.519 238.239H307.484ZM238.908 298.891C237.94 301.936 236.694 304.946 235.31 307.818C227.076 325.152 212.336 338.819 194.276 345.635C186.006 348.783 177.045 350.513 167.669 350.513C158.293 350.513 149.331 348.783 141.062 345.635C127.707 340.549 116.185 331.795 107.812 320.55C104.802 316.571 102.207 312.316 100.062 307.783C95.3914 298.026 92.7618 287.093 92.7618 275.572C92.7618 261.974 96.3947 249.207 102.726 238.239C115.666 215.784 139.886 200.664 167.669 200.664C195.452 200.664 219.706 215.784 232.611 238.239C238.978 249.242 242.611 261.974 242.611 275.572C242.611 283.702 241.33 291.522 238.908 298.857V298.891Z\" transform=\"scale(0.000722543352601156 0.0019548507666924705) translate(-23.01 -17.75)\"></path><path d=\"M312.398 459.744H127.328V529.288H312.398V459.744Z\" transform=\"scale(0.000722543352601156 0.0019548507666924705) translate(-23.01 -17.75)\"></path><path d=\"M596.491 258.308V420.266H527.085V261.698C527.155 260.626 527.189 259.519 527.189 258.446C527.189 257.373 527.155 256.266 527.085 255.194C526.843 251.111 526.151 247.132 525.01 243.326C518.539 221.46 498.264 205.509 474.287 205.509C450.31 205.509 430.035 221.46 423.53 243.326C422.112 248.101 421.385 253.187 421.385 258.446V420.266H351.806V17.74H421.385V147.902C437.37 140.221 455.258 135.931 474.183 135.931C493.109 135.931 511.101 140.255 527.085 147.936C563.899 165.651 590.437 201.15 595.557 243.326C596.215 248.205 596.491 253.222 596.491 258.308Z\" transform=\"scale(0.000722543352601156 0.0019548507666924705) translate(-23.01 -17.75)\"></path></clipPath></defs></svg>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "WATCH (Primary CTA)",
+        "usage": "Primary call-to-action button used in hero sections and content sections for main user actions like watching launches, exploring content, learning more",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "default"
+          }
+        }
+      },
+      {
+        "name": "EXPLORE (Primary CTA)",
+        "usage": "Primary button variant for exploration and discovery actions on content sections",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "default"
+          }
+        }
+      },
+      {
+        "name": "LEARN MORE (Primary CTA)",
+        "usage": "Standard call-to-action for learning more about topics, used across multiple content sections",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "default"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular Social)",
+        "usage": "Circular icon-only button used for social media links in the footer, contains X/Twitter icon",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "18px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(240, 240, 250, 0.1)",
+            "text_color": "#F0F0FA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(240, 240, 250, 0.2)",
+            "text_color": "#F0F0FA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "rgba(240, 240, 250, 0.1)",
+            "text_color": "#F0F0FA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "White (Inverted CTA)",
+        "usage": "Inverted button style with white background for high contrast situations",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "default"
+          }
+        }
+      },
+      {
+        "name": "Thin (Secondary)",
+        "usage": "Compact secondary button with no border, used for less prominent actions",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(37, 38, 40, 0.6)",
+            "text_color": "rgba(240, 240, 250, 0.8)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(37, 38, 40, 0.6)",
+            "text_color": "rgba(240, 240, 250, 0.8)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.3",
+            "cursor": "default"
+          }
+        }
+      },
+      {
+        "name": "RESERVE YOUR RIDE",
+        "usage": "Primary button for launch services section with actual button text from HTML",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      },
+      {
+        "name": "JOIN A MISSION",
+        "usage": "Primary button for human spaceflight section with actual button text from HTML",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      },
+      {
+        "name": "ORDER NOW",
+        "usage": "Primary button for Starlink section with actual button text from HTML",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      },
+      {
+        "name": "STARMIND",
+        "usage": "Primary button for AI compute section with actual button text from HTML",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "D-DIN",
+              "size": "0.75rem",
+              "padding": "20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.5)",
+            "text_color": "#F0F0FA",
+            "border_color": "rgba(240, 240, 250, 0.35)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0FA",
+            "text_color": "#000000",
+            "border_color": "#F0F0FA",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are typically used individually within content sections, centered or aligned to the left of text blocks",
+      "spacing": "30px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

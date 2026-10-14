@@ -1,0 +1,146 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "SpotifyMixUITitle",
+          "role": "Title Small (H2)",
+          "specs": {
+            "size": "24px",
+            "line_height": "",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SpotifyMixUITitle, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SpotifyMixUI",
+          "role": "Body Medium Bold (H4)",
+          "specs": {
+            "size": "16px",
+            "line_height": "",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text styles used for item descriptions, track titles, and general prose.",
+      "variants": [
+        {
+          "name": "SpotifyMixUI",
+          "role": "Body Medium",
+          "specs": {
+            "size": "16px",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SpotifyMixUI",
+          "role": "Body Small",
+          "specs": {
+            "size": "14px",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Utilitarian typography used for interactive buttons, microcopy, timestamps, and navigation elements.",
+      "variants": [
+        {
+          "name": "SpotifyMixUI",
+          "role": "Button / Body Small Bold",
+          "specs": {
+            "size": "14px",
+            "line_height": "",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SpotifyMixUI",
+          "role": "Marginal / Micro",
+          "specs": {
+            "size": "12px",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, \"Helvetica Neue\", helvetica, arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", Meiryo, \"MS Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "",
+      "variants": []
+    },
+    "highlights": "Extensive use of CSS line-clamping (`-webkit-line-clamp`) for track and album titles to maintain grid alignment, alongside standard underlines for interactive inline links.",
+    "insights": [
+      "The typography system relies on Spotify's proprietary 'SpotifyMixUI' and 'SpotifyMixUITitle' typefaces, ensuring brand consistency while supporting extensive internationalization fallbacks.",
+      "Clear typographic hierarchy is established by reserving the 'Title' variant exclusively for primary display headings (24px+), while using the standard UI variant for both body and smaller headers (16px).",
+      "Font sizes utilize a CSS custom properties scale (`--encore-text-size-*`) mapped dynamically across breakpoints, establishing a responsive foundation for cross-device consistency."
+    ]
+  }
+}

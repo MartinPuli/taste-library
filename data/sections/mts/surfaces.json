@@ -1,0 +1,49 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "texture_classification": [
+      "noise_grain",
+      "patterns"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary dark background for off-air poster and base surfaces",
+        "when_to_use": [
+          "Off-air video poster",
+          "Base page background",
+          "Dark mode surfaces"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Panel Background",
+        "description": "Secondary surface for panels and cards",
+        "when_to_use": [
+          "Navigation header",
+          "Featured guests panel",
+          "Content cards"
+        ],
+        "hex": "#0F1011"
+      }
+    ],
+    "gradients": [],
+    "highlights": [
+      "Dithered texture overlay on full-page canvas background (dither-field-canvas)",
+      "Sponsor logo cascade effect with cloned ghost images (sg-clone sg-c1, sg-c2, sg-c3) creating depth",
+      "SVG geometric edge decoration on stream frame (geo-edge with var(--geo-stroke))",
+      "Knockout style sponsor logos with inverted colors (sg-knockout class)",
+      "Interlude layer with dithered mono and color images (si-dither, si-mono)",
+      "Animated scale transform on interlude zoom layer (scale: 1.0651)"
+    ]
+  }
+}

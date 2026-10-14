@@ -1,0 +1,256 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "SF Pro Display",
+          "role": "H2 Display",
+          "specs": {
+            "size": "56px",
+            "line_height": "1.07143",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Display",
+          "role": "H3 Display",
+          "specs": {
+            "size": "40px",
+            "line_height": "1.1",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "H2 Secondary",
+          "specs": {
+            "size": "25.5px",
+            "line_height": "37.5px",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "SF Pro Display",
+          "role": "Body Large",
+          "specs": {
+            "size": "21px",
+            "line_height": "1.19048",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Display\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "Body Regular",
+          "specs": {
+            "size": "17px",
+            "line_height": "25px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "Body Medium Bold",
+          "specs": {
+            "size": "14px",
+            "line_height": "1.28577",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "SF Pro Display",
+          "role": "Nav Item Elevated",
+          "specs": {
+            "size": "24px",
+            "line_height": "1.1666666667",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SF Pro Display",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "Nav Link Apple",
+          "specs": {
+            "size": "17px",
+            "line_height": "1.2353641176",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SF Pro Text",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "Button",
+          "specs": {
+            "size": "14px",
+            "line_height": "1.2857742857",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SF Pro Text",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "UI Label Bold",
+          "specs": {
+            "size": "12px",
+            "line_height": "1.33337",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "UI Label Regular",
+          "specs": {
+            "size": "12px",
+            "line_height": "1.33337",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Pro Text",
+          "role": "Badge",
+          "specs": {
+            "size": "10px",
+            "line_height": "1.3",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "SF Pro Text",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": []
+    },
+    "highlights": null,
+    "insights": [
+      "Apple utilizes SF Pro Display for large headlines (40px+) and elevated UI elements, transitioning to SF Pro Text for sizes below 25px to optimize readability.",
+      "Extensive use of tightly calculated fractional line-heights (e.g., 1.07143 for display, 1.33337 for small labels) ensures precise vertical rhythm.",
+      "UI components like badges and submenu labels scale down to 10px and 12px respectively, maintaining legibility through specific font weights (600 for emphasis)."
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/sandbar.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal, space-between, transparent overlay",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Minimal symbol logo (Ō mark) in white, left-aligned"
+        },
+        {
+          "type": "navigation",
+          "description": "Text links for 'About' and 'Careers' in white"
+        },
+        {
+          "type": "button",
+          "description": "'Preorder' button with black background and white text, pill-shaped border-radius"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, full viewport height",
+      "headline": "Your Voice, Anywhere",
+      "subheadline": "...",
+      "components": [
+        {
+          "type": "video",
+          "description": "Background video, full-bleed, dark dramatic tones, close-up of pill on finger"
+        },
+        {
+          "type": "image",
+          "description": "Fallback hero image showing macro product photography with warm brown/pink flesh tones and black background"
+        }
+      ]
+    },
+    {
+      "type": "Info Section",
+      "layout_pattern": "Centered, horizontal metadata row",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "icon",
+          "description": "Icon and text: 'At We: Otan Store', 'Oat: Touchscreen', language selector '한국어'"
+        },
+        {
+          "type": "card",
+          "description": "Product info snippets on cream background with minimal black text"
+        }
+      ]
+    },
+    {
+      "type": "Video Card",
+      "layout_pattern": "Centered, card with border",
+      "headline": "Introducing: A Day With Shuen",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Large video card with close-up of mouth/lips and pill on tongue, natural skin tones"
+        },
+        {
+          "type": "card",
+          "description": "Clean rectangular frame with subtle shadow on cream background"
+        }
+      ]
+    },
+    {
+      "type": "Text Content",
+      "layout_pattern": "Centered, poetic line breaks",
+      "headline": "Shrooms is a soft, self-administered",
+      "subheadline": "oral medication, in an orange-like sweet meeting.",
+      "components": []
+    },
+    {
+      "type": "Image Section",
+      "layout_pattern": "Full-width image with overlay modal",
+      "headline": "Shots",
+      "subheadline": "[Descriptive text about product]",
+      "components": [
+        {
+          "type": "image",
+          "description": "Person with pill/product, lifestyle photography on light gray background"
+        },
+        {
+          "type": "card",
+          "description": "Cookie consent modal overlay: white rounded card with black text, soft shadow"
+        }
+      ]
+    },
+    {
+      "type": "Content Section",
+      "layout_pattern": "Centered text block with modal overlay",
+      "headline": "Universal Dictation",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Cookie consent modal: white card, 'Stay Updated' heading, black pill-shaped button"
+        }
+      ]
+    },
+    {
+      "type": "Product Showcase",
+      "layout_pattern": "Centered product image with modal overlay",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Circular ring/wearable device on neutral beige surface, clean product shot with soft shadows"
+        },
+        {
+          "type": "card",
+          "description": "Cookie consent modal overlay: white rounded card with 'Accept Cookies' button"
+        }
+      ]
+    },
+    {
+      "type": "Features Grid",
+      "layout_pattern": "Grid layout with text blocks on dark background",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Feature specification blocks with white/light gray text on black background"
+        },
+        {
+          "type": "card",
+          "description": "Cookie consent modal overlay: white card with soft shadow"
+        }
+      ]
+    },
+    {
+      "type": "Bottom Section",
+      "layout_pattern": "Centered product image with email capture modal",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Circular ring device product shot on cream background"
+        },
+        {
+          "type": "form",
+          "description": "Email input field with light border"
+        },
+        {
+          "type": "button",
+          "description": "'Join Waitlist' button, solid black with pill-shaped border, white text"
+        },
+        {
+          "type": "card",
+          "description": "Modal with 'Stay Updated' heading and text: 'Join our mailing list for exclusive insights, new solutions and pricing.'"
+        }
+      ]
+    }
+  ]
+}

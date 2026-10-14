@@ -1,0 +1,148 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Paper White",
+        "type": "Light",
+        "rules": {
+          "description": "Acts as the foundational surface and the primary text color over dark themes, maintaining a clean, high-contrast aesthetic.",
+          "when_to_use": [
+            "Main page background",
+            "Hero and footer section text",
+            "Secondary CTA button backgrounds (#EEF1F5, #F7F7F7)",
+            "Translucent outlines and borders"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EEF1F5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F7F7F7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E4E5E6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F6F6",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.6061999999999999
+      },
+      {
+        "name": "Body Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "Serves as the default document text color, slightly softer than pure black to improve readability across long sections.",
+          "when_to_use": [
+            "Default HTML body text"
+          ]
+        },
+        "hex": "#404040",
+        "alpha": null,
+        "shades": [],
+        "score": 0.4883
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Provides maximum contrast for graphic elements and forms subtle structural boundaries when used translucently.",
+          "when_to_use": [
+            "Partner logo ticker fills",
+            "Translucent card borders",
+            "Video container dimming overlays"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0969
+      },
+      {
+        "name": "Off Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Carries the primary brand weight, acting as both a bold typography ink and a deep background for high-impact sections.",
+          "when_to_use": [
+            "Navigation bar text and logo",
+            "Footer and hero section backgrounds",
+            "Primary headings",
+            "Secondary CTA button text (#1A1A1A)"
+          ]
+        },
+        "hex": "#0C0C0C",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#1A1A1A",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.09870000000000001
+      },
+      {
+        "name": "Muted Gray",
+        "type": "Cool Color",
+        "rules": {
+          "description": "De-emphasizes secondary information to establish a clear typographic hierarchy.",
+          "when_to_use": [
+            "News article descriptions",
+            "Footer column headers",
+            "App banner dismiss icon"
+          ]
+        },
+        "hex": "#6B7280",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#666E7A",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0257
+      }
+    ],
+    "insights": [
+      "High Contrast Minimalism: The palette is strictly grayscale, relying on stark contrasts to ensure the colorful generative video content remains the focal point.",
+      "Intentional Blacks: The design splits its darkest tones, using pure black (#000000) for vector logos while reserving softer off-blacks (#0C0C0C) for heavy backgrounds and primary typography.",
+      "Translucency over Solid Grays: Rather than introducing mid-tone grays, the design frequently uses translucent whites and blacks to create subtle borders, hovers, and overlays."
+    ]
+  }
+}

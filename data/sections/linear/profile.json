@@ -1,0 +1,57 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "brand_name": "Linear",
+    "tagline": null,
+    "source_url": "https://linear.app",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / Project Management",
+    "primary_purpose": "Drive signups and demonstrate Linear as an AI-powered product development system for modern software teams",
+    "main_cta": "Sign up",
+    "copy_tone": [
+      "Confident",
+      "Technical",
+      "Precise"
+    ],
+    "brand_signature": "Dark, near-black background with high-contrast white typography creates a sophisticated, developer-centric aesthetic. The interface showcases detailed product UI with subtle glass morphism effects, fine border highlights, and elegant grain textures that convey premium software craftsmanship.",
+    "visual_language": {
+      "keywords": [
+        "dark mode",
+        "precision",
+        "technical",
+        "minimalist",
+        "sophisticated",
+        "glassmorphic",
+        "editorial"
+      ],
+      "accent_strategy": "Indigo/purple accents used sparingly for primary actions and status indicators, with semantic colors (green, yellow, red) for workflow states and labels.",
+      "highlights": "Subtle edge glow effects on interactive panels, grain texture overlays, and radial gradient spotlights create depth without distraction."
+    },
+    "strategy": {
+      "target_audience": [
+        "Engineering and product managers at high-growth tech companies seeking efficient issue tracking and project management",
+        "Software development teams at enterprise organizations looking to modernize their product development workflows with AI-powered tools",
+        "Technical founders and startup leaders who value speed, design quality, and integrated AI capabilities in their tooling"
+      ],
+      "executive_synthesis": "Linear's visual identity positions it as a premium, technically sophisticated product built for discerning software teams. The dark mode aesthetic signals developer-first sensibilities while the detailed UI showcases communicate feature depth and polish. Social proof from elite tech companies (OpenAI, Vercel, Figma, Coinbase, Ramp) establishes credibility with target enterprise accounts. The messaging around 'teams and agents' and AI workflows differentiates Linear in the crowded project management space by emphasizing its AI-native approach to product development."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "**Visual Analysis:** The screenshot reveals a deeply dark, almost pure black (#08090A) interface with stark white typography creating extreme contrast. The design exudes a technical, tool-first aesthetic with its monochromatic palette and systematic layering. The product mockup centerpiece shows a sophisticated dark-mode UI with nested panels, subtle translucent borders, and clean geometric shapes. Isometric wireframe diagrams at the bottom reinforce the technical, precise nature of the brand.\n\n**Forensic Evidence Match:**\n- **Color:** Strictly monochromatic with greyscale values from near-black (#08090A) to off-white (#F7F8F8). No saturated brand colors—this aligns with Flat Design's bold, clean color approach, but executed in dark mode.\n- **Typography:** Inter Variable (Sans-Serif Modern, Geometric) used throughout with systematic weight variations (400, 510, 590). Berkeley Mono for code segments. This matches Flat Design's sans-serif modern specification.\n- **Shape:** Geometric shapes dominate—rectangular panels, clean borders, no organic curves. The UI mockups use rectangular grids and sharp geometric divisions.\n- **Texture:** While classified as \"gradient_linear\" and \"glass_blur\", the glass effects are extremely subtle (backdrop-filter: blur(20px) with rgba(255,255,255,0.03) backgrounds). The design remains fundamentally 2D with flat surfaces—gradients are used primarily for edge fades and subtle depth, not as primary visual elements.\n- **Layout:** Grid-Based Strict (12-column system), Generous Whitespace (96-160px between sections). This matches Flat Design's layout specification perfectly.\n\n**6 Spectra Scoring:**\n1. Visual Density: Airy/Spacious (generous whitespace throughout)\n2. Color Cleanliness: Clean/Pure (monochromatic, no muddy tones)\n3. Chronology: Modern (contemporary dark UI paradigm)\n4. Dimensionality: Flat (2D) with subtle depth cues\n5. Decoration: Minimal (no ornamental elements)\n6. Structure: Rigid Grid (strict 12-column system)\n\n**Key Differentiator:** The design uses shadows and subtle glass blur, which might suggest deviation from pure Flat Design. However, these effects are so restrained (translucent borders at #FFFFFF14, minimal shadows) that they serve structural hierarchy rather than decorative depth. The design's essence remains flat—geometric shapes, clean typography, systematic color application.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "**Corporate Modifier:** The design strongly exhibits Corporate tonal characteristics. The client logo bar (OpenAI, Vercel, Figma, Coinbase) signals B2B enterprise positioning. The copy (\"Purpose-built for modern teams\", \"POWERING THE COMPANIES BUILDING THE FUTURE\") uses professional, trust-building language. The conservative color palette (no playful colors), systematic typography hierarchy, and precise grid structure all communicate reliability and competence—hallmarks of Corporate style. The design avoids personality or playfulness in favor of technical credibility."
+    }
+  }
+}

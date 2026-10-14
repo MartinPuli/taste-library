@@ -1,0 +1,32 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/krea.json",
+  "data": {
+    "accordion": {
+      "interaction": "Collapsible sections with animated height transitions (0.2s ease-out), single or multiple open allowed"
+    },
+    "dividers": [
+      {
+        "name": "Sidebar Border",
+        "description": "Subtle right border separating sidebar from main content",
+        "when_to_use": [
+          "Sidebar navigation boundaries",
+          "Panel separations"
+        ],
+        "color": "rgba(255, 255, 255, 0.1)",
+        "height": "0.5px",
+        "style": "solid"
+      }
+    ]
+  }
+}

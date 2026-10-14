@@ -1,0 +1,42 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single section open at a time, chevron rotates 90deg on expand, smooth height animation"
+    },
+    "dividers": [
+      {
+        "name": "Sidebar Section Divider",
+        "description": "Horizontal divider separating sidebar navigation sections (main nav from projects/sessions)",
+        "when_to_use": [
+          "Separating primary nav from collapsible sections",
+          "Visual grouping in sidebar"
+        ],
+        "color": "var(--border-soft)",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Mobile Header Divider",
+        "description": "Bottom border on mobile header separating nav from content",
+        "when_to_use": [
+          "Mobile viewport header separation"
+        ],
+        "color": "var(--border-soft)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "layout",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/layout",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "classification": [
+      "generous_whitespace",
+      "centered_symmetric"
+    ],
+    "grid": {
+      "columns": 12,
+      "gutter": "2rem",
+      "max_width": "1512px"
+    },
+    "breakpoints": {
+      "mobile": "0px - 767px (1 Column, 24px gutter)",
+      "tablet": "768px - 1024px (8 Columns, 24px gutter)",
+      "desktop": "1025px+ (12 Columns, 32px gutter)",
+      "large": null
+    },
+    "section_separation": "Dramatic alternating backgrounds: dark navy/black (#00050a) for hero and feature sections contrast with light textured paper background (rgb(234, 233, 231)) for product and technical content. Large black spacer section creates strong rhythmic pause mid-page. Sections transition via full-bleed color changes with no visible dividers or rules.",
+    "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                    [ORANGE ACCENT BAR]                   │\n├──────────────────────────────────────────────────────────┤\n│                                                          │\n│                     [HERO - Dark]                        │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                  [CONTENT SECTION - Light]               │\n│                                                          │\n│  ┌─────────────────────┐  ┌──────────────────────┐      │\n│  │  Intelligence       │  │                      │      │\n│  │  you have.          │  │   [Dark gradient     │      │\n│  │                     │  │    image/visual]     │      │\n│  │  [Body text...]     │  │                      │      │\n│  │                     │  │                      │      │\n│  │  [Learn more]       │  │                      │      │\n│  └─────────────────────┘  └──────────────────────┘      │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│                    [SPACER - Black]                      │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                 [FOOTER SECTION - Light]                 │\n│                                                          │\n│            [Social icons: ○ ○ ○ ○ ○]                    │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nORANGE ACCENT BAR:\n- Background: Solid bright orange/red (#FF4500 range)\n- Height: Thin horizontal stripe (~5-8px)\n- Purpose: Brand accent, visual anchor at top\n\nHERO - Dark:\n- Background: Very dark navy/black (#0A0F1A range)\n- Clean, minimal space\n- No visible text or imagery in this dark section\n- Creates strong contrast with following light section\n\nCONTENT SECTION - Light:\n- Background: Light gray/off-white (#E8E8E8 - #F0F0F0)\n- Layout: Two-column split layout\n- Left column: Text content\n  * Headline: \"Intelligence you have.\" in dark, clean sans-serif\n  * Body text: Smaller gray descriptive text (not fully legible in screenshot)\n  * Typography mood: Modern, minimal, professional\n- Right column: Visual element\n  * Dark gradient square/rectangle\n  * Gradient: Black to dark gray, top to bottom\n  * Clean edges, modern aesthetic\n- Buttons/CTAs: \"Learn more\" (text link or minimal button, blue/teal color)\n- Colors observed: Light gray background, black text, blue CTA, dark gradient visual\n- Components: Clean card-like layout without heavy borders\n\nSPACER - Black:\n- Background: Solid black (#000000)\n- Large vertical space\n- No content, pure negative space\n- Creates rhythm and separation between sections\n\nFOOTER SECTION - Light:\n- Background: Light gray/off-white (matches content section)\n- Social icons: Five circular outline icons in a row\n- Icons appear to be ghost/outline style (not filled)\n- Centered alignment\n- Colors: Light gray icons on light background (subtle)\n- Minimal, clean footer treatment\n\nOVERALL DESIGN OBSERVATIONS:\n- Strong use of contrast: Dark/light alternating sections\n- Minimal, modern aesthetic\n- Orange accent as brand color\n- Generous white/negative space\n- Clean typography, sans-serif throughout\n- Muted color palette: black, white, gray, with orange and blue accents",
+    "insights": [
+      "Layout operates at scale extremes: massive single-viewport hero sections (100dvh+) alternate with dense technical grids, creating dramatic vertical rhythm and scroll-triggered reveals.",
+      "Spatial hierarchy privileges negative space over density — each major content block occupies full viewport height, allowing single concepts to breathe and anchoring user attention through scroll-based animation choreography.",
+      "Compositional strategy centers on asymmetric 50/50 splits (text/visual) that flip orientation between sections, maintaining visual interest while preserving generous margins (64px+ from viewport edges) and consistent alignment grid (1512px max-width centered canvas)."
+    ]
+  }
+}

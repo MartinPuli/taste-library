@@ -1,0 +1,148 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Core Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Acts as the foundational high-contrast color for the site, providing stark backgrounds for feature sections and clear typography in light sections.",
+          "when_to_use": [
+            "Global text color in light sections",
+            "Hero and feature section backgrounds",
+            "Primary CTA background"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Paper & Surfaces",
+        "type": "Light",
+        "rules": {
+          "description": "Provides the primary light surfaces and contrasting text, creating clean reading environments and sharp contrast inside dark bands.",
+          "when_to_use": [
+            "Base page background (#F5F5F7)",
+            "Feature and testimonial card backgrounds",
+            "Typography inside dark sections"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#EEEEEE",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5F5F7",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0866
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Interactive Blue",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary interactive and brand accent, heavily indexing on a utilitarian default-link blue to signify clickability.",
+          "when_to_use": [
+            "Hyperlinks and inline links",
+            "Code snippet accents and background variants",
+            "Tinted feature image backgrounds"
+          ]
+        },
+        "hex": "#0000EE",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#2972C4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#3B7AD9",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1954D4",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.03490000000000001
+      },
+      {
+        "name": "Tertiary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "Muted neutral used for tertiary information, preventing secondary elements from fighting for attention.",
+          "when_to_use": [
+            "Partner and integration labels in the ticker",
+            "Syntax highlighting punctuation",
+            "Testimonial card borders"
+          ]
+        },
+        "hex": "#999999",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#AAAAAA",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#808080",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0044
+      },
+      {
+        "name": "Dark Slate",
+        "type": "Dark",
+        "rules": {
+          "description": "An off-black that provides subtle elevation and hierarchy against the pure black backgrounds or pure white surfaces.",
+          "when_to_use": [
+            "Footer column headings",
+            "System status badge background",
+            "Gradient overlays on feature images"
+          ]
+        },
+        "hex": "#202020",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0016
+      }
+    ],
+    "insights": [
+      "The design relies on a stark, high-contrast structural rhythm, alternating between pure black and light gray/white bands to separate major content areas.",
+      "The palette has a distinctly utilitarian, developer-focused aesthetic, heavily leaning on pure default hyperlink blue (#0000EE) as its primary interactive signal.",
+      "Depth is achieved minimally through off-blacks (#202020) and muted grays, ensuring the core contrast remains as sharp as possible."
+    ]
+  }
+}

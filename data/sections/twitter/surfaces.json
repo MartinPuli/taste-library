@@ -1,0 +1,312 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Background Primary",
+        "description": "Main page background color",
+        "when_to_use": [
+          "Page backgrounds",
+          "Modal backgrounds",
+          "Default surface"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Card Surface",
+        "description": "Card and container backgrounds (gray-0 from theme)",
+        "when_to_use": [
+          "Card backgrounds",
+          "Container surfaces"
+        ],
+        "hex": "#F2F7F9"
+      },
+      {
+        "name": "Secondary Surface",
+        "description": "Secondary background surface",
+        "when_to_use": [
+          "Secondary buttons",
+          "Subtle backgrounds"
+        ],
+        "hex": "#F2F2F2"
+      },
+      {
+        "name": "Tertiary Surface",
+        "description": "Tertiary background surface",
+        "when_to_use": [
+          "Tertiary buttons",
+          "Input backgrounds"
+        ],
+        "hex": "#EBEBEB"
+      },
+      {
+        "name": "Modal Background",
+        "description": "Modal and popover background",
+        "when_to_use": [
+          "Modals",
+          "Popovers",
+          "Overlays"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Border Normal",
+        "description": "Standard border color (gray-100)",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Input borders"
+        ],
+        "hex": "#E8ECEF"
+      },
+      {
+        "name": "Nested Border",
+        "description": "Nested element borders (gray-200)",
+        "when_to_use": [
+          "Nested borders",
+          "Secondary dividers"
+        ],
+        "hex": "#D7DCE0"
+      },
+      {
+        "name": "Brand Primary",
+        "description": "Primary brand blue color",
+        "when_to_use": [
+          "Primary buttons",
+          "Brand accents",
+          "Links",
+          "Focus states"
+        ],
+        "hex": "#1D9BF0"
+      },
+      {
+        "name": "Black Surface",
+        "description": "Black background for high contrast elements",
+        "when_to_use": [
+          "Primary buttons",
+          "Header backgrounds",
+          "High contrast surfaces"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Text Primary",
+        "description": "Primary text color (gray-1100)",
+        "when_to_use": [
+          "Headings",
+          "Body text",
+          "Primary content"
+        ],
+        "hex": "#141C24"
+      },
+      {
+        "name": "Modal Overlay",
+        "description": "Semi-transparent modal overlay",
+        "when_to_use": [
+          "Modal backgrounds",
+          "Overlay masks"
+        ],
+        "hex": "#B4B4B6"
+      },
+      {
+        "name": "Tooltip Background",
+        "description": "Dark tooltip background",
+        "when_to_use": [
+          "Tooltips",
+          "Small popups"
+        ],
+        "hex": "#333333"
+      },
+      {
+        "name": "Hover Subtle",
+        "description": "Subtle hover background (black/10)",
+        "when_to_use": [
+          "Hover states",
+          "Interactive element backgrounds"
+        ],
+        "hex": "#0A0A0A"
+      },
+      {
+        "name": "Inputs Background",
+        "description": "Input field background (black/10)",
+        "when_to_use": [
+          "Input fields",
+          "Text areas",
+          "Form elements"
+        ],
+        "hex": "#0A0A0A"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Modal Background Gradient",
+        "description": "Top to bottom gradient from transparent white to solid white",
+        "when_to_use": [
+          "Modal fade effects",
+          "Content transitions"
+        ],
+        "css_code": "linear-gradient(to bottom,#fff0,#fff)"
+      },
+      {
+        "name": "Text to Transparent Gradient",
+        "description": "Fade from dark text color to transparent",
+        "when_to_use": [
+          "Text fade-out effects",
+          "Overflow masks"
+        ],
+        "css_code": "linear-gradient(to bottom, hsl(210 25% 8%) 90%, transparent)"
+      },
+      {
+        "name": "Black Fade Bottom",
+        "description": "Black fading to transparent from top to bottom",
+        "when_to_use": [
+          "Image overlays",
+          "Content masks"
+        ],
+        "css_code": "linear-gradient(to bottom, #000 60%, transparent)"
+      },
+      {
+        "name": "Black Fade Top",
+        "description": "Black fading to transparent from bottom to top",
+        "when_to_use": [
+          "Bottom overlays",
+          "Reverse masks"
+        ],
+        "css_code": "linear-gradient(to top, #000 70%, transparent)"
+      },
+      {
+        "name": "Blue Gradient",
+        "description": "Brand blue to dark blue gradient",
+        "when_to_use": [
+          "Brand elements",
+          "Accent backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, #1d9bf0, #006fd6)"
+      },
+      {
+        "name": "Purple Gradient",
+        "description": "Purple to dark purple gradient",
+        "when_to_use": [
+          "Premium features",
+          "Accent elements"
+        ],
+        "css_code": "linear-gradient(to bottom, #7856ff, #5234b7)"
+      },
+      {
+        "name": "Plum Gradient",
+        "description": "Multi-stop plum gradient",
+        "when_to_use": [
+          "Special features",
+          "Decorative accents"
+        ],
+        "css_code": "linear-gradient(to bottom, #d45cd6, #c936cc, #ab2bae)"
+      },
+      {
+        "name": "Green Fade Gradient",
+        "description": "Green accent fading to transparent",
+        "when_to_use": [
+          "Success indicators",
+          "Positive accents"
+        ],
+        "css_code": "linear-gradient(to bottom, #00ba7c 13%, transparent)"
+      },
+      {
+        "name": "Red Fade Gradient",
+        "description": "Red gradient with multiple stops",
+        "when_to_use": [
+          "Error states",
+          "Warning indicators"
+        ],
+        "css_code": "linear-gradient(to bottom, #f4212e 30%, #f4212e 20%, #f4212e 30%)"
+      },
+      {
+        "name": "Conic Loading Gradient",
+        "description": "Conic gradient for loading spinners with blue brand colors",
+        "when_to_use": [
+          "Loading indicators",
+          "Progress spinners"
+        ],
+        "css_code": "conic-gradient(transparent 0deg, color-mix(in srgb, #005ac2 60%, transparent) 20deg, color-mix(in srgb, #1d9bf0 80%, transparent) 60deg, transparent 80deg)"
+      },
+      {
+        "name": "Gray Subtle Fade",
+        "description": "Subtle gray gradient fade",
+        "when_to_use": [
+          "Subtle backgrounds",
+          "Divider accents"
+        ],
+        "css_code": "linear-gradient(to bottom, hsl(201 23% 78%) 30%, hsl(201 23% 78%) 20%, hsl(201 23% 78%) 30%)"
+      },
+      {
+        "name": "Yellow Gradient",
+        "description": "Dark yellow to light yellow gradient",
+        "when_to_use": [
+          "Warning elements",
+          "Highlight accents"
+        ],
+        "css_code": "linear-gradient(to bottom, #b88200, #ffe042)"
+      },
+      {
+        "name": "Green to Teal",
+        "description": "Green gradient at specific angle",
+        "when_to_use": [
+          "Nature themes",
+          "Success states"
+        ],
+        "css_code": "linear-gradient(61.63deg, #6fca6c, #6fca6c)"
+      },
+      {
+        "name": "Purple to Indigo",
+        "description": "Light purple to indigo gradient",
+        "when_to_use": [
+          "Premium accents",
+          "Creative elements"
+        ],
+        "css_code": "linear-gradient(to bottom, #a17dff, #9c63fa)"
+      },
+      {
+        "name": "White Fade Overlay",
+        "description": "White fading to transparent quickly",
+        "when_to_use": [
+          "Light overlays",
+          "Content fade effects"
+        ],
+        "css_code": "linear-gradient(to bottom, #fff 6%, transparent)"
+      },
+      {
+        "name": "Background Primary Fade",
+        "description": "Background white with opacity transition",
+        "when_to_use": [
+          "Scroll fade effects",
+          "Header transitions"
+        ],
+        "css_code": "linear-gradient(to bottom, #fff 50%, #fff 45%)"
+      }
+    ],
+    "highlights": [
+      "Soft drop shadows for depth: 0 4px 20px rgba(0,0,0,0.08) for popups",
+      "Medium shadows for modals: 0 8px 30px rgba(0,0,0,0.13)",
+      "Soft glow effects on brand elements: 0 0 20px rgba(29,155,240,0.3)",
+      "Subtle backdrop blur effects: backdrop-blur(4px) to backdrop-blur(24px)",
+      "Linear gradient masks for content overflow fade effects",
+      "Conic gradient loading spinner with brand blue colors",
+      "Toast notifications with shadow: 0 8px 32px rgba(0,0,0,0.2)",
+      "Ring focus states with brand blue color at 1-2px width"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Shadow Low",
+          "type": "drop",
+          "description": "Subtle 2px vertical offset with 4px blur at 10% black opacity. Provides minimal lift for low-emphasis elements.",
+          "css_value": "0px 2px 4px #0000001a",
+          "when_to_use": [
+            "Subtle card elevation",
+            "Low-emphasis containers"
+          ]
+        },
+        {
+          "name": "Shadow Medium",
+          "type": "drop",
+          "description": "Medium elevation with 4px vertical offset and 24px blur at ~20% black opacity. Standard floating elements.",
+          "css_value": "0px 4px 24px #0003",
+          "when_to_use": [
+            "Toasts",
+            "Floating panels",
+            "Modals"
+          ]
+        },
+        {
+          "name": "Shadow High",
+          "type": "drop",
+          "description": "High elevation with 7px vertical offset and 32px blur at ~35% black opacity. Prominent overlays and tooltips.",
+          "css_value": "0px 7px 32px #00000059",
+          "when_to_use": [
+            "Tooltips",
+            "Popovers",
+            "Dropdown menus",
+            "High-emphasis floating elements"
+          ]
+        },
+        {
+          "name": "Shadow Stack Low",
+          "type": "drop",
+          "description": "Multi-layered stacked shadow with subtle opacity gradations creating depth perception. Five shadow layers from minimal to subtle.",
+          "css_value": "0px 8px 2px 0px #0000, 0px 5px 2px 0px #00000003, 0px 3px 2px 0px #0000000a, 0px 1px 1px 0px #00000012, 0px 0px 1px 0px #00000014",
+          "when_to_use": [
+            "Stacked cards",
+            "Layered UI elements",
+            "Invert button variant"
+          ]
+        },
+        {
+          "name": "Elevated Dropdown",
+          "type": "drop",
+          "description": "Multi-layer shadow for dropdown menus and command palettes. Creates pronounced lift with multiple blur layers.",
+          "css_value": "0 4px 40px #00000019, 0 3px 20px #0000001f,0 3px 12px #0000001f, 0 2px 8px #0000001f, 0 1px 1px #0000001f",
+          "when_to_use": [
+            "Command palette",
+            "Search dialogs",
+            "Complex dropdowns"
+          ]
+        },
+        {
+          "name": "Card Shadow",
+          "type": "drop",
+          "description": "Multi-layer shadow for cards with subtle depth. Three layers creating soft, natural elevation.",
+          "css_value": "0 3px 8px #0000001f, 0 2px 5px #0000001f, 0 1px 1px #0000001f",
+          "when_to_use": [
+            "Cards",
+            "Panels",
+            "Contained sections"
+          ]
+        },
+        {
+          "name": "Pressed Effect",
+          "type": "drop",
+          "description": "Tight shadow for pressed or inset appearance with 0.5px vertical offset at 30% black opacity.",
+          "css_value": "0px 0.5px 1px 1px #0000004c",
+          "when_to_use": [
+            "Pressed buttons",
+            "Active states",
+            "Toggle pressed"
+          ]
+        },
+        {
+          "name": "Focus Ring",
+          "type": "drop",
+          "description": "Solid border-like shadow using 0-blur spread for focus states. Uses brand indigo color.",
+          "css_value": "0 0 0 1px #5e69d1",
+          "when_to_use": [
+            "Focus states",
+            "Selected elements",
+            "Keyboard navigation indicators"
+          ]
+        },
+        {
+          "name": "Subtle Border Ring",
+          "type": "drop",
+          "description": "Thin 0.5px border-like shadow for subtle separation between elements.",
+          "css_value": "0 0 0 0.5px #323439",
+          "when_to_use": [
+            "Subtle borders",
+            "Element separation",
+            "Container outlines"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#23252A",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#18191A",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF14",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF0D",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#1C1C1F",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "brand_name": "Figma",
+    "tagline": null,
+    "source_url": "https://www.figma.com/",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Design Software / Collaborative Tools",
+    "primary_purpose": "Drive product adoption and signups by showcasing Figma's intelligent design canvas and AI-powered creative tools for teams",
+    "main_cta": "Get started",
+    "copy_tone": [
+      "Aspirational",
+      "Empowering",
+      "Precise"
+    ],
+    "brand_signature": "Clean, white-dominated interface with bold black typography and vibrant green (#0ACF83) accent CTAs. The visual identity balances minimalist UI patterns with expressive, colorful product imagery showcasing creative possibilities.",
+    "visual_language": {
+      "keywords": [
+        "intelligent",
+        "infinite",
+        "collaborative",
+        "expressive",
+        "precise",
+        "creative",
+        "modern"
+      ],
+      "accent_strategy": "High-contrast green (#0ACF83) buttons used exclusively for primary CTAs against white backgrounds and black text, creating strong visual hierarchy and action orientation.",
+      "highlights": "Product showcases featuring rich, colorful design examples and videos demonstrating creative capabilities, contrasted against the minimal white canvas aesthetic"
+    },
+    "strategy": {
+      "target_audience": [
+        "Product designers seeking powerful, collaborative design tools for end-to-end product development",
+        "Design team leads and managers at enterprises evaluating design systems and workflow solutions",
+        "Developers and engineers needing design-to-code translation and handoff capabilities",
+        "Creative professionals exploring AI-powered design and content generation workflows"
+      ],
+      "executive_synthesis": "Figma's homepage positions the platform as an 'intelligent canvas for infinite creativity' - emphasizing both AI capabilities and unlimited creative expression. The visual strategy uses a clean, minimalist interface as a neutral canvas that lets vibrant product showcases demonstrate possibilities, while the prominent green CTAs and 95% Fortune 500 social proof drive enterprise credibility. The messaging architecture flows from aspirational creativity to concrete product capabilities to community validation, building a narrative that Figma is both creatively liberating and professionally essential."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "**Visual Analysis:** The Figma homepage presents a striking, high-contrast aesthetic dominated by pure black (#000000) and white (#FFFFFF) with bold neon green CTA banners as visual punctuation. The design feels modern, clean, and digitally-native with excellent clarity and objective communication.\n\n**6 Spectra Scoring:**\n1. Visual Density: **Airy/Spacious** — Generous whitespace (5-7.5rem section padding), centered symmetric layout, 12-column grid with controlled max-width\n2. Color Cleanliness: **Clean/Pure** — Stark black/white foundation with vibrant green accents, no muddy or gritty tones\n3. Chronology: **Modern** — Contemporary digital product aesthetic, current design patterns\n4. Dimensionality: **Flat (2D)** — Soft shadows exist but are minimal; no skeuomorphic depth, no glass effects, no 3D elements\n5. Decoration: **Minimal** — Typography-driven, geometric shapes, no ornamental flourishes\n6. Structure: **Rigid Grid** — Strict 12-column system, centered symmetric composition, clear section separation\n\n**Forensic Element Matching:**\n- **Shape:** Geometric, rectangular grids, pill-shaped buttons — matches Flat Design's \"Geometric Shapes\"\n- **Texture:** Shadows are soft but subtle (0.25rem blur with 90% transparency), primarily flat surfaces with no blur effects or noise — \"Flat/No Effects\" profile\n- **Color:** High-contrast black/white with saturated accent (neon green) — matches Flat Design's \"bold, saturated\" color profile\n- **Typography:** Sans-Serif Modern (figmaSans variable font), geometric, clean hierarchy — directly matches Flat Design taxonomy\n- **Layout:** Grid-Based Strict, Generous Whitespace — core Flat Design characteristics\n\n**Key Differentiators:**\n- NOT Brutalism: Despite high contrast, the design is polished, refined, and maintains traditional grid structure rather than raw/anti-design aesthetic\n- NOT Swiss Style: While typography-driven, it lacks the characteristic off-white/cream paper tones and historical movement feel; this is digital-native\n- NOT Glassmorphism/Neumorphism: No blur effects, no extruded elements, no frosted transparency\n- The soft shadows prevent this from being \"completely flat,\" but they serve functional rather than decorative purposes\n\n**Secondary Style - Corporate:**\nThe design communicates trust, reliability, and professionalism through its conservative color choices, systematic grid, clear hierarchy, and enterprise client logos (Microsoft, Netflix, Stripe). The formal structure and objective communication style positions this as a major tech company's product page, warranting the Corporate modifier.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier applies because this is clearly enterprise-focused SaaS marketing: testimonial section with Fortune 500 logos (Microsoft, Netflix, Stripe, GitHub), professional trust signals (\"71%\" statistic callout), systematic product ecosystem presentation (Dev Mode, Slides with color-coded icons), and formal multi-column footer with comprehensive navigation. The design prioritizes competence and reliability signals over playful or experimental aesthetics, positioning Figma as a serious tool for professional teams rather than a creative experiment."
+    }
+  }
+}

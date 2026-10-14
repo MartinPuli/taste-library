@@ -1,0 +1,152 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Base Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Serves as the foundational black for structural shadows, photographic overlays, and unstyled base text.",
+          "when_to_use": [
+            "Hero background image gradient overlay",
+            "Disclaimer banner drop shadows",
+            "Default html text color fallback"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Primary Text White",
+        "type": "Light",
+        "rules": {
+          "description": "The primary high-contrast color for typography, interface icons, and primary CTAs in the dark theme.",
+          "when_to_use": [
+            "Main heading and hero typography",
+            "Primary navigation links and icons",
+            "Primary 'Open account' CTA text",
+            "Light theme top banner background"
+          ]
+        },
+        "hex": "#EDEDF3",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F4F5F9",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFCFA",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.3573
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Subdued Text Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A medium-contrast gray used universally for secondary text to establish typographic hierarchy.",
+          "when_to_use": [
+            "Paragraph text under headings",
+            "Dropdown menu component descriptions",
+            "Footnotes and disclaimers",
+            "Inactive accordion items"
+          ]
+        },
+        "hex": "#C3C3CC",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0958
+      },
+      {
+        "name": "Dark Canvas",
+        "type": "Dark",
+        "rules": {
+          "description": "The foundational dark theme background family, defining the page canvas and elevating layered UI components.",
+          "when_to_use": [
+            "Main page background",
+            "Dropdown menu elevated surfaces",
+            "In-page feature cards and tags",
+            "Sticky disclaimer banner background"
+          ]
+        },
+        "hex": "#171721",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#1E1E2A",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#272735",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1C1C23",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#272736",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.012199999999999999
+      },
+      {
+        "name": "Tonal Accent Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "A soft, tinted blue used as a translucent background fill for secondary, low-emphasis actions.",
+          "when_to_use": [
+            "'Try the demo' tonal button background",
+            "'Contact sales' button background",
+            "Mobile navigation secondary CTAs"
+          ]
+        },
+        "hex": "#9CB4E8",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0087
+      }
+    ],
+    "insights": [
+      "The page uses a strict dark theme dominated by deep navy/blacks and high-contrast off-whites, creating a premium, modern fintech aesthetic.",
+      "The palette relies heavily on opacity (translucent blacks for overlays, translucent blues for tonal buttons) rather than introducing new solid colors, keeping the design minimal and cohesive.",
+      "Typographic hierarchy is strictly driven by color contrast, neatly splitting primary attention (bright off-white) from secondary reading (medium gray)."
+    ]
+  }
+}

@@ -34,7 +34,13 @@ def words(value):
     return {ALIASES.get(term, term) for term in re.findall(r'[a-z0-9]+', normalize(value))}
 
 
-def search(query='', use_case=None, style=None, include_limited=False, limit=5):
+def search(query='', use_case=None, style=None, include_limited=False, limit=5, component=None):
+    taxonomy = json.loads((ROOT / 'catalog/taxonomy.json').read_text())
+    for value, group in [(use_case,'use_cases'), (style,'styles'), (component,'components')]:
+        if value and value not in taxonomy[group]:
+            raise ValueError(f'Unknown {group}: {value}')
+    if not 1 <= limit <= 40:
+        raise ValueError('limit must be between 1 and 40')
     terms = words(query) - STOPWORDS
     if query.strip() and not terms:
         return []
@@ -46,8 +52,10 @@ def search(query='', use_case=None, style=None, include_limited=False, limit=5):
             continue
         if style and style not in entry['styles']:
             continue
+        if component and component not in entry.get('components', []):
+            continue
         fields = [(entry['name'], 8),
-                  (' '.join(entry['use_cases'] + entry['styles']), 5),
+                  (' '.join(entry['use_cases'] + entry['styles'] + entry.get('components', [])), 5),
                   (entry['selection_note'], 2)]
         matched = sorted(terms & set().union(*(words(v) for v, _ in fields)))
         score = sum(weight * len(terms & words(text)) for text, weight in fields)
@@ -73,6 +81,10 @@ def show(identifier, section=None):
         'id': entry['id'], 'source_url': entry['source_url'],
         'captured_at': entry['captured_at'], 'quality': entry['quality'],
         'warnings': entry['warnings'], 'section': section, 'data': system[section],
+        'source_file': entry['paths']['raw'],
+        'source_pointer': '/result/design_system/' + section,
+        'review_file': entry['paths']['review'],
+        'has_data': entry['sections'][section]['has_data'],
     }
 
 
@@ -83,6 +95,12 @@ def positive(value):
     return n
 
 
+def compare(identifiers, section):
+    if not 2 <= len(identifiers) <= 4 or len(set(identifiers)) != len(identifiers):
+        raise ValueError('Compare two to four distinct references.')
+    return {'section': section, 'references': [show(id, section) for id in identifiers]}
+
+
 def main():
     taxonomy = json.loads((ROOT / 'catalog/taxonomy.json').read_text())
     parser = argparse.ArgumentParser(description=__doc__)
@@ -91,17 +109,22 @@ def main():
     find.add_argument('query', nargs='?', default='')
     find.add_argument('--use-case', choices=taxonomy['use_cases'])
     find.add_argument('--style', choices=taxonomy['styles'])
+    find.add_argument('--component', choices=taxonomy.get('components', []))
     find.add_argument('--include-limited', action='store_true')
     find.add_argument('--limit', type=positive, default=5)
     find.add_argument('--json', action='store_true')
     read = subs.add_parser('show', help='Read one profile or extraction section')
     read.add_argument('id')
     read.add_argument('--section')
+    comparison = subs.add_parser('compare', help='Compare evidence from two to four references')
+    comparison.add_argument('ids', nargs='+')
+    comparison.add_argument('--section', required=True)
+    comparison.add_argument('--json', action='store_true')
     args = parser.parse_args()
     try:
         if args.command == 'search':
             result = search(args.query, args.use_case, args.style,
-                            args.include_limited, args.limit)
+                            args.include_limited, args.limit, args.component)
             if args.json:
                 print(json.dumps(result, ensure_ascii=False, indent=2))
             elif not result:
@@ -113,6 +136,15 @@ def main():
                     print('  ' + item['paths']['profile'])
                     for warning in item['warnings']:
                         print('  Warning: ' + warning)
+        elif args.command == 'compare':
+            result = compare(args.ids, args.section)
+            if args.json:
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+            else:
+                for item in result['references']:
+                    print(f"{item['id']} | {item['section']} | {item['quality']}")
+                    print(f"Source: {item['source_url']} | Captured: {item['captured_at']}")
+                    print(json.dumps(item['data'], ensure_ascii=False, indent=2))
         else:
             result = show(args.id, args.section)
             print(result if isinstance(result, str) else json.dumps(result, ensure_ascii=False, indent=2))

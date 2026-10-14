@@ -1,0 +1,42 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Subtle gradient fade divider used to separate major page sections",
+        "when_to_use": [
+          "Between hero and content sections",
+          "Separating feature blocks"
+        ],
+        "color": "#000000",
+        "height": "64px",
+        "style": "gradient"
+      },
+      {
+        "name": "Card Border",
+        "description": "Thin semi-transparent white border used on dark cards and containers",
+        "when_to_use": [
+          "Card boundaries",
+          "Interactive containers",
+          "Modal borders"
+        ],
+        "color": "rgba(255, 255, 255, 0.1)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

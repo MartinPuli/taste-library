@@ -1,0 +1,33 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This design system does not utilize box-shadow properties for elevation; instead, it relies on borders and background colors to create visual hierarchy.",
+      "levels": []
+    },
+    "borders": [
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "2px",
+        "style": "solid"
+      }
+    ]
+  }
+}

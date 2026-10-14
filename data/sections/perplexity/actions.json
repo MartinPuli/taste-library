@@ -1,0 +1,318 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Got it (Primary CTA)",
+        "usage": "Primary confirmation action in cookie consent banner and modal dialogs",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Roboto, sans-serif",
+              "size": "14px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--bg-button-bg)",
+            "text_color": "var(--text-inverse)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-button-bg)",
+            "text_color": "var(--text-inverse)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.8",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--bg-button-bg)",
+            "text_color": "var(--text-inverse)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Decline optional (Secondary Ghost)",
+        "usage": "Secondary action for declining optional cookies or dismissing non-critical prompts",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Roboto, sans-serif",
+              "size": "14px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--bg-soft)",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-subtle)",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--bg-soft)",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View plans (Outline Pill)",
+        "usage": "Sidebar CTA for viewing subscription plans, upgrade prompts",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Extra Small",
+              "font": "Roboto, sans-serif",
+              "size": "12px",
+              "padding": "0 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "var(--text-primary)",
+            "border_color": "var(--border-base)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-subtle)",
+            "text_color": "var(--text-primary)",
+            "border_color": "var(--border-base)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "var(--text-primary)",
+            "border_color": "var(--border-base)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Search (Composer Mode Tab)",
+        "usage": "Mode selector pill inside composer for switching to search mode",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Roboto, sans-serif",
+              "size": "14px",
+              "padding": "0 8px 0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Utility actions in header, composer toolbar, and sidebar - includes menu toggle, search, attachment, microphone, and submit actions",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "Roboto, sans-serif",
+              "size": "16px",
+              "padding": "0"
+            },
+            {
+              "name": "Small",
+              "font": "Roboto, sans-serif",
+              "size": "14px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "var(--text-secondary)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-soft)",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "var(--text-secondary)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Submit (Dark Circular)",
+        "usage": "Primary submit action in composer input, voice input activation",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "Roboto, sans-serif",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--bg-button-bg)",
+            "text_color": "var(--text-inverse)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-button-bg)",
+            "text_color": "var(--text-inverse)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.8",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--bg-button-bg)",
+            "text_color": "var(--text-inverse)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Model (Ghost Dropdown)",
+        "usage": "Model selector dropdown trigger in composer toolbar",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Roboto, sans-serif",
+              "size": "14px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "var(--text-secondary)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-soft)",
+            "text_color": "var(--text-primary)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "var(--text-secondary)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Horizontal button groups with consistent spacing for cookie banner actions",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/perplexity.json",
+  "data": [
+    {
+      "type": "Header",
+      "layout_pattern": "Horizontal split with left-aligned logo and right-aligned utility icons",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Perplexity logo icon in primary color, size-5, placed in a rounded-lg container with hover state"
+        },
+        {
+          "type": "button",
+          "description": "Search icon button, size-8, rounded-full with hover:bg-subtle state"
+        },
+        {
+          "type": "button",
+          "description": "Save/bookmark icon button on right side, rounded-full with subtle hover effect"
+        },
+        {
+          "type": "button",
+          "description": "Menu hamburger icon button, rounded-full, text-secondary color"
+        }
+      ]
+    },
+    {
+      "type": "Sidebar Navigation",
+      "layout_pattern": "Left-aligned fixed sidebar, 240px width",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Vertical navigation menu with icon + text items: New (with keyboard shortcut ⌃I), Computer, Automations, Artifacts, Customize. Each item has 40px height, rounded-lg hover state with bg-subtle"
+        },
+        {
+          "type": "accordion",
+          "description": "Projects collapsible section with chevron toggle, shows 'No projects' empty state in tertiary text"
+        },
+        {
+          "type": "accordion",
+          "description": "Sessions collapsible section with chevron toggle, shows 'No recent sessions' empty state in tertiary text"
+        },
+        {
+          "type": "button",
+          "description": "View plans button at bottom, rounded-full with border-base, h-6, text-xs, with icon on left"
+        },
+        {
+          "type": "button",
+          "description": "Sign In button with chevron right arrow, h-10, rounded-lg, at bottom of sidebar with user icon"
+        }
+      ]
+    },
+    {
+      "type": "Hero / Search Interface",
+      "layout_pattern": "Centered with 40vh top spacing on desktop",
+      "headline": "What do you want to know?",
+      "subheadline": "Search",
+      "components": [
+        {
+          "type": "form",
+          "description": "Large centered search input with rounded-2xl border, bg-raised, shadow-sm-focus. Placeholder text 'Ask anything…' in tertiary color"
+        },
+        {
+          "type": "button",
+          "description": "Plus icon button inside input, size-8, rounded-full, text-secondary, for file attachment"
+        },
+        {
+          "type": "button",
+          "description": "Search mode toggle button with icon and 'Search' label plus dropdown chevron, h-8, rounded-full in pill group with animated background indicator"
+        },
+        {
+          "type": "button",
+          "description": "Attachment/paperclip icon button in pill group, dashed border when inactive, text-secondary"
+        },
+        {
+          "type": "button",
+          "description": "Model selector dropdown button with text 'Model' and chevron, h-8, rounded-full, text-secondary hover:text-primary"
+        },
+        {
+          "type": "button",
+          "description": "Microphone voice input button, size-8, rounded-full, text-secondary"
+        },
+        {
+          "type": "button",
+          "description": "Submit button, dark circular button (aspect-[9/8]), bg-button-bg, text-inverse, prominent CTA"
+        }
+      ]
+    },
+    {
+      "type": "Feature Cards",
+      "layout_pattern": "Two-column grid with equal width cards, gap-3",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Search anything card with teal radial gradient background (light: rgba(61, 149, 149, 0.10), dark: #016a71), rounded-xl, p-4, search icon, text-primary dark:text-white heading, text-secondary description, hover:scale-[1.01] transition"
+        },
+        {
+          "type": "card",
+          "description": "Get work done with Computer card with teal/green radial gradient (light: rgba(61, 149, 149, 0.15), dark: rgba(20, 107, 116, 0.5)), rounded-xl, p-4, computer icon, 'NEW' badge with bg-super-soft text-super-primary, hover:scale-[1.01] transition"
+        }
+      ]
+    },
+    {
+      "type": "Cookie Consent Banner",
+      "layout_pattern": "Fixed bottom-right overlay, max-w-md",
+      "headline": "🍪 Cookie Policy",
+      "subheadline": "We and our partners use cookies, pixels, SDKs, APIs...",
+      "components": [
+        {
+          "type": "card",
+          "description": "White card (bg-base) with shadow-sm, rounded-lg, p-4, positioned bottom-2 inset-x-2 on mobile, bottom-2 right-2 on desktop"
+        },
+        {
+          "type": "icon",
+          "description": "Cookie emoji/icon (🍪) inline with heading, size-18"
+        },
+        {
+          "type": "button",
+          "description": "Decline optional button, h-8, text-sm, rounded-lg, bg-soft text-primary with border, hover:bg-subtle"
+        },
+        {
+          "type": "button",
+          "description": "Got it primary CTA button, h-8, text-sm, rounded-lg, bg-button-bg text-inverse, hover:opacity-80"
+        }
+      ]
+    }
+  ]
+}

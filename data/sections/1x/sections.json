@@ -1,0 +1,104 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/1x.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Centered horizontal with fixed positioning",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "1X logo mark in dark gray/black, simple geometric design, top left"
+        },
+        {
+          "type": "navigation",
+          "description": "Uppercase text links (NEO, AI, FACTORY, STORIES, CAREERS, ABOUT) in light gray, centered, minimal spacing, 11px tracking"
+        },
+        {
+          "type": "button",
+          "description": "ORDER text link, top right, dark text on light background"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered full-screen with product imagery",
+      "headline": "NEO",
+      "subheadline": "Home Robot",
+      "components": [
+        {
+          "type": "image",
+          "description": "Three humanoid robots in a row with blue-gray, beige, and black heads, minimalist studio photography on very light gray/white background, frontal product shot with soft shadows"
+        },
+        {
+          "type": "button",
+          "description": "$200 Deposit label in gray text, Order button with solid black/72% opacity pill shape with white text, positioned bottom right"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered full-screen with lifestyle imagery",
+      "headline": "Careers",
+      "subheadline": "88 Open roles",
+      "components": [
+        {
+          "type": "image",
+          "description": "Human male with beige humanoid robot on shoulder, soft blue backdrop studio photography, intimate lifestyle shot with photographic realism"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered full-screen with video/product detail",
+      "headline": "Experience",
+      "subheadline": "NEO",
+      "components": [
+        {
+          "type": "video",
+          "description": "Close-up of white robot foot/leg on yellow-orange stepped platform device, dark navy/slate blue moody background, dramatic angle product shot"
+        },
+        {
+          "type": "form",
+          "description": "Email input field with transparent background, white placeholder text, Get notified button, bottom right positioning"
+        },
+        {
+          "type": "button",
+          "description": "Get notified text link in light gray, positioned alongside email form"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid layout",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "1X logo mark in dark gray, top left of footer"
+        },
+        {
+          "type": "icon",
+          "description": "Social media circular outline icons (LinkedIn, YouTube, Instagram, TikTok, X) in light gray"
+        },
+        {
+          "type": "navigation",
+          "description": "Multi-column link structure: Company links (NEO, CAREERS, AI, FACTORY, ABOUT, STORIES, ROBOT FLEET, LOGS), Social links (LINKEDIN, YOUTUBE, INSTAGRAM, TIKTOK, X), Legal/Resources (TERMS OF USE, PRIVACY & COOKIES, PRESS, SUPPORT, GET UPDATES, INVESTOR RELATIONS), all in uppercase, 9-10px font, light gray text on light background"
+        }
+      ]
+    }
+  ]
+}

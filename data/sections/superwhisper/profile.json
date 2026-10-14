@@ -1,0 +1,58 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "brand_name": "Superwhisper",
+    "tagline": null,
+    "source_url": "https://superwhisper.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / Productivity",
+    "primary_purpose": "Drive downloads of voice-to-text transcription app for Mac and Windows",
+    "main_cta": "Download for Mac",
+    "copy_tone": [
+      "Confident",
+      "Direct",
+      "Minimal"
+    ],
+    "brand_signature": "Dark, cinematic interface with deep blue-to-black gradient backgrounds featuring atmospheric desktop scene illustrations. Clean, Apple-inspired aesthetic with high-contrast white typography and subtle glassmorphism effects on UI elements.",
+    "visual_language": {
+      "keywords": [
+        "cinematic",
+        "atmospheric",
+        "dark-mode",
+        "minimal",
+        "premium",
+        "Apple-like"
+      ],
+      "accent_strategy": "Bright blue (#08f) used sparingly for primary CTAs and interactive elements against predominantly dark backgrounds",
+      "highlights": "Subtle ambient lighting effects in hero illustrations, glassmorphic UI overlays, and gradient glow effects around key interface elements"
+    },
+    "strategy": {
+      "target_audience": [
+        "Knowledge workers and professionals who communicate frequently via Slack, email, and messaging apps and want faster text input",
+        "Developers and technical users who value keyboard shortcuts, IDE integrations, and system-level productivity tools",
+        "Mac and Windows power users who appreciate polished, native desktop applications with premium design"
+      ],
+      "executive_synthesis": "Superwhisper positions itself as a premium, native voice-to-text solution through its dark, cinematic visual language that mirrors high-end developer tools and Apple design sensibilities. The atmospheric desktop illustrations and glassmorphic UI elements signal professional-grade software, while the minimal copy and prominent download CTAs prioritize immediate conversion over extended explanation. The visual demonstration of integrations with Slack, Cursor IDE, and Notes reinforces the product's universal compatibility narrative."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The design exhibits core Flat Design characteristics: clean 2D interface elements, bold saturated colors (TriBlue #0088FF, TriPink #DD55E7, TriGreen #16C253), geometric sans-serif typography (Inter at various weights), and strictly grid-based centered/symmetric layout with generous whitespace. The color profile shows Primary Colors and Cool Colors applied with digital clarity - no ornamental textures, no 3D skeuomorphic effects on the primary UI. The shape language is predominantly geometric with rounded/soft corners on buttons and cards. The texture classification confirms \"gradient_linear\" and \"shadows_soft\" - not heavy 3D effects. The atmospheric twilight gradients (navy to purple to black) serve as ambient backgrounds rather than decorative elements, maintaining the flat paradigm's focus on content clarity over visual decoration.",
+      "secondary_style": "Glassmorphism",
+      "reasoning_secondary": "Glassmorphism appears as a secondary style through specific UI treatments: the \"Vibe Gradient Blur Mask\" with backdrop-filter blur(8px), progressive blur overlays with blur(4px), translucent white gradient borders (white/40 to white/10), and the testimonial gradient masks. The surfaces profile explicitly notes \"Backdrop blur effects ranging from blur(4px) to blur(100px) for glassmorphism.\" The soft shadows (rgba(0,0,0,0.12) to rgba(0,0,0,0.35)) and subtle inset borders (white/5, white/10 opacity) create layered transparency effects on the browser window mockups. This frosted glass treatment on dark backgrounds with white semi-transparent borders directly matches the Glassmorphism taxonomy: \"Frosted glass effect, background blur\" with \"Pastel Colors, Cool Colors\" and \"Rounded/Soft, Geometric Shapes.\""
+    }
+  }
+}

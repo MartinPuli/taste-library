@@ -1,0 +1,28 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Search Bar Section Divider",
+        "description": "Subtle vertical divider separating search input sections (Where, When, Who) in the pill-shaped search bar",
+        "when_to_use": [
+          "Between search bar input segments",
+          "Visual separation of search criteria"
+        ],
+        "color": "#DDDDDD",
+        "height": "32px",
+        "style": "solid"
+      }
+    ]
+  }
+}

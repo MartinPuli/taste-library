@@ -2,31 +2,49 @@
 
 Present a tool and its output on a dark page with interface demonstrations.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 37 · Captured 2026-08-07T00:18:49.934442Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 37 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-08-07T00:18:49.934442Z |
-| Suggested uses | creative-tools |
-| Visual approach | dark-technical, modular |
+[Original website](https://www.framer.com/) · [Full extraction](../data/raw/framer.json) · [Review record](../data/reviews/framer.json)
 
-## Details to compare
+[Small visual preview](../data/previews/framer.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/full.jpg)
 
-- Detected type families: GT Walsheim Medium, Inter Variable, Inter, Input Mono Regular, sans-serif.
-- Recorded palette: #000000, #FFFFFF, #242424, #303030, #666666, #999999, #F3F3F3, #0099FF, #6600FF, #FF0066, #FD7702, #FFBB00, #4CD963, #22DDDD.
-- Grid: `{"columns": 12, "gutter": "40px", "max_width": "1200px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A black hero uses white copy and a light action above a large glowing blue product visual.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.framer.com/) · [Extraction](../data/raw/framer.json) · [Tokens](../data/tokens/framer.json)
+Project types: creative-tools. Styles: dark-technical, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show framer --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Present a tool and its output on a dark page with interface demonstrations. Evidence: [layout](../data/sections/framer/layout.json), [sections](../data/sections/framer/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/framer/actions.json).
+
+## Content to bring
+
+Representative work samples and a real demonstration of the creation workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/framer/profile.json)
+- [Layout](../data/sections/framer/layout.json)
+- [Colors](../data/sections/framer/colors.json)
+- [Typography](../data/sections/framer/typography.json)
+- [Surfaces](../data/sections/framer/surfaces.json)
+- [Elevation](../data/sections/framer/elevation.json)
+- [Interactions](../data/sections/framer/interactions.json)
+- [Actions](../data/sections/framer/actions.json)
+- [Navigation](../data/sections/framer/navigation.json)
+- [Data Display](../data/sections/framer/data_display.json)
+- [Structure](../data/sections/framer/structure.json)
+- [Icons](../data/sections/framer/icons.json)
+- [Assets](../data/sections/framer/assets.json)
+- [Brand Assets](../data/sections/framer/brand_assets.json) · no observed data
+- [Sections](../data/sections/framer/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

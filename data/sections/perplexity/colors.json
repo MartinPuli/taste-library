@@ -1,0 +1,102 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Light Surface",
+        "type": "Light",
+        "rules": {
+          "description": "Serves as the primary canvas for the page, ensuring readability and providing a clean, open feel.",
+          "when_to_use": [
+            "Main page background",
+            "Card and container backgrounds"
+          ]
+        },
+        "hex": "#FBFBFB",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Primary Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "The core brand and action color, drawing the user's eye to primary interactions and links.",
+          "when_to_use": [
+            "Primary CTA button background",
+            "Text links",
+            "Active state icons"
+          ]
+        },
+        "hex": "#1A73E8",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Used for high-contrast, readable text across the main content areas.",
+          "when_to_use": [
+            "Body copy text",
+            "Main headings"
+          ]
+        },
+        "hex": "#252525",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Deep Navy Accent",
+        "type": "Dark",
+        "rules": {
+          "description": "Provides high contrast for secondary dark sections or prominent headers, adding depth.",
+          "when_to_use": [
+            "Dark section backgrounds",
+            "Footer background",
+            "Secondary headings"
+          ]
+        },
+        "hex": "#0B2833",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Solid Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Used sparingly for maximum contrast in typography or structural borders.",
+          "when_to_use": [
+            "High-emphasis text elements",
+            "Borders or subtle drop shadows"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "insights": [
+      "The palette relies heavily on a crisp, high-contrast structural foundation (#FBFBFB and #252525) punctuated by a strong, recognizable brand blue (#1A73E8).",
+      "Pure black and deep navy serve to ground the design, likely creating depth through distinct header or footer regions.",
+      "This is a very classic, utilitarian color scheme reminiscent of Google's Material Design, prioritizing legibility and clear calls to action."
+    ]
+  }
+}

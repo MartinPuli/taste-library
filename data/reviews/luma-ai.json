@@ -1,0 +1,46 @@
+{
+  "id": "luma-ai",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A collage of fashion imagery sits behind centered white copy and a rounded light action, with a content panel emerging below.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/viewport.jpg",
+    "sha256": "7f6e6aaa1b20c504ec795faee7e9ab36a5cd7537b52838c6b2b9be4d081da1b2"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/styles.css",
+    "sha256": "be8eacd0c6b426242913161f6afccc29272678589cefe0e84ea60c88ada7116e",
+    "bytes": 194826,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#E5E5E5"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#E5E5E5",
+      "#737373",
+      "#A6A6A6",
+      "#101010"
+    ],
+    "font_names_found": [
+      "Graphik"
+    ],
+    "font_names_checked": [
+      "Graphik"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "0b7bdb0ff05edf9d62d585dc068d5ee66d6f1d7e51a14aae9adbc97761e54178"
+}

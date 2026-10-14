@@ -1,0 +1,113 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Chakra Petch",
+          "role": "Heading / Display",
+          "specs": {
+            "size": "34px",
+            "line_height": "1.15",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "Chakra Petch",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "Iowan Old Style",
+          "role": "Body Text",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "Iowan Old Style",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "SF Mono",
+          "role": "Navigation Link",
+          "specs": {
+            "size": "12px",
+            "line_height": "",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--font-mono)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "SF Mono",
+          "role": "Metadata / Date",
+          "specs": {
+            "size": "12px",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--font-mono)",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Default",
+          "role": "Primary Button",
+          "specs": {
+            "size": "13px",
+            "line_height": "",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": []
+    },
+    "highlights": "Use of uppercase text with heavy letter-spacing (0.2em) on navigation links, and text-wrap: balance on primary titles for optimal typographic shaping.",
+    "insights": [
+      "The system uses a highly technical, cyberpunk-adjacent aesthetic by pairing a monospaced font (SF Mono) for UI elements with a rigid, structural display font (Chakra Petch).",
+      "Navigation and micro-copy heavily rely on uppercase styling with wide letter-spacing (0.2em) to create a mechanical, terminal-like feel.",
+      "Despite the heavy tech-focused UI styling, an editorial serif (Iowan Old Style) is designated for body content, offering a stark readability contrast."
+    ]
+  }
+}

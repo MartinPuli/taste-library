@@ -1,0 +1,57 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "charts": [],
+    "tables": [
+      {
+        "name": "Publications Table",
+        "description": "A simple data table showing research publications with year, title, and status columns. Uses minimal styling with subtle row borders.",
+        "when_to_use": [
+          "Displaying chronological data entries",
+          "Research or publication listings",
+          "Simple tabular data without complex interactions"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Logo Garden Tile",
+        "description": "Company logo display tiles arranged in a responsive grid. Each tile contains a centered SVG logo on a card background.",
+        "when_to_use": [
+          "Social proof and partner logos",
+          "Brand recognition sections",
+          "Trust indicators"
+        ]
+      },
+      {
+        "name": "Feature Card",
+        "description": "Large feature showcase cards with text content on one side and interactive demo media on the other. Uses subgrid for alignment.",
+        "when_to_use": [
+          "Product feature highlights",
+          "Hero-adjacent content sections",
+          "Interactive demo showcases"
+        ]
+      },
+      {
+        "name": "Agent Sidebar Item",
+        "description": "List item tiles in the agent sidebar showing task status with icons, titles, and metadata. Supports in-progress, ready for review states.",
+        "when_to_use": [
+          "Task/agent status lists",
+          "Sidebar navigation items",
+          "Workflow state indicators"
+        ]
+      }
+    ]
+  }
+}

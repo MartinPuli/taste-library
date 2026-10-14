@@ -2,31 +2,49 @@
 
 Present a technical tool on warm backgrounds with usage examples and restrained cards.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 14 · Captured 2026-09-18T05:31:56.956697Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 14 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-18T05:31:56.956697Z |
-| Suggested uses | developer-tools |
-| Visual approach | warm-editorial, modular |
+[Original website](https://cursor.com/) · [Full extraction](../data/raw/cursor.json) · [Review record](../data/reviews/cursor.json)
 
-## Details to compare
+[Small visual preview](../data/previews/cursor.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/full.jpg)
 
-- Detected type families: CursorGothic, system-ui, EB Garamond, berkeleyMono, Lato.
-- Recorded palette: #26251E, #F2F1ED, #000000, #0A0A0A, #F54E00.
-- Grid: `{"columns": 24, "gutter": "calc(10rem / 16)", "max_width": "1300px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A warm white page uses a compact headline and dark download button above a large code-editor demonstration.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://cursor.com/) · [Extraction](../data/raw/cursor.json) · [Tokens](../data/tokens/cursor.json)
+Project types: developer-tools. Styles: warm-editorial, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show cursor --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Present a technical tool on warm backgrounds with usage examples and restrained cards. Evidence: [layout](../data/sections/cursor/layout.json), [sections](../data/sections/cursor/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/cursor/actions.json).
+
+## Content to bring
+
+A real product workflow, readable interface examples, and a clear first action for developers. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/cursor/profile.json)
+- [Layout](../data/sections/cursor/layout.json)
+- [Colors](../data/sections/cursor/colors.json)
+- [Typography](../data/sections/cursor/typography.json)
+- [Surfaces](../data/sections/cursor/surfaces.json)
+- [Elevation](../data/sections/cursor/elevation.json)
+- [Interactions](../data/sections/cursor/interactions.json)
+- [Actions](../data/sections/cursor/actions.json)
+- [Navigation](../data/sections/cursor/navigation.json)
+- [Data Display](../data/sections/cursor/data_display.json)
+- [Structure](../data/sections/cursor/structure.json)
+- [Icons](../data/sections/cursor/icons.json)
+- [Assets](../data/sections/cursor/assets.json)
+- [Brand Assets](../data/sections/cursor/brand_assets.json) · no observed data
+- [Sections](../data/sections/cursor/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

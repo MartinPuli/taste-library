@@ -1,0 +1,30 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Subtle dividers between major page sections using light gray color",
+        "when_to_use": [
+          "Separating major content sections",
+          "Footer column separation"
+        ],
+        "color": "#E5E5E4",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

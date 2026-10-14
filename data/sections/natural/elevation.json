@@ -1,0 +1,242 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Tw Inset Ring Shadow",
+          "type": "drop",
+          "description": "Tailwind reset shadow placeholder with zero values - no visible shadow effect",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Default reset state",
+            "Shadow variable placeholder"
+          ]
+        },
+        {
+          "name": "Shadow Strong",
+          "type": "drop",
+          "description": "Strong elevation shadow with 8% opacity black (#00000014), 4px vertical offset, 32px blur - creates prominent lift effect",
+          "css_value": "0px 4px 32px 0px #00000014",
+          "when_to_use": [
+            "Elevated panels",
+            "Modals",
+            "Prominent floating elements"
+          ]
+        },
+        {
+          "name": "Shadow Soft",
+          "type": "drop",
+          "description": "Soft elevation shadow with 4% opacity black (#0000000a), 4px vertical offset, 16px blur - creates subtle lift effect",
+          "css_value": "0px 4px 16px 0px #0000000a",
+          "when_to_use": [
+            "Cards",
+            "Subtle elevation",
+            "Hover states"
+          ]
+        },
+        {
+          "name": "Card Shadow Small",
+          "type": "drop",
+          "description": "Small card shadow with 6% opacity, 2px offset, 8px blur for subtle depth",
+          "css_value": "0px 2px 8px 0px rgba(0,0,0,0.06)",
+          "when_to_use": [
+            "Small cards",
+            "Buttons with subtle elevation"
+          ]
+        },
+        {
+          "name": "Card Shadow Medium",
+          "type": "drop",
+          "description": "Medium elevation with 6% opacity, 4px offset, 12px blur",
+          "css_value": "0px 4px 12px 0px rgba(17,20,0,0.06)",
+          "when_to_use": [
+            "Cards",
+            "Interactive elements"
+          ]
+        },
+        {
+          "name": "Dropdown Shadow",
+          "type": "drop",
+          "description": "Dropdown/menu shadow with 8% opacity, 8px offset, 24px blur",
+          "css_value": "0 8px 24px rgba(22,21,20,0.08)",
+          "when_to_use": [
+            "Dropdown menus",
+            "Popovers"
+          ]
+        },
+        {
+          "name": "Floating Panel Shadow",
+          "type": "drop",
+          "description": "Large floating shadow with 12% opacity, 8px offset, 40px blur for prominent panels",
+          "css_value": "0 8px 40px rgba(17,20,0,0.12)",
+          "when_to_use": [
+            "Floating panels",
+            "Major modals",
+            "Dialogs"
+          ]
+        },
+        {
+          "name": "Modal Shadow",
+          "type": "drop",
+          "description": "Modal shadow with 12% opacity, 12px offset, 32px blur",
+          "css_value": "0 12px 32px rgba(16,24,40,0.12)",
+          "when_to_use": [
+            "Modals",
+            "Dialog overlays"
+          ]
+        },
+        {
+          "name": "Deep Shadow",
+          "type": "drop",
+          "description": "Deep elevation with 14% opacity, 4px offset, 25px blur",
+          "css_value": "0px 4px 25px rgba(0,0,0,0.14)",
+          "when_to_use": [
+            "Prominent floating elements",
+            "High elevation cards"
+          ]
+        },
+        {
+          "name": "Drawer Shadow",
+          "type": "drop",
+          "description": "Drawer/panel shadow with 8% opacity, 8px offset, 32px blur",
+          "css_value": "0px 8px 32px rgba(17,20,0,0.08)",
+          "when_to_use": [
+            "Drawers",
+            "Side panels"
+          ]
+        },
+        {
+          "name": "Sheet Shadow",
+          "type": "drop",
+          "description": "Sheet shadow with 8% opacity, 8px offset, 28px blur with 4px spread",
+          "css_value": "0px 8px 28px 4px rgba(0,0,0,0.08)",
+          "when_to_use": [
+            "Bottom sheets",
+            "Slide-up panels"
+          ]
+        },
+        {
+          "name": "Soft Ambient Shadow",
+          "type": "drop",
+          "description": "Very soft ambient shadow with 2% opacity, 2px offset, 16px blur with 8px spread",
+          "css_value": "0px 2px 16px 8px rgba(0,0,0,0.02)",
+          "when_to_use": [
+            "Ambient background elevation",
+            "Very subtle lift"
+          ]
+        },
+        {
+          "name": "Tooltip Shadow",
+          "type": "drop",
+          "description": "Shadow with 12% opacity, 4px offset, 16px blur for tooltips",
+          "css_value": "0px 4px 16px rgba(17,20,0,0.12)",
+          "when_to_use": [
+            "Tooltips",
+            "Small popovers"
+          ]
+        },
+        {
+          "name": "Inset Stroke Shadow",
+          "type": "inset",
+          "description": "Inset border simulation using 0.5px spread with stroke color for subtle inner border",
+          "css_value": "inset 0 0 0 0.5px var(--color-stroke)",
+          "when_to_use": [
+            "Input fields",
+            "Cards with subtle inner border"
+          ]
+        },
+        {
+          "name": "Inset Stroke Shadow 1px",
+          "type": "inset",
+          "description": "Inset border simulation using 1px spread with stroke color",
+          "css_value": "inset 0 0 0 1px var(--color-stroke)",
+          "when_to_use": [
+            "Input fields focus state",
+            "Selected cards"
+          ]
+        },
+        {
+          "name": "Focus Ring Shadow",
+          "type": "drop",
+          "description": "Focus ring shadow with 0.5px spread using stroke-active color",
+          "css_value": "0 0 0 0.5px var(--color-stroke-active)",
+          "when_to_use": [
+            "Focus states",
+            "Active input fields"
+          ]
+        },
+        {
+          "name": "Error Focus Ring",
+          "type": "drop",
+          "description": "Error state focus ring with 0.5px spread using error color",
+          "css_value": "0 0 0 0.5px var(--color-error)",
+          "when_to_use": [
+            "Error state focus",
+            "Invalid input fields"
+          ]
+        },
+        {
+          "name": "Border Ring Shadow",
+          "type": "drop",
+          "description": "1px border ring shadow for card outlines",
+          "css_value": "0 0 0 1px rgba(17,20,0,0.06)",
+          "when_to_use": [
+            "Card borders",
+            "Container outlines"
+          ]
+        },
+        {
+          "name": "Lift Shadow Small",
+          "type": "drop",
+          "description": "Small lift shadow with 8% opacity, 3px offset, 6px blur with -2px spread",
+          "css_value": "0px 3px 6px -2px rgba(17,20,0,0.08)",
+          "when_to_use": [
+            "Buttons",
+            "Small interactive elements"
+          ]
+        },
+        {
+          "name": "Ambient Shadow Spread",
+          "type": "drop",
+          "description": "Ambient shadow with 4% opacity, 2px offset, 16px blur with 4px spread",
+          "css_value": "0px 2px 16px 4px rgba(0,0,0,0.04)",
+          "when_to_use": [
+            "Ambient elevation",
+            "Background cards"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#EAEAEA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E0E0E0",
+        "width": "0.5px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D1D1D1",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "texture_classification": [
+      "gradient_radial",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Base Background",
+        "description": "Primary light theme background surface",
+        "when_to_use": [
+          "Page background",
+          "Default surface color"
+        ],
+        "hex": "#FCFCF9"
+      },
+      {
+        "name": "Dark Background",
+        "description": "Primary dark theme background surface",
+        "when_to_use": [
+          "Dark mode page background"
+        ],
+        "hex": "#100E12"
+      },
+      {
+        "name": "Raised Surface",
+        "description": "Elevated surface for input containers and cards",
+        "when_to_use": [
+          "Input fields",
+          "Composer background",
+          "Elevated containers"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Subtle Surface",
+        "description": "Subtle background for secondary surfaces",
+        "when_to_use": [
+          "Hover states",
+          "Secondary containers",
+          "Composer chin area"
+        ],
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Soft Surface",
+        "description": "Soft background for interactive elements",
+        "when_to_use": [
+          "Buttons",
+          "Toggle backgrounds",
+          "Interactive containers"
+        ],
+        "hex": "#E8E8E8"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Header Fade Overlay",
+        "description": "Top to bottom fade from base background to transparent, creates visual depth at page top",
+        "when_to_use": [
+          "Header overlays",
+          "Top section fade effects"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--bg-base), transparent)"
+      },
+      {
+        "name": "Education Card Light (Teal Accent)",
+        "description": "Radial gradient creating subtle teal accent glow from top-left corner, layered over subtle background",
+        "when_to_use": [
+          "Education cards",
+          "Feature highlights",
+          "Search prompt cards"
+        ],
+        "css_code": "radial-gradient(110.21% 173.1% at 0% -79.81%, rgba(61, 149, 149, 0.10) 0%, rgba(61, 149, 149, 0.00) 100%)"
+      },
+      {
+        "name": "Education Card Dark (Teal Glow)",
+        "description": "Radial gradient with teal glow from top-right corner in dark theme",
+        "when_to_use": [
+          "Dark mode education cards",
+          "Dark theme feature highlights"
+        ],
+        "css_code": "radial-gradient(90% 130% at 100% 0%, rgba(100, 182, 186, 0.55) 0%, rgba(100, 182, 186, 0) 70%)"
+      },
+      {
+        "name": "Education Card Light Alt (Teal Top-Right)",
+        "description": "Radial gradient with teal accent from top-right corner, slightly stronger opacity",
+        "when_to_use": [
+          "Secondary education cards",
+          "Computer feature cards",
+          "Variant card backgrounds"
+        ],
+        "css_code": "radial-gradient(120.49% 162.23% at 150.32% -44.82%, rgba(61, 149, 149, 0.15) 0%, rgba(61, 149, 149, 0.00) 100%)"
+      },
+      {
+        "name": "Education Card Dark Alt (Subtle Teal)",
+        "description": "Darker teal radial gradient for dark theme secondary cards",
+        "when_to_use": [
+          "Dark mode secondary cards",
+          "Computer feature cards in dark mode"
+        ],
+        "css_code": "radial-gradient(90% 120% at 100% 0%, rgba(20, 107, 116, 0.5) 0%, rgba(20, 107, 116, 0) 62%)"
+      }
+    ],
+    "highlights": [
+      "Soft shadow effect on composer input: 'dglow-shadow-idle' class creates subtle glow around rounded input container",
+      "Radial teal accent gradients on education/feature cards create subtle depth and visual hierarchy",
+      "Linear fade overlay at page header (top-to-bottom) creates visual depth and content separation",
+      "Scrollable container uses 'mask-image: linear-gradient()' for edge fade effect on sidebar scroll",
+      "Dark mode uses solid color #016a71 and #081F22 bases layered with radial gradients for depth"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "top_nav": {
+      "height": "67px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Baseline/White",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": {
+      "background": "#142657",
+      "text_color": "#99EDFF",
+      "border_bottom": null,
+      "height": "32px"
+    },
+    "tabs": null
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Sign up (Primary Dark)",
+        "usage": "Primary call-to-action button used in header navigation, hero sections, and contextual nav. Drives user registration.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter",
+              "size": "0.875rem",
+              "padding": "0 14px"
+            },
+            {
+              "name": "Medium",
+              "font": "Inter",
+              "size": "1rem",
+              "padding": "0 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#44403B",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Log in (Secondary Light)",
+        "usage": "Secondary action button used alongside primary CTA in header. White background with subtle shadow for elevated appearance.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter",
+              "size": "0.875rem",
+              "padding": "0 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FDFCFC",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact sales (Secondary Elevated)",
+        "usage": "Secondary CTA used in hero section and sticky nav. White background with box-shadow for elevated appearance.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter",
+              "size": "0.875rem",
+              "padding": "0 14px"
+            },
+            {
+              "name": "Medium",
+              "font": "Inter",
+              "size": "1rem",
+              "padding": "0 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FDFCFC",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Read all stories (Tertiary Elevated)",
+        "usage": "Tertiary action for navigating to related content. White background with subtle shadow.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "Inter",
+              "size": "1rem",
+              "padding": "0 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FDFCFC",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Play (Icon Button Circular)",
+        "usage": "Circular icon button for media playback controls. Centered play/pause icons within voice carousel items.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FDFCFC",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Arrow Navigation (Icon Button)",
+        "usage": "Circular navigation buttons for carousel/slider navigation. Left and right arrows.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            },
+            {
+              "name": "Small",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F5F3F1",
+            "text_color": "#A59F97",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#EBE8E4",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F5F3F1",
+            "text_color": "#A59F97",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Mobile Menu (Icon Button)",
+        "usage": "Hamburger menu icon button for mobile navigation toggle.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Horizontal button groups with primary and secondary actions side by side",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "underline on hover"
+    }
+  }
+}

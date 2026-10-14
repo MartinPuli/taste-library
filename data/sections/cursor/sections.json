@@ -1,0 +1,232 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/cursor.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar, left-aligned logo, center nav links (desktop), right-aligned CTAs",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Animated SVG logo (video fallback), light/dark theme aware, top-left position"
+        },
+        {
+          "type": "navigation",
+          "description": "Desktop: horizontal menu with dropdown sub-menus (Models, Product, Resources). Mobile: hamburger menu icon"
+        },
+        {
+          "type": "button",
+          "description": "Sign in (ghost/tertiary), Contact sales (ghost), Download (primary dark button)"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered text with dual CTA buttons below",
+      "headline": "Cursor is your coding agent for engineering in the AI age",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Primary CTA: 'Download for macOS' (dark rounded button with download icon)"
+        },
+        {
+          "type": "button",
+          "description": "Secondary CTA: 'Request a demo' (ghost/outline button with arrow)"
+        }
+      ]
+    },
+    {
+      "type": "Hero Image Section",
+      "layout_pattern": "Full-width media container with interactive demo window",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Light beige/cream wallpaper background image, subtle texture"
+        },
+        {
+          "type": "video",
+          "description": "Interactive desktop IDE mockup showing Cursor interface with agent sidebar, code editor, and browser preview (resizable demo window with macOS-style chrome)"
+        }
+      ]
+    },
+    {
+      "type": "Logo Banner",
+      "layout_pattern": "Centered heading with 8-logo grid (4×2 on mobile, 8×1 on desktop)",
+      "headline": "Recommended by builders from top companies",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Monochrome company logos (Stripe, OpenAI, Lyft, Figma, Adobe, Databricks, etc.) in light card containers with subtle borders"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 layout: text left, visual right",
+      "headline": "Agents turn ideas into code",
+      "subheadline": "Your agents read docs, generate plans with checkboxes, ask clarifying questions, and build iteratively.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Text link: 'Learn about agentic development →' (coral/orange accent color)"
+        },
+        {
+          "type": "video",
+          "description": "Interactive demo window showing agent planning interface with task list, multi-step workflow, and question prompts"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 layout: visual left, text right",
+      "headline": "Works autonomously, runs in parallel",
+      "subheadline": "Cloud agents work on long-running tasks even when your laptop is closed. See summaries and screen recordings of every run.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Text link: 'Learn about cloud agents →' (coral/orange accent)"
+        },
+        {
+          "type": "image",
+          "description": "Agent dashboard mockup showing task history, progress indicators, screen recording thumbnail with play button, clean list-based UI"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 layout: text left, visual right",
+      "headline": "In every tool, at every step",
+      "subheadline": "Works in CLI, Slack, your editor, browser—any place you build.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Install command snippet with copy button: 'curl https://cursor.com/install -fsS | bash' in code block with dark background"
+        },
+        {
+          "type": "image",
+          "description": "Slack integration mockup showing agent responding to @ mentions in channel, clean Slack UI with avatars and message threads"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Grid 3-column (2 rows on mobile)",
+      "headline": "The new way to build software.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "6 feature cards with headlines, body text, and 'Read More' links. Cards have light beige background with subtle borders, stacked layout"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split layout: code snippet left, mobile mockup right",
+      "headline": "Stop me the Second",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Code editor screenshot with dark theme, syntax highlighting"
+        },
+        {
+          "type": "image",
+          "description": "Mobile app interface mockup, light theme, clean white background"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Centered heading with 3-column feature grid",
+      "headline": "Debugging",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "3 debugging feature descriptions in horizontal row"
+        },
+        {
+          "type": "button",
+          "description": "Text link: 'Learn more about debugging →' (coral/orange accent)"
+        }
+      ]
+    },
+    {
+      "type": "Testimonial",
+      "layout_pattern": "Full-width background image with centered quote overlay",
+      "headline": null,
+      "subheadline": "\"Cursor is helping us build the future of software development.\"",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large muted/soft-focus background image with light text overlay, scrim treatment for readability"
+        }
+      ]
+    },
+    {
+      "type": "Video Highlights",
+      "layout_pattern": "Centered heading with 4-column grid",
+      "headline": "Recent highlights",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "4 video thumbnail cards with play buttons, screenshot previews, and text labels below. White card backgrounds with colorful thumbnails"
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "layout_pattern": "Centered",
+      "headline": "Try Cursor now.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Large dark rounded button: 'Download for free'"
+        },
+        {
+          "type": "navigation",
+          "description": "Platform selector: macOS / Windows / Linux as text links below CTA"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column link grid with legal footer",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "6 columns: PRODUCT, DOWNLOAD, RESOURCES, COMPANY, CURSOR, SUPPORT. Small dark text on white background"
+        },
+        {
+          "type": "button",
+          "description": "Social media icons (right-aligned)"
+        },
+        {
+          "type": "navigation",
+          "description": "Legal links: © Privacy Policy, Terms of Service, Privacy Notice (small text at bottom)"
+        }
+      ]
+    }
+  ]
+}

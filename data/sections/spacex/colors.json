@@ -1,0 +1,299 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Space Black",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Core background color for the space-themed aesthetic, heavily modified with alpha channels to create overlays, shadows, and gradients.",
+          "when_to_use": [
+            ".app-background",
+            ".black-background",
+            ".video-overlay",
+            ".image-wrapper"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Black 80%",
+            "hex": "#000000",
+            "alpha": 0.8,
+            "aliases": [
+              "--black-80",
+              ".black-background-gradient-right",
+              ".black-background-gradient-left"
+            ]
+          },
+          {
+            "name": "Black 75%",
+            "hex": "#000000",
+            "alpha": 0.75,
+            "aliases": [
+              ".menu-backdrop"
+            ]
+          },
+          {
+            "name": "Black 60%",
+            "hex": "#000000",
+            "alpha": 0.6,
+            "aliases": [
+              ".header"
+            ]
+          },
+          {
+            "name": "Black 50%",
+            "hex": "#000000",
+            "alpha": 0.5,
+            "aliases": [
+              "--black-50",
+              ".header-shadow",
+              ".primary"
+            ]
+          },
+          {
+            "name": "Black 32%",
+            "hex": "#000000",
+            "alpha": 0.32,
+            "aliases": [
+              ".cdk-overlay-dark-backdrop"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Off-White / Pale Gray",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Primary ink and typography color used across the site. Possesses a very subtle cool tone to pair with the dark theme natively.",
+          "when_to_use": [
+            "--white-100",
+            ".app-background",
+            "h1",
+            "h2",
+            "p",
+            ".title",
+            ".feature-header"
+          ]
+        },
+        "hex": "#F0F0FA",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Off-White 90%",
+            "hex": "#F0F0FA",
+            "alpha": 0.9,
+            "aliases": [
+              "--white-90",
+              ".nav-links",
+              ".time"
+            ]
+          },
+          {
+            "name": "Off-White 80%",
+            "hex": "#F0F0FA",
+            "alpha": 0.8,
+            "aliases": [
+              "--white-80",
+              ".minimal",
+              ".countdown",
+              ".feature-text"
+            ]
+          },
+          {
+            "name": "Off-White 70%",
+            "hex": "#F0F0FA",
+            "alpha": 0.7,
+            "aliases": [
+              "--white-70"
+            ]
+          },
+          {
+            "name": "Off-White 60%",
+            "hex": "#F0F0FA",
+            "alpha": 0.6,
+            "aliases": [
+              "--white-60"
+            ]
+          },
+          {
+            "name": "Off-White 50%",
+            "hex": "#F0F0FA",
+            "alpha": 0.5,
+            "aliases": [
+              "--white-50",
+              ".section-subheader"
+            ]
+          },
+          {
+            "name": "Off-White 35%",
+            "hex": "#F0F0FA",
+            "alpha": 0.35,
+            "aliases": [
+              "--white-35",
+              "a"
+            ]
+          },
+          {
+            "name": "Off-White 30%",
+            "hex": "#F0F0FA",
+            "alpha": 0.3,
+            "aliases": [
+              "--white-30"
+            ]
+          },
+          {
+            "name": "Off-White 15%",
+            "hex": "#F0F0FA",
+            "alpha": 0.15,
+            "aliases": [
+              "--white-15"
+            ]
+          },
+          {
+            "name": "Off-White 10%",
+            "hex": "#F0F0FA",
+            "alpha": 0.1,
+            "aliases": [
+              "--white-10",
+              ".social"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Space Dark Gray",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Secondary dark neutral used for subtle background layering and interactive element borders.",
+          "when_to_use": [
+            "--gray-80"
+          ]
+        },
+        "hex": "#252628",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Dark Gray 80%",
+            "hex": "#252628",
+            "alpha": 0.8,
+            "aliases": [
+              "--gray-80"
+            ]
+          },
+          {
+            "name": "Dark Gray 60%",
+            "hex": "#252628",
+            "alpha": 0.6,
+            "aliases": [
+              "--gray-60",
+              ".thin"
+            ]
+          },
+          {
+            "name": "Dark Gray 40%",
+            "hex": "#252628",
+            "alpha": 0.4,
+            "aliases": [
+              "--gray-40"
+            ]
+          },
+          {
+            "name": "Tertiary Background",
+            "hex": "#232323",
+            "alpha": null,
+            "aliases": [
+              ".tertiary"
+            ]
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Pure White",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Used sparingly as an absolute brightest peak for specific borders and data strokes on SVG components.",
+          "when_to_use": [
+            "data-stroke",
+            "--white-25",
+            ".upcoming-launch-widget"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "White 25%",
+            "hex": "#FFFFFF",
+            "alpha": 0.25,
+            "aliases": [
+              "--white-25",
+              ".divider"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Highlight Blue",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "A rare, distinct brand accident color used exclusively for career search highlight tags.",
+          "when_to_use": [
+            "career-search-tile .highlighted-keyword"
+          ]
+        },
+        "hex": "#01579B",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Highlight Blue Faded",
+            "hex": "#01579B",
+            "alpha": 0.45,
+            "aliases": [
+              ".highlighted-keyword"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Light Gray Hover",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Interactive hover state strictly used for inline textual links within CMS-rendered content fields.",
+          "when_to_use": [
+            ".innerhtml-from-cms a:hover"
+          ]
+        },
+        "hex": "#CCCCCC",
+        "alpha": null,
+        "shades": [],
+        "score": 0
+      }
+    ],
+    "insights": [
+      "The design system leverages a heavily 'monochromatic via opacity' architecture, generating almost of its entire palette from varying Alpha channel values of pure Black (#000000) and a customized Space Off-White (#F0F0FA).",
+      "By applying a very subtle blue/cool tint to the primary white (#F0F0FA), the system reduces the harshness of high-contrast text on pure black, creating a more sophisticated, cinematic atmosphere.",
+      "Gradient usage relies strictly on fading black-to-transparent layers to serve as reading scrims beneath text and UI elements over imagery/video, maintaining maximal focus on the visual content."
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Elevation Level 0 (Border Inset)",
+          "type": "inset",
+          "description": "1px inset border shadow using #DDDDDD. Creates a subtle inner border effect for flat elements that need definition without appearing raised.",
+          "css_value": "0px 0px 0px 1px #DDDDDD inset",
+          "when_to_use": [
+            "Input fields",
+            "Cards at rest",
+            "Flat containers with border definition"
+          ]
+        },
+        {
+          "name": "Tertiary Elevation",
+          "type": "drop",
+          "description": "18% opacity black / Blur: 4px / Y-offset: 2px. Subtle shadow for minimal lift.",
+          "css_value": "0 2px 4px rgba(0,0,0,0.18)",
+          "when_to_use": [
+            "Small UI elements",
+            "Badges",
+            "Lightweight hover states"
+          ]
+        },
+        {
+          "name": "Secondary Elevation",
+          "type": "drop",
+          "description": "12% opacity black / Blur: 16px / Y-offset: 6px. Medium elevation for interactive elements.",
+          "css_value": "0 6px 16px rgba(0,0,0,0.12)",
+          "when_to_use": [
+            "Dropdowns",
+            "Popovers",
+            "Tooltips"
+          ]
+        },
+        {
+          "name": "High Elevation",
+          "type": "drop",
+          "description": "28% opacity black / Blur: 28px / Y-offset: 8px. Strong elevation for prominent floating elements.",
+          "css_value": "0 8px 28px rgba(0,0,0,0.28)",
+          "when_to_use": [
+            "Modals",
+            "Dialogs",
+            "Overlays"
+          ]
+        },
+        {
+          "name": "Primary Elevation",
+          "type": "drop",
+          "description": "20% opacity black / Blur: 20px / Y-offset: 6px. Standard elevated shadow for cards and panels.",
+          "css_value": "0 6px 20px rgba(0,0,0,0.2)",
+          "when_to_use": [
+            "Cards",
+            "Floating panels",
+            "Expanded search bars"
+          ]
+        },
+        {
+          "name": "Focus Ring (Composite)",
+          "type": "drop",
+          "description": "Complex composite shadow for focus states: 4% opacity subtle shadow, 20% primary elevation, plus 2px white and 4px dark focus rings.",
+          "css_value": "0px 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 6px 20px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff, 0 0 0 4px #222222",
+          "when_to_use": [
+            "Focus states",
+            "Skip to content links",
+            "Keyboard navigation indicators"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#DDDDDD",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#222222",
+        "width": "4px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "charts": [],
+    "tables": [
+      {
+        "name": "Dashboard Table Editor",
+        "description": "Full-featured database table editor showing rows and columns with inline editing capabilities.",
+        "when_to_use": [
+          "Database management",
+          "Viewing and editing Postgres data",
+          "Administrative tasks"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Product Feature Card",
+        "description": "Card displaying a Supabase product feature (Database, Auth, Storage, etc.) with icon, title, description, and visual illustration.",
+        "when_to_use": [
+          "Showcasing platform features",
+          "Product overview sections"
+        ]
+      },
+      {
+        "name": "Customer Story Card",
+        "description": "Testimonial card with gradient background, company logo, quote, and author avatar.",
+        "when_to_use": [
+          "Customer testimonials",
+          "Case study highlights",
+          "Social proof sections"
+        ]
+      },
+      {
+        "name": "Template Card",
+        "description": "Card showcasing starter templates with technology icon, title, description, and visual preview.",
+        "when_to_use": [
+          "Displaying code templates",
+          "Starter kit showcases"
+        ]
+      },
+      {
+        "name": "Community Tweet Card",
+        "description": "Card displaying Twitter/X posts from community members with profile image, handle, and quote.",
+        "when_to_use": [
+          "Community social proof",
+          "User testimonials from social media"
+        ]
+      }
+    ]
+  }
+}

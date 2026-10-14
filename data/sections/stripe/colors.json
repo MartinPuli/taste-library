@@ -1,0 +1,366 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "True Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The baseline true black, primarily reserved for rendering external brand assets and constructing drop shadows rather than core UI elements.",
+          "when_to_use": [
+            "Third-party partner logos in carousels (e.g., OpenAI, Amazon)",
+            "Apple Pay checkout button background",
+            "Drop shadows on elevated elements (as translucent black)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#010202",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0002
+      },
+      {
+        "name": "Stripe Blurple",
+        "type": "Cool Color",
+        "rules": {
+          "description": "The signature brand accent, driving user interaction through prominent calls to action and vibrant animated gradients.",
+          "when_to_use": [
+            "Primary CTA button backgrounds (e.g., \"Start now\")",
+            "Text links and secondary outline buttons",
+            "Interactive bento card icons and hover states",
+            "Stops in the animated hero and stats section gradients"
+          ]
+        },
+        "hex": "#533AFD",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#7389FF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#7F7DFC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#4834DB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#4A68D6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#715CFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#5463D6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#4A4AF4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#486FFD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#7F81F3",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#6763E4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#453BB3",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#29227D",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1E2064",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#4032C8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#4B73FF",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.2419
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Midnight Navy",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary high-contrast text color, offering a softer, more professional alternative to pure black for major typography.",
+          "when_to_use": [
+            "Hero section main title and dynamic eyebrow values",
+            "Section h2 and h3 headings",
+            "Main navigation trigger labels",
+            "Primary form input labels and values in product graphics"
+          ]
+        },
+        "hex": "#061B31",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#839BC8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1A2C44",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#A3B5D6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#60A8E2",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#B4D8FF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0A2540",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#003478",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0061A0",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.1998
+      },
+      {
+        "name": "Slate Gray",
+        "type": "Cool Color",
+        "rules": {
+          "description": "The secondary text color, establishing typographic hierarchy by softening supportive copy, subtitles, and data labels.",
+          "when_to_use": [
+            "Section subheadings and feature descriptions",
+            "Secondary metadata in checkout and terminal graphics",
+            "Data table column headers in dashboard illustrations",
+            "Testimonial quotes and author roles"
+          ]
+        },
+        "hex": "#50617A",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#64748D",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#3C4F69",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#5A6677",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#667691",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.24670000000000003
+      },
+      {
+        "name": "Paper & Cool Grays",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational surface family, comprising crisp whites for backgrounds and subtle cool grays for structural borders and alternate rows.",
+          "when_to_use": [
+            "Main page and section backgrounds",
+            "Elevated bento card inner surfaces",
+            "Text color on primary Blurple buttons and dark sections",
+            "Section dividers and card borders (as cool grays like #e5edf5)"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E5EDF5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F8FAFD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F2F7FE",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5F5FF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E3ECF7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F9FC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E7ECF1",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFDFE",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F9F6FF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAFDFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FDFEFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAFBFD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAF1E5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E6EBF1",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.17559999999999998
+      }
+    ],
+    "insights": [
+      "The core UI palette entirely avoids pure black, relying instead on deep navies and slates. This creates a softer, more sophisticated contrast that reduces eye strain while maintaining a premium feel.",
+      "Color is highly functional: a single vibrant hue (Blurple) is used to draw the eye to actions and active states, while the rest of the interface remains neutral to let complex data and product graphics breathe.",
+      "The design utilizes a tightly controlled spectrum of cool tones—from the pale blue-gray borders to the slate text and midnight headings—reinforcing the brand's identity as a secure, technical financial infrastructure."
+    ]
+  }
+}

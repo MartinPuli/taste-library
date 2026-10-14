@@ -1,0 +1,47 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/krea.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Feature Tile",
+        "description": "Grid tiles showcasing app features with icon, title, and description, using hover lift effect",
+        "when_to_use": [
+          "Feature showcase grids",
+          "Tool/capability navigation",
+          "Quick action cards"
+        ]
+      },
+      {
+        "name": "Hero Carousel Card",
+        "description": "Full-width video/image background cards with overlay CTAs in carousel format",
+        "when_to_use": [
+          "Product announcements",
+          "Feature highlights",
+          "Marketing hero sections"
+        ]
+      },
+      {
+        "name": "Agent Template Card",
+        "description": "Horizontal scrolling cards with video backgrounds and template CTAs for agent workflows",
+        "when_to_use": [
+          "Template galleries",
+          "Workflow showcases",
+          "Use case demonstrations"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ghost",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "The full-page capture begins with a dark visual field and a narrow orange announcement band. It provides little visible hero text.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-full.jpg",
+    "sha256": "42422fddeee07841fa8f57bebccdfa3508b12a1f794c48a13266483c7ffdec05"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl.css",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [],
+    "palette_literals_checked": [],
+    "font_names_found": [],
+    "font_names_checked": [
+      "Archivo",
+      "Archivo Narrow"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "78a1b32d3c718f439e1f30981c0a42df71b3c3ab2ed51fe166638f0a81d734b4"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "brand_name": "ElevenLabs",
+    "tagline": null,
+    "source_url": "https://elevenlabs.io",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / AI",
+    "primary_purpose": "Drive user sign-ups and enterprise engagement for AI audio and voice generation platform",
+    "main_cta": "Sign up",
+    "copy_tone": [
+      "Confident",
+      "Technical",
+      "Approachable"
+    ],
+    "brand_signature": "Warm cream and eggshell backgrounds with subtle gray borders create a sophisticated, paper-like foundation. Clean pill-shaped buttons and circular avatar elements paired with the custom Waldenburg typeface deliver a refined, research-driven aesthetic that balances technical authority with creative accessibility.",
+    "visual_language": {
+      "keywords": [
+        "warm neutrals",
+        "circular motifs",
+        "pill-shaped UI",
+        "editorial precision",
+        "layered depth",
+        "research-forward"
+      ],
+      "accent_strategy": "Black primary CTAs against cream backgrounds create clear hierarchy; subtle gray rings and shadows add depth without distraction.",
+      "highlights": "Circular audio avatars with gradient overlays and noise textures create visual interest; hover states reveal play controls with smooth transitions."
+    },
+    "strategy": {
+      "target_audience": [
+        "Content creators and media professionals seeking AI voice generation tools for podcasts, videos, and audiobooks",
+        "Enterprise teams requiring scalable voice and audio APIs for product integration",
+        "Developers building conversational AI agents and voice-enabled applications"
+      ],
+      "executive_synthesis": "ElevenLabs positions itself as the premium AI audio platform by combining research credibility with creative accessibility. The warm, editorial visual language softens the technical complexity while the interactive product demos and segmented navigation (Creative/Agents/API) efficiently qualify diverse user intents. The dual CTA strategy (Sign up + Contact sales) captures both self-serve and enterprise conversion paths, while trust signals through customer logos and global impact messaging build credibility at scale."
+    },
+    "style_classification": {
+      "primary_style": "Swiss Style / International Typographic Style",
+      "confidence": "High",
+      "category_style": "Historical Movement",
+      "reasoning": "The visual impression from the screenshot immediately reveals a calm, editorial, and highly organized design. The page breathes with generous whitespace, a strict 12-column grid, and systematic vertical rhythm through consistent section spacing (5-7.5rem). The color palette is deliberately neutral—entirely devoid of saturated brand colors—relying on a sophisticated spectrum of blacks, warm creams (#F5F3F1), and off-white (#FDFCFC) that directly mirrors the warm, paper-like backgrounds characteristic of Swiss Style posters. This \"paper-like warmth\" is a hallmark of International Typographic Style.\n\nTypography is the primary visual vehicle for hierarchy, aligning perfectly with the Swiss Style's core principle of \"typography-driven design.\" The pairing of a geometric/modern serif display face (Waldenburg at font-weight 300) for large headlines with the ubiquitous sans-serif workhorse Inter for body text demonstrates the Swiss emphasis on objective, highly readable communication. The flush-left alignment throughout, modular type scale via CSS custom properties, and restrained font weights create the mathematical clarity central to this movement.\n\nShape language reinforces this classification: geometric primitives (circular spheres in the hero), rounded containers with soft shadows, and grid-based card layouts echo Swiss Style's love of geometric order. The texture profile shows \"shadows_soft\" and subtle \"noise_grain\" overlays—adding tactile depth without breaking the clean, flat aesthetic. This is NOT Flat Design (which demands zero shadows) nor Neumorphism (which requires same-hue extruded elements).\n\nThe KEY DIFFERENTIATOR for Swiss Style is satisfied: strict grid adherence, typography as the hero, and mathematical organization. The cream/off-white background (not pure white) mimicking aged paper stock is the signature tell.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier applies as the secondary style due to the design's clear enterprise positioning. The restrained, neutral color palette (blacks and warm grays only), emphasis on trust signals (stats sections, \"Safety built in\"), systematic multi-column footer with legal links, and conservative visual tone all communicate reliability, competence, and professional authority. The design avoids playfulness or emotional appeal in favor of measured, objective presentation—classic corporate communication strategy. The pill-shaped black CTAs and editorial photography style further reinforce a premium B2B SaaS identity rather than a consumer-focused aesthetic."
+    }
+  }
+}

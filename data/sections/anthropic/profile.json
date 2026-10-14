@@ -1,0 +1,57 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "brand_name": "Anthropic",
+    "tagline": null,
+    "source_url": "https://www.anthropic.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / AI",
+    "primary_purpose": "Establish brand authority as a safety-focused AI research company and drive adoption of Claude AI products",
+    "main_cta": "Try Claude",
+    "copy_tone": [
+      "Thoughtful",
+      "Authoritative",
+      "Mission-Driven"
+    ],
+    "brand_signature": "A refined, warm ivory palette anchored by sophisticated serif and sans-serif typography creates an editorial, research-forward aesthetic. Dark slate buttons and terracotta accents provide purposeful contrast against the soft cream backgrounds, evoking scholarly credibility with modern polish.",
+    "visual_language": {
+      "keywords": [
+        "editorial",
+        "scholarly",
+        "warm minimalism",
+        "research-focused",
+        "refined"
+      ],
+      "accent_strategy": "Terracotta/clay (#d97757) accents used sparingly on primary CTAs and interactive elements to create warmth against ivory backgrounds",
+      "highlights": "Atmospheric sky imagery with soft gradients for hero announcements; subtle border treatments and card shadows for depth"
+    },
+    "strategy": {
+      "target_audience": [
+        "AI researchers and academics seeking cutting-edge, safety-conscious AI tools and publications",
+        "Enterprise decision-makers evaluating AI solutions for coding, knowledge work, and business applications",
+        "Developers and technical professionals looking for powerful, well-documented AI APIs and models"
+      ],
+      "executive_synthesis": "Anthropic's visual identity translates its mission of responsible AI development into a design language that feels academic, trustworthy, and intentionally unhurried. The warm ivory palette and serif typography signal intellectual seriousness and differentiate from competitors' cooler, tech-forward aesthetics. By leading with research announcements and safety messaging rather than aggressive product promotion, the homepage builds credibility with discerning buyers who value ethics alongside capability. The terracotta accent humanizes the brand while the structured grid and clear hierarchy guide visitors toward product exploration without pressure."
+    },
+    "style_classification": {
+      "primary_style": "Swiss Style / International Typographic Style",
+      "confidence": "High",
+      "category_style": "Historical Movement",
+      "reasoning": "The visual impression from the screenshot reveals a distinctly editorial, academic aesthetic with extreme restraint and mathematical clarity. The warm off-white/cream (#FAF9F5) background mimics aged paper—a hallmark of Swiss Style that rarely uses pure white. The design exhibits generous whitespace with 10rem vertical spacing between sections, creating the deliberate breathing room characteristic of International Typographic Style.\n\nTypography is the primary vehicle for hierarchy: \"Anthropic Sans\" (a geometric sans-serif) for bold display headlines and \"Anthropic Serif\" for body copy creates the classic Swiss pairing of objective, readable typography. The strict 12-column grid with asymmetric usage (7/5 split in hero, 4/8 in mission statement, equal 3-column for cards) demonstrates the mathematical grid-based layouts that define this movement.\n\nColor palette matches Swiss Style perfectly: monochromatic with warm neutrals (cream/beige backgrounds, black text), no vibrant brand colors—just editorial restraint. The design eschews gradients and heavy effects in favor of subtle soft shadows and flat surfaces. Shape language is geometric with rounded corners on cards (1rem radius) but overall rectangular, grid-based composition.\n\nThe layout is flush-left aligned with clear information hierarchy, systematic metadata presentation on cards (DATE, CATEGORY, DETAILS labels), and objective communication prioritized over decoration. This is textbook Swiss Style translated into digital form.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier applies as a tonal layer over the Swiss Style foundation. The design projects trust, reliability, and professional competence appropriate for an AI research company handling serious topics like safety. The conservative color palette, formal typography hierarchy, extensive footer with organized link categories (Products, Solutions, Resources, Company), and structured card-based announcements with metadata all signal corporate professionalism. The mission-driven messaging (\"AI to serve humanity's long-term well-being\") combined with the academic/editorial aesthetic positions this as trustworthy enterprise communication rather than playful consumer design."
+    }
+  }
+}

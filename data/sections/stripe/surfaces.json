@@ -1,0 +1,307 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary background color for sections and containers",
+        "when_to_use": [
+          "Section backgrounds",
+          "Container fills",
+          "Panel backgrounds"
+        ],
+        "hex": "#F8FAFD"
+      },
+      {
+        "name": "Card/Surface Background",
+        "description": "Primary white surface for cards, dialogs, and elevated content",
+        "when_to_use": [
+          "Card backgrounds",
+          "Dialog surfaces",
+          "Navigation panels",
+          "Content containers"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Divider/Border",
+        "description": "Border and divider color for separating content",
+        "when_to_use": [
+          "Section borders",
+          "Horizontal rules",
+          "Card outlines",
+          "Table borders"
+        ],
+        "hex": "#E5EDF5"
+      },
+      {
+        "name": "Secondary Surface",
+        "description": "Light accent surface for interactive elements",
+        "when_to_use": [
+          "Hover states",
+          "Selected states",
+          "Subtle backgrounds"
+        ],
+        "hex": "#F5F5FF"
+      },
+      {
+        "name": "Navigation Background",
+        "description": "Navigation menu background with elevated appearance",
+        "when_to_use": [
+          "Navigation menus",
+          "Dropdown panels",
+          "Overlay surfaces"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Translucent Button",
+        "description": "Semi-transparent white surface for buttons (65% opacity)",
+        "when_to_use": [
+          "Hero CTA buttons",
+          "Floating action buttons",
+          "Overlay controls"
+        ],
+        "hex": "#FFFFFFA6"
+      },
+      {
+        "name": "Billing Plan Card",
+        "description": "Card background for billing plan graphics with shadow",
+        "when_to_use": [
+          "Billing plan displays",
+          "Usage meter cards",
+          "Chart containers"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Browser Window Surface",
+        "description": "Browser graphic window background (45% opacity rgba(248, 250, 253, 0.45))",
+        "when_to_use": [
+          "Browser mockups",
+          "Window frames",
+          "Glass effects"
+        ],
+        "hex": "#F8FAFD"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Suite Title Gradient (Products Section)",
+        "description": "Horizontal gradient for product suite section underlines, uses CSS variables for dynamic coloring",
+        "when_to_use": [
+          "Product section title underlines",
+          "Suite navigation accents",
+          "Animated hover effects"
+        ],
+        "css_code": "linear-gradient(90deg,var(--gradient-color) 0,var(--gradient-color) 20%,var(--stop-color) 40%,var(--suite-color) 60%,var(--suite-color) 100%)"
+      },
+      {
+        "name": "Navigation Overlay Gradient",
+        "description": "Top-to-bottom gradient from transparent to light gray (80% opacity) with backdrop blur",
+        "when_to_use": [
+          "Navigation menu overlays",
+          "Modal backdrops",
+          "Layered UI backgrounds"
+        ],
+        "css_code": "linear-gradient(transparent,rgba(236,239,241,.8))"
+      },
+      {
+        "name": "Stats Globe Fade Top",
+        "description": "Horizontal fade gradient from transparent edges to white center for stats divider",
+        "when_to_use": [
+          "Section dividers",
+          "Horizontal accents",
+          "Globe overlay effects"
+        ],
+        "css_code": "linear-gradient(90deg,rgba(175,255,234,0),#fcfdfe 50%,rgba(175,255,234,0))"
+      },
+      {
+        "name": "Usage Meter Progress",
+        "description": "Horizontal gradient from purple to pink to yellow for usage meter fill",
+        "when_to_use": [
+          "Usage meter bars",
+          "Progress indicators",
+          "Billing plan metrics"
+        ],
+        "css_code": "linear-gradient(90deg,#7232f1 3.13%,#fb76fa 50%,#ffcf5e)"
+      },
+      {
+        "name": "Authorization Boost Stat",
+        "description": "Diagonal gradient from orange to coral to pink for large stat display",
+        "when_to_use": [
+          "Hero statistics",
+          "Large percentage displays",
+          "Feature highlights"
+        ],
+        "css_code": "linear-gradient(203deg,#ffa319 9.93%,#fd6252 82.88%,#fd5b86 131.32%)"
+      },
+      {
+        "name": "Bento Overlay Gradient Orb 1",
+        "description": "Radial gradient from purple center (23.56%) to transparent for dialog background orb",
+        "when_to_use": [
+          "Dialog backgrounds",
+          "Decorative orbs",
+          "Ambient lighting effects"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,var(--bento-left-blob) 23.56%,transparent 100%)"
+      },
+      {
+        "name": "Bento Overlay Gradient Orb 2",
+        "description": "Radial gradient from purple center (0%) to transparent for dialog background orb",
+        "when_to_use": [
+          "Dialog backgrounds",
+          "Decorative orbs",
+          "Ambient lighting effects"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,var(--bento-left-blob) 0,transparent 100%)"
+      },
+      {
+        "name": "Bento Overlay Gradient Orb 3",
+        "description": "Radial gradient from accent color center (27.4%) to transparent for dialog background orb",
+        "when_to_use": [
+          "Dialog backgrounds",
+          "Decorative orbs",
+          "Ambient lighting effects"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,var(--bento-right-blob) 27.4%,transparent 100%)"
+      },
+      {
+        "name": "Bento Overlay Gradient Orb 4",
+        "description": "Radial gradient from accent color center (0%) to transparent for dialog background orb",
+        "when_to_use": [
+          "Dialog backgrounds",
+          "Decorative orbs",
+          "Ambient lighting effects"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,var(--bento-right-blob) 0,transparent 100%)"
+      },
+      {
+        "name": "Product Image Conic Gradient",
+        "description": "Conic gradient spinning through purple, pink, and yellow for product image effects",
+        "when_to_use": [
+          "Product image borders",
+          "Decorative accents",
+          "Loading indicators"
+        ],
+        "css_code": "conic-gradient(from 0deg,#7232f1 0,#fb76fa 33%,#ffcf5e 66%,#7232f1 100%)"
+      },
+      {
+        "name": "Billing Plan Background 1",
+        "description": "Radial purple gradient (80% opacity at center) for billing plan card background",
+        "when_to_use": [
+          "Billing plan backgrounds",
+          "Card ambient lighting",
+          "Feature highlights"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,rgba(83,58,253,.8) 62.5%,rgba(83,58,253,0) 100%)"
+      },
+      {
+        "name": "Billing Plan Background 2",
+        "description": "Radial pink gradient (80% opacity at center) for billing plan card background",
+        "when_to_use": [
+          "Billing plan backgrounds",
+          "Card ambient lighting",
+          "Feature highlights"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,rgba(243,99,243,.8) 53.85%,rgba(243,99,243,0) 100%)"
+      },
+      {
+        "name": "Billing Plan Background 3",
+        "description": "Radial yellow gradient for billing plan card background (with blur filter)",
+        "when_to_use": [
+          "Billing plan backgrounds",
+          "Card ambient lighting",
+          "Feature highlights"
+        ],
+        "css_code": "radial-gradient(50% 50% at 50% 50%,#ffcf5e 41.35%,rgba(255,207,94,0) 100%)"
+      },
+      {
+        "name": "Billing Plan Background 4",
+        "description": "Top-to-bottom white fade gradient for billing plan card background (with blur filter)",
+        "when_to_use": [
+          "Billing plan backgrounds",
+          "Card fade effects",
+          "Overlay fades"
+        ],
+        "css_code": "linear-gradient(180deg,#fff 41.35%,hsla(0,0%,100%,0))"
+      },
+      {
+        "name": "Connect Bento Border Gradient",
+        "description": "Radial gradient from purple to pink to light gray for card border effects",
+        "when_to_use": [
+          "Card border accents",
+          "Interactive hover borders",
+          "Animated borders"
+        ],
+        "css_code": "radial-gradient(circle,#7f7dfc,#f44bcc 33%,#e5edf5 66%)"
+      },
+      {
+        "name": "Mobile Payment Slider Fade Left",
+        "description": "Left-to-right white fade gradient for horizontal slider masking",
+        "when_to_use": [
+          "Horizontal scrollers",
+          "Content fade edges",
+          "Slider masks"
+        ],
+        "css_code": "linear-gradient(90deg,#fff,hsla(0,0%,100%,0))"
+      },
+      {
+        "name": "Mobile Payment Slider Fade Right",
+        "description": "Left-to-right fade to white gradient for horizontal slider masking",
+        "when_to_use": [
+          "Horizontal scrollers",
+          "Content fade edges",
+          "Slider masks"
+        ],
+        "css_code": "linear-gradient(90deg,hsla(0,0%,100%,0),#fff)"
+      },
+      {
+        "name": "Company Graphic Overlay",
+        "description": "Top-to-bottom fade from transparent to white (83% opacity at 75%, full white at 100%)",
+        "when_to_use": [
+          "Content fade overlays",
+          "Image gradients",
+          "Section transitions"
+        ],
+        "css_code": "linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.83) 75%,#fff)"
+      },
+      {
+        "name": "Navigation Menu Footer",
+        "description": "Radial white gradient (90% opacity center to transparent) over 80% opacity white background",
+        "when_to_use": [
+          "Navigation footers",
+          "Menu overlays",
+          "Floating panels"
+        ],
+        "css_code": "radial-gradient(66.35% 66.35% at 50% 50%,hsla(0,0%,100%,.9) 0,hsla(0,0%,100%,0) 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(5px) on navigation overlay with linear-gradient(transparent,rgba(236,239,241,.8)) background",
+      "Browser graphic glassmorphism: backdrop-filter: blur(12px) over rgba(248,250,253,.45) background with 1px border",
+      "Navigation menu glassmorphism: backdrop-filter: blur(2.5px) on time-of-day-select menu with rgba(248,250,253,.55) background",
+      "Radial gradient orbs for dialog overlays: Four layered radial gradients using --bento-left-blob and --bento-right-blob variables with transforms and filters",
+      "Product suite gradient underlines: Animated linear gradients on navigation suite titles with mouse interaction (background-size transition)",
+      "Connect card animated border: Radial gradient with mouse position tracking (--card-mouse-x, --card-mouse-y variables) and transform transitions",
+      "Stats section ambient gradients: Six time-of-day gradient states (pre-dawn, sunrise, daytime, dusk, sunset, night) that transition between active states",
+      "Billing plan usage meter: Linear gradient progress bar with animated translation controlled by --combined-progress variable",
+      "Subtle dot pattern on stats globe visualization (visible as decorative overlay)"
+    ]
+  }
+}

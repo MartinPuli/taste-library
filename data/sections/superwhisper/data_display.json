@@ -1,0 +1,47 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Pricing Tier Card",
+        "description": "Three-column pricing comparison cards displaying Free, Pro, and Enterprise tiers with feature lists and CTAs.",
+        "when_to_use": [
+          "Pricing page comparison",
+          "Subscription tier selection",
+          "Feature comparison display"
+        ]
+      },
+      {
+        "name": "App Demo Window",
+        "description": "Interactive mock application windows (Slack, Notes, Cursor) demonstrating cross-app voice dictation functionality.",
+        "when_to_use": [
+          "Product demonstrations",
+          "Feature showcases",
+          "Interactive tutorials"
+        ]
+      },
+      {
+        "name": "Feature Card",
+        "description": "Visual feature cards with icons, titles, and descriptions showcasing product capabilities.",
+        "when_to_use": [
+          "Feature sections",
+          "Product benefit highlights",
+          "Capability comparisons"
+        ]
+      }
+    ]
+  }
+}

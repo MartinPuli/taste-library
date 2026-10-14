@@ -2,31 +2,49 @@
 
 Alternate introductory video with light sections that explain capabilities alongside examples.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 39 · Captured 2026-09-15T20:11:13.034995Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 39 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-15T20:11:13.034995Z |
-| Suggested uses | creative-tools |
-| Visual approach | cinematic, monochrome |
+[Original website](https://lumalabs.ai/) · [Full extraction](../data/raw/luma-ai.json) · [Review record](../data/reviews/luma-ai.json)
 
-## Details to compare
+[Small visual preview](../data/previews/luma-ai.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/full.jpg)
 
-- Detected type families: Graphik.
-- Recorded palette: #000000, #E5E5E5, #737373, #A6A6A6, #101010.
-- Grid: `{"columns": 12, "gutter": "2rem", "max_width": "80rem"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A collage of fashion imagery sits behind centered white copy and a rounded light action, with a content panel emerging below.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://lumalabs.ai/) · [Extraction](../data/raw/luma-ai.json) · [Tokens](../data/tokens/luma-ai.json)
+Project types: creative-tools. Styles: cinematic, monochrome. These are editorial tags.
 
-```sh
-python3 scripts/query.py show luma-ai --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Alternate introductory video with light sections that explain capabilities alongside examples. Evidence: [layout](../data/sections/luma-ai/layout.json), [sections](../data/sections/luma-ai/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/luma-ai/actions.json).
+
+## Content to bring
+
+Representative work samples and a real demonstration of the creation workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/luma-ai/profile.json)
+- [Layout](../data/sections/luma-ai/layout.json)
+- [Colors](../data/sections/luma-ai/colors.json)
+- [Typography](../data/sections/luma-ai/typography.json)
+- [Surfaces](../data/sections/luma-ai/surfaces.json)
+- [Elevation](../data/sections/luma-ai/elevation.json)
+- [Interactions](../data/sections/luma-ai/interactions.json)
+- [Actions](../data/sections/luma-ai/actions.json)
+- [Navigation](../data/sections/luma-ai/navigation.json)
+- [Data Display](../data/sections/luma-ai/data_display.json) · no observed data
+- [Structure](../data/sections/luma-ai/structure.json)
+- [Icons](../data/sections/luma-ai/icons.json)
+- [Assets](../data/sections/luma-ai/assets.json)
+- [Brand Assets](../data/sections/luma-ai/brand_assets.json) · no observed data
+- [Sections](../data/sections/luma-ai/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

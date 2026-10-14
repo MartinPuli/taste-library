@@ -2,31 +2,49 @@
 
 Introduce a small object through close photography, video, and space between messages.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 15 · Captured 2026-10-14T08:53:39.274748Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 15 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T08:53:39.274748Z |
-| Suggested uses | hardware |
-| Visual approach | warm-editorial, cinematic |
+[Original website](https://sandbar.com/) · [Full extraction](../data/raw/sandbar.json) · [Review record](../data/reviews/sandbar.json)
 
-## Details to compare
+[Small visual preview](../data/previews/sandbar.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/full.jpg)
 
-- Detected type families: Messina Sans, System Sans.
-- Recorded palette: #0C0B0B, #FFFFFF, #6F6E6E, #FCFAE9, #000000.
-- Grid: `{"columns": 12, "gutter": "4.8rem", "max_width": "128rem"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+Close product photography fills the background while a centered cream newsletter dialog occupies the foreground.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://sandbar.com/) · [Extraction](../data/raw/sandbar.json) · [Tokens](../data/tokens/sandbar.json)
+Project types: hardware. Styles: warm-editorial, cinematic. These are editorial tags.
 
-```sh
-python3 scripts/query.py show sandbar --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Introduce a small object through close photography, video, and space between messages. Evidence: [layout](../data/sections/sandbar/layout.json), [sections](../data/sections/sandbar/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/sandbar/actions.json).
+
+## Content to bring
+
+Product photography with enough detail and consistent framing to carry large sections. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/sandbar/profile.json)
+- [Layout](../data/sections/sandbar/layout.json)
+- [Colors](../data/sections/sandbar/colors.json)
+- [Typography](../data/sections/sandbar/typography.json)
+- [Surfaces](../data/sections/sandbar/surfaces.json)
+- [Elevation](../data/sections/sandbar/elevation.json)
+- [Interactions](../data/sections/sandbar/interactions.json)
+- [Actions](../data/sections/sandbar/actions.json)
+- [Navigation](../data/sections/sandbar/navigation.json)
+- [Data Display](../data/sections/sandbar/data_display.json)
+- [Structure](../data/sections/sandbar/structure.json)
+- [Icons](../data/sections/sandbar/icons.json)
+- [Assets](../data/sections/sandbar/assets.json)
+- [Brand Assets](../data/sections/sandbar/brand_assets.json)
+- [Sections](../data/sections/sandbar/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

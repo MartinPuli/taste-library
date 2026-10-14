@@ -2,31 +2,49 @@
 
 Study cream backgrounds, data blocks, and color accents in a text-detection product.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 32 · Captured 2026-09-23T23:13:42.526672Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 32 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-23T23:13:42.526672Z |
-| Suggested uses | editorial-research, productivity |
-| Visual approach | warm-editorial, color-accent |
+[Original website](https://www.pangram.com/) · [Full extraction](../data/raw/pangram.json) · [Review record](../data/reviews/pangram.json)
 
-## Details to compare
+[Small visual preview](../data/previews/pangram.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/full.jpg)
 
-- Detected type families: headingFont, IBM Plex Sans, IBM Plex Mono, Imbue.
-- Recorded palette: #14201E, #E2E8F0, #000000, #777777, #FF6106.
-- Grid: `{"columns": 12, "gutter": "2rem", "max_width": "1280px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A serif headline and orange actions share the hero with a text-analysis interface over an illustrated background.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.pangram.com/) · [Extraction](../data/raw/pangram.json) · [Tokens](../data/tokens/pangram.json)
+Project types: editorial-research, productivity. Styles: warm-editorial, color-accent. These are editorial tags.
 
-```sh
-python3 scripts/query.py show pangram --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study cream backgrounds, data blocks, and color accents in a text-detection product. Evidence: [layout](../data/sections/pangram/layout.json), [sections](../data/sections/pangram/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/pangram/actions.json).
+
+## Content to bring
+
+A small set of strong headlines and substantial articles or research to support the hierarchy. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/pangram/profile.json)
+- [Layout](../data/sections/pangram/layout.json)
+- [Colors](../data/sections/pangram/colors.json)
+- [Typography](../data/sections/pangram/typography.json)
+- [Surfaces](../data/sections/pangram/surfaces.json)
+- [Elevation](../data/sections/pangram/elevation.json)
+- [Interactions](../data/sections/pangram/interactions.json)
+- [Actions](../data/sections/pangram/actions.json)
+- [Navigation](../data/sections/pangram/navigation.json)
+- [Data Display](../data/sections/pangram/data_display.json)
+- [Structure](../data/sections/pangram/structure.json)
+- [Icons](../data/sections/pangram/icons.json)
+- [Assets](../data/sections/pangram/assets.json)
+- [Brand Assets](../data/sections/pangram/brand_assets.json) · no observed data
+- [Sections](../data/sections/pangram/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

@@ -1,0 +1,190 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/paper.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal, space-between alignment",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Paper logo SVG, dark text on light background, switches to light text on dark in dark mode"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal nav links: pricing, roadmap, blog, changelog, docs - displayed on desktop, hidden on mobile"
+        },
+        {
+          "type": "button",
+          "description": "Mobile menu button (hamburger icon), visible only on mobile breakpoints"
+        },
+        {
+          "type": "button",
+          "description": "Sign up / Open Paper CTA button, blue link color on hover"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "design incredible",
+      "subheadline": "the connected canvas for teams shipping with agents",
+      "components": [
+        {
+          "type": "button",
+          "description": "Primary CTA 'download Paper' - dark background, light text, rounded corners"
+        },
+        {
+          "type": "button",
+          "description": "Secondary link 'open Paper in the browser →' - text-only, arrow suffix"
+        },
+        {
+          "type": "image",
+          "description": "Large hero screenshot showing Paper UI interface split into code/canvas panels with layers sidebar, rounded corners with shadow, cream/beige background with product interface in blues and purples"
+        }
+      ]
+    },
+    {
+      "type": "Partner Logos",
+      "layout_pattern": "Centered horizontal row",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Grayscale partner logos (Figma, Google, etc.) arranged horizontally on light cream background"
+        }
+      ]
+    },
+    {
+      "type": "Features - Paper Desktop",
+      "layout_pattern": "Centered",
+      "headline": "Introducing Paper Desktop",
+      "subheadline": "a truly connected canvas, a whole new workflow",
+      "components": [
+        {
+          "type": "icon",
+          "description": "Three application integration icons: Figma, Sketch, Lottie - displayed as circular badges with blue accents"
+        },
+        {
+          "type": "button",
+          "description": "CTA button 'Get Paper Desktop →' - solid dark background, centered"
+        }
+      ]
+    },
+    {
+      "type": "Features - Continuous Loop",
+      "layout_pattern": "Centered with large screenshot",
+      "headline": "finally a continuous loop from Paper to code and back",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Large product screenshot showing 'Vinyl Bundles' interface with vinyl record product photo, dark header, white content area, social media icons (Instagram, YouTube, TikTok, Apple Music) in orange, purple, and blue"
+        }
+      ]
+    },
+    {
+      "type": "Features - Data Connection",
+      "layout_pattern": "Centered with screenshot and icons",
+      "headline": "always connect to real content - real data, from anywhere",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Screenshot of data table interface with clean rows and columns, monochrome styling"
+        },
+        {
+          "type": "icon",
+          "description": "Platform integration icons in circular badges: GitHub, Slack, Medium, Dribbble, Behance, Pinterest - monochrome design"
+        }
+      ]
+    },
+    {
+      "type": "Features - Automation",
+      "layout_pattern": "Centered with screenshot",
+      "headline": "hand off boilerplate work, focus on the human touch",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Duplicate of 'Vinyl Bundles' screenshot - same product interface with vinyl record and social media icons in vibrant colors"
+        }
+      ]
+    },
+    {
+      "type": "Features - Workflow",
+      "layout_pattern": "Centered",
+      "headline": "the full-circle, one-stop workflow for humans and agents",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "CTA button 'Get Paper Desktop →' - solid dark background, centered"
+        }
+      ]
+    },
+    {
+      "type": "Roadmap",
+      "layout_pattern": "Centered",
+      "headline": "Paper Roadmap",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Device mockups showing desktop and mobile screens with application interfaces in blue/purple tones"
+        },
+        {
+          "type": "button",
+          "description": "Link 'Learn more →' - outline style button"
+        }
+      ]
+    },
+    {
+      "type": "Announcement - Series A",
+      "layout_pattern": "Grid layout with timeline",
+      "headline": "Series A",
+      "subheadline": "$34M",
+      "components": [
+        {
+          "type": "image",
+          "description": "Grid of product screenshots and UI samples showing multi-color interfaces with orange, blue, purple accents"
+        },
+        {
+          "type": "illustration",
+          "description": "Timeline graphics and feature visualizations accompanying the funding announcement"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Four columns of links: Downloads, Features, Customers, Company - black text on cream background"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons in minimal style"
+        },
+        {
+          "type": "logo",
+          "description": "Paper logo centered at bottom of footer"
+        }
+      ]
+    }
+  ]
+}

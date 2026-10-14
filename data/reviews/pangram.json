@@ -1,0 +1,52 @@
+{
+  "id": "pangram",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A serif headline and orange actions share the hero with a text-analysis interface over an illustrated background.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/viewport.jpg",
+    "sha256": "48ab3f7deeaf8b26354cfd5940c5003055c4712c88b7d636168a09d41dce20ad"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/styles.css",
+    "sha256": "4867851382f5e9d8e7516dffcfa254b11d2106309a731cda758c8e75a3b7051c",
+    "bytes": 328069,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#14201E",
+      "#FF6106"
+    ],
+    "palette_literals_checked": [
+      "#14201E",
+      "#E2E8F0",
+      "#000000",
+      "#777777",
+      "#FF6106"
+    ],
+    "font_names_found": [
+      "headingFont",
+      "IBM Plex Sans",
+      "IBM Plex Mono",
+      "Imbue"
+    ],
+    "font_names_checked": [
+      "headingFont",
+      "IBM Plex Sans",
+      "IBM Plex Mono",
+      "Imbue"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "229a006ca81df3a0ba3139d170d5e27a441f12b1229c261fb00d1a43777d1737"
+}

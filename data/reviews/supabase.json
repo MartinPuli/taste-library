@@ -1,0 +1,44 @@
+{
+  "id": "supabase",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A white hero uses a two-part headline with a green second line. Outlined product modules form a regular grid below.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+    "sha256": "589f60f399dfe162bc65df7c1255315a7b413ea432493916f707f2cfe5462522"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl.css",
+    "sha256": "e8d2a7d662964a369098a0f8aa924a6b9e6a8480164ddd67f6904ddaf4887f42",
+    "bytes": 20605,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [],
+    "palette_literals_checked": [
+      "#FDFDFD",
+      "#0E7E4E",
+      "#0C0F24",
+      "#030303"
+    ],
+    "font_names_found": [
+      "Inter"
+    ],
+    "font_names_checked": [
+      "System Sans",
+      "Manrope",
+      "Inter"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "2d33e7909a26cc32fb6974fcf982980e750ceb9f3d75a8d8a6e52b9ba9c36dbf"
+}

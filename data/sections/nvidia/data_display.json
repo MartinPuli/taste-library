@@ -1,0 +1,43 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Content Card",
+        "description": "Image-based content cards displaying event sessions, articles, and product highlights with thumbnail, title, and category labels",
+        "when_to_use": [
+          "Event session listings",
+          "Blog article previews",
+          "Product feature highlights"
+        ]
+      },
+      {
+        "name": "Search Result Item",
+        "description": "Text-based search result entries with numbered ranking indicator, title link, description excerpt, and source URL",
+        "when_to_use": [
+          "Site search results",
+          "Content discovery listings"
+        ]
+      },
+      {
+        "name": "GFN Games Promo Card",
+        "description": "Full-width promotional card with background art, logo, headline, description, and CTA button for GeForce NOW game promotions",
+        "when_to_use": [
+          "Featured game promotions",
+          "Service marketing highlights"
+        ]
+      }
+    ]
+  }
+}

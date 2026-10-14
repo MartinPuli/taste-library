@@ -1,0 +1,84 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Button Inset Glow",
+          "type": "inset",
+          "description": "White inset glow at 50% opacity / Blur: 5px / Spread: 2px - Creates an inner highlight effect on buttons",
+          "css_value": "rgba(255, 255, 255, 0.5) 0px 0px 5px 2px inset",
+          "when_to_use": [
+            "Primary buttons",
+            "CTA buttons",
+            "Interactive button elements"
+          ]
+        },
+        {
+          "name": "Card Panel Shadow",
+          "type": "inset",
+          "description": "Black inset shadow at ~5% opacity / Blur: 2px / Offset: -0.4px - Subtle inner shadow for card panels",
+          "css_value": "inset 0 0 2px -.4px #0000000d",
+          "when_to_use": [
+            "Card containers",
+            "Panel elements",
+            "Sticky navigation indicators"
+          ]
+        },
+        {
+          "name": "Button Bottom Highlight",
+          "type": "inset",
+          "description": "White inset shadow at 25% opacity / Y-offset: -8px / Blur: 12px - Bottom highlight effect for interactive elements",
+          "css_value": "inset 0px -8px 12px 0px rgba(255, 255, 255, 0.25)",
+          "when_to_use": [
+            "Secondary buttons",
+            "Interactive controls"
+          ]
+        },
+        {
+          "name": "Blue Button Highlight",
+          "type": "inset",
+          "description": "Blue inset shadow at 25% opacity / Y-offset: -8px / Blur: 12px - Bottom highlight for blue accent buttons",
+          "css_value": "inset 0px -8px 12px 0px rgba(98, 135, 217, 0.25)",
+          "when_to_use": [
+            "Blue accent buttons",
+            "Primary action buttons"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#FFFFFF1A",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1.5px",
+        "style": "solid"
+      },
+      {
+        "hex": "#3B7AD9",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

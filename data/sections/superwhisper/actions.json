@@ -1,0 +1,394 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Download for Mac (Primary CTA)",
+        "usage": "Primary call-to-action button in the hero section for macOS downloads. Prominent white/light background with dark text.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "15px",
+              "padding": "0px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F0F0F0",
+            "text_color": "#1A1A1A",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#1A1A1A",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F0F0F0",
+            "text_color": "#1A1A1A",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Download for Windows (Secondary CTA)",
+        "usage": "Secondary download button for Windows users in the hero section. Transparent/dark background with white text.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "15px",
+              "padding": "0px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(255, 255, 255, 0.8)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(255, 255, 255, 0.8)",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Download (Form Submit)",
+        "usage": "Small submit button inside email input form for download. White background with black text, compact size.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter",
+              "size": "13px",
+              "padding": "4px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.9)",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Play Demo (Pill Button)",
+        "usage": "Demo trigger button with play icon and text. Pill-shaped with frosted glass appearance.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "16px",
+              "padding": "4px 16px 4px 4px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.2)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.3)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Monthly (Pricing Toggle)",
+        "usage": "Pricing period toggle button in the pricing section. Pill-shaped toggle style.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "10px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.1)",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Yearly (2 months free) (Pricing Toggle Inactive)",
+        "usage": "Inactive pricing period toggle. Muted appearance when not selected.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "10px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#888B91",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#888B91",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "FAQ Accordion Button",
+        "usage": "Expandable FAQ question buttons. Full-width with consistent padding for accordion interaction.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "16px",
+              "padding": "16px 0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Used for navigation controls, dock items, and window control buttons. Circular shape with icon only.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "Inter",
+              "size": "12px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(228, 232, 239, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(228, 232, 239, 0.2)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(228, 232, 239, 0.1)",
+            "text_color": "rgba(209, 213, 219, 0.4)",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get Pro (Navigation CTA)",
+        "usage": "Navigation bar call-to-action link for premium upgrade.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Download buttons arranged horizontally in the hero section with consistent spacing",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

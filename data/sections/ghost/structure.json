@@ -1,0 +1,41 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Notification Item Border",
+        "description": "Subtle border separating notification items in the context display",
+        "when_to_use": [
+          "Between list items in notification feed",
+          "Separating contextual information cards"
+        ],
+        "color": "rgba(255,255,255,0.25)",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Spec Label Border",
+        "description": "Border around specification labels and values",
+        "when_to_use": [
+          "Around interactive specification buttons",
+          "Defining boundaries of data cells"
+        ],
+        "color": "#00050A",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

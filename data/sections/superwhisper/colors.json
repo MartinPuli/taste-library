@@ -1,0 +1,972 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Pure Black",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "The core background color establishing the dark theme of the marketing site.",
+          "when_to_use": [
+            "--pure-black",
+            "--background-start-rgb",
+            "--background-end-rgb",
+            "bg-black",
+            "text-black",
+            "border-black",
+            "from-black",
+            "to-black"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Black 03",
+            "hex": "#030719",
+            "alpha": null,
+            "aliases": [
+              "bg-[#030719]"
+            ]
+          },
+          {
+            "name": "Black 0B",
+            "hex": "#0B0B0B",
+            "alpha": null,
+            "aliases": [
+              "bg-[#0b0b0b]"
+            ]
+          },
+          {
+            "name": "TriGray 950",
+            "hex": "#0F0F10",
+            "alpha": null,
+            "aliases": [
+              "bg-trigray-950",
+              "text-trigray-950",
+              "bg-[#0F0F10]"
+            ]
+          },
+          {
+            "name": "Cursor UI Dark",
+            "hex": "#181818",
+            "alpha": null,
+            "aliases": [
+              "bg-[#181818]"
+            ]
+          },
+          {
+            "name": "Black 1A",
+            "hex": "#1A1A1A",
+            "alpha": null,
+            "aliases": [
+              "bg-[#1a1a1a]",
+              "text-[#1A1A1A]",
+              "fill-[#1A1A1A]"
+            ]
+          },
+          {
+            "name": "TriGray 800",
+            "hex": "#1C1D1F",
+            "alpha": null,
+            "aliases": [
+              "bg-trigray-800",
+              "border-trigray-800",
+              "text-[#1c1d1f]"
+            ]
+          },
+          {
+            "name": "Black 1D",
+            "hex": "#1D1D1D",
+            "alpha": null,
+            "aliases": [
+              "text-[#1D1D1D]"
+            ]
+          },
+          {
+            "name": "Black 21",
+            "hex": "#212121",
+            "alpha": null,
+            "aliases": [
+              "bg-[#212121]"
+            ]
+          },
+          {
+            "name": "Black 29",
+            "hex": "#292929",
+            "alpha": null,
+            "aliases": [
+              "bg-[#292929]"
+            ]
+          },
+          {
+            "name": "Slack Text Dark",
+            "hex": "#302C30",
+            "alpha": null,
+            "aliases": [
+              "text-[#302C30]",
+              "stroke-[#302C30]"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Pure White",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "The core text, border, and prominent UI surface color.",
+          "when_to_use": [
+            "--foreground-rgb",
+            "bg-white",
+            "text-white",
+            "border-white",
+            "fill-white",
+            "--tw-ring-offset-color"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Neutral 50",
+            "hex": "#FAFAFA",
+            "alpha": null,
+            "aliases": [
+              "bg-neutral-50",
+              "text-trigray-100",
+              "text-[#FAFAFA]",
+              "--primary-foreground"
+            ]
+          },
+          {
+            "name": "Notes UI Light",
+            "hex": "#F5F5F5",
+            "alpha": null,
+            "aliases": [
+              "bg-neutral-100",
+              "text-neutral-100",
+              "bg-[#F5F5F5]"
+            ]
+          },
+          {
+            "name": "White F0",
+            "hex": "#F0F0F0",
+            "alpha": null,
+            "aliases": [
+              "download-cta-mac"
+            ]
+          },
+          {
+            "name": "Gray 200",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": [
+              "bg-gray-200",
+              "text-gray-200",
+              "border-gray-200"
+            ]
+          },
+          {
+            "name": "White E2",
+            "hex": "#E2E2E2",
+            "alpha": null,
+            "aliases": [
+              "border-[#e2e2e2]"
+            ]
+          },
+          {
+            "name": "White E4",
+            "hex": "#E4E8EF",
+            "alpha": null,
+            "aliases": [
+              "bg-[#E4E8EF]"
+            ]
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "secondary": [
+      {
+        "name": "TriBlue Primary",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "The primary blue accent used for interactive elements and branding highlights.",
+          "when_to_use": [
+            "text-[#08F]",
+            "bg-[#08f]",
+            "bg-triblue-500",
+            "text-triblue-500",
+            "accent-[#08f]",
+            "decoration-[#08f]"
+          ]
+        },
+        "hex": "#0088FF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Blue 0072FB",
+            "hex": "#0072FB",
+            "alpha": null,
+            "aliases": [
+              "to-[#0072fb]"
+            ]
+          },
+          {
+            "name": "Blue 0668E1",
+            "hex": "#0668E1",
+            "alpha": null,
+            "aliases": [
+              "bg-[#0668E1]"
+            ]
+          },
+          {
+            "name": "Slack Caret Blue",
+            "hex": "#1264A3",
+            "alpha": null,
+            "aliases": [
+              "caret-[#1264A3]"
+            ]
+          },
+          {
+            "name": "Blue 400",
+            "hex": "#60A5FA",
+            "alpha": null,
+            "aliases": [
+              "text-blue-400"
+            ]
+          },
+          {
+            "name": "TriBlue 400",
+            "hex": "#83C9FF",
+            "alpha": null,
+            "aliases": [
+              "text-triblue-400"
+            ]
+          },
+          {
+            "name": "Blue 0FB7FA",
+            "hex": "#0FB7FA",
+            "alpha": null,
+            "aliases": [
+              "text-[#0fb7fa]",
+              "from-[#0fb7fa]"
+            ]
+          },
+          {
+            "name": "Gradient Blue",
+            "hex": "#1999E8",
+            "alpha": null,
+            "aliases": [
+              "bg-testimonial-gradient-mask"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "TriPink",
+        "type": "Neon Colors",
+        "rules": {
+          "description": "Vibrant magenta pink used for highlights and gradients.",
+          "when_to_use": [
+            "text-[#DD55E7]",
+            "text-tripink-500"
+          ]
+        },
+        "hex": "#DD55E7",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Pink B855E7",
+            "hex": "#B855E7",
+            "alpha": null,
+            "aliases": [
+              "bg-[#b855e7]",
+              "text-[#b855e7]"
+            ]
+          },
+          {
+            "name": "Gradient Pink",
+            "hex": "#A45BF2",
+            "alpha": null,
+            "aliases": [
+              "bg-testimonial-gradient-mask"
+            ]
+          },
+          {
+            "name": "Pink FF9DC4",
+            "hex": "#FF9DC4",
+            "alpha": null,
+            "aliases": [
+              "bg-[#FF9DC4]",
+              "text-[#FF9DC4]"
+            ]
+          },
+          {
+            "name": "Syntax Pink",
+            "hex": "#DB90A5",
+            "alpha": null,
+            "aliases": [
+              "text-[#DB90A5]"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "TriGreen Success",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "Green for positive actions, success states, and UI indicators.",
+          "when_to_use": [
+            "bg-[#16c253]",
+            "text-[#16c253]"
+          ]
+        },
+        "hex": "#16C253",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Green 17C253",
+            "hex": "#17C253",
+            "alpha": null,
+            "aliases": [
+              "text-[#17C253]"
+            ]
+          },
+          {
+            "name": "Green 500",
+            "hex": "#22C55E",
+            "alpha": null,
+            "aliases": [
+              "bg-green-500",
+              "text-green-500"
+            ]
+          },
+          {
+            "name": "Green 27C93F",
+            "hex": "#27C93F",
+            "alpha": null,
+            "aliases": [
+              "bg-[#27C93F]",
+              "text-[#27C93F]"
+            ]
+          },
+          {
+            "name": "Teal 1CECBB",
+            "hex": "#1CECBB",
+            "alpha": null,
+            "aliases": [
+              "text-[#1CECBB]"
+            ]
+          },
+          {
+            "name": "Green 10A37F",
+            "hex": "#10A37F",
+            "alpha": null,
+            "aliases": [
+              "bg-[#10A37F]"
+            ]
+          },
+          {
+            "name": "Slack Online Status",
+            "hex": "#007A5A",
+            "alpha": null,
+            "aliases": [
+              "bg-[#007A5A]"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "TriYellow Warning",
+        "type": "Warm Colors",
+        "rules": {
+          "description": "Bright yellow used for warning states, syntax highlighting, and Mac UI controls.",
+          "when_to_use": [
+            "text-[#fd0]",
+            "text-triyellow-500"
+          ]
+        },
+        "hex": "#FFDD00",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Yellow FFD700",
+            "hex": "#FFD700",
+            "alpha": null,
+            "aliases": [
+              "text-[#FFD700]"
+            ]
+          },
+          {
+            "name": "Syntax Yellow",
+            "hex": "#FFEA00",
+            "alpha": null,
+            "aliases": [
+              "text-[#FFEA00]"
+            ]
+          },
+          {
+            "name": "Notes Active Item",
+            "hex": "#FFE48F",
+            "alpha": null,
+            "aliases": [
+              "bg-[#FFE48F]"
+            ]
+          },
+          {
+            "name": "Syntax Gold",
+            "hex": "#D3C207",
+            "alpha": null,
+            "aliases": [
+              "text-[#D3C207]"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Slack Aubergine",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "The core brand color for the recreated Slack interface demo.",
+          "when_to_use": [
+            "bg-[#471848]",
+            "border-[#471848]"
+          ]
+        },
+        "hex": "#471848",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Slack Badge Purple",
+            "hex": "#611E69",
+            "alpha": null,
+            "aliases": [
+              "bg-[#611E69]"
+            ]
+          },
+          {
+            "name": "Slack Hover Purple",
+            "hex": "#6C466D",
+            "alpha": null,
+            "aliases": [
+              "bg-[#6c466d]"
+            ]
+          },
+          {
+            "name": "Slack Search Purple",
+            "hex": "#764E78",
+            "alpha": null,
+            "aliases": [
+              "bg-[#764e78]"
+            ]
+          },
+          {
+            "name": "Slack Active Channel",
+            "hex": "#83388A",
+            "alpha": null,
+            "aliases": [
+              "bg-[#83388a]"
+            ]
+          },
+          {
+            "name": "Slack Sidebar Text",
+            "hex": "#DEC7E4",
+            "alpha": null,
+            "aliases": [
+              "bg-[#dec7e4]",
+              "text-[#dec7e4]",
+              "stroke-[#DEC7E4]"
+            ]
+          },
+          {
+            "name": "Slack Avatar Border",
+            "hex": "#DAC8E2",
+            "alpha": null,
+            "aliases": [
+              "border-[#dac8e2]"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Muted Gray",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Mid-tone grays used extensively for secondary text, borders, and muted icons across demos.",
+          "when_to_use": [
+            "text-[#7A7A7A]",
+            "text-[#7a7a7a]"
+          ]
+        },
+        "hex": "#7A7A7A",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Gray 787878",
+            "hex": "#787878",
+            "alpha": null,
+            "aliases": [
+              "text-[#787878]",
+              "placeholder:text-[#787878]"
+            ]
+          },
+          {
+            "name": "Gray 808080",
+            "hex": "#808080",
+            "alpha": null,
+            "aliases": [
+              "text-[#808080]"
+            ]
+          },
+          {
+            "name": "Gray 6B6B6B",
+            "hex": "#6B6B6B",
+            "alpha": null,
+            "aliases": [
+              "text-[#6B6B6B]"
+            ]
+          },
+          {
+            "name": "Gray 666666",
+            "hex": "#666666",
+            "alpha": null,
+            "aliases": [
+              "text-[#666666]"
+            ]
+          },
+          {
+            "name": "Zinc 500",
+            "hex": "#555555",
+            "alpha": null,
+            "aliases": [
+              "text-zinc-500",
+              "text-gray-500"
+            ]
+          },
+          {
+            "name": "Gray ABABAB",
+            "hex": "#ABABAB",
+            "alpha": null,
+            "aliases": [
+              "border-[#ababab]"
+            ]
+          },
+          {
+            "name": "Gray C4C4C4",
+            "hex": "#C4C4C4",
+            "alpha": null,
+            "aliases": [
+              "border-[#c4c4c4]"
+            ]
+          },
+          {
+            "name": "Gray C6C6C6",
+            "hex": "#C6C6C6",
+            "alpha": null,
+            "aliases": [
+              "text-[#C6C6C6]"
+            ]
+          },
+          {
+            "name": "Gray D1D1D1",
+            "hex": "#D1D1D1",
+            "alpha": null,
+            "aliases": [
+              "border-[#D1D1D1]",
+              "text-[#D1D1D1]"
+            ]
+          },
+          {
+            "name": "Gray 3C3C3B",
+            "hex": "#3C3C3B",
+            "alpha": null,
+            "aliases": [
+              "text-[#3C3C3B]"
+            ]
+          },
+          {
+            "name": "Gray 70757C",
+            "hex": "#70757C",
+            "alpha": null,
+            "aliases": [
+              "text-[#70757c]"
+            ]
+          },
+          {
+            "name": "Gray 798498",
+            "hex": "#798498",
+            "alpha": null,
+            "aliases": [
+              "text-[#798498]"
+            ]
+          },
+          {
+            "name": "TriGray 400",
+            "hex": "#888B91",
+            "alpha": null,
+            "aliases": [
+              "text-[#888B91]",
+              "text-trigray-400"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Syntax Teal",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "A muted teal used specifically for code syntax highlighting in the Cursor demo.",
+          "when_to_use": [
+            "text-[#9CCCC2]"
+          ]
+        },
+        "hex": "#9CCCC2",
+        "alpha": null,
+        "shades": [],
+        "score": 0
+      },
+      {
+        "name": "Twilight Blue Gradient",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "A rich, multi-stop atmospheric gradient used on hover states for main containers.",
+          "when_to_use": [
+            ".hover-gradient:hover"
+          ]
+        },
+        "hex": "#112D72",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Deep Navy",
+            "hex": "#050116",
+            "alpha": null,
+            "aliases": [
+              "gradient-stop"
+            ]
+          },
+          {
+            "name": "Twilight Blue",
+            "hex": "#4B68AA",
+            "alpha": null,
+            "aliases": [
+              "gradient-stop"
+            ]
+          },
+          {
+            "name": "Soft Periwinkle",
+            "hex": "#87A7DC",
+            "alpha": null,
+            "aliases": [
+              "gradient-stop"
+            ]
+          },
+          {
+            "name": "Muted Sky",
+            "hex": "#9CACD0",
+            "alpha": null,
+            "aliases": [
+              "gradient-stop"
+            ]
+          },
+          {
+            "name": "Dawn Pink",
+            "hex": "#FCDBEF",
+            "alpha": null,
+            "aliases": [
+              "gradient-stop"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Night Demo Gradient",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "Cool tones representing the night state in the time-switcher demo.",
+          "when_to_use": [
+            ".gradient-layer",
+            ".night"
+          ]
+        },
+        "hex": "#022044",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Night Sky Blue",
+            "hex": "#1F5D87",
+            "alpha": null,
+            "aliases": [
+              ".gradient-layer",
+              ".night"
+            ]
+          },
+          {
+            "name": "Night Fog",
+            "hex": "#5D6D8E",
+            "alpha": null,
+            "aliases": [
+              ".gradient-layer",
+              ".night"
+            ]
+          },
+          {
+            "name": "Night Dust",
+            "hex": "#9F8A91",
+            "alpha": null,
+            "aliases": [
+              ".gradient-layer",
+              ".night"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Day Demo Gradient",
+        "type": "Warm Colors",
+        "rules": {
+          "description": "Warm sunset/day tones used in the time-switcher demo gradient layer.",
+          "when_to_use": [
+            ".gradient-layer",
+            ".day"
+          ]
+        },
+        "hex": "#CD4015",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Sunset Orange",
+            "hex": "#FF7E22",
+            "alpha": null,
+            "aliases": [
+              ".gradient-layer",
+              ".day"
+            ]
+          },
+          {
+            "name": "Day Orange",
+            "hex": "#FA500F",
+            "alpha": null,
+            "aliases": [
+              "bg-[#FA500F]"
+            ]
+          },
+          {
+            "name": "Sunset F26F24",
+            "hex": "#F26F24",
+            "alpha": null,
+            "aliases": [
+              "to-[#f26f24]"
+            ]
+          },
+          {
+            "name": "Daybreak FD9426",
+            "hex": "#FD9426",
+            "alpha": null,
+            "aliases": [
+              "from-[#fd9426]"
+            ]
+          },
+          {
+            "name": "Sunlight FFB764",
+            "hex": "#FFB764",
+            "alpha": null,
+            "aliases": [
+              "bg-[#ffb764]",
+              "text-[#ffb764]"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Alpha Black 50%",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Semi-transparent blacks used for deep overlays, backgrounds, and shadows.",
+          "when_to_use": [
+            "bg-black/50",
+            "via-black/50",
+            "rgba(0,0,0,0.5)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": 0.5,
+        "shades": [
+          {
+            "name": "Alpha Black 5%",
+            "hex": "#000000",
+            "alpha": 0.05,
+            "aliases": [
+              "bg-black/5",
+              "rgba(0,0,0,0.05)"
+            ]
+          },
+          {
+            "name": "Alpha Black 10%",
+            "hex": "#000000",
+            "alpha": 0.1,
+            "aliases": [
+              "bg-black/10",
+              "rgba(0,0,0,0.1)"
+            ]
+          },
+          {
+            "name": "Alpha Black 20%",
+            "hex": "#000000",
+            "alpha": 0.2,
+            "aliases": [
+              "to-black/20",
+              "rgba(0,0,0,0.2)"
+            ]
+          },
+          {
+            "name": "Alpha Black 35%",
+            "hex": "#000000",
+            "alpha": 0.35,
+            "aliases": [
+              "group-hover:bg-black/35"
+            ]
+          },
+          {
+            "name": "Alpha Black 70%",
+            "hex": "#000000",
+            "alpha": 0.7,
+            "aliases": [
+              "group-hover:bg-black/70"
+            ]
+          },
+          {
+            "name": "Alpha Black 95%",
+            "hex": "#000000",
+            "alpha": 0.95,
+            "aliases": [
+              "via-black/95"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Alpha White 50%",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Semi-transparent whites used heavily to establish visual hierarchy on the dark canvas without introducing new hues.",
+          "when_to_use": [
+            "bg-white/50",
+            "text-white/50",
+            "rgba(255,255,255,0.5)"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": 0.5,
+        "shades": [
+          {
+            "name": "Alpha White 5%",
+            "hex": "#FFFFFF",
+            "alpha": 0.05,
+            "aliases": [
+              "bg-white/5",
+              "border-white/5"
+            ]
+          },
+          {
+            "name": "Alpha White 10%",
+            "hex": "#FFFFFF",
+            "alpha": 0.1,
+            "aliases": [
+              "bg-white/10",
+              "border-white/10"
+            ]
+          },
+          {
+            "name": "Alpha White 20%",
+            "hex": "#FFFFFF",
+            "alpha": 0.2,
+            "aliases": [
+              "bg-white/20",
+              "ring-white/20"
+            ]
+          },
+          {
+            "name": "Alpha White 30%",
+            "hex": "#FFFFFF",
+            "alpha": 0.3,
+            "aliases": [
+              "bg-white/30",
+              "ring-white/30"
+            ]
+          },
+          {
+            "name": "Alpha White 40%",
+            "hex": "#FFFFFF",
+            "alpha": 0.4,
+            "aliases": [
+              "bg-white/40",
+              "ring-white/40"
+            ]
+          },
+          {
+            "name": "Alpha White 60%",
+            "hex": "#FFFFFF",
+            "alpha": 0.6,
+            "aliases": [
+              "text-white/60"
+            ]
+          },
+          {
+            "name": "Alpha White 70%",
+            "hex": "#FFFFFF",
+            "alpha": 0.7,
+            "aliases": [
+              "text-white/70"
+            ]
+          },
+          {
+            "name": "Alpha White 80%",
+            "hex": "#FFFFFF",
+            "alpha": 0.8,
+            "aliases": [
+              "text-white/80"
+            ]
+          },
+          {
+            "name": "Alpha White 90%",
+            "hex": "#FFFFFF",
+            "alpha": 0.9,
+            "aliases": [
+              "text-white/90"
+            ]
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "insights": [
+      "The brand establishes a high-contrast dark theme by default, pairing a pure black background with stark white text to create a modern, sleek canvas.",
+      "The secondary palette is extraordinarily vibrant and varied, used to highlight UI elements in recreated mock apps (Slack, Notes, Cursor) to visually demonstrate cross-app functionality.",
+      "Atmospheric and twilight gradients are heavily utilized for interactive elements and demo backdrops, bringing dynamic depth to the dark base without cluttering it."
+    ]
+  }
+}

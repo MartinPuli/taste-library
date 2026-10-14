@@ -1,0 +1,43 @@
+{
+  "id": "openai",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "The saved viewport shows an orange Zapier logo frame. This image alone does not establish the requested brand’s page structure.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/viewport.jpg",
+    "sha256": "8527243c60b3c3debc8a2f3078402e7e2b41738b001120c4724feffe741a5bcd"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/styles.css",
+    "sha256": "4a28a7d722a5d249f97a053f6280c884d0fdf0ba05e2981a9366f7a1cba2cb79",
+    "bytes": 39245,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [],
+    "palette_literals_checked": [
+      "#000000",
+      "#0000EE",
+      "#F0F0F0",
+      "#767676",
+      "#101010"
+    ],
+    "font_names_found": [],
+    "font_names_checked": [
+      "Times New Roman",
+      "Arial",
+      "monospace"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "ddc0dc26152abd38d6abd50537aaf592a2731bb8a92ddcd17262c7b78792ea60"
+}

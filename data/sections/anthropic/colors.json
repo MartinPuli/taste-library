@@ -1,0 +1,151 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary dark ink used for all foundational typography, main UI elements, and inverted sections to ground the design.",
+          "when_to_use": [
+            "Body typography, headings, and inline link underlines",
+            "Primary CTA button backgrounds and borders",
+            "Footer and cookie consent banner backgrounds",
+            "Animated Lottie logo paths and mobile menu icons"
+          ]
+        },
+        "hex": "#141413",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#181818",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0002
+      },
+      {
+        "name": "Paper Ivory",
+        "type": "Light",
+        "rules": {
+          "description": "A suite of warm, print-inspired off-whites that serve as the foundational background for the site, creating an editorial, academic feel.",
+          "when_to_use": [
+            "Primary page, mobile menu, and dropdown menu backgrounds",
+            "Primary text and icon color in the dark footer and Fable CTA section",
+            "'Oat' background fills for the release package banners",
+            "Subtle borders separating nav items and dropdown content"
+          ]
+        },
+        "hex": "#FAF9F5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F0EEE6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E3DACC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F9F9F7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E8E6DC",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.6031000000000001
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Stone Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A muted gray used strictly for secondary information and subdued links within dark-themed areas to ensure they don't compete with primary content.",
+          "when_to_use": [
+            "Footer copyright text and secondary links",
+            "Social media icon fills in the footer",
+            "Description text and secondary links in the cookie consent banner"
+          ]
+        },
+        "hex": "#B0AEA5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#A1A0A0",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.2595
+      },
+      {
+        "name": "True Black",
+        "type": "Dark",
+        "rules": {
+          "description": "A purely structural black used to establish base fallbacks and build layered drop-shadows.",
+          "when_to_use": [
+            "Low-opacity layered box-shadows on navigation dropdowns",
+            "Root HTML tag fallback text color",
+            "Fallback text colors on video source tags"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0012
+      },
+      {
+        "name": "Charcoal",
+        "type": "Neutral",
+        "rules": {
+          "description": "A deep charcoal used to create subtle contrast and visual separation against the primary Ink Black background.",
+          "when_to_use": [
+            "Backgrounds for individual toggle panels within the cookie consent banner",
+            "Divider border on the dark 'Try Claude' combo button"
+          ]
+        },
+        "hex": "#3D3D3A",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0001
+      }
+    ],
+    "insights": [
+      "The palette eschews vibrant brand colors entirely, relying on a stark, high-contrast, editorial combination of warm ivory paper and ink black to project academic seriousness, safety, and transparency.",
+      "Dark mode inversion is used strategically to create visual impact for major product announcements (like Fable and Mythos) and to anchor the footer, without needing to introduce new accent colors.",
+      "Depth and structure are handled with extreme subtlety—using very low opacity blacks for shadows and tinted blacks for borders—to maintain a flat, print-like aesthetic across the interface."
+    ]
+  }
+}

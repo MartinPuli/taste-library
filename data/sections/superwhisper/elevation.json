@@ -1,0 +1,378 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Tw Ring Offset Shadow",
+          "type": "drop",
+          "description": "Tailwind CSS ring offset shadow reset - 0 offset, 0 blur, transparent black",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Ring offset utility reset",
+            "Focus ring base"
+          ]
+        },
+        {
+          "name": "Recording Window Shadow",
+          "type": "drop",
+          "description": "Soft shadow for floating recording window - 30px blur with 12% opacity black",
+          "css_value": "0 8px 30px rgb(0,0,0,0.12)",
+          "when_to_use": [
+            "Recording window",
+            "Floating UI elements",
+            "Demo containers"
+          ]
+        },
+        {
+          "name": "Deep Shadow",
+          "type": "drop",
+          "description": "Deep shadow with 32px blur and 40% opacity for elevated elements",
+          "css_value": "0 8px 32px rgba(0,0,0,.4)",
+          "when_to_use": [
+            "Modal dialogs",
+            "Elevated cards"
+          ]
+        },
+        {
+          "name": "Composite Border Shadow",
+          "type": "drop",
+          "description": "Composite shadow with 1px border ring and 48px blur shadow at 30-35% opacity",
+          "css_value": "0px 0px 0px 1px rgba(0,0,0,.3),0px 16px 48px 0px rgba(0,0,0,.35)",
+          "when_to_use": [
+            "Dropdown menus",
+            "Popovers",
+            "Floating panels"
+          ]
+        },
+        {
+          "name": "Subtle Ambient Shadow",
+          "type": "drop",
+          "description": "Very subtle 10px blur shadow at 4-6% opacity for light elevation",
+          "css_value": "0px 0px 10px rgba(0,0,0,.04)",
+          "when_to_use": [
+            "Cards with subtle lift",
+            "Input fields"
+          ]
+        },
+        {
+          "name": "Transparent Reset Shadow",
+          "type": "drop",
+          "description": "2px blur shadow with 0% opacity - effectively no shadow",
+          "css_value": "0px 0px 2px transparent",
+          "when_to_use": [
+            "Shadow reset states",
+            "Disabled elements"
+          ]
+        },
+        {
+          "name": "Subtle Blur Shadow",
+          "type": "drop",
+          "description": "Small 2px blur shadow at 40% opacity for subtle definition",
+          "css_value": "0px 0px 2px rgba(0,0,0,.4)",
+          "when_to_use": [
+            "Small interactive elements",
+            "Buttons"
+          ]
+        },
+        {
+          "name": "Large Floating Shadow",
+          "type": "drop",
+          "description": "Large 40px blur shadow at 35% opacity for floating elements",
+          "css_value": "0px 12px 40px rgba(0,0,0,.35)",
+          "when_to_use": [
+            "Large floating cards",
+            "Hero elements"
+          ]
+        },
+        {
+          "name": "Card Shadow",
+          "type": "drop",
+          "description": "12px blur shadow at 12% opacity for cards",
+          "css_value": "0px 2px 12px rgba(0,0,0,.12)",
+          "when_to_use": [
+            "Cards",
+            "Elevated content blocks"
+          ]
+        },
+        {
+          "name": "Medium Floating Shadow",
+          "type": "drop",
+          "description": "20px blur shadow at 25% opacity for medium-sized floating elements",
+          "css_value": "0px 3px 20px 0px rgba(0,0,0,.25)",
+          "when_to_use": [
+            "Medium floating elements",
+            "Tooltips"
+          ]
+        },
+        {
+          "name": "Strong Floating Shadow",
+          "type": "drop",
+          "description": "30px blur shadow at 35% opacity for prominent floating elements",
+          "css_value": "0px 3px 30px 0px rgba(0,0,0,.35)",
+          "when_to_use": [
+            "Prominent floating elements",
+            "Feature highlights"
+          ]
+        },
+        {
+          "name": "Standard Floating Shadow",
+          "type": "drop",
+          "description": "22px blur shadow at 25% opacity for standard floating elements",
+          "css_value": "0px 7px 22px 0px rgba(0,0,0,.25)",
+          "when_to_use": [
+            "Standard floating UI",
+            "Dropdowns"
+          ]
+        },
+        {
+          "name": "Modal Shadow",
+          "type": "drop",
+          "description": "24px blur shadow at 35% opacity for modals and dialogs",
+          "css_value": "0px 8px 24px rgba(0,0,0,.35)",
+          "when_to_use": [
+            "Modals",
+            "Dialog boxes",
+            "Overlays"
+          ]
+        },
+        {
+          "name": "Inset Border Light 6%",
+          "type": "inset",
+          "description": "Inset 1px border shadow at 6% white opacity for subtle inner borders",
+          "css_value": "inset 0 0 0 1px hsla(0,0%,100%,.06)",
+          "when_to_use": [
+            "Dark mode cards",
+            "Subtle inner borders"
+          ]
+        },
+        {
+          "name": "Inset Border Light 8%",
+          "type": "inset",
+          "description": "Inset 1px border shadow at 8% white opacity for inner borders",
+          "css_value": "inset 0 0 0 1px hsla(0,0%,100%,.08)",
+          "when_to_use": [
+            "Dark mode input fields",
+            "Inner card borders"
+          ]
+        },
+        {
+          "name": "Inset Top Highlight",
+          "type": "inset",
+          "description": "Inset top highlight at 6% white opacity for bevel effect",
+          "css_value": "inset 0 1px 0 hsla(0,0%,100%,.06)",
+          "when_to_use": [
+            "Button highlights",
+            "Input field highlights"
+          ]
+        },
+        {
+          "name": "Toggle Switch Inner Shadow",
+          "type": "inset",
+          "description": "Toggle switch inner shadow with top shadow at 30% black and bottom highlight at 25% white",
+          "css_value": "inset 0 1px 2px 0 rgba(0,0,0,.3),inset 0 -1px 2px 0 hsla(0,0%,100%,.25)",
+          "when_to_use": [
+            "Toggle switches",
+            "Switch tracks"
+          ]
+        },
+        {
+          "name": "Focus With Glow",
+          "type": "drop",
+          "description": "Focus state shadow with white glow at 7.5% and 4.5% opacity",
+          "css_value": "0 0 0 5px hsla(0,0%,100%,.075),0 10px 26px hsla(0,0%,100%,.045)",
+          "when_to_use": [
+            "Focus states",
+            "Input focus"
+          ]
+        },
+        {
+          "name": "Hover Shadow Light",
+          "type": "drop",
+          "description": "Hover shadow with 20px blur at 8% opacity",
+          "css_value": "0px 0px 20px rgba(0,0,0,.08)",
+          "when_to_use": [
+            "Card hover states"
+          ]
+        },
+        {
+          "name": "Hover Card Shadow",
+          "type": "drop",
+          "description": "Hover shadow with 16px blur at 10% opacity",
+          "css_value": "0px 2px 16px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Interactive card hover"
+          ]
+        },
+        {
+          "name": "Hover Elevated Shadow",
+          "type": "drop",
+          "description": "Hover shadow with 16px blur at 8% opacity for elevated hover state",
+          "css_value": "0px 4px 16px rgba(0,0,0,.08)",
+          "when_to_use": [
+            "Elevated card hover"
+          ]
+        },
+        {
+          "name": "Hover Deep Shadow",
+          "type": "drop",
+          "description": "Hover shadow with 20px blur at 9% opacity",
+          "css_value": "0px 4px 20px rgba(0,0,0,.09)",
+          "when_to_use": [
+            "Deep hover states",
+            "Feature card hover"
+          ]
+        },
+        {
+          "name": "Hover Inset Highlight",
+          "type": "inset",
+          "description": "Hover inset highlight at 12% white opacity",
+          "css_value": "inset 0 1px 0 hsla(0,0%,100%,.12)",
+          "when_to_use": [
+            "Button hover highlights"
+          ]
+        },
+        {
+          "name": "Focus Inset Border",
+          "type": "inset",
+          "description": "Focus inset border at 26% white opacity",
+          "css_value": "inset 0 0 0 1px hsla(0,0%,100%,.26)",
+          "when_to_use": [
+            "Focus state borders",
+            "Input focus"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#2D2D2D",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#471848",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D1D1D1",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FAFAFA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#ABABAB",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#C4C4C4",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DAC8E2",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DBDCE0",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E2E2E2",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#000000",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E5E7EB",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D1D5DB",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#4B5563",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#F5F5F5",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#525252",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#404040",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#262626",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#F87171",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#EF4444",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DC2626",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#1C1D1F",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#F3F4F6",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

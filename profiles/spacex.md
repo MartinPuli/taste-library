@@ -2,31 +2,49 @@
 
 Present machinery and engineering through large images and uppercase headings.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 21 · Captured 2026-07-23T01:41:07.004114Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 21 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-07-23T01:41:07.004114Z |
-| Suggested uses | hardware |
-| Visual approach | cinematic, dark-technical |
+[Original website](https://www.spacex.com/) · [Full extraction](../data/raw/spacex.json) · [Review record](../data/reviews/spacex.json)
 
-## Details to compare
+[Small visual preview](../data/previews/spacex.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/full.jpg)
 
-- Detected type families: D-DIN-Bold, D-DIN, Roboto Mono.
-- Recorded palette: #000000, #F0F0FA, #252628, #FFFFFF, #01579B, #CCCCCC.
-- Grid: `{"columns": 12, "gutter": "40px", "max_width": "1700px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A full-bleed rocket photograph carries uppercase white text near the lower left, with navigation overlaid at the top.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.spacex.com/) · [Extraction](../data/raw/spacex.json) · [Tokens](../data/tokens/spacex.json)
+Project types: hardware. Styles: cinematic, dark-technical. These are editorial tags.
 
-```sh
-python3 scripts/query.py show spacex --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Present machinery and engineering through large images and uppercase headings. Evidence: [layout](../data/sections/spacex/layout.json), [sections](../data/sections/spacex/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/spacex/actions.json).
+
+## Content to bring
+
+Product photography with enough detail and consistent framing to carry large sections. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/spacex/profile.json)
+- [Layout](../data/sections/spacex/layout.json)
+- [Colors](../data/sections/spacex/colors.json)
+- [Typography](../data/sections/spacex/typography.json)
+- [Surfaces](../data/sections/spacex/surfaces.json)
+- [Elevation](../data/sections/spacex/elevation.json)
+- [Interactions](../data/sections/spacex/interactions.json)
+- [Actions](../data/sections/spacex/actions.json)
+- [Navigation](../data/sections/spacex/navigation.json)
+- [Data Display](../data/sections/spacex/data_display.json)
+- [Structure](../data/sections/spacex/structure.json)
+- [Icons](../data/sections/spacex/icons.json)
+- [Assets](../data/sections/spacex/assets.json)
+- [Brand Assets](../data/sections/spacex/brand_assets.json) · no observed data
+- [Sections](../data/sections/spacex/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

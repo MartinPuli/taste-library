@@ -2,31 +2,49 @@
 
 Organize technical features into modules with a green accent reserved for specific moments.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 17 · Captured 2026-10-14T05:07:03.498576Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 17 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T05:07:03.498576Z |
-| Suggested uses | developer-tools |
-| Visual approach | modular, color-accent |
+[Original website](https://supabase.com/) · [Full extraction](../data/raw/supabase.json) · [Review record](../data/reviews/supabase.json)
 
-## Details to compare
+[Small visual preview](../data/previews/supabase.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg)
 
-- Detected type families: System Sans, Manrope, Inter.
-- Recorded palette: #FDFDFD, #0E7E4E, #0C0F24, #030303.
-- Grid: `{"columns": 12, "gutter": "2rem", "max_width": "1280px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A white hero uses a two-part headline with a green second line. Outlined product modules form a regular grid below.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://supabase.com/) · [Extraction](../data/raw/supabase.json) · [Tokens](../data/tokens/supabase.json)
+Project types: developer-tools. Styles: modular, color-accent. These are editorial tags.
 
-```sh
-python3 scripts/query.py show supabase --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Organize technical features into modules with a green accent reserved for specific moments. Evidence: [layout](../data/sections/supabase/layout.json), [sections](../data/sections/supabase/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/supabase/actions.json).
+
+## Content to bring
+
+A real product workflow, readable interface examples, and a clear first action for developers. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/supabase/profile.json)
+- [Layout](../data/sections/supabase/layout.json)
+- [Colors](../data/sections/supabase/colors.json)
+- [Typography](../data/sections/supabase/typography.json)
+- [Surfaces](../data/sections/supabase/surfaces.json)
+- [Elevation](../data/sections/supabase/elevation.json)
+- [Interactions](../data/sections/supabase/interactions.json)
+- [Actions](../data/sections/supabase/actions.json)
+- [Navigation](../data/sections/supabase/navigation.json)
+- [Data Display](../data/sections/supabase/data_display.json)
+- [Structure](../data/sections/supabase/structure.json)
+- [Icons](../data/sections/supabase/icons.json)
+- [Assets](../data/sections/supabase/assets.json)
+- [Brand Assets](../data/sections/supabase/brand_assets.json)
+- [Sections](../data/sections/supabase/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

@@ -1,0 +1,65 @@
+{
+  "id": "teenage-engineering",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A dense illustrated header leads into oversized black lettering and a black-and-white comic illustration on white.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/viewport.jpg",
+    "sha256": "a22a6a47ef71476466cc16015f5b71373f102dbc80f66b2520146017110ef1e1"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/styles.css",
+    "sha256": "037a12fdd6f640c3dd48f207f9c8fa103decbfcb72385044d808bbda3bf2aa74",
+    "bytes": 154134,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#0F0E12",
+      "#B2B2B2",
+      "#E5E5E5",
+      "#0071BB"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#0F0E12",
+      "#B2B2B2",
+      "#E5E5E5",
+      "#0071BB"
+    ],
+    "font_names_found": [
+      "te-40",
+      "te-20",
+      "UniversNextPro-Thin",
+      "Arial",
+      "franxurter",
+      "TechnoType",
+      "swingus",
+      "riddim",
+      "riddimscript"
+    ],
+    "font_names_checked": [
+      "te-40",
+      "te-20",
+      "UniversNextPro-Thin",
+      "Arial",
+      "franxurter",
+      "TechnoType",
+      "swingus",
+      "riddim",
+      "riddimscript"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "1220a5252ba51c2abc0b832f1076aab3cd25abc9e4e44df542d239c730a88572"
+}

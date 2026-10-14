@@ -2,31 +2,49 @@
 
 Center the page on search and keep secondary functions subordinate.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 25 · Captured 2026-10-14T08:54:30.860526Z · Search Interface
 
-| Field | Value |
-|---|---|
-| Cosign rank | 25 |
-| Captured page | Search Interface |
-| Capture time (UTC) | 2026-10-14T08:54:30.860526Z |
-| Suggested uses | productivity |
-| Visual approach | warm-editorial, modular |
+[Original website](https://perplexity.ai/) · [Full extraction](../data/raw/perplexity.json) · [Review record](../data/reviews/perplexity.json)
 
-## Details to compare
+[Small visual preview](../data/previews/perplexity.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg)
 
-- Detected type families: System Sans.
-- Recorded palette: #FBFBFB, #1A73E8, #252525, #0B2833, #000000.
-- Grid: `{"columns": 12, "gutter": "0.75rem", "max_width": "768px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A narrow left sidebar supports a centered search field and suggestion cards on a pale canvas. A cookie notice appears at lower right.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://perplexity.ai/) · [Extraction](../data/raw/perplexity.json) · [Tokens](../data/tokens/perplexity.json)
+Project types: productivity. Styles: warm-editorial, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show perplexity --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Center the page on search and keep secondary functions subordinate. Evidence: [layout](../data/sections/perplexity/layout.json), [sections](../data/sections/perplexity/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/perplexity/actions.json).
+
+## Content to bring
+
+Real workspace content that makes the product demonstration understandable. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/perplexity/profile.json)
+- [Layout](../data/sections/perplexity/layout.json)
+- [Colors](../data/sections/perplexity/colors.json)
+- [Typography](../data/sections/perplexity/typography.json)
+- [Surfaces](../data/sections/perplexity/surfaces.json)
+- [Elevation](../data/sections/perplexity/elevation.json)
+- [Interactions](../data/sections/perplexity/interactions.json)
+- [Actions](../data/sections/perplexity/actions.json)
+- [Navigation](../data/sections/perplexity/navigation.json)
+- [Data Display](../data/sections/perplexity/data_display.json)
+- [Structure](../data/sections/perplexity/structure.json)
+- [Icons](../data/sections/perplexity/icons.json)
+- [Assets](../data/sections/perplexity/assets.json)
+- [Brand Assets](../data/sections/perplexity/brand_assets.json)
+- [Sections](../data/sections/perplexity/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

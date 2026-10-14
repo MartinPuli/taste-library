@@ -1,0 +1,74 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": [
+    {
+      "name": "Navigation & UI Icons",
+      "description": "Functional line-art and geometric icons used for site navigation, menus, and UI controls.",
+      "when_to_use": [
+        "Header navigation",
+        "Checkout links",
+        "Dropdown selects",
+        "Floating cart"
+      ],
+      "format": "SVG",
+      "style": "Line Art & Geometric",
+      "sizes": {
+        "small": "15x150",
+        "medium": "24x24"
+      },
+      "examples": [
+        {
+          "name": "Shopping Bag Checkout",
+          "svg_code": "<svg height=\"10cqw\" class=\"_root_8dz2p_1\" viewBox=\"0 0 30 40\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 0C1.79086 0 0 1.79086 0 4V36C0 38.2091 1.79086 40 4 40H26C28.2091 40 30 38.2091 30 36V4C30 1.79086 28.2091 0 26 0H4ZM11 4C9.89543 4 9 4.89543 9 6C9 7.10457 9.89543 8 11 8H19C20.1046 8 21 7.10457 21 6C21 4.89543 20.1046 4 19 4H11Z\"></path><text transform=\"translate(15.6 31)\" text-anchor=\"middle\"><tspan x=\"0\" y=\"0\">0</tspan></text></svg>"
+        },
+        {
+          "name": "Vertical Ellipsis Menu",
+          "svg_code": "<svg viewBox=\"0 0 15 150\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_svg_9o8vd_9\" style=\"background:transparent;color:currentColor;height:10cqw\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\"><g fill=\"currentColor\"><circle cx=\"15\" cy=\"20\" r=\"15\"></circle><circle cx=\"15\" cy=\"75\" r=\"15\"></circle><circle cx=\"15\" cy=\"130\" r=\"15\"></circle></g></g></svg>"
+        },
+        {
+          "name": "Country Select Chevron",
+          "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_country-select-chevron_11j21_41 _svg_9o8vd_9\" style=\"background: transparent; color: currentcolor; height: 1em;\"><path d=\"M18 9L12 15L6 9\" stroke=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "Right Chevron",
+          "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_svg_9o8vd_9\" style=\"background:transparent;color:currentColor\"><g id=\"chevron-right\"><path d=\"M9 6L15 12L9 18\" stroke=\"currentColor\"></path></g></svg>"
+        },
+        {
+          "name": "Floating Shopping Bag",
+          "svg_code": "<svg class=\"\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 33 60.5\" aria-hidden=\"true\"><path d=\"M6.55.25h20l5,5H1.55L6.55.25ZM32.75,20.25H.25v40h32.5V20.25ZM26.45,6.55v12.5h6.3V6.55h-6.3ZM.25,6.55v12.5h6.2V6.55H.25Z\" fill=\"currentColor\" stroke-width=\"0\"></path><text transform=\"translate(16.25 47.75)\" fill=\"currentColor\" font-size=\"23\" text-anchor=\"middle\" font-weight=\"100\"></text></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Brand Typography Graphics",
+      "description": "Inline SVGs used for decorative typographic blocks and brand messaging.",
+      "when_to_use": [
+        "Footer sections",
+        "Brand communication areas"
+      ],
+      "format": "SVG",
+      "style": "Typographic",
+      "sizes": {
+        "small": "98x78",
+        "medium": "98x78"
+      },
+      "examples": [
+        {
+          "name": "Japanese Text Block Graphic",
+          "svg_code": "<svg viewBox=\"0 0 98 78\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" class=\"_svg_9o8vd_9\" style=\"background:transparent;color:currentColor;width:100%;height:auto\" role=\"presentation\" font-weight=\"400\"><text transform=\"translate(0 8)\" font-size=\"8\"><tspan x=\"0\" y=\"0\"> 10代工学は未来の製品とコ </tspan><tspan><tspan x=\"0\" y=\"9.75\"> ミュニケーションを生み出 </tspan></tspan><tspan><tspan x=\"0\" y=\"19.5\"> すスタジオです。私たちの </tspan></tspan><tspan><tspan x=\"0\" y=\"29.25\"> ミッションは先端工学を用 </tspan></tspan><tspan><tspan x=\"0\" y=\"39\"> いて上質で機能的なデザイ </tspan></tspan><tspan><tspan x=\"0\" y=\"48.75\"> ンの製品を作り出すことで </tspan></tspan><tspan><tspan x=\"0\" y=\"58.5\"> す。是非、新たなスタイル </tspan></tspan><tspan><tspan x=\"0\" y=\"68.25\"> で音楽をお楽しみくだい。 </tspan></tspan></text></svg>"
+        }
+      ]
+    }
+  ]
+}

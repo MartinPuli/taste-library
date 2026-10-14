@@ -1,0 +1,29 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "top_nav": {
+      "height": "60px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Frost White",
+        "opacity": "0.92",
+        "blur": "backdrop-filter: blur(60px)"
+      },
+      "border_bottom": "1px solid rgba(0, 0, 0, 0)"
+    },
+    "announcement_bar": null,
+    "tabs": null
+  }
+}

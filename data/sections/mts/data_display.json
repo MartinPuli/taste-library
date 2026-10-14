@@ -1,0 +1,42 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Featured Guest Card",
+        "description": "Compact card displaying guest avatar, name, handle, and action links for X profile and MTS profile",
+        "when_to_use": [
+          "Displaying featured podcast guests",
+          "Guest directory listings"
+        ]
+      },
+      {
+        "name": "Sponsor Logo Grid",
+        "description": "Cascading vertical list of sponsor logos with hover effects and clone overlay animations",
+        "when_to_use": [
+          "Sponsor acknowledgment sections",
+          "Partner showcase areas"
+        ]
+      },
+      {
+        "name": "Drops Article Row",
+        "description": "Horizontal row displaying article number, date, title, and open link for research drops",
+        "when_to_use": [
+          "Blog/article listings",
+          "Research publication feeds"
+        ]
+      }
+    ]
+  }
+}

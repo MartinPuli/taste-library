@@ -1,0 +1,163 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Primary Ink",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary text color and a deep background for localized UI elements.",
+          "when_to_use": [
+            "Body text color",
+            "Global navigation submenu links",
+            "Locale switcher primary button background"
+          ]
+        },
+        "hex": "#1D1D1F",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#333336",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1
+      },
+      {
+        "name": "Absolute Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Provides high-contrast canvas for premium product sections and acts as a base for translucent icons and text.",
+          "when_to_use": [
+            "Backgrounds for 'Pro' and dark-themed product sections (iPhone 18 Pro, Apple Watch)",
+            "Media gallery item backgrounds",
+            "Global navigation icons and footer text (via varying opacities)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.9302
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Action Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "The universal interactive accent color, strictly reserved for actionable elements.",
+          "when_to_use": [
+            "Primary 'Learn more' CTA backgrounds",
+            "Secondary 'Buy' CTA text and borders",
+            "Inline text links in ribbons and galleries"
+          ]
+        },
+        "hex": "#2997FF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#0066CC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0071E3",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#9FC6F4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#002C66",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0883999999999998
+      },
+      {
+        "name": "System Background",
+        "type": "Light",
+        "rules": {
+          "description": "The foundation of the light theme, used to structure the majority of the page's sections and elevated components.",
+          "when_to_use": [
+            "Promo product section backgrounds (Mac mini, iPad Air)",
+            "Global navigation bar background (with transparency)",
+            "Main page body and ribbon backgrounds",
+            "Text color on primary dark buttons"
+          ]
+        },
+        "hex": "#F5F5F7",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAFAFC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F4F8FB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E8E8ED",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.1572
+      },
+      {
+        "name": "Secondary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A subdued ink used to establish typographic hierarchy and de-emphasize secondary information.",
+          "when_to_use": [
+            "Global navigation submenu category headers",
+            "Product card callout text",
+            "Search menu section titles"
+          ]
+        },
+        "hex": "#6E6E73",
+        "alpha": null,
+        "shades": [],
+        "score": 0.003
+      }
+    ],
+    "insights": [
+      "The design alternates between absolute black and off-white bands to dramatically demarcate different product tiers (e.g., 'Pro' models sit on black, standard models on light gray).",
+      "The palette commits to strict monochromatic minimalism with a single vivid blue hue that exclusively signals interactivity.",
+      "Rather than defining dozens of unique gray hexes, the page relies heavily on applying opacity to absolute black and white to create dynamic, layered components like the navigation bar and footer text."
+    ]
+  }
+}

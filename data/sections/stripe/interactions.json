@@ -1,0 +1,86 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "global_patterns": [
+      "marquee",
+      "sticky_header",
+      "accordion",
+      "hover_transform",
+      "scroll_reveal",
+      "parallax"
+    ],
+    "animations": [
+      {
+        "name": "nav-hover-arrow-in",
+        "css": "@keyframes nav-hover-arrow-in { 0% { opacity: 0; transform: translateX(-3px) } to { opacity: 1; transform: translateX(0) } }",
+        "description": "Arrow icon slides in from left on navigation link hover"
+      },
+      {
+        "name": "nav-hover-arrow-out",
+        "css": "@keyframes nav-hover-arrow-out { 0% { opacity: 1 } to { opacity: 0 } }",
+        "description": "Arrow icon fades out when hover ends on navigation links"
+      },
+      {
+        "name": "bento-overlay-gradient-opacity-animation",
+        "css": "@keyframes bento-overlay-gradient-opacity-animation { 0% { opacity: 0 } to { opacity: 1 } }",
+        "description": "Gradient overlay fades in when bento card dialog opens"
+      },
+      {
+        "name": "navigation-easing",
+        "css": "transition: opacity 240ms cubic-bezier(0.45, 0.05, 0.55, 0.95), color 240ms cubic-bezier(0.45, 0.05, 0.55, 0.95), background-color 240ms cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+        "description": "Shared easing curve for navigation transitions with 240ms duration"
+      },
+      {
+        "name": "chevron-rotation",
+        "css": "transition: transform 0.25s cubic-bezier(.6, 0, .2, .5)",
+        "description": "Chevron icon rotation animation for dropdown triggers"
+      },
+      {
+        "name": "hamburger-line-transition",
+        "css": "transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out",
+        "description": "Hamburger menu lines transform to X icon on open"
+      },
+      {
+        "name": "logo-carousel-marquee",
+        "css": "",
+        "description": "JS-driven horizontal continuous scroll for partner logo strip"
+      },
+      {
+        "name": "hero-wave-animation",
+        "css": "",
+        "description": "JS-driven WebGL canvas animation rendering flowing gradient wave in hero section"
+      },
+      {
+        "name": "stats-globe-animation",
+        "css": "",
+        "description": "JS-driven globe visualization with animated transaction data points"
+      },
+      {
+        "name": "billing-bar-grow",
+        "css": "",
+        "description": "JS-driven bar chart animation where bars grow from bottom on scroll reveal"
+      },
+      {
+        "name": "customer-accordion-expand",
+        "css": "",
+        "description": "JS-driven height animation for accordion content reveal with --max-height CSS variable"
+      }
+    ],
+    "insights": [
+      "Stripe uses a consistent 4px border-radius (rounded) across all buttons while reserving 6px radius for cards and containers, creating visual hierarchy between interactive elements and content surfaces.",
+      "The navigation employs a sophisticated delayed transition system using CSS custom property --navigation-menu-transition-delay to stagger hover effects and prevent jarring state changes during quick mouse movements.",
+      "Motion design follows a 'reveal on interaction' pattern where complex animations (wave canvas, globe, bar charts) are JS-driven for performance, while simpler UI transitions use CSS with consistent cubic-bezier easing (0.45, 0.05, 0.55, 0.95) for a unified feel."
+    ]
+  }
+}

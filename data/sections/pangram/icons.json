@@ -1,0 +1,172 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/pangram.json",
+  "data": [
+    {
+      "name": "UI Navigation Icons",
+      "description": "Standard interface icons for UI navigation and controls",
+      "when_to_use": [
+        "Dropdowns",
+        "Buttons",
+        "Links",
+        "Modals"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Chevron Down",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg>"
+        },
+        {
+          "name": "Download",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12\"></path></svg>"
+        },
+        {
+          "name": "External Link",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" aria-hidden=\"true\" class=\"size-5 text-pangram-mid-gray transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-white/70\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"></path></svg>"
+        },
+        {
+          "name": "Play",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"ml-0.5 h-5 w-5 text-white\" aria-hidden=\"true\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z\"></path></svg>"
+        },
+        {
+          "name": "Close / Plus",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"transition-all duration-300 ease-out rotate-45 text-white\" height=\"16\" width=\"16\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Feature Illustration Icons",
+      "description": "Large, detailed monoline icons used for highlighting platform features and benefits",
+      "when_to_use": [
+        "Feature grids",
+        "Value propositions",
+        "Marketing sections"
+      ],
+      "format": "SVG",
+      "style": "Outline / Monoline",
+      "sizes": {
+        "small": "64px",
+        "medium": "256px"
+      },
+      "examples": [
+        {
+          "name": "Years of Research",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M220,200.8,158,97.48V38h10a6,6,0,0,0,0-12H88a6,6,0,0,0,0,12H98V97.48L36,200.8A14,14,0,0,0,48,222H208a14,14,0,0,0,12-21.2ZM109.15,102.23a6,6,0,0,0,.85-3.09V38h36V99.14a6,6,0,0,0,.85,3.09l39.65,66.08c-12.41,3.16-30.86,3-55.79-9.66-16.94-8.58-33-12.8-47.83-12.64ZM209.72,209a2,2,0,0,1-1.74,1H48a2,2,0,0,1-1.71-3l29-48.41c14.89-2.08,31.68,1.55,49.94,10.79C144,178.8,159.67,182,172.42,182A67.89,67.89,0,0,0,192.89,179l16.8,28A2,2,0,0,1,209.72,209Z\"></path></svg>"
+        },
+        {
+          "name": "Diverse Data Sets",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M128,26C75.29,26,34,49.72,34,80v96c0,30.28,41.29,54,94,54s94-23.72,94-54V80C222,49.72,180.71,26,128,26Zm0,12c44.45,0,82,19.23,82,42s-37.55,42-82,42S46,102.77,46,80,83.55,38,128,38Zm82,138c0,22.77-37.55,42-82,42s-82-19.23-82-42V154.79C62,171.16,92.37,182,128,182s66-10.84,82-27.21Zm0-48c0,22.77-37.55,42-82,42s-82-19.23-82-42V106.79C62,123.16,92.37,134,128,134s66-10.84,82-27.21Z\"></path></svg>"
+        },
+        {
+          "name": "Detects all LLMs",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M152,98H104a6,6,0,0,0-6,6v48a6,6,0,0,0,6,6h48a6,6,0,0,0,6-6V104A6,6,0,0,0,152,98Zm-6,48H110V110h36Zm86,0H214V110h18a6,6,0,0,0,0-12H214V56a14,14,0,0,0-14-14H158V24a6,6,0,0,0-12,0V42H110V24a6,6,0,0,0-12,0V42H56A14,14,0,0,0,42,56V98H24a6,6,0,0,0,0,12H42v36H24a6,6,0,0,0,0,12H42v42a14,14,0,0,0,14,14H98v18a6,6,0,0,0,12,0V214h36v18a6,6,0,0,0,12,0V214h42a14,14,0,0,0,14-14V158h18a6,6,0,0,0,0-12Zm-30,54a2,2,0,0,1-2,2H56a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H200a2,2,0,0,1,2,2Z\"></path></svg>"
+        },
+        {
+          "name": "Languages Supported",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M245.37,213.32l-56-112a6,6,0,0,0-10.74,0l-22.3,44.6A90,90,0,0,1,105,127.19,101.73,101.73,0,0,0,133.82,62H160a6,6,0,0,0,0-12H102V32a6,6,0,0,0-12,0V50H32a6,6,0,0,0,0,12h89.79A89.71,89.71,0,0,1,96,119.23,89.81,89.81,0,0,1,75.11,86,6,6,0,1,0,63.8,90,101.66,101.66,0,0,0,87,127.2,89.56,89.56,0,0,1,32,146a6,6,0,0,0,0,12,101.55,101.55,0,0,0,64-22.63,102.11,102.11,0,0,0,54.53,22.17l-27.89,55.78a6,6,0,0,0,10.74,5.36L147.71,190h72.58l14.34,28.68A6,6,0,0,0,240,222a5.87,5.87,0,0,0,2.68-.64A6,6,0,0,0,245.37,213.32ZM153.71,178,184,117.42,214.29,178Z\"></path></svg>"
+        },
+        {
+          "name": "Trained Humans",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M222,40V76a6,6,0,0,1-12,0V46H180a6,6,0,0,1,0-12h36A6,6,0,0,1,222,40Zm-6,134a6,6,0,0,0-6,6v30H180a6,6,0,0,0,0,12h36a6,6,0,0,0,6-6V180A6,6,0,0,0,216,174ZM76,210H46V180a6,6,0,0,0-12,0v36a6,6,0,0,0,6,6H76a6,6,0,0,0,0-12ZM40,82a6,6,0,0,0,6-6V46H76a6,6,0,0,0,0-12H40a6,6,0,0,0-6,6V76A6,6,0,0,0,40,82Zm136,92a6,6,0,0,1-4.8-2.4,54,54,0,0,0-86.4,0,6,6,0,1,1-9.6-7.2,65.65,65.65,0,0,1,29.69-22.26,38,38,0,1,1,46.22,0A65.65,65.65,0,0,1,180.8,164.4,6,6,0,0,1,176,174Zm-48-36a26,26,0,1,0-26-26A26,26,0,0,0,128,138Z\"></path></svg>"
+        },
+        {
+          "name": "Humanized Text Detection",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M208,42H48A14,14,0,0,0,34,56v56c0,51.94,25.12,83.4,46.2,100.64,22.73,18.6,45.27,24.89,46.22,25.15a6,6,0,0,0,3.16,0c.95-.26,23.49-6.55,46.22-25.15C196.88,195.4,222,163.94,222,112V56A14,14,0,0,0,208,42Zm2,70c0,37.76-13.94,68.39-41.44,91.06A131.17,131.17,0,0,1,128,225.72a130.94,130.94,0,0,1-40.56-22.66C59.94,180.39,46,149.76,46,112V56a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM172.24,99.76a6,6,0,0,1,0,8.48l-56,56a6,6,0,0,1-8.48,0l-24-24a6,6,0,0,1,8.48-8.48L112,151.51l51.76-51.75A6,6,0,0,1,172.24,99.76Z\"></path></svg>"
+        },
+        {
+          "name": "Verified Accuracy",
+          "svg_code": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" class=\"size-14 text-white/80\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224.42,104.2c-3.9-4.07-7.93-8.27-9.55-12.18-1.5-3.63-1.58-9-1.67-14.68-.14-9.38-.3-20-7.42-27.12S188,42.94,178.66,42.8c-5.68-.09-11-.17-14.68-1.67-3.91-1.62-8.11-5.65-12.18-9.55C145.16,25.22,137.64,18,128,18s-17.16,7.22-23.8,13.58c-4.07,3.9-8.27,7.93-12.18,9.55-3.63,1.5-9,1.58-14.68,1.67-9.38.14-20,.3-27.12,7.42S42.94,68,42.8,77.34c-.09,5.68-.17,11-1.67,14.68-1.62,3.91-5.65,8.11-9.55,12.18C25.22,110.84,18,118.36,18,128s7.22,17.16,13.58,23.8c3.9,4.07,7.93,8.27,9.55,12.18,1.5,3.63,1.58,9,1.67,14.68.14,9.38.3,20,7.42,27.12S68,213.06,77.34,213.2c5.68.09,11,.17,14.68,1.67,3.91,1.62,8.11,5.65,12.18,9.55C110.84,230.78,118.36,238,128,238s17.16-7.22,23.8-13.58c4.07-3.9,8.27-7.93,12.18-9.55,3.63-1.5,9-1.58,14.68-1.67,9.38-.14,20-.3,27.12-7.42s7.28-17.74,7.42-27.12c.09-5.68.17-11,1.67-14.68,1.62-3.91,5.65-8.11,9.55-12.18C230.78,145.16,238,137.64,238,128S230.78,110.84,224.42,104.2Zm-8.66,39.3c-4.67,4.86-9.5,9.9-12,15.9-2.38,5.74-2.48,12.52-2.58,19.08-.11,7.44-.23,15.14-3.9,18.82s-11.38,3.79-18.82,3.9c-6.56.1-13.34.2-19.08,2.58-6,2.48-11,7.31-15.91,12-5.25,5-10.68,10.24-15.49,10.24s-10.24-5.21-15.5-10.24c-4.86-4.67-9.9-9.5-15.9-12-5.74-2.38-12.52-2.48-19.08-2.58-7.44-.11-15.14-.23-18.82-3.9s-3.79-11.38-3.9-18.82c-.1-6.56-.2-13.34-2.58-19.08-2.48-6-7.31-11-12-15.91C35.21,138.24,30,132.81,30,128s5.21-10.24,10.24-15.5c4.67-4.86,9.5-9.9,12-15.9,2.38-5.74,2.48-12.52,2.58-19.08.11-7.44.23-15.14,3.9-18.82s11.38-3.79,18.82-3.9c6.56-.1,13.34-.2,19.08-2.58,6-2.48,11-7.31,15.91-12C117.76,35.21,123.19,30,128,30s10.24,5.21,15.5,10.24c4.86,4.67,9.9,9.5,15.9,12,5.74,2.38,12.52,2.48,19.08,2.58,7.44.11,15.14.23,18.82,3.9s3.79,11.38,3.9,18.82c.1,6.56.2,13.34,2.58,19.08,2.48,6,7.31,11,12,15.91,5,5.25,10.24,10.68,10.24,15.49S220.79,138.24,215.76,143.5ZM172.24,99.76a6,6,0,0,1,0,8.48l-56,56a6,6,0,0,1-8.48,0l-24-24a6,6,0,0,1,8.48-8.48L112,151.51l51.76-51.75A6,6,0,0,1,172.24,99.76Z\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Decorative Elements",
+      "description": "Abstract shapes and colorful geometric marks used to decorate layouts and add visual interest",
+      "when_to_use": [
+        "Backgrounds",
+        "Section transitions",
+        "Hover interactions"
+      ],
+      "format": "SVG",
+      "style": "Solid Fill / Multi-color",
+      "sizes": {
+        "small": "17x18",
+        "medium": "148x329"
+      },
+      "examples": [
+        {
+          "name": "Sparkles",
+          "svg_code": "<svg class=\"transition-all duration-300 group-hover:rotate-45\" width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.4671 5.52341L8.74332 14.2472L13.778 15.2455L14.7367 12.7189L17.4671 5.52341Z\"></path><path d=\"M17.4671 5.52341L8.74332 14.2472L13.778 15.2455L14.7367 12.7189L17.4671 5.52341Z\"></path><path d=\"M17.4668 5.52456L8.74301 14.2484L7.74476 9.21374L10.2713 8.25501L17.4668 5.52456Z\"></path><path d=\"M17.4668 5.52456L8.74301 14.2484L7.74476 9.21374L10.2713 8.25501L17.4668 5.52456Z\"></path><path d=\"M8.74359 14.2484L10.9912 22.5913L13.7782 15.2467L8.74359 14.2484Z\"></path><path d=\"M8.74326 14.2471L0.400391 11.9995L7.74501 9.21249L8.74326 14.2471Z\"></path></svg>"
+        },
+        {
+          "name": "Decorative Cross",
+          "svg_code": "<svg width=\"17\" height=\"18\" viewBox=\"0 0 17 18\" fill=\"none\" class=\"\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8.40465 5.77757e-05L8.40464 13.3398L12.9619 10.2538L11.7776 7.58908L8.40465 5.77757e-05Z\" class=\"fill-pangram-amber\"></path><path d=\"M8.40493 5.85725e-05L8.40493 13.3398L3.84766 10.2538L5.03198 7.58908L8.40493 5.85725e-05Z\" class=\"fill-pangram-blue\"></path><path d=\"M8.40518 13.3398L16.4053 18L12.9624 10.2537L8.40518 13.3398Z\" class=\"fill-pangram-amber\"></path><path d=\"M8.40537 13.3398L0.405273 18L3.8481 10.2537L8.40537 13.3398Z\" class=\"fill-pangram-blue\"></path></svg>"
+        },
+        {
+          "name": "Large Abstract Graphic",
+          "svg_code": "<svg viewBox=\"0 0 148 329\" fill=\"none\" class=\"h-80 w-36 origin-[100%_60%] absolute right-0 bottom-0\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M148 184.197L0 329L62.3987 190.289L148 184.197Z\" class=\"fill-pangram-amber\"></path><path d=\"M148 0V184.197L84.3085 141.584L148 0Z\" class=\"fill-pangram-blue\"></path></svg>"
+        },
+        {
+          "name": "Decorative Shape Up",
+          "svg_code": "<svg width=\"17\" height=\"18\" viewBox=\"0 0 17 18\" fill=\"none\" class=\"transition-all\" style=\"transform:rotate(180deg)\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8.40465 5.77757e-05L8.40464 13.3398L12.9619 10.2538L11.7776 7.58908L8.40465 5.77757e-05Z\" class=\"fill-pangram-amber\"></path><path d=\"M8.40493 5.85725e-05L8.40493 13.3398L3.84766 10.2538L5.03198 7.58908L8.40493 5.85725e-05Z\" class=\"fill-pangram-blue\"></path><path d=\"M8.40518 13.3398L16.4053 18L12.9624 10.2537L8.40518 13.3398Z\" class=\"fill-pangram-amber\"></path><path d=\"M8.40537 13.3398L0.405273 18L3.8481 10.2537L8.40537 13.3398Z\" class=\"fill-pangram-blue\"></path></svg>"
+        },
+        {
+          "name": "Decorative Shape Right",
+          "svg_code": "<svg width=\"17\" height=\"18\" viewBox=\"0 0 17 18\" fill=\"none\" class=\"transition-all\" style=\"transform:rotate(90deg)\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8.40465 5.77757e-05L8.40464 13.3398L12.9619 10.2538L11.7776 7.58908L8.40465 5.77757e-05Z\" class=\"fill-[#FEC3B0]\"></path><path d=\"M8.40493 5.85725e-05L8.40493 13.3398L3.84766 10.2538L5.03198 7.58908L8.40493 5.85725e-05Z\" class=\"fill-pangram-orange\"></path><path d=\"M8.40518 13.3398L16.4053 18L12.9624 10.2537L8.40518 13.3398Z\" class=\"fill-[#FEC3B0]\"></path><path d=\"M8.40537 13.3398L0.405273 18L3.8481 10.2537L8.40537 13.3398Z\" class=\"fill-pangram-orange\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Social Brand Icons",
+      "description": "Solid brand icons for social media links",
+      "when_to_use": [
+        "Footer links",
+        "Social sharing"
+      ],
+      "format": "SVG",
+      "style": "Filled / Monochrome",
+      "sizes": {
+        "small": "24px",
+        "medium": "512px"
+      },
+      "examples": [
+        {
+          "name": "Instagram",
+          "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"instagram\" class=\"svg-inline--fa fa-instagram size-9 p-2\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\"></path></svg>"
+        },
+        {
+          "name": "X (Twitter)",
+          "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"x-twitter\" class=\"svg-inline--fa fa-x-twitter size-9 p-2\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z\"></path></svg>"
+        },
+        {
+          "name": "LinkedIn",
+          "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"linkedin\" class=\"svg-inline--fa fa-linkedin size-9 p-2\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z\"></path></svg>"
+        },
+        {
+          "name": "TikTok",
+          "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"tiktok\" class=\"svg-inline--fa fa-tiktok size-9 p-2\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z\"></path></svg>"
+        },
+        {
+          "name": "Discord",
+          "svg_code": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fab\" data-icon=\"discord\" class=\"svg-inline--fa fa-discord size-9 p-2\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

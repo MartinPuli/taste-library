@@ -1,0 +1,325 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "texture_classification": [
+      "shadows_soft",
+      "patterns"
+    ],
+    "solid_colors": [
+      {
+        "name": "Card Background",
+        "description": "Light paper-white card surface",
+        "when_to_use": [
+          "Card containers",
+          "Elevated surfaces",
+          "Modal backgrounds"
+        ],
+        "hex": "#FCFCF9"
+      },
+      {
+        "name": "Page Background",
+        "description": "Primary page background in cream/paper color",
+        "when_to_use": [
+          "Default page backgrounds",
+          "Canvas areas"
+        ],
+        "hex": "#EFEFE4"
+      },
+      {
+        "name": "Off-Black Background",
+        "description": "Dark mode primary background",
+        "when_to_use": [
+          "Dark mode page backgrounds",
+          "Dark theme sections"
+        ],
+        "hex": "#181818"
+      },
+      {
+        "name": "Black Surface",
+        "description": "Pure black surface for high contrast",
+        "when_to_use": [
+          "Dark mode elevated surfaces",
+          "High contrast elements"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "White Surface",
+        "description": "Pure white surface",
+        "when_to_use": [
+          "Light mode elevated surfaces",
+          "Content cards",
+          "Overlays"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Gray 50",
+        "description": "Very light gray surface",
+        "when_to_use": [
+          "Subtle background fills",
+          "Control backgrounds"
+        ],
+        "hex": "#F5F5F2"
+      },
+      {
+        "name": "Gray 100",
+        "description": "Light gray surface",
+        "when_to_use": [
+          "Control backgrounds",
+          "Disabled states",
+          "Subtle panels"
+        ],
+        "hex": "#EAEAE7"
+      },
+      {
+        "name": "Gray 200",
+        "description": "Medium-light gray surface",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Inactive elements"
+        ],
+        "hex": "#D7D7D6"
+      },
+      {
+        "name": "Gray 800",
+        "description": "Dark gray surface",
+        "when_to_use": [
+          "Dark mode panels",
+          "Secondary dark surfaces"
+        ],
+        "hex": "#424242"
+      },
+      {
+        "name": "Gray 900",
+        "description": "Very dark gray surface",
+        "when_to_use": [
+          "Dark mode surfaces",
+          "High contrast backgrounds"
+        ],
+        "hex": "#222222"
+      },
+      {
+        "name": "Gray 950",
+        "description": "Near-black surface",
+        "when_to_use": [
+          "Darkest UI surfaces",
+          "Deep backgrounds"
+        ],
+        "hex": "#181818"
+      },
+      {
+        "name": "Note Surface",
+        "description": "Subtle tinted surface for note/info areas",
+        "when_to_use": [
+          "Note containers",
+          "Info panels",
+          "Highlighted sections"
+        ],
+        "hex": "#F7F7F1"
+      },
+      {
+        "name": "Blue Control",
+        "description": "Blue accent surface",
+        "when_to_use": [
+          "Interactive controls",
+          "Accent backgrounds"
+        ],
+        "hex": "#81ADEC"
+      },
+      {
+        "name": "Amber Accent",
+        "description": "Warm amber accent surface",
+        "when_to_use": [
+          "Highlight backgrounds",
+          "Warning surfaces",
+          "Accent elements"
+        ],
+        "hex": "#FFCF3F"
+      },
+      {
+        "name": "PUI Chrome",
+        "description": "UI chrome background in light mode",
+        "when_to_use": [
+          "Toolbar backgrounds",
+          "Panel chrome",
+          "App UI surfaces"
+        ],
+        "hex": "#F2F2F2"
+      },
+      {
+        "name": "PUI Control",
+        "description": "Control surface in PUI system",
+        "when_to_use": [
+          "Button backgrounds",
+          "Input fields",
+          "Interactive controls"
+        ],
+        "hex": "#F9F9F9"
+      },
+      {
+        "name": "Playlist Surface",
+        "description": "Playlist component background in light mode",
+        "when_to_use": [
+          "Playlist containers",
+          "Music UI panels"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Playlist Player BG",
+        "description": "Playlist player background",
+        "when_to_use": [
+          "Media player surfaces",
+          "Playback controls"
+        ],
+        "hex": "#EAEAEA"
+      },
+      {
+        "name": "Playlist Canvas",
+        "description": "Canvas area for playlist UI",
+        "when_to_use": [
+          "Background canvas",
+          "Large content areas"
+        ],
+        "hex": "#E3E3E3"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Blue Button Gradient",
+        "description": "Top to bottom blue gradient for button surfaces",
+        "when_to_use": [
+          "Primary buttons",
+          "Call-to-action buttons",
+          "Interactive elements"
+        ],
+        "css_code": "linear-gradient(#93b8ef, #6ca0ed)"
+      },
+      {
+        "name": "Blue Button Gradient (Enhanced)",
+        "description": "Enhanced blue gradient using color-mix for better browser support",
+        "when_to_use": [
+          "Primary buttons in modern browsers",
+          "CTA elements with color mixing support"
+        ],
+        "css_code": "linear-gradient(to bottom, color-mix(in oklch, lab(69.3174% -2.26048 -37.0102) 86%, white), color-mix(in oklch, lab(69.3174% -2.26048 -37.0102) 60%, lab(58.2618% 2.51451 -55.9466)))"
+      },
+      {
+        "name": "Blue Button Hover Gradient",
+        "description": "Hover state gradient for blue buttons",
+        "when_to_use": [
+          "Button hover states",
+          "Interactive feedback"
+        ],
+        "css_code": "linear-gradient(to bottom, #a3c3f1, lab(69.3174% -2.26048 -37.0102))"
+      },
+      {
+        "name": "Blue Button Hover Gradient (Enhanced)",
+        "description": "Enhanced hover gradient with color mixing",
+        "when_to_use": [
+          "Button hover states in modern browsers"
+        ],
+        "css_code": "linear-gradient(to bottom, color-mix(in oklch, lab(69.3174% -2.26048 -37.0102) 73%, white), lab(69.3174% -2.26048 -37.0102))"
+      },
+      {
+        "name": "Tailwind Gradient to Bottom",
+        "description": "Generic top to bottom gradient using Tailwind CSS variables",
+        "when_to_use": [
+          "Tailwind-based gradients",
+          "Vertical fades",
+          "Section transitions"
+        ],
+        "css_code": "linear-gradient(var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Tailwind Gradient to Right",
+        "description": "Generic left to right gradient using Tailwind CSS variables",
+        "when_to_use": [
+          "Horizontal gradients",
+          "Side-to-side transitions"
+        ],
+        "css_code": "linear-gradient(var(--tw-gradient-stops))"
+      },
+      {
+        "name": "PUI Seam Gradient (Light)",
+        "description": "Decorative seam gradient for UI borders and dividers in light mode",
+        "when_to_use": [
+          "UI seams",
+          "Decorative borders",
+          "Visual separators"
+        ],
+        "css_code": "linear-gradient(in oklab 90deg, #f4f4f4 33%, #ddd 33%, #ddd 67%, #fdfdfd 67%)"
+      },
+      {
+        "name": "PUI Seam Gradient (Light, LAB)",
+        "description": "Lab color space version of PUI seam gradient for light mode",
+        "when_to_use": [
+          "UI seams with LAB color support",
+          "Precise color separators"
+        ],
+        "css_code": "linear-gradient(in oklab 90deg, lab(96.172% 0 0) 33%, lab(88.168% 0 0) 33%, lab(88.168% 0 0) 67%, lab(99.304% -.0000298023 0) 67%)"
+      },
+      {
+        "name": "PUI Seam Gradient (Dark)",
+        "description": "Dark mode seam gradient with transparency",
+        "when_to_use": [
+          "Dark mode UI seams",
+          "Dark theme borders"
+        ],
+        "css_code": "linear-gradient(in oklab 90deg, #0002 33%, #0004 33%, #0004 67%, #ffffff28 67%)"
+      },
+      {
+        "name": "PUI Seam Gradient (Dark, LAB)",
+        "description": "Lab color space version of dark mode seam gradient",
+        "when_to_use": [
+          "Dark mode UI seams with LAB support"
+        ],
+        "css_code": "linear-gradient(in oklab 90deg, lab(0% 0 0/.133) 33%, lab(0% 0 0/.267) 33%, lab(0% 0 0/.267) 67%, lab(100% 0 0/.157) 67%)"
+      },
+      {
+        "name": "Grid Pattern Background",
+        "description": "Subtle grid pattern using linear gradients for light mode",
+        "when_to_use": [
+          "Background grid overlays",
+          "Canvas patterns",
+          "Design grid visualizations"
+        ],
+        "css_code": "linear-gradient(to right, lab(94.2188% -1.42306 5.34524) 1px, transparent 1px), linear-gradient(to bottom, lab(94.2188% -1.42306 5.34524) 1px, transparent 1px)"
+      },
+      {
+        "name": "Billing Switch Gradient",
+        "description": "Blue to transparent gradient for toggle switch background",
+        "when_to_use": [
+          "Toggle switches",
+          "Interactive controls",
+          "Billing UI elements"
+        ],
+        "css_code": "linear-gradient(to right, lab(63.8315% -.601828 -46.527) 35%, #0000001a 65%)"
+      }
+    ],
+    "highlights": [
+      "Subtle dot pattern on hero background using grid overlay at opacity 30% (dark mode: 15%)",
+      "Texture overlay using /layout/texture-shade.png at 50% opacity in light mode, 100% in dark mode with multiply blend mode on footer",
+      "Grid pattern: 120px x 120px repeating grid lines in cream color, positioned at calc(50%+60px) with 30% opacity (dark: 15%)",
+      "Ruler decorations: vertical and horizontal ruler patterns along edges at 40% opacity (dark: 20%) on wide viewports",
+      "Diagonal geometric shapes with triangular clip-paths positioned absolutely for decorative page sections",
+      "Soft shadows on cards and elevated surfaces using inset shadows on buttons: inset 0 1px #ffffff1f, inset 0 -1px #0000001f",
+      "Box shadows on controls with multiple layers for depth: 0 2px 4px #00000020 for cards",
+      "PUI shadow system with layered shadows on controls, thumbs, sliders, and swatches using rgba with fine-tuned alpha values",
+      "Noise/grain texture overlay on surfaces via background image repeating pattern",
+      "Canvas elements for rendering dynamic visual effects and borders on interactive components",
+      "Rounded corners using corner-shape: superellipse(1.3) on PUI controls for organic feel"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/vercel.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal top bar with dropdowns",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Vercel triangle logo in black"
+        },
+        {
+          "type": "navigation",
+          "description": "Text links: Products, Resources, Enterprise, Pricing with dropdown indicators"
+        },
+        {
+          "type": "button",
+          "description": "'Get a Demo' button with light gray border, white background"
+        },
+        {
+          "type": "button",
+          "description": "'Log In' button with light gray border, white background"
+        },
+        {
+          "type": "button",
+          "description": "'Sign Up' button, solid black with white text"
+        }
+      ]
+    },
+    {
+      "type": "Banner",
+      "layout_pattern": "Centered, full-width",
+      "headline": "Ship 26 is coming to SF",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Get your ticket' button with arrow icon, tertiary style"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered with large geometric visual element",
+      "headline": "Agentic Infrastructure",
+      "subheadline": "For coding agents",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large black triangle in center, minimal geometric shape with subtle blur glow effect"
+        },
+        {
+          "type": "button",
+          "description": "'Deploy now' button, solid black pill shape with white text"
+        },
+        {
+          "type": "button",
+          "description": "'Talk to sales' button, outlined black pill with black text on white"
+        }
+      ]
+    },
+    {
+      "type": "Logo Strip",
+      "layout_pattern": "Horizontal marquee on mobile, grid on desktop",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Grayscale company logos: Blackbox, Charles Schwab, DoorDash, OpenAI, Supreme, The Weather Company, Polymarket"
+        }
+      ]
+    },
+    {
+      "type": "Features / Use Case 1",
+      "layout_pattern": "Split layout: large image left, text right on desktop",
+      "headline": "Build agents on infrastructure that thinks like them",
+      "subheadline": "Notion powers millions of agent conversations daily on Vercel.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large mockup showing Notion AI chat interface with dark N logo, white card with subtle shadow, showing conversational prompts"
+        },
+        {
+          "type": "card",
+          "description": "Feature list: Durable Orchestration, Sandboxed Environments, AI Model Gateway, Fluid Compute"
+        }
+      ]
+    },
+    {
+      "type": "Features / Use Case 2",
+      "layout_pattern": "Split layout reversed: large image right, text left on desktop",
+      "headline": "Ship apps that scale from zero to millions instantly",
+      "subheadline": "Zapier serves over 100 million monthly website visits on Vercel.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Dashboard mockup showing deployment interface with code editor and Deploy button in black"
+        },
+        {
+          "type": "card",
+          "description": "Feature list: Global Delivery, Deployment Environments, Serverless Functions, Web Application Firewall"
+        }
+      ]
+    },
+    {
+      "type": "Features / Use Case 3",
+      "layout_pattern": "Split layout: large image left, text right on desktop",
+      "headline": "Host platforms that serve every customer",
+      "subheadline": "Mintlify powers documentation for over 20,000 companies on Vercel.",
+      "components": [
+        {
+          "type": "image",
+          "description": "v0 documentation interface mockup with code examples and Deploy button"
+        },
+        {
+          "type": "card",
+          "description": "Feature list: Tenant Isolation, Domain Management, Custom SSL Certificates, Preview URLs"
+        }
+      ]
+    },
+    {
+      "type": "Recently Shipped",
+      "layout_pattern": "Grid 2-column on tablet+, asymmetric card sizes",
+      "headline": "Recently shipped",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Large card for 'Eve' with geometric line illustration in white/light blue, gradient background"
+        },
+        {
+          "type": "card",
+          "description": "Card for 'Passport' with 3D passport book visual showing Vercel logo and monospace text"
+        },
+        {
+          "type": "card",
+          "description": "Card for 'Containers' with terminal/CLI mockup showing deployment commands on white card with subtle shadow"
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "layout_pattern": "Centered",
+      "headline": "Built by you, or your agents",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Deploy now' button, solid black pill with white text"
+        },
+        {
+          "type": "button",
+          "description": "'Clone our stack' text link with arrow and infinity symbols"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Footer links organized in columns: Agentic Infra, Data Platform, Security, etc."
+        },
+        {
+          "type": "logo",
+          "description": "Small Vercel triangle logo at bottom"
+        }
+      ]
+    }
+  ]
+}

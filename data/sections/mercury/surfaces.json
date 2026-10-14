@@ -1,0 +1,318 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "texture_classification": [
+      "glass_blur",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Background Default",
+        "description": "Main page background - neutral theme default",
+        "when_to_use": [
+          "Page backgrounds",
+          "Default layout surfaces"
+        ],
+        "hex": "#FBFCFD"
+      },
+      {
+        "name": "Background Secondary",
+        "description": "Secondary background surface - neutral theme",
+        "when_to_use": [
+          "Section backgrounds",
+          "Alternate surface areas"
+        ],
+        "hex": "#F4F5F9"
+      },
+      {
+        "name": "Background Frosted",
+        "description": "Transparent frosted background with 5% opacity",
+        "when_to_use": [
+          "Overlay backgrounds",
+          "Glassmorphism base"
+        ],
+        "hex": "#70739305"
+      },
+      {
+        "name": "Surface Default",
+        "description": "Default surface color for components",
+        "when_to_use": [
+          "Card backgrounds",
+          "Component surfaces"
+        ],
+        "hex": "#EDEDF3"
+      },
+      {
+        "name": "Surface Elevated",
+        "description": "Elevated surface for raised components",
+        "when_to_use": [
+          "Dropdown menus",
+          "Modal backgrounds",
+          "Elevated cards"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Surface Frosted",
+        "description": "Frosted glass surface with 10% opacity",
+        "when_to_use": [
+          "Glassmorphism panels",
+          "Frosted overlays"
+        ],
+        "hex": "#7073931A"
+      },
+      {
+        "name": "Surface Emphasized",
+        "description": "Emphasized surface with purple tint - 10% opacity",
+        "when_to_use": [
+          "Hover states",
+          "Selected items",
+          "Emphasized areas"
+        ],
+        "hex": "#5266EB1A"
+      },
+      {
+        "name": "Surface Primary",
+        "description": "Primary brand purple surface",
+        "when_to_use": [
+          "Primary CTAs",
+          "Active states",
+          "Brand elements"
+        ],
+        "hex": "#5266EB"
+      },
+      {
+        "name": "Surface Inverted",
+        "description": "Dark inverted surface",
+        "when_to_use": [
+          "Dark mode surfaces",
+          "High contrast areas",
+          "Footer backgrounds"
+        ],
+        "hex": "#1E1E2A"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur",
+        "when_to_use": [
+          "Command menus",
+          "Floating panels",
+          "Modal overlays",
+          "Navigation dropdowns"
+        ],
+        "hex": "#7073931A"
+      },
+      {
+        "name": "Purple Theme Background",
+        "description": "Purple-tinted background for purple theme",
+        "when_to_use": [
+          "Purple theme pages",
+          "Themed sections"
+        ],
+        "hex": "#F5F4FD"
+      },
+      {
+        "name": "Beige Theme Background",
+        "description": "Beige-tinted background for beige theme",
+        "when_to_use": [
+          "Beige theme pages",
+          "Warm-toned sections"
+        ],
+        "hex": "#F6F5F2"
+      },
+      {
+        "name": "Green Theme Background",
+        "description": "Green-tinted background for green theme",
+        "when_to_use": [
+          "Green theme pages",
+          "Nature-themed sections"
+        ],
+        "hex": "#F1F7F3"
+      },
+      {
+        "name": "Blue Theme Background",
+        "description": "Blue-tinted background for blue theme",
+        "when_to_use": [
+          "Blue theme pages",
+          "Cool-toned sections"
+        ],
+        "hex": "#EEF7FA"
+      },
+      {
+        "name": "Orange Theme Background",
+        "description": "Orange-tinted background for orange theme",
+        "when_to_use": [
+          "Orange theme pages",
+          "Warm accent sections"
+        ],
+        "hex": "#FDF3EF"
+      },
+      {
+        "name": "Dark Neutral Background",
+        "description": "Dark mode primary background",
+        "when_to_use": [
+          "Dark mode pages",
+          "Dark theme sections"
+        ],
+        "hex": "#171721"
+      },
+      {
+        "name": "Dark Surface Elevated",
+        "description": "Elevated surface in dark mode",
+        "when_to_use": [
+          "Dark mode cards",
+          "Dark mode dropdowns",
+          "Dark mode modals"
+        ],
+        "hex": "#272735"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Testimonial Overlay Scrim",
+        "description": "Top to bottom testimonial overlay gradient with progressive opacity from transparent to semi-opaque black",
+        "when_to_use": [
+          "Testimonial overlays",
+          "Image scrim effects",
+          "Text readability overlays"
+        ],
+        "css_code": "linear-gradient(180deg,#0000 0%,#0000 2.67%,#00000006 5.33%,#0000000f 8%,#00000018 10.67%,#00000027 13.33%,#00000038 16%,#0000004a 18.67%,#0000005c 21.33%,#0000006d 24%,#0000007f 26.67%,#0000008e 29.33%,#00000097 32%,#000000a0 34.67%,#000000a6 37.33%,#000000a6 100%)"
+      },
+      {
+        "name": "Grain Background Effect",
+        "description": "Transparent to purple-tinted gradient for grain texture backgrounds",
+        "when_to_use": [
+          "Background textures",
+          "Noise grain overlays",
+          "Purple theme sections"
+        ],
+        "css_code": "linear-gradient(#0000,#f5f4fd 50%)"
+      },
+      {
+        "name": "Loading Skeleton Highlight",
+        "description": "Left to right shimmer gradient for loading skeletons using CSS variables",
+        "when_to_use": [
+          "Loading states",
+          "Skeleton screens",
+          "Content placeholders"
+        ],
+        "css_code": "linear-gradient(90deg, var(--base-color), var(--highlight-color), var(--base-color))"
+      },
+      {
+        "name": "Dark Overlay - Light",
+        "description": "Top to bottom dark overlay gradient from 18% to 56% opacity",
+        "when_to_use": [
+          "Image overlays",
+          "Hero sections",
+          "Card overlays"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.56))"
+      },
+      {
+        "name": "Dark Overlay - Medium",
+        "description": "Top to bottom dark overlay gradient from 45% to 56% opacity",
+        "when_to_use": [
+          "Stronger image overlays",
+          "Content emphasis"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.56))"
+      },
+      {
+        "name": "Beige Theme Surface Gradient",
+        "description": "Top to bottom beige-tinted gradient with decreasing opacity",
+        "when_to_use": [
+          "Beige theme sections",
+          "Subtle background variations"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(239,238,233,0.20), rgba(224,222,215,0.10))"
+      },
+      {
+        "name": "Blue Magic Gradient",
+        "description": "Blue magic color transitioning to purple magic - top to bottom",
+        "when_to_use": [
+          "Blue to purple theme transitions",
+          "Accent backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, #075462, #3442a6)"
+      },
+      {
+        "name": "Purple Brand Gradient",
+        "description": "Dark purple to purple magic gradient",
+        "when_to_use": [
+          "Purple theme sections",
+          "Brand accent areas"
+        ],
+        "css_code": "linear-gradient(to bottom, #383255, #3442a6)"
+      },
+      {
+        "name": "Neutral Dark Gradient",
+        "description": "Transparent to dark neutral gradient - fade to dark",
+        "when_to_use": [
+          "Dark mode transitions",
+          "Section fades",
+          "Footer fades"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent, #171721)"
+      },
+      {
+        "name": "Surface Default Fade",
+        "description": "Surface default color fading to transparent",
+        "when_to_use": [
+          "Section transitions",
+          "Fade effects"
+        ],
+        "css_code": "linear-gradient(to bottom, #ededf3, transparent)"
+      },
+      {
+        "name": "Transparent Fade Out",
+        "description": "Full transparency gradient - no visual effect",
+        "when_to_use": [
+          "Placeholder gradients",
+          "Disabled states"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent, transparent)"
+      },
+      {
+        "name": "Mask Gradient - Horizontal",
+        "description": "Left to right mask gradient with black center and transparent edges",
+        "when_to_use": [
+          "Horizontal feathered blur masks",
+          "Content fade edges"
+        ],
+        "css_code": "linear-gradient(90deg,#0000,#000 15% 85%,#0000)"
+      },
+      {
+        "name": "Mask Gradient - Vertical",
+        "description": "Top to bottom mask gradient with black center and transparent edges",
+        "when_to_use": [
+          "Vertical feathered blur masks",
+          "Content fade edges"
+        ],
+        "css_code": "linear-gradient(#0000,#000 10% 90%,#0000)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(20px) with backdrop-blur-[20px] class applied to frosted surfaces",
+      "Glass panels: backdrop-filter: blur(10px) with backdrop-blur-[10px] class for medium glass effect",
+      "Glass panels: backdrop-filter: blur(6px) with backdrop-blur-[6px] class for subtle glass effect",
+      "Animated grain texture: SVG-based noise filter with animation at .2s step-end infinite on styles-module__u8VSFG__grainSvg",
+      "Grain overlay: Fractal noise texture at 0.2 opacity over purple-tinted gradient background on styles-module__C67XrG__container",
+      "Soft shadows: Multiple layered shadows (0px 10px 16px, 0px 6px 10px, 0px 0px 3px) with low opacity for elevated cards",
+      "Shimmer animation: Skeleton loading screens with horizontal gradient shimmer effect using react-loading-skeleton",
+      "Feathered blur masks: Composite linear gradients creating horizontal and vertical fade edges on styles-module__He5VFq__featheredBlur",
+      "Frosted border effects: 1px borders with #70739338 (frosted color with 22% opacity) on glass surfaces",
+      "Drop shadows: 0px 4px 16px white drop shadow on specific UI elements"
+    ]
+  }
+}

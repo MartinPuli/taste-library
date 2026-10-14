@@ -1,0 +1,29 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "top_nav": {
+      "height": "80px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Baseline/White",
+        "opacity": "0.8",
+        "blur": "backdrop-filter: blur(10px)"
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": null
+  }
+}

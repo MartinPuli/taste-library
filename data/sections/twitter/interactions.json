@@ -1,0 +1,91 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "global_patterns": [
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "slideUp",
+        "css": "@keyframes slideUp { from { bottom: 0; opacity: 0; } to { bottom: 1rem; opacity: 1; } }",
+        "description": "Slides element up from bottom with fade-in effect, used for fixed positioned elements"
+      },
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }",
+        "description": "Simple opacity fade-in animation"
+      },
+      {
+        "name": "slideDown",
+        "css": "@keyframes slideDown { from { bottom: 1rem; opacity: 1; } to { bottom: 0; opacity: 0; } }",
+        "description": "Slides element down with fade-out effect, reverse of slideUp"
+      },
+      {
+        "name": "fadeOut",
+        "css": "@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }",
+        "description": "Simple opacity fade-out animation"
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(.8) } 100% { opacity: 1; transform: scale(1) } }",
+        "description": "Scale and fade entrance animation for toast notifications"
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1) } 100% { opacity: 0; transform: scale(.8) } }",
+        "description": "Scale and fade exit animation for toast notifications"
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+        "description": "Loading spinner opacity animation for toast loading states"
+      },
+      {
+        "name": "swipe-out-left",
+        "css": "@keyframes swipe-out-left { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) - 100%)); opacity: 0 } }",
+        "description": "Swipe dismissal animation for toasts swiped left"
+      },
+      {
+        "name": "swipe-out-right",
+        "css": "@keyframes swipe-out-right { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) + 100%)); opacity: 0 } }",
+        "description": "Swipe dismissal animation for toasts swiped right"
+      },
+      {
+        "name": "swipe-out-up",
+        "css": "@keyframes swipe-out-up { from { transform: var(--y) translateY(var(--swipe-amount-y)); opacity: 1 } to { transform: var(--y) translateY(calc(var(--swipe-amount-y) - 100%)); opacity: 0 } }",
+        "description": "Swipe dismissal animation for toasts swiped up"
+      },
+      {
+        "name": "swipe-out-down",
+        "css": "@keyframes swipe-out-down { from { transform: var(--y) translateY(var(--swipe-amount-y)); opacity: 1 } to { transform: var(--y) translateY(calc(var(--swipe-amount-y) + 100%)); opacity: 0 } }",
+        "description": "Swipe dismissal animation for toasts swiped down"
+      },
+      {
+        "name": "enter-fade-rise",
+        "css": "animation: enter-fade .39s ease-out var(--enter-delay,0s) both, enter-rise .65s cubic-bezier(.34, 1.4, .64, 1) var(--enter-delay,0s) both",
+        "description": "Combined fade and rise animation for QR code card entrance with spring easing"
+      },
+      {
+        "name": "hover-scale-transform",
+        "css": "transition-transform duration-200 ease-out",
+        "description": "Scale transform on hover for QR code card, scales to 1.08 on hover/focus"
+      }
+    ],
+    "insights": [
+      "The design uses a strictly monochromatic color palette with black, white, and gray tones, creating high contrast and visual clarity for authentication flows.",
+      "All buttons use rounded-full (pill shape) with 9999px border-radius, creating a consistent modern aesthetic across primary, secondary, and tertiary button variants.",
+      "The authentication form implements a progressive disclosure pattern where the Continue button changes from disabled gray to active black state only when input is provided, guiding user behavior."
+    ]
+  }
+}

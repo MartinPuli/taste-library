@@ -1,0 +1,398 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Log in (Primary)",
+        "usage": "Primary login action in top navigation bar",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E60023",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#AD081B",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign up (Secondary)",
+        "usage": "Secondary signup action in top navigation bar",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E5E5E0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#DADADA",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Join Pinterest for free (Primary)",
+        "usage": "Primary CTA button in hero section encouraging new user signup",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E60023",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#AD081B",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "I already have an account (Secondary)",
+        "usage": "Secondary CTA in hero for existing users to login",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E5E5E0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#DADADA",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Join Pinterest (Primary)",
+        "usage": "Primary CTA button used in feature sections throughout the page to encourage signup",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E60023",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#AD081B",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Continue (Primary Block)",
+        "usage": "Full-width primary submit button in signup modal form",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "12px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E60023",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#AD081B",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Continue with Google (Social)",
+        "usage": "Social login button for Google OAuth in signup modal",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "12px 44px 12px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#91918C",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F6F6F3",
+            "text_color": "#000000",
+            "border_color": "#91918C",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#C8C8C1",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "See more (Secondary Link)",
+        "usage": "Secondary button-styled link to view more content in carousel sections",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Pin Sans",
+              "size": "16px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E5E5E0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#DADADA",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E5E5E0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "2px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Icon-only circular buttons used for carousel navigation arrows and action pogs",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "",
+              "size": "",
+              "padding": "10px"
+            },
+            {
+              "name": "Large",
+              "font": "",
+              "size": "",
+              "padding": "12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F6F6F3",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are grouped horizontally with flex layout and consistent spacing",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

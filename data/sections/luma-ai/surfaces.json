@@ -1,0 +1,166 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": {
+    "texture_classification": [
+      "glass_blur",
+      "gradient_linear"
+    ],
+    "solid_colors": [
+      {
+        "name": "Surface Primary",
+        "description": "Primary background surface for light theme",
+        "when_to_use": [
+          "Page backgrounds",
+          "Card backgrounds",
+          "Default surface color"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Surface Subtle",
+        "description": "Subtle background surface, lighter than elevated (HSL 0 0% 95%)",
+        "when_to_use": [
+          "Secondary backgrounds",
+          "Highlighted sections",
+          "Hover states"
+        ],
+        "hex": "#F2F2F2"
+      },
+      {
+        "name": "Surface Elevated",
+        "description": "Elevated surface background (HSL 0 0% 93%)",
+        "when_to_use": [
+          "Cards",
+          "Modals",
+          "Raised components"
+        ],
+        "hex": "#EDEDED"
+      },
+      {
+        "name": "Surface Inverted Primary",
+        "description": "Inverted primary surface for dark sections",
+        "when_to_use": [
+          "Hero sections",
+          "Dark mode surfaces",
+          "High contrast areas"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Surface Inverted Subtle",
+        "description": "Subtle inverted surface (HSL 0 0% 15%)",
+        "when_to_use": [
+          "Dark backgrounds",
+          "Secondary dark surfaces"
+        ],
+        "hex": "#262626"
+      },
+      {
+        "name": "Surface Inverted Elevated",
+        "description": "Elevated inverted surface (HSL 0 0% 25%)",
+        "when_to_use": [
+          "Dark elevated cards",
+          "Dark modal backgrounds"
+        ],
+        "hex": "#404040"
+      },
+      {
+        "name": "Border Primary",
+        "description": "Primary border color (oklch 92.2% 0 0)",
+        "when_to_use": [
+          "Default borders",
+          "Dividers",
+          "Outlines"
+        ],
+        "hex": "#EBEBEB"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur",
+        "when_to_use": [
+          "Floating navigation",
+          "Overlays",
+          "Command menus"
+        ],
+        "hex": "#000000"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Section Gradient",
+        "description": "Gradient for hero sections with surface-inverted-primary variations",
+        "when_to_use": [
+          "Hero backgrounds",
+          "Dark section transitions"
+        ],
+        "css_code": "linear-gradient(var(--tw-gradient-position),rgba(0, 0, 0, 0) 0px,rgba(0, 0, 0, 0) 100%)"
+      },
+      {
+        "name": "Bottom Fade Gradient",
+        "description": "Top to bottom fade gradient from black to transparent for masks",
+        "when_to_use": [
+          "Content fading",
+          "Scroll masks",
+          "Edge fades"
+        ],
+        "css_code": "linear-gradient(to bottom,#000 0,transparent 100%)"
+      },
+      {
+        "name": "Right Fade Gradient",
+        "description": "Horizontal fade gradient for masking horizontal scrollers",
+        "when_to_use": [
+          "Horizontal scroll masks",
+          "Logo carousel edges"
+        ],
+        "css_code": "linear-gradient(to right,transparent 0,#000 var(--mask-size),#000 calc(100% - var(--mask-size)),transparent 100%)"
+      },
+      {
+        "name": "Overlay Gradient Light to Dark",
+        "description": "Transition gradient from surface-primary to transparent",
+        "when_to_use": [
+          "Section transitions",
+          "Content overlays"
+        ],
+        "css_code": "linear-gradient(var(--tw-gradient-position),rgba(0, 0, 0, 0) 0px,rgba(0, 0, 0, 0) 50%,rgba(0, 0, 0, 0) 100%)"
+      },
+      {
+        "name": "Glass Background Gradient",
+        "description": "Diagonal gradient for glass/blur effects from inverted-primary to surface-primary",
+        "when_to_use": [
+          "Glassmorphism panels",
+          "Frosted overlays",
+          "Search command UI"
+        ],
+        "css_code": "linear-gradient(to bottom right in oklab,hsl(0 0% 0%) 50%,hsl(0 0% 100%) 50%)"
+      },
+      {
+        "name": "Radial Spotlight Gradient",
+        "description": "Radial gradient creating a spotlight effect with surface-primary center",
+        "when_to_use": [
+          "Hero spotlights",
+          "Feature highlights",
+          "Center focus effects"
+        ],
+        "css_code": "radial-gradient(ellipse 35% 28% at 50% 50%,hsl(0 0% 100%) 35%,transparent 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(xl) with bg-surface-primary/80 and border primary/30",
+      "Navigation bar uses backdrop-blur-xl with bg-surface-primary/80 for frosted glass effect",
+      "Radial dot pattern overlay: radial-gradient(hsl(0 0% 0%/.095) 1px,transparent 2px) for texture",
+      "Soft shadow effects: shadow-md, shadow-lg, shadow-xl with rgba black at low opacity",
+      "Command menu uses gradient border effect with bg-linear-to-br from-surface-inverted-primary/50 to-surface-primary/50"
+    ]
+  }
+}

@@ -2,31 +2,49 @@
 
 Organize financial information on light backgrounds and reserve yellow accents for calls to action.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 26 · Captured 2026-09-25T08:15:55.953997Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 26 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-25T08:15:55.953997Z |
-| Suggested uses | fintech |
-| Visual approach | color-accent, modular |
+[Original website](https://ramp.com/) · [Full extraction](../data/raw/ramp.json) · [Review record](../data/reviews/ramp.json)
 
-## Details to compare
+[Small visual preview](../data/previews/ramp.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl-full.jpg)
 
-- Detected type families: System Sans, Inter, Lausanne.
-- Recorded palette: #FFFFFF, #0066FF, #E4F222, #1A1919.
-- Grid: `{"columns": 12, "gutter": "24px", "max_width": "1440px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A restrained white hero pairs a black headline with a yellow email-submit action, above a rounded product demonstration panel.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://ramp.com/) · [Extraction](../data/raw/ramp.json) · [Tokens](../data/tokens/ramp.json)
+Project types: fintech. Styles: color-accent, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show ramp --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Organize financial information on light backgrounds and reserve yellow accents for calls to action. Evidence: [layout](../data/sections/ramp/layout.json), [sections](../data/sections/ramp/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/ramp/actions.json).
+
+## Content to bring
+
+Concrete product screens and a clearly explained financial workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/ramp/profile.json)
+- [Layout](../data/sections/ramp/layout.json)
+- [Colors](../data/sections/ramp/colors.json)
+- [Typography](../data/sections/ramp/typography.json)
+- [Surfaces](../data/sections/ramp/surfaces.json)
+- [Elevation](../data/sections/ramp/elevation.json)
+- [Interactions](../data/sections/ramp/interactions.json)
+- [Actions](../data/sections/ramp/actions.json)
+- [Navigation](../data/sections/ramp/navigation.json)
+- [Data Display](../data/sections/ramp/data_display.json)
+- [Structure](../data/sections/ramp/structure.json)
+- [Icons](../data/sections/ramp/icons.json) · no observed data
+- [Assets](../data/sections/ramp/assets.json)
+- [Brand Assets](../data/sections/ramp/brand_assets.json) · no observed data
+- [Sections](../data/sections/ramp/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

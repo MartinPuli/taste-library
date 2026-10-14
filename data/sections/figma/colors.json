@@ -1,0 +1,125 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The foundational dark color used for primary text, major interactive elements, and dark architectural sections.",
+          "when_to_use": [
+            "Primary page typography and headings",
+            "Solid background for 'Get started' CTAs",
+            "Global footer section background",
+            "Video player control containers"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Canvas White",
+        "type": "Light",
+        "rules": {
+          "description": "The primary structural surface color and contrasting text hue for dark components.",
+          "when_to_use": [
+            "Main application background",
+            "Navigation dropdown menu surfaces",
+            "Inverse text inside solid black buttons",
+            "Subtle grayish-blue tint (shade) for AI product icons like Figma Make"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E3ECF2",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.5061
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Brand Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "A vibrant blue accent used in the primary brand mark and select decorative highlights.",
+          "when_to_use": [
+            "Top node in the header logo SVG",
+            "Conic gradient background framing customer testimonial headshots"
+          ]
+        },
+        "hex": "#00B6FF",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0001
+      },
+      {
+        "name": "Dev Green",
+        "type": "Warm Color",
+        "rules": {
+          "description": "A vivid green brand accent used in the logo and systematically assigned to development-focused tools.",
+          "when_to_use": [
+            "Left node in the header logo SVG",
+            "Figma Dev Mode navigation icon fill"
+          ]
+        },
+        "hex": "#24CB71",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#14AE5C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Slides Orange",
+        "type": "Warm Color",
+        "rules": {
+          "description": "An energetic orange brand accent used in the logo and systematically assigned to presentation-focused tools.",
+          "when_to_use": [
+            "Right node in the header logo SVG",
+            "Figma Slides navigation icon fill"
+          ]
+        },
+        "hex": "#FF7237",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FF5C16",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "insights": [
+      "**High-Contrast Foundation:** The interface relies entirely on a stark black-and-white structural foundation, keeping the UI strictly neutral to let user content and colorful brand elements stand out.",
+      "**Color-Coded Ecosystem:** The vibrant accent colors (blue, green, orange) are extracted directly from the logo and assigned to distinct sub-products in the navigation (e.g., green for Dev Mode, orange for Slides) to aid intuitive wayfinding.",
+      "**Alpha-Channel Shading:** Instead of introducing a wide palette of static gray hexes, the design systematically applies alpha transparency to black and white to generate secondary text (#0000008a), subtle borders (#00000029), and beta badges (#00000014)."
+    ]
+  }
+}

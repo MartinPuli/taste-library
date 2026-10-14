@@ -1,0 +1,148 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/anthropic.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal, full-width, sticky header",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Anthropic wordmark logo, black on cream background"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal nav links: Research, Policy, Commitments (dropdown), Learn (dropdown), News"
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Try Claude' – solid black, rounded, white text with dropdown arrow for model selection"
+        },
+        {
+          "type": "button",
+          "description": "Secondary buttons 'Log in to Claude' (solid accent orange) and 'Download app' (outlined)"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Split layout (7 columns / 5 columns), left-aligned headline with right-aligned mission text",
+      "headline": "AI research and products that put safety at the frontier",
+      "subheadline": "AI will have a vast impact on the world. Anthropic is a public benefit corporation...",
+      "components": [
+        {
+          "type": "text",
+          "description": "Large serif headline with underlined links on 'research' and 'products'"
+        },
+        {
+          "type": "text",
+          "description": "Body paragraph on right, warm cream background"
+        }
+      ]
+    },
+    {
+      "type": "Feature / CTA Banner",
+      "layout_pattern": "Centered, full-bleed card with scroll-driven animated background",
+      "headline": "Claude Fable 5.1 and Mythos 5.1",
+      "subheadline": "The world's most advanced models for coding and knowledge work.",
+      "components": [
+        {
+          "type": "video",
+          "description": "Background video of ethereal clouds/sky – soft blues, purples, peach tones – fades out on scroll to reveal canvas animation"
+        },
+        {
+          "type": "canvas",
+          "description": "WebGL2 animated sky gradient (custom Fable sky effect) – dreamy, gradient background"
+        },
+        {
+          "type": "card",
+          "description": "Centered white text overlay on video/canvas background, rounded corners"
+        },
+        {
+          "type": "button",
+          "description": "'Read more' link – white pill-shaped button with arrow icon"
+        }
+      ]
+    },
+    {
+      "type": "Latest Releases / News Grid",
+      "layout_pattern": "Grid 3-column, equal-width cards",
+      "headline": "Latest releases",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Three cards: 'Introducing Fable 5.1 and Mythos 5.1', 'Introducing Opus 5', 'Introducing Sonnet 5' – light beige background, rounded corners, subtle shadow"
+        },
+        {
+          "type": "card",
+          "description": "Each card contains: headline (Display-S), snippet (Paragraph-S), metadata list (Date, Category, Details), and a 'Read announcement' button (black, rounded, white text)"
+        },
+        {
+          "type": "button",
+          "description": "'Read announcement' – solid black rounded button with right arrow icon"
+        }
+      ]
+    },
+    {
+      "type": "Mission Statement / Link List",
+      "layout_pattern": "Split (4 columns / 8 columns), left headline, right link list",
+      "headline": "At Anthropic, we build AI to serve humanity's long-term well-being.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "text",
+          "description": "Bold mission statement on left (4 columns)"
+        },
+        {
+          "type": "card",
+          "description": "Right side (8 columns): structured list of article links, each with title and category tag (gray)"
+        },
+        {
+          "type": "text",
+          "description": "Six items: 'Claude Science', 'Core views on AI safety', 'Anthropic's Responsible Scaling Policy', 'Anthropic Academy', 'Anthropic's Economic Index', 'Claude's Constitution' – each with category label (Announcements, Alignment Science, Education, Economic Research)"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid (5 major columns: Products, Solutions, Claude Platform, Resources/Programs/Help, Company/Terms), dark background",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Anthropic '[A]' monogram in white, top-left of footer"
+        },
+        {
+          "type": "navigation",
+          "description": "Five vertical link columns organized by category headings"
+        },
+        {
+          "type": "text",
+          "description": "Column headings: 'Products', 'Models', 'Solutions', 'Claude Platform', 'Resources', 'Programs', 'Help and security', 'Company', 'Terms and policies' – small, uppercase, gray"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons at bottom: X (Twitter), LinkedIn, YouTube – white outlines on dark background"
+        },
+        {
+          "type": "text",
+          "description": "Copyright text '© 2026 Anthropic PBC' in light gray"
+        }
+      ]
+    }
+  ]
+}

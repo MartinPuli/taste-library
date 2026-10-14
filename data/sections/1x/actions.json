@@ -1,0 +1,148 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Order (Primary CTA)",
+        "usage": "Primary call-to-action for placing pre-orders, appears in hero sections with deposit price context",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ABCDiatype",
+              "size": "14px",
+              "padding": "12px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0, 0, 0, 0.72)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.72)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0, 0, 0, 0.72)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get notified (Form Submit)",
+        "usage": "Email signup form submission button, appears in dark hero sections for newsletter/updates opt-in",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ABCDiatype",
+              "size": "12px",
+              "padding": "18.5px 0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#F7F7F7",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#F7F7F7",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.6",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#F7F7F7",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "btn (Outline Style)",
+        "usage": "Generic button class for outlined style buttons with rounded pill shape",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "ABCDiatype",
+              "size": "14px",
+              "padding": "16px 28px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(0, 0, 0, 0.72)",
+            "border_color": "rgba(0, 0, 0, 0.72)",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#000000",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(0, 0, 0, 0.72)",
+            "border_color": "rgba(0, 0, 0, 0.72)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are typically paired with contextual text labels (e.g., '$200 Deposit' + 'Order' button)",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

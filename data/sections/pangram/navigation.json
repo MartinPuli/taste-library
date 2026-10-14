@@ -1,0 +1,60 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "top_nav": {
+      "height": "48px",
+      "position": "sticky",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Paper Grays/White",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": "0px solid #E2E8F0"
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Segmented Control Tab",
+      "description": "Rounded pill-style tabs used for switching between detection modes (Text Detection / Image Detection). Compact style with background color change on selection.",
+      "when_to_use": [
+        "Switching between related content views",
+        "Mode selection in tool interfaces",
+        "Binary or limited option selection"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "White background with rounded corners",
+          "background": "#FFFFFF",
+          "text": "#14201E",
+          "icon": null
+        },
+        {
+          "name": "default",
+          "visual_change": "No background, text only",
+          "background": "transparent",
+          "text": "#14201E",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Semi-transparent white background on hover",
+          "background": "rgba(255,255,255,0.6)",
+          "text": "#14201E",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

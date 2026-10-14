@@ -1,0 +1,57 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "charts": [],
+    "tables": [
+      {
+        "name": "Benchmark Accuracy List",
+        "description": "Simple two-column list displaying AI model names and their detection accuracy percentages. Minimal styling with bottom borders separating rows.",
+        "when_to_use": [
+          "Displaying performance metrics",
+          "Comparing items with single numeric values",
+          "Compact data presentation"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "AI Model Detection Card",
+        "description": "Feature cards displaying AI model detection capabilities with manufacturer label, model name, accuracy percentage, and test date. Interactive hover state changes background color and corner radius.",
+        "when_to_use": [
+          "Showcasing product capabilities",
+          "Highlighting key metrics",
+          "Feature comparison grids"
+        ]
+      },
+      {
+        "name": "Product Feature Card",
+        "description": "Large image-topped cards with colored backgrounds displaying product features. Includes hover corner peel effect. Used for AI Segment Analysis, AI Assistance, and Plagiarism Checker.",
+        "when_to_use": [
+          "Product feature highlights",
+          "Service descriptions",
+          "Visual content showcasing"
+        ]
+      },
+      {
+        "name": "Dark Feature Card",
+        "description": "Feature cards on dark backgrounds with bookmark accent, icon, title, and description. Semi-transparent teal background on dark green section.",
+        "when_to_use": [
+          "Feature lists on dark sections",
+          "Capability highlights",
+          "Differentiator showcases"
+        ]
+      }
+    ]
+  }
+}

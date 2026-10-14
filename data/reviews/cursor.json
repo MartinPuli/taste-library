@@ -1,0 +1,57 @@
+{
+  "id": "cursor",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A warm white page uses a compact headline and dark download button above a large code-editor demonstration.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/viewport.jpg",
+    "sha256": "65c8fbd87f3e9c0e752a901d66d12657f69a3567da1557f696e802995fd032c1"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/styles.css",
+    "sha256": "1ccd702b12a1e02e999d60a18fd0f6b18822c29c796eb9f3a3c759aa2adcc4f5",
+    "bytes": 510529,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#26251E",
+      "#F2F1ED",
+      "#000000",
+      "#0A0A0A",
+      "#F54E00"
+    ],
+    "palette_literals_checked": [
+      "#26251E",
+      "#F2F1ED",
+      "#000000",
+      "#0A0A0A",
+      "#F54E00"
+    ],
+    "font_names_found": [
+      "CursorGothic",
+      "system-ui",
+      "EB Garamond",
+      "berkeleyMono",
+      "Lato"
+    ],
+    "font_names_checked": [
+      "CursorGothic",
+      "system-ui",
+      "EB Garamond",
+      "berkeleyMono",
+      "Lato"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "cd5608f1a286fc477a1cb8fc51ad00219318d0a2f9d9bb2f5eabb726f513dc99"
+}

@@ -1,0 +1,283 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Sign In (Primary Inverted - Dark)",
+        "usage": "Primary navigation CTA used in the header on dark backgrounds, links to app sign-in",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Graphik",
+              "size": "14px",
+              "padding": "0px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Try for free (Primary Hero CTA)",
+        "usage": "Main hero call-to-action button on dark backgrounds, links to app",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Graphik",
+              "size": "18px",
+              "padding": "0px 32px"
+            },
+            {
+              "name": "Default",
+              "font": "Graphik",
+              "size": "16px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Product Hero Shots (Suggestion Pill)",
+        "usage": "Suggestion pills below the prompt input area to help users get started with creative prompts",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Graphik",
+              "size": "14px",
+              "padding": "0px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Try Free (Announcement Banner CTA - Light)",
+        "usage": "Secondary CTA button in the announcement banner on light backgrounds",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Graphik",
+              "size": "14px",
+              "padding": "0px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn more (Announcement Banner Secondary)",
+        "usage": "Secondary link-style button in announcement banner, used for less prominent actions",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Graphik",
+              "size": "14px",
+              "padding": "0px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Prompt Submit)",
+        "usage": "Circular icon-only button for submitting the prompt form, contains arrow icon",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "",
+              "size": "44px",
+              "padding": "0px"
+            },
+            {
+              "name": "Default",
+              "font": "",
+              "size": "32px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#595959",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#595959",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.7",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are typically displayed inline with flex layout and gap spacing",
+      "spacing": "12px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "top_nav": {
+      "height": "64px",
+      "position": "sticky",
+      "background": {
+        "hex": "#FDFDFD",
+        "color_reference": "Baseline/Snow White",
+        "opacity": "0.9",
+        "blur": "backdrop-filter: blur(4px)"
+      },
+      "border_bottom": "1px solid var(--border-default)"
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Pill Tab",
+      "description": "Tabs organize content into multiple sections with pill-shaped styling and rounded-full borders.",
+      "when_to_use": [
+        "Dashboard content switching (Table Editor, SQL Editor, RLS Policies)",
+        "Framework selection (React, Angular, Vue, etc.)"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Opacity at 80%, standard border",
+          "background": "var(--bg-alternative)",
+          "text": "var(--foreground-lighter)",
+          "icon": null
+        },
+        {
+          "name": "selected",
+          "visual_change": "Opacity 100%, border color changes to foreground",
+          "background": "var(--bg-alternative)",
+          "text": "var(--foreground)",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Border color lightens, text becomes foreground",
+          "background": null,
+          "text": "var(--foreground)",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

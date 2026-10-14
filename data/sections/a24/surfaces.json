@@ -1,0 +1,163 @@
+{
+  "id": "a24",
+  "source_url": "https://a24films.com/",
+  "captured_at": "2026-10-14T05:05:03.673018Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/a24.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/a24.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear"
+    ],
+    "solid_colors": [
+      {
+        "name": "Primary Background",
+        "description": "Main page background color",
+        "when_to_use": [
+          "Page backgrounds",
+          "Header backgrounds",
+          "Card backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Primary Foreground",
+        "description": "Primary black surface for high contrast elements",
+        "when_to_use": [
+          "Footer backgrounds",
+          "Mobile menu backgrounds",
+          "Search overlay backgrounds",
+          "Modal overlays"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Light Gray Surface",
+        "description": "Light gray surface for secondary elements",
+        "when_to_use": [
+          "Flash messages",
+          "Responsive image placeholders",
+          "Hover states"
+        ],
+        "hex": "#EEEEEE"
+      },
+      {
+        "name": "Mid Gray Surface",
+        "description": "Mid-tone gray for inactive states",
+        "when_to_use": [
+          "Hover states",
+          "Link underlines",
+          "Disabled states"
+        ],
+        "hex": "#888888"
+      },
+      {
+        "name": "Dark Gray Surface",
+        "description": "Dark gray background for featured items",
+        "when_to_use": [
+          "Featured mobile item backgrounds"
+        ],
+        "hex": "#646464"
+      },
+      {
+        "name": "Indicator Line",
+        "description": "Scrollbar track and UI indicators",
+        "when_to_use": [
+          "Scrollbar thumbs",
+          "Progress indicators"
+        ],
+        "hex": "#444444"
+      },
+      {
+        "name": "Light Border Gray",
+        "description": "Light gray for borders and disabled states",
+        "when_to_use": [
+          "Disabled button icons",
+          "Subtle borders"
+        ],
+        "hex": "#CACACA"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Link Underline Gradient",
+        "description": "Horizontal gradient creating underline effect for links in text content on retina displays",
+        "when_to_use": [
+          "Text content link underlines (h1, h2, large text)"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent 86%, #888888 86%, #888888 91%, transparent 91%)"
+      },
+      {
+        "name": "Link Underline Hover Gradient",
+        "description": "Horizontal gradient for link underline hover state on retina displays",
+        "when_to_use": [
+          "Text content link underlines on hover"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent 86%, black 86%, black 91%, transparent 91%)"
+      },
+      {
+        "name": "Media Tile Overlay Fade",
+        "description": "Vertical gradient from transparent to black, creating a fade effect at the bottom of media tiles",
+        "when_to_use": [
+          "Media tile overlay bottom fade",
+          "Image overlay effects"
+        ],
+        "css_code": "linear-gradient(transparent 0%, black 90%)"
+      },
+      {
+        "name": "Shop Product Hover Overlay",
+        "description": "Semi-transparent black overlay for product tiles on hover",
+        "when_to_use": [
+          "Product tile hover states"
+        ],
+        "css_code": "rgba(0, 0, 0, 0.55)"
+      },
+      {
+        "name": "Modal Background Overlay",
+        "description": "Dark semi-transparent overlay for modals and full-screen overlays",
+        "when_to_use": [
+          "Modal backgrounds",
+          "Search overlays",
+          "Media tile overlays"
+        ],
+        "css_code": "rgba(0, 0, 0, 0.9)"
+      },
+      {
+        "name": "Loader Background",
+        "description": "Light semi-transparent white overlay for fullscreen loading states",
+        "when_to_use": [
+          "Fullscreen loader backgrounds"
+        ],
+        "css_code": "rgba(255, 255, 255, 0.9)"
+      },
+      {
+        "name": "Slideshow Indicator Active",
+        "description": "Semi-transparent white for active slideshow indicators",
+        "when_to_use": [
+          "Active slideshow dots"
+        ],
+        "css_code": "rgba(255, 255, 255, 0.75)"
+      },
+      {
+        "name": "Slideshow Indicator Inactive",
+        "description": "More transparent white for inactive slideshow indicators",
+        "when_to_use": [
+          "Inactive slideshow dots"
+        ],
+        "css_code": "rgba(255, 255, 255, 0.5)"
+      }
+    ],
+    "highlights": [
+      "SVG icon patterns embedded via data URIs throughout interface (arrows, search, close, play, etc.)",
+      "Animated loader icons using CSS spin animation with circular partial-stroke SVG",
+      "Responsive image placeholders with light gray (#EEEEEE) background",
+      "Black background surfaces (#000000) used for featured item images and hero sections",
+      "White indicator lines with height transitions on mobile featured carousel",
+      "Slideshow navigation arrows with white SVG icons on semi-transparent backgrounds"
+    ]
+  }
+}

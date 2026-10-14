@@ -1,0 +1,244 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/stripe.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar with left-aligned logo, center menu items, and right-aligned actions",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Stripe wordmark in purple/indigo on white background"
+        },
+        {
+          "type": "navigation",
+          "description": "Dropdown menu items: Products, Solutions, Developers, Resources, Pricing with chevron icons"
+        },
+        {
+          "type": "button",
+          "description": "'Sign in' text link in dark gray"
+        },
+        {
+          "type": "button",
+          "description": "'Contact sales' primary button with purple background"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered content with large headline, subheadline, and CTAs; abstract gradient background",
+      "headline": "Financial infrastructure to grow your revenue.",
+      "subheadline": "Accept payments, send payouts, and power-up with...",
+      "components": [
+        {
+          "type": "button",
+          "description": "'Start now →' solid purple pill-shaped primary CTA"
+        },
+        {
+          "type": "button",
+          "description": "'Sign up with Google' secondary button with Google icon and translucent white background"
+        },
+        {
+          "type": "image",
+          "description": "Colorful gradient blob overlay with organic flowing shapes in orange, pink, and purple"
+        },
+        {
+          "type": "animation",
+          "description": "Dynamic wave animation with gradient (WebGL/Canvas)"
+        }
+      ]
+    },
+    {
+      "type": "Trust Badge",
+      "layout_pattern": "Centered text with badge and link",
+      "headline": "Global GDP running on Stripe:",
+      "subheadline": "1.717597889%",
+      "components": [
+        {
+          "type": "button",
+          "description": "'Learn more →' text link with arrow"
+        }
+      ]
+    },
+    {
+      "type": "Logo Carousel",
+      "layout_pattern": "Horizontal scrolling marquee with company logos",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Auto-scrolling logo strip featuring OpenAI, Amazon, Nvidia, Ford, Coinbase, Google, Shopify, and more in monochrome gray"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "2x2 grid of interactive cards with gradients",
+      "headline": "Flexible solutions for every business model.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Payments card: Mobile phone mockup with purple/pink gradient background showing payment interface, Terminal POS device, checkout UI screenshots"
+        },
+        {
+          "type": "card",
+          "description": "Billing card: Dashboard screenshot with orange gradient accent showing usage-based billing charts and meter bars"
+        },
+        {
+          "type": "card",
+          "description": "Agentic Commerce card: AI shopping cart interface with product imagery and network visualization"
+        },
+        {
+          "type": "card",
+          "description": "Issuing card: Card program UI with gradient accents"
+        },
+        {
+          "type": "card",
+          "description": "Crypto card: Crypto payment interface with purple/pink gradient"
+        },
+        {
+          "type": "card",
+          "description": "Connect card: Platform/API dashboard screenshot with transaction list and photo background"
+        }
+      ]
+    },
+    {
+      "type": "Sessions Promo",
+      "layout_pattern": "Full-width banner with gradient background",
+      "headline": "Building the economic infrastructure for AI",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Gradient background image (purple/blue radial gradient)"
+        },
+        {
+          "type": "logo",
+          "description": "Stripe Sessions logo in white"
+        },
+        {
+          "type": "button",
+          "description": "'Watch now' primary CTA button"
+        }
+      ]
+    },
+    {
+      "type": "Stats",
+      "layout_pattern": "Centered headline with 2x2 stat grid on mobile, horizontal on desktop; background gradient animation",
+      "headline": "The backbone of global commerce",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Stat: '135+ currencies and payment methods supported' with large numeric display"
+        },
+        {
+          "type": "card",
+          "description": "Stat: '$1.9T in payments volume processed in 2025' with tabular numerals"
+        },
+        {
+          "type": "card",
+          "description": "Stat: '99.999% historical uptime for Stripe services' with link"
+        },
+        {
+          "type": "card",
+          "description": "Stat: '200M+ active subscriptions managed on Stripe Billing'"
+        },
+        {
+          "type": "image",
+          "description": "Abstract data visualization globe showing global payment network activity"
+        },
+        {
+          "type": "animation",
+          "description": "Animated gradient background cycling through dawn, sunrise, daytime, dusk, sunset, night color schemes"
+        }
+      ]
+    },
+    {
+      "type": "Case Studies",
+      "layout_pattern": "Vertical accordion with expandable customer stories",
+      "headline": "Powering businesses of all sizes.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "accordion",
+          "description": "Hertz case study: aerial street intersection photo, stats (160 countries, 11K+ locations), expandable content"
+        },
+        {
+          "type": "accordion",
+          "description": "URBN case study: clothing boutique exterior photo with Stripe logo window frame"
+        },
+        {
+          "type": "accordion",
+          "description": "Instacart case study: overhead view of grocery delivery bag"
+        },
+        {
+          "type": "accordion",
+          "description": "Le Monde case study: Parisian newspaper kiosk photo"
+        },
+        {
+          "type": "button",
+          "description": "'Stripe for enterprises' primary CTA"
+        }
+      ]
+    },
+    {
+      "type": "Footer CTA",
+      "layout_pattern": "Dark navy background with multiple sections stacked vertically",
+      "headline": "Ready to activate of how you run your...",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Start now →' solid blue/purple button"
+        },
+        {
+          "type": "button",
+          "description": "'Contact sales' outline button with white border"
+        },
+        {
+          "type": "divider",
+          "description": "Horizontal rule separator"
+        },
+        {
+          "type": "button",
+          "description": "'Get started' blue button for developer section"
+        },
+        {
+          "type": "image",
+          "description": "Blue network/connection visualization diagram with glowing connections between nodes labeled 'STRIPE', 'ISO', 'USERS'"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "4-column link grid on dark navy background",
+      "headline": null,
+      "subheadline": "Built with a foundation...",
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Four columns: PRODUCTS (Payments, Billing, Connect), TOOLS (Apps, APIs, Tools), COMPANY (About, News, Team), RESOURCES (Support, Blog, Partners)"
+        },
+        {
+          "type": "logo",
+          "description": "Stripe wordmark in white"
+        }
+      ]
+    }
+  ]
+}

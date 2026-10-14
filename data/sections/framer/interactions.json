@@ -1,0 +1,60 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "global_patterns": [
+      "marquee",
+      "sticky_header",
+      "scroll_reveal",
+      "hover_transform",
+      "video_background"
+    ],
+    "animations": [
+      {
+        "name": "scroll-reveal",
+        "css": "",
+        "description": "Elements fade in and translate upward as they enter viewport; JS-driven via Framer motion library"
+      },
+      {
+        "name": "marquee-logos",
+        "css": "",
+        "description": "Continuous horizontal scroll animation for partner logo strip; JS-driven infinite scroll"
+      },
+      {
+        "name": "hover-opacity",
+        "css": "transition: opacity 0.2s ease",
+        "description": "Navigation links transition opacity on hover from 0.6 to 1"
+      },
+      {
+        "name": "button-hover",
+        "css": "transition: background-color 0.15s ease, transform 0.15s ease",
+        "description": "Buttons smoothly transition background color and subtle scale on hover"
+      },
+      {
+        "name": "card-glow",
+        "css": "",
+        "description": "Animated glowing border effect on feature cards using radial gradient mask; JS-driven"
+      },
+      {
+        "name": "video-autoplay",
+        "css": "",
+        "description": "Hero section contains autoplay looping video showcasing product interface"
+      }
+    ],
+    "insights": [
+      "The design system uses a dark-first approach with pure black (#000000) backgrounds and white/semi-transparent white for text and UI elements, creating high contrast and a modern tech aesthetic.",
+      "Interactive elements consistently use 8px border-radius (rounded-lg) and rely on opacity changes and subtle background color shifts for hover states rather than dramatic color changes.",
+      "Motion design is predominantly JS-driven (Framer) with scroll-triggered reveals and continuous marquee animations, while CSS handles simpler hover transitions with consistent 0.15-0.2s timing."
+    ]
+  }
+}

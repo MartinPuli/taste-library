@@ -1,0 +1,41 @@
+{
+  "id": "midjourney",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A blue ASCII-style illustration fills the top of a dark page. Colored entry buttons lead into narrow monospace text sections.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-full.jpg",
+    "sha256": "91b823fb2c323506562092d5e46e7596f24db976536f4a73c4c187155e64bc40"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl.css",
+    "sha256": "895f0bb0f844757164c1b3029184328916b86bfba964cf748c8b7658e5488583",
+    "bytes": 1179,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [],
+    "palette_literals_checked": [
+      "#06051D",
+      "#63B3ED",
+      "#CAD5E2",
+      "#2D0E36"
+    ],
+    "font_names_found": [],
+    "font_names_checked": [
+      "JetBrains Mono",
+      "DM Sans"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "0434ff3dc36585dc5b08faa1a8d7e39e0a5f7002098d891a469fc7234855efce"
+}

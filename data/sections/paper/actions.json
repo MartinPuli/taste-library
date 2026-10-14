@@ -1,0 +1,146 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "download Paper (Primary CTA)",
+        "usage": "Primary call-to-action button used in hero section and key conversion points. Dark background with light text for maximum visibility.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Matter, system-ui",
+              "size": "18px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#181818",
+            "text_color": "#FCFCF9",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FCFCF9",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#181818",
+            "text_color": "#FCFCF9",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "download for Windows (Primary CTA - Light on Dark)",
+        "usage": "Primary CTA variant used in dark sections or cards. Light background on dark contexts.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Matter, system-ui",
+              "size": "18px",
+              "padding": "6px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FCFCF9",
+            "text_color": "#181818",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#181818",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FCFCF9",
+            "text_color": "#181818",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Used for menu toggle, close, and utility actions in the navigation bar. Circular shape with hover background.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#181818",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.05)",
+            "text_color": "#181818",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#181818",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are arranged inline with flexible spacing for hero CTAs",
+      "spacing": "28px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

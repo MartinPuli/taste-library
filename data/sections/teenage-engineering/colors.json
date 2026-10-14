@@ -1,0 +1,138 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Primary high-contrast color used for base text, underline states, and premium product card surfaces.",
+          "when_to_use": [
+            "Global body text",
+            "Link text decoration color",
+            "Background fill for standout product cards ('field system', 'OB-4')",
+            "Select dropdown text"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Ink",
+        "type": "Dark",
+        "rules": {
+          "description": "A deep, near-black ink used heavily for navigation, footers, and large architectural blocks.",
+          "when_to_use": [
+            "Header navigation icons and text fills",
+            "Footer and mobile menu background fill",
+            "'Explore all products' container background",
+            "Text for specific product titles (e.g., 'pocket operator')"
+          ]
+        },
+        "hex": "#0F0E12",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#231F20",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.1461
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Mid Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A mid-tone gray utilized for secondary information, muted icons, and subtle interactive elements.",
+          "when_to_use": [
+            "Product titles on black cards ('field system', 'OB-4')",
+            "Footer navigational icons and chevrons",
+            "'Join our newsletter' button background"
+          ]
+        },
+        "hex": "#B2B2B2",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0573
+      },
+      {
+        "name": "Paper",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational bright palette defining the page canvas, distinct card surfaces, and inverted typography.",
+          "when_to_use": [
+            "Global page background (pure white)",
+            "Standard product card backgrounds (off-white)",
+            "Inverted text on dark footer and product cards",
+            "Mobile menu text and Japanese footer text"
+          ]
+        },
+        "hex": "#E5E5E5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F6F8F7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5F5F5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F1F2F2",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.06449999999999999
+      },
+      {
+        "name": "Signal Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "The sole vibrant accent color in the entire design, strictly reserved for driving conversions.",
+          "when_to_use": [
+            "'Buy now' action links on product cards"
+          ]
+        },
+        "hex": "#0071BB",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0134
+      }
+    ],
+    "insights": [
+      "The palette is starkly minimalist and strictly monochromatic, relying on pure black, off-whites, and grays to let the product photography stand out.",
+      "Surface hierarchy is achieved without borders; instead, subtle off-white and light gray tints separate standard product cards from the pure white page background.",
+      "By restricting color almost entirely, the single vivid blue creates an undeniable focal point specifically tailored to purchasing actions."
+    ]
+  }
+}

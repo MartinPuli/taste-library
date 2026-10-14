@@ -1,0 +1,51 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default with animated expand/collapse transitions"
+    },
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Horizontal rule separating major content sections",
+        "when_to_use": [
+          "Between homepage content blocks",
+          "Separating category sections"
+        ],
+        "color": "#A7A7A7",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Search Results Divider",
+        "description": "Subtle gray divider between search result groups",
+        "when_to_use": [
+          "Between search result items",
+          "Separating filter panels"
+        ],
+        "color": "#CCCCCC",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Menu Divider",
+        "description": "Vertical divider in mega menu navigation separating category lists",
+        "when_to_use": [
+          "Mega menu category separation"
+        ],
+        "color": "#DEDFDF",
+        "height": "100%",
+        "style": "solid"
+      }
+    ]
+  }
+}

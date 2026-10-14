@@ -1,0 +1,38 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Voice Card (Circular)",
+        "description": "Circular voice preview cards with gradient background images, play button overlay, and ring border on hover. Used in voice carousel to showcase AI voice samples.",
+        "when_to_use": [
+          "Voice library browsing",
+          "Audio preview galleries",
+          "Interactive audio showcases"
+        ]
+      },
+      {
+        "name": "Product Tab Card",
+        "description": "Tab-based product selector with icon avatars and pill-shaped backgrounds. Shows product categories like ElevenCreative, ElevenAgents, ElevenAPI.",
+        "when_to_use": [
+          "Product category navigation",
+          "Feature section switching",
+          "Demo content filtering"
+        ]
+      }
+    ]
+  }
+}

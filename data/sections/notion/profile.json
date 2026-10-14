@@ -1,0 +1,57 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "brand_name": "Notion",
+    "tagline": null,
+    "source_url": "https://www.notion.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / Productivity",
+    "primary_purpose": "Drive signups and demo requests by positioning Notion as an AI-powered workspace where teams and agents collaborate",
+    "main_cta": "Get Notion free",
+    "copy_tone": [
+      "Confident",
+      "Approachable",
+      "Action-oriented"
+    ],
+    "brand_signature": "Clean, minimal aesthetic with generous white space and a warm off-white background. Bold sans-serif typography dominates headlines while playful hand-drawn illustrations and colorful accents add personality. Product UI screenshots with subtle shadows create depth and demonstrate real functionality.",
+    "visual_language": {
+      "keywords": [
+        "minimal",
+        "warm",
+        "playful",
+        "product-forward",
+        "accessible",
+        "clean"
+      ],
+      "accent_strategy": "Soft categorical colors (blue, yellow, red, green) used for feature differentiation and agent icons, applied sparingly against neutral backgrounds",
+      "highlights": "Subtle drop shadows on UI elements, animated pill badges with dot indicators, and hand-drawn character illustrations peeking from edges"
+    },
+    "strategy": {
+      "target_audience": [
+        "Product managers and team leads seeking unified workspace tools for documentation and project management",
+        "Enterprise decision-makers evaluating AI-enhanced productivity platforms for large organizations",
+        "Startup founders and small business owners looking for flexible, scalable team collaboration software",
+        "Developers and technical teams needing customizable workflow automation"
+      ],
+      "executive_synthesis": "Notion's visual strategy bridges enterprise credibility with startup approachability through a dual-tone approach: the extensive Fortune 500 logo wall and clean product UI establish professional trust, while playful illustrations and warm tones lower adoption friction. The hero's animated verb cycle (Jam/Ship/Build) communicates platform versatility while the AI agent messaging positions Notion beyond traditional note-taking into workflow automation. The bento grid structure efficiently demonstrates three core value propositions (Capture, Find, Automate) with progressive disclosure, optimizing for both quick scanning and deeper exploration."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "**Visual Analysis:** The screenshot reveals an exceptionally clean, modern SaaS landing page dominated by white space, crisp black typography, and a single blue accent color. The design communicates professionalism and clarity through its restrained palette and systematic layout.\n\n**Forensic Evidence Supporting Flat Design:**\n1. **Color Cleanliness = Clean/Pure:** The palette is starkly limited—Ink Black (#000000), Paper White (#FFFFFF), and Action Blue (#097FE8). This three-color discipline with opacity variations is textbook Flat Design restraint.\n\n2. **Dimensionality = Flat (2D):** While soft shadows exist (--tatami-shadow-100/200/300), they are extremely subtle and functional rather than decorative. The texture_classification confirms \"shadows_soft\" only—no gradients, gloss, or 3D effects. Elements don't attempt to simulate real-world materials.\n\n3. **Shape Language = Geometric:** The layout profile shows a strict 12-column grid with centered symmetric composition. Cards use consistent rounded corners (.5rem to 1rem) with geometric shapes throughout. The pill-shaped CTAs and circular colored dots (blue, yellow, red, green, navy) are pure geometric primitives.\n\n4. **Typography = Sans-Serif Modern (NotionInter/Inter):** The entire typography system uses a single geometric sans-serif family with tight tracking, creating the clinical precision characteristic of Flat Design.\n\n5. **Layout Structure = Rigid Grid:** The 12-column grid, generous 64-160px section spacing, and card-based modular system demonstrate strict structural discipline. Centered symmetric composition throughout.\n\n**Key Differentiator:** This is NOT Minimalism despite the whitespace because the page has substantial content density—multiple sections, feature cards, testimonials, stats bars, and colorful accent elements. Flat Design embraces bold, saturated colors and content within clean 2D surfaces.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "**Corporate Modifier Evidence:** The design exhibits classic B2B SaaS conventions that signal trust, reliability, and competence:\n- Logo strip of enterprise clients (OpenAI, Figma, FedEx, Toyota, nvidia) establishes credibility\n- Testimonial cards with executive titles and company names\n- Statistics bar with metrics (100M users, Fortune 100 usage)\n- Professional, formal tone in copy (\"Trusted by teams that ship\")\n- Conservative color choices (blue = trustworthiness)\n- Serif font (Lyon Text) reserved for editorial quotes adds gravitas\n\nThe design deliberately avoids playfulness or experimentation in favor of communicating enterprise-readiness and reliability—hallmarks of the Corporate tonal style layered onto the Flat Design foundation."
+    }
+  }
+}

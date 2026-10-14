@@ -1,0 +1,401 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "TwitterChirp",
+          "role": "Jumbo Heading (Mobile)",
+          "specs": {
+            "size": "50px",
+            "line_height": "0.9",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Jumbo Heading (Desktop)",
+          "specs": {
+            "size": "64px",
+            "line_height": "57.6px",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Title 1",
+          "specs": {
+            "size": "calc(34 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(40 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Title 2",
+          "specs": {
+            "size": "calc(30 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(36 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Title 3",
+          "specs": {
+            "size": "calc(26 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(32 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Title 4",
+          "specs": {
+            "size": "calc(23 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(28 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Headline 1",
+          "specs": {
+            "size": "calc(20 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(24 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Headline 2",
+          "specs": {
+            "size": "calc(17 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(20 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text definitions utilizing fluid CSS root calculations for scale consistency and general readability.",
+      "variants": [
+        {
+          "name": "TwitterChirp",
+          "role": "Body",
+          "specs": {
+            "size": "calc(15 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(20 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Subtext 1",
+          "specs": {
+            "size": "calc(14 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(16 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Subtext 2",
+          "specs": {
+            "size": "calc(13 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(16 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Subtext 3",
+          "specs": {
+            "size": "calc(11 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "calc(12 / var(--x-root-font-size,16) * 1rem * 1)",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Paragraph Small",
+          "specs": {
+            "size": "12px",
+            "line_height": "18px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Utilitarian styles used for buttons, inputs, placeholders, captions, and footer links.",
+      "variants": [
+        {
+          "name": "TwitterChirp",
+          "role": "Button Primary",
+          "specs": {
+            "size": "17px",
+            "line_height": "20px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Button Secondary",
+          "specs": {
+            "size": "15px",
+            "line_height": "20px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Button Small / Google",
+          "specs": {
+            "size": "14px",
+            "line_height": "20px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Input Placeholder",
+          "specs": {
+            "size": "12px",
+            "line_height": "18px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Footer Links / Micro",
+          "specs": {
+            "size": "calc(11 / var(--x-root-font-size,16) * 1rem * 1)",
+            "line_height": "24px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "TwitterChirp",
+          "role": "Caption",
+          "specs": {
+            "size": "14px",
+            "line_height": "17.5px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "System monospace fallbacks for specific element styling or code contexts.",
+      "variants": [
+        {
+          "name": "SFMono-Regular",
+          "role": "Monospace",
+          "specs": {
+            "size": "1em",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "system"
+          },
+          "technical": {
+            "font_family_css": "ui-monospace, SFMono-Regular, \"SF Mono\", Menlo, Consolas, \"Liberation Mono\", monospace",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "highlights": "Heavy reliance on the custom brand font 'TwitterChirp' for all UI text, with inline responsive adjustments. Negative tracking is applied to large headings to improve visual coherence.",
+    "insights": [
+      "The system uses fluid 'calc' calculations tied to a root font size CSS variable, allowing the typography scale to intelligently adapt to user preferences and screen contexts.",
+      "A strict hierarchical scaling is implemented, shifting seamlessly from very tight line-heights on display headings (0.9) to readable body paragraph line-heights (1.33).",
+      "Consistently heavy use of medium (500) and semibold (600) weights to separate interactive and layout-critical components from regular prose, projecting structural clarity."
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "carousel",
+      "hover_transform",
+      "scroll_reveal"
+    ],
+    "animations": [
+      {
+        "name": "fade-in",
+        "css": "@keyframes fade-in{0%{opacity:0}to{opacity:1}}",
+        "description": "Fade in animation used for menu backdrop appearing"
+      },
+      {
+        "name": "fade-out",
+        "css": "@keyframes fade-out{0%{opacity:1}to{opacity:0}}",
+        "description": "Fade out animation for menu backdrop closing"
+      },
+      {
+        "name": "slide-in-right",
+        "css": "@keyframes slide-in-right{0%{transform:translate(100%)}to{transform:translate(0)}}",
+        "description": "Slide panel animation from right for mobile menu opening"
+      },
+      {
+        "name": "slide-out-right",
+        "css": "@keyframes slide-out-right{0%{transform:translate(0)}to{transform:translate(100%)}}",
+        "description": "Slide panel animation to right for mobile menu closing"
+      },
+      {
+        "name": "slide-in-left",
+        "css": "@keyframes slide-in-left{0%{transform:translate(-100%)}to{transform:translate(0)}}",
+        "description": "RTL slide panel animation from left for mobile menu opening"
+      },
+      {
+        "name": "item-slide-in",
+        "css": "@keyframes item-slide-in{0%{opacity:0;transform:translate(100px)}to{opacity:1;transform:translate(0)}}",
+        "description": "Staggered slide-in animation for menu items appearing sequentially"
+      },
+      {
+        "name": "fly-in",
+        "css": "@keyframes fly-in{0%{opacity:0;transform:translate(100px)}to{opacity:1;transform:translate(0)}}",
+        "description": "Navigation bar links fly-in animation with opacity fade"
+      },
+      {
+        "name": "ot-slide-in-left",
+        "css": "@keyframes ot-slide-in-left{from{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0)}to{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}",
+        "description": "Cookie consent panel slide-in from left"
+      },
+      {
+        "name": "ot-slide-in-right",
+        "css": "@keyframes ot-slide-in-right{from{-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0)}to{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}",
+        "description": "Cookie consent panel slide-in from right"
+      },
+      {
+        "name": "image-fade-in",
+        "css": "@keyframes WvqjIO41Fsk89RJ0u2WC{0%{opacity:0}to{opacity:1}}",
+        "description": "Image lazy load fade-in with CSS variable-controlled duration"
+      },
+      {
+        "name": "skeleton-pulse",
+        "css": "@keyframes lQkgciaTmC8zYvs8mthp{0%{opacity:1}50%{opacity:.2}to{opacity:1}}",
+        "description": "Loading skeleton pulsing animation for content placeholders"
+      },
+      {
+        "name": "tooltip-fade-in",
+        "css": "@keyframes hrbk9lVJJmouHV2dA2V1{0%{opacity:0}to{opacity:1}}",
+        "description": "Tooltip fade-in animation with 0.2s ease-in-out timing"
+      },
+      {
+        "name": "preview-banner-slide-up",
+        "css": "@keyframes JToa6JxJQDbYB3LM5kAL{0%{transform:translateY(100%)}to{transform:translateY(0)}}",
+        "description": "Bottom preview banner slide-up animation on page load"
+      },
+      {
+        "name": "spinner-rotate",
+        "css": "@keyframes AcXy2v5eWTO5LJi1noYs{/* animation reference for loading spinner */}",
+        "description": "Loading spinner infinite rotation animation (JS-driven)"
+      },
+      {
+        "name": "button-hover-transition",
+        "css": "transition-duration:.15s;transition-timing-function:cubic-bezier(.3, 0, 0, 1)",
+        "description": "Button hover scale transition with Spotify's productive easing curve"
+      },
+      {
+        "name": "productive-enter",
+        "css": "transition: .25s cubic-bezier(0, 0, .2, 1)",
+        "description": "Spotify Encore design system productive entrance transition"
+      },
+      {
+        "name": "productive-exit",
+        "css": "transition: .2s cubic-bezier(.8, 0, 1, 1)",
+        "description": "Spotify Encore design system productive exit transition"
+      },
+      {
+        "name": "overlay-enter",
+        "css": "transition:opacity .25s cubic-bezier(0, 0, .2, 1),transform .25s cubic-bezier(0, 0, .2, 1)",
+        "description": "Popover/overlay entrance transition with opacity and transform"
+      }
+    ],
+    "insights": [
+      "Spotify uses a consistent pill-shaped (rounded-full) button pattern across all CTAs with scale(1.04) hover transform for tactile feedback, creating a bouncy, playful interaction feel.",
+      "The dark theme relies heavily on opacity and color value hierarchy (#FFFFFF for primary, #B3B3B3 for secondary, #939393 for tertiary) rather than different hues, letting album art be the primary color source.",
+      "Mobile-first horizontal scroll carousels with CSS snap scrolling are the dominant content discovery pattern, with staggered slide-in animations creating perceived speed and delight during navigation transitions."
+    ]
+  }
+}

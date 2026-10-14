@@ -1,0 +1,52 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "assets",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/assets",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "logos": [
+      {
+        "role": "Favicon",
+        "format": "PNG",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.png",
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.png",
+        "origin_url": "https://x.com/apple-touch-icon.png",
+        "description": "Apple Touch Icon"
+      },
+      {
+        "role": "Favicon",
+        "format": "ICO",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.ico",
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/logos/favicon.ico",
+        "origin_url": "https://x.com/favicon.ico",
+        "description": "Favicon"
+      }
+    ],
+    "media": [
+      {
+        "name": "X Open Graph Image",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/x-open-graph-image.png",
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/x-open-graph-image.png",
+        "origin_url": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+        "usage_context": "Meta og:image — social share preview."
+      },
+      {
+        "name": "Shooting Stars Background",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/shooting-stars-background.png",
+        "path": "25722e0c-dcc9-4d37-a242-74af1bbff03f/site-assets/media/image/shooting-stars-background.png",
+        "origin_url": "https://abs.twimg.com/images/shooting_stars_background.png",
+        "usage_context": "Background image for promotional or decorative sections."
+      }
+    ]
+  }
+}

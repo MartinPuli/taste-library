@@ -1,0 +1,252 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary high-contrast foreground color for typography, icons, and solid accents.",
+          "when_to_use": [
+            "Body text and primary headings",
+            "Primary CTA button backgrounds (e.g., 'download Paper')",
+            "SVG iconography (strokes and fills)"
+          ]
+        },
+        "hex": "#181818",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#11161F",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#222222",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0053
+      },
+      {
+        "name": "True Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Used strictly as an alpha-channel base to generate shadows, text opacities, and grid patterns.",
+          "when_to_use": [
+            "Component box shadows on navigation and cards",
+            "Translucent text and overlays within the app mockup",
+            "Linear gradients for background grid patterns"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.1387
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Paper Cream",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational light surface color that gives the brand its namesake warm, physical 'paper' feel.",
+          "when_to_use": [
+            "Global page background",
+            "Sticky navigation bar background",
+            "Feature card and layout grid cell fills",
+            "Application mockup surface panels"
+          ]
+        },
+        "hex": "#FCFCF9",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#EFEFE4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#DCDEE1",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EAEAE7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F9F9F9",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F2F2F2",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E2E2E2",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F7F8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F4F4F4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#DDDDDD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FDFDFD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCFBFD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F6F6",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.049300000000000004
+      },
+      {
+        "name": "Blueprint Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A structural mid-gray used exclusively to define the rigorous layout grid and geometric illustrations.",
+          "when_to_use": [
+            "Feature grid borders and dividers",
+            "SVG background grid lines and decorative circles",
+            "Decorative corner vertex squares"
+          ]
+        },
+        "hex": "#D7D7D6",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#C1C1C0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#BDBFC3",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#DADADA",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D8D7D8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D7D7D7",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.039400000000000004
+      },
+      {
+        "name": "Muted Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A low-contrast gray for secondary typography and inactive interface elements.",
+          "when_to_use": [
+            "Hero section subheadings",
+            "Social proof labels ('used in production by designers at')",
+            "Inactive icons and secondary text within app mockups"
+          ]
+        },
+        "hex": "#909090",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#797979",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#7F8389",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#959595",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#808080",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0217
+      }
+    ],
+    "insights": [
+      "The palette adopts a digital brutalist, print-inspired aesthetic by relying on warm off-white 'paper' backgrounds and stark 'ink' typography.",
+      "Rather than relying on varied background tints to divide content, the design uses a rigorous, blueprint-style border system to establish spatial hierarchy.",
+      "True Black is reserved almost exclusively for alpha-transparency (shadows, overlays, and halftone dots), ensuring the primary text and buttons (#181818) feel purposefully printed and grounded."
+    ]
+  }
+}

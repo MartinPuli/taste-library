@@ -1,0 +1,42 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Border",
+        "description": "Light border used between sections and around cards for subtle separation.",
+        "when_to_use": [
+          "Card borders",
+          "Section separations",
+          "Container outlines"
+        ],
+        "color": "rgba(0,0,0,0.1)",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Ticker Item Divider",
+        "description": "Vertical border separating items in the horizontal metrics ticker.",
+        "when_to_use": [
+          "Horizontal list item separation",
+          "Ticker/marquee content dividers"
+        ],
+        "color": "var(--black-100)",
+        "height": "100%",
+        "style": "solid"
+      }
+    ]
+  }
+}

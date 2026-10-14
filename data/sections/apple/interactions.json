@@ -1,0 +1,99 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "carousel",
+      "hover_transform",
+      "video_background"
+    ],
+    "animations": [
+      {
+        "name": "globalnav-flyout-slide-forward-next",
+        "css": "@keyframes globalnav-flyout-slide-forward-next{0%{opacity:0;transform:translate(8px)}to{opacity:1;transform:translate(0)}}",
+        "description": "Slide and fade animation for navigation flyout menus appearing from right"
+      },
+      {
+        "name": "globalnav-flyout-slide-forward-previous",
+        "css": "@keyframes globalnav-flyout-slide-forward-previous{0%{opacity:1;transform:translate(0)}to{opacity:0;transform:translate(-8px)}}",
+        "description": "Slide and fade out animation for navigation flyout menus exiting to left"
+      },
+      {
+        "name": "globalnav-flyout-slide-back-previous",
+        "css": "@keyframes globalnav-flyout-slide-back-previous{0%{opacity:1;transform:translate(0)}to{opacity:0;transform:translate(8px)}}",
+        "description": "Reverse slide animation for navigation menu going back"
+      },
+      {
+        "name": "globalnav-flyout-slide-back-next",
+        "css": "@keyframes globalnav-flyout-slide-back-next{0%{opacity:0;transform:translate(-8px)}to{opacity:1;transform:translate(0)}}",
+        "description": "Reverse slide in animation for navigation menu appearing from left"
+      },
+      {
+        "name": "globalnav-chevron-slide-in-hover",
+        "css": "@keyframes globalnav-chevron-slide-in-hover{0%{opacity:0;transform:translate(-4px)}to{opacity:1;transform:translate(0)}}",
+        "description": "Chevron icon slides in on hover state for navigation links"
+      },
+      {
+        "name": "globalnav-chevron-hover-off",
+        "css": "@keyframes globalnav-chevron-hover-off{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(.8)}}",
+        "description": "Chevron icon fades and scales down when hover ends"
+      },
+      {
+        "name": "globalnav-search-fade-and-slide",
+        "css": "@keyframes globalnav-search-fade-and-slide{0%{opacity:0;transform:translateY(calc(var(--r-globalnav-search-shift-vertical) * -1))}to{opacity:1;transform:translateY(0)}}",
+        "description": "Search results fade in and slide down from top"
+      },
+      {
+        "name": "globalnav-search-input-intro",
+        "css": "@keyframes globalnav-search-input-intro{0%{opacity:0;transform:translateY(var(--r-globalnav-search-input-vertical-shift))}to{opacity:1;transform:translateY(0)}}",
+        "description": "Search input field intro animation with vertical slide"
+      },
+      {
+        "name": "globalnav-scrim-height-change",
+        "css": "@keyframes globalnav-scrim-height-change{0%{height:var(--r-globalnav-previous-flyout-height)}to{height:var(--r-globalnav-next-flyout-height)}}",
+        "description": "Height transition animation for navigation backdrop scrim"
+      },
+      {
+        "name": "globalnav-fade-in",
+        "css": "@keyframes globalnav-fade-in{0%{opacity:0}to{opacity:1}}",
+        "description": "Simple opacity fade in animation for navigation elements"
+      },
+      {
+        "name": "progress-indicator-animating",
+        "css": "@keyframes progress-indicator-animating{0%{opacity:1}12.5%{opacity:.9}25%{opacity:.7}37.5%{opacity:.6}50%{opacity:.4}62.5%{opacity:.3}75%{opacity:.2}87.5%{opacity:.13}}",
+        "description": "Loading spinner spoke animation cycling through opacity values"
+      },
+      {
+        "name": "nav-link-color-transition",
+        "css": "transition: color .32s cubic-bezier(.4,0,.6,1)",
+        "description": "Color transition for navigation link hover states"
+      },
+      {
+        "name": "flyout-item-reveal",
+        "css": "transition: opacity .32s cubic-bezier(.4,0,.6,1), transform .32s cubic-bezier(.4,0,.6,1)",
+        "description": "Staggered reveal animation for flyout menu items with opacity and transform"
+      },
+      {
+        "name": "globalnav-curtain-transition",
+        "css": "transition: opacity .32s cubic-bezier(.4,0,.6,1) 80ms, visibility .32s step-end 80ms",
+        "description": "Curtain overlay fade transition with delayed visibility toggle"
+      }
+    ],
+    "insights": [
+      "Apple's design system uses a consistent cubic-bezier(.4,0,.6,1) easing curve across all navigation animations creating a unified, polished motion language",
+      "The navigation employs sophisticated staggered animations with CSS custom properties (--r-globalnav-flyout-item-number) to calculate individual item delays dynamically",
+      "Button radius is consistently rounded-lg (8px via CSS variable --sk-button-border-radius) across all CTA variations, with rounded-full reserved exclusively for icon-only buttons"
+    ]
+  }
+}

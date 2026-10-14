@@ -1,0 +1,383 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Inter",
+          "role": "Hero Display",
+          "specs": {
+            "size": "48px",
+            "line_height": "51px",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "H1 Display",
+          "specs": {
+            "size": "1.875rem",
+            "line_height": "2.25rem",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "H2 Heading",
+          "specs": {
+            "size": "31px",
+            "line_height": "2rem",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "H3 Heading",
+          "specs": {
+            "size": "1rem",
+            "line_height": "140%",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body copy styles used for product description blocks and feature lists.",
+      "variants": [
+        {
+          "name": "Inter",
+          "role": "Body Large",
+          "specs": {
+            "size": "16px",
+            "line_height": "22.4px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Body Regular",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.5rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Body Small",
+          "specs": {
+            "size": "14px",
+            "line_height": "22.75px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Extensive system of UI and micro-copy styles used to build application interfaces.",
+      "variants": [
+        {
+          "name": "Inter",
+          "role": "Button Large",
+          "specs": {
+            "size": "15px",
+            "line_height": "normal",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Button / Input Small",
+          "specs": {
+            "size": "14px",
+            "line_height": "21px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "App UI Metadata",
+          "specs": {
+            "size": "13px",
+            "line_height": "normal",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "App UI Standard",
+          "specs": {
+            "size": "12px",
+            "line_height": "130%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "UI Badge / Tab",
+          "specs": {
+            "size": "10px",
+            "line_height": "15px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "UI Micro Label",
+          "specs": {
+            "size": "9px",
+            "line_height": "13.5px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "UI Nano Label",
+          "specs": {
+            "size": "7px",
+            "line_height": "10.5px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "__Inter_f367f3, __Inter_Fallback_f367f3",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Sans",
+          "role": "System Badge",
+          "specs": {
+            "size": "10px",
+            "line_height": "16px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "OS Default"
+          },
+          "technical": {
+            "font_family_css": "-apple-system, BlinkMacSystemFont, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Mono",
+          "role": "Technical Micro (Version/Status)",
+          "specs": {
+            "size": "11px",
+            "line_height": "11px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "OS Default"
+          },
+          "technical": {
+            "font_family_css": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Decorative fonts, pseudo-content, and editor styles used primarily in product demo illustrations.",
+      "variants": [
+        {
+          "name": "System Mono",
+          "role": "Editor Code Syntax",
+          "specs": {
+            "size": "8px",
+            "line_height": "normal",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "OS Default"
+          },
+          "technical": {
+            "font_family_css": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Mono",
+          "role": "Background Decorative Text",
+          "specs": {
+            "size": "6px",
+            "line_height": "normal",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "OS Default"
+          },
+          "technical": {
+            "font_family_css": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Flow Circular",
+          "role": "Wireframe / Skeleton Text",
+          "specs": {
+            "size": "8px",
+            "line_height": "normal",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Flow Circular\"",
+            "file_url": "/fonts/FlowCircular-Regular.ttf"
+          }
+        }
+      ]
+    },
+    "highlights": "Syntax highlighting and specific brand colors are applied to typography in product demos (e.g., #DB90A5, #FFEA00 for code, and #DD55E7 for feature callouts), functioning as specialized inline highlighting techniques.",
+    "insights": [
+      "Highly utilitarian typography scaling down to extreme micro sizes (6px-10px) to realistically render complex UI mockups (like Slack, Code Editor, and Apple Notes within the hero section).",
+      "The system mixes a primary brand sans-serif (Inter) with native system fonts (-apple-system, ui-monospace) for rendering native-looking UI components within the product demonstrations.",
+      "Typography is optimized for dense data and application interfaces, prioritizing legibility at extremely small sizes with precise line-height control and tracking (e.g., -0.025em for headings)."
+    ]
+  }
+}

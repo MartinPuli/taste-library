@@ -1,0 +1,315 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Primary Background",
+        "description": "Main page background surface (background-200)",
+        "when_to_use": [
+          "Page backgrounds",
+          "Section backgrounds",
+          "Default surface"
+        ],
+        "hex": "#FAFAFA"
+      },
+      {
+        "name": "Card Background",
+        "description": "Surface for cards, modals, elevated content (background-100)",
+        "when_to_use": [
+          "Cards",
+          "Modals",
+          "Elevated surfaces",
+          "Dialog boxes"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Gray Surface 100",
+        "description": "Light gray surface for subtle differentiation",
+        "when_to_use": [
+          "Hover states",
+          "Secondary backgrounds",
+          "Subtle containers"
+        ],
+        "hex": "#F3F3F3"
+      },
+      {
+        "name": "Gray Surface 200",
+        "description": "Medium gray surface for layering",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Secondary surfaces"
+        ],
+        "hex": "#EBEBEB"
+      },
+      {
+        "name": "Gray Surface 1000 (Dark)",
+        "description": "Primary dark surface for dark theme and high-contrast elements",
+        "when_to_use": [
+          "Dark theme backgrounds",
+          "Primary buttons",
+          "High contrast surfaces"
+        ],
+        "hex": "#171717"
+      },
+      {
+        "name": "Blue 700",
+        "description": "Primary brand blue for interactive elements",
+        "when_to_use": [
+          "Primary CTAs",
+          "Links",
+          "Brand elements"
+        ],
+        "hex": "#0070F3"
+      },
+      {
+        "name": "Blue 100",
+        "description": "Light blue tint for backgrounds",
+        "when_to_use": [
+          "Feature highlights",
+          "Info backgrounds"
+        ],
+        "hex": "#F7FBFF"
+      },
+      {
+        "name": "Red 200",
+        "description": "Light red tint for error states",
+        "when_to_use": [
+          "Error backgrounds",
+          "Warning areas"
+        ],
+        "hex": "#FFF5F5"
+      },
+      {
+        "name": "Green 100",
+        "description": "Light green tint for success states",
+        "when_to_use": [
+          "Success backgrounds",
+          "Confirmation areas"
+        ],
+        "hex": "#F5FFF5"
+      },
+      {
+        "name": "Amber 100",
+        "description": "Light amber tint for warnings",
+        "when_to_use": [
+          "Warning backgrounds",
+          "Caution areas"
+        ],
+        "hex": "#FFFBEB"
+      },
+      {
+        "name": "Purple 200",
+        "description": "Light purple tint for special features",
+        "when_to_use": [
+          "Special feature backgrounds",
+          "Premium areas"
+        ],
+        "hex": "#F9F5FF"
+      },
+      {
+        "name": "Gray Alpha 200",
+        "description": "Semi-transparent black for subtle overlays",
+        "when_to_use": [
+          "Hover overlays",
+          "Borders",
+          "Subtle shadows"
+        ],
+        "hex": "#00000014"
+      },
+      {
+        "name": "Gray Alpha 400",
+        "description": "Semi-transparent black for borders and dividers",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Shadow rings"
+        ],
+        "hex": "#00000014"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Fade Top",
+        "description": "Top to bottom gradient from background-200 to green-700",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Feature transitions"
+        ],
+        "css_code": "linear-gradient(180deg, hsla(0, 0%, 98%, 1) 0%, hsla(131, 41%, 46%, 1) 15%)"
+      },
+      {
+        "name": "Hero Background with Guide Color",
+        "description": "Top to bottom gradient from background-200 to guide accent color",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Themed sections"
+        ],
+        "css_code": "linear-gradient(180deg, hsla(0, 0%, 98%, 1) 0%, var(--guide-color) 75%)"
+      },
+      {
+        "name": "Content Fade Bottom",
+        "description": "Top to bottom fade from white to transparent",
+        "when_to_use": [
+          "Section transitions",
+          "Content fade overlays"
+        ],
+        "css_code": "linear-gradient(180deg, hsla(0, 0%, 100%, 1) 25%, rgba(255,255,255,0) 100%)"
+      },
+      {
+        "name": "Red Glow Gradient",
+        "description": "Red glow effect gradient with multiple color stops",
+        "when_to_use": [
+          "Error state highlights",
+          "Attention-grabbing backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, color-mix(in srgb, hsla(359, 90%, 71%, 1) 78%, transparent) 0%, color-mix(in srgb, hsla(0, 82%, 85%, 1) 42%, transparent) 20%, color-mix(in srgb, hsla(0, 90%, 92%, 1) 16%, transparent) 52%, transparent 82%)"
+      },
+      {
+        "name": "Red Vertical Highlight",
+        "description": "Vertical red glow with transparent top and bottom",
+        "when_to_use": [
+          "Vertical accent lines",
+          "Feature highlights"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent, color-mix(in srgb, hsla(358, 75%, 59%, 1) 55%, transparent), transparent)"
+      },
+      {
+        "name": "Gray Vertical Divider",
+        "description": "Vertical gradient from gray-400 to gray-1000 and back",
+        "when_to_use": [
+          "Vertical dividers",
+          "Column separators"
+        ],
+        "css_code": "linear-gradient(to bottom, hsla(0, 0%, 92%, 1) 0%, hsla(0, 0%, 9%, 1) 25%, hsla(0, 0%, 9%, 1) 75%, hsla(0, 0%, 92%, 1) 100%)"
+      },
+      {
+        "name": "Horizontal Fade Edges",
+        "description": "Horizontal gradient with transparent edges",
+        "when_to_use": [
+          "Horizontal dividers",
+          "Edge fades"
+        ],
+        "css_code": "linear-gradient(to right, transparent 0%, hsla(0, 0%, 92%, 1) 10%, hsla(0, 0%, 92%, 1) 90%, transparent 100%)"
+      },
+      {
+        "name": "Horizontal Header Gradient",
+        "description": "Horizontal gradient with soft edges for headers",
+        "when_to_use": [
+          "Header backgrounds",
+          "Horizontal bars"
+        ],
+        "css_code": "linear-gradient(90deg, hsla(0, 0%, 98%, 1) 0%, hsla(0, 0%, 92%, 1) 10%, hsla(0, 0%, 92%, 1) 90%, hsla(0, 0%, 98%, 1) 100%)"
+      },
+      {
+        "name": "Gray Horizontal Shimmer",
+        "description": "Horizontal gray to black to gray shimmer effect",
+        "when_to_use": [
+          "Loading states",
+          "Shimmer effects"
+        ],
+        "css_code": "linear-gradient(90deg, hsla(0, 0%, 90%, 1) 0%, hsla(0, 0%, 9%, 1) 50%, hsla(0, 0%, 90%, 1) 100%)"
+      },
+      {
+        "name": "Radial Corner Glows",
+        "description": "Three radial gradients at corners for ambient glow",
+        "when_to_use": [
+          "Card backgrounds",
+          "Hero sections",
+          "Ambient effects"
+        ],
+        "css_code": "radial-gradient(circle at top left, hsla(0, 0%, 98%, 1) 0%, transparent 30%), radial-gradient(circle at top right, hsla(0, 0%, 98%, 1) 0%, transparent 30%), radial-gradient(circle at bottom right, hsla(0, 0%, 98%, 1) 0%, transparent 30%)"
+      },
+      {
+        "name": "Radial Center Glow",
+        "description": "Elliptical radial gradient from center",
+        "when_to_use": [
+          "Spotlight effects",
+          "Center focus areas"
+        ],
+        "css_code": "radial-gradient(ellipse at center, hsla(0, 0%, 95%, 1) 0%, transparent 70%)"
+      },
+      {
+        "name": "Red Radial Glow",
+        "description": "Red elliptical radial gradient from center",
+        "when_to_use": [
+          "Error highlights",
+          "Alert glows"
+        ],
+        "css_code": "radial-gradient(ellipse at center, hsla(0, 90%, 92%, 1), transparent 72%)"
+      },
+      {
+        "name": "Passport Glow",
+        "description": "Multicolor vertical gradient for passport glow effect",
+        "when_to_use": [
+          "Special feature highlights",
+          "Premium effects"
+        ],
+        "css_code": "linear-gradient(to top, #00E5FF 0%, #9500FF 25%, #FF1744 50%, #FFD000 75%, #00FF95 100%)"
+      },
+      {
+        "name": "Passport Ellipse Glow",
+        "description": "Yellow to blue horizontal gradient for ellipse effect",
+        "when_to_use": [
+          "Animated glows",
+          "Feature accents"
+        ],
+        "css_code": "linear-gradient(to right, #FFDC30 0%, #38A2FF 100%)"
+      },
+      {
+        "name": "Black to Gray Fade",
+        "description": "Top to bottom gradient from semi-transparent to solid black",
+        "when_to_use": [
+          "Text overlays",
+          "Dark scrim effects"
+        ],
+        "css_code": "linear-gradient(180deg, #000c 0%, #000 100%)"
+      },
+      {
+        "name": "Blue Gradient (135deg)",
+        "description": "Diagonal blue to pink gradient",
+        "when_to_use": [
+          "Brand elements",
+          "Feature highlights"
+        ],
+        "css_code": "linear-gradient(135deg, #0070f3, #f81ce5)"
+      },
+      {
+        "name": "Red to Blue Gradient (135deg)",
+        "description": "Diagonal red to blue gradient",
+        "when_to_use": [
+          "Alternative brand elements",
+          "Special features"
+        ],
+        "css_code": "linear-gradient(135deg, #ff1e56, #0096ff)"
+      }
+    ],
+    "highlights": [
+      "Soft blur effects (blur-xl, blur-[120px]) on dark backgrounds for ambient glow (opacity 0.15 dark theme)",
+      "Noise/grain texture overlay on dark shader canvas (70px tile, mix-blend-mode: multiply, opacity 0.42)",
+      "Radial glow on gray-1000 background with large blur radius for ambient lighting effects",
+      "Linear gradient masks for fade effects (top to bottom, left to right) on scrollable content",
+      "Animated shimmer effects with color-mix for loading states",
+      "Drop shadow rings: 0 0 0 1px borders for subtle elevation",
+      "Passport glow animation: multicolor vertical gradient with rotating ellipse blur effect",
+      "Box shadows with soft blur: shadow-border, shadow-tooltip patterns",
+      "Semi-transparent overlays (gray-alpha-200, gray-alpha-400) for hover states and borders"
+    ]
+  }
+}

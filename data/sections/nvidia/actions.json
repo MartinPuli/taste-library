@@ -1,0 +1,351 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Previous/Next (Pagination Green)",
+        "usage": "Pagination controls for navigating through search results or content pages",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "18px",
+              "padding": "12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#76B900",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#8FD400",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#76B900",
+            "border_width": "2px",
+            "opacity": "1",
+            "cursor": "auto"
+          }
+        }
+      },
+      {
+        "name": "Accept All (Cookie Consent Solid)",
+        "usage": "Primary action button in cookie consent banner for accepting all cookies",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "16px",
+              "padding": "11px 13px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#000000",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#1A1A1A",
+            "text_color": "#FFFFFF",
+            "border_color": "#000000",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Manage Settings / Reject Optional (Cookie Consent Outline)",
+        "usage": "Secondary action buttons in cookie consent banner for managing preferences or rejecting optional cookies",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "16px",
+              "padding": "11px 13px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "#76B900",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "#000000",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Quick Links (Accordion Toggle)",
+        "usage": "Expandable accordion trigger buttons for revealing quick navigation links within content sections",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#76B900",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Apply (Filter Apply Green)",
+        "usage": "Primary action button for applying filter selections in search refinement panels",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "14px",
+              "padding": "6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#76B900",
+            "text_color": "#000000",
+            "border_color": "#76B900",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#659F00",
+            "text_color": "#000000",
+            "border_color": "#659F00",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Reset (Filter Reset Outline)",
+        "usage": "Secondary action button for resetting filter selections in search refinement panels",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "14px",
+              "padding": "6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#76B900",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#000000",
+            "border_color": "#76B900",
+            "border_width": "2px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Search Submit (Green Icon Button)",
+        "usage": "Submit button for AI-powered search input with paper plane icon",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#76B900",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#8FD400",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#CCCCCC",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.7",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Show More (Dark Theme Text Button)",
+        "usage": "Expand/collapse toggle for AI summary content on dark backgrounds",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Standard",
+              "font": "NVIDIA-NALA, Arial, Helvetica, sans-serif",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#EEEEEE",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Horizontal button arrangements with consistent spacing, typically pairing primary green actions with outline secondary buttons",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "underline 2px rgb(118, 185, 0)"
+    }
+  }
+}

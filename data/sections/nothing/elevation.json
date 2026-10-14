@@ -1,0 +1,164 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Tw Ring Offset Shadow",
+          "type": "drop",
+          "description": "Transparent placeholder shadow used for Tailwind ring offset calculations",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Ring offset calculations",
+            "Focus states"
+          ]
+        },
+        {
+          "name": "Radio Option Shadow",
+          "type": "drop",
+          "description": "Subtle offset shadow with 10% black opacity for radio button options",
+          "css_value": "1px 1px 0 0 rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Radio button options",
+            "Toggle controls",
+            "Selection UI"
+          ]
+        },
+        {
+          "name": "Focus Slider Shadow",
+          "type": "drop",
+          "description": "Subtle blue focus indicator shadow for slider toggle inputs",
+          "css_value": "0 0 1px #2196f3",
+          "when_to_use": [
+            "Focus states on sliders",
+            "Toggle inputs"
+          ]
+        },
+        {
+          "name": "Mobile Notice Shadow",
+          "type": "drop",
+          "description": "Directional shadow for mobile notice header/footer separation with 10% opacity",
+          "css_value": "0 -3px 10px -2px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Mobile notice buttons",
+            "Scrollable content dividers",
+            "Footer separation"
+          ]
+        },
+        {
+          "name": "Popup Notice Header Shadow",
+          "type": "drop",
+          "description": "Downward-facing shadow for popup header indicating content scrolling beneath",
+          "css_value": "0 3px 10px -2px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Popup headers",
+            "Logo containers",
+            "Content separation when scrolled"
+          ]
+        },
+        {
+          "name": "Exterior Border Floating Shadow",
+          "type": "drop",
+          "description": "Large soft elevation shadow for modal/popup containers with 10% opacity and 50px blur",
+          "css_value": "0 20px 50px rgba(0, 0, 0, 0.1)",
+          "when_to_use": [
+            "Modal containers",
+            "Cookie consent popups",
+            "Floating panels"
+          ]
+        },
+        {
+          "name": "Aside Panel Shadow",
+          "type": "drop",
+          "description": "Large diffuse shadow for slide-out aside panels",
+          "css_value": "0 0 50px #0000004d",
+          "when_to_use": [
+            "Cart aside",
+            "Slide-out panels",
+            "Side drawers"
+          ]
+        },
+        {
+          "name": "Card Shadow Custom",
+          "type": "drop",
+          "description": "Custom dual-layer shadow for elevated cards with 30% opacity",
+          "css_value": "0 0 25px -5px #0000004d,0 0 10px -6px #0000004d",
+          "when_to_use": [
+            "Elevated cards",
+            "Featured content"
+          ]
+        },
+        {
+          "name": "Focus Ring Shadow",
+          "type": "drop",
+          "description": "4px solid shadow ring for focus states",
+          "css_value": "0px 0px 0px 4px",
+          "when_to_use": [
+            "Focus indicators",
+            "Active states"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#EEEEEE",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#3F8964",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E60000",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#3D8548",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#EBEBEB",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DDD",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E6E2D7",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E7E2D6",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#000000",
+        "width": "1px",
+        "style": "dashed"
+      }
+    ]
+  }
+}

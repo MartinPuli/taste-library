@@ -1,0 +1,353 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Try Claude (Primary Nav CTA)",
+        "usage": "Primary call-to-action in the navigation bar to direct users to try the Claude product. Appears as part of a combo button with dropdown.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Anthropic Sans",
+              "size": "1rem",
+              "padding": "0.5rem 1rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#C6613F",
+            "text_color": "#FAF9F5",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#D97757",
+            "text_color": "#FAF9F5",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Log in to Claude (Primary)",
+        "usage": "Secondary navigation button allowing users to log in. Appears alongside the Try Claude button.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Anthropic Sans",
+              "size": "1rem",
+              "padding": "0.5rem 1rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#C6613F",
+            "text_color": "#FAF9F5",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#D97757",
+            "text_color": "#FAF9F5",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Download app (Tertiary Outline)",
+        "usage": "Tertiary button in navigation for app download action. Uses transparent background with subtle border.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Anthropic Sans",
+              "size": "1rem",
+              "padding": "0.5rem 1rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#141413",
+            "border_color": "#1414131a",
+            "border_width": "0.0625rem",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#141413",
+            "border_color": "#141413",
+            "border_width": "0.0625rem",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Read more (Primary Dark)",
+        "usage": "Primary CTA button used in hero banners and card sections. Solid dark background with light text and optional arrow icon.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Anthropic Sans",
+              "size": "0.9375rem",
+              "padding": "0.5rem 1rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#141413",
+            "text_color": "#FAF9F5",
+            "border_color": "#141413",
+            "border_width": "0.0625rem",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#3D3D3A",
+            "text_color": "#FAF9F5",
+            "border_color": "#3D3D3A",
+            "border_width": "0.0625rem",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Read announcement (Primary Dark)",
+        "usage": "CTA button used in release announcement cards. Directs users to read full announcement articles.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Anthropic Sans",
+              "size": "0.9375rem",
+              "padding": "0.5rem 1rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#141413",
+            "text_color": "#FAF9F5",
+            "border_color": "#141413",
+            "border_width": "0.0625rem",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#3D3D3A",
+            "text_color": "#FAF9F5",
+            "border_color": "#3D3D3A",
+            "border_width": "0.0625rem",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Accept all cookies (Accent)",
+        "usage": "Primary action in cookie consent dialog. Uses the brand accent color to draw attention to the accept action.",
+        "specs": {
+          "radius": "rounded-xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "inherit",
+              "size": "inherit",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#D97757",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#D97757",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Reject all cookies (Ghost Dark)",
+        "usage": "Secondary action in cookie consent dialog. Transparent with subtle border for de-emphasized action.",
+        "specs": {
+          "radius": "rounded-xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "inherit",
+              "size": "inherit",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "#87867F",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "#87867F",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Customize cookie settings (Ghost Dark)",
+        "usage": "Tertiary action in cookie consent dialog. Opens detailed cookie preferences panel.",
+        "specs": {
+          "radius": "rounded-xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "inherit",
+              "size": "inherit",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "#87867F",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "#87867F",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are grouped with flex layout and consistent gap spacing",
+      "spacing": "1rem"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

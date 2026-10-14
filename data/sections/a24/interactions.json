@@ -1,0 +1,78 @@
+{
+  "id": "a24",
+  "source_url": "https://a24films.com/",
+  "captured_at": "2026-10-14T05:05:03.673018Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/a24.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/a24.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "video_background",
+      "hover_lift",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "site-container-transition",
+        "css": "transition: 0.25s cubic-bezier(0, 1, 0.6, 1) transform",
+        "description": "Transform transition for site container during mobile menu interactions"
+      },
+      {
+        "name": "body-slide-transition",
+        "css": "transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right",
+        "description": "Right position transition for body element during menu toggle"
+      },
+      {
+        "name": "header-transition",
+        "css": "transition: background-color 0.15s linear, transform 0.2s ease-in-out",
+        "description": "Combined background color and transform transition for sticky header behavior"
+      },
+      {
+        "name": "mobile-menu-transition",
+        "css": "transition: opacity 250ms ease, left 0ms 250ms ease",
+        "description": "Opacity fade and position slide for mobile menu open/close"
+      },
+      {
+        "name": "newsletter-banner-transition",
+        "css": "transition: max-height 500ms ease-out",
+        "description": "Max-height transition for newsletter banner reveal animation"
+      },
+      {
+        "name": "accordion-rotate-transition",
+        "css": "transition: transform 250ms ease-out",
+        "description": "Rotate transition for accordion chevron icons on toggle"
+      },
+      {
+        "name": "image-scale-hover",
+        "css": "transition: transform 250ms ease-out",
+        "description": "Scale transform transition for image hover zoom effect on video slides"
+      },
+      {
+        "name": "link-hover-transition",
+        "css": "transition: 0.1s linear color",
+        "description": "Color transition for header navigation link hover states"
+      },
+      {
+        "name": "svg-fill-transition",
+        "css": "transition: 0.1s linear fill",
+        "description": "Fill color transition for SVG icons on hover"
+      },
+      {
+        "name": "footer-fade",
+        "css": "transition: 150ms linear opacity",
+        "description": "Opacity transition for footer ready state visibility"
+      }
+    ],
+    "insights": [
+      "The design system employs a strictly monochromatic palette (black, white, grays) to let colorful film imagery and product photography serve as the primary visual interest, creating a cinematic gallery aesthetic.",
+      "Component interactions rely heavily on subtle CSS transitions with custom cubic-bezier easing curves, creating a refined, minimal motion feel that doesn't compete with the content-heavy imagery.",
+      "The navigation system uses a fixed header with transparent-to-white background transition, adapting based on hero content darkness - a sophisticated pattern for cinematic landing pages."
+    ]
+  }
+}

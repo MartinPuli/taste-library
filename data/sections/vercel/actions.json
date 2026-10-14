@@ -1,0 +1,312 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Deploy now (Primary Dark)",
+        "usage": "Primary call-to-action for user signup and deployment, appears in hero and footer sections",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "GeistSans",
+              "size": "16px",
+              "padding": "0px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#171717",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "hsl(0, 0%, 22%)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Talk to sales (Secondary Outline)",
+        "usage": "Secondary call-to-action paired with primary button in hero section",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "GeistSans",
+              "size": "16px",
+              "padding": "0px 14px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get a Demo (Navigation Secondary)",
+        "usage": "Navigation bar secondary action for sales contact",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "GeistSans",
+              "size": "14px",
+              "padding": "0px 6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Log In (Navigation Secondary)",
+        "usage": "Navigation bar login action",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "GeistSans",
+              "size": "14px",
+              "padding": "0px 6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F2F2",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign Up (Navigation Primary)",
+        "usage": "Navigation bar primary signup action",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "GeistSans",
+              "size": "14px",
+              "padding": "0px 6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#171717",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "hsl(0, 0%, 22%)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get your ticket (Tertiary Fill)",
+        "usage": "Announcement banner call-to-action",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "GeistSans",
+              "size": "14px",
+              "padding": "0px 6px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#171717",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.08)",
+            "text_color": "#171717",
+            "border_color": "rgba(0, 0, 0, 0.08)",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Onboard your agent (Composite Pill)",
+        "usage": "Secondary action with icon, appears in footer CTA section",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "GeistSans",
+              "size": "16px",
+              "padding": "0px 8px 0px 4px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#171717",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#8F8F8F",
+            "border_color": "#EBEBEB",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are often paired horizontally in hero sections with primary and secondary variants side by side",
+      "spacing": "12px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "top_nav": {
+      "height": "80px",
+      "position": "sticky",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Baseline/Paper White",
+        "opacity": "0.75",
+        "blur": "backdrop-filter: blur(10px)"
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Product Flow Tab",
+      "description": "Tabs organize content into multiple sections for product flows, allowing users to navigate between different workflow categories.",
+      "when_to_use": [
+        "Navigation between related product workflows",
+        "Switching between hold, move, accept, and issue payment flows"
+      ],
+      "states": [
+        {
+          "name": "active",
+          "visual_change": "Active tab shows expanded description text",
+          "background": null,
+          "text": "#161514",
+          "icon": null
+        },
+        {
+          "name": "inactive",
+          "visual_change": "Inactive tabs show muted text color and collapsed content",
+          "background": null,
+          "text": "#D7D6D4",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

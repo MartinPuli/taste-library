@@ -1,0 +1,50 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "top_nav": {
+      "height": "56px",
+      "position": "fixed",
+      "background": {
+        "hex": "#000000",
+        "color_reference": "True Black",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Bottom Navigation Tab",
+      "description": "Bottom tab bar navigation for mobile app with icon and label, used for primary app sections.",
+      "when_to_use": [
+        "Primary navigation between Home, Search, and Library",
+        "Mobile app bottom navigation pattern"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Icon and text in subdued gray",
+          "background": null,
+          "text": "#B3B3B3",
+          "icon": "#B3B3B3"
+        },
+        {
+          "name": "selected",
+          "visual_change": "Icon and text become white to indicate active state",
+          "background": null,
+          "text": "#FFFFFF",
+          "icon": "#FFFFFF"
+        }
+      ]
+    }
+  }
+}

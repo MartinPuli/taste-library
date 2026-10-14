@@ -1,0 +1,29 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "top_nav": {
+      "height": "78px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Baseline/Canvas White",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": "0 1px 0 var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))"
+    },
+    "announcement_bar": null,
+    "tabs": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "top_nav": {
+      "height": "18px",
+      "position": "static",
+      "background": {
+        "hex": "#ECECEC",
+        "color_reference": "Baseline/Page Background",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": "2.5px solid #111111"
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Inline Navigation Links",
+      "description": "Horizontal navigation links with uppercase text and active state highlighting using brand accent colors.",
+      "when_to_use": [
+        "Primary site navigation",
+        "Section anchoring within single-page layout"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Black text, no decoration",
+          "background": null,
+          "text": "#111111",
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Signal Red color with bold weight",
+          "background": null,
+          "text": "#FF2D09",
+          "icon": null
+        },
+        {
+          "name": "active_blog",
+          "visual_change": "Electric Blue color with bold weight",
+          "background": null,
+          "text": "#699EFF",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Transitions to Signal Red on hover",
+          "background": null,
+          "text": "#FF2D09",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "None / Transparent",
+          "type": "drop",
+          "description": "Transparent shadow with 0% opacity - no visual elevation. Used for sheet mobile partial container.",
+          "css_value": "0px 0px 0px 0px hsla(0,0%,100%,0)",
+          "when_to_use": [
+            "Sheet mobile partial container",
+            "Elements requiring no elevation"
+          ]
+        },
+        {
+          "name": "Surface",
+          "type": "drop",
+          "description": "Subtle shadow with 20% black opacity, 0.5px Y-offset, 3px blur. Lowest elevation level for surface elements.",
+          "css_value": "0px 0.5px 3px 0px rgba(0,0,0,.2)",
+          "when_to_use": [
+            "Slider handles",
+            "Surface-level components",
+            "Subtle depth indicators"
+          ]
+        },
+        {
+          "name": "Raised",
+          "type": "drop",
+          "description": "Medium shadow with 20% black opacity, 1.5px Y-offset, 6px blur. Used for raised elements.",
+          "css_value": "0px 1.5px 6px 0px rgba(0,0,0,.2)",
+          "when_to_use": [
+            "Raised containers",
+            "Cards with moderate elevation",
+            "Top-positioned raised elements"
+          ]
+        },
+        {
+          "name": "Raised Bottom",
+          "type": "drop",
+          "description": "Upward shadow with 12% black opacity, -2px Y-offset, 8px blur. Used for bottom-positioned raised elements.",
+          "css_value": "0px -2px 8px 0px rgba(0,0,0,.12)",
+          "when_to_use": [
+            "Bottom navigation bars",
+            "Bottom sheets",
+            "Upward elevation effect"
+          ]
+        },
+        {
+          "name": "Floating",
+          "type": "drop",
+          "description": "Strong shadow with 20% black opacity, 3px Y-offset, 12px blur. Highest elevation level for floating elements.",
+          "css_value": "0px 3px 12px 0px rgba(0,0,0,.2)",
+          "when_to_use": [
+            "Modals",
+            "Popovers",
+            "Dropdowns",
+            "Notification messages",
+            "Floating banners",
+            "Buttons with floating effect",
+            "Wrapper containers"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#C8C8C1",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#494943",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#91918C",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#435EE5",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DD0E0E",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#068440",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#33332E",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#000000",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#435EE5",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E60023",
+        "width": "2px",
+        "style": "solid"
+      }
+    ]
+  }
+}

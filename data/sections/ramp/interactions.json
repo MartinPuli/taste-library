@@ -1,0 +1,86 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "marquee",
+      "scroll_reveal",
+      "video_background",
+      "hover_lift",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(0.8); } 100% { opacity: 1; transform: scale(1); } }",
+        "description": "Toast notification entrance animation with opacity fade and scale up."
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(0.8); } }",
+        "description": "Toast notification exit animation with opacity fade and scale down."
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin { 0% { opacity: 1; } 100% { opacity: 0.15; } }",
+        "description": "Loading spinner animation for toast loading states."
+      },
+      {
+        "name": "swipe-out",
+        "css": "@keyframes swipe-out { 0% { transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount))); opacity: 1; } 100% { transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%)); opacity: 0; } }",
+        "description": "Toast swipe dismissal animation."
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(1turn); } }",
+        "description": "Continuous rotation animation for loading spinners in consent overlay."
+      },
+      {
+        "name": "fides-skeleton-loading",
+        "css": "@keyframes fides-skeleton-loading { 0% { background-position: 100% 50%; } 100% { background-position: 0px 50%; } }",
+        "description": "Skeleton loading shimmer effect for privacy consent UI."
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: ease-in-out duration-300",
+        "description": "Standard button state transition applied to all button components."
+      },
+      {
+        "name": "card-hover-scale",
+        "css": "transition-transform duration-300",
+        "description": "Card image scale transform on hover, scales to 1.02."
+      },
+      {
+        "name": "arrow-slide",
+        "css": "",
+        "description": "Arrow icon slide animation on link hover, JS-driven via animate-arrow-slide class."
+      },
+      {
+        "name": "ticker-scroll",
+        "css": "",
+        "description": "Horizontal marquee scrolling for metrics ticker and testimonial carousel, JS-driven via transform: translateX updates."
+      },
+      {
+        "name": "number-flow",
+        "css": "",
+        "description": "Animated number counter for live metrics display, JS-driven number-flow-react component."
+      }
+    ],
+    "insights": [
+      "The design system uses a yellow/gold ('solar') primary CTA color against white backgrounds for high contrast, with gray secondary buttons for visual hierarchy.",
+      "Motion is heavily JS-driven (number counters, marquee tickers, scroll-linked animations) rather than CSS keyframes, indicating a React/Next.js animation approach.",
+      "Button border-radius is consistently rounded-md (6px) across the system with rounded-full reserved for video play buttons and icon badges, creating a modern but not overly rounded aesthetic."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "nothing",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A consent dialog with dot-style branding covers most of the captured hero; the pale background remains visible around it.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/viewport.jpg",
+    "sha256": "ce1354d6a7f505db85057c2aabd7f689c2c0d02c021651f8af7ece9bfd79fdf9"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/styles.css",
+    "sha256": "f9791dac270e5f1eb35a742208fbc43bff4eca60a6b6649755aaa6c06f0a44ab",
+    "bytes": 204597,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#FFFFFF",
+      "#040404"
+    ],
+    "font_names_found": [
+      "Ndot-Regular",
+      "NType82-Regular",
+      "Arial",
+      "LatteraMonoLL"
+    ],
+    "font_names_checked": [
+      "Ndot-Regular",
+      "NType82-Regular",
+      "Arial",
+      "LatteraMonoLL"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "579cb0459a9ae3515527909ad4021dd67dc9cc352054115c887f8dbe0631896b"
+}

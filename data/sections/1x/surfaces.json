@@ -1,0 +1,302 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Primary Background",
+        "description": "Main page background color (neoFrost)",
+        "when_to_use": [
+          "Page backgrounds",
+          "Footer sections",
+          "Light surface areas"
+        ],
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Dark Background",
+        "description": "Dark section background for hero areas",
+        "when_to_use": [
+          "Hero sections",
+          "Video backgrounds",
+          "High-contrast sections"
+        ],
+        "hex": "#222222"
+      },
+      {
+        "name": "Gamma Grey",
+        "description": "Primary dark grey surface",
+        "when_to_use": [
+          "Main content backgrounds",
+          "Section dividers"
+        ],
+        "hex": "#4F4749"
+      },
+      {
+        "name": "Neo Grey",
+        "description": "Medium dark grey surface (discoveryDark)",
+        "when_to_use": [
+          "Text overlays",
+          "Secondary backgrounds",
+          "Borders"
+        ],
+        "hex": "#413E3E"
+      },
+      {
+        "name": "Neo Frost",
+        "description": "Light frost surface color",
+        "when_to_use": [
+          "Input fields",
+          "Light text areas",
+          "Placeholder backgrounds"
+        ],
+        "hex": "#F8F8F8"
+      },
+      {
+        "name": "Neo Light Grey",
+        "description": "Light grey for borders and dividers",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Subtle separators"
+        ],
+        "hex": "#DEDCD8"
+      },
+      {
+        "name": "Neo Medium Grey",
+        "description": "Medium grey for secondary elements",
+        "when_to_use": [
+          "Secondary text",
+          "Placeholder text",
+          "Muted elements"
+        ],
+        "hex": "#8E8C84"
+      },
+      {
+        "name": "Section Gradient Background",
+        "description": "Warm beige gradient start color",
+        "when_to_use": [
+          "Section backgrounds with gradient treatment"
+        ],
+        "hex": "#EAE4E1"
+      },
+      {
+        "name": "Hero Gradient Light",
+        "description": "Hero section gradient start (warm white)",
+        "when_to_use": [
+          "Hero section backgrounds"
+        ],
+        "hex": "#F9F5F2"
+      },
+      {
+        "name": "Updates Gradient Base",
+        "description": "Updates section gradient start",
+        "when_to_use": [
+          "Updates sections",
+          "Content cards"
+        ],
+        "hex": "#EFEDEC"
+      },
+      {
+        "name": "White Surface",
+        "description": "Pure white surface",
+        "when_to_use": [
+          "Cards",
+          "Overlays",
+          "Button backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black Surface",
+        "description": "Pure black surface for high contrast",
+        "when_to_use": [
+          "CTA buttons",
+          "Text overlays",
+          "High-contrast elements"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur",
+        "when_to_use": [
+          "Command menus",
+          "Floating panels",
+          "Modal overlays"
+        ],
+        "hex": "#0F1011"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Frost Gradient Right",
+        "description": "Right to left frost fade gradient",
+        "when_to_use": [
+          "Edge fades",
+          "Horizontal scroll indicators",
+          "Right-side overlays"
+        ],
+        "css_code": "linear-gradient(270deg, #f8f8f8 0.03%, hsla(0, 0%, 97%, 0.8) 24.94%, hsla(0, 0%, 97%, 0) 99.97%)"
+      },
+      {
+        "name": "Frost Gradient Left",
+        "description": "Left to right frost fade gradient",
+        "when_to_use": [
+          "Edge fades",
+          "Horizontal scroll indicators",
+          "Left-side overlays"
+        ],
+        "css_code": "linear-gradient(90deg, #f8f8f8 0.03%, hsla(0, 0%, 97%, 0.8) 24.94%, hsla(0, 0%, 97%, 0) 99.97%)"
+      },
+      {
+        "name": "Background Gradient Overlay",
+        "description": "Dark overlay gradient from right to transparent left",
+        "when_to_use": [
+          "Image overlays",
+          "Video backgrounds",
+          "Content readability enhancement"
+        ],
+        "css_code": "linear-gradient(270deg, transparent 26.32%, rgba(0, 0, 0, 0.12) 83.92%)"
+      },
+      {
+        "name": "404 Gradient",
+        "description": "Brown gradient with transparent center for error pages",
+        "when_to_use": [
+          "404 pages",
+          "Error states",
+          "Special page backgrounds"
+        ],
+        "css_code": "linear-gradient(270deg, rgba(71, 34, 0, 0.45) 0.1%, rgba(71, 34, 0, 0) 30.05%, rgba(71, 34, 0, 0) 70.32%, rgba(71, 34, 0, 0.45) 100.49%)"
+      },
+      {
+        "name": "Section One Gradient",
+        "description": "Warm beige to grey gradient",
+        "when_to_use": [
+          "Section backgrounds",
+          "Hero areas",
+          "Content transitions"
+        ],
+        "css_code": "linear-gradient(0.301turn, #eae4e1 1.25%, #dad2ce 96.59%)"
+      },
+      {
+        "name": "Video Blur Gradient",
+        "description": "Top to bottom blur gradient mask",
+        "when_to_use": [
+          "Video overlays",
+          "Bottom fade effects",
+          "Content transitions"
+        ],
+        "css_code": "linear-gradient(180deg, #413e3e00 0%, #413e3e 50%)"
+      },
+      {
+        "name": "Video Background Gradient",
+        "description": "Dark grey gradient for video backgrounds",
+        "when_to_use": [
+          "Video player overlays",
+          "Media backgrounds"
+        ],
+        "css_code": "linear-gradient(180deg, #413e3e00 0, #413e3ec3)"
+      },
+      {
+        "name": "Gamma Info Gradient",
+        "description": "Bottom to top black gradient",
+        "when_to_use": [
+          "Info overlays",
+          "Text readability enhancement",
+          "Bottom overlays"
+        ],
+        "css_code": "linear-gradient(0deg, transparent, #000)"
+      },
+      {
+        "name": "Hero Gradient",
+        "description": "Diagonal warm white to grey gradient",
+        "when_to_use": [
+          "Hero sections",
+          "Landing page backgrounds",
+          "Feature sections"
+        ],
+        "css_code": "linear-gradient(113.36deg, #f9f5f2 6.62%, #dad2ce 105.89%)"
+      },
+      {
+        "name": "Updates Gradient",
+        "description": "Diagonal gradient from warm grey to white",
+        "when_to_use": [
+          "Updates sections",
+          "Content cards",
+          "News areas"
+        ],
+        "css_code": "linear-gradient(295.74deg, #efedec 0.1%, #f8f8f8)"
+      },
+      {
+        "name": "Config Gradient",
+        "description": "Complex multi-stop white fade gradient with easing",
+        "when_to_use": [
+          "Configuration overlays",
+          "Modal backgrounds",
+          "Complex fade transitions"
+        ],
+        "css_code": "linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.008) 7.94%, hsla(0, 0%, 100%, 0.032) 14.39%, hsla(0, 0%, 100%, 0.07) 19.6%, hsla(0, 0%, 100%, 0.121) 23.78%, hsla(0, 0%, 100%, 0.181) 27.17%, hsla(0, 0%, 100%, 0.251) 29.99%, hsla(0, 0%, 100%, 0.328) 32.47%, hsla(0, 0%, 100%, 0.411) 34.84%, hsla(0, 0%, 100%, 0.497) 37.32%, hsla(0, 0%, 100%, 0.585) 40.14%, hsla(0, 0%, 100%, 0.674) 43.52%, hsla(0, 0%, 100%, 0.762) 47.71%, hsla(0, 0%, 100%, 0.846) 52.92%, hsla(0, 0%, 100%, 0.926) 59.37%, #fff 67.31%)"
+      },
+      {
+        "name": "Line Break Gradient",
+        "description": "Horizontal divider gradient with center emphasis",
+        "when_to_use": [
+          "Dividers",
+          "Section breaks",
+          "Horizontal rules"
+        ],
+        "css_code": "linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.088) 49.52%, transparent)"
+      },
+      {
+        "name": "Model Viewer Gradient",
+        "description": "Radial gradient from transparent center to frost edges",
+        "when_to_use": [
+          "3D model backgrounds",
+          "Product viewers",
+          "Spotlight effects"
+        ],
+        "css_code": "radial-gradient(ellipse at center, transparent 20%, #f8f8f8 65%)"
+      },
+      {
+        "name": "Tailwind Gradient Bottom Black",
+        "description": "Top to bottom gradient using Tailwind stops",
+        "when_to_use": [
+          "Dynamic gradients with from-black to-transparent"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Tailwind Gradient Top",
+        "description": "Bottom to top gradient using Tailwind stops",
+        "when_to_use": [
+          "Bottom overlays",
+          "Reverse fade effects"
+        ],
+        "css_code": "linear-gradient(to top, var(--tw-gradient-stops))"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter blur(20px-70px) over rgba(255,255,255,0.03) with subtle borders for glassmorphism effect",
+      "Box blur effect: Positioned blur masks with backdrop-filter blur(2px-6px) using complex mask compositing for selective blur areas",
+      "Scrolled header: backdrop-filter blur(60px) with rgba(255,255,255,0.92) background when scrolled",
+      "Video blur overlay: 25% height backdrop-filter blur(15px) with linear gradient mask from transparent to solid",
+      "Wipe animation: Linear gradient mask animation for reveal effects",
+      "Swiper pagination bullets: 8px rounded with rgba(0,0,0,0.06) inactive and rgba(0,0,0,0.72) active states"
+    ]
+  }
+}

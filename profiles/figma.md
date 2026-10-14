@@ -2,31 +2,49 @@
 
 Separate interface elements from work samples through blocks and color accents.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 7 · Captured 2026-09-15T16:36:48.597923Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 7 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-09-15T16:36:48.597923Z |
-| Suggested uses | creative-tools |
-| Visual approach | color-accent, modular |
+[Original website](https://www.figma.com/) · [Full extraction](../data/raw/figma.json) · [Review record](../data/reviews/figma.json)
 
-## Details to compare
+[Small visual preview](../data/previews/figma.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/full.jpg)
 
-- Detected type families: figmaSans, figmaMono.
-- Recorded palette: #000000, #FFFFFF, #00B6FF, #24CB71, #FF7237.
-- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "95rem"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A sparse white hero places the headline at lower left and a black call to action at right. A cookie panel covers part of the lower-right area.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.figma.com/) · [Extraction](../data/raw/figma.json) · [Tokens](../data/tokens/figma.json)
+Project types: creative-tools. Styles: color-accent, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show figma --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Separate interface elements from work samples through blocks and color accents. Evidence: [layout](../data/sections/figma/layout.json), [sections](../data/sections/figma/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/figma/actions.json).
+
+## Content to bring
+
+Representative work samples and a real demonstration of the creation workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/figma/profile.json)
+- [Layout](../data/sections/figma/layout.json)
+- [Colors](../data/sections/figma/colors.json)
+- [Typography](../data/sections/figma/typography.json)
+- [Surfaces](../data/sections/figma/surfaces.json)
+- [Elevation](../data/sections/figma/elevation.json)
+- [Interactions](../data/sections/figma/interactions.json)
+- [Actions](../data/sections/figma/actions.json)
+- [Navigation](../data/sections/figma/navigation.json)
+- [Data Display](../data/sections/figma/data_display.json)
+- [Structure](../data/sections/figma/structure.json)
+- [Icons](../data/sections/figma/icons.json)
+- [Assets](../data/sections/figma/assets.json)
+- [Brand Assets](../data/sections/figma/brand_assets.json) · no observed data
+- [Sections](../data/sections/figma/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

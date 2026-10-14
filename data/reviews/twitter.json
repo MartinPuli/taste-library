@@ -1,0 +1,48 @@
+{
+  "id": "twitter",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "The saved X registration page pairs a large black X with stacked sign-in buttons and an email field on white.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/viewport.jpg",
+    "sha256": "a2d5f9ef18d9a62d6dc3689a0f612f02e737167ba24f1a7d411ebf4c6ad50fc6"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/styles.css",
+    "sha256": "35f978c709f9f50ad743176ac3b000084cee377e4a59aa62e4ab3930602ce347",
+    "bytes": 460501,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#3C4043"
+    ],
+    "palette_literals_checked": [
+      "#0F141A",
+      "#000000",
+      "#E4EAEC",
+      "#79716B",
+      "#3C4043"
+    ],
+    "font_names_found": [
+      "TwitterChirp",
+      "SFMono-Regular"
+    ],
+    "font_names_checked": [
+      "TwitterChirp",
+      "SFMono-Regular"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "41ffd4c4a49122effca51d17e2d912fe7963dbd4f65a19870f81e5da0ad6ae29"
+}

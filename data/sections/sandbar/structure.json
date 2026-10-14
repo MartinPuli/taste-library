@@ -1,0 +1,41 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/sandbar.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Subtle horizontal divider used between content sections",
+        "when_to_use": [
+          "Between major content sections",
+          "Footer top border",
+          "Checkout flow separators"
+        ],
+        "color": "#E0DFDC",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Linen Divider",
+        "description": "Warm-toned divider for softer separation in forms and lists",
+        "when_to_use": [
+          "Form field separators",
+          "List item dividers",
+          "Configuration option borders"
+        ],
+        "color": "#DDDBCA",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

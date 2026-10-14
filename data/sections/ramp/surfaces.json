@@ -1,0 +1,178 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Main page background color",
+        "when_to_use": [
+          "Page body",
+          "Default surface"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Gray Light",
+        "description": "Light gray surface for cards and containers",
+        "when_to_use": [
+          "Card backgrounds",
+          "Section containers",
+          "Platform cards",
+          "Secondary surfaces"
+        ],
+        "hex": "#F4F2F0"
+      },
+      {
+        "name": "White Surface",
+        "description": "White surface for cards and overlays",
+        "when_to_use": [
+          "Card overlays",
+          "Modal backgrounds",
+          "Featured content cards"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Toast Background Light",
+        "description": "Toast notification background in light theme",
+        "when_to_use": [
+          "Toast notifications",
+          "Alert surfaces"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Toast Background Dark",
+        "description": "Toast notification background in dark theme",
+        "when_to_use": [
+          "Toast notifications (dark mode)",
+          "Inverted alerts"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Privacy Banner Background",
+        "description": "Background for privacy and cookie consent banners",
+        "when_to_use": [
+          "Cookie banners",
+          "Consent overlays"
+        ],
+        "hex": "#F7FAFC"
+      },
+      {
+        "name": "Featured Card Dark",
+        "description": "Dark background for featured customer cards",
+        "when_to_use": [
+          "Featured customer stories",
+          "Hero cards"
+        ],
+        "hex": "#1F1F1D"
+      },
+      {
+        "name": "Personalization Background",
+        "description": "Background for personalization and CTA sections",
+        "when_to_use": [
+          "CTA sections",
+          "Demo request areas"
+        ],
+        "hex": "#F4F2EF"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Bottom Fade",
+        "description": "Bottom-to-top gradient fade from white to transparent",
+        "when_to_use": [
+          "Hero section bottom fade",
+          "Content transitions"
+        ],
+        "css_code": "linear-gradient(0deg,#FFF_10.91%,rgba(255,255,255,0.00)_45%)"
+      },
+      {
+        "name": "Ticker Left Edge Fade",
+        "description": "Left-to-right fade for ticker overflow masking",
+        "when_to_use": [
+          "Ticker left edge",
+          "Carousel overflow masks"
+        ],
+        "css_code": "linear-gradient(to_right,white_0%,transparent_71%)"
+      },
+      {
+        "name": "Ticker Right Edge Fade",
+        "description": "Right-to-left fade for ticker overflow masking",
+        "when_to_use": [
+          "Ticker right edge",
+          "Carousel overflow masks"
+        ],
+        "css_code": "linear-gradient(to_right,transparent_0%,white_71%)"
+      },
+      {
+        "name": "Featured Card Overlay",
+        "description": "Top-to-bottom dark gradient overlay for featured cards",
+        "when_to_use": [
+          "Featured customer cards",
+          "Image overlays"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.35) 18%, #000 45%)"
+      },
+      {
+        "name": "Platform Card Bottom Right Fade",
+        "description": "Right edge fade to gray light background",
+        "when_to_use": [
+          "Platform card edges",
+          "Content overflow masks"
+        ],
+        "css_code": "linear-gradient(to right, #F4F2F000 0%, #F4F2F0 100%)"
+      },
+      {
+        "name": "Platform Card Bottom Fade",
+        "description": "Bottom edge fade to gray light background",
+        "when_to_use": [
+          "Platform card bottoms",
+          "Content overflow masks"
+        ],
+        "css_code": "linear-gradient(to bottom, #F4F2F000 0%, #F4F2F0 100%)"
+      },
+      {
+        "name": "Scroll Animation White Top Fade",
+        "description": "Top fade from white to transparent",
+        "when_to_use": [
+          "Scroll animation sections",
+          "Content transitions"
+        ],
+        "css_code": "linear-gradient(to bottom, white 60%, transparent 100%)"
+      },
+      {
+        "name": "Skeleton Loading Gradient",
+        "description": "Animated skeleton loading gradient",
+        "when_to_use": [
+          "Loading states",
+          "Placeholder content"
+        ],
+        "css_code": "linear-gradient(90deg, rgba(0,0,0,.06) 0%, rgba(0,0,0,.15) 100%)"
+      }
+    ],
+    "highlights": [
+      "Canvas animations with mask-image gradients for depth effects",
+      "Soft box shadows on toast notifications: rgba(0, 0, 0, 0.1) 0px 4px 12px",
+      "Radial gradient mask for integration icons: radial-gradient(ellipse 60% 55% at 50% 53%, black 50%, rgba(0,0,0,0.90) 50%, rgba(0,0,0,0.15) 80%, transparent 100%)",
+      "Backdrop blur effects on buttons and overlays (12px blur)",
+      "Border gradients on scroll animation sections for depth"
+    ]
+  }
+}

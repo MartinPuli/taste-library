@@ -1,0 +1,116 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Times New Roman",
+          "role": "Display Heading",
+          "specs": {
+            "size": "28px",
+            "line_height": "34px",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Times New Roman\"",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Times New Roman",
+          "role": "Heading (H2 / H4)",
+          "specs": {
+            "size": "24px",
+            "line_height": "",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Times New Roman\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "Times New Roman",
+          "role": "Body Text",
+          "specs": {
+            "size": "16px",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Times New Roman\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "Arial",
+          "role": "Navigation / UI Labels",
+          "specs": {
+            "size": "13.3333px",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "Arial",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": [
+        {
+          "name": "monospace",
+          "role": "Input Text (Textarea)",
+          "specs": {
+            "size": "13.3333px",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "monospace",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "highlights": "No specific highlight styles such as brush strokes or underlines were detected; standard utility classes for text colors and hover states are used.",
+    "insights": [
+      "The system relies on \"Times New Roman\" as the foundational typeface for both headings and body copy, giving the interface a distinctly editorial and academic aesthetic.",
+      "\"Arial\" is introduced exclusively for utility navigation labels at smaller sizes (13.33px), prioritizing crisp readability in UI elements.",
+      "Monospace typography is deliberately used for text input areas like textareas, establishing a technical or structured feel for data entry."
+    ]
+  }
+}

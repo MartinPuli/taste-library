@@ -1,0 +1,53 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default, uses slideDown/slideUp animations with cubic-bezier(0.62, 0.05, 0.01, 0.99) easing"
+    },
+    "dividers": [
+      {
+        "name": "AI Divider",
+        "description": "Gradient divider that fades from transparent to subtle black and back",
+        "when_to_use": [
+          "Section separation in AI content areas",
+          "Subtle visual breaks between content blocks"
+        ],
+        "color": "rgba(0, 0, 0, 0.088)",
+        "height": "1px",
+        "style": "linear-gradient"
+      },
+      {
+        "name": "Line Break Gradient",
+        "description": "Horizontal gradient line for content separation",
+        "when_to_use": [
+          "Breaking up content sections",
+          "Visual emphasis between components"
+        ],
+        "color": "rgba(0, 0, 0, 0.088)",
+        "height": "1px",
+        "style": "linear-gradient"
+      },
+      {
+        "name": "Footer Border",
+        "description": "Top border for footer section separation",
+        "when_to_use": [
+          "Footer section boundary"
+        ],
+        "color": "rgba(79, 71, 73, 0.05)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

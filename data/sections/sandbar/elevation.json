@@ -1,0 +1,136 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/sandbar.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Webflow Badge Shadow",
+          "type": "drop",
+          "description": "10% black opacity with 1px inset border and 10% black 3px blur - used for branding badge",
+          "css_value": "0 0 0 1px #0000001a,0 1px 3px #0000001a",
+          "when_to_use": [
+            "Webflow badge",
+            "Floating attribution elements"
+          ]
+        },
+        {
+          "name": "Phone Device Shadow",
+          "type": "drop",
+          "description": "Multi-layer drop shadow creating depth effect - 5% opacity at 184px offset, 12% at 103px, 31% at 45px, 36% at 11px blur distances",
+          "css_value": "drop-shadow(0 184.064px 73.5282px #00000005)drop-shadow(0 103.232px 61.8416px #00000012)drop-shadow(0 45.7725px 45.7725px #0000001f)drop-shadow(0 11.6866px 25.321px #00000024)",
+          "when_to_use": [
+            "Phone mockups",
+            "Device frames",
+            "Hero product images"
+          ]
+        },
+        {
+          "name": "Product Visual Shadow",
+          "type": "drop",
+          "description": "Multi-layer drop shadow for product visuals - 5% opacity at 120px, 10% at 10px, 15% at 45px, 20% at 11px offsets",
+          "css_value": "drop-shadow(0 120.064px 20.5282px #00000005)drop-shadow(0 10.232px 30.8416px #0000000a)drop-shadow(0 45.7725px 40.7725px #0000000f)drop-shadow(0 11.6866px 25.321px #00000014)",
+          "when_to_use": [
+            "Product hero visuals",
+            "Floating product images"
+          ]
+        },
+        {
+          "name": "Toggle Dot Shadow",
+          "type": "drop",
+          "description": "Subtle 30% black shadow with 1px blur and 5px offset for toggle controls",
+          "css_value": "0 1px 5px #0003",
+          "when_to_use": [
+            "Toggle switches",
+            "Cookie consent toggles",
+            "Form controls"
+          ]
+        },
+        {
+          "name": "Menu Container Shadow",
+          "type": "drop",
+          "description": "26% black opacity with 1px vertical offset and 2px blur for popup menus",
+          "css_value": "0 1px 2px #00000026",
+          "when_to_use": [
+            "Dropdown menus",
+            "Popover containers",
+            "Tooltips"
+          ]
+        },
+        {
+          "name": "Range Thumb Shadow",
+          "type": "drop",
+          "description": "Multi-part shadow with 26% and 33% black opacity for slider thumb controls",
+          "css_value": "0 1px 1px #23282f26,0 0 0 1px #23282f33",
+          "when_to_use": [
+            "Range sliders",
+            "Video progress controls",
+            "Audio volume controls"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#E0DFDC",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#0C0B0B",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DDDBCA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DEDBCA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#CCC",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E9E6D7",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#C9C7B9",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#BFBEB2",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DBDCDD",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

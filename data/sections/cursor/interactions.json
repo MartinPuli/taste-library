@@ -1,0 +1,90 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "hover_transform",
+      "hover_lift",
+      "tab_switching"
+    ],
+    "animations": [
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }",
+        "description": "Simple opacity fade-in animation for revealing elements."
+      },
+      {
+        "name": "fadeSlideUp",
+        "css": "@keyframes fadeSlideUp { from { opacity: 0; transform: translateY(2px) } to { opacity: 1; transform: translateY(0) } }",
+        "description": "Combined fade and upward slide animation for content reveals."
+      },
+      {
+        "name": "fadeSlideRight",
+        "css": "@keyframes fadeSlideRight { from { opacity: 0; transform: translateX(-2px) } to { opacity: 1; transform: translateX(0) } }",
+        "description": "Combined fade and rightward slide animation for horizontal content reveals."
+      },
+      {
+        "name": "barGrow",
+        "css": "@keyframes barGrow { from { transform: scaleY(0) } to { transform: scaleY(1) } }",
+        "description": "Vertical scale animation for progress bars or chart elements."
+      },
+      {
+        "name": "tilePopIn",
+        "css": "@keyframes tilePopIn { from { opacity: 0; transform: scale(0.7) translateY(3px) } to { opacity: 1; transform: scale(1) translateY(0) } }",
+        "description": "Pop-in animation for tiles and cards with scale and position."
+      },
+      {
+        "name": "navItemSlideIn",
+        "css": "@keyframes navItemSlideIn { 0% { opacity: 0; transform: translateY(-4px) } to { opacity: 1; transform: translateY(0) } }",
+        "description": "Slide-in animation for navigation dropdown items."
+      },
+      {
+        "name": "navItemFade",
+        "css": "@keyframes navItemFade { 0% { opacity: 0 } to { opacity: 1 } }",
+        "description": "Fade animation for navigation CTA button appearance."
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+        "description": "Loading spinner animation with opacity cycling for toast notifications."
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(.8) } 100% { opacity: 1; transform: scale(1) } }",
+        "description": "Toast notification entrance animation with scale and fade."
+      },
+      {
+        "name": "global-transition",
+        "css": "transition: opacity 0.14s cubic-bezier(0.25, 1, 0.5, 1), transform 0.14s cubic-bezier(0.25, 1, 0.5, 1)",
+        "description": "Standard transition timing used for navigation items and interactive elements."
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "description": "Default transition for button hover states and interactions."
+      },
+      {
+        "name": "gallery-marquee-item-slide-up",
+        "css": "@keyframes gallery-marquee-item-slide-up { /* Defined in CSS variable: --animate-gallery-marquee-item-slide-up */ }",
+        "description": "Slide-up animation for gallery marquee items, timing: 1s cubic-bezier(.25, 1, .5, 1)."
+      }
+    ],
+    "insights": [
+      "The design system uses full-radius (pill-shaped) buttons exclusively for primary and secondary CTAs, creating a soft, approachable aesthetic that contrasts with the sharp edges of product UI mockups.",
+      "Interactive product demos are a core component pattern, using nested window chrome with draggable/resizable containers to showcase the IDE experience directly on the marketing page.",
+      "The color system relies heavily on alpha transparency variations of the primary graphite color (#26251E) for creating subtle hierarchy in borders, text states, and backgrounds rather than introducing additional hue values."
+    ]
+  }
+}

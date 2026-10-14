@@ -1,0 +1,46 @@
+{
+  "id": "airbnb",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A rounded search bar sits above horizontal rows of property cards. Many photos remain gray placeholders in the saved viewport.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/viewport.jpg",
+    "sha256": "255daaec391566e0b6a95e46c07c4538d1b0ea8767a49a3a286d5e1efb1ca74b"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/styles.css",
+    "sha256": "1be89502c17f188463b8d1cbff86d6aeb0c17d408d68ebfd3f06318a07f52bee",
+    "bytes": 14462,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#222222",
+      "#FFFFFF"
+    ],
+    "palette_literals_checked": [
+      "#222222",
+      "#6C6C6C",
+      "#FFFFFF",
+      "#C1C1C1",
+      "#000000"
+    ],
+    "font_names_found": [
+      "Airbnb Cereal VF"
+    ],
+    "font_names_checked": [
+      "Airbnb Cereal VF"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "cd8da87471734c954c4123266e92517fc6b5a5599309f2b67e1768460af6345b"
+}

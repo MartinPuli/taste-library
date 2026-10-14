@@ -1,0 +1,324 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Download for macOS (Primary)",
+        "usage": "Main call-to-action for downloading the application. Used in hero section and final CTA section.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "CursorGothic, system-ui, sans-serif",
+              "size": "1rem",
+              "padding": "0.78em 1.35em 0.8em"
+            },
+            {
+              "name": "Small",
+              "font": "CursorGothic, system-ui, sans-serif",
+              "size": "0.875rem",
+              "padding": "0.4em 0.75em 0.42em"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#26251E",
+            "text_color": "#F7F7F4",
+            "border_color": "#26251E",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#3B3A33",
+            "text_color": "#F7F7F4",
+            "border_color": "#3B3A33",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E6E5E0",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "rgba(38, 37, 30, 0.025)",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Request a demo (Secondary/Ghost)",
+        "usage": "Secondary action alongside primary CTA. Used for demo requests and less prominent actions.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "CursorGothic, system-ui, sans-serif",
+              "size": "1rem",
+              "padding": "0.78em 1.35em 0.8em"
+            },
+            {
+              "name": "Small",
+              "font": "CursorGothic, system-ui, sans-serif",
+              "size": "0.875rem",
+              "padding": "0.4em 0.75em 0.42em"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#26251E",
+            "border_color": "rgba(38, 37, 30, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F1ED",
+            "text_color": "#26251E",
+            "border_color": "rgba(38, 37, 30, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E6E5E0",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "rgba(38, 37, 30, 0.025)",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact sales (Ghost Small)",
+        "usage": "Navigation bar secondary action for enterprise sales contact.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "CursorGothic, system-ui, sans-serif",
+              "size": "0.875rem",
+              "padding": "0.4em 0.75em 0.42em"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#26251E",
+            "border_color": "rgba(38, 37, 30, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F2F1ED",
+            "text_color": "#26251E",
+            "border_color": "rgba(38, 37, 30, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E6E5E0",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "rgba(38, 37, 30, 0.025)",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Download (Primary Small)",
+        "usage": "Compact primary button in the navigation header for quick access to download.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "CursorGothic, system-ui, sans-serif",
+              "size": "0.875rem",
+              "padding": "0.4em 0.75em 0.42em"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#26251E",
+            "text_color": "#F7F7F4",
+            "border_color": "#26251E",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#3B3A33",
+            "text_color": "#F7F7F4",
+            "border_color": "#3B3A33",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E6E5E0",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "rgba(38, 37, 30, 0.025)",
+            "border_width": "1px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Agent (Pill Toggle)",
+        "usage": "Mode selector pill button in the product demo chat input, used to toggle between Agent and other modes.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system-ui, -apple-system, sans-serif",
+              "size": "0.6875rem",
+              "padding": "3px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E6E5E0",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E1E0DB",
+            "text_color": "#26251E",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Build (Accent Action)",
+        "usage": "Accent-colored action button in the product demo for triggering build/plan actions.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Extra Small",
+              "font": "system-ui, -apple-system, sans-serif",
+              "size": "0.75rem",
+              "padding": "0.5px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgb(192, 133, 50)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgb(192, 133, 50)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Submit (Icon Circle)",
+        "usage": "Circular icon button for form submission in chat inputs. Contains arrow icon only.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system-ui, sans-serif",
+              "size": "12px",
+              "padding": "5px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#E1E0DB",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E6E5E0",
+            "text_color": "#26251E",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#E1E0DB",
+            "text_color": "rgba(38, 37, 30, 0.6)",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Primary and secondary CTAs placed side by side with consistent spacing.",
+      "spacing": "calc(10rem / 16)"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

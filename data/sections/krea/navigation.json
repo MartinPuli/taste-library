@@ -1,0 +1,49 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/krea.json",
+  "data": {
+    "top_nav": null,
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Sidebar Navigation Tab",
+      "description": "Vertical sidebar navigation using icon + label items that highlight on hover and selection.",
+      "when_to_use": [
+        "Primary app navigation in sidebar",
+        "Switching between main app sections"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Normal state with foreground text color",
+          "background": null,
+          "text": "oklch(0.985 0 0)",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Background changes to sidebar-accent on hover",
+          "background": "oklch(26.9% 0 0)",
+          "text": null,
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Shows shadow and thin border when active",
+          "background": "oklch(26.9% 0 0)",
+          "text": "oklch(98.5% 0 0)",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "brand_name": "Vercel",
+    "tagline": null,
+    "source_url": "https://vercel.com/home",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / Cloud Infrastructure",
+    "primary_purpose": "Drive signups and enterprise sales for cloud deployment and AI infrastructure platform",
+    "main_cta": "Deploy now",
+    "copy_tone": [
+      "Confident",
+      "Technical",
+      "Aspirational"
+    ],
+    "brand_signature": "Stark black and white minimalist aesthetic with the iconic Vercel triangle logo as visual anchor. Clean, high-contrast typography with generous whitespace creates a premium developer-focused identity. Sophisticated use of subtle gradients and motion effects reinforce technological precision.",
+    "visual_language": {
+      "keywords": [
+        "minimalist",
+        "monochromatic",
+        "technical",
+        "precise",
+        "premium",
+        "developer-centric"
+      ],
+      "accent_strategy": "Pure black (#000) used sparingly against white backgrounds for maximum contrast; occasional blue focus states for interactive elements",
+      "highlights": "Subtle animated shader effects and gradient glows used to draw attention to hero section and key product visuals"
+    },
+    "strategy": {
+      "target_audience": [
+        "Frontend and full-stack developers seeking deployment automation and scalable infrastructure",
+        "Engineering leaders and CTOs evaluating enterprise cloud platforms for AI/agent workloads",
+        "Startup founders needing fast, reliable hosting with minimal DevOps overhead",
+        "AI engineers building agent-based applications requiring durable orchestration and sandboxed environments"
+      ],
+      "executive_synthesis": "Vercel's visual identity leverages extreme minimalism and technical precision to signal developer credibility and platform sophistication. The monochromatic palette and geometric logo establish instant recognition while the sparse layout communicates confidence—letting product capabilities speak without visual noise. The strategic placement of enterprise client logos (Notion, Zapier, OpenAI) alongside 'Agentic Infrastructure' messaging positions Vercel at the intersection of established cloud hosting and emerging AI agent deployment, appealing to both traditional web developers and forward-looking AI builders."
+    },
+    "style_classification": {
+      "primary_style": "Swiss Style / International Typographic Style",
+      "confidence": "High",
+      "category_style": "Historical Movement",
+      "reasoning": "The visual impression is immediately clean, systematic, and typography-driven—a stark black-and-white palette with generous whitespace dominates the page. The hero features a large geometric primitive (solid black triangle) centered against a pure white background, a hallmark of Swiss Style's mathematical clarity and use of geometric forms as primary visual anchors. \n\n**Layout Analysis:** The grid-based strict structure (12-column, 1400px max-width) with centered/symmetric alignment and extreme vertical spacing (128-176px between sections on desktop) mirrors the International Typographic Style's emphasis on mathematical grids and generous whitespace. Section separation is achieved purely through negative space—no decorative dividers.\n\n**Typography Analysis:** GeistSans, a geometric sans-serif with consistent 450 weight across headings (72px down to 16px), paired with Geist Mono for technical labels, directly aligns with Swiss Style's reliance on modern sans-serif typography (Helvetica-adjacent) for objective communication. The flush-left alignment visible in feature sections and systematic type scale reinforces this.\n\n**Color Analysis:** The monochromatic core (Ink Black #171717 against Paper #FAFAFA/FFFFFF) with minimal accent color (a single blue reserved for accessibility) exemplifies Swiss Style's restrained, functional color philosophy—never decorative, always purposeful.\n\n**Shape/Texture Analysis:** The texture profile shows \"gradient_linear\" and \"shadows_soft\"—but these are extremely subtle (alpha-driven depth through translucent borders and shadows, not heavy gradients). The dominant visual language is flat geometric shapes with minimal decoration, consistent with Swiss Style's rejection of ornamentation.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The secondary modifier \"Corporate\" applies because the design communicates trust, reliability, and professional competence through conservative visual choices. The logo strip of major enterprise clients (OpenAI, DoorDash, Supreme), the emphasis on \"Agentic Infrastructure\" for enterprise scaling, and the formal CTA language (\"Deploy now,\" \"Talk to sales\") signal B2B enterprise positioning. The systematic typography hierarchy, restrained color usage, and polished interface mockups (documentation viewers, deployment dashboards) reinforce professional credibility. However, this remains a modifier rather than the primary classification—the core visual DNA is distinctly Swiss Style, with Corporate serving as the tonal application of that foundation."
+    }
+  }
+}

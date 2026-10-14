@@ -1,0 +1,29 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Navigation Divider",
+        "description": "Thin horizontal line below the navigation bar to separate it from content",
+        "when_to_use": [
+          "Below fixed navigation on dark hero sections"
+        ],
+        "color": "#FFFFFF4D",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

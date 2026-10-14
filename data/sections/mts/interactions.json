@@ -1,0 +1,58 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "global_patterns": [
+      "scroll_reveal",
+      "sticky_header",
+      "hover_transform",
+      "parallax",
+      "video_background"
+    ],
+    "animations": [
+      {
+        "name": "stage-reveal",
+        "css": "",
+        "description": "Elements with .stage-reveal.is-in fade and slide into view as user scrolls - JS-driven scroll reveal animation"
+      },
+      {
+        "name": "lenis-smooth-scroll",
+        "css": "",
+        "description": "Lenis library provides smooth scrolling behavior across the page - JS-driven smooth scroll"
+      },
+      {
+        "name": "dither-field-canvas",
+        "css": "",
+        "description": "Canvas-based dithered background pattern with dynamic rendering - JS-driven generative animation"
+      },
+      {
+        "name": "sponsor-cascade",
+        "css": "",
+        "description": "Sponsor logos cascade with staggered positioning using CSS custom properties (--sg-x, --mark-scale) - combines CSS transforms with JS scroll positioning"
+      },
+      {
+        "name": "intro-hero-parallax",
+        "css": "",
+        "description": "Hero section with translateY transform based on scroll position for parallax depth effect - JS-driven"
+      },
+      {
+        "name": "si-zoom-scale",
+        "css": "",
+        "description": "Interlude image section scales from 1.0651 based on scroll for zoom parallax effect - JS-driven transform"
+      }
+    ],
+    "insights": [
+      "The design system uses CSS custom properties extensively (--ink, --bg-1, --line-strong, --mts-yellow) enabling seamless light/dark theme switching via the toggle button",
+      "Navigation employs a clean underline tab pattern with monospace uppercase text, creating a technical/editorial aesthetic that matches the 'Chronicling the singularity' tech-forward brand",
+      "Motion design is primarily JS-driven (Lenis scroll, canvas animations, scroll-triggered reveals) rather than CSS @keyframes, suggesting a React/GSAP stack for complex choreographed interactions"
+    ]
+  }
+}

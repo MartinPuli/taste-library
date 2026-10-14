@@ -2,31 +2,49 @@
 
 Organize tool demonstrations with dark panels, fine borders, and clear type hierarchy.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 3 · Captured 2026-10-10T10:50:53.682721Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 3 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-10T10:50:53.682721Z |
-| Suggested uses | developer-tools, productivity |
-| Visual approach | dark-technical, modular |
+[Original website](https://linear.app/) · [Full extraction](../data/raw/linear.json) · [Review record](../data/reviews/linear.json)
 
-## Details to compare
+[Small visual preview](../data/previews/linear.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/full.jpg)
 
-- Detected type families: Inter Variable, Berkeley Mono.
-- Recorded palette: #F7F8F8, #D0D6E0, #8A8F98, #62666D, #08090A.
-- Grid: `{"columns": 12, "gutter": "32px", "max_width": "calc(1344px + 46px * 2)"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A left-aligned headline and detailed product panel sit on a near-black background, with small navigation and a white sign-up button.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://linear.app/) · [Extraction](../data/raw/linear.json) · [Tokens](../data/tokens/linear.json)
+Project types: developer-tools, productivity. Styles: dark-technical, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show linear --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Organize tool demonstrations with dark panels, fine borders, and clear type hierarchy. Evidence: [layout](../data/sections/linear/layout.json), [sections](../data/sections/linear/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/linear/actions.json).
+
+## Content to bring
+
+A real product workflow, readable interface examples, and a clear first action for developers. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/linear/profile.json)
+- [Layout](../data/sections/linear/layout.json)
+- [Colors](../data/sections/linear/colors.json)
+- [Typography](../data/sections/linear/typography.json)
+- [Surfaces](../data/sections/linear/surfaces.json)
+- [Elevation](../data/sections/linear/elevation.json)
+- [Interactions](../data/sections/linear/interactions.json)
+- [Actions](../data/sections/linear/actions.json)
+- [Navigation](../data/sections/linear/navigation.json)
+- [Data Display](../data/sections/linear/data_display.json)
+- [Structure](../data/sections/linear/structure.json)
+- [Icons](../data/sections/linear/icons.json)
+- [Assets](../data/sections/linear/assets.json)
+- [Brand Assets](../data/sections/linear/brand_assets.json)
+- [Sections](../data/sections/linear/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

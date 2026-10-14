@@ -1,0 +1,60 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "brand_name": "SpaceX",
+    "tagline": null,
+    "source_url": "https://www.spacex.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Aerospace / Space Technology",
+    "primary_purpose": "Showcase SpaceX's mission, vehicles, and services while driving engagement with launch events, human spaceflight programs, and Starlink/AI initiatives",
+    "main_cta": "WATCH",
+    "copy_tone": [
+      "Visionary",
+      "Bold",
+      "Technical"
+    ],
+    "brand_signature": "Cinematic dark aesthetic with full-bleed video and photography of rockets, space, and planetary imagery. Clean uppercase typography in D-DIN font family creates an industrial, engineered feel with high contrast white text on pure black backgrounds.",
+    "visual_language": {
+      "keywords": [
+        "cinematic",
+        "industrial",
+        "futuristic",
+        "immersive",
+        "monumental",
+        "technical"
+      ],
+      "accent_strategy": "Minimal accent usage—white text and UI elements on pure black backgrounds create stark contrast; subtle white borders on CTAs with hover state inversions",
+      "highlights": "Full-screen video backgrounds and high-impact photography serve as visual highlights, with gradient overlays directing focus to text content"
+    },
+    "strategy": {
+      "target_audience": [
+        "Space enthusiasts and technology aficionados who follow launch events and space exploration news",
+        "Government and commercial aerospace clients seeking reliable launch services",
+        "Starlink customers looking for high-speed satellite internet solutions",
+        "Prospective employees and engineers attracted to cutting-edge aerospace innovation",
+        "Investors and stakeholders interested in SpaceX's expanding portfolio including AI and orbital compute"
+      ],
+      "executive_synthesis": "SpaceX's visual strategy employs cinematic immersion to translate complex aerospace technology into aspirational human narrative. The dark, minimal interface positions the brand as technically sophisticated while full-bleed video creates emotional connection to the mission of making life multiplanetary. Strategic content hierarchy leads with immediate launch events, reinforces core vehicle/service offerings, and introduces emerging business lines (Starlink, Orbital AI) to diversify audience engagement pathways."
+    },
+    "style_classification": {
+      "primary_style": "Futurism",
+      "confidence": "High",
+      "category_style": "Historical Movement",
+      "reasoning": "The SpaceX website embodies a modern interpretation of Futurism's core philosophy: celebration of speed, technology, and machines. The visual impression is immediately cinematic and aspirational—dramatic full-bleed photography of rockets, launches, and space imagery creates a sense of technological progress and motion.\n\n**Visual Density:** Airy/Spacious - Full-viewport sections (100vh) with generous negative space around text elements.\n**Color Cleanliness:** Clean/Pure - The monochromatic palette (pure black #000000, off-white #F0F0FA) is extremely disciplined and sophisticated.\n**Chronology:** Futuristic - Subject matter (space exploration, Mars colonization, orbital AI) and treatment project forward.\n**Dimensionality:** Flat with depth via photography - UI elements are flat, but cinematic imagery provides depth.\n**Decoration:** Minimal - No ornamental elements; every element serves communication.\n**Structure:** Rigid Grid - Clean 12-column grid with symmetrical alternating split layouts.\n\n**Design Element Cross-Reference:**\n- *Color:* Monochromatic black/white palette matches Futurism's metallic/monochromatic specification\n- *Type:* D-DIN is a geometric sans-serif with industrial character; bold display headlines (5rem/60px) in all-caps create poster-like impact—matching Futurism's \"Bold Display, Geometric\" requirements\n- *Shape:* Angular/sharp geometric shapes implied in the grid structure and rectangular image containers\n- *Texture:* Linear gradients (black-to-transparent scrims) match Futurism's \"Gradients (Linear)\" specification\n- *Layout:* Alternating asymmetric split layouts with overlapping/layered text on photography aligns with Futurism's \"Asymmetric/Broken Grid, Dense/Packed, Overlapping/Layered\"\n\nThe tight line-heights (90-95%), uppercase treatment, and dramatic visual hierarchy create the \"bold, poster-like quality\" noted in typography insights—directly echoing Italian Futurist poster design sensibilities adapted for the digital age.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier applies due to the professional, trust-building communication strategy. Despite the dramatic imagery, the design maintains conservative business credibility: consistent CTA patterns (\"LEARN MORE →\" outline buttons throughout), clear information hierarchy, systematic navigation structure, and restrained color palette. The typography system's technical precision (Roboto Mono for data/subheaders) reinforces competence and reliability. This is a corporate website masquerading as aspirational art—communicating SpaceX as a trustworthy enterprise capable of delivering on ambitious promises, not a speculative startup. The monochromatic sophistication and cinematic photography treatment elevates beyond typical corporate blandness into premium \"Luxurious\" territory, but \"Corporate\" better captures the underlying trust/competence communication strategy."
+    }
+  }
+}

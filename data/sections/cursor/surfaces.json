@@ -1,0 +1,191 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Theme Background",
+        "description": "Primary page background color",
+        "when_to_use": [
+          "Page backgrounds",
+          "Main content areas"
+        ],
+        "hex": "#F7F7F4"
+      },
+      {
+        "name": "Card Background",
+        "description": "Default card surface",
+        "when_to_use": [
+          "Card backgrounds",
+          "Container surfaces"
+        ],
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Card Background 01",
+        "description": "Light card variant",
+        "when_to_use": [
+          "Subtle card backgrounds",
+          "Light containers"
+        ],
+        "hex": "#F0EFEB"
+      },
+      {
+        "name": "Card Background 02",
+        "description": "Medium card variant with more depth",
+        "when_to_use": [
+          "Hover states",
+          "Interactive cards",
+          "Secondary containers"
+        ],
+        "hex": "#EBEAE5"
+      },
+      {
+        "name": "Card Background 03",
+        "description": "Deeper card variant",
+        "when_to_use": [
+          "Active states",
+          "Emphasized containers"
+        ],
+        "hex": "#E6E5E0"
+      },
+      {
+        "name": "Card Background 04",
+        "description": "Darkest light-theme card variant",
+        "when_to_use": [
+          "Strong emphasis",
+          "Disabled states"
+        ],
+        "hex": "#E1E0DB"
+      },
+      {
+        "name": "Card Warm",
+        "description": "Warm-tinted card surface",
+        "when_to_use": [
+          "Warm-themed sections",
+          "Special content cards"
+        ],
+        "hex": "#F3EDE6"
+      },
+      {
+        "name": "Product Chrome",
+        "description": "Product interface chrome background",
+        "when_to_use": [
+          "Product UI chrome",
+          "Tool panels",
+          "Sidebar backgrounds"
+        ],
+        "hex": "#F2F1ED"
+      },
+      {
+        "name": "Product Editor",
+        "description": "Editor/content area background",
+        "when_to_use": [
+          "Editor surfaces",
+          "Code editor backgrounds",
+          "Text input areas"
+        ],
+        "hex": "#F7F7F4"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Color Theme Card 03",
+        "description": "Layered gradient with 5% dark overlay on card background",
+        "when_to_use": [
+          "Card surfaces with subtle depth",
+          "Layered UI elements"
+        ],
+        "css_code": "linear-gradient(color-mix(in oklab, #26251e 5%, transparent) 0% 100%), linear-gradient(#f2f1ed 0% 100%)"
+      },
+      {
+        "name": "Color Theme Card 02",
+        "description": "Layered gradient with 2.5% dark overlay on card background",
+        "when_to_use": [
+          "Subtle card depth",
+          "Light layered surfaces"
+        ],
+        "css_code": "linear-gradient(color-mix(in oklab, #26251e 2.5%, transparent) 0% 100%), linear-gradient(#f2f1ed 0% 100%)"
+      },
+      {
+        "name": "Color Theme Card",
+        "description": "Solid color expressed as gradient for consistency",
+        "when_to_use": [
+          "Base card surfaces",
+          "Default containers"
+        ],
+        "css_code": "linear-gradient(#f2f1ed 0% 100%)"
+      },
+      {
+        "name": "Product Chrome Fade Top",
+        "description": "Top-to-bottom fade from product chrome to transparent",
+        "when_to_use": [
+          "Sticky header overlays",
+          "Scroll fade effects"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--color-theme-product-chrome), transparent)"
+      },
+      {
+        "name": "Product Chrome Fade Bottom",
+        "description": "Bottom-to-top fade from product chrome to transparent",
+        "when_to_use": [
+          "Sticky footer overlays",
+          "Bottom scroll indicators"
+        ],
+        "css_code": "linear-gradient(to top, var(--color-theme-product-chrome), transparent)"
+      },
+      {
+        "name": "Theme Background Fade",
+        "description": "Background fade with 85% opacity transition",
+        "when_to_use": [
+          "Section transitions",
+          "Overlays on content"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(247, 247, 244, 0.85), var(--color-theme-bg))"
+      },
+      {
+        "name": "Content Fade Right",
+        "description": "Left-to-right fade from transparent to background",
+        "when_to_use": [
+          "Horizontal scroll indicators",
+          "Content truncation overlays"
+        ],
+        "css_code": "linear-gradient(90deg, transparent 0%, #f7f7f4 88%)"
+      },
+      {
+        "name": "iOS Glass Surface",
+        "description": "Glassmorphism gradient with diagonal direction for light theme",
+        "when_to_use": [
+          "Glassmorphic panels",
+          "Command menus",
+          "Floating UI elements"
+        ],
+        "css_code": "linear-gradient(135deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.2) 52%, rgba(255, 255, 255, 0.1) 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter blur(20px) with semi-transparent white overlays and subtle border highlighting",
+      "iOS glass effect combines linear-gradient overlays with backdrop-filter blur(14px) saturate(1.45) for frosted glass appearance",
+      "Dark theme glass panels use backdrop-filter blur(18px) saturate(1.2) over semi-transparent black backgrounds",
+      "Layered card surfaces use multiple gradient overlays with color-mix() for subtle depth (2.5%, 5%, etc.)",
+      "Selection overlay effects with 8-15% opacity backgrounds and 2px colored borders",
+      "Shadow flyout style: 0 0 1rem rgba(0,0,0,0.02), 0 0 .5rem rgba(0,0,0,0.008)",
+      "Window shadows: 0 28px 70px rgba(0,0,0,0.14), 0 14px 32px rgba(0,0,0,0.1) for depth",
+      "Inset shadows for product chrome: 0 -1px 0 0 var(--color-theme-border-02) inset"
+    ]
+  }
+}

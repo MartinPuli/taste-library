@@ -1,0 +1,30 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Subtle border used to separate content sections and navigation panels",
+        "when_to_use": [
+          "Mobile navigation drawer section separators",
+          "Between header and content"
+        ],
+        "color": "rgba(0,0,0,0.12)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

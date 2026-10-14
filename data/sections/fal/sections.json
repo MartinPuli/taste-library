@@ -1,0 +1,260 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/fal.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar with centered logo and split nav/CTA",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Black 'fal' wordmark logo on transparent background"
+        },
+        {
+          "type": "navigation",
+          "description": "Text links with dropdown triggers (Products, Resources) – dark gray text with hover states"
+        },
+        {
+          "type": "button",
+          "description": "'Contact Sales' – white background, black text, rounded corners"
+        },
+        {
+          "type": "button",
+          "description": "'Login' – black background, white text, rounded corners"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Left-aligned text block with abstract graphic overlays on light blue gradient background",
+      "headline": "Generative media platform for developers.",
+      "subheadline": "The world's first generative image, video, and audio API platform...",
+      "components": [
+        {
+          "type": "button",
+          "description": "'Get Started' – black pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "'View the docs' – outlined white/transparent button"
+        },
+        {
+          "type": "illustration",
+          "description": "Abstract geometric shapes in pink, purple, yellow, green – organic rounded rectangles, dots, gradient circles overlaying light blue background"
+        }
+      ]
+    },
+    {
+      "type": "Social Proof",
+      "layout_pattern": "Centered horizontal row of icon badges",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "5 partner logos: Anthropic, Claude, OpenAI, Gemini, Discord – simple monochrome icons with labels below"
+        }
+      ]
+    },
+    {
+      "type": "Model Gallery",
+      "layout_pattern": "Centered headline with horizontal scrolling card grid",
+      "headline": "The world's largest generative media model gallery",
+      "subheadline": "Explore all models →",
+      "components": [
+        {
+          "type": "card",
+          "description": "4 video/image preview cards – large thumbnails with overlay text labels (Mochi/ks, FLUX.1, Cineaste, AnimaMax) – dark gradient overlays, rounded corners"
+        },
+        {
+          "type": "button",
+          "description": "Arrow icon link (→) for navigation"
+        }
+      ]
+    },
+    {
+      "type": "Section Header",
+      "layout_pattern": "Left-aligned large display text with decorative gradient circle on right",
+      "headline": "Build, deploy, train.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "illustration",
+          "description": "Large circular gradient element (blue/purple/pink) on right side"
+        }
+      ]
+    },
+    {
+      "type": "Product Card – fal INFERENCE APIs",
+      "layout_pattern": "Full-width card with centered content",
+      "headline": "1000+ generative media models. Ready for production.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Deep purple/violet background card with white text and gradient logo mark"
+        },
+        {
+          "type": "button",
+          "description": "'Learn More →' – white text link with arrow"
+        },
+        {
+          "type": "illustration",
+          "description": "Circular geometric gradient element (purple/pink) on right edge"
+        }
+      ]
+    },
+    {
+      "type": "Product Cards – Serverless + ComfyUI",
+      "layout_pattern": "Two-column grid of product cards",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "fal SERVERLESS – light cyan/blue background, dark text, pill-shaped 'Get Started →' button"
+        },
+        {
+          "type": "card",
+          "description": "fal COMFYUI – light green/yellow background, dark text, pill-shaped 'Get Started →' button"
+        }
+      ]
+    },
+    {
+      "type": "Features – Why choose fal?",
+      "layout_pattern": "Headline left, grid of feature cards right (2-column on desktop)",
+      "headline": "Why choose fal?",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "White/light gray card with embedded performance chart/code screenshot showing colorful icons (pink, purple, blue)"
+        },
+        {
+          "type": "card",
+          "description": "White/light gray card with icon grid showing GPU types"
+        },
+        {
+          "type": "card",
+          "description": "White/light gray card with embedded code sample (syntax-highlighted TypeScript/JavaScript)"
+        },
+        {
+          "type": "image",
+          "description": "Screenshot of interface comparison with color-coded bars (purple, cyan, pink)"
+        }
+      ]
+    },
+    {
+      "type": "Enterprise",
+      "layout_pattern": "Dark background with centered headline, feature grid below",
+      "headline": "Built for enterprise scale",
+      "subheadline": "Trusted by over 1,500,000 developers and leading companies.",
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "4 enterprise client logos (Anthropic, Gemini, Perplexity, Quora) – white on dark"
+        },
+        {
+          "type": "card",
+          "description": "Grid of 4 colored cards (yellow, purple, cyan, pink) with feature text – pastel backgrounds, dark text"
+        },
+        {
+          "type": "icon",
+          "description": "Checkmark icons for feature list items"
+        },
+        {
+          "type": "button",
+          "description": "'Get in touch' – white outlined pill-shaped button on dark background"
+        },
+        {
+          "type": "illustration",
+          "description": "Decorative yellow geometric pattern on right edge, abstract shapes on left edge"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Overlapping cards with centered headline on desktop; stacked on mobile",
+      "headline": "Built with fal, loved by all.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "3 testimonial cards – light gray background, quote text, headshot images, company logos (Canva, Perplexity, Quora), decorative abstract graphic in corner"
+        }
+      ]
+    },
+    {
+      "type": "CTA – Purple",
+      "layout_pattern": "Centered content on solid purple background with abstract graphic overlays",
+      "headline": "Build with the fastest inference platform on the planet",
+      "subheadline": "Whatever you need to create generative AI apps...",
+      "components": [
+        {
+          "type": "button",
+          "description": "'Get Started' – white solid pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "'View the docs' – white outlined pill-shaped button"
+        },
+        {
+          "type": "illustration",
+          "description": "Abstract line illustrations (white/light) on left and right edges"
+        }
+      ]
+    },
+    {
+      "type": "Enterprise CTA Bar",
+      "layout_pattern": "Horizontal bar spanning full width",
+      "headline": "Ready to transform your enterprise with AI?",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Contact us →' – dark pill-shaped button with arrow on light cyan background"
+        }
+      ]
+    },
+    {
+      "type": "Footer Links",
+      "layout_pattern": "Multi-column link grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "6 columns of text links: Learn more, Image Generation, Video Generation, Audio & Music, Speech & Voice, etc. – dark text on light cyan background"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Full-width with large logo and tagline",
+      "headline": null,
+      "subheadline": "Discover new APIs. Join fal.ai Discord community...",
+      "components": [
+        {
+          "type": "logo",
+          "description": "Large 'fal' wordmark with circular icon/mark – black on white"
+        },
+        {
+          "type": "divider",
+          "description": "Thin horizontal color-block stripe (blue, pink, purple, cyan segments)"
+        }
+      ]
+    }
+  ]
+}

@@ -2,31 +2,49 @@
 
 Present a voice tool through demonstrations on a dark desktop background.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 24 · Captured 2026-08-31T02:39:50.943536Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 24 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-08-31T02:39:50.943536Z |
-| Suggested uses | productivity |
-| Visual approach | dark-technical, cinematic |
+[Original website](https://superwhisper.com/) · [Full extraction](../data/raw/superwhisper.json) · [Review record](../data/reviews/superwhisper.json)
 
-## Details to compare
+[Small visual preview](../data/previews/superwhisper.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/full.jpg)
 
-- Detected type families: Inter, System Sans, System Mono, Flow Circular.
-- Recorded palette: #000000, #FFFFFF, #0088FF, #DD55E7, #16C253, #FFDD00, #471848, #7A7A7A, #9CCCC2, #112D72, #022044, #CD4015, #000000, #FFFFFF.
-- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "1280px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+White centered copy and two download controls sit on a blue photographic background framed by dark silhouettes.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://superwhisper.com/) · [Extraction](../data/raw/superwhisper.json) · [Tokens](../data/tokens/superwhisper.json)
+Project types: productivity. Styles: dark-technical, cinematic. These are editorial tags.
 
-```sh
-python3 scripts/query.py show superwhisper --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Present a voice tool through demonstrations on a dark desktop background. Evidence: [layout](../data/sections/superwhisper/layout.json), [sections](../data/sections/superwhisper/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/superwhisper/actions.json).
+
+## Content to bring
+
+Real workspace content that makes the product demonstration understandable. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/superwhisper/profile.json)
+- [Layout](../data/sections/superwhisper/layout.json)
+- [Colors](../data/sections/superwhisper/colors.json)
+- [Typography](../data/sections/superwhisper/typography.json)
+- [Surfaces](../data/sections/superwhisper/surfaces.json)
+- [Elevation](../data/sections/superwhisper/elevation.json)
+- [Interactions](../data/sections/superwhisper/interactions.json)
+- [Actions](../data/sections/superwhisper/actions.json)
+- [Navigation](../data/sections/superwhisper/navigation.json)
+- [Data Display](../data/sections/superwhisper/data_display.json)
+- [Structure](../data/sections/superwhisper/structure.json)
+- [Icons](../data/sections/superwhisper/icons.json)
+- [Assets](../data/sections/superwhisper/assets.json)
+- [Brand Assets](../data/sections/superwhisper/brand_assets.json) · no observed data
+- [Sections](../data/sections/superwhisper/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

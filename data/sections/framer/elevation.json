@@ -1,0 +1,45 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Navigation Dropdown",
+          "type": "drop",
+          "description": "Subtle border-like shadow used on navigation dropdown menus. 0px offset, 0px blur with 1px spread creates a border effect using rgba(255, 255, 255, 0.1) for a 10% white opacity glow.",
+          "css_value": "0px 0px 0px 1px rgba(255, 255, 255, 0.1)",
+          "when_to_use": [
+            "Navigation dropdowns",
+            "Floating menus",
+            "Popup panels"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#FFFFFF1A",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF12",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

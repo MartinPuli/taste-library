@@ -1,0 +1,236 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Split – Logo left, links center, CTA right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Luma logotype in white, minimal sans-serif"
+        },
+        {
+          "type": "navigation",
+          "description": "Uppercase link labels in white (Product, Pricing, API, Enterprise, News, Join us)"
+        },
+        {
+          "type": "button",
+          "description": "Solid white pill button with 'Sign In' label, black text"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Luma is your creative partner",
+      "subheadline": "You have the idea. Luma helps make it real.",
+      "components": [
+        {
+          "type": "video",
+          "description": "Full-bleed background video with muted blue/gray tones, floating orbs, depth-of-field bokeh effect"
+        },
+        {
+          "type": "button",
+          "description": "Solid white pill button with 'Try for free' label, centered below headline"
+        }
+      ]
+    },
+    {
+      "type": "Prompt Input Bar",
+      "layout_pattern": "Centered elevated card",
+      "headline": "What's due this week?",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "form",
+          "description": "Light gray elevated card with rounded corners, gradient border from black/50 to white/50, backdrop blur"
+        },
+        {
+          "type": "form",
+          "description": "Text input area with placeholder text, black background, white text"
+        },
+        {
+          "type": "button",
+          "description": "Three white pill buttons with black borders (Product Hero Shots, Paid Social Variants, Cut a Teaser)"
+        },
+        {
+          "type": "icon",
+          "description": "Submit arrow icon in tertiary color, bottom right of input"
+        }
+      ]
+    },
+    {
+      "type": "Announcement",
+      "layout_pattern": "Centered",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Rounded pill card with light gray background, border, centered text 'Ray 3.2 Is Here'"
+        },
+        {
+          "type": "button",
+          "description": "Solid white pill button 'Try Free'"
+        },
+        {
+          "type": "button",
+          "description": "Solid white pill button 'Learn more'"
+        }
+      ]
+    },
+    {
+      "type": "Mission Statement",
+      "layout_pattern": "Centered",
+      "headline": "Our Mission is to build unified general intelligence that can generate, understand, and operate in the physical world",
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "Logo Strip",
+      "layout_pattern": "Centered horizontal scroll",
+      "headline": null,
+      "subheadline": "USED BY TEAMS AT:",
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Infinite-scroll marquee of grayscale client logos (Serviceplan, Dentsu, Humain, Aperture, Publicis, Boundless, Mazda, Uncharted), horizontal mask fade on edges"
+        }
+      ]
+    },
+    {
+      "type": "Value Proposition",
+      "layout_pattern": "Centered",
+      "headline": "Where ideas become the work",
+      "subheadline": "Description text below headline",
+      "components": []
+    },
+    {
+      "type": "Product Feature",
+      "layout_pattern": "Split – text left, CTA right",
+      "headline": "Luma",
+      "subheadline": "Product description text block",
+      "components": [
+        {
+          "type": "button",
+          "description": "Solid black pill button with 'Learn more →' label, white text"
+        }
+      ]
+    },
+    {
+      "type": "Research",
+      "layout_pattern": "Centered",
+      "headline": "Research",
+      "subheadline": "Description paragraph explaining research initiatives",
+      "components": []
+    },
+    {
+      "type": "Open Physical AI Lab",
+      "layout_pattern": "Centered with stacked content",
+      "headline": "The Open Physical AI Lab",
+      "subheadline": "Description text",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large artistic render of mechanical crab/creature with golden/bronze tones, dramatic lighting, warm amber highlights"
+        },
+        {
+          "type": "button",
+          "description": "Solid white pill button 'Apply →' positioned top right of section"
+        },
+        {
+          "type": "card",
+          "description": "Black card with 'EUREKA' headline and pill badge, white text, description, solid white pill 'Read more →' button"
+        },
+        {
+          "type": "card",
+          "description": "Black card with 'UNIT 1' headline, white text, description, solid white pill 'Read more →' button"
+        }
+      ]
+    },
+    {
+      "type": "News Grid",
+      "layout_pattern": "Horizontal row",
+      "headline": "Foundation Model",
+      "subheadline": "Neural Simulation...",
+      "components": [
+        {
+          "type": "card",
+          "description": "White-bordered news cards with black background, text snippets visible"
+        }
+      ]
+    },
+    {
+      "type": "Recent News",
+      "layout_pattern": "Grid 2-3 columns",
+      "headline": "Recent News",
+      "subheadline": "Updates, partnerships, and more...",
+      "components": [
+        {
+          "type": "button",
+          "description": "Solid black pill button 'View all →' positioned top right"
+        },
+        {
+          "type": "card",
+          "description": "White background news cards with light gray borders, subtle shadows, category pill badges 'PRODUCT • Dec 2024', headline text"
+        }
+      ]
+    },
+    {
+      "type": "Team & Community",
+      "layout_pattern": "Centered",
+      "headline": "Team & Community",
+      "subheadline": "Description text below headline",
+      "components": []
+    },
+    {
+      "type": "Careers / Learning Center",
+      "layout_pattern": "Split 50/50",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Left column: 'Careers' heading with description text and solid black pill 'Learn more →' button"
+        },
+        {
+          "type": "card",
+          "description": "Right column: 'Learning Center' heading with description text and solid black pill 'Learn more →' button"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Luma logotype in black"
+        },
+        {
+          "type": "icon",
+          "description": "Circular social media icons in black (X, YouTube, LinkedIn, Discord, TikTok)"
+        },
+        {
+          "type": "navigation",
+          "description": "Three-column link grid: COMPANY (About, Careers, News, Brand Kit), PRODUCT (Research, Dream Machine, Genie, Photon, Ray2), RESOURCES (API Docs, Showcase, Community, Privacy, Terms, Help Center)"
+        }
+      ]
+    }
+  ]
+}

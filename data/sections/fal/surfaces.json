@@ -1,0 +1,158 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Hero Background",
+        "description": "Light cyan background for hero section - brand sky color",
+        "when_to_use": [
+          "Hero sections",
+          "Primary landing areas",
+          "Brand highlight zones"
+        ],
+        "hex": "#99EDFF"
+      },
+      {
+        "name": "Card Background - Purple",
+        "description": "Very light purple background for Model APIs card",
+        "when_to_use": [
+          "Product feature cards",
+          "Model API sections"
+        ],
+        "hex": "#F3ECFE"
+      },
+      {
+        "name": "Card Background - Cyan",
+        "description": "Bright cyan background for Serverless card",
+        "when_to_use": [
+          "Serverless feature sections",
+          "Infrastructure highlights"
+        ],
+        "hex": "#99EDFF"
+      },
+      {
+        "name": "Card Background - Green",
+        "description": "Light yellow-green background for Compute card",
+        "when_to_use": [
+          "Compute feature sections",
+          "Enterprise offerings"
+        ],
+        "hex": "#F1FFD2"
+      },
+      {
+        "name": "Feature Card Light Gray",
+        "description": "Light neutral gray for feature card backgrounds",
+        "when_to_use": [
+          "Feature cards",
+          "Why choose sections",
+          "Content containers"
+        ],
+        "hex": "#F4F4F5"
+      },
+      {
+        "name": "Feature Card Inner Gray",
+        "description": "Slightly darker gray for nested elements within feature cards",
+        "when_to_use": [
+          "Inner content areas",
+          "Nested chart backgrounds",
+          "Code preview surfaces"
+        ],
+        "hex": "#EBEBEB"
+      },
+      {
+        "name": "Footer - Dark",
+        "description": "Very dark background for enterprise scale section",
+        "when_to_use": [
+          "Footer backgrounds",
+          "Enterprise sections",
+          "Dark contrast areas"
+        ],
+        "hex": "#121216"
+      },
+      {
+        "name": "CTA Section - Purple",
+        "description": "Deep purple background for inference CTA section",
+        "when_to_use": [
+          "Primary CTA sections",
+          "Conversion-focused areas",
+          "High-impact banners"
+        ],
+        "hex": "#4A17B0"
+      },
+      {
+        "name": "Testimonial Card",
+        "description": "Light gray background for testimonial cards",
+        "when_to_use": [
+          "Testimonial cards",
+          "Quote backgrounds",
+          "Social proof sections"
+        ],
+        "hex": "#F4F4F5"
+      },
+      {
+        "name": "Product Banner - Blue Dark",
+        "description": "Dark blue background for top announcement banner",
+        "when_to_use": [
+          "Announcement banners",
+          "Top navigation overlays",
+          "Alert bars"
+        ],
+        "hex": "#142657"
+      },
+      {
+        "name": "White Surface",
+        "description": "Pure white surface for primary content areas and clean backgrounds",
+        "when_to_use": [
+          "Page backgrounds",
+          "Card surfaces",
+          "Clean content areas"
+        ],
+        "hex": "#FFFFFF"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Card Overlay Gradient",
+        "description": "Top to bottom gradient overlay transitioning from dark semi-transparent black to lighter, used for image overlays",
+        "when_to_use": [
+          "Image card overlays",
+          "Model preview cards",
+          "Text readability overlays on images"
+        ],
+        "css_code": "linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3))"
+      },
+      {
+        "name": "Hero Fade Gradient - Black",
+        "description": "Bottom to top gradient with black transparency for hero image overlays",
+        "when_to_use": [
+          "Hero section overlays",
+          "Large image backgrounds with text"
+        ],
+        "css_code": "linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3))"
+      }
+    ],
+    "highlights": [
+      "Drawer overlay backdrop blur effect: backdrop-filter: blur(4px) with rgba(0,0,0,0.3) background on drawer-toggle:checked state",
+      "Repeating striped pattern background: repeating-linear-gradient(to right, rgb(18 18 22 / 0.1) 0 7px, transparent 7px 14px)",
+      "Shadow overlays on various elements using CSS shadow variables like --shadow-md, --shadow-lg, --shadow-overlay-control-primary",
+      "Noise/grain texture references in CSS variables but not directly applied",
+      "Hover state transformations with scale(0.98) for interactive buttons",
+      "Pixelated canvas elements for decorative grid patterns in hero section (image-rendering: pixelated)"
+    ]
+  }
+}

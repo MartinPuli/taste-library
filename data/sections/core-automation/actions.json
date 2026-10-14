@@ -1,0 +1,146 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Want to join us? (CTA Link)",
+        "usage": "Primary call-to-action link at the end of the Team section, inviting users to contact for job opportunities.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Helvetica, Arial, sans-serif",
+              "size": "19px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#699EFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FF2D09",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#699EFF",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "What the Models Learned in One Layer Deeper (Blog Feature Link)",
+        "usage": "Featured blog post link in the hero section, styled as underlined text with hover state.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Helvetica, Arial, sans-serif",
+              "size": "22px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#111111",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#111111",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#111111",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Mobile Menu Toggle (Icon Button)",
+        "usage": "Hamburger menu toggle button for mobile navigation, displayed on screens below 640px.",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Helvetica, Arial, sans-serif",
+              "size": "0",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#111111",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FF2D09",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#111111",
+            "border_color": "transparent",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "No button groups present; CTAs appear as standalone inline links.",
+      "spacing": ""
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

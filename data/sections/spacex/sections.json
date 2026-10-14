@@ -1,0 +1,200 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/spacex.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal navigation bar with logo left, menu items center, upcoming launches widget right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "SpaceX logo in white, positioned top-left"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal menu with uppercase text links: Vehicles, Human Spaceflight, Starlink, Starshield, SPACEXAI, Terafab, Company, Shop - white text on transparent dark gradient background"
+        },
+        {
+          "type": "button",
+          "description": "Hamburger menu icon (mobile) - white, minimal"
+        },
+        {
+          "type": "card",
+          "description": "Upcoming launches widget with border outline, countdown timer, thumbnail images of launch vehicles"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered text over full-bleed video/image background",
+      "headline": "STARSHIP'S THIRTEENTH FLIGHT TEST",
+      "subheadline": "T- 12:08:56 (countdown timer)",
+      "components": [
+        {
+          "type": "video",
+          "description": "Full-screen looping video of Starship rocket on launch pad at sunrise, dramatic silhouette with moody sky, monochrome color treatment"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with text 'WATCH' and right arrow icon, minimal style"
+        },
+        {
+          "type": "divider",
+          "description": "Black gradient overlay from transparent at top to solid black at bottom"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - text left, video/image right",
+      "headline": "Making life multiplanetary",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Rotating Mars planet video on right side, photographic with orange-red tones against black space background"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with 'EXPLORE' text and arrow icon on left text area"
+        },
+        {
+          "type": "divider",
+          "description": "Black background on left text area"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - image left, text right",
+      "headline": "Revolutionizing space technology",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Rocket launch at sunset/dusk with warm orange, pink, and blue tones, dramatic plume over water"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with 'LEARN MORE' text and arrow icon"
+        },
+        {
+          "type": "divider",
+          "description": "Black gradient overlay from transparent left to dark right"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - video left, text right",
+      "headline": "World's leading launch service provider",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Full-screen looping video of Falcon Heavy rocket launching with daylight blue sky, coastal green landscape, white rocket against blue"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with 'RESERVE YOUR RIDE' text and arrow icon"
+        },
+        {
+          "type": "divider",
+          "description": "Black gradient overlay from transparent right to dark left"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - image left, text right",
+      "headline": "Advancing human spaceflight",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Dark minimal background image on left with astronaut or spacecraft imagery, grayscale/monochrome treatment"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with 'JOIN A MISSION' text and arrow icon"
+        },
+        {
+          "type": "divider",
+          "description": "Black gradient overlay from transparent left to dark right"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - text left, video right",
+      "headline": "Delivering high-speed internet from space",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Starlink satellites deploying in orbit, grayscale technical/product photography with metallic hardware details"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with 'ORDER NOW' text and arrow icon"
+        },
+        {
+          "type": "divider",
+          "description": "Black gradient overlay from transparent top to solid black bottom"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - image left, text right",
+      "headline": "DEVELOPING ORBITAL AI COMPUTE",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Abstract minimal dark background with subtle technical or space imagery on left"
+        },
+        {
+          "type": "button",
+          "description": "White outline button with 'STARMIND' text and arrow icon"
+        },
+        {
+          "type": "divider",
+          "description": "Black gradient overlay from transparent left to dark right"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Horizontal layout with social icon left, nav links center, copyright right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "X (Twitter) social icon in circular button with light gray background, white icon"
+        },
+        {
+          "type": "navigation",
+          "description": "Footer links in uppercase white text: Careers, Updates, Privacy Policy, Suppliers, Investors"
+        },
+        {
+          "type": "icon",
+          "description": "Copyright text '© 2026 SpaceX' in white, small uppercase font"
+        }
+      ]
+    }
+  ]
+}

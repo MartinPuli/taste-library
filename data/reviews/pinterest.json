@@ -1,0 +1,49 @@
+{
+  "id": "pinterest",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A seasonal photographic banner leads into rows of image cards. Red account actions stand out against otherwise neutral navigation.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/viewport.jpg",
+    "sha256": "c3bc60366126ed923f731517e6ed02fef3093b8aa162845454d0495be6d8b1fc"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/styles.css",
+    "sha256": "b1f44346d56f1019946a41d2e25c23daae79cb233b70e7980204e823347464f3",
+    "bytes": 605228,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#211922",
+      "#62625B",
+      "#91918C"
+    ],
+    "palette_literals_checked": [
+      "#211922",
+      "#000000",
+      "#FFFFFF",
+      "#62625B",
+      "#91918C"
+    ],
+    "font_names_found": [
+      "Pin Sans",
+      "SF Mono"
+    ],
+    "font_names_checked": [
+      "Pin Sans",
+      "SF Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "95951870e0ef81e84f8fc977c0d6230340a67058f76bccf1ad865bfd5721a430"
+}

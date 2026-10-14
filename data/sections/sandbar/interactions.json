@@ -1,0 +1,73 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/sandbar.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "video_background",
+      "carousel",
+      "scroll_reveal",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "global-ease",
+        "css": "transition: border-color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1), color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.45s cubic-bezier(0.215, 0.61, 0.355, 1), background-color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1)",
+        "description": "Primary easing curve for button and link interactions throughout the site"
+      },
+      {
+        "name": "link-icon-transform",
+        "css": "transition: all 350ms",
+        "description": "Transition for link icons and underlines on hover"
+      },
+      {
+        "name": "modal-fade",
+        "css": "transition: all 0.2s linear",
+        "description": "Linear fade transition for modal open/close states"
+      },
+      {
+        "name": "lightbox-scale",
+        "css": "transition: transform 0.3s cubic-bezier(0.625, 0.05, 0, 1), opacity 0.3s linear, visibility 0.3s linear",
+        "description": "Scale and fade animation for lightbox video player appearance"
+      },
+      {
+        "name": "video-interface-slide",
+        "css": "transition: all 0.6s cubic-bezier(0.625, 0.05, 0, 1)",
+        "description": "Slide-up animation for video player interface controls"
+      },
+      {
+        "name": "play-icon-scale",
+        "css": "transition: transform 0.5s ease-out",
+        "description": "Scale animation for play button icon on video hover"
+      },
+      {
+        "name": "carousel-blur",
+        "css": "",
+        "description": "JS-driven blur and scale animation for carousel slides transitioning between prev/center/next states"
+      },
+      {
+        "name": "scroll-text-opacity",
+        "css": "",
+        "description": "JS-driven scroll-triggered opacity animation for text reveal sections"
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin { 0% { transform: rotate(0) } to { transform: rotate(360deg) } }",
+        "description": "Continuous rotation animation for loading spinners"
+      }
+    ],
+    "insights": [
+      "The design system uses a signature pill-shaped (rounded-full) button style with a distinctive cubic-bezier easing curve (0.215, 0.61, 0.355, 1) for all interactive transitions, creating a smooth, premium feel",
+      "Video content is central to the experience with custom player controls featuring glassmorphism styling (backdrop-filter: blur) and coordinated show/hide transitions for interface elements",
+      "The carousel implements a unique JS-driven blur/scale effect where non-active slides are visually de-emphasized with 22px blur and 0.8 scale, creating depth without traditional pagination dots"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Message Container Shadow",
+          "type": "drop",
+          "description": "50% black opacity with viewport-relative blur (~0.8vw). Used for floating toast/message notifications.",
+          "css_value": "#00000080 0 calc(.00408163 * 100vw) calc(.0163265 * 100vw)",
+          "when_to_use": [
+            "Toast notifications",
+            "Add to cart messages",
+            "Floating message containers"
+          ]
+        },
+        {
+          "name": "Header Shadow",
+          "type": "drop",
+          "description": "Solid dark shadow (0.5vw blur) matching header background for seamless sticky header effect.",
+          "css_value": "0 calc(.00510204 * 100vw) calc(.00510204 * 100vw) #0f0e12",
+          "when_to_use": [
+            "Sticky header",
+            "Mobile header",
+            "Navigation bar"
+          ]
+        },
+        {
+          "name": "Search Field Shadow",
+          "type": "drop",
+          "description": "Dark shadow for search field overlay to separate from background content.",
+          "css_value": "0 0 calc(.0102041 * 100vw) 0 #0f0e12",
+          "when_to_use": [
+            "Search input field",
+            "Search overlay"
+          ]
+        },
+        {
+          "name": "Search Field Shadow Mobile",
+          "type": "drop",
+          "description": "Directional shadow for mobile search field with vertical offset.",
+          "css_value": "0 calc(.0102041 * 100vw) calc(.0102041 * 100vw) #0f0e12",
+          "when_to_use": [
+            "Mobile search input",
+            "Mobile search overlay"
+          ]
+        },
+        {
+          "name": "Button Inset Shadow",
+          "type": "inset",
+          "description": "Subtle inset shadow at bottom of buttons for depth effect, 50% black opacity.",
+          "css_value": "inset 0 calc(-.00102041 * 100vw) 0 0 #0000004d",
+          "when_to_use": [
+            "CTA buttons",
+            "Action buttons",
+            "Text buttons with background"
+          ]
+        },
+        {
+          "name": "Product Image Focus Shadow",
+          "type": "inset",
+          "description": "Blue inset border shadow for focus/hover states on product images.",
+          "css_value": "0 0 0 2px inset #0071bb",
+          "when_to_use": [
+            "Product image links on hover",
+            "Product image links on focus",
+            "Interactive image elements"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#B2B2B2",
+        "width": "calc(.00102041 * 100vw)",
+        "style": "solid"
+      },
+      {
+        "hex": "#272727",
+        "width": "calc(.00306122 * 100vw)",
+        "style": "solid"
+      },
+      {
+        "hex": "#E5E5E5",
+        "width": "calc(.00102041 * 100vw)",
+        "style": "solid"
+      },
+      {
+        "hex": "#E5E5E5",
+        "width": "calc(.00612245 * 100vw)",
+        "style": "solid"
+      }
+    ]
+  }
+}

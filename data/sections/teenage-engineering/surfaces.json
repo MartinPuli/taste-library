@@ -1,0 +1,184 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "texture_classification": [
+      "patterns"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary white page background",
+        "when_to_use": [
+          "Default page background",
+          "Main content areas"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Product Card Background Light",
+        "description": "Light grey surface for product cards and tiles",
+        "when_to_use": [
+          "Product cards",
+          "Secondary content containers",
+          "Card backgrounds"
+        ],
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Product Card Background Alt",
+        "description": "Slightly tinted off-white background for product variations",
+        "when_to_use": [
+          "Product detail sections",
+          "Alternate card backgrounds"
+        ],
+        "hex": "#F6F8F7"
+      },
+      {
+        "name": "Footer Background",
+        "description": "Dark near-black background for footer and headers",
+        "when_to_use": [
+          "Footer",
+          "Header",
+          "Dark UI sections",
+          "CTA backgrounds"
+        ],
+        "hex": "#0F0E12"
+      },
+      {
+        "name": "Divider Grey",
+        "description": "Light grey for dividers and borders",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Subtle separators"
+        ],
+        "hex": "#E5E5E5"
+      },
+      {
+        "name": "Border Grey",
+        "description": "Medium grey for visible borders",
+        "when_to_use": [
+          "Card borders",
+          "Outlined elements",
+          "Form field borders"
+        ],
+        "hex": "#B2B2B2"
+      },
+      {
+        "name": "Button Grey",
+        "description": "Grey for secondary buttons and disabled states",
+        "when_to_use": [
+          "Secondary buttons",
+          "Disabled button backgrounds"
+        ],
+        "hex": "#CCCCCC"
+      },
+      {
+        "name": "Accent Blue",
+        "description": "Brand blue for interactive elements and links",
+        "when_to_use": [
+          "Links",
+          "Call-to-action text",
+          "Interactive elements"
+        ],
+        "hex": "#0071BB"
+      },
+      {
+        "name": "Success Green",
+        "description": "Green for success states and affirmative actions",
+        "when_to_use": [
+          "Success messages",
+          "Primary action buttons",
+          "Positive indicators"
+        ],
+        "hex": "#006837"
+      },
+      {
+        "name": "Error Red",
+        "description": "Red for error states and warnings",
+        "when_to_use": [
+          "Error messages",
+          "Warning indicators",
+          "Out of stock badges"
+        ],
+        "hex": "#C0262C"
+      },
+      {
+        "name": "Alert Yellow",
+        "description": "Yellow for alerts and highlights",
+        "when_to_use": [
+          "Alert badges",
+          "Warning messages",
+          "Highlight elements"
+        ],
+        "hex": "#FAB413"
+      },
+      {
+        "name": "Modal Backdrop Dark",
+        "description": "Black backdrop for modals with 70% opacity (#000000b3)",
+        "when_to_use": [
+          "Modal overlays",
+          "Dropdown backgrounds",
+          "Dimming layers"
+        ],
+        "hex": "#000000"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Modal Backdrop Gradient",
+        "description": "Top to bottom gradient from black to transparent for modal dialogs",
+        "when_to_use": [
+          "Modal dialog backgrounds",
+          "Overlay effects"
+        ],
+        "css_code": "linear-gradient(#000c,#fff0)"
+      },
+      {
+        "name": "Button Inset Shadow Gradient",
+        "description": "Bottom to top gradient for button depth effect",
+        "when_to_use": [
+          "Track settings control buttons",
+          "Interactive button states"
+        ],
+        "css_code": "linear-gradient(-180deg,#fff 88%,#73859f 100%)"
+      },
+      {
+        "name": "Video Control Bar Gradient",
+        "description": "Top to bottom gradient for video player controls",
+        "when_to_use": [
+          "Video control overlays",
+          "Player UI backgrounds"
+        ],
+        "css_code": "linear-gradient(#000c,#fff0)"
+      },
+      {
+        "name": "Title Bar Gradient",
+        "description": "Top fade gradient from black to transparent",
+        "when_to_use": [
+          "Video title bars",
+          "Header overlays on images"
+        ],
+        "css_code": "linear-gradient(#000000e6 0%,#000000b3 60%,#0000 100%)"
+      }
+    ],
+    "highlights": [
+      "Rounded corners on mobile product cards with border-radius calc(0.036734693877551024 * var(--client-width))",
+      "Soft box shadows on messages: rgba(0,0,0,0.5) 0 calc(0.00408163 * 100vw) calc(0.0163265 * 100vw) on mobile, rgb(0 0 0 / 50%) 0 calc(0.00204082 * 100vw) calc(0.00816327 * 100vw) on desktop",
+      "Border system using CSS custom properties with 1px, 0.5px (retina), 0.75px (mobile retina), and 1.5px (mobile) variants",
+      "Button inset shadow: inset 0 calc(-0.00102041 * 100vw) 0 0 rgba(0,0,0,0.3) for depth",
+      "Video loading spinner with animated border gradient and 50% border-radius"
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Shadow Xs",
+          "type": "drop",
+          "description": "Extra small shadow with 1px Y offset and 2px blur at 5% black opacity. Provides minimal elevation for subtle UI elements.",
+          "css_value": "0 1px 2px 0 #0000000d",
+          "when_to_use": [
+            "Subtle card edges",
+            "Small interactive elements",
+            "Input fields"
+          ]
+        },
+        {
+          "name": "Shadow Sm",
+          "type": "drop",
+          "description": "Small shadow combining two layers - 6% and 5% black opacity with 2px and 3px blur. Creates light elevation.",
+          "css_value": "0 1px 2px 0 #0000000f, 0 1px 3px 0 #0000000d",
+          "when_to_use": [
+            "Cards",
+            "Small floating elements",
+            "Buttons"
+          ]
+        },
+        {
+          "name": "Shadow",
+          "type": "drop",
+          "description": "Default shadow with two layers at 3% and 5% opacity, 4px and 6px blur with negative spread. Standard elevation level.",
+          "css_value": "0 2px 4px -1px #00000008, 0 4px 6px -1px #0000000d",
+          "when_to_use": [
+            "Cards",
+            "Modals",
+            "Dropdowns"
+          ]
+        },
+        {
+          "name": "Shadow Md",
+          "type": "drop",
+          "description": "Medium shadow with 15px and 6px blur at 5% and 3% opacity. Used for moderate elevation.",
+          "css_value": "0 10px 15px -3px #0000000d, 0 4px 6px -2px #00000008",
+          "when_to_use": [
+            "Elevated cards",
+            "Popovers",
+            "Tooltips"
+          ]
+        },
+        {
+          "name": "Shadow Xl",
+          "type": "drop",
+          "description": "Extra large shadow with 50px blur and 25% black opacity for high elevation floating elements.",
+          "css_value": "0 25px 50px -12px #00000040",
+          "when_to_use": [
+            "Large modals",
+            "Full-screen overlays",
+            "High prominence dialogs"
+          ]
+        },
+        {
+          "name": "Shadow Queue Drawer",
+          "type": "drop",
+          "description": "Drawer shadow with two layers at 4% and 10% opacity, 10px and 25px blur. Used for slide-out panels.",
+          "css_value": "0 10px 10px -5px #0000000a, 0 20px 25px -5px #0000001a",
+          "when_to_use": [
+            "Side drawers",
+            "Queue panels",
+            "Slide-out menus"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Primary",
+          "type": "drop",
+          "description": "Primary overlay control shadow with 3 layers at 6% opacity each. Used for primary interactive controls.",
+          "css_value": "0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0000000f",
+          "when_to_use": [
+            "Primary buttons on overlays",
+            "Interactive controls"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Secondary",
+          "type": "drop",
+          "description": "Secondary overlay control shadow with 4 layers including 1px ring at 6% opacity.",
+          "css_value": "0 0 0 1px #0000000f, 0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0000000f",
+          "when_to_use": [
+            "Secondary buttons on overlays",
+            "Toggle controls"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Outline",
+          "type": "drop",
+          "description": "Outline variant shadow with dark ring at 60% black opacity for strong visual separation.",
+          "css_value": "0 0 0 1px #0000000f, 0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0009",
+          "when_to_use": [
+            "Outlined buttons",
+            "Toggle states",
+            "Active controls"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Outline Disabled",
+          "type": "drop",
+          "description": "Disabled state shadow for outlined controls with reduced visual prominence.",
+          "css_value": "0 0 0 1px #0000000f, 0 1px 1px -.5px #0000000f, 0 3px 3px -1.5px #0000000f",
+          "when_to_use": [
+            "Disabled buttons",
+            "Inactive controls"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Ghost",
+          "type": "drop",
+          "description": "Ghost control shadow with subtle 10% black ring for minimal elevation.",
+          "css_value": "0 0 0 1px #0000001a",
+          "when_to_use": [
+            "Ghost buttons",
+            "Minimal controls"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Ghost Text",
+          "type": "drop",
+          "description": "Text shadow for ghost controls at 45% black opacity with 3px blur.",
+          "css_value": "0 1px 3px #00000073",
+          "when_to_use": [
+            "Text on glass/overlay backgrounds",
+            "Ghost button text"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Ghost Icon",
+          "type": "drop",
+          "description": "Icon shadow for ghost controls at 35% black opacity with 2px blur.",
+          "css_value": "0 1px 2px #00000059",
+          "when_to_use": [
+            "Icons on overlay backgrounds",
+            "Ghost button icons"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Control Ghost Icon Disabled",
+          "type": "drop",
+          "description": "Disabled icon shadow at 25% black opacity with 4px blur.",
+          "css_value": "0 2px 4px #00000040",
+          "when_to_use": [
+            "Disabled icons on overlays"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Checkbox",
+          "type": "drop",
+          "description": "Checkbox shadow with subtle elevation and 20% black ring.",
+          "css_value": "0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #0003",
+          "when_to_use": [
+            "Checkboxes on overlays",
+            "Selection controls"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Checkbox Checked",
+          "type": "drop",
+          "description": "Checked checkbox shadow with white ring at 60% opacity for selected state.",
+          "css_value": "0 3px 3px -1.5px #0000000f, 0 1px 1px -.5px #0000000f, 0 0 0 1px #fff9",
+          "when_to_use": [
+            "Selected checkboxes",
+            "Active selection states"
+          ]
+        },
+        {
+          "name": "Shadow Overlay Chip",
+          "type": "drop",
+          "description": "Chip shadow with subtle 5% black ring for tag-like elements.",
+          "css_value": "0 0 0 1px #0000000d",
+          "when_to_use": [
+            "Chips",
+            "Tags",
+            "Badges"
+          ]
+        },
+        {
+          "name": "Composer Prompt Shadow",
+          "type": "drop",
+          "description": "Shadow for composer/prompt input areas with medium elevation.",
+          "css_value": "0 4px 6px -2px #00000008, 0 10px 15px -3px #0000000d",
+          "when_to_use": [
+            "Prompt input areas",
+            "Composer boxes",
+            "Search inputs"
+          ]
+        },
+        {
+          "name": "Tw Ring Shadow",
+          "type": "drop",
+          "description": "Tailwind ring shadow reset/placeholder with transparent value.",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Ring shadow reset",
+            "Base state for focus rings"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#E5E7EB",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D1D5DB",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

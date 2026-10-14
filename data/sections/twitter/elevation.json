@@ -1,0 +1,111 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Tw Inset Ring Shadow",
+          "type": "drop",
+          "description": "Reset/base shadow with no visual effect - 0 blur, transparent color",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Base shadow reset",
+            "No elevation state"
+          ]
+        },
+        {
+          "name": "Shadow Small",
+          "type": "drop",
+          "description": "Subtle small shadow - 1px Y offset, 2px blur, 5% black opacity",
+          "css_value": "0 1px 2px #0000000d",
+          "when_to_use": [
+            "Subtle elevation",
+            "Input fields",
+            "Small interactive elements"
+          ]
+        },
+        {
+          "name": "Drop Shadow Small",
+          "type": "drop",
+          "description": "Small drop shadow filter - 1px Y offset, 2px blur, 15% black opacity",
+          "css_value": "0 1px 2px #00000026",
+          "when_to_use": [
+            "Filter-based shadows",
+            "Icon shadows",
+            "Subtle depth"
+          ]
+        },
+        {
+          "name": "Shadow Medium",
+          "type": "drop",
+          "description": "Medium elevation shadow - 4px Y offset, 12px blur, 8% black opacity",
+          "css_value": "0 4px 12px #00000014",
+          "when_to_use": [
+            "Cards",
+            "Dropdown menus",
+            "Moderate elevation"
+          ]
+        },
+        {
+          "name": "Shadow Popup",
+          "type": "drop",
+          "description": "Popup/popover shadow - 4px Y offset, 20px blur, 8% black opacity",
+          "css_value": "0 4px 20px #00000014",
+          "when_to_use": [
+            "Popovers",
+            "Popup menus",
+            "Floating panels",
+            "QR code popup"
+          ]
+        },
+        {
+          "name": "Shadow Large",
+          "type": "drop",
+          "description": "Large elevation shadow - 8px Y offset, 24px blur, 12% black opacity",
+          "css_value": "0 8px 24px #0000001f",
+          "when_to_use": [
+            "Modals",
+            "Large floating elements",
+            "High elevation surfaces"
+          ]
+        },
+        {
+          "name": "Shadow Toast",
+          "type": "drop",
+          "description": "Toast notification shadow - 8px Y offset, 32px blur, 20% black opacity",
+          "css_value": "0 8px 32px #0003",
+          "when_to_use": [
+            "Toast notifications",
+            "Snackbars",
+            "Alert messages"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#00000026",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DADCE0",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

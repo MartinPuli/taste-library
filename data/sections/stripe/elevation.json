@@ -1,0 +1,373 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Hds Shadow Xs",
+          "type": "drop",
+          "description": "Extra small shadow with subtle depth - 15% opacity blur 10px, secondary 10% opacity blur 4px",
+          "css_value": "0px 2px 10px 0px #0037700f,0px 1px 4px 0px #003b890a",
+          "when_to_use": [
+            "Subtle card elevation",
+            "Small interactive elements"
+          ]
+        },
+        {
+          "name": "Hds Shadow Sm",
+          "type": "drop",
+          "description": "Small shadow with light depth - 20% opacity blur 14px, secondary 13% opacity blur 8px",
+          "css_value": "0px 5px 14px 0px #00377014,0px 2px 8px 0px #003b890d",
+          "when_to_use": [
+            "Small cards",
+            "Dropdowns",
+            "Tooltips"
+          ]
+        },
+        {
+          "name": "Hds Shadow Md",
+          "type": "drop",
+          "description": "Medium shadow for moderate elevation - 26% opacity blur 22px, secondary 5% opacity blur 8px",
+          "css_value": "0px 6px 22px 0px #0037701a,0px 4px 8px 0px #003b8905",
+          "when_to_use": [
+            "Cards",
+            "Modal elements",
+            "Hover states"
+          ]
+        },
+        {
+          "name": "Hds Shadow Lg",
+          "type": "drop",
+          "description": "Large shadow for prominent elevation - 26% opacity blur 40px, secondary 10% opacity blur 20px",
+          "css_value": "0px 15px 40px -2px #0037701a,0px 5px 20px -2px #003b890a",
+          "when_to_use": [
+            "Large cards",
+            "Modals",
+            "Popovers"
+          ]
+        },
+        {
+          "name": "Hds Shadow Xl",
+          "type": "drop",
+          "description": "Extra large shadow for maximum elevation - 24% opacity blur 80px, secondary 15% opacity blur 60px",
+          "css_value": "0px 20px 80px -16px #00377024,0px 10px 60px -16px #003b890f",
+          "when_to_use": [
+            "Large modals",
+            "Overlays",
+            "Hero elements"
+          ]
+        },
+        {
+          "name": "Hds Canary Ui Shadow",
+          "type": "drop",
+          "description": "UI component shadow - 12% opacity blur 32px for floating UI elements",
+          "css_value": "0px 16px 32px rgba(50,50,93,.12)",
+          "when_to_use": [
+            "UI cards",
+            "DOM graphics",
+            "Product showcases"
+          ]
+        },
+        {
+          "name": "Navigation Menu Background Shadow",
+          "type": "drop",
+          "description": "Navigation dropdown shadow with blur 60px for navigation menus",
+          "css_value": "0 30px 60px -50px #0000001a,0 30px 60px -10px #32325d40",
+          "when_to_use": [
+            "Navigation menus",
+            "Desktop dropdowns"
+          ]
+        },
+        {
+          "name": "Browser Window Shadow",
+          "type": "drop",
+          "description": "Browser graphic window shadow - 8% opacity blur 35px",
+          "css_value": "0 15px 35px 0 hsla(0,0%,9%,.08)",
+          "when_to_use": [
+            "Browser mockups",
+            "Window graphics"
+          ]
+        },
+        {
+          "name": "Globe Arc UI Shadow",
+          "type": "drop",
+          "description": "Globe arc UI tooltip shadow - 12% opacity blur 27px, secondary 5% opacity blur 16.2px",
+          "css_value": "0 13.5px 27px -12.4px rgba(50,50,93,.12),0 8.1px 16.2px -8.1px rgba(0,0,0,.05)",
+          "when_to_use": [
+            "Globe tooltips",
+            "Arc UI elements",
+            "Interactive map elements"
+          ]
+        },
+        {
+          "name": "Invoice Card Shadow",
+          "type": "drop",
+          "description": "Invoice card shadow - 25% opacity blur 26.73px, secondary 10% opacity blur 16.038px",
+          "css_value": "0 13.365px 26.73px -12.276px rgba(50,50,93,.25),0 8.019px 16.038px -8.019px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Invoice cards",
+            "Billing graphics"
+          ]
+        },
+        {
+          "name": "Meter Card Shadow",
+          "type": "drop",
+          "description": "Meter card shadow - 25% opacity blur 40.5px, secondary 10% opacity blur 32.4px",
+          "css_value": "0 27px 40.5px -27px rgba(50,50,93,.25),0 16.2px 32.4px -16.2px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Meter cards",
+            "Usage graphics"
+          ]
+        },
+        {
+          "name": "Issuing Card Shadow",
+          "type": "drop",
+          "description": "Issuing card shadow with multiple layers - 8% opacity blur 84.087px, 8% opacity blur 29.43px, 12% opacity blur 12.613px",
+          "css_value": "0 42.043px 84.087px 0 hsla(0,0%,9%,.08),0 12.613px 29.43px 0 hsla(0,0%,9%,.08),0 4.204px 12.613px 0 hsla(0,0%,9%,.12)",
+          "when_to_use": [
+            "Credit cards",
+            "Issuing graphics",
+            "Card images"
+          ]
+        },
+        {
+          "name": "Phone Graphic Shadow",
+          "type": "drop",
+          "description": "Phone graphic drop shadow - 12% opacity blur 23.172px",
+          "css_value": "0 25.026px 23.172px rgba(50,50,93,.12)",
+          "when_to_use": [
+            "Phone mockups",
+            "Mobile device graphics"
+          ]
+        },
+        {
+          "name": "Phone Graphic Inner Shadow",
+          "type": "inset",
+          "description": "Phone graphic inset shadow for depth - 22% opacity blur 4.634px",
+          "css_value": "inset 0 -1.854px 4.634px 0 rgba(10,37,64,.22)",
+          "when_to_use": [
+            "Phone bezels",
+            "Device frames"
+          ]
+        },
+        {
+          "name": "Input Focus Shadow",
+          "type": "drop",
+          "description": "Input container shadow - 8% opacity blur 12px, secondary 4% opacity blur 7px",
+          "css_value": "0 6px 12px -2px rgba(50,50,93,.08),0 3px 7px -3px rgba(0,0,0,.04)",
+          "when_to_use": [
+            "Input fields",
+            "Chat input containers"
+          ]
+        },
+        {
+          "name": "Spending Limit Select Shadow",
+          "type": "drop",
+          "description": "Button/select shadow - 20% opacity blur 3.388px, secondary 9% opacity blur 1.355px",
+          "css_value": "0 1.694px 3.388px 0 rgba(50,50,93,.2),0 1.016px 1.355px 0 rgba(125,138,161,.09)",
+          "when_to_use": [
+            "Buttons",
+            "Select dropdowns",
+            "Form controls"
+          ]
+        },
+        {
+          "name": "Invoice Icon Background Shadow",
+          "type": "drop",
+          "description": "Invoice icon shadow - 6% opacity blur 2.048px, secondary 4% opacity blur 10.24px",
+          "css_value": "0 .683px 2.048px 0 rgba(0,0,0,.06),0 3.413px 10.24px 0 rgba(53,53,53,.04)",
+          "when_to_use": [
+            "Icons",
+            "Invoice icons"
+          ]
+        },
+        {
+          "name": "Table Row Shadow",
+          "type": "drop",
+          "description": "Table row highlight shadow - 10% opacity blur 5px",
+          "css_value": "0 2px 5px 0 rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Table rows",
+            "List items on hover"
+          ]
+        },
+        {
+          "name": "Agentic Commerce Shadow",
+          "type": "drop",
+          "description": "Agentic commerce box shadow - 10% opacity blur 40.374px",
+          "css_value": "0 20.187px 40.374px -20.187px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Commerce cards",
+            "Product cards",
+            "Chat bubbles"
+          ]
+        },
+        {
+          "name": "Connect Payment Card Shadow",
+          "type": "drop",
+          "description": "Connect payment card shadow - 12% opacity blur 31.863px",
+          "css_value": "0 15.931px 31.863px rgba(50,50,93,.12)",
+          "when_to_use": [
+            "Payment cards",
+            "Connect platform graphics"
+          ]
+        },
+        {
+          "name": "Connection Amount Pill Shadow",
+          "type": "drop",
+          "description": "Connection amount pill shadow - 12% opacity blur 31.863px",
+          "css_value": "0 15.931px 31.863px -8px rgba(50,50,93,.12)",
+          "when_to_use": [
+            "Amount pills",
+            "Currency badges"
+          ]
+        },
+        {
+          "name": "Flag Overlay Shadow",
+          "type": "drop",
+          "description": "Flag overlay shadow - 12% opacity blur 5px, secondary 8% opacity blur 1px",
+          "css_value": "0 2px 5px 0 rgba(10,37,64,.12),0 1px 1px 0 rgba(10,37,64,.08)",
+          "when_to_use": [
+            "Flag overlays",
+            "Country indicators"
+          ]
+        },
+        {
+          "name": "Financial Accounts Card Shadow",
+          "type": "drop",
+          "description": "Financial accounts card shadow - 25% opacity blur 32.239px, secondary 10% opacity blur 19.343px",
+          "css_value": "0 16.119px 32.239px -14.806px rgba(50,50,93,.25),0 9.672px 19.343px -9.672px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Financial cards",
+            "Account graphics"
+          ]
+        },
+        {
+          "name": "Crypto Wallets Shadow",
+          "type": "drop",
+          "description": "Crypto wallets items shadow - 25% opacity blur 30.625px, secondary 10% opacity blur 24.5px",
+          "css_value": "0 20.417px 30.625px -20.417px rgba(50,50,93,.25),0 12.25px 24.5px -12.25px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Crypto wallets",
+            "Wallet lists"
+          ]
+        },
+        {
+          "name": "Issuing Dashboard Card Shadow",
+          "type": "drop",
+          "description": "Issuing dashboard card shadow - 25% opacity blur 45px, secondary 10% opacity blur 36px",
+          "css_value": "0 30px 45px -30px rgba(50,50,93,.25),0 18px 36px -18px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Dashboard cards",
+            "Issuing balance graphics"
+          ]
+        },
+        {
+          "name": "Issuing Card Image Shadow",
+          "type": "drop",
+          "description": "Issuing card image shadow - 12% opacity blur 41.217px, secondary 7% opacity blur 32.973px",
+          "css_value": "0 27.478px 41.217px 0 rgba(50,50,93,.12),0 16.487px 32.973px 0 rgba(0,0,0,.07)",
+          "when_to_use": [
+            "Card images",
+            "Credit card displays"
+          ]
+        },
+        {
+          "name": "Spending Limit Dropdown Shadow",
+          "type": "drop",
+          "description": "Spending limit dropdown shadow - 25% opacity blur 24.862px, secondary 10% opacity blur 14.917px",
+          "css_value": "0 12.431px 24.862px -11.418px rgba(50,50,93,.25),0 7.458px 14.917px -7.458px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Dropdowns",
+            "Select menus"
+          ]
+        },
+        {
+          "name": "Tax Graphic Overlay Shadow",
+          "type": "drop",
+          "description": "Tax graphic overlay shadow - 25% opacity blur 32.239px, secondary 10% opacity blur 19.343px",
+          "css_value": "0 0 32.239px -14.806px rgba(50,50,93,.25),0 4.776px 19.343px -9.672px rgba(0,0,0,.1)",
+          "when_to_use": [
+            "Tax overlays",
+            "Calculator graphics"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#E5EDF5",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D6D9FC",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#F8FAFD",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D4DEE9",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFD7EF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#665EFD",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#533AFD",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E7ECF1",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#11273E",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#A1E5BA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D8DEE4",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#061B31",
+        "width": "3px",
+        "style": "solid"
+      }
+    ]
+  }
+}

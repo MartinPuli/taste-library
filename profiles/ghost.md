@@ -2,31 +2,49 @@
 
 Study the rhythm between dark and light sections in a hardware presentation.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 20 · Captured 2026-10-14T08:53:53.351064Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 20 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T08:53:53.351064Z |
-| Suggested uses | hardware |
-| Visual approach | cinematic, dark-technical |
+[Original website](https://ghost.ai/) · [Full extraction](../data/raw/ghost.json) · [Review record](../data/reviews/ghost.json)
 
-## Details to compare
+[Small visual preview](../data/previews/ghost.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-full.jpg)
 
-- Detected type families: Archivo, Archivo Narrow.
-- Recorded palette: See source record.
-- Grid: `{"columns": 12, "gutter": "2rem", "max_width": "1512px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+The full-page capture begins with a dark visual field and a narrow orange announcement band. It provides little visible hero text.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://ghost.ai/) · [Extraction](../data/raw/ghost.json) · [Tokens](../data/tokens/ghost.json)
+Project types: hardware. Styles: cinematic, dark-technical. These are editorial tags.
 
-```sh
-python3 scripts/query.py show ghost --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study the rhythm between dark and light sections in a hardware presentation. Evidence: [layout](../data/sections/ghost/layout.json), [sections](../data/sections/ghost/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/ghost/actions.json).
+
+## Content to bring
+
+Product photography with enough detail and consistent framing to carry large sections. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/ghost/profile.json)
+- [Layout](../data/sections/ghost/layout.json)
+- [Colors](../data/sections/ghost/colors.json) · no observed data
+- [Typography](../data/sections/ghost/typography.json)
+- [Surfaces](../data/sections/ghost/surfaces.json)
+- [Elevation](../data/sections/ghost/elevation.json)
+- [Interactions](../data/sections/ghost/interactions.json)
+- [Actions](../data/sections/ghost/actions.json)
+- [Navigation](../data/sections/ghost/navigation.json)
+- [Data Display](../data/sections/ghost/data_display.json)
+- [Structure](../data/sections/ghost/structure.json)
+- [Icons](../data/sections/ghost/icons.json)
+- [Assets](../data/sections/ghost/assets.json)
+- [Brand Assets](../data/sections/ghost/brand_assets.json)
+- [Sections](../data/sections/ghost/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `limited`. Review notes do not certify an entire design system. Missing values remain missing.

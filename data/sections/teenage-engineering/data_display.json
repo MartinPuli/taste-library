@@ -1,0 +1,38 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Product Card Tile",
+        "description": "Square image-focused product tiles displaying products with minimal text overlay. Features product name and 'buy now' link positioned at top-left corner.",
+        "when_to_use": [
+          "Product grid displays",
+          "Homepage product showcase sections",
+          "Category landing pages"
+        ]
+      },
+      {
+        "name": "Hero Product Tile",
+        "description": "Full-width or large-format product tiles used as section headers. Contains dramatic product photography with minimal text labels.",
+        "when_to_use": [
+          "Section introductions",
+          "Featured product highlights",
+          "Landing page hero areas"
+        ]
+      }
+    ]
+  }
+}

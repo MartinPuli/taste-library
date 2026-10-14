@@ -1,0 +1,59 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "brand_name": "Framer",
+    "tagline": null,
+    "source_url": "https://www.framer.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Design / No-Code Website Builder",
+    "primary_purpose": "Convert designers and teams to use Framer's AI-powered design agent platform for website creation",
+    "main_cta": "Get started for free",
+    "copy_tone": [
+      "Confident",
+      "Technical",
+      "Aspirational"
+    ],
+    "brand_signature": "Dark, immersive interface with deep blacks and strategic blue accent highlights creating a premium tech aesthetic. The visual identity balances sophisticated UI demonstrations with clean typography and subtle glow effects that reinforce the AI/agent-powered product positioning.",
+    "visual_language": {
+      "keywords": [
+        "dark-mode",
+        "technical",
+        "sophisticated",
+        "immersive",
+        "product-centric",
+        "premium"
+      ],
+      "accent_strategy": "Electric blue (#09f) used sparingly for interactive highlights, selection states, and key feature callouts against the pure black background",
+      "highlights": "Subtle blue glow effects and gradient fades used to draw attention to product demonstrations and hero sections"
+    },
+    "strategy": {
+      "target_audience": [
+        "Designers and creative professionals seeking faster website creation workflows",
+        "Marketing teams and founders who want professional websites without coding",
+        "Agencies and studios looking to scale client website delivery with AI assistance",
+        "Enterprise teams requiring sophisticated CMS and collaboration features"
+      ],
+      "executive_synthesis": "Framer's homepage strategically positions AI agents as the differentiator in the crowded website builder market. The dark, immersive visual design serves dual purposes: it appeals to the design-savvy target audience while providing optimal contrast for showcasing the actual product interface. The page architecture flows from bold value proposition to feature demonstrations to social proof, systematically addressing both capability and credibility. The emphasis on 'agents that work alongside you, not instead of you' reflects careful positioning that addresses AI anxiety while highlighting productivity gains."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The visual impression from the screenshot reveals a sleek, modern dark-mode interface dominated by pure black backgrounds (#000) with strategic accent colors—primarily electric blue (#0099FF) glows and cyan highlights. The overall mood is tech-forward, premium, and professional.\n\n**Forensic Evidence Supporting Flat Design:**\n\n1. **Shape & Texture Analysis (PRIMARY signal):** The texture classification shows \"gradient_linear\" and \"glass_blur\"—however, the gradients are purely functional (fade-to-black edge vignettes for content masking), not decorative. The dominant visual language is flat surfaces with minimal depth effects. Cards and containers use solid colors (#1F1F1F, #242424) without heavy shadows or 3D extrusion.\n\n2. **Color Palette:** The baseline palette is deeply monochromatic (pure black through charcoal grays to white) with secondary neon accents (Blue #0099FF, Pink #FF0066, Purple #6600FF). This is classic Flat Design territory—bold, saturated accent colors against neutral backgrounds. The colors are clean and pure, not muddy or gritty.\n\n3. **Typography:** GT Walsheim Medium (geometric sans-serif) for headings paired with Inter Variable for UI text is quintessential modern digital design. Sans-serif modern, geometric fonts with tight letter-spacing align perfectly with Flat Design taxonomy elements.\n\n4. **Layout:** Grid-based strict 12-column system, centered symmetric layout philosophy, generous whitespace (80-150px section padding). This structured, mathematical clarity echoes both Flat Design's digital-native precision and Swiss Style influences.\n\n5. **Dimensionality Assessment:** Predominantly 2D—while glassmorphism elements exist on floating UI panels (backdrop-filter blur), they're subtle supporting effects rather than defining characteristics. The design doesn't meet Glassmorphism's key differentiator of \"frosted transparency as a required visual language.\" Most surfaces are solid flat colors.\n\n**Why NOT Glassmorphism:** Despite glass/blur effects in the texture profile, these are applied sparingly to navigation and floating components, not as the dominant visual treatment. The primary card/container backgrounds are opaque solids, not transparent frosted panels.\n\n**Why NOT Brutalism:** While it uses black backgrounds and has a tech-forward aesthetic, the design lacks Brutalism's \"raw, unpolished\" quality. It's highly refined with smooth surfaces, consistent spacing, and polished typography—the opposite of deliberately rough anti-design.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The **Corporate** modifier applies because this is clearly a professional SaaS/tech product landing page designed to communicate trust, reliability, and competence. Evidence includes: partner logo strips (Amazon, Costco, Yahoo, NFL, Mercedes), \"Trusted by teams\" sections with enterprise client logos (Dell, GIPHY, Kickstarter), systematic feature presentations with professional UI mockups, and conventional marketing page structure (hero → features → social proof → CTA). The visual language is polished and business-appropriate, targeting professional design teams rather than expressing rebellious or experimental intent."
+    }
+  }
+}

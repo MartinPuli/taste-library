@@ -1,0 +1,74 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "accordion",
+      "hover_lift",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "button-transition",
+        "css": "transition: background-color 300ms ease-out, border-color 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out",
+        "description": "Smooth 300ms ease-out transition for button background, border, color, and opacity changes on interaction"
+      },
+      {
+        "name": "opacity-fade",
+        "css": "transition: opacity 150ms",
+        "description": "Quick 150ms opacity fade used for button content swaps and loading states"
+      },
+      {
+        "name": "delayed-opacity-fade",
+        "css": "transition: opacity 150ms 150ms",
+        "description": "150ms opacity transition with 150ms delay for staggered content reveals in buttons"
+      },
+      {
+        "name": "chevron-rotate",
+        "css": "transition-transform",
+        "description": "Transform transition for rotating chevron icons in accordion expand/collapse"
+      },
+      {
+        "name": "card-hover-scale",
+        "css": "transition-transform hover:scale-[1.01]",
+        "description": "Subtle 1% scale increase on feature card hover for lift effect"
+      },
+      {
+        "name": "sidebar-slide",
+        "css": "",
+        "description": "JS-driven transform: translate3d animation for sidebar panel open/close"
+      },
+      {
+        "name": "mode-tab-indicator",
+        "css": "",
+        "description": "JS-driven width and inset-inline-start animation for sliding pill indicator behind selected mode tab"
+      },
+      {
+        "name": "accordion-height",
+        "css": "",
+        "description": "JS-driven height animation for accordion section expand/collapse, uses will-change: height"
+      },
+      {
+        "name": "text-blur-reveal",
+        "css": "",
+        "description": "JS-driven filter: blur() and opacity animation for headline text reveal effect"
+      }
+    ],
+    "insights": [
+      "The design system uses CSS variables extensively (--bg-soft, --text-primary, --border-soft) enabling seamless dark/light mode switching with prefers-color-scheme media queries.",
+      "Button interactions favor opacity changes over background shifts for primary CTAs, creating a subtle but cohesive hover feedback pattern.",
+      "The composer input area uses a sophisticated tab switching mechanism with animated sliding pill indicators, suggesting a polished micro-interaction focus throughout the UI."
+    ]
+  }
+}

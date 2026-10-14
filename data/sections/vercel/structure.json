@@ -1,0 +1,44 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default, used in mobile navigation for collapsible menu sections"
+    },
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Subtle horizontal divider between major content sections",
+        "when_to_use": [
+          "Between navigation groups",
+          "Footer section separation"
+        ],
+        "color": "#EBEBEB",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Alpha Border",
+        "description": "Translucent border for cards and containers using alpha transparency",
+        "when_to_use": [
+          "Card borders",
+          "Navigation panel borders",
+          "Dropdown menu borders"
+        ],
+        "color": "rgba(0, 0, 0, 0.08)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "parallax",
+      "video_background",
+      "carousel",
+      "hover_transform",
+      "scroll_reveal"
+    ],
+    "animations": [
+      {
+        "name": "paint-in",
+        "css": "@keyframes paint-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }",
+        "description": "Entrance animation for announcement bar, fading in while sliding down"
+      },
+      {
+        "name": "soft-focus blur transition",
+        "css": "transition: opacity 0.5s ease-out, filter 0.5s ease-out, transform 0.5s ease-out",
+        "description": "Soft blur-to-focus reveal effect used throughout for scroll-triggered content"
+      },
+      {
+        "name": "nav-link-hover",
+        "css": "transition: color 0.5s ease-out, opacity 0.5s ease-out",
+        "description": "Navigation link color and opacity transition on hover"
+      },
+      {
+        "name": "button-opacity-hover",
+        "css": "transition: opacity 0.3s",
+        "description": "Standard hover opacity transition for buttons and interactive elements"
+      },
+      {
+        "name": "scan-drift",
+        "css": "",
+        "description": "JS-driven scanning line animation across device tiles, creates tech aesthetic"
+      },
+      {
+        "name": "hero-scanline-drift",
+        "css": "",
+        "description": "JS-driven horizontal scanline drift effect in hero section"
+      },
+      {
+        "name": "hero-scanline-sweep",
+        "css": "",
+        "description": "JS-driven vertical scanline sweep effect in hero section"
+      },
+      {
+        "name": "tab-indicator-slide",
+        "css": "transition: transform",
+        "description": "Sliding indicator bar for segmented tab controls"
+      },
+      {
+        "name": "device-reveal",
+        "css": "",
+        "description": "JS-driven scroll-based reveal animation for device integration icons, translating from below"
+      }
+    ],
+    "insights": [
+      "The design system uses a strong contrast between light (#EAE9E7) and dark (#00050A 'ghost-void') sections with the brand orange (#FF5517) as the primary accent color and blue (#006DDF) for interactive elements.",
+      "Motion design relies heavily on soft-focus blur transitions and scroll-triggered reveals, creating a premium tech aesthetic with subtle parallax and scanline effects.",
+      "Button styles are consistently sharp-cornered (rounded-none) across all variants, maintaining a modern industrial aesthetic that matches the hardware product being showcased."
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. The system uses a multi-layered shadow approach with four distinct levels (0-300) defined as CSS custom properties.",
+      "levels": [
+        {
+          "name": "Tatami Shadow 0",
+          "type": "drop",
+          "description": "Zero elevation / no shadow - 0px offset, 0px blur, transparent black. Used as a reset or base state.",
+          "css_value": "0px 0px 0px 0px #0000",
+          "when_to_use": [
+            "Base state",
+            "Elements with no elevation",
+            "Reset shadow values"
+          ]
+        },
+        {
+          "name": "Tatami Shadow 100",
+          "type": "drop",
+          "description": "Subtle elevation with two layers: 0px 0.7px 1.462px at 1.6% opacity and 0px 3px 9px at 3.1% opacity. Light lift effect.",
+          "css_value": "0px .7px 1.462px 0px #00000004, 0px 3px 9px 0px #00000008",
+          "when_to_use": [
+            "Subtle hover states",
+            "Light card elevation",
+            "Minor separation from background"
+          ]
+        },
+        {
+          "name": "Tatami Shadow 200",
+          "type": "drop",
+          "description": "Medium elevation with four layers ranging from 0.175px to 4px vertical offset, with blur values from 1px to 18px. Opacity ranges from 1.2% to 4%.",
+          "css_value": "0px .175px 1.041px 0px #00000003, 0px .8px 2.925px 0px #00000005, 0px 2.025px 7.847px 0px #00000007, 0px 4px 18px 0px #0000000a",
+          "when_to_use": [
+            "Cards",
+            "Dropdown menus",
+            "Modals",
+            "Floating elements"
+          ]
+        },
+        {
+          "name": "Tatami Shadow 300",
+          "type": "drop",
+          "description": "Maximum elevation with six layers from 0.667px to 36px vertical offset, blur values from 3.5px to 89px. Creates deep, prominent shadow for highest z-index elements.",
+          "css_value": "0px .667px 3.502px 0px #00000002, 0px 2.933px 7.252px 0px #00000004, 0px 7.2px 14.462px 0px #00000005, 0px 13.867px 28.348px 0px #00000006, 0px 23.333px 52.123px 0px #00000008, 0px 36px 89px 0px #0000000a",
+          "when_to_use": [
+            "Popovers",
+            "Tooltips",
+            "Lightboxes",
+            "High-priority floating UI"
+          ]
+        },
+        {
+          "name": "Tw Ring Offset Shadow",
+          "type": "drop",
+          "description": "Tailwind utility ring offset shadow - transparent placeholder shadow used for focus ring styling.",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Focus ring offsets",
+            "Utility reset values"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#000000",
+        "width": "0.0625rem",
+        "style": "solid"
+      },
+      {
+        "hex": "#F6F5F4",
+        "width": "2px",
+        "style": "solid"
+      }
+    ]
+  }
+}

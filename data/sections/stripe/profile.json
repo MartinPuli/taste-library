@@ -1,0 +1,59 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "brand_name": "Stripe",
+    "tagline": null,
+    "source_url": "https://stripe.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "FinTech / Payments Infrastructure",
+    "primary_purpose": "Drive signups and enterprise sales inquiries by establishing Stripe as the comprehensive financial infrastructure platform for businesses of all sizes",
+    "main_cta": "Get started",
+    "copy_tone": [
+      "Confident",
+      "Technical",
+      "Aspirational"
+    ],
+    "brand_signature": "Stripe's visual identity combines sophisticated gradient-mesh animations with clean, data-driven UI components. The design blends deep navy backgrounds with vibrant multi-color gradients (purple, orange, pink, yellow) creating an abstract, premium aesthetic that conveys both technical precision and innovation.",
+    "visual_language": {
+      "keywords": [
+        "gradient-mesh",
+        "data-visualization",
+        "premium-fintech",
+        "animated",
+        "modular",
+        "technical-elegance"
+      ],
+      "accent_strategy": "Multi-hued gradient system using purple (#533afd) as primary brand color with orange, pink, and yellow accents deployed across hero animations, bento card borders, and interactive elements to signal product differentiation",
+      "highlights": "Animated wave gradients in hero, dynamic usage charts, glowing border effects on product cards, and real-time globe visualization"
+    },
+    "strategy": {
+      "target_audience": [
+        "Enterprise CTOs and technical decision-makers evaluating comprehensive payment infrastructure",
+        "Startup founders and developers seeking developer-friendly payment APIs and quick integration",
+        "Platform businesses looking to embed payments and financial services into their offerings",
+        "Finance leaders at growing companies needing billing, invoicing, and revenue optimization tools"
+      ],
+      "executive_synthesis": "Stripe's homepage strategically positions the brand as the 'financial infrastructure' layer of the internet, moving beyond payments to encompass billing, agentic commerce, card issuing, and platform monetization. The visual design - featuring animated gradient waves, modular bento product cards, and global data visualizations - communicates scale ($1.9T processed), reliability (99.999% uptime), and innovation (AI commerce). The dual CTA structure ('Get started' + 'Contact sales') captures both self-serve developers and enterprise prospects, while enterprise customer stories (Hertz, Instacart, Le Monde) provide social proof at scale. The bento grid product showcase enables discovery without overwhelming, supporting the strategic message that Stripe is both comprehensive and accessible."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals Stripe's signature aesthetic: a clean, modern digital-first design built on a strict 12-column grid with generous whitespace (56-96px vertical padding). The visual impression is immediately polished and professional—predominantly white surfaces (#FFFFFF, #F8FAFD) with the signature \"Stripe Blurple\" (#533AFD) as the sole accent color driving all CTAs and interactive elements. Typography is uniformly \"sohne-var\" variable sans-serif at light weights (300), creating an exceptionally clean, modern typographic texture with negative letter-spacing for density. The design elements map directly to Flat Design: (1) Color is bold and saturated (vibrant purple primary), not muddy or gradient-heavy in the core UI; (2) Shapes are geometric and clean with rounded corners on cards and buttons; (3) Layout is grid-based strict with generous whitespace; (4) Sans-serif modern typography dominates. While the hero section features decorative gradient blobs (purple→pink→orange) and some glassmorphism effects (backdrop-filter blur on navigation overlays), these are ornamental flourishes on an otherwise flat foundational system—they don't define the core aesthetic. The texture profile confirms \"gradient_linear\" and \"glass_blur\" but these are accent treatments, not the primary surface language. Scoring the 6 spectra: Visual Density = Airy/Spacious; Color Cleanliness = Clean/Pure; Chronology = Modern; Dimensionality = Flat (2D); Decoration = Minimal; Structure = Rigid Grid.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier is strongly evidenced by the design's overall tone and purpose: this is a fintech B2B landing page communicating trust, reliability, and professional competence. Key Corporate signals include: (1) Conservative color restraint—despite the vibrant brand purple, the palette is tightly controlled with cool grays and navy (#061B31 for headings, #50617A for body text); (2) Trust indicators like partner logos (Figma, Zoom, Deliveroo), large statistics ($1.9T, 99.999%, 200M+), and enterprise testimonials; (3) Professional photography and polished UI mockups showing dashboards and payment interfaces; (4) Formal, benefit-driven copywriting (\"Financial infrastructure to grow your revenue\"); (5) The deep navy footer section reinforcing institutional gravitas. The design avoids playfulness or experimentation in favor of systematic clarity appropriate for enterprise financial services."
+    }
+  }
+}

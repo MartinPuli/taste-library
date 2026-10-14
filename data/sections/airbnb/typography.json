@@ -1,0 +1,218 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Title Semibold 22/26",
+          "specs": {
+            "size": "var(--typography-titles-semibold_22_26-font-size)",
+            "line_height": "var(--typography-titles-semibold_22_26-line-height)",
+            "font_weight": "var(--typography-titles-semibold_22_26-font-weight)",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Title Semibold 18/24",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.5rem",
+            "font_weight": "var(--typography-titles-semibold_18_24-font-weight)",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Section Title / H2",
+          "specs": {
+            "size": "14px",
+            "line_height": "20.02px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text variants used for general content and descriptions.",
+      "variants": [
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Body Medium",
+          "specs": {
+            "size": "16px",
+            "line_height": "20px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Body Regular",
+          "specs": {
+            "size": "14px",
+            "line_height": "20.02px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Utilitarian styles used for metadata, pricing, badges, and separators on cards.",
+      "variants": [
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Subtitle / Meta Label",
+          "specs": {
+            "size": "0.8125rem",
+            "line_height": "1rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Pricing Unit Price",
+          "specs": {
+            "size": "12px",
+            "line_height": "16px",
+            "font_weight": "var(--pricing-guest-primary-line-unit-price-font-weight,var(--typography-weight-semibold600))",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Pricing Qualifier",
+          "specs": {
+            "size": "min(var(--pricing-guest-primary-line-qualifier-font-size,15px),16Px)",
+            "line_height": "var(--pricing-guest-primary-line-qualifier-line-height,18px)",
+            "font_weight": "var(--pricing-guest-primary-line-qualifier-font-weight,var(--typography-weight-book400))",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Dot Separator",
+          "specs": {
+            "size": "var(--dot-separator_font-size,inherit)",
+            "line_height": "16px",
+            "font_weight": "bold",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Airbnb Cereal VF",
+          "role": "Badge / Guest Favorite",
+          "specs": {
+            "size": "0.6875rem",
+            "line_height": "0.8125rem",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "\"Airbnb Cereal VF\", Circular, -apple-system, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Miscellaneous or unclassified typography usage.",
+      "variants": []
+    },
+    "highlights": "No special highlight text treatments like brush strokes or marker underlines observed in this scope.",
+    "insights": [
+      "The typography system exclusively relies on the proprietary 'Airbnb Cereal VF' variable font, ensuring a highly cohesive and distinct brand voice across all touchpoints.",
+      "Extensive use of CSS custom properties with built-in fallbacks (e.g., var(--pricing-guest-primary-line-unit-price-font-weight, var(--typography-weight-semibold600))) allows for highly modular and dynamic text scaling.",
+      "Micro-typography relies on precise sub-rem measurements (such as 0.6875rem for badges and 0.8125rem for secondary metadata) to guarantee legibility while maintaining high information density on listing cards."
+    ]
+  }
+}

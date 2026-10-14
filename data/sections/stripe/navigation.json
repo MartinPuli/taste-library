@@ -1,0 +1,59 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/stripe.json",
+  "data": {
+    "top_nav": {
+      "height": "64px",
+      "position": "relative",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Paper & Cool Grays",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Navigation Dropdown Trigger",
+      "description": "Navigation menu items that trigger dropdown panels with product/solution categories",
+      "when_to_use": [
+        "Primary site navigation with nested content",
+        "Mega menu triggers for product categories"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Standard text color with chevron icon",
+          "background": null,
+          "text": "#061B31",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Text color softens when sibling is hovered",
+          "background": null,
+          "text": "#64748D",
+          "icon": null
+        },
+        {
+          "name": "expanded",
+          "visual_change": "Chevron rotates and text turns brand purple",
+          "background": null,
+          "text": "#533AFD",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

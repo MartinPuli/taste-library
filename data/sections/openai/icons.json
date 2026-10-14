@@ -1,0 +1,54 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/openai.json",
+  "data": [
+    {
+      "name": "Functional UI Icons",
+      "description": "Minimalist functional UI icons used for navigation, inputs, and controls.",
+      "when_to_use": [
+        "Navigation dropdowns",
+        "External link indicators",
+        "Search inputs",
+        "Submit buttons"
+      ],
+      "format": "SVG",
+      "style": "Monoline and Solid Flat",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Chevron Right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" fill=\"none\" viewBox=\"2.219 -0.578 11.563 18.5\" style=\"aspect-ratio:10 / 16\" class=\"transition-transform duration-fast motion-reduce:transition-none\"><path fill=\"currentColor\" d=\"M12.47 5.72a.75.75 0 1 1 1.06 1.06l-4.764 4.765a1.083 1.083 0 0 1-1.532 0L2.47 6.78a.75.75 0 1 1 1.06-1.06L8 10.19z\"></path></svg>"
+        },
+        {
+          "name": "External Link Arrow",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" fill=\"none\" viewBox=\"1.243 0.843 9.483 10.345\" style=\"aspect-ratio:11 / 12\" aria-hidden=\"true\" class=\"scale-inline-100\"><path fill=\"currentColor\" d=\"M8.949 2.505a.497.497 0 0 1 .546.546L9.5 3.1V8a.5.5 0 0 1-1 0V4.207l-5.147 5.15a.5.5 0 1 1-.707-.707L7.794 3.5H4a.5.5 0 0 1 0-1h4.9z\"></path></svg>"
+        },
+        {
+          "name": "Send / Submit Arrow",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"size-3/4\"><path fill=\"currentColor\" d=\"M10.94 5.646a1.5 1.5 0 0 1 2.12 0l4.647 4.647a1 1 0 0 1-1.414 1.414L13 8.414V18a1 1 0 0 1-2 0V8.414l-3.293 3.293a1 1 0 0 1-1.414-1.414z\"></path></svg>"
+        },
+        {
+          "name": "Close / Dismiss",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M8 1.25a6.75 6.75 0 1 1 0 13.5 6.75 6.75 0 0 1 0-13.5m-1.892 7.5c.075 1.266.33 2.376.692 3.188.216.486.453.832.679 1.047.221.212.397.265.521.265s.299-.054.52-.265c.226-.215.464-.561.68-1.046.361-.813.617-1.923.692-3.189zm-3.303 0a5.25 5.25 0 0 0 2.642 3.838l-.018-.041c-.457-1.027-.749-2.35-.825-3.797zm8.59 0c-.076 1.447-.368 2.77-.825 3.797l-.02.04a5.25 5.25 0 0 0 2.645-3.837zM5.447 3.411A5.25 5.25 0 0 0 2.805 7.25h1.8c.075-1.446.367-2.77.824-3.797zM8 2.75c-.124 0-.3.053-.521.265-.226.215-.463.561-.68 1.047-.36.812-.616 1.922-.69 3.188h3.783c-.075-1.266-.33-2.376-.692-3.188-.216-.486-.454-.832-.68-1.047-.22-.211-.395-.265-.52-.265m2.57.703c.457 1.027.749 2.35.825 3.797h1.8a5.25 5.25 0 0 0-2.645-3.839z\" clip-rule=\"evenodd\"></path></svg>"
+        },
+        {
+          "name": "Search / Magnifying Glass",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" fill=\"none\" viewBox=\"0 0 18 18\" height=\"16\"><path fill=\"currentColor\" d=\"M14.9 4.068A14.2 14.2 0 0 0 11.394 3a10 10 0 0 0-.449.904 13.2 13.2 0 0 0-3.892 0A10 10 0 0 0 6.602 3a14.3 14.3 0 0 0-3.51 1.07C.874 7.32.273 10.49.573 13.613c1.3.95 2.755 1.673 4.302 2.137q.523-.696.92-1.47a9 9 0 0 1-1.45-.685q.183-.133.356-.265a10.2 10.2 0 0 0 8.6 0q.175.142.356.265-.696.406-1.454.686.398.774.922 1.469a14.1 14.1 0 0 0 4.304-2.136c.353-3.622-.603-6.762-2.527-9.546m-8.724 7.624c-.838 0-1.531-.753-1.531-1.68 0-.925.669-1.685 1.528-1.685.86 0 1.547.76 1.533 1.686s-.676 1.679-1.53 1.679m5.648 0c-.84 0-1.53-.753-1.53-1.68 0-.925.669-1.685 1.53-1.685s1.543.76 1.528 1.686-.674 1.679-1.528 1.679\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

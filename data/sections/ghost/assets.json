@@ -1,0 +1,548 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "assets",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/assets",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "logos": [
+      {
+        "role": "Primary",
+        "format": "SVG",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/primary.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/primary.svg",
+        "origin_url": "https://ghost.ai/figma/hero-v2/logo.svg",
+        "description": "Primary Ghost Logo (White)"
+      },
+      {
+        "role": "Secondary",
+        "format": "SVG",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/secondary.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/secondary.svg",
+        "origin_url": "https://ghost.ai/figma/product/logo.svg",
+        "description": "Secondary Ghost Logo (Dark)"
+      },
+      {
+        "role": "Favicon",
+        "format": "ICO",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/favicon.ico",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/favicon.ico",
+        "origin_url": "https://ghost.ai/favicon.ico?favicon.0mql88km0yrk_.ico",
+        "description": "Detected from <link rel='icon'>."
+      },
+      {
+        "role": "Favicon",
+        "format": "PNG",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/favicon.png",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/logos/favicon.png",
+        "origin_url": "https://ghost.ai/icon.png?icon.2cvs-543stlb7.png",
+        "description": "Detected from <link rel='icon'>."
+      }
+    ],
+    "media": [
+      {
+        "name": "Open Graph Image",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/open-graph-image.jpg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/open-graph-image.jpg",
+        "origin_url": "https://ghost.ai/opengraph-image.jpg?opengraph-image.13anp_69f8ba9.jpg",
+        "usage_context": "Meta og:image — social share preview."
+      },
+      {
+        "name": "timelapse.mp4",
+        "type": "video",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/video/timelapse-mp4.mp4",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/video/timelapse-mp4.mp4",
+        "origin_url": "https://ghost.ai/figma/always-yours/timelapse.mp4",
+        "usage_context": "Background video for continuous context section."
+      },
+      {
+        "name": "hero-close",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/hero-close.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/hero-close.svg",
+        "origin_url": "https://ghost.ai/figma/hero-v4/close.svg",
+        "usage_context": "Close icon for top banner."
+      },
+      {
+        "name": "cart-icon-light",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cart-icon-light.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cart-icon-light.svg",
+        "origin_url": "https://ghost.ai/figma/hero/cart.svg",
+        "usage_context": "Shopping cart icon in primary navigation."
+      },
+      {
+        "name": "cart-icon-dark",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cart-icon-dark.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cart-icon-dark.svg",
+        "origin_url": "https://ghost.ai/figma/product/cart.svg",
+        "usage_context": "Shopping cart icon in secondary navigation state."
+      },
+      {
+        "name": "menu-close",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/menu-close.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/menu-close.svg",
+        "origin_url": "https://ghost.ai/figma/hero-v2/close.svg",
+        "usage_context": "Mobile navigation menu close icon."
+      },
+      {
+        "name": "core-v5",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-v5.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-v5.webp",
+        "origin_url": "https://ghost.ai/figma/hero-v4/core-v5.webp",
+        "usage_context": "Primary hero device render."
+      },
+      {
+        "name": "device-mask",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/device-mask.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/device-mask.webp",
+        "origin_url": "https://ghost.ai/figma/hero-v4/layers/device.webp",
+        "usage_context": "Mask layer for the hero device."
+      },
+      {
+        "name": "edge-glow",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/edge-glow.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/edge-glow.svg",
+        "origin_url": "https://ghost.ai/figma/hero-v4/layers/edge-glow.svg",
+        "usage_context": "Edge lighting effect on the hero device."
+      },
+      {
+        "name": "Core from below and behind, showing the vents and power input",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-from-below-and-behind-showing-the-vents-and-power-input.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-from-below-and-behind-showing-the-vents-and-power-input.webp",
+        "origin_url": "https://ghost.ai/figma/core-v2/gallery-2.webp",
+        "usage_context": "Product gallery carousel image."
+      },
+      {
+        "name": "Core from the back, with vents above the power input",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-from-the-back-with-vents-above-the-power-input.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-from-the-back-with-vents-above-the-power-input.webp",
+        "origin_url": "https://ghost.ai/figma/core-v2/gallery-3.webp",
+        "usage_context": "Product gallery carousel image."
+      },
+      {
+        "name": "Core in the dark, lit along one edge",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-in-the-dark-lit-along-one-edge.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-in-the-dark-lit-along-one-edge.webp",
+        "origin_url": "https://ghost.ai/figma/core-v2/gallery-4.webp",
+        "usage_context": "Product gallery carousel image."
+      },
+      {
+        "name": "Core from the front, its light edge glowing",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-from-the-front-its-light-edge-glowing.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/core-from-the-front-its-light-edge-glowing.webp",
+        "origin_url": "https://ghost.ai/figma/core-v2/gallery-1.webp",
+        "usage_context": "Product gallery carousel active image."
+      },
+      {
+        "name": "The Core Exploded View",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/the-core-exploded-view.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/the-core-exploded-view.webp",
+        "origin_url": "https://ghost.ai/video/core-exploded-black/frame-000.webp",
+        "usage_context": "Exploded hardware view background."
+      },
+      {
+        "name": "GPU Part",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/gpu-part.png",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/gpu-part.png",
+        "origin_url": "https://ghost.ai/figma/exploded/part-gpu.png",
+        "usage_context": "Hardware component hover reveal (GPU)."
+      },
+      {
+        "name": "CPU Part",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cpu-part.png",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cpu-part.png",
+        "origin_url": "https://ghost.ai/figma/exploded/part-cpu.png",
+        "usage_context": "Hardware component hover reveal (CPU)."
+      },
+      {
+        "name": "RAM Part",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/ram-part.png",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/ram-part.png",
+        "origin_url": "https://ghost.ai/figma/exploded/part-ram.png",
+        "usage_context": "Hardware component hover reveal (Memory)."
+      },
+      {
+        "name": "SSD Part",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/ssd-part.png",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/ssd-part.png",
+        "origin_url": "https://ghost.ai/figma/exploded/part-ssd.png",
+        "usage_context": "Hardware component hover reveal (Storage)."
+      },
+      {
+        "name": "structure.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/structure-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/structure-svg.svg",
+        "origin_url": "https://ghost.ai/figma/intelligence/riso/structure.svg",
+        "usage_context": "Decorative structure graphic in intelligence section."
+      },
+      {
+        "name": "recovery.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/recovery-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/recovery-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/recovery.svg",
+        "usage_context": "Context notification icon (Recovery)."
+      },
+      {
+        "name": "sun.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/sun-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/sun-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/sun.svg",
+        "usage_context": "Context notification icon (Morning)."
+      },
+      {
+        "name": "mail.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/mail-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/mail-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/mail.svg",
+        "usage_context": "Context notification icon (Mail)."
+      },
+      {
+        "name": "bag-dark.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/bag-dark-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/bag-dark-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/bag-dark.svg",
+        "usage_context": "Context notification icon (Groceries)."
+      },
+      {
+        "name": "rain-dark.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/rain-dark-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/rain-dark-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/rain-dark.svg",
+        "usage_context": "Context notification icon (Weather)."
+      },
+      {
+        "name": "laptop-dark.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/laptop-dark-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/laptop-dark-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/laptop-dark.svg",
+        "usage_context": "Context notification icon (Work/Routine)."
+      },
+      {
+        "name": "edit.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/edit-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/edit-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/edit.svg",
+        "usage_context": "Context notification icon (Note/Insights)."
+      },
+      {
+        "name": "bag.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/bag-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/bag-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/bag.svg",
+        "usage_context": "Context notification icon (Errands)."
+      },
+      {
+        "name": "calendar.svg",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/calendar-svg.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/calendar-svg.svg",
+        "origin_url": "https://ghost.ai/figma/always-yours/updated/calendar.svg",
+        "usage_context": "Context notification icon (Calendar)."
+      },
+      {
+        "name": "kitchen-base",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/kitchen-base.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/kitchen-base.webp",
+        "origin_url": "https://ghost.ai/figma/kitchen/updated/kitchen-base-v2.webp",
+        "usage_context": "Proactive agent demo base background image."
+      },
+      {
+        "name": "kitchen-overlay",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/kitchen-overlay.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/kitchen-overlay.webp",
+        "origin_url": "https://ghost.ai/figma/kitchen/updated/kitchen-v2.webp",
+        "usage_context": "Proactive agent demo layer overlay."
+      },
+      {
+        "name": "apple-selected",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/apple-selected.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/apple-selected.webp",
+        "origin_url": "https://ghost.ai/figma/kitchen/updated/apple-selected.webp",
+        "usage_context": "Kitchen demo highlight state for Apple."
+      },
+      {
+        "name": "coffee-selected",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/coffee-selected.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/coffee-selected.webp",
+        "origin_url": "https://ghost.ai/figma/kitchen/updated/coffee-selected.webp",
+        "usage_context": "Kitchen demo highlight state for Coffee."
+      },
+      {
+        "name": "keys-selected",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/keys-selected.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/keys-selected.webp",
+        "origin_url": "https://ghost.ai/figma/kitchen/updated/keys-selected.webp",
+        "usage_context": "Kitchen demo highlight state for Keys."
+      },
+      {
+        "name": "tag-apple",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/tag-apple.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/tag-apple.svg",
+        "origin_url": "https://ghost.ai/figma/kitchen/tag-apple.svg",
+        "usage_context": "Kitchen demo object label for Apple."
+      },
+      {
+        "name": "tag-coffee-machine",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/tag-coffee-machine.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/tag-coffee-machine.svg",
+        "origin_url": "https://ghost.ai/figma/kitchen/updated/tag-coffee-machine.svg",
+        "usage_context": "Kitchen demo object label for Coffee Machine."
+      },
+      {
+        "name": "tag-keys",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/tag-keys.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/tag-keys.svg",
+        "origin_url": "https://ghost.ai/figma/kitchen/tag-keys.svg",
+        "usage_context": "Kitchen demo object label for Keys."
+      },
+      {
+        "name": "clock",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/clock.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/clock.svg",
+        "origin_url": "https://ghost.ai/figma/kitchen/clock.svg",
+        "usage_context": "Clock icon in Kitchen demo interface."
+      },
+      {
+        "name": "pill-local-blue",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-local-blue.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-local-blue.svg",
+        "origin_url": "https://ghost.ai/figma/intro-copy/pill-local-blue.svg",
+        "usage_context": "Feature navigation pill icon."
+      },
+      {
+        "name": "pill-local-ice",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-local-ice.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-local-ice.svg",
+        "origin_url": "https://ghost.ai/figma/intro-copy/pill-local-ice.svg",
+        "usage_context": "Feature navigation pill icon active state."
+      },
+      {
+        "name": "pill-context-blue",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-context-blue.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-context-blue.svg",
+        "origin_url": "https://ghost.ai/figma/intro-copy/pill-context-blue.svg",
+        "usage_context": "Feature navigation pill icon."
+      },
+      {
+        "name": "pill-context-ice",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-context-ice.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-context-ice.svg",
+        "origin_url": "https://ghost.ai/figma/intro-copy/pill-context-ice.svg",
+        "usage_context": "Feature navigation pill icon active state."
+      },
+      {
+        "name": "pill-agent-blue",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-agent-blue.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-agent-blue.svg",
+        "origin_url": "https://ghost.ai/figma/intro-copy/pill-agent-blue.svg",
+        "usage_context": "Feature navigation pill icon."
+      },
+      {
+        "name": "pill-agent-ice",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-agent-ice.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/pill-agent-ice.svg",
+        "origin_url": "https://ghost.ai/figma/intro-copy/pill-agent-ice.svg",
+        "usage_context": "Feature navigation pill icon active state."
+      },
+      {
+        "name": "scan-lines",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/scan-lines.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/scan-lines.svg",
+        "origin_url": "https://ghost.ai/figma/devices/scan-lines.svg",
+        "usage_context": "Background texture for the devices grid."
+      },
+      {
+        "name": "Email App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/email-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/email-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/email.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Calendar App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/calendar-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/calendar-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/calendar.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Finances App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/finances-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/finances-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/finances.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Files App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/files-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/files-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/files.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Recordings App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/recordings-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/recordings-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/recordings.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Browser App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/browser-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/browser-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/browser.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Light App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/light-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/light-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/light.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Fridge App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/fridge-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/fridge-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/fridge.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Speaker App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/speaker-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/speaker-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/speaker.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Cameras App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cameras-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/cameras-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/cameras.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Health Records App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/health-records-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/health-records-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/health-records.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Whoop App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/whoop-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/whoop-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/whoop.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Oura App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/oura-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/oura-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/oura.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Eight Sleep App Icon",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/eight-sleep-app-icon.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/eight-sleep-app-icon.webp",
+        "origin_url": "https://ghost.ai/figma/devices/eight-sleep.webp",
+        "usage_context": "Devices grid application icon."
+      },
+      {
+        "name": "Ghost Core, front view",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/ghost-core-front-view.webp",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/ghost-core-front-view.webp",
+        "origin_url": "https://ghost.ai/video/core-360/poster-front.webp",
+        "usage_context": "360 video poster image before interaction."
+      },
+      {
+        "name": "lit-fill",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/lit-fill.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/lit-fill.svg",
+        "origin_url": "https://ghost.ai/figma/landing-footer/lit-fill.svg",
+        "usage_context": "Footer typographic fill effect."
+      },
+      {
+        "name": "engraved-letters",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/engraved-letters.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/engraved-letters.svg",
+        "origin_url": "https://ghost.ai/figma/landing-footer/engraved-letters.svg",
+        "usage_context": "Footer typographic outline effect."
+      },
+      {
+        "name": "lit-glow",
+        "type": "image",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/lit-glow.svg",
+        "path": "bd31b99a-7eaa-4e38-b12b-730a65965921/site-assets/media/image/lit-glow.svg",
+        "origin_url": "https://ghost.ai/figma/landing-footer/lit-glow.svg",
+        "usage_context": "Footer typographic glow effect."
+      }
+    ]
+  }
+}

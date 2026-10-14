@@ -1,0 +1,252 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/midjourney.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/midjourney.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Sign up (Emerald Primary)",
+        "usage": "Primary call-to-action for user registration, appears in hero section and fixed navigation",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "DM Sans",
+              "size": "14px",
+              "padding": "8px 20px"
+            },
+            {
+              "name": "Desktop",
+              "font": "DM Sans",
+              "size": "16px",
+              "padding": "8px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#0f1c36",
+            "text_color": "#ECFDF5",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#064E3B",
+            "text_color": "#ECFDF5",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#0f1c36",
+            "text_color": "#ECFDF5",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Log in (Yellow Secondary)",
+        "usage": "Secondary authentication action for existing users, appears alongside Sign up button",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "DM Sans",
+              "size": "14px",
+              "padding": "8px 20px"
+            },
+            {
+              "name": "Desktop",
+              "font": "DM Sans",
+              "size": "16px",
+              "padding": "8px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#281730",
+            "text_color": "#FEFCE8",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#713F12",
+            "text_color": "#FEFCE8",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#281730",
+            "text_color": "#FEFCE8",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Explore (Rose Accent)",
+        "usage": "Navigation action to explore content/gallery, appears in hero button group",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "DM Sans",
+              "size": "14px",
+              "padding": "8px 20px"
+            },
+            {
+              "name": "Desktop",
+              "font": "DM Sans",
+              "size": "16px",
+              "padding": "8px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#2D0E36",
+            "text_color": "#FFF1F2",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#881337",
+            "text_color": "#FFF1F2",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#2D0E36",
+            "text_color": "#FFF1F2",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Documentation (Orange Accent)",
+        "usage": "Links to documentation/help resources, appears in fixed navigation",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "DM Sans",
+              "size": "14px",
+              "padding": "8px 20px"
+            },
+            {
+              "name": "Desktop",
+              "font": "DM Sans",
+              "size": "16px",
+              "padding": "8px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(124, 45, 18, 0.2)",
+            "text_color": "#FFFBEB",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#7C2D12",
+            "text_color": "#FFFBEB",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(124, 45, 18, 0.2)",
+            "text_color": "#FFFBEB",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Language (Icon Button Circular)",
+        "usage": "Icon-only button for language/locale selection, positioned fixed in top-right corner",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "40px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(6, 5, 34, 0.4)",
+            "text_color": "#F0F9FF",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#0C4A6E",
+            "text_color": "#F0F9FF",
+            "border_color": "rgba(255, 255, 255, 0.2)",
+            "border_width": "0.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(6, 5, 34, 0.4)",
+            "text_color": "#F0F9FF",
+            "border_color": "rgba(255, 255, 255, 0.1)",
+            "border_width": "0.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons grouped horizontally in a pill-shaped container with backdrop blur, used for hero CTAs",
+      "spacing": "12px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

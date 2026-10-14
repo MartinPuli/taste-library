@@ -1,0 +1,177 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/pinterest.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar with centered search",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Red Pinterest script logo on the left"
+        },
+        {
+          "type": "button",
+          "description": "\"Explore\" text button, transparent background"
+        },
+        {
+          "type": "form",
+          "description": "Search bar with rounded corners, light gray background, search icon on left, placeholder text 'Search for easy dinners, fashion, etc.'"
+        },
+        {
+          "type": "navigation",
+          "description": "Text links for About, Businesses, Create, News"
+        },
+        {
+          "type": "button",
+          "description": "\"Log in\" button with white background, black text, rounded corners"
+        },
+        {
+          "type": "button",
+          "description": "\"Sign up\" button with white background, black text, rounded corners"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Split 50/50 - left text, right image collage",
+      "headline": "Conjure your best Halloween",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Full-width background image showing Halloween-themed collage with food photography, yellow flowers, pumpkins, architecture, diverse content at various angles"
+        },
+        {
+          "type": "button",
+          "description": "\"Join Pinterest for free\" primary CTA - solid red (#E60023), white text, pill-shaped"
+        },
+        {
+          "type": "button",
+          "description": "\"I already have an account\" secondary CTA - text link, minimal styling"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Centered",
+      "headline": "More bewitching ideas",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Horizontal scrolling carousel of Pinterest board cards, each showing a grid of pins with board title, category badge, pin count, and time metadata. Cards have rounded corners and soft shadows."
+        },
+        {
+          "type": "button",
+          "description": "\"See more\" link button, secondary styling"
+        },
+        {
+          "type": "card",
+          "description": "Board preview cards with 8-column/4-column split layout, showing pin collages with terracotta, earth tones, warm colors"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Centered",
+      "headline": "Bring your favorite ideas to life",
+      "subheadline": "With Pinterest, you can unlock tools that spark your creativity and help you find more inspiration.",
+      "components": []
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - left image, right text",
+      "headline": "Search by skin tone",
+      "subheadline": "Search with skin tone ranges for beauty ideas that represent you",
+      "components": [
+        {
+          "type": "image",
+          "description": "UI mockup showing skin tone search interface with gradient swatches displaying diverse skin tone samples, featuring beauty photography with various skin tones on neutral/beige background"
+        },
+        {
+          "type": "button",
+          "description": "\"Start Pinterest\" CTA - solid red, white text, pill-shaped"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - left text, right image",
+      "headline": "Collaborate with group boards",
+      "subheadline": "Visualize your ideas with others, using a Pinterest account",
+      "components": [
+        {
+          "type": "card",
+          "description": "Board preview card titled 'Earthy space inspo' showing terracotta/earth tone interior design images (orange walls, sage green, warm woods), displays '80 Pins' and contributor avatars, has soft shadow and rounded corners"
+        },
+        {
+          "type": "button",
+          "description": "\"Join Pinterest\" CTA - solid red, white text, pill-shaped"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 - left image, right text",
+      "headline": "Search visually with images",
+      "subheadline": "Search objects within an image to find more styles you'll love",
+      "components": [
+        {
+          "type": "image",
+          "description": "Fashion photography mockup showing woman in cherry red knit sweater with interactive white tag bubbles overlaid ('Cherry red', 'Knit sweater', 'Preppy look') on blue denim background with subtle shadows"
+        },
+        {
+          "type": "button",
+          "description": "\"Join Pinterest\" CTA - solid red, white text, pill-shaped"
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "layout_pattern": "Split 50/50 with modal overlay - left text, right signup modal over pin grid background",
+      "headline": "Sign up to get your ideas",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Mosaic background of Pinterest pins in soft pastels (greens, pinks, yellows, neutrals) showing knitting, plants, crafts, home decor"
+        },
+        {
+          "type": "form",
+          "description": "White modal card with strong drop shadow and rounded corners, containing: Pinterest logo (red), heading 'Welcome to Pinterest', three input fields (email, password with strength indicator, birthday with calendar icon), 'Continue' button (solid red, full width), 'Continue with Google' button (white with Google icon, outlined), 'Log in' and 'Get started here' blue hyperlinks, terms of service text at bottom"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Pinterest logo in white"
+        },
+        {
+          "type": "navigation",
+          "description": "Four columns of links: 'Get the app' (iOS, Android), 'Quick links' (Explore, Shop, Help Center), 'Policies' (Terms of service, Privacy policy, Personalized ads). White text on solid black (#000000) background"
+        },
+        {
+          "type": "divider",
+          "description": "Copyright notice: © 2025 Pinterest"
+        }
+      ]
+    }
+  ]
+}

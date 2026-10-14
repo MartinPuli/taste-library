@@ -1,0 +1,384 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/ramp.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal split with logo left, navigation and CTAs right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Stack/Ramp logo on left side"
+        },
+        {
+          "type": "navigation",
+          "description": "Navigation links: Product, Customers, etc."
+        },
+        {
+          "type": "button",
+          "description": "Log in - text link style"
+        },
+        {
+          "type": "button",
+          "description": "Sign up - yellow/gold background, dark text, pill-shaped"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Time is money. Save both.",
+      "subheadline": "Cards, expenses, bill payments, and banking – in the blink of AI.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Get started for free - yellow/solar background, primary text, rounded corners"
+        },
+        {
+          "type": "form",
+          "description": "Email input field with white/light background, placeholder 'What's your work email?'"
+        }
+      ]
+    },
+    {
+      "type": "Product Visualization",
+      "layout_pattern": "Centered",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Product interface video showing dashboard - dark terminal/device with connected system diagram, aspect-square on mobile, 1312x585 on desktop"
+        }
+      ]
+    },
+    {
+      "type": "Data Section",
+      "layout_pattern": "Centered text with metric ticker",
+      "headline": "All your data, in one place.",
+      "subheadline": "One platform for all of finance. Agents for every workflow, working 24/7.",
+      "components": [
+        {
+          "type": "animation",
+          "description": "Live ticker showing AI agents at work - receipts processed, accounting fields coded, agent interactions, etc. with animated number counters on black-50 background pills"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Split 50/50 with metric card right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Feature card with yellow accent highlighting on left"
+        },
+        {
+          "type": "card",
+          "description": "Dark background card on right showing large metric '23M+ API requests/day' in white text"
+        }
+      ]
+    },
+    {
+      "type": "Platform Section",
+      "layout_pattern": "Centered with highlighted text",
+      "headline": "One platform for all of Stack.",
+      "subheadline": "Unlimited companies. One price.",
+      "components": [
+        {
+          "type": "button",
+          "description": "Learn more → - text link with arrow"
+        },
+        {
+          "type": "button",
+          "description": "Switch in days, not months - solar/yellow background"
+        },
+        {
+          "type": "button",
+          "description": "View Demo - gray background"
+        }
+      ]
+    },
+    {
+      "type": "Dashboard Showcases",
+      "layout_pattern": "Grid 2-column with alternating dark/light interfaces",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Dark interface dashboard screenshot - Cards & Expenses that handle themselves"
+        },
+        {
+          "type": "image",
+          "description": "Light interface dashboard screenshot - Procure to pay workflow"
+        },
+        {
+          "type": "canvas",
+          "description": "Interactive canvas-based product visualization"
+        },
+        {
+          "type": "image",
+          "description": "Accounting automation interface showing month-end workflows"
+        }
+      ]
+    },
+    {
+      "type": "Dashboard Showcases Row 2",
+      "layout_pattern": "Grid 3-column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Mobile card interfaces showing features list"
+        },
+        {
+          "type": "image",
+          "description": "Banking interface with treasury card showing money flow"
+        },
+        {
+          "type": "canvas",
+          "description": "Network visualization with connected nodes in circular pattern showing 200+ integrations"
+        }
+      ]
+    },
+    {
+      "type": "Email Signup",
+      "layout_pattern": "Centered",
+      "headline": "See recommendations for your business",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "form",
+          "description": "Textarea input field with white background, border, placeholder for company website or business context"
+        },
+        {
+          "type": "button",
+          "description": "Submit button with arrow icon, gray background, disabled state shown"
+        }
+      ]
+    },
+    {
+      "type": "Systems Section",
+      "layout_pattern": "Centered with grid 6-up mockups",
+      "headline": "Systems that never spoke",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "animation",
+          "description": "Dotlottie animated canvas showing invoice workflows and ERP syncing"
+        },
+        {
+          "type": "image",
+          "description": "Spreadsheet UI mockup"
+        },
+        {
+          "type": "image",
+          "description": "Dashboard mockup"
+        },
+        {
+          "type": "image",
+          "description": "Document mockup"
+        },
+        {
+          "type": "image",
+          "description": "Table UI mockup"
+        },
+        {
+          "type": "image",
+          "description": "Data cards mockup"
+        },
+        {
+          "type": "image",
+          "description": "List view mockup"
+        }
+      ]
+    },
+    {
+      "type": "Intelligence Section",
+      "layout_pattern": "Centered",
+      "headline": "Built on the intelligence of 70k+ finance teams. One platform for the agentic era.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Explore Ramp Intelligence - solar/yellow background, centered"
+        }
+      ]
+    },
+    {
+      "type": "Logo Section",
+      "layout_pattern": "Grid 8-column with featured card",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Customer logos in white background tiles: Visa, Eight Sleep, Stripe, Perplexity, Anduril, CBRE, Discord, Twilio, Webflow, Glossier, Virgin Voyages, Shopify - 40% opacity"
+        },
+        {
+          "type": "card",
+          "description": "Featured Notion card - dark background (#1f1f1d) spanning 2 columns/2 rows with photo overlay, showing '$1M+ saved on global spend' in white text"
+        }
+      ]
+    },
+    {
+      "type": "Testimonial",
+      "layout_pattern": "Split - image left, text right",
+      "headline": "Introducing Stack by Ramp.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Stack by Ramp promotional video thumbnail with play button overlay"
+        },
+        {
+          "type": "button",
+          "description": "Watch Video - black background with play icon, white text"
+        }
+      ]
+    },
+    {
+      "type": "Product Evolution",
+      "layout_pattern": "Grid layout with quote",
+      "headline": "Keep your finance team focused on strategy. Let agents handle the busywork.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Perplexity product video showing interface with comments - autoplay looping"
+        },
+        {
+          "type": "card",
+          "description": "Testimonial quote card with Lauren Feeney, Controller at Perplexity"
+        }
+      ]
+    },
+    {
+      "type": "AI Learning Section",
+      "layout_pattern": "Split with canvas visualization",
+      "headline": "AI that learns from your team. And gets smarter with every team that joins.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "canvas",
+          "description": "Interactive policy agents visualization - animated canvas in gray background, square aspect ratio"
+        }
+      ]
+    },
+    {
+      "type": "CTA Banner",
+      "layout_pattern": "Horizontal with background image",
+      "headline": "See what agents can automate.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "View Demo - black background, white text (primaryReverse)"
+        },
+        {
+          "type": "image",
+          "description": "Pothole artwork background pattern in beige/cream (#f4f2ef)"
+        }
+      ]
+    },
+    {
+      "type": "Team Scaling",
+      "layout_pattern": "Grid 2-column",
+      "headline": "Scale the team. Shrink the paperwork.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Enterprise workflow diagram showing bill-creation with approvals"
+        },
+        {
+          "type": "image",
+          "description": "Global spend globe visualization with stippled map showing card spend locations"
+        }
+      ]
+    },
+    {
+      "type": "Global Platform",
+      "layout_pattern": "Centered with grid cards",
+      "headline": "Set user access on autopilot.",
+      "subheadline": "One platform for all your global spend.",
+      "components": [
+        {
+          "type": "card",
+          "description": "Enterprise Solutions feature card with workflow image"
+        },
+        {
+          "type": "card",
+          "description": "Global Spend Management card with world map"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Horizontal scrolling ticker - 2 rows",
+      "headline": "We've got the receipts.",
+      "subheadline": "70,000 teams and counting",
+      "components": [
+        {
+          "type": "card",
+          "description": "Review cards with company logos (Notion, Mindbody, Eight Sleep, Shopify, KIPP, etc.), name, title, and testimonial quote - white background, border, rounded corners"
+        },
+        {
+          "type": "carousel",
+          "description": "Infinite horizontal scroll animation with gradient fade on edges"
+        }
+      ]
+    },
+    {
+      "type": "Pricing CTA",
+      "layout_pattern": "Centered",
+      "headline": "Price scales with you",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Get started - centered, likely yellow/solar background"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Dark background with 4-column navigation",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Four-column link structure: Product, Features, Resources, Company - white text on dark background"
+        },
+        {
+          "type": "form",
+          "description": "Email signup form at bottom of footer"
+        },
+        {
+          "type": "button",
+          "description": "Get started - yellow/gold button"
+        },
+        {
+          "type": "divider",
+          "description": "Legal text and policy links"
+        }
+      ]
+    }
+  ]
+}

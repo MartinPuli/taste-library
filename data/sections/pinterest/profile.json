@@ -1,0 +1,57 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "brand_name": "Pinterest",
+    "tagline": null,
+    "source_url": "https://www.pinterest.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Social Media / Visual Discovery",
+    "primary_purpose": "Drive user sign-ups and demonstrate platform value through visual discovery features",
+    "main_cta": "Join Pinterest for free",
+    "copy_tone": [
+      "Inspirational",
+      "Friendly",
+      "Accessible"
+    ],
+    "brand_signature": "Clean, image-forward design with generous white space and rounded card-based layouts. The visual identity centers on vibrant, curated photography organized in grid and carousel patterns, accented by the signature Pinterest red. Soft, approachable typography balances the rich visual content.",
+    "visual_language": {
+      "keywords": [
+        "image-centric",
+        "grid-based",
+        "curated",
+        "warm",
+        "inviting",
+        "discovery-oriented"
+      ],
+      "accent_strategy": "Pinterest red (#e60023) used sparingly for primary CTAs, logo, and verification badges to draw attention to key actions while letting user-generated imagery dominate.",
+      "highlights": "Large rounded image containers with subtle shadows, card-based feature showcases, and lifestyle photography collages that demonstrate platform functionality"
+    },
+    "strategy": {
+      "target_audience": [
+        "Creative individuals seeking visual inspiration for projects, events, and personal style",
+        "DIY enthusiasts and hobbyists looking for ideas across home decor, fashion, food, and crafts",
+        "Planners and organizers who want to collect and organize visual references for future use",
+        "Social users interested in collaborative boards and sharing ideas with friends"
+      ],
+      "executive_synthesis": "Pinterest's homepage design strategically prioritizes visual impact to immediately convey its core value proposition as a visual discovery platform. The image-heavy approach with minimal text demonstrates rather than explains, using seasonal content (Halloween) to show relevance and timeliness. Feature sections systematically address user needs—inclusive search (skin tone filters), collaboration (group boards), and visual search—while the persistent sign-up modal and repeated CTAs create a conversion-focused funnel. The warm, inviting color palette and rounded interface elements reduce friction and communicate approachability to a broad consumer audience."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals Pinterest's landing page with a quintessentially modern digital product aesthetic. The visual impression is clean, welcoming, and polished—dominated by generous whitespace, soft rounded corners on all interactive elements (cards, buttons, modals), and a purely white canvas punctuated by warm user-generated imagery. The texture profile confirms \"gradient_linear\" and \"shadows_soft\" as primary classifications, which align perfectly with Flat Design's modern evolution (sometimes called Flat 2.0). The shadows are subtle and functional (0px 3px 12px for modals, soft depth cues) rather than skeuomorphic or heavy. The color palette is intentionally monochromatic at the UI layer—black text, white backgrounds, gray borders—allowing the single brand accent (#E60023 Pinterest red) to dominate CTAs. This is classic Flat Design: bold saturated primary colors for actions, geometric sans-serif typography (Pin Sans throughout), completely flat 2D surfaces without texture or noise, and strict geometric shapes. The layout uses a centered symmetric grid with card-based patterns, generous 60-100px section separation, and alternating cream/white backgrounds—all hallmarks of clean digital UI paradigms. Typography is purely functional with no decorative elements: a single proprietary geometric sans-serif at various weights (400-900) maintaining perfect hierarchy.",
+      "secondary_style": "Friendly",
+      "reasoning_secondary": "The Friendly tonal modifier is essential because the design deliberately softens what could be corporate sterility. Evidence: universally rounded corners (4-8px radius) on buttons, cards, and input fields; pill-shaped CTAs with inviting red; warm earth-toned imagery showcasing crafts, plants, and diverse people; approachable copy like \"Create the life you love\" and \"Welcome to Pinterest\"; and the use of cream/off-white (#F6F6F3) instead of stark white for section backgrounds. The visual search feature mockup with interactive tags and the skin tone search UI both demonstrate inclusive, people-centered design thinking. The modal signup form uses friendly language and social login options. This warmth transforms standard Flat Design into an approachable, trust-building experience rather than a cold utility."
+    }
+  }
+}

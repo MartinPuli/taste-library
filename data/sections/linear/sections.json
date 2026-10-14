@@ -1,0 +1,209 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/linear.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar, space-between alignment",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Linear wordmark logo in white, left-aligned"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal nav links in light gray: Product, Resources, Customers, Pricing, Now, Contact"
+        },
+        {
+          "type": "button",
+          "description": "White pill button with black text 'Sign Up', solid fill"
+        },
+        {
+          "type": "button",
+          "description": "Light gray text link 'Log in'"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "The product development system for teams and agents",
+      "subheadline": "Purpose-built for planning and building products...",
+      "components": [
+        {
+          "type": "button",
+          "description": "Small pill badge 'New' with dark gray background"
+        },
+        {
+          "type": "button",
+          "description": "Text link 'Loops →' with arrow, light gray"
+        }
+      ]
+    },
+    {
+      "type": "Product Demo",
+      "layout_pattern": "Three-panel layout (sidebar, center detail, right context)",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Dark mode product interface mockup showing Linear app with three-column layout: left navigation sidebar (dark gray #1a1a1a), center issue detail panel showing 'Faster app launch' task with activity feed, right context panel showing 'Opus 5' and PR details. Subtle borders, white text, purple/blue accents, orange file change indicators"
+        }
+      ]
+    },
+    {
+      "type": "Social Proof",
+      "layout_pattern": "Centered logo grid",
+      "headline": null,
+      "subheadline": "POWERING THE COMPANIES BUILDING THE FUTURE",
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "White logos on black background: OpenAI, Vercel, Salesforce, Figma, Cursor, Coinbase, Ramp. Evenly spaced, centered alignment"
+        }
+      ]
+    },
+    {
+      "type": "Value Proposition",
+      "layout_pattern": "Centered",
+      "headline": "A new species of product tool.",
+      "subheadline": "Purpose-built for modern teams with AI workflows at its core. Linear sets a new standard for planning and building products.",
+      "components": []
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Grid 3-column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "illustration",
+          "description": "FIG 9.1 - 3D wireframe isometric diagram in light gray/white outlines on black background, technical blueprint aesthetic"
+        },
+        {
+          "type": "illustration",
+          "description": "FIG 9.2 - 3D wireframe isometric diagram in light gray/white outlines on black background, technical blueprint aesthetic"
+        },
+        {
+          "type": "illustration",
+          "description": "FIG 9.3 - 3D wireframe isometric diagram in light gray/white outlines on black background, technical blueprint aesthetic"
+        }
+      ]
+    },
+    {
+      "type": "Features (mobile carousel)",
+      "layout_pattern": "Horizontal carousel",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Dark card (#0f1011) with rounded corners, wireframe illustration, 'Purpose-built' label and description text"
+        },
+        {
+          "type": "card",
+          "description": "Dark card with 3D agents wireframe illustration, 'Powered by agents' label"
+        },
+        {
+          "type": "card",
+          "description": "Dark card with momentum wireframe, 'Designed for speed' label"
+        }
+      ]
+    },
+    {
+      "type": "Feature Section - Intake",
+      "layout_pattern": "Split: left text, right illustration",
+      "headline": "Intake and integrations",
+      "subheadline": "...",
+      "components": [
+        {
+          "type": "image",
+          "description": "Dark interface showing Kanban board with columns (Backlog, Todo, In Progress, Done), issue cards with labels, priorities, and avatars. Adjacent Slack-style chat box with message thread and input toolbar"
+        },
+        {
+          "type": "button",
+          "description": "Text link 'Learn more →' with arrow"
+        }
+      ]
+    },
+    {
+      "type": "Feature Section - Planning",
+      "layout_pattern": "Split: left text, right illustration",
+      "headline": "Planning and monitoring",
+      "subheadline": "...",
+      "components": [
+        {
+          "type": "image",
+          "description": "Timeline/roadmap view with horizontal bars showing project progress (UI Refresh, Split fares, Autonomy status clarity). Monthly scale with milestones. Accompanying cycle time graph panel with dot plot visualization"
+        },
+        {
+          "type": "button",
+          "description": "Text link 'Learn more →'"
+        }
+      ]
+    },
+    {
+      "type": "Feature Section - AI",
+      "layout_pattern": "Split: left text, right carousel",
+      "headline": "AI and automations",
+      "subheadline": "...",
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Horizontal scrolling carousel of AI agent chat cards: Linear agent (Opus 5) showing issue ranking, Cursor integration showing context, ChatPRD showing document creation. Dark panels with chat bubbles, avatars, and issue cards"
+        },
+        {
+          "type": "button",
+          "description": "Text link 'Learn more →'"
+        }
+      ]
+    },
+    {
+      "type": "Feature Section - Build",
+      "layout_pattern": "Split: left text, right illustration",
+      "headline": "Build, review, and ship",
+      "subheadline": "...",
+      "components": [
+        {
+          "type": "image",
+          "description": "Code diff viewer showing side-by-side comparison with syntax highlighting (yellow strings, pink keywords, cyan entities). Line numbers, diff markers (+/-), dark background. Adjacent issue list panel with review status"
+        },
+        {
+          "type": "button",
+          "description": "Text link 'Learn more →'"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Linear logo in footer"
+        },
+        {
+          "type": "navigation",
+          "description": "Footer navigation columns with section titles and links, light gray text on black"
+        },
+        {
+          "type": "button",
+          "description": "Theme switcher toggle with sun/moon icons"
+        }
+      ]
+    }
+  ]
+}

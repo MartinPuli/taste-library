@@ -1,0 +1,29 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "top_nav": {
+      "height": "74px",
+      "position": "fixed",
+      "background": {
+        "hex": "#000000",
+        "color_reference": "Space Black 60%",
+        "opacity": "0.6",
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": null
+  }
+}

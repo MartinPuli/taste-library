@@ -1,0 +1,111 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Search Input Glow",
+          "type": "drop",
+          "description": "Golden/amber glow effect with 18% opacity for search input focus states. Creates a warm, branded elevation effect.",
+          "css_value": "0 0 24px rgba(196, 160, 100, 0.18)",
+          "when_to_use": [
+            "Search input containers",
+            "Focused input fields",
+            "AI-powered search elements"
+          ]
+        },
+        {
+          "name": "Tooltip Shadow",
+          "type": "drop",
+          "description": "Subtle shadow for tooltips and popovers with 12% black opacity and 4px Y-offset, 6px blur. Provides gentle lift for informational overlays.",
+          "css_value": "0 4px 6px 0 rgba(0, 0, 0, 0.12)",
+          "when_to_use": [
+            "Tooltips",
+            "Thumbs up/down feedback tooltips",
+            "Informational popovers"
+          ]
+        },
+        {
+          "name": "Overlay Container Shadow",
+          "type": "drop",
+          "description": "Dual-layer shadow for overlay containers: 19% opacity at 2px Y-offset with 6px blur, plus 19% opacity ambient shadow at 2px blur. Creates medium elevation for modal-like containers.",
+          "css_value": "0px 2px 6px 0px rgba(0, 0, 0, 0.19), 0px 0px 2px 0px rgba(0, 0, 0, 0.19)",
+          "when_to_use": [
+            "Overlay containers",
+            "Search overlay panels",
+            "Modal containers"
+          ]
+        },
+        {
+          "name": "GFN Promo Card Shadow - Mobile",
+          "type": "drop",
+          "description": "Card shadow for promotional content with 12% black opacity, 4px blur. Used for mobile viewport game promo cards.",
+          "css_value": "0 4px calc(6px / 1.5) 0 var(--translucent-black-120, rgba(0, 0, 0, 0.12))",
+          "when_to_use": [
+            "GFN game promotional cards",
+            "Featured content cards",
+            "Mobile promo elements"
+          ]
+        },
+        {
+          "name": "GFN Promo Card Shadow - Desktop",
+          "type": "drop",
+          "description": "Lighter card shadow for desktop/tablet viewports with 12% black opacity, 2px Y-offset, 4px blur.",
+          "css_value": "0 2px 4px 0 var(--translucent-black-120, rgba(0, 0, 0, 0.12))",
+          "when_to_use": [
+            "GFN game promotional cards on desktop",
+            "Featured content cards on larger screens"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#76B900",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#DEDFDF",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#808080",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#636363",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#CCCCCC",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#333333",
+        "width": "2px",
+        "style": "solid"
+      },
+      {
+        "hex": "#999999",
+        "width": "2px",
+        "style": "solid"
+      }
+    ]
+  }
+}

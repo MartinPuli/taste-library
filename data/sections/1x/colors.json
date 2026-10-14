@@ -1,0 +1,151 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Base Ink",
+        "type": "Dark",
+        "rules": {
+          "description": "The default dark ink used at the root level of the document, establishing the baseline for text readability.",
+          "when_to_use": [
+            "Body text base color"
+          ]
+        },
+        "hex": "#0A0A0A",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Frost White",
+        "type": "Light",
+        "rules": {
+          "description": "The primary light theme surface and inverse text color, providing a crisp backdrop and high-contrast typography in dark sections.",
+          "when_to_use": [
+            "Global page background",
+            "Footer section background",
+            "Primary CTA button text",
+            "Typography and form inputs over dark media sections"
+          ]
+        },
+        "hex": "#E5E5E5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F7F7F7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F8F8F8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.9364
+      },
+      {
+        "name": "Swiper Pagination Active",
+        "type": "Neutral",
+        "rules": {
+          "description": "Used for active swiper pagination bullets",
+          "when_to_use": [
+            "Carousel pagination indicator (active state)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": 0.72,
+        "shades": [],
+        "score": 0.85
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Gamma Grey",
+        "type": "Neutral",
+        "rules": {
+          "description": "A warm, mid-tone grey that separates specific content sections and serves as subdued ink for secondary elements.",
+          "when_to_use": [
+            "Background fill for the 'Careers' section",
+            "Secondary text and copyright links in the footer",
+            "Delicate separator border in the footer",
+            "Alternate logo fill on hover"
+          ]
+        },
+        "hex": "#4F4749",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#41403C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.26
+      },
+      {
+        "name": "Core Black",
+        "type": "Dark",
+        "rules": {
+          "description": "A pure black primarily used with alpha transparency to create softened, sophisticated overlays for typography and UI controls.",
+          "when_to_use": [
+            "Header navigation links and floating deposit text (at 72% opacity)",
+            "Primary 'Order' CTA background",
+            "Hamburger menu icon lines",
+            "'NEO Home Robot' primary heading text"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.068
+      },
+      {
+        "name": "Charcoal Surface",
+        "type": "Dark",
+        "rules": {
+          "description": "A deep charcoal grey used as a solid backdrop behind full-screen, media-heavy robot showcases.",
+          "when_to_use": [
+            "Background for the main 'NEO Home Robot' image section",
+            "Background for the 'Experience NEO' video section"
+          ]
+        },
+        "hex": "#222222",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0369
+      }
+    ],
+    "insights": [
+      "The design system is heavily monochromatic and relies on stark contrasts to let the product photography and videos be the sole source of vibrant color.",
+      "Opacity is a core architectural tool: pure black is consistently washed to 72% opacity for headings, nav links, and buttons to soften the harshness of high-contrast design.",
+      "There is a deliberate temperature shift in the dark surfaces, contrasting the neutral Charcoal (#222222) of the product sections with the warmer Gamma Grey (#4F4749) of the corporate 'Careers' section."
+    ]
+  }
+}

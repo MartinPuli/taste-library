@@ -1,0 +1,909 @@
+{
+  "counts": {
+    "records": 40,
+    "default_references": 38,
+    "saved_capture_reviews": 40
+  },
+  "entries": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "rank": 1,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "cinematic",
+        "monochrome",
+        "image-led"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study product-image scale and alternating backgrounds to separate launches.",
+      "profile": "profiles/apple.md"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "rank": 2,
+      "use_cases": [
+        "productivity"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "charts",
+        "logo-strips",
+        "navigation",
+        "tables",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Pair product screenshots with illustrations to explain tasks without filling the page with controls.",
+      "profile": "profiles/notion.md"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "rank": 3,
+      "use_cases": [
+        "developer-tools",
+        "productivity"
+      ],
+      "styles": [
+        "dark-technical",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "carousels",
+        "charts",
+        "logo-strips",
+        "navigation",
+        "tables"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Organize tool demonstrations with dark panels, fine borders, and clear type hierarchy.",
+      "profile": "profiles/linear.md"
+    },
+    {
+      "id": "a24",
+      "name": "A24",
+      "rank": 4,
+      "use_cases": [
+        "media-discovery",
+        "editorial-research"
+      ],
+      "styles": [
+        "monochrome",
+        "image-led"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "logo-strips",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Give film images space within an editorial structure that uses little interface color.",
+      "profile": "profiles/a24.md"
+    },
+    {
+      "id": "teenage-engineering",
+      "name": "teenage engineering",
+      "rank": 5,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "monochrome",
+        "image-led",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study how object photography, small labels, and a regular grid work together.",
+      "profile": "profiles/teenage-engineering.md"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "rank": 6,
+      "use_cases": [
+        "creative-tools"
+      ],
+      "styles": [
+        "cinematic",
+        "image-led"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "logo-strips",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Use large video demonstrations to explain what a creative tool produces.",
+      "profile": "profiles/runway.md"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "rank": 7,
+      "use_cases": [
+        "creative-tools"
+      ],
+      "styles": [
+        "color-accent",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "logo-strips",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Separate interface elements from work samples through blocks and color accents.",
+      "profile": "profiles/figma.md"
+    },
+    {
+      "id": "fal",
+      "name": "fal",
+      "rank": 8,
+      "use_cases": [
+        "developer-tools",
+        "creative-tools"
+      ],
+      "styles": [
+        "color-accent",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "charts",
+        "logo-strips",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present creative infrastructure through technical blocks with prominent color accents.",
+      "profile": "profiles/fal.md"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "rank": 9,
+      "use_cases": [
+        "creative-tools",
+        "editorial-research"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study cream backgrounds, rounded controls, and subtle layers for audio tools.",
+      "profile": "profiles/elevenlabs.md"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "rank": 10,
+      "use_cases": [
+        "editorial-research"
+      ],
+      "styles": [
+        "warm-editorial"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Give research content hierarchy through warm light backgrounds and serif/sans contrast.",
+      "profile": "profiles/anthropic.md"
+    },
+    {
+      "id": "nothing",
+      "name": "Nothing",
+      "rank": 11,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "monochrome",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Connect device presentation with dot typography and an industrial structure.",
+      "profile": "profiles/nothing.md"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "rank": 12,
+      "use_cases": [
+        "creative-tools"
+      ],
+      "styles": [
+        "dark-technical",
+        "cinematic"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Explore a dark presentation with monospace type and images as evidence of creative capability.",
+      "profile": "profiles/midjourney.md"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "rank": 13,
+      "use_cases": [
+        "fintech",
+        "developer-tools"
+      ],
+      "styles": [
+        "color-accent",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "carousels",
+        "charts",
+        "navigation",
+        "tables"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Explain financial services through product modules, data, and gradients used as a brand element.",
+      "profile": "profiles/stripe.md"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "rank": 14,
+      "use_cases": [
+        "developer-tools"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "logo-strips",
+        "navigation",
+        "tables",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present a technical tool on warm backgrounds with usage examples and restrained cards.",
+      "profile": "profiles/cursor.md"
+    },
+    {
+      "id": "sandbar",
+      "name": "Sandbar",
+      "rank": 15,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "warm-editorial",
+        "cinematic"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Introduce a small object through close photography, video, and space between messages.",
+      "profile": "profiles/sandbar.md"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "rank": 16,
+      "use_cases": [
+        "fintech"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "logo-strips",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study type contrast and restrained surfaces in a financial-service presentation.",
+      "profile": "profiles/mercury.md"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "rank": 17,
+      "use_cases": [
+        "developer-tools"
+      ],
+      "styles": [
+        "modular",
+        "color-accent"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "logo-strips",
+        "navigation",
+        "tables"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Organize technical features into modules with a green accent reserved for specific moments.",
+      "profile": "profiles/supabase.md"
+    },
+    {
+      "id": "1x",
+      "name": "1X",
+      "rank": 18,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "cinematic",
+        "image-led"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "forms",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present robotics through broad scenes and soft tones that help explain the object’s scale.",
+      "profile": "profiles/1x.md"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "rank": 19,
+      "use_cases": [
+        "editorial-research",
+        "creative-tools"
+      ],
+      "styles": [
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "navigation"
+      ],
+      "quality": "limited",
+      "selection_note": "Study how content cards organize research and product information into a browsable page.",
+      "profile": "profiles/openai.md"
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost",
+      "rank": 20,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "cinematic",
+        "dark-technical"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "navigation",
+        "tables",
+        "video"
+      ],
+      "quality": "limited",
+      "selection_note": "Study the rhythm between dark and light sections in a hardware presentation.",
+      "profile": "profiles/ghost.md"
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "rank": 21,
+      "use_cases": [
+        "hardware"
+      ],
+      "styles": [
+        "cinematic",
+        "dark-technical"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present machinery and engineering through large images and uppercase headings.",
+      "profile": "profiles/spacex.md"
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "rank": 22,
+      "use_cases": [
+        "creative-tools",
+        "media-discovery"
+      ],
+      "styles": [
+        "dark-technical",
+        "image-led",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "carousels",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Prioritize visual examples within a dark creative-tool interface.",
+      "profile": "profiles/krea.md"
+    },
+    {
+      "id": "natural",
+      "name": "Natural",
+      "rank": 23,
+      "use_cases": [
+        "fintech",
+        "developer-tools"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "charts",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Combine technical content and nature photography to explain payment infrastructure.",
+      "profile": "profiles/natural.md"
+    },
+    {
+      "id": "superwhisper",
+      "name": "superwhisper",
+      "rank": 24,
+      "use_cases": [
+        "productivity"
+      ],
+      "styles": [
+        "dark-technical",
+        "cinematic"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "carousels",
+        "forms",
+        "logo-strips",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present a voice tool through demonstrations on a dark desktop background.",
+      "profile": "profiles/superwhisper.md"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "rank": 25,
+      "use_cases": [
+        "productivity"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Center the page on search and keep secondary functions subordinate.",
+      "profile": "profiles/perplexity.md"
+    },
+    {
+      "id": "ramp",
+      "name": "Ramp",
+      "rank": 26,
+      "use_cases": [
+        "fintech"
+      ],
+      "styles": [
+        "color-accent",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "forms",
+        "logo-strips",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Organize financial information on light backgrounds and reserve yellow accents for calls to action.",
+      "profile": "profiles/ramp.md"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "rank": 27,
+      "use_cases": [
+        "hospitality",
+        "media-discovery"
+      ],
+      "styles": [
+        "image-led",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study property cards, search navigation, and photos that help people compare options.",
+      "profile": "profiles/airbnb.md"
+    },
+    {
+      "id": "paper",
+      "name": "Paper",
+      "rank": 28,
+      "use_cases": [
+        "creative-tools"
+      ],
+      "styles": [
+        "warm-editorial",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "logo-strips",
+        "navigation",
+        "tables"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Combine a cream base with grids and geometric details when presenting a design tool.",
+      "profile": "profiles/paper.md"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "rank": 29,
+      "use_cases": [
+        "developer-tools"
+      ],
+      "styles": [
+        "monochrome",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "logo-strips",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Separate demonstrations and technical content through grids, contrast, and type hierarchy.",
+      "profile": "profiles/vercel.md"
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "rank": 30,
+      "use_cases": [
+        "authentication"
+      ],
+      "styles": [
+        "monochrome"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study the hierarchy of X’s public sign-in and registration page.",
+      "profile": "profiles/twitter.md"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "rank": 31,
+      "use_cases": [
+        "media-discovery"
+      ],
+      "styles": [
+        "dark-technical",
+        "image-led",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Let cover art and artists supply color over dark surfaces with persistent navigation.",
+      "profile": "profiles/spotify.md"
+    },
+    {
+      "id": "pangram",
+      "name": "Pangram",
+      "rank": 32,
+      "use_cases": [
+        "editorial-research",
+        "productivity"
+      ],
+      "styles": [
+        "warm-editorial",
+        "color-accent"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "forms",
+        "logo-strips",
+        "navigation",
+        "tables",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Study cream backgrounds, data blocks, and color accents in a text-detection product.",
+      "profile": "profiles/pangram.md"
+    },
+    {
+      "id": "wander",
+      "name": "Wander",
+      "rank": 33,
+      "use_cases": [
+        "hospitality"
+      ],
+      "styles": [
+        "image-led",
+        "warm-editorial"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Give accommodation photos space and use restrained controls for browsing and comparison.",
+      "profile": "profiles/wander.md"
+    },
+    {
+      "id": "mts",
+      "name": "MTS",
+      "rank": 34,
+      "use_cases": [
+        "editorial-research",
+        "media-discovery"
+      ],
+      "styles": [
+        "retro-digital",
+        "warm-editorial"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "logo-strips",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Use dithering, frames, and monospace type to give a technical publication its identity.",
+      "profile": "profiles/mts.md"
+    },
+    {
+      "id": "core-automation",
+      "name": "Core Automation",
+      "rank": 35,
+      "use_cases": [
+        "editorial-research"
+      ],
+      "styles": [
+        "modular",
+        "monochrome"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Organize research messages with large headings, frames, and geometric blocks.",
+      "profile": "profiles/core-automation.md"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "rank": 36,
+      "use_cases": [
+        "hardware",
+        "developer-tools"
+      ],
+      "styles": [
+        "dark-technical",
+        "cinematic",
+        "modular"
+      ],
+      "components": [
+        "accordions",
+        "buttons",
+        "cards",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Combine technical demonstrations and photography with information blocks and a green accent.",
+      "profile": "profiles/nvidia.md"
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "rank": 37,
+      "use_cases": [
+        "creative-tools"
+      ],
+      "styles": [
+        "dark-technical",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "logo-strips",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present a tool and its output on a dark page with interface demonstrations.",
+      "profile": "profiles/framer.md"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "rank": 38,
+      "use_cases": [
+        "media-discovery"
+      ],
+      "styles": [
+        "image-led",
+        "modular"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "carousels",
+        "forms",
+        "navigation"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Support visual discovery through grids and cards with little interface weight.",
+      "profile": "profiles/pinterest.md"
+    },
+    {
+      "id": "luma-ai",
+      "name": "Luma AI",
+      "rank": 39,
+      "use_cases": [
+        "creative-tools"
+      ],
+      "styles": [
+        "cinematic",
+        "monochrome"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "forms",
+        "logo-strips",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Alternate introductory video with light sections that explain capabilities alongside examples.",
+      "profile": "profiles/luma-ai.md"
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "rank": 40,
+      "use_cases": [
+        "developer-tools"
+      ],
+      "styles": [
+        "dark-technical",
+        "color-accent"
+      ],
+      "components": [
+        "buttons",
+        "cards",
+        "navigation",
+        "video"
+      ],
+      "quality": "extracted_unverified",
+      "selection_note": "Present integrations and code examples with dark backgrounds and spectrum accents.",
+      "profile": "profiles/photon.md"
+    }
+  ]
+}

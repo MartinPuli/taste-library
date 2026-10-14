@@ -1,0 +1,180 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "texture_classification": [
+      "glass_blur",
+      "gradient_linear"
+    ],
+    "solid_colors": [
+      {
+        "name": "Surface Primary",
+        "description": "Main background color for primary surfaces, cards, and containers",
+        "when_to_use": [
+          "Page backgrounds",
+          "Card backgrounds",
+          "Modal overlays"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Surface Secondary",
+        "description": "Secondary surface color for subtle differentiation",
+        "when_to_use": [
+          "Input backgrounds",
+          "Searchbar backgrounds",
+          "Secondary containers"
+        ],
+        "hex": "#F7F7F7"
+      },
+      {
+        "name": "Surface Tertiary",
+        "description": "Tertiary surface for hover states and subtle backgrounds",
+        "when_to_use": [
+          "Hover states",
+          "Subtle panel backgrounds"
+        ],
+        "hex": "#F0F0F0"
+      },
+      {
+        "name": "Surface Quaternary",
+        "description": "Quaternary surface for disabled or muted states",
+        "when_to_use": [
+          "Disabled backgrounds",
+          "Muted containers",
+          "Progress track backgrounds"
+        ],
+        "hex": "#EAEAEA"
+      },
+      {
+        "name": "Surface Modal",
+        "description": "Modal and overlay surface background",
+        "when_to_use": [
+          "Modal dialogs",
+          "Dropdown menus",
+          "Popover containers"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Surface Tooltip",
+        "description": "Tooltip surface with high contrast dark background",
+        "when_to_use": [
+          "Tooltips",
+          "Dark popover menus"
+        ],
+        "hex": "#202020"
+      },
+      {
+        "name": "Surface Toast",
+        "description": "Toast notification surface",
+        "when_to_use": [
+          "Toast messages",
+          "Notification cards"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur effect - dark base with transparency and blur",
+        "when_to_use": [
+          "Floating navigation elements",
+          "Overlay UI components",
+          "Badge overlays on images"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Button Primary",
+        "description": "Primary button background - solid black",
+        "when_to_use": [
+          "Primary CTA buttons",
+          "Main action buttons"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Button Secondary",
+        "description": "Secondary button background",
+        "when_to_use": [
+          "Secondary actions",
+          "Navigation controls"
+        ],
+        "hex": "#F0F0F0"
+      },
+      {
+        "name": "Button Checkout",
+        "description": "Checkout button background - green accent",
+        "when_to_use": [
+          "Checkout buttons",
+          "Purchase actions"
+        ],
+        "hex": "#00733D"
+      },
+      {
+        "name": "Hero Overlay",
+        "description": "Hero section dark overlay for image contrast",
+        "when_to_use": [
+          "Hero image overlays",
+          "Image text overlays"
+        ],
+        "hex": "#000000"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Overlay Gradient",
+        "description": "Semi-transparent black overlay for hero section images",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Image overlays for text readability"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%)"
+      },
+      {
+        "name": "Fade to Primary",
+        "description": "Fade from transparent to white surface",
+        "when_to_use": [
+          "Section transitions",
+          "Content fade overlays"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(255,255,255) 100%)"
+      },
+      {
+        "name": "Glass Badge Background",
+        "description": "Semi-transparent dark background for glass effect badges over images",
+        "when_to_use": [
+          "Badges on property images",
+          "Floating labels",
+          "Category tags"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.18) 100%)"
+      },
+      {
+        "name": "Shimmer Effect",
+        "description": "Animated shimmer gradient for loading states",
+        "when_to_use": [
+          "Loading indicators",
+          "Skeleton screens",
+          "Loading animations"
+        ],
+        "css_code": "linear-gradient(90deg, var(--color-tertiary) 0%, var(--color-tertiary) 40%, var(--color-primary) 50%, var(--color-tertiary) 60%, var(--color-tertiary) 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(12px) over rgba(0,0,0,0.18) with 1px rgba(0,0,0,0.05) border - used extensively on property card badges",
+      "Progress indicators: White fill (bg-white!) on semi-transparent white track (bg-white/50!) for image carousel navigation",
+      "Subtle shadows: Multiple shadow variants including shadow-dropdown (0px 2px 16px 0px rgba(0,0,0,0.039), 0px 0.5px 8px 0px rgba(0,0,0,0.078)), shadow-modal, shadow-searchbar, shadow-toast for depth hierarchy",
+      "Backdrop blur effects: Various blur levels (blur-sm: 8px, blur-md: 12px, blur-lg: 12px, blur-xl: 16px) used for glassmorphism surfaces",
+      "Badge overlays: Glassmorphism badges on property cards with backdrop-blur-lg, border border-neutral-1000/5, and bg-neutral-1000/18"
+    ]
+  }
+}

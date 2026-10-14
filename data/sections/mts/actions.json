@@ -1,0 +1,269 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Watch the replay (Primary Pill)",
+        "usage": "Primary CTA for watching video content, placed prominently in the off-air poster section",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system",
+              "size": "13px",
+              "padding": "11px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--ink)",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--ink)",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "var(--ink)",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Subscribe (Solid)",
+        "usage": "Form submission button for newsletter signup in the daily recap section",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system",
+              "size": "13px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--ink)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--ink)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "var(--ink)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "☾ (Theme Toggle Outline)",
+        "usage": "Theme toggle button for switching between light and dark modes in the navigation",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system",
+              "size": "inherit",
+              "padding": "8px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "X Icon (Social Outline)",
+        "usage": "Social media link button for X/Twitter in the navigation bar",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system",
+              "size": "11px",
+              "padding": "8px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "currentColor",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "currentColor",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "currentColor",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Mobile Menu (Icon Button)",
+        "usage": "Hamburger menu toggle for mobile navigation",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system",
+              "size": "16px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--bg-1)",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-1)",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "var(--bg-1)",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "? (Help Floating)",
+        "usage": "Floating help button linking to Discord support",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "system",
+              "size": "14px",
+              "padding": "12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--bg-1)",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--bg-1)",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "var(--bg-1)",
+            "text_color": "var(--ink)",
+            "border_color": "var(--line-strong)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Social media icons arranged horizontally in a row",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "vercel",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A black triangle separates a short headline from explanatory copy on white. Small pill actions and a logo strip support the composition.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/viewport.jpg",
+    "sha256": "5377e0c0acfccc82b97d06c3dadfd0c1124dc0b72f5444a803e9518a29dcf1f8"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/styles.css",
+    "sha256": "0e98beedc77c557681f807ab47f5b42e4c6f5d5c6dae345641f31d77b730ddf9",
+    "bytes": 966308,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#171717",
+      "#EBEBEB",
+      "#4D4D4D",
+      "#000000"
+    ],
+    "palette_literals_checked": [
+      "#171717",
+      "#EBEBEB",
+      "#4D4D4D",
+      "#0072F5",
+      "#000000"
+    ],
+    "font_names_found": [
+      "GeistSans",
+      "Geist Mono",
+      "Georgia"
+    ],
+    "font_names_checked": [
+      "GeistSans",
+      "Geist Mono",
+      "Georgia",
+      "Geist Pixel Circle",
+      "Geist Pixel Square",
+      "Geist Pixel Line"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "71e1c02733bd72a48d2c471dd9ba8a4e9703405bee4f70232aeffa8960327860"
+}

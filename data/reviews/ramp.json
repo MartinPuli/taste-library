@@ -1,0 +1,47 @@
+{
+  "id": "ramp",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A restrained white hero pairs a black headline with a yellow email-submit action, above a rounded product demonstration panel.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl-full.jpg",
+    "sha256": "f135e32b3c5ece7bc4f3b457636b3212559100cd6c1ff99d3c542d40edc8503e"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl.css",
+    "sha256": "a6f9c8d7336d3cb0f7d207a20ced298c512d7efd5cc3c853cf99569983c13133",
+    "bytes": 46090,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#FFFFFF",
+      "#0066FF"
+    ],
+    "palette_literals_checked": [
+      "#FFFFFF",
+      "#0066FF",
+      "#E4F222",
+      "#1A1919"
+    ],
+    "font_names_found": [
+      "Inter"
+    ],
+    "font_names_checked": [
+      "System Sans",
+      "Inter",
+      "Lausanne"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "029038b777ddb8e3440c61eedb5716ef76da0bb538959c6327bd356f367c6f06"
+}

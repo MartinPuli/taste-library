@@ -1,0 +1,275 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Accept all (Primary Filled)",
+        "usage": "Primary action in cookie consent modal, accepting all cookies",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Airbnb Cereal VF",
+              "size": "16px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#222222",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#222222",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Only necessary (Secondary Filled)",
+        "usage": "Secondary action in cookie consent modal, accepting only necessary cookies",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Airbnb Cereal VF",
+              "size": "16px",
+              "padding": "0px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#222222",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#222222",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Become a host (Tertiary Text)",
+        "usage": "Navigation action in header for hosts to access hosting features",
+        "specs": {
+          "radius": "rounded-xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Airbnb Cereal VF",
+              "size": "14px",
+              "padding": "11px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--palette-bg-primary-hover)",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Search (Circular Icon)",
+        "usage": "Primary search action button in the search bar, triggers search functionality",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Airbnb Cereal VF",
+              "size": "16px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FF385C",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E31C5F",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FF385C",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Circular icon-only buttons used for user menu, hamburger navigation, and carousel navigation arrows",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "Airbnb Cereal VF",
+              "size": "14px",
+              "padding": "0px"
+            },
+            {
+              "name": "Small",
+              "font": "Airbnb Cereal VF",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F2F2F2",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--palette-grey300)",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#F2F2F2",
+            "text_color": "#C1C1C1",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Heart/Favorite (Transparent Icon)",
+        "usage": "Wishlist/favorite action button overlaid on property listing cards",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Airbnb Cereal VF",
+              "size": "16px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#222222",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Cookie consent modal uses horizontal button layout with equal-width buttons",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

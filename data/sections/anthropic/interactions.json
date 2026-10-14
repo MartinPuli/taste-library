@@ -1,0 +1,110 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "video_background",
+      "hover_transform",
+      "hover_lift"
+    ],
+    "animations": [
+      {
+        "name": "marquee",
+        "css": "@keyframes marquee { 0% { transform: translateX(0%); } 100% { transform: translateX(-100%); } }",
+        "description": "Continuous horizontal scroll animation for logo marquee strips, 48s duration, linear timing, infinite loop."
+      },
+      {
+        "name": "menuOpen",
+        "css": "@keyframes menuOpen { from { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); } to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } }",
+        "description": "Mobile menu reveal animation using clip-path to wipe down from top, 400ms ease-in-out."
+      },
+      {
+        "name": "menuClose",
+        "css": "@keyframes menuClose { from { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } to { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); } }",
+        "description": "Mobile menu close animation, reverses the menuOpen clip-path wipe, 400ms ease-in-out."
+      },
+      {
+        "name": "fadein",
+        "css": "@keyframes fadein { 0% { opacity: 0; } 100% { opacity: 1; } }",
+        "description": "Simple fade-in animation for modal dialogs, 400ms ease-out."
+      },
+      {
+        "name": "word-animation",
+        "css": "transition: opacity 800ms cubic-bezier(0.16, 1, 0.3, 1), transform 800ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "description": "Staggered word reveal animation for hero headlines. Each word translates up from 24px with fade-in using exponential ease-out curve."
+      },
+      {
+        "name": "rotating-text",
+        "css": "transition: opacity 500ms cubic-bezier(0.16, 1, 0.3, 1), transform 500ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "description": "Word rotation animation for cycling through text options with vertical slide and fade transitions."
+      },
+      {
+        "name": "dropdown-reveal",
+        "css": "transition: opacity 400ms cubic-bezier(.77,0,.175,1)",
+        "description": "Navigation dropdown fade-in with custom ease curve for smooth reveal of menu content."
+      },
+      {
+        "name": "button-hover",
+        "css": "transition: border-color .2s, color .2s, background-color .2s",
+        "description": "Standard button hover transition for color properties, 200ms ease timing."
+      },
+      {
+        "name": "link-hover",
+        "css": "transition-property: color; transition-duration: .2s; transition-timing-function: ease",
+        "description": "Global link color transition on hover, 200ms ease."
+      },
+      {
+        "name": "image-scale-hover",
+        "css": "transition: transform 0.2s ease",
+        "description": "Card image zoom effect on hover, scales to 1.05 with 200ms ease transition."
+      },
+      {
+        "name": "consent-dialog-reveal",
+        "css": "transition: opacity 0.3s ease-out, transform 0.3s ease-out",
+        "description": "Cookie consent dialog entrance animation, fades in and translates up from 16px offset."
+      },
+      {
+        "name": "fable-sky-canvas-fade",
+        "css": "transition: opacity 0.6s cubic-bezier(0.22, 0.61, 0.36, 1)",
+        "description": "WebGL canvas fade-in for the Fable hero sky background effect."
+      },
+      {
+        "name": "fable-manatee-video-fade",
+        "css": "transition: opacity 0.8s cubic-bezier(0.22, 0.61, 0.36, 1)",
+        "description": "Video background fade-out to reveal underlying sky canvas animation."
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin { 0% { transform: rotate(0); } to { transform: rotate(360deg); } }",
+        "description": "Loading spinner rotation animation, continuous 360deg loop."
+      },
+      {
+        "name": "slider-opacity",
+        "css": "transition: opacity 0.2s ease",
+        "description": "Slider inactive slide fade effect, non-active slides show at 0.3 opacity."
+      },
+      {
+        "name": "hamburger-line-animation",
+        "css": "",
+        "description": "JS-driven hamburger menu icon animation. Lines translate and rotate to form X on open state."
+      }
+    ],
+    "insights": [
+      "The design system employs a sophisticated warm neutral palette (ivory/cream backgrounds, ink black text) that creates an academic, editorial aesthetic while maintaining excellent contrast ratios.",
+      "Animation design follows a consistent exponential ease-out curve (cubic-bezier 0.16, 1, 0.3, 1) for entrance animations, creating a snappy but elegant motion language that respects reduced-motion preferences.",
+      "Button hierarchy is established through color rather than size variations: accent coral for primary CTAs, solid dark for standard actions, and transparent/outlined for tertiary options, maintaining visual consistency across contexts."
+    ]
+  }
+}

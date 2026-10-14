@@ -1,0 +1,187 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "App Background",
+        "description": "Primary background color for the entire application",
+        "when_to_use": [
+          "Page background",
+          "Default surface color"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Card Background - Primary",
+        "description": "Solid black background with 50% opacity for primary buttons and cards",
+        "when_to_use": [
+          "Primary button backgrounds",
+          "Overlay surfaces"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Card Background - Tertiary",
+        "description": "Dark gray background for tertiary buttons",
+        "when_to_use": [
+          "Tertiary button surfaces",
+          "Alternative card backgrounds"
+        ],
+        "hex": "#232323"
+      },
+      {
+        "name": "Social Button Background",
+        "description": "Footer social button surface with 10% white opacity (rgba(240, 240, 250, .1))",
+        "when_to_use": [
+          "Social media buttons",
+          "Icon button backgrounds"
+        ],
+        "hex": "#0F0F0F"
+      },
+      {
+        "name": "Thin Button Background",
+        "description": "Gray background for thin button variant with 60% opacity (rgba(37, 38, 40, .6))",
+        "when_to_use": [
+          "Thin button surfaces",
+          "Compact UI elements"
+        ],
+        "hex": "#252628"
+      },
+      {
+        "name": "White Button Background",
+        "description": "Light background for white button variant (rgba(240, 240, 250, 1))",
+        "when_to_use": [
+          "White/light button surfaces",
+          "Hover states",
+          "Active states"
+        ],
+        "hex": "#F0F0FA"
+      },
+      {
+        "name": "Image Wrapper Background",
+        "description": "Black background for image and video wrapper containers",
+        "when_to_use": [
+          "Image container backgrounds",
+          "Video wrapper backgrounds"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Black Overlay",
+        "description": "Solid black overlay for mobile menu",
+        "when_to_use": [
+          "Mobile menu overlays",
+          "Full-screen overlays"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Video Overlay",
+        "description": "Black background for video overlay modal",
+        "when_to_use": [
+          "Video modal backgrounds",
+          "Full-screen video overlays"
+        ],
+        "hex": "#000000"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Header Gradient",
+        "description": "Top to bottom gradient for header, fading from semi-transparent black to fully transparent",
+        "when_to_use": [
+          "Fixed header background",
+          "Navigation bar"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 95%)"
+      },
+      {
+        "name": "Header Shadow Gradient",
+        "description": "Top to bottom gradient for header shadow effect, fading from 50% black to transparent",
+        "when_to_use": [
+          "Header shadow overlay",
+          "Top section ambient shadow"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 100%)"
+      },
+      {
+        "name": "Menu Backdrop Gradient",
+        "description": "Complex top to bottom gradient with multiple stops, creating a sophisticated fade from dark to transparent",
+        "when_to_use": [
+          "Mobile menu backdrop",
+          "Extended navigation overlay"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.55) 35%, rgba(0,0,0,.25) 70%, rgba(0,0,0,0) 100%)"
+      },
+      {
+        "name": "Section Gradient - Bottom Fade",
+        "description": "Bottom fade gradient transitioning from transparent to solid black",
+        "when_to_use": [
+          "Section bottom overlays",
+          "Content fade effects",
+          "Image bottom gradients"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0,0,0,0) 50%, black 100%)"
+      },
+      {
+        "name": "Section Gradient - Right Fade",
+        "description": "Left to right gradient fading from transparent to 80% black",
+        "when_to_use": [
+          "Right-side content overlays",
+          "Image right fade"
+        ],
+        "css_code": "linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.8) 100%)"
+      },
+      {
+        "name": "Section Gradient - Left Fade",
+        "description": "Right to left gradient fading from transparent to 80% black",
+        "when_to_use": [
+          "Left-side content overlays",
+          "Image left fade"
+        ],
+        "css_code": "linear-gradient(270deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.8) 100%)"
+      },
+      {
+        "name": "Section Gradient - Bottom and Left Combined",
+        "description": "Multi-layer gradient combining left fade and bottom fade effects",
+        "when_to_use": [
+          "Complex content overlays",
+          "Corner fade effects",
+          "Multi-directional image gradients"
+        ],
+        "css_code": "linear-gradient(270deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.8) 100%), linear-gradient(180deg, rgba(0,0,0,0) 50%, black 100%)"
+      },
+      {
+        "name": "Mobile Section Gradient - Top and Bottom",
+        "description": "Mobile-specific gradient with fade from bottom black through transparent to top semi-transparent black",
+        "when_to_use": [
+          "Mobile section overlays",
+          "Responsive image gradients"
+        ],
+        "css_code": "linear-gradient(0deg, black 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,.5) 100%)"
+      }
+    ],
+    "highlights": [
+      "Backdrop blur effect on launch card container with blur(6px)",
+      "Backdrop filter brightness effect on overlay with brightness(.5)",
+      "Subtle career search highlighting with semi-transparent blue background (#01579b73)",
+      "Border accent on upcoming launch widget with rgba(255, 255, 255, .25)",
+      "Border accent on buttons with rgba(240, 240, 250, .35)"
+    ]
+  }
+}

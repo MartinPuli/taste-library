@@ -1,0 +1,54 @@
+{
+  "id": "1x",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "Three large robot portraits dominate a pale hero. Small navigation and compact ordering controls keep attention on the product.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/viewport.jpg",
+    "sha256": "c331cde1430888073dcd9eccdcf7962eea1b66ff800c08744ead6ea2b9cb0940"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/styles.css",
+    "sha256": "3f8a10889bb0dd0ef44359c18bb7b44590966e7d402ef7eeb2c0f2187e8ee033",
+    "bytes": 133699,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#4F4749",
+      "#000000"
+    ],
+    "palette_literals_checked": [
+      "#0A0A0A",
+      "#E5E5E5",
+      "#000000",
+      "#4F4749",
+      "#000000",
+      "#222222"
+    ],
+    "font_names_found": [
+      "ABCDiatypeMedium",
+      "ABCDiatypeBold",
+      "ABCDiatype",
+      "ABCDiatypeMono"
+    ],
+    "font_names_checked": [
+      "ABCDiatypeMedium",
+      "ABCDiatypeBold",
+      "ABCDiatype",
+      "ABCDiatypeMono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "0a9bafee47792702eb585ccbd0ebdd4acc9423a1fb51b004f2117d2977a5aa1f"
+}

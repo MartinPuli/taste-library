@@ -1,0 +1,193 @@
+{
+  "id": "a24",
+  "source_url": "https://a24films.com/",
+  "captured_at": "2026-10-14T05:05:03.673018Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/a24.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/a24.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Sign Up (Form Submit)",
+        "usage": "Newsletter signup form submission button in both header banner and footer",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "akzidenz-grotesk-extended",
+              "size": "16px",
+              "padding": "4px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#CACACA",
+            "border_color": "#CACACA",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "default"
+          }
+        }
+      },
+      {
+        "name": "Close (Icon Button)",
+        "usage": "Dismisses newsletter signup banner overlay - X icon button",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "NB International Web",
+              "size": "15px",
+              "padding": "0"
+            },
+            {
+              "name": "Large",
+              "font": "NB International Web",
+              "size": "15px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.75",
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#CACACA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Shop Now / Listen Now (Text Link with Arrow)",
+        "usage": "CTA links on product and content cards throughout the homepage stack",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "NB International Web",
+              "size": "21px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "#000000",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#CACACA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Mobile Menu Toggle (Burger)",
+        "usage": "Opens mobile navigation menu - hamburger icon button",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "NB International Web",
+              "size": "15px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#888888",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "pointer"
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#CACACA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "No explicit button groups observed - buttons are standalone elements",
+      "spacing": ""
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

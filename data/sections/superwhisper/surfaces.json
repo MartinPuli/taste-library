@@ -1,0 +1,278 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary background for the entire page",
+        "when_to_use": [
+          "Main page background",
+          "Dark theme base"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Window Container - Slack",
+        "description": "Dark purple background for Slack window",
+        "when_to_use": [
+          "Slack application window",
+          "App container backgrounds"
+        ],
+        "hex": "#471848"
+      },
+      {
+        "name": "Slack Sidebar",
+        "description": "Light purple sidebar background",
+        "when_to_use": [
+          "Slack sidebar",
+          "Navigation panels"
+        ],
+        "hex": "#DEC7E4"
+      },
+      {
+        "name": "Slack Sidebar Hover",
+        "description": "Darker purple for hover states in Slack sidebar",
+        "when_to_use": [
+          "Hover states on sidebar items"
+        ],
+        "hex": "#6C466D"
+      },
+      {
+        "name": "Slack Channel Active",
+        "description": "Active channel selection background",
+        "when_to_use": [
+          "Active channel indicator",
+          "Selected items"
+        ],
+        "hex": "#83388A"
+      },
+      {
+        "name": "Slack Search Bar",
+        "description": "Search bar background",
+        "when_to_use": [
+          "Search input fields in Slack"
+        ],
+        "hex": "#764E78"
+      },
+      {
+        "name": "Notes Window Background",
+        "description": "Light gray background for Notes app window",
+        "when_to_use": [
+          "Notes application",
+          "Light mode windows"
+        ],
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Notes Selected Item",
+        "description": "Yellow highlight for selected note",
+        "when_to_use": [
+          "Selected note in sidebar",
+          "Active item highlight"
+        ],
+        "hex": "#FFE48F"
+      },
+      {
+        "name": "Notes Content Area",
+        "description": "White background for note content",
+        "when_to_use": [
+          "Note editing area",
+          "Content backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Cursor/Code Editor Window",
+        "description": "Dark background for code editor",
+        "when_to_use": [
+          "Code editor window",
+          "Dark IDE backgrounds"
+        ],
+        "hex": "#181818"
+      },
+      {
+        "name": "Code Editor Panel",
+        "description": "Slightly lighter dark background for panels",
+        "when_to_use": [
+          "Editor panels",
+          "Nested containers"
+        ],
+        "hex": "#212121"
+      },
+      {
+        "name": "macOS Window Control Red",
+        "description": "Red window control button (close)",
+        "when_to_use": [
+          "Window close button"
+        ],
+        "hex": "#ED6A5E"
+      },
+      {
+        "name": "macOS Window Control Yellow",
+        "description": "Yellow window control button (minimize)",
+        "when_to_use": [
+          "Window minimize button"
+        ],
+        "hex": "#F4BD4F"
+      },
+      {
+        "name": "macOS Window Control Green",
+        "description": "Green window control button (maximize)",
+        "when_to_use": [
+          "Window maximize button"
+        ],
+        "hex": "#61C354"
+      },
+      {
+        "name": "Slack Status Online",
+        "description": "Green online status indicator",
+        "when_to_use": [
+          "Online status badges",
+          "Active indicators"
+        ],
+        "hex": "#007A5A"
+      },
+      {
+        "name": "Slack Badge",
+        "description": "Purple notification badge background",
+        "when_to_use": [
+          "Unread message counts",
+          "Notification badges"
+        ],
+        "hex": "#611E69"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Page Background Gradient",
+        "description": "Top to bottom gradient from transparent to black over black base",
+        "when_to_use": [
+          "Main page background",
+          "Subtle depth effect on dark backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, transparent, rgb(0, 0, 0)) rgb(0, 0, 0)"
+      },
+      {
+        "name": "Hover Gradient Effect",
+        "description": "Multi-stop gradient from dark purple to light pink",
+        "when_to_use": [
+          "Interactive hover states",
+          "Button hover effects"
+        ],
+        "css_code": "linear-gradient(180deg, #050116 0, #112d72 30%, #4b68aa 45%, #87a7dc 64%, #9cacd0 88%, #fcdbef 98%)"
+      },
+      {
+        "name": "Border Separator Gradient",
+        "description": "Diagonal gradient with CSS variable stops for borders",
+        "when_to_use": [
+          "Window separators",
+          "Subtle dividers"
+        ],
+        "css_code": "linear-gradient(to bottom right, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "White Border Fade",
+        "description": "White gradient fading from 40% to transparent opacity",
+        "when_to_use": [
+          "Top borders with glow effect",
+          "Subtle highlights"
+        ],
+        "css_code": "linear-gradient(to bottom right, from-white/40 via-white/10 to-white/0)"
+      },
+      {
+        "name": "Cursor Tab Gradient",
+        "description": "Bottom to top gradient transitioning to white",
+        "when_to_use": [
+          "Active tab indicators"
+        ],
+        "css_code": "linear-gradient(to top, white)"
+      },
+      {
+        "name": "Testimonial Gradient Mask",
+        "description": "Horizontal gradient from cyan blue to purple",
+        "when_to_use": [
+          "Testimonial overlays",
+          "Decorative masks with 15% opacity overlay blend"
+        ],
+        "css_code": "linear-gradient(90deg, #1999e8 0, #a45bf2)"
+      },
+      {
+        "name": "Vibe Gradient Blur Mask",
+        "description": "Complex horizontal white gradient with varying opacity stops",
+        "when_to_use": [
+          "Glassmorphism mask effects",
+          "Progressive blur overlays with backdrop-filter blur(8px)"
+        ],
+        "css_code": "linear-gradient(90deg, hsla(0,0%,100%,.3) 0, #fff 50%, hsla(0,0%,100%,.8) 70%, hsla(0,0%,100%,.2) 80%, hsla(0,0%,100%,.1))"
+      },
+      {
+        "name": "Progressive Blur Overlay Right",
+        "description": "Horizontal gradient from black to transparent (right to left)",
+        "when_to_use": [
+          "Right-side edge blur masks with backdrop-filter blur(4px)"
+        ],
+        "css_code": "linear-gradient(270deg, #000 60%, transparent)"
+      },
+      {
+        "name": "Progressive Blur Overlay Left",
+        "description": "Horizontal gradient from black to transparent (left to right)",
+        "when_to_use": [
+          "Left-side edge blur masks with backdrop-filter blur(4px)"
+        ],
+        "css_code": "linear-gradient(90deg, #000 60%, transparent)"
+      },
+      {
+        "name": "Whats Inside Card Border",
+        "description": "Diagonal gradient creating shimmer border effect with white varying opacity",
+        "when_to_use": [
+          "Card borders",
+          "Shimmer border effects with mask-composite"
+        ],
+        "css_code": "linear-gradient(135deg, hsla(0,0%,100%,.4), hsla(0,0%,100%,.1) 25%, hsla(0,0%,100%,.2) 50%, hsla(0,0%,100%,.1) 75%, hsla(0,0%,100%,.4))"
+      },
+      {
+        "name": "Letter Matrix Radial Mask",
+        "description": "Radial ellipse gradient from white to transparent",
+        "when_to_use": [
+          "Masking letter matrix displays",
+          "Spotlight effects on text grids"
+        ],
+        "css_code": "radial-gradient(ellipse 80% 50% at 50% 50%, white 0%, white 60%, transparent 90%)"
+      },
+      {
+        "name": "Scroll to Bottom Mask",
+        "description": "Top to bottom gradient from black to transparent at 60% mark",
+        "when_to_use": [
+          "Scroll container fade masks"
+        ],
+        "css_code": "linear-gradient(180deg, #000 60%, transparent)"
+      }
+    ],
+    "highlights": [
+      "Noise texture overlay on testimonial cards: background-image url(/image/noise.webp) at 50% opacity with overlay blend mode",
+      "Soft box shadows with rgba(0,0,0,0.12) to rgba(0,0,0,0.35) for window depth",
+      "Inset shadows for subtle depth: inset 0 0 0 1px rgba(255,255,255,0.06) and inset 0 1px 0 rgba(255,255,255,0.06)",
+      "Window shadows with soft blur: 0px 8px 30px rgb(0,0,0,0.12), 0px 12px 40px rgba(0,0,0,0.35)",
+      "Ring effects with white/5 to white/30 opacity for focus states",
+      "Backdrop blur effects ranging from blur(4px) to blur(100px) for glassmorphism",
+      "Animated letter matrix display with individual character opacity and scale transforms",
+      "Clip-path animations for dynamic window recording interfaces",
+      "Subtle 1px borders with white/10 to white/40 opacity for panel separators"
+    ]
+  }
+}

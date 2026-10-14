@@ -1,0 +1,136 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The foundational dark ink color used for primary typography, borders, and thematic dark fills for specific content sections.",
+          "when_to_use": [
+            "Body text",
+            "Brand logo fill",
+            "'Approach' and 'Vision' puzzle piece fills",
+            "Footer background pattern"
+          ]
+        },
+        "hex": "#111111",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#040404",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.006
+      },
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "A pure black used sparingly for isolated structural components.",
+          "when_to_use": [
+            "Mobile menu toggle border and icon",
+            "Document root text color"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0319
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Signal Red",
+        "type": "Warm Color",
+        "rules": {
+          "description": "A vibrant, high-energy accent used to drive attention in the hero and to theme the 'Research' section.",
+          "when_to_use": [
+            "Hero title and intro text highlights",
+            "Active navigation link",
+            "'Research' puzzle piece and panel accents"
+          ]
+        },
+        "hex": "#FF2D09",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0193
+      },
+      {
+        "name": "Electric Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "A secondary bright accent that provides a cooler counterbalance to the red, exclusively theming the 'Team' section.",
+          "when_to_use": [
+            "'Team' puzzle piece fill",
+            "'Team' panel borders and headers",
+            "'Join us' CTA link"
+          ]
+        },
+        "hex": "#699EFF",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0132
+      },
+      {
+        "name": "Canvas Grays",
+        "type": "Light",
+        "rules": {
+          "description": "The light neutral structural family that forms the page's background and distinguishes layered surfaces.",
+          "when_to_use": [
+            "Main page background",
+            "Blog feature card background",
+            "Puzzle board background geometry",
+            "White text over colored puzzle pieces"
+          ]
+        },
+        "hex": "#ECECEC",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#CECECE",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F0F0F0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F2EF",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.013299999999999998
+      }
+    ],
+    "insights": [
+      "The design employs a strict color-coding strategy, assigning specific bold hues (Red, Blue, Black) to distinct conceptual pillars (Research, Team, Approach/Vision).",
+      "Accent colors are applied heavily to typography in the hero section to immediately guide the reader's eye to the core value proposition.",
+      "The palette relies on high contrast, placing starkly colored and solid geometric 'puzzle' shapes against a very light, subdued gray background canvas."
+    ]
+  }
+}

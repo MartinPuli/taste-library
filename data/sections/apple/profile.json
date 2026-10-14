@@ -1,0 +1,59 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "brand_name": "Apple",
+    "tagline": null,
+    "source_url": "https://www.apple.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Consumer Electronics / Technology",
+    "primary_purpose": "Showcase flagship products and drive consideration across Apple's ecosystem of devices, services, and retail offerings",
+    "main_cta": "Learn more",
+    "copy_tone": [
+      "Confident",
+      "Minimal",
+      "Aspirational"
+    ],
+    "brand_signature": "Apple's visual identity embodies premium minimalism with expansive product photography on clean backgrounds, typography-forward headlines, and generous white space. The design language emphasizes product as hero through cinematic imagery and restrained UI elements that let hardware and software speak for themselves.",
+    "visual_language": {
+      "keywords": [
+        "minimalist",
+        "premium",
+        "cinematic",
+        "product-centric",
+        "typographic hierarchy",
+        "editorial"
+      ],
+      "accent_strategy": "Blue accent buttons used sparingly against predominantly neutral backgrounds (white, black, subtle grays), creating clear action hierarchy without visual clutter",
+      "highlights": "Full-bleed hero imagery with subtle gradient overlays, dynamic product photography featuring depth and dimensionality, theme switching between light and dark contexts"
+    },
+    "strategy": {
+      "target_audience": [
+        "Tech-forward consumers seeking premium, integrated device ecosystems",
+        "Creative professionals and prosumers who value performance and design quality",
+        "Aspirational buyers drawn to status and innovation signaling",
+        "Existing Apple users ready to upgrade within the ecosystem"
+      ],
+      "executive_synthesis": "Apple's homepage operates as a brand temple and product discovery engine, deploying cinematic product imagery and minimal copy to create desire while systematically guiding visitors through hero announcements (iPhone 18 Pro, iPhone Duo, Apple Watch Series 12) to secondary products and services. The visual restraint and premium photography reinforce brand positioning as a luxury technology company, while the modular tile system enables flexible merchandising of new launches. Strategic emphasis on upgrade programs and Apple Card underscores the business model's focus on ecosystem lock-in and recurring revenue."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals Apple's signature clean, product-focused design language with stark visual clarity. The layout employs alternating black and white/light gray hero sections creating dramatic contrast bands - pure black backgrounds for premium \"Pro\" products (iPhone 18 Pro, Apple Watch) and off-white (#F5F5F7) for consumer products. Typography is exclusively SF Pro Display/Text - a geometric sans-serif family used at precise scales (56px display headlines down to 12px labels) with tight line-heights creating mathematical rhythm. The color palette is aggressively minimal: monochromatic blacks/whites with a single accent blue (#2997FF) exclusively for interactive elements. The layout is centered-symmetric with strict 12-column grid, card-based product sections in 50/50 splits, and generous whitespace. This aligns perfectly with Flat Design's defining characteristics: 2D clarity, no decorative gradients in content areas, bold saturated accent colors, geometric sans-serif typography, and strict grid-based structure. The design is distinctly modern/futuristic in chronology, completely flat in dimensionality, minimal in decoration, and rigidly structured.",
+      "secondary_style": "Glassmorphism",
+      "reasoning_secondary": "The surfaces profile reveals significant Glassmorphism influence specifically in the navigation system: \"backdrop-filter: saturate(180%) blur(20px)\" with semi-transparent backgrounds (rgba(250, 250, 252, 0.8)), \"curtain scrim: backdrop-filter: blur(20px)\" for modal overlays, and \"Glass Panel Surface\" explicitly noted for flyout menus and floating elements. The navigation bar uses translucent frosted-glass treatment with variable opacity - you can see through to content behind. This is the KEY DIFFERENTIATOR for Glassmorphism: frosted transparency with blur effects. While the primary content areas are pure Flat Design, the UI chrome (navigation, modals, scrims) employs layered transparency characteristic of Glassmorphism. The rounded/soft button shapes and soft shadow effects mentioned in the profile further support this secondary classification. This creates a hybrid: Flat Design foundations with Glassmorphism UI components."
+    }
+  }
+}

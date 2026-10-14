@@ -1,0 +1,338 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Default Background",
+        "description": "Primary white background for cards, containers, and main surfaces",
+        "when_to_use": [
+          "Default page backgrounds",
+          "Card backgrounds",
+          "Modal backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Secondary Background",
+        "description": "Light gray background for secondary containers",
+        "when_to_use": [
+          "Secondary surfaces",
+          "Input backgrounds",
+          "Search box containers"
+        ],
+        "hex": "#E5E5E0"
+      },
+      {
+        "name": "Subtle Background",
+        "description": "Off-white subtle background for elevated surfaces",
+        "when_to_use": [
+          "Hover states",
+          "Elevated cards",
+          "Subtle containers"
+        ],
+        "hex": "#F6F6F3"
+      },
+      {
+        "name": "Inverse Background",
+        "description": "Black background for dark sections and inverse surfaces",
+        "when_to_use": [
+          "Footer",
+          "Dark hero sections",
+          "High contrast areas"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Primary Brand",
+        "description": "Pinterest red for primary brand surfaces",
+        "when_to_use": [
+          "Primary buttons",
+          "Brand accents",
+          "Call-to-action surfaces"
+        ],
+        "hex": "#E60023"
+      },
+      {
+        "name": "Info Weak",
+        "description": "Light blue background for informational surfaces",
+        "when_to_use": [
+          "Info banners",
+          "Informational callouts"
+        ],
+        "hex": "#EBEEFF"
+      },
+      {
+        "name": "Error Weak",
+        "description": "Light red background for error states",
+        "when_to_use": [
+          "Error banners",
+          "Error message backgrounds"
+        ],
+        "hex": "#FFEBEB"
+      },
+      {
+        "name": "Warning Weak",
+        "description": "Light orange background for warning surfaces",
+        "when_to_use": [
+          "Warning banners",
+          "Cautionary message backgrounds"
+        ],
+        "hex": "#FFEDE0"
+      },
+      {
+        "name": "Success Weak",
+        "description": "Light green background for success states",
+        "when_to_use": [
+          "Success banners",
+          "Confirmation backgrounds"
+        ],
+        "hex": "#E3F7EC"
+      },
+      {
+        "name": "Recommendation Weak",
+        "description": "Light purple background for recommendation surfaces",
+        "when_to_use": [
+          "Recommendation cards",
+          "Promotional surfaces"
+        ],
+        "hex": "#FDEBFF"
+      },
+      {
+        "name": "Neutral Weak",
+        "description": "Neutral light gray background",
+        "when_to_use": [
+          "Neutral banners",
+          "Subtle containers"
+        ],
+        "hex": "#F6F6F3"
+      },
+      {
+        "name": "Tertiary",
+        "description": "Medium gray background for tertiary surfaces",
+        "when_to_use": [
+          "Tertiary buttons",
+          "Secondary containers"
+        ],
+        "hex": "#74746C"
+      },
+      {
+        "name": "Selected",
+        "description": "Dark gray background for selected states",
+        "when_to_use": [
+          "Selected items",
+          "Active states"
+        ],
+        "hex": "#33332E"
+      },
+      {
+        "name": "Disabled",
+        "description": "Disabled state background",
+        "when_to_use": [
+          "Disabled buttons",
+          "Inactive controls"
+        ],
+        "hex": "#E5E5E0"
+      },
+      {
+        "name": "Education",
+        "description": "Blue background for educational surfaces",
+        "when_to_use": [
+          "Educational content",
+          "Tutorial backgrounds"
+        ],
+        "hex": "#435EE5"
+      },
+      {
+        "name": "Performance Plus",
+        "description": "Purple background for performance plus surfaces",
+        "when_to_use": [
+          "Premium features",
+          "Performance indicators"
+        ],
+        "hex": "#774FC4"
+      },
+      {
+        "name": "Performance Plus Weak",
+        "description": "Light purple background for performance plus surfaces",
+        "when_to_use": [
+          "Performance plus cards",
+          "Premium feature backgrounds"
+        ],
+        "hex": "#EBE2FD"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Sema Color Background Fade Darken Bottom Weak",
+        "description": "Top to bottom gradient fading to dark translucent black, weak intensity",
+        "when_to_use": [
+          "Image overlays",
+          "Content fade effects",
+          "Bottom darkening on images"
+        ],
+        "css_code": "linear-gradient(180deg,transparent,rgba(0,0,0,.4))"
+      },
+      {
+        "name": "Comp Searchguide Color Background Rainbow Default",
+        "description": "Multi-color rainbow gradient from purple to teal to lime to orange",
+        "when_to_use": [
+          "Search guide backgrounds",
+          "Colorful accent surfaces",
+          "Featured content"
+        ],
+        "css_code": "linear-gradient(-60deg,#d4b0ff,#90f0e1 37%,#c7f783 66%,#ffa570)"
+      },
+      {
+        "name": "Sema Color Background Fade Darken Top Weak",
+        "description": "Bottom to top gradient fading to dark translucent black, weak intensity",
+        "when_to_use": [
+          "Image overlays",
+          "Top darkening on images"
+        ],
+        "css_code": "linear-gradient(0deg,transparent,rgba(0,0,0,.4))"
+      },
+      {
+        "name": "Sema Color Background Fade Darken Bottom Strong",
+        "description": "Top to bottom gradient fading to dark translucent black, strong intensity",
+        "when_to_use": [
+          "Hero image overlays",
+          "Strong content fade effects"
+        ],
+        "css_code": "linear-gradient(180deg,transparent,rgba(0,0,0,.8))"
+      },
+      {
+        "name": "Sema Color Hover Background Scrims Opaque",
+        "description": "Solid-like gradient in light gray for hover scrims",
+        "when_to_use": [
+          "Hover state overlays",
+          "Opaque scrim effects"
+        ],
+        "css_code": "linear-gradient(180deg,hsla(60,6%,83%,.8),hsla(60,6%,83%,.8))"
+      },
+      {
+        "name": "Comp Iconbuttonsocial Color Background Container Imessage",
+        "description": "Vertical gradient from light green to dark green for iMessage social icon",
+        "when_to_use": [
+          "iMessage social buttons",
+          "Green brand gradients"
+        ],
+        "css_code": "linear-gradient(180deg,#5bf675,#0cbd2a)"
+      },
+      {
+        "name": "Sema Color Pressed Background Scrims Opaque",
+        "description": "Solid-like gradient in medium gray for pressed scrims",
+        "when_to_use": [
+          "Pressed state overlays",
+          "Active scrim effects"
+        ],
+        "css_code": "linear-gradient(180deg,hsla(60,3%,74%,.8),hsla(60,3%,74%,.8))"
+      },
+      {
+        "name": "Sema Color Background Fade Darken Top Strong",
+        "description": "Bottom to top gradient fading to dark translucent black, strong intensity",
+        "when_to_use": [
+          "Strong top darkening on images",
+          "Header overlays"
+        ],
+        "css_code": "linear-gradient(0deg,transparent,rgba(0,0,0,.8))"
+      },
+      {
+        "name": "Comp Iconbuttonsocial Color Background Container Samsung Messages",
+        "description": "Vertical gradient from light blue to darker blue for Samsung Messages",
+        "when_to_use": [
+          "Samsung Messages social buttons",
+          "Blue brand gradients"
+        ],
+        "css_code": "linear-gradient(180deg,#4189ed,#376df6)"
+      },
+      {
+        "name": "Comp Sheet Color Background Scrim Opaque",
+        "description": "Light cream opaque scrim gradient for sheet backgrounds",
+        "when_to_use": [
+          "Sheet overlays",
+          "Modal scrims"
+        ],
+        "css_code": "linear-gradient(180deg,hsla(53,29%,95%,.8) 40%,hsla(53,29%,95%,.8))"
+      },
+      {
+        "name": "Comp Iconbuttonsocial Color Background Container Telegram",
+        "description": "Vertical gradient from light blue to darker blue for Telegram",
+        "when_to_use": [
+          "Telegram social buttons",
+          "Cyan brand gradients"
+        ],
+        "css_code": "linear-gradient(180deg,#2aabee,#229ed9)"
+      },
+      {
+        "name": "Comp Iconbuttonsocial Color Background Container Wechat",
+        "description": "Vertical gradient from bright green to darker green for WeChat",
+        "when_to_use": [
+          "WeChat social buttons",
+          "Green brand gradients"
+        ],
+        "css_code": "linear-gradient(180deg,#05d50b,#02b70e)"
+      },
+      {
+        "name": "Hero Gradient Background",
+        "description": "Top to bottom gradient from light gray to transparent",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Content section transitions",
+          "Fade-out effects"
+        ],
+        "css_code": "linear-gradient(rgb(246, 246, 243) 0%, rgba(246, 246, 243, 0) 100%)"
+      },
+      {
+        "name": "Video Controls Gradient",
+        "description": "Multi-stop gradient from transparent to dark black for video controls",
+        "when_to_use": [
+          "Video player controls overlay",
+          "Media controller backgrounds"
+        ],
+        "css_code": "linear-gradient(180deg,hsla(0,0%,71%,0),rgba(0,0,0,.2) 33%,rgba(0,0,0,.5) 66%,rgba(0,0,0,.7))"
+      },
+      {
+        "name": "Social Icon Hover Gradient - Generic",
+        "description": "Subtle dark overlay for social icon hover states",
+        "when_to_use": [
+          "Social button hover overlays",
+          "Interactive icon states"
+        ],
+        "css_code": "linear-gradient(0deg,rgba(36,36,35,.09) 0,rgba(36,36,35,.09) 100%)"
+      },
+      {
+        "name": "Social Icon Active Gradient - Generic",
+        "description": "Darker overlay for social icon active/pressed states",
+        "when_to_use": [
+          "Social button pressed states",
+          "Active icon overlays"
+        ],
+        "css_code": "linear-gradient(0deg,rgba(57,57,55,.14) 0,rgba(57,57,55,.14) 100%)"
+      }
+    ],
+    "highlights": [
+      "Image wash overlay: rgba(0,0,0,.04) tint applied to all image surfaces",
+      "Floating shadow: 0px 3px 12px 0px rgba(0,0,0,.2) for elevated cards and modals",
+      "Raised shadow: 0px 1.5px 6px 0px rgba(0,0,0,.2) for slightly elevated surfaces",
+      "Surface shadow: 0px 0.5px 3px 0px rgba(0,0,0,.2) for subtle depth",
+      "White border overlay: 1px solid border in white (#FFFFFF) used on image grids for separation",
+      "Semi-transparent wash surfaces at 50% opacity for light (hsla(60,20%,98%,.5)) and dark (rgba(36,36,33,.5)) overlays",
+      "Translucent scrim: hsla(60,2%,45%,.4) for modal backdrops and overlays",
+      "Skeleton shimmer effect: animated pulse between #e5e5e0 and #f6f6f3",
+      "Search box has subtle gray background (var(--sema-color-background-secondary)) with 48px height and border-radius: 12px"
+    ]
+  }
+}

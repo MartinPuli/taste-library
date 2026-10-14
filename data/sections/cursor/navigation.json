@@ -1,0 +1,60 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "top_nav": {
+      "height": "56px",
+      "position": "fixed",
+      "background": {
+        "hex": "#F7F7F4",
+        "color_reference": "Paper / Theme Background",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Editor Tab",
+      "description": "Tabs in the product UI demo that show file names with close buttons, used for switching between open files in the code editor.",
+      "when_to_use": [
+        "File navigation in code editor",
+        "Switching between open documents",
+        "Multi-panel content organization"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "Active tab has editor background color, full opacity text, and bottom border removed",
+          "background": "#F7F7F4",
+          "text": "#26251E",
+          "icon": null
+        },
+        {
+          "name": "default",
+          "visual_change": "Inactive tabs have chrome background and muted text",
+          "background": "#F2F1ED",
+          "text": "rgba(38, 37, 30, 0.6)",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Close button becomes visible on hover",
+          "background": "rgba(235, 234, 229, 0.4)",
+          "text": null,
+          "icon": null
+        }
+      ]
+    }
+  }
+}

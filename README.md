@@ -1,50 +1,60 @@
 # taste-library
 
-Design references from the **top 40 companies in [Cosign’s High Taste Companies ranking](https://cosign.co/questions/highest-taste-companies)**, extracted with TasteLabs and organized for AI agents.
+<!-- count:default -->38<!-- /count --> website design references for coding agents, selected from the top 40 in [Cosign’s High Taste Companies ranking](https://cosign.co/questions/highest-taste-companies) and extracted with [TasteLabs](https://www.tastelabs.com/).
 
-Give an agent a brief. It can search by style or project type, compare references, and read the colors, typography, layout, or interactions it needs to make a design decision.
+Give your agent a brief and this repo. It can find relevant references, compare documented patterns, and cite the typography, layout, or controls behind its decisions.
 
-## Start here
+## Give this to your agent
 
-Read [AGENTS.md](AGENTS.md), then browse the [reference index](catalog/INDEX.md) or search locally:
+> Read [AGENTS.md](AGENTS.md). Use this library to choose a design reference for my project before building the UI. Compare candidates against my audience, content, and primary task; explain the choice and cite the sections you use.
 
-```sh
+For a reusable workflow, copy [skills/taste-library](skills/taste-library) into your agent’s supported skills directory. Its instructions work with a local checkout or the public files on GitHub. See [agent access](guides/agent-access.md).
+
+## Find a reference
+
+Python 3.9+ and its standard library are enough; local queries need no account or API key.
+
+~~~sh
+python3 scripts/query.py search --use-case developer-tools --component buttons
 python3 scripts/query.py search 'warm editorial' --limit 5
-python3 scripts/query.py search --use-case developer-tools --style dark-technical
 python3 scripts/query.py show linear
 python3 scripts/query.py show linear --section typography
-```
+python3 scripts/query.py compare linear cursor --section actions --json
+~~~
 
-Python’s standard library is enough. Search runs locally and matches words and tags, so reading the collection requires no API calls. Add `--json` to `search` for structured results.
+Search supports project type, style, and documented component filters. Word matches and Cosign rank help order candidates; they do not decide which reference fits your brief.
 
-The [selection guide](guides/selection.md) helps an agent compare references against the brief. The [decision template](guides/decision-template.md) records what to borrow, what to adapt, and why.
+## Read only what the task needs
 
-## What agents can read
-
-| Path | Contents |
+| Entry point | Use it for |
 |---|---|
-| [catalog/index.json](catalog/index.json) | Searchable catalog with use cases, styles, evidence metadata, and file paths |
-| [catalog/INDEX.md](catalog/INDEX.md) | All 40 companies in one table |
-| [catalog/by-use-case.md](catalog/by-use-case.md) | References grouped by project type |
-| [catalog/by-style.md](catalog/by-style.md) | References grouped by visual approach |
-| `profiles/<id>.md` | Short profiles for comparing candidates |
-| `data/tokens/<id>.json` | Extracted colors, type styles, grids, and breakpoints |
-| `data/raw/<id>.json` | Full design-system results and links to captured artifacts |
-| [data/manifest.json](data/manifest.json) | Capture dates, sources, and file hashes |
+| [Compact catalog](catalog/search.json) | Find candidates without loading their extractions |
+| [Reference index](catalog/INDEX.md) | Browse names, project types, styles, and components |
+| [Component index](catalog/by-component.md) | Find forms, navigation, cards, or other documented patterns |
+| [Profiles](profiles) | Read selection advice, content requirements, and capture observations |
+| [Section files](data/sections) | Retrieve one section with its source, date, and evidence pointer |
+| [Tokens](data/tokens) | Read extracted palettes, type variants, grids, and breakpoints |
+| [Capture reviews](data/reviews) | See exactly what the screenshot and CSS checks covered |
+| [Full results](data/raw) | Inspect the original extraction when more context is needed |
 
-Read a profile first, then open the specific section needed for the task. Stable IDs such as `linear` and `teenage-engineering` keep paths independent of ranking changes. [llms.txt](llms.txt) lists the entry points for tools that support it.
+The repo preserves 40 source records. Default search excludes limited records; use --include-limited to inspect the full collection. Small [image previews](data/previews) help agents with vision inspect the saved composition. Profiles also link to the original full captures.
 
-## Source
+The [worked examples](guides/worked-examples.md) show how to turn a brief into a documented choice. Use the [decision template](guides/decision-template.md) to record the result.
 
-**Cosign supplies the ranking. TasteLabs supplies the website extractions.** This repository adds the indexes, short profiles, and guidance for choosing references.
+## Where the information comes from
 
-The collection follows Cosign’s ranking as checked on October 14, 2026. Each record preserves its own capture date and source URL. Use-case tags and selection notes are editorial interpretations of the extracted pages; the files describe observed website design rather than official brand manuals.
+Cosign supplies the ranking. TasteLabs supplies the website extractions. This repo adds retrieval, editorial guidance, and review records.
 
-## Maintain the collection
+The collection follows the ranking checked on October 14, 2026. Every reference keeps its own capture date. These are observations of particular web pages, not official brand manuals. Capture reviews cover visible composition and literal CSS checks; they do not certify interaction behavior or responsive layouts.
 
-```sh
+## Maintain the library
+
+~~~sh
+python3 scripts/build.py
 python3 scripts/validate.py
 python3 -m unittest discover -s tests
-```
+~~~
 
-See the [maintenance guide](guides/maintenance.md) to add a reference while preserving its source. [RIGHTS.md](RIGHTS.md) covers third-party materials.
+End-to-end checks use [Tester Army e2e](https://tester.army/e2e) as a development dependency. See [validation](guides/validation.md) for commands and coverage; ordinary library queries still need only Python.
+
+See [maintenance](guides/maintenance.md) for data updates and [agent packaging decisions](guides/agent-packaging.md) for the official specifications consulted in October 2026. [RIGHTS.md](RIGHTS.md) describes the third-party material.

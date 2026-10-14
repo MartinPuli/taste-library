@@ -1,0 +1,184 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Serves as the foundational color for dark thematic sections, the global footer, and the default text color across light surfaces.",
+          "when_to_use": [
+            "Global page text",
+            "Carousel dark section backgrounds",
+            "Global footer background",
+            "Mega menu dark overlay"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Paper White",
+        "type": "Light",
+        "rules": {
+          "description": "Provides the primary canvas for the interface, defining light-themed content sections, navigation surfaces, and contrasting text on dark backgrounds.",
+          "when_to_use": [
+            "Primary navigation header background",
+            "Mega menu panel backgrounds",
+            "Text on dark surfaces",
+            "Form input and dropdown backgrounds"
+          ]
+        },
+        "hex": "#EEEEEE",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F7F7F7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F0F0F0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E7E7E7",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0465
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Charcoal",
+        "type": "Dark",
+        "rules": {
+          "description": "Acts as a heavy secondary text color for strong hierarchy, utilized for section headings and specific dark structural components.",
+          "when_to_use": [
+            "Sub-navigation category headings",
+            "Accordion menu button text",
+            "Card description paragraphs",
+            "Mobile table-of-contents background"
+          ]
+        },
+        "hex": "#1A1A1A",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#222222",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#111111",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.016
+      },
+      {
+        "name": "NVIDIA Green",
+        "type": "Warm Color",
+        "rules": {
+          "description": "The core brand identity color, driving user engagement by highlighting primary calls to action, active states, and hyperlinks.",
+          "when_to_use": [
+            "Primary CTA button backgrounds",
+            "Footer text links",
+            "Active menu slider indicators",
+            "User account avatar styling"
+          ]
+        },
+        "hex": "#76B900",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#74B71B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#134D00",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E2FF8C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0158
+      },
+      {
+        "name": "Slate Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "Used for secondary typography and subtle UI elements to establish visual hierarchy without competing with primary content or brand accents.",
+          "when_to_use": [
+            "Secondary card descriptive text",
+            "Navigation utility icon strokes",
+            "Mega menu unselected category titles",
+            "Accordion caret borders"
+          ]
+        },
+        "hex": "#666666",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#5E5E5E",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#808080",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#747474",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0015
+      }
+    ],
+    "insights": [
+      "The palette relies heavily on stark black-and-white contrasts to create a sharp, technical, and premium aesthetic typical of high-end hardware and enterprise software.",
+      "NVIDIA's signature neon green is the sole pop of color, making it highly effective for wayfinding, signifying interactivity, and instantly reinforcing brand recognition.",
+      "Surface boundaries are defined by massive alternating blocks of pure black and white, rather than subtle gray borders, giving the page a bold, rhythmic structure."
+    ]
+  }
+}

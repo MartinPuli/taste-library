@@ -1,0 +1,58 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "brand_name": "Perplexity",
+    "tagline": null,
+    "source_url": "https://www.perplexity.ai/",
+    "page_type_category": "Product",
+    "page_type": "Search Interface",
+    "industry": "SaaS / AI Search",
+    "primary_purpose": "Enable users to ask questions and receive AI-powered search answers from trusted sources",
+    "main_cta": "Ask anything...",
+    "copy_tone": [
+      "Conversational",
+      "Minimal",
+      "Direct"
+    ],
+    "brand_signature": "Clean, utilitarian interface with an off-white warm background and minimal visual ornamentation. The design centers on a prominent search input field with subtle teal accent gradients on feature cards, creating a focused, distraction-free environment for AI-assisted research.",
+    "visual_language": {
+      "keywords": [
+        "minimal",
+        "utilitarian",
+        "warm neutral",
+        "clean",
+        "focused",
+        "conversational"
+      ],
+      "accent_strategy": "Subtle teal-cyan gradients used sparingly on feature cards to differentiate product capabilities while maintaining overall restraint",
+      "highlights": "Soft radial gradients on feature cards create subtle depth and visual hierarchy without overwhelming the minimal aesthetic"
+    },
+    "strategy": {
+      "target_audience": [
+        "Knowledge workers and researchers seeking fast, accurate answers from trusted sources",
+        "Professionals who need reliable information without navigating multiple search results",
+        "Tech-savvy users comfortable with AI-powered tools looking for productivity enhancements"
+      ],
+      "executive_synthesis": "Perplexity's visual strategy deliberately strips away complexity to position AI search as an approachable, trustworthy utility rather than intimidating technology. The warm off-white background and minimal UI signal reliability and calm focus, while the conversational 'What do you want to know?' prompt lowers barriers to entry. The introduction of 'Computer' as a companion feature with NEW badge indicates strategic expansion from pure search into task automation, targeting users who want AI assistance beyond information retrieval."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals a quintessential modern SaaS/AI product interface with clear Flat Design characteristics. Visual analysis shows: (1) **Extreme whitespace dominance** - the interface is 70%+ empty space with the search bar floating in the optical center, creating an \"Airy/Spacious\" score on the density spectrum. (2) **Clean, pure color palette** - near-white backgrounds (#FBFBFB, #FCFCF9), minimal accent colors (teal badges, blue accents), and high-contrast black text on white. No muddy or vibrant neon colors. (3) **Completely flat surfaces** - the cards and input field use extremely soft shadows (shadow-sm) and subtle radial gradients for depth, but these are so minimal they don't break the flat aesthetic. No skeuomorphic textures, no glass effects, no 3D dimensionality. (4) **Geometric sans-serif typography** - Roboto/system sans-serif stack throughout, clean hierarchy with weight variations (400-500) rather than decorative treatments. (5) **Grid-based strict layout** - centered symmetric composition, 12-column grid, generous gutters, everything aligned to a clear mathematical structure. The sidebar uses icon + text patterns, the main content uses centered card layouts. The rounded corners on inputs and cards (rounded-2xl) are characteristic of modern Flat Design evolution (sometimes called \"Flat 2.0\"). The subtle radial gradients on feature cards add visual interest without breaking the flat paradigm.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The design exhibits strong Corporate modifier characteristics layered onto the Flat Design foundation. Evidence: (1) **Professional, conservative color scheme** - the palette mirrors Google's Material Design approach (primary blue #1A73E8, neutral grays, white surfaces), signaling trust and reliability. (2) **Utilitarian typography** - Roboto as the primary face is the epitome of corporate tech typography, designed for maximum readability over personality. (3) **Formal information hierarchy** - clear labeling (\"Search\", \"Projects\", \"Sessions\"), predictable navigation patterns (sidebar with collapsible sections), and conventional UI patterns (search bar, feature cards, cookie consent). (4) **Professional visual language** - simple icons, \"NEW\" badges for feature marketing, subscription/plan CTAs (\"View plans\", \"Sign In\"). This is clearly a B2B/productivity tool interface designed to communicate competence and reliability rather than playfulness or edge."
+    }
+  }
+}

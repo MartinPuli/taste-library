@@ -1,0 +1,186 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Tw Inset Ring Shadow",
+          "type": "drop",
+          "description": "Tailwind CSS reset shadow with zero blur - transparent placeholder shadow",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Tailwind CSS ring utility reset",
+            "Shadow placeholder"
+          ]
+        },
+        {
+          "name": "Card Shadow",
+          "type": "drop",
+          "description": "Multi-layer card shadow with 3px/10px/16px blur levels at varying opacities (9%/4%/2%) - subtle elevation for cards",
+          "css_value": "0 10px 16px 0 rgba(28,28,35,0.02),0 6px 10px 0 rgba(28,28,35,0.04),0 0 3px 0 rgba(28,28,35,0.09)",
+          "when_to_use": [
+            "Cards",
+            "Elevated surfaces",
+            "Content containers"
+          ]
+        },
+        {
+          "name": "Card Shadow Alternate",
+          "type": "drop",
+          "description": "Multi-layer card shadow with 3px/10px/16px blur - same values with px suffix notation",
+          "css_value": "0 10px 16px 0px rgba(28,28,35,0.02),0 6px 10px 0px rgba(28,28,35,0.04),0 0px 3px 0px rgba(28,28,35,0.09)",
+          "when_to_use": [
+            "Cards",
+            "Elevated surfaces"
+          ]
+        },
+        {
+          "name": "Modal Shadow",
+          "type": "drop",
+          "description": "Deep shadow with 24px and 120px blur at 15% opacity - high elevation for modals and dialogs",
+          "css_value": "0 20px 24px 0 rgba(0,0,0,0.15),0 36px 120px 0 rgba(0,0,0,0.15)",
+          "when_to_use": [
+            "Modals",
+            "Dialogs",
+            "Floating overlays"
+          ]
+        },
+        {
+          "name": "Elevated Card Shadow",
+          "type": "drop",
+          "description": "Multi-layer shadow with hex color notation (#1C1C2217, #1C1C220A, #1C1C2205) - subtle card elevation",
+          "css_value": "0px 0px 3px 0px #1C1C2217,0px 6px 10px 0px #1C1C220A,0px 10px 16px 0px #1C1C2205",
+          "when_to_use": [
+            "Cards",
+            "Elevated panels"
+          ]
+        },
+        {
+          "name": "Subtle Card Shadow",
+          "type": "drop",
+          "description": "Multi-layer shadow at 5% opacity with 3px/12px/20px blur - very subtle elevation",
+          "css_value": "0px 0px 3px 0px rgba(0,0,0,0.05),0px 8px 12px 0px rgba(0,0,0,0.05),0px 12px 20px 0px rgba(0,0,0,0.05)",
+          "when_to_use": [
+            "Subtle cards",
+            "Light elevation"
+          ]
+        },
+        {
+          "name": "Standard Card Shadow",
+          "type": "drop",
+          "description": "Multi-layer shadow with 3px/10px/16px blur at varied opacities - standard card elevation",
+          "css_value": "0px 0px 3px 0px rgba(28,28,35,0.09),0px 6px 10px 0px rgba(28,28,35,0.04),0px 10px 16px 0px rgba(28,28,35,0.02)",
+          "when_to_use": [
+            "Cards",
+            "Content panels"
+          ]
+        },
+        {
+          "name": "Soft Glow Shadow",
+          "type": "drop",
+          "description": "6px blur at 10% opacity with purple-gray color - soft ambient glow",
+          "css_value": "0px 0px 6px 0px rgba(86,86,118,0.10)",
+          "when_to_use": [
+            "Soft glow effects",
+            "Ambient elevation"
+          ]
+        },
+        {
+          "name": "Elevated Card Shadow Reordered",
+          "type": "drop",
+          "description": "Same as card shadow with layer order reversed - 16px/10px/3px blur",
+          "css_value": "0px 10px 16px 0px rgba(28,28,35,0.02),0px 6px 10px 0px rgba(28,28,35,0.04),0px 0px 3px 0px rgba(28,28,35,0.09)",
+          "when_to_use": [
+            "Cards",
+            "Elevated surfaces"
+          ]
+        },
+        {
+          "name": "Border Input Shadow",
+          "type": "drop",
+          "description": "1px right border simulation using box-shadow with CSS variable for color",
+          "css_value": "1px 0 0 0 var(--tw-shadow-color,#70739338)",
+          "when_to_use": [
+            "Input field borders",
+            "Divider simulation"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#535461",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#70739338",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#C3C3CC",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#272735",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#AFB2CE1F",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#AFB2CE33",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#AFB2CE5C",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#7073931A",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#70739329",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#383255",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#5266EB1A",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#4354C8",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

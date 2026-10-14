@@ -6,11 +6,12 @@
     "schema_version",
     "ranking_source",
     "ranking_checked_date",
-    "entries"
+    "entries",
+    "counts"
   ],
   "properties": {
     "schema_version": {
-      "const": "1.0"
+      "const": "1.1"
     },
     "ranking_source": {
       "type": "string",
@@ -37,7 +38,12 @@
           "warnings",
           "selection_note",
           "note_basis",
-          "paths"
+          "paths",
+          "components",
+          "component_evidence",
+          "sections",
+          "review_status",
+          "preview"
         ],
         "properties": {
           "id": {
@@ -122,7 +128,8 @@
             "required": [
               "profile",
               "tokens",
-              "raw"
+              "raw",
+              "review"
             ],
             "properties": {
               "profile": {
@@ -133,13 +140,92 @@
               },
               "raw": {
                 "type": "string"
+              },
+              "review": {
+                "type": "string"
               }
             },
             "additionalProperties": false
+          },
+          "components": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "component_evidence": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "section",
+                  "pointer"
+                ],
+                "properties": {
+                  "section": {
+                    "type": "string"
+                  },
+                  "pointer": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "sections": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "path",
+                "has_data"
+              ],
+              "properties": {
+                "path": {
+                  "type": "string"
+                },
+                "has_data": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "review_status": {
+            "const": "saved_capture_reviewed"
+          },
+          "preview": {
+            "type": "string"
           }
         },
         "additionalProperties": false
       }
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "records",
+        "default_references",
+        "saved_capture_reviews"
+      ],
+      "properties": {
+        "records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "default_references": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "saved_capture_reviews": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

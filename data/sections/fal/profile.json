@@ -1,0 +1,59 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "brand_name": "fal",
+    "tagline": null,
+    "source_url": "https://fal.ai",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "AI Infrastructure / Generative Media",
+    "primary_purpose": "Drive developer adoption and enterprise engagement for generative AI platform offering model APIs, serverless GPU infrastructure, and dedicated compute clusters",
+    "main_cta": "Get started",
+    "copy_tone": [
+      "Technical",
+      "Confident",
+      "Developer-Friendly"
+    ],
+    "brand_signature": "Bold, energetic visual identity featuring a distinctive cyan (brand-sky) primary palette with vibrant accent colors including purple, lime green, and pink. The design combines playful geometric illustrations with technical credibility, using a modern rounded sans-serif (Public Sans Rounded) paired with a distinctive display typeface (Focal) for headlines.",
+    "visual_language": {
+      "keywords": [
+        "vibrant",
+        "developer-focused",
+        "energetic",
+        "technical",
+        "playful-professional",
+        "geometric"
+      ],
+      "accent_strategy": "High-contrast accent colors (purple #AB77FF, lime #F1FFD2, cyan #99EDFF, pink #FFC4D8) used to differentiate product sections and create visual hierarchy across feature cards",
+      "highlights": "Abstract geometric SVG illustrations and pixelated canvas elements create visual interest while maintaining technical credibility"
+    },
+    "strategy": {
+      "target_audience": [
+        "Software developers building AI-powered applications seeking fast, reliable inference APIs",
+        "ML engineers needing serverless GPU infrastructure for custom model deployment",
+        "Enterprise technical decision-makers evaluating scalable AI infrastructure with SOC 2 compliance",
+        "AI research labs requiring dedicated GPU clusters (H100, H200, B200) for training workloads"
+      ],
+      "executive_synthesis": "fal's visual identity strategically balances technical credibility with approachability, using a vibrant cyan hero section and playful geometric elements to differentiate from enterprise-heavy competitors while maintaining developer trust. The three-product architecture (Model APIs, Serverless, Compute) is visually coded through distinct color blocks, enabling rapid navigation for different buyer personas. Social proof from recognizable brands (Adobe, Shopify, Canva, Quora, Perplexity) combined with specific enterprise features positions fal as both startup-friendly and enterprise-ready."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals a contemporary SaaS/developer platform with a distinctly Flat Design foundation. Visual analysis shows: (1) **Flat, solid color blocks** dominate the page—the light cyan hero (#99EDFF), purple product cards (#F3ECFE, #4A17B0), green compute cards (#F1FFD2), and clean white sections create a vibrant yet flat color-block composition. (2) **No 3D effects or textures**—the surfaces profile confirms \"gradient_linear\" and \"shadows_soft\" only, with shadows used sparingly for depth hierarchy rather than tactile realism. The cards have minimal shadow treatment. (3) **Bold geometric shapes**—abstract decorative SVG elements in the hero (pink/purple gradient shapes, dot patterns) are flat geometric primitives without perspective or dimension. (4) **Clean sans-serif typography**—the \"focal\" heading typeface and \"publicSansRounded\" body font are modern geometric sans-serifs, characteristic of Flat Design. (5) **High-saturation primary/secondary color palette**—the brand purple (#5718C0), cyan (#99EDFF), lime green (#F1FFD2), and pink accents against white/dark surfaces follow Flat Design's bold, saturated color philosophy. The layout is grid-strict with generous whitespace between sections (7-14rem), card-based modular rhythm, and centered/symmetric alignment—all hallmarks of modern Flat Design applied to tech products.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate modifier applies because this is clearly a B2B enterprise SaaS platform targeting developers and enterprises. Evidence includes: (1) **Trust signals**—social proof row with enterprise logos (Adobe, Shopify, Quora), \"Built for enterprise scale\" section with dark professional treatment. (2) **Conservative structure**—despite vibrant colors, the layout follows a predictable, trustworthy SaaS pattern: hero → social proof → features → pricing → testimonials → CTA → footer. (3) **Professional messaging**—language like \"1000+ generative media models. Ready for production,\" \"H100s, H200s, B200s starting at $1.89,\" and \"Transform your enterprise with AI\" targets business decision-makers. (4) **Formal information architecture**—multi-column footer with categorized product links, dedicated enterprise CTA sections, and pricing-focused cards signal B2B intent. The design balances playful brand colors with corporate reliability cues."
+    }
+  }
+}

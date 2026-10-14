@@ -1,0 +1,100 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "marquee",
+      "scroll_reveal",
+      "hover_lift",
+      "hover_transform",
+      "accordion",
+      "parallax"
+    ],
+    "animations": [
+      {
+        "name": "marquee-scroll",
+        "css": "@keyframes xt7VyG_scroll { 0% { transform: translate(0) } to { transform: translateX(calc(-100% - var(--Marquee-gap))) } }",
+        "description": "Continuous horizontal scroll animation for the partner logo strip, looping infinitely."
+      },
+      {
+        "name": "tooltip-open",
+        "css": "@keyframes _6QN9Vq_tooltipOpen { 0% { opacity: 0; transform: scale(.9) } to { opacity: 1; transform: scale(1) } }",
+        "description": "Scale-in animation for tooltip appearance with 0.12s duration."
+      },
+      {
+        "name": "tooltip-close",
+        "css": "@keyframes _6QN9Vq_tooltipClose { 0% { opacity: 1; transform: scale(1) } to { opacity: 0; transform: scale(.9) } }",
+        "description": "Scale-out animation for tooltip dismissal."
+      },
+      {
+        "name": "mobile-menu-in",
+        "css": "@keyframes TZTsQG_mobileMenuIn { 0% { opacity: 0 } to { opacity: 1 } }",
+        "description": "Fade-in animation for mobile navigation menu overlay."
+      },
+      {
+        "name": "scale-in",
+        "css": "@keyframes TZTsQG_scaleIn { 0% { opacity: 0; transform: scale(.98) } to { opacity: 1; transform: scale(1) } }",
+        "description": "Subtle scale-in animation for dropdown popups with 0.18s duration."
+      },
+      {
+        "name": "fade-in",
+        "css": "@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }",
+        "description": "Generic fade-in animation used for overlays and content reveal."
+      },
+      {
+        "name": "slide-from-bottom",
+        "css": "@keyframes slideFromBottom { from { transform: translate3d(0, var(--initial-transform,100%), 0) } to { transform: translate3d(0,0,0) } }",
+        "description": "Drawer slide-in animation from bottom of screen using cubic-bezier(0.32, 0.72, 0, 1)."
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+        "description": "Loading spinner animation cycling through opacity for loading indicator bars."
+      },
+      {
+        "name": "context-menu-in",
+        "css": "@keyframes WinFxq_contextMenuIn { 0% { opacity: 0; transform: scale(.9) } to { opacity: 1; transform: scale(1) } }",
+        "description": "Context menu appear animation with scale and fade effect."
+      },
+      {
+        "name": "dialog-scale-in",
+        "css": "@keyframes wOrUyW_scaleIn { 0% { opacity: 0; transform: translate(-50%) scale(.96) } to { opacity: 1; transform: translate(-50%) scale(1) } }",
+        "description": "Command palette/dialog scale-in animation centered on screen."
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: .16s cubic-bezier(.25, .46, .45, .94); transition-property: border, background-color, color, box-shadow, opacity, filter, transform",
+        "description": "Global button transition token using ease-out-quad timing for interactive state changes."
+      },
+      {
+        "name": "link-color-transition",
+        "css": "transition: color .1s",
+        "description": "Fast color transition for link hover states."
+      },
+      {
+        "name": "drawer-transition",
+        "css": "transition: transform .5s cubic-bezier(.32, .72, 0, 1)",
+        "description": "Smooth drawer slide transition with custom spring-like easing."
+      },
+      {
+        "name": "image-load-reveal",
+        "css": "@keyframes Sz_9La_load { to { opacity: 1; -webkit-mask: var(--mask-end); mask: var(--mask-end) } }",
+        "description": "Image loading reveal animation with gradient mask wipe effect."
+      }
+    ],
+    "insights": [
+      "The design system employs a strict monochromatic dark theme with translucent white borders (rgba 8-14%) for depth, avoiding drop shadows in favor of subtle luminosity gradients and edge highlights.",
+      "Button variants follow a consistent pill shape (rounded-full) with a clear visual hierarchy: inverted white CTAs for primary actions, glass/transparent for secondary, creating a layered glassmorphism aesthetic.",
+      "Animation timing is carefully orchestrated with cubic-bezier(.25, .46, .45, .94) for UI elements and cubic-bezier(.32, .72, 0, 1) for larger transitions like drawers, creating a polished, physics-inspired feel throughout."
+    ]
+  }
+}

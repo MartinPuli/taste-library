@@ -1,0 +1,35 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Interactive Puzzle Grid",
+        "description": "Four-piece interlocking puzzle grid serving as section navigation, with each piece representing a content pillar (Research, Approach, Vision, Team) in brand-coded colors.",
+        "when_to_use": [
+          "Homepage section navigation",
+          "Visual representation of company pillars",
+          "Interactive hover states revealing artwork"
+        ]
+      },
+      {
+        "name": "Blog Feature Card",
+        "description": "Compact card highlighting the latest blog post, featuring eyebrow text, title link, and themed background colors.",
+        "when_to_use": [
+          "Hero section blog promotion",
+          "Content cross-linking"
+        ]
+      }
+    ]
+  }
+}

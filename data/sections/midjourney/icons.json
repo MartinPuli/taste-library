@@ -1,0 +1,51 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/midjourney.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/midjourney.json",
+  "data": [
+    {
+      "name": "Monoline UI Icons",
+      "description": "Clean, monoline stroke icons used for navigation, actions, and section headings.",
+      "when_to_use": [
+        "Navigation buttons",
+        "Action buttons",
+        "Section headers"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "20px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Sign up / User Plus",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\" height=\"20\" class=\"inline text-emerald-500\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z\"></path></svg>"
+        },
+        {
+          "name": "Log in",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\" height=\"20\" class=\"inline text-yellow-500\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1\"></path></svg>"
+        },
+        {
+          "name": "Language / Globe",
+          "svg_code": "<svg height=\"20\" class=\"inline-block text-sky-500\" width=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"none\" stroke-width=\"1\" xmlns=\"http://www.w3.org/2000/svg\"><g id=\"GlobeAltIcon\"><path stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9\" fill=\"none\" stroke=\"currentColor\"></path></g></svg>"
+        },
+        {
+          "name": "About / Info",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\" height=\"32\" class=\"right-full mr-2 text-violet-600 md:absolute md:top-1/2 md:-translate-y-1/2 shrink-0\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>"
+        },
+        {
+          "name": "Projects / Gear",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2\" stroke=\"currentColor\" aria-hidden=\"true\" height=\"32\" class=\"right-full mr-2 text-blue-600 md:absolute md:top-1/2 md:-translate-y-1/2 shrink-0\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

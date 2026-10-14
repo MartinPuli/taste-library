@@ -2,31 +2,49 @@
 
 Organize research messages with large headings, frames, and geometric blocks.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 35 · Captured 2026-10-14T08:55:43.902911Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 35 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T08:55:43.902911Z |
-| Suggested uses | editorial-research |
-| Visual approach | modular, monochrome |
+[Original website](https://www.coreauto.com/) · [Full extraction](../data/raw/core-automation.json) · [Review record](../data/reviews/core-automation.json)
 
-## Details to compare
+[Small visual preview](../data/previews/core-automation.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/full.jpg)
 
-- Detected type families: Helvetica, Berkeley Mono, SF Mono, ui-monospace.
-- Recorded palette: #111111, #000000, #FF2D09, #699EFF, #ECECEC.
-- Grid: `{"columns": 12, "gutter": "34px", "max_width": "1080px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+Large black uppercase type uses orange emphasis on a gray canvas. Thin rules and block graphics give the page a print-like structure.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.coreauto.com/) · [Extraction](../data/raw/core-automation.json) · [Tokens](../data/tokens/core-automation.json)
+Project types: editorial-research. Styles: modular, monochrome. These are editorial tags.
 
-```sh
-python3 scripts/query.py show core-automation --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Organize research messages with large headings, frames, and geometric blocks. Evidence: [layout](../data/sections/core-automation/layout.json), [sections](../data/sections/core-automation/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/core-automation/actions.json).
+
+## Content to bring
+
+A small set of strong headlines and substantial articles or research to support the hierarchy. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/core-automation/profile.json)
+- [Layout](../data/sections/core-automation/layout.json)
+- [Colors](../data/sections/core-automation/colors.json)
+- [Typography](../data/sections/core-automation/typography.json)
+- [Surfaces](../data/sections/core-automation/surfaces.json)
+- [Elevation](../data/sections/core-automation/elevation.json)
+- [Interactions](../data/sections/core-automation/interactions.json)
+- [Actions](../data/sections/core-automation/actions.json)
+- [Navigation](../data/sections/core-automation/navigation.json)
+- [Data Display](../data/sections/core-automation/data_display.json)
+- [Structure](../data/sections/core-automation/structure.json)
+- [Icons](../data/sections/core-automation/icons.json)
+- [Assets](../data/sections/core-automation/assets.json)
+- [Brand Assets](../data/sections/core-automation/brand_assets.json) · no observed data
+- [Sections](../data/sections/core-automation/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

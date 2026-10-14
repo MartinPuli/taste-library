@@ -1,0 +1,41 @@
+{
+  "id": "perplexity",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A narrow left sidebar supports a centered search field and suggestion cards on a pale canvas. A cookie notice appears at lower right.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+    "sha256": "1d9cbe5b01636e10575cea1af2e2a161604ea10fc1dde76b9dec630565666c84"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl.css",
+    "sha256": "0322942eef9a0f9bb1b6df0de9873e401567bf11427870c8b71593ad7c798a49",
+    "bytes": 680,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [],
+    "palette_literals_checked": [
+      "#FBFBFB",
+      "#1A73E8",
+      "#252525",
+      "#0B2833",
+      "#000000"
+    ],
+    "font_names_found": [],
+    "font_names_checked": [
+      "System Sans"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "a7c9de4aa87f54cd67b38152fef63196d889d98b9c5e11e7a4ac1dca99dbda22"
+}

@@ -1,0 +1,309 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Matter",
+          "role": "H1 Display Large",
+          "specs": {
+            "size": "64px",
+            "line_height": "64px",
+            "font_weight": "360",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui",
+            "file_url": "/matter.woff2"
+          }
+        },
+        {
+          "name": "Matter",
+          "role": "H2 Display",
+          "specs": {
+            "size": "48px",
+            "line_height": "48px",
+            "font_weight": "360",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui",
+            "file_url": "/matter.woff2"
+          }
+        },
+        {
+          "name": "Matter",
+          "role": "H3",
+          "specs": {
+            "size": "18px",
+            "line_height": "28px",
+            "font_weight": "550",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui",
+            "file_url": "/matter.woff2"
+          }
+        },
+        {
+          "name": "Matter",
+          "role": "H4 / Overline",
+          "specs": {
+            "size": "14px",
+            "line_height": "28px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui",
+            "file_url": "/matter.woff2"
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Primary body text variants for documentation and marketing layers.",
+      "variants": [
+        {
+          "name": "Matter",
+          "role": "Body Regular",
+          "specs": {
+            "size": "18px",
+            "line_height": "28px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui",
+            "file_url": "/matter.woff2"
+          }
+        },
+        {
+          "name": "Matter",
+          "role": "Body Medium",
+          "specs": {
+            "size": "18px",
+            "line_height": "28px",
+            "font_weight": "480",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui",
+            "file_url": "/matter.woff2"
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Utilitarian text for app components, command menus, and mocked-up UI elements.",
+      "variants": [
+        {
+          "name": "Paper Mono",
+          "role": "Code Snippet / Command Path",
+          "specs": {
+            "size": "12px",
+            "line_height": "16px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Paper Mono\", SFMono-Regular, Menlo, ui-monospace, monospace",
+            "file_url": "/paper-mono-0.100.woff2"
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "UI Action / Shortcut (e.g., Copy Link, ⌘ L)",
+          "specs": {
+            "size": "12px",
+            "line_height": "12px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "UI Secondary / Metadata",
+          "specs": {
+            "size": "12px",
+            "line_height": "16px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "-apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Mockup List Item",
+          "specs": {
+            "size": "14px",
+            "line_height": "20px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter, system-ui, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "PUI Tree Item",
+          "specs": {
+            "size": "13px",
+            "line_height": "16px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "-apple-system",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Mockup Tab / Micro Label",
+          "specs": {
+            "size": "10px",
+            "line_height": "12px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter, system-ui, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Additional text variants found in embedded mockups and specialized UI instances.",
+      "variants": [
+        {
+          "name": "Matter",
+          "role": "Mockup Large Title",
+          "specs": {
+            "size": "36px",
+            "line_height": "36px",
+            "font_weight": "570",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Matter",
+          "role": "Mockup Standard Title",
+          "specs": {
+            "size": "26px",
+            "line_height": "28px",
+            "font_weight": "570",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Matter, system-ui, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Mockup Clock / Time",
+          "specs": {
+            "size": "17px",
+            "line_height": "22px",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter, system-ui, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "highlights": "- Heavy use of stylistic sets (`.ss01`) on the primary display font (Matter) to alter letterforms for branded headings.\n- System heavily employs `font-variant-numeric: tabular-nums` for track lists and timestamps within the UI mockups to ensure perfect vertical alignment.\n- Component labels and utility text frequently apply CSS `color-mix()` and alpha-channel transparency for text hierarchies (e.g., text-foreground/80, text-black/50) instead of entirely separate text colors.",
+    "insights": [
+      "The typography system creates a clear split between marketing/brand layers and functional UI: \"Matter\" handles editorial and brand messaging, while \"-apple-system\" and \"Inter\" are strictly deployed for dense application interfaces.",
+      "The brand uses exceptionally light font weights (Semilight 360, Light 270) for its massive display headings (48px - 64px), creating an elegant and technical aesthetic that contrasts nicely with the heavier weights used at small scales.",
+      "\"Paper Mono\", a custom monospace font, is prominently used not just for literal code blocks but also for UI elements like command palette paths and system statuses, reinforcing a developer-centric product identity."
+    ]
+  }
+}

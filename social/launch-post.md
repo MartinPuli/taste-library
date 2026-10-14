@@ -1,5 +1,5 @@
-I turned the top 40 companies from Cosign’s High Taste Companies ranking into a repo agents can read.
+I used @tastelabs to build a library of <!-- count:default -->38<!-- /count --> design references from Cosign’s High Taste ranking.
 
-Extracted with TasteLabs, indexed by style and use case, with design tokens and guides to help agents choose what fits a project.
+Give this repo to your coding agent. It can compare references and read the typography, layout, and components before building your UI:
 
 https://github.com/MartinPuli/taste-library

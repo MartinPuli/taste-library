@@ -1,0 +1,36 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Property Card",
+        "description": "Image carousel card displaying property with photo gallery, badge (Luxury/Iconic), wishlist button, name, rating, beds count, and pricing with savings callout",
+        "when_to_use": [
+          "Displaying rental properties in grid or carousel layouts",
+          "Showcasing featured destinations on homepage",
+          "Search results presentation"
+        ]
+      },
+      {
+        "name": "Feature Tile",
+        "description": "Icon-led tile with title and description used in the footer to highlight service benefits",
+        "when_to_use": [
+          "Value proposition sections",
+          "Footer benefit callouts",
+          "Service feature highlights"
+        ]
+      }
+    ]
+  }
+}

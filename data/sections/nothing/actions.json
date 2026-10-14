@@ -1,0 +1,312 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Discover (Primary Dark)",
+        "usage": "Primary call-to-action button used on product cards throughout the homepage to direct users to product detail pages",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "LatteraMonoLL, sans-serif",
+              "size": "11px",
+              "padding": "16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#040404",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(4, 4, 4, 0.8)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#040404",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Support (Secondary Ghost)",
+        "usage": "Secondary ghost button used in footer for navigation links like Support, Newsletter, Business Sales Enquiries",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "LatteraMonoLL, sans-serif",
+              "size": "11px",
+              "padding": "16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn More → (Cookie Banner Secondary)",
+        "usage": "Secondary button in cookie consent modal for users who want to learn more about privacy options",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial, sans-serif",
+              "size": "16px",
+              "padding": "2px 25px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#EEEEEE",
+            "text_color": "#000000",
+            "border_color": "rgba(34, 34, 34, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#EEEEEE",
+            "text_color": "#000000",
+            "border_color": "rgba(34, 34, 34, 0.2)",
+            "border_width": "1px",
+            "opacity": "0.7",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#EEEEEE",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.4",
+            "cursor": "auto"
+          }
+        }
+      },
+      {
+        "name": "Agree and close (Cookie Banner Primary)",
+        "usage": "Primary CTA in cookie consent modal for users to accept cookies and close the banner",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial, sans-serif",
+              "size": "16px",
+              "padding": "2px 25px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(0, 0, 0, 0.3)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(0, 0, 0, 0.3)",
+            "border_width": "1px",
+            "opacity": "0.7",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.4",
+            "cursor": "auto"
+          }
+        }
+      },
+      {
+        "name": "Go to: United States (Location Selector Primary)",
+        "usage": "Primary CTA in location/region selection modal to redirect users to the appropriate regional store",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "LatteraMonoLL, sans-serif",
+              "size": "14px",
+              "padding": "24px 40px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#040404",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#040404",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.8",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#040404",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Stay on United Kingdom (Location Selector Secondary)",
+        "usage": "Secondary text button with underline in location modal allowing users to dismiss and stay on current regional store",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "LatteraMonoLL, sans-serif",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#595A5A",
+            "border_color": "#595A5A",
+            "border_width": "0px 0px 1px 0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#595A5A",
+            "border_color": "#595A5A",
+            "border_width": "0px 0px 1px 0px",
+            "opacity": "0.5",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#595A5A",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Navigation Close/Menu)",
+        "usage": "Circular or square icon-only buttons used in header navigation for menu, close, and other icon actions",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "16px",
+              "padding": "16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.8",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Cookie banner buttons arranged horizontally with consistent spacing",
+      "spacing": "10px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/krea.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary dark background surface for the page body",
+        "when_to_use": [
+          "Main page backgrounds",
+          "Root application container"
+        ],
+        "hex": "#0B0B0B"
+      },
+      {
+        "name": "Card Surface",
+        "description": "Elevated card background for content containers",
+        "when_to_use": [
+          "Card backgrounds",
+          "Content containers",
+          "Elevated surfaces"
+        ],
+        "hex": "#353535"
+      },
+      {
+        "name": "Muted Surface",
+        "description": "Secondary surface for less prominent elements",
+        "when_to_use": [
+          "Secondary backgrounds",
+          "Hover states on cards",
+          "Sidebar panels"
+        ],
+        "hex": "#454545"
+      },
+      {
+        "name": "Sidebar Background",
+        "description": "Dark sidebar background surface",
+        "when_to_use": [
+          "Sidebar backgrounds",
+          "Navigation panels"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Popover Background",
+        "description": "Background for floating popover elements",
+        "when_to_use": [
+          "Dropdown menus",
+          "Tooltips",
+          "Modal overlays"
+        ],
+        "hex": "#353535"
+      },
+      {
+        "name": "Primary Surface",
+        "description": "High contrast light surface",
+        "when_to_use": [
+          "Primary action buttons",
+          "Foreground elements",
+          "High emphasis surfaces"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Light Background",
+        "description": "Light theme background surface",
+        "when_to_use": [
+          "Light mode backgrounds",
+          "Secondary light surfaces"
+        ],
+        "hex": "#F5F5F5"
+      },
+      {
+        "name": "Accent Surface",
+        "description": "Accent surface for interactive elements",
+        "when_to_use": [
+          "Hover states",
+          "Active states",
+          "Interactive feedback"
+        ],
+        "hex": "#454545"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Black Overlay",
+        "description": "Dark gradient overlay from bottom-left to top-right with fade to transparent at 60%",
+        "when_to_use": [
+          "Hero card overlays",
+          "Video backgrounds",
+          "Image overlays for text readability"
+        ],
+        "css_code": "linear-gradient(to top left, rgba(0,0,0,0.8) 0%, transparent 60%)"
+      },
+      {
+        "name": "Hero Overlay Alt",
+        "description": "Dark gradient from bottom to top with solid section then fade",
+        "when_to_use": [
+          "Hero sections",
+          "Video overlays",
+          "Text protection layers"
+        ],
+        "css_code": "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 40%, transparent 100%)"
+      },
+      {
+        "name": "Hero Light Overlay",
+        "description": "White gradient from bottom to top for light theme overlays",
+        "when_to_use": [
+          "Light theme hero sections",
+          "Light mode image overlays"
+        ],
+        "css_code": "linear-gradient(to top, white 0%, white 40%, transparent 100%)"
+      },
+      {
+        "name": "Glass Panel Background",
+        "description": "Subtle semi-transparent white gradient for glassmorphism effect",
+        "when_to_use": [
+          "Glass panels",
+          "Frosted overlays",
+          "Modal backgrounds with blur"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%)"
+      },
+      {
+        "name": "Button Gradient Action",
+        "description": "Blue action button gradient from dark to light blue",
+        "when_to_use": [
+          "Primary CTA buttons",
+          "Action buttons",
+          "Submit buttons"
+        ],
+        "css_code": "linear-gradient(to bottom in oklab, #165efc 0%, #2c7fff 100%)"
+      },
+      {
+        "name": "Icon Shimmer",
+        "description": "Diagonal shimmer effect gradient for icon highlights",
+        "when_to_use": [
+          "Icon hover effects",
+          "Loading states",
+          "Interactive feedback"
+        ],
+        "css_code": "linear-gradient(115deg, transparent 35%, rgba(255,255,255,0.55) 50%, transparent 65%)"
+      },
+      {
+        "name": "Shiny Border",
+        "description": "Conic gradient for animated border shine effect",
+        "when_to_use": [
+          "Card borders",
+          "Animated borders",
+          "Hover state highlights"
+        ],
+        "css_code": "conic-gradient(from 0deg, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0.65) 50%, rgba(255,255,255,0.1) 75%)"
+      },
+      {
+        "name": "Sidebar Pricing Glow",
+        "description": "Blue gradient from light to dark for pricing highlight",
+        "when_to_use": [
+          "Pricing section highlights",
+          "Special offer backgrounds",
+          "Premium feature indicators"
+        ],
+        "css_code": "linear-gradient(to right, oklch(93.2% .032 255.585) 0%, oklch(80.9% .105 251.813) 50%, oklch(42.4% .199 265.638) 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels with backdrop-filter: blur(40px) over semi-transparent backgrounds with subtle ring borders",
+      "Animated conic gradient borders on cards with rotating shine effect",
+      "Icon shimmer effects on hover using diagonal linear gradients (115deg angle)",
+      "Soft elevation shadows: 0px .5px .6px for near shadows, scaling to 2.2px 27px 29.9px for far shadows",
+      "Home cards with inset ring shadows and dual-layer shadow system (soft + ring)",
+      "Transparency checkerboard pattern background for image preview: 8px grid with 45deg rotation",
+      "Gradient overlays on hero sections with scale-101 for subtle depth",
+      "Shimmer loading effect using mask-image with linear-gradient animation",
+      "Glass blur effect: backdrop-blur-sm with semi-transparent white/black backgrounds",
+      "Sidebar pricing glow: horizontal gradient from blue-100 through blue-300 to blue-800 in dark mode"
+    ]
+  }
+}

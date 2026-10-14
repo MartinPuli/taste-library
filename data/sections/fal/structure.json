@@ -1,0 +1,42 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Full-width horizontal rule separating major page sections.",
+        "when_to_use": [
+          "Between major content sections",
+          "Footer separation",
+          "Content grouping"
+        ],
+        "color": "rgba(18, 18, 22, 0.1)",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Footer Color Bar",
+        "description": "Multi-colored decorative bar at bottom of footer with brand color segments.",
+        "when_to_use": [
+          "Footer decoration",
+          "Brand identity reinforcement"
+        ],
+        "color": "multiple",
+        "height": "6px",
+        "style": "solid"
+      }
+    ]
+  }
+}

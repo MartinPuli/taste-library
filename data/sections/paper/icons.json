@@ -1,0 +1,115 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/paper.json",
+  "data": [
+    {
+      "name": "Monoline UI Icons",
+      "description": "Monoline, stroke-based interface controls and navigation elements used throughout the dashboard and UI panels.",
+      "when_to_use": [
+        "Buttons",
+        "Navigation menus",
+        "Search bars",
+        "Action bars"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "14px",
+        "medium": "22px"
+      },
+      "examples": [
+        {
+          "name": "Chevron Left",
+          "svg_code": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"none\" aria-hidden=\"true\" style=\"flex-shrink:0;color:oklch(50.5% 0.012 258)\"><g><g id=\"ofi-chevron-left\" viewBox=\"0 0 14 14\"><path d=\"M9 10L5 7l4-3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g></g></svg>"
+        },
+        {
+          "name": "Search",
+          "svg_code": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"none\" aria-hidden=\"true\" style=\"flex-shrink:0;color:oklch(61% 0.010 258)\"><g><g id=\"ofi-search\" viewBox=\"0 0 16 16\"><circle cx=\"7\" cy=\"7\" r=\"5\" stroke=\"currentColor\" stroke-width=\"1.5\"></circle><path d=\"M11 11l2.5 2.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></g></g></svg>"
+        },
+        {
+          "name": "Plus",
+          "svg_code": "<svg viewBox=\"0 0 22 22\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" fill=\"none\" aria-hidden=\"true\" style=\"flex-shrink:0;color:oklch(20% 0.019 258)\"><g><g id=\"ofi-plus\" viewBox=\"0 0 24 24\"><path d=\"M12 5.5v13M5.5 12h13\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></g></g></svg>"
+        },
+        {
+          "name": "Menu / Hamburger",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"14\" viewBox=\"0 0 20 14\" fill=\"none\" class=\"text-off-black dark:text-cream\" aria-hidden=\"true\"><path d=\"M0 1H20M0 7H20M0 13H20\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Solid UI Icons",
+      "description": "Solid vector shapes used for distinct UI toggles, cursors, and layout structural elements.",
+      "when_to_use": [
+        "Active tab indicators",
+        "Layout mode toggles",
+        "Collaborator cursors"
+      ],
+      "format": "SVG",
+      "style": "Filled",
+      "sizes": {
+        "small": "13px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Sidebar / Layout",
+          "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip;position:relative\"><path d=\"M16 16H0V0H16V16ZM1 15H15V1H1V15ZM12.75 8L8 12.75L3.25 8L8 3.25L12.75 8ZM4.664 8L8 11.336L11.336 8L8 4.664L4.664 8Z\" fill=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "Grid Layout",
+          "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip;position:relative\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 10V4H10V5H5V10H4ZM20 10V4H14V5H19V10H20ZM20 14H19V19H14V20H20V14ZM10 20V19H5V14H4V20H10Z\" fill=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "Cursor Pointer",
+          "svg_code": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.534 8.274L4.497 11H7.995C8.122 9.874 7.532 8.787 6.534 8.274ZM7.139 7.464L9.864 3.816L9.063 3.218L3.099 11.201L2.502 12H3.5H13V11H9C9.119 9.557 8.382 8.176 7.139 7.464Z\" fill=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "Filled Box",
+          "svg_code": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 13 13\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path d=\"M2 0V2H8V8H2V2H0V13H8V8H13V0H2Z\" fill=\"currentColor\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Micro UI Elements",
+      "description": "Extremely small structural and decorative SVGs used for micro-interactions and file tree UI.",
+      "when_to_use": [
+        "File and playlist trees",
+        "Checkbox inputs",
+        "Dense list views",
+        "Subtle decorative anchors"
+      ],
+      "format": "SVG",
+      "style": "Monoline & Mixed",
+      "sizes": {
+        "small": "8px",
+        "medium": "12px"
+      },
+      "examples": [
+        {
+          "name": "Micro Chevron",
+          "svg_code": "<svg width=\"8\" height=\"8\" viewBox=\"0 0 8 8\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path d=\"M1 2.5L4 5.5L7 2.5\" fill=\"none\" stroke=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "Micro Play",
+          "svg_code": "<svg width=\"9\" height=\"9\" viewBox=\"0 0 9 9\" xmlns=\"http://www.w3.org/2000/svg\" style=\"overflow:clip\"><path d=\"M0.5 4.5H8.4M8.4 4.5L5.3 1.169M8.4 4.5L5.3 7.83\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Window Frame Control",
+          "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><rect x=\"0.5\" y=\"0.5\" width=\"11\" height=\"11\" rx=\"1.5\" fill=\"none\" stroke=\"currentColor\"></rect><line x1=\"3.5\" y1=\"3\" x2=\"3.5\" y2=\"9\" stroke=\"currentColor\"></line><line x1=\"8.5\" y1=\"3\" x2=\"8.5\" y2=\"9\" stroke=\"currentColor\"></line></svg>"
+        },
+        {
+          "name": "Micro Grid Lines",
+          "svg_code": "<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;overflow:clip\"><path d=\"M5 0V5M5 5V10M5 5H10M5 5H0\" vector-effect=\"non-scaling-stroke\" fill=\"none\" stroke=\"currentColor\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

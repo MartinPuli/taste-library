@@ -1,0 +1,62 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "top_nav": {
+      "height": "68px",
+      "position": "fixed",
+      "background": {
+        "hex": "#FFFFFF",
+        "color_reference": "Baseline/Paper White",
+        "opacity": "0.95",
+        "blur": "backdrop-filter: blur(12px)"
+      },
+      "border_bottom": "1px solid #E4E5E6"
+    },
+    "announcement_bar": {
+      "background": "#2B22FA",
+      "text_color": "#FFFFFF",
+      "border_bottom": null,
+      "height": null
+    },
+    "tabs": {
+      "style_name": "Product Section Tabs",
+      "description": "Horizontal tabs used to switch between product sections (Runway Creative, Runway Dev, Runway Robotics) with animated progress indicator.",
+      "when_to_use": [
+        "Switching between product feature views",
+        "Organizing content by product line"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "Full opacity (1.0) with animated progress bar beneath",
+          "background": null,
+          "text": "#0C0C0C",
+          "icon": null
+        },
+        {
+          "name": "default",
+          "visual_change": "Reduced opacity (0.5)",
+          "background": null,
+          "text": "#0C0C0C",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Increased opacity (0.8)",
+          "background": null,
+          "text": "#0C0C0C",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Open account (Primary CTA)",
+        "usage": "Primary call-to-action button for account signup. Used in navbar and hero sections. High-emphasis action that drives conversion.",
+        "specs": {
+          "radius": "rounded-4xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--font-arcadia)",
+              "size": "16px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#5266EB",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#4354C8",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#70707D",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Log in (Tonal)",
+        "usage": "Secondary authentication button. Used alongside primary CTA in navigation. Lower emphasis than Open account.",
+        "specs": {
+          "radius": "rounded-5xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--font-arcadia)",
+              "size": "16px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#5266eb1a",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#5266eb29",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#5266eb1a",
+            "text_color": "#70707D",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Try the demo (Tonal with Icon)",
+        "usage": "Secondary CTA in navigation dropdown. Opens demo in new tab. Used to let users preview product without signup.",
+        "specs": {
+          "radius": "rounded-5xl",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "var(--font-arcadia)",
+              "size": "14px",
+              "padding": "0px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#5266eb1a",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#5266eb29",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#5266eb1a",
+            "text_color": "#70707D",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Products (Navigation Trigger)",
+        "usage": "Navigation dropdown trigger button. Opens mega-menu with product categories. Part of main nav system.",
+        "specs": {
+          "radius": "rounded-5xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--font-arcadia)",
+              "size": "16px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#EDEDF3",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#5266eb29",
+            "text_color": "#EDEDF3",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#70707D",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular Arrow)",
+        "usage": "Circular icon-only button used for directional navigation or section links. Appears in mega-menu section links.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#5266eb1a",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#5266eb29",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#5266eb1a",
+            "text_color": "#70707D",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Hamburger Menu (Mobile Nav Toggle)",
+        "usage": "Mobile navigation toggle button. Opens/closes mobile menu drawer. Visible on screens below lg breakpoint.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#272735",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#535461",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#70707D",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons in navigation are arranged horizontally with consistent spacing. Login and Open account buttons are grouped together.",
+      "spacing": "12px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

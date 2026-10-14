@@ -1,0 +1,257 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "D-DIN-Bold",
+          "role": "Hero Display (H2)",
+          "specs": {
+            "size": "5rem",
+            "line_height": "95%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN-Bold",
+          "role": "Large Display (H2)",
+          "specs": {
+            "size": "60px",
+            "line_height": "90%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN-Bold",
+          "role": "Primary Heading (H1/H2)",
+          "specs": {
+            "size": "3rem",
+            "line_height": "60px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN-Bold",
+          "role": "Secondary Heading (H1/H2 Alternate)",
+          "specs": {
+            "size": "3rem",
+            "line_height": "48px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN-Bold",
+          "role": "Feature Header (H3)",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.2",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Standard body texts for descriptions, mission statements, and other narrative copy in paragraphs.",
+      "variants": [
+        {
+          "name": "D-DIN",
+          "role": "Primary Body Text",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.5rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN",
+          "role": "Secondary Body / Lists",
+          "specs": {
+            "size": "16px",
+            "line_height": "94%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Small navigational, labeling, and utility styles, designed for compactness and high legibility in dense UI spaces.",
+      "variants": [
+        {
+          "name": "D-DIN",
+          "role": "Nav Links / Important Labels",
+          "specs": {
+            "size": "0.813rem",
+            "line_height": "94%",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Roboto Mono",
+          "role": "Subheader / Technical Data",
+          "specs": {
+            "size": ".875rem",
+            "line_height": "140%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'Roboto Mono', monospace",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN",
+          "role": "UI Small / Date / Footer",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "110%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "D-DIN",
+          "role": "UI Micro / Widget Title",
+          "specs": {
+            "size": "0.625rem",
+            "line_height": "94%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": [
+        {
+          "name": "D-DIN-Bold",
+          "role": "Mobile Navigation / Large Labels",
+          "specs": {
+            "size": "1.125rem",
+            "line_height": "120%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "'D-DIN-Bold', Arial, Verdana, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "highlights": null,
+    "insights": [
+      "The typography system relies exclusively on the geometric and technical 'D-DIN' typeface, producing an industrial, aerospace-oriented aesthetic that aligns perfectly with engineering precision.",
+      "Roboto Mono is strategically used selectively for countdowns and subheaders, reinforcing a utilitarian, telemetry-like interface in functional areas.",
+      "Extensive use of uppercase text and unusually tight line-heights (e.g., 90%, 94%, 95%) in both dramatic headings and micro UI elements gives the layout a bold, poster-like quality."
+    ]
+  }
+}

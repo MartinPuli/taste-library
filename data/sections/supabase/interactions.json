@@ -1,0 +1,124 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "marquee",
+      "hover_transform",
+      "hover_lift",
+      "tab_switching",
+      "scroll_reveal"
+    ],
+    "animations": [
+      {
+        "name": "swipe-out",
+        "css": "@keyframes swipe-out { 0% { transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount))); opacity: 1; } 100% { transform: translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%)); opacity: 0; } }",
+        "description": "Toast swipe-out animation for dismissing notifications."
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(0.8); } 100% { opacity: 1; transform: scale(1); } }",
+        "description": "Toast fade-in animation with scale effect for notification appearance."
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(0.8); } }",
+        "description": "Toast fade-out animation with scale effect for notification dismissal."
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin { 0% { opacity: 1; } 100% { opacity: 0.15; } }",
+        "description": "Loading spinner animation cycling opacity for loading bar elements."
+      },
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }",
+        "description": "Simple fade-in animation for drawer overlays."
+      },
+      {
+        "name": "fadeOut",
+        "css": "@keyframes fadeOut { 100% { opacity: 0; } }",
+        "description": "Simple fade-out animation for drawer overlays."
+      },
+      {
+        "name": "slideFromBottom",
+        "css": "@keyframes slideFromBottom { 0% { transform: translate3d(0,var(--initial-transform,100%),0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+        "description": "Drawer slide-in animation from bottom for mobile drawers."
+      },
+      {
+        "name": "slideToBottom",
+        "css": "@keyframes slideToBottom { 100% { transform: translate3d(0,var(--initial-transform,100%),0); } }",
+        "description": "Drawer slide-out animation to bottom for closing drawers."
+      },
+      {
+        "name": "slideFromTop",
+        "css": "@keyframes slideFromTop { 0% { transform: translate3d(0,calc(var(--initial-transform,100%) * -1),0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+        "description": "Drawer slide-in animation from top."
+      },
+      {
+        "name": "slideToTop",
+        "css": "@keyframes slideToTop { 100% { transform: translate3d(0,calc(var(--initial-transform,100%) * -1),0); } }",
+        "description": "Drawer slide-out animation to top."
+      },
+      {
+        "name": "slideFromLeft",
+        "css": "@keyframes slideFromLeft { 0% { transform: translate3d(calc(var(--initial-transform,100%) * -1),0,0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+        "description": "Drawer slide-in animation from left."
+      },
+      {
+        "name": "slideFromRight",
+        "css": "@keyframes slideFromRight { 0% { transform: translate3d(var(--initial-transform,100%),0,0); } 100% { transform: translate3d(0px, 0px, 0px); } }",
+        "description": "Drawer slide-in animation from right."
+      },
+      {
+        "name": "drawer-transition",
+        "css": "transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1)",
+        "description": "Drawer transform transition with custom ease-out curve for smooth drawer interactions."
+      },
+      {
+        "name": "toast-transition",
+        "css": "transition: transform 0.4s, opacity 0.4s, height 0.4s, box-shadow 0.2s",
+        "description": "Toast notification transition for mount/unmount animations."
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: background-color 200ms cubic-bezier(0.22, 1, 0.36, 1), border-color 200ms cubic-bezier(0.22, 1, 0.36, 1), color 200ms cubic-bezier(0.22, 1, 0.36, 1), scale 200ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "description": "Global button transition with custom easing for interactive states."
+      },
+      {
+        "name": "animate-marquee",
+        "css": "",
+        "description": "Continuous horizontal scrolling animation for storage file icons. Animation is likely defined via Tailwind config or JS-driven."
+      },
+      {
+        "name": "marquee-reverse",
+        "css": "",
+        "description": "Reverse marquee animation for Data APIs lines section, running at 30000ms linear infinite."
+      },
+      {
+        "name": "pulse",
+        "css": "",
+        "description": "Pulse animation for realtime typing indicators with 600ms cubic-bezier timing, staggered delays."
+      },
+      {
+        "name": "animate-fade-in",
+        "css": "",
+        "description": "Fade-in animation applied to navigation elements on page load with delay."
+      }
+    ],
+    "insights": [
+      "Supabase uses a sophisticated button system with 'raised-control-surface' and 'primary-solid' semantic tokens, enabling consistent theming across light/dark modes while maintaining visual hierarchy.",
+      "The design system heavily leverages CSS custom properties (variables) for colors, enabling seamless theme switching and component reusability. The cubic-bezier(0.22, 1, 0.36, 1) easing curve is used consistently across interactive elements for a smooth, premium feel.",
+      "Multiple marquee/scroll animations are used for visual interest in product cards (Storage file icons, Data APIs lines), but they pause by default and only run on hover to reduce visual noise and respect user attention."
+    ]
+  }
+}

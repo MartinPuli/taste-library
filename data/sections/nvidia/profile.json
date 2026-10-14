@@ -1,0 +1,58 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "brand_name": "NVIDIA",
+    "tagline": null,
+    "source_url": "https://www.nvidia.com/en-us/",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Technology / AI & Computing",
+    "primary_purpose": "Showcase NVIDIA's comprehensive AI, computing, and technology ecosystem while driving engagement across enterprise, professional, and consumer segments",
+    "main_cta": "Add to Calendar",
+    "copy_tone": [
+      "Technical",
+      "Authoritative",
+      "Forward-Thinking"
+    ],
+    "brand_signature": "NVIDIA's visual identity is defined by a bold, dark-themed aesthetic with high-contrast imagery and NVIDIA's signature green (#76b900) as the primary accent. The design employs modular card-based layouts with cinematic photography and video backgrounds, creating a premium technology-forward presentation that balances information density with visual impact.",
+    "visual_language": {
+      "keywords": [
+        "high-tech",
+        "cinematic",
+        "modular",
+        "premium",
+        "dark-mode",
+        "bold"
+      ],
+      "accent_strategy": "Signature NVIDIA green (#76b900) used for CTAs, interactive elements, borders, and hover states against predominantly dark backgrounds",
+      "highlights": "Video backgrounds, dramatic lighting on product imagery, gradient overlays on hero sections, and glowing accent effects on interactive elements"
+    },
+    "strategy": {
+      "target_audience": [
+        "Enterprise IT decision-makers and CTOs evaluating AI infrastructure and data center solutions",
+        "AI/ML engineers and developers seeking GPU computing platforms, SDKs, and development tools",
+        "Gaming enthusiasts and PC builders interested in GeForce graphics cards and gaming technology",
+        "Professional creators and studio artists requiring high-performance workstations and creative software",
+        "Automotive and robotics engineers developing autonomous systems and edge AI applications"
+      ],
+      "executive_synthesis": "NVIDIA's homepage functions as a strategic gateway to its expansive technology ecosystem, using a dark premium aesthetic and signature green accents to signal innovation leadership. The modular design accommodates diverse audience segments—from enterprise AI to consumer gaming—while the prominent GTC conference promotion and keynote content establish thought leadership. The visual architecture balances comprehensive product navigation with event-driven engagement, positioning NVIDIA as the definitive platform for accelerated computing across industries."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The NVIDIA website exemplifies modern Flat Design with a Corporate modifier. Visual analysis reveals a stark, high-contrast dark theme (pure black #000000 backgrounds) with clean white typography and a single vibrant accent color (NVIDIA Green #76B900) used exclusively for CTAs and interactive elements. The design is fundamentally 2D and flat—no skeuomorphic textures, no 3D depth effects, no glass/blur morphism. The texture profile confirms \"gradient_linear\" and \"gradient_radial\" but these are functional scrims and overlays rather than decorative depth effects.\n\nTypography is systematic and modern: a custom geometric sans-serif (NVIDIA-NALA) with clean weights (400/700) and consistent line-heights. The type scale is hierarchical but restrained—no ornamental or decorative treatments.\n\nLayout is grid-based strict (12-column system) with dense/packed content sections that repeat a modular split-screen pattern (text left, imagery right). This repeating rhythm creates visual efficiency rather than whitespace-driven minimalism. The card-based UI with consistent spacing is quintessential Flat Design.\n\nKey differentiator from Minimalism: This is NOT extreme reduction—the page is content-dense with multiple sections, repeated card patterns, and significant visual information. Key differentiator from Brutalism: The design is polished and refined, not raw or anti-design. The corporate modifier applies due to the professional, enterprise-focused aesthetic—trust, competence, and technical authority are communicated through the systematic approach, formal typography, and restrained color palette.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "Corporate is applied as a modifier because the entire design system communicates professional authority and technical competence. The monochromatic dark palette with single brand accent, systematic typography, formal grid structure, and content hierarchy (product categories, enterprise solutions, data centers, automotive) all signal enterprise-level professionalism. The cookie consent modal, legal footer links, and structured information architecture reinforce the corporate B2B positioning typical of a Fortune 500 technology company."
+    }
+  }
+}

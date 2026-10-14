@@ -1,0 +1,139 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The foundational dark ink used for primary typography, dominant brand actions, and logos.",
+          "when_to_use": [
+            "Body typography and large hero headings",
+            "Primary CTA backgrounds ('Sign Up', 'Deploy now')",
+            "Customer marquee logos (OpenAI, DoorDash)",
+            "Vercel logo and header icons"
+          ]
+        },
+        "hex": "#171717",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Paper",
+        "type": "Light",
+        "rules": {
+          "description": "The core surface palette, defining the page foundation and lifting interactive components through crisp backgrounds and borders.",
+          "when_to_use": [
+            "Main page background fill (#FAFAFA)",
+            "Dropdown menu and secondary button surfaces (#FFFFFF)",
+            "Subtle 1px button and card borders (#EBEBEB)",
+            "Tooltip and menu wrappers"
+          ]
+        },
+        "hex": "#EBEBEB",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FAFAFA",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#DBDBDB",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.7444000000000001
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Secondary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A muted gray that establishes typographic hierarchy, receding secondary information behind the primary black text.",
+          "when_to_use": [
+            "Top navigation links ('Products', 'Resources')",
+            "Sub-navigation category labels",
+            "Secondary descriptive text in feature sections",
+            "Footer menu links"
+          ]
+        },
+        "hex": "#4D4D4D",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#666666",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.2225
+      },
+      {
+        "name": "Accent Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "A vibrant blue reserved strictly for accessibility indicators and highly specific illustration highlights.",
+          "when_to_use": [
+            "'Skip to content' focus ring and text",
+            "Gradient stop in the 'Passport' feature card illustration"
+          ]
+        },
+        "hex": "#0072F5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#38A2FF",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0179
+      },
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "A pitch black deployed almost entirely as an alpha-channel base for drop shadows and delicate structural borders.",
+          "when_to_use": [
+            "Translucent borders on dropdown menus and feature cards",
+            "Drop shadows lifting sticky headers and navigation panels"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0163
+      }
+    ],
+    "insights": [
+      "High-Contrast Monochromatic Core: The design relies heavily on a stark black-and-white foundation, using Ink Black for heavy text and CTAs against bright whites to keep the UI sleek and highly legible.",
+      "Restrained Color Usage: Vibrant hues like the Accent Blue are extremely limited, ensuring the content, partner logos, and specific feature illustrations command attention without competing against the UI.",
+      "Alpha-Driven Depth: Rather than relying on solid gray backgrounds to separate sections, the design builds depth through layered white surfaces accented with subtle, translucent black borders and shadows."
+    ]
+  }
+}

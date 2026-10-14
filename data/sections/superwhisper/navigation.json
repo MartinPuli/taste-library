@@ -1,0 +1,53 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "top_nav": {
+      "height": "41px",
+      "position": "fixed",
+      "background": {
+        "hex": "#000000",
+        "color_reference": "Pure Black",
+        "opacity": "0.8",
+        "blur": "backdrop-filter: blur(5px)"
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Time Switcher Tabs",
+      "description": "Toggle buttons for switching between day/dusk/night visual modes in the hero demo.",
+      "when_to_use": [
+        "Switching between visual themes or modes",
+        "Time-based content preview",
+        "Multi-state toggle control"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": "Inactive state with muted white text",
+          "background": null,
+          "text": "rgba(255, 255, 255, 0.4)",
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Full opacity white text indicates active selection",
+          "background": null,
+          "text": "rgba(255, 255, 255, 0.95)",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

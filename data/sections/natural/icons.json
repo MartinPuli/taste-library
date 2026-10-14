@@ -1,0 +1,82 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/natural.json",
+  "data": [
+    {
+      "name": "Outlined Navigation Icons",
+      "description": "Outlined icons with monoline strokes used for interactive mobile navigation elements.",
+      "when_to_use": [
+        "Mobile navigation toggles",
+        "Expandable menus"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "16px",
+        "medium": "20px"
+      },
+      "examples": [
+        {
+          "name": "menu",
+          "svg_code": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M1 8H15M15 3L1 3M15 13H1\" stroke=\"currentColor\" stroke-width=\"1.5\"></path></svg>"
+        },
+        {
+          "name": "chevron-down",
+          "svg_code": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 6L8 11L13 6\" stroke=\"currentColor\" stroke-width=\"1.5\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Filled Utility Icons",
+      "description": "Solid filled utility icons used inside badges, buttons, lists, and interactive tags.",
+      "when_to_use": [
+        "Buttons",
+        "List items",
+        "Agent profiles",
+        "Status tags"
+      ],
+      "format": "SVG",
+      "style": "Filled / Solid",
+      "sizes": {
+        "small": "12px",
+        "medium": "18px"
+      },
+      "examples": [
+        {
+          "name": "arrow-right",
+          "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"shrink-0\" aria-hidden=\"true\"><g clip-path=\"url(#arrow-forward-clip)\"><path d=\"M11.72 24.22C11.45 23.9 11.32 23.49 11.35 23.08C11.39 22.66 11.59 22.28 11.9 22.01L19.24 15.83L2.34 15.83C1.78 15.83 1.27 15.54 0.99 15.05C0.71 14.57 0.71 13.97 0.99 13.49C1.27 13.01 1.78 12.71 2.34 12.71L19.24 12.71L11.94 6.53C11.5 6.17 11.3 5.61 11.39 5.05C11.49 4.5 11.87 4.04 12.4 3.85C12.93 3.65 13.52 3.76 13.95 4.12L23.05 11.84C23.77 12.45 24.18 13.34 24.18 14.27C24.18 15.21 23.77 16.1 23.05 16.7L13.95 24.43C13.63 24.7 13.21 24.84 12.79 24.8C12.37 24.76 11.98 24.55 11.72 24.22L11.72 24.22Z\" fill=\"currentColor\"></path></g><defs><clipPath id=\"arrow-forward-clip\"><rect width=\"25\" height=\"25\" fill=\"white\" transform=\"translate(25 1.09e-06) rotate(90)\"></rect></clipPath></defs></svg>"
+        },
+        {
+          "name": "news-arrow",
+          "svg_code": "<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"news-tag-arrow\" aria-hidden=\"true\"><g clip-path=\"url(#arrow-forward-clip)\"><path d=\"M11.72 24.22C11.45 23.9 11.32 23.49 11.35 23.08C11.39 22.66 11.59 22.28 11.9 22.01L19.24 15.83L2.34 15.83C1.78 15.83 1.27 15.54 0.99 15.05C0.71 14.57 0.71 13.97 0.99 13.49C1.27 13.01 1.78 12.71 2.34 12.71L19.24 12.71L11.94 6.53C11.5 6.17 11.3 5.61 11.39 5.05C11.49 4.5 11.87 4.04 12.4 3.85C12.93 3.65 13.52 3.76 13.95 4.12L23.05 11.84C23.77 12.45 24.18 13.34 24.18 14.27C24.18 15.21 23.77 16.1 23.05 16.7L13.95 24.43C13.63 24.7 13.21 24.84 12.79 24.8C12.37 24.76 11.98 24.55 11.72 24.22L11.72 24.22Z\" fill=\"currentColor\"></path></g><defs><clipPath id=\"arrow-forward-clip\"><rect width=\"25\" height=\"25\" fill=\"white\" transform=\"translate(25 1.09e-06) rotate(90)\"></rect></clipPath></defs></svg>"
+        },
+        {
+          "name": "check-bullet",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" class=\"control-bullet-icon\" aria-hidden=\"true\"><path d=\"M12.1063 3.67119C12.2882 3.46335 12.6046 3.4424 12.8124 3.62431L13.1883 3.95341C13.3961 4.13527 13.417 4.45169 13.2352 4.65947L6.56431 12.2825C6.4154 12.4526 6.19745 12.5459 5.97153 12.5374C5.74582 12.5288 5.53587 12.4192 5.40024 12.2386L2.70005 8.63896C2.53449 8.41813 2.57991 8.10449 2.80064 7.93876L3.20005 7.63896C3.42094 7.47337 3.73457 7.51769 3.90025 7.73857L5.93345 10.4505C5.99068 10.5265 6.10314 10.5308 6.16587 10.4593L12.1063 3.67119Z\" fill=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "verified-badge",
+          "svg_code": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"control-card-verified\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.51446 0.096519C6.82524 -0.032208 7.17437 -0.032138 7.48517 0.096519L11.5379 1.77523C11.8488 1.90399 12.0957 2.15089 12.2244 2.46175L13.9031 6.51449C14.0318 6.8253 14.0319 7.17439 13.9031 7.48519L12.2244 11.5379C12.0956 11.8487 11.8487 12.0957 11.5379 12.2244L7.48517 13.9032C7.17441 14.0318 6.82519 14.0319 6.51446 13.9032L2.46173 12.2244C2.15097 12.0957 1.90395 11.8487 1.77521 11.5379L0.0964942 7.48519C-0.0322158 7.17446 -0.0321137 6.82525 0.0964942 6.51449L1.77521 2.46175C1.90392 2.151 2.15101 1.90403 2.46173 1.77523L6.51446 0.096519ZM9.83185 4.14144C9.61655 3.95296 9.28743 3.9833 9.11017 4.20785L6.15997 7.95199C6.10067 8.02723 5.98638 8.028 5.9256 7.95394L4.90313 6.70882C4.73327 6.5019 4.4307 6.46507 4.21661 6.62582L3.81329 6.92953C3.58768 7.09892 3.54628 7.42111 3.72247 7.64144L5.40021 9.7391C5.53583 9.91971 5.74579 10.0293 5.97149 10.0379C6.19729 10.0464 6.41536 9.95297 6.56427 9.78304L10.2654 5.15609C10.4325 4.94721 10.4061 4.64384 10.2049 4.46761L9.83185 4.14144Z\" fill=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "more-options",
+          "svg_code": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(7.875 3.375)\"><path d=\"M1.6875 9C1.99816 9 2.25 9.25184 2.25 9.5625V10.6875C2.25 10.9982 1.99816 11.25 1.6875 11.25H0.5625C0.25184 11.25 0 10.9982 0 10.6875V9.5625C0 9.25184 0.25184 9 0.5625 9H1.6875Z\" fill=\"currentColor\"></path><path d=\"M1.6875 4.5C1.99816 4.5 2.25 4.75184 2.25 5.0625V6.1875C2.25 6.49816 1.99816 6.75 1.6875 6.75H0.5625C0.25184 6.75 0 6.49816 0 6.1875V5.0625C0 4.75184 0.25184 4.5 0.5625 4.5H1.6875Z\" fill=\"currentColor\"></path><path d=\"M1.6875 0C1.99816 0 2.25 0.25184 2.25 0.5625V1.6875C2.25 1.99816 1.99816 2.25 1.6875 2.25H0.5625C0.25184 2.25 0 1.99816 0 1.6875V0.5625C0 0.25184 0.25184 0 0.5625 0H1.6875Z\" fill=\"currentColor\"></path></g></svg>"
+        },
+        {
+          "name": "copy",
+          "svg_code": "<svg width=\"12\" height=\"12\" viewBox=\"0 0 12.5 12.5\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"control-card-copy\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.75 2.5C9.44036 2.5 10 3.05964 10 3.75V11.25C10 11.9404 9.44036 12.5 8.75 12.5H1.25C0.559644 12.5 0 11.9404 0 11.25V3.75C0 3.05964 0.559644 2.5 1.25 2.5H8.75ZM1.5 10.5C1.5 10.7761 1.72386 11 2 11H8C8.27614 11 8.5 10.7761 8.5 10.5V4.5C8.5 4.22386 8.27614 4 8 4H2C1.72386 4 1.5 4.22386 1.5 4.5V10.5Z\" fill=\"currentColor\"></path><path d=\"M10.5 0C11.6046 7.21573e-06 12.5 0.895436 12.5 2V9.5C12.5 9.77614 12.2761 10 12 10H11.5C11.2239 10 11 9.77614 11 9.5V2C11 1.72386 10.7761 1.50001 10.5 1.5H3C2.72386 1.5 2.5 1.27614 2.5 1V0.5C2.5 0.223858 2.72386 0 3 0H10.5Z\" fill=\"currentColor\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

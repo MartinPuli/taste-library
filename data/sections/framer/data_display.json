@@ -1,0 +1,38 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Partner Logo Strip",
+        "description": "Horizontal scrolling marquee of grayscale partner/customer logos displayed at reduced opacity",
+        "when_to_use": [
+          "Social proof section",
+          "Trust indicators",
+          "Brand partnerships display"
+        ]
+      },
+      {
+        "name": "Feature Preview Card",
+        "description": "Large image cards showing product interface previews with gradient overlays and annotation text",
+        "when_to_use": [
+          "Feature demonstrations",
+          "Product showcases",
+          "Use case examples"
+        ]
+      }
+    ]
+  }
+}

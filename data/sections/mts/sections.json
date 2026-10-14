@@ -1,0 +1,185 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/mts.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal split with left-aligned logo/links and right-aligned actions",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Multi-colored dots SVG logo in yellow/orange/green/blue tones"
+        },
+        {
+          "type": "navigation",
+          "description": "Uppercase monospace links: LIVE (yellow active state), GUESTS, SITUATIONS, GAMES, DROPS in gray"
+        },
+        {
+          "type": "button",
+          "description": "X social icon button with outline border"
+        },
+        {
+          "type": "button",
+          "description": "Theme toggle button with moon glyph (☾), outline border"
+        },
+        {
+          "type": "button",
+          "description": "Mobile menu hamburger icon button with outline border"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Chronicling the singularity.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "animation",
+          "description": "Radial burst pattern background with blue-teal gradient rays emanating from center on cream background"
+        }
+      ]
+    },
+    {
+      "type": "Episode Player",
+      "layout_pattern": "Split 70/30 — large video frame left, sidebar right",
+      "headline": "Episode 112",
+      "subheadline": "Oct 13, 2026",
+      "components": [
+        {
+          "type": "video",
+          "description": "Large 16:9 black background off-air poster frame with geometric decorative SVG border overlay"
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Watch the replay' with arrow icon, white text on black pill-shaped button"
+        }
+      ]
+    },
+    {
+      "type": "Featured Guests Sidebar",
+      "layout_pattern": "Vertical card stack",
+      "headline": "Featured guests",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Guest card with circular avatar, name (Marc Andreessen), handle (@pmarca), X icon link, and Profile link"
+        },
+        {
+          "type": "card",
+          "description": "Guest card with circular avatar, name (Balaji), handle (@balajis), X icon link, and Profile link"
+        },
+        {
+          "type": "card",
+          "description": "Guest card with circular avatar, name (clem), handle (@ClementDelangue), X icon link, and Profile link"
+        },
+        {
+          "type": "card",
+          "description": "Guest card with circular avatar, name (Taylor Lorenz), handle (@TaylorLorenz), X icon link, and Profile link"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icon row with 7 platforms: X (gray), Discord (purple #7984f5), Substack (orange #FF6719), YouTube (red #FF3333), Twitch (purple #9146FF), Spotify (green #1DB954), Apple Podcasts (purple #BB66DD)"
+        }
+      ]
+    },
+    {
+      "type": "Status Message",
+      "layout_pattern": "Centered single line",
+      "headline": "We're off air right now.",
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "Sponsors",
+      "layout_pattern": "Horizontal cascading parallax scroll strip",
+      "headline": null,
+      "subheadline": "Brought to you by",
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "14 sponsor logos in horizontal cascade: MongoDB, Chargebee, Lovable, Databricks, ElevenLabs, Factory, Neon, VCX, Kong, Larridin, Blitzy, Arena, AdQuick, Vercel — mix of knockout (white) and colored logos with cloned glitch effects"
+        }
+      ]
+    },
+    {
+      "type": "Interlude Image",
+      "layout_pattern": "Full-width atmospheric image",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Large dithered atmospheric image (O'Neill valley scene) with zoom animation, blue-teal color treatment, geometric SVG line overlay accents"
+        }
+      ]
+    },
+    {
+      "type": "Content / Drops",
+      "layout_pattern": "Vertical list with numbered rows",
+      "headline": "Drops",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Drop #21 'The era of personal agents' — row with number, date (Jun 11 2026), title, abstract ellipsis, and 'Open ↗' link"
+        },
+        {
+          "type": "card",
+          "description": "Drop #19 'How AI started proving theorems' — row with number, date (May 28 2026), title, abstract ellipsis, and 'Open ↗' link"
+        },
+        {
+          "type": "card",
+          "description": "Drop #18 'Can Lilly's new drug end heart attacks?' — row with number, date (May 26 2026), title, abstract ellipsis, and 'Open ↗' link"
+        },
+        {
+          "type": "card",
+          "description": "Drop #17 'The world model' — row with number, date (May 24 2026), title, abstract ellipsis, and 'Open ↗' link"
+        },
+        {
+          "type": "divider",
+          "description": "Thin horizontal rule separators between each drop card"
+        }
+      ]
+    },
+    {
+      "type": "Newsletter Signup",
+      "layout_pattern": "Centered inline form",
+      "headline": "DAILY RECAP",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "form",
+          "description": "Email subscription form with placeholder 'you@domain.com' input field and solid 'Subscribe' button"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Centered horizontal single line",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Minimal footer with 'mts.now' text, '@mtslive' link, separator dot, and 'Discord' link in gray text"
+        },
+        {
+          "type": "button",
+          "description": "Floating help button '?' linking to Discord support"
+        }
+      ]
+    }
+  ]
+}

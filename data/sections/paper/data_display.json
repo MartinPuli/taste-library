@@ -1,0 +1,37 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "charts": [],
+    "tables": [
+      {
+        "name": "Track List Table",
+        "description": "Displays music playlist tracks with album art thumbnails, song/artist info, album name, and duration. Used in the embedded application mockup.",
+        "when_to_use": [
+          "Displaying ordered lists of media items",
+          "Music playlist views",
+          "Content libraries with metadata columns"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Album Art Card",
+        "description": "Square image tiles with title and subtitle for displaying albums, playlists, or artists in a horizontal scroll or grid layout.",
+        "when_to_use": [
+          "Media library browsing",
+          "Featured content carousels",
+          "Artist or album showcases"
+        ]
+      }
+    ]
+  }
+}

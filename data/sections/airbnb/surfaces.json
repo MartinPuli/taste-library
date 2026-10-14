@@ -1,0 +1,154 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "texture_classification": [
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Primary Background",
+        "description": "Main body background color",
+        "when_to_use": [
+          "Page backgrounds",
+          "Card surfaces",
+          "Default content areas"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Text Primary",
+        "description": "Primary text color",
+        "when_to_use": [
+          "Body text",
+          "Headings",
+          "Primary labels"
+        ],
+        "hex": "#222222"
+      },
+      {
+        "name": "Grey 200",
+        "description": "Light grey surface for subtle UI elements",
+        "when_to_use": [
+          "Button backgrounds",
+          "Icon button fills",
+          "Disabled states"
+        ],
+        "hex": "#EBEBEB"
+      },
+      {
+        "name": "Grey 300",
+        "description": "Mid-light grey for hover states",
+        "when_to_use": [
+          "Hover backgrounds",
+          "Secondary borders"
+        ],
+        "hex": "#D9D9D9"
+      },
+      {
+        "name": "Grey 500",
+        "description": "Mid grey for disabled elements",
+        "when_to_use": [
+          "Disabled text",
+          "Disabled borders"
+        ],
+        "hex": "#717171"
+      },
+      {
+        "name": "Grey 1000",
+        "description": "Darkest grey for high-contrast elements",
+        "when_to_use": [
+          "Primary text",
+          "High-contrast UI elements"
+        ],
+        "hex": "#222222"
+      },
+      {
+        "name": "Grey 100",
+        "description": "Very light grey for active states",
+        "when_to_use": [
+          "Active button backgrounds"
+        ],
+        "hex": "#F7F7F7"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Rausch Gradient (Core)",
+        "description": "Primary brand gradient, left to right with Airbnb signature pink to magenta",
+        "when_to_use": [
+          "Primary brand accents",
+          "Core theme gradients"
+        ],
+        "css_code": "linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%)"
+      },
+      {
+        "name": "Rausch Gradient (Core RTL)",
+        "description": "Primary brand gradient, right to left for RTL languages",
+        "when_to_use": [
+          "Primary brand accents in RTL layouts"
+        ],
+        "css_code": "linear-gradient(to left,#E61E4D 0%,#E31C5F 50%,#D70466 100%)"
+      },
+      {
+        "name": "Plus Gradient",
+        "description": "Deeper premium gradient for Plus tier",
+        "when_to_use": [
+          "Plus tier branding",
+          "Premium feature highlights"
+        ],
+        "css_code": "linear-gradient(to right,#BD1E59 0%,#92174D 50%,#861453 100%)"
+      },
+      {
+        "name": "Plus Gradient (RTL)",
+        "description": "Plus gradient for RTL languages",
+        "when_to_use": [
+          "Plus tier branding in RTL layouts"
+        ],
+        "css_code": "linear-gradient(to left,#BD1E59 0%,#92174D 50%,#861453 100%)"
+      },
+      {
+        "name": "Plus Radial Gradient",
+        "description": "Radial gradient with deep magenta to purple for Plus spotlight effects",
+        "when_to_use": [
+          "Plus tier spotlight effects",
+          "Premium radial accents"
+        ],
+        "css_code": "radial-gradient(circle at center,#D70466 0%,#BD1E59 30%,#92174D 55%,#861453 72.5%,#6C0D63 90%,#6C0D63 100%)"
+      },
+      {
+        "name": "Core Hover Radial",
+        "description": "Radial gradient for core hover states with brighter center",
+        "when_to_use": [
+          "Interactive hover states",
+          "Button hover effects"
+        ],
+        "css_code": "radial-gradient(circle at center,#FF385C 0%,#E61E4D 27.5%,#E31C5F 40%,#D70466 57.5%,#BD1E59 75%,#BD1E59 100%)"
+      },
+      {
+        "name": "Luxe Hover Radial",
+        "description": "Radial gradient for luxe tier hover states",
+        "when_to_use": [
+          "Luxe tier hover effects",
+          "Premium interactive elements"
+        ],
+        "css_code": "radial-gradient(circle at center,#FF385C 0%,#E61E4D 30%,#E31C5F 55%,#D70466 72.5%,#BD1E59 90%,#BD1E59 100%)"
+      }
+    ],
+    "highlights": [
+      "Soft shadows used throughout UI for card elevation (e.g., box-shadow with large blur radius)",
+      "Subtle border effects on buttons and interactive elements (1px borders in grey tones)",
+      "Rounded corners on all major UI components (border-radius: 12px, 50px for pills)",
+      "Backdrop blur effects on glassmorphism elements (though not actively visible in default state)",
+      "Transform scale animations on interactive elements for press states"
+    ]
+  }
+}

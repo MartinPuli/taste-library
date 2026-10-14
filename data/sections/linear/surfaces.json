@@ -1,0 +1,335 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Primary Background",
+        "description": "Main page background color",
+        "when_to_use": [
+          "Page backgrounds",
+          "Main content areas"
+        ],
+        "hex": "#08090A"
+      },
+      {
+        "name": "Panel Background",
+        "description": "Background for panels and elevated surfaces",
+        "when_to_use": [
+          "Panels",
+          "Dialogs",
+          "Drawers",
+          "Cards",
+          "Command menus"
+        ],
+        "hex": "#0F1011"
+      },
+      {
+        "name": "Secondary Background",
+        "description": "Frame background for app mockup",
+        "when_to_use": [
+          "Nested containers",
+          "Secondary backgrounds"
+        ],
+        "hex": "#101112"
+      },
+      {
+        "name": "Dark Background",
+        "description": "Dark background for embedded app frame",
+        "when_to_use": [
+          "App mockup backgrounds",
+          "Dark nested sections"
+        ],
+        "hex": "#090A0B"
+      },
+      {
+        "name": "Tertiary Background",
+        "description": "Tertiary background surface",
+        "when_to_use": [
+          "Badges",
+          "Subtle backgrounds"
+        ],
+        "hex": "#141516"
+      },
+      {
+        "name": "Component Background",
+        "description": "Background for timeline and roadmap components",
+        "when_to_use": [
+          "Timeline panels",
+          "Roadmap backgrounds"
+        ],
+        "hex": "#131415"
+      },
+      {
+        "name": "Secondary Panel",
+        "description": "Background for menus and dropdowns",
+        "when_to_use": [
+          "Menu panels",
+          "Dropdown menus"
+        ],
+        "hex": "#171718"
+      },
+      {
+        "name": "Elevated Surface",
+        "description": "Elevated hover and active state background",
+        "when_to_use": [
+          "Hover states",
+          "Active states",
+          "Highlighted items"
+        ],
+        "hex": "#191A1B"
+      },
+      {
+        "name": "Tertiary Surface",
+        "description": "Border color for tertiary buttons",
+        "when_to_use": [
+          "Tertiary button borders"
+        ],
+        "hex": "#1C1C1F"
+      },
+      {
+        "name": "Secondary Surface",
+        "description": "Secondary surface for hovers and highlights",
+        "when_to_use": [
+          "Hover backgrounds",
+          "Active navigation items"
+        ],
+        "hex": "#232326"
+      },
+      {
+        "name": "Divider Color",
+        "description": "Border and divider color",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Separators"
+        ],
+        "hex": "#23252A"
+      },
+      {
+        "name": "Muted Surface",
+        "description": "Muted surface for toggles and backgrounds",
+        "when_to_use": [
+          "Toggle backgrounds",
+          "Muted UI elements"
+        ],
+        "hex": "#28282C"
+      },
+      {
+        "name": "Primary Brand",
+        "description": "Primary brand color for buttons and accents",
+        "when_to_use": [
+          "Primary buttons",
+          "Brand accents",
+          "Focus states"
+        ],
+        "hex": "#5E6AD2"
+      },
+      {
+        "name": "Light Surface",
+        "description": "Light surface for mobile cards",
+        "when_to_use": [
+          "Light theme cards",
+          "Mobile card backgrounds"
+        ],
+        "hex": "#F7F8F8"
+      },
+      {
+        "name": "Light Panel",
+        "description": "Light panel background for invert buttons",
+        "when_to_use": [
+          "Inverted buttons",
+          "Light theme panels"
+        ],
+        "hex": "#E5E5E6"
+      },
+      {
+        "name": "Card Background",
+        "description": "Background for logo wrapper and card surfaces",
+        "when_to_use": [
+          "Logo backgrounds",
+          "Card containers"
+        ],
+        "hex": "#121414"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur",
+        "when_to_use": [
+          "Command menus",
+          "Floating panels",
+          "Modal overlays",
+          "Glassmorphic UI elements"
+        ],
+        "hex": "#0F1011"
+      },
+      {
+        "name": "Toast Background",
+        "description": "Background for toast notifications",
+        "when_to_use": [
+          "Toast containers",
+          "Notification backgrounds"
+        ],
+        "hex": "#1C1C1E"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Header Background Gradient",
+        "description": "Top to bottom gradient with color-mix for subtle transparency change",
+        "when_to_use": [
+          "Header backgrounds",
+          "Navigation bar"
+        ],
+        "css_code": "linear-gradient(180deg, #0b0b0bcc 0%, color-mix(in oklab, #0b0b0bcc 100%, transparent 5%) 100%)"
+      },
+      {
+        "name": "Header Backdrop Gradient",
+        "description": "Top to bottom fade from dark to transparent",
+        "when_to_use": [
+          "Header backdrop overlay",
+          "Top fade effects"
+        ],
+        "css_code": "linear-gradient(180deg, #08090a 0%, transparent 100%)"
+      },
+      {
+        "name": "Edge Glow Gradient",
+        "description": "Radial gradient for edge glow effect with progressive transparency via color-mix",
+        "when_to_use": [
+          "Edge highlights",
+          "Glow effects on cards"
+        ],
+        "css_code": "radial-gradient(ellipse var(--edge-glow-width,50%) var(--edge-glow-height,50%) at var(--edge-highlight-x,0) var(--edge-highlight-y,0), var(--edge-glow-tint) 0%, color-mix(in srgb, var(--edge-glow-tint) 94%, transparent) 15%, color-mix(in srgb, var(--edge-glow-tint) 78%, transparent) 30%, color-mix(in srgb, var(--edge-glow-tint) 58%, transparent) 45%, color-mix(in srgb, var(--edge-glow-tint) 35%, transparent) 60%, color-mix(in srgb, var(--edge-glow-tint) 16%, transparent) 75%, color-mix(in srgb, var(--edge-glow-tint) 3%, transparent) 90%, #fff0 100%)"
+      },
+      {
+        "name": "Radial Glow Gradient",
+        "description": "Radial gradient from white tint to transparent",
+        "when_to_use": [
+          "Glow effects",
+          "Spotlight highlights"
+        ],
+        "css_code": "radial-gradient(50% 50%,#ffffff0a 0%,#fff0 100%)"
+      },
+      {
+        "name": "Comment Card Gradient",
+        "description": "Layered gradient with semi-transparent white over dark background",
+        "when_to_use": [
+          "Comment cards",
+          "Elevated cards with subtle overlay"
+        ],
+        "css_code": "linear-gradient(#ffffff08, #ffffff08), #0f1011"
+      },
+      {
+        "name": "Background Radial Gradient",
+        "description": "Layered radial and linear gradient for complex background effect",
+        "when_to_use": [
+          "Hero section backgrounds",
+          "Complex background treatments"
+        ],
+        "css_code": "radial-gradient(52.53% 57.5% at 50% 100%, #08090a00 0%, #08090a80 100%), linear-gradient(180deg, #08090a 10%, #d0d6e0 100%)"
+      },
+      {
+        "name": "Top Right Fade Gradient",
+        "description": "Left to right fade to dark background",
+        "when_to_use": [
+          "Right edge fade effects"
+        ],
+        "css_code": "linear-gradient(90deg, transparent 0%, #0f1011 100%)"
+      },
+      {
+        "name": "Top Right Vertical Fade",
+        "description": "Bottom to top fade with late transition",
+        "when_to_use": [
+          "Top fade effects",
+          "Vertical gradients"
+        ],
+        "css_code": "linear-gradient(0deg, transparent 79.32%, #0f1011 100%)"
+      },
+      {
+        "name": "Bottom Right Vertical Fade",
+        "description": "Bottom to top fade with early transition",
+        "when_to_use": [
+          "Bottom fade effects"
+        ],
+        "css_code": "linear-gradient(0deg, #0f1011 16.52%, transparent 100%)"
+      },
+      {
+        "name": "Bottom Fade Gradient",
+        "description": "Bottom to top fade",
+        "when_to_use": [
+          "Bottom edge fade effects"
+        ],
+        "css_code": "linear-gradient(0deg, #0f1011 0%, transparent 66.52%)"
+      },
+      {
+        "name": "Pulse Gradient",
+        "description": "Layered gradient with subtle white overlay",
+        "when_to_use": [
+          "Pulse effects",
+          "Subtle highlights"
+        ],
+        "css_code": "linear-gradient(#ffffff05 0% 100%),#0f1011"
+      },
+      {
+        "name": "Page Bottom Fade",
+        "description": "OKLab gradient from transparent to dark at bottom",
+        "when_to_use": [
+          "Page bottom fade",
+          "Section transitions"
+        ],
+        "css_code": "linear-gradient(to bottom in oklab, #08090a00 0%, #08090a00 75%, #08090a 100%)"
+      },
+      {
+        "name": "Initiatives Box Gradient",
+        "description": "Layered gradient with subtle white tint",
+        "when_to_use": [
+          "Box overlays",
+          "Card backgrounds with subtle highlight"
+        ],
+        "css_code": "linear-gradient(0deg, #ffffff05 0%, #ffffff05 100%), #0f1011"
+      },
+      {
+        "name": "Chat Input Gradient",
+        "description": "Layered gradient for chat input background",
+        "when_to_use": [
+          "Chat inputs",
+          "Input fields with elevated appearance"
+        ],
+        "css_code": "linear-gradient(#ffffff08, #ffffff08), #0f1011"
+      },
+      {
+        "name": "Section Footer Fade",
+        "description": "Vertical gradient with mid-section transparency",
+        "when_to_use": [
+          "Section footers",
+          "Overlay transitions"
+        ],
+        "css_code": "linear-gradient(to bottom, #08090a 0%, #08090a00 75%, #08090a 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(20px) over rgba(255,255,255,0.03) backgrounds with 1px rgba(255,255,255,0.06) borders",
+      "Glass blur effects on secondary buttons: backdrop-filter: blur(4px)",
+      "Glass blur on header: backdrop-filter: blur(20px) over semi-transparent dark background",
+      "Radial gradient glow effects positioned at top-left corners with 400px diameter circles",
+      "Edge highlight effects using radial-gradient masks with elliptical shapes",
+      "Noise/grain texture overlay at opacity 0.9 with mix-blend-mode: overlay on surfaces",
+      "Subtle grain textures at opacity 0.6 on panels and cards",
+      "Shine effects using radial-gradient masks with 200px beam length",
+      "Gradient border effects using CSS mask-composite with linear gradients",
+      "Shadow stack effects with multiple layered box-shadows on elevated surfaces"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "brand_name": "Spotify",
+    "tagline": null,
+    "source_url": "https://open.spotify.com",
+    "page_type_category": "Product",
+    "page_type": "Web Player Homepage",
+    "industry": "Music Streaming / Entertainment",
+    "primary_purpose": "Drive user engagement with music discovery and convert free users to paid Premium subscribers",
+    "main_cta": "Sign up free",
+    "copy_tone": [
+      "Casual",
+      "Direct",
+      "Inviting"
+    ],
+    "brand_signature": "Dark interface with pure black (#000/#121212) backgrounds creating an immersive, cinematic environment. Signature green accent (#1ed760) reserved for key actions and positive states. Content-forward design lets album artwork and artist imagery dominate the visual hierarchy.",
+    "visual_language": {
+      "keywords": [
+        "immersive",
+        "content-centric",
+        "dark-mode",
+        "media-rich",
+        "grid-based",
+        "streamlined"
+      ],
+      "accent_strategy": "Signature bright green (#1ed760) used sparingly for primary CTAs, active states, and positive feedback indicators against dark backgrounds.",
+      "highlights": "Album art and artist photography serve as the primary visual interest, with cards featuring squared and circular imagery depending on content type (albums vs artists)."
+    },
+    "strategy": {
+      "target_audience": [
+        "Music enthusiasts seeking personalized discovery and trending content across genres",
+        "Free-tier users who may convert to Premium for ad-free listening and offline access",
+        "Casual listeners looking for quick access to popular artists, albums, and curated playlists"
+      ],
+      "executive_synthesis": "Spotify's web player leverages a dark, immersive interface to position music content as the hero while strategically placing Premium conversion messaging. The green accent color creates urgency on CTAs without disrupting the browsing experience. Horizontal scroll carousels enable efficient content discovery across trending songs, popular artists, and albums—balancing personalization hooks with broad appeal to maximize engagement and subscription conversion."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The visual impression from the screenshot reveals a clean, modern dark-mode application interface with stark monochromatic color hierarchy and no decorative ornamentation. The design prioritizes content (album art, artist photos) as the sole visual focus against neutral dark surfaces.\n\n**Forensic Evidence Supporting Flat Design:**\n\n1. **Color Cleanliness = Clean/Pure**: The palette is strictly monochromatic (#000000, #121212, #181818, #FFFFFF, #B3B3B3) with no saturated brand colors in the UI chrome. This matches Flat Design's \"bold, saturated\" approach applied through restraint—pure white on pure dark creates maximum clarity.\n\n2. **Texture Classification = Flat/Minimal Effects**: The surfaces profile shows \"gradient_linear\" and \"shadows_soft\" but these are extremely subtle—primarily used for state changes and layering rather than decoration. No skeuomorphic textures, no heavy drop shadows, no gradients on UI elements themselves.\n\n3. **Shape Language = Geometric**: Rounded pill buttons (Login, Create playlist), square/rectangular cards, circular artist avatars—all pure geometric shapes with consistent border-radius treatment. No organic forms or decorative embellishments.\n\n4. **Typography = Sans-Serif Modern**: SpotifyMixUI is a proprietary geometric sans-serif with clean, neutral characteristics. The type hierarchy (24px titles, 16px body, 14px labels) is systematic and utilitarian.\n\n5. **Layout = Grid-Based Strict**: The 12-column grid with consistent gutters, card-based carousels, and mathematical spacing (16px, 24px, 32px) demonstrates rigid structural organization.\n\n6. **Dimensionality = Flat (2D)**: While soft shadows exist (0 4px 12px rgba(0,0,0,0.3)), they are subtle depth cues rather than dimensional illusions. No gradients on buttons, no 3D effects, no realistic textures.\n\n7. **Visual Density = Balanced**: Neither maximalist dense-packed nor extreme minimalist—the design uses whitespace strategically within a content-rich interface.\n\nThe design matches Flat Design's taxonomy definition: \"Digital-native clarity. 2D, no shadows, no gradients, no textures\" in spirit—using a mature evolution of Flat Design that incorporates subtle shadows for usability (often called \"Flat 2.0\") while maintaining the core philosophy of simplicity and content-first hierarchy.",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate tonal modifier applies because the design communicates trust, reliability, and professional competence through its systematic approach. The strict grid system, consistent component library (all cards same size, all buttons same treatment), proprietary typography, and restrained color palette project enterprise-level design maturity. The interface prioritizes usability and scalability over personality or experimentation—hallmarks of corporate design systems built for mass-market products. The footer with legal links, accessibility considerations, and multi-language support further reinforces the corporate identity of a global tech company serving millions of users."
+    }
+  }
+}

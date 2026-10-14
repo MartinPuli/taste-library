@@ -1,0 +1,40 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "layout",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/layout",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "classification": [
+      "centered_symmetric",
+      "generous_whitespace"
+    ],
+    "grid": {
+      "columns": 12,
+      "gutter": "0.75rem",
+      "max_width": "768px"
+    },
+    "breakpoints": {
+      "mobile": "0px - 767px (1 Column, responsive padding)",
+      "tablet": "768px - 1024px (Sidebar visible, centered content)",
+      "desktop": "1025px+ (240px sidebar, max-w-screen-md content area)",
+      "large": null
+    },
+    "section_separation": "Generous vertical whitespace (40vh top spacing on desktop), subtle background color transitions (bg-base vs bg-subtle vs bg-raised), and minimal use of borders. Sidebar separated by border-r border-soft. Main content uses padding-based separation rather than structural dividers. Cookie banner floats as overlay with shadow-sm.",
+    "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]     🔍  ☰                       💾  ☰            │\n├──────────────────────────────────────────────────────────┤\n│ SIDEBAR       │        MAIN CONTENT AREA                 │\n│               │                                          │\n│ + New         │                                          │\n│ 💻 Computer    │         Search                           │\n│ ⚙ Automations│    What do you want to know?             │\n│ 📦 Artifacts  │                                          │\n│ 🎯 Customize  │   ┌────────────────────────────────┐     │\n│               │   │  Ask anything...               │     │\n│ Projects    ∨ │   │                                │     │\n│ No projects   │   │  + 🔍 Search ∨ 💬  Model ∨ 🎤 ⚫ │     │\n│               │   └────────────────────────────────┘     │\n│ Sessions    ∨ │                                          │\n│ No recent     │   ┌──────────────┐ ┌─────────────────┐  │\n│ sessions      │   │🔍 Search      │ │💻 Get work done │  │\n│               │   │   anything    │ │   with Computer │  │\n│               │   │               │ │   [NEW]         │  │\n│               │   │ Get fast and  │ │ Hand off your   │  │\n│               │   │ accurate...   │ │ projects to...  │  │\n│               │   └──────────────┘ └─────────────────┘  │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │                                          │\n│               │              ┌──────────────────────┐   │\n│               │              │🍪 Cookie Policy      │   │\n│               │              │                      │   │\n│ ⊞ View plans  │              │ We and our partners  │   │\n│               │              │ use cookies, pixels, │   │\n│ 👤 Sign In  > │              │ SDKs, APIs...        │   │\n│               │              │                      │   │\n└───────────────┴──────────────│ [Decline optional]   │───┘\n                               │ [Got it]            │\n                               └─────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHEADER/NAV:\n- Background: Light gray/off-white\n- Layout: Left-aligned logo (icon/symbol), search and menu icons on left, utility icons (save, menu) on right\n- Buttons/CTAs: Search icon (🔍), Menu icon (☰), Save icon (💾), Menu icon (☰)\n- Colors observed: Neutral grays, minimal\n- Typography mood: Clean, minimal\n\nSIDEBAR (Left Navigation):\n- Background: Light gray/off-white panel\n- Components: Icon + text menu items, collapsible sections\n- Menu items: \"+ New\", \"💻 Computer\", \"⚙ Automations\", \"📦 Artifacts\", \"🎯 Customize\"\n- Buttons/CTAs: \"View plans\" (bottom), \"Sign In >\" (bottom with chevron)\n- Colors observed: Dark gray text on light background\n- Typography mood: Clean, functional\n- Sections: \"Projects\" (collapsible, shows \"No projects\"), \"Sessions\" (collapsible, shows \"No recent sessions\")\n\nMAIN CONTENT (Center Area):\n- Background: White/very light gray\n- Layout: Centered search interface\n- Heading: \"Search\" label above \"What do you want to know?\"\n- Search bar: Large rounded rectangle with placeholder \"Ask anything...\"\n- Buttons/CTAs in search bar: \n  * \"+\" (add button)\n  * \"🔍 Search ∨\" (dropdown)\n  * \"💬\" (attachment icon)\n  * \"Model ∨\" (dropdown button)\n  * \"🎤\" (microphone icon)\n  * \"⚫\" (dark circle submit/send button)\n- Colors observed: White input field, gray placeholder text, dark submit button\n- Typography mood: Large, welcoming headline, clean search interface\n\nFEATURE CARDS (Below Search):\n- Background: Light gray cards with subtle borders\n- Layout: Two-column grid\n- Card 1: \"🔍 Search anything\" with description \"Get fast and accurate answers from the most trusted sources.\"\n- Card 2: \"💻 Get work done with Computer\" with [NEW] badge, description \"Hand off your projects to get polished, reliable deliverables around the clock.\"\n- Components: Rounded corners, icon + heading + description\n- Colors observed: Light gray background, dark text, teal/green \"NEW\" badge\n- Typography mood: Clear hierarchy with bold headings\n\nCOOKIE BANNER (Bottom Right):\n- Background: White card with drop shadow\n- Layout: Fixed position overlay in bottom right\n- Heading: \"🍪 Cookie Policy\"\n- Description: Privacy text about cookies, pixels, SDKs, APIs\n- Buttons/CTAs: \n  * \"Decline optional\" (outline/ghost button, gray)\n  * \"Got it\" (solid dark/black button)\n- Components: Card with shadow, two-button choice pattern\n- Colors observed: White background, dark text, black CTA button\n- Typography mood: Small, informative text with clear action buttons",
+    "insights": [
+      "Extreme vertical centering on desktop with 40vh spacer pushes search interface into optical center, creating strong focal hierarchy and sense of calm",
+      "Color-coded micro-interactions: hover states consistently use bg-subtle, focus states use shadow-sm-focus, and active states use opacity transitions—creating predictable affordance patterns",
+      "Sidebar uses 240px fixed width with --sidebar-pinned-width CSS variable, allowing programmatic width control and smooth expand/collapse animations",
+      "Feature cards employ radial gradient backgrounds with different origins (110.21% at 0% vs 120.49% at 150.32%) creating subtle directional lighting that guides eye movement left-to-right",
+      "Search input uses sophisticated layering: bg-raised on rounded-2xl container, with after: pseudo-element for shadow-sm-focus, and contenteditable div for text—enabling rich composer functionality while maintaining visual simplicity"
+    ]
+  }
+}

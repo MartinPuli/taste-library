@@ -1,0 +1,45 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default"
+    },
+    "dividers": [
+      {
+        "name": "Frosted Border Divider",
+        "description": "Semi-transparent divider used between navigation sections and grid columns in mega-menus.",
+        "when_to_use": [
+          "Mega-menu column separators",
+          "Navigation section dividers",
+          "List item separators"
+        ],
+        "color": "#70739338",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Section Divider",
+        "description": "Full-width horizontal divider separating major page sections.",
+        "when_to_use": [
+          "Between content sections",
+          "Footer separation",
+          "Before testimonials"
+        ],
+        "color": "#C3C3CC",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Product Card",
+        "description": "Frosted glass product card with product name, headline, thumbnail image, and CTA button. Uses frost-white-intense backdrop blur effect for glassmorphism.",
+        "when_to_use": [
+          "Homepage product showcases",
+          "Product feature sections",
+          "Landing page hero call-to-actions"
+        ]
+      }
+    ]
+  }
+}

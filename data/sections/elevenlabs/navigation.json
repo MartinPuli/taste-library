@@ -1,0 +1,60 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "top_nav": {
+      "height": "64px",
+      "position": "relative",
+      "background": {
+        "hex": "#FDFCFC",
+        "color_reference": "Baseline/Eggshell",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Pill Tab",
+      "description": "Tabs organize content into multiple sections with pill-shaped backgrounds. Selected tabs have white background with subtle shadow, unselected tabs are transparent with gray text.",
+      "when_to_use": [
+        "Switching between product categories (ElevenCreative, ElevenAgents, ElevenAPI)",
+        "Filtering content demos (AI Voice Generator, Text to Speech, Music, etc.)",
+        "Navigation between related views within a section"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "White background with subtle box-shadow: 0 0 1px rgb(0 0 0 / 0.4), 0 1px 1px rgb(0 0 0 / 0.04), 0 2px 4px rgb(0 0 0 / 0.04)",
+          "background": "#FFFFFF",
+          "text": "#000000",
+          "icon": null
+        },
+        {
+          "name": "default",
+          "visual_change": "No background, gray-700 text color",
+          "background": "transparent",
+          "text": "#44403B",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Cream/gray-200 background appears on hover, text transitions to black",
+          "background": "#EBE8E4",
+          "text": "#000000",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

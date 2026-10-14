@@ -1,0 +1,57 @@
+{
+  "id": "mercury",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A scenic mountain image and a desk fill the hero with white centered type and blue actions. The saved viewport also contains a large blank area to the right.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/viewport.jpg",
+    "sha256": "842598de924f647763e5572cf37624e61fb981e8a5da3f6b7e4afe6a06dec008"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/styles.css",
+    "sha256": "b181b903c2964e8979d49f3d2a85a7d21917dee51af7ae5c473957885a072be7",
+    "bytes": 334962,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#EDEDF3",
+      "#C3C3CC",
+      "#171721",
+      "#9CB4E8"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#EDEDF3",
+      "#C3C3CC",
+      "#171721",
+      "#9CB4E8"
+    ],
+    "font_names_found": [
+      "Arcadia",
+      "Tiempos",
+      "IBM Plex Mono",
+      "SFMono-Regular"
+    ],
+    "font_names_checked": [
+      "Arcadia Display",
+      "Arcadia",
+      "Tiempos Fine",
+      "Tiempos",
+      "IBM Plex Mono",
+      "SFMono-Regular"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "a887c508d9b868818a79eb683a8527238bb5c477c9ecc59c8024c782f6186d73"
+}

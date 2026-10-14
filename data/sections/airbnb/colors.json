@@ -1,0 +1,187 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/airbnb.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary text and active icon color, ensuring high legibility across the interface.",
+          "when_to_use": [
+            "Primary body and heading text",
+            "Active search tab underline",
+            "Primary interface icon strokes"
+          ]
+        },
+        "hex": "#222222",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#29211F",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1
+      },
+      {
+        "name": "Muted Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A secondary text color used for placeholders, deactivated elements, and supporting details.",
+          "when_to_use": [
+            "Unselected search tab text",
+            "Search input placeholders",
+            "Listing card subtitles and ratings"
+          ]
+        },
+        "hex": "#6C6C6C",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#71645E",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.086
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Surface White",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational background color for the page and elevated interactive components.",
+          "when_to_use": [
+            "Main page background",
+            "Search bar container background",
+            "Hover and interaction button backgrounds (as light gray tints)",
+            "Guest favorite floating badge backgrounds"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F2F2F2",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EBEBEB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F4F2EC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F8F8F8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5EDE7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FCEFE8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EDDFD8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F9F2EE",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.019000000000000003
+      },
+      {
+        "name": "Divider Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A structural color used for thin borders, structural dividers, and image placeholders.",
+          "when_to_use": [
+            "Search input separators",
+            "Listing image placeholder backgrounds",
+            "Search bar borders",
+            "Disabled carousel arrow icons"
+          ]
+        },
+        "hex": "#C1C1C1",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#DDDDDD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E8D9D1",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#DDCEC9",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0188
+      },
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Used exclusively with varying opacities to create shadows, backdrops, and translucent icons.",
+          "when_to_use": [
+            "Component drop shadows",
+            "Page-level background overlays",
+            "Translucent heart icon fills on listing cards"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0055
+      }
+    ],
+    "insights": [
+      "The palette is entirely monochromatic and neutral, intentionally stepping back so that the user's attention is drawn completely to the colorful property photography.",
+      "Hierarchy is achieved entirely through grayscale contrast, distinguishing primary text from metadata using stark black versus muted gray.",
+      "Depth is created subtly by layering clean white cards over white backgrounds using delicate, translucent black drop shadows rather than solid borders."
+    ]
+  }
+}

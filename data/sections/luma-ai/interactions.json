@@ -1,0 +1,63 @@
+{
+  "id": "luma-ai",
+  "source_url": "https://lumalabs.ai/",
+  "captured_at": "2026-09-15T20:11:13.034995Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/luma-ai.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/luma-ai.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "video_background",
+      "marquee"
+    ],
+    "animations": [
+      {
+        "name": "accordion-down",
+        "css": "@keyframes accordion-down { from { height: 0 } to { height: var(--radix-accordion-content-height) } }",
+        "description": "Expands accordion content from collapsed to full height"
+      },
+      {
+        "name": "accordion-up",
+        "css": "@keyframes accordion-up { from { height: var(--radix-accordion-content-height) } to { height: 0 } }",
+        "description": "Collapses accordion content from full height to zero"
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }",
+        "description": "Continuous rotation animation for loading spinners"
+      },
+      {
+        "name": "hero-search-band",
+        "css": "",
+        "description": "Custom animation applied to hero search band element, likely JS-driven based on class name pattern"
+      },
+      {
+        "name": "global-ease",
+        "css": "transition: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "description": "Default global transition applied to interactive elements with ease-in-out timing"
+      },
+      {
+        "name": "opacity-fade",
+        "css": "transition: opacity 0.2s ease-in-out",
+        "description": "Opacity transition for fade effects on overlays and mobile navigation"
+      },
+      {
+        "name": "logo-marquee",
+        "css": "",
+        "description": "JS-driven horizontal scrolling animation for partner logo strip, uses will-change: transform for GPU acceleration"
+      }
+    ],
+    "insights": [
+      "The design system employs a strict monochromatic palette (black/white) with inverted color schemes for dark and light sections, allowing full-bleed section transitions without visible dividers.",
+      "All primary buttons use rounded-full (pill) shapes with consistent height sizing (h-8 for small, h-10/h-12 for large CTAs), creating a cohesive action vocabulary across the entire page.",
+      "The navigation uses mix-blend-difference mode for the logo and text to automatically adapt colors based on underlying content, eliminating the need for multiple nav color variants."
+    ]
+  }
+}

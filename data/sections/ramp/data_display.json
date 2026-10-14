@@ -1,0 +1,56 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Customer Logo Tile",
+        "description": "Square tiles displaying customer/partner logos with optional hover states and link overlays. Features grayscale logos with opacity treatment.",
+        "when_to_use": [
+          "Logo grid showcasing customers",
+          "Partner sections",
+          "Social proof displays"
+        ]
+      },
+      {
+        "name": "Featured Customer Tile",
+        "description": "Larger 2-column spanning tile with background image, customer logo, headline metric, and description. Used to highlight key customer success stories.",
+        "when_to_use": [
+          "Featured case study highlights",
+          "Hero testimonial sections",
+          "Key metric showcases"
+        ]
+      },
+      {
+        "name": "Testimonial Card",
+        "description": "Fixed-height cards displaying customer testimonials with company logo, name, title, and quote. Used in horizontally scrolling carousel.",
+        "when_to_use": [
+          "Wall of love sections",
+          "Customer review displays",
+          "Social proof carousels"
+        ]
+      },
+      {
+        "name": "Live Metrics Ticker",
+        "description": "Real-time counter badges showing live platform metrics (receipts processed, accounting fields coded, etc.) with number-flow animation.",
+        "when_to_use": [
+          "Real-time data displays",
+          "Platform activity indicators",
+          "Trust-building metrics"
+        ]
+      }
+    ]
+  }
+}

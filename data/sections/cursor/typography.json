@@ -1,0 +1,356 @@
+{
+  "id": "cursor",
+  "source_url": "https://cursor.com/",
+  "captured_at": "2026-09-18T05:31:56.956697Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/cursor.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/cursor.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "CursorGothic",
+          "role": "H1 Display (2XL)",
+          "specs": {
+            "size": "4.5rem",
+            "line_height": "1.1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "CursorGothic",
+          "role": "H2 Display (LG)",
+          "specs": {
+            "size": "2.25rem",
+            "line_height": "1.2",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "CursorGothic",
+          "role": "H1 Section (MD-LG)",
+          "specs": {
+            "size": "1.625rem",
+            "line_height": "1.25",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "CursorGothic",
+          "role": "H3 Heading (MD)",
+          "specs": {
+            "size": "1.375rem",
+            "line_height": "1.3",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "UI Interface Heading",
+          "specs": {
+            "size": "20px",
+            "line_height": "31px",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "UI Section Subheading",
+          "specs": {
+            "size": "19px",
+            "line_height": "20.9px",
+            "font_weight": "510",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "UI Trigger Subheading",
+          "specs": {
+            "size": "14px",
+            "line_height": "21.7px",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Main body text for narrative marketing, user documentation, and simulated browser contexts.",
+      "variants": [
+        {
+          "name": "CursorGothic",
+          "role": "Body Base",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "System Prose",
+          "specs": {
+            "size": "16px",
+            "line_height": "24px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "EB Garamond",
+          "role": "Serif Browser Preview",
+          "specs": {
+            "size": "1.08rem",
+            "line_height": "1.35",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"EB Garamond\", Iowan Old Style, Palatino Linotype, URW Palladio L, P052, ui-serif, Georgia, Cambria, Times New Roman, Times, serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Extensive product tokens intended for dense IDE-like UI, sidebars, and control palettes.",
+      "variants": [
+        {
+          "name": "CursorGothic",
+          "role": "Type SM",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "CursorGothic",
+          "role": "Type XS",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"CursorGothic\", \"CursorGothic Fallback\", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "Product LG",
+          "specs": {
+            "size": "0.8125rem",
+            "line_height": "1.33333",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "Product Base",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "1.33333",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "Product Base Medium",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "1.33333",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "Product SM",
+          "specs": {
+            "size": "0.6875rem",
+            "line_height": "1.27273",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "Product SM Medium",
+          "specs": {
+            "size": "0.6875rem",
+            "line_height": "1.27273",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "berkeleyMono",
+          "role": "Product Mono Base",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "1.25rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Lato",
+          "role": "Slack Integration Heading",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.33333",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "Lato, \"Lato Fallback\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Micro statuses and technical prose code formatting.",
+      "variants": [
+        {
+          "name": "berkeleyMono",
+          "role": "Prose Pre / Code block",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"berkeleyMono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace",
+            "file_url": null
+          }
+        },
+        {
+          "name": "system-ui",
+          "role": "Status Micro / Breadcrumb",
+          "specs": {
+            "size": "11px",
+            "line_height": "14px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "highlights": "Underlines utilize precise 1px thickness with a 0.125em offset, often taking 50% opacity of the current text color via color-mix. Syntax highlighting explicitly uses branded ANSI green and red CSS variables to show git/terminal diffs (+135, -21).",
+    "insights": [
+      "Dual Typography Ecosystem: Employs a custom brand font (CursorGothic) for overarching marketing and narrative elements, transitioning seamlessly to native OS typography (system-ui) within product IDE interfaces to feel familiar and performant.",
+      "Granular UI Scales: Product UI tokens (type-product-lg, type-product-base, type-product-sm) rely on exact sub-pixel rem values (e.g., 0.6875rem) paired with tight line-heights (1.27273) to create a highly dense, information-rich developer environment.",
+      "High-Fidelity Mimicry: The landing page injects highly specific fonts—such as Lato to mirror a Slack integration and EB Garamond for a simulated browser preview—to identically reproduce external contextual environments."
+    ]
+  }
+}

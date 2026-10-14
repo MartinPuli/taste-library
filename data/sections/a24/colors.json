@@ -1,0 +1,123 @@
+{
+  "id": "a24",
+  "source_url": "https://a24films.com/",
+  "captured_at": "2026-10-14T05:05:03.673018Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/a24.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/a24.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Pitch Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The dominant structural color used for deep theatrical backgrounds and primary text on light surfaces.",
+          "when_to_use": [
+            "Dark section backgrounds (hero, footer, newsletter banner)",
+            "Image container and thumbnail backgrounds",
+            "Primary default text color for the light theme",
+            "Submit button text on white backgrounds"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Pure White",
+        "type": "Light",
+        "rules": {
+          "description": "Serves as the primary contrast color for text, icons, and buttons against cinematic black backgrounds.",
+          "when_to_use": [
+            "Primary text and headings on dark backgrounds",
+            "Brand logo and UI icon fills",
+            "Submit button backgrounds and input borders",
+            "Image loading placeholders (#EEEEEE)"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#EEEEEE",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F1F1F1",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.2601
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Eyebrow Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A medium gray used to establish typographic hierarchy and categorize content without competing with primary headings.",
+          "when_to_use": [
+            "Card category eyebrows ('Shop', 'Podcast', 'WATCH NOW')",
+            "Header navigation links",
+            "Form validation messages in the footer"
+          ]
+        },
+        "hex": "#888888",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#787878",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0186
+      },
+      {
+        "name": "Disclaimer Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A lighter, muted gray used to de-emphasize secondary legal text and contextual form messages.",
+          "when_to_use": [
+            "Newsletter signup disclaimers",
+            "Privacy policy link underlines",
+            "Form validation messages in the header banner"
+          ]
+        },
+        "hex": "#CACACA",
+        "alpha": null,
+        "shades": [],
+        "score": 0.002
+      },
+      {
+        "name": "Slate Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A mid-dark neutral gray specifically utilized to frame elements within mobile-specific interactive components.",
+          "when_to_use": [
+            "Background for mobile featured film cards in the hero carousel"
+          ]
+        },
+        "hex": "#646464",
+        "alpha": null,
+        "shades": [],
+        "score": 0
+      }
+    ],
+    "insights": [
+      "The palette is strictly monochromatic, relying exclusively on black, white, and grays to allow vibrant movie posters and trailers to serve as the only distinct sources of color.",
+      "A significant portion of the page uses inverted dark sections (hero, footer, banners), evoking a cinematic, theater-in-the-dark mood consistent with a film production company.",
+      "Grayscale shades are employed functionally for typographic hierarchy, with mathematically distinct grays assigned to eyebrows, disclaimers, and UI element backgrounds."
+    ]
+  }
+}

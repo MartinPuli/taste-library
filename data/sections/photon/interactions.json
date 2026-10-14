@@ -1,0 +1,53 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "marquee",
+      "scroll_reveal",
+      "hover_transform",
+      "video_background"
+    ],
+    "animations": [
+      {
+        "name": "link-color-transition",
+        "css": "transition: color 0.4s cubic-bezier(0.44, 0, 0.56, 1)",
+        "description": "Smooth color transition on navigation links and text links using a custom easing curve"
+      },
+      {
+        "name": "button-background-transition",
+        "css": "transition: background 0.2s ease",
+        "description": "Quick background color transition on button hover states"
+      },
+      {
+        "name": "marquee-scroll",
+        "css": "",
+        "description": "Horizontal scrolling ticker animation for the partner logos strip, JS-driven with translateX transforms"
+      },
+      {
+        "name": "scroll-reveal-fade-up",
+        "css": "",
+        "description": "Elements fade in and translate up on scroll intersection, JS-driven with opacity and translateY(40px) transform"
+      },
+      {
+        "name": "hero-image-crossfade",
+        "css": "",
+        "description": "Image gallery crossfade animation in hero section cycling through multiple background images, JS-driven"
+      }
+    ],
+    "insights": [
+      "The design system uses a stark black/white contrast palette with superellipse (squircle) border-radius on buttons, creating an Apple-inspired aesthetic that aligns with the iMessage platform focus.",
+      "Button styling consistently uses rounded-full (40px calc with corner-shape support) with inner box-shadow glow effects (rgba(255, 255, 255, 0.5) 0px 0px 5px 2px inset) for a subtle depth effect.",
+      "Motion design relies heavily on JS-driven animations (Framer) rather than CSS @keyframes, with transitions limited to simple properties like color (0.4s) and background (0.2s) using custom cubic-bezier easing."
+    ]
+  }
+}

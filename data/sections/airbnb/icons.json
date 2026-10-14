@@ -1,0 +1,77 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/airbnb.json",
+  "data": [
+    {
+      "name": "Line Art UI Icons",
+      "description": "Primary line art icon set used for navigation, controls, and general UI actions.",
+      "when_to_use": [
+        "Navigation bars",
+        "Buttons and links",
+        "Search inputs",
+        "Modals and overlays"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "12px",
+        "medium": "16px"
+      },
+      "examples": [
+        {
+          "name": "Search",
+          "svg_code": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;fill:none;height:16px;width:16px;stroke:currentColor;stroke-width:4;overflow:visible\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\"><path d=\"m20.666 20.666 10 10\"></path><path d=\"m24.0002 12.6668c0 6.2593-5.0741 11.3334-11.3334 11.3334-6.2592 0-11.3333-5.0741-11.3333-11.3334 0-6.2592 5.0741-11.3333 11.3333-11.3333 6.2593 0 11.3334 5.0741 11.3334 11.3333z\" fill=\"none\"></path></svg>"
+        },
+        {
+          "name": "Globe / Language",
+          "svg_code": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;fill:none;height:24px;width:24px;stroke:currentColor;stroke-width:2.6666666666666665;overflow:visible\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\"><g fill=\"none\"><circle cx=\"16\" cy=\"16\" r=\"14\"></circle><path d=\"m26.46 25.62c-1.58-2.81-4.26-4.9-7.46-5.73v-.72c1.79-1.04 3-2.96 3-5.17 0-3.31-2.69-6-6-6s-6 2.69-6 6c0 2.22 1.21 4.14 3 5.17v.72c-3.16.82-5.83 2.87-7.42 5.64\"></path></g></svg>"
+        },
+        {
+          "name": "Hamburger Menu",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;\"><g fill=\"none\"><path d=\"M2 16h28M2 24h28M2 8h28\"></path></g></svg>"
+        },
+        {
+          "name": "Arrow Right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" style=\"display:block;fill:none;height:16px;width:16px;stroke:currentColor;stroke-width:4;overflow:visible\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\"><g fill=\"none\"><path d=\"M28 16H2M17 4l11.3 11.3a1 1 0 0 1 0 1.4L17 28\"></path></g></svg>"
+        },
+        {
+          "name": "Close / X",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;\"><path d=\"m6 6 20 20M26 6 6 26\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Filled UI Icons",
+      "description": "Filled icons used for state indicators like ratings and favoriting.",
+      "when_to_use": [
+        "Wishlists and favorites",
+        "Review ratings",
+        "Active states"
+      ],
+      "format": "SVG",
+      "style": "Filled",
+      "sizes": {
+        "small": "8px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Heart / Favorite",
+          "svg_code": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: currentColor; stroke-width: 2; overflow: visible;\"><path d=\"m15.9998 28.6668c7.1667-4.8847 14.3334-10.8844 14.3334-18.1088 0-1.84951-.6993-3.69794-2.0988-5.10877-1.3996-1.4098-3.2332-2.11573-5.0679-2.11573-1.8336 0-3.6683.70593-5.0668 2.11573l-2.0999 2.11677-2.0988-2.11677c-1.3995-1.4098-3.2332-2.11573-5.06783-2.11573-1.83364 0-3.66831.70593-5.06683 2.11573-1.39955 1.41083-2.09984 3.25926-2.09984 5.10877 0 7.2244 7.16667 13.2241 14.3333 18.1088z\"></path></svg>"
+        },
+        {
+          "name": "Star / Rating",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" aria-hidden=\"true\" role=\"presentation\" focusable=\"false\" style=\"display: block; height: 8px; width: 8px; fill: currentcolor;\"><path fill-rule=\"evenodd\" d=\"m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

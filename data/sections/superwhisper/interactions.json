@@ -1,0 +1,91 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "accordion",
+      "hover_transform",
+      "video_background",
+      "parallax"
+    ],
+    "animations": [
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn{from{opacity:0}to{opacity:1}}",
+        "description": "Simple opacity fade-in animation used for page load and scroll reveal elements."
+      },
+      {
+        "name": "marquee",
+        "css": "@keyframes marquee{0%{transform:translateX(0)}to{transform:translateX(calc(-100% - var(--gap)))}}",
+        "description": "Continuous horizontal scroll animation for logo strips and partner showcases."
+      },
+      {
+        "name": "marquee-vertical",
+        "css": "@keyframes marquee-vertical{0%{transform:translateY(0)}to{transform:translateY(calc(-100% - var(--gap)))}}",
+        "description": "Vertical continuous scroll animation for testimonial or content strips."
+      },
+      {
+        "name": "bounce",
+        "css": "@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}",
+        "description": "Bouncing animation used on scroll indicator arrow at bottom of hero."
+      },
+      {
+        "name": "blink",
+        "css": "@keyframes blink{0%,49%{opacity:1}50%,to{opacity:0}}",
+        "description": "Cursor blink animation for text input caret simulation."
+      },
+      {
+        "name": "wave",
+        "css": "@keyframes wave{0%,to{transform:scaleY(1);opacity:1}25%{transform:scaleY(.2);opacity:.5}50%{transform:scaleY(1.15);opacity:1}75%{transform:scaleY(.5);opacity:.5}}",
+        "description": "Audio waveform visualization animation for the voice recording indicator."
+      },
+      {
+        "name": "mini-recorder-appear",
+        "css": "@keyframes mini-recorder-appear{0%{transform:translateY(10px) scale(0);opacity:0}to{transform:translateY(0) scale(1);opacity:1}}",
+        "description": "Entrance animation for the mini voice recorder component appearing on screen."
+      },
+      {
+        "name": "pill-select-mask-up",
+        "css": "@keyframes pill-select-mask-up{to{mask-size:calc(100% - 10px) 96px,100% 100%;-webkit-mask-size:calc(100% - 10px) 96px,100% 100%}}",
+        "description": "Scroll-linked mask animation for pill select dropdown scrolling effect."
+      },
+      {
+        "name": "hover-gradient",
+        "css": "transition: background-position 0.8s ease; background-size: 200% 200%; background-position: 0 0; background-image: linear-gradient(180deg, #050116 0, #112d72 30%, #4b68aa 45%, #87a7dc 64%, #9cacd0 88%, #fcdbef 98%)",
+        "description": "Twilight gradient background shift on hover for main interactive containers."
+      },
+      {
+        "name": "global-transition",
+        "css": "transition: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "description": "Default transition token applied to interactive elements for smooth state changes."
+      },
+      {
+        "name": "demo-container-intro",
+        "css": "",
+        "description": "JS-driven entrance animation for hero intro content with opacity and transform. Motion controlled via React/Framer."
+      },
+      {
+        "name": "time-switcher-highlight",
+        "css": "",
+        "description": "JS-driven sliding highlight indicator for the day/dusk/night time switcher buttons."
+      }
+    ],
+    "insights": [
+      "The design system leverages a high-contrast dark theme with extensive use of semi-transparent white overlays (white/10, white/20) to create depth and hierarchy without introducing new colors.",
+      "Button variations follow a consistent pill-to-rounded-lg radius pattern, with CTAs using more pronounced styling (filled backgrounds) while secondary actions use ghost/transparent treatments.",
+      "Motion design emphasizes smooth, cubic-bezier eased transitions (0.4, 0, 0.2, 1) with marquee animations for social proof elements and wave animations for the voice recording visualization, creating a cohesive motion language."
+    ]
+  }
+}

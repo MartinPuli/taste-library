@@ -1,0 +1,152 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "texture_classification": [
+      "glass_blur",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Global Nav Background (Light Scrim)",
+        "description": "Primary navigation bar background with opacity for glassmorphism effect",
+        "when_to_use": [
+          "Global navigation bar",
+          "Stuck navigation state",
+          "Light theme default"
+        ],
+        "hex": "#FAFAFC"
+      },
+      {
+        "name": "Global Nav Background (Dark Scrim)",
+        "description": "Dark theme navigation bar background with opacity for glassmorphism effect",
+        "when_to_use": [
+          "Global navigation bar dark mode",
+          "Dark theme navigation"
+        ],
+        "hex": "#161617"
+      },
+      {
+        "name": "Global Nav Open Background (Light)",
+        "description": "Solid background when navigation flyout is open",
+        "when_to_use": [
+          "Navigation flyout expanded state",
+          "Menu open state"
+        ],
+        "hex": "#FAFAFC"
+      },
+      {
+        "name": "Global Nav Open Background (Dark)",
+        "description": "Dark solid background when navigation flyout is open",
+        "when_to_use": [
+          "Navigation flyout expanded state dark mode",
+          "Menu open state dark"
+        ],
+        "hex": "#161617"
+      },
+      {
+        "name": "Footer Background (Light)",
+        "description": "Global footer background color",
+        "when_to_use": [
+          "Global footer",
+          "Footer sections",
+          "Light theme footer"
+        ],
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Footer Background (Dark)",
+        "description": "Dark theme footer background color",
+        "when_to_use": [
+          "Global footer dark mode",
+          "Footer sections dark theme"
+        ],
+        "hex": "#1D1D1F"
+      },
+      {
+        "name": "Buystrip Background (Light)",
+        "description": "Promotional buystrip section background",
+        "when_to_use": [
+          "Buystrip promotional sections",
+          "Marketing callout backgrounds"
+        ],
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Buystrip Background (Dark)",
+        "description": "Dark promotional buystrip section background",
+        "when_to_use": [
+          "Buystrip promotional sections dark mode",
+          "Marketing callout backgrounds dark"
+        ],
+        "hex": "#1D1D1F"
+      },
+      {
+        "name": "Curtain Background (Light)",
+        "description": "Modal curtain overlay with 40% opacity",
+        "when_to_use": [
+          "Modal overlays",
+          "Menu curtain backgrounds",
+          "Scrim overlays"
+        ],
+        "hex": "#E8E8ED"
+      },
+      {
+        "name": "Curtain Background (Dark)",
+        "description": "Dark modal curtain overlay with 40% opacity",
+        "when_to_use": [
+          "Modal overlays dark mode",
+          "Menu curtain backgrounds dark",
+          "Scrim overlays dark"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Search List Item Hover (Light)",
+        "description": "Search results and list item hover state background",
+        "when_to_use": [
+          "Search result hover states",
+          "List item interactive states"
+        ],
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Search List Item Hover (Dark)",
+        "description": "Dark search results and list item hover state background",
+        "when_to_use": [
+          "Search result hover states dark mode",
+          "List item interactive states dark"
+        ],
+        "hex": "#1D1D1F"
+      },
+      {
+        "name": "Glass Panel Surface",
+        "description": "Base color for glassmorphism surfaces with backdrop blur",
+        "when_to_use": [
+          "Flyout menus",
+          "Search panels",
+          "Floating navigation elements"
+        ],
+        "hex": "#FFFFFF"
+      }
+    ],
+    "gradients": [],
+    "highlights": [
+      "Glass blur panels: backdrop-filter: saturate(180%) blur(20px) with rgba(250, 250, 252, 0.8) light background or rgba(22, 22, 23, 0.8) dark background on navigation",
+      "Curtain scrim: backdrop-filter: blur(20px) over rgba(232, 232, 237, 0.4) light or rgba(0, 0, 0, 0.4) dark",
+      "Soft shadow effects with large blur radius throughout global navigation and flyout menus",
+      "Glassmorphism treatment on global navigation bar with variable opacity and backdrop blur support",
+      "Translucent scrim overlays with blur effects for modal states and menu transitions"
+    ]
+  }
+}

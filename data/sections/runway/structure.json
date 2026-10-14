@@ -1,0 +1,39 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Progress Divider",
+        "description": "Horizontal line with animated fill showing progress through tabbed content sections",
+        "when_to_use": [
+          "Between tab labels to show active state",
+          "Progress indicators"
+        ],
+        "color": "#E4E5E6",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Research Section Divider",
+        "description": "White semi-transparent horizontal line used between research link items on dark backgrounds",
+        "when_to_use": [
+          "Separating list items in dark sections",
+          "Visual grouping in footer-like areas"
+        ],
+        "color": "rgba(255, 255, 255, 0.95)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

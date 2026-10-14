@@ -1,0 +1,351 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Search (Primary Pill)",
+        "usage": "Main call-to-action in the search bar to initiate property searches",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "14px",
+              "padding": "0px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#F7F7F7",
+            "border_color": "#F7F7F7",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#323232",
+            "text_color": "#F7F7F7",
+            "border_color": "#F7F7F7",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "List on Wander (Secondary Pill)",
+        "usage": "Secondary action in navigation for property owners to list their homes",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "16px",
+              "padding": "0px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F0F0F0",
+            "text_color": "#202020",
+            "border_color": "#202020",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#EAEAEA",
+            "text_color": "#202020",
+            "border_color": "#202020",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Skip to search (Accessibility)",
+        "usage": "Screen reader accessible skip navigation button, appears on focus",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "16px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#F7F7F7",
+            "border_color": "#F7F7F7",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#323232",
+            "text_color": "#F7F7F7",
+            "border_color": "#F7F7F7",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Wishlist (Icon Heart)",
+        "usage": "Icon button on property cards to add/remove properties from wishlists",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "16px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#202020",
+            "border_color": "#202020",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#202020",
+            "border_color": "#202020",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Carousel Arrow (Secondary Circular)",
+        "usage": "Navigation arrows for horizontal property carousels on desktop",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "16px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#F0F0F0",
+            "text_color": "#202020",
+            "border_color": "#202020",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#EAEAEA",
+            "text_color": "#202020",
+            "border_color": "#202020",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "See more properties (Text Link)",
+        "usage": "Call-to-action link to view all properties below the property grid",
+        "specs": {
+          "radius": "rounded-none",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#202020",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#202020",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Card Slide Arrow (Circular)",
+        "usage": "Previous/next buttons overlaid on property card image carousels",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "16px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0F0",
+            "text_color": "#000000",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Where/When/Who (Search Bar Trigger)",
+        "usage": "Interactive segments in the search bar to open date/location/guest pickers",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "instrumentSans",
+              "size": "14px",
+              "padding": "10px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#636363",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F0F0F0",
+            "text_color": "#636363",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.3",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Carousel navigation buttons are grouped horizontally with consistent spacing",
+      "spacing": "4px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

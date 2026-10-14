@@ -1,0 +1,76 @@
+{
+  "id": "paper",
+  "source_url": "https://paper.design/",
+  "captured_at": "2026-10-14T08:54:59.527766Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/paper.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/paper.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "cursor",
+        "css": "@keyframes index-module_cursor__PQg0P { 50% { opacity: 0; } }",
+        "description": "Blinking cursor animation for typewriter text effect in hero section, toggling opacity at 50% with 1.1s duration."
+      },
+      {
+        "name": "marquee",
+        "css": "@keyframes marquee { 0% { transform: translate(0) } to { transform: translateX(var(--marquee-offset)) } }",
+        "description": "Horizontal scrolling animation for partner logo strips or continuous content loops."
+      },
+      {
+        "name": "cursor-reveal",
+        "css": "@keyframes cursor-reveal { 0% { opacity: 0; scale: .5 } to { opacity: 1; scale: 1 } }",
+        "description": "Entry animation for cursor chat bubbles, scaling and fading in from center."
+      },
+      {
+        "name": "cursor-exit",
+        "css": "@keyframes cursor-exit { 0% { opacity: 1; scale: 1 } to { opacity: 0; scale: .5 } }",
+        "description": "Exit animation for cursor chat bubbles, scaling and fading out to center."
+      },
+      {
+        "name": "enter",
+        "css": "@keyframes enter { 0% { filter: blur(5px); opacity: 0; transform: translateY(8px) } }",
+        "description": "Scroll reveal entrance animation with blur, fade, and upward slide. Uses staggered delays via CSS custom property."
+      },
+      {
+        "name": "terminal-chunk-in",
+        "css": "@keyframes terminal-chunk-in { 0% { opacity: 0; filter: blur(2px); transform: translateY(4px) } to { opacity: 1; filter: blur(); transform: translateY(0) } }",
+        "description": "Text chunk reveal animation for terminal-style content, with subtle blur and vertical slide."
+      },
+      {
+        "name": "doc-video-playback",
+        "css": "@keyframes doc-video-playback { 0% { opacity: 0; scale: .8 } 20% { opacity: 1; scale: 1 } 80% { opacity: 1; scale: 1 } to { opacity: 0; scale: .8 } }",
+        "description": "Video playback indicator animation with scale and fade for documentation videos."
+      },
+      {
+        "name": "btn-blue-transition",
+        "css": "transition: background .15s ease-out, transform .1s ease-out",
+        "description": "Button state transition for blue gradient buttons with separate timing for background and transform."
+      },
+      {
+        "name": "nav-transition",
+        "css": "transition: background-color 0.1s ease-out, box-shadow 0.1s ease-out",
+        "description": "Navigation bar background and shadow transition on scroll state change."
+      },
+      {
+        "name": "link-opacity-transition",
+        "css": "transition: opacity 0.15s ease-out",
+        "description": "Navigation link hover state opacity transition for subtle interaction feedback."
+      }
+    ],
+    "insights": [
+      "The design system uses a distinctive 'paper' aesthetic with warm cream backgrounds (#FCFCF9) and ink-black typography (#181818), creating a print-inspired digital brutalist feel.",
+      "Navigation implements a transparent-to-solid pattern on scroll, with background color and shadow animating independently for smooth state transitions.",
+      "The embedded application mockup (PUI) uses extensive CSS custom properties for theming, enabling seamless light/dark mode switching with variables like --pui-chrome, --pui-text, and --pui-hairline."
+    ]
+  }
+}

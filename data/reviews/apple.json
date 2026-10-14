@@ -1,0 +1,51 @@
+{
+  "id": "apple",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "Centered product title and blue calls to action sit above a large device image on black. A location notice occupies the top of the capture.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/viewport.jpg",
+    "sha256": "39cc899f507fca4b62e8b3b7eed6b75f1daa614342a15b20b29057ec54104c6c"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/styles.css",
+    "sha256": "cfdd69bff60fd563ed4dd17f201ca4a8524d37cd6062e1d65833596367d5aae5",
+    "bytes": 734135,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#1D1D1F",
+      "#000000",
+      "#2997FF",
+      "#F5F5F7",
+      "#6E6E73"
+    ],
+    "palette_literals_checked": [
+      "#1D1D1F",
+      "#000000",
+      "#2997FF",
+      "#F5F5F7",
+      "#6E6E73"
+    ],
+    "font_names_found": [
+      "SF Pro Display",
+      "SF Pro Text"
+    ],
+    "font_names_checked": [
+      "SF Pro Display",
+      "SF Pro Text"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "0da96ff25746f2f29c1bc386cbd76f432cdd81154b8c22047d54f068ed7fb643"
+}

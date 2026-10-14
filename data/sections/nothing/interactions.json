@@ -1,0 +1,89 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "video_background",
+      "scroll_reveal",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "scroll-left",
+        "css": "@keyframes scroll-left{0%{transform:translate(0)}to{transform:translate(-100%)}}",
+        "description": "Continuous horizontal scroll animation for marquee-style content, looping infinitely"
+      },
+      {
+        "name": "scroll-right",
+        "css": "@keyframes scroll-right{0%{transform:translate(0)}to{transform:translate(100%)}}",
+        "description": "Continuous horizontal scroll animation in reverse direction for alternating marquee rows"
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin{to{transform:rotate(360deg)}}",
+        "description": "Full rotation animation for loading spinners"
+      },
+      {
+        "name": "pulse",
+        "css": "@keyframes pulse{50%{opacity:.5}}",
+        "description": "Pulsing opacity animation for loading states or attention indicators"
+      },
+      {
+        "name": "lds-ellipsis1",
+        "css": "@keyframes lds-ellipsis1{0%{transform:scale(0)}to{transform:scale(1)}}",
+        "description": "Scale-in animation for loading ellipsis dots in cookie consent popup"
+      },
+      {
+        "name": "lds-ellipsis2",
+        "css": "@keyframes lds-ellipsis2{0%{transform:translate(0)}to{transform:translate(19px)}}",
+        "description": "Horizontal translation for loading ellipsis middle dots"
+      },
+      {
+        "name": "lds-ellipsis3",
+        "css": "@keyframes lds-ellipsis3{0%{transform:scale(1)}to{transform:scale(0)}}",
+        "description": "Scale-out animation for loading ellipsis dots"
+      },
+      {
+        "name": "button-hover-transition",
+        "css": "transition: all 0.2s ease-in-out",
+        "description": "Smooth transition for button hover states including opacity and background changes"
+      },
+      {
+        "name": "image-opacity-transition",
+        "css": "transition-duration: 300ms; transition-property: opacity",
+        "description": "Fade-in transition for lazy-loaded product images"
+      },
+      {
+        "name": "footer-link-transition",
+        "css": "transition: opacity 0.1s ease",
+        "description": "Quick opacity transition for footer navigation link hover states"
+      },
+      {
+        "name": "accordion-content-transition",
+        "css": "transition: all .1s ease-in-out; transition-property: opacity, max-height, transform, visibility, padding-bottom",
+        "description": "Smooth expand/collapse animation for accordion content in cookie consent preferences"
+      },
+      {
+        "name": "radio-option-transition",
+        "css": "transition: background-color .2s, border-color .2s; transition-timing-function: ease",
+        "description": "Color transition for radio button options in consent forms"
+      }
+    ],
+    "insights": [
+      "The design system uses a strict monochromatic palette with #000000 for text and #040404 (Pure Black) for heavy UI surfaces, creating deep contrast against white/light backgrounds",
+      "Glassmorphism is a core visual pattern using 'frost-white-intense' classes with backdrop-blur for product cards and navigation overlays, creating depth without sacrificing readability",
+      "Button radius varies intentionally by context: rounded-md (6px) for product CTAs, rounded-lg (8px) for location selector, and rounded-none for cookie consent modal buttons - suggesting legacy third-party components vs native design system"
+    ]
+  }
+}

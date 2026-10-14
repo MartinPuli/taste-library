@@ -1,0 +1,50 @@
+{
+  "id": "sandbar",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "Close product photography fills the background while a centered cream newsletter dialog occupies the foreground.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/viewport.jpg",
+    "sha256": "4786f7b4568301c785a41ca29fcce293c9eda8cc32f4d02e7f7bd11b805e6df0"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/styles.css",
+    "sha256": "55ed6166d82bd3921bd5d3eb062ad2a2edcbf376140cbb8ef28277ef7cd357a1",
+    "bytes": 263819,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#0C0B0B",
+      "#FFFFFF",
+      "#6F6E6E",
+      "#FCFAE9",
+      "#000000"
+    ],
+    "palette_literals_checked": [
+      "#0C0B0B",
+      "#FFFFFF",
+      "#6F6E6E",
+      "#FCFAE9",
+      "#000000"
+    ],
+    "font_names_found": [
+      "Messina Sans"
+    ],
+    "font_names_checked": [
+      "Messina Sans",
+      "System Sans"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "e2191be5ff96e6a28dc60b3314888776d9924b53e5c65da160e42fc25a2455b3"
+}

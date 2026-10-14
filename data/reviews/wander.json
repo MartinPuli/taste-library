@@ -1,0 +1,54 @@
+{
+  "id": "wander",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A scenic accommodation hero sits above image-rich property cards, with a compact search bar over the photograph.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/viewport.jpg",
+    "sha256": "a262741f87bb78a9d54d967e8c7684e6b7430922ffbb5a271b0e5e0f1e6a79c7"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/styles.css",
+    "sha256": "67e32cbbb2850c9f20f8c93a9340aec3fcda62479be5b68f461d2bfe335a4aa5",
+    "bytes": 412285,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#202020",
+      "#000000",
+      "#636363",
+      "#F7F7F7",
+      "#008433"
+    ],
+    "palette_literals_checked": [
+      "#202020",
+      "#000000",
+      "#636363",
+      "#F7F7F7",
+      "#008433"
+    ],
+    "font_names_found": [
+      "instrumentSans",
+      "SFMono-Regular"
+    ],
+    "font_names_checked": [
+      "instrumentSans",
+      "SFMono-Regular"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": [
+      "icons",
+      "assets"
+    ]
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "f28b881ffad81fcd1ae83639273f622f2367758d3ef194bbd910069646cc8b95"
+}

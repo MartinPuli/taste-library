@@ -2,31 +2,49 @@
 
 Study the hierarchy of X’s public sign-in and registration page.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 30 · Captured 2026-10-14T08:54:30.833239Z · Login/Signup Page
 
-| Field | Value |
-|---|---|
-| Cosign rank | 30 |
-| Captured page | Login/Signup Page |
-| Capture time (UTC) | 2026-10-14T08:54:30.833239Z |
-| Suggested uses | authentication |
-| Visual approach | monochrome |
+[Original website](https://x.com/) · [Full extraction](../data/raw/twitter.json) · [Review record](../data/reviews/twitter.json)
 
-## Details to compare
+[Small visual preview](../data/previews/twitter.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/full.jpg)
 
-- Detected type families: TwitterChirp, SFMono-Regular.
-- Recorded palette: #0F141A, #000000, #E4EAEC, #79716B, #3C4043.
-- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "80rem"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+The saved X registration page pairs a large black X with stacked sign-in buttons and an email field on white.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://x.com/) · [Extraction](../data/raw/twitter.json) · [Tokens](../data/tokens/twitter.json)
+Project types: authentication. Styles: monochrome. These are editorial tags.
 
-```sh
-python3 scripts/query.py show twitter --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study the hierarchy of X’s public sign-in and registration page. Evidence: [layout](../data/sections/twitter/layout.json), [sections](../data/sections/twitter/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/twitter/actions.json).
+
+## Content to bring
+
+The actual account-entry options and form requirements for your product. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/twitter/profile.json)
+- [Layout](../data/sections/twitter/layout.json)
+- [Colors](../data/sections/twitter/colors.json)
+- [Typography](../data/sections/twitter/typography.json)
+- [Surfaces](../data/sections/twitter/surfaces.json)
+- [Elevation](../data/sections/twitter/elevation.json)
+- [Interactions](../data/sections/twitter/interactions.json)
+- [Actions](../data/sections/twitter/actions.json)
+- [Navigation](../data/sections/twitter/navigation.json) · no observed data
+- [Data Display](../data/sections/twitter/data_display.json)
+- [Structure](../data/sections/twitter/structure.json)
+- [Icons](../data/sections/twitter/icons.json)
+- [Assets](../data/sections/twitter/assets.json)
+- [Brand Assets](../data/sections/twitter/brand_assets.json)
+- [Sections](../data/sections/twitter/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

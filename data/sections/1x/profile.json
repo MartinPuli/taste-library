@@ -1,0 +1,58 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "brand_name": "1X Technologies",
+    "tagline": null,
+    "source_url": "https://www.1x.tech",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Robotics / AI",
+    "primary_purpose": "Introduce the NEO home robot and drive pre-orders while attracting talent and building brand awareness",
+    "main_cta": "Order",
+    "copy_tone": [
+      "Refined",
+      "Futuristic",
+      "Human-centered"
+    ],
+    "brand_signature": "A sophisticated, minimalist visual identity featuring full-viewport imagery with soft, muted tones and humanoid robot photography. The design employs elegant typography with generous negative space, creating a premium yet approachable aesthetic that bridges technology and humanity.",
+    "visual_language": {
+      "keywords": [
+        "minimalist",
+        "cinematic",
+        "soft industrial",
+        "humanoid",
+        "premium",
+        "editorial"
+      ],
+      "accent_strategy": "Muted neutral palette dominated by warm grays (#413E3E) and soft frost tones (#F8F8F8) with subtle transparency effects on text and UI elements",
+      "highlights": "Full-bleed hero imagery with soft shadows and blur effects to create depth and focus; humanoid robots photographed alongside humans to emphasize connection"
+    },
+    "strategy": {
+      "target_audience": [
+        "Tech-forward early adopters seeking premium home robotics solutions",
+        "Prospective employees in robotics, AI, and engineering looking for cutting-edge career opportunities",
+        "Investors and media interested in the future of humanoid robotics"
+      ],
+      "executive_synthesis": "1X Technologies positions itself at the intersection of premium consumer technology and accessible robotics through a visual strategy that humanizes their NEO robot. The editorial photography style—showing robots alongside humans in intimate, lifestyle contexts—directly addresses the primary barrier to home robot adoption: the uncanny valley. By employing soft, warm tones and cinematic compositions, the brand signals luxury positioning ($200 deposit pre-order model) while the careers-focused hero section (88 open roles) communicates rapid growth and attracts top talent in a competitive market."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The visual impression is one of extreme refinement and technological sophistication—a premium robotics brand showcasing humanoid robots through immersive, full-bleed photography against muted, neutral backgrounds. The design communicates futuristic technology with warmth and approachability.\n\n**Shape & Texture Analysis (PRIMARY signals):**\n- Texture classification shows \"gradient_linear\" and \"glass_blur\" effects\n- The glassmorphism effects (backdrop-filter blur 60px on header, blur overlays) suggest a contemporary digital aesthetic\n- However, the shapes are predominantly Geometric (rounded pill buttons, clean rectangular sections) and the texture effects are subtle rather than dominant\n- No glass transparency panels as main UI elements—blur is used for subtle depth, not as the primary design language\n\n**Color Analysis:**\n- Heavily monochromatic: near-black (#0A0A0A) ink, frost whites (#F8F8F8, #E5E5E5), charcoal surfaces (#222222)\n- Strategic use of opacity (72% black for softer text) creates sophisticated layering\n- Bold, saturated colors are completely absent—this is pure neutral territory\n- The warm beige gradients add subtle warmth without color\n\n**Typography:**\n- ABCDiatype (Dinamo foundry)—a highly geometric, modern sans-serif family\n- Clean, rational letterforms with tight negative letter-spacing (-0.04em)\n- Sans-serif throughout with clear hierarchy (44px hero down to 9px micro)\n- This matches Flat Design's \"Sans-Serif Modern, Geometric\" specification perfectly\n\n**Layout:**\n- Generous whitespace with centered/symmetric composition\n- Full-viewport hero sections (100vh)\n- Grid-Based Strict: 12-column grid with 32px gutters, max-width 2036px\n- Clean mathematical clarity in spacing and proportions\n\n**Why Flat Design (not Glassmorphism or Swiss Style):**\n- While glass effects exist, they're subtle utility features (header blur), not the defining visual language\n- No frosted transparency panels with visible content behind them\n- The design is fundamentally FLAT: clean surfaces, no heavy shadows, no 3D embossing\n- Color is bold and saturated within its monochromatic constraints (pure blacks, crisp whites)\n- Differs from Swiss Style: no typography-driven hierarchy, no flush-left alignment, not strictly informational",
+      "secondary_style": "Luxurious",
+      "reasoning_secondary": "The **Luxurious** modifier applies due to:\n- Extreme restraint and negative space signaling premium positioning\n- Premium product photography with soft, studio-quality lighting\n- Sophisticated use of opacity states (72% black) creating visual refinement\n- Custom proprietary typeface (ABCDiatype from Dinamo) rather than system fonts\n- Warm undertones in gradients (#EAE4E1, #F9F5F2) adding subtle warmth to the monochromatic palette\n- $200 deposit positioning and \"high-tech\" robotics category suggest premium market positioning\n- The overall mood evokes Apple-level product design sophistication"
+    }
+  }
+}

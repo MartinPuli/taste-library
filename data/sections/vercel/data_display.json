@@ -1,0 +1,38 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Feature Card",
+        "description": "Large interactive cards showcasing product features with imagery, gradient overlays, and descriptive text",
+        "when_to_use": [
+          "Product feature highlights",
+          "Recently shipped section",
+          "Visual storytelling with images"
+        ]
+      },
+      {
+        "name": "Customer Stat Tile",
+        "description": "Section with customer logo, statistic highlight, and feature list",
+        "when_to_use": [
+          "Customer success stories",
+          "Social proof sections",
+          "Platform capability demonstrations"
+        ]
+      }
+    ]
+  }
+}

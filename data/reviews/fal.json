@@ -1,0 +1,57 @@
+{
+  "id": "fal",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A cyan hero combines oversized black type with yellow and purple geometric marks. A cookie panel overlaps the lower-left corner.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/viewport.jpg",
+    "sha256": "69ec96a6d5ef48efbd7d24494a62b062399cd24efce0d0047b3daec88a8ca71b"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/styles.css",
+    "sha256": "1a41720a6163adce76a2a7fa4fdc41b4692f45e2fd637925a6f199c0eb3e38e2",
+    "bytes": 598467,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#FFFFFF",
+      "#161618",
+      "#111827",
+      "#121216",
+      "#000000",
+      "#5718C0",
+      "#115EF3"
+    ],
+    "palette_literals_checked": [
+      "#FFFFFF",
+      "#161618",
+      "#111827",
+      "#121216",
+      "#000000",
+      "#5718C0",
+      "#115EF3"
+    ],
+    "font_names_found": [
+      "focal",
+      "publicSansRounded",
+      "Chivo Mono"
+    ],
+    "font_names_checked": [
+      "focal",
+      "publicSansRounded",
+      "Chivo Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "781501acb88b3f9949748e4cbb460c733c9236395552583dda403a4892638c57"
+}

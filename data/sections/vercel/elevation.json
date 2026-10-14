@@ -1,0 +1,367 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Ds Shadow Border Large",
+          "type": "drop",
+          "description": "Composite shadow with 1px border ring, subtle 2px blur, 16px blur offset, and background highlight ring. Used for large bordered containers.",
+          "css_value": "0 0 0 1px #00000014, 0px 2px 2px #0000000a, 0px 8px 16px -4px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Large cards",
+            "Featured content containers",
+            "Hero sections"
+          ]
+        },
+        {
+          "name": "Tw Inset Ring Shadow",
+          "type": "drop",
+          "description": "Transparent placeholder shadow used as base for Tailwind ring utilities.",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Base shadow reset",
+            "Ring utility initialization"
+          ]
+        },
+        {
+          "name": "Header Border Bottom",
+          "type": "drop",
+          "description": "Subtle 1px bottom border shadow for header separation with 10% black opacity.",
+          "css_value": "0 1px 0 0 #0000001a",
+          "when_to_use": [
+            "Header bottom borders",
+            "Section dividers"
+          ]
+        },
+        {
+          "name": "Dropdown Box Shadow",
+          "type": "drop",
+          "description": "Very subtle 4px blur dropdown shadow with minimal 2% opacity.",
+          "css_value": "0 4px 4px 0 #00000005",
+          "when_to_use": [
+            "Dropdowns",
+            "Light overlays"
+          ]
+        },
+        {
+          "name": "Ds Focus Ring",
+          "type": "drop",
+          "description": "Focus ring with white inner ring (2px) and blue outer ring (4px) for accessibility.",
+          "css_value": "0 0 0 2px hsla(0, 0%, 100%, 1), 0 0 0 4px hsla(212, 100%, 48%, 1)",
+          "when_to_use": [
+            "Focus states",
+            "Keyboard navigation indicators",
+            "Interactive element focus"
+          ]
+        },
+        {
+          "name": "Ds Shadow Large",
+          "type": "drop",
+          "description": "Large elevation shadow with 2px close shadow and 16px distant shadow for floating elements.",
+          "css_value": "0px 2px 2px #0000000a, 0px 8px 16px -4px #0000000a",
+          "when_to_use": [
+            "Large cards",
+            "Floating panels",
+            "Elevated sections"
+          ]
+        },
+        {
+          "name": "Ds Shadow Border Small",
+          "type": "drop",
+          "description": "Small bordered shadow with 1px ring, 2px blur, and background highlight.",
+          "css_value": "0 0 0 1px #00000014, 0px 2px 2px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Small cards",
+            "Compact UI elements",
+            "Badges"
+          ]
+        },
+        {
+          "name": "Shadow Sticky",
+          "type": "drop",
+          "description": "Shadow for sticky elements with 12px blur offset downward and 12% opacity.",
+          "css_value": "0 12px 10px -10px #0000001f",
+          "when_to_use": [
+            "Sticky headers",
+            "Pinned elements",
+            "Scroll shadows"
+          ]
+        },
+        {
+          "name": "Ds Shadow Background Border",
+          "type": "drop",
+          "description": "Single 1px background-colored ring for subtle container definition.",
+          "css_value": "0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Background borders",
+            "Light container outlines"
+          ]
+        },
+        {
+          "name": "Shadow Large",
+          "type": "drop",
+          "description": "Large dramatic shadow with 60px blur and 12% opacity for prominent elevation.",
+          "css_value": "0 30px 60px #0000001f",
+          "when_to_use": [
+            "Hero cards",
+            "Featured content",
+            "Marketing sections"
+          ]
+        },
+        {
+          "name": "Ds Shadow Small",
+          "type": "drop",
+          "description": "Minimal 2px blur shadow with 4% opacity for subtle lift.",
+          "css_value": "0px 2px 2px #0000000a",
+          "when_to_use": [
+            "Small UI components",
+            "Buttons",
+            "Input fields"
+          ]
+        },
+        {
+          "name": "Shadow Medium",
+          "type": "drop",
+          "description": "Medium elevation with 30px blur and 12% opacity.",
+          "css_value": "0 8px 30px #0000001f",
+          "when_to_use": [
+            "Cards",
+            "Dialogs",
+            "Medium-sized overlays"
+          ]
+        },
+        {
+          "name": "Ds Shadow Xl",
+          "type": "drop",
+          "description": "Extra large shadow with three layers: 1px subtle, 8px mid, and 24px distant shadows.",
+          "css_value": "0px 1px 1px #00000005, 0px 4px 8px -4px #0000000a, 0px 16px 24px -8px #0000000f",
+          "when_to_use": [
+            "Large floating elements",
+            "Drawers",
+            "Side panels"
+          ]
+        },
+        {
+          "name": "Ds Shadow Modal",
+          "type": "drop",
+          "description": "Modal elevation with border rings and three shadow layers for prominent floating.",
+          "css_value": "0 0 0 1px #00000014, 0px 1px 1px #00000005, 0px 8px 16px -4px #0000000a, 0px 24px 32px -8px #0000000f, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Modals",
+            "Dialog boxes",
+            "Confirmation dialogs"
+          ]
+        },
+        {
+          "name": "Ds Shadow Medium",
+          "type": "drop",
+          "description": "Medium shadow with 2px close and 8px distant layers.",
+          "css_value": "0px 2px 2px #0000000a, 0px 8px 8px -8px #0000000a",
+          "when_to_use": [
+            "Medium cards",
+            "Popovers",
+            "Dropdowns"
+          ]
+        },
+        {
+          "name": "Ds Shadow Border Medium",
+          "type": "drop",
+          "description": "Medium bordered shadow with ring, two shadow layers, and background highlight.",
+          "css_value": "0 0 0 1px #00000014, 0px 2px 2px #0000000a, 0px 8px 8px -8px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Medium cards with borders",
+            "Content sections"
+          ]
+        },
+        {
+          "name": "Ds Shadow 2xl",
+          "type": "drop",
+          "description": "2XL shadow with three progressive layers for maximum elevation.",
+          "css_value": "0px 1px 1px #00000005, 0px 8px 16px -4px #0000000a, 0px 24px 32px -8px #0000000f",
+          "when_to_use": [
+            "Full-screen overlays",
+            "Major modals",
+            "Lightboxes"
+          ]
+        },
+        {
+          "name": "Ds Shadow Border",
+          "type": "drop",
+          "description": "Dual ring border shadow with subtle black and background-colored rings.",
+          "css_value": "0 0 0 1px #00000014, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Standard bordered containers",
+            "Cards"
+          ]
+        },
+        {
+          "name": "Ds Shadow Border Base",
+          "type": "drop",
+          "description": "Simple 1px border ring with 8% opacity.",
+          "css_value": "0 0 0 1px #00000014",
+          "when_to_use": [
+            "Base borders",
+            "Minimal container outlines"
+          ]
+        },
+        {
+          "name": "Drop Shadow Lg",
+          "type": "drop",
+          "description": "Large drop shadow with 4px blur and 15% opacity.",
+          "css_value": "0 4px 4px #00000026",
+          "when_to_use": [
+            "Elevated buttons",
+            "Action items"
+          ]
+        },
+        {
+          "name": "Shadow Smallest",
+          "type": "drop",
+          "description": "Smallest shadow with 4px blur and 10% opacity.",
+          "css_value": "0px 2px 4px #0000001a",
+          "when_to_use": [
+            "Micro components",
+            "Subtle elevation"
+          ]
+        },
+        {
+          "name": "Ds Shadow Border Inset",
+          "type": "inset",
+          "description": "Inset 1px border ring for inner shadows and pressed states.",
+          "css_value": "inset 0 0 0 1px #00000014",
+          "when_to_use": [
+            "Inset containers",
+            "Pressed button states",
+            "Inner borders"
+          ]
+        },
+        {
+          "name": "Ds Shadow Tooltip",
+          "type": "drop",
+          "description": "Tooltip shadow with border ring and two blur layers for floating hints.",
+          "css_value": "0 0 0 1px #00000014, 0px 1px 1px #00000005, 0px 4px 8px #0000000a, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Tooltips",
+            "Hover hints",
+            "Info popovers"
+          ]
+        },
+        {
+          "name": "Ds Shadow Xs",
+          "type": "drop",
+          "description": "Extra small shadow with 2px blur for minimal lift.",
+          "css_value": "0px 1px 2px #0000000a",
+          "when_to_use": [
+            "Tags",
+            "Chips",
+            "Small interactive elements"
+          ]
+        },
+        {
+          "name": "Ds Shadow 2xs",
+          "type": "drop",
+          "description": "Minimal 1px shadow for subtle depth.",
+          "css_value": "0px 1px 1px #0000000a",
+          "when_to_use": [
+            "Micro UI elements",
+            "Subtle separators"
+          ]
+        },
+        {
+          "name": "Shadow Small",
+          "type": "drop",
+          "description": "Small shadow with 10px blur and 12% opacity.",
+          "css_value": "0 5px 10px #0000001f",
+          "when_to_use": [
+            "Small cards",
+            "Buttons",
+            "Interactive elements"
+          ]
+        },
+        {
+          "name": "Drop Shadow Md",
+          "type": "drop",
+          "description": "Medium drop shadow with 3px blur and 12% opacity.",
+          "css_value": "0 3px 3px #0000001f",
+          "when_to_use": [
+            "Medium components",
+            "Hover states"
+          ]
+        },
+        {
+          "name": "Shadow Extra Small",
+          "type": "drop",
+          "description": "Extra small shadow with 8px blur and 12% opacity.",
+          "css_value": "0px 4px 8px #0000001f",
+          "when_to_use": [
+            "Small overlays",
+            "Compact popovers"
+          ]
+        },
+        {
+          "name": "Ds Focus Border",
+          "type": "drop",
+          "description": "Dark focus border with 1px inner ring and 4px outer ring.",
+          "css_value": "0 0 0 1px #00000057, 0px 0px 0px 4px #00000029",
+          "when_to_use": [
+            "Dark theme focus states",
+            "High contrast focus indicators"
+          ]
+        },
+        {
+          "name": "Ds Shadow Menu",
+          "type": "drop",
+          "description": "Menu shadow with border rings and three progressive shadow layers.",
+          "css_value": "0 0 0 1px #00000014, 0px 1px 1px #00000005, 0px 4px 8px -4px #0000000a, 0px 16px 24px -8px #0000000f, 0 0 0 1px hsla(0, 0%, 98%, 1)",
+          "when_to_use": [
+            "Dropdown menus",
+            "Context menus",
+            "Navigation menus"
+          ]
+        },
+        {
+          "name": "Ds Shadow Modal Elevated",
+          "type": "drop",
+          "description": "Highly elevated modal shadow with four layers for maximum prominence.",
+          "css_value": "0px 0px 0px 1px #00000014, 0px 32px 72px -12px #0000000f, 0px 8px 32px -12px #00000014, 0px 8px 24px -12px #0000001f",
+          "when_to_use": [
+            "Priority modals",
+            "Important dialogs",
+            "Alert overlays"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#EAEAEA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#00000014",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#0000001A",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

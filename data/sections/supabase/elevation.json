@@ -1,0 +1,56 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Toast Shadow",
+          "type": "drop",
+          "description": "10% black opacity, 4px Y offset, 12px blur - used for toast notifications",
+          "css_value": "rgba(0, 0, 0, 0.1) 0px 4px 12px",
+          "when_to_use": [
+            "Toast notifications",
+            "Styled toasts"
+          ]
+        },
+        {
+          "name": "Toast Focus Ring",
+          "type": "drop",
+          "description": "Composite shadow with 10% opacity blur and 20% opacity ring - used for focus state on toasts",
+          "css_value": "rgba(0, 0, 0, 0.1) 0px 4px 12px, rgba(0, 0, 0, 0.2) 0px 0px 0px 2px",
+          "when_to_use": [
+            "Toast focus visible state",
+            "Close button focus state"
+          ]
+        },
+        {
+          "name": "Button Focus Ring",
+          "type": "drop",
+          "description": "40% black opacity focus ring - used for button focus states",
+          "css_value": "rgba(0, 0, 0, 0.4) 0px 0px 0px 2px",
+          "when_to_use": [
+            "Button focus visible state"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#EDEDED",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

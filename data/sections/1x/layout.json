@@ -1,0 +1,39 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "layout",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/layout",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "classification": [
+      "generous_whitespace",
+      "centered_symmetric"
+    ],
+    "grid": {
+      "columns": 12,
+      "gutter": "32px",
+      "max_width": "2036px"
+    },
+    "breakpoints": {
+      "mobile": "0px - 767px (Variable columns, 20-32px gutter)",
+      "tablet": "768px - 1023px (8 columns, 32px gutter)",
+      "desktop": "1024px - 1199px (12 columns, 32px gutter)",
+      "large": "1200px+ (12 columns, 40px gutter, 2036px max-width)"
+    },
+    "section_separation": "Full-bleed sections with no visible dividers between hero blocks; sections separated by distinct background colors (light gray #f7f7f7, dark navy #222, soft blue backgrounds); footer separated by 1px border-top in light gray with alternating background from dark to light",
+    "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│  [LOGO]    NEO  AI  FACTORY  STORES  CAREERS  ABOUT    ORDER│\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO SECTION 1]                      │\n│                                                          │\n│  NEO Home Robot                                          │\n│                                                          │\n│        [Three white humanoid robots in row]              │\n│        [Blue, Beige, Black heads with oval faces]        │\n│                                                          │\n│                          $200 Deposit [Order]            │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO SECTION 2]                      │\n│                                                          │\n│  Careers 88 Open roles                                   │\n│                                                          │\n│        [Human with beige robot on shoulder]              │\n│        [Blue background lifestyle photo]                 │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                    [HERO SECTION 3]                      │\n│                                                          │\n│  Experience NEO                                          │\n│                                                          │\n│        [Robot foot on yellow platform device]            │\n│        [Dark navy background]                            │\n│                                     [Book demo]          │\n│                                     [Get notified]       │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n┌──────────────────────────────────────────────────────────┐\n│                       [FOOTER]                           │\n│                                                          │\n│  ⊗  ⊕  ⊖                                                │\n│                                                          │\n│  1X © 2025                                               │\n│                                                          │\n│  NEO            LINKEDIN        TERMS OF USE             │\n│  CAREERS        YOUTUBE         PRIVACY & COOKIES        │\n│  AI             INSTAGRAM       PRESS                    │\n│  FACTORY        TIKTOK          INVESTOR RELATIONS       │\n│  ABOUT                          SUPPORT                  │\n│  STORES         X                                        │\n│  ROBOT FLEET                                             │\n│  JOBS                                                    │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nNAV:\n- Background: Light gray/off-white, minimal, floating\n- Typography: Ultra-minimal, light gray text, widely spaced\n- Logo: Simple \"1X\" mark in dark gray, top left\n- Buttons/CTAs: \"ORDER\" (text link, top right, dark text)\n- Colors: Soft neutrals, high contrast black text on light background\n\nHERO SECTION 1 (NEO Home Robot):\n- Background: Very light gray, almost white, clean studio aesthetic\n- Imagery: Three humanoid robots in a row (blue-gray, beige, black heads), minimalist product photography, frontal pose, soft shadows\n- Typography: \"NEO\" in bold, \"Home Robot\" in lighter weight, left-aligned\n- Buttons/CTAs: \"$200 Deposit\" (text label, gray) | \"Order\" (solid black pill button, white text)\n- Colors: Neutral whites, soft grays, black accents\n- Components: Product hero with clean minimalist styling\n\nHERO SECTION 2 (Careers):\n- Background: Soft blue backdrop, professional studio photography\n- Imagery: Human male with beige humanoid robot on shoulder, intimate lifestyle shot, photographic realism\n- Typography: \"Careers\" in bold white, \"88 Open roles\" in lighter weight, left-aligned\n- Colors: Soft blues, warm beige robot, natural skin tones\n- Components: Lifestyle photography emphasizing human-robot interaction\n\nHERO SECTION 3 (Experience NEO):\n- Background: Dark navy/slate blue, moody product shot\n- Imagery: Close-up of white robot foot/leg on yellow-orange stepped platform device, dramatic angle\n- Typography: \"Experience\" in light weight, \"NEO\" in bold, white text, left-aligned\n- Buttons/CTAs: \"Book demo\" (text in small yellow box) | \"Get notified\" (text link, light gray)\n- Colors: Deep navy blue, bright yellow-orange platform, white robot\n- Components: Dramatic product detail shot, strong color accent\n\nFOOTER:\n- Background: Light gray/off-white matching nav\n- Typography: Minimal, light gray, organized in columns\n- Social icons: Three circular outline icons (X/Twitter, Instagram, LinkedIn)\n- Layout: Multi-column link structure\n- Links organized by category: Company (NEO, CAREERS, AI, FACTORY, ABOUT, STORES, ROBOT FLEET, JOBS) | Social (LINKEDIN, YOUTUBE, INSTAGRAM, TIKTOK, X) | Legal/Resources (TERMS OF USE, PRIVACY & COOKIES, PRESS, INVESTOR RELATIONS, SUPPORT)\n- Colors: Soft gray text on light background\n- Copyright: \"1X © 2025\" in small text\n\nOVERALL DESIGN LANGUAGE:\n- Minimalist, premium aesthetic\n- Heavy use of whitespace and breathing room\n- Muted color palette with strategic accent colors\n- Full-bleed photography\n- Sans-serif typography throughout\n- Clean, modern tech brand styling",
+    "insights": [
+      "Extreme minimalism with full-viewport hero sections creating immersive product experiences—each section occupies 100vh with generous negative space around centered content",
+      "Typography hierarchy is subtle and restrained: 40-44px headlines with very light weight (400), minimal tracking (-0.03em to -0.04em), and strategic opacity states (60% for secondary text) to create visual depth without heavy contrast",
+      "Layout uses a fixed max-width container (2036px) at XL breakpoint with symmetrical padding, maintaining centered composition across all screen sizes while allowing full-bleed imagery to extend edge-to-edge",
+      "Translucent overlays and backdrop blur effects (blur(60px) on header, opacity 0.72 on text) create layered depth while maintaining readability over complex imagery—consistent with premium tech brand aesthetic"
+    ]
+  }
+}

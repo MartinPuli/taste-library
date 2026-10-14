@@ -1,0 +1,160 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The undisputed core anchor of the design, providing maximum contrast for text and primary actions.",
+          "when_to_use": [
+            "Primary CTA backgrounds (e.g., 'Sign up' and 'Play' buttons)",
+            "Main typography, including hero headings and body copy",
+            "Iconography strokes and interactive borders"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Surface Whites & Creams",
+        "type": "Light",
+        "rules": {
+          "description": "A comprehensive suite of surface colors ranging from pure white to warm cream, dictating the structural hierarchy of the page without using heavy lines.",
+          "when_to_use": [
+            "Base page background (#FDFCFC)",
+            "Large feature sections and bento box card backgrounds (#F5F3F1 'Cream')",
+            "Floating agent widgets and secondary CTA buttons (#FFFFFF)",
+            "Subtle structural dividers and borders (#EBE8E4)"
+          ]
+        },
+        "hex": "#E5E5E5",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#EBE8E4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5F3F1",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FDFCFC",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F0F0F0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FFF9F5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F5F8FF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E0DFDD",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D7D2CC",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.6166999999999998
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Secondary Slate",
+        "type": "Warm Color",
+        "rules": {
+          "description": "The primary utility gray for establishing typographic hierarchy, keeping secondary information legible without competing with headings.",
+          "when_to_use": [
+            "Paragraph descriptions under feature headings",
+            "Footer category headers and inactive footer links",
+            "Timestamps and metadata on blog cards"
+          ]
+        },
+        "hex": "#777169",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0508
+      },
+      {
+        "name": "Tertiary Gray",
+        "type": "Warm Color",
+        "rules": {
+          "description": "A soft, low-contrast gray reserved for tertiary UI hints and disabled or subtle states.",
+          "when_to_use": [
+            "Voice carousel arrow controls (Previous/Next)",
+            "Transcript inline cues (e.g., '[sarcastically]')",
+            "Chevron icons inside form dropdowns"
+          ]
+        },
+        "hex": "#A59F97",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0042
+      },
+      {
+        "name": "Charcoal",
+        "type": "Neutral",
+        "rules": {
+          "description": "A dark charcoal gray that bridges the gap between the stark black headings and the lighter slate descriptions.",
+          "when_to_use": [
+            "Unselected but interactive tab labels (e.g., 'ElevenAgents', 'ElevenAPI')",
+            "Dense mock-UI paragraph text inside product graphics"
+          ]
+        },
+        "hex": "#44403B",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0033
+      }
+    ],
+    "insights": [
+      "Extreme Neutrality: The brand completely eschews saturated hues in its UI, relying entirely on a sophisticated spectrum of blacks, grays, and warm creams to evoke a highly premium, editorial, and enterprise-ready aesthetic.",
+      "Surface-Driven Hierarchy: Instead of relying on borders or lines to separate content, the design structures the page by alternating large background blocks (pure white vs. cream #F5F3F1), creating a soft, uninterrupted reading experience.",
+      "Strategic Contrast: Because the environment is entirely neutral, pitch-black CTA buttons carry immense visual weight. They don't need a bright color to stand out because they are the darkest elements on an otherwise light, airy page."
+    ]
+  }
+}

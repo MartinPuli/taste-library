@@ -1,0 +1,30 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "List Item Divider",
+        "description": "Subtle horizontal divider between list items in article sections",
+        "when_to_use": [
+          "Separating items in article lists",
+          "Creating visual hierarchy in stacked content"
+        ],
+        "color": "#1414131a",
+        "height": "0.0625rem",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "layout",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/layout",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "classification": [
+      "centered_symmetric",
+      "generous_whitespace"
+    ],
+    "grid": {
+      "columns": 12,
+      "gutter": "1rem",
+      "max_width": "80rem"
+    },
+    "breakpoints": {
+      "mobile": "0px - 767px (1 Column, 16px horizontal padding, stacked centered layout)",
+      "tablet": "768px - 1023px (Maintains desktop split layout, responsive scaling)",
+      "desktop": "1024px+ (2-column split: left form max-width 400px, right logo flex-1, max-width 7xl container)",
+      "large": null
+    },
+    "section_separation": "Minimal separation strategy: primary content uses off-white/light gray background (#F7F7F7 or similar) across entire viewport with no visible section dividers. Footer separated by whitespace only, no background change. Heavy reliance on generous whitespace (padding and margins) rather than structural lines or color shifts.",
+    "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│   Happening                                              │\n│   now.                                    ┌────────────┐ │\n│                                           │            │ │\n│   ┌────────────────────────────┐          │            │ │\n│   │  Continue with phone       │          │            │ │\n│   └────────────────────────────┘          │            │ │\n│   ┌────────────────────────────┐          │     X      │ │\n│   │ G Continue with Google     │          │    Logo    │ │\n│   └────────────────────────────┘          │            │ │\n│   ┌────────────────────────────┐          │            │ │\n│   │  Continue with Apple       │          │            │ │\n│   └────────────────────────────┘          └────────────┘ │\n│                                                          │\n│               or                                         │\n│                                                          │\n│   ┌────────────────────────────┐          ┌────────────┐ │\n│   │ Email or username          │          │ Scan to get│ │\n│   └────────────────────────────┘          │  the app   │ │\n│                                           │            │ │\n│   ┌────────────────────────────┐          │  ┌──────┐  │ │\n│   │       Continue             │          │  │ QR   │  │ │\n│   └────────────────────────────┘          │  │ Code │  │ │\n│                                           │  └──────┘  │ │\n│   By continuing, you agree to our         └────────────┘ │\n│   Terms of Service, Privacy Policy                       │\n│   and Cookie Use.                                        │\n│                                                          │\n├──────────────────────────────────────────────────────────┤\n│ About · Get App · Grok · Help · Terms · Privacy ·        │\n│ Cookies · Careers · Ads & Business · Developers ·        │\n│ News · US TIDA · Accessibility · © 2026 X Corp.          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHERO/MAIN SECTION (Left Side):\n- Background: Off-white/light gray (#F7F7F7 or similar)\n- Typography mood: Bold, minimal - \"Happening now.\" headline in large, thick sans-serif black text\n- Components: Stacked button layout with multiple authentication options\n- Buttons/CTAs:\n  * \"Continue with phone\" (solid black, pill-shaped, white text, phone icon)\n  * \"Continue with Google\" (white/light gray background, border, black text, Google G logo)\n  * \"Continue with Apple\" (white/light gray background, border, black text, Apple logo)\n  * \"Continue\" (gray disabled state, pill-shaped, light gray background)\n- Input field: Teal/cyan outline, white background, placeholder text \"Email or username\"\n- Colors observed: Black, white, teal/cyan accent (border), light gray\n- Legal text: Small gray text with linked terms (Terms of Service, Privacy Policy, Cookie Use in black)\n\nBRANDING (Right Side):\n- Background: Same off-white/light gray as left\n- Imagery: Large minimalist X logo (Twitter/X Corp rebrand), black, geometric, thick strokes\n- Components: QR code card with white background, subtle shadow/border\n- QR Code section: \"Scan to get the app\" text above QR code containing small X logo in center\n- Colors observed: Black logo on light background\n\nFOOTER:\n- Background: Same off-white/light gray\n- Typography mood: Minimal, small, light gray text\n- Links separated by dots: About, Get App, Grok, Help, Terms, Privacy, Cookies, Careers, Ads & Business, Developers, News, US TIDA, Accessibility\n- Copyright: \"© 2026 X Corp.\" in same small gray text\n- Layout: Single horizontal row of footer links",
+    "insights": [
+      "Extreme minimalism with a single dominant call-to-action section and tertiary footer; all interactive elements confined to a narrow 400px max-width column on desktop, creating strong focal hierarchy.",
+      "Generous negative space: the X logo occupies an entire flex-1 column on desktop (effectively 50% of viewport width) with no other content, emphasizing brand and breathing room.",
+      "Responsive strategy inverts hierarchy: mobile places logo at top (30vh min-height) then form below, while desktop splits horizontally; QR code card uses fixed positioning with scale animation on hover, independent of document flow."
+    ]
+  }
+}

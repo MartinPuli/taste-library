@@ -1,0 +1,46 @@
+{
+  "id": "linear",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A left-aligned headline and detailed product panel sit on a near-black background, with small navigation and a white sign-up button.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/viewport.jpg",
+    "sha256": "5142ed82a0e1a53894b0ec393264880a06732e6e74a41c7288bdc57077065fc4"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/styles.css",
+    "sha256": "4915bf8a08653d4c810a896fcf0056d010bacef07e65d6469d8e7790439b0acd",
+    "bytes": 209757,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#F7F8F8",
+      "#62666D",
+      "#08090A"
+    ],
+    "palette_literals_checked": [
+      "#F7F8F8",
+      "#D0D6E0",
+      "#8A8F98",
+      "#62666D",
+      "#08090A"
+    ],
+    "font_names_found": [],
+    "font_names_checked": [
+      "Inter Variable",
+      "Berkeley Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "53c744515e59b9cb8856a6fe5fd9b5ac26771d23120eb42407f9467ace8c5528"
+}

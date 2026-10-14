@@ -1,0 +1,239 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/pangram.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar with logo left, nav center, CTA right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Pangram logo in dark wordmark"
+        },
+        {
+          "type": "navigation",
+          "description": "Dropdown menus for Products, Solutions, Company, Resources"
+        },
+        {
+          "type": "button",
+          "description": "Orange 'Contact Sales' link"
+        },
+        {
+          "type": "button",
+          "description": "Orange 'Try It for Free' button with gradient background"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Split 50/50 - text left, illustration right",
+      "headline": "An AI detector that actually works.",
+      "subheadline": "Try our Gmail integration",
+      "components": [
+        {
+          "type": "button",
+          "description": "Orange 'Try It for Free' button with green arrow icon"
+        },
+        {
+          "type": "button",
+          "description": "Light orange 'Partner With Us' button"
+        },
+        {
+          "type": "illustration",
+          "description": "Flat illustration of house scene with landscape in muted pastels (peach, mint green, blue, coral orange) on cream background"
+        },
+        {
+          "type": "card",
+          "description": "White card with soft pastel illustration background, interactive text detection form with rounded corners and backdrop blur"
+        },
+        {
+          "type": "form",
+          "description": "Text input area with placeholder, sample buttons (Human, ChatGPT, AI + Human), upload and 'Check for AI' buttons"
+        }
+      ]
+    },
+    {
+      "type": "Logo Bar",
+      "layout_pattern": "Centered horizontal scrolling marquee",
+      "headline": "Trusted by Global Brands",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Grayscale brand logos (Substack, Quora, Newsguard, Featured, Haro, Qwoted, Vibegrade, WHE, WikiEdu, Inspera) with hover effects"
+        }
+      ]
+    },
+    {
+      "type": "Yellow Section",
+      "layout_pattern": "Centered heading with large browser mockup below",
+      "headline": "What is an AI detector and should you use one?",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Orange 'Try for Free' button with green arrow icon, positioned bottom right"
+        },
+        {
+          "type": "card",
+          "description": "Interactive carousel with three panels showing different illustrations (summer, spring, autumn) with rounded corners and white content areas"
+        }
+      ]
+    },
+    {
+      "type": "Whitespace Section",
+      "layout_pattern": "Full-width breathing room",
+      "headline": null,
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "AI Model Detection",
+      "layout_pattern": "Grid 4-column",
+      "headline": "Does Pangram detect the latest AI models?",
+      "subheadline": "Always up to date",
+      "components": [
+        {
+          "type": "card",
+          "description": "White cards with hover effect changing to brand colors (green, blue, yellow, purple), showing model names (Claude Opus 5, GPT 5.6, Gemini 3, Grok 4.3) with accuracy percentages"
+        },
+        {
+          "type": "divider",
+          "description": "Benchmarked models list with dotted separators"
+        }
+      ]
+    },
+    {
+      "type": "Product Features",
+      "layout_pattern": "Grid 3-column",
+      "headline": "Detect AI and plagiarism",
+      "subheadline": "Our product",
+      "components": [
+        {
+          "type": "card",
+          "description": "Yellow card 'AI Segment Analysis' with illustration, rounded corners and corner accent on hover"
+        },
+        {
+          "type": "card",
+          "description": "Pink/purple card 'AI Assistance' with illustration, rounded corners and corner accent on hover"
+        },
+        {
+          "type": "card",
+          "description": "Dark brown card 'Plagiarism Checker' with white text, illustration, rounded corners with sticker decoration"
+        }
+      ]
+    },
+    {
+      "type": "Features Grid",
+      "layout_pattern": "Mixed grid - 3 columns on top, 4 columns below",
+      "headline": "How is Pangram's AI detector different?",
+      "subheadline": "Features",
+      "components": [
+        {
+          "type": "card",
+          "description": "Dark teal/green cards with colored bookmark accents (yellow, blue, green, pink, orange), white icons, semi-transparent backgrounds, corner accent on hover, some with rotation transforms"
+        }
+      ]
+    },
+    {
+      "type": "About Pangram",
+      "layout_pattern": "Two-column text and video",
+      "headline": "About Pangram",
+      "subheadline": "Who we are",
+      "components": [
+        {
+          "type": "video",
+          "description": "Video thumbnail with play button overlay showing Pangram team or product demo"
+        }
+      ]
+    },
+    {
+      "type": "How It Works",
+      "layout_pattern": "Accordion/stepped process on mobile, visual tabs on desktop",
+      "headline": "How Pangram's AI detector works",
+      "subheadline": "How it works",
+      "components": [
+        {
+          "type": "accordion",
+          "description": "Mobile accordion with numbered steps (01-04) showing Input text, Scan for AI, View results, Access past records"
+        },
+        {
+          "type": "image",
+          "description": "Product screenshots showing the detection workflow"
+        }
+      ]
+    },
+    {
+      "type": "Industry Solutions",
+      "layout_pattern": "Split text left, CTA right",
+      "headline": "Protect authenticity in every industry",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Orange 'Contact us' button"
+        },
+        {
+          "type": "card",
+          "description": "Two side-by-side white cards with subtle borders for 'For teachers' and 'For higher ed'"
+        }
+      ]
+    },
+    {
+      "type": "Scholarship Section",
+      "layout_pattern": "Three cards in varied layout on dark brown background",
+      "headline": "AI detection scholarships for everyone and schools",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Three darker brown cards on brown background with orange CTA buttons (Get Pangram AI Detection, K-12 Scholarship, For Higher Education)"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Grid 4 rows × 3 columns masonry-style",
+      "headline": "Users love Pangram",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Quote cards with varied pastel and neutral backgrounds (grey, beige, pink, green, brown, blue, yellow), flat color blocks with text, no shadows, clean borders"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Footer navigation links organized in columns"
+        },
+        {
+          "type": "logo",
+          "description": "Pangram logo"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons"
+        }
+      ]
+    }
+  ]
+}

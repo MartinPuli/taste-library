@@ -1,0 +1,55 @@
+{
+  "id": "nvidia",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A dark event photograph supports a left-aligned white headline and green action. Small event selectors run along the hero’s lower edge.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/viewport.jpg",
+    "sha256": "196dd6b51759d8d653f6b29b92ab205ad1eb96b1a5de3da79d2451f293dc7fc4"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/styles.css",
+    "sha256": "17919c06038d359fb27ea12f69664ebed0ef5cbac507bac5dd378df02fe1feff",
+    "bytes": 1421405,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#EEEEEE",
+      "#1A1A1A",
+      "#76B900",
+      "#666666"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#EEEEEE",
+      "#1A1A1A",
+      "#76B900",
+      "#666666"
+    ],
+    "font_names_found": [
+      "NVIDIA-NALA",
+      "NVIDIA Sans",
+      "Font Awesome 6 Pro",
+      "Font Awesome 6 Sharp"
+    ],
+    "font_names_checked": [
+      "NVIDIA-NALA",
+      "NVIDIA Sans",
+      "Font Awesome 6 Pro",
+      "Font Awesome 6 Sharp"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "ba4fbea1b7ba440aaceb3c65aea356238ebfa58b692f8c7ca93373c2f3e2f331"
+}

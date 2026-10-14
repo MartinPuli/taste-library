@@ -1,0 +1,293 @@
+{
+  "id": "1x",
+  "source_url": "https://www.1x.tech/",
+  "captured_at": "2026-09-15T22:09:10.226409Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/1x.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/1x.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "ABCDiatypeMedium",
+          "role": "Hero Display / Large Heading",
+          "specs": {
+            "size": "44px",
+            "line_height": "44px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatypeMedium, sans-serif",
+            "file_url": "/fonts/ABCDinamoDiatypeMedium.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatypeBold",
+          "role": "H1 Heading (.neo-h1)",
+          "specs": {
+            "size": "24px",
+            "line_height": "130%",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatypeBold, sans-serif",
+            "file_url": "/fonts/ABCDinamoDiatypeBold.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "H2 Heading (.neoH2)",
+          "specs": {
+            "size": "36px",
+            "line_height": "40px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "H3 Heading (.neoH3)",
+          "specs": {
+            "size": "20px",
+            "line_height": "28px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "Heading Text (.neo-heading-text)",
+          "specs": {
+            "size": "20px",
+            "line_height": "130%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "ABCDiatype",
+          "role": "Primary Body (.neo-body)",
+          "specs": {
+            "size": "16px",
+            "line_height": "130%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "Body Regular",
+          "specs": {
+            "size": "16px",
+            "line_height": "24px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "Small Body (.neo-sm)",
+          "specs": {
+            "size": "16px",
+            "line_height": "130%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "ABCDiatype",
+          "role": "Button / UI Small (.neo-xs)",
+          "specs": {
+            "size": "14px",
+            "line_height": "140%",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatypeBold",
+          "role": "UI Label (.neo-label)",
+          "specs": {
+            "size": "11px",
+            "line_height": "140%",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatypeBold, sans-serif",
+            "file_url": "/fonts/ABCDinamoDiatypeBold.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatypeMedium",
+          "role": "Navigation / Uppercase Meta",
+          "specs": {
+            "size": "11px",
+            "line_height": "20px",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatypeMedium, sans-serif",
+            "file_url": "/fonts/ABCDinamoDiatypeMedium.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "Form Subtext / Caption",
+          "specs": {
+            "size": "12px",
+            "line_height": "19.2px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        },
+        {
+          "name": "ABCDiatype",
+          "role": "Footer Micro / Legal",
+          "specs": {
+            "size": "9px",
+            "line_height": "14.4px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatype, sans-serif",
+            "file_url": "/fonts/ABCDiatypeRegular.ttf"
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": [
+        {
+          "name": "ABCDiatypeMono",
+          "role": "Code / Monospace",
+          "specs": {
+            "size": "1em",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "self-hosted"
+          },
+          "technical": {
+            "font_family_css": "ABCDiatypeMono, monospace",
+            "file_url": "/fonts/abc-diatype-mono-regular.otf"
+          }
+        }
+      ]
+    },
+    "highlights": "Typographic elements frequently use blur backdrops (.boxBlur) combined with animated hover opacities (opacity-50 to hover:opacity-100) and negative letter-spacing for tight, modern aesthetic lockups.",
+    "insights": [
+      "The typographic strategy centers on the custom Dinamo typeface family (ABCDiatype), projecting a modern, highly engineered, and technical brand identity.",
+      "Tight negative letter-spacing (e.g., -0.04em or -0.64px) is consistently applied to display headings to create solid, monolithic text blocks.",
+      "Extensive use of responsive relative line-heights (120%, 130%, 140%) ensures text scalability, while precise pixel values are strictly reserved for tightly controlled UI components like nav links and small labels."
+    ]
+  }
+}

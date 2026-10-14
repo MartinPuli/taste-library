@@ -1,0 +1,56 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "charts": [
+      {
+        "name": "Cycle Time Scatter Plot",
+        "description": "A scatter plot visualization showing cycle time distribution by agent over a time period, with dots representing individual data points and trend lines.",
+        "when_to_use": [
+          "Displaying agent performance metrics over time",
+          "Visualizing cycle time trends and patterns",
+          "Comparing performance across multiple agents"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "Issue List View",
+        "description": "A compact row-based list view showing issues with priority icons, status indicators, issue IDs, titles, labels, assignee avatars, and dates.",
+        "when_to_use": [
+          "Displaying a filterable list of issues or tasks",
+          "Showing issue details in a scannable format",
+          "Code review and PR status tracking"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Issue Card",
+        "description": "A compact card component displaying issue metadata including ID, title, priority, labels, and assignee avatar in a vertical layout for kanban boards.",
+        "when_to_use": [
+          "Kanban board columns",
+          "Quick issue overview",
+          "Drag-and-drop interfaces"
+        ]
+      },
+      {
+        "name": "Roadmap Timeline Bar",
+        "description": "Horizontal timeline bars showing project progress with milestones, solid progress sections, and projected tail extensions.",
+        "when_to_use": [
+          "Project roadmap visualization",
+          "Initiative timeline planning",
+          "Progress tracking with milestones"
+        ]
+      }
+    ]
+  }
+}

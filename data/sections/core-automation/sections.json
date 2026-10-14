@@ -1,0 +1,150 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/core-automation.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal split - logo left, nav links right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Black square with 'FON LABS' text, minimal branding"
+        },
+        {
+          "type": "navigation",
+          "description": "Text links: HOME, BLOG, TWITTER/X, AGM, CONTACT, JOIN US - uppercase, black text, minimal style"
+        },
+        {
+          "type": "button",
+          "description": "Mobile hamburger menu toggle with three horizontal bars"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Split layout - headline left (60%), blog card right (40%)",
+      "headline": "WE'RE BUILDING THE WORLD'S MOST AUTOMATED AI LAB.",
+      "subheadline": "Our objective: systems that optimize and automate work, starting with research itself.",
+      "components": [
+        {
+          "type": "card",
+          "description": "Light gray (#CECECE) blog preview card with eyebrow 'LATEST ON THE...', headline 'What the Models Didn't Seem to Show Us About...', floating on right side"
+        }
+      ]
+    },
+    {
+      "type": "Interactive Grid",
+      "layout_pattern": "2x2 grid of interlocking puzzle-piece blocks",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "RESEARCH block - bright red (#FF2D09) puzzle piece with white uppercase text"
+        },
+        {
+          "type": "card",
+          "description": "APPROACH block - pure black (#000) puzzle piece with white uppercase text"
+        },
+        {
+          "type": "card",
+          "description": "VISION block - pure black (#000) puzzle piece with white uppercase text"
+        },
+        {
+          "type": "card",
+          "description": "TEAM block - cornflower blue (#699EFF) puzzle piece with white uppercase text"
+        }
+      ]
+    },
+    {
+      "type": "Content Section",
+      "layout_pattern": "Full-width bordered content block with architectural notched corners",
+      "headline": "RESEARCH",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "divider",
+          "description": "Bright red (#FF2D09) border outline with architectural connector notches at corners"
+        },
+        {
+          "type": "icon",
+          "description": "Red square bullets (25px) preceding each text block"
+        }
+      ]
+    },
+    {
+      "type": "Content Section",
+      "layout_pattern": "Full-width bordered content block with architectural notched corners",
+      "headline": "APPROACH",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "divider",
+          "description": "Black border outline with architectural connector notches matching Research section style"
+        },
+        {
+          "type": "icon",
+          "description": "Black square bullets (25px) preceding each text block"
+        }
+      ]
+    },
+    {
+      "type": "Content Section",
+      "layout_pattern": "Full-width bordered content block with architectural notched corners",
+      "headline": "VISION",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "divider",
+          "description": "Black border outline with architectural connector notches"
+        },
+        {
+          "type": "icon",
+          "description": "Black square bullets (25px) preceding each text block"
+        }
+      ]
+    },
+    {
+      "type": "Content Section",
+      "layout_pattern": "Full-width bordered content block with centered CTA",
+      "headline": "TEAM",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "divider",
+          "description": "Cornflower blue (#699EFF) border outline with architectural connector notches"
+        },
+        {
+          "type": "icon",
+          "description": "Blue square bullets (25px) preceding each text block"
+        },
+        {
+          "type": "button",
+          "description": "Blue underlined text link 'Want to join us?' centered at bottom, 19px font, 2px underline"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Full-width decorative pattern",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Black background with scattered white polka dots pattern (122px height desktop, 112px mobile), playful contrast to serious content above"
+        }
+      ]
+    }
+  ]
+}

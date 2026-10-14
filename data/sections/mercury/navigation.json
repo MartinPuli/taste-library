@@ -1,0 +1,72 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "top_nav": {
+      "height": "72px",
+      "position": "sticky",
+      "background": {
+        "hex": "#FBFCFD",
+        "color_reference": "background-default",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": {
+      "background": "#FFFFFF",
+      "text_color": "#272735",
+      "border_bottom": "1px solid #70739338",
+      "height": "49px"
+    },
+    "tabs": {
+      "style_name": "Pill Navigation Tab",
+      "description": "Rounded pill-shaped navigation items used in the main navbar dropdown menu system. Tabs trigger mega-menu dropdowns with product/solution categories.",
+      "when_to_use": [
+        "Primary site navigation",
+        "Multi-level dropdown menus",
+        "Product category navigation"
+      ],
+      "states": [
+        {
+          "name": "default",
+          "visual_change": null,
+          "background": "transparent",
+          "text": "#272735",
+          "icon": null
+        },
+        {
+          "name": "hover",
+          "visual_change": "Background changes to surface-emphasized-hover",
+          "background": "#5266eb29",
+          "text": "#272735",
+          "icon": null
+        },
+        {
+          "name": "active",
+          "visual_change": "Background changes to surface-emphasized-active, text becomes emphasized",
+          "background": "#5266eb38",
+          "text": "#1E1E2A",
+          "icon": null
+        },
+        {
+          "name": "open",
+          "visual_change": "data-[state=open] triggers active state styling",
+          "background": "#5266eb38",
+          "text": "#1E1E2A",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

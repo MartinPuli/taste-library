@@ -1,0 +1,197 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/runway.json",
+  "data": [
+    {
+      "type": "Banner",
+      "layout_pattern": "Full-width bar",
+      "headline": "Employees get 3 months of wages free. See terms",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "White text 'Contact sales' button with white outline and arrow icon on deep blue background"
+        }
+      ]
+    },
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal split - logo left, nav center, actions right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Black 'runway' wordmark in lowercase, clean sans-serif"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal text links: Clients, Dev, Solutions, Research, Resources, Enterprise, Pricing with dropdown chevrons; black text on white"
+        },
+        {
+          "type": "button",
+          "description": "Light gray 'Login' text link"
+        },
+        {
+          "type": "button",
+          "description": "Dark navy/black rounded solid button labeled 'Try Runway'"
+        }
+      ]
+    },
+    {
+      "type": "Promo Banner",
+      "layout_pattern": "Centered horizontal",
+      "headline": "...",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "White outlined button 'Contact sales' with arrow on blue gradient background with textured overlay"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered content over full-width video background",
+      "headline": "Building Real-World Intelligence",
+      "subheadline": "...",
+      "components": [
+        {
+          "type": "video",
+          "description": "Atmospheric autoplay background video - blue/teal ice canyon perspective with dark overlay"
+        },
+        {
+          "type": "button",
+          "description": "White rounded solid button 'Try Runway for free' with chevron icon"
+        }
+      ]
+    },
+    {
+      "type": "Logo Marquee",
+      "layout_pattern": "Centered horizontal scrolling strip",
+      "headline": "...",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Infinite horizontal scroll of monochromatic client logos: nvidia, gut, streaming service, LONGREADS, amazon, grid icon, and more; all black on white; gradient fade edges"
+        }
+      ]
+    },
+    {
+      "type": "Section Headline",
+      "layout_pattern": "Centered",
+      "headline": "...",
+      "subheadline": null,
+      "components": []
+    },
+    {
+      "type": "Three Platform Cards",
+      "layout_pattern": "Grid 3-column equal-width",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Card 1 - Runway Creative: Black & white team photo, title, description paragraph, three buttons (black 'Try now', gray 'Learn more', gray 'For Enterprise'), caption text"
+        },
+        {
+          "type": "card",
+          "description": "Card 2 - Runway Dev: Warm-toned workspace photo with orange/yellow lighting, title, description paragraph, three buttons (black 'Get API Key', gray 'View documentation', gray 'For Enterprise')"
+        },
+        {
+          "type": "card",
+          "description": "Card 3 - Runway Robotics: Industrial robotic arm on light background, title, description paragraph, two buttons (black 'Learn more', gray 'Contact Sales')"
+        }
+      ]
+    },
+    {
+      "type": "Tabbed Content Section",
+      "layout_pattern": "Horizontal tabs with content panel below",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Three tab buttons: 'Runway Creative' (active), 'Runway Dev', 'Runway Robotics' with underline progress indicator"
+        },
+        {
+          "type": "card",
+          "description": "White rounded card with border, split layout: left sidebar with vertical text menu (How Runway is Used, Create with Agent, Build Workflows, Enterprise-grade, World's Best Models), right side with large illustration/sketch of couch in gray lines on light background"
+        }
+      ]
+    },
+    {
+      "type": "Research Section",
+      "layout_pattern": "Split horizontal - text left, list right",
+      "headline": "Runway Research",
+      "subheadline": "We are building foundational General World Models...",
+      "components": [
+        {
+          "type": "video",
+          "description": "Dark gradient atmospheric background - olive/brown to black bokeh effect"
+        },
+        {
+          "type": "button",
+          "description": "White outlined rounded button 'Learn more'"
+        },
+        {
+          "type": "card",
+          "description": "Three stacked content blocks on right: 'GWM-1' with Read Technical Report link, 'Gen-4.5' with Try Now link, 'General World Models' with Read Paper link; white text on dark gradient"
+        }
+      ]
+    },
+    {
+      "type": "News/Blog Grid",
+      "layout_pattern": "Grid 2x2",
+      "headline": "See the latest from Runway",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Card 1: Dark thumbnail with runway Ads branding, title 'Introducing Runway Ads', description text, 'Learn more →' link"
+        },
+        {
+          "type": "card",
+          "description": "Card 2: Warm photo thumbnail, title 'Introducing Praxis-1', description text, 'Learn more →' link"
+        },
+        {
+          "type": "card",
+          "description": "Card 3: Blue gradient with OpenAI + runway logos, title 'Runway Joins the OpenAI Marketplace', description text, 'Learn more →' link"
+        },
+        {
+          "type": "card",
+          "description": "Card 4: Dark background with Citadel + Claude logos, title 'Runway is in Claude Motion', description text, 'Learn more →' link"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid on black background",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Eight columns of white text links organized by category: Creative, Dev, Robotics, Enterprise, Research, Resources, Events & Programs, Company"
+        },
+        {
+          "type": "logo",
+          "description": "White 'runway' wordmark at bottom left"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons (X/Twitter, Instagram, YouTube, Discord) in white, right-aligned"
+        }
+      ]
+    }
+  ]
+}

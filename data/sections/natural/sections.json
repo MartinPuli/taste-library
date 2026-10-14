@@ -1,0 +1,268 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/natural.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal split — logo + links left, CTAs right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Natural logo SVG, simple line icon"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal nav links: Products, Features, Company (dropdowns), Pricing, Docs"
+        },
+        {
+          "type": "button",
+          "description": "Login button — transparent accent style"
+        },
+        {
+          "type": "button",
+          "description": "Sign up for free — dark/midnight background, pill-shaped with arrow icon"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Natural powers agentic payments.",
+      "subheadline": "Our $30M Series A — July 20",
+      "components": [
+        {
+          "type": "button",
+          "description": "News tag pill — Series A announcement link with date and arrow"
+        },
+        {
+          "type": "button",
+          "description": "Sign up for free — dark button with arrow icon"
+        },
+        {
+          "type": "button",
+          "description": "Talk to the team — transparent ghost button"
+        },
+        {
+          "type": "image",
+          "description": "Hero dashboard placeholder image showing product interface in grayscale or muted tones"
+        },
+        {
+          "type": "animation",
+          "description": "WebGL canvas shader animation (1440x800) overlaying dashboard graphic"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Grid 3-column",
+      "headline": "Move at agent speed",
+      "subheadline": "Benefits",
+      "components": [
+        {
+          "type": "card",
+          "description": "Agent-first primitives — terminal window UI with dark titlebar, code snippet, and agent command interaction"
+        },
+        {
+          "type": "card",
+          "description": "Observable and traceable — agent profile card with avatar, verified badge, transaction timestamp"
+        },
+        {
+          "type": "card",
+          "description": "One unified API — 8-tile product grid showing bank account, wallet, shield, people, deposit, withdraw, card, agent icons"
+        }
+      ]
+    },
+    {
+      "type": "Product Flows",
+      "layout_pattern": "Split 50/50 — tabs left, image stage right",
+      "headline": "Natural powers every type of agentic payments workflow",
+      "subheadline": "Flows",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large product screenshot showing flows interface — landscape background with overlay graphic"
+        },
+        {
+          "type": "button",
+          "description": "Flow tabs — 4 vertical tabs: Hold accounts & funds (active), Move money & transfers, Accept & make payments, Issue cards & credit"
+        },
+        {
+          "type": "button",
+          "description": "Sign up for free — dark button"
+        },
+        {
+          "type": "button",
+          "description": "Talk to the team — transparent button"
+        }
+      ]
+    },
+    {
+      "type": "Control Panel",
+      "layout_pattern": "Split 50/50 — text left, card graphic right",
+      "headline": "Identity, observability, and managed disputes",
+      "subheadline": "Control",
+      "components": [
+        {
+          "type": "icon",
+          "description": "4 bullet points with checkmark icons, body text listing agent identity features"
+        },
+        {
+          "type": "card",
+          "description": "Control card UI — agent profile with avatar, verified badge, agent ID, owner info, edit buttons, copy icon"
+        },
+        {
+          "type": "button",
+          "description": "Learn more — dark button with arrow"
+        },
+        {
+          "type": "button",
+          "description": "Talk to the team — transparent button"
+        }
+      ]
+    },
+    {
+      "type": "Developers/API",
+      "layout_pattern": "Centered",
+      "headline": "Start moving money via MCP, CLI, SDK, or API",
+      "subheadline": "Developers",
+      "components": [
+        {
+          "type": "image",
+          "description": "Terminal background image showing developer interface"
+        },
+        {
+          "type": "button",
+          "description": "4 horizontal tabs — Claude Code (selected), Codex, SDK, CLI with brand icons"
+        },
+        {
+          "type": "card",
+          "description": "Terminal window UI with header dots, copy button, prompt, and code snippets"
+        },
+        {
+          "type": "button",
+          "description": "Read docs — dark button with arrow"
+        },
+        {
+          "type": "button",
+          "description": "Talk to the team — transparent button"
+        }
+      ]
+    },
+    {
+      "type": "Benefits",
+      "layout_pattern": "Grid 3-column",
+      "headline": "Scale with confidence",
+      "subheadline": "Benefits",
+      "components": [
+        {
+          "type": "card",
+          "description": "FDIC card — shield icon with $200M coverage text, image graphic"
+        },
+        {
+          "type": "card",
+          "description": "Scale chart — vertical bar chart showing volume growth with 36 bars in gradient heights"
+        },
+        {
+          "type": "card",
+          "description": "Uptime chart — 2-row uptime grid showing API and MCP status with small square tiles (28 and 28 bars)"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Masonry grid — variable width cards",
+      "headline": "Backed by the best investors and organizers in fintech",
+      "subheadline": "Investors",
+      "components": [
+        {
+          "type": "card",
+          "description": "Investor testimonial cards — mix of light and dark backgrounds (Forerunner light, Mercury light, Privy light, Y Combinator light, Abstract light, Bridge light, Figure light, Brex light, Human Capital dark, Vercel light, Wischoff light, Notion dark, Genius light, HappyRobot light, Browserbase light, Profound light, Terrain dark, Bland light, Unit light, Emprise light, Restive dark, Increase dark, Eight Sleep light, Torch light) with logo, quote, name, title, and arrow icon"
+        },
+        {
+          "type": "button",
+          "description": "Filter tabs — All, Firms, Individuals"
+        }
+      ]
+    },
+    {
+      "type": "Blog Preview",
+      "layout_pattern": "Grid — 1 large featured + 3 smaller tiles",
+      "headline": "Agentic payments, revisited",
+      "subheadline": "Blog",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large featured blog hero image — landscape coastal scene at dusk"
+        },
+        {
+          "type": "card",
+          "description": "3 blog post tiles with images, titles (Unapologetically non-normal, Something out of nothing, Rational actors), and dates"
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "layout_pattern": "Centered",
+      "headline": "Payments made Natural. Start building on Natural today",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Sign up for free — dark button with arrow"
+        },
+        {
+          "type": "button",
+          "description": "Talk to the team — transparent button"
+        }
+      ]
+    },
+    {
+      "type": "Architectural Image",
+      "layout_pattern": "Full-width image",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Full-bleed architectural photo — modern concrete/stone structure, natural setting, earth tones with texture overlay (paper, print, scan, grain layers)"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "5 columns: Products (13 links), Features (4 links), Developers (4 links), Company (5 links), Connect (5 social links)"
+        },
+        {
+          "type": "logo",
+          "description": "Natural wordmark logo at bottom"
+        },
+        {
+          "type": "navigation",
+          "description": "Legal footer links — Services Agreement, Privacy Policy, Authorized Use Policy, Disclosures"
+        },
+        {
+          "type": "card",
+          "description": "FDIC disclosure text with footnote marker and link to Sweep Program Network Banks"
+        }
+      ]
+    }
+  ]
+}

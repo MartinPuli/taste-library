@@ -1,0 +1,42 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Border",
+        "description": "Subtle horizontal divider using CSS variable-based border color for separating major content sections.",
+        "when_to_use": [
+          "Between footer and main content",
+          "Navigation dropdown separation"
+        ],
+        "color": "var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Blockquote Left Border",
+        "description": "Vertical left border accent used for testimonial blockquotes and statistic callouts.",
+        "when_to_use": [
+          "Testimonial quotes",
+          "Statistics with descriptions",
+          "Pull quotes"
+        ],
+        "color": "var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

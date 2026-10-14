@@ -1,0 +1,27 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Pin Board Card",
+        "description": "Card displaying a Pinterest board with 3-image grid layout (1 large + 2 small), board title, category badge, pin count, and timestamp",
+        "when_to_use": [
+          "Showcasing curated content collections",
+          "Carousel displays of themed boards",
+          "Browse and discovery sections"
+        ]
+      }
+    ]
+  }
+}

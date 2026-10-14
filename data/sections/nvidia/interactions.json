@@ -1,0 +1,77 @@
+{
+  "id": "nvidia",
+  "source_url": "https://www.nvidia.com/",
+  "captured_at": "2026-10-14T05:06:35.062442Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/nvidia.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/nvidia.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "accordion",
+      "scroll_reveal",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "librarian-page-cascade-in",
+        "css": "@keyframes librarian-page-cascade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+        "description": "Cascading fade-in animation for search result items with staggered delays"
+      },
+      {
+        "name": "librarian-genai-fade-in",
+        "css": "@keyframes librarian-genai-fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+        "description": "Fade-in animation for AI-generated summary content items"
+      },
+      {
+        "name": "librarian-generating-dot",
+        "css": "@keyframes librarian-generating-dot { 0%, 80%, 100% { opacity: 0; } 40% { opacity: 1; } }",
+        "description": "Pulsing dot animation for loading indicator during AI content generation"
+      },
+      {
+        "name": "rotateGradientBorder",
+        "css": "@keyframes rotateGradientBorder { from { --angle: 0deg; } to { --angle: 360deg; } }",
+        "description": "Continuous 360-degree rotation animation for decorative gradient border on AI search input"
+      },
+      {
+        "name": "nv-fade-ready",
+        "css": "transition: opacity 800ms ease",
+        "description": "Opacity fade transition for video content reveal when loaded"
+      },
+      {
+        "name": "ot-go-spin",
+        "css": "@keyframes ot-go-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+        "description": "Spinner rotation animation for cookie consent loading states"
+      },
+      {
+        "name": "accordion-expand",
+        "css": "",
+        "description": "Max-height transition for accordion panel expand/collapse, JS-driven via inline style updates"
+      },
+      {
+        "name": "button-hover-transition",
+        "css": "transition: background 0.2s ease, opacity 0.2s ease",
+        "description": "Smooth background color transition on button hover states"
+      },
+      {
+        "name": "tooltip-fade",
+        "css": "transition: opacity 0.3s",
+        "description": "Opacity transition for tooltip visibility on hover"
+      },
+      {
+        "name": "arrow-rotation",
+        "css": "transition: transform 0.3s ease",
+        "description": "180-degree rotation transition for accordion caret icons"
+      }
+    ],
+    "insights": [
+      "NVIDIA's design system relies heavily on their signature green (#76B900) as the sole accent color against a stark black/white palette, making CTAs and interactive elements instantly recognizable across all page sections.",
+      "The page extensively uses accordion patterns with Quick Links toggles in each content section, providing progressive disclosure while keeping the main content scannable.",
+      "Animation patterns are subtle and functional - cascading fade-ins for search results and AI content generation feedback create a polished, responsive feel without overwhelming the technical content focus."
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "White Background",
+        "description": "Primary background color for the page and cards",
+        "when_to_use": [
+          "Main page background",
+          "Card surfaces",
+          "Default sections"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Off-Black Surface",
+        "description": "Dark surface used for footer and hero overlay",
+        "when_to_use": [
+          "Footer background",
+          "Dark sections",
+          "Overlay backgrounds"
+        ],
+        "hex": "#0C0C0C"
+      },
+      {
+        "name": "Off-White Alt",
+        "description": "Light neutral surface for header and subtle backgrounds",
+        "when_to_use": [
+          "Header background",
+          "Subtle section backgrounds"
+        ],
+        "hex": "#F6F6F6"
+      },
+      {
+        "name": "Light Gray Surface",
+        "description": "Border and subtle background surface",
+        "when_to_use": [
+          "Borders",
+          "Light section backgrounds",
+          "Dividers"
+        ],
+        "hex": "#E4E5E6"
+      },
+      {
+        "name": "Neutral 800",
+        "description": "CTA button background",
+        "when_to_use": [
+          "Primary button backgrounds",
+          "Dark UI elements"
+        ],
+        "hex": "#262626"
+      },
+      {
+        "name": "Promo Blue",
+        "description": "Promotional banner background",
+        "when_to_use": [
+          "Promotional banners",
+          "Accent sections"
+        ],
+        "hex": "#2B22FA"
+      },
+      {
+        "name": "Light Button Surface",
+        "description": "Secondary button background color",
+        "when_to_use": [
+          "Secondary buttons",
+          "Subtle interactive elements"
+        ],
+        "hex": "#EEF1F5"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "White Fade to Transparent (Left)",
+        "description": "Left-edge fade gradient for logo carousel",
+        "when_to_use": [
+          "Logo carousel edge masks",
+          "Horizontal content fades"
+        ],
+        "css_code": "linear-gradient(to right, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "White Fade to Transparent (Right)",
+        "description": "Right-edge fade gradient for logo carousel",
+        "when_to_use": [
+          "Logo carousel edge masks",
+          "Horizontal content fades"
+        ],
+        "css_code": "linear-gradient(to left, var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Black Overlay 20%",
+        "description": "Subtle dark overlay for hero video",
+        "when_to_use": [
+          "Video overlays",
+          "Image darkening for text readability"
+        ],
+        "css_code": "linear-gradient(to bottom, var(--tw-gradient-stops))"
+      }
+    ],
+    "highlights": [
+      "White backdrop blur (95% opacity) with blur-md on header for glassmorphism effect",
+      "Soft shadows on cards and buttons with varying blur radius (e.g., shadow-md, shadow-lg, shadow-xl)",
+      "Black overlay with 20% opacity on hero video background for better text contrast"
+    ]
+  }
+}

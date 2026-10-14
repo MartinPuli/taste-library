@@ -1,0 +1,55 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default - clicking a FAQ question expands it while collapsing others"
+    },
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "Subtle horizontal line separating major content sections",
+        "when_to_use": [
+          "Between major page sections",
+          "Separating feature blocks"
+        ],
+        "color": "#1C1D1F",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "List Item Divider",
+        "description": "Light separator within lists like FAQ items and sidebar navigation",
+        "when_to_use": [
+          "Between FAQ questions",
+          "Sidebar list items",
+          "Notes app list entries"
+        ],
+        "color": "#D1D1D1",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Window Border",
+        "description": "Gradient border used on demo window components for depth",
+        "when_to_use": [
+          "Mock application windows",
+          "Card borders with glassmorphism"
+        ],
+        "color": "rgba(255, 255, 255, 0.1)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

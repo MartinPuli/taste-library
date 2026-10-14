@@ -1,0 +1,982 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Black",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Primary background and contrast color for the dark theme.",
+          "when_to_use": [
+            "Page backgrounds",
+            "Deep shadow contrasts",
+            "High-contrast typography"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "alpha": null,
+            "aliases": [
+              "--token-1ef30da2-9620-422c-b321-d10088e14610",
+              "--token-958e2cd1-b113-4aa3-9235-7a2b959c8feb",
+              "--token-df2a444d-c73c-41a8-b32b-15a8977e2f19",
+              "--token-08cb9138-e90e-4825-9f55-0aaa0c506cd8",
+              "--token-1e7cee86-5b3c-4a5e-b650-927c556a0730",
+              "--token-3fe3801c-504b-4fed-bd23-95e1ceda4e02",
+              "--token-7f1bc6d9-a60f-42df-8ff7-6d27d47209c5",
+              "--token-4e252111-446f-4e7a-b1c3-2cceb89b901b",
+              "--token-13ec5eb2-95cb-4f68-8622-21c1e5841f91",
+              "--token-8d5359f3-e2ba-4ea9-9e51-1eb2188326fa",
+              "--token-83f34fde-34ed-4566-97ea-36025da15e7a",
+              "--token-755613c8-55a6-4065-8551-7e506a20f402"
+            ]
+          },
+          {
+            "name": "Black 80%",
+            "hex": "#000000",
+            "alpha": 0.8,
+            "aliases": [
+              "--token-90b00eaf-43c2-4cda-9207-8d2aa4bd34cf"
+            ]
+          },
+          {
+            "name": "Black 60%",
+            "hex": "#000000",
+            "alpha": 0.6,
+            "aliases": [
+              "--token-dfb83e06-5dc9-4927-841f-fa3a5687bbf5",
+              "--token-4fab7220-19ef-4cad-9548-f48ed362d6e1"
+            ]
+          },
+          {
+            "name": "Black 10%",
+            "hex": "#000000",
+            "alpha": 0.1,
+            "aliases": [
+              "--token-3d980185-7d0f-4837-b1d0-e3a68e16a293",
+              "--token-d127865a-b3de-47e9-b49b-fec1a4c5c097",
+              "--token-8a4a011b-1a6a-45f4-bbae-7d463ef5c5cd",
+              "--token-e334a9df-6f33-4dec-b315-f7efcd286f54"
+            ]
+          },
+          {
+            "name": "Black 7%",
+            "hex": "#000000",
+            "alpha": 0.07,
+            "aliases": [
+              "--token-50d3edc6-ca3e-4e24-b5b6-95a9ef291fd3"
+            ]
+          },
+          {
+            "name": "Black 5%",
+            "hex": "#000000",
+            "alpha": 0.05,
+            "aliases": [
+              "--token-1765427e-22ca-4432-9e46-90123c5bd8b0",
+              "--token-463c363d-1216-47f6-9184-b958c9c426a4"
+            ]
+          },
+          {
+            "name": "Black 4%",
+            "hex": "#000000",
+            "alpha": 0.04,
+            "aliases": [
+              "--token-e79b6732-da94-4bb4-b89e-c6c710bf538f"
+            ]
+          },
+          {
+            "name": "Black 3%",
+            "hex": "#000000",
+            "alpha": 0.03,
+            "aliases": [
+              "--token-4c1231ca-8433-4346-9a3c-bb84d341a08a"
+            ]
+          },
+          {
+            "name": "Soft Black",
+            "hex": "#080808",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "White",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Primary typography and contrast color.",
+          "when_to_use": [
+            "Primary text",
+            "Icons",
+            "Button backgrounds"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": [
+              "--token-26e3cb56-8447-4a64-9b7d-37f16a9909d4",
+              "--token-4a5ab9b5-071f-4390-82c0-81f9558f671f",
+              "--token-1ff51228-9678-411c-9a08-00381f0fc70b",
+              "--token-d4634443-ffec-443d-a754-10b0a24f2eba",
+              "--token-41903ea9-af7f-499e-a111-2c021ff53f36",
+              "--token-b5069c63-5952-4d18-89d9-c83e27c8dd95",
+              "--token-a55687bf-10ec-448e-8cff-7a38a8062829",
+              "--token-4343cc19-b41f-4b68-9f5e-46d190564c09",
+              "--token-9571e89f-c28f-4739-8163-f9a065ce86a7",
+              "--token-4d6784b6-e032-4f38-9c3f-74fd8b5d2a7d",
+              "--token-9af74e8e-943d-4584-bd40-3a5a740e80e9",
+              "--token-2af7e844-d3c5-48f3-b016-08deebe100a1"
+            ]
+          },
+          {
+            "name": "White 80%",
+            "hex": "#FFFFFF",
+            "alpha": 0.8,
+            "aliases": [
+              "--token-289cb3ad-ad59-4cce-aee5-0850b842d9c8"
+            ]
+          },
+          {
+            "name": "White 65%",
+            "hex": "#FFFFFF",
+            "alpha": 0.65,
+            "aliases": [
+              "--token-ea7f6847-c578-4b96-834f-9880ebd5b2c8"
+            ]
+          },
+          {
+            "name": "White 60%",
+            "hex": "#FFFFFF",
+            "alpha": 0.6,
+            "aliases": [
+              "--token-8f5eb515-7a13-452b-a4ab-f35e2208a3f3"
+            ]
+          },
+          {
+            "name": "White 50%",
+            "hex": "#FFFFFF",
+            "alpha": 0.5,
+            "aliases": [
+              "--token-f6d5743a-73c0-417f-973c-02f663387ec8"
+            ]
+          },
+          {
+            "name": "White 40%",
+            "hex": "#FFFFFF",
+            "alpha": 0.4,
+            "aliases": [
+              "--token-f5637926-8ee6-41cb-a320-ec3462d62cd5",
+              "--token-c728f732-7c78-48e8-94a1-513a91a25137"
+            ]
+          },
+          {
+            "name": "White 20%",
+            "hex": "#FFFFFF",
+            "alpha": 0.2,
+            "aliases": [
+              "--token-ea0a2ab8-ce16-4a61-995f-9a3f03b39cf7",
+              "--token-30fd6b0d-9c3a-4ed1-b7e6-4bdbb9d0fff9"
+            ]
+          },
+          {
+            "name": "White 15%",
+            "hex": "#FFFFFF",
+            "alpha": 0.15,
+            "aliases": [
+              "--token-5ba2de12-30b8-4085-a473-c3297d851b52"
+            ]
+          },
+          {
+            "name": "White 10%",
+            "hex": "#FFFFFF",
+            "alpha": 0.1,
+            "aliases": [
+              "--token-c534b380-e14e-4ddc-9802-ad88d1f94f8e",
+              "--token-bed18f81-9cf1-4e2e-871f-69719f53f1d4",
+              "--token-70c17056-82cb-4934-97c9-7213cf77c853",
+              "--token-0d3c4e1f-33e0-4ebe-bdfa-af3c0ffb2b6e",
+              "--token-bd6e9b1d-d923-4381-a016-9ee35fa74d19",
+              "--token-c98b4872-09a5-4eef-84b0-cd9f352143db"
+            ]
+          },
+          {
+            "name": "White 7%",
+            "hex": "#FFFFFF",
+            "alpha": 0.07,
+            "aliases": [
+              "--token-81eeded8-7d17-49fd-8f9d-4b09d4083be5",
+              "--token-e6ff4111-cae9-48d6-82e5-a990cf837703",
+              "--token-bf566e33-485f-437d-9c8a-97c626fb8093",
+              "--token-c8276e30-1f1d-4733-800f-3191605cbcc2",
+              "--token-626f3ee6-1979-4092-a33f-88f7cbf2b731",
+              "--token-000292f1-e507-4938-9285-b0287d36c378",
+              "--token-7834935c-e4af-46fb-833b-c2e350356f85",
+              "--token-c2089353-c369-4b83-8aa0-ff14317d1378",
+              "--token-2d8c2e40-9efe-42db-a854-852777e7a2fc",
+              "--token-435ba6e6-7923-46aa-8bf0-2df8f639cb7d",
+              "--token-82346dff-d87f-4879-b2ef-71536504402c",
+              "--token-b41e1c3f-a0f3-493d-bc17-25bd75dc184b",
+              "--token-29c58965-f89d-45e9-b6f4-01367c7eaffe",
+              "--token-a84bba7f-b874-4efe-85db-9b067724f56f",
+              "--token-9cf68d00-0d54-48b8-a5d0-b8f04a7ab3e9",
+              "--token-a6dd5ab7-0552-4721-891d-644de4c37173",
+              "--token-a8afeeed-23af-4eb5-b8d0-d9f93682584c",
+              "--token-b16226dd-61c1-41c8-b6bb-31a93c3565e4",
+              "--token-73f82776-2618-4c70-a6e0-19ccceb8fe9a",
+              "--token-72f0cdb9-d9d9-4d6f-b05c-23252a90cf3c",
+              "--token-a57c3608-835b-4531-99a2-5791dced2bc0",
+              "--token-ca4aa901-2a55-4d08-89fd-802e1709fda4",
+              "--token-18ebb84b-b7ff-4abb-a324-82832528f8ca",
+              "--token-9ac729c4-0d57-49c1-bc34-c8cc0d04401a",
+              "--token-76758004-7b53-46d6-9130-129866b814b0",
+              "--token-86f7d633-b3d4-4953-bdbd-147c61c4b34d",
+              "--token-df27af98-5313-4099-b2f6-eb1afdd402ec",
+              "--token-16a841c9-8b4a-4f08-b8e3-cae570868e14",
+              "--token-0be8d8b8-c4f6-4de3-8a22-4faa6b2c6d85",
+              "--token-1f65bdd9-0a3f-4600-96c4-6964750745c7",
+              "--token-7bee8464-d874-420a-855d-35342613873e",
+              "--token-1d77c7be-fdee-4479-af09-ca7228538da0",
+              "--token-9cb76ae8-fe9e-4605-b765-4444b2a9ecba",
+              "--token-fd9a7a5e-3865-4c86-9ecc-1a770f90acb8",
+              "--token-65273d97-0333-454e-adde-b15968d8b9eb",
+              "--token-8ca5e688-8f98-4620-8945-5943363b2918"
+            ]
+          },
+          {
+            "name": "White 5%",
+            "hex": "#FFFFFF",
+            "alpha": 0.05,
+            "aliases": [
+              "--token-7e405047-a8f7-4a29-ba60-27706f8aef99"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Dark Charcoal",
+        "type": "Monochromatic",
+        "rules": {
+          "description": "Deep gray tones for elevated surfaces, cards, and modal backgrounds in dark theme.",
+          "when_to_use": [
+            "Card backgrounds",
+            "Dropdown menus",
+            "Secondary containers"
+          ]
+        },
+        "hex": "#242424",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Charcoal 800",
+            "hex": "#242424",
+            "alpha": null,
+            "aliases": [
+              "--token-393d758b-714b-4628-a487-3e2609e109b7",
+              "--token-a90119e0-cc91-4f7c-8117-a4827837d154",
+              "--token-5381f6a2-4123-4833-9f15-ece3362235bb",
+              "--token-4c236017-9c6f-4d47-8335-0eb6d859d1e3",
+              "--token-c835256c-69c7-49f6-9ab5-223f8754be0b",
+              "--token-a5b679c7-75b3-4b56-b5ee-f7c78fdf6f09",
+              "--token-753822fb-42c0-4245-bbf8-87bc278da308",
+              "--token-65257a2f-9705-4b8e-acce-914c518786ec",
+              "--token-a798bd82-d3ed-489b-8536-bb5e3a370ab3",
+              "--token-242d6a6e-dcf9-428f-b28f-32484d98060a",
+              "--token-49807cf3-be08-4d49-9536-d1deca93118a",
+              "--token-027226a5-8d98-4e06-a4be-55361aa36010",
+              "--token-546c196d-1ff6-4c86-a518-b2a2f5cbd2bb",
+              "--token-7d3f58d6-793b-4d75-98be-0f2ed1e5f289",
+              "--token-842dd220-1af7-4cc5-88d9-f2b4719740c1",
+              "--token-0b3b53eb-3e91-4e9f-8bbe-cd6e24bede36",
+              "--token-caf55c22-32a8-47d6-94dc-4333837c3b93",
+              "--token-ab6d2aa6-07fc-4f90-a49d-b710eba59a3f",
+              "--token-a05b8143-c6cc-4243-bf33-e52c9e59bbd1",
+              "--token-7192a4a3-6f81-4ee7-8165-5646666e3478",
+              "--token-aaee07a2-1f0b-4f9f-b40b-c0b000d5b462",
+              "--token-d6bcb53c-4b19-4a51-acaa-9de4375a33e2",
+              "--token-3ffc7cca-af02-4727-881c-f6a58650ac59",
+              "--token-9f7557b0-6ed3-4934-8646-842006fcda6b",
+              "--token-3e908ce2-804b-49de-a849-79ecbe029f54",
+              "--token-8f8354e5-c734-4346-a36c-98ef14013c27",
+              "--token-f539add3-94c0-422e-9fba-6a493de2178d",
+              "--token-e7694541-7e8b-44ac-bae8-1c80596b8c25",
+              "--token-366bdd88-fb00-4631-9b16-f4f1513dc630",
+              "--token-ee7a62da-32cb-4040-9d7e-9b0c644b20f7",
+              "--token-8f5c2139-1d9e-4d90-aba4-546022fc9589",
+              "--token-a48a3d23-9008-4c6c-91f7-b7ed21247b58",
+              "--token-0e2e6dbf-f126-4414-ab40-8aa056a1663d",
+              "--token-436381f4-2de3-45e4-a467-f558a4b81c2d",
+              "--token-8412a50f-2c01-4d36-84e0-0a37e28cd520",
+              "--token-c8e7bab9-83dd-4a6a-97a1-d8000dd9e98b",
+              "--token-e3dcd0f7-350a-44f9-b4e8-0aee7db7ebd8",
+              "--token-d115d13e-7730-429b-b595-6c4c394c9623",
+              "--token-9f4de390-dd45-416a-a41c-9dfc060b5514",
+              "--token-2a36ad49-fa34-4b61-8fe4-7950eeebdf75",
+              "--token-cf0c9830-6dda-4185-925b-bb9988793875",
+              "--token-9d2b9baa-09e6-4a61-bf9d-d1eae11110e3",
+              "--token-83d5bb67-b920-44af-a08a-e0ae5c68cbaa",
+              "--token-3167752c-4724-4700-a708-5beeb055241b",
+              "--token-e7229d51-efce-4090-b0f1-11c93633d99d",
+              "--token-6be0f47f-90ed-442a-a11e-2f5a40213101"
+            ]
+          },
+          {
+            "name": "Charcoal 850",
+            "hex": "#222222",
+            "alpha": null,
+            "aliases": [
+              "--token-b8a0b4cf-70ff-4994-abad-931092f52d53",
+              "--token-7c6a6dd2-0dfd-431a-a4ce-82949a34d083",
+              "--token-bc0b4320-193d-47d8-ae82-dfa70e3aa6af"
+            ]
+          },
+          {
+            "name": "Charcoal 880",
+            "hex": "#212121",
+            "alpha": null,
+            "aliases": [
+              "--token-ef3d81b5-78dc-4f92-b13e-1e8b0e28ba8c",
+              "--token-86436fc2-2fa7-4338-9d69-653ef2fe605e",
+              "--token-3c51c799-b594-40bb-870a-2ecb57426fb5",
+              "--token-ca716543-ec0e-4610-b24d-c4a813b8ab12",
+              "--token-501e078c-c5fb-4b79-9d3e-94a6d60e5388",
+              "--token-7ca37c50-53e8-42ec-a9b7-a23785ef18d6",
+              "--token-648a89d7-4ba7-4aff-9f56-fe6a4791adfb",
+              "--token-0d914219-51db-44da-9371-684daa097890",
+              "--token-4ea7ddaa-edb2-4693-a52c-c8fbc21f91fd",
+              "--token-79709539-c81c-4174-9647-38ce6b9aeb22",
+              "--token-617907aa-d471-4e39-87ed-c88bddebc177",
+              "--token-77053a7b-2b3a-40d3-8369-531af7b2d32b",
+              "--token-977a0ed3-7c28-4aae-b6ea-4d8f27feded0",
+              "--token-1c7d82e1-7369-4900-8f28-9e47992213fb",
+              "--token-59eafd6c-da37-4218-a289-2f73b55a9343"
+            ]
+          },
+          {
+            "name": "Charcoal 900",
+            "hex": "#1F1F1F",
+            "alpha": null,
+            "aliases": [
+              "--token-3636b58d-af99-4283-ab2c-55c8fcdd5b26",
+              "--token-66b4c800-8615-4d3f-b022-5740b5e73cff"
+            ]
+          },
+          {
+            "name": "Charcoal 900 Transparent",
+            "hex": "#1F1F1F",
+            "alpha": 0,
+            "aliases": []
+          },
+          {
+            "name": "Charcoal 920",
+            "hex": "#1D1D1D",
+            "alpha": null,
+            "aliases": [
+              "--token-d8cf0a03-9d51-4c74-8f74-1ce6a40b7a93",
+              "--token-f2ab3b7f-4a45-442b-ac7e-6535e4f5eaa4",
+              "--token-e20050d3-1c28-4712-bab1-33daddb2d8d3"
+            ]
+          },
+          {
+            "name": "Charcoal 930",
+            "hex": "#1C1C1C",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "Charcoal 940",
+            "hex": "#171717",
+            "alpha": null,
+            "aliases": [
+              "--token-e0051992-b662-4a7c-a4c8-9cd5b5125f7a",
+              "--token-1073b3db-8e72-4239-ada0-89e67ba85817"
+            ]
+          },
+          {
+            "name": "Charcoal 950",
+            "hex": "#141414",
+            "alpha": null,
+            "aliases": [
+              "--token-2fbf5c4b-adb8-4940-91a4-ad94f8d791ba",
+              "--token-34da55f6-98ee-406d-9f22-8bd807975463"
+            ]
+          },
+          {
+            "name": "Charcoal 960",
+            "hex": "#121212",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "Charcoal 970",
+            "hex": "#111111",
+            "alpha": null,
+            "aliases": [
+              "--token-5e2a9781-f258-43f3-ae02-0a76276a5519"
+            ]
+          },
+          {
+            "name": "Charcoal 980",
+            "hex": "#1A1A1A",
+            "alpha": null,
+            "aliases": [
+              "--token-5e0b3b72-9a97-43f8-96f2-85d741f3d8ca"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Dark Gray",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Medium dark grays used for structural elements and borders in dark mode.",
+          "when_to_use": [
+            "Borders",
+            "Dividers",
+            "Tertiary backgrounds"
+          ]
+        },
+        "hex": "#303030",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Gray 800",
+            "hex": "#303030",
+            "alpha": null,
+            "aliases": [
+              "--token-373c4b2f-375a-4a63-bd70-20575308a06b",
+              "--token-05c8a71b-796d-4e89-a88a-1fd7fb02e1c7",
+              "--token-cf95d1fa-935c-4802-82e7-f14ff5b21f9c",
+              "--token-0cc75308-4a6e-4bce-8d10-0b6ce313edb1",
+              "--token-b493e89b-3e4a-4705-a618-7c7974b79464",
+              "--token-0eb29f98-94fb-47ef-acd3-f229c7741cbb",
+              "--token-17f1922c-cbe7-4c12-8333-9a3fab854edf",
+              "--token-36711a7c-92c6-4d69-94bf-123a35539aba",
+              "--token-34256e1b-6dc6-46bd-a1e5-879f0d9ce55f",
+              "--token-2bc01aec-fd2e-41cc-af66-3246e2cbfd9c",
+              "--token-bd800cdf-6bee-41d4-8f0c-903419cbf38c",
+              "--token-27d56fa0-4902-4878-968e-342fbcd7a965",
+              "--token-a7a91825-8026-44ba-98d3-95eb387f47dc",
+              "--token-b3b501b2-2f42-46a5-a5ff-1f4068c0fa69",
+              "--token-f2d5296d-094a-425f-a6aa-8ce8cc8f9866",
+              "--token-dd55fd97-72d7-4069-a4e8-92f7a1b78cb5",
+              "--token-ae620a86-f0cc-4dd6-afeb-327442208db3",
+              "--token-49483990-ce22-4468-9b38-4836277a9d8a",
+              "--token-44dc6bfb-c347-419a-bd93-f28262ab1b67",
+              "--token-6b23a0f2-e180-489a-a901-79eaf219b224",
+              "--token-59d2ba5c-2dfe-4990-93f8-1b37a0bf2017",
+              "--token-cf72ffb6-1538-4989-ba02-3a89651a339c",
+              "--token-43f04d80-5215-42ec-b92d-bf9788ac73cc",
+              "--token-eb522190-7962-4432-aad7-cd31ec155b1e"
+            ]
+          },
+          {
+            "name": "Gray 700",
+            "hex": "#333333",
+            "alpha": null,
+            "aliases": [
+              "--token-94a5bf9a-16a4-4639-b671-271526647eef",
+              "--token-8829ab2d-0ef5-4f78-a903-5d4c901eec75",
+              "--token-81dfd308-4a2d-423f-8ca6-7e503f3bc16a",
+              "--token-96473f7f-70c6-40df-9ce1-470c37694121"
+            ]
+          },
+          {
+            "name": "Gray 650",
+            "hex": "#383838",
+            "alpha": null,
+            "aliases": [
+              "--token-a1269b3c-6c48-45d9-9f35-32a6df13b5e0"
+            ]
+          },
+          {
+            "name": "Gray 600",
+            "hex": "#404040",
+            "alpha": null,
+            "aliases": [
+              "--token-3326ab02-a399-4a0a-90ca-823d3eeec36a",
+              "--token-a71eef55-e834-401a-b229-185b571b72fe",
+              "--token-0861198a-4b2a-403d-b7bd-f4ed671ad3c2",
+              "--token-ef633947-17fd-4fe2-99a1-2d1d3e55dcf0"
+            ]
+          },
+          {
+            "name": "Gray 550",
+            "hex": "#474747",
+            "alpha": null,
+            "aliases": [
+              "--token-8b0d0dfe-a92c-4872-95a1-6dfbe783f70a"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Mid Gray",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Mid-level grays for secondary text and disabled states.",
+          "when_to_use": [
+            "Muted text",
+            "Secondary icons",
+            "Disabled elements"
+          ]
+        },
+        "hex": "#666666",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Gray 500",
+            "hex": "#666666",
+            "alpha": null,
+            "aliases": [
+              "--token-3211d3ed-e082-412d-bec4-c06fb5bda768",
+              "--token-28fd9ca0-18c8-4b2c-b240-cbd29f83e8a5",
+              "--token-80b6d9ee-6797-4273-85d5-55a0c0e39c2c",
+              "--token-75b23a6a-47c8-47c8-8583-14f60f534fa2",
+              "--token-7ca336c6-1ed7-4269-b216-cbbdf5dca770",
+              "--token-eb9664b8-4d69-41aa-83e3-d6a02949def1",
+              "--token-02d50b3b-5dcf-4107-9d74-2d1a6d84c8fe",
+              "--token-a67564f1-1309-4f4f-bd77-5e60656b2704"
+            ]
+          },
+          {
+            "name": "Gray 400",
+            "hex": "#767676",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Light Gray",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Light grays used for borders, subtle icons, and tertiary text.",
+          "when_to_use": [
+            "Input borders",
+            "Subtle dividers",
+            "Tertiary labels"
+          ]
+        },
+        "hex": "#999999",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Gray 300",
+            "hex": "#999999",
+            "alpha": null,
+            "aliases": [
+              "--token-5964e09d-3671-4c80-a557-31c1772b6c22",
+              "--token-8015ce2b-ef6f-4fe0-944b-b61f872d0501",
+              "--token-e81b27a0-dbec-444a-a842-619222fcd818",
+              "--token-494c7bf8-981d-4262-955c-7770a66e4aca",
+              "--token-18266cfa-4b92-4fbe-9260-6d874055f250",
+              "--token-b009d8a3-9fb6-47e5-ad22-64acdc1a43f1",
+              "--token-43a73b1e-92dd-495c-9878-9ee05c726b8e",
+              "--token-c905498e-0f4e-46df-944f-7d0973c4d925",
+              "--token-1cfbd6a8-40d4-44a3-93b8-de4d8158716c",
+              "--token-ded025fa-15dd-4c1c-94f4-aee06d7d238a",
+              "--token-7d8c20e2-4a3c-4f56-bc8f-0b3ecb718dd0"
+            ]
+          },
+          {
+            "name": "Gray 300 20%",
+            "hex": "#999999",
+            "alpha": 0.2,
+            "aliases": [
+              "--token-ded025fa-15dd-4c1c-94f4-aee06d7d238a"
+            ]
+          },
+          {
+            "name": "Gray 300 10%",
+            "hex": "#999999",
+            "alpha": 0.1,
+            "aliases": []
+          },
+          {
+            "name": "Gray 350",
+            "hex": "#888888",
+            "alpha": null,
+            "aliases": [
+              "--token-0670237f-f1ec-47e8-98e0-ecdf93f4467c",
+              "--token-565b745b-c313-43ee-aacc-dc06f90a5494",
+              "--token-c21e04aa-a0e5-4f4d-853d-09e09aa40d71",
+              "--token-e0633a0d-cf57-4847-a570-b6e3ee41f945"
+            ]
+          },
+          {
+            "name": "Gray 380",
+            "hex": "#878787",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Off-White",
+        "type": "Neutral Colors",
+        "rules": {
+          "description": "Very light grays for subtle backgrounds in light mode or inverted contexts.",
+          "when_to_use": [
+            "Alternative backgrounds",
+            "Empty states"
+          ]
+        },
+        "hex": "#F3F3F3",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Gray 50",
+            "hex": "#F3F3F3",
+            "alpha": null,
+            "aliases": [
+              "--token-02d1ef49-b467-4c62-87d7-eec15dc1a1de",
+              "--token-8b2ef229-2b1e-47ab-a5e3-fa5fe4d2b845",
+              "--token-53823293-0135-4be2-bee2-c0c9d1c237d5",
+              "--token-f62792a8-74e6-43b7-8d07-cf9adc2846c5",
+              "--token-ac42aa63-82e6-4f48-8c97-36a648b3c331"
+            ]
+          },
+          {
+            "name": "Gray 100",
+            "hex": "#F2F2F2",
+            "alpha": null,
+            "aliases": [
+              "--token-ab22db3f-51d4-457b-b74d-36a1761e9043",
+              "--token-0ba2e88a-a3f7-47fb-83b9-ad2eb0f68dc9"
+            ]
+          },
+          {
+            "name": "Gray 150",
+            "hex": "#EEEEEE",
+            "alpha": null,
+            "aliases": [
+              "--token-77e39566-b00e-4163-9c94-dfbac239ccfc",
+              "--token-ae91dd2e-0047-4f1c-ad17-e99188f82231"
+            ]
+          },
+          {
+            "name": "Gray 200",
+            "hex": "#CCCCCC",
+            "alpha": null,
+            "aliases": [
+              "--token-883ec69e-717f-4933-bc04-075e58e23acd"
+            ]
+          },
+          {
+            "name": "Gray 250",
+            "hex": "#BBBBBB",
+            "alpha": null,
+            "aliases": [
+              "--token-023e584d-eb9f-45d0-a9bf-d481c0b53395"
+            ]
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Brand Blue",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "Primary brand and interactive color used to indicate action.",
+          "when_to_use": [
+            "Primary buttons",
+            "Text links",
+            "Active state indicators",
+            "Text selection highlight"
+          ]
+        },
+        "hex": "#0099FF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Blue 500",
+            "hex": "#0099FF",
+            "alpha": null,
+            "aliases": [
+              "--token-bd71055c-0a2c-4476-8cc9-4310acba652d",
+              "--token-3ead4217-f562-484f-ae35-d367de8b213a",
+              "--token-7caf96a9-3685-4995-95cd-92a16705da21",
+              "--token-e2c6fd82-c978-4415-a4b5-37700001c928",
+              "--token-8dfe056b-123a-4b56-a293-a075f1447a42",
+              "--selection-background-color",
+              "--selection-color",
+              "--framer-link-text-color"
+            ]
+          },
+          {
+            "name": "Blue 500 30%",
+            "hex": "#0099FF",
+            "alpha": 0.3,
+            "aliases": [
+              "--selection-background-color"
+            ]
+          },
+          {
+            "name": "Blue 500 22%",
+            "hex": "#0099FF",
+            "alpha": 0.22,
+            "aliases": []
+          },
+          {
+            "name": "Blue 500 42%",
+            "hex": "#0099FF",
+            "alpha": 0.42,
+            "aliases": []
+          },
+          {
+            "name": "Blue 600",
+            "hex": "#0055FF",
+            "alpha": null,
+            "aliases": [
+              "--token-eb0d9e00-7216-491c-99d5-7c1c2f3d0dbe"
+            ]
+          },
+          {
+            "name": "Blue 300",
+            "hex": "#00CCFF",
+            "alpha": null,
+            "aliases": [
+              "--token-ee053477-e115-4fec-a5f5-cdc637ed6ddc"
+            ]
+          },
+          {
+            "name": "Blue Link Default",
+            "hex": "#0000EE",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "Blue Dark",
+            "hex": "#194666",
+            "alpha": null,
+            "aliases": [
+              "--token-c47565cb-23b2-472f-ab3b-28657c18119f"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Purple",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "Vibrant accent color for highlighting specific features or marketing elements.",
+          "when_to_use": [
+            "Marketing graphics",
+            "Badges",
+            "Special accents"
+          ]
+        },
+        "hex": "#6600FF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Purple 500",
+            "hex": "#6600FF",
+            "alpha": null,
+            "aliases": [
+              "--token-0245ad54-dffa-4280-9b49-9d43ad68acaa"
+            ]
+          },
+          {
+            "name": "Purple 400",
+            "hex": "#9900FF",
+            "alpha": null,
+            "aliases": [
+              "--token-66dfdba2-b084-43a3-a18d-237c2893b6a7"
+            ]
+          },
+          {
+            "name": "Purple Soft",
+            "hex": "#9869FD",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Pink",
+        "type": "Neon Colors",
+        "rules": {
+          "description": "High-energy accent color for attracting attention.",
+          "when_to_use": [
+            "Alerts",
+            "New feature tags",
+            "Vibrant illustrations"
+          ]
+        },
+        "hex": "#FF0066",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Pink 500",
+            "hex": "#FF0066",
+            "alpha": null,
+            "aliases": [
+              "--token-0c4c4e00-f4fc-4e6a-9a97-509a95a3e5d4"
+            ]
+          },
+          {
+            "name": "Red Accent",
+            "hex": "#FF0022",
+            "alpha": null,
+            "aliases": [
+              "--token-88cad303-8ee5-4c22-877f-e434faf14eee"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Orange",
+        "type": "Warm Colors",
+        "rules": {
+          "description": "Warm accent color for variety in data visualization or graphics.",
+          "when_to_use": [
+            "Charts",
+            "Illustrations",
+            "Warning states"
+          ]
+        },
+        "hex": "#FD7702",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Orange 500",
+            "hex": "#FD7702",
+            "alpha": null,
+            "aliases": [
+              "--token-61e699c7-742b-47d0-bb16-f42065b06637"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Yellow",
+        "type": "Neon Colors",
+        "rules": {
+          "description": "Bright accent color for notifications and graphic highlights.",
+          "when_to_use": [
+            "Notifications",
+            "Highlights",
+            "Graphic accents"
+          ]
+        },
+        "hex": "#FFBB00",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Yellow 500",
+            "hex": "#FFBB00",
+            "alpha": null,
+            "aliases": [
+              "--token-be530db7-18b2-4273-89ab-17e94ce4aa9f"
+            ]
+          },
+          {
+            "name": "Lime Green",
+            "hex": "#CBFF00",
+            "alpha": null,
+            "aliases": [
+              "--token-6ecb0037-dab8-4348-b657-00f38b638028",
+              "--token-224bfd43-9bd7-4029-a74c-dfb7dcb6da6e"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Green",
+        "type": "Cool Colors",
+        "rules": {
+          "description": "Success and positive confirmation color.",
+          "when_to_use": [
+            "Success messages",
+            "Positive status indicators",
+            "Progress bars"
+          ]
+        },
+        "hex": "#4CD963",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Green 500",
+            "hex": "#4CD963",
+            "alpha": null,
+            "aliases": [
+              "--token-281f665e-69f0-4f4c-a171-f40f50fe70d5"
+            ]
+          },
+          {
+            "name": "Green Bright",
+            "hex": "#00DD66",
+            "alpha": null,
+            "aliases": [
+              "--token-f4d7f1ab-60e4-4112-93dc-10fa3370595e"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Cyan",
+        "type": "Neon Colors",
+        "rules": {
+          "description": "Cool accent color for data and illustration elements.",
+          "when_to_use": [
+            "Data visualization",
+            "Secondary highlights"
+          ]
+        },
+        "hex": "#22DDDD",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Cyan 500",
+            "hex": "#22DDDD",
+            "alpha": null,
+            "aliases": [
+              "--token-893b117c-1037-4f46-becb-94bc264ede3a"
+            ]
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "insights": [
+      "The color system relies heavily on a deeply neutral, monochromatic dark scale from pure black to off-white, suggesting a sleek, modern, tech-focused interface.",
+      "A diverse secondary palette featuring vibrant, high-contrast neon hues (Cyan, Pink, Purple, Orange, Yellow) provides energetic accents against the dark background.",
+      "The predominant use of blue with multiple shades and alpha variations suggests it serves as the primary interactive and brand accent color."
+    ]
+  }
+}

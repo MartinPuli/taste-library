@@ -1,0 +1,129 @@
+{
+  "id": "framer",
+  "source_url": "https://www.framer.com/",
+  "captured_at": "2026-08-07T00:18:49.934442Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/framer.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/framer.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary dark background for the entire page",
+        "when_to_use": [
+          "Main page background",
+          "Hero sections",
+          "Dark UI containers"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Card/Container Background",
+        "description": "Secondary dark surface for cards and UI containers",
+        "when_to_use": [
+          "UI cards",
+          "Modal backgrounds",
+          "Content containers"
+        ],
+        "hex": "#1F1F1F"
+      },
+      {
+        "name": "Elevated Surface",
+        "description": "Slightly elevated dark surface for components",
+        "when_to_use": [
+          "Elevated cards",
+          "Dropdown menus",
+          "Popover backgrounds"
+        ],
+        "hex": "#242424"
+      },
+      {
+        "name": "Dark Separator",
+        "description": "Dark surface for dividers and subtle backgrounds",
+        "when_to_use": [
+          "Section dividers",
+          "Nested containers",
+          "Subtle surfaces"
+        ],
+        "hex": "#212121"
+      },
+      {
+        "name": "Dark UI Panel",
+        "description": "Mid-dark surface for UI panels and sections",
+        "when_to_use": [
+          "Navigation panels",
+          "Sidebar backgrounds",
+          "UI sections"
+        ],
+        "hex": "#303030"
+      },
+      {
+        "name": "Accent Surface",
+        "description": "Primary accent blue surface",
+        "when_to_use": [
+          "CTA buttons",
+          "Interactive elements",
+          "Accent highlights"
+        ],
+        "hex": "#0099FF"
+      },
+      {
+        "name": "White Surface",
+        "description": "White surface for light UI elements",
+        "when_to_use": [
+          "Light buttons",
+          "Contrast elements",
+          "Text backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Section Fade",
+        "description": "Top to bottom gradient from transparent to black, creates fade effect in hero section",
+        "when_to_use": [
+          "Hero section overlays",
+          "Content fade effects",
+          "Image overlays"
+        ],
+        "css_code": "linear-gradient(#0000 0%, #000 100%)"
+      },
+      {
+        "name": "Left Edge Fade",
+        "description": "Right to left gradient fade (270 degrees), transparent to black",
+        "when_to_use": [
+          "Left edge vignettes",
+          "Horizontal fade effects"
+        ],
+        "css_code": "linear-gradient(270deg, #0000 0%, #000 100%)"
+      },
+      {
+        "name": "Right Edge Fade",
+        "description": "Left to right gradient fade (90 degrees), transparent to black",
+        "when_to_use": [
+          "Right edge vignettes",
+          "Horizontal fade effects"
+        ],
+        "css_code": "linear-gradient(90deg, #0000 0%, #000 100%)"
+      }
+    ],
+    "highlights": [
+      "Glassmorphism effects with backdrop-filter blur on floating UI panels and navigation components",
+      "Subtle border highlights using semi-transparent white (rgba(255, 255, 255, 0.1)) on cards and containers",
+      "Radial gradient spotlight effects on interactive UI elements using mask-image with radial-gradient",
+      "Noise/grain texture overlay on video elements and hero sections using animated background pattern",
+      "Accent glow effects using rgba(0, 153, 255, 0.22) background with rgba(0, 153, 255, 0.42) borders on interactive states"
+    ]
+  }
+}

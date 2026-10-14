@@ -1,0 +1,206 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/notion.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal bar, sticky",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Notion logo on left side, black"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal menu with dropdowns: Product, Resources, Pricing, Request a demo"
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Get Notion free' - solid blue pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "Secondary 'Log in' text link, black"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Where teams and agents Jam together.",
+      "subheadline": "Capture context, find answers, and automate tasks with AI built for your team.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Pile of 7 colorful overlapping images arranged in a grid above the headline"
+        },
+        {
+          "type": "button",
+          "description": "'Get Notion free' - solid blue pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "'Request a demo' - text link with underline"
+        },
+        {
+          "type": "video",
+          "description": "Product demo video showing Notion dashboard interface with sidebar navigation and Ramp HQ content area, 16:10 aspect ratio"
+        },
+        {
+          "type": "illustration",
+          "description": "Accent illustration of agent/AI character peeking from top"
+        },
+        {
+          "type": "illustration",
+          "description": "Accent illustration of person peeking from left side"
+        }
+      ]
+    },
+    {
+      "type": "Logo Wall",
+      "layout_pattern": "Marquee/horizontal scroll",
+      "headline": null,
+      "subheadline": "The most ambitious companies run on Notion.",
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Animated marquee of 23 grayscale company logos including OpenAI, Figma, Ramp, Toyota, Vercel, Faire, Discord in horizontal scrolling layout, max 2 rows"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "layout_pattern": "Grid 3-column (2 columns + 1 wide)",
+      "headline": "AI where your team works.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Capture knowledge card - gray background with product screenshot showing meetings interface with avatars, pin overlay at bottom, 'Capture' eyebrow, titled 'Bring everything into one system of record'"
+        },
+        {
+          "type": "card",
+          "description": "Find answers card - gray background with H2 Deal Flow Dashboard screenshot showing colorful charts (blue speedometer, bar graphs in orange/green/blue), chat input overlay at bottom, 'Find answers' eyebrow, titled 'Get answers, instantly—with citations'"
+        },
+        {
+          "type": "card",
+          "description": "Automate busywork card - wide layout spanning 2 columns, gray background with stacked images showing automation interface, 'Automate busywork' eyebrow, titled 'Keep work moving 24/7 with agents'"
+        }
+      ]
+    },
+    {
+      "type": "Use Cases",
+      "layout_pattern": "Horizontal row/carousel",
+      "headline": "See what Notion can do",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Compact card with blue circular icon (mailbox emoji), 'Triage product feedback' title with arrow"
+        },
+        {
+          "type": "card",
+          "description": "Compact card with yellow circular icon (rock emoji), 'Resolve support tickets in Slack' title with arrow"
+        },
+        {
+          "type": "card",
+          "description": "Compact card with red circular icon (sign emoji), 'Respond to security alerts faster' title with arrow"
+        },
+        {
+          "type": "card",
+          "description": "Compact card with green circular icon (apple emoji), 'Automate weekly reporting' title with arrow"
+        },
+        {
+          "type": "card",
+          "description": "Compact card with dark blue circular icon, 'Create your own developer guide' title with arrow"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Grid 3-column",
+      "headline": "Trusted by teams that ship.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Quote card with red gradient background, white text overlay, subtle geometric patterns"
+        },
+        {
+          "type": "card",
+          "description": "Quote card with royal blue gradient background, white text overlay, subtle geometric patterns"
+        },
+        {
+          "type": "card",
+          "description": "Quote card with orange gradient background, white text overlay, subtle geometric patterns"
+        }
+      ]
+    },
+    {
+      "type": "Stats",
+      "layout_pattern": "Horizontal bar",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "icon",
+          "description": "Stats displayed with muted/grayscale icons in horizontal row - '100M users', 'Over 80% FC companies' mentioned"
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "layout_pattern": "Centered",
+      "headline": "Get started today.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Get Notion free' - solid blue pill-shaped button"
+        },
+        {
+          "type": "button",
+          "description": "'Request a demo' - text link"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Notion logo on left"
+        },
+        {
+          "type": "navigation",
+          "description": "Multi-column link layout organized into sections: Product (Docs, Projects, Notion AI, Calendar, Pricing), Features (Wikis, Projects, Docs, AI), Resources (Blog, Guides, Templates, Pricing), Company (About us, Careers, Customer Stories)"
+        },
+        {
+          "type": "button",
+          "description": "Language selector 'English (US)' with dropdown"
+        },
+        {
+          "type": "button",
+          "description": "'Do Not Sell or Share...' text link"
+        },
+        {
+          "type": "button",
+          "description": "'Cookie settings' text link"
+        }
+      ]
+    }
+  ]
+}

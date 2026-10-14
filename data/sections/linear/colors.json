@@ -1,0 +1,238 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "White / High Contrast",
+        "type": "Light",
+        "rules": {
+          "description": "The brightest luminance on the page, used for the default page text, the main logo, and inverted high-emphasis buttons.",
+          "when_to_use": [
+            "Default page text color (html/body)",
+            "Primary 'Sign up' and 'Open app' button backgrounds",
+            "Linear header logo fill",
+            "Translucent structural borders on cards and mock UI (via #FFFFFF14)"
+          ]
+        },
+        "hex": "#F7F8F8",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#FFFFFF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E2E4E7",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E5E5E6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E2E4E6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#E4E5E9",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.1140999999999999
+      },
+      {
+        "name": "App Primary Text",
+        "type": "Cool Color",
+        "rules": {
+          "description": "A soft off-white that serves as the primary reading color within the application UI mocks and marketing sections, preventing the eye strain of pure white.",
+          "when_to_use": [
+            "Marketing section subtitles (e.g., 'Intake and integrations')",
+            "Issue titles in the app mockups",
+            "Active sidebar items in the UI mock",
+            "Breadcrumb navigation text"
+          ]
+        },
+        "hex": "#D0D6E0",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0949
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Muted Text / Metadata",
+        "type": "Cool Color",
+        "rules": {
+          "description": "A mid-gray used extensively for secondary information, navigation links, and descriptive marketing copy.",
+          "when_to_use": [
+            "Main header navigation links",
+            "Marketing paragraph descriptions under section titles",
+            "Issue IDs and metadata in the app view",
+            "Inactive sidebar icons"
+          ]
+        },
+        "hex": "#8A8F98",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#9C9DA1",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#949496",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0838
+      },
+      {
+        "name": "Faint Text / Icons",
+        "type": "Neutral",
+        "rules": {
+          "description": "A low-contrast gray reserved for tertiary UI text, unselected icons, and subtle structural elements.",
+          "when_to_use": [
+            "Inactive UI icons in the mockups (search, generic buttons)",
+            "Collapsible sidebar section headers ('Workspace', 'Favorites')",
+            "Timestamp text in the activity feed",
+            "'Learn more' arrow suffixes"
+          ]
+        },
+        "hex": "#62666D",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#626366",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#585A5C",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#6B6B6B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#555557",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0587
+      },
+      {
+        "name": "Deep Space / Surfaces",
+        "type": "Dark",
+        "rules": {
+          "description": "The foundational dark background family that paints the entire canvas and builds depth through subtly lighter elevated surfaces.",
+          "when_to_use": [
+            "Main page background fill",
+            "Elevated feature card backgrounds",
+            "Agent chat panel backgrounds",
+            "Text color on inverted primary CTAs"
+          ]
+        },
+        "hex": "#08090A",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#0F1011",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0B0B0B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#101112",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#161718",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#090A0B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#121414",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#1C1C1D",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#191A1B",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#191D20",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#080808",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.033600000000000005
+      }
+    ],
+    "insights": [
+      "The palette is a strict, monochromatic deep dark theme, entirely omitting saturated brand colors to create a highly technical, 'tool-first' aesthetic.",
+      "Depth and elevation are built almost exclusively through translucent white borders (e.g., #FFFFFF14) and subtle background lightness variations, rather than drop shadows.",
+      "The design carefully avoids pure white for most reading text, capping UI elements and section descriptions at an off-white (#D0D6E0) to reduce eye strain, reserving pure white for high-priority CTAs."
+    ]
+  }
+}

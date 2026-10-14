@@ -1,0 +1,147 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The foundational ink of the design, heavily utilizing opacity to create a comprehensive scale for text, borders, and shadows.",
+          "when_to_use": [
+            "Primary and secondary typography across all headings, body text, and menus",
+            "Subtle borders on cards, videos, and dropdowns (using low opacity)",
+            "Drop shadows on interactive components and bento boxes",
+            "Monochrome rendering for customer logos"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Paper White",
+        "type": "Light",
+        "rules": {
+          "description": "The dominant surface color that defines the clean, document-like feel, accompanied by subtle off-white and pastel shades for grouping.",
+          "when_to_use": [
+            "Global page background and sticky navigation panel",
+            "Text and icon color on primary CTA buttons",
+            "Off-white backgrounds for bento box headers and the bottom endcap section",
+            "Pale color-tinted backgrounds (blue, red, yellow) for product feature cards"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F9F9F8",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F5F4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F2F9FF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FEF3F1",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.15880000000000002
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Marquee Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A specific muted gray used to visually de-emphasize continuous background information.",
+          "when_to_use": [
+            "Text color for the statistics within the scrolling marquee section"
+          ]
+        },
+        "hex": "#615D59",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#78736F",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.017499999999999998
+      },
+      {
+        "name": "Marquee Icon Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A soft, low-contrast gray specifically paired with marquee text.",
+          "when_to_use": [
+            "Icon fills accompanying the statistics in the scrolling marquee section"
+          ]
+        },
+        "hex": "#A39E98",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0159
+      },
+      {
+        "name": "Action Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "The sole structural accent color, used exclusively to highlight interactive elements, conversions, and key feature markers.",
+          "when_to_use": [
+            "Primary 'Get Notion free' CTA button backgrounds",
+            "Text color for 'Request a demo' secondary buttons",
+            "Inline text links with directional arrows",
+            "Filled graphic icons in the agent and feature prompt sections"
+          ]
+        },
+        "hex": "#097FE8",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#005BAB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0075DE",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.011600000000000001
+      }
+    ],
+    "insights": [
+      "Opacity-driven hierarchy: Instead of a large palette of solid grays, the design primarily relies on pure black with varying alpha channels to handle typographic hierarchy, borders, disabled states, and shadows.",
+      "Document-first aesthetic: The heavy reliance on white surfaces and crisp black ink reinforces the product's identity as a text-focused workspace and system of record.",
+      "Restrained accentuation: By committing almost entirely to a monochrome foundation, the single blue accent color stands out sharply, creating an obvious visual path for user conversion and feature discovery."
+    ]
+  }
+}

@@ -2,31 +2,49 @@
 
 Study how content cards organize research and product information into a browsable page.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 19 · Captured 2026-10-14T05:11:51.490971Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 19 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-14T05:11:51.490971Z |
-| Suggested uses | editorial-research, creative-tools |
-| Visual approach | modular |
+[Original website](https://openai.com/) · [Full extraction](../data/raw/openai.json) · [Review record](../data/reviews/openai.json)
 
-## Details to compare
+[Small visual preview](../data/previews/openai.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/full.jpg)
 
-- Detected type families: Times New Roman, Arial, monospace.
-- Recorded palette: #000000, #0000EE, #F0F0F0, #767676, #101010.
-- Grid: `{"columns": 12, "gutter": "24px", "max_width": "1728px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+The saved viewport shows an orange Zapier logo frame. This image alone does not establish the requested brand’s page structure.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://openai.com/) · [Extraction](../data/raw/openai.json) · [Tokens](../data/tokens/openai.json)
+Project types: editorial-research, creative-tools. Styles: modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show openai --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study how content cards organize research and product information into a browsable page. Evidence: [layout](../data/sections/openai/layout.json), [sections](../data/sections/openai/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/openai/actions.json).
+
+## Content to bring
+
+A small set of strong headlines and substantial articles or research to support the hierarchy. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/openai/profile.json)
+- [Layout](../data/sections/openai/layout.json)
+- [Colors](../data/sections/openai/colors.json)
+- [Typography](../data/sections/openai/typography.json)
+- [Surfaces](../data/sections/openai/surfaces.json)
+- [Elevation](../data/sections/openai/elevation.json)
+- [Interactions](../data/sections/openai/interactions.json)
+- [Actions](../data/sections/openai/actions.json)
+- [Navigation](../data/sections/openai/navigation.json)
+- [Data Display](../data/sections/openai/data_display.json)
+- [Structure](../data/sections/openai/structure.json)
+- [Icons](../data/sections/openai/icons.json)
+- [Assets](../data/sections/openai/assets.json)
+- [Brand Assets](../data/sections/openai/brand_assets.json)
+- [Sections](../data/sections/openai/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `limited`. Review notes do not certify an entire design system. Missing values remain missing.

@@ -2,31 +2,49 @@
 
 Let cover art and artists supply color over dark surfaces with persistent navigation.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 31 · Captured 2026-10-08T15:15:36.464067Z · Web Player Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 31 |
-| Captured page | Web Player Homepage |
-| Capture time (UTC) | 2026-10-08T15:15:36.464067Z |
-| Suggested uses | media-discovery |
-| Visual approach | dark-technical, image-led, modular |
+[Original website](https://www.spotify.com/) · [Full extraction](../data/raw/spotify.json) · [Review record](../data/reviews/spotify.json)
 
-## Details to compare
+[Small visual preview](../data/previews/spotify.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/full.jpg)
 
-- Detected type families: SpotifyMixUITitle, SpotifyMixUI.
-- Recorded palette: #FFFFFF, #B3B3B3, #939393, #121212, #000000.
-- Grid: `{"columns": 12, "gutter": "16px", "max_width": "1199px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+Dark surfaces frame rows of album artwork and circular artist portraits. A green premium action appears inside a wide banner.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.spotify.com/) · [Extraction](../data/raw/spotify.json) · [Tokens](../data/tokens/spotify.json)
+Project types: media-discovery. Styles: dark-technical, image-led, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show spotify --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Let cover art and artists supply color over dark surfaces with persistent navigation. Evidence: [layout](../data/sections/spotify/layout.json), [sections](../data/sections/spotify/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/spotify/actions.json).
+
+## Content to bring
+
+A collection of labeled images or media that readers can browse and compare. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/spotify/profile.json)
+- [Layout](../data/sections/spotify/layout.json)
+- [Colors](../data/sections/spotify/colors.json)
+- [Typography](../data/sections/spotify/typography.json)
+- [Surfaces](../data/sections/spotify/surfaces.json)
+- [Elevation](../data/sections/spotify/elevation.json)
+- [Interactions](../data/sections/spotify/interactions.json)
+- [Actions](../data/sections/spotify/actions.json)
+- [Navigation](../data/sections/spotify/navigation.json)
+- [Data Display](../data/sections/spotify/data_display.json)
+- [Structure](../data/sections/spotify/structure.json)
+- [Icons](../data/sections/spotify/icons.json)
+- [Assets](../data/sections/spotify/assets.json)
+- [Brand Assets](../data/sections/spotify/brand_assets.json)
+- [Sections](../data/sections/spotify/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

@@ -1,0 +1,256 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "texture_classification": [
+      "gradient_radial",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Main page background, light ivory surface",
+        "when_to_use": [
+          "Page backgrounds",
+          "Default surface color"
+        ],
+        "hex": "#FAF9F5"
+      },
+      {
+        "name": "Card Background",
+        "description": "Card surface, pure white background",
+        "when_to_use": [
+          "Card backgrounds",
+          "Elevated content containers"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Secondary Background",
+        "description": "Secondary surface for differentiation",
+        "when_to_use": [
+          "Section backgrounds",
+          "Subtle contrast areas",
+          "Navigation hover states"
+        ],
+        "hex": "#F0EEE6"
+      },
+      {
+        "name": "Tertiary Background",
+        "description": "Tertiary background for additional layering",
+        "when_to_use": [
+          "Nested sections",
+          "Toggle switches",
+          "Hover states"
+        ],
+        "hex": "#E8E6DC"
+      },
+      {
+        "name": "Dark Surface",
+        "description": "Dark surface for high contrast elements",
+        "when_to_use": [
+          "Buttons",
+          "Dark theme sections",
+          "Terminal backgrounds",
+          "Footer"
+        ],
+        "hex": "#141413"
+      },
+      {
+        "name": "Medium Dark Surface",
+        "description": "Medium dark surface for secondary dark elements",
+        "when_to_use": [
+          "Dark theme cards",
+          "Terminal headers",
+          "Hover states on dark buttons"
+        ],
+        "hex": "#3D3D3A"
+      },
+      {
+        "name": "Faded Card Background",
+        "description": "Translucent card background with 10% opacity",
+        "when_to_use": [
+          "Faded cards",
+          "Subtle containers",
+          "Overlay surfaces"
+        ],
+        "hex": "#1414131A"
+      },
+      {
+        "name": "Faded Card Hover",
+        "description": "Faded card hover state with 20% opacity",
+        "when_to_use": [
+          "Card hover states",
+          "Interactive faded elements"
+        ],
+        "hex": "#14141333"
+      },
+      {
+        "name": "Video Thumbnail Background",
+        "description": "Pure black background for video thumbnails",
+        "when_to_use": [
+          "Video player thumbnails",
+          "Media overlays"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Form Success",
+        "description": "Form success message background",
+        "when_to_use": [
+          "Success messages",
+          "Form confirmations"
+        ],
+        "hex": "#F0EEE6"
+      },
+      {
+        "name": "Form Error",
+        "description": "Form error message background",
+        "when_to_use": [
+          "Error messages",
+          "Form validation feedback"
+        ],
+        "hex": "#FFDEDE"
+      },
+      {
+        "name": "Accent Surface - Oat",
+        "description": "Warm accent surface",
+        "when_to_use": [
+          "Package banners",
+          "Accent sections"
+        ],
+        "hex": "#E3DACC"
+      },
+      {
+        "name": "Accent Surface - Olive",
+        "description": "Green accent surface",
+        "when_to_use": [
+          "Themed sections",
+          "Navigation banner"
+        ],
+        "hex": "#788C5D"
+      },
+      {
+        "name": "Accent Surface - Clay",
+        "description": "Coral accent surface for CTAs",
+        "when_to_use": [
+          "Primary CTAs",
+          "Highlight buttons",
+          "Active states"
+        ],
+        "hex": "#D97757"
+      },
+      {
+        "name": "Accent Surface - Cactus",
+        "description": "Teal accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#BCD1CA"
+      },
+      {
+        "name": "Accent Surface - Sky",
+        "description": "Blue accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#6A9BCC"
+      },
+      {
+        "name": "Accent Surface - Heather",
+        "description": "Purple accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#CBCADB"
+      },
+      {
+        "name": "Accent Surface - Fig",
+        "description": "Pink accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#C46686"
+      },
+      {
+        "name": "Accent Surface - Coral",
+        "description": "Light coral accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#EBCECE"
+      },
+      {
+        "name": "Accent Surface - Manilla",
+        "description": "Warm beige accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#EBDBBC"
+      },
+      {
+        "name": "Accent Surface - Kraft",
+        "description": "Tan accent surface",
+        "when_to_use": [
+          "Accent sections",
+          "Themed containers"
+        ],
+        "hex": "#D4A27F"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Orbit Center Gradient",
+        "description": "Radial gradient from transparent center to page background, creating orbit effect",
+        "when_to_use": [
+          "Orbit logo sections",
+          "Centered focal elements",
+          "Decorative radial effects"
+        ],
+        "css_code": "radial-gradient(circle farthest-side at 50% 50%, transparent 50%, #faf9f5)"
+      },
+      {
+        "name": "Orbit Linear Gradient",
+        "description": "Top to bottom gradient with solid ends and transparent middle",
+        "when_to_use": [
+          "Orbit sections with linear fade",
+          "Vertical masking effects"
+        ],
+        "css_code": "linear-gradient(180deg, #faf9f5, transparent 30%, transparent 70%, #faf9f5)"
+      },
+      {
+        "name": "Horizontal Scroll Mask",
+        "description": "Horizontal gradient mask for scroll areas, fading at edges",
+        "when_to_use": [
+          "Horizontal scrolling containers",
+          "Carousel edge fades"
+        ],
+        "css_code": "linear-gradient(90deg, #0000 0%, #000 8% 92%, #0000 100%)"
+      }
+    ],
+    "highlights": [
+      "Soft shadows on dropdown menus and elevated surfaces: box-shadow: 0 2px 2px rgba(0,0,0,0.03), 0 4px 4px rgba(0,0,0,0.05), 0 16px 24px rgba(0,0,0,0.1)",
+      "Radial gradient spotlight effect on orbit sections creating depth",
+      "Linear gradient mask on horizontal scroll containers for fade-in/fade-out edges",
+      "Dialog backdrop with color-mix overlay: background: color-mix(in srgb, #141413 80%, transparent)",
+      "Canvas-based animated 'Fable sky' gradient background (WebGL2) for hero CTA sections",
+      "Translucent faded card surfaces with opacity variations for depth layering"
+    ]
+  }
+}

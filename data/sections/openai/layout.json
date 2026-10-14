@@ -1,0 +1,38 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "layout",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/layout",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "classification": [
+      "centered_symmetric",
+      "generous_whitespace"
+    ],
+    "grid": {
+      "columns": 12,
+      "gutter": "24px",
+      "max_width": "1728px"
+    },
+    "breakpoints": {
+      "mobile": "0px - 768px (1 Column, 24px gutter)",
+      "tablet": "769px - 1024px (8 Columns, 24px gutter)",
+      "desktop": "1025px - 1728px (12 Columns, 32px gutter)",
+      "large": "1728px+ (12 Columns, 32px gutter)"
+    },
+    "section_separation": "Generous vertical spacing (gap-20 @md:gap-30) between major sections. No visible dividers or alternating backgrounds—pure whitespace creates rhythm. Light gray (#F5F5F5) background for content areas contrasts subtly with white components.",
+    "ascii_template": "┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                       [HERO]                             │\n│                                                          │\n│                     __zapier                             │\n│                    [LOGO - Centered]                     │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n┌──────────────────────────────────────────────────────────┐\n│                                                          │\n│                   [CONTENT AREA]                         │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n\n---VISUAL ANNOTATIONS---\n\nHERO:\n- Background: Vibrant orange gradient (yellow-orange at top left fading to deep red-orange at bottom right), with radial light burst effect emanating from center-left creating a warm, energetic feel\n- Logo: White \"zapier\" wordmark with distinctive underscore dash prefix (\"__zapier\"), centered both horizontally and vertically in the hero space\n- Imagery: No photos or illustrations, pure gradient background with subtle texture/noise overlay\n- Colors observed: Bright orange (#FF6B35), yellow-orange highlights, deep burnt orange shadows, white logo\n- Typography mood: Bold, modern, clean sans-serif in white providing strong contrast\n- Components: Minimal design focused entirely on brand presence\n- Buttons/CTAs: None visible in this section\n\nCONTENT AREA:\n- Background: Light off-white or very pale gray (#F5F5F5 or similar), clean and minimal\n- Imagery: None visible in the captured portion\n- Components: Empty content space below the hero\n- Colors observed: Off-white/very light gray background\n- Typography mood: Not applicable (no visible text)\n- Buttons/CTAs: None visible in this section",
+    "insights": [
+      "Extreme hierarchy: hero occupies 80vh with a single centered search input, dwarfing all subsequent content blocks",
+      "Asymmetric grid in content area (3:1 column split) creates visual tension between featured and secondary articles",
+      "Generous inter-section whitespace (gap-20/30) and minimal borders establish a calm, spacious rhythm—cards float rather than stack"
+    ]
+  }
+}

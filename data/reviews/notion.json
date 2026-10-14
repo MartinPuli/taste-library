@@ -1,0 +1,55 @@
+{
+  "id": "notion",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A large centered headline leads into a workspace screenshot on white. Small line illustrations surround the product demonstration.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/viewport.jpg",
+    "sha256": "a3cf00b399f74bc81bf9beba612be646fdda1d73a2cf55b7cc79bfa5083d583d"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/styles.css",
+    "sha256": "c83f693564e29d69469357ef36eca619fb6450f0b6cf38c8b8c5c76159aeacb4",
+    "bytes": 1487192,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#FFFFFF",
+      "#615D59",
+      "#A39E98",
+      "#097FE8"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#FFFFFF",
+      "#615D59",
+      "#A39E98",
+      "#097FE8"
+    ],
+    "font_names_found": [
+      "NotionInter",
+      "Lyon Text",
+      "iA Writer Mono",
+      "Permanent Marker"
+    ],
+    "font_names_checked": [
+      "NotionInter",
+      "Lyon Text",
+      "iA Writer Mono",
+      "Permanent Marker"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "afc7696b26b592624f145b737edab1cd02153fde1059290d507b39f5f8625ca0"
+}

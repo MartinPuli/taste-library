@@ -1,0 +1,47 @@
+{
+  "id": "apple",
+  "source_url": "https://www.apple.com/",
+  "captured_at": "2026-09-24T14:14:29.940321Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/apple.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/apple.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Product Hero Tile",
+        "description": "Full-width promotional card with background image, headline, subheadline, and CTA buttons. Used for flagship product announcements.",
+        "when_to_use": [
+          "Hero product announcements",
+          "New product launches",
+          "Primary marketing messaging"
+        ]
+      },
+      {
+        "name": "Product Promo Tile",
+        "description": "Half-width promotional card with product image and CTAs. Used in grid layout for secondary product promotion.",
+        "when_to_use": [
+          "Product lineup display",
+          "Secondary product promotion",
+          "Feature highlights"
+        ]
+      },
+      {
+        "name": "Entertainment Gallery Card",
+        "description": "Media card with background image, show logo, and stream CTA. Used in horizontal carousel for Apple TV+ content.",
+        "when_to_use": [
+          "Streaming content promotion",
+          "Apple TV+ show highlights",
+          "Entertainment services"
+        ]
+      }
+    ]
+  }
+}

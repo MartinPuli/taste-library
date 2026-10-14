@@ -1,0 +1,117 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+      "levels": [
+        {
+          "name": "Floating Element",
+          "type": "drop",
+          "description": "Multi-layer shadow with subtle opacity (3%, 5%, 10%) providing floating elevation for cards, dropdowns, and modals. Blur values: 2px, 4px, 24px.",
+          "css_value": "0 2px 2px #00000003,0 4px 4px #00000005,0 16px 24px #0000000a",
+          "when_to_use": [
+            "Cards on hover",
+            "Dropdown menus",
+            "Tooltips",
+            "Form inputs with Claude styling",
+            "Calendar dropdowns"
+          ]
+        },
+        {
+          "name": "Raised Element",
+          "type": "drop",
+          "description": "Heavier multi-layer shadow with 6 levels of increasing blur (3px to 120px) and opacity (5% to ~7%) for highly elevated elements like terminal windows. Creates deep depth.",
+          "css_value": "0 4px 3px #00000005,0 10px 8px #00000008,0 19px 15px #0000000a,0 34px 27px #0000000a,0 63px 50px #0000000d,0 150px 120px #00000012",
+          "when_to_use": [
+            "Terminal/code windows",
+            "Highly elevated components",
+            "Featured content blocks"
+          ]
+        },
+        {
+          "name": "Model Family Card",
+          "type": "drop",
+          "description": "Simple soft shadow for model family cards with 10% black opacity and 6px blur.",
+          "css_value": "0 1px 6px #0000001a",
+          "when_to_use": [
+            "Model family cards",
+            "Product cards"
+          ]
+        },
+        {
+          "name": "Button Primary",
+          "type": "drop",
+          "description": "Multi-layer button shadow with outer shadows and inset highlights for 3D button effect. Includes inset white highlights at 12% and 20% opacity.",
+          "css_value": "0 4px 4px #08080814,0 1px 2px #08080833,inset 0 6px 12px #ffffff1f,inset 0 1px 1px #fff3",
+          "when_to_use": [
+            "Primary action buttons",
+            "CTA buttons"
+          ]
+        },
+        {
+          "name": "Button Hover",
+          "type": "drop",
+          "description": "Reduced outer shadow on hover with retained inset highlights for pressed button appearance.",
+          "css_value": "0 1px 1px #08080814,0 1px 1px #08080833,inset 0 6px 12px #ffffff1f,inset 0 1px 1px #fff3",
+          "when_to_use": [
+            "Button hover states"
+          ]
+        },
+        {
+          "name": "Webflow Badge",
+          "type": "drop",
+          "description": "Subtle badge shadow with 10% black opacity border simulation and soft drop shadow.",
+          "css_value": "0 0 0 1px #0000001a,0 1px 3px #0000001a",
+          "when_to_use": [
+            "Badges",
+            "System UI elements"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#1414131A",
+        "width": "0.0625rem",
+        "style": "solid"
+      },
+      {
+        "hex": "#F0EEE6",
+        "width": "0.0625rem",
+        "style": "solid"
+      },
+      {
+        "hex": "#141413",
+        "width": "0.0625rem",
+        "style": "solid"
+      },
+      {
+        "hex": "#B0AEA5",
+        "width": "0.0625rem",
+        "style": "solid"
+      },
+      {
+        "hex": "#14141333",
+        "width": "0.0625rem",
+        "style": "solid"
+      },
+      {
+        "hex": "#FAF9F51A",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

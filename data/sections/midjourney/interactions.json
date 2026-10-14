@@ -1,0 +1,77 @@
+{
+  "id": "midjourney",
+  "source_url": "https://www.midjourney.com/",
+  "captured_at": "2026-10-14T05:05:44.432260Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/midjourney.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/midjourney.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "hover_lift",
+      "hover_transform",
+      "video_background"
+    ],
+    "animations": [
+      {
+        "name": "go2264125279",
+        "css": "@keyframes go2264125279 { 0% { transform: scale(0) rotate(45deg); opacity: 0; } 100% { transform: scale(1) rotate(45deg); opacity: 1; } }",
+        "description": "Scale and rotate entrance animation for toast/notification checkmarks"
+      },
+      {
+        "name": "go3020080000",
+        "css": "@keyframes go3020080000 { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }",
+        "description": "Scale entrance animation for toast/notification elements"
+      },
+      {
+        "name": "go463499852",
+        "css": "@keyframes go463499852 { 0% { transform: scale(0) rotate(90deg); opacity: 0; } 100% { transform: scale(1) rotate(90deg); opacity: 1; } }",
+        "description": "Scale and 90-degree rotate entrance animation for notification icons"
+      },
+      {
+        "name": "go1268368563",
+        "css": "@keyframes go1268368563 { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+        "description": "Continuous 360-degree rotation animation for loading spinners"
+      },
+      {
+        "name": "go1310225428",
+        "css": "@keyframes go1310225428 { 0% { transform: scale(0) rotate(45deg); opacity: 0; } 100% { transform: scale(1) rotate(45deg); opacity: 1; } }",
+        "description": "Scale and rotate entrance for success checkmark indicators"
+      },
+      {
+        "name": "go651618207",
+        "css": "@keyframes go651618207 { 0% { height: 0px; width: 0px; opacity: 0; } 40% { height: 0px; width: 6px; opacity: 1; } 100% { opacity: 1; height: 10px; } }",
+        "description": "Animated checkmark drawing effect with width then height expansion"
+      },
+      {
+        "name": "go901347462",
+        "css": "@keyframes go901347462 { 0% { transform: scale(0.6); opacity: 0.4; } 100% { transform: scale(1); opacity: 1; } }",
+        "description": "Subtle scale-up entrance animation for toast notifications"
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: all",
+        "description": "Generic transition applied to all button states for smooth hover effects"
+      },
+      {
+        "name": "project-card-hover",
+        "css": "transition: duration-300 ease-[var(--ease-out-quad)]",
+        "description": "Project card hover transition with custom easing for lift and shadow effect"
+      },
+      {
+        "name": "overlay-fade",
+        "css": "transition-opacity duration-200",
+        "description": "Opacity transition for project card overlay and text reveal on hover"
+      }
+    ],
+    "insights": [
+      "The design uses a cohesive glassmorphism pattern with backdrop-blur and semi-transparent backgrounds across all buttons, creating depth against the dark navy canvas",
+      "Color-coded button variants (emerald for signup, yellow for login, rose for explore) provide clear visual hierarchy and purpose differentiation while maintaining consistent pill-shaped styling",
+      "Project cards implement a sophisticated hover interaction combining scale transform (1.03x), shadow elevation, and opacity-based overlay reveal for title text"
+    ]
+  }
+}

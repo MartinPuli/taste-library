@@ -1,0 +1,56 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "brand_name": "Wander",
+    "tagline": null,
+    "source_url": "https://www.wander.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Travel / Vacation Rentals",
+    "primary_purpose": "Drive property discovery and booking for luxury vacation home rentals with transparent pricing and premium amenities",
+    "main_cta": "Search",
+    "copy_tone": [
+      "Aspirational",
+      "Approachable",
+      "Confident"
+    ],
+    "brand_signature": "Clean, modern interface with generous white space and a sophisticated neutral palette. Photography-forward design showcasing luxury properties with subtle glass-morphic UI elements and rounded interactive components that feel premium yet accessible.",
+    "visual_language": {
+      "keywords": [
+        "minimal",
+        "premium",
+        "photography-driven",
+        "warm neutrals",
+        "rounded",
+        "airy"
+      ],
+      "accent_strategy": "Green accent color used sparingly for success states (savings indicators) against a predominantly black, white, and neutral gray palette. Primary actions use solid black buttons.",
+      "highlights": "Frosted glass badges overlaid on property images to indicate property tier (Luxury, Iconic). Subtle shadow treatments on cards and search bar create depth."
+    },
+    "strategy": {
+      "target_audience": [
+        "Affluent professionals and families seeking premium vacation rental experiences with high-end amenities and service",
+        "Remote workers and digital nomads looking for work-friendly luxury accommodations with reliable WiFi and workspace",
+        "Travel enthusiasts who prioritize quality and are willing to pay for curated, vetted properties with transparent pricing"
+      ],
+      "executive_synthesis": "Wander's visual strategy positions it as a premium alternative to mainstream vacation rental platforms by combining clean, modern UI patterns with aspirational lifestyle imagery. The design balances marketplace functionality with hospitality brand warmth—the systematic card layouts and efficient search interface communicate reliability and scale, while the photography-forward approach and savings messaging build trust and emotional connection. The prominent display of price comparisons ('less than other sites') directly addresses value-conscious luxury travelers, while tier badges (Luxury, Iconic) create product differentiation that justifies premium positioning. The overall effect is a sophisticated, trustworthy platform that makes luxury travel feel accessible rather than exclusive."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals a clean, modern vacation rental marketplace with hallmark Flat Design characteristics. Visual analysis shows: (1) **Color Cleanliness**: Pure, clean palette with stark black (#000000, #202020) and white (#FFFFFF, #F7F7F7) dominance—an ultra-minimalist monochromatic strategy where the only hue is a functional success green (#008433) for pricing. No muddy or complex color mixing. (2) **Dimensionality**: Predominantly flat, 2D surfaces. Cards have extremely subtle shadows (shadow-dropdown with near-imperceptible opacity) rather than deep skeuomorphic depth. The design lets photography provide visual richness rather than UI chrome. (3) **Structure**: Rigid grid-based strict layout with 12-column system, consistent 2rem gutters, and perfectly aligned 5-column property card carousels. Mathematical precision in spacing. (4) **Typography**: Instrument Sans—a geometric, modern sans-serif used across all elements with systematic weight variations (450/550)—matches Flat Design's preference for clean geometric type. (5) **Shape Language**: Rounded/soft corners on cards and buttons (pill-shaped CTAs), geometric shapes, no ornamental decoration. The texture profile indicates \"glass_blur\" effects, but these are restrained to subtle badge overlays (backdrop-blur-lg with 18% opacity), not the full transparent layering that defines Glassmorphism.",
+      "secondary_style": "Luxurious",
+      "reasoning_secondary": "The Luxurious modifier applies due to several deliberate premium positioning signals: (1) **Color Strategy**: The stark black-and-white palette with no brand color intrusion creates sophisticated restraint—the forensic insights note \"sophistication is achieved through heavy reliance on black, white, and varying levels of translucent overlays.\" (2) **Typography Treatment**: Tight negative letter-spacing on display headlines (-0.12rem), precise weight calibration (550 for medium), and the use of \"Eyebrow\" microcopy with wide tracking signals editorial luxury. (3) **Content Framing**: \"Luxury\" badges prominently displayed on property cards, hero messaging emphasizing \"Only the best homes\" and \"24/7 concierge,\" and the dark footer section with \"The Wander difference\" brand story all communicate exclusivity. (4) **Visual Restraint**: Allowing high-quality property photography to dominate while the UI recedes into neutral black/white surfaces is a classic luxury hospitality approach—the design serves the aspirational content rather than competing with it."
+    }
+  }
+}

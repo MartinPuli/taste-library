@@ -1,0 +1,515 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This design system uses a combination of standard Tailwind shadows and custom semantic shadow tokens for different UI states (AI, Human, Mixed content indicators).",
+      "levels": [
+        {
+          "name": "Tw Ring Offset Shadow",
+          "type": "drop",
+          "description": "Tailwind ring offset shadow reset value - transparent placeholder shadow",
+          "css_value": "0 0 #0000",
+          "when_to_use": [
+            "Ring offset shadow reset",
+            "Default shadow state"
+          ]
+        },
+        {
+          "name": "Shadow Human",
+          "type": "drop",
+          "description": "Semantic shadow for human-written content indicators - 1px offset with green color (#118d57)",
+          "css_value": "1px 1px #118d57",
+          "when_to_use": [
+            "Human content labels",
+            "Human-written text indicators"
+          ]
+        },
+        {
+          "name": "Shadow Mixed Hover",
+          "type": "drop",
+          "description": "Hover state shadow for mixed content indicators - 2px Y offset with semi-transparent amber (#ffab0077)",
+          "css_value": "0px 2px #ffab0077",
+          "when_to_use": [
+            "Mixed content hover states",
+            "AI-assisted content hover"
+          ]
+        },
+        {
+          "name": "Shadow AI Thick",
+          "type": "drop",
+          "description": "Bold AI content indicator shadow - 2px Y offset with solid orange (#ff4d06)",
+          "css_value": "0px 2px #ff4d06",
+          "when_to_use": [
+            "AI content emphasis",
+            "Strong AI indicators"
+          ]
+        },
+        {
+          "name": "Shadow Mixed Thick",
+          "type": "drop",
+          "description": "Bold mixed content indicator shadow - 2px Y offset with amber (#b77b01)",
+          "css_value": "0px 2px #b77b01",
+          "when_to_use": [
+            "Mixed content emphasis",
+            "Strong AI-assisted indicators"
+          ]
+        },
+        {
+          "name": "Shadow AI",
+          "type": "drop",
+          "description": "Standard AI content indicator shadow - 1px Y offset with orange (#ff4d06)",
+          "css_value": "0px 1px #ff4d06",
+          "when_to_use": [
+            "AI content labels",
+            "AI-generated text indicators"
+          ]
+        },
+        {
+          "name": "Shadow Human Hover",
+          "type": "drop",
+          "description": "Hover state shadow for human content indicators - 1px offset with semi-transparent green (#118d5755)",
+          "css_value": "1px 1px #118d5755",
+          "when_to_use": [
+            "Human content hover states",
+            "Interactive human labels"
+          ]
+        },
+        {
+          "name": "Shadow AI Hover",
+          "type": "drop",
+          "description": "Hover state shadow for AI content indicators - 2px Y offset with semi-transparent orange (#ff4d0664)",
+          "css_value": "0px 2px #ff4d0664",
+          "when_to_use": [
+            "AI content hover states",
+            "Interactive AI labels"
+          ]
+        },
+        {
+          "name": "Shadow Mixed",
+          "type": "drop",
+          "description": "Standard mixed content indicator shadow - 1px Y offset with gold (#ffb215)",
+          "css_value": "0px 1px #ffb215",
+          "when_to_use": [
+            "Mixed content labels",
+            "AI-assisted text indicators"
+          ]
+        },
+        {
+          "name": "Shadow 2",
+          "type": "drop",
+          "description": "Light elevation - 2px blur with 16% opacity gray. Used for subtle lift like navigation bars.",
+          "css_value": "0 2px 4px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Navigation bars",
+            "Sticky headers",
+            "Subtle card elevation"
+          ]
+        },
+        {
+          "name": "Shadow 4",
+          "type": "drop",
+          "description": "Medium elevation - 4px blur with 16% opacity gray",
+          "css_value": "0 4px 8px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Cards",
+            "Dropdowns",
+            "Interactive elements"
+          ]
+        },
+        {
+          "name": "Shadow 8",
+          "type": "drop",
+          "description": "Strong elevation - 8px blur with 16% opacity gray",
+          "css_value": "0 8px 16px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Modals",
+            "Popovers",
+            "Floating panels"
+          ]
+        },
+        {
+          "name": "Shadow 12",
+          "type": "drop",
+          "description": "High elevation - 12px blur with 16% opacity gray",
+          "css_value": "0 12px 24px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Dialogs",
+            "Large floating elements",
+            "Overlay content"
+          ]
+        },
+        {
+          "name": "Shadow Large Panel",
+          "type": "drop",
+          "description": "Large panel shadow with deep elevation - 40px offset and 80px blur with 24% opacity",
+          "css_value": "-40px 40px 80px 0px rgba(0,0,0,0.24)",
+          "when_to_use": [
+            "Large floating panels",
+            "Featured content cards"
+          ]
+        },
+        {
+          "name": "Shadow Top Fade",
+          "type": "drop",
+          "description": "Upward shadow for bottom-anchored elements",
+          "css_value": "0 -2px 16px -1px rgba(0,0,0,0.1)",
+          "when_to_use": [
+            "Bottom sheets",
+            "Footer navigation",
+            "Upward elevation"
+          ]
+        },
+        {
+          "name": "Shadow Card Deep",
+          "type": "drop",
+          "description": "Deep card shadow with 18% opacity for prominent elevation",
+          "css_value": "0 12px 24px rgba(0,0,0,0.18)",
+          "when_to_use": [
+            "Featured cards",
+            "Hero sections",
+            "Prominent UI elements"
+          ]
+        },
+        {
+          "name": "Shadow Card Branded",
+          "type": "drop",
+          "description": "Branded card shadow using pangram black color with 14% opacity",
+          "css_value": "0 14px 36px rgba(20,32,30,0.14)",
+          "when_to_use": [
+            "Branded cards",
+            "Primary content containers"
+          ]
+        },
+        {
+          "name": "Shadow Subtle",
+          "type": "drop",
+          "description": "Very subtle shadow for minimal elevation - 4% opacity",
+          "css_value": "0 1px 2px rgba(20,32,30,0.04)",
+          "when_to_use": [
+            "Subtle dividers",
+            "Light separation",
+            "Minimal lift"
+          ]
+        },
+        {
+          "name": "Shadow Light",
+          "type": "drop",
+          "description": "Light shadow for gentle elevation - 8% opacity",
+          "css_value": "0 1px 2px rgba(20,32,30,0.08)",
+          "when_to_use": [
+            "Input fields",
+            "Light cards",
+            "Gentle elevation"
+          ]
+        },
+        {
+          "name": "Shadow Popover Composite",
+          "type": "drop",
+          "description": "Composite shadow for popovers with ambient and key light - dual layer shadow",
+          "css_value": "0px 0px 2px 0px rgba(145,158,171,0.2),0px 12px 24px 0px rgba(145,158,171,0.12)",
+          "when_to_use": [
+            "Popovers",
+            "Tooltips",
+            "Dropdown menus"
+          ]
+        },
+        {
+          "name": "Shadow Soft Focus",
+          "type": "drop",
+          "description": "Soft diffused shadow with 35% opacity for focus states",
+          "css_value": "0px 0px 3px 0px rgba(0,0,0,0.35)",
+          "when_to_use": [
+            "Focus indicators",
+            "Active states",
+            "Selected items"
+          ]
+        },
+        {
+          "name": "Shadow Input",
+          "type": "drop",
+          "description": "Input field shadow - very light 16% opacity",
+          "css_value": "0px 1px 2px 0px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Form inputs",
+            "Text fields",
+            "Select boxes"
+          ]
+        },
+        {
+          "name": "Shadow Button",
+          "type": "drop",
+          "description": "Button shadow with 18% opacity for interactive depth",
+          "css_value": "0px 1px 3px 0px rgba(0,0,0,0.18)",
+          "when_to_use": [
+            "Buttons",
+            "Interactive controls",
+            "Clickable elements"
+          ]
+        },
+        {
+          "name": "Shadow Modal Large",
+          "type": "drop",
+          "description": "Large modal shadow with 48px blur for maximum elevation",
+          "css_value": "0px 24px 48px 0px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Large modals",
+            "Full-screen overlays",
+            "Primary dialogs"
+          ]
+        },
+        {
+          "name": "Shadow Indicator AI",
+          "type": "drop",
+          "description": "AI indicator shadow with semi-transparent orange",
+          "css_value": "0px 2px #FF4D0696",
+          "when_to_use": [
+            "AI detection indicators",
+            "AI content badges"
+          ]
+        },
+        {
+          "name": "Shadow Indicator Mixed",
+          "type": "drop",
+          "description": "Mixed content indicator shadow with semi-transparent gold",
+          "css_value": "0px 2px #FFB21599",
+          "when_to_use": [
+            "Mixed content indicators",
+            "AI-assisted badges"
+          ]
+        },
+        {
+          "name": "Shadow Indicator Mixed Solid",
+          "type": "drop",
+          "description": "Solid mixed content indicator shadow with gold",
+          "css_value": "0px 2px #FFB215",
+          "when_to_use": [
+            "Strong mixed content indicators",
+            "Primary AI-assisted badges"
+          ]
+        },
+        {
+          "name": "Shadow Soft Ambient",
+          "type": "drop",
+          "description": "Soft ambient shadow with warm tone - 10% opacity",
+          "css_value": "0px 2px 10px 0px rgba(30,30,25,0.1)",
+          "when_to_use": [
+            "Ambient cards",
+            "Subtle floating elements"
+          ]
+        },
+        {
+          "name": "Shadow Micro",
+          "type": "drop",
+          "description": "Micro shadow for very subtle depth - 1% opacity",
+          "css_value": "0px 2px 2px 0px rgba(0,0,0,0.01)",
+          "when_to_use": [
+            "Minimal elevation",
+            "Subtle depth cues"
+          ]
+        },
+        {
+          "name": "Shadow Small Badge",
+          "type": "drop",
+          "description": "Small badge shadow - 3.2px blur with 16% opacity",
+          "css_value": "0px 3.2px 3.2px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Badges",
+            "Tags",
+            "Small indicators"
+          ]
+        },
+        {
+          "name": "Shadow Heavy",
+          "type": "drop",
+          "description": "Heavy shadow with 60% opacity for strong contrast",
+          "css_value": "0px 4px 11.9px 0px rgba(0,0,0,0.6)",
+          "when_to_use": [
+            "High contrast elements",
+            "Dark theme overlays"
+          ]
+        },
+        {
+          "name": "Shadow Card Warm",
+          "type": "drop",
+          "description": "Warm toned card shadow with 12% opacity",
+          "css_value": "0px 4px 18px 0px rgba(30,30,25,0.12)",
+          "when_to_use": [
+            "Warm themed cards",
+            "Content panels"
+          ]
+        },
+        {
+          "name": "Shadow Medium",
+          "type": "drop",
+          "description": "Medium elevation shadow - 7px blur with 16% opacity",
+          "css_value": "0px 7px 14px 0px rgba(145,158,171,0.16)",
+          "when_to_use": [
+            "Medium cards",
+            "Floating actions",
+            "Dropdowns"
+          ]
+        },
+        {
+          "name": "Shadow Human Hover Strong",
+          "type": "drop",
+          "description": "Strong hover state for human content with semi-transparent green",
+          "css_value": "1px 2px #118d5796",
+          "when_to_use": [
+            "Human content active states",
+            "Strong human indicators"
+          ]
+        },
+        {
+          "name": "Shadow Inset Highlight",
+          "type": "inset",
+          "description": "Inset highlight shadow for inner glow effect - 90% white opacity",
+          "css_value": "inset 0 1px 0 rgba(255,255,255,0.9)",
+          "when_to_use": [
+            "Button highlights",
+            "Inner glow effects",
+            "Glossy buttons"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#E5E7EB",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#1F2430",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#212620",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#212630",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D7D9D1",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D8B878",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E24B3B",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E7E8E2",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E8E8E6",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#EAC7C1",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#EEF0EA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#F4F6F8",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E0F4ED",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#E8EBED",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#000000",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFFFFF",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#15502E",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FF6106",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FEE3DA",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#AAD8F9",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D17A01",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#012B24",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#00B8D9",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#777777",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#FFE782",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

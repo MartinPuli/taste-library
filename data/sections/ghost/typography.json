@@ -1,0 +1,382 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Archivo",
+          "role": "H1 Display Giant",
+          "specs": {
+            "size": "112px",
+            "line_height": "122px",
+            "font_weight": "200",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "H1 Display Mobile",
+          "specs": {
+            "size": "calc(min(100vw, 480px) * 45.68 / 402)",
+            "line_height": "normal",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "H2 Hero Banner",
+          "specs": {
+            "size": "clamp(34px,9vw,42px)",
+            "line_height": "1.15",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "H2 Section Title Large",
+          "specs": {
+            "size": "44px",
+            "line_height": "1",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Price Display Large",
+          "specs": {
+            "size": "36px",
+            "line_height": "normal",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "H3 Section Title",
+          "specs": {
+            "size": "32px",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Price Display Mobile",
+          "specs": {
+            "size": "clamp(24px,7.2vw,28px)",
+            "line_height": "normal",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text, notifications, and descriptive passages.",
+      "variants": [
+        {
+          "name": "Archivo",
+          "role": "Body Large / Lead",
+          "specs": {
+            "size": "22px",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Body Proactive Agent",
+          "specs": {
+            "size": "20px",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Body Medium",
+          "specs": {
+            "size": "18px",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Body Base (Notification)",
+          "specs": {
+            "size": "16px",
+            "line_height": "normal",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Body Base (List Item)",
+          "specs": {
+            "size": "16px",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "UI navigation, component badges, labels, and micro-copy.",
+      "variants": [
+        {
+          "name": "Archivo Narrow",
+          "role": "Large CTA Button",
+          "specs": {
+            "size": "24px",
+            "line_height": "1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo Narrow\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo Narrow",
+          "role": "Time Indicator",
+          "specs": {
+            "size": "20px",
+            "line_height": "1.2",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo Narrow\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo Narrow",
+          "role": "Button / Tab",
+          "specs": {
+            "size": "16px",
+            "line_height": "1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo Narrow\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Model Selector / Toggle",
+          "specs": {
+            "size": "16px",
+            "line_height": "normal",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo Narrow",
+          "role": "Nav Link / Banner",
+          "specs": {
+            "size": "14px",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo Narrow\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo",
+          "role": "Device Label / Micro",
+          "specs": {
+            "size": "14px",
+            "line_height": "1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Archivo Narrow",
+          "role": "Badge / Tag",
+          "specs": {
+            "size": "clamp(10px,2.8vw,13px)",
+            "line_height": "1.25",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "Google Fonts"
+          },
+          "technical": {
+            "font_family_css": "\"Archivo Narrow\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Secondary and unclassified text elements.",
+      "variants": []
+    },
+    "highlights": "Heavy use of CSS compositing for typography, including `<feTurbulence>` noise filters applied as background-image clippings on text, mix-blend-modes (mix-blend-plus-lighter), and duplicate layered DOM text elements with varying `blur()` radii to create glowing, \"soft focus\" typographic halos. Extreme tight tracking is applied to large display text (`tracking-[-1.1px]`, `tracking-[-0.04em]`). Almost all UI components and display headings force `uppercase`.",
+    "insights": [
+      "Distinct Typographic Roles: The system clearly divides typography into 'font-display' (Archivo) for large, tight-tracked, emotional messaging, and 'font-ui' (Archivo Narrow) for sharp, uppercase navigation, buttons, and technical tags.",
+      "Experimental Rendering Techniques: Ghost.ai uses techniques usually reserved for images—like SVG noise filters applied via background-image, backdrop-filters, and multi-layered blurred DOM elements—to create rich, atmospheric text treatments directly in CSS.",
+      "Aggressive Fluidity & Tight Fitting: There is heavy reliance on fluid `clamp()` values and extreme negative letter-spacing for large text, ensuring that the brand’s technical aesthetic is maintained perfectly across diverse viewport sizes."
+    ]
+  }
+}

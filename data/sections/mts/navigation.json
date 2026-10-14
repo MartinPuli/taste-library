@@ -1,0 +1,50 @@
+{
+  "id": "mts",
+  "source_url": "https://www.mts.now/",
+  "captured_at": "2026-10-14T08:56:35.778602Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/mts.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/mts.json",
+  "data": {
+    "top_nav": {
+      "height": "auto",
+      "position": "relative",
+      "background": {
+        "hex": "#F2EFE6",
+        "color_reference": "Baseline/Warm Beige",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Underline Tab",
+      "description": "Navigation tabs use an underline indicator to show active state, with uppercase monospace text styling.",
+      "when_to_use": [
+        "Primary site navigation",
+        "Section switching within the main nav"
+      ],
+      "states": [
+        {
+          "name": "active",
+          "visual_change": "Yellow text color with 2px solid yellow bottom border",
+          "background": null,
+          "text": "var(--mts-yellow)",
+          "icon": null
+        },
+        {
+          "name": "inactive",
+          "visual_change": "Dimmed text color with transparent bottom border",
+          "background": null,
+          "text": "var(--ink-dim)",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

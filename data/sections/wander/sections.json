@@ -1,0 +1,125 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/wander.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal full-width sticky header",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Wonder wordmark logo in white, left-aligned, height: 24px (h-6 class)"
+        },
+        {
+          "type": "form",
+          "description": "Centered multi-field search bar with pill-shaped container, white background, shadow-searchbar, fields: 'Where', 'When', 'Who', and black Search button"
+        },
+        {
+          "type": "button",
+          "description": "'List on Wonder' button, secondary style (bg-button-secondary), rounded-full h-10"
+        },
+        {
+          "type": "button",
+          "description": "User menu icon button, ghost style (bg-button-ghost), size-10"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered full-width hero with background image overlay",
+      "headline": "Find your happy place",
+      "subheadline": "Guest-first travel. Only the best...",
+      "components": [
+        {
+          "type": "image",
+          "description": "Full-width hero background image of modern cabin with wooden deck, pool, and forest setting. Dark gradient overlay (bg-black/50) for text contrast."
+        }
+      ]
+    },
+    {
+      "type": "Properties Carousel",
+      "layout_pattern": "Horizontal scrolling card carousel with header and navigation arrows",
+      "headline": "Homes our guests love",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Right arrow navigation button, secondary style (bg-button-secondary size-8)"
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scrolling grid of property cards, snap-x snap-mandatory, scrollbar-hide. Cards have aspect-square images, rounded-xl borders, heart icon (wishlist) top-right, 'Luxury'/'Iconic' badges top-left with border-neutral-1000/5 bg-neutral-1000/18 backdrop-blur-lg, star ratings, pricing, and '~$XX less than other sites' in green text-success"
+        },
+        {
+          "type": "card",
+          "description": "Property cards with square aspect ratio images, property name, star rating with icon, bed count, price, savings indicator. Cards include image carousel with progress indicator at bottom."
+        }
+      ]
+    },
+    {
+      "type": "Properties Carousel",
+      "layout_pattern": "Horizontal scrolling card carousel with header and navigation arrows",
+      "headline": "Fall colors",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Left and right arrow navigation buttons, secondary style (bg-button-secondary size-8)"
+        },
+        {
+          "type": "carousel",
+          "description": "Horizontal scrolling grid of property cards, same styling as 'Homes our guests love' section"
+        },
+        {
+          "type": "card",
+          "description": "Property cards with identical styling to previous carousel section"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-section footer with black background (bg-black text-white)",
+      "headline": "The Wonder difference",
+      "subheadline": "The way travel should be. Great homes, service and prices.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Wonder sign photograph in natural setting"
+        },
+        {
+          "type": "card",
+          "description": "6 feature cards in 2 rows of 3 columns: 'Only the best homes', 'Exceptional amenities', 'Meticulous cleaning', '24/7 Concierge service', 'Stunning views', 'Safety and security'. White text on black background."
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons in white: @wonder, X, Instagram, TikTok, LinkedIn, YouTube"
+        },
+        {
+          "type": "navigation",
+          "description": "4-column link grid with headers: Company, Guests, Operators, Partners. White text links on black background."
+        },
+        {
+          "type": "button",
+          "description": "'Book Now' (under Guests), 'Get Resources' (under Operators), 'List on Wonder' (under Operators) buttons"
+        }
+      ]
+    },
+    {
+      "type": "Footer Bottom",
+      "layout_pattern": "Single row centered text",
+      "headline": null,
+      "subheadline": "Find your happy place ® © 2025 Wonderluxes, Inc.",
+      "components": []
+    }
+  ]
+}

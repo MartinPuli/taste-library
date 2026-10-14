@@ -1,0 +1,328 @@
+{
+  "id": "superwhisper",
+  "source_url": "https://superwhisper.com/",
+  "captured_at": "2026-08-31T02:39:50.943536Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/superwhisper.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/superwhisper.json",
+  "data": [
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "Just speak. Write faster.",
+      "subheadline": "Type hands-free at up to 250 words per minute with AI-powered voice dictation.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Large silhouette profile on left edge, creating dramatic contrast against deep blue gradient background"
+        },
+        {
+          "type": "button",
+          "description": "Download for Mac - solid blue button with rounded corners, white text, contains Apple logo icon"
+        },
+        {
+          "type": "button",
+          "description": "Try Web Version (Beta) - outline/ghost button with white border, transparent background"
+        },
+        {
+          "type": "form",
+          "description": "Email input field with download button overlay"
+        },
+        {
+          "type": "icon",
+          "description": "Scroll indicator - downward chevron with animation"
+        },
+        {
+          "type": "navigation",
+          "description": "Floating navigation bar with Home, Blog, Docs, Pricing links and download button"
+        },
+        {
+          "type": "button",
+          "description": "Time switcher with Day/Dusk/Night toggle buttons"
+        }
+      ]
+    },
+    {
+      "type": "Demo - Browser Window 1",
+      "layout_pattern": "Centered window mockup",
+      "headline": "Just speak. Write faster.",
+      "subheadline": "Type hands-free at up to 250 words per minute with AI-powered voice dictation.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Browser window frame with macOS-style traffic light controls (red, yellow, green)"
+        },
+        {
+          "type": "button",
+          "description": "Download for Mac button within simulated browser"
+        },
+        {
+          "type": "button",
+          "description": "Try Web Version (Beta) button within simulated browser"
+        }
+      ]
+    },
+    {
+      "type": "Demo - Browser Window 2",
+      "layout_pattern": "Centered window mockup",
+      "headline": "Just speak. Write faster.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Browser window frame mockup with top bar and tabs visible"
+        },
+        {
+          "type": "button",
+          "description": "Download for Mac CTA"
+        },
+        {
+          "type": "button",
+          "description": "Try Web Version (Beta) CTA"
+        }
+      ]
+    },
+    {
+      "type": "Demo - Browser Window 3",
+      "layout_pattern": "Centered window mockup",
+      "headline": "Ready to get more done?",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Browser window frame with light blue gradient background"
+        },
+        {
+          "type": "button",
+          "description": "Get Started - centered solid blue button"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Centered with pagination",
+      "headline": "Loved by those who love Google Suite",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Pagination dots indicator - 6 circular dots, first one filled (active), rest outlined"
+        },
+        {
+          "type": "icon",
+          "description": "5-star review display"
+        }
+      ]
+    },
+    {
+      "type": "Feature - Chat Interface",
+      "layout_pattern": "Split layout",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Chat bubble interface mockup with user message and assistant reply in blue bubble on dark background"
+        },
+        {
+          "type": "icon",
+          "description": "App icons/logos displayed on right side"
+        },
+        {
+          "type": "button",
+          "description": "More button - small action button"
+        },
+        {
+          "type": "button",
+          "description": "Share button - small action button"
+        }
+      ]
+    },
+    {
+      "type": "Features - Three Card Row",
+      "layout_pattern": "Grid 3-column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Left card - Purple/pink with Wi-Fi symbol icon, feature text below"
+        },
+        {
+          "type": "card",
+          "description": "Center card - Dark green with code screen/IDE interface visual, feature text below"
+        },
+        {
+          "type": "card",
+          "description": "Right card - Dark red with app icon grid display, feature text below"
+        },
+        {
+          "type": "icon",
+          "description": "Bullet points with feature descriptions"
+        }
+      ]
+    },
+    {
+      "type": "Features - Build It Yourself",
+      "layout_pattern": "Split 50/50",
+      "headline": "Build it yourself",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Code/IDE screenshot on left showing syntax-highlighted code (blues, greens) on black background"
+        },
+        {
+          "type": "icon",
+          "description": "Feature checklist on right with checkmarks: Premium voices, Custom commands, Speaker detection, Batch transcription"
+        },
+        {
+          "type": "divider",
+          "description": "Horizontal line separator below headline"
+        }
+      ]
+    },
+    {
+      "type": "Features - Works Anywhere",
+      "layout_pattern": "Centered",
+      "headline": "Works anywhere you can type",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo_strip",
+          "description": "Grid of colorful application icons/logos (Slack, Google Docs, etc.) displayed on dark background"
+        },
+        {
+          "type": "divider",
+          "description": "Horizontal line separator below headline"
+        }
+      ]
+    },
+    {
+      "type": "Features - Speed and Accuracy",
+      "layout_pattern": "Centered",
+      "headline": "Faster speech, smarter responses",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "icon",
+          "description": "Bullet points with icons showing: 99% accurate out of the box, Up to 250 words per minute, Customize with your own vocabulary"
+        }
+      ]
+    },
+    {
+      "type": "CTA - iOS",
+      "layout_pattern": "Centered",
+      "headline": "Also available for iOS",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Purple/blue AI-themed grid pattern with neural network visual on deep blue gradient background"
+        },
+        {
+          "type": "button",
+          "description": "Get it on the App Store - iOS badge button"
+        }
+      ]
+    },
+    {
+      "type": "Features - Product Benefits",
+      "layout_pattern": "Split 50/50",
+      "headline": "Loved by thousands, built for how you work",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Product interface screenshot on left with blue/purple gradient background, white UI elements"
+        },
+        {
+          "type": "icon",
+          "description": "Feature checkmarks on right: Fast transcription, Works everywhere, Custom commands, Privacy focused"
+        },
+        {
+          "type": "divider",
+          "description": "Horizontal line separator below headline"
+        }
+      ]
+    },
+    {
+      "type": "Pricing",
+      "layout_pattern": "Grid 3-column",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Free tier card - dark styling with 'O' icon, feature list"
+        },
+        {
+          "type": "card",
+          "description": "Premium tier card - blue highlight with star icon, feature list, emphasized/highlighted"
+        },
+        {
+          "type": "card",
+          "description": "Enterprise tier card - dark styling with 'Custom' label, feature list"
+        }
+      ]
+    },
+    {
+      "type": "Features - Integration Demo",
+      "layout_pattern": "Multi-device showcase",
+      "headline": "Take notice from every source",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Slack interface screenshot showing green branding"
+        },
+        {
+          "type": "image",
+          "description": "Mobile device mockups"
+        },
+        {
+          "type": "image",
+          "description": "Desktop interface mockup"
+        },
+        {
+          "type": "icon",
+          "description": "Slack icon/logo"
+        }
+      ]
+    },
+    {
+      "type": "FAQ",
+      "layout_pattern": "Centered",
+      "headline": "Frequently asked questions",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "accordion",
+          "description": "Expandable FAQ items about pricing, features, and compatibility"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Four footer columns with links: Product, Company, Resources, Legal"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons"
+        }
+      ]
+    }
+  ]
+}

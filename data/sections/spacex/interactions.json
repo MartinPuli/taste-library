@@ -1,0 +1,99 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "video_background",
+      "scroll_reveal",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "spin",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "slide-in",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "slide-out",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "slide-up",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "reveal-header",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "reveal-subheader",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "reveal-button",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "hide",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "global-button-ease",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "global-hover-ease",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "header-fade",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "menu-backdrop-ease",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "submenu-reveal",
+        "css": "",
+        "description": ""
+      },
+      {
+        "name": "countdown-digit",
+        "css": "",
+        "description": ""
+      }
+    ],
+    "insights": [
+      "SpaceX uses a highly consistent button system with a single primary style (semi-transparent black with off-white border) that inverts to solid white on hover, creating dramatic contrast against their cinematic dark backgrounds.",
+      "The design system employs staggered reveal animations (reveal-header, reveal-subheader, reveal-button) with progressive delays (0s, 0.5s, 1s) to create a cinematic entrance sequence for section content.",
+      "Navigation uses a gradient shadow overlay (linear-gradient from 60% black to transparent) rather than a solid background, allowing the header to blend seamlessly with video backgrounds while maintaining text legibility."
+    ]
+  }
+}

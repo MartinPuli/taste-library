@@ -1,0 +1,126 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Toast Title",
+          "specs": {
+            "size": "13px",
+            "line_height": "1.5",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        },
+        {
+          "name": "Manrope",
+          "role": "Customer Story Quote",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--font-heading)",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Standard body copy and descriptive text within components.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Toast Description",
+          "specs": {
+            "size": "13px",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Utilitarian styles used within UI components such as toasts and buttons.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Toast Button",
+          "specs": {
+            "size": "12px",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Sans",
+          "role": "Toast Base",
+          "specs": {
+            "size": "13px",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Specialized text variants like code blocks.",
+      "variants": [
+        {
+          "name": "Inter",
+          "role": "Code Snippet",
+          "specs": {
+            "size": "0.8125rem",
+            "line_height": "1.7",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": null
+        }
+      ]
+    },
+    "highlights": "Text highlights are primarily handled via color contrast (e.g., text-primary for emphasis) and opacity shifts (text-foreground-lighter).",
+    "insights": [
+      "The typography system utilizes a dual-family strategy: Manrope for expressive headings (via var(--font-heading)) and Inter for body text, creating a strong distinction between display and content.",
+      "Utility classes (e.g., text-xs, text-sm, text-4xl) are heavily relied upon for responsive scaling, indicating a Tailwind-based structural approach.",
+      "The toast notification system utilizes an independent, highly defensive system-UI font stack with fixed pixel values (12px/13px) to ensure absolute OS-native legibility for critical alerts."
+    ]
+  }
+}

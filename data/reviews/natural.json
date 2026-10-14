@@ -1,0 +1,51 @@
+{
+  "id": "natural",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A mostly white hero gives a short payments statement and dark call to action generous space. The captured central visual is faint.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/viewport.jpg",
+    "sha256": "c367a2a6e2de3d92ce981a9bf0ba675334dcf9ce9cc7466b9bce0c089278c929"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/styles.css",
+    "sha256": "ddd8dd1be4d5152fec2a760f836a2a3842fdb647a9d05ec840f5c376fccdd4d5",
+    "bytes": 333720,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#161514",
+      "#FFFFFF",
+      "#71706F",
+      "#111400",
+      "#AFAFAF"
+    ],
+    "palette_literals_checked": [
+      "#161514",
+      "#FFFFFF",
+      "#71706F",
+      "#111400",
+      "#AFAFAF"
+    ],
+    "font_names_found": [
+      "STK Miso",
+      "GT Standard Mono"
+    ],
+    "font_names_checked": [
+      "STK Miso",
+      "GT Standard Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "84cf4a324c1f894fe92ac649b3bd96f7b5982bde17e0742523ca581bb2e42529"
+}

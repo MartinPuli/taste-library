@@ -1,0 +1,116 @@
+{
+  "id": "wander",
+  "source_url": "https://www.wander.com/",
+  "captured_at": "2026-10-14T08:56:06.649511Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/wander.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/wander.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "carousel",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "spin",
+        "css": "@keyframes spin { to { transform: rotate(360deg) } }",
+        "description": "Loading spinner rotation animation used for button loading states"
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+        "description": "Opacity animation for toast notification loading bars"
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(.8) } 100% { opacity: 1; transform: scale(1) } }",
+        "description": "Fade in animation for toast notifications"
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1) } 100% { opacity: 0; transform: scale(.8) } }",
+        "description": "Fade out animation for toast notifications"
+      },
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }",
+        "description": "Generic fade in animation for drawer overlays"
+      },
+      {
+        "name": "fadeOut",
+        "css": "@keyframes fadeOut { to { opacity: 0 } }",
+        "description": "Generic fade out animation for drawer overlays"
+      },
+      {
+        "name": "slideFromBottom",
+        "css": "@keyframes slideFromBottom { from { transform: translate3d(0, var(--initial-transform, 100%), 0) } to { transform: translate3d(0, 0, 0) } }",
+        "description": "Slide up animation for bottom drawers"
+      },
+      {
+        "name": "slideToBottom",
+        "css": "@keyframes slideToBottom { to { transform: translate3d(0, var(--initial-transform, 100%), 0) } }",
+        "description": "Slide down dismiss animation for bottom drawers"
+      },
+      {
+        "name": "slideFromTop",
+        "css": "@keyframes slideFromTop { from { transform: translate3d(0, calc(var(--initial-transform, 100%) * -1), 0) } to { transform: translate3d(0, 0, 0) } }",
+        "description": "Slide down animation for top drawers"
+      },
+      {
+        "name": "slideToTop",
+        "css": "@keyframes slideToTop { to { transform: translate3d(0, calc(var(--initial-transform, 100%) * -1), 0) } }",
+        "description": "Slide up dismiss animation for top drawers"
+      },
+      {
+        "name": "swipe-out-left",
+        "css": "@keyframes swipe-out-left { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) - 100%)); opacity: 0 } }",
+        "description": "Swipe dismiss animation for toast notifications swiped left"
+      },
+      {
+        "name": "swipe-out-right",
+        "css": "@keyframes swipe-out-right { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) + 100%)); opacity: 0 } }",
+        "description": "Swipe dismiss animation for toast notifications swiped right"
+      },
+      {
+        "name": "enter",
+        "css": "",
+        "description": "JS-driven enter animation for animate-in class, using CSS variables for opacity/scale/translate"
+      },
+      {
+        "name": "ease-out-cubic",
+        "css": "transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1)",
+        "description": "Primary easing curve for drawer animations"
+      },
+      {
+        "name": "duration-250",
+        "css": "transition: all 250ms ease-out",
+        "description": "Standard transition duration for search bar trigger states"
+      },
+      {
+        "name": "image-fade",
+        "css": "transition: opacity 200ms ease-in-out",
+        "description": "Image loading fade-in transition on property cards"
+      },
+      {
+        "name": "card-carousel-slide",
+        "css": "transition: transform 300ms ease-out",
+        "description": "Property card image carousel slide transition"
+      },
+      {
+        "name": "button-scale",
+        "css": "transition: transform 150ms ease-out",
+        "description": "Wishlist button scale animation on hover/active states"
+      }
+    ],
+    "insights": [
+      "The design system uses a monochromatic palette with rounded-full pill buttons as the primary action pattern, creating a soft, approachable feel that contrasts with the rich property photography.",
+      "Hover states rely heavily on subtle background color shifts (from transparent to light gray) rather than dramatic visual changes, maintaining the minimal aesthetic while providing clear interactive feedback.",
+      "The drawer/modal system uses sophisticated spring-based animations (cubic-bezier 0.32, 0.72, 0, 1) that feel natural and responsive, with consistent 500ms durations for larger surface transitions."
+    ]
+  }
+}

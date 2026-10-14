@@ -1,0 +1,555 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Get started for free (Primary CTA)",
+        "usage": "Primary hero CTA button for email signup form submission, prompting users to begin onboarding.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Lausanne",
+              "size": "body-m",
+              "padding": "px-4 h-[42px] md:h-[43px] lg:h-[51px] lg:px-5"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--solar)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--solarLight)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Switch in days, not months (Primary Link)",
+        "usage": "Used for primary section CTAs that link to product pages like /switch.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Lausanne",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--solar)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--solarLight)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View Demo (Secondary)",
+        "usage": "Secondary action button used alongside primary CTAs, for demo requests or lower-priority actions.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Lausanne",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--grayLight)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--grayMedium)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--grayLight)",
+            "text_color": "var(--hushed)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View Demo (Dark/Inverted)",
+        "usage": "Used in promotional sections with background images for strong visual contrast, links to demo page.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Lausanne",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            },
+            {
+              "name": "Large",
+              "font": "Lausanne",
+              "size": "body-m",
+              "padding": "px-5 py-5"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--black-800)",
+            "text_color": "#FFFFFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--black-700)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Explore Ramp Intelligence (Primary Link)",
+        "usage": "Primary section CTA linking to intelligence product page, used in feature highlight sections.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Lausanne",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--solar)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--solarLight)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Arrow - Card Link)",
+        "usage": "Icon-only button used inside platform cards to indicate interactive/clickable areas, shows arrow icon.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "size-9",
+              "padding": "p-0 (flexbox centered)"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#1A1919",
+            "border_color": "var(--black-100)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#1A1919",
+            "border_color": "var(--black-100)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Watch Video (Circular Play Button)",
+        "usage": "Circular button overlay on video thumbnails to trigger video playback modal.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Mobile",
+              "font": "",
+              "size": "size-[40px]",
+              "padding": "px-2"
+            },
+            {
+              "name": "Desktop",
+              "font": "Lausanne",
+              "size": "h-14 min-w-[151px]",
+              "padding": "py-2 pl-4 pr-[22px]"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--black-200)",
+            "text_color": "#FFFFFF",
+            "border_color": "var(--white-200)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--black-300)",
+            "text_color": "#FFFFFF",
+            "border_color": "var(--white-200)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Submit (Personalization Form)",
+        "usage": "Small icon submit button inside the personalization input field for business recommendations.",
+        "specs": {
+          "radius": "rounded-[3px]",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "size-8",
+              "padding": "flex items-center justify-center"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--grayLight)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--grayMedium)",
+            "text_color": "#1A1919",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "var(--grayLight)",
+            "text_color": "var(--hushed)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get started for free (Solar Primary)",
+        "usage": "Primary CTA for email signup and main conversion actions",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "body-m",
+              "size": "body-m",
+              "padding": "px-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "bg-solar",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "bg-solarLight",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      },
+      {
+        "name": "Switch in days, not months (Solar Primary)",
+        "usage": "Secondary conversion CTA for platform migration messaging",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "body-m",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "bg-solar",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "bg-solarLight",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      },
+      {
+        "name": "View Demo (Gray Secondary)",
+        "usage": "Secondary action for demo requests",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "body-m",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "bg-grayLight",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "bg-grayMedium",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "bg-grayLight",
+            "text_color": "text-hushed",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View Demo (Black)",
+        "usage": "High-contrast CTA for demo requests on light backgrounds",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Mobile",
+              "font": "body-m",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            },
+            {
+              "name": "Desktop",
+              "font": "body-m",
+              "size": "body-m",
+              "padding": "px-5 py-5"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "bg-black",
+            "text_color": "text-primaryReverse",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "bg-black-800",
+            "text_color": "text-primaryReverse",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "bg-black-700",
+            "text_color": "text-primaryReverse",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Explore Ramp Intelligence (Solar Primary)",
+        "usage": "CTA for intelligence/AI product exploration",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "body-m",
+              "size": "body-m",
+              "padding": "px-4 py-4"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "bg-solar",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "bg-solarLight",
+            "text_color": "text-primary",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": null
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are grouped inline with flex layout and gap spacing for primary/secondary action pairs.",
+      "spacing": "gap-3"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

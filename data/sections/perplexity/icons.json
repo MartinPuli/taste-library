@@ -1,0 +1,78 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/perplexity.json",
+  "data": [
+    {
+      "name": "Perplexity UI Line Icons",
+      "description": "Monoline interface icons used for navigation, actions, and controls.",
+      "when_to_use": [
+        "Sidebar navigation",
+        "Search bar",
+        "Action buttons",
+        "Cookie banner"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline (1.75 stroke)",
+      "sizes": {
+        "small": "14px",
+        "medium": "16px, 18px, 20px"
+      },
+      "examples": [
+        {
+          "name": "Search",
+          "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"16\" height=\"16\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-search\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0 M21 21l-6 -6\"></path></g></g></svg>"
+        },
+        {
+          "name": "Layout Sidebar",
+          "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"16\" height=\"16\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-layout-sidebar\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z M9 4l0 16\"></path></g></g></svg>"
+        },
+        {
+          "name": "Computer",
+          "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-custom-computer\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.875 7.813v2.124m4.25-2.124v2.124M1.375 20.5h21.25m-4.25-17H5.625A2.125 2.125 0 0 0 3.5 5.625v8.5c0 1.174.951 2.125 2.125 2.125h12.75a2.125 2.125 0 0 0 2.125-2.125v-8.5A2.125 2.125 0 0 0 18.375 3.5Z\"></path></g></g></svg>"
+        },
+        {
+          "name": "Settings",
+          "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-settings-2\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\"></path></g></g></svg>"
+        },
+        {
+          "name": "Cookie",
+          "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-cookie\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13v.01 M12 17v.01 M12 12v.01 M16 14v.01 M11 8v.01 M13.148 3.476l2.667 1.104a4 4 0 0 0 4.656 6.14l.053 .132a3 3 0 0 1 0 2.296q -.745 1.18 -1.024 1.852q -.283 .684 -.66 2.216a3 3 0 0 1 -1.624 1.623q -1.572 .394 -2.216 .661q -.712 .295 -1.852 1.024a3 3 0 0 1 -2.296 0q -1.203 -.754 -1.852 -1.024q -.707 -.292 -2.216 -.66a3 3 0 0 1 -1.623 -1.624q -.397 -1.577 -.661 -2.216q -.298 -.718 -1.024 -1.852a3 3 0 0 1 0 -2.296q .719 -1.116 1.024 -1.852q .257 -.62 .66 -2.216a3 3 0 0 1 1.624 -1.623q 1.547 -.384 2.216 -.661q .687 -.285 1.852 -1.024a3 3 0 0 1 2.296 0\"></path></g></g></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Perplexity UI Filled Icons",
+      "description": "Solid filled interface icons used for specific actions or emphasis.",
+      "when_to_use": [
+        "Prominent action buttons",
+        "Specific tool features"
+      ],
+      "format": "SVG",
+      "style": "Filled / Solid",
+      "sizes": {
+        "small": "16px",
+        "medium": "18px"
+      },
+      "examples": [
+        {
+          "name": "Custom Plus Large",
+          "svg_code": "<svg viewBox=\"0 0 18 18\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"18\" height=\"18\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-custom-plus-large\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M11.125 21V12.875H3a.875.875 0 0 1 0-1.75h8.125V3a.875.875 0 1 1 1.75 0v8.125h8.125a.875.875 0 0 1 0 1.75H12.875V21a.875.875 0 0 1-1.75 0Z\"></path></g></g></svg>"
+        },
+        {
+          "name": "Perplexity Voice to Voice",
+          "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"inline-flex fill-current shrink-0\" width=\"16\" height=\"16\" stroke-width=\"1.75\" aria-hidden=\"true\"><g><g id=\"pplx-icon-custom-perplexity-v2v\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M0 12.6663C0 13.4018 0.59792 13.9997 1.33333 13.9997C2.06875 13.9997 2.66667 13.4018 2.66667 12.6663V11.333C2.66667 10.5975 2.06875 9.99967 1.33333 9.99967C0.59792 9.99967 0 10.5975 0 11.333V12.6663ZM6.66667 5.33301C7.40213 5.33301 8 5.93087 8 6.66634V17.333C8 18.0685 7.40213 18.6663 6.66667 18.6663C5.9312 18.6663 5.33333 18.0685 5.33333 17.333V6.66634C5.33333 5.93087 5.9312 5.33301 6.66667 5.33301ZM10.6667 21.333C10.6667 22.0685 11.2645 22.6663 12 22.6663C12.7355 22.6663 13.3333 22.0685 13.3333 21.333V2.66634C13.3333 1.93093 12.7355 1.33301 12 1.33301C11.2645 1.33301 10.6667 1.93093 10.6667 2.66634V21.333ZM17.3333 5.33301C18.0688 5.33301 18.6667 5.93087 18.6667 6.66634V17.333C18.6667 18.0685 18.0688 18.6663 17.3333 18.6663C16.5979 18.6663 16 18.0685 16 17.333V6.66634C16 5.93087 16.5979 5.33301 17.3333 5.33301ZM24 11.333C24 10.5975 23.4021 9.99967 22.6667 9.99967C21.9312 9.99967 21.3333 10.5975 21.3333 11.333V12.6663C21.3333 13.4018 21.9312 13.9997 22.6667 13.9997C23.4021 13.9997 24 13.4018 24 12.6663V11.333Z\" fill-rule=\"evenodd\"></path></g></g></svg>"
+        }
+      ]
+    }
+  ]
+}

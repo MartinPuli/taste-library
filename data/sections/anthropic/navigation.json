@@ -1,0 +1,29 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "top_nav": {
+      "height": "4.25rem",
+      "position": "relative",
+      "background": {
+        "hex": "#F0EEE6",
+        "color_reference": "Baseline/Paper Ivory",
+        "opacity": null,
+        "blur": null
+      },
+      "border_bottom": null
+    },
+    "announcement_bar": null,
+    "tabs": null
+  }
+}

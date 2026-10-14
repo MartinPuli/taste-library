@@ -1,0 +1,68 @@
+{
+  "id": "teenage-engineering",
+  "source_url": "https://teenage.engineering/",
+  "captured_at": "2026-09-19T08:37:42.947619Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/teenage-engineering.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/teenage-engineering.json",
+  "data": {
+    "global_patterns": [
+      "hover_transform",
+      "scroll_reveal",
+      "carousel"
+    ],
+    "animations": [
+      {
+        "name": "bulge",
+        "css": "@keyframes bulge { 0% { transform: scale(1) } 50% { transform: scale(1.25) } to { transform: scale(1) } }",
+        "description": "Pulsing scale animation used for shopping bag icon feedback when items are added."
+      },
+      {
+        "name": "bag-animation",
+        "css": "animation: .25s ease-in-out alternate bulge",
+        "description": "Applied to bag icon with a transform-origin of 32.5% for add-to-cart visual feedback."
+      },
+      {
+        "name": "spinner-load",
+        "css": "@keyframes _load_hiku9_1 { 0% { transform: rotate(0) } to { transform: rotate(360deg) } }",
+        "description": "Continuous 360-degree rotation for loading spinner indicators."
+      },
+      {
+        "name": "marquee-scroll",
+        "css": "@keyframes _mrq-scroll_tykyq_1 { 0% { transform: translate(0,0) } to { transform: translate3d(calc(-100% / var(--mrq-copies)), 0, 0) } }",
+        "description": "Horizontal scrolling animation for marquee/ticker content with CSS variable-driven distance."
+      },
+      {
+        "name": "global-transition",
+        "css": "transition: background-color .2s ease-in",
+        "description": "Standard transition for background color changes across the site, used on navigation and interactive elements."
+      },
+      {
+        "name": "add-to-cart-scale",
+        "css": "transition: transform .25s, opacity .15s",
+        "description": "Combined transform and opacity transition for add-to-cart button interactions with scale hover effect."
+      },
+      {
+        "name": "slider-transition",
+        "css": "transition: left var(--slider-transition-time)",
+        "description": "CSS variable-driven horizontal slide transition for image sliders and carousels."
+      },
+      {
+        "name": "bag-overlay-reveal",
+        "css": "transition: transform .2s ease-in",
+        "description": "Vertical slide-in transition for the fixed shopping bag overlay element."
+      }
+    ],
+    "insights": [
+      "The design system uses viewport-width-based calculations (vw units) for nearly all sizing, creating a fully fluid and responsive layout that scales proportionally across devices.",
+      "Button styling is intentionally minimal with no border-radius, favoring sharp geometric forms that align with the brand's industrial design aesthetic. Color is used sparingly with Signal Blue (#0071BB) reserved exclusively for purchase CTAs.",
+      "Motion design is subtle and functional, with micro-interactions limited to essential feedback (cart additions, loading states) and content transitions (sliders, marquees), avoiding decorative animations."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Statistic Tile",
+        "description": "Large percentage statistic (e.g., '71%', '45%') displayed with a left border accent and supporting description text below.",
+        "when_to_use": [
+          "Highlighting key metrics or social proof",
+          "Customer adoption statistics",
+          "Impact numbers in testimonial sections"
+        ]
+      },
+      {
+        "name": "Logo Strip",
+        "description": "Horizontal scrolling marquee of customer logos (Airbnb, Atlassian, Microsoft, Netflix, etc.) with fade-out gradients on edges.",
+        "when_to_use": [
+          "Social proof sections",
+          "Customer testimonials",
+          "Enterprise credibility displays"
+        ]
+      },
+      {
+        "name": "Feature Card Grid",
+        "description": "4-column responsive grid of product feature images with varied aspect ratios (portrait, square, landscape).",
+        "when_to_use": [
+          "Showcasing product capabilities",
+          "Gallery of design examples",
+          "Feature highlights"
+        ]
+      },
+      {
+        "name": "Community Resource Carousel",
+        "description": "Horizontal scrollable carousel of community-created templates and resources with category labels.",
+        "when_to_use": [
+          "Browsing community content",
+          "Template discovery",
+          "Resource exploration"
+        ]
+      }
+    ]
+  }
+}

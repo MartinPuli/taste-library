@@ -1,0 +1,137 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": [
+    {
+      "name": "Line Art UI Icons",
+      "description": "Thin monoline icons used for general UI navigation, actions, and features.",
+      "when_to_use": [
+        "Buttons",
+        "Navigation",
+        "Feature descriptions",
+        "Controls"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline (1.5px stroke)",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Menu Hamburger",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"tw-size-6\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-width=\"1.5\" d=\"M4 8h16M4 16h16\"></path></svg>"
+        },
+        {
+          "name": "Arrow Up Right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"[&amp;_*]:[vector-effect:non-scaling-stroke] tw-flex-none tw-size-3 tw-relative tw-top-0.25\"><path d=\"M18.25 15.25V5.75M18.25 5.75H8.75M18.25 5.75L6 18\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Arrow Right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"[&amp;_*]:[vector-effect:non-scaling-stroke] tw-size-5 tw-text-gray-400 group-hover:tw-text-black\"><path d=\"M14.5 18.25L8.25 12L14.5 5.75\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Settings Gear",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" height=\"1.5rem\" width=\"1.5rem\" class=\"tw-text-black\"><path d=\"M20.1036 14.5425C20.1987 14.0411 20.2484 13.5236 20.2484 12.9946C20.2484 10.9198 19.4831 9.02379 18.2193 7.57348M4.14844 10.4147C4.93178 8.03144 6.77094 6.12722 9.1126 5.25537M13.5407 21.1052C13.0394 21.2004 12.5219 21.2501 11.9929 21.2501C10.0389 21.2501 8.24343 20.5713 6.82952 19.4365\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><circle cx=\"12\" cy=\"5.25\" r=\"2.75\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle><path d=\"M3.69554 14.8688C5.01063 14.1096 6.69222 14.5601 7.45148 15.8752C8.21075 17.1903 7.76017 18.8719 6.44508 19.6312C5.13 20.3904 3.44841 19.9399 2.68914 18.6248C1.92988 17.3097 2.38046 15.6281 3.69554 14.8688Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M17.5471 19.6312C16.232 18.8719 15.7814 17.1903 16.5407 15.8752C17.3 14.5601 18.9816 14.1096 20.2966 14.8688C21.6117 15.6281 22.0623 17.3097 21.303 18.6248C20.5438 19.9399 18.8622 20.3904 17.5471 19.6312Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        },
+        {
+          "name": "Equalizer",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" height=\"1.5rem\" width=\"1.5rem\" class=\"tw-text-black\"><path d=\"M7.75 3.75V20.25M3.75 9.75V14.25M12 7.75V16.25M16.25 5.75V18.25M20.25 9.75V14.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Thick Line Icons",
+      "description": "Heavier weight monoline icons used for prominent directional actions and interactions.",
+      "when_to_use": [
+        "Bento box links",
+        "Hover states for cards",
+        "Prominent arrows"
+      ],
+      "format": "SVG",
+      "style": "Thick Line (3px stroke)",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Arrow Up Right (Large)",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"tw-flex-none tw-size-3 tw-relative tw-top-0.25 tw-transition-opacity tw-opacity-0 can-hover:[[data-bento-link]:hover_&amp;]:tw-opacity-100 [[data-bento-link]:focus-visible_&amp;]:tw-opacity-100\"><path d=\"M18.25 15.25V5.75M18.25 5.75H8.75M18.25 5.75L6 18\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></path></svg>"
+        },
+        {
+          "name": "Arrow Up Right (Small)",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"tw-size-3 tw-absolute tw-right-0 -tw-bottom-0.25\"><path d=\"M18.25 15.25V5.75M18.25 5.75H8.75M18.25 5.75L6 18\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Solid UI Icons",
+      "description": "Filled shapes for active states, playback controls, or simple integrated marks.",
+      "when_to_use": [
+        "Media controls",
+        "Social links",
+        "Brand marks within UI"
+      ],
+      "format": "SVG",
+      "style": "Filled",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "Play Button",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" class=\"tw-size-5\"><path d=\"M20.155 10.3209L8.8365 2.99715C7.50578 2.13609 5.75 3.09128 5.75 4.67629V19.3237C5.75 20.9087 7.50577 21.8639 8.8365 21.0029L20.155 13.6791C21.373 12.891 21.373 11.109 20.155 10.3209Z\" fill=\"currentColor\"></path></svg>"
+        },
+        {
+          "name": "X (Twitter)",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" class=\"tw-size-4\"><path fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 2a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 12 2M4.93 4.929a.75.75 0 0 1 1.06 0l2.475 2.475a.75.75 0 1 1-1.061 1.06L4.929 5.99a.75.75 0 0 1 0-1.06m14.142 0a.75.75 0 0 1 0 1.061l-2.475 2.475a.75.75 0 0 1-1.061-1.06l2.475-2.476a.75.75 0 0 1 1.06 0M2 12.001a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 2 12m15 0a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 17 12m-1.464 3.534a.75.75 0 0 1 1.06 0l2.475 2.475a.75.75 0 0 1-1.06 1.06l-2.475-2.474a.75.75 0 0 1 0-1.06m-7.071.001a.75.75 0 0 1 0 1.06L5.99 19.073a.75.75 0 1 1-1.06-1.061l2.474-2.475a.75.75 0 0 1 1.061 0M12 17a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 12 17\"></path></svg>"
+        },
+        {
+          "name": "Discord",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.244 2.368C7.414 1.184 5 2.497 5 4.676v14.648c0 2.18 2.414 3.493 4.244 2.309l11.318-7.324c1.675-1.084 1.675-3.534 0-4.618z\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Illustrative Integration Icons",
+      "description": "Large, colorful bordered icons representing integrations or decorative app features.",
+      "when_to_use": [
+        "Integration lists",
+        "Feature highlights",
+        "Bento grid items"
+      ],
+      "format": "SVG",
+      "style": "Colorful / Filled with Background",
+      "sizes": {
+        "small": "26px",
+        "medium": "54px"
+      },
+      "examples": [
+        {
+          "name": "Checkmark Green Block",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 54 54\" aria-hidden=\"true\" style=\"width:3.375rem;height:3.375rem;margin:-0.3125rem\"><path d=\"M1 27 V37 C1 53 17 53 17 53 H37 C53 53 53 37 53 37 V17 C53 1 37 1 37 1 H17 C1 1 1 17 1 17 Z\" fill=\"none\" stroke-width=\"1.5\" stroke=\"#76B900\" stroke-linecap=\"round\" opacity=\"1\" visibility=\"hidden\" pathLength=\"1\" stroke-dashoffset=\"0\" stroke-dasharray=\"0 1\" style=\"transform:rotate(90deg) scale(1, -1)\"></path><rect width=\"44\" height=\"44\" x=\"5\" y=\"5\" rx=\"12\" fill=\"#76B900\"></rect></svg>"
+        },
+        {
+          "name": "Stripe Logo Block",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 26 26\" width=\"1.625rem\" height=\"1.625rem\"><rect width=\"20\" height=\"20\" x=\"3\" y=\"3\" fill=\"#635bff\" rx=\"10\"></rect><path fill=\"#f5f3f1\" d=\"M12.377 11.223c0-.376.31-.521.82-.521.735 0 1.662.222 2.395.618V9.05a6.4 6.4 0 0 0-2.394-.444c-1.96 0-3.263 1.023-3.263 2.732 0 2.665 3.668 2.24 3.668 3.389 0 .444-.386.589-.926.589-.802 0-1.825-.328-2.636-.772v2.297c.898.387 1.805.55 2.636.55 2.008 0 3.388-.994 3.388-2.722-.01-2.877-3.688-2.365-3.688-3.447\"></path></svg>"
+        },
+        {
+          "name": "Deliveroo Color Block",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 54 54\" aria-hidden=\"true\" style=\"width:3.375rem;height:3.375rem;margin:-0.3125rem\"><path d=\"M1 27 V37 C1 53 17 53 17 53 H37 C53 53 53 37 53 37 V17 C53 1 37 1 37 1 H17 C1 1 1 17 1 17 Z\" fill=\"none\" stroke-width=\"1.5\" stroke=\"#00CCBC\" stroke-linecap=\"round\" opacity=\"1\" visibility=\"hidden\" pathLength=\"1\" stroke-dashoffset=\"0\" stroke-dasharray=\"0 1\" style=\"transform:rotate(90deg) scale(1, -1)\"></path><rect width=\"44\" height=\"44\" x=\"5\" y=\"5\" rx=\"12\" fill=\"#00CCBC\"></rect></svg>"
+        }
+      ]
+    }
+  ]
+}

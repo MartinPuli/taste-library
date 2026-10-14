@@ -1,0 +1,57 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "brand_name": "Supabase",
+    "tagline": "Build in a weekend. Scale to millions.",
+    "source_url": "https://supabase.com/",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "SaaS / Backend-as-a-Service",
+    "primary_purpose": "Drive developer sign-ups and project creation by showcasing the integrated backend platform capabilities",
+    "main_cta": "Start your project",
+    "copy_tone": [
+      "Technical",
+      "Developer-friendly",
+      "Confident"
+    ],
+    "brand_signature": "Clean, minimal interface with generous whitespace and subtle gradient borders on product cards. Light background with dark foreground text creates a documentation-like technical aesthetic. Green accent color (#3ECF8E) used sparingly for primary actions and brand moments.",
+    "visual_language": {
+      "keywords": [
+        "minimal",
+        "technical",
+        "modular",
+        "developer-centric",
+        "clean",
+        "systematic"
+      ],
+      "accent_strategy": "Bright green (#3ECF8E) used for primary CTAs, code syntax highlighting, and interactive product icons against a neutral light/dark surface palette",
+      "highlights": "Subtle animated product illustrations, hover-triggered micro-interactions on feature cards, and code snippet previews that demonstrate SDK simplicity"
+    },
+    "strategy": {
+      "target_audience": [
+        "Full-stack developers seeking a Firebase alternative with Postgres flexibility",
+        "Startup technical founders who need to ship quickly without managing infrastructure",
+        "Enterprise engineering teams evaluating open-source backend platforms for scale",
+        "AI/ML developers requiring vector database capabilities for embeddings and RAG applications"
+      ],
+      "executive_synthesis": "Supabase positions itself as the rapid-to-production, scalable Postgres platform through a visual language that mirrors developer documentation—clean, modular, and code-forward. The green accent creates urgency around 'Start your project' while the extensive product grid demonstrates platform completeness. Social proof from GitHub stars (111.5K) and enterprise logos (Figma, GitHub, Mozilla) validates scale claims, while the 'Build in a weekend, Scale to millions' tagline directly addresses the developer desire for both speed and reliability."
+    },
+    "style_classification": {
+      "primary_style": "Flat Design",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The screenshot reveals a clean, modern SaaS landing page with strong Flat Design characteristics. **Visual Analysis:** The page presents an extremely clean, white-dominant canvas with systematic organization. The hero section uses bold, clear typography with a single green accent color (#0E7E4E) for CTAs. The layout flows through card-based feature sections, logo strips, dashboard previews, and community elements—all maintaining visual consistency through generous whitespace (py-16 to py-24 spacing as noted).\n\n**Forensic Evidence Supporting Flat Design:**\n1. **Color Cleanliness:** Clean/Pure - The palette is highly disciplined with a monochromatic white base (#FDFDFD, #FAFAF9) punctuated by a single brand green. No muddy or gritty colors present.\n2. **Dimensionality:** Predominantly Flat (2D) - While soft shadows exist (shadow-lg on cards), they are subtle elevation cues rather than skeuomorphic depth. The texture classification confirms \"gradient_linear\" and \"shadows_soft\" - these are modern flat design conventions, not 3D effects.\n3. **Shape Language:** Geometric shapes with rounded corners (radius-lg to radius-xl) on cards and buttons - consistent with Flat Design's digital-native clarity.\n4. **Typography:** System sans-serif fonts (Inter, Manrope) in clean weights - modern, readable, without decorative ornamentation.\n5. **Layout:** Grid-based strict 12-column system with generous whitespace - the hallmark of Flat Design's clarity-first approach.\n6. **Visual Density:** Airy/Spacious - sections breathe with substantial padding, avoiding visual clutter.\n\n**Why NOT other styles:**\n- NOT Swiss Style: While grid-based, lacks the typography-driven \"International Style\" aesthetic, flush-left alignment emphasis, and retro-modern feel. Swiss Style would use more aggressive typography hierarchy and less decorative card treatments.\n- NOT Brutalism: Too polished, too much soft shadow, too refined. Brutalism requires raw, harsh contrast and anti-design aesthetic.\n- NOT Glassmorphism: No frosted glass transparency effects on main content (only subtle backdrop-blur on nav).",
+      "secondary_style": "Corporate",
+      "reasoning_secondary": "The Corporate tonal modifier applies because this is clearly a B2B/developer SaaS product targeting professional audiences. Evidence: trust badges (SOC2, AWS Certified), enterprise customer logos (Figma, Vercel, GitHub), professional dashboard screenshots, code snippets for developers, and formal \"Request Demo\" CTA language. The overall tone communicates trust, reliability, and competence—key Corporate design attributes—while maintaining approachability through the friendly green accent and clean visual hierarchy."
+    }
+  }
+}

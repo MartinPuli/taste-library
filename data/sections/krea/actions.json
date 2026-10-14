@@ -1,0 +1,394 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/krea.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Get the plugin (Primary CTA)",
+        "usage": "Primary call-to-action button on hero carousel cards, used for main conversion actions",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "0px 40px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.9)",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Read more (Secondary Ghost)",
+        "usage": "Secondary action button on hero cards, used alongside primary CTAs for additional information",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "0px 40px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(16, 16, 16, 0.4)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(16, 16, 16, 0.5)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(16, 16, 16, 0.4)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Previous slide (Icon Navigation)",
+        "usage": "Carousel navigation button for moving to previous slide",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "oklch(0.269 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": null
+          },
+          "hover": {
+            "background": "oklch(0.269 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "oklch(0.269 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Next slide (Icon Navigation)",
+        "usage": "Carousel navigation button for moving to next slide",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "oklch(0.269 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(38, 38, 38, 0.8)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "oklch(0.269 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Sign in (Auth Button)",
+        "usage": "Authentication button in sidebar footer for user login",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FAFAFA",
+            "text_color": "#252525",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E5E5E5",
+            "text_color": "#252525",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FAFAFA",
+            "text_color": "#252525",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Toggle Sidebar (Icon Button)",
+        "usage": "Icon-only button for collapsing/expanding the sidebar navigation",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "0px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#B3B3B3",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "oklch(26.9% 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#B3B3B3",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Krea (Dropdown Trigger)",
+        "usage": "Dropdown menu trigger button in sidebar header for workspace/account switching",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "16px",
+              "padding": "8px 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#B3B3B3",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "oklch(26.9% 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#B3B3B3",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Tools (Collapsible Section)",
+        "usage": "Section header button that expands/collapses tool navigation items in sidebar",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "0px 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(250, 250, 250, 0.3)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "oklch(26.9% 0 0)",
+            "text_color": "rgba(250, 250, 250, 0.3)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(250, 250, 250, 0.3)",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "More (Overflow Menu)",
+        "usage": "Overflow/ellipsis menu button appearing on hover for additional actions on sidebar items",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Suisse Intl",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(250, 250, 250, 0.3)",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "oklch(26.9% 0 0)",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(250, 250, 250, 0.3)",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Hero carousel buttons use horizontal grouping at @xl breakpoint with column layout on smaller screens",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

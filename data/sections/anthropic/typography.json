@@ -1,0 +1,383 @@
+{
+  "id": "anthropic",
+  "source_url": "https://www.anthropic.com/",
+  "captured_at": "2026-09-15T16:01:07.284282Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/anthropic.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/anthropic.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "Anthropic Sans",
+          "role": "Display XXL",
+          "specs": {
+            "size": "clamp(3rem, 2.3877551020408165rem + 2.612244897959184vw, 5rem)",
+            "line_height": "1.1",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Display XL",
+          "specs": {
+            "size": "clamp(2.5rem, 2.0408163265306123rem + 1.9591836734693877vw, 4rem)",
+            "line_height": "1.1",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Display L",
+          "specs": {
+            "size": "clamp(2rem, 1.6938775510204083rem + 1.306122448979592vw, 3rem)",
+            "line_height": "1.1",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Display M",
+          "specs": {
+            "size": "clamp(1.75rem, 1.6734693877551021rem + 0.326530612244898vw, 2rem)",
+            "line_height": "1.1",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Serif",
+          "role": "Display M (Serif)",
+          "specs": {
+            "size": "clamp(1.75rem, 1.6734693877551021rem + 0.326530612244898vw, 2rem)",
+            "line_height": "1.1",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Display S",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "1.3",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Display XS",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.3",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body are used for longer passages of text in your app. Use typefaces intended for body styles, which are readable at smaller sizes and can be comfortably read in longer passages.",
+      "variants": [
+        {
+          "name": "Anthropic Serif",
+          "role": "Paragraph L",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Serif",
+          "role": "Paragraph M",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Serif",
+          "role": "Paragraph S",
+          "specs": {
+            "size": "1.125rem",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Serif",
+          "role": "Paragraph XS",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Serif\", Georgia, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Label styles are smaller, utilitarian styles, used for things like the text inside components or for very small text in the content body, such as captions.",
+      "variants": [
+        {
+          "name": "Anthropic Sans",
+          "role": "Detail XL",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.4",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Detail L",
+          "specs": {
+            "size": "1.125rem",
+            "line_height": "1.4",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Detail M",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.4",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Detail S",
+          "specs": {
+            "size": ".875rem",
+            "line_height": "1.4",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Sans",
+          "role": "Detail XS / Micro",
+          "specs": {
+            "size": ".75rem",
+            "line_height": "1.4",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Sans\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "System Sans",
+          "role": "Button",
+          "specs": {
+            "size": ".9375rem",
+            "line_height": "1.2",
+            "font_weight": "600",
+            "font_variation_settings": "\"opsz\" 50"
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "inherit",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Font that does not have a classifier, that is small like regular.",
+      "variants": [
+        {
+          "name": "Anthropic Mono",
+          "role": "Monospace / Code",
+          "specs": {
+            "size": "1.125rem",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Mono\", Arial, sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Anthropic Mono",
+          "role": "Terminal",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "\"Anthropic Mono\", Arial, sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "highlights": "Links use a distinct underline offset (`0.2em`) and thickness (`0.06em`) for readability, while animated display typography reveals words sequentially using staggered transition-delays on inline spans. Tags and badges employ inverted or subtle backgrounds with tight line-heights to stand out cleanly.",
+    "insights": [
+      "The pairing of custom Anthropic Sans for headings and Anthropic Serif for body copy establishes a strong, editorial aesthetic, reinforcing a thoughtful, research-driven brand voice.",
+      "A meticulously scaled fluid typography system using `clamp()` ensures consistent, proportionate hierarchy across varying viewport sizes, especially for large display text (e.g., Display XXL).",
+      "Utility-first text classes (e.g., `u-display-*`, `u-paragraph-*`, `u-detail-*`) separate visual hierarchy from semantic HTML tags, offering maximum composability without relying on direct tag-based styling."
+    ]
+  }
+}

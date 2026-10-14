@@ -1,0 +1,39 @@
+{
+  "id": "supabase",
+  "source_url": "https://supabase.com/",
+  "captured_at": "2026-10-14T05:07:03.498576Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/supabase.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/supabase.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Section Border",
+        "description": "Horizontal divider separating major content sections.",
+        "when_to_use": [
+          "Between major page sections",
+          "Dashboard section separation"
+        ],
+        "color": "var(--border)",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Card Border",
+        "description": "Border around cards and panels with gradient from border to transparent.",
+        "when_to_use": [
+          "Feature cards",
+          "Product panels"
+        ],
+        "color": "var(--border)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

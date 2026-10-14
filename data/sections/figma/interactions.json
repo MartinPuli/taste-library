@@ -1,0 +1,81 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "marquee",
+      "video_background",
+      "carousel",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "scroll-reveal",
+        "css": "",
+        "description": "Elements fade in and translate up (translateY(32px) to none) as they enter the viewport. JS-driven via inline style updates, no @keyframes definition found."
+      },
+      {
+        "name": "testimonial-avatar-spin",
+        "css": "@keyframes animation-1ps4q2h { from { rotate: 0deg; } to { rotate: 360deg; } }",
+        "description": "Continuous 360-degree rotation over 25s for the decorative conic gradient ring around testimonial avatar photos."
+      },
+      {
+        "name": "button-text-translate",
+        "css": "transition: translate 180ms ease-out",
+        "description": "Button text slides left by 0.5625rem on hover to reveal the arrow icon. Applied to .btn-text elements inside buttons."
+      },
+      {
+        "name": "button-arrow-opacity",
+        "css": "transition: opacity 180ms ease-out",
+        "description": "Arrow icon fades in from opacity 0 to 1 on button hover. Applied to .btn-builtin-icon elements."
+      },
+      {
+        "name": "nav-underline",
+        "css": "transition: transform 250ms, opacity 250ms",
+        "description": "Navigation link underline animates in from translateY(3px) scaleY(0) to translateY(0) scaleY(1) on hover."
+      },
+      {
+        "name": "dropdown-chevron-rotate",
+        "css": "transition: transform 250ms",
+        "description": "Dropdown chevron icon rotates 180 degrees when aria-expanded is true."
+      },
+      {
+        "name": "modal-scale-fade",
+        "css": "transition: all 200ms ease",
+        "description": "Modal dialogs scale from 0.95 to 1 and fade from opacity 0 to 1 when entering, with data-enter/data-leave attributes."
+      },
+      {
+        "name": "global-button-ease",
+        "css": "transition: background 180ms ease-out, box-shadow 180ms ease-out",
+        "description": "Standard easing transition applied to all button background and box-shadow changes on hover/active states."
+      },
+      {
+        "name": "link-arrow-transform",
+        "css": "transition: transform 180ms ease-out",
+        "description": "Arrow icon on text links translates right by 0.25rem on hover for directional affordance."
+      },
+      {
+        "name": "marquee-scroll",
+        "css": "",
+        "description": "Continuous horizontal scroll for the partner logo strip. JS-driven via inline transform: translateX() updates, no CSS @keyframes found."
+      }
+    ],
+    "insights": [
+      "The design system uses a strict black-and-white button palette with consistent 180ms ease-out transitions, creating a cohesive and predictable interaction language.",
+      "CSS variables (--fig-theme-*) provide comprehensive theming support for light/dark modes and component-level color mixing via oklch color space for alpha transparency.",
+      "The page heavily relies on JS-driven animations (scroll reveal, marquee) rather than CSS @keyframes, with explicit transition definitions for micro-interactions like button hovers and navigation underlines."
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "charts": [],
+    "tables": [
+      {
+        "name": "Specs Definition List",
+        "description": "Hardware specifications displayed as horizontal definition list with category labels and values",
+        "when_to_use": [
+          "Displaying technical specifications",
+          "Showing model information with multiple values"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Device Integration Tile",
+        "description": "Icon with label showing app/device integrations (email, calendar, health devices)",
+        "when_to_use": [
+          "Showcasing supported integrations",
+          "Visual grid of capabilities"
+        ]
+      },
+      {
+        "name": "Notification Card",
+        "description": "Bordered card with icon and single-line message showing proactive AI suggestions",
+        "when_to_use": [
+          "Displaying contextual AI notifications",
+          "Showing time-based reminders and insights"
+        ]
+      }
+    ]
+  }
+}

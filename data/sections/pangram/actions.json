@@ -1,0 +1,453 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Try It for Free (Primary CTA)",
+        "usage": "Main call-to-action button used in navigation, hero section, and throughout the page for conversion. Orange background with white text.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "8px 16px"
+            },
+            {
+              "name": "With Icon",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "8px 8px 8px 16px"
+            },
+            {
+              "name": "Small Mobile",
+              "font": "IBM Plex Sans",
+              "size": "12px",
+              "padding": "0 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FF6106",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.9",
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FF6106",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "1",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#050201",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.4",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Partner With Us (Secondary Light)",
+        "usage": "Secondary action button with light orange background and orange text. Used for secondary CTAs alongside primary buttons.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FEE3DA",
+            "text_color": "#FF6106",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.9",
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FEE3DA",
+            "text_color": "#FF6106",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "1",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FEE3DA",
+            "text_color": "#FF6106",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Login (Ghost)",
+        "usage": "Ghost/text button used for login link in navigation. No background, with hover underline effect.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.9",
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#FF6106",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "1",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Next (Green Primary)",
+        "usage": "Green primary button used for progression/next actions within content accordions and step-by-step flows.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "With Icon",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "8px 8px 8px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#15502E",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.9",
+            "cursor": null
+          },
+          "hover": {
+            "background": "#004633",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "1",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#15502E",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Check for AI (Green Solid)",
+        "usage": "Primary action button in the AI detection form. Solid green background for form submission.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "0 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#15502E",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#004633",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#15502E",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Upload (Green Outline)",
+        "usage": "Outline button for secondary form actions like file upload. Green border with white background.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "0 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#15502E",
+            "border_color": "#15502E",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(21,80,46,0.05)",
+            "text_color": "#15502E",
+            "border_color": "#15502E",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#15502E",
+            "border_color": "#15502E",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Human / ChatGPT / AI + Human (Example Chip)",
+        "usage": "Small chip buttons for selecting example text samples in the detection form. Glassmorphic style with semi-transparent background.",
+        "specs": {
+          "radius": "rounded-md",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "IBM Plex Sans",
+              "size": "12px",
+              "padding": "8px 12px"
+            },
+            {
+              "name": "Extra Small",
+              "font": "IBM Plex Sans",
+              "size": "11px",
+              "padding": "0 8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255,255,255,0.3)",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.9",
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255,255,255,0.9)",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "1",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255,255,255,0.3)",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Products / Solutions / Company / Resources (Nav Dropdown)",
+        "usage": "Navigation dropdown trigger buttons. Transparent background with hover state.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "8px 10px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F9FAFB",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular Play)",
+        "usage": "Circular icon-only button used for video play overlay. Dark semi-transparent background.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(20,32,30,0.8)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(20,32,30,0.8)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(20,32,30,0.8)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Accordion Step Button (Pill Dark)",
+        "usage": "Dark pill-shaped accordion buttons used in the 'How it works' and 'What is AI detector' sections for step navigation.",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "IBM Plex Sans",
+              "size": "16px",
+              "padding": "16px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#002B24",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#083428",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#002B24",
+            "text_color": "#14201E",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are often grouped horizontally with consistent spacing, particularly in hero sections and form footers.",
+      "spacing": "20px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

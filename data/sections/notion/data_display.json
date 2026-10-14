@@ -1,0 +1,65 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "charts": [
+      {
+        "name": "Dashboard Visualization",
+        "description": "H2 Deal Flow Dashboard with speedometer gauge and bar charts displayed in bento card imagery.",
+        "when_to_use": [
+          "Product feature showcase",
+          "Data visualization demonstrations",
+          "AI capability illustrations"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "Meetings List",
+        "description": "List view with avatars, project titles, and team metadata shown in Capture bento card.",
+        "when_to_use": [
+          "Knowledge management features",
+          "Meeting organization",
+          "Team activity display"
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "Bento Card",
+        "description": "Feature showcase cards with header, description, and large media area. Used for AI features section.",
+        "when_to_use": [
+          "Feature highlights",
+          "Product capability showcase",
+          "Marketing landing pages"
+        ]
+      },
+      {
+        "name": "Testimonial Card",
+        "description": "Full-bleed gradient background cards with quote text overlay. Available in red, blue, and orange variants.",
+        "when_to_use": [
+          "Customer testimonials",
+          "Social proof sections",
+          "Trust building"
+        ]
+      },
+      {
+        "name": "Compact Card",
+        "description": "Small card with icon, title, and arrow for agent/use case listings.",
+        "when_to_use": [
+          "Feature lists",
+          "Use case navigation",
+          "Quick action prompts"
+        ]
+      }
+    ]
+  }
+}

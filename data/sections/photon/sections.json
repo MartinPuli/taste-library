@@ -1,0 +1,326 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/photon.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal nav bar, centered logo left, links center, buttons right",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Logo reading 'photon Photon' in white text on black background"
+        },
+        {
+          "type": "navigation",
+          "description": "Nav links: iMessage, WhatsApp, Pricing, Docs, Blog, Resources dropdown"
+        },
+        {
+          "type": "button",
+          "description": "Discord icon link, white on black"
+        },
+        {
+          "type": "button",
+          "description": "Twitter/X icon link, white on black"
+        },
+        {
+          "type": "button",
+          "description": "GitHub icon link with '4.6k' star count, white text"
+        },
+        {
+          "type": "button",
+          "description": "'Contact' button with white border, black background, superellipse corner shape"
+        },
+        {
+          "type": "button",
+          "description": "'Dashboard' button with blue background (rgb(41, 152, 217)), white border, superellipse corner shape"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, large headline with animated inline icons/badges",
+      "headline": "Bring Agents to the Interfaces Millions Already Use.",
+      "subheadline": "An open-source framework that connects your agents to SMS/RCS, iMessage, WhatsApp, Discord, Slack, Telegram, and other interfaces people use every day.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Platform icons inline with text: iMessage (blue rounded square), WhatsApp (green), Discord (purple), Slack (colorful), Telegram (blue), animated into headline"
+        },
+        {
+          "type": "button",
+          "description": "'Get Started' button, white background, black text, superellipse corners"
+        },
+        {
+          "type": "card",
+          "description": "Code snippet card showing 'Copy Agent Instruction' with dark background, syntax-highlighted TypeScript code, white text"
+        },
+        {
+          "type": "image",
+          "description": "Blue illustrated graphic overlay on code card, minimal line art"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, large headline with animated inline icons/badges (variant 2)",
+      "headline": "Bring Agents to the Interfaces Millions Already Use.",
+      "subheadline": "An open-source framework that connects your agents to SMS/RCS, iMessage, WhatsApp, Discord, Slack, Telegram, and other interfaces people use every day.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Same platform icons as variant 1, different animation state"
+        },
+        {
+          "type": "button",
+          "description": "'Get Started' button, white background, black text"
+        },
+        {
+          "type": "card",
+          "description": "Code snippet card, dark theme, syntax highlighting"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered, large headline with animated inline icons/badges (variant 3)",
+      "headline": "Bring Agents to the Interfaces Millions Already Use.",
+      "subheadline": "An open-source framework that connects your agents to SMS/RCS, iMessage, WhatsApp, Discord, Slack, Telegram, and other interfaces people use every day.",
+      "components": [
+        {
+          "type": "image",
+          "description": "Same platform icons, third animation state"
+        },
+        {
+          "type": "button",
+          "description": "'Get Started' button"
+        },
+        {
+          "type": "card",
+          "description": "Code snippet card"
+        }
+      ]
+    },
+    {
+      "type": "Showcase / Animation",
+      "layout_pattern": "Full-width image sequence, centered",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Sequence of 130+ images showing animated UI transitions, first image visible: https://framerusercontent.com/images/riKglKXVyDIqH1YCn2GLbI3pbQ.jpg"
+        }
+      ]
+    },
+    {
+      "type": "Ticker / Logo Strip",
+      "layout_pattern": "Horizontal scrolling ticker, infinite loop",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Rainbow gradient spectrum bar (blue→cyan→yellow→orange→red), horizontal ticker loop"
+        },
+        {
+          "type": "image",
+          "description": "White logo/text 'Cacoo' in ticker"
+        }
+      ]
+    },
+    {
+      "type": "Trust Badge",
+      "layout_pattern": "Centered inline badge with status indicator",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Green dot + '99.95% Uptime' text, white on dark, with 'by' text and Better Stack logo, link to status.photon.codes"
+        },
+        {
+          "type": "image",
+          "description": "Trust.inc badge images"
+        }
+      ]
+    },
+    {
+      "type": "Feature Showcase",
+      "layout_pattern": "Full-width gradient background with centered code card overlay",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Large gradient background image (2880x1806px), colorful spectrum blend"
+        },
+        {
+          "type": "image",
+          "description": "Rainbow spectrum bar overlaid at top"
+        },
+        {
+          "type": "card",
+          "description": "iMessage interface mockup card with gradient background, showing code editor and UI preview, dark theme with white text"
+        },
+        {
+          "type": "button",
+          "description": "'Learn more' button with white border, transparent background"
+        },
+        {
+          "type": "button",
+          "description": "'Run' button with white background, black text"
+        }
+      ]
+    },
+    {
+      "type": "Features / Benefits",
+      "layout_pattern": "Grid 2x2, cards with images and text",
+      "headline": "Native iMessage APIs for Apple-Level rich experiences",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Card 1: Image of message markdown/effects (1494x505px), white text: 'Send & receive messages, supporting markdown and bubble / message effects'"
+        },
+        {
+          "type": "card",
+          "description": "Card 2: Image showing file attachments (552x320px), white text: 'Share attachments seamlessly including files, media, and stacked images'"
+        },
+        {
+          "type": "card",
+          "description": "Card 3: Image of location sharing UI (356x240px), white text: 'Accept location sharing subscribe to real-time live users' location updates'"
+        },
+        {
+          "type": "card",
+          "description": "Card 4: Image (1696x792px), partial visible in HTML"
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "layout_pattern": "Centered, gradient banner",
+      "headline": "Bring agents to your users.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Join the beta' button, white outline, transparent background"
+        },
+        {
+          "type": "button",
+          "description": "'Request API Access' button, white solid background"
+        }
+      ]
+    },
+    {
+      "type": "Platforms",
+      "layout_pattern": "Centered, 4-column icon grid",
+      "headline": "Platforms",
+      "subheadline": "Descriptive text about API platforms",
+      "components": [
+        {
+          "type": "icon",
+          "description": "Apple iOS icon, yellow"
+        },
+        {
+          "type": "icon",
+          "description": "Email icon, gray"
+        },
+        {
+          "type": "icon",
+          "description": "SMS/Texting icon, green"
+        },
+        {
+          "type": "icon",
+          "description": "Alexa/Cloud icon, blue"
+        },
+        {
+          "type": "button",
+          "description": "'Learn more' link/button below icons"
+        }
+      ]
+    },
+    {
+      "type": "Manifesto / About",
+      "layout_pattern": "Centered text + media block",
+      "headline": "Manifesto",
+      "subheadline": "Text about vision and philosophy",
+      "components": [
+        {
+          "type": "button",
+          "description": "'Learn more' link"
+        },
+        {
+          "type": "video",
+          "description": "Video/image with play overlay, blue illustrated figure (minimalist line art style)"
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "layout_pattern": "Centered, 3x3 grid of testimonial cards",
+      "headline": "Trusted by the world's most ambitious teams",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "4 trust badges across top row, horizontal layout"
+        },
+        {
+          "type": "card",
+          "description": "Multiple testimonial cards (3x3 grid), white cards with subtle shadows, mix of quotes, code snippets, and screenshots"
+        }
+      ]
+    },
+    {
+      "type": "Security / Compliance",
+      "layout_pattern": "Stacked vertical cards, centered",
+      "headline": "We keep everything secure.",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Card 1: Green matrix pattern background, 'Encryption based on design' headline, description text"
+        },
+        {
+          "type": "card",
+          "description": "Card 2: SOC 2 badge on blue background, 'Privacy is SOC 2 Type 2 Compliant' headline, description text"
+        },
+        {
+          "type": "card",
+          "description": "Card 3: HIPAA badge on blue background, 'HIPAA compliance support' headline, description text"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column navigation, centered",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Footer navigation columns with section links"
+        },
+        {
+          "type": "icon",
+          "description": "Social media links (Discord, Twitter, GitHub)"
+        },
+        {
+          "type": "navigation",
+          "description": "Legal links (Privacy, Terms, etc.)"
+        }
+      ]
+    }
+  ]
+}

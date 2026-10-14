@@ -2,31 +2,49 @@
 
 Study type contrast and restrained surfaces in a financial-service presentation.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 16 · Captured 2026-10-06T07:33:29.968243Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 16 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-06T07:33:29.968243Z |
-| Suggested uses | fintech |
-| Visual approach | warm-editorial, modular |
+[Original website](https://mercury.com/) · [Full extraction](../data/raw/mercury.json) · [Review record](../data/reviews/mercury.json)
 
-## Details to compare
+[Small visual preview](../data/previews/mercury.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/full.jpg)
 
-- Detected type families: Arcadia Display, Arcadia, Tiempos Fine, Tiempos, IBM Plex Mono, SFMono-Regular.
-- Recorded palette: #000000, #EDEDF3, #C3C3CC, #171721, #9CB4E8.
-- Grid: `{"columns": 16, "gutter": "32px", "max_width": "1952px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A scenic mountain image and a desk fill the hero with white centered type and blue actions. The saved viewport also contains a large blank area to the right.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://mercury.com/) · [Extraction](../data/raw/mercury.json) · [Tokens](../data/tokens/mercury.json)
+Project types: fintech. Styles: warm-editorial, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show mercury --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study type contrast and restrained surfaces in a financial-service presentation. Evidence: [layout](../data/sections/mercury/layout.json), [sections](../data/sections/mercury/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/mercury/actions.json).
+
+## Content to bring
+
+Concrete product screens and a clearly explained financial workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/mercury/profile.json)
+- [Layout](../data/sections/mercury/layout.json)
+- [Colors](../data/sections/mercury/colors.json)
+- [Typography](../data/sections/mercury/typography.json)
+- [Surfaces](../data/sections/mercury/surfaces.json)
+- [Elevation](../data/sections/mercury/elevation.json)
+- [Interactions](../data/sections/mercury/interactions.json)
+- [Actions](../data/sections/mercury/actions.json)
+- [Navigation](../data/sections/mercury/navigation.json)
+- [Data Display](../data/sections/mercury/data_display.json)
+- [Structure](../data/sections/mercury/structure.json)
+- [Icons](../data/sections/mercury/icons.json)
+- [Assets](../data/sections/mercury/assets.json)
+- [Brand Assets](../data/sections/mercury/brand_assets.json) · no observed data
+- [Sections](../data/sections/mercury/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

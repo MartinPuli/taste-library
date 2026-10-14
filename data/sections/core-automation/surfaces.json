@@ -1,0 +1,226 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "texture_classification": [
+      "shadows_soft",
+      "patterns"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary page surface",
+        "when_to_use": [
+          "Main body background",
+          "Default page surface"
+        ],
+        "hex": "#ECECEC"
+      },
+      {
+        "name": "Copy/Text Surface",
+        "description": "Light cream surface for text containers",
+        "when_to_use": [
+          "Text blocks",
+          "Copy containers"
+        ],
+        "hex": "#F6F2EF"
+      },
+      {
+        "name": "Ink",
+        "description": "Dark surface for high-contrast sections",
+        "when_to_use": [
+          "Method section",
+          "Principles section",
+          "Borders"
+        ],
+        "hex": "#111111"
+      },
+      {
+        "name": "Blog Feature Card - White",
+        "description": "White card background variant",
+        "when_to_use": [
+          "Blog feature cards",
+          "Blog article cards",
+          "Default card theme"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blog Feature Card - Black",
+        "description": "Black card background variant",
+        "when_to_use": [
+          "Blog feature cards with dark theme",
+          "Blog article cards dark theme",
+          "Footer pattern background",
+          "Dark article theme"
+        ],
+        "hex": "#040404"
+      },
+      {
+        "name": "Blog Feature Card - Light Gray",
+        "description": "Light gray card background variant",
+        "when_to_use": [
+          "Blog feature cards",
+          "Blog article cards",
+          "Alternate card theme"
+        ],
+        "hex": "#CECECE"
+      },
+      {
+        "name": "Blog Feature Card - Dark Gray",
+        "description": "Dark gray card background variant",
+        "when_to_use": [
+          "Blog feature cards",
+          "Blog article cards",
+          "Warm neutral card theme"
+        ],
+        "hex": "#B6B2AB"
+      },
+      {
+        "name": "Blog Feature Card - Light Blue",
+        "description": "Light blue card background variant",
+        "when_to_use": [
+          "Blog feature cards",
+          "Blog article cards",
+          "Accent card theme"
+        ],
+        "hex": "#A4C4FF"
+      },
+      {
+        "name": "Article Media Placeholder",
+        "description": "Light gray placeholder surface for article media",
+        "when_to_use": [
+          "Article image placeholders",
+          "Loading states"
+        ],
+        "hex": "#D8D8D8"
+      },
+      {
+        "name": "Article BibTeX Background",
+        "description": "Light gray code block surface",
+        "when_to_use": [
+          "BibTeX code blocks",
+          "Code snippets"
+        ],
+        "hex": "#F4F4F4"
+      },
+      {
+        "name": "Article Code Card Background",
+        "description": "White code viewport background",
+        "when_to_use": [
+          "Code card viewports",
+          "Interactive code frames"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Article Interactive Frame Background",
+        "description": "White background for interactive frames",
+        "when_to_use": [
+          "Interactive article frames",
+          "Embedded content"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Article Interactive Frame Border",
+        "description": "Light gray border for interactive frames",
+        "when_to_use": [
+          "Interactive frame borders",
+          "Content boundaries"
+        ],
+        "hex": "#D7D9DD"
+      },
+      {
+        "name": "Theme Toggle Track",
+        "description": "Gray toggle track background",
+        "when_to_use": [
+          "Article theme toggle background",
+          "Toggle switches"
+        ],
+        "hex": "#A7A8A7"
+      },
+      {
+        "name": "Theme Toggle Thumb",
+        "description": "White toggle thumb",
+        "when_to_use": [
+          "Theme toggle thumb element",
+          "Switch indicators"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Article Top Button Background",
+        "description": "Dark background for scroll-to-top button icon",
+        "when_to_use": [
+          "Article top button icon",
+          "Fixed navigation elements"
+        ],
+        "hex": "#0F0F0F"
+      },
+      {
+        "name": "Quote Accent Border",
+        "description": "Gray accent border for blockquotes",
+        "when_to_use": [
+          "Article blockquotes",
+          "Quote callouts"
+        ],
+        "hex": "#B5B5B5"
+      },
+      {
+        "name": "Article Button Background",
+        "description": "Dark button background",
+        "when_to_use": [
+          "Interactive frame open buttons",
+          "Primary article CTAs"
+        ],
+        "hex": "#111111"
+      },
+      {
+        "name": "Dark Theme Page Background",
+        "description": "Dark mode page background",
+        "when_to_use": [
+          "Dark theme article pages"
+        ],
+        "hex": "#101010"
+      },
+      {
+        "name": "Dark Theme Code Background",
+        "description": "Black code viewport background for dark theme",
+        "when_to_use": [
+          "Dark theme code cards",
+          "Dark theme code viewports"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Dark Theme BibTeX Background",
+        "description": "Dark gray code block surface for dark theme",
+        "when_to_use": [
+          "Dark theme BibTeX blocks",
+          "Dark theme code snippets"
+        ],
+        "hex": "#1B1B1B"
+      }
+    ],
+    "gradients": [],
+    "highlights": [
+      "Footer pattern: decorative image background at 122px height with #040404 background",
+      "Soft box shadow on theme toggle thumb: 0 2px 6px rgba(0, 0, 0, 0.18)",
+      "Inline code background: rgba(17, 17, 17, 0.1) for light theme",
+      "Dark theme inline code background: rgba(255, 255, 255, 0.18)",
+      "Border pattern: 2.5px solid strokes using panel color variables",
+      "Navigation border patterns: 1px solid rgba(17, 17, 17, 0.18) between links",
+      "Article media color overlays in dark theme with rgba(17, 17, 17, 0.48) placeholder text",
+      "Glass footer credit overlay: padding with #040404 background and 1px border, no backdrop-filter"
+    ]
+  }
+}

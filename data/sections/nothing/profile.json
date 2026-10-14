@@ -1,0 +1,58 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "brand_name": "Nothing",
+    "tagline": null,
+    "source_url": "https://nothing.tech/",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Consumer Electronics / Technology",
+    "primary_purpose": "Showcase product portfolio and drive discovery of smartphones, earbuds, and audio devices through an immersive, design-forward experience",
+    "main_cta": "Discover",
+    "copy_tone": [
+      "Minimal",
+      "Confident",
+      "Design-Conscious"
+    ],
+    "brand_signature": "A stark monochromatic foundation with signature dot-grid patterns creates an industrial-meets-digital aesthetic. Frosted glass overlays and clean sans-serif typography emphasize premium minimalism, while full-bleed product imagery with transparent device elements reinforces the brand's \"transparent technology\" philosophy.",
+    "visual_language": {
+      "keywords": [
+        "transparent",
+        "grid-based",
+        "industrial-minimal",
+        "monochrome",
+        "frosted-glass",
+        "stark"
+      ],
+      "accent_strategy": "Near-absence of accent colors; relies on product photography colors (pink, orange, blue earbuds) as the sole color injection against pure black and white canvas",
+      "highlights": "Dot-grid matrix overlay creates subtle texture and depth; frosted glass cards float over full-screen hero imagery for product feature callouts"
+    },
+    "strategy": {
+      "target_audience": [
+        "Design-conscious tech enthusiasts aged 22-38 who prioritize aesthetics and unique product identity over mainstream brand choices",
+        "Early adopters and tech-savvy consumers seeking alternatives to Apple/Samsung ecosystem with distinctive visual identity",
+        "Creative professionals and minimalism advocates who appreciate transparent design philosophy and community-driven brand culture"
+      ],
+      "executive_synthesis": "Nothing's visual strategy weaponizes negative space and industrial restraint to position against glossy consumer electronics competitors. The transparent device aesthetic translated to web through dot-grid overlays and stark monochrome creates immediate brand recognition. Full-bleed product hero sections with minimal copy establish product-first storytelling, while the consistent 'Discover' CTA maintains exploratory brand positioning. The frosted glass UI treatment echoes the physical product's transparent casing philosophy, creating cohesive brand experience across physical and digital touchpoints."
+    },
+    "style_classification": {
+      "primary_style": "Glassmorphism",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The visual impression is immediately striking: frosted white cards float over full-bleed product photography, creating a layered, translucent depth. The texture profile explicitly confirms \"glass_blur\" and \"shadows_soft\" as primary classifications, with backdrop-filter: blur(45px) and 80% opacity white panels throughout. These frosted glass product cards are the defining visual system—you can literally see through the elements to the imagery beneath, which is THE key differentiator for Glassmorphism per the taxonomy. The color palette is ultra-monochromatic (pure black #000000 typography against pure white #FFFFFF and off-white #F4F4F4 backgrounds), but the dimensionality comes from the layered transparency effects rather than flat surfaces. The shape language uses predominantly rounded/soft containers with generous border-radius on cards and buttons (8px border-radius noted), combined with geometric product photography arrangements. The layout is centered/symmetric with full-viewport sections and card-based overlays anchored consistently at the bottom of each section. Soft box shadows (0 20px 50px rgba(0,0,0,0.1)) add depth without harsh edges, further confirming the Glassmorphism paradigm.",
+      "secondary_style": "Brutalism",
+      "reasoning_secondary": "The Brutalism influence emerges through the typography system and stark design choices. The site employs three highly distinctive custom typefaces: Ndot-Regular (a dot-matrix display font), NType82-Regular (a geometric sans-serif used at unusually lightweight 100 weights), and LatteraMonoLL (a strict monospace for all UI labels and functional text). This technical, code-like typography aesthetic is a hallmark of Brutalism—raw, honest, deliberately unstyled in the conventional sense. The monochromatic color palette stripped to pure black and white extremes, the rejection of decorative color, and the deliberate contrast between #000000 for text versus #040404 for surfaces reflects Brutalist precision. The footer's solid black background with uppercase white navigation links reinforces this raw, anti-ornamental sensibility. The product naming convention (phone (2a), ear (3a)) uses lowercase technical notation, further emphasizing the brutalist tech-industrial aesthetic beneath the glassmorphic surface treatment."
+    }
+  }
+}

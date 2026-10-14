@@ -1,0 +1,61 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Brand Bar Divider",
+        "description": "Horizontal divider separating the brand bar/navigation from the hero content.",
+        "when_to_use": [
+          "Header section boundary",
+          "Navigation separation"
+        ],
+        "color": "#111111",
+        "height": "2.5px",
+        "style": "solid"
+      },
+      {
+        "name": "Panel Border (Research)",
+        "description": "Architectural connector-style border with notched corners, themed in Signal Red for the Research section.",
+        "when_to_use": [
+          "Content section boundaries",
+          "Visual flow between puzzle pieces and content panels"
+        ],
+        "color": "#FF2D09",
+        "height": "2.5px",
+        "style": "solid"
+      },
+      {
+        "name": "Panel Border (Approach/Vision)",
+        "description": "Architectural connector-style border with notched corners, themed in Ink Black for Approach and Vision sections.",
+        "when_to_use": [
+          "Content section boundaries",
+          "Visual flow between puzzle pieces and content panels"
+        ],
+        "color": "#111111",
+        "height": "2.5px",
+        "style": "solid"
+      },
+      {
+        "name": "Panel Border (Team)",
+        "description": "Architectural connector-style border with notched corners, themed in Electric Blue for the Team section.",
+        "when_to_use": [
+          "Content section boundaries",
+          "Visual flow between puzzle pieces and content panels"
+        ],
+        "color": "#699EFF",
+        "height": "2.5px",
+        "style": "solid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "elevenlabs",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A white page pairs a short headline with explanatory text, above a rounded product panel containing colorful audio orbs.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/viewport.jpg",
+    "sha256": "dfa38721945474604465fd19837b757f5e99b6562edda86b736707593036943b"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/styles.css",
+    "sha256": "93cc4eb3560f9ed2b363e8b011094d4d770daa4ad6456d9fc86665ea07501d4a",
+    "bytes": 599780,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#E5E5E5",
+      "#777169",
+      "#A59F97",
+      "#44403B"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#E5E5E5",
+      "#777169",
+      "#A59F97",
+      "#44403B"
+    ],
+    "font_names_found": [
+      "Waldenburg",
+      "Inter",
+      "Geist Mono"
+    ],
+    "font_names_checked": [
+      "Waldenburg",
+      "Inter",
+      "Geist Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "2c36036a007d0292f011956b43223bfed06553ef89533d38282640da7a29b1bd"
+}

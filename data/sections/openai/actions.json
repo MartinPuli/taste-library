@@ -1,0 +1,359 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Log in (Secondary)",
+        "usage": "Header login button for user authentication, appears in the top navigation bar",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial",
+              "size": "13.3333px",
+              "padding": "0 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0,0,0,0.12)",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.6",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Try ChatGPT (Primary)",
+        "usage": "Primary CTA button in header for directing users to ChatGPT application, opens in new window",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial",
+              "size": "13.3333px",
+              "padding": "0 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0,0,0,0.8)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Submit Prompt (Icon Button)",
+        "usage": "Circular icon button for submitting chat prompts in the hero ChatGPT input area",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.7",
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "rgba(0,0,0,0.44)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Talk with ChatGPT (Outline Pill)",
+        "usage": "Pill-shaped outline button linking to ChatGPT voice mode, part of quick action links below search input",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial",
+              "size": "13.3333px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "rgba(0,0,0,0.12)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "rgba(0,0,0,0.12)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.44)",
+            "border_color": "rgba(0,0,0,0.12)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "More (Outline Pill)",
+        "usage": "Pill-shaped outline button that reveals additional quick action links below the ChatGPT input",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial",
+              "size": "13.3333px",
+              "padding": "0 12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "rgba(0,0,0,0.12)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "rgba(0,0,0,0.12)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.44)",
+            "border_color": "rgba(0,0,0,0.12)",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "View more (Ghost Link)",
+        "usage": "Ghost-style text button used for 'View more' and 'View all' links in section headers",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Arial",
+              "size": "13.3333px",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.44)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Search Icon (Icon Button)",
+        "usage": "Circular icon button for search functionality in the header navigation",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.6)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "rgba(0,0,0,0.4)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Close (Icon Button)",
+        "usage": "Circular close button used in modals and expandable media elements",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            },
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(0,0,0,0.44)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0,0,0,0.6)",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(0,0,0,0.04)",
+            "text_color": "rgba(0,0,0,0.44)",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons in the header are grouped inline with consistent gap spacing",
+      "spacing": "8px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

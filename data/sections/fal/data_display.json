@@ -1,0 +1,75 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "charts": [
+      {
+        "name": "Inference Speed Comparison",
+        "description": "Horizontal bar chart comparing inference speeds across different platforms, with colored bars representing fal vs alternatives.",
+        "when_to_use": [
+          "Performance benchmarking",
+          "Comparing latency metrics",
+          "Highlighting platform advantages"
+        ]
+      }
+    ],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Model Gallery Card",
+        "description": "Large image card with gradient overlay and text label at bottom for model showcasing.",
+        "when_to_use": [
+          "Displaying AI model previews",
+          "Content galleries",
+          "Visual navigation between models"
+        ]
+      },
+      {
+        "name": "Product Feature Card",
+        "description": "Colored background card with icon, title, description, and CTA button for product sections.",
+        "when_to_use": [
+          "Highlighting product features",
+          "Service comparison",
+          "Product landing sections"
+        ]
+      },
+      {
+        "name": "GPU Type Tile",
+        "description": "Small square tile with GPU icon and label for hardware options display.",
+        "when_to_use": [
+          "Hardware specifications",
+          "Computing resources display",
+          "Infrastructure options"
+        ]
+      },
+      {
+        "name": "Enterprise Feature Chip",
+        "description": "Small rounded chip with icon showing enterprise compliance and features.",
+        "when_to_use": [
+          "Enterprise feature lists",
+          "Compliance badges",
+          "Feature highlights"
+        ]
+      },
+      {
+        "name": "Testimonial Card",
+        "description": "Quote card with company logo, testimonial text, and author attribution.",
+        "when_to_use": [
+          "Social proof sections",
+          "Customer testimonials",
+          "Brand endorsements"
+        ]
+      }
+    ]
+  }
+}

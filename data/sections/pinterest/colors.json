@@ -1,0 +1,138 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Base Dark",
+        "type": "Dark",
+        "rules": {
+          "description": "Serves as the baseline document text color and provides a dramatic, near-black backdrop for the top hero section.",
+          "when_to_use": [
+            "Document default text color",
+            "Top hero section background (#08070E)",
+            "Hidden tracking iframe borders"
+          ]
+        },
+        "hex": "#211922",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#08070E",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0013
+      },
+      {
+        "name": "Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Provides stark maximum contrast for primary typography and anchors the bottom of the page with a solid dark footer.",
+          "when_to_use": [
+            "Main UI typography and headings",
+            "Page footer background",
+            "Translucent overlay washes on image cards (#0000000a)",
+            "Signup modal drop shadow (#00000033)"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.1661
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Canvas & Surface White",
+        "type": "Light",
+        "rules": {
+          "description": "Forms the foundational canvas of the site and shapes the interactive containers that rest on it.",
+          "when_to_use": [
+            "Main page and navigation background",
+            "Secondary button and search bar fills (#E5E5E0)",
+            "Image loading placeholders (#EFEFEF)",
+            "Primary button text and logo fill"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E5E5E0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EFEFEF",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F6F3",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.1107
+      },
+      {
+        "name": "Subtle Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "De-emphasizes secondary metadata and helper copy to maintain a clear, scannable typographic hierarchy.",
+          "when_to_use": [
+            "Board card metadata (Pin counts and timestamps)",
+            "Search bar icon fill",
+            "Form field helper text and legal disclaimers"
+          ]
+        },
+        "hex": "#62625B",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0201
+      },
+      {
+        "name": "Border Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "Outlines interactive form fields and external elements without competing visually with the text inside them.",
+          "when_to_use": [
+            "Signup form input borders",
+            "Social login button borders",
+            "reCAPTCHA widget shadow (#808080)"
+          ]
+        },
+        "hex": "#91918C",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#808080",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0087
+      }
+    ],
+    "insights": [
+      "The measured palette is entirely monochromatic, relying on stark black, white, and grays to build the UI shell. This effectively forces user-generated imagery to provide all the actual color on the page.",
+      "Visual hierarchy and component bounds are established through a wide spectrum of grays—from light structural washes (#E5E5E0) for secondary interactive surfaces down to mid-tones (#62625B) for metadata.",
+      "The design commits to absolute black (#000000) for major typography and heavy structural blocks like the footer, resulting in a punchy, high-contrast aesthetic against the white canvas rather than a softer, low-contrast UI."
+    ]
+  }
+}

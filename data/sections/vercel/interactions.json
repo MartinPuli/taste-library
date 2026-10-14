@@ -1,0 +1,80 @@
+{
+  "id": "vercel",
+  "source_url": "https://vercel.com/",
+  "captured_at": "2026-09-15T22:43:23.540328Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/vercel.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/vercel.json",
+  "data": {
+    "global_patterns": [
+      "marquee",
+      "sticky_header",
+      "scroll_reveal",
+      "accordion",
+      "hover_transform"
+    ],
+    "animations": [
+      {
+        "name": "marquee",
+        "css": "@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-100% - var(--marquee-gap))); } }",
+        "description": "Continuous horizontal scroll animation for the customer logo strip in the hero section"
+      },
+      {
+        "name": "passport-glow-ellipse-x",
+        "css": "@keyframes passport-glow-ellipse-x { from { transform: scaleX(1); } to { transform: scaleX(1.5); } }",
+        "description": "Scaling animation for decorative glow effect on the Passport feature card"
+      },
+      {
+        "name": "accordion-down",
+        "css": "@keyframes accordion-down { from { height: 0; } to { height: var(--radix-accordion-content-height); } }",
+        "description": "Expand animation for accordion content panels"
+      },
+      {
+        "name": "accordion-up",
+        "css": "@keyframes accordion-up { from { height: var(--radix-accordion-content-height); } to { height: 0; } }",
+        "description": "Collapse animation for accordion content panels"
+      },
+      {
+        "name": "fade-in",
+        "css": "@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }",
+        "description": "Simple fade in animation used for page elements and hero content"
+      },
+      {
+        "name": "fade-slide-in",
+        "css": "@keyframes fade-slide-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+        "description": "Combined fade and slide animation for scroll reveal elements"
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: border-color 150ms ease-in-out, background 150ms ease-in-out, color 150ms ease-in-out, transform 150ms ease-in-out, box-shadow 150ms ease-in-out",
+        "description": "Standard button hover and focus transition token"
+      },
+      {
+        "name": "card-hover-transform",
+        "css": "transition: transform 300ms ease-out",
+        "description": "Card scale and rotation transform on hover for feature cards"
+      },
+      {
+        "name": "hero-text-scramble",
+        "css": "",
+        "description": "JS-driven text scramble animation cycling through taglines in the hero section"
+      },
+      {
+        "name": "opacity-transition",
+        "css": "transition: opacity 300ms ease-out",
+        "description": "Standard opacity transition for element visibility changes"
+      }
+    ],
+    "insights": [
+      "The design uses a high-contrast monochromatic palette with black (#171717) and white (#FFFFFF) as primary interaction colors, creating strong visual hierarchy for CTAs.",
+      "Button system has two distinct radius patterns: rounded-full (pill) for hero/marketing CTAs and rounded-md (6px) for navigation/utility buttons, establishing clear context differentiation.",
+      "Motion design is restrained but purposeful, with subtle 150ms transitions for micro-interactions and longer 300ms transforms for card hovers, creating a polished professional feel."
+    ]
+  }
+}

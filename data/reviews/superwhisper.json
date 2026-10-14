@@ -1,0 +1,69 @@
+{
+  "id": "superwhisper",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "White centered copy and two download controls sit on a blue photographic background framed by dark silhouettes.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/viewport.jpg",
+    "sha256": "7d510f148ce068fdc81de8c81730ca0cbb683cfdc7047c6a61123aef05bd6103"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/styles.css",
+    "sha256": "f99b3102faaf21483fb51c28ca94152b823894ae589831af937848798ccb0503",
+    "bytes": 236113,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#FFFFFF",
+      "#DD55E7",
+      "#16C253",
+      "#471848",
+      "#7A7A7A",
+      "#9CCCC2",
+      "#112D72",
+      "#022044",
+      "#CD4015",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#FFFFFF",
+      "#0088FF",
+      "#DD55E7",
+      "#16C253",
+      "#FFDD00",
+      "#471848",
+      "#7A7A7A",
+      "#9CCCC2",
+      "#112D72",
+      "#022044",
+      "#CD4015",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "font_names_found": [
+      "Inter",
+      "Flow Circular"
+    ],
+    "font_names_checked": [
+      "Inter",
+      "System Sans",
+      "System Mono",
+      "Flow Circular"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "758ea6d174e8cea2da30b9b7b17f9e177b91f7e18f82683c2d4c0b62c9255394"
+}

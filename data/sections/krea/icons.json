@@ -1,0 +1,111 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/krea.json",
+  "data": [
+    {
+      "name": "Lucide UI Icons - Outline",
+      "description": "Standard monoline outline icons for general UI actions and navigation.",
+      "when_to_use": [
+        "Buttons",
+        "Navigation",
+        "Context menus"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline (2px stroke)",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "ellipsis",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-ellipsis\"><circle cx=\"12\" cy=\"12\" r=\"1\"></circle><circle cx=\"19\" cy=\"12\" r=\"1\"></circle><circle cx=\"5\" cy=\"12\" r=\"1\"></circle></svg>"
+        },
+        {
+          "name": "arrow-right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-arrow-right transition-[translate] duration-150 ease-out group-hover/btn:translate-x-0.5 motion-reduce:transition-none\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg>"
+        },
+        {
+          "name": "arrow-left",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-arrow-left size-4\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg>"
+        },
+        {
+          "name": "search",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-search\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Lucide UI Icons - Heavy",
+      "description": "Heavier stroked icons for strong emphasis, often scaled down for small UI components.",
+      "when_to_use": [
+        "Small UI toggles",
+        "Search inputs",
+        "Close buttons"
+      ],
+      "format": "SVG",
+      "style": "Heavy Outline (2.5px stroke)",
+      "sizes": {
+        "small": "14px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "chevron-down-heavy",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-chevron-down size-3.5!\"><path d=\"m6 9 6 6 6-6\"></path></svg>"
+        },
+        {
+          "name": "search-heavy",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-search\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg>"
+        },
+        {
+          "name": "search-heavy-small",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-search\"><path d=\"m21 21-4.34-4.34\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle></svg>"
+        },
+        {
+          "name": "x-heavy-small",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-x\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Filled Decorative Icons",
+      "description": "Solid or specially filled shapes used for active states, highlights, or decorative accents.",
+      "when_to_use": [
+        "Highlights",
+        "Feature callouts",
+        "Active indicators"
+      ],
+      "format": "SVG",
+      "style": "Filled",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "sparkle",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-sparkle fill-white text-white drop-shadow-sm dark:fill-black dark:text-black\"><path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"></path></svg>"
+        },
+        {
+          "name": "zap",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide-icon lucide lucide-zap size-4 opacity-100\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"></path></svg>"
+        },
+        {
+          "name": "abstract-shape",
+          "svg_code": "<svg class=\"h-4 w-4\" fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 48 48\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><polygon fill-rule=\"evenodd\" points=\"24.032,28.919 40.145,5.989 33.145,5.989 20.518,23.958\" clip-rule=\"evenodd\"></polygon><polygon fill-rule=\"evenodd\" points=\"14.591,32.393 7.145,42.989 14.145,42.989 18.105,37.354\" clip-rule=\"evenodd\"></polygon><polygon fill-rule=\"evenodd\" points=\"14.547,18.989 7.547,18.989 24.547,42.989 31.547,42.989\" clip-rule=\"evenodd\"></polygon><polygon fill-rule=\"evenodd\" points=\"35,16.789 35,43 41,43 41,8.251\" clip-rule=\"evenodd\"></polygon></svg>"
+        }
+      ]
+    }
+  ]
+}

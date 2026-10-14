@@ -1,0 +1,58 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "elevation",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/elevation",
+  "review_file": "data/reviews/core-automation.json",
+  "data": {
+    "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+    "shadows": {
+      "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element. This design system uses minimal shadows, primarily for toggle controls.",
+      "levels": [
+        {
+          "name": "Toggle Thumb Shadow",
+          "type": "drop",
+          "description": "18% black opacity / Blur: 6px / Y-offset: 2px - Subtle shadow for toggle switch thumb elements",
+          "css_value": "0 2px 6px rgba(0, 0, 0, 0.18)",
+          "when_to_use": [
+            "Theme toggle switches",
+            "Toggle controls",
+            "Small interactive elements"
+          ]
+        },
+        {
+          "name": "Code Shot Border Shadow",
+          "type": "inset",
+          "description": "Inset border shadow using 1px white stroke - Creates inner border effect for code screenshots in dark theme",
+          "css_value": "inset 0 0 0 1px #ffffff",
+          "when_to_use": [
+            "Code screenshots in dark mode",
+            "Media containers with dark backgrounds"
+          ]
+        }
+      ]
+    },
+    "borders": [
+      {
+        "hex": "#111111",
+        "width": "2.5px",
+        "style": "solid"
+      },
+      {
+        "hex": "#040404",
+        "width": "1px",
+        "style": "solid"
+      },
+      {
+        "hex": "#D7D9DD",
+        "width": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

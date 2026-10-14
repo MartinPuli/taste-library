@@ -1,0 +1,446 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "headingFont",
+          "role": "H1",
+          "specs": {
+            "size": "3.75rem",
+            "line_height": "1.2",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H2",
+          "specs": {
+            "size": "3.5rem",
+            "line_height": "1.1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Display Large (Tight)",
+          "specs": {
+            "size": "2.25rem",
+            "line_height": "1.05",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Display Large (Relaxed)",
+          "specs": {
+            "size": "2.25rem",
+            "line_height": "1.25",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Medium (Tall)",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "2rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Medium (Tight)",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "1.1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Medium (Normal)",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "1.2",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Small",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.2",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Custom (28px)",
+          "specs": {
+            "size": "28px",
+            "line_height": "1.1",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "H3 Custom (25px)",
+          "specs": {
+            "size": "25px",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text styles used across content blocks and descriptions.",
+      "variants": [
+        {
+          "name": "IBM Plex Sans",
+          "role": "Body Large",
+          "specs": {
+            "size": "1rem",
+            "line_height": "1.5rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Body Regular",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Body Secondary",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.5",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Body Relaxed",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.625",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Body Static 16px",
+          "specs": {
+            "size": "16px",
+            "line_height": "24px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Body Static 14px",
+          "specs": {
+            "size": "14px",
+            "line_height": "20px",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Utilitarian styles used for UI elements, labels, buttons, and metadata.",
+      "variants": [
+        {
+          "name": "IBM Plex Mono",
+          "role": "Monospace Label",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "var(--font-mono), monospace",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Label Bold",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "700",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Label Light",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "300",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Button / Medium Label",
+          "specs": {
+            "size": "0.875rem",
+            "line_height": "1.25rem",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Caption / Small Button",
+          "specs": {
+            "size": "0.75rem",
+            "line_height": "1rem",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Tag Micro",
+          "specs": {
+            "size": "11px",
+            "line_height": "1.3",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Tiny Body",
+          "specs": {
+            "size": "10px",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "IBM Plex Sans",
+          "role": "Badge Micro",
+          "specs": {
+            "size": "9px",
+            "line_height": "1",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"IBM Plex Sans\", \"IBM Plex Sans Fallback\"",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Specialty variants including decorative numbers and vertical layout text.",
+      "variants": [
+        {
+          "name": "Imbue",
+          "role": "Decorative Number",
+          "specs": {
+            "size": "1.5rem",
+            "line_height": "1.3",
+            "font_weight": "400",
+            "font_variation_settings": "\"wght\" 300, \"opsz\" 144"
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "Imbue, \"Imbue Fallback\", serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "Step Identifier",
+          "specs": {
+            "size": "1.25rem",
+            "line_height": "1.75rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "headingFont",
+          "role": "Vertical Text (Text LG)",
+          "specs": {
+            "size": "1.125rem",
+            "line_height": "1.75rem",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "headingFont, \"headingFont Fallback\"",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "highlights": "Unique typographic treatments include vertically rotated text for step navigation (`writing-mode: vertical-rl; transform: rotate(180deg)`), vibrant color-coded pill labels (e.g., pink, blue, purple, orange), and a distinct block cursor effect (`.cursor:after`, `.cursor-sm:after`) to simulate terminal typing.",
+    "insights": [
+      "The typography system employs `headingFont` (a custom or specialized typeface) for all headings to establish a strong brand identity, pairing it with `IBM Plex Sans` for highly readable, utilitarian body text.",
+      "`IBM Plex Mono` is strategically used for metadata, company names, and technical elements to reinforce the product's developer-focused and AI-centric positioning.",
+      "Variable font settings are thoughtfully applied to `Imbue` (`\"wght\" 300, \"opsz\" 144`) to create elegant, ultra-light decorative numbers for step-by-step guides."
+    ]
+  }
+}

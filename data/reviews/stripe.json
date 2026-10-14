@@ -1,0 +1,53 @@
+{
+  "id": "stripe",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A white page combines a large multiline financial-services headline with a broad orange and pink gradient shape. Purple buttons provide emphasis.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/viewport.jpg",
+    "sha256": "9afb7f8707264bd8b6fc83d4c7908247562dc78edc1335da8b052164474ca9dd"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/styles.css",
+    "sha256": "365971488aa14c1bb5570f60556ac8b6bb00d953ee9382250096fb54ba4ee27d",
+    "bytes": 495139,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#533AFD",
+      "#061B31",
+      "#50617A",
+      "#FFFFFF"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#533AFD",
+      "#061B31",
+      "#50617A",
+      "#FFFFFF"
+    ],
+    "font_names_found": [
+      "sohne-var",
+      "monospace",
+      "SourceCodePro"
+    ],
+    "font_names_checked": [
+      "sohne-var",
+      "monospace",
+      "SourceCodePro"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "b3839a77bcb15daacb028961de5e1fc7e1cfd523e2acd15c88980fd0e8342778"
+}

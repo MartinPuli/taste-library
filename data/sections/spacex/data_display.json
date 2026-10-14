@@ -1,0 +1,29 @@
+{
+  "id": "spacex",
+  "source_url": "https://www.spacex.com/",
+  "captured_at": "2026-07-23T01:41:07.004114Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/spacex.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/spacex.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Upcoming Launch Card",
+        "description": "Card component displaying upcoming launch information with thumbnail image, mission title, and countdown/date",
+        "when_to_use": [
+          "Navigation dropdown widgets",
+          "Launch schedule displays",
+          "Mission previews"
+        ]
+      }
+    ]
+  }
+}

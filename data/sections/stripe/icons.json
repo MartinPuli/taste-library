@@ -1,0 +1,115 @@
+{
+  "id": "stripe",
+  "source_url": "https://stripe.com/",
+  "captured_at": "2026-09-18T13:26:14.774070Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/stripe.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/stripe.json",
+  "data": [
+    {
+      "name": "Navigation Icons",
+      "description": "Directional and navigation icons used in menus and interactive elements.",
+      "when_to_use": [
+        "Navigation menus",
+        "Buttons",
+        "Links"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Outlined",
+      "sizes": {
+        "small": "8px",
+        "medium": "16px"
+      },
+      "examples": [
+        {
+          "name": "Chevron Down",
+          "svg_code": "<svg class=\"hds-icon navigation__chevron-down-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path class=\"navigation__chevron-down-icon__left\" d=\"M4.67065 6L9.3 10.6\" stroke=\"currentColor\" stroke-width=\"1.75\"></path><path class=\"navigation__chevron-down-icon__right\" d=\"M12.6707 6L8.67065 10\" stroke=\"currentColor\" stroke-width=\"1.75\"></path></svg>"
+        },
+        {
+          "name": "Hover Arrow",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"hds-icon hds-icon-hover-arrow\" width=\"5\" height=\"8\" fill=\"none\" viewBox=\"0 0.5 5 8\"><defs><clipPath id=\":R1pbdir6l6:\"><rect x=\"0\" y=\"0\" width=\"12\" height=\"9\"></rect></clipPath></defs><g clip-path=\"url(#:R1pbdir6l6:)\"><g class=\"arrow-group\"><rect class=\"shaft\" x=\"-10\" y=\"3.375\" width=\"13\" height=\"1.75\" fill=\"currentColor\"></rect><path d=\"M4.84766 3.63379L5.45898 4.25L4.84766 4.86621L1.24219 8.49902L0 7.2666L2.99316 4.24902L0 1.23242L1.24219 0L4.84766 3.63379Z\" fill=\"currentColor\"></path></g></g></svg>"
+        },
+        {
+          "name": "Chevron Left",
+          "svg_code": "<svg class=\"navigation__chevron-left-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"6\" height=\"10\" fill=\"none\" viewBox=\"0 0 6 10\"><path fill=\"currentColor\" d=\"M.618 5.238 0 4.62.618 4l4-4 1.238 1.238-3.38 3.381L5.856 8 4.618 9.238z\"></path></svg>"
+        },
+        {
+          "name": "Arrow Right",
+          "svg_code": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\"><path d=\"M9.613 2.62 5.107 7.124h9.137v1.75H5.107l4.506 4.506-1.238 1.238-6-6L1.756 8l.619-.62 6-6 1.238 1.24Z\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Functional UI Icons",
+      "description": "General functional icons for UI controls and interactions.",
+      "when_to_use": [
+        "UI controls",
+        "Modals",
+        "Dismiss buttons"
+      ],
+      "format": "SVG",
+      "style": "Line Art",
+      "sizes": {
+        "small": "12px",
+        "medium": "20px"
+      },
+      "examples": [
+        {
+          "name": "Plus",
+          "svg_code": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"M13.75 6.75L10.25 6.75L10.25 5L15.5 5L15.5 10.25L13.75 10.25L13.75 6.75Z\"></path><path d=\"M6.75 10.25L5 10.25L5 15.5L10.25 15.5L10.25 13.75L6.75 13.75L6.75 10.25Z\"></path></svg>"
+        },
+        {
+          "name": "Pagination Dots",
+          "svg_code": "<svg width=\"32\" height=\"8\" viewBox=\"0 0 32 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"4\" cy=\"4\" r=\"4\" fill=\"currentColor\"></circle><circle cx=\"16\" cy=\"4\" r=\"4\" fill=\"currentColor\"></circle><circle cx=\"28\" cy=\"4\" r=\"4\" fill=\"currentColor\"></circle></svg>"
+        },
+        {
+          "name": "Close / Cross",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" fill=\"none\" viewBox=\"0 0 12 12\"><path fill=\"currentColor\" d=\"M6.87988 5.125H11.75v1.75H6.87988v4.875h-1.75V6.875H.25v-1.75h4.87988V.25h1.75z\"></path></svg>"
+        },
+        {
+          "name": "Close Circle",
+          "svg_code": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"none\" fill-opacity=\"0.1\"></circle><path d=\"M6.5 6.5L13.5 13.5M13.5 6.5L6.5 13.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Illustrative Icons",
+      "description": "Illustrative icons for representing products, features, or billing plans.",
+      "when_to_use": [
+        "Feature descriptions",
+        "Bento cards",
+        "Marketing graphics"
+      ],
+      "format": "SVG",
+      "style": "Filled / Illustrative",
+      "sizes": {
+        "small": "22px",
+        "medium": "40px"
+      },
+      "examples": [
+        {
+          "name": "Decorative Block",
+          "svg_code": "<svg width=\"11\" height=\"11\" viewBox=\"0 0 11 11\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"11\" height=\"11\" fill=\"white\"></rect><path d=\"M0 0H11V4.8125H0V0Z\" fill=\"#009F41\"></path><path d=\"M0 6.1875H11V11H0V6.1875Z\" fill=\"#008CD5\"></path></svg>"
+        },
+        {
+          "name": "Billing Plan Graphic",
+          "svg_code": "<svg width=\"19\" height=\"22\" viewBox=\"0 0 19 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"billing-plan-graphic__icon\"><circle cx=\"9.49984\" cy=\"9.03817\" r=\"2.10572\" fill=\"currentColor\"></circle><path d=\"m5.24446 14.8277 8.11104 5.2102m2.1787-7.1237c-2.1407 3.3326-6.5777 4.2988-9.91026 2.1581-3.33257-2.1407-4.29876-6.57765-2.15807-9.91022C5.60657 1.82952 10.0435.863324 13.3761 3.00402c3.3326 2.1407 4.2987 6.57765 2.1581 9.91018Z\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"></path></svg>"
+        },
+        {
+          "name": "Badge Illustration",
+          "svg_code": "<svg viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" fill=\"none\" aria-hidden=\"true\"><path fill=\"#FFD100\" d=\"M0 4a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4v32a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4Z\"></path><path fill=\"#FAFBFD\" d=\"M29.552 32H9.75l.24-3.533h19.785L29.552 32Z\"></path><path fill=\"#000\" d=\"m19.443 8-1.875 8.823h6.915L26.364 8h3.937l-4.026 18.94h-3.941l1.393-6.562h-6.92l-1.387 6.561h-3.975L15.467 8h3.976Z\"></path></svg>"
+        },
+        {
+          "name": "Stripe Emblem",
+          "svg_code": "<svg viewBox=\"0 0 43 43\" xmlns=\"http://www.w3.org/2000/svg\" width=\"43\" height=\"43\" fill=\"none\" aria-hidden=\"true\"><path fill=\"#061B31\" fill-rule=\"evenodd\" d=\"m0 43 43-9.119V0L0 9.226V43Z\" clip-rule=\"evenodd\"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Primary White",
+        "type": "Light",
+        "rules": {
+          "description": "The highest contrast color used for primary readable text, brand logos, and prominent button surfaces.",
+          "when_to_use": [
+            "Global body text",
+            "Primary 'Open App' button background",
+            "Spotify logo in the top bar",
+            "Active bottom navigation tab"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Secondary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A softer gray used for secondary actions, standard links, and inactive navigation items to establish visual hierarchy.",
+          "when_to_use": [
+            "Footer navigation links",
+            "Inactive bottom tab navigation icons and text",
+            "Hamburger menu icon",
+            "Copyright text"
+          ]
+        },
+        "hex": "#B3B3B3",
+        "alpha": null,
+        "shades": [],
+        "score": 0.044
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Tertiary Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A darker gray reserved for the least prominent text, fine borders, and subtle structural dividers.",
+          "when_to_use": [
+            "Premium banner subdued legal text",
+            "Footer horizontal rule",
+            "Language selection button border"
+          ]
+        },
+        "hex": "#939393",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#808080",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#7C7C7C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0050999999999999995
+      },
+      {
+        "name": "Core Background",
+        "type": "Dark",
+        "rules": {
+          "description": "A very dark gray that serves as the foundational surface for the entire application, offering a softer alternative to pure black.",
+          "when_to_use": [
+            "Main page background",
+            "Footer container background",
+            "Language selection modal surface",
+            "Divider borders"
+          ]
+        },
+        "hex": "#121212",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#292929",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#282828",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.0038
+      },
+      {
+        "name": "True Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Pure black used for deep contrasting elements, inverted text on light buttons, and semi-transparent modal scrims.",
+          "when_to_use": [
+            "Top navigation bar background",
+            "Text inside primary white buttons",
+            "Semi-transparent modal overlay backdrops",
+            "Bottom tab bar gradient stop"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0026
+      }
+    ],
+    "insights": [
+      "The design commits to a strict, monochromatic dark-theme palette that completely avoids saturated color to let dynamic album art and artist photography stand out as the sole visual focus.",
+      "Visual hierarchy is primarily driven by text lightness: pure white for primary elements, #B3B3B3 for secondary links, and #939393 for tertiary or fine-print details.",
+      "Primary calls to action utilize high-contrast inversion (pure white background with true black text) to boldly pop off the dark canvas."
+    ]
+  }
+}

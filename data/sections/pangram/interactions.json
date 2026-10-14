@@ -1,0 +1,97 @@
+{
+  "id": "pangram",
+  "source_url": "https://www.pangram.com/",
+  "captured_at": "2026-09-23T23:13:42.526672Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/pangram.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/pangram.json",
+  "data": {
+    "global_patterns": [
+      "marquee",
+      "sticky_header",
+      "scroll_reveal",
+      "accordion",
+      "hover_transform",
+      "hover_lift",
+      "tab_switching"
+    ],
+    "animations": [
+      {
+        "name": "marquee",
+        "css": "@keyframes marquee { 0% { transform: translateX(0) } 100% { transform: translateX(-50%) } }",
+        "description": "Continuous horizontal scroll animation for the partner logo strip, running at 30s linear infinite."
+      },
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn { 0% { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: translateY(0) } }",
+        "description": "Fade in with upward slide animation for elements appearing on the page."
+      },
+      {
+        "name": "fill-width",
+        "css": "@keyframes fill-width { 0% { width: 0 } to { width: 100% } }",
+        "description": "Progress bar fill animation expanding from 0 to 100% width."
+      },
+      {
+        "name": "se-float",
+        "css": "@keyframes se-float { 0%, to { transform: translateY(0) } 50% { transform: translateY(-10px) } }",
+        "description": "Floating animation with subtle vertical movement for decorative elements."
+      },
+      {
+        "name": "ping",
+        "css": "@keyframes ping { 75%, to { transform: scale(2); opacity: 0 } }",
+        "description": "Ping/pulse animation for attention indicators, scaling up and fading out."
+      },
+      {
+        "name": "pulse",
+        "css": "@keyframes pulse { 50% { opacity: 0.5 } }",
+        "description": "Subtle opacity pulse animation for loading or attention states."
+      },
+      {
+        "name": "spin",
+        "css": "@keyframes spin { to { transform: rotate(1turn) } }",
+        "description": "360-degree rotation animation for loading spinners."
+      },
+      {
+        "name": "enter",
+        "css": "@keyframes enter { 0% { opacity: var(--tw-enter-opacity, 1); transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0) scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1)) rotate(var(--tw-enter-rotate, 0)) } }",
+        "description": "Tailwind CSS animate-in keyframes for customizable enter animations with opacity, translate, scale, and rotate."
+      },
+      {
+        "name": "exit",
+        "css": "@keyframes exit { to { opacity: var(--tw-exit-opacity, 1); transform: translate3d(var(--tw-exit-translate-x, 0), var(--tw-exit-translate-y, 0), 0) scale3d(var(--tw-exit-scale, 1), var(--tw-exit-scale, 1), var(--tw-exit-scale, 1)) rotate(var(--tw-exit-rotate, 0)) } }",
+        "description": "Tailwind CSS exit keyframes for customizable exit animations."
+      },
+      {
+        "name": "global-transition",
+        "css": "transition: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "description": "Default Tailwind transition applied to interactive elements for smooth state changes."
+      },
+      {
+        "name": "accordion-height-transition",
+        "css": "transition: all 0.3s ease-out",
+        "description": "Smooth height transition for accordion expand/collapse using grid-template-rows animation."
+      },
+      {
+        "name": "hover-scale",
+        "css": "transition: transform 0.3s; transform: scale(1.1)",
+        "description": "Hover scale effect on product feature card images, scaling to 110% on hover."
+      },
+      {
+        "name": "scroll-reveal",
+        "css": "",
+        "description": "JS-driven scroll reveal animation using GSAP or similar. Elements fade in and translate from (0, 60px) or (0, 40px) to their final position as they enter the viewport."
+      }
+    ],
+    "insights": [
+      "The design system uses a sophisticated color-coded button hierarchy: orange (#FF6106) for primary CTAs, green (#15502E) for in-context actions, and ghost/outline variants for secondary actions, maintaining clear visual hierarchy across light and dark sections.",
+      "Accordion and tab components employ a smooth grid-template-rows animation pattern for height changes, providing buttery expand/collapse transitions without fixed heights.",
+      "The marquee logo strip with hover-pause functionality and continuous 30s animation creates ambient movement without being distracting, a common pattern for social proof sections."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "figma",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A sparse white hero places the headline at lower left and a black call to action at right. A cookie panel covers part of the lower-right area.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/viewport.jpg",
+    "sha256": "ca4e8488e06a1b0e86daf5ea85153295bbdcf5aee45ba78845f7cce87341ec9d"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/styles.css",
+    "sha256": "842538349f13d1d2ce9af004c65b0a7680d179efc4295687c882dadff85e6252",
+    "bytes": 137286,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#FFFFFF",
+      "#00B6FF"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#FFFFFF",
+      "#00B6FF",
+      "#24CB71",
+      "#FF7237"
+    ],
+    "font_names_found": [
+      "figmaSans",
+      "figmaMono"
+    ],
+    "font_names_checked": [
+      "figmaSans",
+      "figmaMono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "30c29ac125f7c7bcb97a0a1dab1499321fdf240187bb8e8a58bf2ed9d6740529"
+}

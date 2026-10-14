@@ -1,0 +1,186 @@
+{
+  "id": "ghost",
+  "source_url": "https://ghost.ai/",
+  "captured_at": "2026-10-14T08:53:53.351064Z",
+  "quality": "limited",
+  "warnings": [
+    "TasteLabs returned an empty palette; no colors have been inferred."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/ghost.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/ghost.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "noise_grain"
+    ],
+    "solid_colors": [
+      {
+        "name": "Ghost Void",
+        "description": "Primary dark background color",
+        "when_to_use": [
+          "Page backgrounds",
+          "Header backgrounds",
+          "Dark sections"
+        ],
+        "hex": "#00050A"
+      },
+      {
+        "name": "Ghost Ice",
+        "description": "Light accent color for text and UI elements",
+        "when_to_use": [
+          "Navigation text",
+          "Accent elements",
+          "Title text"
+        ],
+        "hex": "#D6EAFF"
+      },
+      {
+        "name": "Paper Background",
+        "description": "Light background with paper texture",
+        "when_to_use": [
+          "Section backgrounds",
+          "Content areas"
+        ],
+        "hex": "#EAE9E7"
+      },
+      {
+        "name": "Primary Blue",
+        "description": "Primary action color",
+        "when_to_use": [
+          "CTA buttons",
+          "Primary actions",
+          "Badges",
+          "Feature highlights"
+        ],
+        "hex": "#006DDF"
+      },
+      {
+        "name": "Accent Orange",
+        "description": "Attention-grabbing accent color",
+        "when_to_use": [
+          "Promotional banners",
+          "Order Now CTAs",
+          "Emphasis elements"
+        ],
+        "hex": "#FF5517"
+      },
+      {
+        "name": "Sky Blue Accent",
+        "description": "Light blue accent for highlights and borders",
+        "when_to_use": [
+          "Focus outlines",
+          "Interactive highlights",
+          "UI accents"
+        ],
+        "hex": "#BAEAFF"
+      },
+      {
+        "name": "Glass Panel Dark",
+        "description": "Semi-transparent surface with backdrop blur",
+        "when_to_use": [
+          "Navigation overlays",
+          "Modal backgrounds",
+          "Floating panels"
+        ],
+        "hex": "#0F1011"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Navigation Dark Fade",
+        "description": "Complex multi-stop gradient for navigation veil, fading from dark to transparent",
+        "when_to_use": [
+          "Navigation header overlays",
+          "Sticky header backgrounds"
+        ],
+        "css_code": "linear-gradient(to bottom, rgb(0 5 10 / 0.550) 30.0%, rgb(0 5 10 / 0.548) 35.0%, rgb(0 5 10 / 0.537) 40.0%, rgb(0 5 10 / 0.512) 45.0%, rgb(0 5 10 / 0.470) 50.0%, rgb(0 5 10 / 0.415) 55.0%, rgb(0 5 10 / 0.348) 60.0%, rgb(0 5 10 / 0.275) 65.0%, rgb(0 5 10 / 0.202) 70.0%, rgb(0 5 10 / 0.135) 75.0%, rgb(0 5 10 / 0.080) 80.0%, rgb(0 5 10 / 0.038) 85.0%, rgb(0 5 10 / 0.013) 90.0%, rgb(0 5 10 / 0.002) 95.0%, rgb(0 5 10 / 0.000) 100.0%)"
+      },
+      {
+        "name": "Navigation Light Fade",
+        "description": "Light theme variant of navigation fade, transitions from light grey to transparent",
+        "when_to_use": [
+          "Light mode navigation overlays"
+        ],
+        "css_code": "linear-gradient(to bottom, rgb(226 224 223 / 0.740) 30.0%, rgb(226 224 223 / 0.738) 35.0%, rgb(226 224 223 / 0.723) 40.0%, rgb(226 224 223 / 0.689) 45.0%, rgb(226 224 223 / 0.633) 50.0%, rgb(226 224 223 / 0.558) 55.0%, rgb(226 224 223 / 0.468) 60.0%, rgb(226 224 223 / 0.370) 65.0%, rgb(226 224 223 / 0.272) 70.0%, rgb(226 224 223 / 0.182) 75.0%, rgb(226 224 223 / 0.107) 80.0%, rgb(226 224 223 / 0.051) 85.0%, rgb(226 224 223 / 0.017) 90.0%, rgb(226 224 223 / 0.002) 95.0%, rgb(226 224 223 / 0.000) 100.0%)"
+      },
+      {
+        "name": "Paper Texture Overlay",
+        "description": "Subtle tint overlay for paper texture background",
+        "when_to_use": [
+          "Section backgrounds with texture"
+        ],
+        "css_code": "linear-gradient(rgb(234 233 231 / 30%), rgb(234 233 231 / 30%))"
+      },
+      {
+        "name": "Hero Title Gradient",
+        "description": "Complex multi-color gradient for hero title with blue to orange transitions",
+        "when_to_use": [
+          "Hero title text",
+          "Main heading effects"
+        ],
+        "css_code": "linear-gradient(180deg, rgb(220, 236, 232) 6.6482%, rgb(158, 240, 255) 15.983%, rgb(0, 141, 238) 29.537%, rgb(1, 121, 233) 53.324%, rgb(189, 238, 243) 65.078%, rgb(255, 83, 0) 76.831%, rgb(107, 36, 0) 100%)"
+      },
+      {
+        "name": "Vignette Dark Right",
+        "description": "Dark vignette gradient from right side",
+        "when_to_use": [
+          "Image overlays",
+          "Edge fade effects"
+        ],
+        "css_code": "linear-gradient(to left, rgba(0,0,0,0.3) 80%, transparent)"
+      },
+      {
+        "name": "Vignette Dark Top",
+        "description": "Dark vignette gradient from top",
+        "when_to_use": [
+          "Top edge overlays",
+          "Header fade effects"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.2) 80%, transparent)"
+      },
+      {
+        "name": "Bottom Fade Dark",
+        "description": "Dark fade from bottom to transparent",
+        "when_to_use": [
+          "Bottom overlays",
+          "Footer transitions"
+        ],
+        "css_code": "linear-gradient(to top, rgba(0,0,0,0.6), transparent)"
+      },
+      {
+        "name": "Context Card Blue Glow",
+        "description": "Radial gradient for shadow/glow effects under device",
+        "when_to_use": [
+          "Drop shadows",
+          "Glow effects",
+          "Product highlights"
+        ],
+        "css_code": "radial-gradient(ellipse, rgba(0,5,10,0.42), transparent 72%)"
+      },
+      {
+        "name": "Intelligence Blue Accent",
+        "description": "Dramatic gradient from dark to blue to orange for intelligence section",
+        "when_to_use": [
+          "Feature section backgrounds",
+          "Dramatic overlays"
+        ],
+        "css_code": "linear-gradient(180deg, rgba(0,5,10,.5) 52.247%, #00050a 64.836%, #0076f4 77.424%, #6c93a5 85.768%, #df7000 91.894%, #ff4000 100%)"
+      }
+    ],
+    "highlights": [
+      "Backdrop blur effects on navigation with multi-layered blur values (0.5px to 9px) creating depth",
+      "Glass panels: backdrop-filter: blur(20px) with rgba overlays for glassmorphism effects",
+      "Noise/grain texture overlays on hero title text using SVG feTurbulence filter with fractalNoise",
+      "Soft focus effects using multiple blur layers (blur(0.3px) to blur(12px)) for depth and atmosphere",
+      "Paper texture background overlay (1512px tiled pattern) for tactile surface feel",
+      "Scan line animations for retro-futuristic visual effects",
+      "Edge glow effects using mix-blend-plus-lighter for product highlights",
+      "Layered mask gradients for sophisticated fade effects on images and sections",
+      "Shadow effects with radial gradients for product photography depth",
+      "Mix-blend modes (screen, soft-light, overlay, color-dodge) for sophisticated color blending"
+    ]
+  }
+}

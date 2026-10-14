@@ -1,0 +1,188 @@
+{
+  "id": "natural",
+  "source_url": "https://www.natural.com/",
+  "captured_at": "2026-09-16T05:13:16.972528Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/natural.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/natural.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Ink Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary high-contrast ink used for standard text, structural iconography, and standout primary button backgrounds.",
+          "when_to_use": [
+            "Body text color",
+            "Primary CTA button backgrounds",
+            "Nav logo and UI icons",
+            "Bullet point icons in the Control section"
+          ]
+        },
+        "hex": "#161514",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#17171F",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#0E0D0C",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 1.0028000000000001
+      },
+      {
+        "name": "Paper White",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational surface palette, defining the clean page background, crisp component cards, and subtle section delineations via its light gray tints.",
+          "when_to_use": [
+            "Main page background",
+            "Marketing card backgrounds",
+            "Primary CTA text and icons",
+            "Subtle borders and dividers (#F6F6F6, #ECECEB)"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#F6F6F6",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#FAFAFA",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#ECECEB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EBEAE5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EAE8E4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F6F0",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F6F5F4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F2F3F5",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F1F2EC",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.18830000000000005
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Slate Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A softer text color utilized for secondary information, metadata, and structural eyebrows that shouldn't compete with primary headings.",
+          "when_to_use": [
+            "Section eyebrow text (e.g., 'Benefits', 'Flows')",
+            "Card descriptions and muted metadata",
+            "Footer navigation links",
+            "Muted terminal text and secondary code"
+          ]
+        },
+        "hex": "#71706F",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0703
+      },
+      {
+        "name": "Deep Olive Black",
+        "type": "Dark",
+        "rules": {
+          "description": "A distinct, intensely dark hue used selectively to anchor the most prominent typography and specific themed cards.",
+          "when_to_use": [
+            "Primary hero heading ('Natural powers agentic payments.')",
+            "Text and logos on warm-tinted investor cards"
+          ]
+        },
+        "hex": "#111400",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0227
+      },
+      {
+        "name": "Silver Gray",
+        "type": "Neutral",
+        "rules": {
+          "description": "A muted, low-contrast shade reserved for fine print, legal disclosures, and subtle data visualization elements.",
+          "when_to_use": [
+            "Footer legal disclosure text",
+            "Benefit volume chart axis labels",
+            "Benefit chart gradient bars"
+          ]
+        },
+        "hex": "#AFAFAF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#BBB3B4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#D9CBCA",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.012
+      }
+    ],
+    "insights": [
+      "The design employs an ultra-minimalist, monochromatic strategy that evokes a technical, precise, and 'agentic' brand identity without relying on bright accent colors.",
+      "Visual interest and warmth are introduced not through vibrant hues, but through a very subtle array of tinted off-whites (beiges and warm grays) specifically deployed in the investor card grid.",
+      "Typography hierarchy is uniquely managed by using two different near-blacks: a standard ink (#161514) for body copy and UI, and a distinct deep olive (#111400) specifically for the hero headline."
+    ]
+  }
+}

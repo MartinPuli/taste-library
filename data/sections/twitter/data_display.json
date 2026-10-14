@@ -1,0 +1,28 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "QR Code Card",
+        "description": "Fixed position card displaying QR code for app download with subtle shadow effect",
+        "when_to_use": [
+          "App promotion on landing pages",
+          "Cross-platform download CTAs"
+        ]
+      }
+    ]
+  }
+}

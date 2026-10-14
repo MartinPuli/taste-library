@@ -1,0 +1,126 @@
+{
+  "id": "airbnb",
+  "source_url": "https://www.airbnb.com/",
+  "captured_at": "2026-10-08T15:15:43.471119Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/airbnb.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/airbnb.json",
+  "data": [
+    {
+      "type": "Header",
+      "layout_pattern": "Horizontal navigation with centered logo, split left-right utilities",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "Airbnb logo in pink/coral (#FF385C) on white background"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal tab navigation with globe icon and text links: 'All', 'Homes', 'Experiences', 'Services' with animated underline indicator"
+        },
+        {
+          "type": "button",
+          "description": "'Become a host' text button in black with hover state"
+        },
+        {
+          "type": "button",
+          "description": "Globe/language selector icon button, circular, gray background"
+        },
+        {
+          "type": "button",
+          "description": "User menu hamburger icon button, circular, gray background"
+        }
+      ]
+    },
+    {
+      "type": "Search Bar",
+      "layout_pattern": "Centered pill-shaped container with horizontal three-section form",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "form",
+          "description": "White rounded pill container with subtle shadow containing three input sections (Where/When/Who) separated by vertical gray dividers, with pink circular search button on far right"
+        },
+        {
+          "type": "button",
+          "description": "Red/pink circular search icon button (#FF385C) with magnifying glass icon"
+        }
+      ]
+    },
+    {
+      "type": "Destinations Carousel",
+      "layout_pattern": "Horizontal scrolling card grid with navigation arrows",
+      "headline": "Destinations for you",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Horizontally scrolling cards with rounded-corner city imagery (LA palm trees, SD coastline, Vegas skyline, Tokyo architecture, NYC Brooklyn Bridge, Paris Eiffel Tower, Seattle Space Needle), bold city names, warm sunset photography tones"
+        },
+        {
+          "type": "button",
+          "description": "Right arrow navigation button for carousel"
+        }
+      ]
+    },
+    {
+      "type": "Services Section",
+      "layout_pattern": "Horizontal row of labeled boxes",
+      "headline": "Find services near you",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Light gray placeholder boxes in horizontal row with labels: 'Car hire', 'Photography', 'Cleaning', 'Home improvement', 'Spa treatments', 'Catering'"
+        }
+      ]
+    },
+    {
+      "type": "Listings / Featured Properties",
+      "layout_pattern": "Grid 3-column with title header and navigation arrows",
+      "headline": "Stay in Riga",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Property cards with rounded-corner images, 'Guest favourite' badges with heart icons, white card backgrounds, location names (South Lake Tahoe), date ranges, prices in GBP (£590, £1247, £837), star ratings (4.83, 4.97, 5.0), natural property photography"
+        },
+        {
+          "type": "button",
+          "description": "Heart icon wishlist button, circular white background, positioned top-right on card"
+        },
+        {
+          "type": "button",
+          "description": "Left/right carousel navigation buttons, circular gray background, positioned at title level"
+        }
+      ]
+    },
+    {
+      "type": "Cookie Consent Modal",
+      "layout_pattern": "Centered overlay modal",
+      "headline": "Help us improve your experience",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Black filled button labeled 'Accept all'"
+        },
+        {
+          "type": "button",
+          "description": "Black filled button labeled 'Only necessary'"
+        },
+        {
+          "type": "button",
+          "description": "Text link button labeled 'Manage preferences', underlined"
+        }
+      ]
+    }
+  ]
+}

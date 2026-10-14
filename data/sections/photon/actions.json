@@ -1,0 +1,316 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Contact (Ghost Dark)",
+        "usage": "Secondary navigation action in the header, used for contact/inquiry purposes on dark backgrounds",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Dashboard (Primary Blue)",
+        "usage": "Primary CTA button in header for accessing user dashboard, prominent blue fill on dark nav",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#2998D9",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(41, 152, 217, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#2998D9",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(41, 152, 217, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#2998D9",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(41, 152, 217, 0.62)",
+            "border_width": "1.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get Started (Primary White)",
+        "usage": "Hero CTA button with white fill on dark background, primary action for user acquisition",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn more (Ghost Light)",
+        "usage": "Secondary action button on dark cards/sections, transparent background with white border",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Run (Primary White Compact)",
+        "usage": "Action button for code execution in interactive code blocks, white fill with black text",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "Inter",
+              "size": "14px",
+              "padding": "8px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "rgba(255, 255, 255, 0.62)",
+            "border_width": "1.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Copy Agent Instruction (Pill Dark)",
+        "usage": "Interactive utility button for copying code/instructions, dark pill style with icon",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "PolySans Arabic VF Variable Slim",
+              "size": "15px",
+              "padding": "12px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "#FFFFFF",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Icon-only buttons for actions like copy, expand, or close. Used in code blocks and interactive panels.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "",
+              "size": "16px",
+              "padding": "4px"
+            },
+            {
+              "name": "Default",
+              "font": "",
+              "size": "20px",
+              "padding": "12px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "rgba(255, 255, 255, 0)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.1)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0)",
+            "border_width": "1.5px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "rgba(255, 255, 255, 0)",
+            "text_color": "#FFFFFF",
+            "border_color": "rgba(255, 255, 255, 0)",
+            "border_width": "1.5px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are arranged horizontally with consistent spacing in navigation and CTAs",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "none"
+    }
+  }
+}

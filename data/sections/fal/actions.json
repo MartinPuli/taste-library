@@ -1,0 +1,324 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Get started (Primary Dark)",
+        "usage": "Primary call-to-action button for user sign-up and onboarding, used in hero sections and prominent CTAs.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "publicSansRounded, sans-serif",
+              "size": "16px",
+              "padding": "12px 24px"
+            },
+            {
+              "name": "Medium",
+              "font": "publicSansRounded, sans-serif",
+              "size": "16px",
+              "padding": "11px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#202022",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#494950",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#D4D4D8",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.6",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact Sales (Secondary Outlined)",
+        "usage": "Secondary CTA button for enterprise sales inquiries, used alongside primary buttons in hero and footer sections.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "publicSansRounded, sans-serif",
+              "size": "16px",
+              "padding": "12px 24px"
+            },
+            {
+              "name": "Medium",
+              "font": "publicSansRounded, sans-serif",
+              "size": "16px",
+              "padding": "11px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#202022",
+            "border_color": "rgba(18, 18, 22, 0.15)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(18, 18, 22, 0.05)",
+            "text_color": "#202022",
+            "border_color": "rgba(18, 18, 22, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#D4D4D8",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.6",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Login (Nav Button)",
+        "usage": "Navigation login button in header, dark style for authentication action.",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "focal, ui-sans-serif, system-ui, sans-serif",
+              "size": "15px",
+              "padding": "0 26px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#161618",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#202022",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#D4D4D8",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact Sales (Nav Light)",
+        "usage": "Navigation CTA button for enterprise contact, light variant with white background.",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "focal, ui-sans-serif, system-ui, sans-serif",
+              "size": "15px",
+              "padding": "0 26px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#19191A",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.9)",
+            "text_color": "#19191A",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#D4D4D8",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Explore models (Card CTA)",
+        "usage": "Action button within product cards for exploring models, consistent dark primary style.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "publicSansRounded, sans-serif",
+              "size": "16px",
+              "padding": "11px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#202022",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#494950",
+            "text_color": "#FAFAFA",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#D4D4D8",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.6",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Learn more (Enterprise Outlined)",
+        "usage": "CTA button in enterprise section with outlined style on dark background.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Medium",
+              "font": "publicSansRounded, sans-serif",
+              "size": "16px",
+              "padding": "11px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#202022",
+            "border_color": "rgba(18, 18, 22, 0.15)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(18, 18, 22, 0.05)",
+            "text_color": "#202022",
+            "border_color": "rgba(18, 18, 22, 0.2)",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#D4D4D8",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.6",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular Close)",
+        "usage": "Close button for dismissing announcement banners, circular icon-only button.",
+        "specs": {
+          "radius": "rounded",
+          "sizes": [
+            {
+              "name": "Small",
+              "font": "",
+              "size": "",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#99EDFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.1)",
+            "text_color": "#99EDFF",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#A6A6AE",
+            "border_color": "transparent",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are arranged inline horizontally with consistent spacing between primary and secondary actions.",
+      "spacing": "16px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

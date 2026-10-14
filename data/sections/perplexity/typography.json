@@ -1,0 +1,146 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Display Heading (H1)",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text used for descriptions, prompts, and longer passages.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Body Text",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Small, utilitarian styles used for components, badges, and navigation labels.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Badge",
+          "specs": {
+            "size": "11px",
+            "line_height": "",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Sans",
+          "role": "Button / Nav Label Medium",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Sans",
+          "role": "Sidebar Item",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        },
+        {
+          "name": "System Sans",
+          "role": "UI Micro / Helper",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Other typography usages for general UI spans and spans without explicit size variants.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "General UI Text",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": null,
+          "technical": {
+            "font_family_css": "\"Roboto\", \"Helvetica Neue\", \"Arial\", \"Noto Sans\", sans-serif",
+            "file_url": null
+          }
+        }
+      ]
+    },
+    "highlights": "No special text highlighting styles (e.g., brush strokes, marker underlines) are present in the provided HTML.",
+    "insights": [
+      "Typography relies on a multi-platform standard sans-serif stack (Roboto, Helvetica Neue, Arial, Noto Sans) to ensure maximum OS compatibility without loading custom web fonts.",
+      "Visual hierarchy is primarily driven by text color (using primary, secondary, tertiary text variables) and utility classes rather than a wide range of font weights.",
+      "Micro-typography is heavily utilized for interface elements like badges (down to 11px) and keyboard shortcuts, catering to a power-user or technical audience."
+    ]
+  }
+}

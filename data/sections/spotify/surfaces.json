@@ -1,0 +1,278 @@
+{
+  "id": "spotify",
+  "source_url": "https://www.spotify.com/",
+  "captured_at": "2026-10-08T15:15:36.464067Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/spotify.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/spotify.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "shadows_soft"
+    ],
+    "solid_colors": [
+      {
+        "name": "Background Base",
+        "description": "Primary dark background for the entire application",
+        "when_to_use": [
+          "Main app background",
+          "Default surfaces"
+        ],
+        "hex": "#121212"
+      },
+      {
+        "name": "Background Highlight",
+        "description": "Elevated background for interactive states",
+        "when_to_use": [
+          "Hover states",
+          "Elevated sections"
+        ],
+        "hex": "#1F1F1F"
+      },
+      {
+        "name": "Background Press",
+        "description": "Background for pressed/active states",
+        "when_to_use": [
+          "Button press states",
+          "Active interactions"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Background Elevated Base",
+        "description": "Base color for elevated surfaces",
+        "when_to_use": [
+          "Cards",
+          "Modals",
+          "Popovers"
+        ],
+        "hex": "#1F1F1F"
+      },
+      {
+        "name": "Background Elevated Highlight",
+        "description": "Hover state for elevated surfaces",
+        "when_to_use": [
+          "Card hover states"
+        ],
+        "hex": "#2A2A2A"
+      },
+      {
+        "name": "Background Elevated Press",
+        "description": "Press state for elevated surfaces",
+        "when_to_use": [
+          "Active card states"
+        ],
+        "hex": "#191919"
+      },
+      {
+        "name": "Background Tinted Base",
+        "description": "Semi-transparent white tint (10% opacity)",
+        "when_to_use": [
+          "Subtle overlays",
+          "Glass effects base"
+        ],
+        "hex": "#FFFFFF1A"
+      },
+      {
+        "name": "Background Tinted Highlight",
+        "description": "Semi-transparent white tint (14% opacity) for hover",
+        "when_to_use": [
+          "Hover states on tinted backgrounds"
+        ],
+        "hex": "#FFFFFF24"
+      },
+      {
+        "name": "Background Tinted Press",
+        "description": "Semi-transparent white tint (21% opacity) for press",
+        "when_to_use": [
+          "Press states on tinted backgrounds"
+        ],
+        "hex": "#FFFFFF36"
+      },
+      {
+        "name": "Decorative Subdued",
+        "description": "Subdued decorative surface color",
+        "when_to_use": [
+          "Borders",
+          "Dividers",
+          "Subtle backgrounds"
+        ],
+        "hex": "#292929"
+      },
+      {
+        "name": "Background Over Media",
+        "description": "Semi-transparent black overlay (54% opacity)",
+        "when_to_use": [
+          "Scrim over images",
+          "Media overlays"
+        ],
+        "hex": "#0000008A"
+      },
+      {
+        "name": "Message Bar Background",
+        "description": "Blue background for announcement banners",
+        "when_to_use": [
+          "Message bars",
+          "Promotional banners"
+        ],
+        "hex": "#0D72EA"
+      },
+      {
+        "name": "Header Background Transparent",
+        "description": "Fully transparent header background",
+        "when_to_use": [
+          "Initial header state"
+        ],
+        "hex": "#00000000"
+      },
+      {
+        "name": "Header Background Sticky",
+        "description": "Semi-transparent black for sticky header (60% opacity)",
+        "when_to_use": [
+          "Sticky header when scrolled"
+        ],
+        "hex": "#0000009A"
+      },
+      {
+        "name": "Footer Background",
+        "description": "Footer background color",
+        "when_to_use": [
+          "Footer sections"
+        ],
+        "hex": "#121212"
+      },
+      {
+        "name": "Social Button Background",
+        "description": "Background for social media buttons",
+        "when_to_use": [
+          "Social link buttons"
+        ],
+        "hex": "#292929"
+      },
+      {
+        "name": "Social Button Hover",
+        "description": "Hover state for social media buttons",
+        "when_to_use": [
+          "Social button hover states"
+        ],
+        "hex": "#727272"
+      },
+      {
+        "name": "Premium Link Background",
+        "description": "Background for premium link cards",
+        "when_to_use": [
+          "Premium dropdown items"
+        ],
+        "hex": "#282828"
+      },
+      {
+        "name": "Menu Panel Background",
+        "description": "Background for menu panels",
+        "when_to_use": [
+          "Side menus",
+          "Navigation panels"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Now Playing Bar Background",
+        "description": "Background for now playing bar",
+        "when_to_use": [
+          "Media player bar"
+        ],
+        "hex": "#535353"
+      },
+      {
+        "name": "Backdrop Overlay",
+        "description": "Semi-transparent black backdrop (50% opacity)",
+        "when_to_use": [
+          "Modal backdrops",
+          "Overlay screens"
+        ],
+        "hex": "#00000080"
+      },
+      {
+        "name": "Message Bar Secondary",
+        "description": "Secondary blue background",
+        "when_to_use": [
+          "Secondary message bars"
+        ],
+        "hex": "#2E77D0"
+      },
+      {
+        "name": "Image Placeholder",
+        "description": "Placeholder background for images",
+        "when_to_use": [
+          "Loading states",
+          "Image placeholders"
+        ],
+        "hex": "#282828"
+      },
+      {
+        "name": "Activation Tooltip Background",
+        "description": "Blue background for activation tooltips",
+        "when_to_use": [
+          "Activation prompts",
+          "Feature highlights"
+        ],
+        "hex": "#0D72EA"
+      },
+      {
+        "name": "Generic Tooltip Background",
+        "description": "Dark background for tooltips",
+        "when_to_use": [
+          "Standard tooltips"
+        ],
+        "hex": "#282828"
+      },
+      {
+        "name": "Progress Bar Track",
+        "description": "Semi-transparent white for progress track (30% opacity)",
+        "when_to_use": [
+          "Progress bar backgrounds"
+        ],
+        "hex": "#FFFFFF4D"
+      },
+      {
+        "name": "Button Focus Hover",
+        "description": "Semi-transparent white for button focus (30% opacity)",
+        "when_to_use": [
+          "Button focus states"
+        ],
+        "hex": "#FFFFFF4D"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Modal Background Gradient",
+        "description": "Top to bottom gradient from semi-transparent black to solid dark background",
+        "when_to_use": [
+          "Modal backgrounds",
+          "Overlay screens"
+        ],
+        "css_code": "linear-gradient(-180deg, #0003 0%, #121212 100%)"
+      },
+      {
+        "name": "Alternative Modal Gradient",
+        "description": "Top to bottom gradient with semi-transparent dark to solid dark",
+        "when_to_use": [
+          "Alternative modal backgrounds"
+        ],
+        "css_code": "linear-gradient(#12121299, #121212)"
+      }
+    ],
+    "highlights": [
+      "Soft drop shadows on elevated surfaces: 0 4px 12px 0 rgba(0,0,0,0.3)",
+      "Overlay drop shadow for popovers: 0 4px 6px rgba(0,0,0,0.3)",
+      "Large shadow on message bars: 0 16px 24px rgba(0,0,0,0.3) with 0 6px 8px rgba(0,0,0,0.2)",
+      "Now playing bar features a pseudo-element with z-index -1 and rgba(0,0,0,0.48) background for depth",
+      "Glass effect noted in class patterns (.page-module__glassEffect) though specific backdrop-filter values not in CSS",
+      "Progress bar animations with transform scaleX transitions",
+      "Semi-transparent overlays used extensively throughout for layering and depth"
+    ]
+  }
+}

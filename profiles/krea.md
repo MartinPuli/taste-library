@@ -2,31 +2,49 @@
 
 Prioritize visual examples within a dark creative-tool interface.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 22 · Captured 2026-10-06T07:31:35.822728Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 22 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-06T07:31:35.822728Z |
-| Suggested uses | creative-tools, media-discovery |
-| Visual approach | dark-technical, image-led, modular |
+[Original website](https://www.krea.ai/) · [Full extraction](../data/raw/krea.json) · [Review record](../data/reviews/krea.json)
 
-## Details to compare
+[Small visual preview](../data/previews/krea.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/full.jpg)
 
-- Detected type families: Suisse Intl, Suisse Intl Mono.
-- Recorded palette: #FFFFFF, #737373, #000000, #A3A3A3, #262626.
-- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "112rem"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A dark application shell places a narrow navigation rail beside a large media feature and a grid of tool cards.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.krea.ai/) · [Extraction](../data/raw/krea.json) · [Tokens](../data/tokens/krea.json)
+Project types: creative-tools, media-discovery. Styles: dark-technical, image-led, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show krea --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Prioritize visual examples within a dark creative-tool interface. Evidence: [layout](../data/sections/krea/layout.json), [sections](../data/sections/krea/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/krea/actions.json).
+
+## Content to bring
+
+Representative work samples and a real demonstration of the creation workflow. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/krea/profile.json)
+- [Layout](../data/sections/krea/layout.json)
+- [Colors](../data/sections/krea/colors.json)
+- [Typography](../data/sections/krea/typography.json)
+- [Surfaces](../data/sections/krea/surfaces.json)
+- [Elevation](../data/sections/krea/elevation.json)
+- [Interactions](../data/sections/krea/interactions.json)
+- [Actions](../data/sections/krea/actions.json)
+- [Navigation](../data/sections/krea/navigation.json)
+- [Data Display](../data/sections/krea/data_display.json)
+- [Structure](../data/sections/krea/structure.json)
+- [Icons](../data/sections/krea/icons.json)
+- [Assets](../data/sections/krea/assets.json)
+- [Brand Assets](../data/sections/krea/brand_assets.json) · no observed data
+- [Sections](../data/sections/krea/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

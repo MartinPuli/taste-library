@@ -1,0 +1,54 @@
+{
+  "id": "linear",
+  "source_url": "https://linear.app/",
+  "captured_at": "2026-10-10T10:50:53.682721Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/linear.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/linear.json",
+  "data": {
+    "accordion": {
+      "interaction": "Single open by default with collapsible sections. Used for sidebar navigation groups like Workspace and Favorites."
+    },
+    "dividers": [
+      {
+        "name": "Section Divider",
+        "description": "A subtle horizontal divider used to separate major content sections, styled with gradient shadow effect.",
+        "when_to_use": [
+          "Between major page sections",
+          "Separating feature showcases",
+          "Before footer content"
+        ],
+        "color": "#FFFFFF0D",
+        "height": "1px",
+        "style": "solid"
+      },
+      {
+        "name": "Navigation Divider",
+        "description": "A thin vertical divider used to separate navigation item groups in the header.",
+        "when_to_use": [
+          "Between navigation link groups and action buttons",
+          "Separating primary nav from utility actions"
+        ],
+        "color": "#23252A",
+        "height": "16px",
+        "style": "solid"
+      },
+      {
+        "name": "Card Border",
+        "description": "Translucent border style used on cards and panels for subtle depth separation.",
+        "when_to_use": [
+          "Card component borders",
+          "Panel separations",
+          "Modal/dialog borders"
+        ],
+        "color": "rgba(255, 255, 255, 0.08)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

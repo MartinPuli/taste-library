@@ -1,0 +1,88 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/photon.json",
+  "data": [
+    {
+      "name": "UI Line Icons",
+      "description": "Minimalist, line-art UI icons for general interface actions like copying, expanding menus, closing, and navigation.",
+      "when_to_use": [
+        "Buttons",
+        "Navigation",
+        "Interactive UI elements"
+      ],
+      "format": "SVG",
+      "style": "Line Art / Monoline",
+      "sizes": {
+        "small": "16px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "arrow-right",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"framer-EcgqK framer-104fmm9\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1335ju:2;--18mrqx2:rgb(255, 255, 255);--3it368:1;opacity:0\"><g><path d=\"M 0 0 L 5.5 5.25 L 0 10.5\" fill=\"transparent\" height=\"10.5px\" id=\"pTO_zwTXv\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(13.75 6.75)\" width=\"5.5px\"></path><path d=\"M 14.25 0 L 0 0\" fill=\"transparent\" height=\"1px\" id=\"Jh7NTfV71\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(4.75 12)\" width=\"14.25px\"></path></g></svg>"
+        },
+        {
+          "name": "copy",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"framer-VdeRv framer-104fmm9\" role=\"presentation\" viewBox=\"0 0 24 24\" style=\"--1335ju:2;--18mrqx2:rgb(255, 255, 255);--3it368:1;opacity:0\"><g><path d=\"M 8.5 8.5 L 8.5 0 L 0 0\" fill=\"transparent\" height=\"8.5px\" id=\"HD3EjFRmq\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(8.75 6.75)\" width=\"8.5px\"></path><path d=\"M 10.25 0 L 0 10.25\" fill=\"transparent\" height=\"10.25px\" id=\"I0i29aTCw\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(6.75 7)\" width=\"10.25px\"></path></g></svg>"
+        },
+        {
+          "name": "settings",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" style=\"width: 16px; height: 16px; stroke: rgb(0, 0, 0); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; fill: none; opacity: 0.6; display: block; flex-shrink: 0;\"><path d=\"M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z\"></path></svg>"
+        },
+        {
+          "name": "menu",
+          "svg_code": "<svg id=\"3559153988\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 12 L 0 0 L 16.5 0 L 16.5 12 Z\" fill-opacity=\"0\" fill=\"rgb(0, 0, 0)\" height=\"12px\" id=\"gwB_ZdJt6\" transform=\"translate(3.75 6)\" width=\"16.5px\"></path><path d=\"M 0 0 L 16.5 0\" fill=\"transparent\" height=\"1px\" id=\"xGkn4qbwc\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(3.75 12)\" width=\"16.5px\"></path><path d=\"M 0 0 L 16.5 0\" fill=\"transparent\" height=\"1px\" id=\"uQ9bOFKFt\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(3.75 6)\" width=\"16.5px\"></path><path d=\"M 0 0 L 16.5 0\" fill=\"transparent\" height=\"1px\" id=\"hrURkUe9P\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(3.75 18)\" width=\"16.5px\"></path></svg>"
+        },
+        {
+          "name": "close",
+          "svg_code": "<svg id=\"3527454627\" display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 10.5 0 L 0 10.5\" fill=\"transparent\" height=\"10.5px\" id=\"dJkACGH8G\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(6.75 6.75)\" width=\"10.5px\"></path><path d=\"M 0 0 L 10.5 10.5\" fill=\"transparent\" height=\"10.5px\" id=\"pgy_UnrTc\" stroke-dasharray=\"\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" stroke=\"rgb(0, 0, 0)\" transform=\"translate(6.75 6.75)\" width=\"10.5px\"></path></svg>"
+        }
+      ]
+    },
+    {
+      "name": "Filled Brand & Social Icons",
+      "description": "Solid filled icons typically used for partner integrations, social links, or brand representations.",
+      "when_to_use": [
+        "Footer social links",
+        "Integration badges",
+        "Partner references"
+      ],
+      "format": "SVG",
+      "style": "Filled",
+      "sizes": {
+        "small": "20px",
+        "medium": "24px"
+      },
+      "examples": [
+        {
+          "name": "github",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" focusable=\"false\" viewBox=\"0 0 24 24\" color=\"rgb(255, 255, 255)\" style=\"user-select: none; width: 100%; height: 100%; display: inline-block; fill: rgb(255, 255, 255); flex-shrink: 0;\"><path d=\"M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3\"></path></svg>"
+        },
+        {
+          "name": "discord",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;height:100%;\" viewBox=\"0 0 20 20\" preserveAspectRatio=\"none\" width=\"100%\" height=\"100%\"><g> <path d=\"M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42187 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043V17.043Z\" fill=\"white\"></path> </g></svg>"
+        },
+        {
+          "name": "x-twitter",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"17\" viewBox=\"0 0 19 17\" fill=\"none\" id=\"svg298326690_345\"> <path d=\"M14.4386 0H17.2498L11.1081 7.01958L18.3333 16.5716H12.676L8.24503 10.7784L3.17496 16.5716H0.362027L6.93119 9.06341L0 0H5.80092L9.80616 5.29528L14.4386 0ZM13.4519 14.889H15.0097L4.95449 1.59428H3.28288L13.4519 14.889Z\" fill=\"white\"></path> </svg>"
+        },
+        {
+          "name": "discord-dark",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 15.482\" overflow=\"visible\" id=\"svg521478196_1276\"><path d=\"M 16.942 1.297 C 15.63 0.683 14.243 0.247 12.816 0 C 12.638 0.321 12.43 0.754 12.287 1.097 C 10.749 0.866 9.224 0.866 7.714 1.097 C 7.571 0.754 7.359 0.321 7.179 0 C 5.751 0.247 4.362 0.684 3.05 1.3 C 0.439 5.246 -0.269 9.094 0.085 12.887 C 1.817 14.181 3.495 14.966 5.145 15.48 C 5.556 14.916 5.918 14.319 6.229 13.695 C 5.637 13.47 5.066 13.192 4.523 12.865 C 4.665 12.759 4.805 12.648 4.941 12.534 C 8.232 14.073 11.807 14.073 15.059 12.534 C 15.196 12.648 15.335 12.758 15.477 12.865 C 14.933 13.193 14.361 13.471 13.767 13.697 C 14.08 14.324 14.442 14.921 14.851 15.482 C 16.503 14.968 18.183 14.182 19.915 12.887 C 20.33 8.49 19.206 4.677 16.942 1.297 Z M 6.678 10.554 C 5.69 10.554 4.88 9.632 4.88 8.509 C 4.88 7.386 5.672 6.462 6.678 6.462 C 7.683 6.462 8.493 7.384 8.476 8.509 C 8.477 9.632 7.683 10.554 6.678 10.554 Z M 13.322 10.554 C 12.334 10.554 11.524 9.632 11.524 8.509 C 11.524 7.386 12.317 6.462 13.322 6.462 C 14.327 6.462 15.138 7.384 15.12 8.509 C 15.12 9.632 14.327 10.554 13.322 10.554 Z\" fill=\"rgb(0, 0, 0) \"></path></svg>"
+        },
+        {
+          "name": "slack-dark",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32.133 32\" overflow=\"visible\" id=\"svg1207327649_964\"><path d=\"M 27.217 18.215 L 31.075 18.215 C 31.773 18.215 32.266 18.872 32.102 19.487 L 29.146 31.221 C 29.064 31.672 28.654 32 28.161 32 L 24.262 32 C 23.646 32 23.154 31.344 23.277 30.728 L 26.232 18.995 C 26.355 18.544 26.725 18.215 27.217 18.215 Z M 19.419 0 L 23.277 0 C 23.975 0 24.467 0.656 24.262 1.272 L 21.389 13.005 C 21.225 13.456 20.814 13.785 20.322 13.785 L 16.504 13.785 C 15.807 13.785 15.314 13.128 15.519 12.513 L 18.434 0.779 C 18.516 0.328 18.967 0 19.419 0 Z M 3.985 8.451 L 7.843 8.451 C 8.5 8.451 8.993 9.108 8.828 9.764 L 5.914 21.456 C 5.791 21.908 5.38 22.236 4.929 22.236 L 1.03 22.236 C 0.373 22.236 -0.161 21.62 0.045 20.964 L 2.959 9.272 C 3.082 8.779 3.492 8.451 3.985 8.451 Z\" fill=\"rgb(0, 0, 0) \"></path></svg>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "id": "twitter",
+  "source_url": "https://x.com/",
+  "captured_at": "2026-10-14T08:54:30.833239Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "The extraction covers X’s public sign-in page, not the feed or Twitter’s former identity."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/twitter.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/twitter.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Continue with phone (Primary Dark)",
+        "usage": "Primary call-to-action for phone-based signup/login flow",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "16px",
+              "padding": "12px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#1A1A1A",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Continue with Google (Outlined)",
+        "usage": "Third-party OAuth login button for Google authentication",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "14px",
+              "padding": "0px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#3C4043",
+            "border_color": "#DADCE0",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F7F7F7",
+            "text_color": "#3C4043",
+            "border_color": "#DADCE0",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#3C4043",
+            "border_color": "#DADCE0",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Continue with Apple (Outlined)",
+        "usage": "Third-party OAuth login button for Apple authentication",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "16px",
+              "padding": "12px 24px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#00000026",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#F7F7F7",
+            "text_color": "#000000",
+            "border_color": "#00000026",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "#00000026",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Continue (Disabled State)",
+        "usage": "Submit button for email/username form, disabled until input is provided",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "17px",
+              "padding": "0px 16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#B2B2B2",
+            "text_color": "#79716B",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#B2B2B2",
+            "text_color": "#79716B",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "1",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Accept all cookies (Inverted)",
+        "usage": "Cookie consent banner primary action button",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "15px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E5E5E5",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Refuse non-essential cookies (Inverted)",
+        "usage": "Cookie consent banner secondary action button",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "15px",
+              "padding": "0px 20px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#E5E5E5",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Scan to get the app (Card/Popup)",
+        "usage": "Fixed position QR code card for app download promotion",
+        "specs": {
+          "radius": "rounded-2xl",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "TwitterChirp",
+              "size": "15px",
+              "padding": "16px"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#0F141A",
+            "border_color": "#00000026",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#0F141A",
+            "border_color": "#00000026",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#0F141A",
+            "border_color": "#00000026",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Vertical stacking layout for authentication buttons",
+      "spacing": "20px"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

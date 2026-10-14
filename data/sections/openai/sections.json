@@ -1,0 +1,48 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/openai.json",
+  "data": [
+    {
+      "type": "Hero",
+      "layout_pattern": "Centered",
+      "headline": "What can I help with?",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "form",
+          "description": "Large centered search/chat input box with rounded corners, light background, placeholder text 'Quiz me on vocabulary', and orange gradient submit button"
+        },
+        {
+          "type": "button",
+          "description": "Multiple pill-shaped link buttons in horizontal arrangement below input: 'Talk with ChatGPT', 'Research', 'API Platform', 'Stories', 'More' - all with light borders and subtle shadows"
+        }
+      ]
+    },
+    {
+      "type": "Content Area",
+      "layout_pattern": "Split 75/25 asymmetric grid",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Large featured article card (3-column span) with 16:9 image showing 'Intelligent-UI Art-Card', headline 'GPT-6 and Intelligent UI for everyone', category 'Product', date 'Oct 7, 2026', read time '12 min read'"
+        },
+        {
+          "type": "card",
+          "description": "Smaller article cards (1-column each) in right sidebar with 1:1 square images: 'Sharing AI progress in mathematics', 'Introducing Dots', 'Chip Ganassi Racing × OpenAI' - each with image, title, category, date, and read time"
+        }
+      ]
+    }
+  ]
+}

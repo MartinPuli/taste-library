@@ -1,0 +1,93 @@
+{
+  "id": "nothing",
+  "source_url": "https://nothing.tech/",
+  "captured_at": "2026-09-19T06:36:19.660967Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/nothing.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/nothing.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Base Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The primary ink for typography across the site, establishing a sharp, high-contrast aesthetic.",
+          "when_to_use": [
+            "Global body typography",
+            "Promotional banner link underlines",
+            "Cookie consent primary CTA background"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Pure White",
+        "type": "Light",
+        "rules": {
+          "description": "The foundational surface and background color, providing a stark, minimalist canvas that lets product imagery stand out.",
+          "when_to_use": [
+            "Main page and section backgrounds (#F4F4F4)",
+            "Frosted glass product cards and navigation (#ffffffcc)",
+            "Reversed typography and icons in the dark footer",
+            "Faint ghost buttons in the footer (#ffffff0d)"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#F4F4F4",
+            "alpha": null,
+            "aliases": []
+          },
+          {
+            "name": "",
+            "hex": "#EEEEEE",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 0.8639000000000001
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Pure Black",
+        "type": "Dark",
+        "rules": {
+          "description": "The brand's deliberate 'Pure Black', applied to heavy surface areas and primary interface components to create deep contrast.",
+          "when_to_use": [
+            "Footer section background",
+            "Product 'Discover' call-to-action buttons",
+            "Location modal typography and icons"
+          ]
+        },
+        "hex": "#040404",
+        "alpha": null,
+        "shades": [],
+        "score": 0.0333
+      }
+    ],
+    "insights": [
+      "The brand relies on an ultra-minimalist, monochromatic design system, stripping away color entirely to let product hardware imagery take center stage.",
+      "Translucency is a foundational structural tool, utilizing semi-transparent white fills to create frosted glass product cards that overlay seamlessly onto background photography.",
+      "The palette subtly distinguishes between a strict #000000 for global document text and a deliberate #040404 ('pure-black') for heavy UI surfaces like the footer and primary buttons."
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "pinterest",
+  "source_url": "https://www.pinterest.com/",
+  "captured_at": "2026-10-14T05:06:49.351030Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/pinterest.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/pinterest.json",
+  "data": {
+    "global_patterns": [
+      "carousel",
+      "sticky_header",
+      "hover_lift"
+    ],
+    "animations": [
+      {
+        "name": "tapTransition",
+        "css": "",
+        "description": "Interactive tap/click transition applied to buttons and interactive elements; timing is JS-driven"
+      },
+      {
+        "name": "spinner",
+        "css": "",
+        "description": "Loading spinner animation with CSS variable --g-enter-delay for staggered appearance in loading states"
+      },
+      {
+        "name": "nav-slide",
+        "css": "transition: left 200ms",
+        "description": "Horizontal slide transition for the fixed navigation bar positioning"
+      },
+      {
+        "name": "modal-width-transition",
+        "css": "transition: width 0.25s ease-out",
+        "description": "Smooth width transition for the signup modal container during form state changes"
+      }
+    ],
+    "insights": [
+      "Pinterest uses a consistent 16px border-radius (rounded-2xl) pill-shaped button design across all CTAs, creating a friendly and approachable visual language.",
+      "The design system employs CSS custom properties extensively (--sema-*, --comp-*) for tokens like rounding, spacing, and colors, enabling consistent theming.",
+      "The page relies on subtle motion through JS-driven tap transitions rather than elaborate CSS animations, keeping interactions responsive and lightweight."
+    ]
+  }
+}

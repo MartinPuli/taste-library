@@ -1,0 +1,176 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Default light background color for main page container",
+        "when_to_use": [
+          "Page backgrounds",
+          "Main content areas"
+        ],
+        "hex": "#F5F5F7"
+      },
+      {
+        "name": "Dark Section Background",
+        "description": "Dark background used for hero sections and primary content areas",
+        "when_to_use": [
+          "Hero sections",
+          "Feature showcases",
+          "Content blocks"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Card Background White",
+        "description": "White background for cards and elevated surfaces",
+        "when_to_use": [
+          "Feature cards",
+          "Content containers",
+          "Elevated panels"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur effect",
+        "when_to_use": [
+          "Command menus",
+          "Floating panels",
+          "Modal overlays",
+          "Interactive cards"
+        ],
+        "hex": "#202020"
+      },
+      {
+        "name": "Dark Card Background",
+        "description": "Darker background for nested cards and components",
+        "when_to_use": [
+          "Nested cards",
+          "Code blocks",
+          "Secondary surfaces"
+        ],
+        "hex": "#101010"
+      },
+      {
+        "name": "Feature Card Tint",
+        "description": "Semi-transparent overlay for feature cards with opacity 40",
+        "when_to_use": [
+          "Feature highlights",
+          "Interactive card overlays"
+        ],
+        "hex": "#CBCCCC"
+      },
+      {
+        "name": "Button Background Black",
+        "description": "Black background for primary buttons",
+        "when_to_use": [
+          "Primary CTAs",
+          "Action buttons"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Button Background Blue",
+        "description": "Blue background for secondary action buttons",
+        "when_to_use": [
+          "Dashboard links",
+          "Secondary CTAs"
+        ],
+        "hex": "#2998D9"
+      },
+      {
+        "name": "Button Background White",
+        "description": "White background for ghost/outlined buttons",
+        "when_to_use": [
+          "Outlined buttons",
+          "Ghost buttons",
+          "Form actions"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Status Pill Background",
+        "description": "Dark background for status indicators and badges",
+        "when_to_use": [
+          "Status badges",
+          "Live indicators",
+          "Notification pills"
+        ],
+        "hex": "#202020"
+      },
+      {
+        "name": "Feature Card Background Light",
+        "description": "White background for grid feature cards with transparency",
+        "when_to_use": [
+          "Grid feature cards",
+          "Bento boxes",
+          "Service cards"
+        ],
+        "hex": "#FFFFFF"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Gradient Dark to Teal",
+        "description": "Vertical gradient from dark gray to dark teal with 90% opacity overlay",
+        "when_to_use": [
+          "Hero sections",
+          "Feature showcase backgrounds",
+          "Glass panel overlays"
+        ],
+        "css_code": "linear-gradient(#202020e6 0%,#0a1e26e6 100%)"
+      },
+      {
+        "name": "Feature Card Green Gradient",
+        "description": "Vertical gradient from dark green to light green",
+        "when_to_use": [
+          "Feature cards",
+          "Success states",
+          "Highlight sections"
+        ],
+        "css_code": "linear-gradient(#338039 0%,#9bd19f 100%)"
+      },
+      {
+        "name": "Feature Card Pink Gradient",
+        "description": "Vertical gradient from light pink to magenta",
+        "when_to_use": [
+          "Feature cards",
+          "Accent sections",
+          "Premium features"
+        ],
+        "css_code": "linear-gradient(#ffb5e9 0%,#ce1697 100%)"
+      },
+      {
+        "name": "Code Editor Backdrop",
+        "description": "Horizontal gradient from transparent to semi-transparent black overlay",
+        "when_to_use": [
+          "Code editor overlays",
+          "Text readability overlays",
+          "Fade effects"
+        ],
+        "css_code": "linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%)"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(10px) over #202020e6 with rgba(255,255,255,0.1) border for glassmorphism effect",
+      "Feature cards have inset box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 5px 2px inset for inner glow",
+      "Status pill uses rgba(255,255,255,0.1) background with 20px border-radius",
+      "Animated gradient spectrum loop images used as decorative elements",
+      "Feature cards with rgba(255,255,255,0.05) background and 1.5px rgba(255,255,255,0.62) borders"
+    ]
+  }
+}

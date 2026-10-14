@@ -1,0 +1,247 @@
+{
+  "id": "sandbar",
+  "source_url": "https://sandbar.com/",
+  "captured_at": "2026-10-14T08:53:39.274748Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/sandbar.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/sandbar.json",
+  "data": {
+    "texture_classification": [
+      "gradient_linear",
+      "glass_blur"
+    ],
+    "solid_colors": [
+      {
+        "name": "Primary Background",
+        "description": "Main background surface used throughout the site",
+        "when_to_use": [
+          "Page backgrounds",
+          "Default surface color"
+        ],
+        "hex": "#FAF8F0"
+      },
+      {
+        "name": "Card Background Cashew",
+        "description": "Secondary surface color for cards and containers",
+        "when_to_use": [
+          "Card backgrounds",
+          "Selected states",
+          "Secondary containers"
+        ],
+        "hex": "#F2F0E6"
+      },
+      {
+        "name": "Border Color",
+        "description": "Border color for cards, dividers, and containers",
+        "when_to_use": [
+          "Card borders",
+          "Divider lines",
+          "Input field borders"
+        ],
+        "hex": "#E0DFDC"
+      },
+      {
+        "name": "White Surface",
+        "description": "Pure white surface",
+        "when_to_use": [
+          "Input fields",
+          "Active states",
+          "High contrast backgrounds"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Dark Surface Rock",
+        "description": "Primary dark surface color",
+        "when_to_use": [
+          "Button backgrounds",
+          "Dark sections",
+          "Footer backgrounds"
+        ],
+        "hex": "#0C0B0B"
+      },
+      {
+        "name": "Cotton Surface",
+        "description": "Very light surface color",
+        "when_to_use": [
+          "Video containers",
+          "Subtle backgrounds",
+          "Plan containers"
+        ],
+        "hex": "#FCFBF5"
+      },
+      {
+        "name": "Linen Accent",
+        "description": "Accent color for borders and dividers",
+        "when_to_use": [
+          "Accent borders",
+          "Active states",
+          "Radio buttons"
+        ],
+        "hex": "#DDDBCA"
+      },
+      {
+        "name": "Dark Fill",
+        "description": "Subtle fill for sections",
+        "when_to_use": [
+          "Section backgrounds",
+          "Refund info panels",
+          "Size selector success states"
+        ],
+        "hex": "#F3F2E6"
+      },
+      {
+        "name": "Sand Surface",
+        "description": "Light warm surface color",
+        "when_to_use": [
+          "Subtle highlights",
+          "Hover states"
+        ],
+        "hex": "#FCFAE9"
+      },
+      {
+        "name": "Glass Panel",
+        "description": "Glassmorphism surface with backdrop blur",
+        "when_to_use": [
+          "Video play buttons",
+          "Overlay controls",
+          "Sticky navigation overlays"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Top Bar Surface",
+        "description": "Top notification bar background",
+        "when_to_use": [
+          "Top bars",
+          "Announcement bars"
+        ],
+        "hex": "#F2F0E6"
+      },
+      {
+        "name": "Cookie Consent Dark",
+        "description": "Dark surface for cookie consent and preferences",
+        "when_to_use": [
+          "Cookie banners",
+          "Modal backgrounds",
+          "Preference panels"
+        ],
+        "hex": "#0C0B0B"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Hero Overlay Left",
+        "description": "Left-to-right gradient from primary background to transparent",
+        "when_to_use": [
+          "Hero section left edge fade",
+          "Horizontal scrolling overlays"
+        ],
+        "css_code": "linear-gradient(90deg, #faf8f0, #fff0)"
+      },
+      {
+        "name": "Hero Overlay Right",
+        "description": "Right-to-left gradient from transparent to primary background",
+        "when_to_use": [
+          "Hero section right edge fade",
+          "Horizontal scrolling overlays"
+        ],
+        "css_code": "linear-gradient(90deg, #fff0, #faf8f0)"
+      },
+      {
+        "name": "Hero Overlay Bottom",
+        "description": "Bottom-to-top gradient from primary background to transparent",
+        "when_to_use": [
+          "Hero section bottom fade",
+          "Vertical content overlays"
+        ],
+        "css_code": "linear-gradient(0deg, #faf8f0, #fff0)"
+      },
+      {
+        "name": "Video Interface Fade",
+        "description": "Bottom fade overlay for video player interface",
+        "when_to_use": [
+          "Video player controls",
+          "Media interface overlays"
+        ],
+        "css_code": "linear-gradient(#0000, #000)"
+      },
+      {
+        "name": "Ring Features Background",
+        "description": "Layered gradient with white overlay and diagonal grey gradient",
+        "when_to_use": [
+          "Ring features section",
+          "Product feature backgrounds"
+        ],
+        "css_code": "linear-gradient(#ffffff4a, #ffffff4a), linear-gradient(239deg, #dadada, #c0beb6)"
+      },
+      {
+        "name": "Grey Background",
+        "description": "Layered gradient with white tint and diagonal grey gradient",
+        "when_to_use": [
+          "Alternative grey sections",
+          "Feature backgrounds"
+        ],
+        "css_code": "linear-gradient(#fff3, #fff3), linear-gradient(297deg, #dadada, #c0beb6)"
+      },
+      {
+        "name": "Dark Background",
+        "description": "Complex dark gradient with noise texture overlay and multi-stop gradient from grey to black",
+        "when_to_use": [
+          "Dark feature sections",
+          "Grid feature backgrounds"
+        ],
+        "css_code": "linear-gradient(#0000001a, #0000001a), url(https://cdn.prod.website-files.com/688ce18b1758f3ea44331657/69ac30cffa5d5b5a1d6746ed_noise-pattern.avif), linear-gradient(185deg, #343434, #1b1b1b 64%, #0e0e0e)"
+      },
+      {
+        "name": "Swiper Shadow Left",
+        "description": "Left shadow gradient for 3D swiper slides",
+        "when_to_use": [
+          "Carousel shadow effects",
+          "3D slide transitions"
+        ],
+        "css_code": "linear-gradient(to left, rgba(0,0,0,.5), rgba(0,0,0,0))"
+      },
+      {
+        "name": "Swiper Shadow Right",
+        "description": "Right shadow gradient for 3D swiper slides",
+        "when_to_use": [
+          "Carousel shadow effects",
+          "3D slide transitions"
+        ],
+        "css_code": "linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,0))"
+      },
+      {
+        "name": "Swiper Shadow Top",
+        "description": "Top shadow gradient for 3D swiper slides",
+        "when_to_use": [
+          "Carousel shadow effects",
+          "3D slide transitions"
+        ],
+        "css_code": "linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0))"
+      },
+      {
+        "name": "Swiper Shadow Bottom",
+        "description": "Bottom shadow gradient for 3D swiper slides",
+        "when_to_use": [
+          "Carousel shadow effects",
+          "3D slide transitions"
+        ],
+        "css_code": "linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0))"
+      }
+    ],
+    "highlights": [
+      "Glass panels: backdrop-filter: blur(6px) over rgba(255,255,255,0.4) backgrounds used for video play buttons and overlays",
+      "Sticky navigation overlay: backdrop-filter: blur(10px) over #faf8f0 background with opacity transitions",
+      "Product play button: backdrop-filter: blur(6px) with rgba(255,255,255,0.4) background and circular mask image",
+      "Noise texture pattern: 54px noise-pattern.avif overlay on dark backgrounds for subtle grain effect",
+      "Glass panel borders: 1px rgba(255,255,255,0.06) borders with backdrop blur effects",
+      "Soft drop shadows on HP phone: multi-layered drop-shadow filters for realistic depth",
+      "Sticky backdrop blur overlay: backdrop-filter: blur(8px) over rgba(255,255,255,0.5) for sticky UI elements"
+    ]
+  }
+}

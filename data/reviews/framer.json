@@ -1,0 +1,69 @@
+{
+  "id": "framer",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A black hero uses white copy and a light action above a large glowing blue product visual.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/viewport.jpg",
+    "sha256": "4b7cd43087ba10d1893b7a0ea23d8cc65d67edce581ebbc8cd1a5c99e75ea21b"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/styles.css",
+    "sha256": "d4486f10efcf8ab34062b905479bebfbf486710fd8d250492bac83c641ec042f",
+    "bytes": 510688,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#000000",
+      "#FFFFFF",
+      "#242424",
+      "#303030",
+      "#F3F3F3",
+      "#0099FF",
+      "#FD7702",
+      "#4CD963"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#FFFFFF",
+      "#242424",
+      "#303030",
+      "#666666",
+      "#999999",
+      "#F3F3F3",
+      "#0099FF",
+      "#6600FF",
+      "#FF0066",
+      "#FD7702",
+      "#FFBB00",
+      "#4CD963",
+      "#22DDDD"
+    ],
+    "font_names_found": [
+      "GT Walsheim Medium",
+      "Inter Variable",
+      "Inter",
+      "Input Mono Regular",
+      "sans-serif"
+    ],
+    "font_names_checked": [
+      "GT Walsheim Medium",
+      "Inter Variable",
+      "Inter",
+      "Input Mono Regular",
+      "sans-serif"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "879840f38446e5232aab5da7eb79921ca527147b44b08b321dde2d231a71f178"
+}

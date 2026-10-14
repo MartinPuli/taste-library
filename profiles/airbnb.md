@@ -2,31 +2,49 @@
 
 Study property cards, search navigation, and photos that help people compare options.
 
-Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
+Cosign rank 27 · Captured 2026-10-08T15:15:43.471119Z · Homepage
 
-| Field | Value |
-|---|---|
-| Cosign rank | 27 |
-| Captured page | Homepage |
-| Capture time (UTC) | 2026-10-08T15:15:43.471119Z |
-| Suggested uses | hospitality, media-discovery |
-| Visual approach | image-led, modular |
+[Original website](https://www.airbnb.com/) · [Full extraction](../data/raw/airbnb.json) · [Review record](../data/reviews/airbnb.json)
 
-## Details to compare
+[Small visual preview](../data/previews/airbnb.webp) · [Original saved capture](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/full.jpg)
 
-- Detected type families: Airbnb Cereal VF.
-- Recorded palette: #222222, #6C6C6C, #FFFFFF, #C1C1C1, #000000.
-- Grid: `{"columns": 12, "gutter": "24px", "max_width": "1440px"}`.
-- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+## What the saved capture shows
 
-Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
+A rounded search bar sits above horizontal rows of property cards. Many photos remain gray placeholders in the saved viewport.
 
-## Source and access
+## Where to use it
 
-[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.airbnb.com/) · [Extraction](../data/raw/airbnb.json) · [Tokens](../data/tokens/airbnb.json)
+Project types: hospitality, media-discovery. Styles: image-led, modular. These are editorial tags.
 
-```sh
-python3 scripts/query.py show airbnb --section layout
-```
+## Patterns to adapt
 
-Screenshot links, when available, appear in `result.artifacts` in the extraction file.
+- Study property cards, search navigation, and photos that help people compare options. Evidence: [layout](../data/sections/airbnb/layout.json), [sections](../data/sections/airbnb/sections.json).
+- Adapt the documented controls to your own primary action and labels; retain only states your interface needs. Evidence: [actions](../data/sections/airbnb/actions.json).
+
+## Content to bring
+
+Consistent property photography and useful details such as location and booking context. This is an editorial prerequisite for adapting the reference, not an extracted brand rule.
+
+## Read only what you need
+
+- [Profile](../data/sections/airbnb/profile.json)
+- [Layout](../data/sections/airbnb/layout.json)
+- [Colors](../data/sections/airbnb/colors.json)
+- [Typography](../data/sections/airbnb/typography.json)
+- [Surfaces](../data/sections/airbnb/surfaces.json)
+- [Elevation](../data/sections/airbnb/elevation.json)
+- [Interactions](../data/sections/airbnb/interactions.json)
+- [Actions](../data/sections/airbnb/actions.json)
+- [Navigation](../data/sections/airbnb/navigation.json)
+- [Data Display](../data/sections/airbnb/data_display.json)
+- [Structure](../data/sections/airbnb/structure.json)
+- [Icons](../data/sections/airbnb/icons.json)
+- [Assets](../data/sections/airbnb/assets.json)
+- [Brand Assets](../data/sections/airbnb/brand_assets.json)
+- [Sections](../data/sections/airbnb/sections.json)
+
+## Evidence scope
+
+Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.
+
+Extraction status: `extracted_unverified`. Review notes do not certify an entire design system. Missing values remain missing.

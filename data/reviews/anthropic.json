@@ -1,0 +1,54 @@
+{
+  "id": "anthropic",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A warm neutral page pairs a bold sans-serif research headline with a serif introduction. A large illustrated feature begins below.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/viewport.jpg",
+    "sha256": "81d6d7e5066640a3b0fc4c7624ec144ea287415daa99858a5d81b9fac8b18b0a"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/styles.css",
+    "sha256": "fe087e53093c9184ea26dcb773247242838be02653cd90b7f0ae7199e5822656",
+    "bytes": 322631,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#141413",
+      "#FAF9F5",
+      "#B0AEA5",
+      "#000000",
+      "#3D3D3A"
+    ],
+    "palette_literals_checked": [
+      "#141413",
+      "#FAF9F5",
+      "#B0AEA5",
+      "#000000",
+      "#3D3D3A"
+    ],
+    "font_names_found": [
+      "Anthropic Sans",
+      "Anthropic Serif",
+      "Anthropic Mono"
+    ],
+    "font_names_checked": [
+      "Anthropic Sans",
+      "Anthropic Serif",
+      "System Sans",
+      "Anthropic Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "1a36eee04cfa63b0d3309a80441e97b9c3403138728ac1959def0d0b021b7f44"
+}

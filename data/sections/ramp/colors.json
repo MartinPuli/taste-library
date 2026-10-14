@@ -1,0 +1,96 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "Clean White",
+        "type": "Light",
+        "rules": {
+          "description": "Forms the primary structural foundation of the design, maximizing readability and allowing vibrant accents to pop.",
+          "when_to_use": [
+            "Main page background",
+            "Card and container surfaces",
+            "Negative space in typography"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Electric Blue",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Serves as the primary brand color, driving user action and drawing attention to key interactive elements.",
+          "when_to_use": [
+            "Primary CTA buttons",
+            "Active text links",
+            "Key iconography and highlights"
+          ]
+        },
+        "hex": "#0066FF",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Neon Lime",
+        "type": "Light",
+        "rules": {
+          "description": "Acts as a high-contrast secondary accent to inject energy and highlight special features against dark or blue elements.",
+          "when_to_use": [
+            "Promotional badges and tags",
+            "Secondary button backgrounds",
+            "Highlight text markers"
+          ]
+        },
+        "hex": "#E4F222",
+        "alpha": null,
+        "shades": [],
+        "score": 1
+      },
+      {
+        "name": "Charcoal Black",
+        "type": "Dark",
+        "rules": {
+          "description": "Anchors the typography and dark structural elements, ensuring high legibility and sharp contrast.",
+          "when_to_use": [
+            "Primary body text and headings",
+            "Footer background",
+            "Dark inverted section backgrounds"
+          ]
+        },
+        "hex": "#1A1919",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "",
+            "hex": "#0C0A08",
+            "alpha": null,
+            "aliases": []
+          }
+        ],
+        "score": 2
+      }
+    ],
+    "insights": [
+      "The palette relies on a stark, high-contrast foundation of pure white and near-black to ensure crisp legibility and structure.",
+      "A vibrant, almost brutalist pairing of Electric Blue and Neon Lime creates a highly energetic, modern tech aesthetic that immediately commands attention.",
+      "Vibrant colors are used deliberately for interaction and highlighting, preventing visual fatigue while maintaining a bold brand identity."
+    ]
+  }
+}

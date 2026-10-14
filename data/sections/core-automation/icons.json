@@ -1,0 +1,74 @@
+{
+  "id": "core-automation",
+  "source_url": "https://www.coreauto.com/",
+  "captured_at": "2026-10-14T08:55:43.902911Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "icons",
+  "has_data": true,
+  "source_file": "data/raw/core-automation.json",
+  "source_pointer": "/result/design_system/icons",
+  "review_file": "data/reviews/core-automation.json",
+  "data": [
+    {
+      "name": "Puzzle Graphics",
+      "description": "Interactive puzzle layout backgrounds and component definitions.",
+      "when_to_use": [
+        "Hero section",
+        "Interactive layouts"
+      ],
+      "format": "SVG",
+      "style": "Filled shapes",
+      "sizes": {
+        "small": "430x980",
+        "medium": "1512x971"
+      },
+      "examples": [
+        {
+          "name": "puzzle-defs",
+          "svg_code": "<svg viewBox=\"0 0 0 0\" xmlns=\"http://www.w3.org/2000/svg\" class=\"puzzle-defs\" aria-hidden=\"true\" width=\"0\" height=\"0\" focusable=\"false\"> <defs> <path id=\"shape-desktop-research\" d=\"M0 180H46V0H611V90H657V136H611V385H565V339H466V414H287V368H241V414H46V226H0Z\"></path> <path id=\"shape-desktop-method\" d=\"M0 0H243V46H289V0H517V162H563V208H517V533H282V579H236V533H99V459H53V413H99V339H0V136H46V90H0Z\"></path> <path id=\"shape-desktop-principles\" d=\"M0 359H46V46H241V0H287V46H466V165H611V359H565V405H611V504H46V405H0Z\"></path> <path id=\"shape-desktop-team\" d=\"M0 194H46V0H282V46H328V0H563V97H609V143H563V339H46V240H0Z\"></path> <path id=\"shape-mobile-research\" d=\"M0 30H100V0H130V30H231V305H201V275H134V324H31V294H0Z\"></path> <path id=\"shape-mobile-method\" d=\"M0 0H169V30H199V404H169V374H66V325H36V295H66V245H0Z\"></path> <path id=\"shape-mobile-principles\" d=\"M0 0H31V30H134V110H231V258H201V288H231V355H200V385H170V355H0Z\"></path> <path id=\"shape-mobile-team\" d=\"M0 148H30V0H199V30H229V215H199V245H30V178H0Z\"></path> <clipPath id=\"clip-desktop-research\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-desktop-research\" d=\"M0 180H46V0H611V90H657V136H611V385H565V339H466V414H287V368H241V414H46V226H0Z\"></path></g> </clipPath> <clipPath id=\"clip-desktop-method\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-desktop-method\" d=\"M0 0H243V46H289V0H517V162H563V208H517V533H282V579H236V533H99V459H53V413H99V339H0V136H46V90H0Z\"></path></g> </clipPath> <clipPath id=\"clip-desktop-principles\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-desktop-principles\" d=\"M0 359H46V46H241V0H287V46H466V165H611V359H565V405H611V504H46V405H0Z\"></path></g> </clipPath> <clipPath id=\"clip-desktop-team\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-desktop-team\" d=\"M0 194H46V0H282V46H328V0H563V97H609V143H563V339H46V240H0Z\"></path></g> </clipPath> <clipPath id=\"clip-mobile-research\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-mobile-research\" d=\"M0 30H100V0H130V30H231V305H201V275H134V324H31V294H0Z\"></path></g> </clipPath> <clipPath id=\"clip-mobile-method\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-mobile-method\" d=\"M0 0H169V30H199V404H169V374H66V325H36V295H66V245H0Z\"></path></g> </clipPath> <clipPath id=\"clip-mobile-principles\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-mobile-principles\" d=\"M0 0H31V30H134V110H231V258H201V288H231V355H200V385H170V355H0Z\"></path></g> </clipPath> <clipPath id=\"clip-mobile-team\" clipPathUnits=\"userSpaceOnUse\"> <g><path id=\"shape-mobile-team\" d=\"M0 148H30V0H199V30H229V215H199V245H30V178H0Z\"></path></g> </clipPath> <pattern id=\"pattern-research-dots\" width=\"36\" height=\"36\" patternUnits=\"userSpaceOnUse\"> <circle cx=\"8\" cy=\"8\" r=\"5\" fill=\"#ffd36f\"></circle> <circle cx=\"24\" cy=\"20\" r=\"6\" fill=\"#ffd36f\"></circle> <circle cx=\"14\" cy=\"29\" r=\"4\" fill=\"#ffd36f\"></circle> </pattern> <pattern id=\"pattern-method-dots\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\"> <circle cx=\"6\" cy=\"6\" r=\"2.8\" fill=\"#FF2D09\"></circle> <circle cx=\"16\" cy=\"10\" r=\"2.8\" fill=\"#FF2D09\"></circle> <circle cx=\"7\" cy=\"18\" r=\"2.8\" fill=\"#FF2D09\"></circle> </pattern> <pattern id=\"pattern-principles-tiles\" width=\"28\" height=\"28\" patternUnits=\"userSpaceOnUse\"> <rect width=\"28\" height=\"28\" fill=\"#040404\"></rect> <path d=\"M0 14C5 4 9 4 14 14C19 24 23 24 28 14M0 0C5 10 9 10 14 0C19 -10 23 -10 28 0M0 28C5 18 9 18 14 28C19 38 23 38 28 28\" fill=\"none\" stroke=\"#699EFF\" stroke-width=\"1.7\"></path> </pattern> <pattern id=\"pattern-team-rings\" width=\"54\" height=\"54\" patternUnits=\"userSpaceOnUse\"> <circle cx=\"27\" cy=\"27\" r=\"18\" fill=\"none\" stroke=\"#699EFF\" stroke-width=\"3\"></circle> <circle cx=\"27\" cy=\"27\" r=\"6\" fill=\"#699EFF\"></circle> <path d=\"M12 16H42M16 36H38\" stroke=\"#699EFF\" stroke-width=\"2\" stroke-linecap=\"round\"></path> </pattern> <symbol id=\"art-desktop-research\" viewBox=\"0 0 657 414\"> </symbol> <symbol id=\"art-desktop-method\" viewBox=\"0 0 563 595\"> </symbol> <symbol id=\"art-desktop-principles\" viewBox=\"0 0 611 504\"> </symbol> <symbol id=\"art-desktop-team\" viewBox=\"0 0 609 339\"> </symbol> <symbol id=\"art-mobile-research\" viewBox=\"0 0 231 324\"> </symbol> <symbol id=\"art-mobile-method\" viewBox=\"0 0 199 404\"> </symbol> <symbol id=\"art-mobile-principles\" viewBox=\"0 0 231 385\"> </symbol> <symbol id=\"art-mobile-team\" viewBox=\"0 0 229 245\"> </symbol> </defs> </svg>"
+        },
+        {
+          "name": "puzzle-board-desktop",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"puzzle-board puzzle-board--desktop\" viewBox=\"0 0 1512 971\" aria-labelledby=\"puzzle-grid-title\"> <rect x=\"0\" y=\"0\" width=\"1512\" height=\"971\" fill=\"#ececec\"></rect> <rect x=\"1298\" y=\"95\" width=\"214\" height=\"340\" fill=\"#a8a8a8\"></rect> <path d=\"M1298 435H1382V389H1428V435H1512V834H1466V880H1512V967H1298Z\" fill=\"#cecece\"></path> <rect x=\"0\" y=\"628\" width=\"216\" height=\"339\" fill=\"#a8a8a8\"></rect> <path d=\"M46 95H216V628H131V674H85V628H0V141H46Z\" fill=\"#cecece\"></path> <rect x=\"636\" y=\"434\" width=\"244\" height=\"194\" fill=\"#ececec\"></rect> </svg>"
+        },
+        {
+          "name": "puzzle-board-mobile",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"puzzle-board puzzle-board--mobile\" viewBox=\"0 0 430 980\" aria-labelledby=\"puzzle-grid-title\"> <rect x=\"0\" y=\"0\" width=\"430\" height=\"980\" fill=\"#ececec\"></rect> <path d=\"M0 0H231V64H261V94H231V240H0Z\" fill=\"#cecece\"></path> <path d=\"M231 0H317V30H345V0H430V240H231V82H201V52H231Z\" fill=\"#a8a8a8\"></path> <path d=\"M154 376H297V424H344V454H310V534H154Z\" fill=\"#ececec\"></path> <path d=\"M0 640H170V610H231V800H261V830H231V880H0Z\" fill=\"#a8a8a8\"></path> <path d=\"M231 640H400V610H430V880H231V830H261V800H231Z\" fill=\"#cecece\"></path> </svg>"
+        }
+      ]
+    },
+    {
+      "name": "Panel Borders",
+      "description": "Decorative line-art borders for page sections and information panels.",
+      "when_to_use": [
+        "Section separators",
+        "Information panels"
+      ],
+      "format": "SVG",
+      "style": "Line art",
+      "sizes": {
+        "small": "1080x567",
+        "medium": "1080x683"
+      },
+      "examples": [
+        {
+          "name": "panel-border-1",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"panel-border\" aria-hidden=\"true\" viewBox=\"0 0 1080 573\" style=\"height: 573px;\"> <path class=\"panel-border-path\" d=\"M0 37H39V0H807V37H847V0H1080V536M0 37V536\"></path> </svg>"
+        },
+        {
+          "name": "panel-border-2",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"panel-border\" aria-hidden=\"true\" viewBox=\"0 0 1080 567\" style=\"height: 567px;\"> <path class=\"panel-border-path\" d=\"M0 0H807V37H847V0H1080M0 0V530H807V567H847V530H1080V0\"></path> </svg>"
+        },
+        {
+          "name": "panel-border-3",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"panel-border\" aria-hidden=\"true\" viewBox=\"0 0 1080 651\" style=\"height: 651px;\"> <path class=\"panel-border-path\" d=\"M0 0H807V37H847V0H1080V614M0 0V614\"></path> </svg>"
+        },
+        {
+          "name": "panel-border-4",
+          "svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"panel-border\" aria-hidden=\"true\" viewBox=\"0 0 1080 683\" style=\"height: 683px;\"> <path class=\"panel-border-path\" d=\"M0 0H807V37H847V0H1080M0 0V646H1080V0\"></path> </svg>"
+        }
+      ]
+    }
+  ]
+}

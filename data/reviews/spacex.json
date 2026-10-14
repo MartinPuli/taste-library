@@ -1,0 +1,51 @@
+{
+  "id": "spacex",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A full-bleed rocket photograph carries uppercase white text near the lower left, with navigation overlaid at the top.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/full.jpg",
+    "sha256": "cd98cf9efdda7f40b3ee0582608a900d19f0961f5807852089530d58d82f5458"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/styles.css",
+    "sha256": "c26742413aea9312d96450d34d03af5a0145c26f61b87a2fb88a991740bd4570",
+    "bytes": 35069,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#FFFFFF",
+      "#01579B"
+    ],
+    "palette_literals_checked": [
+      "#000000",
+      "#F0F0FA",
+      "#252628",
+      "#FFFFFF",
+      "#01579B",
+      "#CCCCCC"
+    ],
+    "font_names_found": [
+      "D-DIN-Bold",
+      "D-DIN",
+      "Roboto Mono"
+    ],
+    "font_names_checked": [
+      "D-DIN-Bold",
+      "D-DIN",
+      "Roboto Mono"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "bf2f1c5b0548bd95b06c0e44e41e24bef3758e964a553d2aea89d7f30a8f7b72"
+}

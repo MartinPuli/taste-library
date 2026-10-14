@@ -1,0 +1,338 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "colors",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/colors",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "baseline": [
+      {
+        "name": "White / Surface",
+        "type": "Neutral",
+        "rules": {
+          "description": "Primary surface and background color for light theme components.",
+          "when_to_use": [
+            "--surface-50",
+            "--surface-300",
+            "--composer-prompt-surface",
+            "--overlay-primary",
+            ".bg-surface-300"
+          ]
+        },
+        "hex": "#FFFFFF",
+        "alpha": null,
+        "shades": [],
+        "score": 0
+      },
+      {
+        "name": "Neutral 1000 / Content Strong",
+        "type": "Neutral",
+        "rules": {
+          "description": "Foundational dark scale for typography, borders, and UI states.",
+          "when_to_use": [
+            "--neutral-1000",
+            ".bg-[#161618]",
+            ".text-content-strong"
+          ]
+        },
+        "hex": "#161618",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Neutral 950",
+            "hex": "#19191A",
+            "alpha": null,
+            "aliases": [
+              "--neutral-950",
+              "--content-strong",
+              ".text-content-strong"
+            ]
+          },
+          {
+            "name": "Neutral Dark",
+            "hex": "#1D1D20",
+            "alpha": null,
+            "aliases": [
+              ".text-[#1D1D20]"
+            ]
+          },
+          {
+            "name": "Neutral 900",
+            "hex": "#202022",
+            "alpha": null,
+            "aliases": [
+              "--neutral-900",
+              "--content-base",
+              ".bg-[#202022]"
+            ]
+          },
+          {
+            "name": "Neutral 700",
+            "hex": "#494950",
+            "alpha": null,
+            "aliases": [
+              "--neutral-700",
+              "--content-control-muted",
+              "--content-light"
+            ]
+          },
+          {
+            "name": "Neutral 500",
+            "hex": "#787881",
+            "alpha": null,
+            "aliases": [
+              "--neutral-500",
+              "--content-inverse-lighter",
+              "--content-lighter",
+              "--content-subtle"
+            ]
+          },
+          {
+            "name": "Neutral 150",
+            "hex": "#EBEBEB",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#EBEBEB]"
+            ]
+          },
+          {
+            "name": "Neutral 100",
+            "hex": "#F4F4F5",
+            "alpha": null,
+            "aliases": [
+              "--neutral-100",
+              "--surface-100",
+              ".bg-[#F4F4F5]"
+            ]
+          },
+          {
+            "name": "Neutral 50",
+            "hex": "#FAFAFA",
+            "alpha": null,
+            "aliases": [
+              "--neutral-50",
+              "--surface-200",
+              "--content-inverse-strong",
+              "--content-inverse-base"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Prose Gray 900",
+        "type": "Neutral",
+        "rules": {
+          "description": "Secondary text scale utilized primarily in prose and markdown content.",
+          "when_to_use": [
+            "--tw-prose-headings",
+            ".text-gray-900",
+            ".bg-gray-900"
+          ]
+        },
+        "hex": "#111827",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Gray 600",
+            "hex": "#4B5563",
+            "alpha": null,
+            "aliases": [
+              "--tw-prose-lead",
+              "--tw-prose-invert-bullets"
+            ]
+          },
+          {
+            "name": "Gray 200",
+            "hex": "#E5E7EB",
+            "alpha": null,
+            "aliases": [
+              "--tw-prose-hr",
+              ".bg-gray-200",
+              ".border-gray-200"
+            ]
+          },
+          {
+            "name": "Gray 100",
+            "hex": "#F3F4F6",
+            "alpha": null,
+            "aliases": [
+              ".bg-gray-100"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Surface Alpha Light",
+        "type": "Dark",
+        "rules": {
+          "description": "Base color for dark-themed overlays, outlines, and structural UI elements.",
+          "when_to_use": [
+            "--surface-alpha-light",
+            "--surface-primary",
+            "--stroke-base",
+            ".bg-[#121216]"
+          ]
+        },
+        "hex": "#121216",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Zinc 900",
+            "hex": "#18181B",
+            "alpha": null,
+            "aliases": [
+              ".text-zinc-900"
+            ]
+          },
+          {
+            "name": "Zinc 500",
+            "hex": "#71717A",
+            "alpha": null,
+            "aliases": [
+              ".text-zinc-500"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Black",
+        "type": "Neutral",
+        "rules": {
+          "description": "Absolute black for maximum contrast text and overlays.",
+          "when_to_use": [
+            ".bg-black",
+            ".text-black",
+            ".border-black"
+          ]
+        },
+        "hex": "#000000",
+        "alpha": null,
+        "shades": [],
+        "score": 0
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Brand Purple",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Primary brand emphasis color used in banners, gradients, and key interactions.",
+          "when_to_use": [
+            ".bg-[#5718C0]",
+            "--product-banner-purple-light-foreground"
+          ]
+        },
+        "hex": "#5718C0",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Deep Purple",
+            "hex": "#1F0455",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#1F0455]"
+            ]
+          },
+          {
+            "name": "Vibrant Purple",
+            "hex": "#4A17B0",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#4A17B0]",
+              ".border-[#4A17B0]"
+            ]
+          },
+          {
+            "name": "Lilac",
+            "hex": "#AB77FF",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#AB77FF]"
+            ]
+          },
+          {
+            "name": "Pastel Purple",
+            "hex": "#D0B7F9",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#D0B7F9]"
+            ]
+          },
+          {
+            "name": "Purple 100",
+            "hex": "#F3E8FF",
+            "alpha": null,
+            "aliases": [
+              ".bg-purple-100"
+            ]
+          }
+        ],
+        "score": 0
+      },
+      {
+        "name": "Brand Blue / Sky",
+        "type": "Cool Color",
+        "rules": {
+          "description": "Secondary brand color for links, illustrations, and active states.",
+          "when_to_use": [
+            "--product-banner-blue-light-foreground",
+            "--product-banner-blue-dark-mark"
+          ]
+        },
+        "hex": "#115EF3",
+        "alpha": null,
+        "shades": [
+          {
+            "name": "Navy",
+            "hex": "#003279",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#003279]"
+            ]
+          },
+          {
+            "name": "Cobalt",
+            "hex": "#0A4DCE",
+            "alpha": null,
+            "aliases": [
+              ".bg-[#0A4DCE]"
+            ]
+          },
+          {
+            "name": "Blue Dark Background",
+            "hex": "#142657",
+            "alpha": null,
+            "aliases": [
+              "--product-banner-blue-dark-background"
+            ]
+          },
+          {
+            "name": "Blue Dark Foreground",
+            "hex": "#99EDFF",
+            "alpha": null,
+            "aliases": [
+              "--product-banner-blue-dark-foreground",
+              ".bg-[#99EDFF]"
+            ]
+          }
+        ],
+        "score": 0
+      }
+    ],
+    "insights": [
+      "The design system leans heavily on a deeply saturated dark mode palette built upon extremely dark, low-saturation grays (Neutral 1000 #161618), combined with complex alpha-channel overlays.",
+      "For emphasis, the brand utilizes highly saturated neon and pastel accent colors (Bright Purple, Cyan, Lime Green), ensuring striking contrast against the dark foundational UI.",
+      "Typography and prose are meticulously structured around multiple simultaneous gray scales (Gray, Neutral, and Zinc) to adapt effortlessly across varying product sub-themes."
+    ]
+  }
+}

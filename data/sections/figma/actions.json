@@ -1,0 +1,271 @@
+{
+  "id": "figma",
+  "source_url": "https://www.figma.com/",
+  "captured_at": "2026-09-15T16:36:48.597923Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "actions",
+  "has_data": true,
+  "source_file": "data/raw/figma.json",
+  "source_pointer": "/result/design_system/actions",
+  "review_file": "data/reviews/figma.json",
+  "data": {
+    "button_list": [
+      {
+        "name": "Get started (Primary Large - Hero)",
+        "usage": "Primary call-to-action button used in the hero section to drive signups. Large size variant for maximum prominence.",
+        "specs": {
+          "radius": "rounded-xl",
+          "sizes": [
+            {
+              "name": "Large",
+              "font": "var(--global-font-sans)",
+              "size": "1.875rem",
+              "padding": "1.5rem 2rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--fig-theme-btn-primary-bg-hover, color-mix(in oklch, #000000, transparent 15%))",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Get started for free (Primary Default - Header)",
+        "usage": "Primary CTA button in the fixed navigation header for signup conversion.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--global-font-sans)",
+              "size": "1rem",
+              "padding": "0.75rem 1.375rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--fig-theme-btn-primary-bg-hover, color-mix(in oklch, #000000, transparent 15%))",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#000000",
+            "text_color": "#FFFFFF",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Contact sales (Secondary - Header)",
+        "usage": "Secondary button in navigation header for enterprise/sales inquiries. Uses ghost style with border.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--global-font-sans)",
+              "size": "1rem",
+              "padding": "0.75rem 1.375rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--fig-theme-btn-secondary-bg, color-mix(in oklch, #000000, transparent 100%))",
+            "text_color": "#000000",
+            "border_color": "var(--fig-theme-border, color-mix(in oklch, #000000, transparent 84%))",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--fig-theme-btn-secondary-bg, color-mix(in oklch, #000000, transparent 100%))",
+            "text_color": "#000000",
+            "border_color": "var(--fig-theme-border-hover, color-mix(in oklch, #000000, transparent 60%))",
+            "border_width": "1px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "1px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Explore Figma Design (Text Link with Arrow)",
+        "usage": "Tertiary text link button with animated arrow icon. Used throughout the page for secondary navigation to product pages.",
+        "specs": {
+          "radius": "rounded-sm",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--global-font-sans)",
+              "size": "1rem",
+              "padding": "0"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Allow all cookies (Cookie Banner)",
+        "usage": "Button used in the cookie consent banner to accept all cookies.",
+        "specs": {
+          "radius": "rounded-lg",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "var(--global-font-sans)",
+              "size": "1rem",
+              "padding": "0.75rem 1.375rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "#FFFFFF",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      },
+      {
+        "name": "Icon Button (Circular)",
+        "usage": "Icon-only circular buttons used for carousel navigation, video controls, and logo strip scrolling. Contains only an SVG icon with no text.",
+        "specs": {
+          "radius": "rounded-full",
+          "sizes": [
+            {
+              "name": "Default",
+              "font": "",
+              "size": "",
+              "padding": "0.5rem"
+            }
+          ]
+        },
+        "visuals": {
+          "default": {
+            "background": "var(--fig-theme-btn-transparent-bg, color-mix(in oklch, #000000, transparent 96%))",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "hover": {
+            "background": "var(--fig-theme-btn-transparent-bg-hover, color-mix(in oklch, #000000, transparent 92%))",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": null,
+            "cursor": null
+          },
+          "disabled": {
+            "background": "transparent",
+            "text_color": "#000000",
+            "border_color": "",
+            "border_width": "0px",
+            "opacity": "0.5",
+            "cursor": "not-allowed"
+          }
+        }
+      }
+    ],
+    "button_group": {
+      "description": "Buttons are laid out horizontally with flex, wrapping on mobile.",
+      "spacing": "0.75rem"
+    },
+    "links": {
+      "text_decoration": "underline"
+    }
+  }
+}

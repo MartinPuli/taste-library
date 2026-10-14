@@ -1,0 +1,491 @@
+{
+  "id": "ramp",
+  "source_url": "https://ramp.com/",
+  "captured_at": "2026-09-25T08:15:55.953997Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: icons, brand_assets."
+  ],
+  "section": "typography",
+  "has_data": true,
+  "source_file": "data/raw/ramp.json",
+  "source_pointer": "/result/design_system/typography",
+  "review_file": "data/reviews/ramp.json",
+  "data": {
+    "titles": {
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Toast Title",
+          "specs": {
+            "size": "13px",
+            "line_height": "1.5",
+            "font_weight": "500",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "System/Browser"
+          },
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Fides Banner Title",
+          "specs": {
+            "size": "var(--fides-banner-font-size-title)",
+            "line_height": "1.5em",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Fides Modal Title",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-title)",
+            "line_height": "",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Headline XL",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Headline L",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Headline M",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Headline S",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Headline XS",
+          "specs": {
+            "size": "20px",
+            "line_height": "24px",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "paragraphs": {
+      "description": "Body text styles ranging from XL down to S across the marketing site and overlays.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Toast Description",
+          "specs": {
+            "size": "13px",
+            "line_height": "1.4",
+            "font_weight": "400",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "System/Browser"
+          },
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Overlay Modal/Banner Body",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-body)",
+            "line_height": "1.4em",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Body XL",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Body L",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Body M",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Body S",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "labels": {
+      "description": "Component labels, badges, buttons, attributions, and micro-copy across the platform and its embedded overlays.",
+      "variants": [
+        {
+          "name": "System Sans",
+          "role": "Toast Button",
+          "specs": {
+            "size": "12px",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": "System/Browser"
+          },
+          "technical": {
+            "font_family_css": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Banner Button",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-buttons)",
+            "line_height": "",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Overlay Attribution",
+          "specs": {
+            "size": "var(--11px)",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "GPC Label",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-body)",
+            "line_height": "",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Notice Badge",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-body-small)",
+            "line_height": "",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Body XS",
+          "specs": {
+            "size": "",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Micro Copy / Metrics",
+          "specs": {
+            "size": "10px",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Input Field Label",
+          "specs": {
+            "size": "15px",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Lausanne",
+          "role": "Button Label (Adjusted)",
+          "specs": {
+            "size": "",
+            "line_height": ".675rem",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": true,
+            "source": "Self-hosted"
+          },
+          "technical": {
+            "font_family_css": "Lausanne",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "others": {
+      "description": "Secondary data typography and unclassified elements.",
+      "variants": [
+        {
+          "name": "Inter",
+          "role": "Vendor Details Table Data",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-body-small)",
+            "line_height": "",
+            "font_weight": "",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        },
+        {
+          "name": "Inter",
+          "role": "Paging Info",
+          "specs": {
+            "size": "var(--fides-overlay-font-size-body-small)",
+            "line_height": "",
+            "font_weight": "600",
+            "font_variation_settings": ""
+          },
+          "licensing": {
+            "is_proprietary": false,
+            "source": ""
+          },
+          "technical": {
+            "font_family_css": "Inter,sans-serif",
+            "file_url": ""
+          }
+        }
+      ]
+    },
+    "highlights": "Dotted underlines for interactive contextual emphasis (e.g., `underline decoration-dotted decoration-black-200 underline-offset-4`).",
+    "insights": [
+      "Integration of independent typography systems: Ramp's primary marketing layer relies on 'Lausanne', while embedded functional components (Sonner toasts) and consent overlays (Fides) enforce their own font stacks (System UI and 'Inter', respectively) to ensure encapsulation.",
+      "Strict fluid scaling via CSS variables: The Fides overlay implements a fully mathematical typographic scale using CSS calc() mapped to a root `--fides-base-font-size` (e.g., `--11px`, `--14px`), guaranteeing robust relative scaling.",
+      "Responsive utility modifications: The marketing DOM heavily leverages tailwind-style utility classes (e.g., `text-[10px]`, `leading-[.675rem]`, `tracking-[0.18px]`) to modify standard base components like `body-m` for precise spatial constraints and micro-copy."
+    ]
+  }
+}

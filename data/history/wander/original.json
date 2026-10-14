@@ -1,0 +1,1602 @@
+{
+  "company": "Wander",
+  "rank": 33,
+  "ranking_source": "https://cosign.co/questions/highest-taste-companies",
+  "retrieved_date": "2026-10-14",
+  "reused_existing": false,
+  "status": "completed",
+  "source_url": "https://www.wander.com/",
+  "cache_hit": false,
+  "accepted_at": "2026-10-14T08:53:15.680009Z",
+  "completed_at": "2026-10-14T08:56:06.649511Z",
+  "result": {
+    "design_system": {
+      "profile": {
+        "brand_name": "Wander",
+        "tagline": null,
+        "source_url": "https://www.wander.com",
+        "page_type_category": "Core Marketing",
+        "page_type": "Homepage",
+        "industry": "Travel / Vacation Rentals",
+        "primary_purpose": "Drive property discovery and booking for luxury vacation home rentals with transparent pricing and premium amenities",
+        "main_cta": "Search",
+        "copy_tone": [
+          "Aspirational",
+          "Approachable",
+          "Confident"
+        ],
+        "brand_signature": "Clean, modern interface with generous white space and a sophisticated neutral palette. Photography-forward design showcasing luxury properties with subtle glass-morphic UI elements and rounded interactive components that feel premium yet accessible.",
+        "visual_language": {
+          "keywords": [
+            "minimal",
+            "premium",
+            "photography-driven",
+            "warm neutrals",
+            "rounded",
+            "airy"
+          ],
+          "accent_strategy": "Green accent color used sparingly for success states (savings indicators) against a predominantly black, white, and neutral gray palette. Primary actions use solid black buttons.",
+          "highlights": "Frosted glass badges overlaid on property images to indicate property tier (Luxury, Iconic). Subtle shadow treatments on cards and search bar create depth."
+        },
+        "strategy": {
+          "target_audience": [
+            "Affluent professionals and families seeking premium vacation rental experiences with high-end amenities and service",
+            "Remote workers and digital nomads looking for work-friendly luxury accommodations with reliable WiFi and workspace",
+            "Travel enthusiasts who prioritize quality and are willing to pay for curated, vetted properties with transparent pricing"
+          ],
+          "executive_synthesis": "Wander's visual strategy positions it as a premium alternative to mainstream vacation rental platforms by combining clean, modern UI patterns with aspirational lifestyle imagery. The design balances marketplace functionality with hospitality brand warmth—the systematic card layouts and efficient search interface communicate reliability and scale, while the photography-forward approach and savings messaging build trust and emotional connection. The prominent display of price comparisons ('less than other sites') directly addresses value-conscious luxury travelers, while tier badges (Luxury, Iconic) create product differentiation that justifies premium positioning. The overall effect is a sophisticated, trustworthy platform that makes luxury travel feel accessible rather than exclusive."
+        },
+        "style_classification": {
+          "primary_style": "Flat Design",
+          "confidence": "High",
+          "category_style": "Digital/UI Design",
+          "reasoning": "The screenshot reveals a clean, modern vacation rental marketplace with hallmark Flat Design characteristics. Visual analysis shows: (1) **Color Cleanliness**: Pure, clean palette with stark black (#000000, #202020) and white (#FFFFFF, #F7F7F7) dominance—an ultra-minimalist monochromatic strategy where the only hue is a functional success green (#008433) for pricing. No muddy or complex color mixing. (2) **Dimensionality**: Predominantly flat, 2D surfaces. Cards have extremely subtle shadows (shadow-dropdown with near-imperceptible opacity) rather than deep skeuomorphic depth. The design lets photography provide visual richness rather than UI chrome. (3) **Structure**: Rigid grid-based strict layout with 12-column system, consistent 2rem gutters, and perfectly aligned 5-column property card carousels. Mathematical precision in spacing. (4) **Typography**: Instrument Sans—a geometric, modern sans-serif used across all elements with systematic weight variations (450/550)—matches Flat Design's preference for clean geometric type. (5) **Shape Language**: Rounded/soft corners on cards and buttons (pill-shaped CTAs), geometric shapes, no ornamental decoration. The texture profile indicates \"glass_blur\" effects, but these are restrained to subtle badge overlays (backdrop-blur-lg with 18% opacity), not the full transparent layering that defines Glassmorphism.",
+          "secondary_style": "Luxurious",
+          "reasoning_secondary": "The Luxurious modifier applies due to several deliberate premium positioning signals: (1) **Color Strategy**: The stark black-and-white palette with no brand color intrusion creates sophisticated restraint—the forensic insights note \"sophistication is achieved through heavy reliance on black, white, and varying levels of translucent overlays.\" (2) **Typography Treatment**: Tight negative letter-spacing on display headlines (-0.12rem), precise weight calibration (550 for medium), and the use of \"Eyebrow\" microcopy with wide tracking signals editorial luxury. (3) **Content Framing**: \"Luxury\" badges prominently displayed on property cards, hero messaging emphasizing \"Only the best homes\" and \"24/7 concierge,\" and the dark footer section with \"The Wander difference\" brand story all communicate exclusivity. (4) **Visual Restraint**: Allowing high-quality property photography to dominate while the UI recedes into neutral black/white surfaces is a classic luxury hospitality approach—the design serves the aspirational content rather than competing with it."
+        }
+      },
+      "layout": {
+        "classification": [
+          "card_based",
+          "grid_based_strict"
+        ],
+        "grid": {
+          "columns": 12,
+          "gutter": "2rem",
+          "max_width": "1832px"
+        },
+        "breakpoints": {
+          "mobile": "0px - 768px (1 Column, 24px gutter)",
+          "tablet": "769px - 1024px (Grid adjusts, ~24px gutter)",
+          "desktop": "1025px - 1832px (12 Columns, 2rem gutter)",
+          "large": "1833px+ (12 Columns, 2rem gutter, max-width: 1832px)"
+        },
+        "section_separation": "Sections separated by generous vertical whitespace (mt-6, gap-8, space-y-8). Hero section transitions to white background for property listings. Footer uses solid black background to create strong visual break from body content. No visible horizontal dividers or rules between sections.",
+        "ascii_template": "```\n┌──────────────────────────────────────────────────────────┐\n│  [Wonder Logo]  [Where] [Move] [Date] [Search]  [List→] │\n├──────────────────────────────────────────────────────────┤\n│                     [HERO - Centered]                    │\n│               Find your happy place                      │\n│        Guest-first travel. Only the best...              │\n│                                                          │\n└──────────────────────────────────────────────────────────┘\n├──────────────────────────────────────────────────────────┤\n│                  Weekend getaways                     [>]│\n├──────────────────────────────────────────────────────────┤\n│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │\n│ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │          │\n│ │[Img] │ │[Img] │ │[Img] │ │[Img] │ │[Img] │          │\n│ │Luxury│ │Luxury│ │Luxury│ │      │ │      │          │\n│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘          │\n│  ★5.0     ★5.0     ★5.0     ★4.9     ★New             │\n│  $105+    $135+    $219+    $242+    $300+            │\n├──────────────────────────────────────────────────────────┤\n│             Cool and family-friendly                  [>]│\n├──────────────────────────────────────────────────────────┤\n│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │\n│ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │          │\n│ │[Img] │ │[Img] │ │[Img] │ │[Img] │ │[Img] │          │\n│ │Luxury│ │      │ │      │ │      │ │Luxury│          │\n│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘          │\n│  ★4.9     ★4.99    ★5.0     ★5.0     ★4.98            │\n├──────────────────────────────────────────────────────────┤\n│                   Stay near Boston                    [>]│\n├──────────────────────────────────────────────────────────┤\n│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │\n│ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │          │\n│ │[Img] │ │[Img] │ │[Img] │ │[Img] │ │[Img] │          │\n│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘          │\n│  ★5.0     ★5.0     ★4.9     ★4.95    ★4.9             │\n├──────────────────────────────────────────────────────────┤\n│                Homes our guests love                  [>]│\n├──────────────────────────────────────────────────────────┤\n│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │\n│ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │          │\n│ │[Img] │ │[Img] │ │[Img] │ │[Img] │ │[Img] │          │\n│ │Luxury│ │Luxury│ │      │ │      │ │Luxury│          │\n│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘          │\n│  ★4.96    ★5.0     ★5.0     ★4.9     ★5.0             │\n├──────────────────────────────────────────────────────────┤\n│                    Lakefront life                     [>]│\n├──────────────────────────────────────────────────────────┤\n│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │\n│ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │          │\n│ │[Img] │ │[Img] │ │[Img] │ │[Img] │ │[Img] │          │\n│ │Luxury│ │      │ │Luxury│ │Luxury│ │Luxury│          │\n│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘          │\n│  ★4.9     ★5.0     ★5.0     ★5.0     ★5.0             │\n├──────────────────────────────────────────────────────────┤\n│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │\n│ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │ │ [♡]  │          │\n│ │[Img] │ │[Img] │ │[Img] │ │[Img] │ │[Img] │          │\n│ │Luxury│ │Luxury│ │Luxury│ │      │ │      │          │\n│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘          │\n│  ★5.0     ★5.0     ★5.0     ★5.0     ★5.0             │\n├──────────────────────────────────────────────────────────┤\n│                 [See more properties]                    │\n├──────────────────────────────────────────────────────────┤\n│                   [FOOTER - Black]                       │\n│                                                          │\n│  The Wonder difference                                   │\n│  The way travel should be.                               │\n│  Great homes, service and prices.                        │\n│                                                          │\n│  ┌────────────────────┐                                  │\n│  │  [Wonder sign img] │                                  │\n│  └────────────────────┘                                  │\n│                                                          │\n│  ┌────────────┐  ┌────────────┐  ┌────────────┐         │\n│  │Only the    │  │Exceptional │  │Meticulous  │         │\n│  │best homes  │  │amenities   │  │cleaning    │         │\n│  └────────────┘  └────────────┘  └────────────┘         │\n│                                                          │\n│  ┌────────────┐  ┌────────────┐  ┌────────────┐         │\n│  │24/7 Concier│  │Stunning    │  │Safety and  │         │\n│  │ge service  │  │views       │  │security    │         │\n│  └────────────┘  └────────────┘  └────────────┘         │\n│                                                          │\n│  @wonder  X  Instagram  TikTok  LinkedIn  YouTube       │\n├──────────────────────────────────────────────────────────┤\n│  [Footer Links]                                          │\n│  Company    Guests        Operators      Partners        │\n│  About      Book Now      Get Resources  Airbnb         │\n│  Blog       Legal         List on Wonder               │\n│  Careers    Wander App    Technology    ...            │\n│  Contact                  Events                       │\n├──────────────────────────────────────────────────────────┤\n│  Find your happy place ®  © 2025 Wonderluxes, Inc.      │\n└──────────────────────────────────────────────────────────┘\n```\n\n---VISUAL ANNOTATIONS---\n\n**NAV (Top Bar)**\n- Background: Semi-transparent dark overlay on hero image\n- Logo: \"Wonder\" wordmark in white, left-aligned\n- Search bar: White pill-shaped with multiple fields (Where, Move, Date)\n- Buttons/CTAs: \"Search\" (solid black pill button, white text) | \"List on Wonder\" (text link, white)\n- Colors observed: White text, black button, transparent nav\n- Typography mood: Clean, minimal sans-serif\n\n**HERO**\n- Background: Full-width photograph of modern cabin with wooden deck, pool, and forest setting\n- Dark gradient overlay to improve text contrast\n- Headline: Large white text \"Find your happy place\"\n- Subheadline: Smaller white text describing service features\n- Imagery: Luxury outdoor living photography, aspirational lifestyle\n- Colors observed: Natural wood tones, green forest, blue water\n- Typography mood: Bold headline, light subtext\n\n**Weekend getaways (Section 1)**\n- Background: White/light gray\n- Section header with right arrow navigation [>]\n- Cards: 5-column grid of property cards\n- Card treatment: Rounded corners, clean shadows, heart icon (favorite) top-right\n- \"Luxury\" badges: Blue pill-shaped labels on select cards\n- Imagery: Professional property photography, mix of exterior shots\n- Star ratings (★) with numerical values (5.0, 4.9, etc.)\n- Pricing: Starting from prices displayed (e.g., \"$105 less than other sites\")\n- Colors observed: Blues for luxury tags, green/brown natural tones in photos\n- Typography mood: Clean, modern sans-serif\n\n**Cool and family-friendly (Section 2)**\n- Background: White/light gray\n- Layout: Same 5-column card grid pattern\n- Cards: Similar styling to Weekend getaways\n- \"Luxury\" badges: Blue pills on select properties\n- Star ratings and pricing format consistent\n- Imagery: Mix of modern glass architecture and rustic cabins\n- Colors observed: Blues, whites, natural wood tones\n- Card components: Heart icon favorites, rating stars, location names\n\n**Stay near Boston (Section 3)**\n- Background: White/light gray\n- Layout: 5-column property card grid\n- Cards: Consistent styling throughout\n- Imagery: New England style homes, mix of modern and traditional architecture\n- Star ratings visible on all cards\n- Pricing information below each card\n- Colors observed: Earth tones, architectural whites, sunset/sunrise lighting\n- Card treatments: Clean, minimal with subtle shadows\n\n**Homes our guests love (Section 4)**\n- Background: White/light gray\n- Layout: 5-column grid\n- \"Luxury\" badges: Multiple properties marked\n- Imagery: High-end property photography, dramatic lighting\n- Star ratings: High ratings (4.9-5.0 range)\n- Cards: Same treatment as previous sections\n- Colors observed: Warm lighting in photos, blues for luxury badges\n- Typography: Consistent with rest of page\n\n**Lakefront life (Section 5)**\n- Background: White/light gray\n- Layout: Two rows of 5-column grids (10 cards total)\n- \"Luxury\" badges: Prominent on most cards\n- Imagery: Focus on waterfront properties, outdoor luxury\n- All cards show high ratings (5.0 predominantly)\n- Card styling: Consistent rounded corners, shadows, favorites\n- Colors observed: Blues (water/luxury tags), greens (nature), warm interiors\n- Typography: Clean product card style\n\n**See more properties (CTA)**\n- Button: Centered, likely outline or minimal style\n- Text: \"See more properties\"\n- Background: White section separator\n- Typography: Medium weight, clickable appearance\n\n**FOOTER (Black section)**\n- Background: Solid black\n- Top section: Brand messaging\n  - \"The Wonder difference\" (small text)\n  - \"The way travel should be.\" (large headline)\n  - \"Great homes, service and prices.\" (subheadline)\n- Image: Photograph of Wonder sign/entrance in natural setting\n- Feature grid: 6 feature boxes in 2 rows of 3\n  - Icons with titles and descriptions\n  - Features: \"Only the best homes\", \"Exceptional amenities\", \"Meticulous cleaning\", \"24/7 Concierge service\", \"Stunning views\", \"Safety and security\"\n- Social media icons: @wonder X Instagram TikTok LinkedIn YouTube (white icons)\n- Colors observed: Black background, white text, subtle grays\n- Typography mood: Elegant, confident, luxury-focused\n\n**FOOTER LINKS**\n- Background: Black continues\n- Layout: 4-column link grid\n- Columns: Company, Guests, Operators, Partners\n- Links: White text, minimal styling\n- Buttons/CTAs: \"Book Now\" under Guests, \"Get Resources\" under Operators, \"List on Wonder\" under Operators\n- Typography: Small, clean sans-serif\n\n**BOTTOM FOOTER**\n- Background: Black\n- Text: \"Find your happy place ®  © 2025 Wonderluxes, Inc.\"\n- Colors: Light gray text\n- Typography: Small legal text style",
+        "insights": [
+          "Card-based layout with strict grid alignment creates modular, scannable browsing experience. Property cards maintain consistent aspect-square ratio and spacing across all carousels.",
+          "Horizontal scrolling carousels with snap-mandatory provide mobile-first navigation pattern even on desktop. Arrow navigation hidden on mobile, revealed on hover for desktop users.",
+          "Subtle depth hierarchy: Hero uses dark overlay (bg-black/50) for text legibility, property cards use backdrop-blur-lg with semi-transparent backgrounds for badges, creating layered depth without heavy shadows.",
+          "Color-coded success messaging (text-success green) for pricing differentials reinforces value proposition at every property card. Luxury/Iconic badges use neutral-1000/18 background with 5% border for subtle premium signaling.",
+          "Footer inverts color scheme (black background, white text) to anchor page and create visual endpoint, contrasting with light body sections."
+        ]
+      },
+      "colors": {
+        "baseline": [
+          {
+            "name": "Brand Dark",
+            "type": "Dark",
+            "rules": {
+              "description": "Primary brand dark used for default typography, secondary buttons, and striking iconography.",
+              "when_to_use": [
+                "Primary body text",
+                "\"List on Wander\" header button background",
+                "Feature grid icon backgrounds",
+                "Footer Wander logo fill"
+              ]
+            },
+            "hex": "#202020",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#282828",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#151515",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 1.0004
+          },
+          {
+            "name": "Pure Black",
+            "type": "Dark",
+            "rules": {
+              "description": "Pure black used for high-contrast section backgrounds, overlays, and primary call-to-action buttons.",
+              "when_to_use": [
+                "Hero section background",
+                "\"Search\" button background",
+                "Property card badging backgrounds and borders",
+                "\"The Wander difference\" dark section fill"
+              ]
+            },
+            "hex": "#000000",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0379
+          }
+        ],
+        "secondary": [
+          {
+            "name": "Secondary Gray",
+            "type": "Neutral",
+            "rules": {
+              "description": "Muted gray utilized for secondary text, metadata, and lower-priority interface elements.",
+              "when_to_use": [
+                "Search bar placeholder text",
+                "Property card ratings and metadata (beds, nights)",
+                "Footer navigation links"
+              ]
+            },
+            "hex": "#636363",
+            "alpha": null,
+            "shades": [],
+            "score": 0.0296
+          },
+          {
+            "name": "Paper / White",
+            "type": "Light",
+            "rules": {
+              "description": "The foundational light surface color that serves as the page background and high-contrast text on dark sections.",
+              "when_to_use": [
+                "Main page background",
+                "Footer area background",
+                "Inverted text and logos on dark sections (Hero, Wander difference)",
+                "Carousel navigation button backgrounds"
+              ]
+            },
+            "hex": "#F7F7F7",
+            "alpha": null,
+            "shades": [
+              {
+                "name": "",
+                "hex": "#FFFFFF",
+                "alpha": null,
+                "aliases": []
+              },
+              {
+                "name": "",
+                "hex": "#F0F0F0",
+                "alpha": null,
+                "aliases": []
+              }
+            ],
+            "score": 0.0273
+          },
+          {
+            "name": "Success Green",
+            "type": "Warm Color",
+            "rules": {
+              "description": "A dedicated success hue used exclusively to highlight pricing value and deals.",
+              "when_to_use": [
+                "\"Less than other sites\" savings callouts on property cards"
+              ]
+            },
+            "hex": "#008433",
+            "alpha": null,
+            "shades": [],
+            "score": 0.008
+          }
+        ],
+        "insights": [
+          "The brand employs an ultra-minimalist, monochromatic strategy that allows rich property photography to stand out as the primary visual focus.",
+          "There is a deliberate absence of brand color in the core UI; the only true hue introduced is green, specifically chosen to anchor financial value and savings.",
+          "Sophistication is achieved through a heavy reliance on black, white, and varying levels of translucent overlays (e.g., black alpha on badges and hero images) rather than color blocking."
+        ]
+      },
+      "typography": {
+        "titles": {
+          "variants": [
+            {
+              "name": "instrumentSans",
+              "role": "Display Large (H1)",
+              "specs": {
+                "size": "3.25rem",
+                "line_height": "3.5rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Display",
+              "specs": {
+                "size": "2.25rem",
+                "line_height": "2.5rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Display Small",
+              "specs": {
+                "size": "2rem",
+                "line_height": "2rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Headline Large",
+              "specs": {
+                "size": "1.875rem",
+                "line_height": "2.25rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Headline (H2)",
+              "specs": {
+                "size": "1.5rem",
+                "line_height": "1.75rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Headline Small (H3)",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.25rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "paragraphs": {
+          "description": "Body text scales optimized for readability across both UI copy and long-form editorial content.",
+          "variants": [
+            {
+              "name": "instrumentSans",
+              "role": "Body Large Long",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.5rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Body Large",
+              "specs": {
+                "size": "1rem",
+                "line_height": "1.25rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Body Long",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.25rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Body",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.0625rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Body Small",
+              "specs": {
+                "size": "0.75rem",
+                "line_height": "0.9375rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Text Large",
+              "specs": {
+                "size": "1.125rem",
+                "line_height": "1.5rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "labels": {
+          "description": "Utilitarian styles used for microcopy, badges, UI elements, and uppercase eyebrows.",
+          "variants": [
+            {
+              "name": "instrumentSans",
+              "role": "Eyebrow",
+              "specs": {
+                "size": "0.6875rem",
+                "line_height": "1.125rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Eyebrow Extra Small",
+              "specs": {
+                "size": "0.625rem",
+                "line_height": "1.125rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Extra Extra Small",
+              "specs": {
+                "size": "0.5625rem",
+                "line_height": "0.75rem",
+                "font_weight": "450",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            },
+            {
+              "name": "instrumentSans",
+              "role": "Badge / UI Medium Body",
+              "specs": {
+                "size": "0.875rem",
+                "line_height": "1.0625rem",
+                "font_weight": "550",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "\"instrumentSans\", \"instrumentSans Fallback\", system-ui, sans-serif",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "others": {
+          "description": "Specialized typography for non-standard text such as code snippets.",
+          "variants": [
+            {
+              "name": "SFMono-Regular",
+              "role": "Monospace / Code",
+              "specs": {
+                "size": "1em",
+                "line_height": "1.5",
+                "font_weight": "400",
+                "font_variation_settings": ""
+              },
+              "licensing": null,
+              "technical": {
+                "font_family_css": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+                "file_url": null
+              }
+            }
+          ]
+        },
+        "highlights": "1. Negative letter-spacing scaling: Larger display headings aggressively tighten their letter-spacing (from -0.01em to -0.12rem) to maintain visual density, while body text rests at 0em.\n2. Eyebrow treatments: Ultra-small uppercase UI text (0.625rem - 0.6875rem) paired with wide tracking (0.075rem - 0.103rem) and medium weight (550) for maximal legibility at micro sizes.",
+        "insights": [
+          "The system leverages a variable font (Instrument Sans) to implement an unusually precise weight scale, utilizing 450 for 'normal' and 550 for 'medium', optimizing optical weight without the bulk of standard 500/600 values.",
+          "Typographic tokens are rigidly structured using a CSS variable system that maps roles (e.g., 'display', 'headline', 'body-long') to specific size, line-height, and tracking combinations, ensuring layout stability.",
+          "Lab color spaces are deeply integrated with the typography scale for foreground elements, pointing to a highly calibrated contrast and theming strategy."
+        ]
+      },
+      "surfaces": {
+        "texture_classification": [
+          "glass_blur",
+          "gradient_linear"
+        ],
+        "solid_colors": [
+          {
+            "name": "Surface Primary",
+            "description": "Main background color for primary surfaces, cards, and containers",
+            "when_to_use": [
+              "Page backgrounds",
+              "Card backgrounds",
+              "Modal overlays"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Surface Secondary",
+            "description": "Secondary surface color for subtle differentiation",
+            "when_to_use": [
+              "Input backgrounds",
+              "Searchbar backgrounds",
+              "Secondary containers"
+            ],
+            "hex": "#F7F7F7"
+          },
+          {
+            "name": "Surface Tertiary",
+            "description": "Tertiary surface for hover states and subtle backgrounds",
+            "when_to_use": [
+              "Hover states",
+              "Subtle panel backgrounds"
+            ],
+            "hex": "#F0F0F0"
+          },
+          {
+            "name": "Surface Quaternary",
+            "description": "Quaternary surface for disabled or muted states",
+            "when_to_use": [
+              "Disabled backgrounds",
+              "Muted containers",
+              "Progress track backgrounds"
+            ],
+            "hex": "#EAEAEA"
+          },
+          {
+            "name": "Surface Modal",
+            "description": "Modal and overlay surface background",
+            "when_to_use": [
+              "Modal dialogs",
+              "Dropdown menus",
+              "Popover containers"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Surface Tooltip",
+            "description": "Tooltip surface with high contrast dark background",
+            "when_to_use": [
+              "Tooltips",
+              "Dark popover menus"
+            ],
+            "hex": "#202020"
+          },
+          {
+            "name": "Surface Toast",
+            "description": "Toast notification surface",
+            "when_to_use": [
+              "Toast messages",
+              "Notification cards"
+            ],
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Glass Panel",
+            "description": "Glassmorphism surface with backdrop blur effect - dark base with transparency and blur",
+            "when_to_use": [
+              "Floating navigation elements",
+              "Overlay UI components",
+              "Badge overlays on images"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Button Primary",
+            "description": "Primary button background - solid black",
+            "when_to_use": [
+              "Primary CTA buttons",
+              "Main action buttons"
+            ],
+            "hex": "#000000"
+          },
+          {
+            "name": "Button Secondary",
+            "description": "Secondary button background",
+            "when_to_use": [
+              "Secondary actions",
+              "Navigation controls"
+            ],
+            "hex": "#F0F0F0"
+          },
+          {
+            "name": "Button Checkout",
+            "description": "Checkout button background - green accent",
+            "when_to_use": [
+              "Checkout buttons",
+              "Purchase actions"
+            ],
+            "hex": "#00733D"
+          },
+          {
+            "name": "Hero Overlay",
+            "description": "Hero section dark overlay for image contrast",
+            "when_to_use": [
+              "Hero image overlays",
+              "Image text overlays"
+            ],
+            "hex": "#000000"
+          }
+        ],
+        "gradients": [
+          {
+            "name": "Hero Overlay Gradient",
+            "description": "Semi-transparent black overlay for hero section images",
+            "when_to_use": [
+              "Hero section backgrounds",
+              "Image overlays for text readability"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%)"
+          },
+          {
+            "name": "Fade to Primary",
+            "description": "Fade from transparent to white surface",
+            "when_to_use": [
+              "Section transitions",
+              "Content fade overlays"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(255,255,255) 100%)"
+          },
+          {
+            "name": "Glass Badge Background",
+            "description": "Semi-transparent dark background for glass effect badges over images",
+            "when_to_use": [
+              "Badges on property images",
+              "Floating labels",
+              "Category tags"
+            ],
+            "css_code": "linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.18) 100%)"
+          },
+          {
+            "name": "Shimmer Effect",
+            "description": "Animated shimmer gradient for loading states",
+            "when_to_use": [
+              "Loading indicators",
+              "Skeleton screens",
+              "Loading animations"
+            ],
+            "css_code": "linear-gradient(90deg, var(--color-tertiary) 0%, var(--color-tertiary) 40%, var(--color-primary) 50%, var(--color-tertiary) 60%, var(--color-tertiary) 100%)"
+          }
+        ],
+        "highlights": [
+          "Glass panels: backdrop-filter: blur(12px) over rgba(0,0,0,0.18) with 1px rgba(0,0,0,0.05) border - used extensively on property card badges",
+          "Progress indicators: White fill (bg-white!) on semi-transparent white track (bg-white/50!) for image carousel navigation",
+          "Subtle shadows: Multiple shadow variants including shadow-dropdown (0px 2px 16px 0px rgba(0,0,0,0.039), 0px 0.5px 8px 0px rgba(0,0,0,0.078)), shadow-modal, shadow-searchbar, shadow-toast for depth hierarchy",
+          "Backdrop blur effects: Various blur levels (blur-sm: 8px, blur-md: 12px, blur-lg: 12px, blur-xl: 16px) used for glassmorphism surfaces",
+          "Badge overlays: Glassmorphism badges on property cards with backdrop-blur-lg, border border-neutral-1000/5, and bg-neutral-1000/18"
+        ]
+      },
+      "elevation": {
+        "description": "Elevation allows elements to be lifted from the background. It can be defined by applying drop shadows or other visual cues, such as color and borders",
+        "shadows": {
+          "description": "Elevation using shadows reflects a spatial relationship by indicating separation from the background or allowing content to be scrolled under another element.",
+          "levels": [
+            {
+              "name": "Shadow Xs",
+              "type": "drop",
+              "description": "Extra small shadow with 5% black opacity and 2px blur. Used for subtle elevation on small elements.",
+              "css_value": "0 1px 2px 0 #0000000d",
+              "when_to_use": [
+                "Small UI elements",
+                "Subtle elevation",
+                "Minimal depth indicators"
+              ]
+            },
+            {
+              "name": "Shadow Sm",
+              "type": "drop",
+              "description": "Small shadow with dual layers - 4% black opacity at 2px and 8px blur. Provides soft elevation for cards and containers.",
+              "css_value": "0px 1px 2px 0px #0000000a,0px 2px 8px 0px #0000000a",
+              "when_to_use": [
+                "Cards",
+                "Small containers",
+                "Light elevation"
+              ]
+            },
+            {
+              "name": "Shadow Md",
+              "type": "drop",
+              "description": "Medium shadow with 10% black opacity, 6px and 4px blur with negative offsets. Standard elevation for interactive elements.",
+              "css_value": "0 4px 6px -1px #0000001a,0 2px 4px -2px #0000001a",
+              "when_to_use": [
+                "Buttons",
+                "Interactive elements",
+                "Medium elevation cards"
+              ]
+            },
+            {
+              "name": "Shadow Lg",
+              "type": "drop",
+              "description": "Large shadow with 10% black opacity, 15px and 6px blur. Used for prominent elevated elements.",
+              "css_value": "0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a",
+              "when_to_use": [
+                "Elevated cards",
+                "Prominent containers",
+                "Hover states"
+              ]
+            },
+            {
+              "name": "Shadow Xl",
+              "type": "drop",
+              "description": "Extra large shadow with 10% black opacity, 25px and 10px blur. High elevation for floating elements.",
+              "css_value": "0 20px 25px -5px #0000001a,0 8px 10px -6px #0000001a",
+              "when_to_use": [
+                "Floating elements",
+                "High prominence cards",
+                "Overlays"
+              ]
+            },
+            {
+              "name": "Shadow 2xl",
+              "type": "drop",
+              "description": "Double extra large shadow with 25% black opacity and 50px blur. Maximum elevation for modals and dialogs.",
+              "css_value": "0 25px 50px -12px #00000040",
+              "when_to_use": [
+                "Modals",
+                "Dialogs",
+                "Maximum elevation surfaces"
+              ]
+            },
+            {
+              "name": "Shadow Searchbar",
+              "type": "drop",
+              "description": "Custom searchbar shadow with triple layers - 6% black at 4px and 12px blur plus 1px ring. Specialized for search components.",
+              "css_value": "0 1px 4px 0 #0000000f,0 3px 12px 0 #0000000f,0 0 0 1px #0000000a",
+              "when_to_use": [
+                "Search bars",
+                "Input fields with prominence",
+                "Navigation search"
+              ]
+            },
+            {
+              "name": "Shadow Dropdown",
+              "type": "drop",
+              "description": "Dropdown shadow with 4% and 8% black opacity layers at 16px and 8px blur. Used for dropdown menus and popovers.",
+              "css_value": "0px 2px 16px 0px #0000000a,0px .5px 8px 0px #00000014",
+              "when_to_use": [
+                "Dropdowns",
+                "Popovers",
+                "Select menus",
+                "Floating panels"
+              ]
+            },
+            {
+              "name": "Shadow Modal",
+              "type": "drop",
+              "description": "Modal shadow with 4% and 6% black opacity at 12px and 40px blur. Designed for modal dialogs and overlays.",
+              "css_value": "0px 3px 12px 0px #0000000a,0px 4px 40px 0px #0000000f",
+              "when_to_use": [
+                "Modals",
+                "Dialog boxes",
+                "Overlay panels"
+              ]
+            },
+            {
+              "name": "Shadow Toast",
+              "type": "drop",
+              "description": "Toast notification shadow with 5%, 10%, and 5% black opacity layers. Includes subtle top highlight.",
+              "css_value": "0px 2px 6px 0px #0000000d,0px 1px 3px 0px #0000001a,0px -.5px 1px 0px #0000000d",
+              "when_to_use": [
+                "Toast notifications",
+                "Snackbars",
+                "Alert messages"
+              ]
+            },
+            {
+              "name": "Drop Shadow Md",
+              "type": "drop",
+              "description": "Medium drop shadow filter with 12% black opacity at 3px offset. Used for CSS filter effects.",
+              "css_value": "0 3px 3px #0000001f",
+              "when_to_use": [
+                "Filter effects",
+                "Icon shadows",
+                "Text shadows"
+              ]
+            },
+            {
+              "name": "Drop Shadow Lg",
+              "type": "drop",
+              "description": "Large drop shadow filter with 15% black opacity at 4px offset. Used for CSS filter effects on larger elements.",
+              "css_value": "0 4px 4px #00000026",
+              "when_to_use": [
+                "Filter effects",
+                "Large icon shadows",
+                "Prominent text shadows"
+              ]
+            },
+            {
+              "name": "Tw Inset Ring Shadow",
+              "type": "drop",
+              "description": "Transparent reset shadow used as default value for Tailwind ring utilities.",
+              "css_value": "0 0 #0000",
+              "when_to_use": [
+                "Ring resets",
+                "Default shadow state",
+                "Utility base"
+              ]
+            }
+          ]
+        },
+        "borders": [
+          {
+            "hex": "#000000",
+            "width": "1px",
+            "style": "solid"
+          }
+        ]
+      },
+      "interactions": {
+        "global_patterns": [
+          "sticky_header",
+          "carousel",
+          "hover_transform"
+        ],
+        "animations": [
+          {
+            "name": "spin",
+            "css": "@keyframes spin { to { transform: rotate(360deg) } }",
+            "description": "Loading spinner rotation animation used for button loading states"
+          },
+          {
+            "name": "sonner-spin",
+            "css": "@keyframes sonner-spin { 0% { opacity: 1 } 100% { opacity: .15 } }",
+            "description": "Opacity animation for toast notification loading bars"
+          },
+          {
+            "name": "sonner-fade-in",
+            "css": "@keyframes sonner-fade-in { 0% { opacity: 0; transform: scale(.8) } 100% { opacity: 1; transform: scale(1) } }",
+            "description": "Fade in animation for toast notifications"
+          },
+          {
+            "name": "sonner-fade-out",
+            "css": "@keyframes sonner-fade-out { 0% { opacity: 1; transform: scale(1) } 100% { opacity: 0; transform: scale(.8) } }",
+            "description": "Fade out animation for toast notifications"
+          },
+          {
+            "name": "fadeIn",
+            "css": "@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }",
+            "description": "Generic fade in animation for drawer overlays"
+          },
+          {
+            "name": "fadeOut",
+            "css": "@keyframes fadeOut { to { opacity: 0 } }",
+            "description": "Generic fade out animation for drawer overlays"
+          },
+          {
+            "name": "slideFromBottom",
+            "css": "@keyframes slideFromBottom { from { transform: translate3d(0, var(--initial-transform, 100%), 0) } to { transform: translate3d(0, 0, 0) } }",
+            "description": "Slide up animation for bottom drawers"
+          },
+          {
+            "name": "slideToBottom",
+            "css": "@keyframes slideToBottom { to { transform: translate3d(0, var(--initial-transform, 100%), 0) } }",
+            "description": "Slide down dismiss animation for bottom drawers"
+          },
+          {
+            "name": "slideFromTop",
+            "css": "@keyframes slideFromTop { from { transform: translate3d(0, calc(var(--initial-transform, 100%) * -1), 0) } to { transform: translate3d(0, 0, 0) } }",
+            "description": "Slide down animation for top drawers"
+          },
+          {
+            "name": "slideToTop",
+            "css": "@keyframes slideToTop { to { transform: translate3d(0, calc(var(--initial-transform, 100%) * -1), 0) } }",
+            "description": "Slide up dismiss animation for top drawers"
+          },
+          {
+            "name": "swipe-out-left",
+            "css": "@keyframes swipe-out-left { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) - 100%)); opacity: 0 } }",
+            "description": "Swipe dismiss animation for toast notifications swiped left"
+          },
+          {
+            "name": "swipe-out-right",
+            "css": "@keyframes swipe-out-right { from { transform: var(--y) translateX(var(--swipe-amount-x)); opacity: 1 } to { transform: var(--y) translateX(calc(var(--swipe-amount-x) + 100%)); opacity: 0 } }",
+            "description": "Swipe dismiss animation for toast notifications swiped right"
+          },
+          {
+            "name": "enter",
+            "css": "",
+            "description": "JS-driven enter animation for animate-in class, using CSS variables for opacity/scale/translate"
+          },
+          {
+            "name": "ease-out-cubic",
+            "css": "transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1)",
+            "description": "Primary easing curve for drawer animations"
+          },
+          {
+            "name": "duration-250",
+            "css": "transition: all 250ms ease-out",
+            "description": "Standard transition duration for search bar trigger states"
+          },
+          {
+            "name": "image-fade",
+            "css": "transition: opacity 200ms ease-in-out",
+            "description": "Image loading fade-in transition on property cards"
+          },
+          {
+            "name": "card-carousel-slide",
+            "css": "transition: transform 300ms ease-out",
+            "description": "Property card image carousel slide transition"
+          },
+          {
+            "name": "button-scale",
+            "css": "transition: transform 150ms ease-out",
+            "description": "Wishlist button scale animation on hover/active states"
+          }
+        ],
+        "insights": [
+          "The design system uses a monochromatic palette with rounded-full pill buttons as the primary action pattern, creating a soft, approachable feel that contrasts with the rich property photography.",
+          "Hover states rely heavily on subtle background color shifts (from transparent to light gray) rather than dramatic visual changes, maintaining the minimal aesthetic while providing clear interactive feedback.",
+          "The drawer/modal system uses sophisticated spring-based animations (cubic-bezier 0.32, 0.72, 0, 1) that feel natural and responsive, with consistent 500ms durations for larger surface transitions."
+        ]
+      },
+      "actions": {
+        "button_list": [
+          {
+            "name": "Search (Primary Pill)",
+            "usage": "Main call-to-action in the search bar to initiate property searches",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "14px",
+                  "padding": "0px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#F7F7F7",
+                "border_color": "#F7F7F7",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#323232",
+                "text_color": "#F7F7F7",
+                "border_color": "#F7F7F7",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "List on Wander (Secondary Pill)",
+            "usage": "Secondary action in navigation for property owners to list their homes",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "16px",
+                  "padding": "0px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F0F0F0",
+                "text_color": "#202020",
+                "border_color": "#202020",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#EAEAEA",
+                "text_color": "#202020",
+                "border_color": "#202020",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Skip to search (Accessibility)",
+            "usage": "Screen reader accessible skip navigation button, appears on focus",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "16px",
+                  "padding": "8px 16px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#000000",
+                "text_color": "#F7F7F7",
+                "border_color": "#F7F7F7",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#323232",
+                "text_color": "#F7F7F7",
+                "border_color": "#F7F7F7",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Wishlist (Icon Heart)",
+            "usage": "Icon button on property cards to add/remove properties from wishlists",
+            "specs": {
+              "radius": "rounded-lg",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "16px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#202020",
+                "border_color": "#202020",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#202020",
+                "border_color": "#202020",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Carousel Arrow (Secondary Circular)",
+            "usage": "Navigation arrows for horizontal property carousels on desktop",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "16px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#F0F0F0",
+                "text_color": "#202020",
+                "border_color": "#202020",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#EAEAEA",
+                "text_color": "#202020",
+                "border_color": "#202020",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "See more properties (Text Link)",
+            "usage": "Call-to-action link to view all properties below the property grid",
+            "specs": {
+              "radius": "rounded-none",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "14px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#202020",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "transparent",
+                "text_color": "#202020",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.5",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Card Slide Arrow (Circular)",
+            "usage": "Previous/next buttons overlaid on property card image carousels",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "16px",
+                  "padding": "0px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "#FFFFFF",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0F0",
+                "text_color": "#000000",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "not-allowed"
+              }
+            }
+          },
+          {
+            "name": "Where/When/Who (Search Bar Trigger)",
+            "usage": "Interactive segments in the search bar to open date/location/guest pickers",
+            "specs": {
+              "radius": "rounded-full",
+              "sizes": [
+                {
+                  "name": "Default",
+                  "font": "instrumentSans",
+                  "size": "14px",
+                  "padding": "10px 20px"
+                }
+              ]
+            },
+            "visuals": {
+              "default": {
+                "background": "transparent",
+                "text_color": "#636363",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "hover": {
+                "background": "#F0F0F0",
+                "text_color": "#636363",
+                "border_color": "transparent",
+                "border_width": "0px",
+                "opacity": null,
+                "cursor": null
+              },
+              "disabled": {
+                "background": "",
+                "text_color": "",
+                "border_color": "",
+                "border_width": "1px",
+                "opacity": "0.3",
+                "cursor": "not-allowed"
+              }
+            }
+          }
+        ],
+        "button_group": {
+          "description": "Carousel navigation buttons are grouped horizontally with consistent spacing",
+          "spacing": "4px"
+        },
+        "links": {
+          "text_decoration": "none"
+        }
+      },
+      "navigation": {
+        "top_nav": {
+          "height": "72px",
+          "position": "fixed",
+          "background": {
+            "hex": "#000000",
+            "color_reference": "Transparent with hero overlay",
+            "opacity": "0",
+            "blur": null
+          },
+          "border_bottom": "1px solid transparent"
+        },
+        "announcement_bar": null,
+        "tabs": null
+      },
+      "data_display": {
+        "charts": [],
+        "tables": [],
+        "tiles": [
+          {
+            "name": "Property Card",
+            "description": "Image carousel card displaying property with photo gallery, badge (Luxury/Iconic), wishlist button, name, rating, beds count, and pricing with savings callout",
+            "when_to_use": [
+              "Displaying rental properties in grid or carousel layouts",
+              "Showcasing featured destinations on homepage",
+              "Search results presentation"
+            ]
+          },
+          {
+            "name": "Feature Tile",
+            "description": "Icon-led tile with title and description used in the footer to highlight service benefits",
+            "when_to_use": [
+              "Value proposition sections",
+              "Footer benefit callouts",
+              "Service feature highlights"
+            ]
+          }
+        ]
+      },
+      "structure": {
+        "accordion": null,
+        "dividers": [
+          {
+            "name": "Search Bar Divider",
+            "description": "Vertical divider between search bar segments (Where, When, Who)",
+            "when_to_use": [
+              "Separating interactive segments within the search bar"
+            ],
+            "color": "#00000014",
+            "height": "20px",
+            "style": "solid"
+          },
+          {
+            "name": "Section Spacing",
+            "description": "Visual separation between property carousel sections using vertical spacing",
+            "when_to_use": [
+              "Between homepage category carousels"
+            ],
+            "color": "transparent",
+            "height": "32px",
+            "style": "solid"
+          }
+        ]
+      },
+      "icons": null,
+      "assets": {
+        "logos": [],
+        "media": []
+      },
+      "brand_assets": {
+        "assets": [
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/linkedin/ae0b9ea2-83cf-4422-b471-14d1f57471d0.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A cream event poster announces Wander’s attendance at PMI Summit Nashville 2026, with bold black typography, orange accents, and three team portraits."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/x/3808c6ee-cb28-4c2a-bd0a-8a55daf65f0d.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Official X profile header for Wander."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/x/ab97ad8e-95e4-4b85-9512-41a45983c9ae.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "A horizontal carousel of Sonoma vacation-home rental cards, centered on “Sonoma Glass House” with a modern glass façade and glowing pool."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/x/40abd084-92cb-48cd-9648-b1efc45e44ef.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A sleek home office with a black mesh ergonomic chair, ultrawide monitor, and standing desk beside expansive coastal windows."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/linkedin/2f79f132-a975-43fe-b53c-c6d2318b8e64.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Wander event poster announcing VRMA 26 in Nashville, with bold black typography, an illuminated convention center photo, and Wander and VRMA logos."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/x/e501c2ee-8800-4fd4-a06a-fe74d646c615.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Official X profile avatar for Wander."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/linkedin/d30284b6-af64-45be-91ad-56bace702bcb.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "Four Seasons Nashville “Happy Hour Recap” graphic with bold black headline, a collage of rooftop event photos, and Wander and VRMA logos."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/x/c5729626-5e95-40bd-ae6b-9348cdd544cc.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "Modern bedroom-office with floor-to-ceiling windows framing an ocean view, a desk and chair, and warm sunlight on polished wood floors."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/google_ads/83cc275e-f16d-4412-9182-a50d809ac24b.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Mobile WANDER vacation-rental ad with bold charcoal headline, globe logo, coastal house at sunset, and black “Book Now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/x/55d43e22-7117-4c1b-be77-281c05690d5b.jpg",
+            "source": "x",
+            "content_type": "image/jpeg",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "A glass-and-wood cabin nestled among trees, overlaid with white “Wander × maple” branding and globe and abstract icons."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/google_ads/6ddbaa96-49e4-4aa4-b2ff-311e761c66ee.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Wander travel ad pairs a glowing modern cabin in autumn woods with large black promotional text and a bright blue “Book now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/linkedin/6095b7e3-ecfe-4537-b50a-3e11d289c86b.png",
+            "source": "linkedin",
+            "content_type": "image/png",
+            "category": "partnership_collaboration_identity",
+            "asset_description": "The “pmi. Wander” wordmark combines bold black lettering, an orange angular symbol, and a globe icon over a faded poolside scene."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/linkedin/e9189391-6b46-45c1-b0ca-a5629bc2dc87.jpg",
+            "source": "linkedin",
+            "content_type": "image/jpeg",
+            "category": "brand_identity",
+            "asset_description": "Black Wander announcement page with a white globe logo and large headline, “September at Wander: Welcome to the direct booking revolution.”"
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/linkedin/b6f4de5a-5227-497a-a1e5-a433732b24eb.png",
+            "source": "linkedin",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Minimal black Wander careers card with a small white globe icon, large white “Careers” text, and gray “wander.com/careers” below."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/google_ads/44014baf-dc13-4239-8169-2825bd14e9f0.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Wander advertisement pairs a warmly lit modern cabin at dusk with large black promotional text and a bright blue “Book now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/google_ads/1c5a5bcd-7cc4-45e0-b368-5faba9d7dcc9.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Wander vacation-home ad pairs a glowing modern wood cabin beside a pool with large black headline text and a blue “Book now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/billboard/af0f9b8f-38d4-4ffa-9def-8155eec078b0.jpg",
+            "source": "billboard",
+            "content_type": "image/jpeg",
+            "category": "brand_photography_identity",
+            "asset_description": "A woman in a red top and striped skirt poses beside a bus shelter ad for Wander, featuring a hotel image and white text on a dark background."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/google_ads/9a264ca4-5910-4531-8b4c-0942d0b2d5db.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_photography_identity",
+            "asset_description": "Wander vacation-home ad pairs a glowing modern wood-and-glass cabin beside a pool with large black headline text and a blue “Book now” button."
+          },
+          {
+            "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/brand-media/google_ads/15287526-4427-4e0a-9f2e-4ef5687b5f08.png",
+            "source": "google_ads",
+            "content_type": "image/png",
+            "category": "brand_identity",
+            "asset_description": "Wander vacation-home advertisement with a black globe logo, elegant serif headline, property photos, and a prominent blue “Book now” button."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "Navigation",
+          "layout_pattern": "Horizontal full-width sticky header",
+          "headline": null,
+          "subheadline": null,
+          "components": [
+            {
+              "type": "logo",
+              "description": "Wonder wordmark logo in white, left-aligned, height: 24px (h-6 class)"
+            },
+            {
+              "type": "form",
+              "description": "Centered multi-field search bar with pill-shaped container, white background, shadow-searchbar, fields: 'Where', 'When', 'Who', and black Search button"
+            },
+            {
+              "type": "button",
+              "description": "'List on Wonder' button, secondary style (bg-button-secondary), rounded-full h-10"
+            },
+            {
+              "type": "button",
+              "description": "User menu icon button, ghost style (bg-button-ghost), size-10"
+            }
+          ]
+        },
+        {
+          "type": "Hero",
+          "layout_pattern": "Centered full-width hero with background image overlay",
+          "headline": "Find your happy place",
+          "subheadline": "Guest-first travel. Only the best...",
+          "components": [
+            {
+              "type": "image",
+              "description": "Full-width hero background image of modern cabin with wooden deck, pool, and forest setting. Dark gradient overlay (bg-black/50) for text contrast."
+            }
+          ]
+        },
+        {
+          "type": "Properties Carousel",
+          "layout_pattern": "Horizontal scrolling card carousel with header and navigation arrows",
+          "headline": "Homes our guests love",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Right arrow navigation button, secondary style (bg-button-secondary size-8)"
+            },
+            {
+              "type": "carousel",
+              "description": "Horizontal scrolling grid of property cards, snap-x snap-mandatory, scrollbar-hide. Cards have aspect-square images, rounded-xl borders, heart icon (wishlist) top-right, 'Luxury'/'Iconic' badges top-left with border-neutral-1000/5 bg-neutral-1000/18 backdrop-blur-lg, star ratings, pricing, and '~$XX less than other sites' in green text-success"
+            },
+            {
+              "type": "card",
+              "description": "Property cards with square aspect ratio images, property name, star rating with icon, bed count, price, savings indicator. Cards include image carousel with progress indicator at bottom."
+            }
+          ]
+        },
+        {
+          "type": "Properties Carousel",
+          "layout_pattern": "Horizontal scrolling card carousel with header and navigation arrows",
+          "headline": "Fall colors",
+          "subheadline": null,
+          "components": [
+            {
+              "type": "button",
+              "description": "Left and right arrow navigation buttons, secondary style (bg-button-secondary size-8)"
+            },
+            {
+              "type": "carousel",
+              "description": "Horizontal scrolling grid of property cards, same styling as 'Homes our guests love' section"
+            },
+            {
+              "type": "card",
+              "description": "Property cards with identical styling to previous carousel section"
+            }
+          ]
+        },
+        {
+          "type": "Footer",
+          "layout_pattern": "Multi-section footer with black background (bg-black text-white)",
+          "headline": "The Wonder difference",
+          "subheadline": "The way travel should be. Great homes, service and prices.",
+          "components": [
+            {
+              "type": "image",
+              "description": "Wonder sign photograph in natural setting"
+            },
+            {
+              "type": "card",
+              "description": "6 feature cards in 2 rows of 3 columns: 'Only the best homes', 'Exceptional amenities', 'Meticulous cleaning', '24/7 Concierge service', 'Stunning views', 'Safety and security'. White text on black background."
+            },
+            {
+              "type": "icon",
+              "description": "Social media icons in white: @wonder, X, Instagram, TikTok, LinkedIn, YouTube"
+            },
+            {
+              "type": "navigation",
+              "description": "4-column link grid with headers: Company, Guests, Operators, Partners. White text links on black background."
+            },
+            {
+              "type": "button",
+              "description": "'Book Now' (under Guests), 'Get Resources' (under Operators), 'List on Wonder' (under Operators) buttons"
+            }
+          ]
+        },
+        {
+          "type": "Footer Bottom",
+          "layout_pattern": "Single row centered text",
+          "headline": null,
+          "subheadline": "Find your happy place ® © 2025 Wonderluxes, Inc.",
+          "components": []
+        }
+      ]
+    },
+    "artifacts": {
+      "html": {
+        "path": "847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/source.html",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/source.html",
+        "content_type": "text/html"
+      },
+      "css": {
+        "path": "847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/styles.css",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/styles.css",
+        "content_type": "text/css"
+      },
+      "screenshot": {
+        "path": "847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/viewport.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/viewport.jpg",
+        "content_type": "image/jpeg"
+      },
+      "full_page_screenshot": {
+        "path": "847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/full.jpg",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/full.jpg",
+        "content_type": "image/jpeg"
+      },
+      "element_layout": {
+        "path": "847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/element-layout.json",
+        "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/element-layout.json",
+        "content_type": "application/json"
+      }
+    }
+  }
+}

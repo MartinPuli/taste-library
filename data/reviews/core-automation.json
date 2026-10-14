@@ -1,0 +1,55 @@
+{
+  "id": "core-automation",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "Large black uppercase type uses orange emphasis on a gray canvas. Thin rules and block graphics give the page a print-like structure.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/viewport.jpg",
+    "sha256": "e7a7d15bb75d3f5d283f6b4a378c829e68d47796eebee28a4af96169df511545"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/styles.css",
+    "sha256": "d4889a48a62d9e8e1984f6fc2032190ebf2d5e75efc1e3d7b9a7d2cb46982ae5",
+    "bytes": 63143,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#111111",
+      "#000000",
+      "#FF2D09",
+      "#699EFF",
+      "#ECECEC"
+    ],
+    "palette_literals_checked": [
+      "#111111",
+      "#000000",
+      "#FF2D09",
+      "#699EFF",
+      "#ECECEC"
+    ],
+    "font_names_found": [
+      "Helvetica",
+      "Berkeley Mono",
+      "SF Mono",
+      "ui-monospace"
+    ],
+    "font_names_checked": [
+      "Helvetica",
+      "Berkeley Mono",
+      "SF Mono",
+      "ui-monospace"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "536b901b47d57446ad04da60533b7811a536c31c19b0cdfc44b1b2f7964b911b"
+}

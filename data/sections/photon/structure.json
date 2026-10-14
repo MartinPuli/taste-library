@@ -1,0 +1,39 @@
+{
+  "id": "photon",
+  "source_url": "https://photon.codes/",
+  "captured_at": "2026-10-14T08:56:53.304387Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "structure",
+  "has_data": true,
+  "source_file": "data/raw/photon.json",
+  "source_pointer": "/result/design_system/structure",
+  "review_file": "data/reviews/photon.json",
+  "data": {
+    "accordion": null,
+    "dividers": [
+      {
+        "name": "Spectrum Color Bar",
+        "description": "Horizontal rainbow gradient bar used as a visual separator between hero and content sections",
+        "when_to_use": [
+          "Major section transitions",
+          "Brand identity reinforcement",
+          "Visual break between dark sections"
+        ],
+        "color": "linear-gradient (rainbow spectrum)",
+        "height": "16px",
+        "style": "solid"
+      },
+      {
+        "name": "Navigation Border",
+        "description": "Subtle bottom border on the navigation bar",
+        "when_to_use": [
+          "Navigation separation from content"
+        ],
+        "color": "rgba(0, 0, 0, 0.05)",
+        "height": "1px",
+        "style": "solid"
+      }
+    ]
+  }
+}

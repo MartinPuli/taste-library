@@ -1,0 +1,49 @@
+{
+  "id": "runway",
+  "reviewed_at": "2026-10-14",
+  "reviewer": "Codex",
+  "scope": "Saved screenshot composition review and literal CSS source checks; no live interaction or responsive testing.",
+  "visual_observation": "A large cinematic image anchors the hero below compact navigation. White copy and a light call to action sit over the image.",
+  "screenshot": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/viewport.jpg",
+    "sha256": "f9899e415d1ddaa3d527dc320c1ee858584dae87a0e7a0f9c58c7454b72d7eb5"
+  },
+  "css_check": {
+    "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/styles.css",
+    "sha256": "99b8c242b4e43d6a199a44561c731095524ed4f1a3e85e9fd32708a5a5d943a8",
+    "bytes": 183553,
+    "method": "Case-insensitive literal string presence in captured CSS; absence is inconclusive and presence does not verify a rendered role.",
+    "palette_literals_found": [
+      "#FFFFFF",
+      "#404040",
+      "#000000",
+      "#0C0C0C",
+      "#6B7280"
+    ],
+    "palette_literals_checked": [
+      "#FFFFFF",
+      "#404040",
+      "#000000",
+      "#0C0C0C",
+      "#6B7280"
+    ],
+    "font_names_found": [
+      "abcNormal"
+    ],
+    "font_names_checked": [
+      "abcNormal"
+    ]
+  },
+  "stored_result_comparison": {
+    "checked_at": "2026-10-14",
+    "all_sections_match_after_sync": true,
+    "recovered_sections": []
+  },
+  "not_checked": [
+    "Exact rendered measurements",
+    "Hover and focus behavior",
+    "Animation timing",
+    "Responsive layouts"
+  ],
+  "raw_sha256": "27f3d6de38c811347b4dd6c40fffc895464c60f891b8be90e0e269f68697271e"
+}

@@ -1,0 +1,163 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "surfaces",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/surfaces",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": {
+    "texture_classification": [
+      "shadows_soft",
+      "noise_grain"
+    ],
+    "solid_colors": [
+      {
+        "name": "Page Background",
+        "description": "Primary page background color (eggshell)",
+        "when_to_use": [
+          "Main page background",
+          "Body background"
+        ],
+        "hex": "#FDFCFC"
+      },
+      {
+        "name": "Cream",
+        "description": "Secondary surface color for cards and containers",
+        "when_to_use": [
+          "Card backgrounds",
+          "Panel backgrounds",
+          "Section backgrounds",
+          "Omnibox wrapper"
+        ],
+        "hex": "#F5F3F1"
+      },
+      {
+        "name": "White",
+        "description": "Pure white for elevated surfaces",
+        "when_to_use": [
+          "Button backgrounds",
+          "Modal overlays",
+          "Elevated cards",
+          "Tab indicators"
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Gray 100",
+        "description": "Light gray surface (same as cream)",
+        "when_to_use": [
+          "Subtle backgrounds",
+          "Disabled states"
+        ],
+        "hex": "#F5F3F1"
+      },
+      {
+        "name": "Gray 200",
+        "description": "Medium light gray surface",
+        "when_to_use": [
+          "Dividers",
+          "Borders",
+          "Hover states"
+        ],
+        "hex": "#EBE8E4"
+      },
+      {
+        "name": "Gray 25",
+        "description": "Subtle gray surface for hover states",
+        "when_to_use": [
+          "Button hover states",
+          "Interactive element hover"
+        ],
+        "hex": "#FDFCFC"
+      },
+      {
+        "name": "Gray 50",
+        "description": "Very light gray surface",
+        "when_to_use": [
+          "Subtle backgrounds"
+        ],
+        "hex": "#FAF8F8"
+      },
+      {
+        "name": "Black",
+        "description": "Black surface for high contrast elements",
+        "when_to_use": [
+          "Primary buttons",
+          "High emphasis surfaces"
+        ],
+        "hex": "#000000"
+      },
+      {
+        "name": "Paper",
+        "description": "Paper-like surface (same as page background)",
+        "when_to_use": [
+          "Document backgrounds",
+          "Card surfaces"
+        ],
+        "hex": "#FDFCFC"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "Cream to Transparent (Right)",
+        "description": "Horizontal fade from cream to transparent, left to right",
+        "when_to_use": [
+          "Scroll fade overlays",
+          "Edge fades"
+        ],
+        "css_code": "linear-gradient(to right,var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Cream to Transparent (Left)",
+        "description": "Horizontal fade from cream to transparent, right to left",
+        "when_to_use": [
+          "Scroll fade overlays",
+          "Edge fades"
+        ],
+        "css_code": "linear-gradient(to left,var(--tw-gradient-stops))"
+      },
+      {
+        "name": "Cream to Transparent (Top)",
+        "description": "Vertical fade from cream to transparent, bottom to top",
+        "when_to_use": [
+          "Scroll fade overlays",
+          "Bottom edge fades"
+        ],
+        "css_code": "linear-gradient(to top,var(--tw-gradient-stops))"
+      },
+      {
+        "name": "White Fade to Transparent",
+        "description": "Complex vertical white fade with multiple stops for smooth transition",
+        "when_to_use": [
+          "Overlay fades",
+          "Content area transitions"
+        ],
+        "css_code": "linear-gradient(180deg,#fff 0%,rgba(255,255,255,0.98) 16%,rgba(255,255,255,0.92) 30%,rgba(255,255,255,0.8) 44%,rgba(255,255,255,0.62) 58%,rgba(255,255,255,0.42) 71%,rgba(255,255,255,0.24) 82%,rgba(255,255,255,0.1) 91%,rgba(255,255,255,0.03) 97%,rgba(255,255,255,0))"
+      },
+      {
+        "name": "Cream Section Fade",
+        "description": "Horizontal cream gradient with solid center and transparent edges",
+        "when_to_use": [
+          "Section backgrounds",
+          "Horizontal dividers with fade"
+        ],
+        "css_code": "linear-gradient(90deg, rgba(245,243,241,0) 0%, #F5F3F1 8%, #F5F3F1 92%, rgba(245,243,241,0) 100%)"
+      }
+    ],
+    "highlights": [
+      "Noise/grain texture overlay applied to images and surfaces using image-set() with AVIF fallback and PNG backup (noise.24b8225d.png / noise@20aq.289c1f1d.avif), 50% opacity, mix-blend-overlay mode, 256px scale (128px at 2x resolution)",
+      "Soft shadows: box-shadow: 0 0 1px rgba(0,0,0,0.4), 0 1px 1px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.04) on buttons and cards",
+      "Ring borders with inset style: 0.5px ring with black/7.5% opacity for subtle borders",
+      "Pointer-event masked scrolling with linear-gradient masks for edge fades",
+      "Rounded full elements (circular avatars, buttons) with overflow hidden and noise overlay",
+      "Black opacity overlays at various levels: /5 (0.05), /7.5 (0.075), /10 (0.1), /15 (0.15), /20 (0.2) for surface depth",
+      "Backdrop blur effects implied by contextual nav and floating panels (though not explicitly shown in visible styles)"
+    ]
+  }
+}

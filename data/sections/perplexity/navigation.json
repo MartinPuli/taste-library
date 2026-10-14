@@ -1,0 +1,42 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "navigation",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/navigation",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "top_nav": null,
+    "announcement_bar": null,
+    "tabs": {
+      "style_name": "Mode Selector Tab",
+      "description": "Toggle between Search and Computer modes in the composer input area.",
+      "when_to_use": [
+        "Switching between search and computer assistant modes",
+        "Mode selection in query composer"
+      ],
+      "states": [
+        {
+          "name": "selected",
+          "visual_change": "Background pill indicator slides behind selected tab, border becomes visible",
+          "background": "var(--bg-raised)",
+          "text": "text-primary",
+          "icon": null
+        },
+        {
+          "name": "default",
+          "visual_change": "No background, muted text color",
+          "background": "transparent",
+          "text": "text-secondary",
+          "icon": null
+        }
+      ]
+    }
+  }
+}

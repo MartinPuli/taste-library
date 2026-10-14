@@ -1,0 +1,141 @@
+{
+  "id": "fal",
+  "source_url": "https://fal.ai/",
+  "captured_at": "2026-08-28T19:12:29.386999Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/fal.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/fal.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "scroll_reveal",
+      "hover_transform",
+      "hover_lift",
+      "tab_switching",
+      "carousel"
+    ],
+    "animations": [
+      {
+        "name": "swipe-out-left",
+        "css": "@keyframes swipe-out-left{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) - 100%));opacity:0}}",
+        "description": "Toast/notification swipe dismiss animation moving element left off screen."
+      },
+      {
+        "name": "swipe-out-right",
+        "css": "@keyframes swipe-out-right{from{transform:var(--y) translateX(var(--swipe-amount-x));opacity:1}to{transform:var(--y) translateX(calc(var(--swipe-amount-x) + 100%));opacity:0}}",
+        "description": "Toast/notification swipe dismiss animation moving element right off screen."
+      },
+      {
+        "name": "swipe-out-up",
+        "css": "@keyframes swipe-out-up{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) - 100%));opacity:0}}",
+        "description": "Toast/notification swipe dismiss animation moving element upward off screen."
+      },
+      {
+        "name": "swipe-out-down",
+        "css": "@keyframes swipe-out-down{from{transform:var(--y) translateY(var(--swipe-amount-y));opacity:1}to{transform:var(--y) translateY(calc(var(--swipe-amount-y) + 100%));opacity:0}}",
+        "description": "Toast/notification swipe dismiss animation moving element downward off screen."
+      },
+      {
+        "name": "sonner-fade-in",
+        "css": "@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}100%{opacity:1;transform:scale(1)}}",
+        "description": "Toast notification entrance animation with fade and scale up effect."
+      },
+      {
+        "name": "sonner-fade-out",
+        "css": "@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.8)}}",
+        "description": "Toast notification exit animation with fade and scale down effect."
+      },
+      {
+        "name": "sonner-spin",
+        "css": "@keyframes sonner-spin{0%{opacity:1}100%{opacity:.15}}",
+        "description": "Loading spinner animation cycling through opacity levels."
+      },
+      {
+        "name": "fadeIn",
+        "css": "@keyframes fadeIn{from{opacity:0}to{opacity:1}}",
+        "description": "Simple fade in animation for overlays and modals."
+      },
+      {
+        "name": "fadeOut",
+        "css": "@keyframes fadeOut{to{opacity:0}}",
+        "description": "Simple fade out animation for overlay dismissal."
+      },
+      {
+        "name": "slideFromBottom",
+        "css": "@keyframes slideFromBottom{from{transform:translate3d(0,var(--initial-transform,100%),0)}to{transform:translate3d(0,0,0)}}",
+        "description": "Drawer slide-in animation from bottom of viewport."
+      },
+      {
+        "name": "slideToBottom",
+        "css": "@keyframes slideToBottom{to{transform:translate3d(0,var(--initial-transform,100%),0)}}",
+        "description": "Drawer slide-out animation to bottom of viewport."
+      },
+      {
+        "name": "slideFromTop",
+        "css": "@keyframes slideFromTop{from{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}to{transform:translate3d(0,0,0)}}",
+        "description": "Drawer slide-in animation from top of viewport."
+      },
+      {
+        "name": "slideToTop",
+        "css": "@keyframes slideToTop{to{transform:translate3d(0,calc(var(--initial-transform,100%) * -1),0)}}",
+        "description": "Drawer slide-out animation to top of viewport."
+      },
+      {
+        "name": "slideFromLeft",
+        "css": "@keyframes slideFromLeft{from{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}to{transform:translate3d(0,0,0)}}",
+        "description": "Drawer slide-in animation from left of viewport."
+      },
+      {
+        "name": "slideToLeft",
+        "css": "@keyframes slideToLeft{to{transform:translate3d(calc(var(--initial-transform,100%) * -1),0,0)}}",
+        "description": "Drawer slide-out animation to left of viewport."
+      },
+      {
+        "name": "slideFromRight",
+        "css": "@keyframes slideFromRight{from{transform:translate3d(var(--initial-transform,100%),0,0)}to{transform:translate3d(0,0,0)}}",
+        "description": "Drawer slide-in animation from right of viewport."
+      },
+      {
+        "name": "slideToRight",
+        "css": "@keyframes slideToRight{to{transform:translate3d(var(--initial-transform,100%),0,0)}}",
+        "description": "Drawer slide-out animation to right of viewport."
+      },
+      {
+        "name": "drawer-transition",
+        "css": "transition: transform .5s cubic-bezier(.32, .72, 0, 1)",
+        "description": "Vaul drawer smooth transition with custom cubic-bezier easing for natural feel."
+      },
+      {
+        "name": "button-transition",
+        "css": "transition: background-color 160ms ease-out, border-color 160ms ease-out, color 160ms ease-out, transform 160ms ease-out, opacity 160ms ease-out",
+        "description": "Button state transition with 160ms ease-out-quad timing for color and transform changes."
+      },
+      {
+        "name": "nav-link-transition",
+        "css": "transition: background-color 75ms cubic-bezier(0.23, 1, 0.32, 1), color 75ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "description": "Fast navigation link hover transition with custom easing."
+      },
+      {
+        "name": "nav-button-transition",
+        "css": "transition: background-color 300ms cubic-bezier(0.23, 1, 0.32, 1), color 300ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "description": "Navigation CTA button hover transition with smooth 300ms timing."
+      },
+      {
+        "name": "button-press-scale",
+        "css": "",
+        "description": "Active button press scale effect (scale 0.98) applied via transform-gpu class, JS-driven interaction."
+      }
+    ],
+    "insights": [
+      "The design system uses a comprehensive CSS variable architecture with semantic naming (--surface-*, --content-*, --stroke-*) enabling seamless light/dark theme switching through the .dark class.",
+      "Button interactions follow a consistent 160ms ease-out-quad timing with subtle scale feedback (0.98) on press, creating responsive tactile feel without being distracting.",
+      "The page employs multiple drawer animation patterns (Vaul library) with custom cubic-bezier(.32, .72, 0, 1) easing for native-like smooth gesture interactions on mobile."
+    ]
+  }
+}

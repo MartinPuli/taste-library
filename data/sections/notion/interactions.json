@@ -1,0 +1,47 @@
+{
+  "id": "notion",
+  "source_url": "https://www.notion.com/",
+  "captured_at": "2026-10-08T00:42:08.521274Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/notion.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/notion.json",
+  "data": {
+    "global_patterns": [
+      "marquee",
+      "video_background",
+      "hover_transform",
+      "hover_lift"
+    ],
+    "animations": [
+      {
+        "name": "logo-wall-marquee",
+        "css": "",
+        "description": "Continuous horizontal scroll for the partner logo strip. JS-driven via CSS custom property --logo-wall-marquee-direction set to 'reverse'."
+      },
+      {
+        "name": "product-pill-animation",
+        "css": "",
+        "description": "Hero headline animated pill showing cycling product labels (Jam, Ship, etc.). JS-driven animation with CSS variables for color-background, color-dot, and pill-label-inline-size."
+      },
+      {
+        "name": "global-hover-transition",
+        "css": "transition: background-color 0.15s ease-in-out, opacity 0.15s ease-in-out",
+        "description": "Standard hover transition applied to interactive elements like nav links and buttons."
+      },
+      {
+        "name": "bento-card-hover",
+        "css": "",
+        "description": "Subtle lift/shadow effect on bento cards when hovered. Creates visual depth on feature showcase cards."
+      }
+    ],
+    "insights": [
+      "The design system relies heavily on a monochrome foundation (black with opacity variants) with a single blue (#097FE8) accent color for all CTAs, creating a clear visual hierarchy for conversion paths.",
+      "Button radius follows a consistent pill shape (rounded-full/9999px) for primary CTAs while navigation and utility buttons use subtle rounding (4px), reinforcing the document-first aesthetic.",
+      "The logo wall marquee uses CSS custom properties for direction control, allowing the same component to scroll in either direction without JavaScript animation logic changes."
+    ]
+  }
+}

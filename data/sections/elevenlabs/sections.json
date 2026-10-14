@@ -1,0 +1,276 @@
+{
+  "id": "elevenlabs",
+  "source_url": "https://elevenlabs.io/",
+  "captured_at": "2026-09-25T02:38:41.527311Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/elevenlabs.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/elevenlabs.json",
+  "data": [
+    {
+      "type": "Navigation",
+      "layout_pattern": "Horizontal centered with left logo and right CTAs",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "logo",
+          "description": "ElevenLabs logo on the left, black SVG icon"
+        },
+        {
+          "type": "navigation",
+          "description": "Horizontal menu with tabs: Products, Solutions, Customers, Resources, Enterprise, Pricing"
+        },
+        {
+          "type": "button",
+          "description": "White 'Log in' button with shadow"
+        },
+        {
+          "type": "button",
+          "description": "Black 'Sign up' button with white text"
+        }
+      ]
+    },
+    {
+      "type": "Hero",
+      "layout_pattern": "Split 50/50 - headline left, descriptive text right",
+      "headline": "Bringing technology to life",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Sign up' button, black background with white text"
+        },
+        {
+          "type": "button",
+          "description": "'Contact sales' button, white background with shadow"
+        },
+        {
+          "type": "button",
+          "description": "'Watch →' link in headline area"
+        }
+      ]
+    },
+    {
+      "type": "Product Tabs Section",
+      "layout_pattern": "Centered carousel with tabbed navigation",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Horizontal pill tabs - ElevenCreative (active), ElevenAgents, ElevenAPI with small product icons"
+        },
+        {
+          "type": "navigation",
+          "description": "Sub-tabs: AI Voice Generator, Text to Speech, Music, Speech to Text, Voice Cloning, Dubbing"
+        },
+        {
+          "type": "carousel",
+          "description": "Circular image carousel displaying 5+ spherical product images with colorful gradients (purple, orange, red, blue, dark)"
+        },
+        {
+          "type": "image",
+          "description": "Sphere images with gradient overlays - each has download links and captions underneath"
+        },
+        {
+          "type": "button",
+          "description": "Play button overlays on sphere images, white circular buttons with play icons"
+        },
+        {
+          "type": "button",
+          "description": "Left/right navigation arrows for carousel, gray circular buttons"
+        }
+      ]
+    },
+    {
+      "type": "Social Proof / Stats",
+      "layout_pattern": "Centered headline with horizontal stat grid below",
+      "headline": "Trusted by leading developers and enterprises",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Read all stories' button, white with shadow, positioned top right"
+        },
+        {
+          "type": "card",
+          "description": "7 statistic cards arranged horizontally with labels and values"
+        }
+      ]
+    },
+    {
+      "type": "Two Platforms Section",
+      "layout_pattern": "Centered with large image preview",
+      "headline": "Two platforms built on the same research foundation",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "image",
+          "description": "Dashboard/interface screenshot showing light mode analytics UI with soft blues and whites"
+        }
+      ]
+    },
+    {
+      "type": "Features - Create/Edit/Track",
+      "layout_pattern": "Split layout - large image left, text content right, 3-column feature cards below",
+      "headline": "Create, edit, and track content without breaking your workflow",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "image",
+          "description": "Orange-to-pink gradient interface screenshot with data visualization overlay"
+        },
+        {
+          "type": "card",
+          "description": "Three feature cards with icons below main image"
+        }
+      ]
+    },
+    {
+      "type": "Features - Deploy Agents",
+      "layout_pattern": "Centered with chat interface preview and 3-column feature cards",
+      "headline": "Deploy agents that talk, see, and take action",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "image",
+          "description": "Chat interface screenshot on teal-to-green gradient background with message bubbles"
+        },
+        {
+          "type": "card",
+          "description": "Three feature cards with icons displayed in a row"
+        }
+      ]
+    },
+    {
+      "type": "Developer / API Section",
+      "layout_pattern": "Centered with code examples and technical documentation",
+      "headline": "Q: Build anything with a powerful fleet of APIs",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "image",
+          "description": "Code editor screenshots with monochrome syntax highlighting"
+        },
+        {
+          "type": "image",
+          "description": "Technical documentation snippets with code examples"
+        }
+      ]
+    },
+    {
+      "type": "Impact Showcase",
+      "layout_pattern": "Grid 3-column with image cards",
+      "headline": "Showcasing the global impact of AI audio research",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "image",
+          "description": "Three rounded image cards - orange gradient abstract, person at desk, black & white portrait"
+        }
+      ]
+    },
+    {
+      "type": "Research Section",
+      "layout_pattern": "Centered with 3-column gradient image grid",
+      "headline": "Research that machines can turn into wisdom",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "image",
+          "description": "Three gradient/abstract images - red/blue split, purple gradient, green/nature blur"
+        }
+      ]
+    },
+    {
+      "type": "Safety Section",
+      "layout_pattern": "Grid 3-column with icon cards",
+      "headline": "Safety built in",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "card",
+          "description": "Three cards with minimal line art/wireframe illustrations and captions"
+        }
+      ]
+    },
+    {
+      "type": "Blog / Updates",
+      "layout_pattern": "Grid 3-column card layout",
+      "headline": "Latest updates",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Explore →' link positioned top right"
+        },
+        {
+          "type": "card",
+          "description": "Three blog cards with gradient/photo images - purple/pink, orange sunset, green nature - with titles and dates"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column grid with 3 main sections plus legal/social",
+      "headline": "AI Communication Platform",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "'Get API key' text link with underline"
+        },
+        {
+          "type": "button",
+          "description": "'Sign up →' solid black pill button"
+        },
+        {
+          "type": "navigation",
+          "description": "Three columns: Capabilities, Company, Resources with link lists"
+        },
+        {
+          "type": "icon",
+          "description": "Social media icons at bottom"
+        },
+        {
+          "type": "navigation",
+          "description": "Legal links at bottom"
+        }
+      ]
+    }
+  ]
+}

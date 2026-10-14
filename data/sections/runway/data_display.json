@@ -1,0 +1,42 @@
+{
+  "id": "runway",
+  "source_url": "https://runwayml.com/",
+  "captured_at": "2026-10-14T05:06:35.508514Z",
+  "quality": "extracted_unverified",
+  "warnings": [],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/runway.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/runway.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Product Feature Card",
+        "description": "Card displaying product platform with video thumbnail, title, description, and multiple CTA buttons arranged in a 3-column grid",
+        "when_to_use": [
+          "Showcasing product offerings on homepage",
+          "Feature comparison sections"
+        ]
+      },
+      {
+        "name": "News Article Card",
+        "description": "Horizontal card with image thumbnail on left and article title, description, and learn more link on right",
+        "when_to_use": [
+          "Blog/news listing sections",
+          "Latest updates feed"
+        ]
+      },
+      {
+        "name": "Research Link Card",
+        "description": "Compact list item with title, description, and arrow icon used in dark research section for linking to research papers",
+        "when_to_use": [
+          "Research publication listings",
+          "Model documentation links"
+        ]
+      }
+    ]
+  }
+}

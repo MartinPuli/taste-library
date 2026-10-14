@@ -1,0 +1,423 @@
+{
+  "id": "krea",
+  "source_url": "https://www.krea.ai/",
+  "captured_at": "2026-10-06T07:31:35.822728Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "sections",
+  "has_data": true,
+  "source_file": "data/raw/krea.json",
+  "source_pointer": "/result/design_system/sections",
+  "review_file": "data/reviews/krea.json",
+  "data": [
+    {
+      "type": "Header",
+      "layout_pattern": "Fixed top navigation, left-aligned logo, center search, right action buttons",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Black background (#000000), hamburger menu icon, logo left, search bar center, white icons on right"
+        },
+        {
+          "type": "button",
+          "description": "'+' create new icon, white on black"
+        },
+        {
+          "type": "image",
+          "description": "Circular profile avatar, right-aligned"
+        }
+      ]
+    },
+    {
+      "type": "Sidebar Navigation",
+      "layout_pattern": "Fixed left sidebar, vertical navigation menu",
+      "headline": "Krea",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "navigation",
+          "description": "Dark charcoal background (#1a1a1a), vertical menu items with icons and labels"
+        },
+        {
+          "type": "button",
+          "description": "Toggle sidebar button with menu icon"
+        },
+        {
+          "type": "navigation",
+          "description": "Menu items: Home, Explore, Create, Library, Profile, Settings with icon images"
+        },
+        {
+          "type": "button",
+          "description": "Dropdown menu button for organization/workspace selection"
+        }
+      ]
+    },
+    {
+      "type": "Hero Carousel",
+      "layout_pattern": "Full-width horizontal scrolling carousel",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Horizontal auto-scrolling carousel of hero cards, full-width banners"
+        },
+        {
+          "type": "card",
+          "description": "After Effects plugin card with video background showing workspace, blue gradient banner"
+        },
+        {
+          "type": "video",
+          "description": "Autoplay looping video backgrounds for each hero card"
+        },
+        {
+          "type": "button",
+          "description": "White rounded-full primary CTA buttons 'Get the plugin', 'Try FLUX 3 Image', etc."
+        },
+        {
+          "type": "button",
+          "description": "Translucent secondary buttons with backdrop blur, white/40 background"
+        }
+      ]
+    },
+    {
+      "type": "Featured Banners Section",
+      "layout_pattern": "Full-width carousel with navigation arrows",
+      "headline": "Krea After Effects Plugin",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Large promotional banner cards with video/image backgrounds, rounded-2xl corners"
+        },
+        {
+          "type": "button",
+          "description": "Carousel navigation arrows, left/right, circular secondary buttons"
+        },
+        {
+          "type": "video",
+          "description": "Background videos showcasing plugin features, After Effects integration"
+        }
+      ]
+    },
+    {
+      "type": "Tools Grid",
+      "layout_pattern": "Grid layout, 2-column mobile, 3-column desktop (@xl breakpoint), responsive masonry",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Tool cards with dark gray/muted background, icon images (Image, Video, Enhancer, etc.), rounded-2xl"
+        },
+        {
+          "type": "image",
+          "description": "Tool icons 128px optimized WebP images, size-7 display"
+        },
+        {
+          "type": "card",
+          "description": "Agent card spanning full width with video background, larger featured card"
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA overlays on hover, black background with white text"
+        }
+      ]
+    },
+    {
+      "type": "Navigation Tools",
+      "layout_pattern": "Collapsible sidebar section with vertical list",
+      "headline": "Tools",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Collapsible section header button"
+        },
+        {
+          "type": "navigation",
+          "description": "Vertical list of tool links with icons: Image, Video, Enhancer, Seedance Studio, Nano Banana, Realtime, Edit"
+        },
+        {
+          "type": "button",
+          "description": "Three-dot ellipsis menu buttons for each tool, opacity-0 by default, visible on hover"
+        },
+        {
+          "type": "image",
+          "description": "Tool icons, optimized WebP format, 128px source"
+        }
+      ]
+    },
+    {
+      "type": "Agent Templates Section",
+      "layout_pattern": "Horizontal scrolling carousel",
+      "headline": "Create with Krea Agent",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "carousel",
+          "description": "Horizontal scrolling template showcase, -ml-8 offset"
+        },
+        {
+          "type": "card",
+          "description": "Template cards h-80 w-74/sm:w-124, video/image backgrounds, rounded-2xl"
+        },
+        {
+          "type": "video",
+          "description": "Looping preview videos showing template examples (watercolor, commercial mockups, outfit montage)"
+        },
+        {
+          "type": "button",
+          "description": "Carousel navigation arrows at top right, secondary style"
+        },
+        {
+          "type": "button",
+          "description": "'Use template' CTA overlays, rounded-full, visible on hover"
+        }
+      ]
+    },
+    {
+      "type": "FLUX 3 Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": "FLUX 3 Image",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Background video showing FLUX 3 demonstrations, poster image fallback"
+        },
+        {
+          "type": "logo",
+          "description": "FLUX logo SVG, white color, size-7"
+        },
+        {
+          "type": "button",
+          "description": "Primary CTA 'Try FLUX 3 Image' rounded-full, white background"
+        },
+        {
+          "type": "button",
+          "description": "Secondary 'Read more' button, translucent backdrop blur"
+        }
+      ]
+    },
+    {
+      "type": "Ideogram Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": "Ideogram 4.5",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Background video, Ideogram 4.5 demo"
+        },
+        {
+          "type": "logo",
+          "description": "Ideogram logo SVG"
+        },
+        {
+          "type": "button",
+          "description": "'Try Ideogram 4.5' primary CTA"
+        }
+      ]
+    },
+    {
+      "type": "Krea Agent Featured",
+      "layout_pattern": "Large featured card with video background",
+      "headline": "Krea Agent",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Agent launch demo video background, autoplay muted loop"
+        },
+        {
+          "type": "button",
+          "description": "'Open Agent' primary CTA, black background white text"
+        },
+        {
+          "type": "image",
+          "description": "Agent backdrop JPG, static fallback"
+        }
+      ]
+    },
+    {
+      "type": "GPT Image Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": "GPT Image 2.5",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Background video demonstrating GPT Image capabilities"
+        },
+        {
+          "type": "logo",
+          "description": "OpenAI logo SVG, white color"
+        }
+      ]
+    },
+    {
+      "type": "Seedance Studio Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Seedance Studio 4k demo video"
+        },
+        {
+          "type": "button",
+          "description": "'Open Seedance Studio' primary CTA"
+        }
+      ]
+    },
+    {
+      "type": "Seedance 2.5 Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": "Seedance 2.5",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Seedance 2.5 hero demo video"
+        },
+        {
+          "type": "logo",
+          "description": "Bytedance logo SVG"
+        }
+      ]
+    },
+    {
+      "type": "MiniMax Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": "MiniMax H3",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "MiniMax H3 demo video"
+        },
+        {
+          "type": "logo",
+          "description": "MiniMax logo SVG"
+        }
+      ]
+    },
+    {
+      "type": "Krea 2 Announcement",
+      "layout_pattern": "Full-width hero card with centered text",
+      "headline": "Introducing Krea 2",
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Sky/clouds background image, light blue (#4a90d8)"
+        },
+        {
+          "type": "card",
+          "description": "Rounded-2xl card with gradient background"
+        }
+      ]
+    },
+    {
+      "type": "Seedance 2 Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Seedance 2 hero demo video"
+        },
+        {
+          "type": "image",
+          "description": "Seedance2 title SVG logo overlay"
+        }
+      ]
+    },
+    {
+      "type": "Krea 2 Video Banner",
+      "layout_pattern": "Full-width hero card",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "video",
+          "description": "Krea 2 video 6-second demo"
+        }
+      ]
+    },
+    {
+      "type": "Additional Banners",
+      "layout_pattern": "Full-width hero cards",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "image",
+          "description": "Static promotional images for various features"
+        },
+        {
+          "type": "button",
+          "description": "CTA overlays on hover"
+        }
+      ]
+    },
+    {
+      "type": "Quick Access Grid",
+      "layout_pattern": "Grid 2-column mobile, 3-column @xl, mixed with larger featured card",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "card",
+          "description": "Feature cards: Create images, After Effects, Create videos, Edit by typing, Connect agent, Render as you draw"
+        },
+        {
+          "type": "icon",
+          "description": "Tool icons with icon-pulse and icon-shine animations on hover"
+        },
+        {
+          "type": "card",
+          "description": "Dark muted background cards (bg-muted), rounded-2xl, min-h-32"
+        }
+      ]
+    },
+    {
+      "type": "Sidebar Footer",
+      "layout_pattern": "Vertical stacked links at bottom of sidebar",
+      "headline": null,
+      "subheadline": null,
+      "components": [
+        {
+          "type": "button",
+          "description": "Pricing link with gradient glow, blue gradient background, '40% off' badge"
+        },
+        {
+          "type": "button",
+          "description": "Enterprise link"
+        },
+        {
+          "type": "button",
+          "description": "'Sign in' button, large, centered, dark background with white text"
+        },
+        {
+          "type": "navigation",
+          "description": "Link to Krea Agent with icon"
+        }
+      ]
+    },
+    {
+      "type": "Footer",
+      "layout_pattern": "Multi-column footer (not visible in HTML excerpt)",
+      "headline": null,
+      "subheadline": null,
+      "components": []
+    }
+  ]
+}

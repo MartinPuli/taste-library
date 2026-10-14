@@ -1,0 +1,59 @@
+{
+  "id": "openai",
+  "source_url": "https://openai.com/",
+  "captured_at": "2026-10-14T05:11:51.490971Z",
+  "quality": "limited",
+  "warnings": [
+    "Possible incomplete style loading: Times New Roman was detected. Check typography and colors against the capture before use."
+  ],
+  "section": "interactions",
+  "has_data": true,
+  "source_file": "data/raw/openai.json",
+  "source_pointer": "/result/design_system/interactions",
+  "review_file": "data/reviews/openai.json",
+  "data": {
+    "global_patterns": [
+      "sticky_header",
+      "hover_transform",
+      "scroll_reveal",
+      "carousel"
+    ],
+    "animations": [
+      {
+        "name": "fade-in",
+        "css": "@keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }",
+        "description": "Fade-in animation for images as they load, referenced by animate-fade-in class on article card images"
+      },
+      {
+        "name": "card-image-scale",
+        "css": "transition: transform 0.3s",
+        "description": "Image scale transform on hover for article cards, scales to 1.025 or 1.04 depending on card size"
+      },
+      {
+        "name": "global-ease",
+        "css": "transition: opacity 0.18s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.18s cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "description": "Primary easing curve used for button and interactive element transitions across the site"
+      },
+      {
+        "name": "header-transition",
+        "css": "transition: background-color",
+        "description": "Background color transition for the sticky header bar as user scrolls"
+      },
+      {
+        "name": "mobile-drawer",
+        "css": "transition: clip-path",
+        "description": "Clip-path transition for mobile navigation drawer reveal animation"
+      },
+      {
+        "name": "scroll-control-fade",
+        "css": "transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 150ms ease-in-out, box-shadow 150ms ease-in-out",
+        "description": "Opacity and styling transition for horizontal scroll overflow controls in chart/carousel components"
+      }
+    ],
+    "insights": [
+      "The design system uses a highly consistent pill/rounded-full button shape across all interactive elements from CTAs to icon buttons, creating strong visual cohesion.",
+      "Article cards employ a subtle hover scale transform (1.025-1.04x) on images only while keeping text static, providing elegant feedback without overwhelming motion.",
+      "The color palette is extremely minimal using primarily black/white with opacity variants (4%, 12%, 44%, 60%, 80%) for all UI states rather than distinct color tokens."
+    ]
+  }
+}

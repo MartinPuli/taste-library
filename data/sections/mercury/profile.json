@@ -1,0 +1,57 @@
+{
+  "id": "mercury",
+  "source_url": "https://mercury.com/",
+  "captured_at": "2026-10-06T07:33:29.968243Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Sections without data: brand_assets."
+  ],
+  "section": "profile",
+  "has_data": true,
+  "source_file": "data/raw/mercury.json",
+  "source_pointer": "/result/design_system/profile",
+  "review_file": "data/reviews/mercury.json",
+  "data": {
+    "brand_name": "Mercury",
+    "tagline": null,
+    "source_url": "https://mercury.com",
+    "page_type_category": "Core Marketing",
+    "page_type": "Homepage",
+    "industry": "Fintech / Business Banking",
+    "primary_purpose": "Drive signups for business banking accounts and showcase Mercury's full-stack financial platform for startups and businesses",
+    "main_cta": "Open account",
+    "copy_tone": [
+      "Confident",
+      "Sophisticated",
+      "Direct"
+    ],
+    "brand_signature": "Mercury employs a refined dark neutral palette with deep purples and muted grays, creating a premium yet approachable fintech aesthetic. The visual system balances editorial sophistication through custom Arcadia typography with functional clarity in UI elements, unified by subtle gradient treatments and frosted glass effects.",
+    "visual_language": {
+      "keywords": [
+        "premium",
+        "editorial",
+        "refined",
+        "institutional",
+        "tech-forward"
+      ],
+      "accent_strategy": "Purple-blue primary accent (#5266eb) used sparingly for CTAs and interactive elements against dark neutral backgrounds, creating visual hierarchy without overwhelming the sophisticated palette",
+      "highlights": "Frosted glass surfaces with subtle transparency layers, gradient overlays on hero imagery, and soft glow effects that suggest depth and dimension"
+    },
+    "strategy": {
+      "target_audience": [
+        "Startup founders and entrepreneurs seeking modern banking infrastructure",
+        "Finance leaders at growth-stage companies needing treasury and spend management",
+        "Tech-savvy business operators who value design and user experience in financial tools"
+      ],
+      "executive_synthesis": "Mercury's visual identity strategically positions the brand as the premium banking choice for ambitious companies. The dark, sophisticated palette with refined purple accents signals institutional credibility while maintaining the approachability that startups expect. The editorial typography and clean component design create trust through perceived quality, while the comprehensive product ecosystem (banking, cards, accounting, treasury) is organized through clear visual hierarchy. The 'Radically different banking' hero messaging paired with the polished aesthetic creates contrast with traditional banking, appealing to founders who see their financial stack as an extension of their company's sophistication."
+    },
+    "style_classification": {
+      "primary_style": "Glassmorphism",
+      "confidence": "High",
+      "category_style": "Digital/UI Design",
+      "reasoning": "The texture profile is the definitive signal here: \"glass_blur\" and \"shadows_soft\" are the PRIMARY texture classifications, which directly maps to Glassmorphism in the taxonomy. The forensic evidence is overwhelming:\n\n**Shape + Texture Match (Primary Signal):**\n- Texture explicitly lists \"backdrop-filter: blur(20px)\", \"backdrop-filter: blur(10px)\", and \"backdrop-filter: blur(6px)\" - the defining technical signature of Glassmorphism\n- \"Frosted border effects: 1px borders with #70739338 (frosted color with 22% opacity) on glass surfaces\" - classic glassmorphism treatment\n- Multiple \"Glass Panel\" and \"Surface Frosted\" surfaces defined with transparency (#7073931A = 10% opacity)\n- \"Feathered blur masks\" creating composite gradient fades\n\n**Color Palette Match:**\n- Cool colors dominating: deep blues (#171721), purples (#5266EB), and soft neutrals\n- Pastel-adjacent surface colors (#F5F4FD purple tint, #EEF7FA blue tint)\n- Low contrast, refined palette with subtle transparency variations\n\n**Typography Match:**\n- Clean sans-serif modern (Arcadia) as primary\n- Geometric, refined display typography with variable weights (360, 420, 480)\n- Editorial serif (Tiempos Fine) for accent - adding sophistication\n\n**Layout Match:**\n- Generous whitespace with centered symmetric composition\n- Grid-based strict with 16 columns and 32px gutters\n- Rounded corners (0.75rem to 2rem) throughout - soft geometric shapes\n\n**Visual Evidence from Screenshot:**\n- Dramatic mountain landscape hero with frosted overlays\n- Dark UI product mockups floating on light backgrounds with soft shadows\n- Layered depth with transparency effects visible throughout\n- Premium, sophisticated aesthetic with refined surfaces",
+      "secondary_style": "Elegant",
+      "reasoning_secondary": "The Elegant tonal modifier is strongly justified by the design's execution and intent:\n\n**Luxury Indicators:**\n- Proprietary, custom variable fonts (Arcadia family) with hyper-specific weights (360, 420, 480) - not standard web fonts\n- Serif editorial accent (Tiempos Fine) for sophisticated moments\n- Dramatic landscape photography with moody, aspirational lighting\n- Premium product imagery (MacBook Pro mockups, metal card renders)\n\n**Refinement Signals:**\n- Extreme attention to spacing (72px, 112px, 128px padding scales)\n- Subtle frosted borders rather than harsh lines\n- Soft shadow systems with multiple layered shadows\n- Muted, sophisticated color palette avoiding bright/garish tones\n\n**Brand Positioning:**\n- \"Radically different banking\" - premium fintech positioning\n- Press logos (CNBC, Fortune, WSJ) suggesting establishment credibility\n- Dark theme sections for security features conveying trust and exclusivity\n\nThe design achieves \"quality, refined, understated\" - the exact definition of Elegant in the taxonomy. It's Glassmorphism executed with premium fintech sensibility rather than playful tech aesthetics."
+    }
+  }
+}

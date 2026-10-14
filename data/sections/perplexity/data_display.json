@@ -1,0 +1,29 @@
+{
+  "id": "perplexity",
+  "source_url": "https://perplexity.ai/",
+  "captured_at": "2026-10-14T08:54:30.860526Z",
+  "quality": "extracted_unverified",
+  "warnings": [
+    "Public search interface; does not cover every product screen."
+  ],
+  "section": "data_display",
+  "has_data": true,
+  "source_file": "data/raw/perplexity.json",
+  "source_pointer": "/result/design_system/data_display",
+  "review_file": "data/reviews/perplexity.json",
+  "data": {
+    "charts": [],
+    "tables": [],
+    "tiles": [
+      {
+        "name": "Feature Card",
+        "description": "Gradient-background cards promoting key features like Search and Computer modes, with icon, title, optional badge, and description",
+        "when_to_use": [
+          "Feature promotion on landing/home views",
+          "Onboarding education cards",
+          "Mode selection interfaces"
+        ]
+      }
+    ]
+  }
+}
