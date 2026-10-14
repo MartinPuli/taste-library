@@ -1,36 +1,32 @@
 # superwhisper
 
-Presentar una herramienta de voz con demostraciones y un fondo oscuro de escritorio.
+Present a voice tool through demonstrations on a dark desktop background.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-08-31T02:39:50.943536Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | productivity |
-| Recursos visuales | dark-technical, cinematic |
+| Cosign rank | 24 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-08-31T02:39:50.943536Z |
+| Suggested uses | productivity |
+| Visual approach | dark-technical, cinematic |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: Inter, System Sans, System Mono, Flow Circular.
-- Paleta registrada: #000000, #FFFFFF, #0088FF, #DD55E7, #16C253, #FFDD00, #471848, #7A7A7A, #9CCCC2, #112D72, #022044, #CD4015, #000000, #FFFFFF.
-- Grilla: `{"columns": 12, "gutter": "1rem", "max_width": "1280px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: Inter, System Sans, System Mono, Flow Circular.
+- Recorded palette: #000000, #FFFFFF, #0088FF, #DD55E7, #16C253, #FFDD00, #471848, #7A7A7A, #9CCCC2, #112D72, #022044, #CD4015, #000000, #FFFFFF.
+- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "1280px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://superwhisper.com/) · [Extracción](../data/raw/superwhisper.json) · [Tokens](../data/tokens/superwhisper.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://superwhisper.com/) · [Extraction](../data/raw/superwhisper.json) · [Tokens](../data/tokens/superwhisper.json)
 
 ```sh
 python3 scripts/query.py show superwhisper --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

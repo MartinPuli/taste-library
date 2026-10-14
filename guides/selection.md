@@ -1,31 +1,31 @@
-# Elegir una referencia
+# Choosing a reference
 
-Empezá por la tarea que debe resolver la interfaz. Una página para presentar un dispositivo necesita evidencia visual del objeto; una herramienta de trabajo necesita jerarquía que permita encontrar acciones y estados sin adivinarlos.
+Start with the task the interface needs to support. A device launch needs images that explain the object; a work tool needs a hierarchy that makes actions and states easy to find.
 
-Anotá el público, la acción principal, el contenido disponible y las restricciones del proyecto. Si solo tenés capturas de producto, una referencia que depende de fotografía de estudio puede costar más de lo que aporta.
+Write down the audience, primary action, available content, and project constraints. If you only have product screenshots, a direction built around studio photography may require more production work than the project can support.
 
-## Buscar y comparar
+## Search and compare
 
-Usá `query.py search` para obtener candidatas. El puntaje cuenta coincidencias de palabras y etiquetas; no mide gusto ni calidad. Una coincidencia de sector tampoco obliga a copiar su estética.
+Use `query.py search` to find candidates. Its score counts word and tag matches, not taste or design quality. Sharing an industry is a reason to investigate a reference, not a reason to adopt its appearance.
 
-Leé las fichas y descartá las que dependan de recursos que no tenés. Para las restantes, compará:
+Read the profiles and set aside candidates that depend on resources you lack. Compare the remaining options:
 
-| Pregunta | Evidencia que conviene buscar |
+| Question | Evidence to inspect |
 |---|---|
-| ¿Ayuda a completar la tarea principal? | Navegación, acciones y estructura de la página capturada |
-| ¿Encaja con la cantidad y el tipo de contenido? | Grilla, densidad, ritmo de secciones y protagonismo de las imágenes |
-| ¿El tono sirve para este público? | Tipografía, contraste, fotografía y ejemplos del producto |
-| ¿Podemos construirlo con los recursos disponibles? | Fuentes, material visual, movimiento y comportamiento móvil |
-| ¿La extracción permite confiar en ese detalle? | Fecha, sección original, avisos de calidad y captura, si está disponible |
+| Does it support the primary task? | Navigation, actions, and page structure |
+| Does it suit the content? | Grid, density, section rhythm, and the role of images |
+| Does the tone fit the audience? | Typography, contrast, photography, and product examples |
+| Can we build it with available resources? | Fonts, visual assets, motion, and mobile behavior |
+| Can we support this specific choice? | Capture date, source section, evidence metadata, and screenshot |
 
-No conviertas esto en una nota numérica inventada. Escribí el motivo por el que una candidata encaja mejor y qué perdés al descartar la otra.
+Explain why one candidate fits better and what you give up by passing on another. An invented numerical design score adds little to that decision.
 
-## Decidir qué adoptar
+## Decide what to adopt
 
-Nombrá el recurso concreto: jerarquía de títulos, distribución de tarjetas, alternancia de fondos o comportamiento de un menú. «Hacerlo como Apple» deja demasiadas decisiones sin resolver.
+Name the actual pattern: heading hierarchy, card arrangement, alternating backgrounds, or menu behavior. “Make it like Apple” leaves too much unspecified.
 
-Por ejemplo, para un producto físico podrías estudiar la escala de las fotos y el ritmo de Apple, mientras mantenés los colores del proyecto. Esto es un ejemplo de método, no una elección automática para cualquier producto físico.
+For example, a physical product page could borrow the scale and pacing of Apple’s product images while keeping the project’s own colors. That is a method for adapting a reference, not a default choice for every hardware product.
 
-Usá una referencia principal y explicá las adaptaciones. Si una segunda resuelve una carencia, limitá su aporte a un elemento identificable; mezclar paletas, radios y fuentes de varias marcas suele dejar decisiones contradictorias.
+Use one primary reference and explain the adaptations. If a second reference contributes something useful, keep that contribution specific. Combining palettes, corner radii, and typefaces from several brands can create conflicting rules.
 
-Antes de implementar un valor dudoso, contrastalo con el sitio o su captura. Verificá después legibilidad, teclado, contraste y comportamiento móvil en el resultado que construyas: la presencia de una marca en esta colección no prueba ninguno de esos puntos.
+Check uncertain values against the source before implementing them. Evaluate readability, keyboard access, contrast, and mobile behavior in the interface you build; a reference’s place in the Cosign ranking does not establish those properties.

@@ -1,36 +1,32 @@
 # Natural
 
-Combinar contenido técnico y fotografía de naturaleza para explicar infraestructura de pagos.
+Combine technical content and nature photography to explain payment infrastructure.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-09-16T05:13:16.972528Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | fintech, developer-tools |
-| Recursos visuales | warm-editorial, modular |
+| Cosign rank | 23 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-09-16T05:13:16.972528Z |
+| Suggested uses | fintech, developer-tools |
+| Visual approach | warm-editorial, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: STK Miso, GT Standard Mono.
-- Paleta registrada: #161514, #FFFFFF, #71706F, #111400, #AFAFAF.
-- Grilla: `{"columns": 12, "gutter": "20px", "max_width": "1440px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: STK Miso, GT Standard Mono.
+- Recorded palette: #161514, #FFFFFF, #71706F, #111400, #AFAFAF.
+- Grid: `{"columns": 12, "gutter": "20px", "max_width": "1440px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://www.natural.com/) · [Extracción](../data/raw/natural.json) · [Tokens](../data/tokens/natural.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.natural.com/) · [Extraction](../data/raw/natural.json) · [Tokens](../data/tokens/natural.json)
 
 ```sh
 python3 scripts/query.py show natural --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

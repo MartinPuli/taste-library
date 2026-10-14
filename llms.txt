@@ -1,14 +1,16 @@
 # taste-library
 
-Referencias de diseño extraídas con TasteLabs. Leer el índice antes de abrir datos completos.
+Design references from the top 40 companies in Cosign’s High Taste Companies ranking, extracted with TasteLabs. Read the catalog before opening full records.
 
-## Entradas
+## Entry points
 
-- [Instrucciones para agentes](AGENTS.md): orden de lectura y límites de la evidencia.
-- [Catálogo](catalog/index.json): 40 referencias, con etiquetas, rutas y advertencias.
-- [Selección](guides/selection.md): cómo comparar referencias contra un brief.
-- [Índice por uso](catalog/by-use-case.md): grupos para buscar candidatas.
-- [Índice por estilo](catalog/by-style.md): patrones visuales.
-- [Procedencia](data/manifest.json): fechas y hashes.
+- [Agent instructions](AGENTS.md): reading order and evidence handling.
+- [Catalog](catalog/index.json): 40 references with tags, paths, and metadata.
+- [Selection guide](guides/selection.md): compare references against a project brief.
+- [Use-case index](catalog/by-use-case.md): find candidates by project type.
+- [Style index](catalog/by-style.md): find visual patterns.
+- [Provenance](data/manifest.json): source URLs, dates, and hashes.
 
-Las fichas están en profiles/<id>.md. Para abrir una sección puntual: python3 scripts/query.py show <id> --section typography.
+Profiles live in profiles/<id>.md. Read one section with: python3 scripts/query.py show <id> --section typography.
+
+Ranking source: https://cosign.co/questions/highest-taste-companies

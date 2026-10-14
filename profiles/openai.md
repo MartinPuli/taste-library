@@ -1,36 +1,32 @@
 # OpenAI
 
-Revisar la captura antes de tomar valores: la extracción mezcla una descripción visual con fuentes de respaldo.
+Study how content cards organize research and product information into a browsable page.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-10-14T05:11:51.490971Z |
-| Calidad | `limited` |
-| Uso sugerido | editorial-research, creative-tools |
-| Recursos visuales | modular |
+| Cosign rank | 19 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-10-14T05:11:51.490971Z |
+| Suggested uses | editorial-research, creative-tools |
+| Visual approach | modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: Times New Roman, Arial, monospace.
-- Paleta registrada: #000000, #0000EE, #F0F0F0, #767676, #101010.
-- Grilla: `{"columns": 12, "gutter": "24px", "max_width": "1728px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+- Detected type families: Times New Roman, Arial, monospace.
+- Recorded palette: #000000, #0000EE, #F0F0F0, #767676, #101010.
+- Grid: `{"columns": 12, "gutter": "24px", "max_width": "1728px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Posible carga incompleta de estilos: se detectó Times New Roman. Revisar tipografía y colores contra la captura antes de usarlos.
-
-## Fuente y acceso
-
-[Sitio](https://openai.com/) · [Extracción](../data/raw/openai.json) · [Tokens](../data/tokens/openai.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://openai.com/) · [Extraction](../data/raw/openai.json) · [Tokens](../data/tokens/openai.json)
 
 ```sh
 python3 scripts/query.py show openai --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

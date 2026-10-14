@@ -1,36 +1,32 @@
 # Airbnb
 
-Estudiar tarjetas de propiedades, navegación de búsqueda y fotografías que permiten comparar opciones.
+Study property cards, search navigation, and photos that help people compare options.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-10-08T15:15:43.471119Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | hospitality, media-discovery |
-| Recursos visuales | image-led, modular |
+| Cosign rank | 27 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-10-08T15:15:43.471119Z |
+| Suggested uses | hospitality, media-discovery |
+| Visual approach | image-led, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: Airbnb Cereal VF.
-- Paleta registrada: #222222, #6C6C6C, #FFFFFF, #C1C1C1, #000000.
-- Grilla: `{"columns": 12, "gutter": "24px", "max_width": "1440px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+- Detected type families: Airbnb Cereal VF.
+- Recorded palette: #222222, #6C6C6C, #FFFFFF, #C1C1C1, #000000.
+- Grid: `{"columns": 12, "gutter": "24px", "max_width": "1440px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-No registramos una incidencia específica; la extracción todavía no tiene revisión visual.
-
-## Fuente y acceso
-
-[Sitio](https://www.airbnb.com/) · [Extracción](../data/raw/airbnb.json) · [Tokens](../data/tokens/airbnb.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.airbnb.com/) · [Extraction](../data/raw/airbnb.json) · [Tokens](../data/tokens/airbnb.json)
 
 ```sh
 python3 scripts/query.py show airbnb --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

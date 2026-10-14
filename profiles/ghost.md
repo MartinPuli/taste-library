@@ -1,36 +1,32 @@
 # Ghost
 
-Estudiar el ritmo entre secciones oscuras y claras; la extracción no permite adoptar una paleta estructurada.
+Study the rhythm between dark and light sections in a hardware presentation.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-10-14T08:53:53.351064Z |
-| Calidad | `limited` |
-| Uso sugerido | hardware |
-| Recursos visuales | cinematic, dark-technical |
+| Cosign rank | 20 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-10-14T08:53:53.351064Z |
+| Suggested uses | hardware |
+| Visual approach | cinematic, dark-technical |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: Archivo, Archivo Narrow.
-- Paleta registrada: sin valores.
-- Grilla: `{"columns": 12, "gutter": "2rem", "max_width": "1512px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+- Detected type families: Archivo, Archivo Narrow.
+- Recorded palette: See source record.
+- Grid: `{"columns": 12, "gutter": "2rem", "max_width": "1512px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Paleta vacía en el resultado de TasteLabs; no se infieren colores.
-
-## Fuente y acceso
-
-[Sitio](https://ghost.ai/) · [Extracción](../data/raw/ghost.json) · [Tokens](../data/tokens/ghost.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://ghost.ai/) · [Extraction](../data/raw/ghost.json) · [Tokens](../data/tokens/ghost.json)
 
 ```sh
 python3 scripts/query.py show ghost --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

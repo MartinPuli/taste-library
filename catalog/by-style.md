@@ -1,141 +1,141 @@
-# Referencias por recurso visual
+# References by visual approach
 
-Agrupación editorial basada en las extracciones. Una misma marca puede servir para más de un caso.
+Design references from [Cosign’s ranking](https://cosign.co/questions/highest-taste-companies), grouped by our reading of the TasteLabs extractions. A reference can serve more than one purpose.
 
 ## warm-editorial
 
-Fondos cálidos y composición editorial.
+Warm backgrounds and editorial composition.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Notion](../profiles/notion.md) | Combinar capturas del producto con ilustraciones para explicar tareas sin llenar la página de controles. |
-| [ElevenLabs](../profiles/elevenlabs.md) | Estudiar fondos crema, controles redondeados y capas discretas para herramientas de audio. |
-| [Anthropic](../profiles/anthropic.md) | Dar jerarquía a contenidos de investigación con fondos claros cálidos y contraste entre serif y sans. |
-| [Cursor](../profiles/cursor.md) | Mostrar una herramienta técnica sobre fondos cálidos con ejemplos de uso y tarjetas discretas. |
-| [Sandbar](../profiles/sandbar.md) | Presentar un objeto pequeño con fotografía cercana, video y espacio entre mensajes. |
-| [Mercury](../profiles/mercury.md) | Estudiar el contraste tipográfico y las superficies sobrias en la presentación de un servicio financiero. |
-| [Natural](../profiles/natural.md) | Combinar contenido técnico y fotografía de naturaleza para explicar infraestructura de pagos. |
-| [Perplexity](../profiles/perplexity.md) | Concentrar la página alrededor de la búsqueda y dejar las funciones secundarias en segundo plano. |
-| [Paper](../profiles/paper.md) | Combinar una base crema con grillas y detalles geométricos en la presentación de una herramienta de diseño. |
-| [Pangram](../profiles/pangram.md) | Estudiar fondos crema, bloques de datos y acentos de color en un producto de detección de texto. |
-| [Wander](../profiles/wander.md) | Dar espacio a las fotos de alojamientos y usar controles discretos para explorar y comparar. |
-| [MTS](../profiles/mts.md) | Usar tramados, marcos y tipografía monoespaciada para dar identidad a una publicación técnica. |
+| [Notion](../profiles/notion.md) | Pair product screenshots with illustrations to explain tasks without filling the page with controls. |
+| [ElevenLabs](../profiles/elevenlabs.md) | Study cream backgrounds, rounded controls, and subtle layers for audio tools. |
+| [Anthropic](../profiles/anthropic.md) | Give research content hierarchy through warm light backgrounds and serif/sans contrast. |
+| [Cursor](../profiles/cursor.md) | Present a technical tool on warm backgrounds with usage examples and restrained cards. |
+| [Sandbar](../profiles/sandbar.md) | Introduce a small object through close photography, video, and space between messages. |
+| [Mercury](../profiles/mercury.md) | Study type contrast and restrained surfaces in a financial-service presentation. |
+| [Natural](../profiles/natural.md) | Combine technical content and nature photography to explain payment infrastructure. |
+| [Perplexity](../profiles/perplexity.md) | Center the page on search and keep secondary functions subordinate. |
+| [Paper](../profiles/paper.md) | Combine a cream base with grids and geometric details when presenting a design tool. |
+| [Pangram](../profiles/pangram.md) | Study cream backgrounds, data blocks, and color accents in a text-detection product. |
+| [Wander](../profiles/wander.md) | Give accommodation photos space and use restrained controls for browsing and comparison. |
+| [MTS](../profiles/mts.md) | Use dithering, frames, and monospace type to give a technical publication its identity. |
 
 ## dark-technical
 
-Superficies oscuras con tratamiento técnico.
+Dark surfaces with technical styling.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Linear](../profiles/linear.md) | Organizar demostraciones de herramientas con paneles oscuros, bordes finos y jerarquía tipográfica. |
-| [Midjourney](../profiles/midjourney.md) | Explorar una presentación oscura con monoespaciadas e imágenes como evidencia de capacidad creativa. |
-| [Ghost](../profiles/ghost.md) (datos limitados) | Estudiar el ritmo entre secciones oscuras y claras; la extracción no permite adoptar una paleta estructurada. |
-| [SpaceX](../profiles/spacex.md) | Presentar maquinaria e ingeniería con imágenes de gran escala y títulos en mayúsculas. |
-| [Krea](../profiles/krea.md) | Dar prioridad a muestras visuales dentro de una interfaz oscura de herramientas creativas. |
-| [superwhisper](../profiles/superwhisper.md) | Presentar una herramienta de voz con demostraciones y un fondo oscuro de escritorio. |
-| [Spotify](../profiles/spotify.md) | Dejar que portadas y artistas aporten color sobre superficies oscuras con navegación persistente. |
-| [NVIDIA](../profiles/nvidia.md) | Combinar demostraciones técnicas y fotografía con bloques informativos y un acento verde. |
-| [Framer](../profiles/framer.md) | Mostrar la herramienta y sus resultados dentro de una página oscura con demostraciones de interfaz. |
-| [Photon](../profiles/photon.md) | Mostrar integraciones y ejemplos de código con fondos oscuros y acentos de espectro. |
+| [Linear](../profiles/linear.md) | Organize tool demonstrations with dark panels, fine borders, and clear type hierarchy. |
+| [Midjourney](../profiles/midjourney.md) | Explore a dark presentation with monospace type and images as evidence of creative capability. |
+| [Ghost](../profiles/ghost.md) | Study the rhythm between dark and light sections in a hardware presentation. |
+| [SpaceX](../profiles/spacex.md) | Present machinery and engineering through large images and uppercase headings. |
+| [Krea](../profiles/krea.md) | Prioritize visual examples within a dark creative-tool interface. |
+| [superwhisper](../profiles/superwhisper.md) | Present a voice tool through demonstrations on a dark desktop background. |
+| [Spotify](../profiles/spotify.md) | Let cover art and artists supply color over dark surfaces with persistent navigation. |
+| [NVIDIA](../profiles/nvidia.md) | Combine technical demonstrations and photography with information blocks and a green accent. |
+| [Framer](../profiles/framer.md) | Present a tool and its output on a dark page with interface demonstrations. |
+| [Photon](../profiles/photon.md) | Present integrations and code examples with dark backgrounds and spectrum accents. |
 
 ## monochrome
 
-Estructura apoyada en blancos, negros y grises.
+Structure built around white, black, and gray.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Apple](../profiles/apple.md) | Estudiar la escala de las fotos de producto y la alternancia de fondos para separar lanzamientos. |
-| [A24](../profiles/a24.md) | Dar espacio a imágenes de películas dentro de una estructura editorial con poco color de interfaz. |
-| [teenage engineering](../profiles/teenage-engineering.md) | Estudiar la relación entre fotos de objetos, etiquetas pequeñas y una grilla regular. |
-| [Nothing](../profiles/nothing.md) | Vincular la presentación del dispositivo con tipografía de puntos y una estructura industrial. |
-| [Vercel](../profiles/vercel.md) | Separar demostraciones y contenido técnico con grillas, contraste y tipografía sin depender de muchas tonalidades. |
-| [Twitter](../profiles/twitter.md) | Estudiar solo la jerarquía de acceso y registro de X; la captura no describe el feed. |
-| [Core Automation](../profiles/core-automation.md) | Ordenar mensajes de investigación con títulos grandes, marcos y bloques geométricos. |
-| [Luma AI](../profiles/luma-ai.md) | Alternar video de presentación con secciones claras para explicar capacidades sin competir con las muestras. |
+| [Apple](../profiles/apple.md) | Study product-image scale and alternating backgrounds to separate launches. |
+| [A24](../profiles/a24.md) | Give film images space within an editorial structure that uses little interface color. |
+| [teenage engineering](../profiles/teenage-engineering.md) | Study how object photography, small labels, and a regular grid work together. |
+| [Nothing](../profiles/nothing.md) | Connect device presentation with dot typography and an industrial structure. |
+| [Vercel](../profiles/vercel.md) | Separate demonstrations and technical content through grids, contrast, and type hierarchy. |
+| [Twitter](../profiles/twitter.md) | Study the hierarchy of X’s public sign-in and registration page. |
+| [Core Automation](../profiles/core-automation.md) | Organize research messages with large headings, frames, and geometric blocks. |
+| [Luma AI](../profiles/luma-ai.md) | Alternate introductory video with light sections that explain capabilities alongside examples. |
 
 ## cinematic
 
-Fotografía o video de gran escala.
+Large-scale photography or video.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Apple](../profiles/apple.md) | Estudiar la escala de las fotos de producto y la alternancia de fondos para separar lanzamientos. |
-| [Runway](../profiles/runway.md) | Usar demostraciones de video de gran escala para explicar lo que una herramienta creativa produce. |
-| [Midjourney](../profiles/midjourney.md) | Explorar una presentación oscura con monoespaciadas e imágenes como evidencia de capacidad creativa. |
-| [Sandbar](../profiles/sandbar.md) | Presentar un objeto pequeño con fotografía cercana, video y espacio entre mensajes. |
-| [1X](../profiles/1x.md) | Mostrar robótica mediante escenas amplias y tonos suaves que permitan entender la escala del objeto. |
-| [Ghost](../profiles/ghost.md) (datos limitados) | Estudiar el ritmo entre secciones oscuras y claras; la extracción no permite adoptar una paleta estructurada. |
-| [SpaceX](../profiles/spacex.md) | Presentar maquinaria e ingeniería con imágenes de gran escala y títulos en mayúsculas. |
-| [superwhisper](../profiles/superwhisper.md) | Presentar una herramienta de voz con demostraciones y un fondo oscuro de escritorio. |
-| [NVIDIA](../profiles/nvidia.md) | Combinar demostraciones técnicas y fotografía con bloques informativos y un acento verde. |
-| [Luma AI](../profiles/luma-ai.md) | Alternar video de presentación con secciones claras para explicar capacidades sin competir con las muestras. |
+| [Apple](../profiles/apple.md) | Study product-image scale and alternating backgrounds to separate launches. |
+| [Runway](../profiles/runway.md) | Use large video demonstrations to explain what a creative tool produces. |
+| [Midjourney](../profiles/midjourney.md) | Explore a dark presentation with monospace type and images as evidence of creative capability. |
+| [Sandbar](../profiles/sandbar.md) | Introduce a small object through close photography, video, and space between messages. |
+| [1X](../profiles/1x.md) | Present robotics through broad scenes and soft tones that help explain the object’s scale. |
+| [Ghost](../profiles/ghost.md) | Study the rhythm between dark and light sections in a hardware presentation. |
+| [SpaceX](../profiles/spacex.md) | Present machinery and engineering through large images and uppercase headings. |
+| [superwhisper](../profiles/superwhisper.md) | Present a voice tool through demonstrations on a dark desktop background. |
+| [NVIDIA](../profiles/nvidia.md) | Combine technical demonstrations and photography with information blocks and a green accent. |
+| [Luma AI](../profiles/luma-ai.md) | Alternate introductory video with light sections that explain capabilities alongside examples. |
 
 ## color-accent
 
-Acentos cromáticos que identifican acciones o bloques.
+Color accents identifying actions or blocks.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Figma](../profiles/figma.md) | Separar la interfaz de las muestras de trabajo mediante bloques y acentos de color. |
-| [fal](../profiles/fal.md) | Presentar infraestructura creativa con bloques técnicos y acentos de color de mayor presencia. |
-| [Stripe](../profiles/stripe.md) | Explicar servicios financieros con módulos de producto, datos y gradientes como recurso de identidad. |
-| [Supabase](../profiles/supabase.md) | Ordenar funciones técnicas en módulos con un acento verde reservado a momentos concretos. |
-| [Ramp](../profiles/ramp.md) | Ordenar información financiera sobre fondos claros y reservar el acento amarillo para llamadas a la acción. |
-| [Pangram](../profiles/pangram.md) | Estudiar fondos crema, bloques de datos y acentos de color en un producto de detección de texto. |
-| [Photon](../profiles/photon.md) | Mostrar integraciones y ejemplos de código con fondos oscuros y acentos de espectro. |
+| [Figma](../profiles/figma.md) | Separate interface elements from work samples through blocks and color accents. |
+| [fal](../profiles/fal.md) | Present creative infrastructure through technical blocks with prominent color accents. |
+| [Stripe](../profiles/stripe.md) | Explain financial services through product modules, data, and gradients used as a brand element. |
+| [Supabase](../profiles/supabase.md) | Organize technical features into modules with a green accent reserved for specific moments. |
+| [Ramp](../profiles/ramp.md) | Organize financial information on light backgrounds and reserve yellow accents for calls to action. |
+| [Pangram](../profiles/pangram.md) | Study cream backgrounds, data blocks, and color accents in a text-detection product. |
+| [Photon](../profiles/photon.md) | Present integrations and code examples with dark backgrounds and spectrum accents. |
 
 ## image-led
 
-Imágenes como contenido principal.
+Images as the main content.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Apple](../profiles/apple.md) | Estudiar la escala de las fotos de producto y la alternancia de fondos para separar lanzamientos. |
-| [A24](../profiles/a24.md) | Dar espacio a imágenes de películas dentro de una estructura editorial con poco color de interfaz. |
-| [teenage engineering](../profiles/teenage-engineering.md) | Estudiar la relación entre fotos de objetos, etiquetas pequeñas y una grilla regular. |
-| [Runway](../profiles/runway.md) | Usar demostraciones de video de gran escala para explicar lo que una herramienta creativa produce. |
-| [1X](../profiles/1x.md) | Mostrar robótica mediante escenas amplias y tonos suaves que permitan entender la escala del objeto. |
-| [Krea](../profiles/krea.md) | Dar prioridad a muestras visuales dentro de una interfaz oscura de herramientas creativas. |
-| [Airbnb](../profiles/airbnb.md) | Estudiar tarjetas de propiedades, navegación de búsqueda y fotografías que permiten comparar opciones. |
-| [Spotify](../profiles/spotify.md) | Dejar que portadas y artistas aporten color sobre superficies oscuras con navegación persistente. |
-| [Wander](../profiles/wander.md) | Dar espacio a las fotos de alojamientos y usar controles discretos para explorar y comparar. |
-| [Pinterest](../profiles/pinterest.md) | Permitir explorar contenido visual mediante grillas y tarjetas con poco peso de interfaz. |
+| [Apple](../profiles/apple.md) | Study product-image scale and alternating backgrounds to separate launches. |
+| [A24](../profiles/a24.md) | Give film images space within an editorial structure that uses little interface color. |
+| [teenage engineering](../profiles/teenage-engineering.md) | Study how object photography, small labels, and a regular grid work together. |
+| [Runway](../profiles/runway.md) | Use large video demonstrations to explain what a creative tool produces. |
+| [1X](../profiles/1x.md) | Present robotics through broad scenes and soft tones that help explain the object’s scale. |
+| [Krea](../profiles/krea.md) | Prioritize visual examples within a dark creative-tool interface. |
+| [Airbnb](../profiles/airbnb.md) | Study property cards, search navigation, and photos that help people compare options. |
+| [Spotify](../profiles/spotify.md) | Let cover art and artists supply color over dark surfaces with persistent navigation. |
+| [Wander](../profiles/wander.md) | Give accommodation photos space and use restrained controls for browsing and comparison. |
+| [Pinterest](../profiles/pinterest.md) | Support visual discovery through grids and cards with little interface weight. |
 
 ## modular
 
-Bloques, tarjetas o grillas que ordenan contenido.
+Blocks, cards, or grids that organize content.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [Notion](../profiles/notion.md) | Combinar capturas del producto con ilustraciones para explicar tareas sin llenar la página de controles. |
-| [Linear](../profiles/linear.md) | Organizar demostraciones de herramientas con paneles oscuros, bordes finos y jerarquía tipográfica. |
-| [teenage engineering](../profiles/teenage-engineering.md) | Estudiar la relación entre fotos de objetos, etiquetas pequeñas y una grilla regular. |
-| [Figma](../profiles/figma.md) | Separar la interfaz de las muestras de trabajo mediante bloques y acentos de color. |
-| [fal](../profiles/fal.md) | Presentar infraestructura creativa con bloques técnicos y acentos de color de mayor presencia. |
-| [ElevenLabs](../profiles/elevenlabs.md) | Estudiar fondos crema, controles redondeados y capas discretas para herramientas de audio. |
-| [Nothing](../profiles/nothing.md) | Vincular la presentación del dispositivo con tipografía de puntos y una estructura industrial. |
-| [Stripe](../profiles/stripe.md) | Explicar servicios financieros con módulos de producto, datos y gradientes como recurso de identidad. |
-| [Cursor](../profiles/cursor.md) | Mostrar una herramienta técnica sobre fondos cálidos con ejemplos de uso y tarjetas discretas. |
-| [Mercury](../profiles/mercury.md) | Estudiar el contraste tipográfico y las superficies sobrias en la presentación de un servicio financiero. |
-| [Supabase](../profiles/supabase.md) | Ordenar funciones técnicas en módulos con un acento verde reservado a momentos concretos. |
-| [OpenAI](../profiles/openai.md) (datos limitados) | Revisar la captura antes de tomar valores: la extracción mezcla una descripción visual con fuentes de respaldo. |
-| [Krea](../profiles/krea.md) | Dar prioridad a muestras visuales dentro de una interfaz oscura de herramientas creativas. |
-| [Natural](../profiles/natural.md) | Combinar contenido técnico y fotografía de naturaleza para explicar infraestructura de pagos. |
-| [Perplexity](../profiles/perplexity.md) | Concentrar la página alrededor de la búsqueda y dejar las funciones secundarias en segundo plano. |
-| [Ramp](../profiles/ramp.md) | Ordenar información financiera sobre fondos claros y reservar el acento amarillo para llamadas a la acción. |
-| [Airbnb](../profiles/airbnb.md) | Estudiar tarjetas de propiedades, navegación de búsqueda y fotografías que permiten comparar opciones. |
-| [Paper](../profiles/paper.md) | Combinar una base crema con grillas y detalles geométricos en la presentación de una herramienta de diseño. |
-| [Vercel](../profiles/vercel.md) | Separar demostraciones y contenido técnico con grillas, contraste y tipografía sin depender de muchas tonalidades. |
-| [Spotify](../profiles/spotify.md) | Dejar que portadas y artistas aporten color sobre superficies oscuras con navegación persistente. |
-| [Core Automation](../profiles/core-automation.md) | Ordenar mensajes de investigación con títulos grandes, marcos y bloques geométricos. |
-| [NVIDIA](../profiles/nvidia.md) | Combinar demostraciones técnicas y fotografía con bloques informativos y un acento verde. |
-| [Framer](../profiles/framer.md) | Mostrar la herramienta y sus resultados dentro de una página oscura con demostraciones de interfaz. |
-| [Pinterest](../profiles/pinterest.md) | Permitir explorar contenido visual mediante grillas y tarjetas con poco peso de interfaz. |
+| [Notion](../profiles/notion.md) | Pair product screenshots with illustrations to explain tasks without filling the page with controls. |
+| [Linear](../profiles/linear.md) | Organize tool demonstrations with dark panels, fine borders, and clear type hierarchy. |
+| [teenage engineering](../profiles/teenage-engineering.md) | Study how object photography, small labels, and a regular grid work together. |
+| [Figma](../profiles/figma.md) | Separate interface elements from work samples through blocks and color accents. |
+| [fal](../profiles/fal.md) | Present creative infrastructure through technical blocks with prominent color accents. |
+| [ElevenLabs](../profiles/elevenlabs.md) | Study cream backgrounds, rounded controls, and subtle layers for audio tools. |
+| [Nothing](../profiles/nothing.md) | Connect device presentation with dot typography and an industrial structure. |
+| [Stripe](../profiles/stripe.md) | Explain financial services through product modules, data, and gradients used as a brand element. |
+| [Cursor](../profiles/cursor.md) | Present a technical tool on warm backgrounds with usage examples and restrained cards. |
+| [Mercury](../profiles/mercury.md) | Study type contrast and restrained surfaces in a financial-service presentation. |
+| [Supabase](../profiles/supabase.md) | Organize technical features into modules with a green accent reserved for specific moments. |
+| [OpenAI](../profiles/openai.md) | Study how content cards organize research and product information into a browsable page. |
+| [Krea](../profiles/krea.md) | Prioritize visual examples within a dark creative-tool interface. |
+| [Natural](../profiles/natural.md) | Combine technical content and nature photography to explain payment infrastructure. |
+| [Perplexity](../profiles/perplexity.md) | Center the page on search and keep secondary functions subordinate. |
+| [Ramp](../profiles/ramp.md) | Organize financial information on light backgrounds and reserve yellow accents for calls to action. |
+| [Airbnb](../profiles/airbnb.md) | Study property cards, search navigation, and photos that help people compare options. |
+| [Paper](../profiles/paper.md) | Combine a cream base with grids and geometric details when presenting a design tool. |
+| [Vercel](../profiles/vercel.md) | Separate demonstrations and technical content through grids, contrast, and type hierarchy. |
+| [Spotify](../profiles/spotify.md) | Let cover art and artists supply color over dark surfaces with persistent navigation. |
+| [Core Automation](../profiles/core-automation.md) | Organize research messages with large headings, frames, and geometric blocks. |
+| [NVIDIA](../profiles/nvidia.md) | Combine technical demonstrations and photography with information blocks and a green accent. |
+| [Framer](../profiles/framer.md) | Present a tool and its output on a dark page with interface demonstrations. |
+| [Pinterest](../profiles/pinterest.md) | Support visual discovery through grids and cards with little interface weight. |
 
 ## retro-digital
 
-Recursos de computación antigua, píxeles o tramados.
+Early computing references, pixels, or dithering.
 
-| Referencia | Qué estudiar |
+| Reference | What to study |
 |---|---|
-| [MTS](../profiles/mts.md) | Usar tramados, marcos y tipografía monoespaciada para dar identidad a una publicación técnica. |
+| [MTS](../profiles/mts.md) | Use dithering, frames, and monospace type to give a technical publication its identity. |

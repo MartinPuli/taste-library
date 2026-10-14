@@ -1,36 +1,32 @@
 # Anthropic
 
-Dar jerarquía a contenidos de investigación con fondos claros cálidos y contraste entre serif y sans.
+Give research content hierarchy through warm light backgrounds and serif/sans contrast.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-09-15T16:01:07.284282Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | editorial-research |
-| Recursos visuales | warm-editorial |
+| Cosign rank | 10 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-09-15T16:01:07.284282Z |
+| Suggested uses | editorial-research |
+| Visual approach | warm-editorial |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: Anthropic Sans, Anthropic Serif, System Sans, Anthropic Mono.
-- Paleta registrada: #141413, #FAF9F5, #B0AEA5, #000000, #3D3D3A.
-- Grilla: `{"columns": 12, "gutter": "var(--site--gutter)", "max_width": "89.5rem"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: Anthropic Sans, Anthropic Serif, System Sans, Anthropic Mono.
+- Recorded palette: #141413, #FAF9F5, #B0AEA5, #000000, #3D3D3A.
+- Grid: `{"columns": 12, "gutter": "var(--site--gutter)", "max_width": "89.5rem"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://www.anthropic.com/) · [Extracción](../data/raw/anthropic.json) · [Tokens](../data/tokens/anthropic.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.anthropic.com/) · [Extraction](../data/raw/anthropic.json) · [Tokens](../data/tokens/anthropic.json)
 
 ```sh
 python3 scripts/query.py show anthropic --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

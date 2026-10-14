@@ -1,36 +1,32 @@
 # SpaceX
 
-Presentar maquinaria e ingeniería con imágenes de gran escala y títulos en mayúsculas.
+Present machinery and engineering through large images and uppercase headings.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-07-23T01:41:07.004114Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | hardware |
-| Recursos visuales | cinematic, dark-technical |
+| Cosign rank | 21 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-07-23T01:41:07.004114Z |
+| Suggested uses | hardware |
+| Visual approach | cinematic, dark-technical |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: D-DIN-Bold, D-DIN, Roboto Mono.
-- Paleta registrada: #000000, #F0F0FA, #252628, #FFFFFF, #01579B, #CCCCCC.
-- Grilla: `{"columns": 12, "gutter": "40px", "max_width": "1700px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: D-DIN-Bold, D-DIN, Roboto Mono.
+- Recorded palette: #000000, #F0F0FA, #252628, #FFFFFF, #01579B, #CCCCCC.
+- Grid: `{"columns": 12, "gutter": "40px", "max_width": "1700px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://www.spacex.com/) · [Extracción](../data/raw/spacex.json) · [Tokens](../data/tokens/spacex.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.spacex.com/) · [Extraction](../data/raw/spacex.json) · [Tokens](../data/tokens/spacex.json)
 
 ```sh
 python3 scripts/query.py show spacex --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

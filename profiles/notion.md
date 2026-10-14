@@ -1,36 +1,32 @@
 # Notion
 
-Combinar capturas del producto con ilustraciones para explicar tareas sin llenar la página de controles.
+Pair product screenshots with illustrations to explain tasks without filling the page with controls.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-10-08T00:42:08.521274Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | productivity |
-| Recursos visuales | warm-editorial, modular |
+| Cosign rank | 2 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-10-08T00:42:08.521274Z |
+| Suggested uses | productivity |
+| Visual approach | warm-editorial, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: NotionInter, Lyon Text, iA Writer Mono, Permanent Marker.
-- Paleta registrada: #000000, #FFFFFF, #615D59, #A39E98, #097FE8.
-- Grilla: `{"columns": 12, "gutter": "28px", "max_width": "1464px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+- Detected type families: NotionInter, Lyon Text, iA Writer Mono, Permanent Marker.
+- Recorded palette: #000000, #FFFFFF, #615D59, #A39E98, #097FE8.
+- Grid: `{"columns": 12, "gutter": "28px", "max_width": "1464px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-No registramos una incidencia específica; la extracción todavía no tiene revisión visual.
-
-## Fuente y acceso
-
-[Sitio](https://www.notion.com/) · [Extracción](../data/raw/notion.json) · [Tokens](../data/tokens/notion.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.notion.com/) · [Extraction](../data/raw/notion.json) · [Tokens](../data/tokens/notion.json)
 
 ```sh
 python3 scripts/query.py show notion --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

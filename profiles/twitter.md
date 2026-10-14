@@ -1,36 +1,32 @@
 # Twitter
 
-Estudiar solo la jerarquía de acceso y registro de X; la captura no describe el feed.
+Study the hierarchy of X’s public sign-in and registration page.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Login/Signup Page |
-| Captura UTC | 2026-10-14T08:54:30.833239Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | authentication |
-| Recursos visuales | monochrome |
+| Cosign rank | 30 |
+| Captured page | Login/Signup Page |
+| Capture time (UTC) | 2026-10-14T08:54:30.833239Z |
+| Suggested uses | authentication |
+| Visual approach | monochrome |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: TwitterChirp, SFMono-Regular.
-- Paleta registrada: #0F141A, #000000, #E4EAEC, #79716B, #3C4043.
-- Grilla: `{"columns": 12, "gutter": "1rem", "max_width": "80rem"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+- Detected type families: TwitterChirp, SFMono-Regular.
+- Recorded palette: #0F141A, #000000, #E4EAEC, #79716B, #3C4043.
+- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "80rem"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- La extracción corresponde al acceso público de X, no al feed ni a la antigua identidad de Twitter.
-
-## Fuente y acceso
-
-[Sitio](https://x.com/) · [Extracción](../data/raw/twitter.json) · [Tokens](../data/tokens/twitter.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://x.com/) · [Extraction](../data/raw/twitter.json) · [Tokens](../data/tokens/twitter.json)
 
 ```sh
 python3 scripts/query.py show twitter --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

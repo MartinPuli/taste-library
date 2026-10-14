@@ -1,36 +1,32 @@
 # Krea
 
-Dar prioridad a muestras visuales dentro de una interfaz oscura de herramientas creativas.
+Prioritize visual examples within a dark creative-tool interface.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-10-06T07:31:35.822728Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | creative-tools, media-discovery |
-| Recursos visuales | dark-technical, image-led, modular |
+| Cosign rank | 22 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-10-06T07:31:35.822728Z |
+| Suggested uses | creative-tools, media-discovery |
+| Visual approach | dark-technical, image-led, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: Suisse Intl, Suisse Intl Mono.
-- Paleta registrada: #FFFFFF, #737373, #000000, #A3A3A3, #262626.
-- Grilla: `{"columns": 12, "gutter": "1rem", "max_width": "112rem"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: Suisse Intl, Suisse Intl Mono.
+- Recorded palette: #FFFFFF, #737373, #000000, #A3A3A3, #262626.
+- Grid: `{"columns": 12, "gutter": "1rem", "max_width": "112rem"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://www.krea.ai/) · [Extracción](../data/raw/krea.json) · [Tokens](../data/tokens/krea.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://www.krea.ai/) · [Extraction](../data/raw/krea.json) · [Tokens](../data/tokens/krea.json)
 
 ```sh
 python3 scripts/query.py show krea --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

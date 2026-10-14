@@ -1,36 +1,32 @@
 # Stripe
 
-Explicar servicios financieros con módulos de producto, datos y gradientes como recurso de identidad.
+Explain financial services through product modules, data, and gradients used as a brand element.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-09-18T13:26:14.774070Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | fintech, developer-tools |
-| Recursos visuales | color-accent, modular |
+| Cosign rank | 13 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-09-18T13:26:14.774070Z |
+| Suggested uses | fintech, developer-tools |
+| Visual approach | color-accent, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: sohne-var, monospace, SourceCodePro.
-- Paleta registrada: #000000, #533AFD, #061B31, #50617A, #FFFFFF.
-- Grilla: `{"columns": 12, "gutter": "16px", "max_width": "1264px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: sohne-var, monospace, SourceCodePro.
+- Recorded palette: #000000, #533AFD, #061B31, #50617A, #FFFFFF.
+- Grid: `{"columns": 12, "gutter": "16px", "max_width": "1264px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://stripe.com/) · [Extracción](../data/raw/stripe.json) · [Tokens](../data/tokens/stripe.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://stripe.com/) · [Extraction](../data/raw/stripe.json) · [Tokens](../data/tokens/stripe.json)
 
 ```sh
 python3 scripts/query.py show stripe --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

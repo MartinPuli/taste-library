@@ -1,36 +1,32 @@
 # Perplexity
 
-Concentrar la página alrededor de la búsqueda y dejar las funciones secundarias en segundo plano.
+Center the page on search and keep secondary functions subordinate.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Search Interface |
-| Captura UTC | 2026-10-14T08:54:30.860526Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | productivity |
-| Recursos visuales | warm-editorial, modular |
+| Cosign rank | 25 |
+| Captured page | Search Interface |
+| Capture time (UTC) | 2026-10-14T08:54:30.860526Z |
+| Suggested uses | productivity |
+| Visual approach | warm-editorial, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: System Sans.
-- Paleta registrada: #FBFBFB, #1A73E8, #252525, #0B2833, #000000.
-- Grilla: `{"columns": 12, "gutter": "0.75rem", "max_width": "768px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
+- Detected type families: System Sans.
+- Recorded palette: #FBFBFB, #1A73E8, #252525, #0B2833, #000000.
+- Grid: `{"columns": 12, "gutter": "0.75rem", "max_width": "768px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, brand_assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Interfaz pública de búsqueda; no cubre todas las pantallas del producto.
-
-## Fuente y acceso
-
-[Sitio](https://perplexity.ai/) · [Extracción](../data/raw/perplexity.json) · [Tokens](../data/tokens/perplexity.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://perplexity.ai/) · [Extraction](../data/raw/perplexity.json) · [Tokens](../data/tokens/perplexity.json)
 
 ```sh
 python3 scripts/query.py show perplexity --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

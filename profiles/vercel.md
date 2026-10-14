@@ -1,36 +1,32 @@
 # Vercel
 
-Separar demostraciones y contenido técnico con grillas, contraste y tipografía sin depender de muchas tonalidades.
+Separate demonstrations and technical content through grids, contrast, and type hierarchy.
 
-Esta nota propone un uso posible a partir de TasteLabs; falta contrastarla visualmente.
+Suggested application based on the TasteLabs extraction. Treat it as editorial interpretation when comparing references.
 
-| Dato | Valor |
+| Field | Value |
 |---|---|
-| Página | Homepage |
-| Captura UTC | 2026-09-15T22:43:23.540328Z |
-| Calidad | `extracted_unverified` |
-| Uso sugerido | developer-tools |
-| Recursos visuales | monochrome, modular |
+| Cosign rank | 29 |
+| Captured page | Homepage |
+| Capture time (UTC) | 2026-09-15T22:43:23.540328Z |
+| Suggested uses | developer-tools |
+| Visual approach | monochrome, modular |
 
-## Datos para comparar
+## Details to compare
 
-- Familias detectadas: GeistSans, Geist Mono, Georgia, Geist Pixel Circle, Geist Pixel Square, Geist Pixel Line.
-- Paleta registrada: #171717, #EBEBEB, #4D4D4D, #0072F5, #000000.
-- Grilla: `{"columns": 12, "gutter": "20px", "max_width": "1400px"}`.
-- Secciones disponibles: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
+- Detected type families: GeistSans, Geist Mono, Georgia, Geist Pixel Circle, Geist Pixel Square, Geist Pixel Line.
+- Recorded palette: #171717, #EBEBEB, #4D4D4D, #0072F5, #000000.
+- Grid: `{"columns": 12, "gutter": "20px", "max_width": "1400px"}`.
+- Available sections: profile, layout, colors, typography, surfaces, elevation, interactions, actions, navigation, data_display, structure, icons, assets, sections.
 
-Consultá las reglas de color y los roles tipográficos antes de tomar un valor aislado. Estos nombres de fuente no implican que sus archivos estén incluidos.
+Read color rules and type roles before adopting an isolated value. Font names identify observed families; font files are not included. The source record and tokens carry the evidence metadata.
 
-## Límites
+## Source and access
 
-- Secciones sin datos: brand_assets.
-
-## Fuente y acceso
-
-[Sitio](https://vercel.com/) · [Extracción](../data/raw/vercel.json) · [Tokens](../data/tokens/vercel.json)
+[Cosign ranking](https://cosign.co/questions/highest-taste-companies) · [Website](https://vercel.com/) · [Extraction](../data/raw/vercel.json) · [Tokens](../data/tokens/vercel.json)
 
 ```sh
 python3 scripts/query.py show vercel --section layout
 ```
 
-La URL de la captura, cuando existe, está en `result.artifacts` del archivo original.
+Screenshot links, when available, appear in `result.artifacts` in the extraction file.

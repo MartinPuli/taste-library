@@ -1,32 +1,32 @@
-# Decisión de diseño
+# Design decision
 
 ## Brief
 
-Proyecto:
-Público y tarea principal:
-Contenido disponible:
-Identidad existente y restricciones:
-Supuestos pendientes:
+Project:
+Audience and primary task:
+Available content:
+Existing identity and constraints:
+Open assumptions:
 
-## Candidatas
+## Candidates
 
-| Referencia | Motivo para considerarla | Problema o costo de adoptarla | Fuente y sección |
+| Reference | Reason to consider it | Tradeoff or implementation cost | Source and section |
 |---|---|---|---|
 | | | | |
 | | | | |
 
-## Elección
+## Choice
 
-Referencia principal y motivo:
-Patrones que vamos a adoptar:
-Adaptaciones a nuestra identidad:
-Elementos que descartamos y por qué:
+Primary reference and reason:
+Patterns to adopt:
+Adaptations to our identity:
+Elements to leave out and why:
 
-Si hay una segunda referencia, indicar su aporte puntual:
+If there is a second reference, describe its specific contribution:
 
-## Evidencia pendiente
+## Evidence to check
 
-Fechas consultadas y avisos de calidad:
-Valores que requieren comprobación:
-Fuentes o imágenes que requieren permisos:
-Comprobaciones del resultado implementado:
+Capture dates and evidence metadata:
+Values that need verification:
+Fonts or images that need permission:
+Checks to run on the implemented interface:
