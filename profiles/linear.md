@@ -12,6 +12,12 @@ Cosign rank 3 · Captured 2026-10-10T10:50:53.682721Z · Homepage
 
 A left-aligned headline and detailed product panel sit on a near-black background, with small navigation and a white sign-up button.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: developer-tools, productivity. Styles: dark-technical, modular. These are editorial tags.

@@ -12,6 +12,12 @@ Cosign rank 40 · Captured 2026-10-14T08:56:53.304387Z · Homepage
 
 White text and inline platform icons sit above overlapping spectrum-colored squares on black, with a compact code-instruction control.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: developer-tools. Styles: dark-technical, color-accent. These are editorial tags.

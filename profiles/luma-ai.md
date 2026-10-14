@@ -12,6 +12,12 @@ Cosign rank 39 · Captured 2026-09-15T20:11:13.034995Z · Homepage
 
 A collage of fashion imagery sits behind centered white copy and a rounded light action, with a content panel emerging below.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools. Styles: cinematic, monochrome. These are editorial tags.

@@ -12,6 +12,12 @@ Cosign rank 25 · Captured 2026-10-14T08:54:30.860526Z · Search Interface
 
 A narrow left sidebar supports a centered search field and suggestion cards on a pale canvas. A cookie notice appears at lower right.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: productivity. Styles: warm-editorial, modular. These are editorial tags.

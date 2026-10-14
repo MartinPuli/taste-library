@@ -12,6 +12,12 @@ Cosign rank 11 · Captured 2026-09-19T06:36:19.660967Z · Homepage
 
 A consent dialog with dot-style branding covers most of the captured hero; the pale background remains visible around it.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware. Styles: monochrome, modular. These are editorial tags.

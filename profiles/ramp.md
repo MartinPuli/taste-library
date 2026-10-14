@@ -12,6 +12,12 @@ Cosign rank 26 · Captured 2026-09-25T08:15:55.953997Z · Homepage
 
 A restrained white hero pairs a black headline with a yellow email-submit action, above a rounded product demonstration panel.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl-full.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl-full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: fintech. Styles: color-accent, modular. These are editorial tags.

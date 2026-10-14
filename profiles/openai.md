@@ -12,6 +12,12 @@ Cosign rank 19 · Captured 2026-10-14T05:11:51.490971Z · Homepage
 
 The saved viewport shows an orange Zapier logo frame. This image alone does not establish the requested brand’s page structure.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: editorial-research, creative-tools. Styles: modular. These are editorial tags.

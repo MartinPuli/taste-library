@@ -12,6 +12,12 @@ Cosign rank 29 · Captured 2026-09-15T22:43:23.540328Z · Homepage
 
 A black triangle separates a short headline from explanatory copy on white. Small pill actions and a logo strip support the composition.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: developer-tools. Styles: monochrome, modular. These are editorial tags.

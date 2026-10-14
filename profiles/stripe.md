@@ -12,6 +12,12 @@ Cosign rank 13 · Captured 2026-09-18T13:26:14.774070Z · Homepage
 
 A white page combines a large multiline financial-services headline with a broad orange and pink gradient shape. Purple buttons provide emphasis.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: fintech, developer-tools. Styles: color-accent, modular. These are editorial tags.

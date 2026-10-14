@@ -12,6 +12,12 @@ Cosign rank 38 · Captured 2026-10-14T05:06:49.351030Z · Homepage
 
 A seasonal photographic banner leads into rows of image cards. Red account actions stand out against otherwise neutral navigation.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: media-discovery. Styles: image-led, modular. These are editorial tags.

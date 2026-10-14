@@ -12,6 +12,12 @@ Cosign rank 12 · Captured 2026-10-14T05:05:44.432260Z · Homepage
 
 A blue ASCII-style illustration fills the top of a dark page. Colored entry buttons lead into narrow monospace text sections.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-full.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools. Styles: dark-technical, cinematic. These are editorial tags.

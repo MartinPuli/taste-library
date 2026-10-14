@@ -12,6 +12,12 @@ Cosign rank 8 · Captured 2026-08-28T19:12:29.386999Z · Homepage
 
 A cyan hero combines oversized black type with yellow and purple geometric marks. A cookie panel overlaps the lower-left corner.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: developer-tools, creative-tools. Styles: color-accent, modular. These are editorial tags.

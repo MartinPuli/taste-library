@@ -12,6 +12,12 @@ Cosign rank 5 · Captured 2026-09-19T08:37:42.947619Z · Homepage
 
 A dense illustrated header leads into oversized black lettering and a black-and-white comic illustration on white.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware. Styles: monochrome, image-led, modular. These are editorial tags.

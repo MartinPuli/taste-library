@@ -45,6 +45,8 @@ The [worked examples](guides/worked-examples.md) show how to turn a brief into a
 
 Cosign supplies the ranking. TasteLabs supplies the website extractions. This repo adds retrieval, editorial guidance, and review records.
 
+Each raw record preserves the complete stored TasteLabs result, including artifact metadata. The section files split that result without summarizing it. Original HTML, CSS, screenshots, and element-layout files remain hosted by TasteLabs; profiles link to them. The repository stores their URLs and small derived image previews, not an offline copy of every artifact. See the [completeness audit](guides/data-coverage.md).
+
 The collection follows the ranking checked on October 14, 2026. Every reference keeps its own capture date. These are observations of particular web pages, not official brand manuals. Capture reviews cover visible composition and literal CSS checks; they do not certify interaction behavior or responsive layouts.
 
 ## Maintain the library

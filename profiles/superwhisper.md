@@ -12,6 +12,12 @@ Cosign rank 24 · Captured 2026-08-31T02:39:50.943536Z · Homepage
 
 White centered copy and two download controls sit on a blue photographic background framed by dark silhouettes.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: productivity. Styles: dark-technical, cinematic. These are editorial tags.

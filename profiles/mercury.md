@@ -12,6 +12,12 @@ Cosign rank 16 · Captured 2026-10-06T07:33:29.968243Z · Homepage
 
 A scenic mountain image and a desk fill the hero with white centered type and blue actions. The saved viewport also contains a large blank area to the right.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: fintech. Styles: warm-editorial, modular. These are editorial tags.

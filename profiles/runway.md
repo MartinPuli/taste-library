@@ -12,6 +12,12 @@ Cosign rank 6 · Captured 2026-10-14T05:06:35.508514Z · Homepage
 
 A large cinematic image anchors the hero below compact navigation. White copy and a light call to action sit over the image.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools. Styles: cinematic, image-led. These are editorial tags.

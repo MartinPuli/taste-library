@@ -86,6 +86,12 @@ def build():
         capture=raw['result']['artifacts'].get('full_page_screenshot') or raw['result']['artifacts'].get('screenshot')
         body+=f"[Small visual preview](../{entry['preview']}) · [Original saved capture]({capture['url']})\n\n"
         body+="## What the saved capture shows\n\n"+review['visual_observation']+"\n\n"
+        artifact_labels={'html':'HTML', 'css':'CSS', 'screenshot':'Viewport screenshot',
+                         'full_page_screenshot':'Full-page screenshot', 'element_layout':'Element layout'}
+        artifact_links=[f"[{artifact_labels.get(kind,kind)}]({artifact['url']})"
+                        for kind,artifact in raw['result']['artifacts'].items() if artifact]
+        body+="## Original captured files\n\n"+' · '.join(artifact_links)+"\n\n"
+        body+="These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.\n\n"
         body+="## Where to use it\n\nProject types: "+', '.join(entry['use_cases'])+". Styles: "+', '.join(entry['styles'])+". These are editorial tags.\n\n"
         body+="## Patterns to adapt\n\n"
         for rec in recommendations:

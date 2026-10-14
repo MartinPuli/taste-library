@@ -118,6 +118,20 @@ def validate(root=ROOT):
         c = next((x for x in compact['entries'] if x['id'] == id), None)
         if c is None or any(c[k] != e[k] for k in c if k != 'profile') or c['profile'] != e['paths']['profile']:
             errors.append(f'{id}: compact entry differs')
+    audit_path = root / 'data/audits/tastelabs-2026-10-14.json'
+    if audit_path.is_file():
+        audit = json.loads(audit_path.read_text())
+        if {r['id'] for r in audit['records']} != set(ids):
+            errors.append('TasteLabs audit and catalog IDs differ')
+        for record in audit['records']:
+            path = root / record['raw_file']
+            if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != record['raw_sha256']:
+                errors.append(f"{record['id']}: TasteLabs audit refers to a different raw version")
+            if not (record['full_result_matches'] and record['provenance_matches']
+                    and record['section_inventory_matches'] and all(record['section_matches'].values())):
+                errors.append(f"{record['id']}: TasteLabs audit found an export difference")
+    else:
+        errors.append('Missing TasteLabs completeness audit')
     for path in root.rglob('*.md'):
         if any(part in {'.git', 'node_modules', '.e2e'} for part in path.relative_to(root).parts):
             continue

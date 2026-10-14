@@ -28,4 +28,6 @@ When syncing a stored TasteLabs result, compare every section first. Archive a c
 
 Public counts come from catalog entries and quality flags. The builder updates count markers in the README and launch draft. Do not promote a record's quality solely because an extraction finished or a CSS string matched.
 
+When raw evidence changes, repeat the [stored-result audit](data-coverage.md) and update its report before publishing. The validator and full-collection HTTP test compare raw-file hashes against that audit, so an old report cannot silently certify a changed export.
+
 Keep lookup local. Refreshing an extraction should be a separate decision, since it can consume credits and replace earlier evidence.

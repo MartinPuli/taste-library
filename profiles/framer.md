@@ -12,6 +12,12 @@ Cosign rank 37 · Captured 2026-08-07T00:18:49.934442Z · Homepage
 
 A black hero uses white copy and a light action above a large glowing blue product visual.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools. Styles: dark-technical, modular. These are editorial tags.

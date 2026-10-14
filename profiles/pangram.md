@@ -12,6 +12,12 @@ Cosign rank 32 · Captured 2026-09-23T23:13:42.526672Z · Homepage
 
 A serif headline and orange actions share the hero with a text-analysis interface over an illustrated background.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: editorial-research, productivity. Styles: warm-editorial, color-accent. These are editorial tags.

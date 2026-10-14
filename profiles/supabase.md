@@ -12,6 +12,12 @@ Cosign rank 17 · Captured 2026-10-14T05:07:03.498576Z · Homepage
 
 A white hero uses a two-part headline with a green second line. Outlined product modules form a regular grid below.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: developer-tools. Styles: modular, color-accent. These are editorial tags.

@@ -12,6 +12,12 @@ Cosign rank 7 · Captured 2026-09-15T16:36:48.597923Z · Homepage
 
 A sparse white hero places the headline at lower left and a black call to action at right. A cookie panel covers part of the lower-right area.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools. Styles: color-accent, modular. These are editorial tags.

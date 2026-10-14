@@ -12,6 +12,12 @@ Cosign rank 34 · Captured 2026-10-14T08:56:35.778602Z · Homepage
 
 A dithered radial image surrounds a centered serif headline. Small uppercase navigation and a framed content panel continue the editorial treatment.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-full.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: editorial-research, media-discovery. Styles: retro-digital, warm-editorial. These are editorial tags.

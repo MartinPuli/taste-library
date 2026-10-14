@@ -12,6 +12,12 @@ Cosign rank 14 · Captured 2026-09-18T05:31:56.956697Z · Homepage
 
 A warm white page uses a compact headline and dark download button above a large code-editor demonstration.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: developer-tools. Styles: warm-editorial, modular. These are editorial tags.

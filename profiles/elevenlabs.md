@@ -12,6 +12,12 @@ Cosign rank 9 · Captured 2026-09-25T02:38:41.527311Z · Homepage
 
 A white page pairs a short headline with explanatory text, above a rounded product panel containing colorful audio orbs.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools, editorial-research. Styles: warm-editorial, modular. These are editorial tags.

@@ -12,6 +12,12 @@ Cosign rank 36 · Captured 2026-10-14T05:06:35.062442Z · Homepage
 
 A dark event photograph supports a left-aligned white headline and green action. Small event selectors run along the hero’s lower edge.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware, developer-tools. Styles: dark-technical, cinematic, modular. These are editorial tags.

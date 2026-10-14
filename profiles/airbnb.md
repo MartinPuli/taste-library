@@ -12,6 +12,12 @@ Cosign rank 27 · Captured 2026-10-08T15:15:43.471119Z · Homepage
 
 A rounded search bar sits above horizontal rows of property cards. Many photos remain gray placeholders in the saved viewport.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hospitality, media-discovery. Styles: image-led, modular. These are editorial tags.

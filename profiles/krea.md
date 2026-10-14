@@ -12,6 +12,12 @@ Cosign rank 22 · Captured 2026-10-06T07:31:35.822728Z · Homepage
 
 A dark application shell places a narrow navigation rail beside a large media feature and a grid of tool cards.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools, media-discovery. Styles: dark-technical, image-led, modular. These are editorial tags.

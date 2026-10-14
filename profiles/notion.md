@@ -12,6 +12,12 @@ Cosign rank 2 · Captured 2026-10-08T00:42:08.521274Z · Homepage
 
 A large centered headline leads into a workspace screenshot on white. Small line illustrations surround the product demonstration.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: productivity. Styles: warm-editorial, modular. These are editorial tags.

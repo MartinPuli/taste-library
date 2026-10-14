@@ -12,6 +12,12 @@ Cosign rank 35 · Captured 2026-10-14T08:55:43.902911Z · Homepage
 
 Large black uppercase type uses orange emphasis on a gray canvas. Thin rules and block graphics give the page a print-like structure.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: editorial-research. Styles: modular, monochrome. These are editorial tags.

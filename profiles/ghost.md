@@ -12,6 +12,12 @@ Cosign rank 20 · Captured 2026-10-14T08:53:53.351064Z · Homepage
 
 The full-page capture begins with a dark visual field and a narrow orange announcement band. It provides little visible hero text.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-full.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware. Styles: cinematic, dark-technical. These are editorial tags.

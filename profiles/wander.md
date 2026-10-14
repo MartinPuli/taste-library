@@ -12,6 +12,12 @@ Cosign rank 33 · Captured 2026-10-14T08:56:06.649511Z · Homepage
 
 A scenic accommodation hero sits above image-rich property cards, with a compact search bar over the photograph.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hospitality. Styles: image-led, warm-editorial. These are editorial tags.

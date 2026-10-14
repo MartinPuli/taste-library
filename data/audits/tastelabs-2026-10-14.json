@@ -1,0 +1,2748 @@
+{
+  "checked_at": "2026-10-14T17:01:01.599424+00:00",
+  "method": "Fresh get_brand_extraction_result responses with no section filter; exact JSON equality for the entire result, including artifact metadata, arrays, and null values.",
+  "result_hash_method": "SHA-256 of UTF-8 JSON with sorted keys, no ASCII escaping, and compact separators.",
+  "scope": "All 40 selected stored extractions. This checks export fidelity and link availability, not the accuracy of TasteLabs interpretations or the completeness of the source websites.",
+  "artifact_storage": "Original files stay at the TasteLabs URLs; the repository stores their metadata and links, plus derived image previews.",
+  "counts": {
+    "records": 40,
+    "matching_results": 40,
+    "sections": 600,
+    "matching_sections": 600,
+    "available_artifact_links": 191,
+    "checked_artifact_links": 191,
+    "reachable_artifact_links": 191
+  },
+  "records": [
+    {
+      "id": "apple",
+      "source_url": "https://www.apple.com/",
+      "captured_at": "2026-09-24T14:14:29.940321Z",
+      "source_selection": null,
+      "raw_file": "data/raw/apple.json",
+      "raw_sha256": "0da96ff25746f2f29c1bc386cbd76f432cdd81154b8c22047d54f068ed7fb643",
+      "remote_result_sha256": "29eb690fd0be902de4e7c0339835b665c3fe8abee30d8ae5761953efc6c7bf61",
+      "local_result_sha256": "29eb690fd0be902de4e7c0339835b665c3fe8abee30d8ae5761953efc6c7bf61",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "notion",
+      "source_url": "https://www.notion.com/",
+      "captured_at": "2026-10-08T00:42:08.521274Z",
+      "source_selection": null,
+      "raw_file": "data/raw/notion.json",
+      "raw_sha256": "afc7696b26b592624f145b737edab1cd02153fde1059290d507b39f5f8625ca0",
+      "remote_result_sha256": "a1be8d66a10e3b15b389cdc604ecd7b2554184bd66e201b524bf871facf7861c",
+      "local_result_sha256": "a1be8d66a10e3b15b389cdc604ecd7b2554184bd66e201b524bf871facf7861c",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "linear",
+      "source_url": "https://linear.app/",
+      "captured_at": "2026-10-10T10:50:53.682721Z",
+      "source_selection": null,
+      "raw_file": "data/raw/linear.json",
+      "raw_sha256": "53c744515e59b9cb8856a6fe5fd9b5ac26771d23120eb42407f9467ace8c5528",
+      "remote_result_sha256": "a4df4ba7d85d99fd4a8658e30deaa46c62f79f8bcd05de4692a7c686bcd1e79a",
+      "local_result_sha256": "a4df4ba7d85d99fd4a8658e30deaa46c62f79f8bcd05de4692a7c686bcd1e79a",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "a24",
+      "source_url": "https://a24films.com/",
+      "captured_at": "2026-10-14T05:05:03.673018Z",
+      "source_selection": null,
+      "raw_file": "data/raw/a24.json",
+      "raw_sha256": "0e46af5a9abd727968e7edb1d062253fb5b4c5a7777fce2d923e5482233b85ae",
+      "remote_result_sha256": "c696b0484e74228a760c2a5558c7593853b44c0dac0a81dac770593a50a7a8f4",
+      "local_result_sha256": "c696b0484e74228a760c2a5558c7593853b44c0dac0a81dac770593a50a7a8f4",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "teenage-engineering",
+      "source_url": "https://teenage.engineering/",
+      "captured_at": "2026-09-19T08:37:42.947619Z",
+      "source_selection": null,
+      "raw_file": "data/raw/teenage-engineering.json",
+      "raw_sha256": "1220a5252ba51c2abc0b832f1076aab3cd25abc9e4e44df542d239c730a88572",
+      "remote_result_sha256": "7d3e0f6a7863dad8148c9febf2b359a339493bf7999fd1367ef9264949851a8c",
+      "local_result_sha256": "7d3e0f6a7863dad8148c9febf2b359a339493bf7999fd1367ef9264949851a8c",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "runway",
+      "source_url": "https://runwayml.com/",
+      "captured_at": "2026-10-14T05:06:35.508514Z",
+      "source_selection": null,
+      "raw_file": "data/raw/runway.json",
+      "raw_sha256": "27f3d6de38c811347b4dd6c40fffc895464c60f891b8be90e0e269f68697271e",
+      "remote_result_sha256": "0ebacf24db3037501e7a64bfea100d767507078b926532fd1ba3bb096d454cb0",
+      "local_result_sha256": "0ebacf24db3037501e7a64bfea100d767507078b926532fd1ba3bb096d454cb0",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "figma",
+      "source_url": "https://www.figma.com/",
+      "captured_at": "2026-09-15T16:36:48.597923Z",
+      "source_selection": null,
+      "raw_file": "data/raw/figma.json",
+      "raw_sha256": "30c29ac125f7c7bcb97a0a1dab1499321fdf240187bb8e8a58bf2ed9d6740529",
+      "remote_result_sha256": "cabec6909d8df173d40f2094e9aea9c7566213cd573297bcafd111073f33d7be",
+      "local_result_sha256": "cabec6909d8df173d40f2094e9aea9c7566213cd573297bcafd111073f33d7be",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "fal",
+      "source_url": "https://fal.ai/",
+      "captured_at": "2026-08-28T19:12:29.386999Z",
+      "source_selection": null,
+      "raw_file": "data/raw/fal.json",
+      "raw_sha256": "781501acb88b3f9949748e4cbb460c733c9236395552583dda403a4892638c57",
+      "remote_result_sha256": "61086b14483b6cc03fae0509fd6eeed9b70b3b02a91971d2937a66d2148726ae",
+      "local_result_sha256": "61086b14483b6cc03fae0509fd6eeed9b70b3b02a91971d2937a66d2148726ae",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "source_url": "https://elevenlabs.io/",
+      "captured_at": "2026-09-25T02:38:41.527311Z",
+      "source_selection": null,
+      "raw_file": "data/raw/elevenlabs.json",
+      "raw_sha256": "2c36036a007d0292f011956b43223bfed06553ef89533d38282640da7a29b1bd",
+      "remote_result_sha256": "dcafe6ecc62ca2087bb7153b7d97c07fcc3530db31e9246044dc05a8c5457121",
+      "local_result_sha256": "dcafe6ecc62ca2087bb7153b7d97c07fcc3530db31e9246044dc05a8c5457121",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "anthropic",
+      "source_url": "https://www.anthropic.com/",
+      "captured_at": "2026-09-15T16:01:07.284282Z",
+      "source_selection": null,
+      "raw_file": "data/raw/anthropic.json",
+      "raw_sha256": "1a36eee04cfa63b0d3309a80441e97b9c3403138728ac1959def0d0b021b7f44",
+      "remote_result_sha256": "1e8b88894ef1a9ccc233039bb09b33cda9d922296882914c2314d5a461bcfec2",
+      "local_result_sha256": "1e8b88894ef1a9ccc233039bb09b33cda9d922296882914c2314d5a461bcfec2",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "nothing",
+      "source_url": "https://nothing.tech/",
+      "captured_at": "2026-09-19T06:36:19.660967Z",
+      "source_selection": null,
+      "raw_file": "data/raw/nothing.json",
+      "raw_sha256": "579cb0459a9ae3515527909ad4021dd67dc9cc352054115c887f8dbe0631896b",
+      "remote_result_sha256": "28a00e8f4ac217a0a0a5f9fc6563effe41e3cf9d000c506d9fd69fd0b28c6837",
+      "local_result_sha256": "28a00e8f4ac217a0a0a5f9fc6563effe41e3cf9d000c506d9fd69fd0b28c6837",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "midjourney",
+      "source_url": "https://www.midjourney.com/",
+      "captured_at": "2026-10-14T05:05:44.432260Z",
+      "source_selection": null,
+      "raw_file": "data/raw/midjourney.json",
+      "raw_sha256": "0434ff3dc36585dc5b08faa1a8d7e39e0a5f7002098d891a469fc7234855efce",
+      "remote_result_sha256": "0168ad0f63504aa07a2327d208ec176756dda306baa9d992911b49512500d1a1",
+      "local_result_sha256": "0168ad0f63504aa07a2327d208ec176756dda306baa9d992911b49512500d1a1",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "stripe",
+      "source_url": "https://stripe.com/",
+      "captured_at": "2026-09-18T13:26:14.774070Z",
+      "source_selection": null,
+      "raw_file": "data/raw/stripe.json",
+      "raw_sha256": "b3839a77bcb15daacb028961de5e1fc7e1cfd523e2acd15c88980fd0e8342778",
+      "remote_result_sha256": "06bed89890ab9c5ef9b0a9437e4ec863b61b6906c46faa2fae549eb6fcf6b5f2",
+      "local_result_sha256": "06bed89890ab9c5ef9b0a9437e4ec863b61b6906c46faa2fae549eb6fcf6b5f2",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "cursor",
+      "source_url": "https://cursor.com/",
+      "captured_at": "2026-09-18T05:31:56.956697Z",
+      "source_selection": null,
+      "raw_file": "data/raw/cursor.json",
+      "raw_sha256": "cd5608f1a286fc477a1cb8fc51ad00219318d0a2f9d9bb2f5eabb726f513dc99",
+      "remote_result_sha256": "78c12133ec72cba6ae4922b3d9852b0ab7dd8f727c6f95eed4d5dc17952f57b5",
+      "local_result_sha256": "78c12133ec72cba6ae4922b3d9852b0ab7dd8f727c6f95eed4d5dc17952f57b5",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "sandbar",
+      "source_url": "https://sandbar.com/",
+      "captured_at": "2026-10-14T08:53:39.274748Z",
+      "source_selection": null,
+      "raw_file": "data/raw/sandbar.json",
+      "raw_sha256": "e2191be5ff96e6a28dc60b3314888776d9924b53e5c65da160e42fc25a2455b3",
+      "remote_result_sha256": "5d7980a571948918e15bfa4ce42f0c39b3ea6a251f76cbded4bae5f1854a7865",
+      "local_result_sha256": "5d7980a571948918e15bfa4ce42f0c39b3ea6a251f76cbded4bae5f1854a7865",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "mercury",
+      "source_url": "https://mercury.com/",
+      "captured_at": "2026-10-06T07:33:29.968243Z",
+      "source_selection": null,
+      "raw_file": "data/raw/mercury.json",
+      "raw_sha256": "a887c508d9b868818a79eb683a8527238bb5c477c9ecc59c8024c782f6186d73",
+      "remote_result_sha256": "2f19b0c7d94e3a091bb7b6ccc87509fe9f539111f4d7fcc4c1227e0c88e2bf2e",
+      "local_result_sha256": "2f19b0c7d94e3a091bb7b6ccc87509fe9f539111f4d7fcc4c1227e0c88e2bf2e",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "supabase",
+      "source_url": "https://supabase.com/",
+      "captured_at": "2026-10-14T05:07:03.498576Z",
+      "source_selection": null,
+      "raw_file": "data/raw/supabase.json",
+      "raw_sha256": "2d33e7909a26cc32fb6974fcf982980e750ceb9f3d75a8d8a6e52b9ba9c36dbf",
+      "remote_result_sha256": "8936ea311186b53842326b902b0d04274aa4a86ca4fddb0ef82ef31eb5e14704",
+      "local_result_sha256": "8936ea311186b53842326b902b0d04274aa4a86ca4fddb0ef82ef31eb5e14704",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "1x",
+      "source_url": "https://www.1x.tech/",
+      "captured_at": "2026-09-15T22:09:10.226409Z",
+      "source_selection": null,
+      "raw_file": "data/raw/1x.json",
+      "raw_sha256": "0a9bafee47792702eb585ccbd0ebdd4acc9423a1fb51b004f2117d2977a5aa1f",
+      "remote_result_sha256": "2ac56c0ef6d046098f7d191aa1ade9756e76a6c6ab9f3b6d0fb64120b23ed34b",
+      "local_result_sha256": "2ac56c0ef6d046098f7d191aa1ade9756e76a6c6ab9f3b6d0fb64120b23ed34b",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "openai",
+      "source_url": "https://openai.com/",
+      "captured_at": "2026-10-14T05:11:51.490971Z",
+      "source_selection": null,
+      "raw_file": "data/raw/openai.json",
+      "raw_sha256": "ddc0dc26152abd38d6abd50537aaf592a2731bb8a92ddcd17262c7b78792ea60",
+      "remote_result_sha256": "4b4b890e9cd6bf088795ab2004c47396195657f212c80c0c282bbb313089b213",
+      "local_result_sha256": "4b4b890e9cd6bf088795ab2004c47396195657f212c80c0c282bbb313089b213",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "ghost",
+      "source_url": "https://ghost.ai/",
+      "captured_at": "2026-10-14T08:53:53.351064Z",
+      "source_selection": null,
+      "raw_file": "data/raw/ghost.json",
+      "raw_sha256": "78a1b32d3c718f439e1f30981c0a42df71b3c3ab2ed51fe166638f0a81d734b4",
+      "remote_result_sha256": "4609894f40c91f9f151266d30cca8e014ef0fdee611e0b0969814b83ed12f9d4",
+      "local_result_sha256": "4609894f40c91f9f151266d30cca8e014ef0fdee611e0b0969814b83ed12f9d4",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "spacex",
+      "source_url": "https://www.spacex.com/",
+      "captured_at": "2026-07-23T01:41:07.004114Z",
+      "source_selection": null,
+      "raw_file": "data/raw/spacex.json",
+      "raw_sha256": "bf2f1c5b0548bd95b06c0e44e41e24bef3758e964a553d2aea89d7f30a8f7b72",
+      "remote_result_sha256": "a80ed1564288992457bb29898f6e3470b4d86cae346ca905ac7733b0707a606a",
+      "local_result_sha256": "a80ed1564288992457bb29898f6e3470b4d86cae346ca905ac7733b0707a606a",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "krea",
+      "source_url": "https://www.krea.ai/",
+      "captured_at": "2026-10-06T07:31:35.822728Z",
+      "source_selection": null,
+      "raw_file": "data/raw/krea.json",
+      "raw_sha256": "5cf5cb45bc892d6c4917a1c2a7aa3dff72fbbbddebf134e2464ced1770de47ab",
+      "remote_result_sha256": "c6f3399d838314358e5b7e2ecf50d693d08e973600c2a322cf3804f1be46a21e",
+      "local_result_sha256": "c6f3399d838314358e5b7e2ecf50d693d08e973600c2a322cf3804f1be46a21e",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "natural",
+      "source_url": "https://www.natural.com/",
+      "captured_at": "2026-09-16T05:13:16.972528Z",
+      "source_selection": null,
+      "raw_file": "data/raw/natural.json",
+      "raw_sha256": "84cf4a324c1f894fe92ac649b3bd96f7b5982bde17e0742523ca581bb2e42529",
+      "remote_result_sha256": "67deebd378a4f6c41567a11c782d12f003fc8f0f2f0be03a98489c6f4ffedb81",
+      "local_result_sha256": "67deebd378a4f6c41567a11c782d12f003fc8f0f2f0be03a98489c6f4ffedb81",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "superwhisper",
+      "source_url": "https://superwhisper.com/",
+      "captured_at": "2026-08-31T02:39:50.943536Z",
+      "source_selection": null,
+      "raw_file": "data/raw/superwhisper.json",
+      "raw_sha256": "758ea6d174e8cea2da30b9b7b17f9e177b91f7e18f82683c2d4c0b62c9255394",
+      "remote_result_sha256": "2ca9b5f3a0f347b709f7a6a5312a10077ecd7b08a63dde0dde076938eb4b37f5",
+      "local_result_sha256": "2ca9b5f3a0f347b709f7a6a5312a10077ecd7b08a63dde0dde076938eb4b37f5",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "perplexity",
+      "source_url": "https://perplexity.ai/",
+      "captured_at": "2026-10-14T08:54:30.860526Z",
+      "source_selection": null,
+      "raw_file": "data/raw/perplexity.json",
+      "raw_sha256": "a7c9de4aa87f54cd67b38152fef63196d889d98b9c5e11e7a4ac1dca99dbda22",
+      "remote_result_sha256": "05afc431566916482b95fa2b2c8b7d5eaac42a7874f2e9318bb759a61b1c3cb5",
+      "local_result_sha256": "05afc431566916482b95fa2b2c8b7d5eaac42a7874f2e9318bb759a61b1c3cb5",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "ramp",
+      "source_url": "https://ramp.com/",
+      "captured_at": "2026-09-25T08:15:55.953997Z",
+      "source_selection": null,
+      "raw_file": "data/raw/ramp.json",
+      "raw_sha256": "029038b777ddb8e3440c61eedb5716ef76da0bb538959c6327bd356f367c6f06",
+      "remote_result_sha256": "838cfa225aeabf7750c0bce77d7a0b48ace0f58dce7e0ed7070ac2912ef1d29a",
+      "local_result_sha256": "838cfa225aeabf7750c0bce77d7a0b48ace0f58dce7e0ed7070ac2912ef1d29a",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "airbnb",
+      "source_url": "https://www.airbnb.com/",
+      "captured_at": "2026-10-08T15:15:43.471119Z",
+      "source_selection": null,
+      "raw_file": "data/raw/airbnb.json",
+      "raw_sha256": "cd8da87471734c954c4123266e92517fc6b5a5599309f2b67e1768460af6345b",
+      "remote_result_sha256": "764dbf3129af8a2024fa0f4daf67efbc7d2a81953b67427ecb16adb6a8e5b120",
+      "local_result_sha256": "764dbf3129af8a2024fa0f4daf67efbc7d2a81953b67427ecb16adb6a8e5b120",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "paper",
+      "source_url": "https://paper.design/",
+      "captured_at": "2026-10-14T08:54:59.527766Z",
+      "source_selection": null,
+      "raw_file": "data/raw/paper.json",
+      "raw_sha256": "6806c9cd7321add0e48b4424c823a7727548c295e95d69acba8a0864adeec149",
+      "remote_result_sha256": "155ea49a1f20508b8159aae42c73d13de623c509ca04ea4cc2d800bb73a2b58e",
+      "local_result_sha256": "155ea49a1f20508b8159aae42c73d13de623c509ca04ea4cc2d800bb73a2b58e",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "vercel",
+      "source_url": "https://vercel.com/",
+      "captured_at": "2026-09-15T22:43:23.540328Z",
+      "source_selection": null,
+      "raw_file": "data/raw/vercel.json",
+      "raw_sha256": "71e1c02733bd72a48d2c471dd9ba8a4e9703405bee4f70232aeffa8960327860",
+      "remote_result_sha256": "e2a337c20f076784a67af4444f8ab756ac584d230cb3fedeb1447648fff8737a",
+      "local_result_sha256": "e2a337c20f076784a67af4444f8ab756ac584d230cb3fedeb1447648fff8737a",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "twitter",
+      "source_url": "https://x.com/",
+      "captured_at": "2026-10-14T08:54:30.833239Z",
+      "source_selection": null,
+      "raw_file": "data/raw/twitter.json",
+      "raw_sha256": "41ffd4c4a49122effca51d17e2d912fe7963dbd4f65a19870f81e5da0ad6ae29",
+      "remote_result_sha256": "3d75c280764d80e8506ee91b2788738056b62a4a0b4eeea493695b7510e64d7a",
+      "local_result_sha256": "3d75c280764d80e8506ee91b2788738056b62a4a0b4eeea493695b7510e64d7a",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "spotify",
+      "source_url": "https://www.spotify.com/",
+      "captured_at": "2026-10-08T15:15:36.464067Z",
+      "source_selection": null,
+      "raw_file": "data/raw/spotify.json",
+      "raw_sha256": "9e3204bd6158adeacebc5191a6c41c986f378caab820c30e4cd22620554c606a",
+      "remote_result_sha256": "c06902484558163d153a5e825b1a9d426b9b09a7854e76ce23d1cabe8194d234",
+      "local_result_sha256": "c06902484558163d153a5e825b1a9d426b9b09a7854e76ce23d1cabe8194d234",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "pangram",
+      "source_url": "https://www.pangram.com/",
+      "captured_at": "2026-09-23T23:13:42.526672Z",
+      "source_selection": null,
+      "raw_file": "data/raw/pangram.json",
+      "raw_sha256": "229a006ca81df3a0ba3139d170d5e27a441f12b1229c261fb00d1a43777d1737",
+      "remote_result_sha256": "d29a932079e58031047cc06391cbf925755d2a6e096ce64284bf0eb3bde973f6",
+      "local_result_sha256": "d29a932079e58031047cc06391cbf925755d2a6e096ce64284bf0eb3bde973f6",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "wander",
+      "source_url": "https://www.wander.com/",
+      "captured_at": "2026-10-14T08:56:06.649511Z",
+      "source_selection": null,
+      "raw_file": "data/raw/wander.json",
+      "raw_sha256": "f28b881ffad81fcd1ae83639273f622f2367758d3ef194bbd910069646cc8b95",
+      "remote_result_sha256": "a584c6208521ad25982a0142d5fa82bafc18d800ab464046c51a5370ad3cc694",
+      "local_result_sha256": "a584c6208521ad25982a0142d5fa82bafc18d800ab464046c51a5370ad3cc694",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "mts",
+      "source_url": "https://www.mts.now/",
+      "captured_at": "2026-10-14T08:56:35.778602Z",
+      "source_selection": null,
+      "raw_file": "data/raw/mts.json",
+      "raw_sha256": "d23ebffbbb70792925ff7f4b225ddc7acba624a3b15f9678902291bbe2ef07bf",
+      "remote_result_sha256": "5f4abbda82d8399d7d41ad2807eb79bcbf0f503c0b4340923d3fc17d85b6921f",
+      "local_result_sha256": "5f4abbda82d8399d7d41ad2807eb79bcbf0f503c0b4340923d3fc17d85b6921f",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "core-automation",
+      "source_url": "https://www.coreauto.com/",
+      "captured_at": "2026-10-14T08:55:43.902911Z",
+      "source_selection": null,
+      "raw_file": "data/raw/core-automation.json",
+      "raw_sha256": "536b901b47d57446ad04da60533b7811a536c31c19b0cdfc44b1b2f7964b911b",
+      "remote_result_sha256": "ee8d159dfebaf6a6d9d171ba28d383545280024f3cbe58de28d847d0efec78d0",
+      "local_result_sha256": "ee8d159dfebaf6a6d9d171ba28d383545280024f3cbe58de28d847d0efec78d0",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "nvidia",
+      "source_url": "https://www.nvidia.com/",
+      "captured_at": "2026-10-14T05:06:35.062442Z",
+      "source_selection": null,
+      "raw_file": "data/raw/nvidia.json",
+      "raw_sha256": "ba4fbea1b7ba440aaceb3c65aea356238ebfa58b692f8c7ca93373c2f3e2f331",
+      "remote_result_sha256": "4bd7fa18cb02e8bc7c307caf9474eaf80678fe10af0b764652e80df7b8ef9e44",
+      "local_result_sha256": "4bd7fa18cb02e8bc7c307caf9474eaf80678fe10af0b764652e80df7b8ef9e44",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "framer",
+      "source_url": "https://www.framer.com/",
+      "captured_at": "2026-08-07T00:18:49.934442Z",
+      "source_selection": null,
+      "raw_file": "data/raw/framer.json",
+      "raw_sha256": "879840f38446e5232aab5da7eb79921ca527147b44b08b321dde2d231a71f178",
+      "remote_result_sha256": "f2b0845b03cd05c80f0eefa574e36343141539e27179428337f5c9c95724b3d3",
+      "local_result_sha256": "f2b0845b03cd05c80f0eefa574e36343141539e27179428337f5c9c95724b3d3",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "pinterest",
+      "source_url": "https://www.pinterest.com/",
+      "captured_at": "2026-10-14T05:06:49.351030Z",
+      "source_selection": null,
+      "raw_file": "data/raw/pinterest.json",
+      "raw_sha256": "95951870e0ef81e84f8fc977c0d6230340a67058f76bccf1ad865bfd5721a430",
+      "remote_result_sha256": "58b740ca4ac020c9183ab7217c7ba538753aff498454f9e27c049cd39c7ee2d2",
+      "local_result_sha256": "58b740ca4ac020c9183ab7217c7ba538753aff498454f9e27c049cd39c7ee2d2",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "luma-ai",
+      "source_url": "https://lumalabs.ai/",
+      "captured_at": "2026-09-15T20:11:13.034995Z",
+      "source_selection": null,
+      "raw_file": "data/raw/luma-ai.json",
+      "raw_sha256": "0b7bdb0ff05edf9d62d585dc068d5ee66d6f1d7e51a14aae9adbc97761e54178",
+      "remote_result_sha256": "21cee453a924212dd36b288710f3748391e02f613910872f33552ce056dcb679",
+      "local_result_sha256": "21cee453a924212dd36b288710f3748391e02f613910872f33552ce056dcb679",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    },
+    {
+      "id": "photon",
+      "source_url": "https://photon.codes/",
+      "captured_at": "2026-10-14T08:56:53.304387Z",
+      "source_selection": null,
+      "raw_file": "data/raw/photon.json",
+      "raw_sha256": "91ea017a2ce0dd7d315bba4c62c980c83cfc804ce785a6cdd42968862ac2247d",
+      "remote_result_sha256": "a2f61c91235dc8e7554c6fb2d00b222b5e2d10823774eb213e67c9f20d98527d",
+      "local_result_sha256": "a2f61c91235dc8e7554c6fb2d00b222b5e2d10823774eb213e67c9f20d98527d",
+      "full_result_matches": true,
+      "provenance_matches": true,
+      "section_inventory_matches": true,
+      "section_matches": {
+        "profile": true,
+        "layout": true,
+        "colors": true,
+        "typography": true,
+        "surfaces": true,
+        "elevation": true,
+        "interactions": true,
+        "actions": true,
+        "navigation": true,
+        "data_display": true,
+        "structure": true,
+        "icons": true,
+        "assets": true,
+        "brand_assets": true,
+        "sections": true
+      }
+    }
+  ],
+  "artifact_checks": [
+    {
+      "id": "apple",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "359020"
+    },
+    {
+      "id": "apple",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "734135"
+    },
+    {
+      "id": "apple",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "63848"
+    },
+    {
+      "id": "apple",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "505614"
+    },
+    {
+      "id": "apple",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "705504"
+    },
+    {
+      "id": "notion",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "213332"
+    },
+    {
+      "id": "notion",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "1487192"
+    },
+    {
+      "id": "notion",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "102385"
+    },
+    {
+      "id": "notion",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "377820"
+    },
+    {
+      "id": "notion",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/667e9883-d154-4609-a8ec-d61d96976f0b/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "749632"
+    },
+    {
+      "id": "linear",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1041035"
+    },
+    {
+      "id": "linear",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "209757"
+    },
+    {
+      "id": "linear",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "84039"
+    },
+    {
+      "id": "linear",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "200850"
+    },
+    {
+      "id": "linear",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ceb7729d-7a56-40c5-a7de-47830e3bb313/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "730045"
+    },
+    {
+      "id": "a24",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "46511"
+    },
+    {
+      "id": "a24",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "311200"
+    },
+    {
+      "id": "a24",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "146542"
+    },
+    {
+      "id": "a24",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "489348"
+    },
+    {
+      "id": "a24",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ad0dbc01-56fa-4e4c-b30f-9b3ea67d4ad5/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "552656"
+    },
+    {
+      "id": "teenage-engineering",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "285152"
+    },
+    {
+      "id": "teenage-engineering",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "154134"
+    },
+    {
+      "id": "teenage-engineering",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "185364"
+    },
+    {
+      "id": "teenage-engineering",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "241006"
+    },
+    {
+      "id": "teenage-engineering",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/8b79f354-0045-40b7-aeff-a9c78d32e74d/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "684408"
+    },
+    {
+      "id": "runway",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1189717"
+    },
+    {
+      "id": "runway",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "183553"
+    },
+    {
+      "id": "runway",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "98369"
+    },
+    {
+      "id": "runway",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "584666"
+    },
+    {
+      "id": "runway",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/463b89fd-9479-4625-af2e-cd4ba9e5f0e4/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "692897"
+    },
+    {
+      "id": "figma",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1692394"
+    },
+    {
+      "id": "figma",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "137286"
+    },
+    {
+      "id": "figma",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "64142"
+    },
+    {
+      "id": "figma",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "604058"
+    },
+    {
+      "id": "figma",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e3f2bd48-6b65-4de8-ba1f-43aaece0cbfa/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "698619"
+    },
+    {
+      "id": "fal",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "371086"
+    },
+    {
+      "id": "fal",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "598467"
+    },
+    {
+      "id": "fal",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "154192"
+    },
+    {
+      "id": "fal",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "678085"
+    },
+    {
+      "id": "fal",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/0e0da5e3-97e2-4d41-928d-c859a103792b/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "697042"
+    },
+    {
+      "id": "elevenlabs",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1140461"
+    },
+    {
+      "id": "elevenlabs",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "599780"
+    },
+    {
+      "id": "elevenlabs",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "84115"
+    },
+    {
+      "id": "elevenlabs",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "441173"
+    },
+    {
+      "id": "elevenlabs",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/87515297-c818-4f66-8784-63476d152162/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "719974"
+    },
+    {
+      "id": "anthropic",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "195147"
+    },
+    {
+      "id": "anthropic",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "322631"
+    },
+    {
+      "id": "anthropic",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "98947"
+    },
+    {
+      "id": "anthropic",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "333392"
+    },
+    {
+      "id": "anthropic",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "703754"
+    },
+    {
+      "id": "nothing",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "287577"
+    },
+    {
+      "id": "nothing",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "204597"
+    },
+    {
+      "id": "nothing",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "79328"
+    },
+    {
+      "id": "nothing",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "461459"
+    },
+    {
+      "id": "nothing",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/949be31a-d969-4088-8cc0-fe8db4aec8f5/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "385770"
+    },
+    {
+      "id": "midjourney",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "23329"
+    },
+    {
+      "id": "midjourney",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "1179"
+    },
+    {
+      "id": "midjourney",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "603315"
+    },
+    {
+      "id": "midjourney",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e609d846-14bf-4f3c-bb89-720f76d4a452/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "603315"
+    },
+    {
+      "id": "stripe",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "751029"
+    },
+    {
+      "id": "stripe",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "495139"
+    },
+    {
+      "id": "stripe",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "132252"
+    },
+    {
+      "id": "stripe",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "543530"
+    },
+    {
+      "id": "stripe",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d425340d-9698-4f5e-8678-a2c0d2adbe45/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "686954"
+    },
+    {
+      "id": "cursor",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "451779"
+    },
+    {
+      "id": "cursor",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "510529"
+    },
+    {
+      "id": "cursor",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "116645"
+    },
+    {
+      "id": "cursor",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "476321"
+    },
+    {
+      "id": "cursor",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4d726dca-839b-4c79-9052-5f0ebcaeb961/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "742576"
+    },
+    {
+      "id": "sandbar",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "157822"
+    },
+    {
+      "id": "sandbar",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "263819"
+    },
+    {
+      "id": "sandbar",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "50168"
+    },
+    {
+      "id": "sandbar",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "214650"
+    },
+    {
+      "id": "sandbar",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "451782"
+    },
+    {
+      "id": "mercury",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "881265"
+    },
+    {
+      "id": "mercury",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "334962"
+    },
+    {
+      "id": "mercury",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "157854"
+    },
+    {
+      "id": "mercury",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "399127"
+    },
+    {
+      "id": "mercury",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/26ad9f4a-9f50-4c9b-9c60-edbe5e20ac05/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "693738"
+    },
+    {
+      "id": "supabase",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1227613"
+    },
+    {
+      "id": "supabase",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "20605"
+    },
+    {
+      "id": "supabase",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "494139"
+    },
+    {
+      "id": "supabase",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a683eaeb-e5b4-45bd-ae19-d4c974a64e6d/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "494139"
+    },
+    {
+      "id": "1x",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "53197"
+    },
+    {
+      "id": "1x",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "133699"
+    },
+    {
+      "id": "1x",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "108534"
+    },
+    {
+      "id": "1x",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "364216"
+    },
+    {
+      "id": "1x",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/4050adb6-36c0-483f-911b-e3871da5b4bf/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "143365"
+    },
+    {
+      "id": "openai",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "487608"
+    },
+    {
+      "id": "openai",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "39245"
+    },
+    {
+      "id": "openai",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "119820"
+    },
+    {
+      "id": "openai",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "126175"
+    },
+    {
+      "id": "openai",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/15a9ad94-60de-415b-a1d2-d6de2df21ef7/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "675868"
+    },
+    {
+      "id": "ghost",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "134100"
+    },
+    {
+      "id": "ghost",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "0"
+    },
+    {
+      "id": "ghost",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "65254"
+    },
+    {
+      "id": "ghost",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/bd31b99a-7eaa-4e38-b12b-730a65965921/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "65254"
+    },
+    {
+      "id": "spacex",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "61638"
+    },
+    {
+      "id": "spacex",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "35069"
+    },
+    {
+      "id": "spacex",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "605930"
+    },
+    {
+      "id": "krea",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1323170"
+    },
+    {
+      "id": "krea",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "1155584"
+    },
+    {
+      "id": "krea",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "111971"
+    },
+    {
+      "id": "krea",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "732513"
+    },
+    {
+      "id": "krea",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/33b89e0e-5906-43d9-b45c-752729e90672/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "764290"
+    },
+    {
+      "id": "natural",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "143581"
+    },
+    {
+      "id": "natural",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "333720"
+    },
+    {
+      "id": "natural",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "32361"
+    },
+    {
+      "id": "natural",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "313360"
+    },
+    {
+      "id": "natural",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "687202"
+    },
+    {
+      "id": "superwhisper",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "885310"
+    },
+    {
+      "id": "superwhisper",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "236113"
+    },
+    {
+      "id": "superwhisper",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "55383"
+    },
+    {
+      "id": "superwhisper",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "323454"
+    },
+    {
+      "id": "superwhisper",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/84c930a5-39af-404a-b113-61c991b3ab26/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "693904"
+    },
+    {
+      "id": "perplexity",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "399218"
+    },
+    {
+      "id": "perplexity",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "680"
+    },
+    {
+      "id": "perplexity",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "77902"
+    },
+    {
+      "id": "perplexity",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cb66d703-2ffe-488b-a1c3-6ed491b2b812/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "77902"
+    },
+    {
+      "id": "ramp",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "120238"
+    },
+    {
+      "id": "ramp",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "46090"
+    },
+    {
+      "id": "ramp",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "344087"
+    },
+    {
+      "id": "ramp",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/efc2b27b-5a10-4436-82ba-4b46b4e4582f/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "344087"
+    },
+    {
+      "id": "airbnb",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1268996"
+    },
+    {
+      "id": "airbnb",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "14462"
+    },
+    {
+      "id": "airbnb",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "103676"
+    },
+    {
+      "id": "airbnb",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "141863"
+    },
+    {
+      "id": "airbnb",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/853da93c-b8e9-4fcd-82dd-775d4b2726d5/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "760486"
+    },
+    {
+      "id": "paper",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "266352"
+    },
+    {
+      "id": "paper",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "143462"
+    },
+    {
+      "id": "paper",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "101055"
+    },
+    {
+      "id": "paper",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "567447"
+    },
+    {
+      "id": "paper",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "732760"
+    },
+    {
+      "id": "vercel",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "536838"
+    },
+    {
+      "id": "vercel",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "966308"
+    },
+    {
+      "id": "vercel",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "43031"
+    },
+    {
+      "id": "vercel",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "356831"
+    },
+    {
+      "id": "vercel",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d074114a-b993-421c-9879-08ccc3759fba/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "698349"
+    },
+    {
+      "id": "twitter",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "97141"
+    },
+    {
+      "id": "twitter",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "460501"
+    },
+    {
+      "id": "twitter",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "64949"
+    },
+    {
+      "id": "twitter",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "66401"
+    },
+    {
+      "id": "twitter",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "152894"
+    },
+    {
+      "id": "spotify",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "473953"
+    },
+    {
+      "id": "spotify",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "456488"
+    },
+    {
+      "id": "spotify",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "149756"
+    },
+    {
+      "id": "spotify",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "155109"
+    },
+    {
+      "id": "spotify",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "799160"
+    },
+    {
+      "id": "pangram",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "521515"
+    },
+    {
+      "id": "pangram",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "328069"
+    },
+    {
+      "id": "pangram",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "129782"
+    },
+    {
+      "id": "pangram",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "370154"
+    },
+    {
+      "id": "pangram",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/ccad8e28-96db-4432-9037-c05a2856e9ec/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "706961"
+    },
+    {
+      "id": "wander",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1376848"
+    },
+    {
+      "id": "wander",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "412285"
+    },
+    {
+      "id": "wander",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "282648"
+    },
+    {
+      "id": "wander",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "870182"
+    },
+    {
+      "id": "wander",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/847f88bc-c7a7-446d-9029-e5838a0b52e9/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "738196"
+    },
+    {
+      "id": "mts",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "38272"
+    },
+    {
+      "id": "mts",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "0"
+    },
+    {
+      "id": "mts",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "996243"
+    },
+    {
+      "id": "mts",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/5f0ca173-fe1e-4ffa-ae6c-1bdfcb31eb1d/crawl/firecrawl-full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "996243"
+    },
+    {
+      "id": "core-automation",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "39663"
+    },
+    {
+      "id": "core-automation",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "63143"
+    },
+    {
+      "id": "core-automation",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "64193"
+    },
+    {
+      "id": "core-automation",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "336754"
+    },
+    {
+      "id": "core-automation",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cc468301-8c94-4665-880a-3d473f7f44e5/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "185946"
+    },
+    {
+      "id": "nvidia",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "932251"
+    },
+    {
+      "id": "nvidia",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "1421405"
+    },
+    {
+      "id": "nvidia",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "162438"
+    },
+    {
+      "id": "nvidia",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/9dee5881-eddb-478b-ae50-3148c8e3cc9b/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "898943"
+    },
+    {
+      "id": "framer",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1663649"
+    },
+    {
+      "id": "framer",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "510688"
+    },
+    {
+      "id": "framer",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "58877"
+    },
+    {
+      "id": "framer",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "384547"
+    },
+    {
+      "id": "framer",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/d419ca05-224a-4e20-8382-c35bb3be7ccd/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "661434"
+    },
+    {
+      "id": "pinterest",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "1384883"
+    },
+    {
+      "id": "pinterest",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "605228"
+    },
+    {
+      "id": "pinterest",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "145083"
+    },
+    {
+      "id": "pinterest",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "430282"
+    },
+    {
+      "id": "pinterest",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a48fbc59-dee9-489d-a794-66871a2bea2a/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "848319"
+    },
+    {
+      "id": "luma-ai",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "303393"
+    },
+    {
+      "id": "luma-ai",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "194826"
+    },
+    {
+      "id": "luma-ai",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "79729"
+    },
+    {
+      "id": "luma-ai",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "282123"
+    },
+    {
+      "id": "luma-ai",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/29fb264b-c70e-4f64-bab4-c15705863108/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "579640"
+    },
+    {
+      "id": "photon",
+      "artifact": "html",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/source.html",
+      "status": 200,
+      "content_type": "text/plain",
+      "content_length": "921803"
+    },
+    {
+      "id": "photon",
+      "artifact": "css",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/styles.css",
+      "status": 200,
+      "content_type": "text/css",
+      "content_length": "272602"
+    },
+    {
+      "id": "photon",
+      "artifact": "screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/viewport.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "90680"
+    },
+    {
+      "id": "photon",
+      "artifact": "full_page_screenshot",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/full.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "content_length": "567203"
+    },
+    {
+      "id": "photon",
+      "artifact": "element_layout",
+      "url": "https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/059a3ccb-7d5d-4f15-a9b0-df37f6ff6940/crawl/element-layout.json",
+      "status": 200,
+      "content_type": "application/json",
+      "content_length": "666925"
+    }
+  ]
+}

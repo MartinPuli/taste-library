@@ -12,6 +12,12 @@ Cosign rank 1 · Captured 2026-09-24T14:14:29.940321Z · Homepage
 
 Centered product title and blue calls to action sit above a large device image on black. A location notice occupies the top of the capture.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/e865eab2-a6ab-4692-bc56-56ad74f2f756/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware. Styles: cinematic, monochrome, image-led. These are editorial tags.

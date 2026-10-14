@@ -12,6 +12,12 @@ Cosign rank 31 · Captured 2026-10-08T15:15:36.464067Z · Web Player Homepage
 
 Dark surfaces frame rows of album artwork and circular artist portraits. A green premium action appears inside a wide banner.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f946e137-0569-4680-a070-965c5c1a7cf3/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: media-discovery. Styles: dark-technical, image-led, modular. These are editorial tags.

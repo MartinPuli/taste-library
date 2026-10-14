@@ -12,6 +12,12 @@ Cosign rank 10 · Captured 2026-09-15T16:01:07.284282Z · Homepage
 
 A warm neutral page pairs a bold sans-serif research headline with a serif introduction. A large illustrated feature begins below.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/2df42a4f-9800-49cd-99d2-8ad757fac523/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: editorial-research. Styles: warm-editorial. These are editorial tags.

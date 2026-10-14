@@ -12,6 +12,12 @@ Cosign rank 21 · Captured 2026-07-23T01:41:07.004114Z · Homepage
 
 A full-bleed rocket photograph carries uppercase white text near the lower left, with navigation overlaid at the top.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/styles.css) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/cddb3d15-8f86-4538-8e32-210ee9639cf0/crawl/full.jpg)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware. Styles: cinematic, dark-technical. These are editorial tags.

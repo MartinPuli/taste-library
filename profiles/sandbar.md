@@ -12,6 +12,12 @@ Cosign rank 15 · Captured 2026-10-14T08:53:39.274748Z · Homepage
 
 Close product photography fills the background while a centered cream newsletter dialog occupies the foreground.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/f405d27a-6ad1-4bd1-8485-b72346a20c36/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: hardware. Styles: warm-editorial, cinematic. These are editorial tags.

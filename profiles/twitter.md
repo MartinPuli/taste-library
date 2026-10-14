@@ -12,6 +12,12 @@ Cosign rank 30 · Captured 2026-10-14T08:54:30.833239Z · Login/Signup Page
 
 The saved X registration page pairs a large black X with stacked sign-in buttons and an email field on white.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/25722e0c-dcc9-4d37-a242-74af1bbff03f/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: authentication. Styles: monochrome. These are editorial tags.

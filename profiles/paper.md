@@ -12,6 +12,12 @@ Cosign rank 28 · Captured 2026-10-14T08:54:59.527766Z · Homepage
 
 A warm white hero uses a two-tone headline above a large editor screenshot, with a fine grid appearing along the right edge.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/a5410512-8acf-4be6-a777-dd95ee49de44/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: creative-tools. Styles: warm-editorial, modular. These are editorial tags.

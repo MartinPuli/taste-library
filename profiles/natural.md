@@ -12,6 +12,12 @@ Cosign rank 23 · Captured 2026-09-16T05:13:16.972528Z · Homepage
 
 A mostly white hero gives a short payments statement and dark call to action generous space. The captured central visual is faint.
 
+## Original captured files
+
+[HTML](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/source.html) · [CSS](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/styles.css) · [Viewport screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/viewport.jpg) · [Full-page screenshot](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/full.jpg) · [Element layout](https://sb.engine.thetaste.ai/storage/v1/object/public/artifacts/60a8e8d5-1410-490d-89b8-751940a3faa9/crawl/element-layout.json)
+
+These links open the original files hosted by TasteLabs. The full extraction preserves their metadata and any unavailable values.
+
 ## Where to use it
 
 Project types: fintech, developer-tools. Styles: warm-editorial, modular. These are editorial tags.
