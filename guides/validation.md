@@ -46,4 +46,6 @@ HTTP tests open the agent guide, compact catalog, standalone skill, and access r
 
 On October 14, 2026, all 12 Python tests and all eight Tester Army journeys passed against the local checkout and its temporary file server. The skill passed the skill-creator metadata validator. The original Wander result was confirmed byte-for-byte against its archived copy before the recovered evidence was published.
 
+The three HTTP journeys also passed against [published commit 026d80c](https://github.com/MartinPuli/taste-library/commit/026d80c10b91535c1a9e6cbfefcef1b52a90406b), using its immutable raw GitHub URLs. The checks covered public discovery and source tracing for both example briefs.
+
 Tester Army writes a Markdown report to .e2e/summary.md. Run artifacts remain local and are ignored by Git.
